@@ -37,7 +37,7 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-          cache: 'pip'
+          # cache: 'pip'  # Désactivé temporairement si requirements.txt absent
       
       # 3. Installation des dépendances
       - name: 📦 Install dependencies
