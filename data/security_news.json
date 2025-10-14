@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-10-14T15:50:11.376072+00:00",
-  "total_articles": 100,
+  "last_updated": "2025-10-14T16:49:14.706744+00:00",
+  "total_articles": 171,
   "articles": [
     {
       "id": "1cd3c58481190acf",
@@ -18,6 +18,24 @@
         "security flaw",
         "secure",
         "PoC"
+      ]
+    },
+    {
+      "id": "3798bd72dc21943f",
+      "title": "Oracles silently fixes zero-day exploit leaked by ShinyHunters",
+      "description": "Oracle has silently fixed an Oracle E-Business Suite vulnerability (CVE-2025-61884) that was actively exploited to breach servers, with a proof-of-concept exploit publicly leaked by the ShinyHunters extortion group. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/oracles-silently-fixes-zero-day-exploit-leaked-by-shinyhunters/",
+      "source": "Bleeping Computer",
+      "author": "Lawrence Abrams",
+      "published": "2025-10-14T12:38:48-04:00",
+      "niche": "security",
+      "score": 100,
+      "keywords": [
+        "vulnerability",
+        "breach",
+        "exploit",
+        "CVE-",
+        "zero-day"
       ]
     },
     {
@@ -293,10 +311,10 @@
       "niche": "security",
       "score": 63,
       "keywords": [
-        "zero-day",
-        "exploit",
         "security",
-        "patch"
+        "exploit",
+        "patch",
+        "zero-day"
       ]
     },
     {
@@ -327,10 +345,24 @@
       "niche": "security",
       "score": 61,
       "keywords": [
-        "secure",
         "RCE",
-        "security",
-        "OWASP"
+        "OWASP",
+        "secure",
+        "security"
+      ]
+    },
+    {
+      "id": "96c791b81aa7fa0b",
+      "title": "Une faille que personne ne veut réparer permet de voler vos codes 2FA",
+      "description": "Il y a des bugs qu&rsquo;on corrige en urgence. Et puis il y a GPU.zip, cette faille que TOUS les fabricants de GPU connaissent depuis mars 2023 et que personne n&rsquo;a jamais voulu fixer. Et 2 ans et demi plus tard, des chercheurs viennent de prouver qu&rsquo;elle permettait de voler nos codes 2FA sous Android en moins de 30 secondes !! Et devinez quoi ? Y&rsquo;a toujours pas de patch ! L&rsquo;histoire commence donc en septembre 2023. Des chercheurs de l&rsquo;Université du Texas, Carnegie ",
+      "url": "https://korben.info/gpu-zip-pixnapping-android-2fa-faille-non-patchee.html",
+      "source": "Korben - Sécurité (FR)",
+      "author": "Korben",
+      "published": "2025-10-14T15:37:26+02:00",
+      "niche": "security",
+      "score": 60,
+      "keywords": [
+        "patch"
       ]
     },
     {
@@ -385,6 +417,18 @@
       "keywords": [
         "security"
       ]
+    },
+    {
+      "id": "c198bfe3137c6886",
+      "title": "À cause de l'IA, vous ne pourrez bientôt plus vous fier à vos souvenirs",
+      "description": "Cette année, avec Nano Banana, ChatGPT, Sora, Seedream et j&rsquo;en passe, on est quand même passé de &ldquo;Je cherche une image sur le net&rdquo; à &ldquo;Tiens, et si je demandais à Google (ou un autre) de créer l&rsquo;image que je cherche&hellip;&rdquo;. Comme ça, on ne perd plus de temps à en regarder plein pour trouver la meilleure, et surtout on ne se pose plus la question de est-ce que c&rsquo;est une image sous copyright ? Ou une image mise en ligne sur un site Creative Commons dont l",
+      "url": "https://korben.info/google-nano-banana-generation-images-ia.html",
+      "source": "Korben - Sécurité (FR)",
+      "author": "Korben",
+      "published": "2025-10-14T15:10:28+02:00",
+      "niche": "security",
+      "score": 57,
+      "keywords": []
     },
     {
       "id": "a2b5e6ea33919185",
@@ -446,26 +490,38 @@
       "score": 55,
       "keywords": [
         "RCE",
+        "security",
         "vulnerability",
         "OWASP",
-        "cybersecurity",
-        "security"
+        "cybersecurity"
       ]
     },
     {
-      "id": "0c66694db2e4f8f4",
-      "title": "The Ongoing Fallout from a Breach at AI Chatbot Maker Salesloft",
-      "description": "The recent mass-theft of authentication tokens from Salesloft, whose AI chatbot is used by a broad swath of corporate America to convert customer interaction into Salesforce leads, has left many companies racing to invalidate the stolen credentials before hackers can exploit them. Now Google warns the breach goes far beyond access to Salesforce data, noting the hackers responsible also stole valid authentication tokens for hundreds of online services that customers can integrate with Salesloft, ",
-      "url": "https://krebsonsecurity.com/2025/09/the-ongoing-fallout-from-a-breach-at-ai-chatbot-maker-salesloft/",
-      "source": "Krebs on Security",
-      "author": "BrianKrebs",
-      "published": "2025-09-01T21:55:04+00:00",
+      "id": "b4f23f39afdf26fa",
+      "title": "Sudo - Sortir de prison et devenir root !",
+      "description": "La commande sudo que tous les linuxiens connaissent a plus de 40 ans, tout autant d&rsquo;années d&rsquo;audits de sécurité, des millions de lignes de code scrutées par des milliers de développeurs au fil des ans et surtout des dizaines de CVE critiques corrigées. Et pourtant on est jamais à l&rsquo;abri d&rsquo;une mauvaise surprise ! En effet, une fonctionnalité ajoutée récemment pour &ldquo;améliorer&rdquo; la sécurité a crée un trou béant. Baptisée CVE-2025-32463, cette une faille critique p",
+      "url": "https://korben.info/sudo-chroot-exploit.html",
+      "source": "Korben - Sécurité (FR)",
+      "author": "Korben",
+      "published": "2025-10-14T14:38:18+02:00",
       "niche": "security",
-      "score": 50,
+      "score": 52,
       "keywords": [
-        "exploit",
-        "RCE",
-        "breach"
+        "CVE-"
+      ]
+    },
+    {
+      "id": "6affc5198d07f626",
+      "title": "Microsoft ressuscite Edit, le premier amour des bidouilleurs",
+      "description": "Vous vous souvenez de ce samedi après-midi de 1995 où vous avez modifié CONFIG.SYS pour la première fois ? Les mains moites, le coeur qui bat, parce que si vous vous plantiez, Windows ne démarrait plus. L&rsquo;écran bleu (le bon vieux bleu DOS hein, pas le blue screen of death), le curseur blanc qui clignote, et cette interface minimaliste où chaque caractère comptait. MS-DOS Edit. Votre premier vrai pouvoir sur la machine !",
+      "url": "https://korben.info/microsoft-edit-retour-nostalgique-windows-11.html",
+      "source": "Korben - Sécurité (FR)",
+      "author": "Korben",
+      "published": "2025-10-13T07:38:58+02:00",
+      "niche": "security",
+      "score": 52,
+      "keywords": [
+        "RCE"
       ]
     },
     {
@@ -493,6 +549,34 @@
       "source": "Schneier on Security",
       "author": "Bruce Schneier",
       "published": "2025-10-14T11:09:54+00:00",
+      "niche": "security",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "0c66694db2e4f8f4",
+      "title": "The Ongoing Fallout from a Breach at AI Chatbot Maker Salesloft",
+      "description": "The recent mass-theft of authentication tokens from Salesloft, whose AI chatbot is used by a broad swath of corporate America to convert customer interaction into Salesforce leads, has left many companies racing to invalidate the stolen credentials before hackers can exploit them. Now Google warns the breach goes far beyond access to Salesforce data, noting the hackers responsible also stole valid authentication tokens for hundreds of online services that customers can integrate with Salesloft, ",
+      "url": "https://krebsonsecurity.com/2025/09/the-ongoing-fallout-from-a-breach-at-ai-chatbot-maker-salesloft/",
+      "source": "Krebs on Security",
+      "author": "BrianKrebs",
+      "published": "2025-09-01T21:55:04+00:00",
+      "niche": "security",
+      "score": 50,
+      "keywords": [
+        "RCE",
+        "breach",
+        "exploit"
+      ]
+    },
+    {
+      "id": "168dbb03bef90a42",
+      "title": "Upcoming Speaking Engagements",
+      "description": "This is a current list of where and when I am scheduled to speak: I and Nathan E. Sanders will be giving a book talk on Rewiring Democracy at the Harvard Kennedy School’s Ash Center in Cambridge, Massachusetts, USA, on October 22, 2025 at noon ET. I and Nathan E. Sanders will be speaking and signing books at the Cambridge Public Library in Cambridge, Massachusetts, USA, on October 22, 2025 at 6:00 PM ET. The event is sponsored by Harvard Bookstore. I and Nathan E. Sanders will give a virtual tal",
+      "url": "https://www.schneier.com/blog/archives/2025/10/upcoming-speaking-engagements-49.html",
+      "source": "Schneier on Security",
+      "author": "Bruce Schneier",
+      "published": "2025-10-14T16:01:11+00:00",
       "niche": "security",
       "score": 50,
       "keywords": []
@@ -621,10 +705,10 @@
       "niche": "security",
       "score": 43,
       "keywords": [
-        "secure",
         "RCE",
-        "security",
-        "OWASP"
+        "OWASP",
+        "secure",
+        "security"
       ]
     },
     {
@@ -639,9 +723,21 @@
       "score": 42,
       "keywords": [
         "RCE",
-        "security",
-        "OWASP"
+        "OWASP",
+        "security"
       ]
+    },
+    {
+      "id": "bcabfed4e34af37c",
+      "title": "Programmes de fidélité : la CNIL précise l’application du droit à la portabilité des données",
+      "description": "Saisie par les acteurs du secteur de la distribution sur la portabilité des données liées aux programmes de fidélité, la CNIL précise quelles informations doivent être transmises, en particulier s’agissant du code-barre et des données liées aux promotions auxquelles les clients ont eu accès.",
+      "url": "https://www.cnil.fr/fr/programmes-de-fidelite-la-cnil-precise-lapplication-du-droit-la-portabilite-des-donnees",
+      "source": "CNIL - Actualités (FR)",
+      "author": "CNIL",
+      "published": "2025-10-14T14:00:00+02:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": []
     },
     {
       "id": "c0ebb2f4230667fb",
@@ -659,6 +755,20 @@
       ]
     },
     {
+      "id": "f1f4e1902b41b3bc",
+      "title": "Shoot again : BreachForums saisi, Scattered Spider poursuit l’extorsion",
+      "description": "BreachForums saisi. Scattered Spider maintient la pression. ZATAZ éclaire l’angle intégrations SaaS et les opérations françaises liées au forum....",
+      "url": "https://www.zataz.com/shoot-again-breachforums-saisi-scattered-spider-poursuit-lextorsion/",
+      "source": "Zataz (FR)",
+      "author": "Damien Bancal",
+      "published": "2025-10-12T21:36:32+00:00",
+      "niche": "security",
+      "score": 40,
+      "keywords": [
+        "breach"
+      ]
+    },
+    {
       "id": "4cd5cfbcdc11c5ae",
       "title": "Google Patches Chrome’s Fifth Zero-Day of the Year",
       "description": "An insufficient validation input flaw, one of 11 patched in an update this week, could allow for arbitrary code execution and is under active attack.",
@@ -669,9 +779,9 @@
       "niche": "security",
       "score": 40,
       "keywords": [
-        "zero-day",
         "attack",
-        "patch"
+        "patch",
+        "zero-day"
       ]
     },
     {
@@ -700,11 +810,23 @@
       "niche": "security",
       "score": 37,
       "keywords": [
-        "threat",
         "security",
-        "web application security",
-        "OWASP"
+        "OWASP",
+        "threat",
+        "web application security"
       ]
+    },
+    {
+      "id": "7030d4aa9a7eb50a",
+      "title": "Vous perdez parfois vos lunettes ? Cet étui à lunettes connecté est complètement indispensable",
+      "description": "– Article invité, rédigé par Vincent Lautier, contient des liens affiliés Amazon – Salut à tous chers amis geeks distraits ! Aujourd&rsquo;hui, on va parler d&rsquo;un objet qui a résolu un de mes plus gros problèmes du quotidien : la perte de mes lunettes. Je n’en porte que depuis quelques mois, et vu le prix que j’y ai mis, et la qualité de déplacements que je fais chaque semaines, les perdre était une angoisse constante. Mais genre vraiment.",
+      "url": "https://korben.info/vous-perdez-parfois-vos-lunettes-cet-etui-a-lunettes-connecte-est-completement-indispensable.html",
+      "source": "Korben - Sécurité (FR)",
+      "author": "Korben",
+      "published": "2025-10-14T11:58:27+02:00",
+      "niche": "security",
+      "score": 37,
+      "keywords": []
     },
     {
       "id": "f861f84462cf86cb",
@@ -720,20 +842,6 @@
         "RCE",
         "SQL injection",
         "injection"
-      ]
-    },
-    {
-      "id": "f1f4e1902b41b3bc",
-      "title": "Shoot again : BreachForums saisi, Scattered Spider poursuit l’extorsion",
-      "description": "BreachForums saisi. Scattered Spider maintient la pression. ZATAZ éclaire l’angle intégrations SaaS et les opérations françaises liées au forum....",
-      "url": "https://www.zataz.com/shoot-again-breachforums-saisi-scattered-spider-poursuit-lextorsion/",
-      "source": "Zataz",
-      "author": "Damien Bancal",
-      "published": "2025-10-12T21:36:32+00:00",
-      "niche": "security",
-      "score": 34,
-      "keywords": [
-        "breach"
       ]
     },
     {
@@ -801,24 +909,9 @@
       "niche": "security",
       "score": 31,
       "keywords": [
-        "secure",
         "security",
-        "OWASP"
-      ]
-    },
-    {
-      "id": "969201f90dff0a0f",
-      "title": "Bulletproof Host Stark Industries Evades EU Sanctions",
-      "description": "In May 2025, the European Union levied financial sanctions on the owners of Stark Industries Solutions Ltd., a bulletproof hosting provider that materialized two weeks before Russia invaded Ukraine and quickly became a top source of Kremlin-linked cyberattacks and disinformation campaigns. But new data shows those sanctions have done little to stop Stark from simply rebranding and transferring their assets to other corporate entities controlled by its original hosting providers.",
-      "url": "https://krebsonsecurity.com/2025/09/bulletproof-host-stark-industries-evades-eu-sanctions/",
-      "source": "Krebs on Security",
-      "author": "BrianKrebs",
-      "published": "2025-09-11T17:40:22+00:00",
-      "niche": "security",
-      "score": 30,
-      "keywords": [
-        "RCE",
-        "attack"
+        "OWASP",
+        "secure"
       ]
     },
     {
@@ -835,6 +928,21 @@
         "threat",
         "attack",
         "ransomware"
+      ]
+    },
+    {
+      "id": "969201f90dff0a0f",
+      "title": "Bulletproof Host Stark Industries Evades EU Sanctions",
+      "description": "In May 2025, the European Union levied financial sanctions on the owners of Stark Industries Solutions Ltd., a bulletproof hosting provider that materialized two weeks before Russia invaded Ukraine and quickly became a top source of Kremlin-linked cyberattacks and disinformation campaigns. But new data shows those sanctions have done little to stop Stark from simply rebranding and transferring their assets to other corporate entities controlled by its original hosting providers.",
+      "url": "https://krebsonsecurity.com/2025/09/bulletproof-host-stark-industries-evades-eu-sanctions/",
+      "source": "Krebs on Security",
+      "author": "BrianKrebs",
+      "published": "2025-09-11T17:40:22+00:00",
+      "niche": "security",
+      "score": 30,
+      "keywords": [
+        "RCE",
+        "attack"
       ]
     },
     {
@@ -925,23 +1033,6 @@
       "keywords": []
     },
     {
-      "id": "e67b364352aac5df",
-      "title": "iPhone Users Urged to Update to Patch 2 Zero-Days",
-      "description": "Separate fixes to macOS and iOS patch respective flaws in the kernel and WebKit that can allow threat actors to take over devices and are under attack.",
-      "url": "https://threatpost.com/iphone-users-urged-to-update-to-patch-2-zero-days-under-attack/180448/",
-      "source": "Threatpost",
-      "author": "Elizabeth Montalbano",
-      "published": "2022-08-19T15:25:56+00:00",
-      "niche": "security",
-      "score": 28,
-      "keywords": [
-        "threat",
-        "zero-day",
-        "attack",
-        "patch"
-      ]
-    },
-    {
       "id": "0abb985cb909b3d1",
       "title": "Autonomous AI Hacking and the Future of Cybersecurity",
       "description": "AI agents are now hacking computers. They&#8217;re getting better at all phases of cyberattacks, faster than most of us expected. They can chain together different aspects of a cyber operation, and hack autonomously, at computer speeds and scale. This is going to change everything. Over the summer, hackers proved the concept, industry institutionalized it, and criminals operationalized it. In June, AI company XBOW took the top spot on HackerOne&#8217;s US leaderboard after submitting over 1,000 ",
@@ -955,6 +1046,37 @@
         "attack",
         "cybersecurity",
         "security"
+      ]
+    },
+    {
+      "id": "e67b364352aac5df",
+      "title": "iPhone Users Urged to Update to Patch 2 Zero-Days",
+      "description": "Separate fixes to macOS and iOS patch respective flaws in the kernel and WebKit that can allow threat actors to take over devices and are under attack.",
+      "url": "https://threatpost.com/iphone-users-urged-to-update-to-patch-2-zero-days-under-attack/180448/",
+      "source": "Threatpost",
+      "author": "Elizabeth Montalbano",
+      "published": "2022-08-19T15:25:56+00:00",
+      "niche": "security",
+      "score": 28,
+      "keywords": [
+        "attack",
+        "patch",
+        "threat",
+        "zero-day"
+      ]
+    },
+    {
+      "id": "e2b6f105446ea348",
+      "title": "Rencontres Informatique & Libertés : voir la rediffusion de l'évènement",
+      "description": "La CNIL a organisé la première édition publique de ses Rencontres Informatique &amp; Libertés le mardi 30 septembre 2025. Destinée aux étudiants, avocats, DPO et universitaires, cette matinée a été l'occasion d’échanger avec la CNIL sur les liens entre la protection des données et d’autres branches du droit.",
+      "url": "https://www.cnil.fr/fr/evenement-rencontres-informatique-libertes-2025",
+      "source": "CNIL - Actualités (FR)",
+      "author": "CNIL",
+      "published": "2025-10-13T14:00:00+02:00",
+      "niche": "security",
+      "score": 28,
+      "keywords": [
+        "protection"
       ]
     },
     {
@@ -1026,6 +1148,66 @@
       "keywords": [
         "breach"
       ]
+    },
+    {
+      "id": "d8334ccf025302e9",
+      "title": "Le premier hack musical de l'histoire est de retour et c'est magnifique !",
+      "description": "Le youtubeur Joe Lynch vient de faire jouer &ldquo; Olson &rdquo; de Boards of Canada sur un ordinateur de 1959. Pas un émulateur, hein mais le vrai PDP-1, celui qui est au Computer History Museum. 603 bytes de musique sur une bande perforée, et quatre ampoules sur le panneau de contrôle transformées en haut-parleurs&hellip; Le son est brut, lo-fi, presque primitif et je trouve ça magnifique. Mais attendez, ce PDP-1 c&rsquo;est pas juste un vieux tas de circuits et de câbles&hellip; C&rsquo;est ",
+      "url": "https://korben.info/pdp1-boards-of-canada-boucle-infinie-hackers.html",
+      "source": "Korben - Sécurité (FR)",
+      "author": "Korben",
+      "published": "2025-10-13T15:07:04+02:00",
+      "niche": "security",
+      "score": 27,
+      "keywords": []
+    },
+    {
+      "id": "fab4ea123fe10191",
+      "title": "Quand avoir mal est une question de priorité...",
+      "description": "Est-ce que vous êtes déjà demandé pourquoi les soldats blessés au combat ne réalisent pas immédiatement qu&rsquo;ils pissent le sang ? Ou pourquoi votre mal de dos disparaît mystérieusement quand vous êtes en retard pour un truc important ? Hé bien des chercheurs de l&rsquo; Université de Pennsylvanie viennent de trouver l&rsquo;interrupteur neuronal responsable et c&rsquo;est assez dingue comme découverte, vous allez voir ! L&rsquo;équipe de J. Nicholas Betley a identifié un groupe de neurones ",
+      "url": "https://korben.info/neurones-y1r-douleur-chronique-cerveau.html",
+      "source": "Korben - Sécurité (FR)",
+      "author": "Korben",
+      "published": "2025-10-13T11:21:49+02:00",
+      "niche": "security",
+      "score": 27,
+      "keywords": []
+    },
+    {
+      "id": "a648cd0aa8d19739",
+      "title": "Nativemind - IA 100% locale dans votre navigateur web",
+      "description": "Vous payez 20 balles par mois pour que ChatGPT vous dise &ldquo;bonjour&rdquo; ? Vous attendez 5 secondes qu&rsquo;une réponse revienne du cloud d&rsquo;Anthropic ? Vous avez l&rsquo;impression de louer votre intelligence artificielle comme vous louiez vos MP3 sur iTunes à la grande époque ? Et bien j&rsquo;ai une excellente nouvelle qui va vous plaire !! Il existe une extension de navigateur qui fait tourner de l&rsquo;IA en local, sur votre machine, sans envoyer un seul octet dans le cloud. Ça",
+      "url": "https://korben.info/nativemind-ia-locale-navigateur-ollama.html",
+      "source": "Korben - Sécurité (FR)",
+      "author": "Korben",
+      "published": "2025-10-13T10:40:57+02:00",
+      "niche": "security",
+      "score": 27,
+      "keywords": []
+    },
+    {
+      "id": "d64593c9fad1b943",
+      "title": "Linkding - Le gestionnaire de bookmarks à auto-héberger",
+      "description": "Si vous faites partie des anciens qui continuent à collectionner les liens sympa que vous trouvez sur le net, j&rsquo;sais pas comment vous les gérez, mais j&rsquo;ai peut-être un truc pour vous. Ça s&rsquo;appelle Linkding (rien à voir avec le site rempli de teubés en costard qui parlent comme des IA nulles) et c&rsquo;est un gestionnaire de bookmarks qu&rsquo;on installe chez soi ! Hé oui, les champions de l&rsquo;auto-hébergement, Linkding ne cherche pas à réinventer la roue&hellip; Il stocke",
+      "url": "https://korben.info/linkding-gestionnaire-bookmarks.html",
+      "source": "Korben - Sécurité (FR)",
+      "author": "Korben",
+      "published": "2025-10-13T09:48:39+02:00",
+      "niche": "security",
+      "score": 27,
+      "keywords": []
+    },
+    {
+      "id": "1bfa1ecf68a7b2b8",
+      "title": "pdoc - La documentation Python sans documentation",
+      "description": "Vous avez déjà passé plus de temps à configurer Sphinx qu&rsquo;à coder votre projet Python ? Bienvenue au club ! Et oui, paradoxalement, parfois documenter son code devient plus compliqué que d&rsquo;écrire le code&hellip; Vous voulez juste afficher vos docstrings joliment, mais avant ça il faut vous taper 200 pages de doc, choisir parmi 47 thèmes, configurer des dizaines d&rsquo;extensions et comprendre la syntaxe reStructuredText. Breeeef, la flemme ! Heureusement, il existe une alternative q",
+      "url": "https://korben.info/pdoc-faire-documentation-python-facile.html",
+      "source": "Korben - Sécurité (FR)",
+      "author": "Korben",
+      "published": "2025-10-13T09:27:27+02:00",
+      "niche": "security",
+      "score": 27,
+      "keywords": []
     },
     {
       "id": "2d3ddc42b5009842",
@@ -1144,7 +1326,7 @@
       "title": "[MàJ] Multiples vulnérabilités dans Cisco ASA et FTD (25 septembre 2025)",
       "description": "**[Mise à jour du 06 octobre 2025]** Le CERT-FR a connaissance de codes d'exploitation publics. **[Publication initiale]** Le 25 septembre 2025, Cisco a publié plusieurs avis de sécurité, un billet de blogue ainsi qu'un guide de détection concernant des vulnérabilités affectant le serveur VPN Web...",
       "url": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2025-ALE-013/",
-      "source": "CERT-FR",
+      "source": "CERT-FR (Officiel)",
       "author": "Inconnu",
       "published": "2025-09-25T00:00:00+00:00",
       "niche": "security",
@@ -1206,9 +1388,21 @@
       "niche": "security",
       "score": 24,
       "keywords": [
-        "SQL injection",
-        "injection"
+        "injection",
+        "SQL injection"
       ]
+    },
+    {
+      "id": "92289c0f11a8c4bc",
+      "title": "La CNIL prononce 16 nouvelles sanctions dans le cadre de la procédure simplifiée",
+      "description": "Vidéosurveillance, prospection commerciale et défaut de coopération&nbsp;: depuis mai 2025, la CNIL a prononcé seize nouvelles sanctions simplifiées, dont quatorze ont pour origine des plaintes.",
+      "url": "https://www.cnil.fr/fr/la-cnil-prononce-16-nouvelles-sanctions-dans-le-cadre-de-la-procedure-simplifiee",
+      "source": "CNIL - Actualités (FR)",
+      "author": "CNIL",
+      "published": "2025-10-13T14:00:00+02:00",
+      "niche": "security",
+      "score": 24,
+      "keywords": []
     },
     {
       "id": "8f07974014d2d602",
@@ -1223,6 +1417,21 @@
       "keywords": [
         "threat",
         "attack"
+      ]
+    },
+    {
+      "id": "7489043e16954c71",
+      "title": "La CNIL et Inria renforcent leur partenariat pour la protection des données personnelles et l'évaluation des algorithmes",
+      "description": "La CNIL et Inria signent une nouvelle convention de partenariat pour mener des travaux conjoints sur la protection des données, la vie privée, l’évaluation des algorithmes et des systèmes d’intelligence artificielle. Les deux institutions consolident ainsi plus de dix ans de coopération à un moment clé pour la régulation du numérique en Europe.",
+      "url": "https://www.cnil.fr/fr/cnil-inria-partenariat-renforce-protection-donnees-evaluation-algorithmes",
+      "source": "CNIL - Actualités (FR)",
+      "author": "CNIL",
+      "published": "2025-10-01T14:00:00+02:00",
+      "niche": "security",
+      "score": 23,
+      "keywords": [
+        "RCE",
+        "protection"
       ]
     },
     {
@@ -1255,6 +1464,34 @@
       ]
     },
     {
+      "id": "dbe2dbd511fb09e6",
+      "title": "ShinyHunters revendique Salesforce et vise Air France/KLM",
+      "description": "Exclusif ZATAZ - Extorsion revendiquée contre Salesforce : ShinyHunters menace une fuite massive et cite Air France/KLM. Analyse cyber, volumes et risques....",
+      "url": "https://www.zataz.com/shinyhunters-revendique-salesforce-et-vise-air-france-klm/",
+      "source": "Zataz (FR)",
+      "author": "Damien Bancal",
+      "published": "2025-10-04T15:38:48+00:00",
+      "niche": "security",
+      "score": 22,
+      "keywords": [
+        "RCE"
+      ]
+    },
+    {
+      "id": "14a9e5f95a8a6ba3",
+      "title": "Cybermoi/s 2025 : « Histoire de Cyber » et CyberTour de France",
+      "description": "Le Cybermoi/s est un rendez-vous annuel, organisé par Cybermalveillance.gouv.fr du 1er&nbsp;au 31&nbsp;octobre. De nombreuses activités et ressources autour des enjeux de cybersécurité vous seront proposées tout au long du mois&nbsp;: conférences, vidéos, évènements, articles, etc.",
+      "url": "https://www.cnil.fr/fr/cybermois-2025",
+      "source": "CNIL - Actualités (FR)",
+      "author": "CNIL",
+      "published": "2025-10-01T14:00:00+02:00",
+      "niche": "security",
+      "score": 22,
+      "keywords": [
+        "RCE"
+      ]
+    },
+    {
       "id": "18882cba43409092",
       "title": "Self-Replicating Worm Hits 180+ Software Packages",
       "description": "At least 187 code packages made available through the JavaScript repository NPM have been infected with a self-replicating worm that steals credentials from developers and publishes those secrets on GitHub, experts warn. The malware, which briefly infected multiple code packages from the security vendor CrowdStrike, steals and publishes even more credentials every time an infected package is installed.",
@@ -1265,8 +1502,8 @@
       "niche": "security",
       "score": 21,
       "keywords": [
-        "malware",
-        "security"
+        "security",
+        "malware"
       ]
     },
     {
@@ -1280,23 +1517,8 @@
       "niche": "security",
       "score": 21,
       "keywords": [
-        "malware",
-        "attack"
-      ]
-    },
-    {
-      "id": "c8f61dfb6d002496",
-      "title": "Daniel Miessler on the AI Attack/Defense Balance",
-      "description": "His conclusion: Context wins Basically whoever can see the most about the target, and can hold that picture in their mind the best, will be best at finding the vulnerabilities the fastest and taking advantage of them. Or, as the defender, applying patches or mitigations the fastest. And if you’re on the inside you know what the applications do. You know what’s important and what isn’t. And you can use all that internal knowledge to fix things­&#8212;hopefully before the baddies take advantage. S",
-      "url": "https://www.schneier.com/blog/archives/2025/10/daniel-miessler-on-the-ai-attack-defense-balance.html",
-      "source": "Schneier on Security",
-      "author": "Bruce Schneier",
-      "published": "2025-10-02T16:19:59+00:00",
-      "niche": "security",
-      "score": 21,
-      "keywords": [
         "attack",
-        "patch"
+        "malware"
       ]
     },
     {
@@ -1382,20 +1604,6 @@
       ]
     },
     {
-      "id": "dbe2dbd511fb09e6",
-      "title": "ShinyHunters revendique Salesforce et vise Air France/KLM",
-      "description": "Exclusif ZATAZ - Extorsion revendiquée contre Salesforce : ShinyHunters menace une fuite massive et cite Air France/KLM. Analyse cyber, volumes et risques....",
-      "url": "https://www.zataz.com/shinyhunters-revendique-salesforce-et-vise-air-france-klm/",
-      "source": "Zataz",
-      "author": "Damien Bancal",
-      "published": "2025-10-04T15:38:48+00:00",
-      "niche": "security",
-      "score": 19,
-      "keywords": [
-        "RCE"
-      ]
-    },
-    {
       "id": "728e7ae321fbcf6a",
       "title": "Affiliates Flock to ‘Soulless’ Scam Gambling Machine",
       "description": "Last month, KrebsOnSecurity tracked the sudden emergence of hundreds of polished online gaming and wagering websites that lure people with free credits and eventually abscond with any cryptocurrency funds deposited by players. We've since learned that these scam gambling sites have proliferated thanks to a new Russian affiliate program called \"Gambler Panel\" that bills itself as a \"soulless project that is made for profit.\"",
@@ -1420,8 +1628,8 @@
       "niche": "security",
       "score": 18,
       "keywords": [
-        "bug bounty",
-        "security"
+        "security",
+        "bug bounty"
       ]
     },
     {
@@ -1465,6 +1673,703 @@
       "keywords": [
         "attack"
       ]
+    },
+    {
+      "id": "e9b7e42bc7712b25",
+      "title": "Multiples vulnérabilités dans les produits Tenable (01 octobre 2025)",
+      "description": "De multiples vulnérabilités ont été découvertes dans Tenable Security Center. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un contournement de la politique de sécurité.",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2025-AVI-0836/",
+      "source": "CERT-FR (Officiel)",
+      "author": "Inconnu",
+      "published": "2025-10-01T00:00:00+00:00",
+      "niche": "security",
+      "score": 18,
+      "keywords": [
+        "security"
+      ]
+    },
+    {
+      "id": "cd046434e9102fcb",
+      "title": "1Password Addresses Critical AI Browser Agent Security Gap",
+      "description": "The security company looks to tackle new authentication challenges that could lead to credential leakage, as enterprises increasingly leverage AI browser agents.",
+      "url": "https://www.darkreading.com/identity-access-management-security/1password-addresses-critical-ai-browser-agent-security-gap",
+      "source": "Dark Reading",
+      "author": "Arielle Waldman",
+      "published": "2025-10-10T21:27:30+00:00",
+      "niche": "security",
+      "score": 17,
+      "keywords": [
+        "security"
+      ]
+    },
+    {
+      "id": "3f29f8a316aac46e",
+      "title": "Student Loan Breach Exposes 2.5M Records",
+      "description": "2.5 million people were affected, in a breach that could spell more trouble down the line.",
+      "url": "https://threatpost.com/student-loan-breach-exposes-2-5m-records/180492/",
+      "source": "Threatpost",
+      "author": "Nate Nelson",
+      "published": "2022-08-31T12:57:48+00:00",
+      "niche": "security",
+      "score": 17,
+      "keywords": [
+        "breach"
+      ]
+    },
+    {
+      "id": "547487339462d69a",
+      "title": "Pirates de la paie : alerte sur un vague mondiale de détournements de salaires",
+      "description": "Microsoft, Zataz et le FBI alertent : les services RH deviennent la cible privilégiée des cybercriminels détournant les salaires....",
+      "url": "https://www.zataz.com/pirates-de-la-paie-alerte-sur-un-vague-mondiale-de-detournements-de-salaires/",
+      "source": "Zataz (FR)",
+      "author": "Damien Bancal",
+      "published": "2025-10-11T10:10:24+00:00",
+      "niche": "security",
+      "score": 16,
+      "keywords": []
+    },
+    {
+      "id": "b9bef46a48637d0a",
+      "title": "Tentacles of ‘0ktapus’ Threat Group Victimize 130 Firms",
+      "description": "Over 130 companies tangled in sprawling phishing campaign that spoofed a multi-factor authentication system.",
+      "url": "https://threatpost.com/0ktapus-victimize-130-firms/180487/",
+      "source": "Threatpost",
+      "author": "Nate Nelson",
+      "published": "2022-08-29T14:56:19+00:00",
+      "niche": "security",
+      "score": 15,
+      "keywords": [
+        "phishing",
+        "threat"
+      ]
+    },
+    {
+      "id": "af18e46e100e20f7",
+      "title": "Watch the webinar: Scale secure coverage without scaling headcount",
+      "description": "Application security teams are under pressure. With expanding application estates, growing API usage, and faster release cycles, many teams struggle to keep up. Backlogs grow, releases are delayed, an",
+      "url": "https://portswigger.net/blog/watch-the-webinar-scale-secure-coverage-without-scaling-headcount",
+      "source": "PortSwigger Web Security",
+      "author": "Inconnu",
+      "published": "2025-09-04T14:21:00+00:00",
+      "niche": "security",
+      "score": 15,
+      "keywords": [
+        "security",
+        "secure"
+      ]
+    },
+    {
+      "id": "75f4d45bdfbf291c",
+      "title": "The year so far: How Burp Suite DAST is leveling up enterprise security in 2025",
+      "description": "Enterprise security teams are under more pressure than ever to secure sprawling application estates, without slowing down delivery. That's why, over the first half of 2025, we've delivered some of our",
+      "url": "https://portswigger.net/blog/the-year-so-far-how-burp-suite-dast-is-leveling-up-enterprise-security-in-2025",
+      "source": "PortSwigger Web Security",
+      "author": "Inconnu",
+      "published": "2025-08-28T12:07:45+00:00",
+      "niche": "security",
+      "score": 15,
+      "keywords": [
+        "security",
+        "secure"
+      ]
+    },
+    {
+      "id": "1e9478c459f38282",
+      "title": "Feds Tie ‘Scattered Spider’ Duo to $115M in Ransoms",
+      "description": "U.S. prosecutors last week levied criminal hacking charges against 19-year-old U.K. national Thalha Jubair for allegedly being a core member of Scattered Spider, a prolific cybercrime group blamed for extorting at least $115 million in ransom payments from victims. The charges came as Jubair and an alleged co-conspirator appeared in a London court to face accusations of hacking into and extorting several large U.K. retailers, the London transit system, and healthcare providers in the United Stat",
+      "url": "https://krebsonsecurity.com/2025/09/feds-tie-scattered-spider-duo-to-115m-in-ransoms/",
+      "source": "Krebs on Security",
+      "author": "BrianKrebs",
+      "published": "2025-09-24T11:48:31+00:00",
+      "niche": "security",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "2d46b0d8232ea0d7",
+      "title": "GOP Cries Censorship Over Spam Filters That Work",
+      "description": "The chairman of the Federal Trade Commission (FTC) last week sent a letter to Google's CEO demanding to know why Gmail was blocking messages from Republican senders while allegedly failing to block similar missives supporting Democrats. The letter followed media reports accusing Gmail of disproportionately flagging messages from the GOP fundraising platform WinRed and sending them to the spam folder. But according to experts who track daily spam volumes worldwide, WinRed's messages are getting b",
+      "url": "https://krebsonsecurity.com/2025/09/gop-cries-censorship-over-spam-filters-that-work/",
+      "source": "Krebs on Security",
+      "author": "BrianKrebs",
+      "published": "2025-09-06T03:23:35+00:00",
+      "niche": "security",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "0d1e07905fd2d7e8",
+      "title": "Firewall Bug Under Active Attack Triggers CISA Warning",
+      "description": "CISA is warning that Palo Alto Networks’ PAN-OS is under active attack and needs to be patched ASAP.",
+      "url": "https://threatpost.com/firewall-bug-under-active-attack-cisa-warning/180467/",
+      "source": "Threatpost",
+      "author": "Threatpost",
+      "published": "2022-08-23T13:19:58+00:00",
+      "niche": "security",
+      "score": 14,
+      "keywords": [
+        "attack",
+        "firewall",
+        "patch"
+      ]
+    },
+    {
+      "id": "d7aa7dad9ee0fe12",
+      "title": "AI-Enabled Influence Operation Against Iran",
+      "description": "Citizen Lab has uncovered a coordinated AI-enabled influence operation against the Iranian government, probably conducted by Israel. Key Findings A coordinated network of more than 50 inauthentic X profiles is conducting an AI-enabled influence operation. The network, which we refer to as &#8220;PRISONBREAK,&#8221; is spreading narratives inciting Iranian audiences to revolt against the Islamic Republic of Iran. While the network was created in 2023, almost all of its activity was conducted star",
+      "url": "https://www.schneier.com/blog/archives/2025/10/ai-enabled-influence-operation-against-iran.html",
+      "source": "Schneier on Security",
+      "author": "Bruce Schneier",
+      "published": "2025-10-07T11:04:23+00:00",
+      "niche": "security",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "2191b1e177914385",
+      "title": "AI in the 2026 Midterm Elections",
+      "description": "We are nearly one year out from the 2026 midterm elections, and it&#8217;s far too early to predict the outcomes. But it&#8217;s a safe bet that artificial intelligence technologies will once again be a major storyline. The widespread fear that AI would be used to manipulate the 2024 U.S. election seems rather quaint in a year where the president posts AI-generated images of himself as the pope on official White House accounts. But AI is a lot more than an information manipulator. It&#8217;s als",
+      "url": "https://www.schneier.com/blog/archives/2025/10/ai-in-the-2026-midterm-elections.html",
+      "source": "Schneier on Security",
+      "author": "Bruce Schneier",
+      "published": "2025-10-06T11:06:22+00:00",
+      "niche": "security",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "21ff713104f931d0",
+      "title": "The future of pentesting is Human x AI, and it's already in Burp Suite Professional",
+      "description": "The latest Hacker-Powered Security Report from HackerOne makes one thing clear: AI-assisted pentesting isn't a future trend; it's today's reality. In HackerOne's 2025 report, 70% of surveyed researche",
+      "url": "https://portswigger.net/blog/the-future-of-pentesting-is-human-x-ai-and-its-already-in-burp-suite-professional",
+      "source": "PortSwigger Web Security",
+      "author": "Inconnu",
+      "published": "2025-10-07T13:17:41+00:00",
+      "niche": "security",
+      "score": 14,
+      "keywords": [
+        "security"
+      ]
+    },
+    {
+      "id": "d278ade51c8bae4f",
+      "title": "Hacking smarter with Burp AI: NahamSec puts Burp AI to the test",
+      "description": "Bug bounty legend, NahamSec, has taken Burp AI for a spin. If you're curious how Burp AI fits into a real workflow, his new video is the perfect place to start. Watch on YouTube Burp AI was built to a",
+      "url": "https://portswigger.net/blog/hacking-smarter-with-burp-ai-nahamsec-puts-burp-ai-to-the-test",
+      "source": "PortSwigger Web Security",
+      "author": "Inconnu",
+      "published": "2025-10-01T14:31:40+00:00",
+      "niche": "security",
+      "score": 14,
+      "keywords": [
+        "bug bounty"
+      ]
+    },
+    {
+      "id": "730e21e5faf66cdd",
+      "title": "\"The entire internet is broken\": ethical hacking expert John Hammond meets James Kettle",
+      "description": "In a brand-new collaboration between ethical hacking and AppSec expert John Hammond and world-renowned security researcher James Kettle, the pair explore how tens of millions of websites are compromis",
+      "url": "https://portswigger.net/blog/the-entire-internet-is-broken-ethical-hacking-expert-john-hammond-meets-james-kettle",
+      "source": "PortSwigger Web Security",
+      "author": "Inconnu",
+      "published": "2025-08-27T09:11:17+00:00",
+      "niche": "security",
+      "score": 14,
+      "keywords": [
+        "security"
+      ]
+    },
+    {
+      "id": "61bb4a571fb4837f",
+      "title": "Determining your hacking targets with recon and automation",
+      "description": "Why picking targets is so important Many ethical hackers struggle because they are hacking the &#8220;wrong&#8221; types of targets for them. This is especially true ... The post Determining your hacking targets with recon and automation appeared first on Labs Detectify.",
+      "url": "https://labs.detectify.com/ethical-hacking/determining-your-hacking-targets-with-recon-and-automation/",
+      "source": "Detectify Labs",
+      "author": "Detectify",
+      "published": "2022-12-07T09:50:35+00:00",
+      "niche": "security",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "37711c3041a11055",
+      "title": "Multiples vulnérabilités dans les produits Mattermost (17 septembre 2025)",
+      "description": "De multiples vulnérabilités ont été découvertes dans les produits Mattermost. Elles permettent à un attaquant de provoquer un déni de service à distance et un problème de sécurité non spécifié par l'éditeur.",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2025-AVI-0801/",
+      "source": "CERT-FR (Officiel)",
+      "author": "Inconnu",
+      "published": "2025-09-17T00:00:00+00:00",
+      "niche": "security",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "527f273e69fe1254",
+      "title": "Multiples vulnérabilités dans OpenSSL (01 octobre 2025)",
+      "description": "De multiples vulnérabilités ont été découvertes dans OpenSSL. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2025-AVI-0835/",
+      "source": "CERT-FR (Officiel)",
+      "author": "Inconnu",
+      "published": "2025-10-01T00:00:00+00:00",
+      "niche": "security",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "c348787e574d6770",
+      "title": "Multiples vulnérabilités dans Google Chrome (02 octobre 2025)",
+      "description": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un problème de sécurité non spécifié par l'éditeur.",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2025-AVI-0837/",
+      "source": "CERT-FR (Officiel)",
+      "author": "Inconnu",
+      "published": "2025-10-02T00:00:00+00:00",
+      "niche": "security",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "fa59ea9f1fc96637",
+      "title": "Multiples vulnérabilités dans les produits Splunk (02 octobre 2025)",
+      "description": "De multiples vulnérabilités ont été découvertes dans les produits Splunk. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2025-AVI-0838/",
+      "source": "CERT-FR (Officiel)",
+      "author": "Inconnu",
+      "published": "2025-10-02T00:00:00+00:00",
+      "niche": "security",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "89d4f6fc81a7a161",
+      "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (03 octobre 2025)",
+      "description": "De multiples vulnérabilités ont été découvertes dans le noyau Linux d'Ubuntu. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, une atteinte à l'intégrité des données et un contournement de la politique de sécurité.",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2025-AVI-0843/",
+      "source": "CERT-FR (Officiel)",
+      "author": "Inconnu",
+      "published": "2025-10-03T00:00:00+00:00",
+      "niche": "security",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "6ab2490a73634d08",
+      "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (03 octobre 2025)",
+      "description": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données, un contournement de la politique de sécurité et un déni de service.",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2025-AVI-0842/",
+      "source": "CERT-FR (Officiel)",
+      "author": "Inconnu",
+      "published": "2025-10-03T00:00:00+00:00",
+      "niche": "security",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "c44fd0542fab116c",
+      "title": "Multiples vulnérabilités dans IBM Sterling Connect (03 octobre 2025)",
+      "description": "De multiples vulnérabilités ont été découvertes dans IBM Sterling Connect. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2025-AVI-0844/",
+      "source": "CERT-FR (Officiel)",
+      "author": "Inconnu",
+      "published": "2025-10-03T00:00:00+00:00",
+      "niche": "security",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "63d8e2f907d6a7db",
+      "title": "Pyongyang dope ses cyberraids : plus de 2 milliards volés en cryptoactifs",
+      "description": "Les hackers nord-coréens ont volé plus de 2 milliards en cryptoactifs en 2025....",
+      "url": "https://www.zataz.com/pyongyang-dope-ses-cyberraids/",
+      "source": "Zataz (FR)",
+      "author": "Damien Bancal",
+      "published": "2025-10-11T10:36:18+00:00",
+      "niche": "security",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "f9f258beeded5ad5",
+      "title": "Location d'un bien immobilier : quels justificatifs peut-on demander aux candidats ?",
+      "description": "Lors de la recherche d’un logement à louer, certaines pièces justificatives sont demandées aux candidats pour appuyer leur dossier. La législation fixe clairement les documents pouvant être exigés.",
+      "url": "https://www.cnil.fr/fr/location-dun-bien-immobilier-quels-justificatifs",
+      "source": "CNIL - Actualités (FR)",
+      "author": "CNIL",
+      "published": "2025-10-10T14:00:00+02:00",
+      "niche": "security",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "fb67b65b85f80308",
+      "title": "Ordre du jour de la séance plénière du 9 octobre 2025",
+      "description": "La Commission nationale de l'informatique et des libertés s’est réunie le jeudi 9 octobre 2025 à 9 h 30 avec l’ordre du jour suivant&nbsp;:",
+      "url": "https://www.cnil.fr/fr/ordre-du-jour-de-la-seance-pleniere-du-9-octobre-2025",
+      "source": "CNIL - Actualités (FR)",
+      "author": "CNIL",
+      "published": "2025-10-09T14:00:00+02:00",
+      "niche": "security",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "d5dc2f902dc2f98b",
+      "title": "HIBP Demo: Querying the API, and the Free Test Key!",
+      "description": "One of the most common use cases for HIBP&apos;s API is querying by email address, and we support hundreds of millions of searches against this endpoint every month. Loads of organisations use this service to understand the exposure of their customers and provide them with better protection against",
+      "url": "https://www.troyhunt.com/hibp-demo-querying-the-api-and-the-free-test-key/",
+      "source": "Troy Hunt",
+      "author": "Troy Hunt",
+      "published": "2025-09-23T23:24:08+00:00",
+      "niche": "security",
+      "score": 13,
+      "keywords": [
+        "protection"
+      ]
+    },
+    {
+      "id": "c85fcfdf3101816f",
+      "title": "Déclaration commune sur la gouvernance fiable des données pour l’IA : vingt autorités de protection des données s'engagent pour une IA innovante et protectrice de la vie privée",
+      "description": "Vingt autorités de protection des données se sont réunies à&nbsp;l’Assemblée mondiale de la protection de la vie privée (GPA) à Séoul du 15 au 19 septembre 2025. Elles ont&nbsp;signé la déclaration commune appelant à construire un cadre de gouvernance fiable pour une IA de confiance.",
+      "url": "https://www.cnil.fr/fr/declaration-commune-sur-la-gouvernance-fiable-des-donnees-pour-lia",
+      "source": "CNIL - Actualités (FR)",
+      "author": "CNIL",
+      "published": "2025-09-23T14:00:00+02:00",
+      "niche": "security",
+      "score": 13,
+      "keywords": [
+        "protection"
+      ]
+    },
+    {
+      "id": "0362ac3c33c7bb25",
+      "title": "Watering Hole Attacks Push ScanBox Keylogger",
+      "description": "Researchers uncover a watering hole attack likely carried out by APT TA423, which attempts to plant the ScanBox JavaScript-based reconnaissance tool.",
+      "url": "https://threatpost.com/watering-hole-attacks-push-scanbox-keylogger/180490/",
+      "source": "Threatpost",
+      "author": "Nate Nelson",
+      "published": "2022-08-30T16:00:43+00:00",
+      "niche": "security",
+      "score": 12,
+      "keywords": [
+        "attack"
+      ]
+    },
+    {
+      "id": "50d402d84ef5c125",
+      "title": "Cybercriminals Are Selling Access to Chinese Surveillance Cameras",
+      "description": "Tens of thousands of cameras have failed to patch a critical, 11-month-old CVE, leaving thousands of organizations exposed.",
+      "url": "https://threatpost.com/cybercriminals-are-selling-access-to-chinese-surveillance-cameras/180478/",
+      "source": "Threatpost",
+      "author": "Nate Nelson",
+      "published": "2022-08-25T18:47:15+00:00",
+      "niche": "security",
+      "score": 12,
+      "keywords": [
+        "patch"
+      ]
+    },
+    {
+      "id": "b8110949821feb09",
+      "title": "Twitter Whistleblower Complaint: The TL;DR Version",
+      "description": "Twitter is blasted for security and privacy lapses by the company’s former head of security who alleges the social media giant’s actions amount to a national security risk.",
+      "url": "https://threatpost.com/twitter-whistleblower-tldr-version/180472/",
+      "source": "Threatpost",
+      "author": "Threatpost",
+      "published": "2022-08-24T14:17:04+00:00",
+      "niche": "security",
+      "score": 12,
+      "keywords": [
+        "security"
+      ]
+    },
+    {
+      "id": "546db571dd5b28e6",
+      "title": "Weekly Update 472",
+      "description": "This probably comes through pretty strongly in this week&apos;s video, but I love the vibe at CERN. It&apos;s a place so focused on the common good of science that all the other cultural attributes that often put people at odds these days fade into the distance.",
+      "url": "https://www.troyhunt.com/weekly-update-472/",
+      "source": "Troy Hunt",
+      "author": "Troy Hunt",
+      "published": "2025-10-06T06:23:48+00:00",
+      "niche": "security",
+      "score": 12,
+      "keywords": []
+    },
+    {
+      "id": "09ac13f4b9a7c4fe",
+      "title": "Welcoming CERN to Have I Been Pwned",
+      "description": "It&apos;s hard to explain the significance of CERN. It&apos;s the birthplace of the World Wide Web and the home of the largest machine ever built, the Large Hadron Collider. The bit that&apos;s hard to explain is, well, I mean, look at it!Charlotte and",
+      "url": "https://www.troyhunt.com/welcoming-cern-to-have-i-been-pwned/",
+      "source": "Troy Hunt",
+      "author": "Troy Hunt",
+      "published": "2025-09-29T07:03:48+00:00",
+      "niche": "security",
+      "score": 12,
+      "keywords": []
+    },
+    {
+      "id": "a0608b7a1df5e37c",
+      "title": "Weekly Update 471",
+      "description": "I&apos;m so happy to finally be getting those HIBP demos out! The first couple are simple, but as I say in this week&apos;s vid, it&apos;s the simple questions we&apos;re still dealing with. As if to taunt me (or prove my point), we",
+      "url": "https://www.troyhunt.com/weekly-update-471/",
+      "source": "Troy Hunt",
+      "author": "Troy Hunt",
+      "published": "2025-09-27T06:50:57+00:00",
+      "niche": "security",
+      "score": 12,
+      "keywords": []
+    },
+    {
+      "id": "bc5e126803cd34ff",
+      "title": "Have I Been Pwned Demos Are Now Live!",
+      "description": "Well, one of them is, but what&apos;s important is that we now have a platform on which we can start pushing out a lot more. It&apos;s not that HIBP is a particularly complex system that needs explaining in any depth, but we still get a lot",
+      "url": "https://www.troyhunt.com/have-i-been-pwned-demos-are-now-live/",
+      "source": "Troy Hunt",
+      "author": "Troy Hunt",
+      "published": "2025-09-19T05:49:55+00:00",
+      "niche": "security",
+      "score": 12,
+      "keywords": []
+    },
+    {
+      "id": "65c76c20c5d5f441",
+      "title": "Weekly Update 469",
+      "description": "So I had this idea around training a text-to-speech engine with my voice, then using that to speak over the Sonos at home to announce AI-driven events, such as people ringing the doorbell. A few hours&apos; worth of video from these weekly updates fed into ElevenLabs and wammo! Here",
+      "url": "https://www.troyhunt.com/weekly-update-469/",
+      "source": "Troy Hunt",
+      "author": "Troy Hunt",
+      "published": "2025-09-13T07:42:33+00:00",
+      "niche": "security",
+      "score": 12,
+      "keywords": []
+    },
+    {
+      "id": "1df82a171b842f6f",
+      "title": "Weekly Update 468",
+      "description": "I only just realised, as I prepared this accompanying blog post, that I didn&apos;t talk about one of the points in the overview: food. One of my fondest memories as a child living in Singapore and now as an adult visiting there is the food. It&apos;s",
+      "url": "https://www.troyhunt.com/weekly-update-468/",
+      "source": "Troy Hunt",
+      "author": "Troy Hunt",
+      "published": "2025-09-07T08:08:09+00:00",
+      "niche": "security",
+      "score": 12,
+      "keywords": []
+    },
+    {
+      "id": "48b8b792c288d3dc",
+      "title": "Éduquer les enfants, c’est éduquer les parents",
+      "description": "ZATAZ lance un single pour le Cybermois 2025 : un hymne à la protection des enfants en ligne, entre musique et sensibilisation....",
+      "url": "https://www.zataz.com/eduquer-les-enfants-cest-eduquer-les-parents/",
+      "source": "Zataz (FR)",
+      "author": "Damien Bancal",
+      "published": "2025-10-04T17:16:55+00:00",
+      "niche": "security",
+      "score": 12,
+      "keywords": [
+        "protection"
+      ]
+    },
+    {
+      "id": "70b3e1500c037ec6",
+      "title": "Welcome to AI pentesting - add on-demand AI assistance directly to your workflow with new, agentic Burp AI capabilities",
+      "description": "Whether you’re navigating a client pentest or chasing a bounty target, even the most experienced testers hit roadblocks, burn time on repetitive tasks, or just want a second opinion. Burp AI is design",
+      "url": "https://portswigger.net/blog/welcome-to-ai-pentesting-add-on-demand-ai-assistance-directly-to-your-workflow-with-new-agentic-burp-ai-capabilities",
+      "source": "PortSwigger Web Security",
+      "author": "Inconnu",
+      "published": "2025-09-24T14:17:34+00:00",
+      "niche": "security",
+      "score": 10,
+      "keywords": []
+    },
+    {
+      "id": "56ffb57e88c27fe8",
+      "title": "How to join the desync endgame: Practical tips from pentester Tom Stacey",
+      "description": "Note: This is a guest post by pentester and researcher, Tom Stacey (@t0xodile). You'd think that after almost 21 years since its initial public discovery, HTTP Request Smuggling would be barely exploi",
+      "url": "https://portswigger.net/blog/how-to-join-the-desync-endgame-practical-tips-from-pentester-tom-stacey",
+      "source": "PortSwigger Web Security",
+      "author": "Inconnu",
+      "published": "2025-09-18T15:51:39+00:00",
+      "niche": "security",
+      "score": 10,
+      "keywords": []
+    },
+    {
+      "id": "ba73f652cc573808",
+      "title": "HTTP/1.1 Must Die: What This Means for AppSec Leadership",
+      "description": "At Black Hat USA and DEFCON 2025, PortSwigger's Director of Research, James Kettle, issued a stark warning: request smuggling isn't dying out, it's evolving and thriving. Despite years of defensive ef",
+      "url": "https://portswigger.net/blog/http-1-1-must-die-what-this-means-for-appsec-leadership",
+      "source": "PortSwigger Web Security",
+      "author": "Inconnu",
+      "published": "2025-08-06T22:23:49+00:00",
+      "niche": "security",
+      "score": 10,
+      "keywords": []
+    },
+    {
+      "id": "a036f003cf40d992",
+      "title": "Multiples vulnérabilités dans Zabbix (03 octobre 2025)",
+      "description": "De multiples vulnérabilités ont été découvertes dans Zabbix. Elles permettent à un attaquant de provoquer une élévation de privilèges et une atteinte à la confidentialité des données.",
+      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2025-AVI-0840/",
+      "source": "CERT-FR (Officiel)",
+      "author": "Inconnu",
+      "published": "2025-10-03T00:00:00+00:00",
+      "niche": "security",
+      "score": 10,
+      "keywords": []
+    },
+    {
+      "id": "8e896aedd11c9598",
+      "title": "Recap’ cyber infos de la semaine du 05 octobre 2025",
+      "description": "Semaine intense sur le front de la cybersécurité mondiale. Cyber attaques, actions judiciaires et ambiances \"vicieuses\" chez les pirates. Voici le récap' cybersécurité zataz du 05 octobre 2025....",
+      "url": "https://www.zataz.com/recap-cyber-infos-de-la-semaine-du-05-octobre-2025/",
+      "source": "Zataz (FR)",
+      "author": "Damien Bancal",
+      "published": "2025-10-05T07:27:15+00:00",
+      "niche": "security",
+      "score": 10,
+      "keywords": []
+    },
+    {
+      "id": "b29043189cc64bc9",
+      "title": "Discord, la nouvelle agora numérique des manifestants",
+      "description": "Discord devient l’outil stratégique des mobilisations. Au Maroc, le mouvement GenZ212 illustre la fusion entre contestation de rue et cyberspace....",
+      "url": "https://www.zataz.com/discord-la-nouvelle-agora-numerique-des-manifestants/",
+      "source": "Zataz (FR)",
+      "author": "Damien Bancal",
+      "published": "2025-10-02T16:09:46+00:00",
+      "niche": "security",
+      "score": 10,
+      "keywords": []
+    },
+    {
+      "id": "7939bf8b2511905d",
+      "title": "Fuite et RaaS : le groupe Nova expose ses victimes",
+      "description": "Le groupe Nova revendique 23 victimes, vend un RaaS et publie 80 Go de données universitaires. Analyse cyber et renseignement....",
+      "url": "https://www.zataz.com/fuite-et-raas-le-groupe-nova-expose-ses-victimes/",
+      "source": "Zataz (FR)",
+      "author": "Damien Bancal",
+      "published": "2025-10-02T11:06:28+00:00",
+      "niche": "security",
+      "score": 10,
+      "keywords": []
+    },
+    {
+      "id": "503ac409f4770fdb",
+      "title": "Cyberattaque au Sénégal : la DGID visée par le groupe Black Shrantac",
+      "description": "La DGID du Sénégal victime d’une cyberattaque Black Shrantac : 1 To de données fiscales et administratives volées, enjeux critiques pour l’État et les citoyens....",
+      "url": "https://www.zataz.com/cyberattaque-au-senegal-la-dgid-visee-par-le-groupe-black-shrantac/",
+      "source": "Zataz (FR)",
+      "author": "Damien Bancal",
+      "published": "2025-10-02T09:05:13+00:00",
+      "niche": "security",
+      "score": 10,
+      "keywords": []
+    },
+    {
+      "id": "8bf8ceade7f4522c",
+      "title": "Fake Reservation Links Prey on Weary Travelers",
+      "description": "Fake travel reservations are exacting more pain from the travel weary, already dealing with the misery of canceled flights and overbooked hotels.",
+      "url": "https://threatpost.com/reservation-links-prey-on-travelers/180462/",
+      "source": "Threatpost",
+      "author": "Nate Nelson",
+      "published": "2022-08-22T13:59:06+00:00",
+      "niche": "security",
+      "score": 9,
+      "keywords": []
+    },
+    {
+      "id": "7ef5e356ad986023",
+      "title": "Ordre du jour de la séance plénière du 2 octobre 2025",
+      "description": "La Commission nationale de l'informatique et des libertés s’est réunie le jeudi 2 octobre 2025 à 9 h 30 avec l’ordre du jour suivant&nbsp;:",
+      "url": "https://www.cnil.fr/fr/ordre-du-jour-de-la-seance-pleniere-du-2-octobre-2025",
+      "source": "CNIL - Actualités (FR)",
+      "author": "CNIL",
+      "published": "2025-10-02T14:00:00+02:00",
+      "niche": "security",
+      "score": 9,
+      "keywords": []
+    },
+    {
+      "id": "2704bd2e8cf9f6f7",
+      "title": "Ordre du jour de la séance plénière du 25 septembre 2025",
+      "description": "La Commission nationale de l'informatique et des libertés s’est réunie le jeudi 25 septembre 2025 à 9 h 30 avec l’ordre du jour suivant&nbsp;:",
+      "url": "https://www.cnil.fr/fr/ordre-du-jour-de-la-seance-pleniere-du-25-septembre-2025",
+      "source": "CNIL - Actualités (FR)",
+      "author": "CNIL",
+      "published": "2025-09-25T14:00:00+02:00",
+      "niche": "security",
+      "score": 9,
+      "keywords": []
+    },
+    {
+      "id": "dce333a0d3930d36",
+      "title": "Friday Squid Blogging: Squid Overfishing in the Southwest Atlantic",
+      "description": "Article. Report.",
+      "url": "https://www.schneier.com/blog/archives/2025/10/friday-squid-blogging-squid-overfishing-in-the-southwest-atlantic.html",
+      "source": "Schneier on Security",
+      "author": "Bruce Schneier",
+      "published": "2025-10-03T21:05:28+00:00",
+      "niche": "security",
+      "score": 8,
+      "keywords": []
+    },
+    {
+      "id": "75661d4101098084",
+      "title": "[remote] Ilevia EVE X1/X5 Server 4.7.18.0.eden - Reverse Rootshell",
+      "description": "Ilevia EVE X1/X5 Server 4.7.18.0.eden - Reverse Rootshell",
+      "url": "https://www.exploit-db.com/exploits/52437",
+      "source": "Exploit Database",
+      "author": "Inconnu",
+      "published": "2025-09-16T00:00:00+00:00",
+      "niche": "security",
+      "score": 8,
+      "keywords": []
+    },
+    {
+      "id": "17a23f8a17a118f9",
+      "title": "[local] Microsoft Windows Server 2025 Hyper-V NT Kernel Integration VSP - Elevation of Privilege",
+      "description": "Microsoft Windows Server 2025 Hyper-V NT Kernel Integration VSP - Elevation of Privilege",
+      "url": "https://www.exploit-db.com/exploits/52436",
+      "source": "Exploit Database",
+      "author": "Inconnu",
+      "published": "2025-09-16T00:00:00+00:00",
+      "niche": "security",
+      "score": 8,
+      "keywords": []
+    },
+    {
+      "id": "b4c8f27d61a47e4b",
+      "title": "[remote] ClipBucket 5.5.0 - Arbitrary File Upload",
+      "description": "ClipBucket 5.5.0 - Arbitrary File Upload",
+      "url": "https://www.exploit-db.com/exploits/52435",
+      "source": "Exploit Database",
+      "author": "Inconnu",
+      "published": "2025-09-16T00:00:00+00:00",
+      "niche": "security",
+      "score": 8,
+      "keywords": []
+    },
+    {
+      "id": "c22e53ea73b7474c",
+      "title": "[webapps] Tourism Management System 2.0 - Arbitrary Shell Upload",
+      "description": "Tourism Management System 2.0 - Arbitrary Shell Upload",
+      "url": "https://www.exploit-db.com/exploits/52433",
+      "source": "Exploit Database",
+      "author": "Inconnu",
+      "published": "2025-09-16T00:00:00+00:00",
+      "niche": "security",
+      "score": 8,
+      "keywords": []
+    },
+    {
+      "id": "f15e447d902ace43",
+      "title": "Educating children means educating parents",
+      "description": "ZATAZ launches a new Cyber Month 2025 single about protecting children online through music....",
+      "url": "https://www.zataz.com/educating-children-means-educating-parents/",
+      "source": "Zataz (FR)",
+      "author": "Damien Bancal",
+      "published": "2025-10-04T17:18:06+00:00",
+      "niche": "security",
+      "score": 8,
+      "keywords": []
     }
   ]
 }
