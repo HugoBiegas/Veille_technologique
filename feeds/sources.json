@@ -58,69 +58,163 @@
     ]
   },
   "security": {
-    "name": "Cybersécurité",
-    "sources": [
-      {
-        "name": "The Hacker News",
-        "url": "https://feeds.feedburner.com/TheHackersNews",
-        "language": "en",
-        "priority": "high"
-      },
-      {
-        "name": "Krebs on Security",
-        "url": "https://krebsonsecurity.com/feed/",
-        "language": "en",
-        "priority": "high"
-      },
-      {
-        "name": "Bleeping Computer",
-        "url": "https://www.bleepingcomputer.com/feed/",
-        "language": "en",
-        "priority": "high"
-      },
-      {
-        "name": "Dark Reading",
-        "url": "https://www.darkreading.com/rss.xml",
-        "language": "en",
-        "priority": "medium"
-      },
-      {
-        "name": "SecurityWeek",
-        "url": "https://www.securityweek.com/feed/",
-        "language": "en",
-        "priority": "medium"
-      },
-      {
-        "name": "Threatpost",
-        "url": "https://threatpost.com/feed/",
-        "language": "en",
-        "priority": "medium"
-      },
-      {
-        "name": "CERT-FR",
-        "url": "https://www.cert.ssi.gouv.fr/feed/",
-        "language": "fr",
-        "priority": "high"
-      },
-      {
-        "name": "Schneier on Security",
-        "url": "https://www.schneier.com/feed/",
-        "language": "en",
-        "priority": "high"
-      },
-      {
-        "name": "ANSSI",
-        "url": "https://www.ssi.gouv.fr/actualite/rss/",
-        "language": "fr",
-        "priority": "high"
-      },
-      {
-        "name": "Troy Hunt",
-        "url": "https://www.troyhunt.com/rss/",
-        "language": "en",
-        "priority": "medium"
-      }
-    ]
+    "name": "Cybersécurité & Sécurité Web",
+    "subsections": {
+      "general": [
+        {
+          "name": "The Hacker News",
+          "url": "https://feeds.feedburner.com/TheHackersNews",
+          "language": "en",
+          "priority": "high"
+        },
+        {
+          "name": "Krebs on Security",
+          "url": "https://krebsonsecurity.com/feed/",
+          "language": "en",
+          "priority": "high"
+        },
+        {
+          "name": "Bleeping Computer",
+          "url": "https://www.bleepingcomputer.com/feed/",
+          "language": "en",
+          "priority": "high"
+        },
+        {
+          "name": "Dark Reading",
+          "url": "https://www.darkreading.com/rss.xml",
+          "language": "en",
+          "priority": "medium"
+        },
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/feed/",
+          "language": "en",
+          "priority": "medium"
+        },
+        {
+          "name": "Threatpost",
+          "url": "https://threatpost.com/feed/",
+          "language": "en",
+          "priority": "medium"
+        },
+        {
+          "name": "Schneier on Security",
+          "url": "https://www.schneier.com/feed/",
+          "language": "en",
+          "priority": "high"
+        },
+        {
+          "name": "Troy Hunt",
+          "url": "https://www.troyhunt.com/rss/",
+          "language": "en",
+          "priority": "medium"
+        }
+      ],
+      "web_vulnerabilities": [
+        {
+          "name": "PortSwigger Web Security",
+          "url": "https://portswigger.net/blog/rss",
+          "language": "en",
+          "priority": "high",
+          "tags": ["web", "vulnerabilities", "OWASP"]
+        },
+        {
+          "name": "OWASP News",
+          "url": "https://owasp.org/feed.xml",
+          "language": "en",
+          "priority": "high",
+          "tags": ["web", "OWASP", "vulnerabilities"]
+        },
+        {
+          "name": "Web Application Security",
+          "url": "https://www.netsparker.com/blog/feed/",
+          "language": "en",
+          "priority": "medium",
+          "tags": ["web", "scanning", "vulnerabilities"]
+        },
+        {
+          "name": "Detectify Labs",
+          "url": "https://labs.detectify.com/feed/",
+          "language": "en",
+          "priority": "high",
+          "tags": ["web", "vulnerabilities", "research"]
+        },
+        {
+          "name": "HackerOne Hacktivity",
+          "url": "https://hackerone.com/hacktivity.rss",
+          "language": "en",
+          "priority": "high",
+          "tags": ["bug bounty", "vulnerabilities"]
+        }
+      ],
+      "cve_exploits": [
+        {
+          "name": "Exploit Database",
+          "url": "https://www.exploit-db.com/rss.xml",
+          "language": "en",
+          "priority": "high",
+          "tags": ["exploits", "CVE", "PoC"]
+        },
+        {
+          "name": "CVE Details",
+          "url": "https://www.cvedetails.com/vulnerability-feed.php?vendor_id=0&product_id=0&version_id=0&orderby=3&cvssscoremin=7",
+          "language": "en",
+          "priority": "high",
+          "tags": ["CVE", "vulnerabilities"]
+        },
+        {
+          "name": "Packet Storm Security",
+          "url": "https://packetstormsecurity.com/feeds/news/",
+          "language": "en",
+          "priority": "medium",
+          "tags": ["exploits", "advisories"]
+        },
+        {
+          "name": "SecurityFocus",
+          "url": "https://www.securityfocus.com/rss/vulnerabilities.xml",
+          "language": "en",
+          "priority": "medium",
+          "tags": ["vulnerabilities", "advisories"]
+        }
+      ],
+      "french": [
+        {
+          "name": "CERT-FR",
+          "url": "https://www.cert.ssi.gouv.fr/feed/",
+          "language": "fr",
+          "priority": "high",
+          "tags": ["alertes", "France"]
+        },
+        {
+          "name": "ANSSI",
+          "url": "https://www.ssi.gouv.fr/actualite/rss/",
+          "language": "fr",
+          "priority": "high",
+          "tags": ["gouvernement", "France"]
+        },
+        {
+          "name": "Zataz",
+          "url": "https://www.zataz.com/feed/",
+          "language": "fr",
+          "priority": "medium",
+          "tags": ["actualités", "France"]
+        },
+        {
+          "name": "SecuriteInfo",
+          "url": "https://www.securiteinfo.com/feed/",
+          "language": "fr",
+          "priority": "medium",
+          "tags": ["actualités", "malware"]
+        },
+        {
+          "name": "IT Social",
+          "url": "https://www.itsocial.fr/feed/",
+          "language": "fr",
+          "priority": "low",
+          "tags": ["actualités", "IT"]
+        }
+      ]
+    }
   },
   "dev": {
     "name": "Développement",
@@ -149,26 +243,192 @@
           "url": "https://www.smashingmagazine.com/feed/",
           "language": "en",
           "priority": "medium"
+        },
+        {
+          "name": "Grafikart (FR)",
+          "url": "https://www.grafikart.fr/rss",
+          "language": "fr",
+          "priority": "medium"
+        },
+        {
+          "name": "JDN Développeurs (FR)",
+          "url": "https://www.journaldunet.com/developpeur/rss",
+          "language": "fr",
+          "priority": "low"
         }
       ],
       "angular": [
         {
-          "name": "Angular Blog",
+          "name": "Angular Blog (Official)",
           "url": "https://blog.angular.io/feed",
           "language": "en",
-          "priority": "high"
+          "priority": "high",
+          "tags": ["Angular", "official", "framework"]
         },
         {
           "name": "Angular In Depth",
           "url": "https://indepth.dev/angular/rss.xml",
           "language": "en",
-          "priority": "medium"
+          "priority": "high",
+          "tags": ["Angular", "advanced", "tutorials"]
+        },
+        {
+          "name": "Angular University",
+          "url": "https://blog.angular-university.io/rss/",
+          "language": "en",
+          "priority": "medium",
+          "tags": ["Angular", "tutorials", "best practices"]
         },
         {
           "name": "This is Angular",
           "url": "https://dev.to/feed/tag/angular",
           "language": "en",
-          "priority": "medium"
+          "priority": "medium",
+          "tags": ["Angular", "community"]
+        },
+        {
+          "name": "Angular Experts (FR)",
+          "url": "https://angular.fr/feed.xml",
+          "language": "fr",
+          "priority": "medium",
+          "tags": ["Angular", "France", "communauté"]
+        },
+        {
+          "name": "ng-news",
+          "url": "https://www.ng-news.com/feed/",
+          "language": "en",
+          "priority": "medium",
+          "tags": ["Angular", "news"]
+        },
+        {
+          "name": "Ninja Squad (FR/EN)",
+          "url": "https://blog.ninja-squad.com/feed.xml",
+          "language": "fr",
+          "priority": "medium",
+          "tags": ["Angular", "Java", "France"]
+        }
+      ],
+      "php": [
+        {
+          "name": "PHP.Watch",
+          "url": "https://php.watch/feed/articles",
+          "language": "en",
+          "priority": "high",
+          "tags": ["PHP", "versions", "security"]
+        },
+        {
+          "name": "Laravel News",
+          "url": "https://laravel-news.com/feed",
+          "language": "en",
+          "priority": "high",
+          "tags": ["Laravel", "PHP", "framework"]
+        },
+        {
+          "name": "Symfony Blog",
+          "url": "https://symfony.com/blog/rss.xml",
+          "language": "en",
+          "priority": "high",
+          "tags": ["Symfony", "PHP", "framework"]
+        },
+        {
+          "name": "PHP Internals",
+          "url": "https://externals.io/feed",
+          "language": "en",
+          "priority": "medium",
+          "tags": ["PHP", "internals", "RFC"]
+        },
+        {
+          "name": "Stitcher.io",
+          "url": "https://stitcher.io/rss",
+          "language": "en",
+          "priority": "medium",
+          "tags": ["PHP", "modern", "best practices"]
+        },
+        {
+          "name": "PHP The Right Way",
+          "url": "https://www.phptherightway.com/feed.xml",
+          "language": "en",
+          "priority": "high",
+          "tags": ["PHP", "best practices", "guide"]
+        },
+        {
+          "name": "AFUP (FR)",
+          "url": "https://afup.org/feed/rss",
+          "language": "fr",
+          "priority": "medium",
+          "tags": ["PHP", "France", "communauté"]
+        },
+        {
+          "name": "Journal du PHP (FR)",
+          "url": "https://www.journaldunet.com/web-tech/developpement/php/rss",
+          "language": "fr",
+          "priority": "low",
+          "tags": ["PHP", "actualités"]
+        },
+        {
+          "name": "Christophe Avonture (FR)",
+          "url": "https://www.avonture.be/blog/tags/php/rss.xml",
+          "language": "fr",
+          "priority": "low",
+          "tags": ["PHP", "tutoriels"]
+        }
+      ],
+      "spring": [
+        {
+          "name": "Spring Blog (Official)",
+          "url": "https://spring.io/blog.atom",
+          "language": "en",
+          "priority": "high",
+          "tags": ["Spring Boot", "Java", "official"]
+        },
+        {
+          "name": "Baeldung",
+          "url": "https://www.baeldung.com/feed/",
+          "language": "en",
+          "priority": "high",
+          "tags": ["Spring", "Java", "tutorials"]
+        },
+        {
+          "name": "Spring Framework Guru",
+          "url": "https://springframework.guru/feed/",
+          "language": "en",
+          "priority": "medium",
+          "tags": ["Spring Boot", "tutorials", "best practices"]
+        },
+        {
+          "name": "InfoQ Java",
+          "url": "https://www.infoq.com/java/rss",
+          "language": "en",
+          "priority": "medium",
+          "tags": ["Java", "Spring", "architecture"]
+        },
+        {
+          "name": "DZone Java",
+          "url": "https://dzone.com/java-jdk-development-tutorials-tools-news/rss.xml",
+          "language": "en",
+          "priority": "medium",
+          "tags": ["Java", "Spring", "community"]
+        },
+        {
+          "name": "Thorben Janssen",
+          "url": "https://thorben-janssen.com/feed/",
+          "language": "en",
+          "priority": "medium",
+          "tags": ["Java", "JPA", "Hibernate"]
+        },
+        {
+          "name": "Petri Kainulainen",
+          "url": "https://www.petrikainulainen.net/feed/",
+          "language": "en",
+          "priority": "medium",
+          "tags": ["Spring Boot", "testing", "tutorials"]
+        },
+        {
+          "name": "Java Code Geeks",
+          "url": "https://www.javacodegeeks.com/feed",
+          "language": "en",
+          "priority": "low",
+          "tags": ["Java", "Spring", "tutorials"]
         }
       ],
       "javascript": [
@@ -189,58 +449,6 @@
           "url": "https://nodejs.org/en/feed/blog.xml",
           "language": "en",
           "priority": "high"
-        }
-      ],
-      "php": [
-        {
-          "name": "PHP.Watch",
-          "url": "https://php.watch/feed/articles",
-          "language": "en",
-          "priority": "high"
-        },
-        {
-          "name": "Laravel News",
-          "url": "https://laravel-news.com/feed",
-          "language": "en",
-          "priority": "high"
-        },
-        {
-          "name": "Symfony Blog",
-          "url": "https://symfony.com/blog/rss.xml",
-          "language": "en",
-          "priority": "high"
-        },
-        {
-          "name": "PHP Internals",
-          "url": "https://externals.io/feed",
-          "language": "en",
-          "priority": "medium"
-        }
-      ],
-      "java": [
-        {
-          "name": "Spring Blog",
-          "url": "https://spring.io/blog.atom",
-          "language": "en",
-          "priority": "high"
-        },
-        {
-          "name": "Baeldung",
-          "url": "https://www.baeldung.com/feed/",
-          "language": "en",
-          "priority": "high"
-        },
-        {
-          "name": "InfoQ Java",
-          "url": "https://www.infoq.com/java/rss",
-          "language": "en",
-          "priority": "medium"
-        },
-        {
-          "name": "Oracle Java Magazine",
-          "url": "https://blogs.oracle.com/java/rss",
-          "language": "en",
-          "priority": "medium"
         }
       ],
       "mobile": [

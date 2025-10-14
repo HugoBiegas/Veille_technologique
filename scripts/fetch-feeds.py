@@ -34,14 +34,31 @@ KEYWORDS_SCORING = {
         'low': ['algorithm', 'data', 'prediction', 'automation']
     },
     'security': {
-        'high': ['zero-day', 'vulnerability', 'exploit', 'ransomware', 'CVE', 'breach'],
-        'medium': ['security', 'malware', 'phishing', 'attack', 'threat', 'patch'],
-        'low': ['cybersecurity', 'protection', 'firewall', 'encryption']
+        'high': [
+            'zero-day', 'CVE-', 'vulnerability', 'exploit', 'ransomware', 'breach', 
+            'RCE', 'XSS', 'SQL injection', 'CSRF', 'XXE', 'SSRF', 'authentication bypass',
+            'remote code execution', 'privilege escalation', 'critical vulnerability',
+            'security flaw', 'web vulnerability', 'OWASP'
+        ],
+        'medium': [
+            'security', 'malware', 'phishing', 'attack', 'threat', 'patch', 'disclosure',
+            'security advisory', 'PoC', 'proof of concept', 'bug bounty', 'penetration test',
+            'vulnerability scanner', 'web application security', 'injection'
+        ],
+        'low': ['cybersecurity', 'protection', 'firewall', 'encryption', 'secure']
     },
     'dev': {
-        'high': ['Angular 19', 'PHP 8.4', 'Java 22', 'TypeScript', 'React 19'],
-        'medium': ['framework', 'library', 'API', 'performance', 'release'],
-        'low': ['development', 'programming', 'code', 'developer']
+        'high': [
+            'Angular 19', 'Angular 18', 'PHP 8.4', 'PHP 8.3', 'Spring Boot 4', 'Spring Boot 3',
+            'Laravel 11', 'Symfony 7', 'TypeScript 5', 'React 19',
+            'Spring Framework', 'Spring Security', 'Spring Data'
+        ],
+        'medium': [
+            'Angular', 'PHP', 'Spring', 'framework', 'library', 'API', 'performance', 'release',
+            'Laravel', 'Symfony', 'Composer', 'dependency injection', 'reactive programming',
+            'microservices', 'REST API', 'GraphQL'
+        ],
+        'low': ['development', 'programming', 'code', 'developer', 'tutorial', 'best practices']
     },
     'finance': {
         'high': ['Bitcoin', 'blockchain', 'DeFi', 'fintech', 'cryptocurrency'],
@@ -360,14 +377,23 @@ def main():
         return
     
     # Traite chaque niche
-    niches = ['ai', 'security', 'dev', 'finance']
+    niches = ['ai', 'security', 'dev', 'php', 'angular', 'spring', 'finance']
     
     for niche in niches:
         # Récupère les sources pour cette niche
         niche_data = config.get(niche, {})
         
-        # Gère les sous-sections (comme pour 'dev')
-        if 'subsections' in niche_data:
+        # Cas spéciaux : PHP, Angular, Spring sont dans la section "dev"
+        if niche in ['php', 'angular', 'spring'] and not niche_data:
+            dev_data = config.get('dev', {})
+            if 'subsections' in dev_data:
+                # Cherche la sous-section correspondante
+                subsection_name = niche if niche != 'spring' else 'spring'
+                sources = dev_data['subsections'].get(subsection_name, [])
+            else:
+                sources = []
+        # Gère les sous-sections (comme pour 'dev' et 'security')
+        elif 'subsections' in niche_data:
             sources = []
             for subsection_sources in niche_data['subsections'].values():
                 sources.extend(subsection_sources)

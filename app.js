@@ -14,6 +14,9 @@ const CONFIG = {
         ai: './data/ai_news.json',
         security: './data/security_news.json',
         dev: './data/dev_news.json',
+        php: './data/php_news.json',
+        angular: './data/angular_news.json',
+        spring: './data/spring_news.json',
         finance: './data/finance_news.json'
     },
     localStorageKeys: {
@@ -91,7 +94,10 @@ class Article {
             ai: 'bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-purple-300',
             security: 'bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-300',
             dev: 'bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-300',
-            finance: 'bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-300'
+            php: 'bg-indigo-100 text-indigo-800 dark:bg-indigo-900 dark:text-indigo-300',
+            angular: 'bg-rose-100 text-rose-800 dark:bg-rose-900 dark:text-rose-300',
+            spring: 'bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-300',
+            finance: 'bg-emerald-100 text-emerald-800 dark:bg-emerald-900 dark:text-emerald-300'
         };
         return colors[this.niche] || 'bg-gray-100 text-gray-800 dark:bg-gray-700 dark:text-gray-300';
     }
@@ -104,6 +110,9 @@ class Article {
             ai: 'fa-brain',
             security: 'fa-shield-alt',
             dev: 'fa-code',
+            php: 'fa-php fab',
+            angular: 'fa-angular fab',
+            spring: 'fa-leaf',
             finance: 'fa-chart-line'
         };
         return icons[this.niche] || 'fa-newspaper';
