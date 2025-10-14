@@ -15,7 +15,7 @@ import feedparser
 import json
 import os
 import re
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from typing import List, Dict, Optional
 from urllib.parse import urlparse
 import hashlib
@@ -23,8 +23,8 @@ import hashlib
 # Configuration
 DATA_DIR = 'data'
 FEEDS_CONFIG = 'feeds/sources.json'
-MAX_ARTICLES_PER_SOURCE = 10
-MAX_ARTICLES_PER_NICHE = 100
+MAX_ARTICLES_PER_SOURCE = 10  # Nombre d'articles à récupérer par source à chaque exécution
+MAX_DAYS_OLD = 7  # Supprime les articles de plus de 7 jours
 
 # Mots-clés pour le scoring par niche
 KEYWORDS_SCORING = {
@@ -295,13 +295,106 @@ def fetch_feed(feed_url: str, niche: str, source_name: str = None) -> List[Dict]
         return []
 
 
-def process_niche(niche: str, sources: List[Dict]) -> List[Dict]:
+def load_existing_articles(output_file: str) -> List[Dict]:
+    """
+    Charge les articles existants depuis le fichier JSON
+    
+    Args:
+        output_file: Chemin du fichier JSON
+    
+    Returns:
+        Liste des articles existants (vide si le fichier n'existe pas)
+    """
+    if not os.path.exists(output_file):
+        return []
+    
+    try:
+        with open(output_file, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+            return data.get('articles', [])
+    except Exception as e:
+        print(f"  ⚠️  Error loading existing articles: {e}")
+        return []
+
+
+def remove_old_articles(articles: List[Dict], max_days: int = MAX_DAYS_OLD) -> List[Dict]:
+    """
+    Supprime les articles plus vieux que max_days jours
+    
+    Args:
+        articles: Liste des articles
+        max_days: Nombre maximum de jours
+    
+    Returns:
+        Liste filtrée des articles récents
+    """
+    cutoff_date = datetime.now(timezone.utc) - timedelta(days=max_days)
+    recent_articles = []
+    
+    for article in articles:
+        try:
+            published_date = datetime.fromisoformat(article.get('published', ''))
+            if published_date >= cutoff_date:
+                recent_articles.append(article)
+        except:
+            # Si erreur de parsing, on garde l'article par sécurité
+            recent_articles.append(article)
+    
+    removed_count = len(articles) - len(recent_articles)
+    if removed_count > 0:
+        print(f"  🗑️  Removed {removed_count} old articles (>{max_days} days)")
+    
+    return recent_articles
+
+
+def merge_articles(existing: List[Dict], new: List[Dict]) -> List[Dict]:
+    """
+    Fusionne les articles existants et nouveaux, évite les doublons
+    
+    Args:
+        existing: Articles existants
+        new: Nouveaux articles
+    
+    Returns:
+        Liste fusionnée sans doublons
+    """
+    # Crée un dictionnaire avec les IDs comme clés
+    articles_dict = {}
+    
+    # Ajoute d'abord les articles existants
+    for article in existing:
+        articles_dict[article['id']] = article
+    
+    # Ajoute/met à jour avec les nouveaux articles
+    new_count = 0
+    updated_count = 0
+    
+    for article in new:
+        article_id = article['id']
+        if article_id in articles_dict:
+            # Article existe déjà, on met à jour le score s'il est meilleur
+            if article['score'] > articles_dict[article_id]['score']:
+                articles_dict[article_id] = article
+                updated_count += 1
+        else:
+            # Nouvel article
+            articles_dict[article_id] = article
+            new_count += 1
+    
+    print(f"  ➕ Added {new_count} new articles")
+    print(f"  🔄 Updated {updated_count} existing articles")
+    
+    return list(articles_dict.values())
+
+
+def process_niche(niche: str, sources: List[Dict], output_file: str) -> List[Dict]:
     """
     Traite tous les flux RSS d'une niche
     
     Args:
         niche: Nom de la niche
         sources: Liste des sources RSS
+        output_file: Chemin du fichier de sortie
     
     Returns:
         Liste des articles agrégés et scorés
@@ -309,7 +402,15 @@ def process_niche(niche: str, sources: List[Dict]) -> List[Dict]:
     print(f"\n🔄 Processing niche: {niche.upper()}")
     print(f"   Sources: {len(sources)}")
     
-    all_articles = []
+    # Charge les articles existants
+    existing_articles = load_existing_articles(output_file)
+    print(f"  📂 Loaded {len(existing_articles)} existing articles")
+    
+    # Supprime les vieux articles
+    existing_articles = remove_old_articles(existing_articles)
+    print(f"  📦 Kept {len(existing_articles)} recent articles")
+    
+    new_articles = []
     
     # Récupère les articles de chaque source
     for source in sources:
@@ -331,12 +432,12 @@ def process_niche(niche: str, sources: List[Dict]) -> List[Dict]:
         
         for article in articles:
             article['source_priority'] = priority
-            all_articles.append(article)
+            new_articles.append(article)
     
-    print(f"\n📊 Processing {len(all_articles)} articles for {niche}...")
+    print(f"\n📊 Processing {len(new_articles)} new articles for {niche}...")
     
     # Calcule les scores et extrait les mots-clés
-    for article in all_articles:
+    for article in new_articles:
         article['score'] = calculate_relevance_score(article, niche)
         article['keywords'] = extract_keywords(article, niche)
         
@@ -345,13 +446,14 @@ def process_niche(niche: str, sources: List[Dict]) -> List[Dict]:
         multiplier = {'high': 1.2, 'medium': 1.0, 'low': 0.8}.get(priority, 1.0)
         article['score'] = min(int(article['score'] * multiplier), 100)
     
+    # Fusionne avec les articles existants
+    all_articles = merge_articles(existing_articles, new_articles)
+    
     # Trie par score décroissant
     all_articles.sort(key=lambda x: x['score'], reverse=True)
     
-    # Limite au nombre maximum d'articles
-    all_articles = all_articles[:MAX_ARTICLES_PER_NICHE]
-    
-    print(f"✅ Kept top {len(all_articles)} articles (max score: {all_articles[0]['score'] if all_articles else 0})")
+    # Pas de limite d'articles - accumulation jusqu'au nettoyage des 7 jours
+    print(f"✅ Total: {len(all_articles)} articles (max score: {all_articles[0]['score'] if all_articles else 0})")
     
     return all_articles
 
@@ -404,8 +506,11 @@ def main():
             print(f"⚠️  No sources found for {niche}")
             continue
         
-        # Traite la niche
-        articles = process_niche(niche, sources)
+        # Prépare le fichier de sortie
+        output_file = os.path.join(DATA_DIR, f'{niche}_news.json')
+        
+        # Traite la niche (avec fusion des articles existants)
+        articles = process_niche(niche, sources, output_file)
         
         # Crée le fichier JSON de sortie
         output = {
@@ -413,8 +518,6 @@ def main():
             'total_articles': len(articles),
             'articles': articles
         }
-        
-        output_file = os.path.join(DATA_DIR, f'{niche}_news.json')
         
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(output, f, ensure_ascii=False, indent=2)

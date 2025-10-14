@@ -54,6 +54,55 @@
         "url": "https://paperswithcode.com/feed.xml",
         "language": "en",
         "priority": "medium"
+      },
+      {
+        "name": "ActuIA (FR)",
+        "url": "https://www.actuia.com/feed/",
+        "language": "fr",
+        "priority": "high",
+        "tags": ["IA", "France", "actualités"]
+      },
+      {
+        "name": "Siècle Digital - IA (FR)",
+        "url": "https://siecledigital.fr/category/intelligence-artificielle/feed/",
+        "language": "fr",
+        "priority": "high",
+        "tags": ["IA", "France", "tech"]
+      },
+      {
+        "name": "BDM - Intelligence Artificielle (FR)",
+        "url": "https://www.blogdumoderateur.com/category/intelligence-artificielle/feed/",
+        "language": "fr",
+        "priority": "medium",
+        "tags": ["IA", "marketing", "France"]
+      },
+      {
+        "name": "Programmez! - IA (FR)",
+        "url": "https://www.programmez.com/rss.xml",
+        "language": "fr",
+        "priority": "medium",
+        "tags": ["IA", "développement", "France"]
+      },
+      {
+        "name": "Journal du Net - IA (FR)",
+        "url": "https://www.journaldunet.com/intelligence-artificielle/rss",
+        "language": "fr",
+        "priority": "medium",
+        "tags": ["IA", "business", "France"]
+      },
+      {
+        "name": "L'Usine Digitale - IA (FR)",
+        "url": "https://www.usine-digitale.fr/intelligence-artificielle/rss",
+        "language": "fr",
+        "priority": "medium",
+        "tags": ["IA", "industrie", "France"]
+      },
+      {
+        "name": "Frenchweb - IA (FR)",
+        "url": "https://www.frenchweb.fr/tag/intelligence-artificielle/feed",
+        "language": "fr",
+        "priority": "low",
+        "tags": ["IA", "startup", "France"]
       }
     ]
   },
@@ -179,39 +228,88 @@
       ],
       "french": [
         {
-          "name": "CERT-FR",
+          "name": "CERT-FR (Officiel)",
           "url": "https://www.cert.ssi.gouv.fr/feed/",
           "language": "fr",
           "priority": "high",
-          "tags": ["alertes", "France"]
+          "tags": ["alertes", "France", "gouvernement"]
         },
         {
-          "name": "ANSSI",
+          "name": "ANSSI (Officiel)",
           "url": "https://www.ssi.gouv.fr/actualite/rss/",
           "language": "fr",
           "priority": "high",
-          "tags": ["gouvernement", "France"]
+          "tags": ["gouvernement", "France", "cybersécurité"]
         },
         {
-          "name": "Zataz",
+          "name": "Zataz (FR)",
           "url": "https://www.zataz.com/feed/",
           "language": "fr",
-          "priority": "medium",
-          "tags": ["actualités", "France"]
+          "priority": "high",
+          "tags": ["actualités", "France", "hacking"]
         },
         {
-          "name": "SecuriteInfo",
+          "name": "SecuriteInfo (FR)",
           "url": "https://www.securiteinfo.com/feed/",
           "language": "fr",
           "priority": "medium",
-          "tags": ["actualités", "malware"]
+          "tags": ["actualités", "malware", "France"]
         },
         {
-          "name": "IT Social",
-          "url": "https://www.itsocial.fr/feed/",
+          "name": "Undernews (FR)",
+          "url": "https://www.undernews.fr/feeds/posts/default",
+          "language": "fr",
+          "priority": "high",
+          "tags": ["hacking", "sécurité", "France"]
+        },
+        {
+          "name": "Next INpact - Sécurité (FR)",
+          "url": "https://www.nextinpact.com/rss/news.xml",
+          "language": "fr",
+          "priority": "medium",
+          "tags": ["tech", "sécurité", "France"]
+        },
+        {
+          "name": "Korben - Sécurité (FR)",
+          "url": "https://korben.info/feed",
+          "language": "fr",
+          "priority": "medium",
+          "tags": ["tutoriels", "sécurité", "geek"]
+        },
+        {
+          "name": "IT Social - Cybersécurité (FR)",
+          "url": "https://www.itsocial.fr/topics/cybersecurite/feed/",
+          "language": "fr",
+          "priority": "medium",
+          "tags": ["actualités", "IT", "entreprise"]
+        },
+        {
+          "name": "LeMagIT - Sécurité (FR)",
+          "url": "https://www.lemagit.fr/securite/rss",
+          "language": "fr",
+          "priority": "medium",
+          "tags": ["entreprise", "sécurité", "France"]
+        },
+        {
+          "name": "Cyberguerre (FR)",
+          "url": "https://www.cyberguerre.com/feed/",
           "language": "fr",
           "priority": "low",
-          "tags": ["actualités", "IT"]
+          "tags": ["actualités", "cyberguerre"]
+        },
+        {
+          "name": "Cryptologie (FR)",
+          "url": "https://www.cryptologie.net/index.xml",
+          "language": "fr",
+          "priority": "low",
+          "tags": ["crypto", "sécurité", "recherche"]
+        },
+        {
+          "name": "CNIL - Actualités (FR)",
+          "url": "https://www.cnil.fr/fr/rss.xml",
+          "language": "fr",
+          "priority": "medium",
+          "tags": ["RGPD", "confidentialité", "France"]
         }
       ]
     }
@@ -248,13 +346,64 @@
           "name": "Grafikart (FR)",
           "url": "https://www.grafikart.fr/rss",
           "language": "fr",
-          "priority": "medium"
+          "priority": "high",
+          "tags": ["tutoriels", "développement", "France"]
         },
         {
           "name": "JDN Développeurs (FR)",
           "url": "https://www.journaldunet.com/developpeur/rss",
           "language": "fr",
-          "priority": "low"
+          "priority": "medium",
+          "tags": ["actualités", "développement", "France"]
+        },
+        {
+          "name": "Alsacreations (FR)",
+          "url": "https://www.alsacreations.com/rss.xml",
+          "language": "fr",
+          "priority": "high",
+          "tags": ["web", "frontend", "France"]
+        },
+        {
+          "name": "Putain de Code (FR)",
+          "url": "https://putaindecode.io/feed.xml",
+          "language": "fr",
+          "priority": "medium",
+          "tags": ["tutoriels", "JavaScript", "France"]
+        },
+        {
+          "name": "Human Coders News (FR)",
+          "url": "https://news.humancoders.com/rss",
+          "language": "fr",
+          "priority": "high",
+          "tags": ["actualités", "développement", "France"]
+        },
+        {
+          "name": "Zestedesavoir - Dev (FR)",
+          "url": "https://zestedesavoir.com/contenus/flux/rss/?tag=d%C3%A9veloppement",
+          "language": "fr",
+          "priority": "medium",
+          "tags": ["tutoriels", "communauté", "France"]
+        },
+        {
+          "name": "Blog Technique Octo (FR)",
+          "url": "https://blog.octo.com/feed/",
+          "language": "fr",
+          "priority": "medium",
+          "tags": ["architecture", "DevOps", "France"]
+        },
+        {
+          "name": "Delicious Insights (FR)",
+          "url": "https://delicious-insights.com/fr/feed.xml",
+          "language": "fr",
+          "priority": "medium",
+          "tags": ["JavaScript", "formation", "France"]
+        },
+        {
+          "name": "Tech.io (FR)",
+          "url": "https://tech.io/blog/rss",
+          "language": "fr",
+          "priority": "low",
+          "tags": ["coding", "playground", "France"]
         }
       ],
       "angular": [
@@ -519,10 +668,67 @@
         "priority": "medium"
       },
       {
-        "name": "Les Echos - Finance",
+        "name": "Les Echos - Finance (FR)",
         "url": "https://www.lesechos.fr/finance-marches/rss.xml",
         "language": "fr",
-        "priority": "medium"
+        "priority": "high",
+        "tags": ["finance", "économie", "France"]
+      },
+      {
+        "name": "Journal du Coin (FR)",
+        "url": "https://journalducoin.com/feed/",
+        "language": "fr",
+        "priority": "high",
+        "tags": ["crypto", "blockchain", "France"]
+      },
+      {
+        "name": "Cointribune (FR)",
+        "url": "https://www.cointribune.com/feed/",
+        "language": "fr",
+        "priority": "high",
+        "tags": ["crypto", "actualités", "France"]
+      },
+      {
+        "name": "Cryptoast (FR)",
+        "url": "https://cryptoast.fr/feed/",
+        "language": "fr",
+        "priority": "medium",
+        "tags": ["crypto", "tutoriels", "France"]
+      },
+      {
+        "name": "Finyear - FinTech (FR)",
+        "url": "https://www.finyear.com/feed/",
+        "language": "fr",
+        "priority": "medium",
+        "tags": ["fintech", "innovation", "France"]
+      },
+      {
+        "name": "Maddyness - FinTech (FR)",
+        "url": "https://www.maddyness.com/tag/fintech/feed/",
+        "language": "fr",
+        "priority": "medium",
+        "tags": ["fintech", "startup", "France"]
+      },
+      {
+        "name": "Bitcoin.fr (FR)",
+        "url": "https://bitcoin.fr/feed/",
+        "language": "fr",
+        "priority": "low",
+        "tags": ["bitcoin", "crypto", "France"]
+      },
+      {
+        "name": "Café de la Bourse - Crypto (FR)",
+        "url": "https://www.cafedelabourse.com/feeds/crypto",
+        "language": "fr",
+        "priority": "low",
+        "tags": ["crypto", "investissement", "France"]
+      },
+      {
+        "name": "BFM Crypto (FR)",
+        "url": "https://crypto.bfmtv.com/rss/",
+        "language": "fr",
+        "priority": "medium",
+        "tags": ["crypto", "actualités", "médias"]
       }
     ]
   },

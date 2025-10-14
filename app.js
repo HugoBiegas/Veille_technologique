@@ -506,6 +506,7 @@ class AppController {
         this.allArticles = [];
         this.filteredArticles = [];
         this.currentView = localStorage.getItem(CONFIG.localStorageKeys.viewMode) || 'cards';
+        this.refreshIntervalId = null; // Pour gérer l'auto-refresh
         
         // Critères de filtrage
         this.filterCriteria = {
@@ -525,6 +526,37 @@ class AppController {
         this.applyInitialView();
         await this.loadArticles();
         this.updateLastUpdateTime();
+        this.startAutoRefresh(); // Active l'auto-refresh
+    }
+
+    /**
+     * Démarre l'actualisation automatique toutes les 3 minutes
+     */
+    startAutoRefresh() {
+        console.log('🔄 Auto-refresh activé (toutes les 3 minutes)');
+        
+        // Nettoie l'intervalle existant s'il y en a un
+        if (this.refreshIntervalId) {
+            clearInterval(this.refreshIntervalId);
+        }
+        
+        // Crée un nouvel intervalle
+        this.refreshIntervalId = setInterval(async () => {
+            console.log('🔄 Auto-refresh en cours...');
+            await this.loadArticles(true); // true = refresh silencieux
+            this.updateLastUpdateTime();
+        }, CONFIG.refreshInterval);
+    }
+
+    /**
+     * Arrête l'actualisation automatique
+     */
+    stopAutoRefresh() {
+        if (this.refreshIntervalId) {
+            clearInterval(this.refreshIntervalId);
+            this.refreshIntervalId = null;
+            console.log('⏸️ Auto-refresh désactivé');
+        }
     }
 
     /**
@@ -590,6 +622,45 @@ class AppController {
             btn.classList.toggle('text-white', this.filterCriteria.favoritesOnly);
             this.applyFilters();
         });
+
+        // Header qui se cache au scroll
+        this.setupScrollHeader();
+    }
+
+    /**
+     * Configure le comportement du header au scroll
+     */
+    setupScrollHeader() {
+        let lastScrollTop = 0;
+        let isScrolling = false;
+        const header = document.getElementById('mainHeader');
+        const scrollThreshold = 100; // Pixels avant de cacher le header
+
+        window.addEventListener('scroll', () => {
+            if (!isScrolling) {
+                window.requestAnimationFrame(() => {
+                    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+                    
+                    if (scrollTop > scrollThreshold) {
+                        if (scrollTop > lastScrollTop) {
+                            // Scroll vers le bas - cache le header
+                            header.style.transform = 'translateY(-100%)';
+                        } else {
+                            // Scroll vers le haut - montre le header
+                            header.style.transform = 'translateY(0)';
+                        }
+                    } else {
+                        // En haut de page - toujours visible
+                        header.style.transform = 'translateY(0)';
+                    }
+                    
+                    lastScrollTop = scrollTop;
+                    isScrolling = false;
+                });
+                
+                isScrolling = true;
+            }
+        });
     }
 
     /**
@@ -609,9 +680,20 @@ class AppController {
     /**
      * Chargement des articles
      */
-    async loadArticles() {
-        this.showLoading(true);
+    async loadArticles(silent = false) {
+        if (!silent) {
+            this.showLoading(true);
+        }
+        
+        const previousCount = this.allArticles.length;
         this.allArticles = await this.dataService.loadAllArticles();
+        
+        // Affiche une notification si de nouveaux articles sont trouvés
+        if (silent && this.allArticles.length > previousCount) {
+            const newCount = this.allArticles.length - previousCount;
+            this.showNotification(`✨ ${newCount} nouveau${newCount > 1 ? 'x' : ''} article${newCount > 1 ? 's' : ''} !`);
+        }
+        
         this.applyFilters();
         this.updateStats();
     }
@@ -748,6 +830,34 @@ class AppController {
             minute: '2-digit' 
         });
         document.getElementById('lastUpdate').textContent = timeString;
+    }
+
+    /**
+     * Affiche une notification toast
+     */
+    showNotification(message) {
+        // Crée l'élément de notification s'il n'existe pas
+        let notification = document.getElementById('notification-toast');
+        
+        if (!notification) {
+            notification = document.createElement('div');
+            notification.id = 'notification-toast';
+            notification.className = 'fixed bottom-4 right-4 bg-primary text-white px-6 py-3 rounded-lg shadow-lg transform translate-y-full transition-transform duration-300 z-50';
+            document.body.appendChild(notification);
+        }
+        
+        // Met à jour le message
+        notification.textContent = message;
+        
+        // Affiche la notification
+        setTimeout(() => {
+            notification.classList.remove('translate-y-full');
+        }, 100);
+        
+        // Cache la notification après 3 secondes
+        setTimeout(() => {
+            notification.classList.add('translate-y-full');
+        }, 3000);
     }
 }
 
