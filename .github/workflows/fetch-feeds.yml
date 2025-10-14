@@ -1,0 +1,138 @@
+name: 🔄 Fetch RSS Feeds
+
+on:
+  # Exécution automatique toutes les 3 heures
+  schedule:
+    - cron: '0 */3 * * *'
+  
+  # Permet l'exécution manuelle depuis l'interface GitHub
+  workflow_dispatch:
+  
+  # Exécution à chaque push sur main (pour tester)
+  push:
+    branches:
+      - main
+    paths:
+      - 'scripts/**'
+      - 'feeds/**'
+      - '.github/workflows/**'
+
+# Permissions nécessaires pour commit et push
+permissions:
+  contents: write
+
+jobs:
+  fetch-and-update:
+    runs-on: ubuntu-latest
+    
+    steps:
+      # 1. Checkout du repository
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      # 2. Setup Python
+      - name: 🐍 Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      
+      # 3. Installation des dépendances
+      - name: 📦 Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      
+      # 4. Exécution du script de fetch
+      - name: 🔍 Fetch RSS feeds
+        run: |
+          python scripts/fetch-feeds.py
+        continue-on-error: false
+      
+      # 5. Vérification des changements
+      - name: 📊 Check for changes
+        id: check_changes
+        run: |
+          if git diff --quiet data/; then
+            echo "changes=false" >> $GITHUB_OUTPUT
+            echo "ℹ️  No changes detected"
+          else
+            echo "changes=true" >> $GITHUB_OUTPUT
+            echo "✅ Changes detected in data/"
+          fi
+      
+      # 6. Commit et push des changements
+      - name: 💾 Commit and push changes
+        if: steps.check_changes.outputs.changes == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          # Add les fichiers JSON modifiés
+          git add data/*.json
+          
+          # Commit avec un message horodaté
+          TIMESTAMP=$(date +'%Y-%m-%d %H:%M UTC')
+          git commit -m "🔄 Update feeds: $TIMESTAMP
+
+          Automated update via GitHub Actions
+          Workflow: ${{ github.workflow }}
+          Run: ${{ github.run_number }}"
+          
+          # Push vers main
+          git push
+      
+      # 7. Summary du job
+      - name: 📝 Job summary
+        if: always()
+        run: |
+          echo "## 📰 Tech Veille RSS Update" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Timestamp:** $(date +'%Y-%m-%d %H:%M UTC')" >> $GITHUB_STEP_SUMMARY
+          echo "**Workflow:** ${{ github.workflow }}" >> $GITHUB_STEP_SUMMARY
+          echo "**Run number:** #${{ github.run_number }}" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          if [ "${{ steps.check_changes.outputs.changes }}" == "true" ]; then
+            echo "✅ **Status:** Feeds updated successfully" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "ℹ️  **Status:** No new articles found" >> $GITHUB_STEP_SUMMARY
+          fi
+          
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### 📊 Updated Files" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- 🤖 AI News: \`data/ai_news.json\`" >> $GITHUB_STEP_SUMMARY
+          echo "- 🔒 Security News: \`data/security_news.json\`" >> $GITHUB_STEP_SUMMARY
+          echo "- 💻 Dev News: \`data/dev_news.json\`" >> $GITHUB_STEP_SUMMARY
+          echo "- 💰 Finance News: \`data/finance_news.json\`" >> $GITHUB_STEP_SUMMARY
+      
+      # 8. Notification en cas d'échec (optionnel)
+      - name: ⚠️ Notify on failure
+        if: failure()
+        run: |
+          echo "❌ Workflow failed!" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Please check the logs for more details." >> $GITHUB_STEP_SUMMARY
+
+  # Job optionnel : Deploy sur GitHub Pages
+  deploy-pages:
+    needs: fetch-and-update
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: 📥 Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+      
+      - name: 🚀 Deploy info
+        run: |
+          echo "## 🚀 GitHub Pages Deployment" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Site will be automatically deployed to GitHub Pages" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**URL:** https://${{ github.repository_owner }}.github.io/tech-veille/" >> $GITHUB_STEP_SUMMARY

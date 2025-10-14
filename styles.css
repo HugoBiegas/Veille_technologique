@@ -1,0 +1,475 @@
+/**
+ * Tech Veille - Styles Personnalisés
+ * Complément à Tailwind CSS pour des styles spécifiques
+ */
+
+/* ============================================================================
+   VARIABLES CSS (Dark Mode Compatible)
+   ============================================================================ */
+:root {
+    --primary: #3b82f6;
+    --primary-dark: #2563eb;
+    --secondary: #8b5cf6;
+    --accent: #ec4899;
+    --success: #10b981;
+    --warning: #f59e0b;
+    --danger: #ef4444;
+    
+    --bg-primary: #ffffff;
+    --bg-secondary: #f9fafb;
+    --text-primary: #111827;
+    --text-secondary: #6b7280;
+    
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    
+    --transition-fast: 150ms;
+    --transition-normal: 300ms;
+    --transition-slow: 500ms;
+}
+
+.dark {
+    --bg-primary: #1f2937;
+    --bg-secondary: #111827;
+    --text-primary: #f9fafb;
+    --text-secondary: #9ca3af;
+}
+
+/* ============================================================================
+   ANIMATIONS PERSONNALISÉES
+   ============================================================================ */
+
+/* Fade In avec translation */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Pulse pour les notifications */
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+}
+
+/* Rotation pour le refresh */
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Scale pour les hover effects */
+@keyframes scaleIn {
+    from {
+        transform: scale(0.95);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.3s ease-out;
+}
+
+.fade-in-up {
+    animation: fadeInUp 0.5s ease-out;
+}
+
+.animate-pulse {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.animate-spin {
+    animation: spin 1s linear infinite;
+}
+
+.scale-in {
+    animation: scaleIn 0.2s ease-out;
+}
+
+/* ============================================================================
+   STYLES DES TABS
+   ============================================================================ */
+
+.niche-tab {
+    transition: all var(--transition-normal) ease;
+    position: relative;
+}
+
+.niche-tab:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
+.niche-tab.active {
+    box-shadow: var(--shadow-lg);
+}
+
+.niche-tab.active::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    height: 3px;
+    background: currentColor;
+    border-radius: 2px;
+}
+
+/* ============================================================================
+   STYLES DES VIEW TOGGLES
+   ============================================================================ */
+
+.view-toggle {
+    transition: all var(--transition-fast) ease;
+    border-right: 1px solid #e5e7eb;
+}
+
+.dark .view-toggle {
+    border-right-color: #374151;
+}
+
+.view-toggle:last-child {
+    border-right: none;
+}
+
+.view-toggle:hover {
+    background-color: #f3f4f6;
+}
+
+.dark .view-toggle:hover {
+    background-color: #374151;
+}
+
+.view-toggle.active {
+    font-weight: 600;
+}
+
+/* ============================================================================
+   STYLES DES CARDS
+   ============================================================================ */
+
+article {
+    transition: all var(--transition-normal) ease;
+}
+
+article:hover {
+    transform: translateY(-4px);
+}
+
+/* Line clamp utilities (fallback si Tailwind ne fonctionne pas) */
+.line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* ============================================================================
+   SCROLLBAR PERSONNALISÉE
+   ============================================================================ */
+
+/* Pour Webkit (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+.dark ::-webkit-scrollbar-track {
+    background: #1f2937;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 4px;
+    transition: background var(--transition-fast);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+    background: #475569;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+    background: #64748b;
+}
+
+/* Pour Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #cbd5e1 #f1f1f1;
+}
+
+.dark * {
+    scrollbar-color: #475569 #1f2937;
+}
+
+/* ============================================================================
+   BOUTONS ET INTERACTIONS
+   ============================================================================ */
+
+button, a {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+}
+
+/* Style pour les boutons favoris */
+.favorite-btn {
+    transition: transform var(--transition-fast) ease;
+    cursor: pointer;
+    user-select: none;
+}
+
+.favorite-btn:active {
+    transform: scale(0.9);
+}
+
+.favorite-btn i {
+    transition: color var(--transition-fast) ease;
+}
+
+/* Effet de glow sur les étoiles favorites */
+.favorite-btn .fas.fa-star {
+    filter: drop-shadow(0 0 2px rgba(251, 191, 36, 0.5));
+}
+
+/* ============================================================================
+   FOCUS STYLES (Accessibilité)
+   ============================================================================ */
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible {
+    outline: 2px solid var(--primary);
+    outline-offset: 2px;
+    border-radius: 4px;
+}
+
+/* ============================================================================
+   LOADER / SPINNER
+   ============================================================================ */
+
+.loader {
+    border: 3px solid #f3f4f6;
+    border-top: 3px solid var(--primary);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+}
+
+.dark .loader {
+    border-color: #374151;
+    border-top-color: var(--primary);
+}
+
+/* ============================================================================
+   BADGES ET TAGS
+   ============================================================================ */
+
+.badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    transition: all var(--transition-fast) ease;
+}
+
+.badge:hover {
+    transform: scale(1.05);
+    box-shadow: var(--shadow-sm);
+}
+
+/* ============================================================================
+   SEARCH INPUT
+   ============================================================================ */
+
+#searchInput {
+    transition: all var(--transition-normal) ease;
+}
+
+#searchInput:focus {
+    transform: translateY(-1px);
+}
+
+#searchInput::placeholder {
+    transition: opacity var(--transition-fast) ease;
+}
+
+#searchInput:focus::placeholder {
+    opacity: 0.5;
+}
+
+/* ============================================================================
+   GRID LAYOUTS
+   ============================================================================ */
+
+/* Masonry layout alternative (si besoin) */
+.masonry-grid {
+    column-count: 3;
+    column-gap: 1.5rem;
+}
+
+.masonry-grid article {
+    break-inside: avoid;
+    margin-bottom: 1.5rem;
+}
+
+@media (max-width: 1024px) {
+    .masonry-grid {
+        column-count: 2;
+    }
+}
+
+@media (max-width: 768px) {
+    .masonry-grid {
+        column-count: 1;
+    }
+}
+
+/* ============================================================================
+   RESPONSIVE UTILITIES
+   ============================================================================ */
+
+/* Texte responsive */
+@media (max-width: 640px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    
+    h2 {
+        font-size: 1.25rem;
+    }
+    
+    h3 {
+        font-size: 1rem;
+    }
+}
+
+/* ============================================================================
+   PRINT STYLES
+   ============================================================================ */
+
+@media print {
+    body {
+        background: white;
+        color: black;
+    }
+    
+    header,
+    footer,
+    button,
+    .no-print {
+        display: none !important;
+    }
+    
+    article {
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+}
+
+/* ============================================================================
+   UTILITIES
+   ============================================================================ */
+
+/* Smooth scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Selection color */
+::selection {
+    background-color: var(--primary);
+    color: white;
+}
+
+::-moz-selection {
+    background-color: var(--primary);
+    color: white;
+}
+
+/* Empêcher la sélection du texte sur les boutons */
+button,
+.no-select {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Transition globale pour le dark mode */
+* {
+    transition-property: background-color, border-color, color, fill, stroke;
+    transition-duration: var(--transition-normal);
+    transition-timing-function: ease;
+}
+
+/* Désactiver les transitions pendant le chargement */
+.preload * {
+    transition: none !important;
+}
+
+/* ============================================================================
+   EASTER EGG / EXTRAS
+   ============================================================================ */
+
+/* Petit effet fun au survol du titre */
+h1:hover {
+    animation: pulse 1s ease-in-out;
+}
+
+/* Gradient text pour certains titres (optionnel) */
+.gradient-text {
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}

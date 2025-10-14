@@ -1,0 +1,166 @@
+# Tech Veille - .gitignore
+
+# ============================================================================
+# OS & Editors
+# ============================================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+
+# ============================================================================
+# Editors & IDEs
+# ============================================================================
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# JetBrains IDEs (WebStorm, PhpStorm, IntelliJ, etc.)
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+
+# ============================================================================
+# Logs & Temporary Files
+# ============================================================================
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+tmp/
+temp/
+
+# ============================================================================
+# Dependencies (si vous ajoutez un build process plus tard)
+# ============================================================================
+
+# Node
+node_modules/
+npm-debug.log
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Python (pour les scripts GitHub Actions)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# ============================================================================
+# Build & Distribution (si vous ajoutez un build process)
+# ============================================================================
+
+dist/
+build/
+*.min.js
+*.min.css
+
+# ============================================================================
+# Environment Variables
+# ============================================================================
+
+.env
+.env.local
+.env.*.local
+.env.production
+
+# ============================================================================
+# Backup files
+# ============================================================================
+
+*.bak
+*.backup
+*_backup
+*.old
+
+# ============================================================================
+# Testing
+# ============================================================================
+
+coverage/
+.nyc_output/
+*.lcov
+
+# ============================================================================
+# Optional: Si vous voulez ignorer les données pendant le développement
+# ============================================================================
+
+# Décommentez cette ligne si vous ne voulez pas commiter les JSON de données
+# data/*.json
+
+# ============================================================================
+# GitHub Pages
+# ============================================================================
+
+# Si vous utilisez Jekyll pour GitHub Pages (pas notre cas)
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# ============================================================================
+# Autres
+# ============================================================================
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# SSL/TLS certificates (si jamais vous en stockez localement)
+*.pem
+*.key
+*.crt
+*.cer
+
+# Database files (si jamais vous ajoutez une DB locale pour le dev)
+*.db
+*.sqlite
+*.sqlite3

@@ -1,0 +1,385 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "last_updated": "2025-10-14",
+    "description": "Liste des sources RSS pour l'agrégateur Tech Veille"
+  },
+  "ai": {
+    "name": "Intelligence Artificielle",
+    "sources": [
+      {
+        "name": "OpenAI Blog",
+        "url": "https://openai.com/blog/rss.xml",
+        "language": "en",
+        "priority": "high"
+      },
+      {
+        "name": "Google AI Blog",
+        "url": "https://blog.google/technology/ai/rss/",
+        "language": "en",
+        "priority": "high"
+      },
+      {
+        "name": "Anthropic News",
+        "url": "https://www.anthropic.com/news/rss",
+        "language": "en",
+        "priority": "high"
+      },
+      {
+        "name": "AI News",
+        "url": "https://www.artificialintelligence-news.com/feed/",
+        "language": "en",
+        "priority": "medium"
+      },
+      {
+        "name": "MIT Technology Review - AI",
+        "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+        "language": "en",
+        "priority": "high"
+      },
+      {
+        "name": "VentureBeat AI",
+        "url": "https://feeds.feedburner.com/venturebeat/SZYF",
+        "language": "en",
+        "priority": "medium"
+      },
+      {
+        "name": "DeepMind Blog",
+        "url": "https://deepmind.google/blog/rss.xml",
+        "language": "en",
+        "priority": "high"
+      },
+      {
+        "name": "Papers With Code",
+        "url": "https://paperswithcode.com/feed.xml",
+        "language": "en",
+        "priority": "medium"
+      }
+    ]
+  },
+  "security": {
+    "name": "Cybersécurité",
+    "sources": [
+      {
+        "name": "The Hacker News",
+        "url": "https://feeds.feedburner.com/TheHackersNews",
+        "language": "en",
+        "priority": "high"
+      },
+      {
+        "name": "Krebs on Security",
+        "url": "https://krebsonsecurity.com/feed/",
+        "language": "en",
+        "priority": "high"
+      },
+      {
+        "name": "Bleeping Computer",
+        "url": "https://www.bleepingcomputer.com/feed/",
+        "language": "en",
+        "priority": "high"
+      },
+      {
+        "name": "Dark Reading",
+        "url": "https://www.darkreading.com/rss.xml",
+        "language": "en",
+        "priority": "medium"
+      },
+      {
+        "name": "SecurityWeek",
+        "url": "https://www.securityweek.com/feed/",
+        "language": "en",
+        "priority": "medium"
+      },
+      {
+        "name": "Threatpost",
+        "url": "https://threatpost.com/feed/",
+        "language": "en",
+        "priority": "medium"
+      },
+      {
+        "name": "CERT-FR",
+        "url": "https://www.cert.ssi.gouv.fr/feed/",
+        "language": "fr",
+        "priority": "high"
+      },
+      {
+        "name": "Schneier on Security",
+        "url": "https://www.schneier.com/feed/",
+        "language": "en",
+        "priority": "high"
+      },
+      {
+        "name": "ANSSI",
+        "url": "https://www.ssi.gouv.fr/actualite/rss/",
+        "language": "fr",
+        "priority": "high"
+      },
+      {
+        "name": "Troy Hunt",
+        "url": "https://www.troyhunt.com/rss/",
+        "language": "en",
+        "priority": "medium"
+      }
+    ]
+  },
+  "dev": {
+    "name": "Développement",
+    "subsections": {
+      "general": [
+        {
+          "name": "Dev.to",
+          "url": "https://dev.to/feed",
+          "language": "en",
+          "priority": "medium"
+        },
+        {
+          "name": "Hacker News",
+          "url": "https://hnrss.org/frontpage",
+          "language": "en",
+          "priority": "high"
+        },
+        {
+          "name": "CSS-Tricks",
+          "url": "https://css-tricks.com/feed/",
+          "language": "en",
+          "priority": "medium"
+        },
+        {
+          "name": "Smashing Magazine",
+          "url": "https://www.smashingmagazine.com/feed/",
+          "language": "en",
+          "priority": "medium"
+        }
+      ],
+      "angular": [
+        {
+          "name": "Angular Blog",
+          "url": "https://blog.angular.io/feed",
+          "language": "en",
+          "priority": "high"
+        },
+        {
+          "name": "Angular In Depth",
+          "url": "https://indepth.dev/angular/rss.xml",
+          "language": "en",
+          "priority": "medium"
+        },
+        {
+          "name": "This is Angular",
+          "url": "https://dev.to/feed/tag/angular",
+          "language": "en",
+          "priority": "medium"
+        }
+      ],
+      "javascript": [
+        {
+          "name": "JavaScript Weekly",
+          "url": "https://javascriptweekly.com/rss/",
+          "language": "en",
+          "priority": "high"
+        },
+        {
+          "name": "2ality",
+          "url": "https://2ality.com/feeds/posts.atom",
+          "language": "en",
+          "priority": "medium"
+        },
+        {
+          "name": "Node.js Blog",
+          "url": "https://nodejs.org/en/feed/blog.xml",
+          "language": "en",
+          "priority": "high"
+        }
+      ],
+      "php": [
+        {
+          "name": "PHP.Watch",
+          "url": "https://php.watch/feed/articles",
+          "language": "en",
+          "priority": "high"
+        },
+        {
+          "name": "Laravel News",
+          "url": "https://laravel-news.com/feed",
+          "language": "en",
+          "priority": "high"
+        },
+        {
+          "name": "Symfony Blog",
+          "url": "https://symfony.com/blog/rss.xml",
+          "language": "en",
+          "priority": "high"
+        },
+        {
+          "name": "PHP Internals",
+          "url": "https://externals.io/feed",
+          "language": "en",
+          "priority": "medium"
+        }
+      ],
+      "java": [
+        {
+          "name": "Spring Blog",
+          "url": "https://spring.io/blog.atom",
+          "language": "en",
+          "priority": "high"
+        },
+        {
+          "name": "Baeldung",
+          "url": "https://www.baeldung.com/feed/",
+          "language": "en",
+          "priority": "high"
+        },
+        {
+          "name": "InfoQ Java",
+          "url": "https://www.infoq.com/java/rss",
+          "language": "en",
+          "priority": "medium"
+        },
+        {
+          "name": "Oracle Java Magazine",
+          "url": "https://blogs.oracle.com/java/rss",
+          "language": "en",
+          "priority": "medium"
+        }
+      ],
+      "mobile": [
+        {
+          "name": "Android Developers Blog",
+          "url": "https://android-developers.googleblog.com/feeds/posts/default",
+          "language": "en",
+          "priority": "high"
+        },
+        {
+          "name": "iOS Dev Weekly",
+          "url": "https://iosdevweekly.com/issues.rss",
+          "language": "en",
+          "priority": "medium"
+        },
+        {
+          "name": "React Native Blog",
+          "url": "https://reactnative.dev/blog/rss.xml",
+          "language": "en",
+          "priority": "high"
+        }
+      ]
+    }
+  },
+  "finance": {
+    "name": "Finance & FinTech",
+    "sources": [
+      {
+        "name": "TechCrunch Fintech",
+        "url": "https://techcrunch.com/tag/fintech/feed/",
+        "language": "en",
+        "priority": "high"
+      },
+      {
+        "name": "CoinDesk",
+        "url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+        "language": "en",
+        "priority": "high"
+      },
+      {
+        "name": "The Block",
+        "url": "https://www.theblockcrypto.com/rss.xml",
+        "language": "en",
+        "priority": "high"
+      },
+      {
+        "name": "Decrypt",
+        "url": "https://decrypt.co/feed",
+        "language": "en",
+        "priority": "medium"
+      },
+      {
+        "name": "Finextra",
+        "url": "https://www.finextra.com/rss/headlines.aspx",
+        "language": "en",
+        "priority": "medium"
+      },
+      {
+        "name": "PaymentsSource",
+        "url": "https://www.paymentssource.com/feed",
+        "language": "en",
+        "priority": "medium"
+      },
+      {
+        "name": "Fintechnews",
+        "url": "https://fintechnews.ch/feed/",
+        "language": "en",
+        "priority": "medium"
+      },
+      {
+        "name": "Les Echos - Finance",
+        "url": "https://www.lesechos.fr/finance-marches/rss.xml",
+        "language": "fr",
+        "priority": "medium"
+      }
+    ]
+  },
+  "keywords": {
+    "ai": [
+      "artificial intelligence",
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "GPT",
+      "LLM",
+      "transformer",
+      "generative AI",
+      "AGI",
+      "computer vision",
+      "NLP",
+      "reinforcement learning"
+    ],
+    "security": [
+      "vulnerability",
+      "exploit",
+      "zero-day",
+      "ransomware",
+      "malware",
+      "phishing",
+      "data breach",
+      "CVE",
+      "cybersecurity",
+      "penetration testing",
+      "encryption",
+      "authentication",
+      "DDoS",
+      "firewall"
+    ],
+    "dev": [
+      "programming",
+      "development",
+      "framework",
+      "library",
+      "API",
+      "database",
+      "cloud",
+      "docker",
+      "kubernetes",
+      "CI/CD",
+      "devops",
+      "microservices",
+      "serverless",
+      "performance"
+    ],
+    "finance": [
+      "fintech",
+      "blockchain",
+      "cryptocurrency",
+      "bitcoin",
+      "ethereum",
+      "DeFi",
+      "payment",
+      "banking",
+      "trading",
+      "investment",
+      "wallet",
+      "stablecoin",
+      "NFT",
+      "RegTech"
+    ]
+  }
+}

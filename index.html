@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Veille - Agrégateur d'Actualités Tech</title>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome pour les icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Styles personnalisés -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Configuration Tailwind personnalisée -->
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#3b82f6',
+                        secondary: '#8b5cf6',
+                        accent: '#ec4899',
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        /* Animations personnalisées */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .fade-in {
+            animation: fadeIn 0.3s ease-out;
+        }
+        
+        /* Scrollbar personnalisée */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        
+        .dark ::-webkit-scrollbar-track {
+            background: #1f2937;
+        }
+        
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 4px;
+        }
+        
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
+    
+    <!-- Header -->
+    <header class="bg-white dark:bg-gray-800 shadow-md sticky top-0 z-50 transition-colors">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <!-- Logo & Titre -->
+                <div class="flex items-center space-x-3">
+                    <i class="fas fa-newspaper text-3xl text-primary dark:text-blue-400"></i>
+                    <div>
+                        <h1 class="text-2xl font-bold text-gray-800 dark:text-white">Tech Veille</h1>
+                        <p class="text-sm text-gray-500 dark:text-gray-400">Votre agrégateur d'actualités tech</p>
+                    </div>
+                </div>
+                
+                <!-- Actions Header -->
+                <div class="flex items-center space-x-4">
+                    <!-- Dark Mode Toggle -->
+                    <button id="darkModeToggle" class="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition" aria-label="Toggle dark mode">
+                        <i class="fas fa-moon text-gray-600 dark:text-yellow-400 text-xl"></i>
+                    </button>
+                    
+                    <!-- Refresh Button -->
+                    <button id="refreshBtn" class="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition" aria-label="Actualiser">
+                        <i class="fas fa-sync-alt text-gray-600 dark:text-gray-400 text-xl"></i>
+                    </button>
+                    
+                    <!-- Stats -->
+                    <div class="hidden md:flex items-center space-x-2 bg-gray-100 dark:bg-gray-700 px-3 py-2 rounded-lg">
+                        <i class="fas fa-chart-line text-primary"></i>
+                        <span id="totalArticles" class="text-sm font-semibold text-gray-700 dark:text-gray-300">0</span>
+                        <span class="text-xs text-gray-500 dark:text-gray-400">articles</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Barre de recherche -->
+            <div class="mt-4">
+                <div class="relative">
+                    <input 
+                        type="text" 
+                        id="searchInput"
+                        placeholder="Rechercher un article, une technologie, un sujet..."
+                        class="w-full px-4 py-3 pl-12 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-800 dark:text-white focus:ring-2 focus:ring-primary focus:border-transparent transition"
+                    >
+                    <i class="fas fa-search absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400"></i>
+                    <button id="clearSearch" class="absolute right-4 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-gray-600 hidden">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-6">
+        
+        <!-- Filtres & Tabs -->
+        <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-4 mb-6 transition-colors">
+            
+            <!-- Tabs de Niches -->
+            <div class="flex flex-wrap gap-2 mb-4 border-b border-gray-200 dark:border-gray-700 pb-4">
+                <button class="niche-tab active px-4 py-2 rounded-lg font-medium transition" data-niche="all">
+                    <i class="fas fa-globe mr-2"></i>Tous
+                </button>
+                <button class="niche-tab px-4 py-2 rounded-lg font-medium transition" data-niche="ai">
+                    <i class="fas fa-brain mr-2"></i>IA
+                </button>
+                <button class="niche-tab px-4 py-2 rounded-lg font-medium transition" data-niche="security">
+                    <i class="fas fa-shield-alt mr-2"></i>Cybersécurité
+                </button>
+                <button class="niche-tab px-4 py-2 rounded-lg font-medium transition" data-niche="dev">
+                    <i class="fas fa-code mr-2"></i>Développement
+                </button>
+                <button class="niche-tab px-4 py-2 rounded-lg font-medium transition" data-niche="finance">
+                    <i class="fas fa-chart-line mr-2"></i>Finance
+                </button>
+            </div>
+            
+            <!-- Filtres supplémentaires -->
+            <div class="flex flex-wrap items-center gap-4">
+                <!-- Tri -->
+                <div class="flex items-center space-x-2">
+                    <label class="text-sm font-medium text-gray-700 dark:text-gray-300">Trier par:</label>
+                    <select id="sortBy" class="px-3 py-2 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-800 dark:text-white focus:ring-2 focus:ring-primary transition">
+                        <option value="date">Date</option>
+                        <option value="relevance">Pertinence</option>
+                        <option value="source">Source</option>
+                    </select>
+                </div>
+                
+                <!-- Vue -->
+                <div class="flex items-center space-x-2">
+                    <label class="text-sm font-medium text-gray-700 dark:text-gray-300">Vue:</label>
+                    <div class="flex rounded-lg border border-gray-300 dark:border-gray-600 overflow-hidden">
+                        <button id="viewCards" class="view-toggle active px-3 py-2 transition" data-view="cards">
+                            <i class="fas fa-th"></i>
+                        </button>
+                        <button id="viewList" class="view-toggle px-3 py-2 transition" data-view="list">
+                            <i class="fas fa-list"></i>
+                        </button>
+                        <button id="viewCompact" class="view-toggle px-3 py-2 transition" data-view="compact">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Afficher les favoris uniquement -->
+                <button id="favoritesOnlyToggle" class="px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-700 transition">
+                    <i class="far fa-star mr-2"></i>
+                    <span class="text-sm font-medium text-gray-700 dark:text-gray-300">Favoris uniquement</span>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Zone d'affichage des résultats -->
+        <div id="articlesContainer" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Les articles seront injectés ici via JavaScript -->
+        </div>
+        
+        <!-- Message de chargement -->
+        <div id="loadingMessage" class="text-center py-12">
+            <i class="fas fa-spinner fa-spin text-4xl text-primary mb-4"></i>
+            <p class="text-gray-600 dark:text-gray-400">Chargement des articles...</p>
+        </div>
+        
+        <!-- Message aucun résultat -->
+        <div id="noResultsMessage" class="hidden text-center py-12">
+            <i class="fas fa-search text-4xl text-gray-400 mb-4"></i>
+            <p class="text-gray-600 dark:text-gray-400 text-lg">Aucun article trouvé</p>
+            <p class="text-gray-500 dark:text-gray-500 text-sm mt-2">Essayez de modifier vos filtres ou votre recherche</p>
+        </div>
+        
+    </main>
+    
+    <!-- Footer -->
+    <footer class="bg-white dark:bg-gray-800 shadow-md mt-12 transition-colors">
+        <div class="container mx-auto px-4 py-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-600 dark:text-gray-400 text-sm">
+                    © 2025 Tech Veille - Propulsé par GitHub Actions
+                </p>
+                <div class="flex items-center space-x-4 mt-4 md:mt-0">
+                    <a href="https://github.com/votre-repo" class="text-gray-600 dark:text-gray-400 hover:text-primary transition" target="_blank" rel="noopener">
+                        <i class="fab fa-github text-xl"></i>
+                    </a>
+                    <span class="text-xs text-gray-500 dark:text-gray-500">
+                        Dernière mise à jour: <span id="lastUpdate">--</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Script JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>
