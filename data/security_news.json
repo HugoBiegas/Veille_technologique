@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-10-15T11:29:25.578427+00:00",
-  "total_articles": 247,
+  "last_updated": "2025-10-15T12:51:27.913320+00:00",
+  "total_articles": 253,
   "articles": [
     {
       "id": "1cd3c58481190acf",
@@ -189,6 +189,22 @@
         "attack",
         "malware",
         "cybersecurity"
+      ]
+    },
+    {
+      "id": "f64d499c1d4132d0",
+      "title": "How Attackers Bypass Synced Passkeys",
+      "description": "TLDR Even if you take nothing else away from this piece, if your organization is evaluating passkey deployments, it is insecure to deploy synced passkeys. Synced passkeys inherit the risk of the cloud accounts and recovery processes that protect them, which creates material enterprise exposure. Adversary-in-the-middle (AiTM) kits can force authentication fallbacks that circumvent strong",
+      "url": "https://thehackernews.com/2025/10/how-attackers-bypass-synced-passkeys.html",
+      "source": "The Hacker News",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2025-10-15T17:00:00+05:30",
+      "niche": "security",
+      "score": 85,
+      "keywords": [
+        "secure",
+        "attack",
+        "RCE"
       ]
     },
     {
@@ -665,23 +681,6 @@
       "keywords": []
     },
     {
-      "id": "b766c220ed141489",
-      "title": "Microsoft Patch Tuesday, September 2025 Edition",
-      "description": "Microsoft Corp. today issued security updates to fix more than 80 vulnerabilities in its Windows operating systems and software. There are no known \"zero-day\" or actively exploited vulnerabilities in this month's bundle from Redmond, which nevertheless includes patches for 13 flaws that earned Microsoft's most-dire \"critical\" label. Meanwhile, both Apple and Google recently released updates to fix zero-day bugs in their devices.",
-      "url": "https://krebsonsecurity.com/2025/09/microsoft-patch-tuesday-september-2025-edition/",
-      "source": "Krebs on Security",
-      "author": "BrianKrebs",
-      "published": "2025-09-09T21:21:14+00:00",
-      "niche": "security",
-      "score": 63,
-      "keywords": [
-        "exploit",
-        "zero-day",
-        "patch",
-        "security"
-      ]
-    },
-    {
       "id": "983b8b1c899a765b",
       "title": "Scattered Lapsus$ Hunters extortion site goes dark: What’s next?",
       "description": "Is this really the end of the road for the notorious Scattered Lapsus$ Hunters ransomware alliance? Last week, the extortion supergroup had its dark web and clearnet domains seized by police, the latest setback to befall the alliance that had threatened to release Salesforce data allegedly stolen from 39 companies, including Google, in a mass social engineering attack. However, one of the group’s dark web sites remained accessible. As promised, on October 10 at 11.59 p.m. EDT, the group used it ",
@@ -715,6 +714,23 @@
       ]
     },
     {
+      "id": "b766c220ed141489",
+      "title": "Microsoft Patch Tuesday, September 2025 Edition",
+      "description": "Microsoft Corp. today issued security updates to fix more than 80 vulnerabilities in its Windows operating systems and software. There are no known \"zero-day\" or actively exploited vulnerabilities in this month's bundle from Redmond, which nevertheless includes patches for 13 flaws that earned Microsoft's most-dire \"critical\" label. Meanwhile, both Apple and Google recently released updates to fix zero-day bugs in their devices.",
+      "url": "https://krebsonsecurity.com/2025/09/microsoft-patch-tuesday-september-2025-edition/",
+      "source": "Krebs on Security",
+      "author": "BrianKrebs",
+      "published": "2025-09-09T21:21:14+00:00",
+      "niche": "security",
+      "score": 63,
+      "keywords": [
+        "exploit",
+        "zero-day",
+        "patch",
+        "security"
+      ]
+    },
+    {
       "id": "1c1235ebd2a06b93",
       "title": "RMPocalypse: New Attack Breaks AMD Confidential Computing",
       "description": "A vulnerability in RMP initialization allows the AMD processor’s x86 cores to maliciously control parts of the initial RMP state. The post RMPocalypse: New Attack Breaks AMD Confidential Computing appeared first on SecurityWeek.",
@@ -732,6 +748,23 @@
       ]
     },
     {
+      "id": "9a204714fe659328",
+      "title": "TigerJack’s malicious VSCode extensions mine, steal, and stay hidden",
+      "description": "In a new disclosure, security researchers revealed that a threat actor group called TigerJack has been publishing malicious extensions on Microsoft’s Visual Studio Code (VSCode) Marketplace and the OpenVSX registry to steal source code, plant cryptominers, and maintain remote access. According to Koi Security’s findings, two of the campaign’s popular extensions – “C++ Payground” and “HTTP Format” – were removed after accumulating over 17,000 downloads, but the operation continues through re-uplo",
+      "url": "https://www.csoonline.com/article/4072829/tigerjacks-malicious-vscode-extensions-mine-steal-and-stay-hidden.html",
+      "source": "CSO Online",
+      "author": "Inconnu",
+      "published": "2025-10-15T11:52:49+00:00",
+      "niche": "security",
+      "score": 61,
+      "keywords": [
+        "disclosure",
+        "RCE",
+        "security",
+        "threat"
+      ]
+    },
+    {
       "id": "b8d3a025890603ad",
       "title": "cdxgen and CycloneDX .NET Join GitHub Secure Open Source Fund",
       "description": "cdxgen and CycloneDX .NET participated in the GitHub Secure Open Source Fund Strengthening supply-chain security from the inside out. In the domain of supply-chain security, two distinct aspects exist: security within the supply chain and the security of the supply chain itself. The CycloneDX specification, an OWASP flagship project, is supported by a community that maintains an extensive ecosystem of open-source specifications, libraries, and tools, focusing primarily on enhancing security and ",
@@ -744,8 +777,8 @@
       "keywords": [
         "secure",
         "OWASP",
-        "security",
-        "RCE"
+        "RCE",
+        "security"
       ]
     },
     {
@@ -987,6 +1020,21 @@
       ]
     },
     {
+      "id": "abd719c7e0df8066",
+      "title": "Flax Typhoon exploited ArcGIS to gain long-term access",
+      "description": "An advanced persistent threat (APT) group, Flax Typhoon, was able to gain persistent access to the mapping tool ArcGIS for over a year, putting several enterprises at risk. ArcGIS is a geospatial platform developed by ESRI, often relied upon by organizations to understand and analyze data in a geographic context. China-based Flax Typhoon, also known as Ethereal Panda, modified the geo-mapping application’s Java server object extension (SOE) into a functioning web shell, according to new research",
+      "url": "https://www.csoonline.com/article/4072876/flax-typhoon-exploited-arcgis-to-gain-long-term-access.html",
+      "source": "CSO Online",
+      "author": "Inconnu",
+      "published": "2025-10-15T12:36:27+00:00",
+      "niche": "security",
+      "score": 55,
+      "keywords": [
+        "exploit",
+        "threat"
+      ]
+    },
+    {
       "id": "ad0091b1dfca1a3b",
       "title": "OWASP Calls to Build a Unified Framework for Global Vulnerability Intelligence",
       "description": "In response to increasing concerns over the effectiveness of the CVE Program and the sustainability of the U.S. government’s role in managing the world’s largest vulnerability database, cybersecurity leaders and international stakeholders are coming together to explore a federated model for vulnerability identification. The initiative seeks to address modern security challenges—such as the shift toward hyper-automation, the dominance of open-source software, and emerging needs in cryptography, a",
@@ -997,11 +1045,11 @@
       "niche": "security",
       "score": 55,
       "keywords": [
-        "OWASP",
-        "vulnerability",
-        "cybersecurity",
         "RCE",
-        "security"
+        "vulnerability",
+        "security",
+        "OWASP",
+        "cybersecurity"
       ]
     },
     {
@@ -1116,11 +1164,11 @@
       "niche": "security",
       "score": 52,
       "keywords": [
-        "breach",
-        "vulnerability",
-        "security flaw",
         "RCE",
-        "security"
+        "vulnerability",
+        "security",
+        "breach",
+        "security flaw"
       ]
     },
     {
@@ -1151,9 +1199,9 @@
       "niche": "security",
       "score": 51,
       "keywords": [
+        "disclosure",
         "vulnerability",
-        "patch",
-        "disclosure"
+        "patch"
       ]
     },
     {
@@ -1227,22 +1275,6 @@
       ]
     },
     {
-      "id": "0c66694db2e4f8f4",
-      "title": "The Ongoing Fallout from a Breach at AI Chatbot Maker Salesloft",
-      "description": "The recent mass-theft of authentication tokens from Salesloft, whose AI chatbot is used by a broad swath of corporate America to convert customer interaction into Salesforce leads, has left many companies racing to invalidate the stolen credentials before hackers can exploit them. Now Google warns the breach goes far beyond access to Salesforce data, noting the hackers responsible also stole valid authentication tokens for hundreds of online services that customers can integrate with Salesloft, ",
-      "url": "https://krebsonsecurity.com/2025/09/the-ongoing-fallout-from-a-breach-at-ai-chatbot-maker-salesloft/",
-      "source": "Krebs on Security",
-      "author": "BrianKrebs",
-      "published": "2025-09-01T21:55:04+00:00",
-      "niche": "security",
-      "score": 50,
-      "keywords": [
-        "exploit",
-        "breach",
-        "RCE"
-      ]
-    },
-    {
       "id": "3459ae70eeb7ecf6",
       "title": "13 cybersecurity myths organizations need to stop believing",
       "description": "The past few years have seen a dramatic shift in how organizations protect themselves against attackers. The rise of AI and the fast-paced digitalization have changed the security landscape, making CISOs’ jobs more complex than ever before. This rapidly changing environment demands a fresh mindset, one that challenges long-held assumptions about what keeps organizations secure. Is video and verbal authentication still reliable in an era of AI-generated deepfakes? Can we still use spreadsheets to",
@@ -1291,6 +1323,22 @@
       ]
     },
     {
+      "id": "0c66694db2e4f8f4",
+      "title": "The Ongoing Fallout from a Breach at AI Chatbot Maker Salesloft",
+      "description": "The recent mass-theft of authentication tokens from Salesloft, whose AI chatbot is used by a broad swath of corporate America to convert customer interaction into Salesforce leads, has left many companies racing to invalidate the stolen credentials before hackers can exploit them. Now Google warns the breach goes far beyond access to Salesforce data, noting the hackers responsible also stole valid authentication tokens for hundreds of online services that customers can integrate with Salesloft, ",
+      "url": "https://krebsonsecurity.com/2025/09/the-ongoing-fallout-from-a-breach-at-ai-chatbot-maker-salesloft/",
+      "source": "Krebs on Security",
+      "author": "BrianKrebs",
+      "published": "2025-09-01T21:55:04+00:00",
+      "niche": "security",
+      "score": 50,
+      "keywords": [
+        "exploit",
+        "breach",
+        "RCE"
+      ]
+    },
+    {
       "id": "8aca471b2a4f5a22",
       "title": "Cybereason to be Acquired by MSSP Giant LevelBlue",
       "description": "This is LevelBlue’s third acquisition this year, after Trustwave and Aon’s Cybersecurity &#038; IP Litigation Consulting groups. The post Cybereason to be Acquired by MSSP Giant LevelBlue appeared first on SecurityWeek.",
@@ -1303,24 +1351,6 @@
       "keywords": [
         "cybersecurity",
         "security"
-      ]
-    },
-    {
-      "id": "a2b5e6ea33919185",
-      "title": "ShinyHunters Wage Broad Corporate Extortion Spree",
-      "description": "A cybercriminal group that used voice phishing attacks to siphon more than a billion records from Salesforce customers earlier this year has launched a website that threatens to publish data stolen from dozens of Fortune 500 firms if they refuse to pay a ransom. The group also claimed responsibility for a recent breach involving Discord user data, and for stealing terabytes of sensitive files from thousands of customers of the enterprise software maker Red Hat.",
-      "url": "https://krebsonsecurity.com/2025/10/shinyhunters-wage-broad-corporate-extortion-spree/",
-      "source": "Krebs on Security",
-      "author": "BrianKrebs",
-      "published": "2025-10-07T22:45:35+00:00",
-      "niche": "security",
-      "score": 49,
-      "keywords": [
-        "attack",
-        "threat",
-        "breach",
-        "phishing",
-        "RCE"
       ]
     },
     {
@@ -1338,6 +1368,24 @@
         "vulnerability",
         "attack",
         "firewall"
+      ]
+    },
+    {
+      "id": "a2b5e6ea33919185",
+      "title": "ShinyHunters Wage Broad Corporate Extortion Spree",
+      "description": "A cybercriminal group that used voice phishing attacks to siphon more than a billion records from Salesforce customers earlier this year has launched a website that threatens to publish data stolen from dozens of Fortune 500 firms if they refuse to pay a ransom. The group also claimed responsibility for a recent breach involving Discord user data, and for stealing terabytes of sensitive files from thousands of customers of the enterprise software maker Red Hat.",
+      "url": "https://krebsonsecurity.com/2025/10/shinyhunters-wage-broad-corporate-extortion-spree/",
+      "source": "Krebs on Security",
+      "author": "BrianKrebs",
+      "published": "2025-10-07T22:45:35+00:00",
+      "niche": "security",
+      "score": 49,
+      "keywords": [
+        "RCE",
+        "attack",
+        "breach",
+        "phishing",
+        "threat"
       ]
     },
     {
@@ -1410,8 +1458,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "security",
-        "CVE-"
+        "CVE-",
+        "security"
       ]
     },
     {
@@ -1480,6 +1528,34 @@
       "source": "CSO Online",
       "author": "Inconnu",
       "published": "2025-10-15T07:19:10+00:00",
+      "niche": "security",
+      "score": 45,
+      "keywords": [
+        "attack"
+      ]
+    },
+    {
+      "id": "28422699336cbf92",
+      "title": "Introducing MAESTRO: A framework for securing generative and agentic AI",
+      "description": "Artificial Intelligence (AI) is advancing at a pace that outstrips traditional security frameworks. Generative AI has already changed how financial institutions analyze data, create insights and engage with customers. The next frontier, agentic AI, is even more transformative. These systems can reason, plan and act autonomously, interacting with APIs, orchestrating workflows and even collaborating with other agents across payment gateways, credit systems and fraud detection platforms. While fram",
+      "url": "https://www.csoonline.com/article/4072341/introducing-maestro-a-framework-for-securing-generative-and-agentic-ai.html",
+      "source": "CSO Online",
+      "author": "Inconnu",
+      "published": "2025-10-15T12:12:00+00:00",
+      "niche": "security",
+      "score": 45,
+      "keywords": [
+        "security"
+      ]
+    },
+    {
+      "id": "df3d9e07b042267c",
+      "title": "Deutsche Logistik schlecht vor Cyberattacken geschützt",
+      "description": "srcset=\"https://b2b-contenthub.com/wp-content/uploads/2025/10/shutterstock_2475142117.jpg?quality=50&strip=all 3840w, https://b2b-contenthub.com/wp-content/uploads/2025/10/shutterstock_2475142117.jpg?resize=300%2C168&quality=50&strip=all 300w, https://b2b-contenthub.com/wp-content/uploads/2025/10/shutterstock_2475142117.jpg?resize=768%2C432&quality=50&strip=all 768w, https://b2b-contenthub.com/wp-content/uploads/2025/10/shutterstock_2475142117.jpg?resize=1024%2C576&quality=50&strip=all 1024w, ht",
+      "url": "https://www.csoonline.com/article/4072840/deutsche-logistik-schlecht-vor-cyberattacken-geschutzt.html",
+      "source": "CSO Online",
+      "author": "Inconnu",
+      "published": "2025-10-15T11:51:30+00:00",
       "niche": "security",
       "score": 45,
       "keywords": [
@@ -1568,8 +1644,8 @@
       "keywords": [
         "secure",
         "OWASP",
-        "security",
-        "RCE"
+        "RCE",
+        "security"
       ]
     },
     {
@@ -1620,8 +1696,8 @@
       "score": 42,
       "keywords": [
         "exploit",
-        "vulnerability",
-        "attack"
+        "attack",
+        "vulnerability"
       ]
     },
     {
@@ -1636,9 +1712,33 @@
       "score": 42,
       "keywords": [
         "OWASP",
-        "security",
-        "RCE"
+        "RCE",
+        "security"
       ]
+    },
+    {
+      "id": "700f6f02151f20e9",
+      "title": "La CNIL publie le Cahier Innovation et Prospective n°10 : Nos données après nous - explorer les enjeux de la mort numérique",
+      "description": "Proposé par le Laboratoire d’innovation numérique de la CNIL (LINC), ce nouveau Cahier IP explore la vie des données après la mort&nbsp;: gestion, transmission et nouveaux usages comme les agents conversationnels fondés sur les données des défunts.",
+      "url": "https://www.cnil.fr/fr/cahier-ip-n10",
+      "source": "CNIL Actualités",
+      "author": "CNIL",
+      "published": "2025-10-15T14:00:00+02:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "b7cbee6fe5595cb8",
+      "title": "Josef Fuchs - L'ingénieur philanthrope qui a bâti l'empire de la surveillance First Wap",
+      "description": "Cet article fait partie de ma série spéciale hackers . Bonne lecture ! Ce 14 octobre 2025, Lighthouse Reports a balancé une enquête mondiale qui fait actuellement trembler l&rsquo;industrie de la surveillance. Pour cette enquête titanesque, ce sont 70 journalistes de 14 médias différents dont Le Monde, Der Spiegel et Mother Jones qui ont bossé pendant des mois sur le même dossier et celui-ci est explosif.",
+      "url": "https://korben.info/first-wap-surveillance-protocole-ss7.html",
+      "source": "Korben",
+      "author": "Korben",
+      "published": "2025-10-15T14:07:51+02:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": []
     },
     {
       "id": "8185a8cfd61ad6ce",
@@ -1789,10 +1889,10 @@
       "niche": "security",
       "score": 37,
       "keywords": [
-        "threat",
-        "OWASP",
         "web application security",
-        "security"
+        "OWASP",
+        "security",
+        "threat"
       ]
     },
     {
@@ -1836,8 +1936,8 @@
       "score": 36,
       "keywords": [
         "SQL injection",
-        "injection",
-        "RCE"
+        "RCE",
+        "injection"
       ]
     },
     {
@@ -1969,6 +2069,20 @@
       ]
     },
     {
+      "id": "a70ff25c8e50e64f",
+      "title": "Résultat de l’appel à manifestation d’intérêt",
+      "description": "Résultat de l’appel à manifestation d’intérêt anssiadm jeu 09/10/2025 - 11:52 L’ANSSI a publié le 22 août 2025 un appel à manifestation d‘intérêt (AMI) pour le renforcement de l’accompagnement local aux enjeux de cybersécurité, AMI clos le 15 septembre. En tant qu’autorité nationale en matière de cybersécurité et de cyberdéfense, l’Agence nationale de la sécurité des systèmes d’information (ANSSI) prépare et accompagne la montée en maturité cyber de la Nation. La prochaine transposition en droit",
+      "url": "https://cyber.gouv.fr/actualites/resultat-de-lappel-manifestation-dinteret",
+      "source": "ANSSI (Cyber.gouv.fr)",
+      "author": "anssiadm",
+      "published": "2025-10-09T11:52:46+00:00",
+      "niche": "security",
+      "score": 32,
+      "keywords": [
+        "RCE"
+      ]
+    },
+    {
       "id": "c708fd9c497ae6c5",
       "title": "The Windows Registry Adventure #6: Kernel-mode objects",
       "description": "Posted by Mateusz Jurczyk, Google Project Zero Welcome back to the Windows Registry Adventure! In the previous installment of the series, we took a deep look into the internals of the regf hive format. Understanding this foundational aspect of the registry is crucial, as it illuminates the design principles behind the mechanism, as well as its inherent strengths and weaknesses. The data stored within the regf file represents the definitive state of the hive. Knowing how to parse this data is suf",
@@ -1992,20 +2106,6 @@
       "score": 32,
       "keywords": [
         "remote code execution",
-        "RCE"
-      ]
-    },
-    {
-      "id": "a70ff25c8e50e64f",
-      "title": "Résultat de l’appel à manifestation d’intérêt",
-      "description": "Résultat de l’appel à manifestation d’intérêt anssiadm jeu 09/10/2025 - 11:52 L’ANSSI a publié le 22 août 2025 un appel à manifestation d‘intérêt (AMI) pour le renforcement de l’accompagnement local aux enjeux de cybersécurité, AMI clos le 15 septembre. En tant qu’autorité nationale en matière de cybersécurité et de cyberdéfense, l’Agence nationale de la sécurité des systèmes d’information (ANSSI) prépare et accompagne la montée en maturité cyber de la Nation. La prochaine transposition en droit",
-      "url": "https://cyber.gouv.fr/actualites/resultat-de-lappel-manifestation-dinteret",
-      "source": "ANSSI (Cyber.gouv.fr)",
-      "author": "anssiadm",
-      "published": "2025-10-09T11:52:46+00:00",
-      "niche": "security",
-      "score": 32,
-      "keywords": [
         "RCE"
       ]
     },
@@ -2360,20 +2460,6 @@
       "keywords": []
     },
     {
-      "id": "a4907f19e67218bb",
-      "title": "Weekly Update 470",
-      "description": "Imagine jumping on board a class action after your precious datas have been breached, then sticking through it all the way until a settlement is reached. Then, finally, after a long and arduous battle, cashing in and getting... $1. Well, kinda $1, the ParkMobile class action granted up to $1",
-      "url": "https://www.troyhunt.com/weekly-update-470/",
-      "source": "Troy Hunt",
-      "author": "Troy Hunt",
-      "published": "2025-09-21T08:35:20+00:00",
-      "niche": "security",
-      "score": 26,
-      "keywords": [
-        "breach"
-      ]
-    },
-    {
       "id": "c3ee806b931e3391",
       "title": "ISC Stormcast For Tuesday, October 14th, 2025 https://isc.sans.edu/podcastdetail/9654, (Mon, Oct 13th)",
       "description": "",
@@ -2409,6 +2495,20 @@
       "score": 26,
       "keywords": [
         "vulnerability"
+      ]
+    },
+    {
+      "id": "a4907f19e67218bb",
+      "title": "Weekly Update 470",
+      "description": "Imagine jumping on board a class action after your precious datas have been breached, then sticking through it all the way until a settlement is reached. Then, finally, after a long and arduous battle, cashing in and getting... $1. Well, kinda $1, the ParkMobile class action granted up to $1",
+      "url": "https://www.troyhunt.com/weekly-update-470/",
+      "source": "Troy Hunt",
+      "author": "Troy Hunt",
+      "published": "2025-09-21T08:35:20+00:00",
+      "niche": "security",
+      "score": 26,
+      "keywords": [
+        "breach"
       ]
     },
     {
@@ -2552,36 +2652,6 @@
       ]
     },
     {
-      "id": "3a585989576d0128",
-      "title": "The AI Fix #71: Hacked robots and power-hungry AI",
-      "description": "In episode 71 of The AI Fix, a giant robot spider goes backpacking for a year before starting its job in lunar construction, DoorDash builds a delivery Minion, and a TikToker punishes an AI by making it talk to condiments. GPT-5 crushes the humans at the ICPC World Finals, Claude Sonnet 4.5 codes for 30 hours straight, and someone builds a 5-million-parameter transformer entirely inside Minecraft. Plus: Graham investigates how a simple security flaw left fleets of Unitree robots wide open to hac",
-      "url": "https://grahamcluley.com/the-ai-fix-71/",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2025-10-07T14:00:49+00:00",
-      "niche": "security",
-      "score": 25,
-      "keywords": [
-        "security flaw",
-        "security"
-      ]
-    },
-    {
-      "id": "9929b64993abdd9e",
-      "title": "Discord users’ data stolen by hackers in third-party data breach",
-      "description": "Discord has confirmed that users who contacted its customer support service have had their data stolen by hackers, who have attempted to extort a ransom from the company. Read more in my article on the Hot for Security blog.",
-      "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/discord-users-data-stolen-by-hackers-in-third-party-data-breach",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2025-10-06T13:54:48+00:00",
-      "niche": "security",
-      "score": 25,
-      "keywords": [
-        "breach",
-        "security"
-      ]
-    },
-    {
       "id": "992515a5c8947d49",
       "title": "&#x5b;Guest Diary&#x5d; Building Better Defenses: RedTail Observations from a Honeypot, (Thu, Oct 9th)",
       "description": "&&#x23&#x3b;x26&#x3b;&#x23&#x3b;x5b&#x3b;This is a Guest Diary by Jin Quan Low, an ISC intern as part of the SANS.edu Bachelor&&#x23&#x3b;x26&#x3b;&#x23&#x3b;39&#x3b;s Degree in Applied Cybersecurity (BACS) program &&#x23&#x3b;x26&#x3b;&#x23&#x3b;x5b&#x3b;1&#x5d;.&#x5d;&#xd;",
@@ -2608,6 +2678,36 @@
       "score": 25,
       "keywords": [
         "cybersecurity",
+        "security"
+      ]
+    },
+    {
+      "id": "3a585989576d0128",
+      "title": "The AI Fix #71: Hacked robots and power-hungry AI",
+      "description": "In episode 71 of The AI Fix, a giant robot spider goes backpacking for a year before starting its job in lunar construction, DoorDash builds a delivery Minion, and a TikToker punishes an AI by making it talk to condiments. GPT-5 crushes the humans at the ICPC World Finals, Claude Sonnet 4.5 codes for 30 hours straight, and someone builds a 5-million-parameter transformer entirely inside Minecraft. Plus: Graham investigates how a simple security flaw left fleets of Unitree robots wide open to hac",
+      "url": "https://grahamcluley.com/the-ai-fix-71/",
+      "source": "Graham Cluley",
+      "author": "Graham Cluley",
+      "published": "2025-10-07T14:00:49+00:00",
+      "niche": "security",
+      "score": 25,
+      "keywords": [
+        "security flaw",
+        "security"
+      ]
+    },
+    {
+      "id": "9929b64993abdd9e",
+      "title": "Discord users’ data stolen by hackers in third-party data breach",
+      "description": "Discord has confirmed that users who contacted its customer support service have had their data stolen by hackers, who have attempted to extort a ransom from the company. Read more in my article on the Hot for Security blog.",
+      "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/discord-users-data-stolen-by-hackers-in-third-party-data-breach",
+      "source": "Graham Cluley",
+      "author": "Graham Cluley",
+      "published": "2025-10-06T13:54:48+00:00",
+      "niche": "security",
+      "score": 25,
+      "keywords": [
+        "breach",
         "security"
       ]
     },
@@ -2678,8 +2778,8 @@
       "niche": "security",
       "score": 23,
       "keywords": [
-        "protection",
-        "RCE"
+        "RCE",
+        "protection"
       ]
     },
     {
@@ -2736,8 +2836,8 @@
       "niche": "security",
       "score": 21,
       "keywords": [
-        "malware",
-        "attack"
+        "attack",
+        "malware"
       ]
     },
     {
@@ -2835,18 +2935,6 @@
       "keywords": [
         "XSS"
       ]
-    },
-    {
-      "id": "fb487726d55aa477",
-      "title": "Cryptographie post-quantique, les travaux de l’ANSSI",
-      "description": "Cryptographie post-quantique, les travaux de l’ANSSI anssiadm mer 08/10/2025 - 12:34 Accompagner la transition vers la cryptographie post-quantique : l’ANSSI présente ses travaux et sa FàQ dédiée, en faveur d’une mobilisation collective pour répondre à un enjeu majeur de la prochaine décennie. Une transition vers la cryptographie post-quantique non-optionnelle Avec l’arrivée prévisible des ordinateurs quantiques, les infrastructures numériques reposant sur la cryptographie asymétrique feront fac",
-      "url": "https://cyber.gouv.fr/actualites/cryptographie-post-quantique-les-travaux-de-lanssi",
-      "source": "ANSSI (Cyber.gouv.fr)",
-      "author": "anssiadm",
-      "published": "2025-10-08T12:34:44+00:00",
-      "niche": "security",
-      "score": 20,
-      "keywords": []
     },
     {
       "id": "dbe2dbd511fb09e6",
@@ -3026,6 +3114,30 @@
       "keywords": []
     },
     {
+      "id": "52a02d7f827dc425",
+      "title": "ISC Stormcast For Friday, October 10th, 2025 https://isc.sans.edu/podcastdetail/9650, (Fri, Oct 10th)",
+      "description": "",
+      "url": "https://isc.sans.edu/diary/rss/32360",
+      "source": "SANS Internet Storm Center",
+      "author": "Inconnu",
+      "published": "2025-10-10T00:45:06+00:00",
+      "niche": "security",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "f5597f366b411952",
+      "title": "ISC Stormcast For Thursday, October 9th, 2025 https://isc.sans.edu/podcastdetail/9648, (Thu, Oct 9th)",
+      "description": "",
+      "url": "https://isc.sans.edu/diary/rss/32356",
+      "source": "SANS Internet Storm Center",
+      "author": "Inconnu",
+      "published": "2025-10-09T03:10:14+00:00",
+      "niche": "security",
+      "score": 14,
+      "keywords": []
+    },
+    {
       "id": "1e9478c459f38282",
       "title": "Feds Tie ‘Scattered Spider’ Duo to $115M in Ransoms",
       "description": "U.S. prosecutors last week levied criminal hacking charges against 19-year-old U.K. national Thalha Jubair for allegedly being a core member of Scattered Spider, a prolific cybercrime group blamed for extorting at least $115 million in ransom payments from victims. The charges came as Jubair and an alleged co-conspirator appeared in a London court to face accusations of hacking into and extorting several large U.K. retailers, the London transit system, and healthcare providers in the United Stat",
@@ -3122,30 +3234,6 @@
       "keywords": []
     },
     {
-      "id": "52a02d7f827dc425",
-      "title": "ISC Stormcast For Friday, October 10th, 2025 https://isc.sans.edu/podcastdetail/9650, (Fri, Oct 10th)",
-      "description": "",
-      "url": "https://isc.sans.edu/diary/rss/32360",
-      "source": "SANS Internet Storm Center",
-      "author": "Inconnu",
-      "published": "2025-10-10T00:45:06+00:00",
-      "niche": "security",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "f5597f366b411952",
-      "title": "ISC Stormcast For Thursday, October 9th, 2025 https://isc.sans.edu/podcastdetail/9648, (Thu, Oct 9th)",
-      "description": "",
-      "url": "https://isc.sans.edu/diary/rss/32356",
-      "source": "SANS Internet Storm Center",
-      "author": "Inconnu",
-      "published": "2025-10-09T03:10:14+00:00",
-      "niche": "security",
-      "score": 14,
-      "keywords": []
-    },
-    {
       "id": "21ff713104f931d0",
       "title": "The future of pentesting is Human x AI, and it's already in Burp Suite Professional",
       "description": "The latest Hacker-Powered Security Report from HackerOne makes one thing clear: AI-assisted pentesting isn't a future trend; it's today's reality. In HackerOne's 2025 report, 70% of surveyed researche",
@@ -3195,6 +3283,18 @@
       "source": "Detectify Labs",
       "author": "Detectify",
       "published": "2022-12-07T09:50:35+00:00",
+      "niche": "security",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "fb487726d55aa477",
+      "title": "Cryptographie post-quantique, les travaux de l’ANSSI",
+      "description": "Cryptographie post-quantique, les travaux de l’ANSSI anssiadm mer 08/10/2025 - 12:34 Accompagner la transition vers la cryptographie post-quantique : l’ANSSI présente ses travaux et sa FàQ dédiée, en faveur d’une mobilisation collective pour répondre à un enjeu majeur de la prochaine décennie. Une transition vers la cryptographie post-quantique non-optionnelle Avec l’arrivée prévisible des ordinateurs quantiques, les infrastructures numériques reposant sur la cryptographie asymétrique feront fac",
+      "url": "https://cyber.gouv.fr/actualites/cryptographie-post-quantique-les-travaux-de-lanssi",
+      "source": "ANSSI (Cyber.gouv.fr)",
+      "author": "anssiadm",
+      "published": "2025-10-08T12:34:44+00:00",
       "niche": "security",
       "score": 14,
       "keywords": []
@@ -3258,20 +3358,6 @@
       "niche": "security",
       "score": 14,
       "keywords": []
-    },
-    {
-      "id": "c85fcfdf3101816f",
-      "title": "Déclaration commune sur la gouvernance fiable des données pour l’IA : vingt autorités de protection des données s'engagent pour une IA innovante et protectrice de la vie privée",
-      "description": "Vingt autorités de protection des données se sont réunies à&nbsp;l’Assemblée mondiale de la protection de la vie privée (GPA) à Séoul du 15 au 19 septembre 2025. Elles ont&nbsp;signé la déclaration commune appelant à construire un cadre de gouvernance fiable pour une IA de confiance.",
-      "url": "https://www.cnil.fr/fr/declaration-commune-sur-la-gouvernance-fiable-des-donnees-pour-lia",
-      "source": "CNIL Actualités",
-      "author": "CNIL",
-      "published": "2025-09-23T14:00:00+02:00",
-      "niche": "security",
-      "score": 13,
-      "keywords": [
-        "protection"
-      ]
     },
     {
       "id": "f50c0e29aa78cd53",
