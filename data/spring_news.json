@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-15T18:38:24.183096+00:00",
+  "last_updated": "2025-10-15T21:26:25.818055+00:00",
   "total_articles": 181,
   "articles": [
     {
@@ -118,6 +118,30 @@
       "source": "Java Code Geeks",
       "author": "Eleftheria Drosopoulou",
       "published": "2025-10-15T17:08:12+00:00",
+      "niche": "spring",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "adaafd1ff46cf7ea",
+      "title": "Centralized Configuration Management With Consul",
+      "description": "What Is Centralized Configuration? In modern microservice architectures, multiple applications often share common configuration data (e.g., database settings). These might be multiple instances of the same service or entirely different services. Regardless of the service behavior, instead of maintaining configuration at the service level, we can centralize it in one place and distribute it across all services. HashiCorp Consul provides a solution for this. Consul config distribution",
+      "url": "https://feeds.dzone.com/link/18931/17186462/centralized-configuration-management-with-consul",
+      "source": "DZone Microservices",
+      "author": "Vishnu Viswambharan",
+      "published": "2025-10-15T19:00:00+00:00",
+      "niche": "spring",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "01a44bf1db779350",
+      "title": "Building a Fault-Tolerant Microservices Architecture With Kubernetes, gRPC, and Circuit Breakers",
+      "description": "Over the last decade, microservice architectures have become commonplace when designing scalable, maintainable, and independently deployable applications. Breaking down a system into multiple, domain-focused services, development squads can quickly develop, have varying technology stacks per service, and independently scale an application's constituent pieces. But this flexibility has its cost: operational complexity and failure propagation. Unlike monoliths, whose failures may be localized to o",
+      "url": "https://feeds.dzone.com/link/18931/17186423/microservices-kubernetes-grpc-circuit-breakers",
+      "source": "DZone Microservices",
+      "author": "Srinivas Chippagiri",
+      "published": "2025-10-15T18:00:00+00:00",
       "niche": "spring",
       "score": 42,
       "keywords": []
@@ -646,18 +670,6 @@
       "source": "Petri Kainulainen",
       "author": "Petri Kainulainen",
       "published": "2025-09-04T15:49:16+00:00",
-      "niche": "spring",
-      "score": 27,
-      "keywords": []
-    },
-    {
-      "id": "b4ad3d8142c7bb00",
-      "title": "Caching Mechanisms Using Spring Boot With Redis or AWS ElastiCache",
-      "description": "To decrease latency, improve responsiveness, and lessen database loads, caching has become crucial for today's performance-demanding applications. Successful caching strategies can be implemented by developers using Redis or AWS ElastiCache in conjunction with Spring Boot's elegant caching abstraction.  Low-latency responses, high throughput, cost-effectiveness, and scalability are all becoming more and more important for modern applications. Effective caching can improve responsiveness to reque",
-      "url": "https://feeds.dzone.com/link/18931/17174703/caching-spring-boot-redis-elasticache",
-      "source": "DZone Microservices",
-      "author": "Damodhara Reddy Palavali",
-      "published": "2025-09-30T18:00:01+00:00",
       "niche": "spring",
       "score": 27,
       "keywords": []
@@ -1534,18 +1546,6 @@
       "source": "DZone Microservices",
       "author": "Abhinav Priyadarshi",
       "published": "2025-10-02T11:00:11+00:00",
-      "niche": "spring",
-      "score": 12,
-      "keywords": []
-    },
-    {
-      "id": "6ee62e8df5f62c93",
-      "title": "Centralized vLLM on Kubernetes for Scalable LLM Infrastructure",
-      "description": "In the previous article, we learned how vLLM can yield dramatic performance gains by delivering 14x throughput as compared to traditional LLM serving systems. vLLM is important for efficient GPU utilization. But how can companies manage their vLLM instances across all of their production services? This would require a system that can manage the vLLM engine lifecycle and provide a way for applications to communicate with vLLM, and that can monitor, scale, and manage this setup in a production env",
-      "url": "https://feeds.dzone.com/link/18931/17175334/vllm-kubernetes-scalable-llm-infrastructure",
-      "source": "DZone Microservices",
-      "author": "Rajashree Mandaogane",
-      "published": "2025-10-01T14:00:09+00:00",
       "niche": "spring",
       "score": 12,
       "keywords": []
