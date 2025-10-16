@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-10-16T03:38:45.854955+00:00",
-  "total_articles": 318,
+  "last_updated": "2025-10-16T06:34:58.843139+00:00",
+  "total_articles": 336,
   "articles": [
     {
       "id": "9e1e9ea9a7ed8393",
@@ -573,6 +573,37 @@
       ]
     },
     {
+      "id": "3b26418e4c5bd204",
+      "title": "QeRL: NVFP4-Quantized Reinforcement Learning (RL) Brings 32B LLM Training to a Single H100—While Improving Exploration",
+      "description": "What would you build if you could run Reinforcement Learning (RL) post-training on a 32B LLM in 4-bit NVFP4—on a single H100—with BF16-level accuracy and 1.2–1.5× step speedups? NVIDIA researchers (with collaborators from MIT, HKU, and Tsinghua) have open-sourced QeRL (Quantization-enhanced Reinforcement Learning), a training framework that pushes Reinforcement Learning (RL) post-training into 4-bit FP4 [&#8230;] The post QeRL: NVFP4-Quantized Reinforcement Learning (RL) Brings 32B LLM Training ",
+      "url": "https://www.marktechpost.com/2025/10/15/qerl-nvfp4-quantized-reinforcement-learning-rl-brings-32b-llm-training-to-a-single-h100-while-improving-exploration/",
+      "source": "MarkTechPost",
+      "author": "Asif Razzaq",
+      "published": "2025-10-16T04:28:31+00:00",
+      "niche": "ai",
+      "score": 66,
+      "keywords": [
+        "AI",
+        "LLM"
+      ]
+    },
+    {
+      "id": "92045cf6f5d58ac4",
+      "title": "DeepPlanner: Scaling Planning Capability for Deep Research Agents via Advantage Shaping",
+      "description": "arXiv:2510.12979v1 Announce Type: new Abstract: Large language models (LLMs) augmented with multi-step reasoning and action generation abilities have shown promise in leveraging external tools to tackle complex tasks that require long-horizon planning. However, existing approaches either rely on implicit planning in the reasoning stage or introduce explicit planners without systematically addressing how to optimize the planning stage. As evidence, we observe that under vanilla reinforcement lear",
+      "url": "https://arxiv.org/abs/2510.12979",
+      "source": "arXiv cs.AI",
+      "author": "Wei Fan, Wenlin Yao, Zheng Li, Feng Yao, Xin Liu, Liang Qiu, Qingyu Yin, Yangqiu Song, Bing Yin",
+      "published": "2025-10-16T00:00:00-04:00",
+      "niche": "ai",
+      "score": 65,
+      "keywords": [
+        "model",
+        "AGI",
+        "LLM"
+      ]
+    },
+    {
       "id": "e5cacc7c26917fb7",
       "title": "Google's Veo 3.1 update delivers sharper visuals, more realistic textures, and improved audio",
       "description": "Google is rolling out Veo 3.1, its latest video AI model, for the Flow platform and other Google services. The article Google&#039;s Veo 3.1 update delivers sharper visuals, more realistic textures, and improved audio appeared first on THE DECODER.",
@@ -613,8 +644,8 @@
       "niche": "ai",
       "score": 63,
       "keywords": [
-        "OpenAI",
         "model",
+        "OpenAI",
         "GPT",
         "AI"
       ]
@@ -863,10 +894,10 @@
       "niche": "ai",
       "score": 60,
       "keywords": [
-        "OpenAI",
         "Claude",
-        "AI",
-        "Anthropic"
+        "Anthropic",
+        "OpenAI",
+        "AI"
       ]
     },
     {
@@ -913,6 +944,102 @@
       "keywords": [
         "data",
         "AI"
+      ]
+    },
+    {
+      "id": "ee2b02b46639e23d",
+      "title": "From Literal to Liberal: A Meta-Prompting Framework for Eliciting Human-Aligned Exception Handling in Large Language Models",
+      "description": "arXiv:2510.12864v1 Announce Type: new Abstract: Large Language Models (LLMs) are increasingly being deployed as the reasoning engines for agentic AI systems, yet they exhibit a critical flaw: a rigid adherence to explicit rules that leads to decisions misaligned with human common sense and intent. This \"rule-rigidity\" is a significant barrier to building trustworthy autonomous agents. While prior work has shown that supervised fine-tuning (SFT) with human explanations can mitigate this issue, SF",
+      "url": "https://arxiv.org/abs/2510.12864",
+      "source": "arXiv cs.AI",
+      "author": "Imran Khan",
+      "published": "2025-10-16T00:00:00-04:00",
+      "niche": "ai",
+      "score": 58,
+      "keywords": [
+        "model",
+        "AI",
+        "LLM"
+      ]
+    },
+    {
+      "id": "b164ddd88cbfb6c8",
+      "title": "SENTINEL: A Multi-Level Formal Framework for Safety Evaluation of LLM-based Embodied Agents",
+      "description": "arXiv:2510.12985v1 Announce Type: new Abstract: We present Sentinel, the first framework for formally evaluating the physical safety of Large Language Model(LLM-based) embodied agents across the semantic, plan, and trajectory levels. Unlike prior methods that rely on heuristic rules or subjective LLM judgments, Sentinel grounds practical safety requirements in formal temporal logic (TL) semantics that can precisely specify state invariants, temporal dependencies, and timing constraints. It then ",
+      "url": "https://arxiv.org/abs/2510.12985",
+      "source": "arXiv cs.AI",
+      "author": "Simon Sinong Zhan, Yao Liu, Philip Wang, Zinan Wang, Qineng Wang, Zhian Ruan, Xiangyu Shi, Xinyu Cao, Frank Yang, Kangrui Wang, Huajie Shao, Manling Li, Qi Zhu",
+      "published": "2025-10-16T00:00:00-04:00",
+      "niche": "ai",
+      "score": 58,
+      "keywords": [
+        "model",
+        "AI",
+        "LLM"
+      ]
+    },
+    {
+      "id": "959066778e46a20a",
+      "title": "Toward Reasoning-Centric Time-Series Analysis",
+      "description": "arXiv:2510.13029v1 Announce Type: new Abstract: Traditional time series analysis has long relied on pattern recognition, trained on static and well-established benchmarks. However, in real-world settings -- where policies shift, human behavior adapts, and unexpected events unfold -- effective analysis must go beyond surface-level trends to uncover the actual forces driving them. The recent rise of Large Language Models (LLMs) presents new opportunities for rethinking time series analysis by inte",
+      "url": "https://arxiv.org/abs/2510.13029",
+      "source": "arXiv cs.AI",
+      "author": "Xinlei Wang, Mingtian Tan, Jing Qiu, Junhua Zhao, Jinjin Gu",
+      "published": "2025-10-16T00:00:00-04:00",
+      "niche": "ai",
+      "score": 58,
+      "keywords": [
+        "model",
+        "AI",
+        "LLM"
+      ]
+    },
+    {
+      "id": "51255ca6fe73c341",
+      "title": "Emotional Cognitive Modeling Framework with Desire-Driven Objective Optimization for LLM-empowered Agent in Social Simulation",
+      "description": "arXiv:2510.13195v1 Announce Type: new Abstract: The advent of large language models (LLMs) has enabled agents to represent virtual humans in societal simulations, facilitating diverse interactions within complex social systems. However, existing LLM-based agents exhibit severe limitations in affective cognition: They fail to simulate the bounded rationality essential for bridging virtual and real-world services; They lack empirically validated integration mechanisms embedding emotions within age",
+      "url": "https://arxiv.org/abs/2510.13195",
+      "source": "arXiv cs.AI",
+      "author": "Qun Ma, Xiao Xue, Xuwen Zhang, Zihan Zhao, Yuwei Guo, Ming Zhang",
+      "published": "2025-10-16T00:00:00-04:00",
+      "niche": "ai",
+      "score": 58,
+      "keywords": [
+        "model",
+        "AI",
+        "LLM"
+      ]
+    },
+    {
+      "id": "63f8204517d047dd",
+      "title": "Adaptive Reasoning Executor: A Collaborative Agent System for Efficient Reasoning",
+      "description": "arXiv:2510.13214v1 Announce Type: new Abstract: Recent advances in Large Language Models (LLMs) demonstrate that chain-of-thought prompting and deep reasoning substantially enhance performance on complex tasks, and multi-agent systems can further improve accuracy by enabling model debates. However, applying deep reasoning to all problems is computationally expensive. To mitigate these costs, we propose a complementary agent system integrating small and large LLMs. The small LLM first generates a",
+      "url": "https://arxiv.org/abs/2510.13214",
+      "source": "arXiv cs.AI",
+      "author": "Zehui Ling, Deshu Chen, Yichi Zhang, Yuchen Liu, Xigui Li, Xin Guo, Yuan Cheng",
+      "published": "2025-10-16T00:00:00-04:00",
+      "niche": "ai",
+      "score": 58,
+      "keywords": [
+        "model",
+        "AI",
+        "LLM"
+      ]
+    },
+    {
+      "id": "d79bc05855a8cc6f",
+      "title": "Personalized Learning Path Planning with Goal-Driven Learner State Modeling",
+      "description": "arXiv:2510.13215v1 Announce Type: new Abstract: Personalized Learning Path Planning (PLPP) aims to design adaptive learning paths that align with individual goals. While large language models (LLMs) show potential in personalizing learning experiences, existing approaches often lack mechanisms for goal-aligned planning. We introduce Pxplore, a novel framework for PLPP that integrates a reinforcement-based training paradigm and an LLM-driven educational architecture. We design a structured learne",
+      "url": "https://arxiv.org/abs/2510.13215",
+      "source": "arXiv cs.AI",
+      "author": "Joy Jia Yin Lim, Ye He, Jifan Yu, Xin Cong, Daniel Zhang-Li, Zhiyuan Liu, Huiqin Liu, Lei Hou, Juanzi Li, Bin Xu",
+      "published": "2025-10-16T00:00:00-04:00",
+      "niche": "ai",
+      "score": 58,
+      "keywords": [
+        "model",
+        "AI",
+        "LLM"
       ]
     },
     {
@@ -995,11 +1122,11 @@
       "niche": "ai",
       "score": 57,
       "keywords": [
-        "AGI",
-        "GPT",
         "AI",
+        "model",
         "LLM",
-        "model"
+        "GPT",
+        "AGI"
       ]
     },
     {
@@ -1653,8 +1780,8 @@
       "niche": "ai",
       "score": 48,
       "keywords": [
-        "AGI",
-        "model"
+        "model",
+        "AGI"
       ]
     },
     {
@@ -1785,6 +1912,36 @@
       "source": "Analytics India Magazine",
       "author": "Siddharth Jindal",
       "published": "2025-10-15T16:37:25+00:00",
+      "niche": "ai",
+      "score": 46,
+      "keywords": [
+        "data",
+        "AI"
+      ]
+    },
+    {
+      "id": "bd5bd721e84b2602",
+      "title": "From Narratives to Probabilistic Reasoning: Predicting and Interpreting Drivers' Hazardous Actions in Crashes Using Large Language Model",
+      "description": "arXiv:2510.13002v1 Announce Type: new Abstract: Vehicle crashes involve complex interactions between road users, split-second decisions, and challenging environmental conditions. Among these, two-vehicle crashes are the most prevalent, accounting for approximately 70% of roadway crashes and posing a significant challenge to traffic safety. Identifying Driver Hazardous Action (DHA) is essential for understanding crash causation, yet the reliability of DHA data in large-scale databases is limited ",
+      "url": "https://arxiv.org/abs/2510.13002",
+      "source": "arXiv cs.AI",
+      "author": "Boyou Chen, Gerui Xu, Zifei Wang, Huizhong Guo, Ananna Ahmed, Zhaonan Sun, Zhen Hu, Kaihan Zhang, Shan Bao",
+      "published": "2025-10-16T00:00:00-04:00",
+      "niche": "ai",
+      "score": 46,
+      "keywords": [
+        "model",
+        "data"
+      ]
+    },
+    {
+      "id": "76720ff0c9aa3afd",
+      "title": "[Webinar Alert] AIM x Polestar Innovator Session: Are You Agent-Ready?",
+      "description": "Experts from Polestar Analytics will help participants assess their organisation’s readiness to ‘agent-ify’ operations and scale data-driven decision-making. The post [Webinar Alert] AIM x Polestar Innovator Session: Are You Agent-Ready? appeared first on Analytics India Magazine.",
+      "url": "https://analyticsindiamag.com/ai-highlights/webinar-alert-aim-x-polestar-innovator-session-are-you-agent-ready/",
+      "source": "Analytics India Magazine",
+      "author": "Supreeth Koundinya",
+      "published": "2025-10-16T06:08:15+00:00",
       "niche": "ai",
       "score": 46,
       "keywords": [
@@ -1957,8 +2114,8 @@
       "niche": "ai",
       "score": 45,
       "keywords": [
-        "data",
-        "neural network"
+        "neural network",
+        "data"
       ]
     },
     {
@@ -1988,9 +2145,65 @@
       "niche": "ai",
       "score": 45,
       "keywords": [
-        "OpenAI",
         "model",
+        "OpenAI",
         "GPT",
+        "AI"
+      ]
+    },
+    {
+      "id": "cf16b8f0d897dab3",
+      "title": "Repairing Reward Functions with Human Feedback to Mitigate Reward Hacking",
+      "description": "arXiv:2510.13036v1 Announce Type: new Abstract: Human-designed reward functions for reinforcement learning (RL) agents are frequently misaligned with the humans' true, unobservable objectives, and thus act only as proxies. Optimizing for a misspecified proxy reward function often induces reward hacking, resulting in a policy misaligned with the human's true objectives. An alternative is to perform RL from human feedback, which involves learning a reward function from scratch by collecting human ",
+      "url": "https://arxiv.org/abs/2510.13036",
+      "source": "arXiv cs.AI",
+      "author": "Stephane Hatgis-Kessell, Logan Mondal Bhamidipaty, Emma Brunskill",
+      "published": "2025-10-16T00:00:00-04:00",
+      "niche": "ai",
+      "score": 45,
+      "keywords": [
+        "AI"
+      ]
+    },
+    {
+      "id": "42a08fa2084a9d03",
+      "title": "EvoTest: Evolutionary Test-Time Learning for Self-Improving Agentic Systems",
+      "description": "arXiv:2510.13220v1 Announce Type: new Abstract: A fundamental limitation of current AI agents is their inability to learn complex skills on the fly at test time, often behaving like \"clever but clueless interns\" in novel environments. This severely limits their practical utility. To systematically measure and drive progress on this challenge, we first introduce the Jericho Test-Time Learning (J-TTL) benchmark. J-TTL is a new evaluation setup where an agent must play the same game for several con",
+      "url": "https://arxiv.org/abs/2510.13220",
+      "source": "arXiv cs.AI",
+      "author": "Yufei He, Juncheng Liu, Yue Liu, Yibo Li, Tri Cao, Zhiyuan Hu, Xinxing Xu, Bryan Hooi",
+      "published": "2025-10-16T00:00:00-04:00",
+      "niche": "ai",
+      "score": 45,
+      "keywords": [
+        "AI"
+      ]
+    },
+    {
+      "id": "dae22b53a86ee3ec",
+      "title": "Red Hat Unveils AI 3 to Power Distributed Inference, Agentic AI at Scale",
+      "description": "This version enables enterprises to scale high-performance inference and accelerate production-ready generative AI. The post Red Hat Unveils AI 3 to Power Distributed Inference, Agentic AI at Scale appeared first on Analytics India Magazine.",
+      "url": "https://analyticsindiamag.com/ai-news-updates/red-hat-unveils-ai-3-to-power-distributed-inference-agentic-ai-at-scale/",
+      "source": "Analytics India Magazine",
+      "author": "C P Balasubramanyam",
+      "published": "2025-10-16T05:59:07+00:00",
+      "niche": "ai",
+      "score": 45,
+      "keywords": [
+        "AI"
+      ]
+    },
+    {
+      "id": "733472d80044a66d",
+      "title": "Matters.AI Raises ₹55 Cr to Build Self-Learning ‘AI Security Engineer’",
+      "description": "“The world doesn’t need another dashboard screaming alerts; it needs a system that can think,” Keshava Murthy said. The post Matters.AI Raises ₹55 Cr to Build Self-Learning ‘AI Security Engineer’ appeared first on Analytics India Magazine.",
+      "url": "https://analyticsindiamag.com/ai-news-updates/matters-ai-raises-%e2%82%b955-cr-to-build-self-learning-ai-security-engineer/",
+      "source": "Analytics India Magazine",
+      "author": "Merin Susan John",
+      "published": "2025-10-16T05:44:28+00:00",
+      "niche": "ai",
+      "score": 45,
+      "keywords": [
         "AI"
       ]
     },
@@ -2292,6 +2505,18 @@
       "keywords": []
     },
     {
+      "id": "0e8f9230cad086b2",
+      "title": "TCS Calls Coercive Layoffs Allegations ‘Misleading’ as Unions Mount Pressure",
+      "description": "TCS stated that those affected had been provided due care and severance in line with individual circumstances. The post TCS Calls Coercive Layoffs Allegations ‘Misleading’ as Unions Mount Pressure appeared first on Analytics India Magazine.",
+      "url": "https://analyticsindiamag.com/it-services/tcs-calls-coercive-layoffs-allegations-misleading-as-unions-mount-heat/",
+      "source": "Analytics India Magazine",
+      "author": "C P Balasubramanyam",
+      "published": "2025-10-16T03:30:00+00:00",
+      "niche": "ai",
+      "score": 42,
+      "keywords": []
+    },
+    {
       "id": "22aea49e18ecf439",
       "title": "How to turn Claude Code into a domain specific coding agent",
       "description": "Authored by: Aliyan IshfaqCoding agents are great at writing code that uses popular libraries on which LLMs have been heavily trained on. But point them to a custom library, a new version of a library, an internal API, or a niche framework &#x2013; and they&#x2019;re not so",
@@ -2324,13 +2549,51 @@
       ]
     },
     {
-      "id": "0e8f9230cad086b2",
-      "title": "TCS Calls Coercive Layoffs Allegations ‘Misleading’ as Unions Mount Pressure",
-      "description": "TCS stated that those affected had been provided due care and severance in line with individual circumstances. The post TCS Calls Coercive Layoffs Allegations ‘Misleading’ as Unions Mount Pressure appeared first on Analytics India Magazine.",
-      "url": "https://analyticsindiamag.com/it-services/tcs-calls-coercive-layoffs-allegations-misleading-as-unions-mount-heat/",
+      "id": "e1c0103b5714c44a",
+      "title": "Top 2025 AI Launches That Were as Underwhelming as Overhyped",
+      "description": "Several highly anticipated launches left users more frustrated than impressed. The post Top 2025 AI Launches That Were as Underwhelming as Overhyped appeared first on Analytics India Magazine.",
+      "url": "https://analyticsindiamag.com/ai-trends/top-2025-ai-launches-that-were-as-underwhelming-as-overhyped/",
       "source": "Analytics India Magazine",
-      "author": "C P Balasubramanyam",
-      "published": "2025-10-16T03:30:00+00:00",
+      "author": "Mohit Pandey",
+      "published": "2025-10-16T06:14:02+00:00",
+      "niche": "ai",
+      "score": 42,
+      "keywords": [
+        "AI"
+      ]
+    },
+    {
+      "id": "5ba2e7ceac207556",
+      "title": "Germany’s Exolaunch to Deploy Satellites on Skyroot’s Vikram Rockets",
+      "description": "Skyroot also announced that its orbital adjustment module has completed a full stage-level test ahead of space flight in 2025. The post Germany’s Exolaunch to Deploy Satellites on Skyroot’s Vikram Rockets appeared first on Analytics India Magazine.",
+      "url": "https://analyticsindiamag.com/ai-news-updates/germanys-exolaunch-to-deploy-satellites-on-skyroots-vikram-rockets/",
+      "source": "Analytics India Magazine",
+      "author": "Sanjana Gupta",
+      "published": "2025-10-16T04:38:04+00:00",
+      "niche": "ai",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "36018aac7150d2f9",
+      "title": "BonV Aero Completes 60km BVLOS Drone Mission with 20kg Payload",
+      "description": "The achievement follows the company’s earlier high-altitude record in 2023, when it lifted 30kg at 19,024 feet at Umling La Pass in Ladakh. The post BonV Aero Completes 60km BVLOS Drone Mission with 20kg Payload appeared first on Analytics India Magazine.",
+      "url": "https://analyticsindiamag.com/ai-news-updates/bonv-aero-completes-60km-bvlos-drone-mission-with-20kg-payload/",
+      "source": "Analytics India Magazine",
+      "author": "Sanjana Gupta",
+      "published": "2025-10-16T04:23:28+00:00",
+      "niche": "ai",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "bbb2c6e4509ce381",
+      "title": "SmartSoC, CDAC’s ChipIN Centre Partner for Semicon Startups under DLI Scheme",
+      "description": "Providing access to expert labs, test resources, and engineering support helps reduce both cost and risk for early-stage companies. The post SmartSoC, CDAC’s ChipIN Centre Partner for Semicon Startups under DLI Scheme appeared first on Analytics India Magazine.",
+      "url": "https://analyticsindiamag.com/ai-news-updates/smartsoc-cdacs-chipin-centre-partner-for-semicon-startups-under-dli-scheme/",
+      "source": "Analytics India Magazine",
+      "author": "Sanjana Gupta",
+      "published": "2025-10-16T04:08:29+00:00",
       "niche": "ai",
       "score": 42,
       "keywords": []
@@ -3149,8 +3412,8 @@
       "niche": "ai",
       "score": 33,
       "keywords": [
-        "AGI",
         "model",
+        "AGI",
         "AI"
       ]
     },
@@ -3166,8 +3429,8 @@
       "score": 33,
       "keywords": [
         "model",
-        "AI",
-        "transformer"
+        "transformer",
+        "AI"
       ]
     },
     {
@@ -4161,8 +4424,8 @@
       "niche": "ai",
       "score": 15,
       "keywords": [
-        "machine learning",
-        "model"
+        "model",
+        "machine learning"
       ]
     },
     {
@@ -4261,8 +4524,8 @@
       "niche": "ai",
       "score": 14,
       "keywords": [
-        "machine learning",
         "data",
+        "machine learning",
         "algorithm"
       ]
     },
