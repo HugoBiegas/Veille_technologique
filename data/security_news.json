@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-10-16T15:26:02.395909+00:00",
-  "total_articles": 314,
+  "last_updated": "2025-10-16T18:34:23.752227+00:00",
+  "total_articles": 325,
   "articles": [
     {
       "id": "1cd3c58481190acf",
@@ -179,6 +179,24 @@
         "threat",
         "vulnerability",
         "CVE-"
+      ]
+    },
+    {
+      "id": "f1f88a57bdc383ad",
+      "title": "Hackers exploit Cisco SNMP flaw to deploy rootkit on switches",
+      "description": "Threat actors exploited a recently patched remote code execution vulnerability (CVE-2025-20352) in older, unprotected Cisco networking devices to deploy a Linux rootkit and gain persistent access. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-snmp-flaw-to-deploy-rootkit-on-switches/",
+      "source": "Bleeping Computer",
+      "author": "Bill Toulas",
+      "published": "2025-10-16T14:13:32-04:00",
+      "niche": "security",
+      "score": 100,
+      "keywords": [
+        "CVE-",
+        "vulnerability",
+        "remote code execution",
+        "threat",
+        "exploit"
       ]
     },
     {
@@ -645,6 +663,23 @@
       ]
     },
     {
+      "id": "b0cbcef3fe93dd62",
+      "title": "AISLE Emerges From Stealth With AI-Based Reasoning System to Remediate Vulnerabilities on the Fly",
+      "description": "AISLE aims to automate the vulnerability remediation process by detecting, exploiting, and patching software vulnerabilities in real time. The post AISLE Emerges From Stealth With AI-Based Reasoning System to Remediate Vulnerabilities on the Fly appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/aisle-emerges-from-stealth-with-ai-based-reasoning-system-that-remediates-vulnerabilities-on-the-fly/",
+      "source": "SecurityWeek",
+      "author": "Kevin Townsend",
+      "published": "2025-10-16T13:00:00+00:00",
+      "niche": "security",
+      "score": 81,
+      "keywords": [
+        "exploit",
+        "vulnerability",
+        "security",
+        "patch"
+      ]
+    },
+    {
       "id": "bc29f42a60f9eed8",
       "title": "CISA Adds Five Known Exploited Vulnerabilities to Catalog",
       "description": "CISA has added five new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2016-7836 SKYSEA Client View Improper Authentication Vulnerability CVE-2025-6264 Rapid7 Velociraptor Incorrect Default Permissions Vulnerability CVE-2025-24990 Microsoft Windows Untrusted Pointer Dereference Vulnerability CVE-2025-47827 IGEL OS Use of a Key Past its Expiration Date Vulnerability CVE-2025-59230 Microsoft Windows Improper Access Control Vulner",
@@ -672,6 +707,21 @@
       "score": 80,
       "keywords": [
         "breach"
+      ]
+    },
+    {
+      "id": "8be4f46b7ea38d12",
+      "title": "Microsoft disrupts ransomware attacks targeting Teams users",
+      "description": "Microsoft has disrupted a wave of Rhysida ransomware attacks in early October by revoking over 200 certificates used to sign malicious Teams installers. [...]",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-disrupts-ransomware-attacks-targeting-teams-users/",
+      "source": "Bleeping Computer",
+      "author": "Sergiu Gatlan",
+      "published": "2025-10-16T12:58:36-04:00",
+      "niche": "security",
+      "score": 80,
+      "keywords": [
+        "ransomware",
+        "attack"
       ]
     },
     {
@@ -801,6 +851,91 @@
       "keywords": [
         "malware",
         "threat"
+      ]
+    },
+    {
+      "id": "4f0e9a882b260781",
+      "title": "Siemens TeleControl Server Basic",
+      "description": "As of January 10, 2023, CISA will no longer be updating ICS security advisories for Siemens product vulnerabilities beyond the initial advisory. For the most up-to-date information on vulnerabilities in this advisory, please see Siemens' ProductCERT Security Advisories (CERT Services | Services | Siemens Global). View CSAF 1. EXECUTIVE SUMMARY CVSS v4 9.3 ATTENTION: Exploitable remotely/low attack complexity Vendor: Siemens Equipment: TeleControl Server Basic Vulnerability: Missing Authenticatio",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-25-289-09",
+      "source": "CISA Cybersecurity Advisories",
+      "author": "CISA",
+      "published": "2025-10-16T12:00:00+00:00",
+      "niche": "security",
+      "score": 75,
+      "keywords": [
+        "attack",
+        "exploit",
+        "vulnerability",
+        "security"
+      ]
+    },
+    {
+      "id": "9f5c52a4e157c25f",
+      "title": "Rockwell Automation FactoryTalk ViewPoint",
+      "description": "View CSAF 1. EXECUTIVE SUMMARY CVSS v4 8.7 ATTENTION: Exploitable remotely/low attack complexity Vendor: Rockwell Automation Equipment: FactoryTalk ViewPoint Vulnerability: Improper Restriction of XML External Entity Reference 2. RISK EVALUATION Successful exploitation of this vulnerability could allow unauthenticated attackers to achieve XML external entity injection, resulting in a temporary denial-of-service condition. 3. TECHNICAL DETAILS 3.1 AFFECTED PRODUCTS Rockwell Automation reports the",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-25-289-03",
+      "source": "CISA Cybersecurity Advisories",
+      "author": "CISA",
+      "published": "2025-10-16T12:00:00+00:00",
+      "niche": "security",
+      "score": 75,
+      "keywords": [
+        "exploit",
+        "vulnerability",
+        "attack",
+        "injection"
+      ]
+    },
+    {
+      "id": "8ae77b9c24642a94",
+      "title": "Siemens SINEC NMS",
+      "description": "As of January 10, 2023, CISA will no longer be updating ICS security advisories for Siemens product vulnerabilities beyond the initial advisory. For the most up-to-date information on vulnerabilities in this advisory, please see Siemens' ProductCERT Security Advisories (CERT Services | Services | Siemens Global). View CSAF 1. EXECUTIVE SUMMARY CVSS v4 8.7 ATTENTION: Exploitable remotely/low attack complexity Vendor: Siemens Equipment: SINEC NMS Vulnerability: Improper Neutralization of Special E",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-25-289-08",
+      "source": "CISA Cybersecurity Advisories",
+      "author": "CISA",
+      "published": "2025-10-16T12:00:00+00:00",
+      "niche": "security",
+      "score": 75,
+      "keywords": [
+        "attack",
+        "exploit",
+        "vulnerability",
+        "security"
+      ]
+    },
+    {
+      "id": "1bbe357acb6cae87",
+      "title": "Siemens SIMATIC ET 200SP Communication Processors",
+      "description": "As of January 10, 2023, CISA will no longer be updating ICS security advisories for Siemens product vulnerabilities beyond the initial advisory. For the most up-to-date information on vulnerabilities in this advisory, please see Siemens' ProductCERT Security Advisories (CERT Services | Services | Siemens Global). View CSAF 1. EXECUTIVE SUMMARY CVSS v4 9.3 ATTENTION: Exploitable remotely/low attack complexity Vendor: Siemens Equipment: SIMATIC ET 200SP Vulnerability: Missing Authentication for Cr",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-25-289-07",
+      "source": "CISA Cybersecurity Advisories",
+      "author": "CISA",
+      "published": "2025-10-16T12:00:00+00:00",
+      "niche": "security",
+      "score": 75,
+      "keywords": [
+        "attack",
+        "exploit",
+        "vulnerability",
+        "security"
+      ]
+    },
+    {
+      "id": "048188d370f93131",
+      "title": "Siemens HyperLynx and Industrial Edge App Publisher",
+      "description": "As of January 10, 2023, CISA will no longer be updating ICS security advisories for Siemens product vulnerabilities beyond the initial advisory. For the most up-to-date information on vulnerabilities in this advisory, please see Siemens' ProductCERT Security Advisories (CERT Services | Services | Siemens Global). View CSAF 1. EXECUTIVE SUMMARY CVSS v4 7.0 ATTENTION: Exploitable remotely/low attack complexity Vendor: Siemens Equipment: HyperLynx and Industrial Edge App Publisher Vulnerability: Ac",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-25-289-10",
+      "source": "CISA Cybersecurity Advisories",
+      "author": "CISA",
+      "published": "2025-10-16T12:00:00+00:00",
+      "niche": "security",
+      "score": 75,
+      "keywords": [
+        "attack",
+        "exploit",
+        "vulnerability",
+        "security"
       ]
     },
     {
@@ -1011,6 +1146,38 @@
       "score": 72,
       "keywords": [
         "threat"
+      ]
+    },
+    {
+      "id": "c2955042031b1d19",
+      "title": "Rockwell Automation FactoryTalk Linx",
+      "description": "View CSAF 1. EXECUTIVE SUMMARY CVSS v4 8.5 ATTENTION: Low attack complexity Vendor: Rockwell Automation Equipment: FactoryTalk Linx Vulnerabilities: Privilege Chaining 2. RISK EVALUATION Successful exploitation of these vulnerabilities may allow full access to all files, processes, and system resources. 3. TECHNICAL DETAILS 3.1 AFFECTED PRODUCTS Rockwell Automation reports that the following versions of the FactoryTalk Linx control system data communications platform are affected: FactoryTalk Li",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-25-289-02",
+      "source": "CISA Cybersecurity Advisories",
+      "author": "CISA",
+      "published": "2025-10-16T12:00:00+00:00",
+      "niche": "security",
+      "score": 72,
+      "keywords": [
+        "exploit",
+        "attack",
+        "RCE"
+      ]
+    },
+    {
+      "id": "f628d76efe604b15",
+      "title": "Rockwell Automation ArmorStart AOP",
+      "description": "View CSAF 1. EXECUTIVE SUMMARY CVSS v4 8.7 ATTENTION: Exploitable remotely/low attack complexity Vendor: Rockwell Automation Equipment: ArmorStart AOP Vulnerability: Uncaught Exception 2. RISK EVALUATION Successful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition on the affected product. 3. TECHNICAL DETAILS 3.1 AFFECTED PRODUCTS The following Rockwell Automation products are affected: ArmorStart AOP: Version V2.05.07 and prior 3.2 VULNERABILITY O",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-25-289-04",
+      "source": "CISA Cybersecurity Advisories",
+      "author": "CISA",
+      "published": "2025-10-16T12:00:00+00:00",
+      "niche": "security",
+      "score": 72,
+      "keywords": [
+        "exploit",
+        "vulnerability",
+        "attack"
       ]
     },
     {
@@ -1252,6 +1419,23 @@
       ]
     },
     {
+      "id": "b55f5de1f4cb2ade",
+      "title": "U.S. CISA adds Adobe Experience Manager Forms flaw to its Known Exploited Vulnerabilities catalog",
+      "description": "U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds Adobe Experience Manager Forms flaw to its Known Exploited Vulnerabilities catalog. The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added Adobe Experience Manager Forms flaw, tracked as CVE-2025-54253 (CVSS score 10.0), to its Known Exploited Vulnerabilities (KEV) catalog. Adobe Experience Manager (AEM) Forms is a component of Adobe [&#8230;]",
+      "url": "https://securityaffairs.com/183503/security/u-s-cisa-adds-adobe-experience-manager-forms-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
+      "source": "Security Affairs",
+      "author": "Pierluigi Paganini",
+      "published": "2025-10-16T16:40:25+00:00",
+      "niche": "security",
+      "score": 66,
+      "keywords": [
+        "exploit",
+        "CVE-",
+        "security",
+        "cybersecurity"
+      ]
+    },
+    {
       "id": "ea4bef9a6a3216af",
       "title": "Chinese hackers abuse geo-mapping tool for year-long persistence",
       "description": "Chinese state hackers remained undetected in a target environment for more than a year by turning a component in the ArcGIS geo-mapping tool into a web shell. [...]",
@@ -1312,6 +1496,18 @@
       "keywords": []
     },
     {
+      "id": "e55140e55970328c",
+      "title": "Microsoft: Office 2016 and Office 2019 have reach end of support",
+      "description": "​​​​​Microsoft reminded customers this week that Office 2016 and Office 2019 have reached the end of extended support on October 14, 2025. [...]",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-office-2016-and-office-2019-have-reach-end-of-support/",
+      "source": "Bleeping Computer",
+      "author": "Sergiu Gatlan",
+      "published": "2025-10-16T11:50:04-04:00",
+      "niche": "security",
+      "score": 64,
+      "keywords": []
+    },
+    {
       "id": "983b8b1c899a765b",
       "title": "Scattered Lapsus$ Hunters extortion site goes dark: What’s next?",
       "description": "Is this really the end of the road for the notorious Scattered Lapsus$ Hunters ransomware alliance? Last week, the extortion supergroup had its dark web and clearnet domains seized by police, the latest setback to befall the alliance that had threatened to release Salesforce data allegedly stolen from 39 companies, including Google, in a mass social engineering attack. However, one of the group’s dark web sites remained accessible. As promised, on October 10 at 11.59 p.m. EDT, the group used it ",
@@ -1355,10 +1551,10 @@
       "niche": "security",
       "score": 63,
       "keywords": [
-        "security",
-        "patch",
+        "exploit",
         "zero-day",
-        "exploit"
+        "security",
+        "patch"
       ]
     },
     {
@@ -1454,9 +1650,9 @@
       "niche": "security",
       "score": 61,
       "keywords": [
-        "security",
-        "OWASP",
         "secure",
+        "OWASP",
+        "security",
         "RCE"
       ]
     },
@@ -1535,6 +1731,36 @@
       ]
     },
     {
+      "id": "0b2599a5d2776098",
+      "title": "CISA Releases Thirteen Industrial Control Systems Advisories",
+      "description": "CISA released thirteen Industrial Control Systems (ICS) advisories on October 16, 2025. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS. ICSA-25-289-01 Rockwell Automation FactoryTalk View Machine Edition and PanelView Plus 7 ICSA-25-289-02 Rockwell Automation FactoryTalk Linx ICSA-25-289-03 Rockwell Automation FactoryTalk ViewPoint ICSA-25-289-04 Rockwell Automation ArmorStart AOP ICSA-25-289-05 Siemens Solid Edge ICSA-25-",
+      "url": "https://www.cisa.gov/news-events/alerts/2025/10/16/cisa-releases-thirteen-industrial-control-systems-advisories",
+      "source": "CISA Cybersecurity Advisories",
+      "author": "CISA",
+      "published": "2025-10-16T12:00:00+00:00",
+      "niche": "security",
+      "score": 60,
+      "keywords": [
+        "exploit",
+        "security"
+      ]
+    },
+    {
+      "id": "8e9c9edb16babf12",
+      "title": "Rockwell Automation FactoryTalk View Machine Edition and PanelView Plus 7",
+      "description": "View CSAF 1. EXECUTIVE SUMMARY CVSS v4 8.7 ATTENTION: Exploitable remotely/low attack complexity Vendor: Rockwell Automation Equipment: FactoryTalk View Machine Edition and PanelView Plus 7 Vulnerabilities: Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'), Improper Authorization 2. RISK EVALUATION Successful exploitation of these vulnerabilities could allow an unauthenticated attacker to access to the device's file system. 3. TECHNICAL DETAILS 3.1 AFFECTED PRODUCTS ",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-25-289-01",
+      "source": "CISA Cybersecurity Advisories",
+      "author": "CISA",
+      "published": "2025-10-16T12:00:00+00:00",
+      "niche": "security",
+      "score": 60,
+      "keywords": [
+        "exploit",
+        "attack"
+      ]
+    },
+    {
       "id": "37863561cb3f9aeb",
       "title": "Blasting Past Webp",
       "description": "An analysis of the NSO BLASTPASS iMessage exploit Posted by Ian Beer, Google Project Zero On September 7, 2023 Apple issued an out-of-band security update for iOS: Around the same time on September 7th 2023, Citizen Lab published a blog post linking the two CVEs fixed in iOS 16.6.1 to an \"NSO Group Zero-Click, Zero-Day exploit captured in the wild\": \"[The target was] an individual employed by a Washington DC-based civil society organization with international offices... The exploit chain was cap",
@@ -1545,9 +1771,9 @@
       "niche": "security",
       "score": 60,
       "keywords": [
-        "security",
+        "exploit",
         "zero-day",
-        "exploit"
+        "security"
       ]
     },
     {
@@ -1812,11 +2038,11 @@
       "niche": "security",
       "score": 55,
       "keywords": [
-        "security",
-        "vulnerability",
-        "RCE",
         "OWASP",
-        "cybersecurity"
+        "RCE",
+        "cybersecurity",
+        "vulnerability",
+        "security"
       ]
     },
     {
@@ -1905,20 +2131,18 @@
       "keywords": []
     },
     {
-      "id": "98e34e749dac1181",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2021-43798 Grafana Path Traversal Vulnerability This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.  Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the KEV Catalog as a living list of known Common Vulnerab",
-      "url": "https://www.cisa.gov/news-events/alerts/2025/10/09/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "source": "CISA Cybersecurity Advisories",
-      "author": "CISA",
-      "published": "2025-10-09T12:00:00+00:00",
+      "id": "28d0f29893df690e",
+      "title": "China Hackers Test AI-Optimized Attack Chains in Taiwan",
+      "description": "AI might help some threat actors in certain respects, but one group is proving that its use for cyberattacks has its limits.",
+      "url": "https://www.darkreading.com/threat-intelligence/china-hackers-ai-optimized-attack-taiwan",
+      "source": "Dark Reading",
+      "author": "Nate Nelson, Contributing Writer",
+      "published": "2025-10-16T17:02:24+00:00",
       "niche": "security",
       "score": 54,
       "keywords": [
-        "CVE-",
-        "exploit",
-        "attack",
-        "vulnerability"
+        "threat",
+        "attack"
       ]
     },
     {
@@ -1992,6 +2216,21 @@
       ]
     },
     {
+      "id": "c016d0de9f0371bd",
+      "title": "Siemens SiPass Integrated",
+      "description": "As of January 10, 2023, CISA will no longer be updating ICS security advisories for Siemens product vulnerabilities beyond the initial advisory. For the most up-to-date information on vulnerabilities in this advisory, please see Siemens' ProductCERT Security Advisories (CERT Services | Services | Siemens Global). View CSAF 1. EXECUTIVE SUMMARY CVSS v4 8.6 ATTENTION: Low attack complexity Vendor: Siemens Equipment: SiPass integrated Vulnerabilities: Improper Restriction of Operations within the B",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-25-289-06",
+      "source": "CISA Cybersecurity Advisories",
+      "author": "CISA",
+      "published": "2025-10-16T12:00:00+00:00",
+      "niche": "security",
+      "score": 51,
+      "keywords": [
+        "attack",
+        "security"
+      ]
+    },
+    {
       "id": "e6ba17b22146b61c",
       "title": "Policy and Disclosure: 2025 Edition",
       "description": "Posted by Tim Willis, Google Project Zero In 2021, we updated our vulnerability disclosure policy to the current \"90+30\" model. Our goals were to drive faster yet thorough patch development, and improve patch adoption. While we&rsquo;ve seen progress, a significant challenge remains: the time it takes for a fix to actually reach an end-user's device.This delay, often called the \"patch gap,\" is a complex problem. Many consider the patch gap to be the time between a fix being released for a securi",
@@ -2002,9 +2241,9 @@
       "niche": "security",
       "score": 51,
       "keywords": [
-        "patch",
+        "disclosure",
         "vulnerability",
-        "disclosure"
+        "patch"
       ]
     },
     {
@@ -2018,9 +2257,9 @@
       "niche": "security",
       "score": 51,
       "keywords": [
-        "security",
         "attack",
-        "exploit"
+        "exploit",
+        "security"
       ]
     },
     {
@@ -2034,9 +2273,9 @@
       "niche": "security",
       "score": 51,
       "keywords": [
-        "security",
         "attack",
-        "exploit"
+        "exploit",
+        "security"
       ]
     },
     {
@@ -2168,6 +2407,18 @@
       ]
     },
     {
+      "id": "431f81eb0b1a6bd2",
+      "title": "New DShield Support Slack, (Thu, Oct 16th)",
+      "description": "This week, we set up a new Slack workspace for DShield.org. This workspace replaces the old workspace we originally configured back in 2016 or 2017. The workspace was originally configured as a free workspace to support the DShield.org community. Over the years, it has had a good following and a good amount of traffic.&#xd;",
+      "url": "https://isc.sans.edu/diary/rss/32376",
+      "source": "SANS Internet Storm Center",
+      "author": "Inconnu",
+      "published": "2025-10-16T15:56:25+00:00",
+      "niche": "security",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "8aca471b2a4f5a22",
       "title": "Cybereason to be Acquired by MSSP Giant LevelBlue",
       "description": "This is LevelBlue’s third acquisition this year, after Trustwave and Aon’s Cybersecurity &#038; IP Litigation Consulting groups. The post Cybereason to be Acquired by MSSP Giant LevelBlue appeared first on SecurityWeek.",
@@ -2194,9 +2445,9 @@
       "score": 49,
       "keywords": [
         "breach",
-        "threat",
         "RCE",
         "phishing",
+        "threat",
         "attack"
       ]
     },
@@ -2475,23 +2726,6 @@
       ]
     },
     {
-      "id": "99afe29858e355b9",
-      "title": "Hitachi Energy Asset Suite",
-      "description": "View CSAF 1. EXECUTIVE SUMMARY CVSS v4 6.0 ATTENTION: Exploitable remotely/low attack complexity Vendor: Hitachi Energy Equipment: Asset Suite Vulnerability: Improper Output Neutralization for Logs 2. RISK EVALUATION Successful exploitation of this vulnerability could result in the manipulation of content or the injection of data with the potential of carrying out further malicious attacks. 3. TECHNICAL DETAILS 3.1 AFFECTED PRODUCTS The following versions of Asset Suite are affected: Asset Suite",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-25-282-01",
-      "source": "CISA Cybersecurity Advisories",
-      "author": "CISA",
-      "published": "2025-10-09T12:00:00+00:00",
-      "niche": "security",
-      "score": 45,
-      "keywords": [
-        "exploit",
-        "injection",
-        "attack",
-        "vulnerability"
-      ]
-    },
-    {
       "id": "e7d53fa328b20304",
       "title": "Rewiring Democracy is Coming Soon",
       "description": "My latest book, Rewiring Democracy: How AI Will Transform Our Politics, Government, and Citizenship, will be published in just over a week. No reviews yet, but can read chapters 12 and 34 (of 43 chapters total). You can order the book pretty much everywhere, and a copy signed by me here. Please help spread the word. I want this book to make a splash when it&#8217;s public. Leave a review on whatever site you buy it from. Or make a TikTok video. Or do whatever you kids do these days. Is anyone a ",
@@ -2585,23 +2819,6 @@
       ]
     },
     {
-      "id": "d25f26ef6da8e1bf",
-      "title": "Rockwell Automation Lifecycle Services with Cisco",
-      "description": "View CSAF 1. EXECUTIVE SUMMARY CVSS v4 6.3 ATTENTION: Exploitable remotely/Low attack complexity Vendor: Rockwell Automation Equipment: Industrial Data Center (IDC) with Cisco Switching, IDC-Managed Support contract with Cisco Switching, Network-Managed Support contract with Cisco network switch, Firewall-Managed Support contract with Cisco firewall Vulnerability: Stack-based Buffer Overflow 2. RISK EVALUATION Successful exploitation of this vulnerability could result in arbitrary code execution",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-25-282-02",
-      "source": "CISA Cybersecurity Advisories",
-      "author": "CISA",
-      "published": "2025-10-09T12:00:00+00:00",
-      "niche": "security",
-      "score": 43,
-      "keywords": [
-        "exploit",
-        "firewall",
-        "attack",
-        "vulnerability"
-      ]
-    },
-    {
       "id": "e972e5e85869d8c6",
       "title": "OWASP x Google Summer of Code 2025 - Enabling 15 opportunities for impact",
       "description": "We’re proud to share that OWASP is once again an official mentoring organization for Google Summer of Code (GSoC) 2025—and this year, we’ve secured 15 contributor slots across some of the most impactful open-source security projects in the world. This milestone reinforces OWASP’s ongoing commitment to open-source innovation and highlights the strength of our global community of mentors and contributors, as well as our commitment to education-by-doing with the GSoC program. 🔧 GSoC 2025: What’s on",
@@ -2612,9 +2829,9 @@
       "niche": "security",
       "score": 43,
       "keywords": [
-        "security",
-        "OWASP",
         "secure",
+        "OWASP",
+        "security",
         "RCE"
       ]
     },
@@ -2739,20 +2956,16 @@
       "keywords": []
     },
     {
-      "id": "05f067cd00d29369",
-      "title": "Rockwell Automation Stratix",
-      "description": "View CSAF 1. EXECUTIVE SUMMARY CVSS v4 6.3 ATTENTION: Exploitable remotely/Low attack complexity Vendor: Rockwell Automation Equipment: Stratix 5700, 5400, 5410, 5200, 5800 Vulnerability: Stack-based Buffer Overflow 2. RISK EVALUATION Successful exploitation of this vulnerability could result in arbitrary code execution. 3. TECHNICAL DETAILS 3.1 AFFECTED PRODUCTS The following version of Stratix 5700 is affected: Stratix 5700: Version v15.2(8)E7 and prior Stratix 5400: Version v15.2(8)E7 and pri",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-25-282-03",
-      "source": "CISA Cybersecurity Advisories",
-      "author": "CISA",
-      "published": "2025-10-09T12:00:00+00:00",
+      "id": "78378c032a8af20a",
+      "title": "Actualité du CEPD : Lignes directrices sur l’interaction entre le RGPD et le règlement sur les marchés numériques (DMA) et vérifications coordonnées au niveau européen sur la transparence",
+      "description": "Le 7 octobre 2025, le CEPD a adopté ses premières lignes directrices élaborées avec la Commission européenne sur l'interaction entre le RGPD et le DMA, soumises à consultation publique jusqu’au 4 décembre. Il a également décidé de mener des vérifications coordonnées sur l’obligation de transparence et d’information.",
+      "url": "https://www.cnil.fr/fr/actualite-cepd-lignes-directrices-interaction-rgpd-dma-transparence",
+      "source": "CNIL Actualités",
+      "author": "CNIL",
+      "published": "2025-10-16T14:00:00+02:00",
       "niche": "security",
       "score": 42,
-      "keywords": [
-        "exploit",
-        "attack",
-        "vulnerability"
-      ]
+      "keywords": []
     },
     {
       "id": "de39f9e791a6a5b6",
@@ -2765,22 +2978,10 @@
       "niche": "security",
       "score": 42,
       "keywords": [
-        "security",
         "OWASP",
+        "security",
         "RCE"
       ]
-    },
-    {
-      "id": "78378c032a8af20a",
-      "title": "Actualité du CEPD : Lignes directrices sur l’interaction entre le RGPD et le règlement sur les marchés numériques (DMA) et vérifications coordonnées au niveau européen sur la transparence",
-      "description": "Le 7 octobre 2025, le CEPD a adopté ses premières lignes directrices élaborées avec la Commission européenne sur l'interaction entre le RGPD et le DMA, soumises à consultation publique jusqu’au 4 décembre. Il a également décidé de mener des vérifications coordonnées sur l’obligation de transparence et d’information.",
-      "url": "https://www.cnil.fr/fr/actualite-cepd-lignes-directrices-interaction-rgpd-dma-transparence",
-      "source": "CNIL Actualités",
-      "author": "CNIL",
-      "published": "2025-10-16T14:00:00+02:00",
-      "niche": "security",
-      "score": 42,
-      "keywords": []
     },
     {
       "id": "8185a8cfd61ad6ce",
@@ -2982,10 +3183,10 @@
       "niche": "security",
       "score": 37,
       "keywords": [
-        "web application security",
-        "security",
         "threat",
-        "OWASP"
+        "OWASP",
+        "security",
+        "web application security"
       ]
     },
     {
@@ -3169,9 +3370,9 @@
       "niche": "security",
       "score": 31,
       "keywords": [
-        "security",
+        "secure",
         "OWASP",
-        "secure"
+        "security"
       ]
     },
     {
@@ -3220,21 +3421,6 @@
       ]
     },
     {
-      "id": "75917f464d1da6de",
-      "title": "CISA Releases Four Industrial Control Systems Advisories",
-      "description": "CISA released four Industrial Control Systems (ICS) Advisories on October 9, 2025. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS.  ICSA-25-282-01 Hitachi Energy Asset Suite ICSA-25-282-02 Rockwell Automation Lifecycle Services with Cisco ICSA-25-282-03 Rockwell Automation Stratix ICSA-25-128-03 Mitsubishi Electric Multiple FA Products (Update A)  CISA encourages users and administrators to review newly released ICS Adviso",
-      "url": "https://www.cisa.gov/news-events/alerts/2025/10/09/cisa-releases-four-industrial-control-systems-advisories",
-      "source": "CISA Cybersecurity Advisories",
-      "author": "CISA",
-      "published": "2025-10-09T12:00:00+00:00",
-      "niche": "security",
-      "score": 30,
-      "keywords": [
-        "security",
-        "exploit"
-      ]
-    },
-    {
       "id": "c5c739ae9f3265eb",
       "title": "OWASP Enables AI Regulation That Works with OWASP AI Exchange",
       "description": "OWASP has forged a coalition between the global security community and formal standardization bodies on AI. The ‘AI Exchange’ Project is now driving the creation of AI security standards that protect people and businesses while still allowing innovation to thrive. By establishing an official liaison partnership with international standardization organizations, the Open Worldwide Application Security Project (OWASP) has opened the door for its community of 8,500 security professionals to contribu",
@@ -3245,8 +3431,8 @@
       "niche": "security",
       "score": 30,
       "keywords": [
-        "security",
-        "OWASP"
+        "OWASP",
+        "security"
       ]
     },
     {
@@ -3376,9 +3562,9 @@
       "niche": "security",
       "score": 28,
       "keywords": [
-        "security",
         "attack",
-        "ransomware"
+        "ransomware",
+        "security"
       ]
     },
     {
@@ -3569,8 +3755,8 @@
       "niche": "security",
       "score": 26,
       "keywords": [
-        "security",
         "ransomware",
+        "security",
         "cybersecurity"
       ]
     },
@@ -3754,8 +3940,8 @@
       "niche": "security",
       "score": 25,
       "keywords": [
-        "security flaw",
-        "security"
+        "security",
+        "security flaw"
       ]
     },
     {
@@ -3769,8 +3955,8 @@
       "niche": "security",
       "score": 25,
       "keywords": [
-        "security",
-        "breach"
+        "breach",
+        "security"
       ]
     },
     {
@@ -3855,8 +4041,8 @@
       "niche": "security",
       "score": 21,
       "keywords": [
-        "malware",
-        "attack"
+        "attack",
+        "malware"
       ]
     },
     {
@@ -3927,21 +4113,6 @@
       "score": 20,
       "keywords": [
         "XSS"
-      ]
-    },
-    {
-      "id": "992515a5c8947d49",
-      "title": "&#x5b;Guest Diary&#x5d; Building Better Defenses: RedTail Observations from a Honeypot, (Thu, Oct 9th)",
-      "description": "&&#x23&#x3b;x26&#x3b;&#x23&#x3b;x5b&#x3b;This is a Guest Diary by Jin Quan Low, an ISC intern as part of the SANS.edu Bachelor&&#x23&#x3b;x26&#x3b;&#x23&#x3b;39&#x3b;s Degree in Applied Cybersecurity (BACS) program &&#x23&#x3b;x26&#x3b;&#x23&#x3b;x5b&#x3b;1&#x5d;.&#x5d;&#xd;",
-      "url": "https://isc.sans.edu/diary/rss/32312",
-      "source": "SANS Internet Storm Center",
-      "author": "Inconnu",
-      "published": "2025-10-09T03:24:19+00:00",
-      "niche": "security",
-      "score": 19,
-      "keywords": [
-        "security",
-        "cybersecurity"
       ]
     },
     {
@@ -4038,8 +4209,8 @@
       "niche": "security",
       "score": 15,
       "keywords": [
-        "security",
-        "secure"
+        "secure",
+        "security"
       ]
     },
     {
@@ -4053,8 +4224,8 @@
       "niche": "security",
       "score": 15,
       "keywords": [
-        "security",
-        "secure"
+        "secure",
+        "security"
       ]
     },
     {
