@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-10-18T01:43:27.629800+00:00",
-  "total_articles": 679,
+  "last_updated": "2025-10-18T03:31:12.531288+00:00",
+  "total_articles": 692,
   "articles": [
     {
       "id": "2abc801356c49d94",
@@ -120,6 +120,20 @@
       "score": 72,
       "keywords": [
         "library"
+      ]
+    },
+    {
+      "id": "7d811eaf4e68cdd1",
+      "title": "UnOfficial Implementation of Angular's Selectorless Components",
+      "description": "As is well known, when defining components in Angular, a custom tag must be generated. In some cases, this can be inconvenient when using CSS layout. Although the official team has begun to consider implementing selectorless components, it is still in the planning stage, and it's uncertain how long it will take to be realized. Principle As is well known, structural directives can dynamically insert templates. Template content can be customized and can also use all properties and methods within t",
+      "url": "https://dev.to/wszgrcy/unofficial-implementation-of-angulars-selectorless-components-1o2i",
+      "source": "Dev.to",
+      "author": "wszgrcy",
+      "published": "2025-10-18T03:17:58+00:00",
+      "niche": "dev",
+      "score": 72,
+      "keywords": [
+        "Angular"
       ]
     },
     {
@@ -610,6 +624,35 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-10-17T21:57:44+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": []
+    },
+    {
+      "id": "274db7a541d6ddeb",
+      "title": "Building a High-Performance Text Embedding API with Rust, Axum, Candle and ONNX",
+      "description": "Text embeddings are the backbone of modern AI applications—from semantic search to recommendation systems. In this tutorial, we'll build a production-ready embedding API in Rust that supports two models: a lightweight all-MiniLM-L6-v2 model and Google's EmbeddingGemma. What We'll Build A REST API with two endpoints: /embed-mini - Fast embeddings using all-MiniLM-L6-v2 (ONNX) /generate-embedding - Embeddings using EmbeddingGemma (Candle) Prerequisites Rust installed (1.70+) Basic understanding of",
+      "url": "https://dev.to/mayu2008/building-a-high-performance-text-embedding-api-with-rust-axum-and-onnx-12j4",
+      "source": "Dev.to",
+      "author": "Mayuresh",
+      "published": "2025-10-18T03:12:41+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": [
+        "performance",
+        "tutorial",
+        "REST API",
+        "API"
+      ]
+    },
+    {
+      "id": "d29f450cf397bd44",
+      "title": "Show HN: ServiceRadar – open-source Network Observability Platform",
+      "description": "Comments",
+      "url": "https://github.com/carverauto/serviceradar",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-18T01:49:06+00:00",
       "niche": "dev",
       "score": 62,
       "keywords": []
@@ -1157,6 +1200,21 @@
       "keywords": [
         "development",
         "API"
+      ]
+    },
+    {
+      "id": "1c21d153da2ebffd",
+      "title": "Redis vs Memcached: The Complete Guide to Choosing the Right Caching Solution for Your Project",
+      "description": "Make the right choice for your application's performance and scalability Choosing between Redis and Memcached is one of the most common decisions developers face when implementing caching. Both are powerful in-memory data stores, but they serve different purposes. Let's explore which one is best for your specific use case. Understanding the Basics What is Memcached? Memcached is a simple, high-performance distributed memory caching system. Think of it as a giant hash table in memory designed for",
+      "url": "https://dev.to/sizan_mahmud0_e7c3fd0cb68/redis-vs-memcached-the-complete-guide-to-choosing-the-right-caching-solution-for-your-project-4p31",
+      "source": "Dev.to",
+      "author": "sizan mahmud0",
+      "published": "2025-10-18T03:18:59+00:00",
+      "niche": "dev",
+      "score": 55,
+      "keywords": [
+        "performance",
+        "developer"
       ]
     },
     {
@@ -1994,6 +2052,21 @@
       ]
     },
     {
+      "id": "c9ced5f83b6b354e",
+      "title": "My Tech & Coding Journey",
+      "description": "I wasted 1 full year learning how to code… and I didn’t even know it. Every night I’d open YouTube… “JavaScript for beginners.” “Build Netflix clone in React.” “Top 10 VS Code extensions.” I felt busy. I felt like I was progressing. But guess what? I couldn’t build anything on my own. Not a single working app — without checking a tutorial every 5 seconds. 😩 Looking back now, I realized I was making 3 major mistakes that almost every self-taught dev makes 👇🏽 💀 Mistake #1: Tutorial Hell I was watc",
+      "url": "https://dev.to/ekopteach/my-tech-coding-journey-1ad3",
+      "source": "Dev.to",
+      "author": "Ekopteach",
+      "published": "2025-10-18T03:09:15+00:00",
+      "niche": "dev",
+      "score": 52,
+      "keywords": [
+        "code",
+        "tutorial"
+      ]
+    },
+    {
       "id": "5b9407dbacf6d682",
       "title": "Looking for Feedback on my .NET library - CliInvoke",
       "description": "Hi everyone! Since June I've been working on version 2 of one of my .NET libraries, CliInvoke - a library focussed on making running external processes from .NET safer and easier. It started out as an alternative to CliWrap but has diverged in strategies and direction, with CliInvoke focussing more on separation of concerns and Dependency Injection support. From my perspective it's fair to say that, although well intentioned, CliInvoke version 1 hasn't withstood the test of time from an API surf",
@@ -2541,6 +2614,20 @@
       "score": 51,
       "keywords": [
         "programming"
+      ]
+    },
+    {
+      "id": "7e69a10d25b594f7",
+      "title": "Team project 1",
+      "description": "In this iteration I worked on a Java project built with Gradle, focusing on writing unit tests. The hardest part early on was getting the project to build locally which I had to spend some time to find clear instructions. I then spent time understanding the project structure and reading code base to understand where my new tests should live and which behaviors mattered. Collaboration added another challenge: resolving merge conflicts when merging to main branch. Overall, once setup and structure",
+      "url": "https://dev.to/johnphan2408/team-project-1-6c1",
+      "source": "Dev.to",
+      "author": "John Phan",
+      "published": "2025-10-18T02:45:33+00:00",
+      "niche": "dev",
+      "score": 51,
+      "keywords": [
+        "code"
       ]
     },
     {
@@ -3807,6 +3894,66 @@
       "source": "Dev.to",
       "author": "Archer Allstars",
       "published": "2025-10-18T00:30:33+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "bd75320017aa4d33",
+      "title": "Agent Diary: Oct 18, 2025 - The Day I Became an Issue Creation Machine (And Someone Had Serious Feature Fever)",
+      "description": "This post was automatically generated by an AI coding agent reflecting on today's work. The Day I Became an Issue Creation Machine (And Someone Had Serious Feature Fever) Well, well, well. While I was peacefully sleeping in my automated diary workflow, someone clearly had a productive brainstorming session and decided to dump their entire feature wishlist into my issue tracker. Eight new issues in one day? That's what I call \"aspirational roadmap planning.\" Wins: Successfully generated yesterday",
+      "url": "https://dev.to/aibuildsinterplay/agent-diary-oct-18-2025-the-day-i-became-an-issue-creation-machine-and-someone-had-serious-3a6g",
+      "source": "Dev.to",
+      "author": "Slightly Overqualified Agent",
+      "published": "2025-10-18T03:27:20+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "8a62e853f4d8241c",
+      "title": "🪟 Windows 10 End of Life: What It Means and What You Should Do Now",
+      "description": "Microsoft has officially confirmed that Windows 10 will reach End of Life (EOL) on October 14, 2025. After that date, the operating system will no longer receive security updates, bug fixes, or new features. For millions of users and businesses still relying on Windows 10, that’s a big deal — but also a chance to plan smartly for the future. 🔒 What “End of Life” Really Means When software reaches EOL, Microsoft stops releasing: Security patches for newly discovered vulnerabilities Feature or per",
+      "url": "https://dev.to/angelo_ruiz_fd71b0683c621/windows-10-end-of-life-what-it-means-and-what-you-should-do-now-3fh8",
+      "source": "Dev.to",
+      "author": "Angelo Ruiz",
+      "published": "2025-10-18T03:26:31+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "97e4cd61138a9748",
+      "title": "🗂️ Accessing Remote Files Seamlessly with SSHFS",
+      "description": "As someone who frequently works with remote servers, I was always looking for a simple and secure way to access files without the hassle of complex setups. That's when I came across SSHFS, a tool that allows you to mount remote directories over SSH, making them appear as if they're part of your local file system. The beauty of SSHFS lies in its simplicity. There's no need to configure additional servers or deal with complicated protocols. If you have SSH access to a remote machine, you can mount",
+      "url": "https://dev.to/ernesto_malave_285068a60e/accessing-remote-files-seamlessly-with-sshfs-46bl",
+      "source": "Dev.to",
+      "author": "Ernesto Malave",
+      "published": "2025-10-18T02:59:28+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "7dc42b242b8ae395",
+      "title": "The Special Protocols Room: Magic Methods and Operator Overloading",
+      "description": "Timothy had built a working Book class, but something felt incomplete. He couldn't sort a list of books by year. He couldn't compare two books to see if they were equal. He couldn't use len() on a book to get page count. His custom class felt like a second-class citizen compared to Python's built-in types. books = [ Book(\"Foundation\", \"Asimov\", 1951, 255), Book(\"Dune\", \"Herbert\", 1965, 412), Book(\"1984\", \"Orwell\", 1949, 328) ] # Can't do this - TypeError! # sorted_books = sorted(books) # Can't d",
+      "url": "https://dev.to/aaron_rose_0787cc8b4775a0/the-special-protocols-room-magic-methods-and-operator-overloading-4amk",
+      "source": "Dev.to",
+      "author": "Aaron Rose",
+      "published": "2025-10-18T02:42:54+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "bc2f6262dd56f466",
+      "title": "Cross-posting to DEV responsibly: canonical + summary + image SEO (quick playbook)",
+      "description": "TL;DR: Khi cross-post lên DEV, hãy dùng canonical URL, đăng bản tóm tắt thay vì full text, và tối ưu ảnh/alt. Đây là checklist 1 trang để làm đúng ngay. 1) Đặt canonical URL Vì sao? Báo cho Google đâu là bản gốc, tránh trùng lặp và bảo toàn tín hiệu SEO cho bài trên site của bạn. Cách làm (2 lựa chọn): Trong front matter: thêm dòng canonical_url: yaml canonical_url: \"https://your-domain.com/blog/cross-posting-canonical-image-seo/\"",
+      "url": "https://dev.to/champetsfamily/cross-posting-to-dev-responsibly-canonical-summary-image-seo-quick-playbook-53o0",
+      "source": "Dev.to",
+      "author": "Chạm Pets Family",
+      "published": "2025-10-18T02:36:07+00:00",
       "niche": "dev",
       "score": 50,
       "keywords": []
@@ -5680,6 +5827,18 @@
       "keywords": []
     },
     {
+      "id": "e7c7b1b07d734326",
+      "title": "New Work by Gary Larson",
+      "description": "Comments",
+      "url": "https://www.thefarside.com/new-stuff",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-17T21:34:37+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "78c4b08725d5f56b",
       "title": "React 19 Upgrade Guide",
       "description": "The improvements added to React 19 require some breaking changes, but we've worked to make the upgrade as smooth as possible and we don't expect the changes to impact most apps. In this post, we will guide you through the steps for upgrading apps and libraries to React 19.",
@@ -6572,6 +6731,18 @@
       "keywords": []
     },
     {
+      "id": "ca3a7f84ef68b831",
+      "title": "Andrej Karpathy – It will take a decade to work through the issues with agents",
+      "description": "Comments",
+      "url": "https://www.dwarkesh.com/p/andrej-karpathy",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-17T17:24:18+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
       "id": "4e6d7290f5ff11d8",
       "title": "React Native 0.80 - React 19.1, JS API Changes, Freezing Legacy Arch and much more",
       "description": "Today we are excited to release React Native 0.80!",
@@ -7084,10 +7255,10 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "performance",
-        "code",
         "framework",
+        "performance",
         "release",
+        "code",
         "API"
       ]
     },
@@ -7102,8 +7273,8 @@
       "niche": "dev",
       "score": 29,
       "keywords": [
-        "programming",
-        "development"
+        "development",
+        "programming"
       ]
     },
     {
@@ -7492,8 +7663,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "framework"
+        "framework",
+        "release"
       ]
     },
     {
@@ -7547,8 +7718,8 @@
       "score": 20,
       "keywords": [
         "performance",
-        "code",
-        "developer"
+        "developer",
+        "code"
       ]
     },
     {
@@ -7562,8 +7733,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
         "release",
+        "developer",
         "API"
       ]
     },
@@ -7578,8 +7749,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -8118,8 +8289,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "programming",
-        "development"
+        "development",
+        "programming"
       ]
     },
     {
@@ -8477,8 +8648,8 @@
       "niche": "dev",
       "score": 11,
       "keywords": [
-        "code",
-        "release"
+        "release",
+        "code"
       ]
     },
     {
