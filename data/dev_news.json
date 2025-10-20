@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-10-19T21:19:55.245592+00:00",
-  "total_articles": 879,
+  "last_updated": "2025-10-20T01:57:29.356396+00:00",
+  "total_articles": 888,
   "articles": [
     {
       "id": "2abc801356c49d94",
@@ -770,6 +770,42 @@
       "keywords": []
     },
     {
+      "id": "3dde4396a4c60875",
+      "title": "QuickDrawViewer: A Mac OS X utility to visualise QuickDraw (PICT) files",
+      "description": "Comments",
+      "url": "https://github.com/wiesmann/QuickDrawViewer",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-19T23:35:25+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": []
+    },
+    {
+      "id": "a4b951acb57b1e53",
+      "title": "Duke Nukem: Zero Hour N64 ROM Reverse-Engineering Project Hits 100%",
+      "description": "Comments",
+      "url": "https://github.com/Gillou68310/DukeNukemZeroHour",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-19T20:54:31+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": []
+    },
+    {
+      "id": "641068109b0305a7",
+      "title": "Gleam OTP – Fault Tolerant Multicore Programs with Actors",
+      "description": "Comments",
+      "url": "https://github.com/gleam-lang/otp",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-19T22:25:46+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": []
+    },
+    {
       "id": "8a3137dc0b577994",
       "title": "Web Developer Travis McCracken on The Tools I Use Every Day as a Web Developer",
       "description": "Diving Deep into Backend Development with Rust and Go: Insights from Web Developer Travis McCracken Hello, fellow developers! I’m Travis McCracken, a passionate web developer with a keen interest in high-performance backend systems. Over the years, I’ve explored various programming languages, but none have captivated me quite like Rust and Go. These two powerful languages are transforming how we build scalable, efficient, and secure APIs. Today, I want to share my experiences, insights, and some",
@@ -1068,6 +1104,21 @@
       "score": 57,
       "keywords": [
         "REST API",
+        "API"
+      ]
+    },
+    {
+      "id": "adfe00740f942e06",
+      "title": "Probing the Compiler in Autotools",
+      "description": "Introduction The previous article in this series on Autotools showed how you can use Autoconf macros to probe the platform to see if it supports certain library functions, e.g., fnmatch or getline. If not, Autotools will compile its own versions downloaded from the Gnulib portability library. As C has evolved over the years with newer standards, e.g., C11 and C23, both new language features have been added to language and new APIs have been added to the standard library. For every new standard, ",
+      "url": "https://dev.to/pauljlucas/probing-the-compiler-in-autotools-576o",
+      "source": "Dev.to",
+      "author": "Paul J. Lucas",
+      "published": "2025-10-20T01:40:33+00:00",
+      "niche": "dev",
+      "score": 57,
+      "keywords": [
+        "library",
         "API"
       ]
     },
@@ -1452,6 +1503,21 @@
       "keywords": [
         "code",
         "framework"
+      ]
+    },
+    {
+      "id": "7d0ebe8658f7bad4",
+      "title": "Why Choose Go for Development?",
+      "description": "When I first discovered Go, it instantly felt different. It wasn’t trying to be clever or overloaded with features. It was clean, fast, and built with a purpose. Go was created at Google in 2007 by Robert Griesemer, Rob Pike, and Ken Thompson. They wanted a language that combined Python’s simplicity with C’s performance and reliability. Something that made sense for building real-world, large-scale systems. Today, Go stands out as one of the most pragmatic and enjoyable languages to work with. I",
+      "url": "https://dev.to/hugohenrick/why-choose-go-for-development-3kj0",
+      "source": "Dev.to",
+      "author": "Hugo Oliveira",
+      "published": "2025-10-20T01:00:16+00:00",
+      "niche": "dev",
+      "score": 55,
+      "keywords": [
+        "performance",
+        "development"
       ]
     },
     {
@@ -2717,6 +2783,34 @@
       ]
     },
     {
+      "id": "a62c4f7798923c28",
+      "title": "Reativar automations específicas após update da aplicação no Oracle APEX",
+      "description": "Uma coisa que as vezes é um pouco irritante é o fato de que o APEX desativa todas as automations depois que a aplicação é sobrescrita por uma nova versão. Eu costumo automatizar boa parte do pipeline de geração e aplicação de release de objetos de bancos de dados e apps em outros servidores e percebi que, por padrão, as automations são sempre desativadas após o update do app. Para contornar esse problema, fiz o script abaixo, que é rodado após o update bem sucedido de cada aplicação. Você pode m",
+      "url": "https://dev.to/valter_filho_24448308265f/reativar-automations-especificas-apos-update-da-aplicacao-no-oracle-apex-2cnj",
+      "source": "Dev.to",
+      "author": "Valter Zanchetti Filho",
+      "published": "2025-10-20T01:05:30+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "release"
+      ]
+    },
+    {
+      "id": "da039b570bb78142",
+      "title": "How I Built a Dynamic Profile API with Live Cat Facts",
+      "description": "When I saw the HNG Backend Stage 0 challenge build a /me endpoint that returns my profile plus a live cat fact,I thought: “Simple, right?” Turns out, even “simple” APIs teach you big lessons about error handling, module systems, and the chaos of third-party dependencies. Here’s how I built it, what went wrong, and how I fixed it all in TypeScript + Express, deployed from my local machine. 🎯 Why This Task Matters This isn’t just a JSON blob. It’s a microcosm of real backend work: ✅ Dynamic data: ",
+      "url": "https://dev.to/towbee98/how-i-built-a-dynamic-profile-api-with-live-cat-facts-12p5",
+      "source": "Dev.to",
+      "author": "Tobiloba",
+      "published": "2025-10-20T00:59:55+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "API"
+      ]
+    },
+    {
       "id": "0227e47ca76d3d44",
       "title": "Why AI Coding Still Fails — and How Context Graphs Could Fix It",
       "description": "Large Language Models (LLMs) are amazing at writing code — until you start talking to them like a human. You describe a feature, they code something. Then you say “actually, make it multi-user,” and the logic collapses. Why does this happen? A new research paper just revealed the hidden reason — and it perfectly explains why Crevo was built the way it is. To let more people experience Crevo, share a 50% discount code ZCZLELND, valid for 30 days. I. Why Does AI Programming Often Go Off the Rails?",
@@ -3059,6 +3153,21 @@
       "score": 52,
       "keywords": [
         "tutorial",
+        "developer"
+      ]
+    },
+    {
+      "id": "1cd75a6e753c99d7",
+      "title": "Day 19 of 100 days dsa coding challenge",
+      "description": "Taking on a new challenge: solving GeeksforGeeks POTD daily and sharing my solutions! 💻🔥 The goal: sharpen problem-solving skills, level up coding, and learn something new every day. Follow my journey! 🚀 100DaysOfCode #CodingChallenge #ProblemSolving #GeeksforGeeks #DeveloperJourney Problem: https://www.geeksforgeeks.org/problems/number-of-bst-from-array/1 Number of BST From Array Difficulty: Hard Accuracy: 87.55% You are given an integer array arr[] containing distinct elements. Your task is to",
+      "url": "https://dev.to/manasi_patil_/day-19-of-100-days-dsa-coding-challenge-42n5",
+      "source": "Dev.to",
+      "author": "Manasi Patil",
+      "published": "2025-10-20T01:12:01+00:00",
+      "niche": "dev",
+      "score": 52,
+      "keywords": [
+        "code",
         "developer"
       ]
     },
@@ -5855,6 +5964,66 @@
       "keywords": []
     },
     {
+      "id": "7fbaccbbf3d6c684",
+      "title": "A beginner's guide to the Kokoro-82m model by Alphanumericuser on Replicate",
+      "description": "This is a simplified guide to an AI model called Kokoro-82m maintained by Alphanumericuser. If you like these kinds of analysis, you should join AImodels.fyi or follow us on Twitter. kokoro-82m represents a lightweight 82 million parameter text-to-speech model built on StyleTTS2. Created by alphanumericuser, this model delivers speech synthesis comparable to larger models while maintaining speed and efficiency. Available versions of the model support multiple languages and accents, particularly ",
+      "url": "https://dev.to/aimodels-fyi/a-beginners-guide-to-the-kokoro-82m-model-by-alphanumericuser-on-replicate-512j",
+      "source": "Dev.to",
+      "author": "aimodels-fyi",
+      "published": "2025-10-20T01:45:10+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "7b1ab33de771bd3c",
+      "title": "** \"Keynote Speaker: The Complete Guide for 2025",
+      "description": "✅ PILLAR PAGE CREATION COMPLETE Results Summary: 1. ✅ Pillar Page Generated Successfully: Title: \"Keynote Speaker: The Complete Guide for 2025\" Word Count: 2,888 words (comprehensive coverage) SEO Optimization: Complete with meta description and strategic keyword placement Schema Markup: Includes FAQPage, Person (Ian Khan), and Organization schema 2. ✅ Published to WordPress: Post ID: 30176 Status: Published URL: https://www.iankhan.com/keynote-speaker-the-complete-guide-for-2025-45/ 3. ✅ Conten",
+      "url": "https://dev.to/iankhanfuturist/-keynote-speaker-the-complete-guide-for-2025-51d8",
+      "source": "Dev.to",
+      "author": "Ian Khan",
+      "published": "2025-10-20T01:37:59+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "d7b1c6394805db94",
+      "title": "Understanding Strings in Go: Bytes, Runes, and the Truth Behind len",
+      "description": "When you first start working with Go, strings might seem simple — until you try to count characters, index them, or work with emojis. Then you realize that Go treats strings in a way that’s both elegant and slightly tricky. Let’s clear the confusion once and for all. 💡 What a string really is In Go, a string is an immutable sequence of bytes, not a list of characters. Internally, it’s represented roughly like this: type stringStruct struct { Data *byte Len int } Every byte is part of a UTF-8–enc",
+      "url": "https://dev.to/hugohenrick/understanding-strings-in-go-bytes-runes-and-the-truth-behind-len-3818",
+      "source": "Dev.to",
+      "author": "Hugo Oliveira",
+      "published": "2025-10-20T01:30:01+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "4ad22c3b56372e7c",
+      "title": "** \"Keynote Speaker: The Complete Guide for 2025",
+      "description": "✅ PILLAR PAGE CREATION COMPLETE Results Summary: 1. ✅ Pillar Page Generated Successfully: Title: \"Keynote Speaker: The Complete Guide for 2025\" Word Count: 2,678 words (comprehensive coverage) SEO Optimization: Complete with meta description and strategic keyword placement Schema Markup: Includes FAQPage, Person (Ian Khan), and Organization schema 2. ✅ Published to WordPress: Post ID: 30174 Status: Published URL: https://www.iankhan.com/keynote-speaker-the-complete-guide-for-2025-44/ 3. ✅ Conten",
+      "url": "https://dev.to/iankhanfuturist/-keynote-speaker-the-complete-guide-for-2025-3hf6",
+      "source": "Dev.to",
+      "author": "Ian Khan",
+      "published": "2025-10-20T01:22:08+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "23539938a98faf7f",
+      "title": "List functions in Python (2)",
+      "description": "Buy Me a Coffee☕ *Memo: My post explains list functions (1). My post explains list functions (3). My post explains a list (1). remove() can remove the 1st element matched to value from the list, searching from the left to the right in the list as shown below: *Memo: The 1st argument is value(Required-Type:Any): Don't use value=. Error occurs if value doesn't exist. v = ['A', 'B', ['A', 'B'], ['A', 'B', 'C'], 'A', 'B'] v.remove('B') print(v) # ['A', ['A', 'B'], ['A', 'B', 'C'], 'A', 'B'] v.remove",
+      "url": "https://dev.to/hyperkai/list-functions-in-python-2-1nf2",
+      "source": "Dev.to",
+      "author": "Super Kai (Kazuya Ito)",
+      "published": "2025-10-20T01:07:30+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "59bbecbb9d11fbb7",
       "title": "Next.js in Modern Frontend Technology with Tailwind CSS",
       "description": "Introduction Next.js and Tailwind CSS together form a modern frontend stack that balances developer ergonomics, performance, and design flexibility. Next.js provides a robust React framework with optimized rendering strategies and routing, while Tailwind CSS offers a utility-first approach that keeps styles predictable and composable. Why Next.js Next.js delivers several features that modern web apps need by default. It supports server-side rendering and static site generation to improve perform",
@@ -8237,6 +8406,18 @@
       "keywords": []
     },
     {
+      "id": "87d589c4b1eef001",
+      "title": "Novo Nordisk's Canadian Mistake",
+      "description": "Comments",
+      "url": "https://www.science.org/content/blog-post/novo-nordisk-s-canadian-mistake",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-19T20:39:13+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "78c4b08725d5f56b",
       "title": "React 19 Upgrade Guide",
       "description": "The improvements added to React 19 require some breaking changes, but we've worked to make the upgrade as smooth as possible and we don't expect the changes to impact most apps. In this post, we will guide you through the steps for upgrading apps and libraries to React 19.",
@@ -8262,20 +8443,6 @@
       "score": 43,
       "keywords": [
         "best practices"
-      ]
-    },
-    {
-      "id": "92bed099035343e6",
-      "title": "What Building Employee Atlas Taught Me About Real Full Stack Development",
-      "description": "Introduction Employee Atlas is an employee management application I built to help companies manage their teams more efficiently. The idea came from noticing how many workplaces still rely on spreadsheets or scattered tools to handle basic employee tasks. I wanted to create something that feels modern, centralized, and easy to use. With Employee Atlas, companies can hire or remove employees, review leave and clock in requests, and approve promotions or role changes without getting lost in paperwo",
-      "url": "https://dev.to/haris_sejmenovic/what-building-employee-atlas-taught-me-about-real-full-stack-development-2a83",
-      "source": "This is Angular",
-      "author": "Haris Sejmenovic",
-      "published": "2025-10-12T22:36:52+00:00",
-      "niche": "dev",
-      "score": 43,
-      "keywords": [
-        "development"
       ]
     },
     {
@@ -8928,8 +9095,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "React 19",
-        "performance"
+        "performance",
+        "React 19"
       ]
     },
     {
@@ -9025,8 +9192,8 @@
       "niche": "dev",
       "score": 39,
       "keywords": [
-        "performance",
-        "release"
+        "release",
+        "performance"
       ]
     },
     {
@@ -9177,6 +9344,18 @@
       "keywords": []
     },
     {
+      "id": "8dcfc1764c068855",
+      "title": "Deterministic multithreading is hard (2024)",
+      "description": "Comments",
+      "url": "https://www.factorio.com/blog/post/fff-415",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-19T09:20:05+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
       "id": "4e6d7290f5ff11d8",
       "title": "React Native 0.80 - React 19.1, JS API Changes, Freezing Legacy Arch and much more",
       "description": "Today we are excited to release React Native 0.80!",
@@ -9187,8 +9366,8 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "React 19",
         "release",
+        "React 19",
         "API"
       ]
     },
@@ -9227,20 +9406,6 @@
       "niche": "dev",
       "score": 37,
       "keywords": []
-    },
-    {
-      "id": "133869a3178828cf",
-      "title": "Detect Packages & Approaches in use within a project with Laravel Roster",
-      "description": "Detect packages & approaches in use within a Laravel project with Roster The post Detect Packages & Approaches in use within a project with Laravel Roster appeared first on Laravel News. Join the Laravel Newsletter to get Laravel articles like this directly in your inbox.",
-      "url": "https://laravel-news.com/laravel-roster?utm_medium=feed&utm_source=feedpress.me&utm_campaign=Feed%3A+laravelnews",
-      "source": "Laravel News",
-      "author": "Yannick Lyn Fatt",
-      "published": "2025-10-12T22:10:07+00:00",
-      "niche": "dev",
-      "score": 36,
-      "keywords": [
-        "Laravel"
-      ]
     },
     {
       "id": "aad302a28edd2d0a",
@@ -9310,8 +9475,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -9409,8 +9574,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "API",
-        "framework"
+        "framework",
+        "API"
       ]
     },
     {
@@ -9468,30 +9633,6 @@
       "keywords": [
         "developer"
       ]
-    },
-    {
-      "id": "e23da48b449d7485",
-      "title": "Combine (Concatenate) Two Data Frames With the Same Column Name in Java",
-      "description": "Explore how to combine or concatenate two DataFrames with the same column name in Java using Apache Spark. The post Combine (Concatenate) Two Data Frames With the Same Column Name in Java first appeared on Baeldung.&#160;&#160;&#160;&#160;&#160;&#160;&#160;",
-      "url": "https://feeds.feedblitz.com/~/926166611/0/baeldung",
-      "source": "Baeldung",
-      "author": "baeldung",
-      "published": "2025-10-12T22:16:55+00:00",
-      "niche": "dev",
-      "score": 32,
-      "keywords": []
-    },
-    {
-      "id": "3af99dc51ebac7d8",
-      "title": "Combine (Concatenate) Two Data Frames With the Same Column Name in Java",
-      "description": "Explore how to combine or concatenate two DataFrames with the same column name in Java using Apache Spark. The post Combine (Concatenate) Two Data Frames With the Same Column Name in Java first appeared on Baeldung.&#160;&#160;&#160;&#160;&#160;&#160;&#160;",
-      "url": "https://feeds.feedblitz.com/~/926166611/0/baeldung~Combine-Concatenate-Two-Data-Frames-With-the-Same-Column-Name-in-Java",
-      "source": "Baeldung",
-      "author": "baeldung",
-      "published": "2025-10-12T22:16:55+00:00",
-      "niche": "dev",
-      "score": 32,
-      "keywords": []
     },
     {
       "id": "3364e10d661c635d",
@@ -9594,8 +9735,8 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -9623,11 +9764,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "performance",
-        "framework",
         "API",
         "release",
-        "code"
+        "code",
+        "framework",
+        "performance"
       ]
     },
     {
@@ -9641,8 +9782,8 @@
       "niche": "dev",
       "score": 29,
       "keywords": [
-        "development",
-        "programming"
+        "programming",
+        "development"
       ]
     },
     {
@@ -9987,8 +10128,8 @@
       "score": 22,
       "keywords": [
         "code",
-        "performance",
-        "release"
+        "release",
+        "performance"
       ]
     },
     {
@@ -10053,8 +10194,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "framework"
+        "framework",
+        "release"
       ]
     },
     {
@@ -10083,9 +10224,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
+        "code",
         "developer",
-        "performance",
-        "code"
+        "performance"
       ]
     },
     {
@@ -10099,8 +10240,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
         "release",
+        "developer",
         "API"
       ]
     },
@@ -10115,8 +10256,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -10186,8 +10327,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "developer",
-        "code"
+        "code",
+        "developer"
       ]
     },
     {
@@ -10453,18 +10594,6 @@
       "keywords": []
     },
     {
-      "id": "36887bcc71b88e80",
-      "title": "Jupyter Collaboration has a history slider",
-      "description": "Comments",
-      "url": "https://blog.jupyter.org/exploring-a-documents-timeline-in-jupyterlab-6084f96db263",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-13T00:50:45+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
       "id": "3592c6bcba2627d3",
       "title": "We Completely Missed width/height: stretch",
       "description": "The TL;DR is that stretch does the same thing as declaring 100%, but ignores padding when looking at the available space. We Completely Missed width/height: stretch originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
@@ -10667,8 +10796,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "development",
-        "programming"
+        "programming",
+        "development"
       ]
     },
     {
@@ -11255,25 +11384,13 @@
       "keywords": []
     },
     {
-      "id": "b061e3bbb8a74ac5",
-      "title": "The Spilhaus Projection: A world map according to fish",
+      "id": "b7af67c2146c561c",
+      "title": "What's Behind the Mysterious Ancient Wall in the Gobi Desert?",
       "description": "Comments",
-      "url": "https://southernwoodenboatsailing.com/news/the-spilhaus-projection-a-world-map-according-to-fish",
+      "url": "https://news.artnet.com/art-world/the-hunt-gobi-wall-mongolia-2674588",
       "source": "Hacker News",
       "author": "Inconnu",
-      "published": "2025-10-12T09:59:13+00:00",
-      "niche": "dev",
-      "score": 8,
-      "keywords": []
-    },
-    {
-      "id": "09a73f97b6aac59c",
-      "title": "The working-class hero of Bletchley Park you didn't see in the movies",
-      "description": "Comments",
-      "url": "https://www.theguardian.com/world/2025/oct/12/move-over-alan-turing-meet-the-working-class-hero-of-bletchley-park-you-didnt-see-in-the-movies",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-12T12:04:50+00:00",
+      "published": "2025-10-12T16:42:44+00:00",
       "niche": "dev",
       "score": 8,
       "keywords": []
