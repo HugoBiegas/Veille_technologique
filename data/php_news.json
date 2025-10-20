@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-20T06:37:16.705290+00:00",
+  "last_updated": "2025-10-20T09:28:49.854288+00:00",
   "total_articles": 167,
   "articles": [
     {
@@ -82,6 +82,18 @@
       "source": "Laravel News",
       "author": "Paul Redmond",
       "published": "2025-10-19T23:35:08+00:00",
+      "niche": "php",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "b4fe30a1e1bd7782",
+      "title": "New in Symfony 7.4: Security Voter Improvements",
+      "description": "Security voters are one of Symfony's most powerful tools for managing permissions. They let you centralize your authorization logic and reuse it throughout your application. In Symfony 7.4, we're introducing several new features for them. Twig Functions…",
+      "url": "https://symfony.com/blog/new-in-symfony-7-4-security-voter-improvements?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
+      "source": "Symfony Blog",
+      "author": "Javier Eguiluz",
+      "published": "2025-10-20T09:16:00+02:00",
       "niche": "php",
       "score": 50,
       "keywords": []
@@ -447,18 +459,6 @@
       "keywords": []
     },
     {
-      "id": "555c744567e08c02",
-      "title": "Playwright",
-      "description": "Playwright, c’est quoi ? Playwright est un framework développé par Microsoft. Il permet de lancer un navigateur et d’effectuer des actions comme le ferait un utilisateur réel, mais de manière scriptée et automatisée. Il réalise ce qu’on appelle des tests End-to-End (E2E). On écrit souvent des tests unitaires et fonctionnels pour vérifier la partie back-end d’un projet. Après tout, on a généralement beaucoup plus de maîtrise sur le contexte et le fonctionnement du serveur d’un site que sur l’appa",
-      "url": "https://www.synolia.com/synolab/back-office/playwright/",
-      "source": "Planète PHP",
-      "author": "Thomas V-G",
-      "published": "2025-10-13T11:18:04+02:00",
-      "niche": "php",
-      "score": 27,
-      "keywords": []
-    },
-    {
       "id": "90bdc7e6f7f5960e",
       "title": "How to Build a Dev Team : Introduction",
       "description": "My name is Matt Stauffer, and I built an incredible team of developers at Tighten. My goal...",
@@ -466,30 +466,6 @@
       "source": "Laracasts",
       "author": "Inconnu",
       "published": "2025-10-13T10:00:00-04:00",
-      "niche": "php",
-      "score": 26,
-      "keywords": []
-    },
-    {
-      "id": "e63a56c274c73b65",
-      "title": "Why Optimistic Merging Works Better",
-      "description": "",
-      "url": "https://aggregate.stitcher.io/posts/73422",
-      "source": "Aggregate.stitcher.io",
-      "author": "Aggregate",
-      "published": "2025-10-13T07:27:56+00:00",
-      "niche": "php",
-      "score": 26,
-      "keywords": []
-    },
-    {
-      "id": "916e5641be072cc3",
-      "title": "About developer experience",
-      "description": "",
-      "url": "https://aggregate.stitcher.io/posts/73421",
-      "source": "Aggregate.stitcher.io",
-      "author": "Aggregate",
-      "published": "2025-10-13T07:27:55+00:00",
       "niche": "php",
       "score": 26,
       "keywords": []
@@ -814,18 +790,6 @@
       "source": "Symfony Blog",
       "author": "Eloïse Charrier",
       "published": "2025-10-09T11:30:00+02:00",
-      "niche": "php",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "26970aa29beb685c",
-      "title": "SymfonyLive Berlin 2026: Last day to take advantage of early bird tickets!",
-      "description": "SymfonyLive Berlin 2026 returns to Germany next Spring and will take place on April 23 – 24, 2026! ⌛Today is the very last day to enjoy the early bird registrations! Book your ticket and choose the best ticket option to attend SymfonyLive Berlin…",
-      "url": "https://symfony.com/blog/symfonylive-berlin-2026-last-day-to-take-advantage-of-early-bird-tickets?utm_source=Symfony%20Blog%20Feed&utm_medium=feed",
-      "source": "Symfony Blog",
-      "author": "Eloïse Charrier",
-      "published": "2025-10-08T08:00:00+02:00",
       "niche": "php",
       "score": 14,
       "keywords": []
@@ -1323,6 +1287,18 @@
       "keywords": []
     },
     {
+      "id": "555c744567e08c02",
+      "title": "Playwright",
+      "description": "Playwright, c’est quoi ? Playwright est un framework développé par Microsoft. Il permet de lancer un navigateur et d’effectuer des actions comme le ferait un utilisateur réel, mais de manière scriptée et automatisée. Il réalise ce qu’on appelle des tests End-to-End (E2E). On écrit souvent des tests unitaires et fonctionnels pour vérifier la partie back-end d’un projet. Après tout, on a généralement beaucoup plus de maîtrise sur le contexte et le fonctionnement du serveur d’un site que sur l’appa",
+      "url": "https://www.synolia.com/synolab/back-office/playwright/",
+      "source": "Planète PHP",
+      "author": "Thomas V-G",
+      "published": "2025-10-13T11:18:04+02:00",
+      "niche": "php",
+      "score": 12,
+      "keywords": []
+    },
+    {
       "id": "66a145a683cfefa1",
       "title": "Le task runner Castor est maintenant disponible en version 1 !",
       "description": "Lorsque nous avons dévoilé Castor au grand jour, nous vous parlions des raisons qui nous avaient poussé à développer notre propre task runner. Depuis cet article de 2023, beaucoup de choses ont évolué dans le projet. Et nous considérons maintenant que Castor et son API publique sont suffisamment stables et méritent enfin une version v1.0.0. Voyons voir à quoi ressemble Castor désormais… mais avant cela, un petit rappel du projet. Vous avez dit Castor ? Castor est le task runner PHP que nous déve",
@@ -1726,6 +1702,30 @@
       "source": "Laracasts",
       "author": "Inconnu",
       "published": "2025-10-03T12:00:00-04:00",
+      "niche": "php",
+      "score": 8,
+      "keywords": []
+    },
+    {
+      "id": "e63a56c274c73b65",
+      "title": "Why Optimistic Merging Works Better",
+      "description": "",
+      "url": "https://aggregate.stitcher.io/posts/73422",
+      "source": "Aggregate.stitcher.io",
+      "author": "Aggregate",
+      "published": "2025-10-13T07:27:56+00:00",
+      "niche": "php",
+      "score": 8,
+      "keywords": []
+    },
+    {
+      "id": "916e5641be072cc3",
+      "title": "About developer experience",
+      "description": "",
+      "url": "https://aggregate.stitcher.io/posts/73421",
+      "source": "Aggregate.stitcher.io",
+      "author": "Aggregate",
+      "published": "2025-10-13T07:27:55+00:00",
       "niche": "php",
       "score": 8,
       "keywords": []
