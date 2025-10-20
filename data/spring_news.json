@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-10-20T09:32:48.861258+00:00",
-  "total_articles": 191,
+  "last_updated": "2025-10-20T12:56:21.873435+00:00",
+  "total_articles": 194,
   "articles": [
     {
       "id": "5c5c60daccfcd377",
@@ -94,6 +94,18 @@
       "source": "Spring Blog (Official)",
       "author": "christophstrobl",
       "published": "2025-10-17T00:00:00+00:00",
+      "niche": "spring",
+      "score": 62,
+      "keywords": []
+    },
+    {
+      "id": "6a07fb9738c058bb",
+      "title": "Spring REST Docs 4.0.0-RC1",
+      "description": "On behalf of the team and everyone who has contributed, I'm happy to announce that Spring REST Docs 4.0.0-RC1 has been released and is now available from Maven Central. This release raises the minimum supported verison of Junit to 6.0. With a Groovy 5.0 baseline for the forthcoming Spring Framework 7.0 and Spring Boot 4.0 releases, it also removes support for REST Assured which is not yet compatible with Groovy 5. Please see the release notes for more details and upgrade instructions. Thanks to ",
+      "url": "https://spring.io/blog/2025/10/20/spring-restdocs-4-0-0-RC1",
+      "source": "Spring Blog (Official)",
+      "author": "wilkinsona",
+      "published": "2025-10-20T00:00:00+00:00",
       "niche": "spring",
       "score": 62,
       "keywords": []
@@ -202,6 +214,18 @@
       "source": "Baeldung",
       "author": "baeldung",
       "published": "2025-10-16T13:40:28+00:00",
+      "niche": "spring",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "2eaaa3e72f4e4210",
+      "title": "Spring Cloud Stream Applications 2025.0.1 is now available",
+      "description": "On behalf of the team and everyone who has contributed, I’m happy to announce that Spring Cloud Stream Applications 2025.0.1 has been released and is now available from Maven Central. The releases include dependency upgrades. The 2025.0.1 release updates to Spring Boot 3.4.10, Spring Framework 6.2.11, and Spring Cloud 2024.0.2. Please see the release notes 2025.0.1) for more details. Stay in touch... Please continue to engage with us by creating bug reports and feature requests on Github and ask",
+      "url": "https://spring.io/blog/2025/10/18/spring-cloud-stream-applications-2025_0_1-is-now-available",
+      "source": "Spring Blog (Official)",
+      "author": "onobc",
+      "published": "2025-10-18T00:00:00+00:00",
       "niche": "spring",
       "score": 50,
       "keywords": []
@@ -396,6 +420,30 @@
       "published": "2025-10-20T05:37:00+00:00",
       "niche": "spring",
       "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "0a90c248ab8d40ca",
+      "title": "Java News Roundup: OpenJDK, Spring RCs, Jakarta EE, Payara Platform, WildFly, Testcontainers",
+      "description": "This week's Java roundup for October 13th, 2025, features news highlighting: two new OpenJDK candidates; Jakarta EE 12 specifications with milestone 1 releases; the October 2025 edition of the Payara Platform; the GA releases of WildFly 38 and Testcontainers 2.0; and the first release candidates of Spring Framework 7.0 and Spring Data 2025.1.0. By Michael Redlich",
+      "url": "https://www.infoq.com/news/2025/10/java-news-roundup-oct13-2025/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+      "source": "InfoQ Java",
+      "author": "Michael Redlich",
+      "published": "2025-10-20T10:50:00+00:00",
+      "niche": "spring",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "060ccf29bcab795c",
+      "title": "Spring Cloud 2025.1.0-M4 (aka Oakwood) has been released",
+      "description": "On behalf of the community, I am pleased to announce that Milestone 4 (M4) of the Spring Cloud 2025.1.0 Release Train is available today. The release can be found in Spring Milestone repository. You can check out the 2025.1.0 release notes for more information. Notable Changes in the 2025.1.0 Release Train Spring Cloud 2025.1.0-M4 depends on Spring Boot 4.0.0-M3. See all issues and pull requests that are part of the release here. Spring Cloud Kubernetes Deprecated classes and methods have been r",
+      "url": "https://spring.io/blog/2025/10/17/spring-cloud-2025-1-0-M4-aka-oakwood-has-been-released",
+      "source": "Spring Blog (Official)",
+      "author": "ryanjbaxter",
+      "published": "2025-10-17T00:00:00+00:00",
+      "niche": "spring",
+      "score": 38,
       "keywords": []
     },
     {
@@ -771,18 +819,6 @@
       "keywords": []
     },
     {
-      "id": "f8101d1633df50a8",
-      "title": "Seed4J 2.0 Delivers a Migration from JHipster Lite",
-      "description": "The release of Seed4J 2.0 delivers a migration from JHipster Lite 1.35.0. Seed4J is a “modular code generator that helps developers bootstrap their applications with clarity, structure, and purpose.” Pascal Grimaud, Creator of Seed4J and former Co-Leader of JHipster, spoke to InfoQ about this migration. By Michael Redlich",
-      "url": "https://www.infoq.com/news/2025/10/seed4j-migration-jhipster/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "source": "InfoQ Java",
-      "author": "Michael Redlich",
-      "published": "2025-10-13T12:30:00+00:00",
-      "niche": "spring",
-      "score": 27,
-      "keywords": []
-    },
-    {
       "id": "e555bb498b44f19c",
       "title": "Write Once, Enforce Everywhere: Reusing Rego Policies Across Build and Runtime",
       "description": "In most organizations, security and compliance are enforced twice — once during build-time checks and again at runtime through admission controllers and monitoring systems. Often, the policies written at build-time are not reused at runtime, leading to drift, redundancy, and gaps in enforcement. With the rise of Open Policy Agent (OPA) and Rego, teams now have the opportunity to unify policy logic and reuse it seamlessly across both phases.  This article discusses the principles, design patterns",
@@ -1078,18 +1114,6 @@
       "source": "Java Revisited",
       "author": "javin paul (noreply@blogger.com)",
       "published": "2025-10-13T21:43:00-07:00",
-      "niche": "spring",
-      "score": 21,
-      "keywords": []
-    },
-    {
-      "id": "4f88d9770eb24bf1",
-      "title": "Why I Let CodeRabbit Be My First Line of Code Review (And You Should Too)",
-      "description": "Hello guys, in software engineering, code review is both sacred and tedious. We all know it’s one of the most effective quality gates: bugs are caught early, knowledge is shared, and code consistency is enforced. But the reality is many reviews get bogged down in nitpicks, inconsistent feedback, or review fatigue. Reviewers get overwhelmed. Authors get frustrated. The process slows down. That’s why I recently added CodeRabbit to my workflow — and over months of using it, it's become my first lin",
-      "url": "http://javarevisited.blogspot.com/2025/10/why-i-let-coderabbit-be-my-first-line.html",
-      "source": "Java Revisited",
-      "author": "javin paul (noreply@blogger.com)",
-      "published": "2025-10-13T05:45:00-07:00",
       "niche": "spring",
       "score": 21,
       "keywords": []
@@ -1630,6 +1654,18 @@
       "source": "Petri Kainulainen",
       "author": "Petri Kainulainen",
       "published": "2025-05-01T14:30:47+00:00",
+      "niche": "spring",
+      "score": 12,
+      "keywords": []
+    },
+    {
+      "id": "f8101d1633df50a8",
+      "title": "Seed4J 2.0 Delivers a Migration from JHipster Lite",
+      "description": "The release of Seed4J 2.0 delivers a migration from JHipster Lite 1.35.0. Seed4J is a “modular code generator that helps developers bootstrap their applications with clarity, structure, and purpose.” Pascal Grimaud, creator of Seed4J and former co-leader of JHipster, spoke to InfoQ about this migration. By Michael Redlich",
+      "url": "https://www.infoq.com/news/2025/10/seed4j-migration-jhipster/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+      "source": "InfoQ Java",
+      "author": "Michael Redlich",
+      "published": "2025-10-13T12:30:00+00:00",
       "niche": "spring",
       "score": 12,
       "keywords": []
