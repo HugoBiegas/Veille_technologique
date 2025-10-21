@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-21T12:55:22.028652+00:00",
+  "last_updated": "2025-10-21T15:28:26.722066+00:00",
   "total_articles": 202,
   "articles": [
     {
@@ -543,6 +543,18 @@
       "keywords": []
     },
     {
+      "id": "e29c74f800a794b8",
+      "title": "Preventing Jackson from Fetching Lazy Entity Fields Example",
+      "description": "1. Introduction The Spring Boot JPA project uses Jackson for JSON serialization. When Jackson serializes a JPA entity, it can trigger lazy-loading of associated entities even outside of transactions. If the Hibernates proxies are closed, then accessing a lazy field throws HttpMessageNotWritableException: Could not write JSON: failed to lazily initialize a collection of role. In &#8230;",
+      "url": "https://www.javacodegeeks.com/preventing-jackson-from-fetching-lazy-entity-fields-example.html",
+      "source": "Java Code Geeks",
+      "author": "Mary Zheng",
+      "published": "2025-10-21T15:02:00+00:00",
+      "niche": "spring",
+      "score": 42,
+      "keywords": []
+    },
+    {
       "id": "060ccf29bcab795c",
       "title": "Spring Cloud 2025.1.0-M4 (aka Oakwood) has been released",
       "description": "On behalf of the community, I am pleased to announce that Milestone 4 (M4) of the Spring Cloud 2025.1.0 Release Train is available today. The release can be found in Spring Milestone repository. You can check out the 2025.1.0 release notes for more information. Notable Changes in the 2025.1.0 Release Train Spring Cloud 2025.1.0-M4 depends on Spring Boot 4.0.0-M3. See all issues and pull requests that are part of the release here. Spring Cloud Kubernetes Deprecated classes and methods have been r",
@@ -562,18 +574,6 @@
       "source": "Java Code Geeks",
       "author": "Yatin Batra",
       "published": "2025-10-14T15:48:00+00:00",
-      "niche": "spring",
-      "score": 37,
-      "keywords": []
-    },
-    {
-      "id": "9b6cb73a875483f5",
-      "title": "Testing gRPC Services in Java",
-      "description": "gRPC is a high-performance RPC framework that uses protocol buffers for defining services and messages. For reliable systems, you should unit test your service logic. For gRPC services, it is common to test the service implementation with an InProcessServer (no network) and an InProcessChannel client. That lets you verify behavior end-to-end while keeping tests fast &#8230;",
-      "url": "https://www.javacodegeeks.com/testing-grpc-services-in-java.html",
-      "source": "Java Code Geeks",
-      "author": "Yatin Batra",
-      "published": "2025-10-14T13:36:35+00:00",
       "niche": "spring",
       "score": 37,
       "keywords": []
