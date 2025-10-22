@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-10-22T18:39:29.258052+00:00",
-  "total_articles": 214,
+  "last_updated": "2025-10-22T21:22:08.497496+00:00",
+  "total_articles": 216,
   "articles": [
     {
       "id": "348e80c3717bec4a",
@@ -195,6 +195,30 @@
       "keywords": []
     },
     {
+      "id": "a965b5efe94aaa9f",
+      "title": "Spring Integration 7.0 Release Candidate 1 Available",
+      "description": "On behalf of the team and everyone who contributed, I am pleased to announce the First (and hopefully last) Release Candidate of Spring Integration 7.0.0 generation. For convenience, the 7.0.0-RC1 artifacts are also available in Maven Central. In addition, the 6.5.3 and 6.4.8 versions with bug fixes and dependency upgrades have been released. Some notable changes in 7.0.0-RC1 are: Channel Adapters for AMQP 1.0 based on Spring AMQP 4.0; The directory to scan in the FileReadingMessageSource can no",
+      "url": "https://spring.io/blog/2025/10/22/spring-integration-7-0-0-RC1-released",
+      "source": "Spring Blog (Official)",
+      "author": "artembilan",
+      "published": "2025-10-22T00:00:00+00:00",
+      "niche": "spring",
+      "score": 62,
+      "keywords": []
+    },
+    {
+      "id": "2e48e255c22bbd0f",
+      "title": "New Home for Spring Integration AWS",
+      "description": "The Spring Integration for AWS was always an independent Spring Integration extension project with its own plans and release cycles. The consumption of this single jar library has always added a complexity from the dependency management perspective. It depends not only on Spring Integration modules like HTTP and File but directly on Spring Cloud AWS and of course the AWS SDK. Most of the dependencies are optional since this project brings channel adapters and components for different AWS integra",
+      "url": "https://spring.io/blog/2025/10/22/spring-integration-aws-eol",
+      "source": "Spring Blog (Official)",
+      "author": "artembilan",
+      "published": "2025-10-22T00:00:00+00:00",
+      "niche": "spring",
+      "score": 62,
+      "keywords": []
+    },
+    {
       "id": "b1e436a949628ef1",
       "title": "A Bootiful Podcast: Oracle VP and GraalVM founder Thomas Wuerthinger",
       "description": "Hi, Spring fans! In this installment I talk to Oracle VP and GraalVM founder Thomas Wuerthinger, recorded at Devoxx 2025!",
@@ -336,18 +360,6 @@
       "published": "2025-10-22T05:31:00-07:00",
       "niche": "spring",
       "score": 45,
-      "keywords": []
-    },
-    {
-      "id": "adaafd1ff46cf7ea",
-      "title": "Centralized Configuration Management With Consul",
-      "description": "What Is Centralized Configuration? In modern microservice architectures, multiple applications often share common configuration data (e.g., database settings). These might be multiple instances of the same service or entirely different services. Regardless of the service behavior, instead of maintaining configuration at the service level, we can centralize it in one place and distribute it across all services. HashiCorp Consul provides a solution for this. Consul config distribution",
-      "url": "https://feeds.dzone.com/link/18931/17186462/centralized-configuration-management-with-consul",
-      "source": "DZone Microservices",
-      "author": "Vishnu Viswambharan",
-      "published": "2025-10-15T19:00:00+00:00",
-      "niche": "spring",
-      "score": 42,
       "keywords": []
     },
     {
@@ -1954,6 +1966,18 @@
       "source": "InfoQ Java",
       "author": "Michael Redlich",
       "published": "2025-10-13T02:30:00+00:00",
+      "niche": "spring",
+      "score": 12,
+      "keywords": []
+    },
+    {
+      "id": "adaafd1ff46cf7ea",
+      "title": "Centralized Configuration Management With Consul",
+      "description": "What Is Centralized Configuration? In modern microservice architectures, multiple applications often share common configuration data (e.g., database settings). These might be multiple instances of the same service or entirely different services. Regardless of the service behavior, instead of maintaining configuration at the service level, we can centralize it in one place and distribute it across all services. HashiCorp Consul provides a solution for this. Consul config distribution",
+      "url": "https://feeds.dzone.com/link/18931/17186462/centralized-configuration-management-with-consul",
+      "source": "DZone Microservices",
+      "author": "Vishnu Viswambharan",
+      "published": "2025-10-15T19:00:00+00:00",
       "niche": "spring",
       "score": 12,
       "keywords": []
