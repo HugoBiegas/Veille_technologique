@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-10-24T09:26:42.585703+00:00",
-  "total_articles": 969,
+  "last_updated": "2025-10-24T12:51:58.204516+00:00",
+  "total_articles": 966,
   "articles": [
     {
       "id": "c4ffca4100b4e119",
@@ -34,6 +34,22 @@
         "library",
         "code",
         "framework"
+      ]
+    },
+    {
+      "id": "3a4f264a8ced9abf",
+      "title": "This Week In React #255 : Next.js, RSC, shadcn, TanStack, 3D, Fumadocs | Solito, Expo, MMKV, ImGui | Node.js, Vitest",
+      "description": "Hi everyone! This week we have a lot of interesting content about Next.js, with a new major release dropping just before their flagship conf. But also fair cricitisms showing that not everyone is satisfied with the framework. On the mobile side, React Native developers will enjoy improved support for iOS 26 and the ability to provide native iOS header items. BottomTabs is now v1, and Solito v5 dropped with a paradigm change. Let’s also welcome a new co-author of this newsletter: Armand Petit hel",
+      "url": "https://dev.to/sebastienlorber/this-week-in-react-255-nextjs-rsc-shadcn-tanstack-3d-fumadocs-solito-expo-mmkv-imgui-1m40",
+      "source": "Dev.to",
+      "author": "Sebastien Lorber",
+      "published": "2025-10-24T12:36:21+00:00",
+      "niche": "dev",
+      "score": 76,
+      "keywords": [
+        "developer",
+        "framework",
+        "release"
       ]
     },
     {
@@ -1100,6 +1116,18 @@
       "keywords": []
     },
     {
+      "id": "af26d0362947631d",
+      "title": "Twake Drive – An open-source alternative to Google Drive",
+      "description": "Comments",
+      "url": "https://github.com/linagora/twake-drive",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-24T10:16:25+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": []
+    },
+    {
       "id": "8a3137dc0b577994",
       "title": "Web Developer Travis McCracken on The Tools I Use Every Day as a Web Developer",
       "description": "Diving Deep into Backend Development with Rust and Go: Insights from Web Developer Travis McCracken Hello, fellow developers! I’m Travis McCracken, a passionate web developer with a keen interest in high-performance backend systems. Over the years, I’ve explored various programming languages, but none have captivated me quite like Rust and Go. These two powerful languages are transforming how we build scalable, efficient, and secure APIs. Today, I want to share my experiences, insights, and some",
@@ -1131,23 +1159,6 @@
         "API",
         "performance",
         "Laravel"
-      ]
-    },
-    {
-      "id": "d5beed96a2cfc11f",
-      "title": "Getting Started with GQLoom - Building GraphQL Server Applications with Zod + Drizzle",
-      "description": "Introduction In the Node.js ecosystem, building GraphQL APIs typically requires writing a lot of boilerplate code manually: defining schemas, writing resolvers, handling type validation, database operations, and more. Today, I'd like to introduce you to a brand new solution — GQLoom — that allows you to build type-safe GraphQL APIs using your favorite TypeScript type libraries (like Valibot or Zod), significantly boosting development efficiency. What is GQLoom? GQLoom is a Code First GraphQL Sch",
-      "url": "https://dev.to/xcfox/getting-started-with-gqloom-building-graphql-server-applications-with-zod-drizzle-423o",
-      "source": "Dev.to",
-      "author": "⛵",
-      "published": "2025-10-17T12:43:03+00:00",
-      "niche": "dev",
-      "score": 60,
-      "keywords": [
-        "code",
-        "GraphQL",
-        "development",
-        "API"
       ]
     },
     {
@@ -1412,6 +1423,21 @@
       "keywords": [
         "API",
         "framework"
+      ]
+    },
+    {
+      "id": "5ce77e35da5f7b8a",
+      "title": "Email Validation and SMTP Handshake With Go",
+      "description": "I was implementing a signup endpoint for an API where users can register via email. There are many ways to verify an email address. You could use a popular library like go-playground/validator to check if the input is in an email format. However, this doesn't confirm if the email address actually exists or if its domain can receive mail. If you prefer not to use regex or an external package, Go's standard library offers the net/mail package to validate an email address format. This approach is g",
+      "url": "https://dev.to/joybtw/email-validation-and-smtp-handshake-with-go-39gp",
+      "source": "Dev.to",
+      "author": "Joy Biswas",
+      "published": "2025-10-24T12:47:29+00:00",
+      "niche": "dev",
+      "score": 57,
+      "keywords": [
+        "library",
+        "API"
       ]
     },
     {
@@ -2009,20 +2035,6 @@
       "keywords": [
         "development",
         "performance"
-      ]
-    },
-    {
-      "id": "7416584cc7030878",
-      "title": "Lukas Niessen: From Architect to Founder to Reinventor - The Lukas Niessen Story and Lessons for Indian Startups",
-      "description": "Lukas Niessen is a seasoned software architect, startup founder, and technologist with over eight years of experience in software engineering, system design, and startup leadership. Known for his contributions to software architecture and open-source tools, he has made a significant impact through his creation of ArchUnitTS, a library for enforcing architecture rules in TypeScript and JavaScript projects. Additionally, his entrepreneurial journey with SocialHubs UG offers valuable lessons in res",
-      "url": "https://dev.to/sundardragai/lukas-niessen-from-architect-to-founder-to-reinventor-the-lukas-niessen-story-and-lessons-for-20hc",
-      "source": "Dev.to",
-      "author": "Sundar",
-      "published": "2025-10-17T12:38:59+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "library"
       ]
     },
     {
@@ -3518,6 +3530,20 @@
       ]
     },
     {
+      "id": "3413b2d5b46ad2d7",
+      "title": "Crypto Real-Time Data Pipeline",
+      "description": "Crypto Real-Time Data Pipeline A comprehensive real-time data pipeline that pulls cryptocurrency data from Binance API, stores it in MySQL (Aiven), replicates changes to Cassandra via CDC (Debezium), and visualizes metrics using Grafana. Architecture Overview Binance API → Python ETL → MySQL (Aiven) → Debezium CDC → Kafka → Python Consumer → Cassandra → Grafana Components Binance API: Real-time crypto market data source MySQL (Aiven): Primary relational database with SSL Debezium: Change Data Ca",
+      "url": "https://dev.to/lagat_josiah_f024a2c855bc/crypto-real-time-data-pipeline-1c2",
+      "source": "Dev.to",
+      "author": "Lagat Josiah",
+      "published": "2025-10-24T12:23:14+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "API"
+      ]
+    },
+    {
       "id": "ba9101785460dc9d",
       "title": "Develop the Good Habit of Writing Comments",
       "description": "Comments are extremely important—especially in large companies where there are often high standards for code documentation. You can usually judge a programmer's skill level by looking at how they write comments. That's why it's crucial for developers to form the habit of writing good comments in their daily work. In many cases, the ratio of comments to code can be 1:1, or even 1:2 or 1:3. I’ve experienced this firsthand. Sometimes when someone sends me code to modify, the source code is a comple",
@@ -3905,48 +3931,6 @@
       "keywords": [
         "developer",
         "code"
-      ]
-    },
-    {
-      "id": "c8b5c5c28f651a7a",
-      "title": "conform.nvim: store formatters settings in a project config",
-      "description": "I like the conform.nvim plugin - it helps me automatically format different file types. But I had two common cases where I wanted a bit more flexibility: Sometimes I need to use different formatters per project. Sometimes I want to pass extra arguments to a formatter, especially if the project doesn’t already include a formatter-specific config file. At first, I hardcoded all of this directly in my conform.lua setup. But then I thought - what if I could store the configuration inside each projec",
-      "url": "https://dev.to/art_vasilyev/conformnvim-store-formatters-settings-in-a-project-config-135p",
-      "source": "Dev.to",
-      "author": "Artem Vasilyev",
-      "published": "2025-10-17T12:43:40+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "b514a18601676f8a",
-      "title": "How Developers Can Maximize Productivity in 2025?",
-      "description": "Developer productivity isn’t about working longer hours or forcing yourself through endless sprints. In 2025, it’s about working smarter, using the right tools, and adopting workflows that align with how developers work. If you’re a developer or lead a dev team, this guide will show you practical, actionable strategies to boost productivity without the burnout, backed by trends, proven methods, and tools developers love. Why Developer Productivity Needs a Rethink in 2025 Tool Overload Is Real: T",
-      "url": "https://dev.to/anuj_tomar_8a2d1eb5069642/how-developers-can-maximize-productivity-in-2025-4a3g",
-      "source": "Dev.to",
-      "author": "Anuj Tomar",
-      "published": "2025-10-17T12:41:30+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "developer"
-      ]
-    },
-    {
-      "id": "2a9f4cd405f01e53",
-      "title": "AI-Powered Salary Negotiation: Use Data to Ask for More—And Get It",
-      "description": "As a developer, you’ve spent years honing your skills, building apps, and solving complex problems. Yet, when it comes to salary negotiations, many tech professionals feel unprepared. The good news? AI and data-driven insights are changing the game, giving you the confidence and evidence to ask for what you truly deserve. In this post, we’ll explore how AI can help developers negotiate smarter, why it matters, and practical steps to get a higher salary. Why Negotiating Your Salary Matters in Tec",
-      "url": "https://dev.to/taurus_ai_e0f0d0fc1d8a2de/ai-powered-salary-negotiation-use-data-to-ask-for-more-and-get-it-25l4",
-      "source": "Dev.to",
-      "author": "Taurus AI",
-      "published": "2025-10-17T12:36:17+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "developer"
       ]
     },
     {
@@ -5140,52 +5124,74 @@
       ]
     },
     {
-      "id": "9aaf1d7621f8f0e3",
-      "title": "Docker Zootopia Networking",
-      "description": "I want to talk a little bit about Docker Compose, networking, and services calling each other. This is a super regular scenario that ‘ve already talked/posted/written, but I keep these post mostly for myself? if that makes sense. So, from the beginning; A docker-compose file, there is service-a (the main service) and service-b. I need service-a to ping to service-b. And service-a has an environment variable to define the URL for service-b. The happy case works right out of the box; service-a can",
-      "url": "https://dev.to/manuartero/docker-zootopia-networking-4h1l",
+      "id": "8ec90562be579659",
+      "title": "Master Java Read Files: Your No-Fluff Guide to File Handling in Java",
+      "description": "Master Java Read Files: Your No-Fluff Guide to File Handling Alright, let's talk about something that is literally everywhere in the world of software: Files. Config files, data dumps, user uploads, logs—you name it. If you're a Java developer, knowing how to read files isn't just a \"nice-to-have\" skill; it's absolutely essential. But let's be real. Java has, like, a million ways to read a file. FileReader, BufferedReader, Scanner, Files.readAllLines()... it's enough to make your head spin. Whic",
+      "url": "https://dev.to/satyam_gupta_0d1ff2152dcc/master-java-read-files-your-no-fluff-guide-to-file-handling-in-java-a37",
       "source": "Dev.to",
-      "author": "Manuel Artero Anguita 🟨",
-      "published": "2025-10-17T12:46:49+00:00",
+      "author": "Satyam Gupta",
+      "published": "2025-10-24T12:39:36+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
-      "id": "addb5098a3d43c31",
-      "title": "Cloud Computing Apps: Redefining the Digital Experience",
-      "description": "In the age of technology and connectivity, cloud computing apps have become an integral part of everyday life. They allow users to store data, share files, and access applications from anywhere in the world. Whether you are a student, business professional, or simply someone who loves technology, cloud apps make it easy to stay organized and connected. Even if you plan to sell phone or upgrade your device, cloud storage ensures your data is always safe and transferable. Understanding Cloud Compu",
-      "url": "https://dev.to/phoneexits/cloud-computing-apps-redefining-the-digital-experience-2cia",
+      "id": "803bf7f9f602b2c8",
+      "title": "Day 69 : Meta Arguments in Terraform",
+      "description": "A. two ready-to-run Terraform examples (one count demo, one for_each demo), B. step-by-step instructions to run and inspect results, C. a clear explanation of meta-arguments and best practices, and (D) cleanup & cost warnings. Replace (AMI, region, key name, etc.) before running. Quick safety note: the AWS EC2 examples will create real instances that can incur cost. If you only want to experiment without charges, use the local_file or null_resource variants (I include a lightweight local demo be",
+      "url": "https://dev.to/udoh_deborah_b1e484c474bf/day-69-meta-arguments-in-terraform-4ead",
       "source": "Dev.to",
-      "author": "Phone Exit",
-      "published": "2025-10-17T12:43:09+00:00",
+      "author": "Udoh Deborah",
+      "published": "2025-10-24T12:31:51+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "best practices"
+      ]
     },
     {
-      "id": "ef7c30722add6887",
-      "title": "When “Just Routing” Wasted 2 Days My Multi-Region Lesson",
-      "description": "Deploying an app to multiple regions sounds straightforward just route traffic, right? That’s what I thought… until I spent 2 whole days chasing a 404. Here’s what happened, and why choosing the right layer matters more than just picking a tool. 🎯 The Scenario I had 3 App Services deployed in: US UK India My goal was simple: users should hit the nearest backend. So naturally, I picked Azure Traffic Manager after all, it’s literally called “Traffic Manager.” I added all 3 App Service endpoints, c",
-      "url": "https://dev.to/techwithhari/when-just-routing-wasted-2-days-my-multi-region-lesson-5gl1",
+      "id": "b2703e4bb8f9c1a5",
+      "title": "Inside the Engine: Building a Real AI Solution from Prototype to Production",
+      "description": "Artificial Intelligence (AI) is transforming industries, from healthcare diagnostics to financial forecasting and analysis. This article explores the journey of developing a generic AI solution to solve real-world problems, aligning with the latest AI trends, standards, and best practices. We’ll cover technical challenges, architectural decisions, and actionable insights. Vision to Prototype: Laying the Foundation Every AI solution begins with a clear vision to tackle a specific challenge, such ",
+      "url": "https://dev.to/capestart/inside-the-engine-building-a-real-ai-solution-from-prototype-to-production-1k0",
       "source": "Dev.to",
-      "author": "Haripriya Veluchamy",
-      "published": "2025-10-17T12:41:34+00:00",
+      "author": "CapeStart",
+      "published": "2025-10-24T12:30:23+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "best practices"
+      ]
     },
     {
-      "id": "4d2e64dff703f6b5",
-      "title": "Recursion",
-      "description": "What is Recursion? Any function which calls itself is called recursive. A recursive method solves a problem by calling a copy of itself to work on a smaller problem. This is called the recursion step.The recursion step can result in many more such recursive calls. It is useful in sort, search, and traversal problems that often have simple recursive solutions. Syntax",
-      "url": "https://dev.to/john_otienoh/recursion-61l",
+      "id": "22196896cdef0348",
+      "title": "How Neurolov Engineered a Decentralized Supercloud Before Token Launch",
+      "description": "In the Web3 ecosystem, many teams launch tokens before demonstrating real-world traction. This approach often leads to hype without sustainability. Neurolov took the opposite route — building a decentralized compute infrastructure that proved itself before introducing any token. The project’s approach offers valuable lessons for developers and builders exploring DePIN (Decentralized Physical Infrastructure Networks) and distributed compute systems. Building Infrastructure Before Incentives Inste",
+      "url": "https://dev.to/neurolov__ai/how-neurolov-engineered-a-decentralized-supercloud-before-token-launch-28pi",
       "source": "Dev.to",
-      "author": "John Otienoh",
-      "published": "2025-10-17T12:37:13+00:00",
+      "author": "Neurolov AI",
+      "published": "2025-10-24T12:30:18+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
+    },
+    {
+      "id": "f454f783cc946327",
+      "title": "Qu'est ce que le RLVR (Reinforcement Learning from Verifiable Rewards)",
+      "description": "Le Reinforcement Learning from Verifiable Rewards entraîne les LLMs à optimiser plutôt qu'imiter. Sur des tâches vérifiables (maths, code), les modèles explorent et découvrent des stratégies émergentes. Guide complet: algorithmes GRPO/PPO, applications, environnements, limites et bonnes pratiques.",
+      "url": "https://blog.octo.com/qu'est-ce-que-le-rlvr-(reinforcement-learning-from-verifiable-rewards)",
+      "source": "Blog Technique Octo",
+      "author": "Teilo Millet",
+      "published": "2025-10-24T11:04:10+00:00",
+      "niche": "dev",
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "cca82ad6d68ec7d6",
@@ -7976,6 +7982,42 @@
       "keywords": []
     },
     {
+      "id": "9a44ed27e84bccd5",
+      "title": "Writing and Running Unit Tests in Autotools",
+      "description": "Introduction If your project is like others, you’ll probably have a util.h and util.c files containing general utility functions. For example, suppose you want a function strnspn that’s like strspn() except limits the number of characters checked to n: size_t strnspn( char const *s, char const *charset, size_t n ); For such fundamental functions, you want to ensure they work correctly in all cases, including degenerate cases, so that if your program has a bug, you can reasonably rule out the bug",
+      "url": "https://dev.to/pauljlucas/writing-and-running-unit-tests-in-autotools-1ob2",
+      "source": "Dev.to",
+      "author": "Paul J. Lucas",
+      "published": "2025-10-24T12:43:57+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "1d8b03a98bcbb55b",
+      "title": "DNS Block‑Rate Report",
+      "description": "Purpose: Capture the architecture, basic operation, and recent statistics of my self‑hosted DNS filtering setup. Overview I’ve been running my own DNS resolver for the past ≈ 2 years. It’s a hobby‑grade service deployed on servers in several regions, heavily customized to stay reliable on diverse networks and ISP environments. Whenever the resolver is rolled out to a new region, I manually update the blocklist with region‑specific ads and trackers. I’ve recently started collecting statistics for",
+      "url": "https://dev.to/jundata/dns-block-rate-report-594g",
+      "source": "Dev.to",
+      "author": "Jun",
+      "published": "2025-10-24T12:36:34+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "9ab10802f763686f",
+      "title": "AWS us-east-1 outage: How Ably’s multi-region architecture held up",
+      "description": "Resilience in action: zero service disruption During this week’s AWS us-east-1 outage, Ably maintained full service continuity with no customer impact. This was our multi-region architecture working exactly as designed; error rates were negligibly low and unchanged throughout. Any additional round trip latency was limited to 12ms, which is below the typical variance in any client-to-endpoint connection, and well below our 40–50ms global median; this is imperceptible to users and below monitoring",
+      "url": "https://dev.to/ably/aws-us-east-1-outage-how-ablys-multi-region-architecture-held-up-15mk",
+      "source": "Dev.to",
+      "author": "Ably Blog",
+      "published": "2025-10-24T12:24:17+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "cd26ef7ee7995316",
       "title": "Every time I speak with developers, freelancers, or tech professionals, I hear the same concern: “Will AI take my job?” The real shift isn't AI vs Humans: it’s AI-empowered humans vs humans who refuse to adapt. Let’s break this down clearly.",
       "description": "AI Isn’t Replacing You: But the One Who Uses It Better Might Jaideep Parashar ・ Oct 20 #webdev #programming #ai #beginners",
@@ -8018,34 +8060,6 @@
       "keywords": [
         "programming",
         "code"
-      ]
-    },
-    {
-      "id": "efdcc5dbe373c2b2",
-      "title": "[Boost]",
-      "description": "10 Best AI Interview Copilot Tools for 2026 🤖 Hadil Ben Abdallah for Final Round AI ・ Oct 17 #programming #ai #interview #career",
-      "url": "https://dev.to/hadil/-1cfe",
-      "source": "Dev.to",
-      "author": "Hadil Ben Abdallah",
-      "published": "2025-10-17T12:39:59+00:00",
-      "niche": "dev",
-      "score": 48,
-      "keywords": [
-        "programming"
-      ]
-    },
-    {
-      "id": "6233e328c1a7e069",
-      "title": "3x performance for 1/4 of the price by migrating from AWS to Hetzner",
-      "description": "Comments",
-      "url": "https://digitalsociety.coop/posts/migrating-to-hetzner-cloud/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-17T10:00:21+00:00",
-      "niche": "dev",
-      "score": 48,
-      "keywords": [
-        "performance"
       ]
     },
     {
@@ -8191,6 +8205,20 @@
       ]
     },
     {
+      "id": "4f7ab3a16d5ce46a",
+      "title": "ChunkLLM: A Lightweight Pluggable Framework for Accelerating LLMs Inference",
+      "description": "Comments",
+      "url": "https://arxiv.org/abs/2510.02361",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-24T11:41:26+00:00",
+      "niche": "dev",
+      "score": 48,
+      "keywords": [
+        "framework"
+      ]
+    },
+    {
       "id": "42f5301073f39c3c",
       "title": "If you are preparing for SAA-C03 exam this is for you a complete IAM guide",
       "description": "🔐 Mastering IAM for the AWS Solutions Architect – Associate (SAA-C03) Exam Nishath J P ・ Oct 20 #awschallenge #cloud #aws #devops",
@@ -8249,20 +8277,6 @@
       "niche": "dev",
       "score": 46,
       "keywords": []
-    },
-    {
-      "id": "526b5004d003a94a",
-      "title": "Codebase is 250% AI generated",
-      "description": "Comments",
-      "url": "https://www.moderndescartes.com/essays/ai_codebase/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-17T11:34:04+00:00",
-      "niche": "dev",
-      "score": 45,
-      "keywords": [
-        "code"
-      ]
     },
     {
       "id": "a7231d716731d581",
@@ -8391,30 +8405,6 @@
       ]
     },
     {
-      "id": "2955c4d05fa117ef",
-      "title": "Ruby Core Takes Ownership of Rubygems and Bundler",
-      "description": "Comments",
-      "url": "https://www.ruby-lang.org/en/news/2025/10/17/rubygems-repository-transition/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-17T12:15:53+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "a706cc3ec752839d",
-      "title": "Live Stream from the Namib Desert",
-      "description": "Comments",
-      "url": "https://bookofjoe2.blogspot.com/2025/10/live-stream-from-namib-desert.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-17T12:23:01+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
       "id": "30f8baba3dc40bc7",
       "title": "You did no fact checking, and I must scream",
       "description": "Comments",
@@ -8470,18 +8460,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-10-17T17:40:21+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "4f4f5dff50100a1a",
-      "title": "I built an F5 QKview scanner for CISA ED 26-01",
-      "description": "Comments",
-      "url": "https://www.usenabla.com/blog/emergency-scanning-cisa-endpoint",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-17T12:41:13+00:00",
       "niche": "dev",
       "score": 44,
       "keywords": []
@@ -10275,6 +10253,54 @@
       "keywords": []
     },
     {
+      "id": "f67e8aa836d9b774",
+      "title": "Mesh2Motion – Open-source web application to animate 3D models",
+      "description": "Comments",
+      "url": "https://mesh2motion.org/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-24T11:01:23+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "c54dc639bc72199d",
+      "title": "Debian Technical Committee overrides systemd change",
+      "description": "Comments",
+      "url": "https://lwn.net/Articles/1041316/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-24T10:07:34+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "24f2dc1b8b854b99",
+      "title": "Interstellar Mission to a Black Hole",
+      "description": "Comments",
+      "url": "https://www.centauri-dreams.org/2025/10/23/interstellar-mission-to-a-black-hole/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-24T09:17:24+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "e36d5881d2532acb",
+      "title": "Padlet (YC W13) Is Hiring in San Francisco and Singapore",
+      "description": "Comments",
+      "url": "https://padlet.jobs",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-24T12:01:08+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "78c4b08725d5f56b",
       "title": "React 19 Upgrade Guide",
       "description": "The improvements added to React 19 require some breaking changes, but we've worked to make the upgrade as smooth as possible and we don't expect the changes to impact most apps. In this post, we will guide you through the steps for upgrading apps and libraries to React 19.",
@@ -10335,8 +10361,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "performance",
-        "React 19"
+        "React 19",
+        "performance"
       ]
     },
     {
@@ -10352,18 +10378,6 @@
       "keywords": [
         "React 19"
       ]
-    },
-    {
-      "id": "df7cfd9fe21b001a",
-      "title": "Fragments: A Platform for Learning Creative Coding with Shaders",
-      "description": "A hands-on way to learn shaders: explore techniques, tweak ready-made utilities, and remix 120+ sketches to turn fundamentals into distinctive generative art.",
-      "url": "https://tympanus.net/codrops/2025/10/17/fragments-a-platform-for-learning-creative-coding-with-shaders/",
-      "source": "Codrops",
-      "author": "Ben McCormick",
-      "published": "2025-10-17T12:36:05+00:00",
-      "niche": "dev",
-      "score": 39,
-      "keywords": []
     },
     {
       "id": "52f46808663d2e7c",
@@ -10387,30 +10401,6 @@
       "published": "2025-10-21T11:52:05+00:00",
       "niche": "dev",
       "score": 39,
-      "keywords": []
-    },
-    {
-      "id": "654370a210e2a673",
-      "title": "EVs are depreciating faster than gas-powered cars",
-      "description": "Comments",
-      "url": "https://restofworld.org/2025/ev-depreciation-blusmart-collapse/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-17T10:56:40+00:00",
-      "niche": "dev",
-      "score": 38,
-      "keywords": []
-    },
-    {
-      "id": "183e85b3142ed60c",
-      "title": "Ruby core team takes ownership of RubyGems and Bundler",
-      "description": "Comments",
-      "url": "https://www.ruby-lang.org/en/news/2025/10/17/rubygems-repository-transition/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-17T12:15:53+00:00",
-      "niche": "dev",
-      "score": 38,
       "keywords": []
     },
     {
@@ -10640,9 +10630,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "API",
+        "React 19",
         "release",
-        "React 19"
+        "API"
       ]
     },
     {
@@ -10708,8 +10698,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10737,8 +10727,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "API",
-        "framework"
+        "framework",
+        "API"
       ]
     },
     {
@@ -10777,6 +10767,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-10-20T02:03:40+00:00",
+      "niche": "dev",
+      "score": 32,
+      "keywords": []
+    },
+    {
+      "id": "a0600e3fdf4d8816",
+      "title": "Show HN: MacOS Live Screensaver – A screensaver that plays live video streams",
+      "description": "Comments",
+      "url": "https://github.com/hauxir/macos-live-screensaver",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-21T11:48:52+00:00",
       "niche": "dev",
       "score": 32,
       "keywords": []
@@ -10830,8 +10832,8 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10860,10 +10862,10 @@
       "score": 30,
       "keywords": [
         "code",
-        "release",
         "framework",
-        "API",
-        "performance"
+        "release",
+        "performance",
+        "API"
       ]
     },
     {
@@ -11142,8 +11144,8 @@
       "score": 22,
       "keywords": [
         "development",
-        "performance",
-        "release"
+        "release",
+        "performance"
       ]
     },
     {
@@ -11157,9 +11159,9 @@
       "niche": "dev",
       "score": 22,
       "keywords": [
-        "performance",
+        "code",
         "release",
-        "code"
+        "performance"
       ]
     },
     {
@@ -11185,8 +11187,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "API",
-        "release"
+        "release",
+        "API"
       ]
     },
     {
@@ -11200,8 +11202,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "framework"
+        "framework",
+        "release"
       ]
     },
     {
@@ -11216,8 +11218,8 @@
       "score": 20,
       "keywords": [
         "developer",
-        "performance",
-        "code"
+        "code",
+        "performance"
       ]
     },
     {
@@ -11231,8 +11233,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "API",
-        "developer"
+        "developer",
+        "API"
       ]
     },
     {
@@ -11246,9 +11248,9 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "API",
         "developer",
-        "release"
+        "release",
+        "API"
       ]
     },
     {
@@ -11675,8 +11677,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "development",
-        "programming"
+        "programming",
+        "development"
       ]
     },
     {
@@ -12232,15 +12234,15 @@
       "keywords": []
     },
     {
-      "id": "288b1a054d460b21",
-      "title": "Sécurité applicative : le détournement des fonctions internes d'un programme - Partie 2",
-      "description": "Dans cet article sécurité, nous verrons une méthode de détournement des fonctions internes d'un programme, des solutions de détections et de possibles protections.",
-      "url": "https://blog.octo.com/securite-applicative--le-detournement-des-fonctions-internes-d'un-programme-partie-2",
-      "source": "Blog Technique Octo",
-      "author": "Benjamin Gigon",
-      "published": "2025-09-17T12:32:10+00:00",
+      "id": "df7cfd9fe21b001a",
+      "title": "Fragments: A Platform for Learning Creative Coding with Shaders",
+      "description": "A hands-on way to learn shaders: explore techniques, tweak ready-made utilities, and remix 120+ sketches to turn fundamentals into distinctive generative art.",
+      "url": "https://tympanus.net/codrops/2025/10/17/fragments-a-platform-for-learning-creative-coding-with-shaders/",
+      "source": "Codrops",
+      "author": "Ben McCormick",
+      "published": "2025-10-17T12:36:05+00:00",
       "niche": "dev",
-      "score": 10,
+      "score": 9,
       "keywords": []
     },
     {
@@ -12325,42 +12327,6 @@
       "published": "2025-09-15T00:00:00+00:00",
       "niche": "dev",
       "score": 9,
-      "keywords": []
-    },
-    {
-      "id": "d54bf5a4e09c11f9",
-      "title": "Betty White's shoulder bag is a time capsule of World War II (2023)",
-      "description": "Comments",
-      "url": "https://americanhistory.si.edu/explore/stories/betty-white-world-war-ii",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-17T04:28:46+00:00",
-      "niche": "dev",
-      "score": 8,
-      "keywords": []
-    },
-    {
-      "id": "eb36c837bdfc381b",
-      "title": "Benchmarking Postgres 17 vs. 18",
-      "description": "Comments",
-      "url": "https://planetscale.com/blog/benchmarking-postgres-17-vs-18",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-14T15:35:44+00:00",
-      "niche": "dev",
-      "score": 8,
-      "keywords": []
-    },
-    {
-      "id": "a2b826095cd905c4",
-      "title": "Cheap DIY solar fence design",
-      "description": "Comments",
-      "url": "https://joeyh.name/blog/entry/cheap_DIY_solar_fence_design/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-15T19:23:39+00:00",
-      "niche": "dev",
-      "score": 8,
       "keywords": []
     },
     {
