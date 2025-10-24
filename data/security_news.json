@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-10-24T15:25:56.601436+00:00",
-  "total_articles": 384,
+  "last_updated": "2025-10-24T18:32:00.142480+00:00",
+  "total_articles": 380,
   "articles": [
     {
       "id": "dee1ee8e31191e4b",
@@ -234,6 +234,24 @@
       ]
     },
     {
+      "id": "5d6560befb308a31",
+      "title": "Microsoft Issues Emergency Patch for Actively Exploited Critical WSUS Vulnerability",
+      "description": "Microsoft on Thursday released out-of-band security updates to patch a critical-severity Windows Server Update Service (WSUS) vulnerability with a proof-of-concept (Poc) exploit publicly available and has come under active exploitation in the wild. The vulnerability in question is CVE-2025-59287 (CVSS score: 9.8), a remote code execution flaw in WSUS that was originally fixed by the tech giant",
+      "url": "https://thehackernews.com/2025/10/microsoft-issues-emergency-patch-for.html",
+      "source": "The Hacker News",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2025-10-24T22:00:00+05:30",
+      "niche": "security",
+      "score": 100,
+      "keywords": [
+        "exploit",
+        "remote code execution",
+        "security",
+        "patch",
+        "PoC"
+      ]
+    },
+    {
       "id": "b6acfece5174140e",
       "title": "Analysing ClickFix: 3 Reasons Why Copy/Paste Attacks Are Driving Security Breaches",
       "description": "ClickFix, FileFix, fake CAPTCHA — whatever you call it, attacks where users interact with malicious scripts in their web browser are a fast-growing source of security breaches.  ClickFix attacks prompt the user to solve some kind of problem or challenge in the browser — most commonly a CAPTCHA, but also things like fixing an error on a webpage.  The name is a little misleading, though",
@@ -318,23 +336,6 @@
         "attack",
         "CVE-",
         "PoC"
-      ]
-    },
-    {
-      "id": "c77c6c88a8ece99e",
-      "title": "Microsoft fixes highest-severity ASP.NET Core flaw ever",
-      "description": "Earlier this week, Microsoft patched a vulnerability that was flagged with the \"highest ever\" severity rating received by an ASP.NET Core security flaw. [...]",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-highest-severity-aspnet-core-flaw-ever/",
-      "source": "Bleeping Computer",
-      "author": "Sergiu Gatlan",
-      "published": "2025-10-17T11:35:49-04:00",
-      "niche": "security",
-      "score": 96,
-      "keywords": [
-        "security",
-        "vulnerability",
-        "security flaw",
-        "patch"
       ]
     },
     {
@@ -490,6 +491,40 @@
       ]
     },
     {
+      "id": "d95a29427fe0d16f",
+      "title": "Critical WSUS flaw in Windows Server now exploited in attacks",
+      "description": "Attackers are now exploiting a critical-severity Windows Server Update Service (WSUS) vulnerability, which already has publicly available proof-of-concept exploit code. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-critical-windows-server-wsus-flaw-in-attacks/",
+      "source": "Bleeping Computer",
+      "author": "Sergiu Gatlan",
+      "published": "2025-10-24T12:28:14-04:00",
+      "niche": "security",
+      "score": 92,
+      "keywords": [
+        "exploit",
+        "attack",
+        "vulnerability"
+      ]
+    },
+    {
+      "id": "e6239bf86437b15a",
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "description": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2025-54236 Adobe Commerce and Magento Improper Input Validation Vulnerability CVE-2025-59287 Microsoft Windows Server Update Service (WSUS) Deserialization of Untrusted Data Vulnerability  These types of vulnerabilities are frequent attack vectors for malicious cyber actors and poses significant risks to the federal enterprise.    Binding Operational Directiv",
+      "url": "https://www.cisa.gov/news-events/alerts/2025/10/24/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "source": "CISA Cybersecurity Advisories",
+      "author": "CISA",
+      "published": "2025-10-24T12:00:00+00:00",
+      "niche": "security",
+      "score": 92,
+      "keywords": [
+        "exploit",
+        "attack",
+        "RCE",
+        "CVE-",
+        "vulnerability"
+      ]
+    },
+    {
       "id": "3f56732ca5846035",
       "title": "CISA Confirms Exploitation of Latest Oracle EBS Vulnerability",
       "description": "The cybersecurity agency has added CVE-2025-61884 to its Known Exploited Vulnerabilities (KEV) catalog. The post CISA Confirms Exploitation of Latest Oracle EBS Vulnerability appeared first on SecurityWeek.",
@@ -606,22 +641,6 @@
         "cybersecurity",
         "security",
         "RCE"
-      ]
-    },
-    {
-      "id": "6e81fa0ca265126b",
-      "title": "Microsoft Disrupts Ransomware Campaign Abusing Azure Certificates",
-      "description": "Microsoft revoked more than 200 digital certificates that threat actors used to sign fake Teams binaries that set the stage for Rhysida ransomware attacks.",
-      "url": "https://www.darkreading.com/threat-intelligence/microsoft-disrupts-ransomware-abusing-azure-certificates",
-      "source": "Dark Reading",
-      "author": "Rob Wright",
-      "published": "2025-10-17T18:00:45+00:00",
-      "niche": "security",
-      "score": 84,
-      "keywords": [
-        "threat",
-        "attack",
-        "ransomware"
       ]
     },
     {
@@ -954,20 +973,6 @@
       ]
     },
     {
-      "id": "ea0b4450e8c7fb9a",
-      "title": "Europol dismantles SIM box operation renting numbers for cybercrime",
-      "description": "European law enforcement in an operation codenamed 'SIMCARTEL' has dismantled an illegal SIM-box service that enabled more than 3,200 fraud cases and caused at least 4.5 million euros in losses. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/europol-dismantles-sim-box-operation-renting-numbers-for-cybercrime/",
-      "source": "Bleeping Computer",
-      "author": "Bill Toulas",
-      "published": "2025-10-17T13:01:51-04:00",
-      "niche": "security",
-      "score": 76,
-      "keywords": [
-        "RCE"
-      ]
-    },
-    {
       "id": "50f7f03a86dec33d",
       "title": "DNS0.EU private DNS service shuts down over sustainability issues",
       "description": "The DNS0.EU non-profit public DNS service focused on European users announced its immediate shut down due to time and resource constraints. [...]",
@@ -1045,21 +1050,6 @@
         "exploit",
         "RCE",
         "cybersecurity"
-      ]
-    },
-    {
-      "id": "522ca5fb94236824",
-      "title": "Microsoft: Russia, China Increasingly Using AI to Escalate Cyberattacks on the US",
-      "description": "The U.S. is the top target for cyberattacks, with criminals and foreign adversaries targeting companies, governments and organizations. The post Microsoft: Russia, China Increasingly Using AI to Escalate Cyberattacks on the US appeared first on SecurityWeek.",
-      "url": "https://www.securityweek.com/microsoft-russia-china-increasingly-using-ai-to-escalate-cyberattacks-on-the-us/",
-      "source": "SecurityWeek",
-      "author": "Associated Press",
-      "published": "2025-10-17T16:23:20+00:00",
-      "niche": "security",
-      "score": 75,
-      "keywords": [
-        "security",
-        "attack"
       ]
     },
     {
@@ -1198,6 +1188,24 @@
         "security",
         "exploit",
         "zero-day"
+      ]
+    },
+    {
+      "id": "90d21d6caee141c9",
+      "title": "'Jingle Thief' Hackers Exploit Cloud Infrastructure to Steal Millions in Gift Cards",
+      "description": "Cybersecurity researchers have shed light on a cybercriminal group called Jingle Thief that has been observed targeting cloud environments associated with organizations in the retail and consumer services sectors for gift card fraud. \"Jingle Thief attackers use phishing and smishing to steal credentials, to compromise organizations that issue gift cards,\" Palo Alto Networks Unit 42 researchers",
+      "url": "https://thehackernews.com/2025/10/jingle-thief-hackers-exploit-cloud.html",
+      "source": "The Hacker News",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2025-10-23T13:22:00+05:30",
+      "niche": "security",
+      "score": 74,
+      "keywords": [
+        "exploit",
+        "attack",
+        "security",
+        "phishing",
+        "cybersecurity"
       ]
     },
     {
@@ -1931,18 +1939,6 @@
       ]
     },
     {
-      "id": "4c839594d8df7ed5",
-      "title": "Microsoft lifts more safeguard holds blocking Windows 11 updates",
-      "description": "Microsoft has removed two more compatibility holds preventing customers from installing Windows 11 24H2 via Windows Update. [...]",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-lifts-more-safeguard-holds-blocking-windows-11-updates/",
-      "source": "Bleeping Computer",
-      "author": "Sergiu Gatlan",
-      "published": "2025-10-17T13:22:16-04:00",
-      "niche": "security",
-      "score": 64,
-      "keywords": []
-    },
-    {
       "id": "209a67b83e593a58",
       "title": "OpenAI confirms GPT-6 is not shipping in 2025",
       "description": "OpenAI is not planning to ship GPT-6 this year, but that doesn't necessarily mean the company will not release new models. [...]",
@@ -2031,6 +2027,18 @@
       "keywords": []
     },
     {
+      "id": "d72774db13c2847b",
+      "title": "Amazon: This week’s AWS outage caused by major DNS failure",
+      "description": "Amazon says a major DNS failure was behind a massive AWS (Amazon Web Services) outage that took down many websites and online services on Monday. [...]",
+      "url": "https://www.bleepingcomputer.com/news/technology/amazon-this-weeks-aws-outage-caused-by-major-dns-failure/",
+      "source": "Bleeping Computer",
+      "author": "Sergiu Gatlan",
+      "published": "2025-10-24T11:33:58-04:00",
+      "niche": "security",
+      "score": 64,
+      "keywords": []
+    },
+    {
       "id": "16bb2b79557357a8",
       "title": "Siemens SIMATIC S7-1200 CPU V1/V2 Devices",
       "description": "As of January 10, 2023, CISA will no longer be updating ICS security advisories for Siemens product vulnerabilities beyond the initial advisory. For the most up-to-date information on vulnerabilities in this advisory, please see Siemens' ProductCERT Security Advisories (CERT Services | Services | Siemens Global). View CSAF 1. EXECUTIVE SUMMARY CVSS v4 8.7 ATTENTION: Exploitable remotely/low attack complexity Vendor: Siemens Equipment: SIMATIC S7-1200 CPU V1/V2 Devices Vulnerabilities: Improper I",
@@ -2105,10 +2113,10 @@
       "niche": "security",
       "score": 63,
       "keywords": [
-        "patch",
-        "security",
         "exploit",
-        "zero-day"
+        "patch",
+        "zero-day",
+        "security"
       ]
     },
     {
@@ -2279,40 +2287,10 @@
       "niche": "security",
       "score": 61,
       "keywords": [
-        "secure",
         "RCE",
-        "security",
-        "OWASP"
-      ]
-    },
-    {
-      "id": "a099b39a63e44b35",
-      "title": "AI Chat Data Is History’s Most Thorough Record of Enterprise Secrets, Secure it Wisely",
-      "description": "AI interactions are becoming one of the most revealing records of human thinking; and we're only beginning to understand what that means for law enforcement, accountability, and privacy.",
-      "url": "https://www.darkreading.com/application-security/ai-chat-data-is-history-s-most-thorough-record-of-enterprise-secrets-secure-it-accordingly",
-      "source": "Dark Reading",
-      "author": "Rob T. Lee",
-      "published": "2025-10-17T15:41:55+00:00",
-      "niche": "security",
-      "score": 60,
-      "keywords": [
+        "OWASP",
         "secure",
-        "RCE"
-      ]
-    },
-    {
-      "id": "443f216be1231862",
-      "title": "AI Chat Data Is History's Most Thorough Record of Enterprise Secrets. Secure It Wisely",
-      "description": "AI interactions are becoming one of the most revealing records of human thinking, and we're only beginning to understand what that means for law enforcement, accountability, and privacy.",
-      "url": "https://www.darkreading.com/application-security/ai-chat-data-is-history-s-most-thorough-record-of-enterprise-secrets-secure-it-accordingly",
-      "source": "Dark Reading",
-      "author": "Rob T. Lee",
-      "published": "2025-10-17T15:41:55+00:00",
-      "niche": "security",
-      "score": 60,
-      "keywords": [
-        "secure",
-        "RCE"
+        "security"
       ]
     },
     {
@@ -2371,9 +2349,9 @@
       "niche": "security",
       "score": 60,
       "keywords": [
-        "security",
         "exploit",
-        "zero-day"
+        "zero-day",
+        "security"
       ]
     },
     {
@@ -2702,21 +2680,6 @@
       ]
     },
     {
-      "id": "3b501fa12195c856",
-      "title": "AI Agent Security: Whose Responsibility Is It?",
-      "description": "The shared responsibility model of data security, familiar from cloud deployments, is key to agentic services, but cybersecurity teams and corporate users often struggle with awareness and managing that risk.",
-      "url": "https://www.darkreading.com/cybersecurity-operations/ai-agent-security-awareness-responsibility",
-      "source": "Dark Reading",
-      "author": "Alexander Culafi",
-      "published": "2025-10-17T16:23:40+00:00",
-      "niche": "security",
-      "score": 55,
-      "keywords": [
-        "security",
-        "cybersecurity"
-      ]
-    },
-    {
       "id": "f6ae23745a63c233",
       "title": "From Airport chaos to cyber intrigue: Everest Gang takes credit for Collins Aerospace breach",
       "description": "Everest claims Collins Aerospace hack hitting EU airports, but its leak site vanishes soon after, sparking takedown speculation. Do you remember the Collins Aerospace supply chain attack that disrupted operations at several major European airports, including Heathrow in London, Brussels, and Berlin? In September, a cyberattack on Collins Aerospace disrupted check-in and boarding systems at [&#8230;]",
@@ -2892,11 +2855,11 @@
       "niche": "security",
       "score": 55,
       "keywords": [
-        "vulnerability",
+        "security",
         "OWASP",
         "RCE",
-        "cybersecurity",
-        "security"
+        "vulnerability",
+        "cybersecurity"
       ]
     },
     {
@@ -3167,20 +3130,6 @@
       ]
     },
     {
-      "id": "527a0f37afd9043f",
-      "title": "Vault - L'app open source qui collecte vos liens, notes et images",
-      "description": "Fin de journée, c&rsquo;est presque le week end et en plus les vacances scolaires sont là ! Mais je ne pouvais pas finir ma journée sans vous parler de Vault. Vault c&rsquo;est une application Electron pour Mac, Windows et Linux qui vous permet de sauvegarder vos liens, vos notes et vos images à 100% en local sur votre machine. Vous installez l&rsquo;app, vous créez un ou plusieurs &ldquo;coffres&rdquo; (des dossiers qui organisent votre contenu), et vous commencez à sauvegarder tout ce qui vous",
-      "url": "https://korben.info/vault-app-bookmark-local-privacy.html",
-      "source": "Korben",
-      "author": "Korben",
-      "published": "2025-10-17T18:16:46+02:00",
-      "niche": "security",
-      "score": 52,
-      "keywords": [
-        "RCE"
-      ]
-    },
-    {
       "id": "ff5fa918feb79be6",
       "title": "NTFSPLUS - Un nouveau driver NTFS pour Linux",
       "description": "Vous vous souvenez quand Paragon Software a sorti son driver NTFS3 pour Linux en 2021 ? Bien sûr que vous ne vous en souvenez pas parce que vous êtes gens normaux. Mais le titi barbus sous Linux étaient très contents !! Enfin un driver NTFS kernel-space performant et maintenu par une boite sérieuse ! Mais le problème c&rsquo;est qu&rsquo;un an plus tard, le développeur principal du driver a disparu de la circulation. Silence radio total et depuis les bugs se sont accumulés et il n&rsquo;y a plus",
@@ -3338,9 +3287,9 @@
       "niche": "security",
       "score": 51,
       "keywords": [
-        "vulnerability",
+        "disclosure",
         "patch",
-        "disclosure"
+        "vulnerability"
       ]
     },
     {
@@ -3354,9 +3303,9 @@
       "niche": "security",
       "score": 51,
       "keywords": [
+        "exploit",
         "attack",
-        "security",
-        "exploit"
+        "security"
       ]
     },
     {
@@ -3370,9 +3319,9 @@
       "niche": "security",
       "score": 51,
       "keywords": [
+        "exploit",
         "attack",
-        "security",
-        "exploit"
+        "security"
       ]
     },
     {
@@ -3552,11 +3501,11 @@
       "niche": "security",
       "score": 49,
       "keywords": [
-        "breach",
-        "phishing",
-        "RCE",
+        "threat",
         "attack",
-        "threat"
+        "RCE",
+        "phishing",
+        "breach"
       ]
     },
     {
@@ -3808,17 +3757,18 @@
       "keywords": []
     },
     {
-      "id": "74173795d8578583",
-      "title": "SmoothCSV3 - Pour traiter vos fichiers CSV avec respect",
-      "description": "Les CSV, c&rsquo;est comme les cafards et les politiciens. Tout le monde les déteste, mais ils survivront à l&rsquo;apocalypse nucléaire. Ainsi, pendant que les formats propriétaires disparaissent avec leurs éditeurs au fil des ans, ce petit fichier texte avec des virgules continue tranquillement de faire tourner le monde. Par exemple, 80% des datasets sur Kaggle sont en CSV et toutes les APIs qui valent quelque chose proposent un export CSV. Même votre comptable, ce gros nullos en informatique ",
-      "url": "https://korben.info/smoothcsv-editeur-csv-rapide-vs-excel.html",
-      "source": "Korben",
-      "author": "Korben",
-      "published": "2025-10-17T17:27:07+02:00",
+      "id": "660a2ee937c5f667",
+      "title": "UN agreement on cybercrime criticized over risks to cybersecurity researchers",
+      "description": "Cybersecurity researchers could face criminal charges for performing their legitimate work if the United Nations Convention against Cybercrime is ratified in a process beginning in Hanoi, Vietnam, this weekend, critics say. Tech industry group Cybersecurity Tech Accord said today that little has changed since it presented a detailed critique of the UN Convention against Cybercrime more than a year ago. The group, comprising tech heavyweights Arm, Cisco, Cloudflare, Dell, Meta, Microsoft, Salesfo",
+      "url": "https://www.csoonline.com/article/4078735/un-agreement-on-cybercrime-criticized-over-risks-to-cybersecurity-researchers.html",
+      "source": "CSO Online",
+      "author": "Inconnu",
+      "published": "2025-10-24T15:39:11+00:00",
       "niche": "security",
-      "score": 45,
+      "score": 46,
       "keywords": [
-        "PoC"
+        "cybersecurity",
+        "security"
       ]
     },
     {
@@ -4146,10 +4096,10 @@
       "niche": "security",
       "score": 43,
       "keywords": [
-        "secure",
         "RCE",
-        "security",
-        "OWASP"
+        "OWASP",
+        "secure",
+        "security"
       ]
     },
     {
@@ -4370,8 +4320,8 @@
       "score": 42,
       "keywords": [
         "RCE",
-        "security",
-        "OWASP"
+        "OWASP",
+        "security"
       ]
     },
     {
@@ -4556,10 +4506,10 @@
       "niche": "security",
       "score": 37,
       "keywords": [
-        "OWASP",
         "threat",
-        "security",
-        "web application security"
+        "web application security",
+        "OWASP",
+        "security"
       ]
     },
     {
@@ -4587,9 +4537,9 @@
       "niche": "security",
       "score": 36,
       "keywords": [
+        "SQL injection",
         "RCE",
-        "injection",
-        "SQL injection"
+        "injection"
       ]
     },
     {
@@ -4619,9 +4569,9 @@
       "niche": "security",
       "score": 33,
       "keywords": [
+        "exploit",
         "patch",
-        "security",
-        "exploit"
+        "security"
       ]
     },
     {
@@ -4674,8 +4624,8 @@
       "niche": "security",
       "score": 31,
       "keywords": [
-        "secure",
         "OWASP",
+        "secure",
         "security"
       ]
     },
@@ -4690,8 +4640,8 @@
       "niche": "security",
       "score": 30,
       "keywords": [
-        "attack",
-        "RCE"
+        "RCE",
+        "attack"
       ]
     },
     {
@@ -4774,8 +4724,8 @@
       "niche": "security",
       "score": 26,
       "keywords": [
-        "cybersecurity",
         "breach",
+        "cybersecurity",
         "security"
       ]
     },
@@ -4944,8 +4894,8 @@
       "niche": "security",
       "score": 24,
       "keywords": [
-        "injection",
-        "SQL injection"
+        "SQL injection",
+        "injection"
       ]
     },
     {
@@ -4959,8 +4909,8 @@
       "niche": "security",
       "score": 21,
       "keywords": [
-        "security",
-        "malware"
+        "malware",
+        "security"
       ]
     },
     {
@@ -4974,8 +4924,8 @@
       "niche": "security",
       "score": 21,
       "keywords": [
-        "attack",
-        "malware"
+        "malware",
+        "attack"
       ]
     },
     {
