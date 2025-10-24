@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-10-23T21:20:07.096069+00:00",
-  "total_articles": 380,
+  "last_updated": "2025-10-24T01:45:57.195431+00:00",
+  "total_articles": 385,
   "articles": [
     {
       "id": "5a32c56f8ebad0b6",
@@ -739,6 +739,22 @@
       ]
     },
     {
+      "id": "a5d942ff25d4c6f9",
+      "title": "Toys “R” Us Canada warns customers' info leaked in data breach",
+      "description": "Toys \"R\" Us Canada has sent notices of a data breach to customers informing them of a security incident where threat actors leaked customer records they had previously stolen from its systems. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/toys-r-us-canada-warns-customers-info-leaked-in-data-breach/",
+      "source": "Bleeping Computer",
+      "author": "Bill Toulas",
+      "published": "2025-10-23T18:25:35-04:00",
+      "niche": "security",
+      "score": 84,
+      "keywords": [
+        "threat",
+        "breach",
+        "security"
+      ]
+    },
+    {
       "id": "b8d290a76636f593",
       "title": "‘Zero Disco’ campaign hits legacy Cisco switches with fileless rootkit payloads",
       "description": "In newly disclosed real-world attacks, threat actors are found exploiting a Cisco Simple Network Management Protocol (SNMP) vulnerability to gain remote code execution (RCE) and install Linux rootkits on vulnerable switches. A Trend Micro investigation traced the activity, dubbed “Operation Zero Disco,” to older Cisco platforms and found the operation using spoofed IPs and MAC addresses as part of its attack chain. “The operation targeted victims running older Linux systems that do not have endp",
@@ -1186,6 +1202,22 @@
         "security",
         "firewall",
         "secure"
+      ]
+    },
+    {
+      "id": "296240a88515820e",
+      "title": "Fear the 'SessionReaper': Adobe Commerce Flaw Under Attack",
+      "description": "CVE-2025-54236 is a critical flaw in Adobe Commerce (formerly Magento) that allows attackers to remotely take over sessions on the e-commerce platform.",
+      "url": "https://www.darkreading.com/vulnerabilities-threats/sessionreaper-adobe-commerce-flaw-under-attack",
+      "source": "Dark Reading",
+      "author": "Rob Wright",
+      "published": "2025-10-23T21:25:50+00:00",
+      "niche": "security",
+      "score": 74,
+      "keywords": [
+        "CVE-",
+        "attack",
+        "RCE"
       ]
     },
     {
@@ -1784,6 +1816,18 @@
       ]
     },
     {
+      "id": "2a44d794acf62f65",
+      "title": "HP pulls update that broke Microsoft Entra ID auth on some AI PCs",
+      "description": "HP has pulled an HP OneAgent software update for Windows 11 that mistakenly deleted Microsoft certificates required for some organizations to log in to Microsoft Entra ID, effectively disconnecting them from their company's cloud environments. [...]",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/hp-pulls-update-that-broke-microsoft-entra-id-auth-on-some-ai-pcs/",
+      "source": "Bleeping Computer",
+      "author": "Lawrence Abrams",
+      "published": "2025-10-23T17:50:41-04:00",
+      "niche": "security",
+      "score": 68,
+      "keywords": []
+    },
+    {
       "id": "f16ab3b9dd54d255",
       "title": "Verizon: Mobile Blindspot Leads to Needless Data Breaches",
       "description": "People habitually ignore cybersecurity on their phones. Instead of compensating for that, organizations are falling into the very same trap, even though available security options could cut smishing success and breaches in half.",
@@ -1934,18 +1978,6 @@
         "RCE",
         "breach"
       ]
-    },
-    {
-      "id": "807acde16ce072d7",
-      "title": "Windows 11 updates break localhost (127.0.0.1) HTTP/2 connections",
-      "description": "Microsoft's October Windows 11 updates have broken the \"localhost\" functionality, making applications that connect back to 127.0.0.1 over HTTP/2 no longer function properly. [...]",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-updates-break-localhost-127001-http-2-connections/",
-      "source": "Bleeping Computer",
-      "author": "Lawrence Abrams",
-      "published": "2025-10-16T18:25:46-04:00",
-      "niche": "security",
-      "score": 64,
-      "keywords": []
     },
     {
       "id": "4c839594d8df7ed5",
@@ -2110,9 +2142,9 @@
       "niche": "security",
       "score": 63,
       "keywords": [
-        "patch",
         "zero-day",
         "exploit",
+        "patch",
         "security"
       ]
     },
@@ -2224,6 +2256,21 @@
       ]
     },
     {
+      "id": "59f044e7997f4aa1",
+      "title": "Pwn2Own Day 2: Organizers paid $792K for 56 0-days",
+      "description": "Day Two of Pwn2Own Ireland 2025 saw $792K for 56 0-days, led by The Summoning Team after a major Samsung Galaxy exploit. Day Two of Pwn2Own Ireland 2025 ends with participants earning $792,750 for 56 zero-days. Meta, Synology and QNAP are sponsoring the event. Pwn2Own Ireland 2025 includes eight categories of exploits targeting flagship smartphones [&#8230;]",
+      "url": "https://securityaffairs.com/183792/hacking/pwn2own-day-2-organizers-paid-792k-for-56-0-days.html",
+      "source": "Security Affairs",
+      "author": "Pierluigi Paganini",
+      "published": "2025-10-23T23:49:54+00:00",
+      "niche": "security",
+      "score": 62,
+      "keywords": [
+        "zero-day",
+        "exploit"
+      ]
+    },
+    {
       "id": "595df243ef1997bd",
       "title": "Supply Chain Attack Targets VS Code Extensions With ‘GlassWorm’ Malware",
       "description": "The malware uses invisible Unicode characters to hide its code and blockchain-based infrastructure to prevent takedowns. The post Supply Chain Attack Targets VS Code Extensions With &#8216;GlassWorm&#8217; Malware appeared first on SecurityWeek.",
@@ -2283,10 +2330,10 @@
       "niche": "security",
       "score": 61,
       "keywords": [
-        "secure",
         "OWASP",
-        "RCE",
-        "security"
+        "security",
+        "secure",
+        "RCE"
       ]
     },
     {
@@ -2497,6 +2544,22 @@
         "security",
         "ransomware",
         "attack"
+      ]
+    },
+    {
+      "id": "81608932e6072f58",
+      "title": "AI browsers can be abused by malicious AI sidebar extensions: Report",
+      "description": "AI browsers may be smart, but they’re not smart enough to block a common threat: Malicious extensions. That’s the conclusion of researchers at SquareX, who on Thursday released a report showing how attackers can exploit AI sidebars through compromised browser extensions. This attack vector isn’t new. Malicious extensions have been inserted into browser web stores to infect standard browsers such as Chrome, Edge, Firefox, and others for years. What SquareX discovered are malicious extensions that",
+      "url": "https://www.csoonline.com/article/4078306/ai-browsers-can-be-abused-by-malicious-ai-sidebar-extensions-report-2.html",
+      "source": "CSO Online",
+      "author": "Inconnu",
+      "published": "2025-10-24T00:18:20+00:00",
+      "niche": "security",
+      "score": 58,
+      "keywords": [
+        "attack",
+        "exploit",
+        "threat"
       ]
     },
     {
@@ -2832,11 +2895,11 @@
       "niche": "security",
       "score": 55,
       "keywords": [
-        "vulnerability",
         "OWASP",
-        "security",
         "RCE",
-        "cybersecurity"
+        "vulnerability",
+        "cybersecurity",
+        "security"
       ]
     },
     {
@@ -3093,6 +3156,20 @@
       ]
     },
     {
+      "id": "3f9e439f76d772d7",
+      "title": "Phishing Cloud Account for Information, (Thu, Oct 23rd)",
+      "description": "Over the past two months, my outlook account has been receiving phishing email regarding cloud storage payments, mostly in French and some English with the usual warning such as the account is about to be locked, space is full, loss of data, refused payment, expired payment method, etc.&#xd;",
+      "url": "https://isc.sans.edu/diary/rss/32416",
+      "source": "SANS Internet Storm Center",
+      "author": "Inconnu",
+      "published": "2025-10-24T00:39:18+00:00",
+      "niche": "security",
+      "score": 54,
+      "keywords": [
+        "phishing"
+      ]
+    },
+    {
       "id": "0c223abe4b100e00",
       "title": "La plus petit drone FPV du monde ?",
       "description": "Vous avez déjà passé trois semaines à résoudre un problème qui n&rsquo;existe pas ? Hé bien Sam Hoarder, lui, a fait encore mieux. Il a pris un drone FPV déjà ultra-compact, le BetaFPV Air65 avec ses 65mm d&rsquo;empattement, et l&rsquo;a transformé en un truc trois fois plus petit, dix fois plus galère à piloter, et totalement inutile ! 22 millimètres d&rsquo;empattement de moteur à moteur, ça qui tient dans une boîte de Pringles et c&rsquo;est génial. Parce que OUI, dans un monde tech obsédé p",
@@ -3261,8 +3338,8 @@
       "niche": "security",
       "score": 51,
       "keywords": [
-        "patch",
         "disclosure",
+        "patch",
         "vulnerability"
       ]
     },
@@ -3277,8 +3354,8 @@
       "niche": "security",
       "score": 51,
       "keywords": [
-        "exploit",
         "attack",
+        "exploit",
         "security"
       ]
     },
@@ -3293,8 +3370,8 @@
       "niche": "security",
       "score": 51,
       "keywords": [
-        "exploit",
         "attack",
+        "exploit",
         "security"
       ]
     },
@@ -3423,6 +3500,20 @@
       ]
     },
     {
+      "id": "1d6975d02881618e",
+      "title": "Tired of Unpaid Toll Texts? Blame the 'Smishing Triad'",
+      "description": "Chinese smishers — the bane of every American with a phone — have been shifting to lower-frequency, possibly higher-impact government impersonation attacks.",
+      "url": "https://www.darkreading.com/threat-intelligence/unpaid-toll-texts-smishing-triad",
+      "source": "Dark Reading",
+      "author": "Nate Nelson, Contributing Writer",
+      "published": "2025-10-23T20:19:43+00:00",
+      "niche": "security",
+      "score": 50,
+      "keywords": [
+        "attack"
+      ]
+    },
+    {
       "id": "0d9bbacb54f8a1e4",
       "title": "Cartographie de la sécurité réseau : dix leçons à retenir",
       "description": "Synthèse 2015–2025 : EDR, SASE, zero trust, IA et XDR. Leçons pratiques pour renforcer la sécurité réseau. ...",
@@ -3447,11 +3538,11 @@
       "niche": "security",
       "score": 49,
       "keywords": [
+        "threat",
+        "RCE",
         "attack",
         "phishing",
-        "breach",
-        "RCE",
-        "threat"
+        "breach"
       ]
     },
     {
@@ -3862,18 +3953,6 @@
       ]
     },
     {
-      "id": "e4c5d693e81afe43",
-      "title": "ISC Stormcast For Friday, October 17th, 2025 https://isc.sans.edu/podcastdetail/9660, (Fri, Oct 17th)",
-      "description": "",
-      "url": "https://isc.sans.edu/diary/rss/32378",
-      "source": "SANS Internet Storm Center",
-      "author": "Inconnu",
-      "published": "2025-10-17T01:45:06+00:00",
-      "niche": "security",
-      "score": 44,
-      "keywords": []
-    },
-    {
       "id": "e4d45f1f9dd40a29",
       "title": "ISC Stormcast For Monday, October 20th, 2025 https://isc.sans.edu/podcastdetail/9662, (Sun, Oct 19th)",
       "description": "",
@@ -4030,10 +4109,10 @@
       "niche": "security",
       "score": 43,
       "keywords": [
-        "secure",
         "OWASP",
-        "RCE",
-        "security"
+        "security",
+        "secure",
+        "RCE"
       ]
     },
     {
@@ -4314,8 +4393,8 @@
       "score": 42,
       "keywords": [
         "OWASP",
-        "RCE",
-        "security"
+        "security",
+        "RCE"
       ]
     },
     {
@@ -4500,8 +4579,8 @@
       "niche": "security",
       "score": 37,
       "keywords": [
-        "web application security",
         "OWASP",
+        "web application security",
         "threat",
         "security"
       ]
@@ -4532,8 +4611,8 @@
       "score": 36,
       "keywords": [
         "SQL injection",
-        "RCE",
-        "injection"
+        "injection",
+        "RCE"
       ]
     },
     {
@@ -4548,8 +4627,8 @@
       "score": 35,
       "keywords": [
         "security",
-        "RCE",
-        "breach"
+        "breach",
+        "RCE"
       ]
     },
     {
@@ -4563,8 +4642,8 @@
       "niche": "security",
       "score": 33,
       "keywords": [
-        "patch",
         "exploit",
+        "patch",
         "security"
       ]
     },
@@ -4603,8 +4682,8 @@
       "niche": "security",
       "score": 32,
       "keywords": [
-        "RCE",
-        "remote code execution"
+        "remote code execution",
+        "RCE"
       ]
     },
     {
@@ -4618,8 +4697,8 @@
       "niche": "security",
       "score": 31,
       "keywords": [
-        "secure",
         "OWASP",
+        "secure",
         "security"
       ]
     },
@@ -4704,9 +4783,9 @@
       "niche": "security",
       "score": 26,
       "keywords": [
-        "security",
         "cybersecurity",
-        "breach"
+        "breach",
+        "security"
       ]
     },
     {
