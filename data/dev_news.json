@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-10-24T18:32:13.158773+00:00",
-  "total_articles": 966,
+  "last_updated": "2025-10-24T21:20:54.538798+00:00",
+  "total_articles": 971,
   "articles": [
     {
       "id": "c4ffca4100b4e119",
@@ -703,6 +703,18 @@
       "keywords": []
     },
     {
+      "id": "088a4671472ce7e3",
+      "title": "Harmonizing shared state with local state in React",
+      "description": "The split between the mental models of local and shared state management in React apps has been around since time immemorial. Here's an example of how to do these conceptually similar things in a very similar way: + import { Store, useStore } from \"@t8/react-store\"; + + let counterStore = new Store(0); let Counter = () => { - let [counter, setCounter] = useState(0); + let [counter, setCounter] = useStore(counterStore); let handleClick = () => { setCounter(value => value + 1); }; return <button o",
+      "url": "https://dev.to/axtk/harmonizing-shared-state-with-local-state-in-react-47cp",
+      "source": "Dev.to",
+      "author": "axtk",
+      "published": "2025-10-24T20:56:31+00:00",
+      "niche": "dev",
+      "score": 68,
+      "keywords": []
+    },
+    {
       "id": "6eceb5acb5f93379",
       "title": "Servo v0.0.1 Released",
       "description": "Comments",
@@ -1140,6 +1152,18 @@
       "keywords": []
     },
     {
+      "id": "22c0443449d47302",
+      "title": "The Swift SDK for Android",
+      "description": "Comments",
+      "url": "https://www.swift.org/blog/nightly-swift-sdk-for-android/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-24T20:06:52+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": []
+    },
+    {
       "id": "8a3137dc0b577994",
       "title": "Web Developer Travis McCracken on The Tools I Use Every Day as a Web Developer",
       "description": "Diving Deep into Backend Development with Rust and Go: Insights from Web Developer Travis McCracken Hello, fellow developers! I’m Travis McCracken, a passionate web developer with a keen interest in high-performance backend systems. Over the years, I’ve explored various programming languages, but none have captivated me quite like Rust and Go. These two powerful languages are transforming how we build scalable, efficient, and secure APIs. Today, I want to share my experiences, insights, and some",
@@ -1222,22 +1246,6 @@
         "microservices",
         "release",
         "development"
-      ]
-    },
-    {
-      "id": "b9caf2a08d3a9564",
-      "title": "The Symphony of One: Conducting Node.js Monorepos with Lerna, Nx, and Turborepo",
-      "description": "You stand at the precipice of a sprawling codebase. What began as a single, elegant application has blossomed into a ecosystem: a frontend, a backend, a suite of shared libraries, and a handful of experimental microservices. They live in separate Git repositories, a strategy that once felt like organization but now feels like fragmentation. A simple change to a shared utility library becomes a dizzying dance of npm link, version bumps, and coordinated publishes. This is the chaos that the monore",
-      "url": "https://dev.to/alex_aslam/the-symphony-of-one-conducting-nodejs-monorepos-with-lerna-nx-and-turborepo-53pf",
-      "source": "Dev.to",
-      "author": "Alex Aslam",
-      "published": "2025-10-17T20:47:13+00:00",
-      "niche": "dev",
-      "score": 58,
-      "keywords": [
-        "library",
-        "microservices",
-        "code"
       ]
     },
     {
@@ -2049,17 +2057,18 @@
       ]
     },
     {
-      "id": "66baa4c100e9997b",
-      "title": "Hitting the Ground Running with HNG Backend Stage 0 🚀",
-      "description": "I've been focused on mastering Node.js and Express, and I finally got the chance to put theory into practice with HNG's backend Internship. My first task? Backend Wizards Stage 0: Build a Dynamic Profile Endpoint. The goal was to create a single GET /me endpoint that nailed three things perfectly: Serves my profile details (name, stack). Generates a dynamic, current ISO 8601 UTC timestamp. Fetches a random Cat Fact from an external API, with robust error handling (5-second timeout and fallback!)",
-      "url": "https://dev.to/joshteflon/hitting-the-ground-running-with-hng-backend-stage-0-2a0m",
+      "id": "85d2ca8daa741098",
+      "title": "MySQL commands",
+      "description": "MySQL is an open source relational database management system (RDBMS) that’s used to store and manage data. Its reliability, performance, scalability, and ease of use make MySQL a popular choice for developers. In fact, you’ll find it at the heart of demanding, high-traffic applications such as Facebook, Netflix, Uber, Airbnb, Shopify, and Booking.com. What Is MySQL? MySQL is the world’s most popular open source database management system. Databases are the essential data repositories for all so",
+      "url": "https://dev.to/jumptotech/mysql-commands-g53",
       "source": "Dev.to",
-      "author": "Joshua Enikele",
-      "published": "2025-10-17T20:44:31+00:00",
+      "author": "Aisalkyn Aidarova",
+      "published": "2025-10-24T21:08:00+00:00",
       "niche": "dev",
-      "score": 54,
+      "score": 55,
       "keywords": [
-        "API"
+        "performance",
+        "developer"
       ]
     },
     {
@@ -3583,33 +3592,31 @@
       ]
     },
     {
-      "id": "13a5bcf978efb07b",
-      "title": "I Just Started Learning to Code — Here's How I Built My First ‘Vibe Project’",
-      "description": "A few months ago, I started learning to code. No bootcamp, no CS degree — just pure curiosity and late-night Googling. Instead of going through 100 tutorials back-to-back, I decided to build something real. Something useful. Something that actually solved a problem I was facing. That’s how my first “vibe project” was born: CandidateList.live, a site to make it easier to find election candidate lists in India. The Problem I Was Facing During an ongoing state election, I was trying to find a compl",
-      "url": "https://dev.to/nomadfounder/i-just-started-learning-to-code-heres-how-i-built-my-first-vibe-project-2847",
+      "id": "234115b7168b48e6",
+      "title": "Protege tu dominio con DNSSEC en Amazon Route 53: Guía paso a paso",
+      "description": "TL;DR: Este artículo te guiará en la implementación de DNSSEC para tus dominios en Amazon Route 53. Mostraré paso a paso cómo activar DNSSEC en tu zona alojada en Route 53 y cómo establecer la cadena de confianza entre el Domain Registrar (Namecheap) y los Authoritative DNS Providers (Cloudflare y Amazon Route 53), todo ello alineado con el pilar de Seguridad del AWS Well-Architected Framework. 🔐 Tiempo estimado de lectura: 10 minutos Nivel: 200 Versión en inglés: Secure Your Domain with DNSSEC ",
+      "url": "https://dev.to/cbecerra/protege-tu-dominio-con-dnssec-en-amazon-route-53-guia-paso-a-paso-2ah5",
       "source": "Dev.to",
-      "author": "Rahul",
-      "published": "2025-10-17T20:50:49+00:00",
+      "author": "Cristhian Becerra",
+      "published": "2025-10-24T20:50:11+00:00",
       "niche": "dev",
-      "score": 52,
+      "score": 54,
       "keywords": [
-        "tutorial",
-        "code"
+        "framework"
       ]
     },
     {
-      "id": "9d120e2894514ef2",
-      "title": "My First Dev.to Post: Building Beautiful iOS Apps with SwiftUI",
-      "description": "Hey everyone! 👋 I’m excited to share my very first post here on dev.to. As an iOS developer working with Swift and SwiftUI in Xcode, I want to kick things off by talking about why SwiftUI has completely changed the way I build apps. 🌟 Why SwiftUI Feels Like Magic When I first started with UIKit, I loved the control it gave me—but it often felt verbose and repetitive. Then came SwiftUI, and suddenly: UI code became declarative instead of imperative Previews in Xcode let me see changes instantly B",
-      "url": "https://dev.to/mirsadra/my-first-devto-post-building-beautiful-ios-apps-with-swiftui-2kgl",
+      "id": "d09c150f4cc248fa",
+      "title": "Secure Your Domain with DNSSEC in Amazon Route 53: A Step-by-Step Guide",
+      "description": "TL;DR: This article will guide you through implementing DNSSEC for your domains in Amazon Route 53. I’ll show step by step how to enable DNSSEC in your hosted zone in Route 53 and how to establish the chain of trust between the Domain Registrar (Namecheap) and the Authoritative DNS Providers (Cloudflare and Amazon Route 53), all aligned with the Security pillar of the AWS Well-Architected Framework. 🔐 Estimated reading time: 10 minutes Level: 200 Spanish version: Protege tu dominio con DNSSEC en",
+      "url": "https://dev.to/cbecerra/secure-your-domain-with-dnssec-in-amazon-route-53-a-step-by-step-guide-566o",
       "source": "Dev.to",
-      "author": "Sadra",
-      "published": "2025-10-17T20:44:14+00:00",
+      "author": "Cristhian Becerra",
+      "published": "2025-10-24T20:50:06+00:00",
       "niche": "dev",
-      "score": 52,
+      "score": 54,
       "keywords": [
-        "developer",
-        "code"
+        "framework"
       ]
     },
     {
@@ -3988,59 +3995,33 @@
       ]
     },
     {
-      "id": "dec844e10de41800",
-      "title": "Improving Binary Security in Mobile Application: A Deep Dive into Obfuscation",
-      "description": "Introduction Mobile applications increasingly serve as the gateway to critical business operations, making them high-value targets for reverse engineering and code tampering. This threat is formally recognized in the OWASP Mobile Top 10 (2024) risks. This category highlights M7: Insufficient Binary Protection enable attackers to extract secrets, reverse engineer proprietary logic, and repackage apps for malicious use. In the context of React Native, this threat is especially relevant because the",
-      "url": "https://dev.to/jocanola/improving-binary-security-in-mobile-application-a-deep-dive-into-obfuscation-58n2",
+      "id": "bda8e93b385663b0",
+      "title": "If I Had to Learn JavaScript Again: The Real Journey From 2017 to Today",
+      "description": "Fresh out of high school. No plan, no direction, just a laptop and a feeling that I should probably figure out what to do with my life. Eight years later, I'm a full-stack developer working with Node, React, TypeScript, building production apps that actually matter. But here's the thing nobody tells you about learning to code - it's not linear. It's messy. Full of false starts, detours, quits, and comebacks. This is that story. The real one. (By the way, some years here might be a bit off maybe,",
+      "url": "https://dev.to/elvissautet/if-i-had-to-learn-javascript-again-the-real-journey-from-2017-to-today-28fg",
       "source": "Dev.to",
-      "author": "Yusuff Jokanola O.",
-      "published": "2025-10-17T21:13:23+00:00",
+      "author": "Elvis Sautet",
+      "published": "2025-10-24T20:58:57+00:00",
       "niche": "dev",
-      "score": 51,
+      "score": 52,
       "keywords": [
-        "code"
+        "code",
+        "developer"
       ]
     },
     {
-      "id": "49b56eead32e6859",
-      "title": "Adding a new feature to vscode-pets project",
-      "description": "For my Hacktoberfest contribution, I worked on making the fetch ball in vscode-pets configurable in a more user-friendly way. Originally, the ball color was hard-coded to a bright green, so every time you threw a ball it looked the same. The issue I picked up aimed to let users choose a color without interrupting their workflow, while keeping consistent with the project’s existing UX conventions. I started by forking the repository, creating a small feature branch, and reading through the code t",
-      "url": "https://dev.to/oleksandrakordonets/adding-a-new-feature-to-vscode-pets-project-221f",
+      "id": "a81f808dfcbcac3a",
+      "title": "If I Had to Learn JavaScript Again: The Real Journey From 2017 to Today",
+      "description": "Fresh out of high school. No plan, no direction, just a laptop and a feeling that I should probably figure out what to do with my life. Eight years later, I'm a full-stack developer working with Node, React, TypeScript, building production apps that actually matter. But here's the thing nobody tells you about learning to code - it's not linear. It's messy. Full of false starts, detours, quits, and comebacks. This is that story. The real one. (By the way, some years here might be a bit off maybe,",
+      "url": "https://dev.to/elvissautet/if-i-had-to-learn-javascript-again-the-real-journey-from-2017-to-today-12dg",
       "source": "Dev.to",
-      "author": "OleksandraKordonets",
-      "published": "2025-10-17T21:07:41+00:00",
+      "author": "Elvis Sautet",
+      "published": "2025-10-24T20:58:57+00:00",
       "niche": "dev",
-      "score": 51,
+      "score": 52,
       "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "adbea5039c0e3a06",
-      "title": "I Built My Own Service Using Neural Networks Without Knowing Code",
-      "description": "I've been following neural networks for a long time—back in 2016, I wrote an article about how these things would do all the work for copywriters and editors. Back then, AI was very dumb, and only geeks played with it, detecting cat faces in photos of random stuff. I seriously dove into the technology around 2023 when more or less adequate ChatGPT and Midjourney models appeared. Since then, I started figuring out neural networks, created Neurozeh, and now use AI every day in work and daily life.",
-      "url": "https://dev.to/paul_molyanov/i-built-my-own-service-using-neural-networks-without-knowing-code-52ja",
-      "source": "Dev.to",
-      "author": "Paul Molyanov",
-      "published": "2025-10-17T20:57:59+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "a7f3131c3da1a465",
-      "title": "The Sculptor's Studio: Carving Modularity from the Rails Monolith",
-      "description": "I used to believe a powerful application was a single, solid block of marble. My early Rails apps were like Michelangelo's \"David\" – breathtaking from a distance, but a nightmare to change. Tweak a finger, and you risked shattering the whole statue. This was the era of the Monolithic Sculptor. We worshipped the single, majestic codebase. Our app directory was a quarry where every tool was readily available, but where the sound of one chisel affected all others. Then I encountered my first major ",
-      "url": "https://dev.to/alex_aslam/the-sculptors-studio-carving-modularity-from-the-rails-monolith-bdf",
-      "source": "Dev.to",
-      "author": "Alex Aslam",
-      "published": "2025-10-17T20:44:16+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
+        "code",
+        "developer"
       ]
     },
     {
@@ -5262,28 +5243,46 @@
       ]
     },
     {
-      "id": "87b84c93d32af6f0",
-      "title": "🔥🚨 Global Crypto Regulations Are Heating Up!💥",
-      "description": "Imagine this: banks that once feared crypto are now opening their doors 🏦✨. Countries where rules were murky are finally making the market transparent 🌍💡. And while most people are still stuck on what is Bitcoin💸, the world around it is moving faster than your phone charging ⚡️📱. Here’s what’s going down: 🇺🇸🚨 40+ US States Are Steps Ahead ⚡️ 40 US states are experimenting with crypto rules, each creating unique opportunities: • Arizona - Reserve Fund + blockchain analytics; • Wyoming - CBDC test",
-      "url": "https://dev.to/endeo/global-crypto-regulations-are-heating-up-33c5",
+      "id": "2c5381d52d986596",
+      "title": "How to Create a One-Time Payment Link and Secure Webhook Integration with Stripe",
+      "description": "Introduction Stripe is an online payment platform for securely accepting credit cards, bank transfers, and more. This guide demonstrates an end-to-end integration using Stripe Checkout Sessions for one-time payments and a tamper-proof server webhook to confirm transactions. Terminology: \"Payment Link\" here refers to the URL returned by a Stripe Checkout Session (not Stripe's no-code \"Payment Links\" product). Payment Flow Overview Client clicks \"Pay Now\". Backend creates a unique Checkout Session",
+      "url": "https://dev.to/canhamzacode/how-to-create-a-one-time-payment-link-and-secure-webhook-integration-with-stripe-2l4d",
       "source": "Dev.to",
-      "author": "Paul Bennett",
-      "published": "2025-10-17T21:11:16+00:00",
+      "author": "Hamzat Abdul-muizz",
+      "published": "2025-10-24T21:03:37+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
-      "id": "d72e6a9b19a07b1c",
-      "title": "The \"Rails Way\" vs. \"The Right Way\": A Painter's Journey Beyond the Canvas",
-      "description": "For years, I thought mastery was found within the lines. I was an apprentice, handed a set of brushes known as Ruby on Rails. Its philosophy, \"The Rails Way,\" was my sacred text. Convention over Configuration. Don't Repeat Yourself. It was a beautiful, pre-stretched canvas, with the initial sketch already laid out. My early paintings were joyous. A few strokes of a generator command, and a fully functional blog would appear, as if by magic. rails g scaffold Post title:string body:text. It felt l",
-      "url": "https://dev.to/alex_aslam/the-rails-way-vs-the-right-way-a-painters-journey-beyond-the-canvas-15k7",
+      "id": "b027e748ccc8f52f",
+      "title": "Inside AWS's outage - and What it teaches Developers.",
+      "description": "When AWS sneezed, the internet caught a cold. When AWS experienced its outage, it wasn’t just a small glitch in the cloud; it triggered a domino effect that rippled across much of the internet. The incident wasn’t caused by lost servers or faulty disks, it began with a failure in a monitoring system, the very component meant to keep everything running smoothly. Where it all started An internal monitoring tool inside AWS began reporting wrong information about service health. It reported some sys",
+      "url": "https://dev.to/shimork/inside-awss-outage-and-what-it-teaches-developers-3h8a",
       "source": "Dev.to",
-      "author": "Alex Aslam",
-      "published": "2025-10-17T20:41:00+00:00",
+      "author": "technologyInsideOut",
+      "published": "2025-10-24T21:01:00+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
+    },
+    {
+      "id": "a4caa1337d37213f",
+      "title": "How to Implement Multi-Threading in Node.js With Worker Threads [Full Handbook]",
+      "description": "JavaScript is a single-threaded programming language, and Node.js is the runtime environment for JavaScript. This means that JavaScript essentially runs within Node.js, and all operations are handled through a single thread. But when we perform tasks...",
+      "url": "https://www.freecodecamp.org/news/how-to-implement-multi-threading-in-nodejs-with-worker-threads-full-handbook/",
+      "source": "freeCodeCamp",
+      "author": "Sumit Saha",
+      "published": "2025-10-24T16:30:57+00:00",
+      "niche": "dev",
+      "score": 51,
+      "keywords": [
+        "programming"
+      ]
     },
     {
       "id": "8311fa7af866493b",
@@ -8062,6 +8061,30 @@
       "keywords": []
     },
     {
+      "id": "3e9f5d58cfea02a6",
+      "title": "My Software Career So Far: An Unapologetic Recap",
+      "description": "Contents This blog will be split into the following sections: Foreword: A Note from the Author Chapter 1: Over-Romanticizing Software Engineering Chapter 2: Education - a Quick Recap Chapter 3: The Internship Experience Chapter 4: First Role at Company #1 Chapter 5: Stagnation & Leaving Company #1 Chapter 6: Moving to Company #2 Chapter 7: Experience, Red Flags & the Exit from Company #2 Chapter 8: Navigating Interview Hell Chapter 9: Company #3 & Beyond Afterword: The End Foreword: A Note from ",
+      "url": "https://dev.to/anonymousdev/my-software-career-so-far-an-unapologetic-recap-40k4",
+      "source": "Dev.to",
+      "author": "Anonymous Dev",
+      "published": "2025-10-24T21:08:37+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "04c2eacf6340d95b",
+      "title": "ACI Protocol + Auth0: Secure Multi-Agent Handoffs with Identity Continuity",
+      "description": "🔐 ACI Protocol + Auth0: Secure Multi-Agent Handoffs with Identity Continuity This is a submission for the Auth0 for AI Agents Challenge What I Built ACI-Auth: Adaptive Contextual Intelligence with Authenticated Agent Handoffs A protocol and reference implementation that enables secure, context-preserving communication between AI agents while maintaining user identity, permission boundaries, and interaction history across model handoffs. The Problem Current AI agent systems face a critical gap: w",
+      "url": "https://dev.to/p_thabiwa_0ca34c2f83/aci-protocol-auth0-secure-multi-agent-handoffs-with-identity-continuity-3d6",
+      "source": "Dev.to",
+      "author": "Peace Thabiwa",
+      "published": "2025-10-24T20:55:07+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "cd26ef7ee7995316",
       "title": "Every time I speak with developers, freelancers, or tech professionals, I hear the same concern: “Will AI take my job?” The real shift isn't AI vs Humans: it’s AI-empowered humans vs humans who refuse to adapt. Let’s break this down clearly.",
       "description": "AI Isn’t Replacing You: But the One Who Uses It Better Might Jaideep Parashar ・ Oct 20 #webdev #programming #ai #beginners",
@@ -8462,30 +8485,6 @@
       "keywords": [
         "programming"
       ]
-    },
-    {
-      "id": "814f9de79d807a36",
-      "title": "Asking AI to build scrapers should be easy right?",
-      "description": "Comments",
-      "url": "https://www.skyvern.com/blog/asking-ai-to-build-scrapers-should-be-easy-right/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-17T19:03:21+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "5f91de733ac16ac7",
-      "title": "Making Every Windows 11 PC an AI PC",
-      "description": "Comments",
-      "url": "https://blogs.windows.com/windowsexperience/2025/10/16/making-every-windows-11-pc-an-ai-pc/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-17T19:51:20+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "5a2523d4abe4484a",
@@ -10336,6 +10335,42 @@
       "keywords": []
     },
     {
+      "id": "dfb636a007e6cfbc",
+      "title": "TextEdit and the relief of simple software",
+      "description": "Comments",
+      "url": "https://www.newyorker.com/culture/infinite-scroll/textedit-and-the-relief-of-simple-software",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-24T20:25:58+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "5e0db9743bb0f059",
+      "title": "How to make a Smith chart",
+      "description": "Comments",
+      "url": "https://www.johndcook.com/blog/2025/10/23/smith-chart/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-24T17:18:17+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "03a080dcce09124b",
+      "title": "Conductor (YC S24) Is Hiring a Founding Engineer in San Francisco",
+      "description": "Comments",
+      "url": "https://www.ycombinator.com/companies/conductor/jobs/MYjJzBV-founding-engineer",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-24T21:00:27+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "78c4b08725d5f56b",
       "title": "React 19 Upgrade Guide",
       "description": "The improvements added to React 19 require some breaking changes, but we've worked to make the upgrade as smooth as possible and we don't expect the changes to impact most apps. In this post, we will guide you through the steps for upgrading apps and libraries to React 19.",
@@ -10439,15 +10474,15 @@
       "keywords": []
     },
     {
-      "id": "65a013aa5d06434c",
-      "title": "The pivot",
-      "description": "Comments",
-      "url": "https://www.antipope.org/charlie/blog-static/2025/10/the-pivot-1.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-17T19:37:16+00:00",
+      "id": "2f15ea130e2b63cd",
+      "title": "The Human Side of the Interface: Abhishek Jha’s Art of Storytelling Through Design",
+      "description": "From experimental portfolios to award-winning websites, Abhishek Jha shares how curiosity and emotion shape his creative process.",
+      "url": "https://tympanus.net/codrops/2025/10/24/the-human-side-of-the-interface-abhishek-jhas-art-of-storytelling-through-design/",
+      "source": "Codrops",
+      "author": "Abhishek Jha",
+      "published": "2025-10-24T18:32:21+00:00",
       "niche": "dev",
-      "score": 38,
+      "score": 39,
       "keywords": []
     },
     {
@@ -10643,6 +10678,30 @@
       "keywords": []
     },
     {
+      "id": "40df72bb182b7fc5",
+      "title": "First shape found that can't pass through itself",
+      "description": "Comments",
+      "url": "https://www.quantamagazine.org/first-shape-found-that-cant-pass-through-itself-20251024/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-24T14:12:00+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
+      "id": "eb852365583fa0f4",
+      "title": "Modern Perfect Hashing",
+      "description": "Comments",
+      "url": "https://blog.sesse.net/blog/tech/2025-10-23-21-23_modern_perfect_hashing.html",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-24T01:59:56+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
       "id": "4e6d7290f5ff11d8",
       "title": "React Native 0.80 - React 19.1, JS API Changes, Freezing Legacy Arch and much more",
       "description": "Today we are excited to release React Native 0.80!",
@@ -10653,9 +10712,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "API",
         "React 19",
-        "release"
+        "release",
+        "API"
       ]
     },
     {
@@ -10882,11 +10941,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "performance",
+        "release",
+        "API",
         "code",
         "framework",
-        "release",
-        "API"
+        "performance"
       ]
     },
     {
@@ -11204,8 +11263,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "API",
-        "release"
+        "release",
+        "API"
       ]
     },
     {
@@ -11234,9 +11293,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "developer",
         "performance",
-        "code"
+        "code",
+        "developer"
       ]
     },
     {
@@ -11265,9 +11324,9 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
+        "release",
         "developer",
-        "API",
-        "release"
+        "API"
       ]
     },
     {
@@ -11281,8 +11340,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -11480,18 +11539,6 @@
       "keywords": []
     },
     {
-      "id": "8375e36435042a8e",
-      "title": "Die shots of as many CPUs and other interesting chips as possible",
-      "description": "Comments",
-      "url": "https://commons.wikimedia.org/wiki/User:Birdman86",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-17T18:39:22+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
       "id": "2e5270da8421cfc2",
       "title": "VisiCalc on the Apple II",
       "description": "Comments",
@@ -11499,6 +11546,30 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-10-19T07:24:18+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "c9d7802c5298f64b",
+      "title": "I invited strangers to message me through a receipt printer",
+      "description": "Comments",
+      "url": "https://aschmelyun.com/blog/i-invited-strangers-to-message-me-through-a-receipt-printer/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-19T13:13:24+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "fdec4629860bc8fc",
+      "title": "Valetudo: Cloud replacement for vacuum robots enabling local-only operation",
+      "description": "Comments",
+      "url": "https://valetudo.cloud/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-20T11:08:44+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -11694,8 +11765,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "programming",
-        "development"
+        "development",
+        "programming"
       ]
     },
     {
@@ -12111,8 +12182,8 @@
       "niche": "dev",
       "score": 11,
       "keywords": [
-        "code",
-        "tutorial"
+        "tutorial",
+        "code"
       ]
     },
     {
@@ -12126,8 +12197,8 @@
       "niche": "dev",
       "score": 11,
       "keywords": [
-        "code",
-        "release"
+        "release",
+        "code"
       ]
     },
     {
@@ -12282,18 +12353,6 @@
       "source": "Codrops",
       "author": "Clay Boan",
       "published": "2025-10-14T10:32:39+00:00",
-      "niche": "dev",
-      "score": 9,
-      "keywords": []
-    },
-    {
-      "id": "853a4c5afd79c0f1",
-      "title": "NITEX: Building a Brand and Digital Platform for Fashion’s New Supply Chain",
-      "description": "Behind the scenes of creating a scalable brand system and digital platform that transforms how fashion moves from concept to delivery.",
-      "url": "https://tympanus.net/codrops/2025/10/10/nitex-building-a-brand-and-digital-platform-for-fashions-new-supply-chain/",
-      "source": "Codrops",
-      "author": "Spring/Summer",
-      "published": "2025-10-10T13:18:38+00:00",
       "niche": "dev",
       "score": 9,
       "keywords": []
