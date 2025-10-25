@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-25T09:21:45.865868+00:00",
+  "last_updated": "2025-10-25T12:43:08.652648+00:00",
   "total_articles": 980,
   "articles": [
     {
@@ -125,6 +125,23 @@
       "keywords": [
         "performance",
         "framework"
+      ]
+    },
+    {
+      "id": "e4792a1693d31a88",
+      "title": "Web Developer Travis McCracken on Using GitHub Actions for Rust CI",
+      "description": "Exploring Backend Development with Rust and Go: A Web Developer’s Perspective Hello, I’m Travis McCracken — a passionate Web Developer with a deep focus on backend development. Over the years, I’ve explored numerous technologies to build fast, reliable, and scalable APIs. Today, I want to share insights into my experience working with two powerful programming languages: Rust and Go. These languages have revolutionized my approach to backend systems, and I believe they’re shaping the future of AP",
+      "url": "https://dev.to/travis-mccracken-dev/web-developer-travis-mccracken-on-using-github-actions-for-rust-ci-4ddp",
+      "source": "Dev.to",
+      "author": "Travis McCracken Web Developer",
+      "published": "2025-10-25T12:16:49+00:00",
+      "niche": "dev",
+      "score": 75,
+      "keywords": [
+        "programming",
+        "developer",
+        "API",
+        "development"
       ]
     },
     {
@@ -684,6 +701,18 @@
       "source": "Dev.to",
       "author": "axtk",
       "published": "2025-10-24T20:56:31+00:00",
+      "niche": "dev",
+      "score": 68,
+      "keywords": []
+    },
+    {
+      "id": "72b854d45f71ba30",
+      "title": "Jeff Su: The Productivity System I Taught to 6,642 Googlers",
+      "description": "The Productivity System from Google Jeff Su breaks down the CORE workflow he taught to 6,642 Googlers over nine years: Capture everything immediately Organize with minimal friction Review during scheduled sessions Engage by time-blocking execution It works with any tool you already love, kicks in as a habit in two weeks, and means no more relying on memory or willpower alone. Bonus Resources He’s packed the video/blogpost with timestamps, links to templates, his Workspace Academy, newsletter, an",
+      "url": "https://dev.to/future_ai/jeff-su-the-productivity-system-i-taught-to-6642-googlers-356a",
+      "source": "Dev.to",
+      "author": "AI News",
+      "published": "2025-10-25T12:05:07+00:00",
       "niche": "dev",
       "score": 68,
       "keywords": []
@@ -2115,48 +2144,6 @@
       "keywords": [
         "PHP",
         "tutorial"
-      ]
-    },
-    {
-      "id": "721ca64306e69ea8",
-      "title": "COLORS: Nono La Grinta - LOVE YOU | A COLORS SHOW",
-      "description": "Nono La Grinta, the Paris‐based rapper, spits every line with raw precision and grit on his COLORS performance of “LOVE YOU,” a taste of his upcoming debut project. His uncompromising flow takes center stage against the show’s stripped‐back backdrop, letting the music do all the talking. Catch the full video on YouTube or stream “LOVE YOU” via the COLORS link. Follow Nono on TikTok (@nonolagriint) and Instagram (@nonolagriint), and dive into COLORS’ 24/7 livestream, curated playlists, and social",
-      "url": "https://dev.to/music_youtube/colors-nono-la-grinta-love-you-a-colors-show-18hl",
-      "source": "Dev.to",
-      "author": "Music YouTube",
-      "published": "2025-10-18T12:12:24+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "performance"
-      ]
-    },
-    {
-      "id": "4d31f4782c6edd9e",
-      "title": "COLORS: Dear Silas - Still Southern Playalistic | A COLORS SHOW",
-      "description": "Mississippi’s own Dear Silas brings his trumpet chops and crisp rap cadence to COLORS with an electrifying performance of “Still Southern Playalistic,” blending jazz-infused melodies and Southern flair for a genre-bending vibe. Catch the session on COLORS’ 24/7 livestream or stream the single everywhere. Follow Dear Silas on TikTok and Instagram, and explore more fresh sounds through COLORS’ curated playlists, socials, and newsletter. Watch on YouTube",
-      "url": "https://dev.to/music_youtube/colors-dear-silas-still-southern-playalistic-a-colors-show-1ded",
-      "source": "Dev.to",
-      "author": "Music YouTube",
-      "published": "2025-10-18T12:12:13+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "performance"
-      ]
-    },
-    {
-      "id": "4a9359a43c37a1ba",
-      "title": "KEXP: Jorja Smith - With You (Live on KEXP)",
-      "description": "Jorja Smith – With You (Live on KEXP) On August 8, 2025, Jorja Smith delivered an intimate in-studio performance of “With You” at KEXP, showcasing her soulful vocals against a stripped-down backdrop. Backing her on guitar is Benjamin Totten, with production support from host Larry Mizell Jr., audio engineer Kevin Suggs, and mastering engineer Matt Ogaz. A talented crew of camera operators and editor Jim Beckmann captured every moment for KEXP’s signature live session. Watch on YouTube",
-      "url": "https://dev.to/music_youtube/kexp-jorja-smith-with-you-live-on-kexp-46d",
-      "source": "Dev.to",
-      "author": "Music YouTube",
-      "published": "2025-10-18T12:12:03+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "performance"
       ]
     },
     {
@@ -3624,6 +3611,20 @@
       ]
     },
     {
+      "id": "a97d9faec0961758",
+      "title": "Retries",
+      "description": "Рассмотрим две компоненты: A и B, которые взаимодействуют через RPC. Например, компонента A вызывает некую функцию/API компоненты B TPS0 раз в секунду. Например, QPS = TPS0 = 1000 вызовов в секунду. Во время вызовов в продакшене на практике возникают временные (transient) ошибки, которые быстро появляются и исчезают. К ним относятся сетевые сбои, кратковременная перегрузка сервиса, таймауты и т. д. Поэтому на практике почти всегда используют повторные попытки (retries): если ошибка относится к к",
+      "url": "https://dev.to/faangmaster/retries-1ep2",
+      "source": "Dev.to",
+      "author": "faangmaster",
+      "published": "2025-10-25T12:04:47+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "API"
+      ]
+    },
+    {
       "id": "f6ac77461a21123a",
       "title": "How I Used ChatGPT to Automate My Business Strategy",
       "description": "Most developers use ChatGPT for code generation, but I discovered something far more powerful: AI can design, optimise, and even automate entire business strategies, not just technical workflows. When I started building ReThynk AI, publishing books, and managing dev.to, YouTube and other projects, I realised something: 👉 The problem wasn’t coding speed; it was decision fatigue. AI helped me fix that. Here’s how I use ChatGPT to automate strategy thinking, not just execution. 1️⃣ Turning Vision I",
@@ -3996,6 +3997,21 @@
       "keywords": [
         "code",
         "developer"
+      ]
+    },
+    {
+      "id": "2c9d8ed03f14c1b3",
+      "title": "🔐 OTP CLI Utils — A Simple and Powerful CLI tool for TOTP Codes",
+      "description": "Hello everyone 👋 I recently built a new Python CLI tool called OTP CLI Utils — a lightweight command-line utility to generate, validate, and manage Time-based One-Time Password (TOTP) codes. If you use Google Authenticator or work with 2FA systems, this tool can make your developer workflow a lot smoother. 🔗 GitHub: https://github.com/dilanka-rathnasiri/otp-cli-utils 🔗 PyPI: https://pypi.org/project/otp-cli-utils 🚀 What It Does OTP CLI Utils provides a simple interface to handle everything relat",
+      "url": "https://dev.to/dilanka-rathnasiri/otp-cli-utils-a-simple-and-powerful-cli-tool-for-totp-codes-197p",
+      "source": "Dev.to",
+      "author": "Dilanka Rathnasiri",
+      "published": "2025-10-25T12:29:50+00:00",
+      "niche": "dev",
+      "score": 52,
+      "keywords": [
+        "developer",
+        "code"
       ]
     },
     {
@@ -5313,78 +5329,6 @@
       "keywords": [
         "developer"
       ]
-    },
-    {
-      "id": "e476480a438e9a89",
-      "title": "Rick Beato: The Concepts That Actually Changed My Playing",
-      "description": "The Concepts That Actually Changed My Playing In this livestream, the host breaks down the exact music theory ideas that finally clicked for them—transforming dry theory into real-time musical intuition. You’ll see how they apply these concepts live, making the leap from understanding scales and chords on paper to actually hearing and using them in your playing. Oh, and heads up: there’s a 2-day flash sale on The Scale Matrix (25+ scales) at 50% off if you want to level up your fretboard knowled",
-      "url": "https://dev.to/music_youtube/rick-beato-the-concepts-that-actually-changed-my-playing-46nh",
-      "source": "Dev.to",
-      "author": "Music YouTube",
-      "published": "2025-10-18T12:10:11+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "b66ba4118a6cb7ea",
-      "title": "Rick Beato: Justin Hawkins Isn't Afraid To Talk Sh*t",
-      "description": "Justin Hawkins dives into how he went from fronting rock band The Darkness to carving out a second act as a YouTube star, never shying away from throwing a little playful shade along the way. He chats about the creative freedom he’s found online, the ups and downs of fame, and why he still loves stirring the pot. He also gives a massive shout-out to his My Beato Club crew—more than 50 hardcore supporters who've backed his Wild Ride every step of the way. If you’re not already tuned in, you know ",
-      "url": "https://dev.to/music_youtube/rick-beato-justin-hawkins-isnt-afraid-to-talk-sht-35cf",
-      "source": "Dev.to",
-      "author": "Music YouTube",
-      "published": "2025-10-18T12:10:03+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "386ff97c5e9c8848",
-      "title": "GameSpot: Vampire: The Masquerade - Bloodlines 2 Everything To Know",
-      "description": "Vampire: The Masquerade – Bloodlines 2: What You Need to Know More than two decades after the original cult classic, Bloodlines 2 is finally emerging from the shadows, plunging players back into the grim underbelly of the World of Darkness. This GameSpot primer by Lucy James, Jordan Ramee, and Darryn Bonthuys rounds up all the essentials before you take your first, fateful bite. From crafting your vampire avatar and picking a clan to navigating branching narratives and mastering supernatural pow",
-      "url": "https://dev.to/gg_news/gamespot-vampire-the-masquerade-bloodlines-2-everything-to-know-355e",
-      "source": "Dev.to",
-      "author": "Gaming News",
-      "published": "2025-10-18T12:03:41+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "ff99d6222b54be8a",
-      "title": "GameSpot: Battlefield 6: Full Review",
-      "description": "Battlefield 6 doesn’t reinvent the wheel, but that’s exactly why it’s such a blast. You’re dropped into massive, 128-player battles packed with roaring vehicles, massive destruction and nonstop chaos—just the way veterans like it. It’s a safe comeback for the franchise, leaning on familiar mechanics and scale rather than flashy new gimmicks. If you’ve been craving uproarious, large-scale multiplayer mayhem, Battlefield 6 feels right at home. Watch on YouTube",
-      "url": "https://dev.to/gg_news/gamespot-battlefield-6-full-review-27i9",
-      "source": "Dev.to",
-      "author": "Gaming News",
-      "published": "2025-10-18T12:03:14+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "7ac1ac78c9fc941c",
-      "title": "When the Future Decides: How Retrocausal Attention Gives AI Its Voice of Command",
-      "description": "A deep dive into how right-context tokens silently flip authority judgments in causal and non-causal language models. 1. The Invisible Threshold of Power Every model that reads left to right lives in a paradox. It predicts the next token, yet the meaning of what it predicts often depends on the tokens that come after. This is not an aesthetic problem, it is structural. Authority in language—who commands, who obeys, who qualifies as the subject—often appears after the clause begins. A deontic ope",
-      "url": "https://dev.to/agustin_v_startari/when-the-future-decides-how-retrocausal-attention-gives-ai-its-voice-of-command-3mde",
-      "source": "Dev.to",
-      "author": "Agustin V. Startari",
-      "published": "2025-10-18T12:02:56+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "daca8343c0000dc8",
-      "title": "GameSpot: Pokemon Legends: Z-A - 19 Things I Wish I Knew Before Starting",
-      "description": "Pokémon Legends: Z-A – What You Need to Know Pokémon Legends: Z-A completely reinvents the series’ formula, swapping linear progression for a sprawling, open-world adventure. From revamped catching mechanics to new traversal tools, this entry demands fresh strategies right out of the gate. To hit the ground running, there are 19 clutch tips—like optimizing your party setup, mastering stealth encounters, and leveraging environmental buffs—to make sure you’re powering through every challenge and e",
-      "url": "https://dev.to/gg_news/gamespot-pokemon-legends-z-a-19-things-i-wish-i-knew-before-starting-3o60",
-      "source": "Dev.to",
-      "author": "Gaming News",
-      "published": "2025-10-18T12:02:54+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
     },
     {
       "id": "f647efb525151cb7",
@@ -8091,6 +8035,80 @@
       "keywords": []
     },
     {
+      "id": "703561bfb847e96b",
+      "title": "Task, Thread και async/await στο .NET",
+      "description": "Η σωστή διαχείριση συναρτήσεων που τρέχουν παράλληλα ή ασύγχρονα είναι κρίσιμη για απόδοση και scalability σε .NET εφαρμογές. 1. Τι είναι Thread στο .NET Thread: Μικρότερο execution unit που τρέχει εντός του process. Κάθε thread έχει τη δική του stack memory, registers, και context. Thread thread = new Thread(() => { Console.WriteLine(\"Running in a separate thread!\"); }); thread.Start(); Χαρακτηριστικά: Heavyweight: κάθε thread έχει κόστος μνήμης (~1MB stack) Manual management: πρέπει να δημιουρ",
+      "url": "https://dev.to/__b63657/task-thread-kai-asyncawait-sto-net-m07",
+      "source": "Dev.to",
+      "author": "Νίκος Σταυρόπουλος",
+      "published": "2025-10-25T12:29:14+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "4bdbf958044ef410",
+      "title": "You-Might-Not-Need-WebSockets-The-Simple-Power-of-Server-Sent-Events",
+      "description": "GitHub Home You Might Not Need WebSockets: The Simple Power of Server-Sent Events 🤫 In our toolbox, there are always a few \"star\" tools. 🛠️ In the realm of real-time web communication, WebSocket is undoubtedly the brightest star. It's powerful, supports bidirectional communication, and has become the \"default answer\" for almost all real-time needs. So, when a product manager comes to you and says, \"Hey, we need a dashboard that updates in real-time!\" the first thing that pops into many programme",
+      "url": "https://dev.to/member_083ff294/you-might-not-need-websockets-the-simple-power-of-server-sent-events-e69",
+      "source": "Dev.to",
+      "author": "member_083ff294",
+      "published": "2025-10-25T12:27:27+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "8d568db50bff1f7a",
+      "title": "Java Architecture",
+      "description": "Java Architecture is a framework that combines compilation and interpretation to run the Java programs on any device based on WORA principle. The core components are JDK, JIT, JVM and JRE.",
+      "url": "https://dev.to/vidya_varshini/java-architecture-550e",
+      "source": "Dev.to",
+      "author": "VIDHYA VARSHINI",
+      "published": "2025-10-25T12:13:16+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": [
+        "framework"
+      ]
+    },
+    {
+      "id": "d053ec3e79235432",
+      "title": "NPR Music: Tyshawn Sorey’s powerful sounds of silence | Amplify with Lara Downes",
+      "description": "Tyshawn Sorey spent a whirlwind weekend at the Big Ears Festival, but when he finally sat down with Lara Downes in NPR’s makeshift studio, all the hustle melted away into a conversation about the power of space and silence. His new piece, Monochromatic Light (Afterlife), draws on Rothko’s dark, light-revealing color fields in the Houston chapel and Morton Feldman’s commemorative score. By stripping away musical conventions, he creates a canvas where subtle shifts of texture and time become the r",
+      "url": "https://dev.to/music_youtube/npr-music-tyshawn-soreys-powerful-sounds-of-silence-amplify-with-lara-downes-1lf8",
+      "source": "Dev.to",
+      "author": "Music YouTube",
+      "published": "2025-10-25T12:09:06+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "75b6262710a8b08f",
+      "title": "Peter Finch Golf: I challenged a HEAD PRO at HIS OWN course... (Ep. 1 – Heswall GC)",
+      "description": "I challenged Tom, the head pro at Heswall Golf Club, to a £1,000 showdown on his own turf—huge thanks to Titleist for backing this series and championing club pros across the UK. Plus, they’re putting extra support into Heswall’s junior section off the back of this match. Massive shout-out to Tom and all the folks at Heswall GC for hosting the day. For more deets on Titleist, the course, and my gear, hit up the links in the description. Watch on YouTube",
+      "url": "https://dev.to/youtube_golf/peter-finch-golf-i-challenged-a-head-pro-at-his-own-course-ep-1-heswall-gc-h3c",
+      "source": "Dev.to",
+      "author": "YouTube Golf",
+      "published": "2025-10-25T12:05:27+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "ec1f8322c680b541",
+      "title": "Snap & Splat: Turn Everyday Objects into 3D Models with Your Phone",
+      "description": "Snap & Splat: Turn Everyday Objects into 3D Models with Your Phone Tired of clunky 3D scanning rigs and complicated software? Imagine creating detailed 3D models of real-world objects with nothing more than your smartphone camera. No special markers, no depth sensors – just point, record, and generate! This technology is closer than you think. The core idea is building a 3D representation as you film, not afterward. Instead of wrestling with camera positions and depth maps, imagine the system co",
+      "url": "https://dev.to/arvind_sundararajan/snap-splat-turn-everyday-objects-into-3d-models-with-your-phone-246i",
+      "source": "Dev.to",
+      "author": "Arvind SundaraRajan",
+      "published": "2025-10-25T12:02:05+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "cd26ef7ee7995316",
       "title": "Every time I speak with developers, freelancers, or tech professionals, I hear the same concern: “Will AI take my job?” The real shift isn't AI vs Humans: it’s AI-empowered humans vs humans who refuse to adapt. Let’s break this down clearly.",
       "description": "AI Isn’t Replacing You: But the One Who Uses It Better Might Jaideep Parashar ・ Oct 20 #webdev #programming #ai #beginners",
@@ -8148,20 +8166,6 @@
       "keywords": [
         "PHP",
         "developer"
-      ]
-    },
-    {
-      "id": "f2ed483c5675b973",
-      "title": "[Boost]",
-      "description": "10 Best AI Interview Copilot Tools for 2026 🤖 Hadil Ben Abdallah for Final Round AI ・ Oct 17 #programming #ai #interview #career",
-      "url": "https://dev.to/hadil/-3c9a",
-      "source": "Dev.to",
-      "author": "Hadil Ben Abdallah",
-      "published": "2025-10-18T12:17:26+00:00",
-      "niche": "dev",
-      "score": 48,
-      "keywords": [
-        "programming"
       ]
     },
     {
@@ -8504,42 +8508,6 @@
       "keywords": [
         "programming"
       ]
-    },
-    {
-      "id": "ea74044ac290eef7",
-      "title": "./watch",
-      "description": "Comments",
-      "url": "https://dotslashwatch.com/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-18T09:55:06+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "26f8e2f75f5326b1",
-      "title": "Fast calculation of the distance to cubic Bezier curves on the GPU",
-      "description": "Comments",
-      "url": "https://blog.pkh.me/p/46-fast-calculation-of-the-distance-to-cubic-bezier-curves-on-the-gpu.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-18T09:25:30+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "911890585f23f8c6",
-      "title": "Are we living in a golden age of stupidity?",
-      "description": "Comments",
-      "url": "https://www.theguardian.com/technology/2025/oct/18/are-we-living-in-a-golden-age-of-stupidity-technology",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-18T12:08:20+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "e22b8f4748a62bcc",
@@ -10438,6 +10406,18 @@
       "keywords": []
     },
     {
+      "id": "8f3e2223b71975d8",
+      "title": "React vs. Backbone in 2025",
+      "description": "Comments",
+      "url": "https://backbonenotbad.hyperclay.com/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-25T09:43:54+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "78c4b08725d5f56b",
       "title": "React 19 Upgrade Guide",
       "description": "The improvements added to React 19 require some breaking changes, but we've worked to make the upgrade as smooth as possible and we don't expect the changes to impact most apps. In this post, we will guide you through the steps for upgrading apps and libraries to React 19.",
@@ -10560,18 +10540,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-10-18T13:52:24+00:00",
-      "niche": "dev",
-      "score": 38,
-      "keywords": []
-    },
-    {
-      "id": "d3a1e092538c960e",
-      "title": "EQ: A video about all forms of equalizers",
-      "description": "Comments",
-      "url": "https://www.youtube.com/watch?v=CLAt95PrwL4",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-18T10:51:02+00:00",
       "niche": "dev",
       "score": 38,
       "keywords": []
@@ -10793,6 +10761,30 @@
       "keywords": []
     },
     {
+      "id": "6d606d05f95f4c11",
+      "title": "Unlocking free WiFi on British Airways",
+      "description": "Comments",
+      "url": "https://www.saxrag.com/tech/reversing/2025/06/01/BAWiFi.html",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-24T14:40:34+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
+      "id": "adf8df8efdf2a214",
+      "title": "Advice for new principal tech ICs (i.e., notes to myself)",
+      "description": "Comments",
+      "url": "https://eugeneyan.com/writing/principal/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-25T02:24:30+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
       "id": "4e6d7290f5ff11d8",
       "title": "React Native 0.80 - React 19.1, JS API Changes, Freezing Legacy Arch and much more",
       "description": "Today we are excited to release React Native 0.80!",
@@ -10803,9 +10795,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
+        "release",
         "API",
-        "React 19",
-        "release"
+        "React 19"
       ]
     },
     {
@@ -10871,8 +10863,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -11017,8 +11009,8 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -11046,11 +11038,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "code",
         "performance",
+        "release",
         "API",
-        "framework",
-        "release"
+        "code",
+        "framework"
       ]
     },
     {
@@ -11353,8 +11345,8 @@
       "score": 22,
       "keywords": [
         "performance",
-        "development",
-        "release"
+        "release",
+        "development"
       ]
     },
     {
@@ -11380,8 +11372,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "API",
-        "release"
+        "release",
+        "API"
       ]
     },
     {
@@ -11426,8 +11418,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "API",
-        "developer"
+        "developer",
+        "API"
       ]
     },
     {
@@ -11442,8 +11434,8 @@
       "score": 19,
       "keywords": [
         "developer",
-        "API",
-        "release"
+        "release",
+        "API"
       ]
     },
     {
@@ -11704,6 +11696,18 @@
       "keywords": []
     },
     {
+      "id": "1765c10ae84a989c",
+      "title": "The future of Python web services looks GIL-free",
+      "description": "Comments",
+      "url": "https://blog.baro.dev/p/the-future-of-python-web-services-looks-gil-free",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-19T10:38:25+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
       "id": "3364e10d661c635d",
       "title": "AI agents for your digital chores",
       "description": "Ryan welcomes Dhruv Batra, co-founder and chief scientist at Yutori, to explore the future of AI agents, how AI usage is changing the way people interact with advertisements and the web as a whole, and the challenges that proactive AI agents may face when being integrated into workflows and personal internet use.",
@@ -11894,8 +11898,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "development",
-        "programming"
+        "programming",
+        "development"
       ]
     },
     {
