@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-10-27T18:35:17.039039+00:00",
-  "total_articles": 982,
+  "last_updated": "2025-10-27T21:21:08.078860+00:00",
+  "total_articles": 988,
   "articles": [
     {
       "id": "0239e7c279f8f104",
@@ -49,21 +49,6 @@
         "developer",
         "framework",
         "release"
-      ]
-    },
-    {
-      "id": "86a10554b91118df",
-      "title": "React Query, Part 1 — The Mental Model (with running JS examples)",
-      "description": "Series plan: Fundamentals you'll actually use (this post) Mutations, optimistic UIs & cache mastery Architecture, error UX, testing & performance React Query (TanStack Query) treats the server as the source of truth and gives you a cache with a clock. If you grok these five ideas… query keys (what data is this?) staleTime (how long before it's \"old\"?) enabled (should we fetch now?) keepPreviousData (don't flicker between pages) select (reshape on read, not after) …then the API becomes muscle mem",
-      "url": "https://dev.to/picciniuscodes/react-query-part-1-the-mental-model-with-running-js-examples-32e2",
-      "source": "Dev.to",
-      "author": "Matteo",
-      "published": "2025-10-20T21:13:38+00:00",
-      "niche": "dev",
-      "score": 75,
-      "keywords": [
-        "API",
-        "performance"
       ]
     },
     {
@@ -176,21 +161,6 @@
       ]
     },
     {
-      "id": "09ae4a04f46b9b6c",
-      "title": "Learning Azure Networking Through Code: My Spring Boot + Terraform Journey",
-      "description": "Building a production-style network from scratch to understand how the cloud really works What I Built I created a complete Azure network infrastructure with multiple virtual networks, security rules, load balancing, and a Spring Boot application to test it all. Think of it as building a miniature version of how companies actually structure their cloud networks, but small enough to learn from and cheap enough to run on Azure's student credits. The Setup Two separate virtual networks connected th",
-      "url": "https://dev.to/humza_inam/learning-azure-networking-through-code-my-spring-boot-terraform-journey-4kij",
-      "source": "Dev.to",
-      "author": "Humza Inam",
-      "published": "2025-10-20T21:09:52+00:00",
-      "niche": "dev",
-      "score": 73,
-      "keywords": [
-        "Spring",
-        "code"
-      ]
-    },
-    {
       "id": "1fc9fed2c6a9a4d8",
       "title": "How to Structure Your Spring Boot Project for Clean, Scalable Code",
       "description": "Wondering how to organize your Spring Boot project like a pro? This guide breaks down the essential packages you need to build maintainable, scalable, and readable applications. Why Project Structure Matters When you start a Spring Boot project, it’s easy to just throw classes anywhere. But as your app grows, messy structure leads to: Hard-to-find files Confusing business logicHere’s a breakdown of the most common packages in a Spring Boot project, why they exist, and how to use them effectively",
@@ -233,6 +203,21 @@
       "keywords": [
         "tutorial",
         "API"
+      ]
+    },
+    {
+      "id": "56088947fe17a8a1",
+      "title": "Material 3 Adaptive 1.2.0 is stable",
+      "description": "Posted by Rob Orgiu, Android Developer Relations Engineer We’re excited to announce that Material 3 Adaptive 1.2.0 is now stable!This release continues to build on the foundations of previous versions, expanding support to more breakpoints for window size classes and new strategies to place display panes automatically.What’s new in Material 3 Adaptive 1.2.0This stable release is built on top of WindowManager 1.5.0 support for large and extra large breakpoints, and introduces the new reflow and l",
+      "url": "https://android-developers.googleblog.com/2025/10/material-3-adaptive-120-is-stable.html",
+      "source": "Android Developers Blog",
+      "author": "Birna (noreply@blogger.com)",
+      "published": "2025-10-27T14:00:00-07:00",
+      "niche": "dev",
+      "score": 73,
+      "keywords": [
+        "release",
+        "developer"
       ]
     },
     {
@@ -321,6 +306,20 @@
       "score": 72,
       "keywords": [
         "API"
+      ]
+    },
+    {
+      "id": "8903fcab2a04d4f8",
+      "title": "Type-Checked Host Bindings in Angular—what it is, why it matters, and how it works behind the scenes.",
+      "description": "🧩 What Are Host Bindings? In Angular, host bindings let a directive or component bind properties or classes to the host element (the element it’s applied to). Example: @Component({ selector: 'app-button', template: '<ng-content></ng-content>', host: { '[class.active]': 'isActive', '[attr.aria-disabled]': 'disabled' } }) export class ButtonComponent { isActive = true; disabled = false; } This sets: class.active to true aria-disabled attribute to false on the host element. So far, so good — but un",
+      "url": "https://dev.to/sunny7899/type-checked-host-bindings-in-angular-what-it-is-why-it-matters-and-how-it-works-behind-the-1bdp",
+      "source": "Dev.to",
+      "author": "Neweraofcoding",
+      "published": "2025-10-27T20:33:55+00:00",
+      "niche": "dev",
+      "score": 72,
+      "keywords": [
+        "Angular"
       ]
     },
     {
@@ -596,18 +595,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "f81e242bcec44188",
-      "title": "[MATERIAL]- Taller Manos a la obra con git y github",
-      "description": "Hi Dev.to Community this post is just a setup focused for college students for a workshop (CIISTI 2025). Inicio: Para el taller vamos a necesitar git y una cuenta de github para sacarle el provecho al tiempo del taller. En el siguiente link vamos a poder descargar la herramienta: Selecciona a segun tu sistema operativo https://git-scm.com/install/ Setup de git Setup en Windows 10/11 El setup es una instalación comúm de \"next\" \"next\" Como recomendacion en esta pantalla seleccione NANO Y continuar",
-      "url": "https://dev.to/doncarmone/material-taller-manos-a-la-obra-con-git-y-github-4hfj",
-      "source": "Dev.to",
-      "author": "Javier Carmona Gallegos",
-      "published": "2025-10-20T20:56:08+00:00",
-      "niche": "dev",
-      "score": 68,
-      "keywords": []
     },
     {
       "id": "f25b442330130357",
@@ -887,6 +874,20 @@
       "score": 63,
       "keywords": [
         "code"
+      ]
+    },
+    {
+      "id": "83f61e64112cd763",
+      "title": "Easy RISC-V: An interactive introduction to RISC-V assembly programming",
+      "description": "Comments",
+      "url": "https://dramforever.github.io/easyriscv/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-27T20:57:12+00:00",
+      "niche": "dev",
+      "score": 63,
+      "keywords": [
+        "programming"
       ]
     },
     {
@@ -1921,6 +1922,22 @@
       ]
     },
     {
+      "id": "5990f4dc9139c2f0",
+      "title": "Async Programming in C#",
+      "description": "Asynchronous programming is needed to write code that can handle a long-running requests (like querying a database, calling an API, or reading a large file) instead of just stopping and waiting for response. This Async Programming is essential for having a responsive application. The UI freeze without using async in mobile app and using async programming on web servers allows handling a massive number of requests instead of being blocked by one slow request. using sync means the main thread will",
+      "url": "https://dev.to/eli77rhm/async-programming-in-c-13jg",
+      "source": "Dev.to",
+      "author": "Ellie",
+      "published": "2025-10-27T20:48:37+00:00",
+      "niche": "dev",
+      "score": 56,
+      "keywords": [
+        "API",
+        "programming",
+        "code"
+      ]
+    },
+    {
       "id": "54f06dac59cb5505",
       "title": "Common Naming Case Types",
       "description": "If you've worked across multiple languages or frameworks, you've probably noticed that naming conventions are everywhere, and they're not always consistent. Each project uses something different. camelCase, another prefers snake_case, and suddenly you're context-switching between PascalCase components and kebab-case CSS classes. This is a quick reference I keep handy when I'm switching projects or reviewing code. It covers the most common naming conventions, where they're typically used, and why",
@@ -2401,34 +2418,6 @@
       "keywords": [
         "developer",
         "library"
-      ]
-    },
-    {
-      "id": "fcbaa4e1ce7619c6",
-      "title": "Delegates — A Simple Introduction",
-      "description": "I think of a delegate as a reference to a function. It’s a type that says “I can point at any method that has this parameter list and this return type.” You create one, point it to a compatible method, and call the method through the delegate. Because you can pass delegates around, they’re great for plugging behaviour into APIs. C# events are built on delegates too. Real-World Analogy: Delegates as a Phone Number Think of a delegate like a phone number you hand to someone with simple instruction",
-      "url": "https://dev.to/eli77rhm/delegates-a-simple-introduction-17jb",
-      "source": "Dev.to",
-      "author": "Ellie",
-      "published": "2025-10-20T21:08:59+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "API"
-      ]
-    },
-    {
-      "id": "9d99d2e352a6c2e3",
-      "title": "Selenium Navigation and Page Interaction",
-      "description": "This is the second post in series about scraping with Selenium in Python. In this one, you’ll learn how to move between pages, handle tabs and pop-ups, fill forms, scroll, and even run JavaScript. Table of Contents Step 1: Navigate Between Pages Step 2: Work with Tabs and Pop-ups Step 3: Perform Clicks, Form Fills, and Keyboard Actions Step 4: Scroll and Load More Content Step 5: Execute JavaScript Step 1: Navigate Between Pages You can control the browser flow with a few simple commands. driver",
-      "url": "https://dev.to/hasdata_com/selenium-navigation-and-page-interaction-5a3f",
-      "source": "Dev.to",
-      "author": "Valentina Skakun",
-      "published": "2025-10-20T21:00:00+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "API"
       ]
     },
     {
@@ -3616,18 +3605,17 @@
       ]
     },
     {
-      "id": "6ecd674786239949",
-      "title": "Navigating the .NET Ecosystem: My Take on a Practical Roadmap",
-      "description": "Hi everyone, I'm Ellie. I'm a Senior .NET Engineer now, but my career actually started in game development using Unity and C#. That transition from games to backend services gave me what I feel is a unique perspective on the specific challenges developers can face when moving into the .NET ecosystem. As a mentor, I've recently guided a few engineers through this exact transition. I found myself repeatedly sketching out the same core concepts and tools that seemed essential for day-to-day work in",
-      "url": "https://dev.to/eli77rhm/navigating-the-net-ecosystem-my-take-on-a-practical-roadmap-463o",
+      "id": "5b21d1d9d8e6914a",
+      "title": "Files-are-Not-Just-Data-A-Guide-to-Robust-File-Handling",
+      "description": "GitHub Home Files are Not Just Data: A Guide to Robust File Handling 📁💾 I'll never forget that afternoon. We had just launched a new feature allowing users to upload their profile pictures. Everything seemed perfect. Until one user, whether intentionally or not, tried to upload a 2GB movie file from his computer. 🎬 The server's memory monitor instantly turned red, CPU usage shot up to 100%, and then, the entire service crashed and burned. 😵‍💫 Why? Because our rudimentary web framework tried to r",
+      "url": "https://dev.to/member_ece4a271/files-are-not-just-data-a-guide-to-robust-file-handling-4c6",
       "source": "Dev.to",
-      "author": "Ellie",
-      "published": "2025-10-20T21:00:38+00:00",
+      "author": "member_ece4a271",
+      "published": "2025-10-27T20:24:54+00:00",
       "niche": "dev",
-      "score": 52,
+      "score": 54,
       "keywords": [
-        "developer",
-        "development"
+        "framework"
       ]
     },
     {
@@ -5419,52 +5407,46 @@
       ]
     },
     {
-      "id": "e6137bedfccb27e5",
-      "title": "The Illusions of Quality — Episode 9: 🔨 The Toolsmith, Not the Tool: A Tester's Role in Modern DevOps",
-      "description": "The shiny new testing suite wasn't bought because it was the best. It was bought because the vendor knew the manager's spouse. Licenses signed, trainings delivered, dashboards glowing green. And yet … deliveries slipped, outages multiplied, quality worsened. By the time anyone asked why, the manager's LinkedIn had already changed. 🎯 🎭 The Expensive Tool Paradox This story isn't fiction. It's a pattern. Organizations pour millions into \"the ultimate\" testing tool, convinced it will cure their qua",
-      "url": "https://dev.to/abdulosman/the-illusions-of-quality-episode-9-the-toolsmith-not-the-tool-a-testers-role-in-3fc8",
+      "id": "0849ad4c44db86fa",
+      "title": "Part 1: Training a Neural Network to Detect Coffee First Crack from Audio - An Agentic Development Journey with Warp",
+      "description": "When it comes to coffee, everyone has their preferences. I usually prefer smooth, naturally sweet coffee with nice fragrance - no bitter or smoky flavours. There is a challenge though: achieving that perfect roast at home requires split-second timing. Miss the \"first crack\" by 30 seconds? You've got bitter, over-roasted beans. Finish the roast early? Enjoy your grassy / earthy tasting coffee. This post is about teaching a neural network to detect that critical moment from audio alone. While home",
+      "url": "https://dev.to/syamaner/part-1-training-a-neural-network-to-detect-coffee-first-crack-from-audio-an-agentic-development-1jei",
       "source": "Dev.to",
-      "author": "Abdul Osman",
-      "published": "2025-10-20T21:16:31+00:00",
+      "author": "sy",
+      "published": "2025-10-27T20:59:05+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "development"
+      ]
     },
     {
-      "id": "e80aefb40802e12e",
-      "title": "Smart AI Agent Targeting with MCP Tools",
-      "description": "Originally published September 22, 2025 at LaunchDarkly. Overview Here's what nobody tells you about multi-agentic systems: the hard part isn't building them but making them profitable. One misconfigured model serving enterprise features to free users can burn $20K in a weekend. Meanwhile, you're manually juggling dozens of requirements for different user tiers, regions, and privacy compliance and each one is a potential failure point. Part 2 of 3 of the series: Chaos to Clarity: Defensible AI S",
-      "url": "https://dev.to/launchdarkly/smart-ai-agent-targeting-with-mcp-tools-hdn",
+      "id": "8dda47fd36b39948",
+      "title": "The Silent Symphony: Scaling Read-Heavy Rails Apps with Read Replicas",
+      "description": "You stand at the helm of a thriving Rails application. The codebase is a testament to clean architecture, your test suite is a robust safety net, and your deployment pipeline hums a quiet, efficient tune. For a while, it was a perfect equilibrium. Then, the readers came. It starts subtly. A pg_stat_statements graph that trends a little steeper. A 95th percentile latency on a few key GET endpoints that twitches nervously. Then, one Tuesday morning, a marketing campaign hits, and your dashboard li",
+      "url": "https://dev.to/alex_aslam/the-silent-symphony-scaling-read-heavy-rails-apps-with-read-replicas-5di2",
       "source": "Dev.to",
-      "author": "Scarlett Attensil",
-      "published": "2025-10-20T21:09:42+00:00",
+      "author": "Alex Aslam",
+      "published": "2025-10-27T20:53:37+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
-      "id": "e47764b91c1266fa",
-      "title": "Why Converting Design Files Improves Workflow and Collaboration",
-      "description": "In any design or engineering environment, sharing technical drawings efficiently can make or break a project’s timeline. CAD files like DXF are excellent for creating and editing detailed designs, but they’re not always practical for communication. Clients, contractors, or partners may not have CAD software, which can lead to confusion, file incompatibility, and wasted time. That’s why learning to convert DXF to PDF is such an important part of modern design workflows. Converting your files to P",
-      "url": "https://dev.to/sky_rankers_9d6515d5aa32d/why-converting-design-files-improves-workflow-and-collaboration-1c3l",
+      "id": "71b10ebc6961f056",
+      "title": "Proper Key Derivation and Cryptographic Session Setup: Best Practices for Secure Communication",
+      "description": "In modern web applications, secure communication is not just about encrypting data—it’s about how you generate, manage, and use keys. Even strong algorithms fail if applied incorrectly. This article explains key practices for proper key derivation, session setup, and cryptographic hygiene. Use Standardized Key Derivation (HKDF) The HMAC-based Key Derivation Function (HKDF) is a recommended method for generating strong cryptographic keys from shared secrets. Correct use involves: RFC 5869 complia",
+      "url": "https://dev.to/securebitchat/proper-key-derivation-and-cryptographic-session-setup-best-practices-for-secure-communication-he2",
       "source": "Dev.to",
-      "author": "Sky Rankers",
-      "published": "2025-10-20T21:09:02+00:00",
+      "author": "Volodymyr",
+      "published": "2025-10-27T20:38:22+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "f535ebb5b7cd56f8",
-      "title": "🧠 System Design: Foundations, Scaling Strategies, and Resilience Patterns",
-      "description": "💡 What Is System Design and Why It’s Valuable System design is the process of planning how different parts of a software system work together: the architecture, components, data flow, and how everything scales or recovers from failure. It aims to make sure your system: ✅ Works correctly (meets functional requirements) ⚙️ Performs efficiently and reliably (meets non-functional requirements like scalability, latency, and fault tolerance) 🎯 Why It’s Valuable 👩💻 Team Growth: Clear boundaries let mul",
-      "url": "https://dev.to/matheusgomes062/system-design-foundations-scaling-strategies-and-resilience-patterns-1b79",
-      "source": "Dev.to",
-      "author": "Matheus Gomes 👨‍💻",
-      "published": "2025-10-20T20:58:55+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "best practices"
+      ]
     },
     {
       "id": "c5a8ca9028434985",
@@ -8091,6 +8073,42 @@
       "keywords": []
     },
     {
+      "id": "413748739068d7ab",
+      "title": "GyroSwin: 5D Surrogates for Gyrokinetic Plasma Turbulence Simulations",
+      "description": "GyroSwin: AI Breakthrough That Could Power the Future Imagine trying to predict a wild, swirling storm inside a tiny bottle—that’s what scientists face when they study the chaotic dance of super‑hot plasma in a fusion reactor. GyroSwin is a new AI tool that acts like a super‑fast weather forecast for this invisible storm, learning from massive 5‑dimensional simulations and then delivering accurate predictions in a flash. Instead of the slow, clunky calculations that have limited fusion research ",
+      "url": "https://dev.to/paperium/gyroswin-5d-surrogates-for-gyrokinetic-plasma-turbulence-simulations-27i8",
+      "source": "Dev.to",
+      "author": "Paperium",
+      "published": "2025-10-27T20:50:35+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "006e60d224778b08",
+      "title": "Too Many Em Dashes, Not Enough Sense",
+      "description": "Life — like coffee — is best enjoyed — one reflection — at a time. You felt that, didn’t you? Those dramatic pauses that make you wonder if the sentence is deep or just dizzy. That’s the em-dash effect. The unofficial stamp of AI-generated writing. Every post suddenly sounds like it’s giving a TED Talk about nothing. The funny thing? Most people using them don’t even know how to type one. They just let AI handle it. Ask them where the em-dash key is, and they’ll probably open Google. Now it’s ev",
+      "url": "https://dev.to/ikhaledabdelfattah/too-many-em-dashes-not-enough-sense-d44",
+      "source": "Dev.to",
+      "author": "Khaled Abdel-Fattah",
+      "published": "2025-10-27T20:35:16+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "054d66ab32704c16",
+      "title": "From Measurements to Map: A Deep Dive into the Least Squares Algorithm for GNSS",
+      "description": "Introduction In my previous article, I explained how we generate corrected GNSS measurements. Today we take the crucial step: transforming those measurements into estimated position and velocity using the Least Squares algorithm. This isn't just any implementation, it's the mathematical heart of any satellite navigation system. The Fundamental Problem: Too Many Unknowns Each pseudorange measurement gives us a nonlinear equation: ρᵢ = ||p_satᵢ - p_rcv|| + c·δt + εᵢ Where: ρᵢ = Measured pseudorang",
+      "url": "https://dev.to/pederzoli/from-measurements-to-map-a-deep-dive-into-the-least-squares-algorithm-for-gnss-4obe",
+      "source": "Dev.to",
+      "author": "William",
+      "published": "2025-10-27T20:21:48+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "5fb615aa2a28426c",
       "title": "dive into quirks, surprises, all about claude code",
       "description": "A week with Claude Code: lessons, surprises and smarter workflows ujjavala ・ Sep 27 #programming #ai #productivity #learning",
@@ -8480,6 +8498,34 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-10-27T05:36:13+00:00",
+      "niche": "dev",
+      "score": 45,
+      "keywords": [
+        "code"
+      ]
+    },
+    {
+      "id": "f3d5390b0f1d55b0",
+      "title": "I created a website to learn Morse code in a simple way. I hope its helpful",
+      "description": "Here is the link: morse-code-master.vercel.app",
+      "url": "https://dev.to/palmaner_7d9672e05163ac85/i-created-a-website-to-learn-morse-code-in-a-simple-way-i-hope-its-helpful-7hb",
+      "source": "Dev.to",
+      "author": "palmaner",
+      "published": "2025-10-27T20:45:21+00:00",
+      "niche": "dev",
+      "score": 45,
+      "keywords": [
+        "code"
+      ]
+    },
+    {
+      "id": "fbcc29441a71a041",
+      "title": "Simplify Your Code: Functional Core, Imperative Shell",
+      "description": "Comments",
+      "url": "https://testing.googleblog.com/2025/10/simplify-your-code-functional-core.html",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-25T07:07:59+00:00",
       "niche": "dev",
       "score": 45,
       "keywords": [
@@ -10395,20 +10441,6 @@
       "keywords": []
     },
     {
-      "id": "78c4b08725d5f56b",
-      "title": "React 19 Upgrade Guide",
-      "description": "The improvements added to React 19 require some breaking changes, but we've worked to make the upgrade as smooth as possible and we don't expect the changes to impact most apps. In this post, we will guide you through the steps for upgrading apps and libraries to React 19.",
-      "url": "https://react.dev/blog/2024/04/25/react-19-upgrade-guide",
-      "source": "React Blog",
-      "author": "Ricky Hanlon",
-      "published": "2024-04-25T00:00:00+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": [
-        "React 19"
-      ]
-    },
-    {
       "id": "679b260e9408b873",
       "title": "La DuckConf 2026 est de retour et ça va décoinffer !",
       "description": "La Duck Conf est de retour ! Découvrez le programme.",
@@ -10431,6 +10463,56 @@
       "niche": "dev",
       "score": 44,
       "keywords": []
+    },
+    {
+      "id": "def7554156bca323",
+      "title": "The PSF has withdrawn a $1.5M proposal to US Government grant program",
+      "description": "Comments",
+      "url": "https://simonwillison.net/2025/Oct/27/psf-withdrawn-proposal/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-27T20:52:08+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "a4c6a2fff15c7bb0",
+      "title": "Study finds growing social circles may fuel polarization",
+      "description": "Comments",
+      "url": "https://phys.org/news/2025-10-friends-division-social-circles-fuel.html",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-27T19:06:34+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "20df64140b3cc875",
+      "title": "Creating an all-weather driver",
+      "description": "Comments",
+      "url": "https://waymo.com/blog/2025/10/creating-an-all-weather-driver",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-27T18:57:57+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "78c4b08725d5f56b",
+      "title": "React 19 Upgrade Guide",
+      "description": "The improvements added to React 19 require some breaking changes, but we've worked to make the upgrade as smooth as possible and we don't expect the changes to impact most apps. In this post, we will guide you through the steps for upgrading apps and libraries to React 19.",
+      "url": "https://react.dev/blog/2024/04/25/react-19-upgrade-guide",
+      "source": "React Blog",
+      "author": "Ricky Hanlon",
+      "published": "2024-04-25T00:00:00+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": [
+        "React 19"
+      ]
     },
     {
       "id": "bf14e8b0bc5ea146",
@@ -10493,8 +10575,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "performance",
-        "React 19"
+        "React 19",
+        "performance"
       ]
     },
     {
@@ -10800,6 +10882,18 @@
       "keywords": []
     },
     {
+      "id": "7ab0d603413da166",
+      "title": "10M people watched a YouTuber shim a lock; the lock company sued him – bad idea",
+      "description": "Comments",
+      "url": "https://arstechnica.com/tech-policy/2025/10/suing-a-popular-youtuber-who-shimmed-a-130-lock-what-could-possibly-go-wrong/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-27T12:42:42+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
       "id": "4e6d7290f5ff11d8",
       "title": "React Native 0.80 - React 19.1, JS API Changes, Freezing Legacy Arch and much more",
       "description": "Today we are excited to release React Native 0.80!",
@@ -10811,8 +10905,8 @@
       "score": 38,
       "keywords": [
         "API",
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10902,8 +10996,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10931,8 +11025,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "framework",
-        "API"
+        "API",
+        "framework"
       ]
     },
     {
@@ -10943,20 +11037,6 @@
       "source": "Android Developers Blog",
       "author": "Birna (noreply@blogger.com)",
       "published": "2025-10-20T09:00:00-07:00",
-      "niche": "dev",
-      "score": 33,
-      "keywords": [
-        "developer"
-      ]
-    },
-    {
-      "id": "8ac43874e2a23603",
-      "title": "#WeArePlay: Meet the founder making breast cancer awareness simple and accessible",
-      "description": "Posted by Robbie McLachlan - Developer Marketing In our latest #WeArePlay film, which celebrates the people behind apps and games on Google Play, we meet Corrine, the founder of Know Your Lemons. After losing family and friends to breast cancer, she used her skills as a designer to create a simple, visual, and accessible way to educate people about breast cancer. Discover how her award-winning app is changing the conversation around breast cancer and saving lives worldwide.Your mission is deeply",
-      "url": "https://android-developers.googleblog.com/2025/10/weareplay-meet-founder-making-breast.html",
-      "source": "Android Developers Blog",
-      "author": "Android Developers (noreply@blogger.com)",
-      "published": "2025-10-16T09:00:00-07:00",
       "niche": "dev",
       "score": 33,
       "keywords": [
@@ -11062,8 +11142,8 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -11091,11 +11171,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
+        "framework",
         "performance",
         "API",
         "release",
-        "code",
-        "framework"
+        "code"
       ]
     },
     {
@@ -11437,8 +11517,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "API"
+        "API",
+        "release"
       ]
     },
     {
@@ -11452,8 +11532,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "framework",
-        "release"
+        "release",
+        "framework"
       ]
     },
     {
@@ -11467,9 +11547,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "code",
+        "developer",
         "performance",
-        "developer"
+        "code"
       ]
     },
     {
@@ -11483,8 +11563,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
-        "API"
+        "API",
+        "developer"
       ]
     },
     {
@@ -11498,9 +11578,9 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
+        "API",
         "release",
-        "API"
+        "developer"
       ]
     },
     {
@@ -11514,8 +11594,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -12453,8 +12533,8 @@
       "niche": "dev",
       "score": 11,
       "keywords": [
-        "code",
-        "release"
+        "release",
+        "code"
       ]
     },
     {
