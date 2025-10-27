@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-10-27T15:29:55.648293+00:00",
-  "total_articles": 228,
+  "last_updated": "2025-10-27T18:38:25.192215+00:00",
+  "total_articles": 230,
   "articles": [
     {
       "id": "348e80c3717bec4a",
@@ -231,6 +231,18 @@
       "keywords": []
     },
     {
+      "id": "a8ed8afe7b5f21da",
+      "title": "Prompt Caching Support in Spring AI with Anthropic Claude",
+      "description": "Large language model API costs can accumulate quickly when applications repeatedly send the same prompt content. A typical scenario: you're building a document analyzer that includes a 3,000-token document in every request. Five questions about that document means processing 15,000 tokens of identical content at full price. Anthropic's prompt caching addresses this by allowing you to reuse previously processed prompt segments. Spring AI provides comprehensive support through strategic caching pa",
+      "url": "https://spring.io/blog/2025/10/27/spring-ai-anthropic-prompt-caching-blog",
+      "source": "Spring Blog (Official)",
+      "author": "sobychacko",
+      "published": "2025-10-27T00:00:00+00:00",
+      "niche": "spring",
+      "score": 62,
+      "keywords": []
+    },
+    {
       "id": "70c9c404f27c7947",
       "title": "A Bootiful Podcast: Spring team engineer Dariusz Jędrzejczyk on the latest-and-greatest in the reactive world, MCP, and more",
       "description": "Hi, Spring fans! In this installment we talk to the Spring team engineer Dariusz Jędrzejczyk on the latest-and-greatest in the reactive world, MCP, and more",
@@ -240,18 +252,6 @@
       "published": "2025-10-23T00:00:00+00:00",
       "niche": "spring",
       "score": 58,
-      "keywords": []
-    },
-    {
-      "id": "c1808121f915d182",
-      "title": "Meerkat: Building Live, Distributed Reactive APIs with Type Safety",
-      "description": "The world of real-time applications has always felt like a compromise. You could have WebSockets for instant updates, or you could have REST for reliability and structure, but getting both working harmoniously required duct tape and architectural gymnastics. Meerkat emerges as an intriguing solution to this persistent challenge, offering a framework for building reactive APIs &#8230;",
-      "url": "https://www.javacodegeeks.com/2025/10/meerkat-building-live-distributed-reactive-apis-with-type-safety.html",
-      "source": "Java Code Geeks",
-      "author": "Eleftheria Drosopoulou",
-      "published": "2025-10-20T16:41:00+00:00",
-      "niche": "spring",
-      "score": 57,
       "keywords": []
     },
     {
@@ -334,6 +334,18 @@
       "source": "InfoQ Java",
       "author": "Michael Redlich",
       "published": "2025-10-27T13:10:00+00:00",
+      "niche": "spring",
+      "score": 57,
+      "keywords": []
+    },
+    {
+      "id": "67af9e16c52bc802",
+      "title": "Developing Stateful Custom Bean Validation Using Spring Boot",
+      "description": "Bean Validation is a core feature of Spring Boot used to enforce rules on Java objects before they are processed or persisted. While basic validations like @NotNull or @Email cover most cases, real-world applications often need custom and stateful validations — where validation logic depends on multiple fields, external configurations, or even runtime data. Let &#8230;",
+      "url": "https://www.javacodegeeks.com/developing-stateful-custom-bean-validation-using-spring-boot.html",
+      "source": "Java Code Geeks",
+      "author": "Yatin Batra",
+      "published": "2025-10-27T16:00:00+00:00",
       "niche": "spring",
       "score": 57,
       "keywords": []
@@ -588,18 +600,6 @@
       "published": "2025-10-26T00:40:00.002000-07:00",
       "niche": "spring",
       "score": 45,
-      "keywords": []
-    },
-    {
-      "id": "57ae8a4848e13438",
-      "title": "Adobe Service Runtime: Keep Calm and Shift Down!",
-      "description": "Microservices at Adobe Adobe’s transformation from desktop applications to cloud offerings triggered an explosion of microservices. Be it Acrobat, Photoshop, or Adobe Experience Cloud, they are all powered by suites of microservices mainly written in Java. With so many microservices created, every developer had to go through the same painful processes, i.e., security, compliance, scalability, resiliency, etc., to create a production-grade microservice. That was the genesis of Adobe Service Runti",
-      "url": "https://feeds.dzone.com/link/18931/17189927/adobe-service-runtime-keep-calm-and-shift-down",
-      "source": "DZone Microservices",
-      "author": "Anirudh Mathad",
-      "published": "2025-10-20T16:00:42+00:00",
-      "niche": "spring",
-      "score": 42,
       "keywords": []
     },
     {
@@ -927,6 +927,18 @@
       "keywords": []
     },
     {
+      "id": "ddae8bd9141879e4",
+      "title": "Functional Choreography for Microservices: From Theory to Practice",
+      "description": "Microservices promised us independence. Each service would own its domain, deploy on its own schedule, and scale without stepping on anyone&#8217;s toes. Then we tried to build actual workflows across these services and discovered we&#8217;d just traded one problem for another. The old approach was orchestration: one service plays conductor, telling everyone else what to &#8230;",
+      "url": "https://www.javacodegeeks.com/2025/10/functional-choreography-for-microservices-from-theory-to-practice.html",
+      "source": "Java Code Geeks",
+      "author": "Eleftheria Drosopoulou",
+      "published": "2025-10-27T17:55:00+00:00",
+      "niche": "spring",
+      "score": 42,
+      "keywords": []
+    },
+    {
       "id": "45f7394cd1375133",
       "title": "Assembling Project Leyden #JVMLS",
       "description": "Two years ago John Rose stood here at JVMLS and unveiled the Project Leyden prototype efforts the team had been developing. Since then, Leyden has delivered JEPs in both JDK 24 and JDK 25. These early building blocks provide a foundation to continue assembling new AOT features. And speaking of assembly, let's deep dive into how and when the AOTCache gets created. We'll also touch on what's next in the Leyden pipeline and look at some of the areas of future exploration as well as discuss some of ",
@@ -1006,6 +1018,18 @@
       "source": "Inside.java (Oracle)",
       "author": "[\"JaikiranPai\"]",
       "published": "2025-10-22T00:00:00+00:00",
+      "niche": "spring",
+      "score": 34,
+      "keywords": []
+    },
+    {
+      "id": "d7273304a9b34383",
+      "title": "Episode 41 “From Cowboy Mode to Careful Stewardship” with Mark Reinhold",
+      "description": "Nicolai Parlog talks to Mark Reinhold, Chief Architect of the Java Platform, who has almost 30 years of experience driving Java forward...",
+      "url": "https://inside.java/2025/10/27/podcast-041/",
+      "source": "Inside.java (Oracle)",
+      "author": "[\"MarkReinhold\", \"NicolaiParlog\"]",
+      "published": "2025-10-27T01:00:00+00:00",
       "niche": "spring",
       "score": 34,
       "keywords": []
@@ -2175,6 +2199,18 @@
       "keywords": []
     },
     {
+      "id": "57ae8a4848e13438",
+      "title": "Adobe Service Runtime: Keep Calm and Shift Down!",
+      "description": "Microservices at Adobe Adobe’s transformation from desktop applications to cloud offerings triggered an explosion of microservices. Be it Acrobat, Photoshop, or Adobe Experience Cloud, they are all powered by suites of microservices mainly written in Java. With so many microservices created, every developer had to go through the same painful processes, i.e., security, compliance, scalability, resiliency, etc., to create a production-grade microservice. That was the genesis of Adobe Service Runti",
+      "url": "https://feeds.dzone.com/link/18931/17189927/adobe-service-runtime-keep-calm-and-shift-down",
+      "source": "DZone Microservices",
+      "author": "Anirudh Mathad",
+      "published": "2025-10-20T16:00:42+00:00",
+      "niche": "spring",
+      "score": 12,
+      "keywords": []
+    },
+    {
       "id": "89d0ef00dc91cd6b",
       "title": "Django Architecture vs FastAPI: A Learning Path",
       "description": "When choosing a backend for your next Python project, the comparison between Django and FastAPI often comes up. Many developers who have spent years in Django’s “batteries-included” world eventually experiment with FastAPI for its modern, async-first approach. A Reddit thread titled “Django Architecture versus FastAPI” captures this exact debate: a long-term Django user moving to FastAPI for asynchronous advantages. I am a contributor to FastOpp, an open-source FastAPI starter package for AI web",
@@ -2398,18 +2434,6 @@
       "source": "Inside.java (Oracle)",
       "author": "[\"Per-AkeMinborg\"]",
       "published": "2025-10-18T00:00:00+00:00",
-      "niche": "spring",
-      "score": 12,
-      "keywords": []
-    },
-    {
-      "id": "385115f15f9db03a",
-      "title": "What’s New in Java 25 in 2 Minutes - Sip of Java",
-      "description": "JDK 25 has been released! Let’s quickly review the 18 JEPs (JDK Enhancement Proposals) that were included in the JDK 25 release, in 2 minutes, or maybe just a bit more! And if you have more than a few minutes, you can check out the playlist , but fair warning: your coffee might get cold before you’re done!",
-      "url": "https://inside.java/2025/10/17/new-in-jdk-25-2-mins/",
-      "source": "Inside.java (Oracle)",
-      "author": "[\"BillyKorando\"]",
-      "published": "2025-10-17T00:00:00+00:00",
       "niche": "spring",
       "score": 12,
       "keywords": []
