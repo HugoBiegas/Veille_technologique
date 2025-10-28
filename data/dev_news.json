@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-10-28T09:27:02.409367+00:00",
-  "total_articles": 985,
+  "last_updated": "2025-10-28T12:50:56.229729+00:00",
+  "total_articles": 987,
   "articles": [
     {
       "id": "0239e7c279f8f104",
@@ -305,6 +305,20 @@
       "score": 72,
       "keywords": [
         "Angular"
+      ]
+    },
+    {
+      "id": "e720687e2130efdd",
+      "title": "🛠️ Refactoring Legacy React Apps: The Micro-Frontend Path",
+      "description": "Our React app started like a puppy 🐶. Cute, small, easy. Five years later, it was a Great Dane chewing through our furniture 🪑. Every feature slowed us down. Every release felt risky. The “quick fixes” piled up into tech debt. We needed a way to break it apart without hitting “rewrite from scratch.” Micro-frontends became our path. Here’s how we split a monolith React app into micro-frontends, the pitfalls we hit, and the lessons we’d pass on. 📖 A Quick Story When we pitched micro-frontends to l",
+      "url": "https://dev.to/tahamjp/refactoring-legacy-react-apps-the-micro-frontend-path-3icf",
+      "source": "Dev.to",
+      "author": "Taha Majlesi Pour",
+      "published": "2025-10-28T12:36:36+00:00",
+      "niche": "dev",
+      "score": 72,
+      "keywords": [
+        "release"
       ]
     },
     {
@@ -755,6 +769,18 @@
       "source": "Dev.to",
       "author": "AI News",
       "published": "2025-10-28T06:05:17+00:00",
+      "niche": "dev",
+      "score": 68,
+      "keywords": []
+    },
+    {
+      "id": "1fedc3a09551e217",
+      "title": "merge jsonschema",
+      "description": "@SuppressWarnings(\"unchecked\") private static Document innerJsonSchema(Document full) { // full is { \"$jsonSchema\": { ... } } return (Document) full.get(\"$jsonSchema\"); } private static Document mergeSchemasAsOneOf(Document... fullSchemas) { List<Document> versions = new ArrayList<>(); for (Document full : fullSchemas) { versions.add(innerJsonSchema(full)); } return new Document(\"$jsonSchema\", new Document(\"oneOf\", versions)); } // If you prefer \"anyOf\": private static Document mergeSchemasAsAny",
+      "url": "https://dev.to/devangular/merge-jsonschema-3667",
+      "source": "Dev.to",
+      "author": "LS",
+      "published": "2025-10-28T12:39:11+00:00",
       "niche": "dev",
       "score": 68,
       "keywords": []
@@ -1268,6 +1294,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-10-27T22:26:30+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": []
+    },
+    {
+      "id": "b8e33eb15842aed3",
+      "title": "Show HN: Bash Screensavers",
+      "description": "Comments",
+      "url": "https://github.com/attogram/bash-screensavers",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-28T11:12:32+00:00",
       "niche": "dev",
       "score": 62,
       "keywords": []
@@ -2470,34 +2508,6 @@
       ]
     },
     {
-      "id": "a3f76ac55c1cda5c",
-      "title": "🧺 Built-in Data Structures in Java",
-      "description": "When you start writing real-world Java programs, managing data efficiently becomes crucial. That’s where Java’s built-in data structures come into play — they help you store, organize, and manipulate data with ease. Let’s explore the most important ones, when to use each, and how they make your programs more powerful 💪 🧠 What Are Data Structures? A data structure is a way of organizing and storing data so it can be accessed and modified efficiently. In Java, the Collections Framework and arrays ",
-      "url": "https://dev.to/mohamad_mhana/built-in-data-structures-in-java-1fl0",
-      "source": "Dev.to",
-      "author": "Mohammed mhanna",
-      "published": "2025-10-21T12:30:56+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "framework"
-      ]
-    },
-    {
-      "id": "aa1318757b9052cc",
-      "title": "COLORS: Indys Blu - Saddest Song | A COLORS SHOW",
-      "description": "Indys Blu – “Saddest Song” on A COLORS SHOW New Orleans singer-songwriter Indys Blu pours her heartbreak into a stripped-back, poetic performance of her single “Saddest Song,” spotlighting her raw vocals and candid lyricism on the minimalist COLORS stage. Why You Should Check It Out COLORS is all about showcasing fresh, distinctive talent with zero distractions—so you can catch Indys Blu’s vibe plus endless playlists, 24/7 livestreams, and easy links to stream and follow on TikTok, Instagram, Sp",
-      "url": "https://dev.to/music_youtube/colors-indys-blu-saddest-song-a-colors-show-2jh3",
-      "source": "Dev.to",
-      "author": "Music YouTube",
-      "published": "2025-10-21T12:24:29+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "performance"
-      ]
-    },
-    {
       "id": "a51dec27c4a664f7",
       "title": "🚀 Introducing Agentic Postgres: The First & Free Database Built for Agents",
       "description": "Agents are the New Developer 80% of Claude Code was written by AI. More than a quarter of all new code at Google was generated by AI one year ago. It’s safe to say that in the next 12 months, the majority of all new code will be written by AI. Agents don’t behave like humans. They behave in new ways. Software development tools need to evolve. Agents need a new kind of database made for how they work. But what would a database for agents look like? At Tiger, we’ve obsessed over databases for the ",
@@ -3640,6 +3650,20 @@
       ]
     },
     {
+      "id": "4edbf0a73efbe710",
+      "title": "SnarkyType, the Snarkier Way to Type gets better?",
+      "description": "A long time ago, I had AI write me a blog post about my progress on SnarkyType because I never thought that I would finish it. Back then, SnarkyType was in Alpha, so it was kinda boring. But, I have NOT given up, mind you, and here's a BETA check in on what's happening! @superskibidisigma67 (and everyone else), No. I do not have a release date yet but I hope to get it out by Nov. 13, 2025 Well, y'all are in for a treat, 'cause today, I'm going to show you a behind-the-scenes look at it. SnarkyTy",
+      "url": "https://dev.to/codemonster240/snarkytype-the-snarkier-way-to-type-gets-better-1hcn",
+      "source": "Dev.to",
+      "author": "Andrew McSillyone",
+      "published": "2025-10-28T12:34:40+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "release"
+      ]
+    },
+    {
       "id": "3b9e4b66169d4d28",
       "title": "JVM, JDK & JRE",
       "description": "JVM - (Java Virtual Machine). Java Virtual Machine is the foundation of Java programming language and ensures the program's Java source code will be platform-agnostic. It's used to run Java bytecode. JVM is included in both JDK and JRE, and Java programs won't run without it. JVM is responsible for converting bytecode to machine-specific code(binary) and is necessary in both JDK and JRE. It is platform-dependent and performs many functions, including memory management and security. TheJVM is pla",
@@ -4000,45 +4024,18 @@
       ]
     },
     {
-      "id": "88a169611dcb6914",
-      "title": "Why do we need async/await in JavaScript?",
-      "description": "Async/await is a major source of confusion in JavaScript. People tend just to add and remove the async and await keywords until the code works (or seems to work). In this article, I want to explain what async/await actually means by developing the concept from vanilla, synchronous JavaScript to asynchronous JavaScript with the async/await syntax sugar. It is my personal take on the subject. I hope some will find it interesting. Disclaimer: I use Node.js as an example of a JavaScript runtime in t",
-      "url": "https://dev.to/365talents/why-do-we-need-asyncawait-in-javascript-37fe",
+      "id": "abd7e7ef39ea5aa1",
+      "title": "Top AI UI Generators for a Faster UI Design in 2025",
+      "description": "Top AI UI Generators for a Faster UI Design in 2025 Let's be honest: as developers, we love to code, but sometimes the front-end design process can feel like a bottleneck. You have a brilliant app idea, but mocking up the UI, choosing the right shades of blue, and ensuring the layout is responsive can eat up precious hours before you even write your first console.log. What if you could describe your vision and get a clean, functional UI prototype in seconds? Welcome to the future of front-end de",
+      "url": "https://dev.to/hashbyt/top-ai-ui-generators-for-a-faster-ui-design-in-2025-45d2",
       "source": "Dev.to",
-      "author": "Florian Lackner",
-      "published": "2025-10-21T12:32:19+00:00",
+      "author": "Hashbyt",
+      "published": "2025-10-28T12:33:24+00:00",
       "niche": "dev",
-      "score": 51,
+      "score": 52,
       "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "81cca0e1add74fe7",
-      "title": "Database Design: Start from Business Logic or Jump into Code?",
-      "description": "TL;DR Before writing a single line of code, take one day to model your data. Find the central entity that drives your system — everything else will naturally revolve around it. This simple discipline turns chaos into clarity, prevents endless refactors, and keeps your logic aligned with real business needs. Modeling isn’t bureaucracy — it’s efficient laziness: thinking once, well, so you never have to redo the same work. Before diving in, a quick nod to a great post I read recently: These 5 Codi",
-      "url": "https://dev.to/pascal_cescato_692b7a8a20/database-design-start-from-business-logic-or-jump-into-code-1k5m",
-      "source": "Dev.to",
-      "author": "Pascal CESCATO",
-      "published": "2025-10-21T12:27:55+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "84e3cdb3cf76f9d5",
-      "title": "Andrew Huang: Using a vocal generator very wrong",
-      "description": "Using a vocal generator completely off-label, Andrew Huang kicks things off by hashing out the ethics of AI vocals, then dives into creative misuse—warbly singing, blood-curdling screams, even non-singing noises. He flips the script by routing synths, guitars and drum machines through a voice changer to assemble a full-band sound before laying down a finished track and sharing his final thoughts. Along the way, he plugs Voice by Auribus (grab a free month with code ANDREWVOICE), sprinkles in aff",
-      "url": "https://dev.to/music_youtube/andrew-huang-using-a-vocal-generator-very-wrong-27ef",
-      "source": "Dev.to",
-      "author": "Music YouTube",
-      "published": "2025-10-21T12:24:56+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
+        "code",
+        "developer"
       ]
     },
     {
@@ -5401,64 +5398,32 @@
       ]
     },
     {
-      "id": "43837fadb6913618",
-      "title": "what are intersection type?",
-      "description": "intersection type are create a new type by extending exciting types using & operator interface type1{...} interface type2{...} type type3 = type1 & type2 using & works same way as using extends clause with only difference being in way they resole conflicts //these are two interfaces with same property but with incompatible types interface type1{ property:string } interface type2{ property:number } type3 = type1 & type2 type3 will result in never type because TypeScript will try to combine the ty",
-      "url": "https://dev.to/omkar_garde_c2555540edf29/what-are-intersection-type-2fgc",
+      "id": "41a884408672d2f0",
+      "title": "Why Manual Testing Isn’t “Old School” - It’s the Secret Sauce for Smart Automation",
+      "description": "Hey there, fellow testers! Let me tell you a secret: manual testing isn’t just “doing things by hand.” It’s the R&D lab for automation. Think of it like this: automation is a super-fast robot. You give it instructions, and it follows them perfectly. But here’s the catch: that robot is only as smart as the person who programmed it. Manual testing? That’s the human brain behind the code, curious, messy, and full of “what ifs” that machines miss. 1. “Why” Comes Before “How”: Testing the Testability",
+      "url": "https://dev.to/uziman-qa/why-manual-testing-isnt-old-school-its-the-secret-sauce-for-smart-automation-4f60",
       "source": "Dev.to",
-      "author": "omkar garde",
-      "published": "2025-10-21T12:34:49+00:00",
+      "author": "Uziman Oyedele",
+      "published": "2025-10-28T12:36:40+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
-      "id": "e34d8180344aeba0",
-      "title": "Things I learned picking up a new language as an adult",
-      "description": "Since I came to France six months ago, I have made a lot of progress with the French language. What started as nearly incomprehensible stuttering are now full phrases with rich vocabulary and even one little joke here and there. I've made picking up French my personal project, and it brings a lot of joy in my life. Understanding people in more and more contexts is enriching and helps with the struggles every expat experiences being far from home. I recently stumbled across a talk by Chris Lonsda",
-      "url": "https://dev.to/365talents/things-i-learned-picking-up-a-new-language-as-an-adult-52f6",
+      "id": "1832a5c34a2fcd44",
+      "title": "Your-Error-Handling-is-a-Mess-and-Its-Costing-You-💸",
+      "description": "GitHub Home Your Error Handling is a Mess, and It's Costing You 💸 I still remember the bug that kept me up all night. A payment callback endpoint, when handling a rare, exceptional status code from a third-party payment gateway, had a .catch() that was accidentally omitted from a Promise chain. The result? No logs, no alerts, and the service itself didn't crash. It just \"silently\" failed. That user's order status was forever stuck on \"processing,\" and we were completely unaware. It wasn't until ",
+      "url": "https://dev.to/member_ece4a271/your-error-handling-is-a-mess-and-its-costing-you--19i8",
       "source": "Dev.to",
-      "author": "Florian Lackner",
-      "published": "2025-10-21T12:33:57+00:00",
+      "author": "member_ece4a271",
+      "published": "2025-10-28T12:36:11+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "5eacf56aafaa31d3",
-      "title": "I Just Published My Book: Docker and Kubernetes Security",
-      "description": "The book Docker and Kubernetes Security is finally here, after two years, 170 git commits, and countless hours of writing, editing, and reviewing. It's available on DockerSecurity.io. You can get the eBook, paperback, or a signed copy (that I'll sign and send to you). 🐳🔐 So, why did I write this book? An Unexpected Journey I became a Docker Captain in March 2023. That probably put me on this publisher's radar. Shortly after that, a major UK publisher reached out to me, asking if I would be inter",
-      "url": "https://dev.to/docker/i-just-published-my-book-docker-and-kubernetes-security-17lo",
-      "source": "Dev.to",
-      "author": "Mohammad-Ali A'RÂBI",
-      "published": "2025-10-21T12:26:34+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "6f07cbbfd4b456a1",
-      "title": "Andrew Huang: Beautiful new music making environment! (GRM Atelier)",
-      "description": "Andrew Huang dives into GRM Tools Atelier with early‐access enthusiasm, spotlighting its unique global effects, spectral processors and a truly game-changing modulation matrix that turns any knob, slider or button into a rhythmic powerhouse. Through glitchy granular delays, immersive spatial tools and creative audio generators, he shows how Atelier can instantly spark fresh ideas. Between deep-dive demos (check the video chapters!) he wraps up with a thumbs-up for Atelier’s playful power and pep",
-      "url": "https://dev.to/music_youtube/andrew-huang-beautiful-new-music-making-environment-grm-atelier-243d",
-      "source": "Dev.to",
-      "author": "Music YouTube",
-      "published": "2025-10-21T12:25:11+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "63b02012a5c43c6d",
-      "title": "Cercle: OFF STAGE WITH WhoMadeWho & Tripolism",
-      "description": "OFF STAGE WITH WhoMadeWho & Tripolism Danish electronic outfit WhoMadeWho teams up with rising talent Tripolism for an off-stage Cercle session that’s all about fresh beats and unexpected energy. It’s the collab we didn’t know we needed—pure groove and good vibes. Watch on YouTube",
-      "url": "https://dev.to/music_youtube/cercle-off-stage-with-whomadewho-tripolism-5efe",
-      "source": "Dev.to",
-      "author": "Music YouTube",
-      "published": "2025-10-21T12:24:42+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "26b38f830bc108bd",
@@ -8157,6 +8122,42 @@
       "keywords": []
     },
     {
+      "id": "78656bdeecfdaad9",
+      "title": "Building a Test Data Platform After Watching Teams Secretly Use Production for Years",
+      "description": "Two weeks ago I asked data engineers on Reddit how much time they lose getting test data ready. Top response was brutally honest: \"Everywhere I've worked with sensitive data, everybody ended up secretly working off prod.\" Lots of upvotes. Loads of people agreeing in the comments. That's not a compliance problem. That's a tooling problem. The Actual Problem It's not that teams don't want to do things properly. Mock data isn't realistic enough to debug with. Snapshots go stale within weeks. Manual",
+      "url": "https://dev.to/alex_hayward_ff2d88ff331e/building-a-test-data-platform-after-watching-teams-secretly-use-production-for-years-31b6",
+      "source": "Dev.to",
+      "author": "Alex Hayward",
+      "published": "2025-10-28T12:34:39+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "17ceb18402aecb8d",
+      "title": "First sakila project log",
+      "description": "📅 Date: 2025-10-16 → 2025-10-18 🔧 Tools: Python, Pydantic, MySQL, JSON, Git Submodules ⸻ How It Started I hit a point where my project needed more than raw input() checks. Validation logic was scattered between main.py, connectors, and random if/else. Time to clean it up. At the same time, my teacher asked to create a separate repo for homeworks, but I already use a monorepo. I finally decided to try something I wanted a long time: create a second repo and attach it as git submodule. So now adva",
+      "url": "https://dev.to/aka_artem_dd17be93c/first-sakila-project-log-3hl4",
+      "source": "Dev.to",
+      "author": "Thomas Jager",
+      "published": "2025-10-28T12:33:40+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "767f0e7014254ef8",
+      "title": "Your-Deployments-Are-Stuck-in-the-Past-The-Lost-Art-of-the-Hot-Restart",
+      "description": "GitHub Home Your Deployments Are Stuck in the Past: The Lost Art of the Hot Restart I still vividly remember that Friday midnight. I, a man in my forties who should have been at home enjoying the weekend, was instead in a cold server room, the hum of fans buzzing in my ears, and a stream of error logs scrolling endlessly on the terminal before me. What was supposed to be a \"simple\" version update had turned into a disaster. The service wouldn't start, the rollback script failed, and on the other",
+      "url": "https://dev.to/member_25c2e834/your-deployments-are-stuck-in-the-past-the-lost-art-of-the-hot-restart-2p6p",
+      "source": "Dev.to",
+      "author": "member_25c2e834",
+      "published": "2025-10-28T12:29:36+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "5fb615aa2a28426c",
       "title": "dive into quirks, surprises, all about claude code",
       "description": "A week with Claude Code: lessons, surprises and smarter workflows ujjavala ・ Sep 27 #programming #ai #productivity #learning",
@@ -8597,52 +8598,18 @@
       ]
     },
     {
-      "id": "ea3d04f3b5d026d1",
-      "title": "StarGrid: A Brand-New Palm OS Strategy Game in 2025",
+      "id": "efe589c618567e37",
+      "title": "Your vibe coded slop PR is not welcome",
       "description": "Comments",
-      "url": "https://quarters.captaintouch.com/blog/posts/2025-10-21-stargrid-has-arrived,-a-brand-new-palm-os-strategy-game-in-2025.html",
+      "url": "https://samsaffron.com/archive/2025/10/27/your-vibe-coded-slop-pr-is-not-welcome",
       "source": "Hacker News",
       "author": "Inconnu",
-      "published": "2025-10-21T11:42:14+00:00",
+      "published": "2025-10-28T11:03:59+00:00",
       "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "9009c4caa2999ed4",
-      "title": "US chess grandmaster Daniel Naroditsky dies aged 29",
-      "description": "Comments",
-      "url": "https://www.bbc.com/news/articles/c15pz8vpjp9o",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-21T10:44:48+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "b81e7cb1abbefd6b",
-      "title": "Tesla is heading into multi-billion-dollar iceberg of its own making",
-      "description": "Comments",
-      "url": "https://electrek.co/2025/10/20/tesla-heading-into-multi-billion-dollar-iceberg-of-own-making/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-21T11:39:19+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "a78f2813454fcd4b",
-      "title": "Diamond Thermal Conductivity: A New Era in Chip Cooling",
-      "description": "Comments",
-      "url": "https://spectrum.ieee.org/diamond-thermal-conductivity",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-21T11:16:34+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
+      "score": 45,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "30663d60d343e837",
@@ -10517,6 +10484,54 @@
       "keywords": []
     },
     {
+      "id": "645bb01236083647",
+      "title": "test_devto",
+      "description": "Test DEV.to Post This is a test post to verify the publishing process.",
+      "url": "https://dev.to/__f27cfeca2e21de8d2378/testdevto-18pi",
+      "source": "Dev.to",
+      "author": "hunting3@126.com",
+      "published": "2025-10-28T12:39:27+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "3129b983b825f31f",
+      "title": "Understanding the Worst .NET Vulnerability",
+      "description": "Comments",
+      "url": "https://andrewlock.net/understanding-the-worst-dotnet-vulnerability-request-smuggling-and-cve-2025-55315/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-28T11:03:38+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "af46242bde3519bd",
+      "title": "Amazon confirms 14,000 job losses in corporate division",
+      "description": "Comments",
+      "url": "https://www.bbc.com/news/articles/c1m3zm9jnl1o",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-28T11:39:24+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "c6c6f202a1b2147b",
+      "title": "Geometry and Physics of Wrinkling (2003) [pdf]",
+      "description": "Comments",
+      "url": "https://softmath.seas.harvard.edu/wp-content/uploads/2019/10/2003-03.pdf",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-28T09:02:47+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "78c4b08725d5f56b",
       "title": "React 19 Upgrade Guide",
       "description": "The improvements added to React 19 require some breaking changes, but we've worked to make the upgrade as smooth as possible and we don't expect the changes to impact most apps. In this post, we will guide you through the steps for upgrading apps and libraries to React 19.",
@@ -10529,18 +10544,6 @@
       "keywords": [
         "React 19"
       ]
-    },
-    {
-      "id": "bf14e8b0bc5ea146",
-      "title": "How Senior Engineers Can Use AI for Real Impact",
-      "description": "AI coding tools can do more than autocomplete. Here's how senior engineers use them for architecture, debugging, and refactoring without replacing the judgment that actually matters. Continue reading How Senior Engineers Can Use AI for Real Impact on SitePoint.",
-      "url": "https://www.sitepoint.com/senior-engineers-using-ai/?utm_source=rss",
-      "source": "SitePoint",
-      "author": "Nishant Ghan",
-      "published": "2025-10-21T11:45:47+00:00",
-      "niche": "dev",
-      "score": 42,
-      "keywords": []
     },
     {
       "id": "e69d87f7b1b79b78",
@@ -10581,6 +10584,20 @@
       ]
     },
     {
+      "id": "d1e7d0db8c8bc7f7",
+      "title": "Using Search Data APIs for Faster Prototyping",
+      "description": "Get structured search data without fighting captchas and build faster with simple, real-time API calls.",
+      "url": "https://tympanus.net/codrops/2025/10/28/using-search-data-apis-for-faster-prototyping/",
+      "source": "Codrops",
+      "author": "advertiser",
+      "published": "2025-10-28T11:20:56+00:00",
+      "niche": "dev",
+      "score": 42,
+      "keywords": [
+        "API"
+      ]
+    },
+    {
       "id": "cecd3da845538339",
       "title": "React 19.2",
       "description": "React 19.2 adds new features like Activity, React Performance Tracks, useEffectEvent, and more.",
@@ -10608,18 +10625,6 @@
       "keywords": [
         "React 19"
       ]
-    },
-    {
-      "id": "8f5c8e65542c4cc7",
-      "title": "The Vision Behind Daria Nevezhyna’s Interactive Configurators",
-      "description": "Designer Daria Nevezhyna shows how animation and AI can transform product design into an interactive storytelling experience.",
-      "url": "https://tympanus.net/codrops/2025/10/21/the-vision-behind-daria-nevezhynas-interactive-configurators/",
-      "source": "Codrops",
-      "author": "Daria Nevezhyna",
-      "published": "2025-10-21T11:52:05+00:00",
-      "niche": "dev",
-      "score": 39,
-      "keywords": []
     },
     {
       "id": "2f15ea130e2b63cd",
@@ -10920,8 +10925,8 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "React 19",
         "API",
+        "React 19",
         "release"
       ]
     },
@@ -11060,18 +11065,6 @@
       ]
     },
     {
-      "id": "a0600e3fdf4d8816",
-      "title": "Show HN: MacOS Live Screensaver – A screensaver that plays live video streams",
-      "description": "Comments",
-      "url": "https://github.com/hauxir/macos-live-screensaver",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-21T11:48:52+00:00",
-      "niche": "dev",
-      "score": 32,
-      "keywords": []
-    },
-    {
       "id": "9988c9138f0cbf38",
       "title": "Issue 732",
       "description": "Why did Liquid Glass start therapy? To work through its transparency issues. 😅",
@@ -11187,9 +11180,9 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
+        "release",
         "performance",
         "API",
-        "release",
         "code",
         "framework"
       ]
@@ -11505,9 +11498,9 @@
       "niche": "dev",
       "score": 22,
       "keywords": [
-        "performance",
+        "development",
         "release",
-        "development"
+        "performance"
       ]
     },
     {
@@ -11563,9 +11556,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
+        "code",
         "developer",
-        "performance",
-        "code"
+        "performance"
       ]
     },
     {
@@ -11579,8 +11572,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
-        "API"
+        "API",
+        "developer"
       ]
     },
     {
@@ -11594,9 +11587,9 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
         "API",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -11654,6 +11647,20 @@
       "score": 18,
       "keywords": [
         "release"
+      ]
+    },
+    {
+      "id": "2ee4683fc5cc055b",
+      "title": "The Programming Languages Zoo",
+      "description": "Comments",
+      "url": "https://plzoo.andrej.com/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-23T06:01:07+00:00",
+      "niche": "dev",
+      "score": 15,
+      "keywords": [
+        "programming"
       ]
     },
     {
@@ -11940,6 +11947,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-10-22T16:02:39+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "07e0612e2065fede",
+      "title": "DJI Removes Video Shot in National Parks After It Raises Eyebrows",
+      "description": "Comments",
+      "url": "https://petapixel.com/2025/10/21/dji-removes-video-shot-in-national-parks-after-it-raises-eyebrows/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-22T22:55:29+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -12379,6 +12398,18 @@
       ]
     },
     {
+      "id": "bf14e8b0bc5ea146",
+      "title": "How Senior Engineers Can Use AI for Real Impact",
+      "description": "AI coding tools can do more than autocomplete. Here's how senior engineers use them for architecture, debugging, and refactoring without replacing the judgment that actually matters. Continue reading How Senior Engineers Can Use AI for Real Impact on SitePoint.",
+      "url": "https://www.sitepoint.com/senior-engineers-using-ai/?utm_source=rss",
+      "source": "SitePoint",
+      "author": "Nishant Ghan",
+      "published": "2025-10-21T11:45:47+00:00",
+      "niche": "dev",
+      "score": 12,
+      "keywords": []
+    },
+    {
       "id": "fa289e841761c4e1",
       "title": "How to Audit Web Accessibility with WAVE Extension",
       "description": "Audit your website's accessibility with WAVE Extension. Learn to detect missing alt text, contrast errors, and ARIA issues before going live. Continue reading How to Audit Web Accessibility with WAVE Extension on SitePoint.",
@@ -12425,20 +12456,6 @@
       "niche": "dev",
       "score": 12,
       "keywords": []
-    },
-    {
-      "id": "fc0506df68762aa3",
-      "title": "Creating Smooth Scroll-Synchronized Animation for OPTIKKA: From HTML5 Video to Frame Sequences",
-      "description": "Learn how Zajno built OPTIKKA’s smooth scroll-synced animation using frame sequences instead of HTML5 video for better control and performance.",
-      "url": "https://tympanus.net/codrops/2025/10/16/creating-smooth-scroll-synchronized-animation-for-optikka-from-html5-video-to-frame-sequences/",
-      "source": "Codrops",
-      "author": "Zajno",
-      "published": "2025-10-16T10:42:01+00:00",
-      "niche": "dev",
-      "score": 12,
-      "keywords": [
-        "performance"
-      ]
     },
     {
       "id": "9a9d681fbd74a9e3",
@@ -12501,8 +12518,8 @@
       "niche": "dev",
       "score": 11,
       "keywords": [
-        "release",
-        "code"
+        "code",
+        "release"
       ]
     },
     {
@@ -12611,6 +12628,18 @@
       "published": "2023-01-01T00:00:00+00:00",
       "niche": "dev",
       "score": 10,
+      "keywords": []
+    },
+    {
+      "id": "8f5c8e65542c4cc7",
+      "title": "The Vision Behind Daria Nevezhyna’s Interactive Configurators",
+      "description": "Designer Daria Nevezhyna shows how animation and AI can transform product design into an interactive storytelling experience.",
+      "url": "https://tympanus.net/codrops/2025/10/21/the-vision-behind-daria-nevezhynas-interactive-configurators/",
+      "source": "Codrops",
+      "author": "Daria Nevezhyna",
+      "published": "2025-10-21T11:52:05+00:00",
+      "niche": "dev",
+      "score": 9,
       "keywords": []
     },
     {
