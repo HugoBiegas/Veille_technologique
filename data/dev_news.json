@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-10-28T01:50:25.033333+00:00",
-  "total_articles": 991,
+  "last_updated": "2025-10-28T03:42:58.183624+00:00",
+  "total_articles": 990,
   "articles": [
     {
       "id": "0239e7c279f8f104",
@@ -395,20 +395,6 @@
       "keywords": [
         "code",
         "developer"
-      ]
-    },
-    {
-      "id": "ec58c663ca12243d",
-      "title": "Terraform with AI and Github Copilot",
-      "description": "Creating terraform or other infrastructure as code for a new project can be daunting for some. This shows how you can easily crank out a new deployment to meet your requirements using Github copilot prompt files and a few free MCP servers. For the heck of it, we will also convert between two totally different cloud providers to deploy the same infrastructure. Introduction Github copilot is getting more powerful with each update and I've been enjoying using it quite a bit to write quick scripts a",
-      "url": "https://dev.to/zloeber/terraform-with-ai-and-github-copilot-2n39",
-      "source": "Dev.to",
-      "author": "Zachary Loeber",
-      "published": "2025-10-21T02:32:56+00:00",
-      "niche": "dev",
-      "score": 69,
-      "keywords": [
-        "code"
       ]
     },
     {
@@ -1275,6 +1261,18 @@
       "keywords": []
     },
     {
+      "id": "3ded7b3164bf5907",
+      "title": "OpenAI says over a million people talk to ChatGPT about suicide weekly",
+      "description": "Comments",
+      "url": "https://techcrunch.com/2025/10/27/openai-says-over-a-million-people-talk-to-chatgpt-about-suicide-weekly/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-27T22:26:30+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": []
+    },
+    {
       "id": "645e403b89d432a9",
       "title": "💥 Supercharge your Laravel API calls with Http::pool()",
       "description": "Did you know you can send multiple HTTP requests in parallel in Laravel, instead of one after another? That’s what Http::pool() does. It’s built on top of Guzzle and can massively boost performance when fetching data from several APIs at once. 🧠 The idea Normally, you might do this: $response1 = Http::get('https://api.example.com/users'); $response2 = Http::get('https://api.example.com/posts'); $response3 = Http::get('https://api.example.com/comments'); Each waits for the previous one. If each t",
@@ -1420,6 +1418,23 @@
         "code",
         "release",
         "development"
+      ]
+    },
+    {
+      "id": "7659c8b91b0f7373",
+      "title": "Convert Excel to SVG in Java: A Comprehensive Guide",
+      "description": "Transforming tabular data into scalable vector graphics (SVG) is often essential for web applications, high-quality printing, and dynamic visualizations. This tutorial addresses the common challenge of converting Excel files to SVG format using Java. We'll leverage the powerful Spire.XLS for Java library to provide a straightforward and efficient solution for this conversion. Spire.XLS for Java: Introduction and Installation Spire.XLS for Java is a professional Excel API that enables developers ",
+      "url": "https://dev.to/lu_liu_e3fc806354d9a952b7/convert-excel-to-svg-in-java-a-comprehensive-guide-41m1",
+      "source": "Dev.to",
+      "author": "lu liu",
+      "published": "2025-10-28T03:06:09+00:00",
+      "niche": "dev",
+      "score": 60,
+      "keywords": [
+        "developer",
+        "tutorial",
+        "library",
+        "API"
       ]
     },
     {
@@ -2422,36 +2437,6 @@
       "keywords": [
         "code",
         "framework"
-      ]
-    },
-    {
-      "id": "628d5f579753d30d",
-      "title": "A Complete Guide to Unit Testing in .NET Core (with xUnit, Moq, and FluentAssertions)",
-      "description": "A Complete Guide to Unit Testing in .NET Core Unit testing is one of the most important steps in building reliable, maintainable software. In this article, we’ll walk through how to write unit tests in .NET Core using xUnit, Moq, and FluentAssertions — step by step — with a real example of a simple blog application. 1. Creating the Test Project Let's assume you have an existing API project called BlogApp. We’ll create a test project that validates the behavior of a service class called PostServi",
-      "url": "https://dev.to/morteza-jangjoo/a-complete-guide-to-unit-testing-in-net-core-with-xunit-moq-and-fluentassertions-3lkb",
-      "source": "Dev.to",
-      "author": "Morteza Jangjoo",
-      "published": "2025-10-21T02:57:02+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "API"
-      ]
-    },
-    {
-      "id": "1d7d178e7fe49345",
-      "title": "Daily Artificial Intelligence Digest - Oct 21, 2025",
-      "description": "AI Model Developments & Applications Anthropic's Claude AI is expanding its capabilities to include advanced code understanding and generation, signifying progress in AI's ability to interact with and produce complex programming. Meanwhile, NVIDIA continues to push the boundaries of AI applications, particularly in Level 4 autonomous driving, integrating sophisticated AI for high-autonomy vehicles. AI Infrastructure & Efficiency The demand for powerful AI processing is driving innovations in inf",
-      "url": "https://dev.to/antony_brahin_f47b663f3a0/daily-artificial-intelligence-digest-oct-21-2025-3jke",
-      "source": "Dev.to",
-      "author": "Antony Brahin",
-      "published": "2025-10-21T02:44:05+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "programming",
-        "code",
-        "development"
       ]
     },
     {
@@ -3940,45 +3925,18 @@
       ]
     },
     {
-      "id": "ac9855434c2b7eed",
-      "title": "10 XAML Binding Pitfalls That Trip Up Even Experienced .NET Developers",
-      "description": "Binding in XAML is one of the cleanest ways to keep your UI and logic in sync. You just have to know how it thinks. Once you understand how {Binding} and {x:Bind} behave under the hood, how they resolve data, when they update, and what they quietly ignore, it stops feeling like magic and starts feeling like control. These are the ten common binding pitfalls that, once you spot them, make XAML feel like the powerful, predictable system it was meant to be. 1. Missing DataContext Your binding path ",
-      "url": "https://dev.to/uno-platform/10-xaml-binding-pitfalls-that-trip-up-even-experienced-net-developers-3d3p",
+      "id": "8ab40b7aa7cc5701",
+      "title": "Secure by Design in the Age of GenAI: How Devs Must Shift Their Software Security Practices in 2025",
+      "description": "As a full-stack software developer, you’ve likely mastered “secure coding”: input validation, OWASP Top 10, dependency updates, code reviews, penetration tests. But in 2025, the threat landscape has changed. AI is writing code and malware. Supply-chain attacks are the new normal. Machine identities outnumber humans. And crypto agility is suddenly not optional. To keep up, devs need to shift from secure coding to secure by design - building security into architecture, pipelines, and code decision",
+      "url": "https://dev.to/ihonchar/secure-by-design-in-the-age-of-genai-how-devs-must-shift-their-software-security-practices-in-2025-1c96",
       "source": "Dev.to",
-      "author": "mtmattei",
-      "published": "2025-10-21T02:47:16+00:00",
+      "author": "Ivan Honchar",
+      "published": "2025-10-28T03:06:06+00:00",
       "niche": "dev",
-      "score": 51,
+      "score": 52,
       "keywords": [
-        "developer"
-      ]
-    },
-    {
-      "id": "eb0a6df34bb109f7",
-      "title": "🚀 From DevOps Executors to Platform Enablers",
-      "description": "In modern engineering organizations, DevOps is no longer about “running deployments” — it’s about empowering developers to build, deploy, and scale safely and independently. Over the last few months, I’ve been refining a Platform Engineering playbook focused on one simple goal: 👉 Enable developers to self-serve infrastructure — securely, efficiently, and with full cost visibility. Here’s what I’ve learned along the way: 💡 Golden paths beat golden rules — instead of more docs, create reusable tem",
-      "url": "https://dev.to/danielschmidtdo/from-devops-executors-to-platform-enablers-2l0l",
-      "source": "Dev.to",
-      "author": "Daniel Schmidt (DevOps)",
-      "published": "2025-10-21T02:44:41+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "developer"
-      ]
-    },
-    {
-      "id": "dd2e635e644b53bc",
-      "title": "CSS Grid Layout: Building Two-Dimensional Web Layouts with Ease",
-      "description": "Modern websites need to look great on all devices, and developers need layout tools that can handle complexity without chaos. While Flexbox is fantastic for one-dimensional layouts, it starts to feel limited when you need to structure both rows and columns at once. That’s where CSS Grid Layout comes in—a powerful, grid-based system for crafting two-dimensional layouts. What is CSS Grid? CSS Grid Layout is a modern CSS module that gives you control over both rows and columns at the same time. Thi",
-      "url": "https://dev.to/sharique_siddiqui_8242dad/css-grid-layout-building-two-dimensional-web-layouts-with-ease-4knj",
-      "source": "Dev.to",
-      "author": "Sharique Siddiqui",
-      "published": "2025-10-21T02:30:00+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "developer"
+        "developer",
+        "code"
       ]
     },
     {
@@ -5396,52 +5354,18 @@
       ]
     },
     {
-      "id": "1a68a9e13393e912",
-      "title": "Hands-On ACID in PostgreSQL : Part-1",
-      "description": "This lab is for anyone who knows just enough PostgreSQL to open psql, but wants to actually **see* how transactions, rollback, isolation, and durability work in real life.* 🧠 Step 0: If You’ve Never Used PostgreSQL Before… Before starting this lab, make sure you know how to open psql and create a simple database. If not, start here first: A Beginner’s Journey with PostgreSQL That guide shows you: How to connect using psql, create your first database and table , Common beginner errors (and how to",
-      "url": "https://dev.to/sajjadrahman56/hands-on-acid-in-postgresql-part-1-4g1l",
+      "id": "dc90841d0f10c040",
+      "title": "AI in Software Testing: Revolutionizing Quality Assurance and Debugging",
+      "description": "In the fast-paced world of software development, one thing remains a constant: the need for flawless software. But as software becomes more complex and intricate, ensuring quality has never been more challenging. That's where Artificial Intelligence (AI) comes in—transforming how we approach software testing and debugging. AI is changing the game, making quality assurance (QA) more efficient, effective, and even predictive. Let’s take a deep dive into how AI is revolutionizing software testing a",
+      "url": "https://dev.to/softwaredeveloper01/ai-in-software-testing-revolutionizing-quality-assurance-and-debugging-35in",
       "source": "Dev.to",
-      "author": "Sajjad Rahman",
-      "published": "2025-10-21T03:30:00+00:00",
+      "author": "Software Developer",
+      "published": "2025-10-28T03:01:00+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "20ce75bda38c0395",
-      "title": "🚀 La Evolución de los Pagos con Criptomonedas: Por Qué el 2025 Se Trata de Integración, No de Especulación",
-      "description": "Durante años, el mundo cripto giró en torno al hype: mercados volátiles, nuevos tokens cada semana y debates constantes sobre la regulación. Pero a medida que avanzamos en 2025, el enfoque ha cambiado de la especulación a la integración. Tanto los desarrolladores como las empresas están entendiendo que las criptomonedas no son solo activos digitales, sino una base para construir sistemas financieros más rápidos, inteligentes y seguros. Lo más interesante es cómo el ecosistema de desarrolladores ",
-      "url": "https://dev.to/paddy_e4d3d274ebc7/la-evolucion-de-los-pagos-con-criptomonedas-por-que-el-2025-se-trata-de-integracion-no-de-15c5",
-      "source": "Dev.to",
-      "author": "Pascual",
-      "published": "2025-10-21T02:59:23+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "c63b3f570ed8b813",
-      "title": "#01 - Me reciclando como dev",
-      "description": "Com o avanço das LLMs, o desenvolvimento de software se tornou mais ágil e acessível. Essas ferramentas aceleram processos e ampliam possibilidades, mas, como certo sábio disse uma vez: “Com grandes poderes vêm grandes responsabilidades.” Sim, um Copilot ou um Claude da vida realmente otimizam o tempo, mas também reduzem aquele desafio intelectual que mantém o raciocínio técnico afiado. Então não me propus a deixar de utilizar i.a, mas sim, dar ao meu cerebro o devido desafio que ele merece. Ess",
-      "url": "https://dev.to/whoisclebs/01-me-reciclando-como-dev-3f8a",
-      "source": "Dev.to",
-      "author": "Clebson",
-      "published": "2025-10-21T02:55:31+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "e90ada7e80d6397a",
-      "title": "Warum sich Krypto-Apps noch immer „kaputt“ anfühlen – und wie wir das als Entwickler ändern können",
-      "description": "Alle paar Monate liest man dieselbe Schlagzeile: „Mass Adoption steht vor der Tür.“ Doch sobald man eine typische Web3-App wirklich benutzt, wird schnell klar, warum wir noch weit davon entfernt sind. Die UX im Kryptobereich ist nach wie vor zersplittert, und genau hier können wir Entwickler ansetzen. Schon einfachste Aktionen bestehen aktuell aus zu vielen einzelnen Schritten: mehrere Wallets mehrere Chains unerwartete Gas Fees Bridges, Swaps, Signatur-Pop-ups, Approvals externe On-Ramps und Of",
-      "url": "https://dev.to/piwa_lin_8b3155c3dd85f0f9/warum-sich-krypto-apps-noch-immer-kaputt-anfuhlen-und-wie-wir-das-als-entwickler-andern-konnen-1ohi",
-      "source": "Dev.to",
-      "author": "piwa lin",
-      "published": "2025-10-21T02:48:15+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "development"
+      ]
     },
     {
       "id": "8bcb349975a5a808",
@@ -8152,6 +8076,90 @@
       "keywords": []
     },
     {
+      "id": "72988accf71c55a5",
+      "title": "Revolutionize Content Creation: HeyDream's Free AI Image to Video Generator Powered by Seedance 1.0",
+      "description": "In the fast-paced world of digital content, transforming static images into dynamic, engaging videos has never been easier—or more accessible. Enter HeyDream's Image to Video AI tool, available at image to video generator, a groundbreaking free AI video generator that leverages advanced models like Seedance 1.0 to breathe life into your visuals. Whether you're a content creator, marketer, educator, or filmmaker, this AI image to video converter empowers you to produce high-quality videos from im",
+      "url": "https://dev.to/heydream_im/revolutionize-content-creation-heydreams-free-ai-image-to-video-generator-powered-by-seedance-10-18be",
+      "source": "Dev.to",
+      "author": "HeyDream_AI",
+      "published": "2025-10-28T03:13:17+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "ad82ab1989a4cfe1",
+      "title": "OSD600: Lab 6 — Repomix's token count tree feature and its prototyping in Rust",
+      "description": "Summary I analyzed how Repomix implements its token-count-based repository insights—especially the Token Count Tree—and prototyped an analogous capability in my Rust CLI tool. My prototype adds two insights to the summary section: Language breakdown by file extension (files, lines, MB, % of total lines) Top files by line count (a quick “hotspot” view) While Repomix focuses on token counts (via OpenAI’s tiktoken models), I started with line counts to deliver a fast, useful proof-of-concept with z",
+      "url": "https://dev.to/david_rivera_8d845b35931e/osd600-lab-6-repomixs-token-count-tree-feature-and-its-prototyping-in-rust-2a2m",
+      "source": "Dev.to",
+      "author": "David Rivera",
+      "published": "2025-10-28T03:12:38+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "1f423fe4734ce2b3",
+      "title": "From Dashboards to Decisions: Building Scalable Self-Service BI for Real Impact",
+      "description": "The Problem with Traditional Self-Service BI Self-service BI was meant to liberate teams from endless report queues. It gave everyone the tools to explore data independently. But in many enterprises, that freedom turned into fragmentation. Dozens of dashboards with inconsistent metrics Manual refreshes and redundant data logic No connection between insights and business actions We achieved access, not alignment. BI became a collection of visualizations instead of a system for decision velocity. ",
+      "url": "https://dev.to/laxmivanam/from-dashboards-to-decisions-building-scalable-self-service-bi-for-real-impact-a27",
+      "source": "Dev.to",
+      "author": "Laxmi Vanam",
+      "published": "2025-10-28T03:09:21+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "d5a24c8ec7e1b199",
+      "title": "How To Convince Project Stakeholders To Stay On Your Side",
+      "description": "Keeping project stakeholders supportive is one of the most critical aspects of project management. A project can have a strong plan, a skilled team, and sufficient resources, but without stakeholder confidence, progress can stall quickly. Winning and maintaining stakeholder support is not just about persuasion, it’s about building credibility, communication, and trust over time. This guide explores practical ways to ensure your project stakeholders stay aligned with your vision and committed to ",
+      "url": "https://dev.to/taskford/how-to-convince-project-stakeholders-to-stay-on-your-side-57h9",
+      "source": "Dev.to",
+      "author": "TaskFord",
+      "published": "2025-10-28T03:06:01+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "b09da5bff31d668e",
+      "title": "How to fix Cinema 4D render slow on multi-card servers?",
+      "description": "Since Cinema 4D supports multi-GPU rendering, many users assume that the more GPUs a workstation has, the faster the rendering will be. However, in real-world projects, it doesn’t always work that way. Let’s break down why this happens and how to fix Cinema 4D render slow on multi-card servers. Describe the issue Cinema 4D render slow We’ve seen many cases where customers run into slow rendering with Cinema 4D on multi-GPU servers. Even after enabling all GPUs in C4D Preferences, the cards don’t",
+      "url": "https://dev.to/irender_gpu_cloud/how-to-fix-cinema-4d-render-slow-on-multi-card-servers-3enl",
+      "source": "Dev.to",
+      "author": "iRender GPU Cloud Rendering",
+      "published": "2025-10-28T03:05:54+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "fa5813be4f6c3871",
+      "title": "AIImageTranslator Review: A Professional Tool for High-Accuracy Image Translation",
+      "description": "Overview AIImageTranslator is a professional image translation website designed to make cross-language communication easier. By simply uploading an image, users can instantly translate the text within it into over 200 languages. The tool claims a remarkable 99.9% accuracy rate and has already been used by thousands of people worldwide. It supports various image types, including documents, screenshots, posters, comics, and even handwritten notes, making it a versatile choice for both personal and",
+      "url": "https://dev.to/aiimagetranslator/aiimagetranslator-review-a-professional-tool-for-high-accuracy-image-translation-3a4i",
+      "source": "Dev.to",
+      "author": "AIImageTranslator",
+      "published": "2025-10-28T03:04:53+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "95a8868f6c28d59a",
+      "title": "Turbocharging Eigenvalue Computation: A Shortcut for Data Generation by Arvind Sundararajan",
+      "description": "Turbocharging Eigenvalue Computation: A Shortcut for Data Generation Stuck waiting for eigenvalue calculations to complete, slowing down your machine learning experiments? Generating the massive datasets needed for training neural networks to solve eigenvalue problems can be a massive bottleneck. What if there was a way to drastically reduce the time it takes to generate this crucial training data? The core idea is remarkably simple: leverage shared characteristics between related problems. Imag",
+      "url": "https://dev.to/arvind_sundararajan/turbocharging-eigenvalue-computation-a-shortcut-for-data-generation-by-arvind-sundararajan-2fk7",
+      "source": "Dev.to",
+      "author": "Arvind SundaraRajan",
+      "published": "2025-10-28T03:02:06+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "5fb615aa2a28426c",
       "title": "dive into quirks, surprises, all about claude code",
       "description": "A week with Claude Code: lessons, surprises and smarter workflows ujjavala ・ Sep 27 #programming #ai #productivity #learning",
@@ -10584,8 +10592,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "performance",
-        "React 19"
+        "React 19",
+        "performance"
       ]
     },
     {
@@ -11181,10 +11189,10 @@
       "score": 30,
       "keywords": [
         "API",
-        "release",
-        "performance",
+        "framework",
         "code",
-        "framework"
+        "release",
+        "performance"
       ]
     },
     {
@@ -11498,9 +11506,9 @@
       "niche": "dev",
       "score": 22,
       "keywords": [
-        "performance",
         "release",
-        "development"
+        "development",
+        "performance"
       ]
     },
     {
@@ -11556,9 +11564,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
+        "developer",
         "performance",
-        "code",
-        "developer"
+        "code"
       ]
     },
     {
@@ -11878,18 +11886,6 @@
       "keywords": []
     },
     {
-      "id": "29427c1860d5ad81",
-      "title": "NORAD's Cheyenne Mountain Combat Center, C.1966",
-      "description": "Comments",
-      "url": "https://flashbak.com/norad-cheyenne-mountain-combat-center-478804/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-21T03:39:21+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
       "id": "3e037244215eca74",
       "title": "Sandhill cranes have adopted a Canada gosling",
       "description": "Comments",
@@ -11897,18 +11893,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-10-22T17:45:21+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "2968c0be533f080e",
-      "title": "NORAD’s Cheyenne Mountain Combat Center, c.1966",
-      "description": "Comments",
-      "url": "https://flashbak.com/norad-cheyenne-mountain-combat-center-478804/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-21T03:39:21+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -11981,6 +11965,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-10-23T16:16:35+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "0599610448ab6d83",
+      "title": "Finding my rhythm again",
+      "description": "Comments",
+      "url": "https://jeremydaly.com/finding-my-rhythm-again/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-21T04:03:13+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -12530,8 +12526,8 @@
       "niche": "dev",
       "score": 11,
       "keywords": [
-        "code",
-        "release"
+        "release",
+        "code"
       ]
     },
     {
@@ -12679,25 +12675,13 @@
       "keywords": []
     },
     {
-      "id": "45b1a85f5bfb90d2",
-      "title": "Yet Another Year with Decker",
+      "id": "6d3221ecf9c431af",
+      "title": "Yet another year with Decker",
       "description": "Comments",
       "url": "http://beyondloom.com/blog/unionstate3.html",
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-10-19T16:19:35+00:00",
-      "niche": "dev",
-      "score": 8,
-      "keywords": []
-    },
-    {
-      "id": "6072533f6d89fdaa",
-      "title": "Go beyond Goroutines: introducing the Reactive paradigm",
-      "description": "Comments",
-      "url": "https://samuelberthe.substack.com/p/go-beyond-goroutines-introducing",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-20T14:04:53+00:00",
       "niche": "dev",
       "score": 8,
       "keywords": []
