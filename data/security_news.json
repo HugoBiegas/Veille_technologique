@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-10-29T21:22:34.591793+00:00",
-  "total_articles": 366,
+  "last_updated": "2025-10-30T01:56:35.130369+00:00",
+  "total_articles": 364,
   "articles": [
     {
       "id": "138f687695c1df4a",
@@ -1251,24 +1251,6 @@
       ]
     },
     {
-      "id": "4adb7b38700fb599",
-      "title": "Prompt hijacking puts MCP-based AI workflows at risk",
-      "description": "Model context protocol (MCP) gives IT teams a standardized way to connect large language models (LLMs) to tools and data sources when developing AI-based workflows. But security researchers warn that MCP-based AI workflows can be vulnerable to malicious prompt injection attacks if session ID management was implemented insecurely on the MCP servers facilitating the connection. “Although Session Hijacking is a well-known vulnerability in web applications, Prompt Hijacking is a new spin on this vul",
-      "url": "https://www.csoonline.com/article/4077414/prompt-hijacking-puts-mcp-based-ai-workflows-at-risk.html",
-      "source": "CSO Online",
-      "author": "Inconnu",
-      "published": "2025-10-22T22:02:44+00:00",
-      "niche": "security",
-      "score": 72,
-      "keywords": [
-        "injection",
-        "secure",
-        "attack",
-        "RCE",
-        "vulnerability"
-      ]
-    },
-    {
       "id": "9a646b1f4c6bef3b",
       "title": "Why Organizations Are Abandoning Static Secrets for Managed Identities",
       "description": "As machine identities explode across cloud environments, enterprises report dramatic productivity gains from eliminating static credentials. And only legacy systems remain the weak link. For decades, organizations have relied on static secrets, such as API keys, passwords, and tokens, as unique identifiers for workloads. While this approach provides clear traceability, it creates what security",
@@ -1978,6 +1960,18 @@
       "keywords": []
     },
     {
+      "id": "cd43d1c5050ecc2c",
+      "title": "Malicious NPM packages fetch infostealer for Windows, Linux, macOS",
+      "description": "Ten malicious packages mimicking legitimate software projects in the npm registry download an information-stealing component that collects sensitive data from Windows, Linux, and macOS systems. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/malicious-npm-packages-fetch-infostealer-for-windows-linux-macos/",
+      "source": "Bleeping Computer",
+      "author": "Bill Toulas",
+      "published": "2025-10-29T19:16:10-04:00",
+      "niche": "security",
+      "score": 64,
+      "keywords": []
+    },
+    {
       "id": "5ce015b040808bc7",
       "title": "Veeder-Root TLS4B Automatic Tank Gauge System",
       "description": "View CSAF 1. EXECUTIVE SUMMARY CVSS v4 9.4 ATTENTION: Exploitable remotely/low attack complexity Vendor: Veeder-Root Equipment: TLS4B Automatic Tank Gauge System Vulnerabilities: Improper Neutralization of Special Elements used in a Command ('Command Injection'), Integer Overflow or Wraparound 2. RISK EVALUATION Successful exploitation of these vulnerabilities could allow attackers to execute system-level commands, gain full shell access, achieve remote command execution, move laterally within t",
@@ -2019,25 +2013,10 @@
       "niche": "security",
       "score": 63,
       "keywords": [
-        "exploit",
         "zero-day",
+        "exploit",
         "security",
         "patch"
-      ]
-    },
-    {
-      "id": "0639060297d23294",
-      "title": "Serious vulnerability found in Rust library",
-      "description": "Developers creating projects in the Rust programming language, as well as IT leaders with Rust-based applications in their environments, should pay attention to a serious vulnerability found in one of the programming language’s libraries. Researchers at Edera say they have uncovered a critical boundary-parsing bug, dubbed TARmageddon (CVE-2025-62518), in the popular async-tar Rust library. And not only is it in this library, but also in its many forks, including the widely used tokio-tar. “In th",
-      "url": "https://www.csoonline.com/article/4077445/serious-vulnerability-found-in-rust-library.html",
-      "source": "CSO Online",
-      "author": "Inconnu",
-      "published": "2025-10-22T23:57:00+00:00",
-      "niche": "security",
-      "score": 62,
-      "keywords": [
-        "CVE-",
-        "vulnerability"
       ]
     },
     {
@@ -2174,10 +2153,10 @@
       "niche": "security",
       "score": 61,
       "keywords": [
-        "RCE",
-        "security",
+        "secure",
         "OWASP",
-        "secure"
+        "security",
+        "RCE"
       ]
     },
     {
@@ -2236,8 +2215,8 @@
       "niche": "security",
       "score": 60,
       "keywords": [
-        "exploit",
         "zero-day",
+        "exploit",
         "security"
       ]
     },
@@ -2603,6 +2582,22 @@
       ]
     },
     {
+      "id": "28bdc8b5bda1f2e2",
+      "title": "Smashing Security podcast #441: Inside the mob’s million-dollar poker hack, and a Formula 1 fumble",
+      "description": "Basketball stars have allegedly joined forces with the mafia to fleece high-rollers in a poker scam involving hacked shufflers, covert cameras, and an X-ray card table. Meanwhile, researchers have found they could poke around an FIA driver portal to pull up the personal details of Formula 1 megastars. All this and more is discussed in episode 441 of \"Smashing Security\" podcast with cybersecurity veteran Graham Cluley, and special guest Danny Palmer.",
+      "url": "https://grahamcluley.com/smashing-security-podcast-441/",
+      "source": "Graham Cluley",
+      "author": "Graham Cluley",
+      "published": "2025-10-30T00:35:09+00:00",
+      "niche": "security",
+      "score": 56,
+      "keywords": [
+        "cybersecurity",
+        "security",
+        "RCE"
+      ]
+    },
+    {
       "id": "13859524c3ebffdb",
       "title": "Cloud Access Security Broker – ein Kaufratgeber",
       "description": "Lesen Sie, worauf es bei der Wahl eines Cloud Access Security Broker ankommt – und welche Anbieter was genau zu bieten haben.Jack the sparow | shutterstock.com Ein Cloud Access Security Broker (CASB) sitzt zwischen Enterprise-Endpunkten und Cloud-Ressourcen und fungiert dabei als eine Art Monitoring-Gateway. Eine CASB-Lösung: gewährt Einblicke in Benutzeraktivitäten in der Cloud, setzt Access-Control-Richtlinien durch und hält Ausschau nach Security-Bedrohungen. Standalone-Lösungen im Bereich Cl",
@@ -2718,11 +2713,11 @@
       "niche": "security",
       "score": 55,
       "keywords": [
-        "RCE",
-        "security",
         "cybersecurity",
         "OWASP",
-        "vulnerability"
+        "vulnerability",
+        "RCE",
+        "security"
       ]
     },
     {
@@ -3137,8 +3132,8 @@
       "score": 51,
       "keywords": [
         "patch",
-        "vulnerability",
-        "disclosure"
+        "disclosure",
+        "vulnerability"
       ]
     },
     {
@@ -3152,9 +3147,9 @@
       "niche": "security",
       "score": 51,
       "keywords": [
+        "attack",
         "exploit",
-        "security",
-        "attack"
+        "security"
       ]
     },
     {
@@ -3168,9 +3163,9 @@
       "niche": "security",
       "score": 51,
       "keywords": [
+        "attack",
         "exploit",
-        "security",
-        "attack"
+        "security"
       ]
     },
     {
@@ -3404,26 +3399,11 @@
       "niche": "security",
       "score": 49,
       "keywords": [
+        "threat",
         "breach",
         "RCE",
-        "threat",
         "attack",
         "phishing"
-      ]
-    },
-    {
-      "id": "569879cc8dcce304",
-      "title": "Smashing Security podcast #440: How to hack a prison, and the hidden threat of online checkouts",
-      "description": "A literal insider threat: we head to a Romanian prison where “self-service” web kiosks allowed inmates to run wild. Then we head to the checkout aisle to ask why JavaScript on payment pages went feral, and how new PCI DSS rules are finally muzzling Magecart-style skimmers. Plus: Graham reveals his new-found superpower with Keyboard Maestro, and Scott describes a slick new way to whip up beautiful how-to videos with Screen Studio. All this and more is discussed in episode 440 of \"Smashing Securit",
-      "url": "https://grahamcluley.com/smashing-security-podcast-440/",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2025-10-22T23:30:31+00:00",
-      "niche": "security",
-      "score": 48,
-      "keywords": [
-        "security",
-        "threat"
       ]
     },
     {
@@ -3481,8 +3461,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "security",
-        "CVE-"
+        "CVE-",
+        "security"
       ]
     },
     {
@@ -3734,20 +3714,6 @@
       "keywords": []
     },
     {
-      "id": "15e2c808f76a4f56",
-      "title": "The Best End User Security Awareness Programs Aren't About Awareness Anymore",
-      "description": "The goal is to apply psychology principles to security training to change behaviors and security outcomes.",
-      "url": "https://www.darkreading.com/cyber-risk/best-end-user-security-awareness-programs-arent-about-awareness-anymore",
-      "source": "Dark Reading",
-      "author": "Ericka Chickowski, Contributing Writer",
-      "published": "2025-10-22T22:00:15+00:00",
-      "niche": "security",
-      "score": 44,
-      "keywords": [
-        "security"
-      ]
-    },
-    {
       "id": "47252fe9b5a117cd",
       "title": "ISC Stormcast For Friday, October 24th, 2025 https://isc.sans.edu/podcastdetail/9670, (Fri, Oct 24th)",
       "description": "",
@@ -3824,6 +3790,18 @@
       ]
     },
     {
+      "id": "ee18f15f69fb5671",
+      "title": "AI Search Tools Easily Fooled by Fake Content",
+      "description": "New research shows AI crawlers like Perplexity, Atlas, and ChatGPT are surprisingly easy to fool.",
+      "url": "https://www.darkreading.com/cyber-risk/ai-search-tools-easily-fooled-by-fake-content",
+      "source": "Dark Reading",
+      "author": "Jai Vijayan, Contributing Writer",
+      "published": "2025-10-29T20:36:43+00:00",
+      "niche": "security",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "885bd2410101a452",
       "title": "Pointer leaks through pointer-keyed data structures",
       "description": "Posted by Jann Horn, Google Project Zero IntroductionSome time in 2024, during a Project Zero team discussion, we were talking about how remote ASLR leaks would be helpful or necessary for exploiting some types of memory corruption bugs, specifically in the context of Apple devices. Coming from the angle of \"where would be a good first place to look for a remote ASLR leak\", this led to the discovery of a trick that could potentially be used to leak a pointer remotely, without any memory safety v",
@@ -3848,10 +3826,10 @@
       "niche": "security",
       "score": 43,
       "keywords": [
-        "RCE",
-        "security",
+        "secure",
         "OWASP",
-        "secure"
+        "security",
+        "RCE"
       ]
     },
     {
@@ -3901,20 +3879,6 @@
       "niche": "security",
       "score": 42,
       "keywords": []
-    },
-    {
-      "id": "97f93d3e204ab560",
-      "title": "Pwn2Own Underscores Secure Development Concerns",
-      "description": "Pwn2Own Ireland kicked off on Oct. 21 and what researchers found continued to highlight how secure development practices are lacking across the industry.",
-      "url": "https://www.darkreading.com/vulnerabilities-threats/pwn2own-underscores-secure-development-concerns",
-      "source": "Dark Reading",
-      "author": "Arielle Waldman",
-      "published": "2025-10-22T22:30:53+00:00",
-      "niche": "security",
-      "score": 42,
-      "keywords": [
-        "secure"
-      ]
     },
     {
       "id": "092ac900c3ce704f",
@@ -4131,9 +4095,9 @@
       "niche": "security",
       "score": 42,
       "keywords": [
-        "RCE",
+        "OWASP",
         "security",
-        "OWASP"
+        "RCE"
       ]
     },
     {
@@ -4171,8 +4135,8 @@
       "niche": "security",
       "score": 38,
       "keywords": [
-        "RCE",
-        "OWASP"
+        "OWASP",
+        "RCE"
       ]
     },
     {
@@ -4187,8 +4151,8 @@
       "score": 37,
       "keywords": [
         "threat",
-        "security",
         "OWASP",
+        "security",
         "web application security"
       ]
     },
@@ -4217,9 +4181,9 @@
       "niche": "security",
       "score": 36,
       "keywords": [
-        "RCE",
         "SQL injection",
-        "injection"
+        "injection",
+        "RCE"
       ]
     },
     {
@@ -4261,8 +4225,8 @@
       "niche": "security",
       "score": 32,
       "keywords": [
-        "RCE",
-        "remote code execution"
+        "remote code execution",
+        "RCE"
       ]
     },
     {
@@ -4276,9 +4240,9 @@
       "niche": "security",
       "score": 31,
       "keywords": [
-        "security",
+        "secure",
         "OWASP",
-        "secure"
+        "security"
       ]
     },
     {
@@ -4292,8 +4256,8 @@
       "niche": "security",
       "score": 30,
       "keywords": [
-        "RCE",
-        "attack"
+        "attack",
+        "RCE"
       ]
     },
     {
@@ -4307,8 +4271,8 @@
       "niche": "security",
       "score": 30,
       "keywords": [
-        "security",
-        "OWASP"
+        "OWASP",
+        "security"
       ]
     },
     {
@@ -4350,9 +4314,9 @@
       "niche": "security",
       "score": 26,
       "keywords": [
+        "breach",
         "security",
-        "cybersecurity",
-        "breach"
+        "cybersecurity"
       ]
     },
     {
@@ -4366,8 +4330,8 @@
       "niche": "security",
       "score": 26,
       "keywords": [
-        "injection",
-        "SQL injection"
+        "SQL injection",
+        "injection"
       ]
     },
     {
@@ -4521,8 +4485,8 @@
       "niche": "security",
       "score": 25,
       "keywords": [
-        "RCE",
-        "malware"
+        "malware",
+        "RCE"
       ]
     },
     {
@@ -4536,8 +4500,8 @@
       "niche": "security",
       "score": 25,
       "keywords": [
-        "XXE",
-        "security"
+        "security",
+        "XXE"
       ]
     },
     {
@@ -4551,8 +4515,8 @@
       "niche": "security",
       "score": 24,
       "keywords": [
-        "injection",
-        "SQL injection"
+        "SQL injection",
+        "injection"
       ]
     },
     {
@@ -4635,8 +4599,8 @@
       "niche": "security",
       "score": 19,
       "keywords": [
-        "security",
-        "cybersecurity"
+        "cybersecurity",
+        "security"
       ]
     },
     {
@@ -4682,6 +4646,21 @@
       ]
     },
     {
+      "id": "569879cc8dcce304",
+      "title": "Smashing Security podcast #440: How to hack a prison, and the hidden threat of online checkouts",
+      "description": "A literal insider threat: we head to a Romanian prison where “self-service” web kiosks allowed inmates to run wild. Then we head to the checkout aisle to ask why JavaScript on payment pages went feral, and how new PCI DSS rules are finally muzzling Magecart-style skimmers. Plus: Graham reveals his new-found superpower with Keyboard Maestro, and Scott describes a slick new way to whip up beautiful how-to videos with Screen Studio. All this and more is discussed in episode 440 of \"Smashing Securit",
+      "url": "https://grahamcluley.com/smashing-security-podcast-440/",
+      "source": "Graham Cluley",
+      "author": "Graham Cluley",
+      "published": "2025-10-22T23:30:31+00:00",
+      "niche": "security",
+      "score": 18,
+      "keywords": [
+        "threat",
+        "security"
+      ]
+    },
+    {
       "id": "9b4a6e985ddb780a",
       "title": "NCSC warns companies to prepare for a day when your screens go dark",
       "description": "The UK’s National Cyber Security Centre warns that the country now faces four nationally significant cyberattacks every week - a 129% jump in a year. Some headlines claim the NCSC is urging organisations to “go back to pen and paper,” but the full report tells a more practical story about resilience, preparedness, and surviving a cyber attack. Here’s what the report really says, and why a printed plan might still save your business. Read more in my article on the Fortra blog.",
@@ -4692,8 +4671,8 @@
       "niche": "security",
       "score": 18,
       "keywords": [
-        "security",
-        "attack"
+        "attack",
+        "security"
       ]
     },
     {
@@ -4707,8 +4686,8 @@
       "niche": "security",
       "score": 18,
       "keywords": [
-        "security",
-        "bug bounty"
+        "bug bounty",
+        "security"
       ]
     },
     {
@@ -4806,8 +4785,8 @@
       "niche": "security",
       "score": 15,
       "keywords": [
-        "security",
-        "secure"
+        "secure",
+        "security"
       ]
     },
     {
@@ -4821,8 +4800,8 @@
       "niche": "security",
       "score": 15,
       "keywords": [
-        "security",
-        "secure"
+        "secure",
+        "security"
       ]
     },
     {
@@ -5038,18 +5017,6 @@
       "keywords": [
         "protection"
       ]
-    },
-    {
-      "id": "28f0545a5e29f916",
-      "title": "The AI Fix #72: The AI hype train, space data centers, and lifelike robot heads",
-      "description": "In episode 72 of The AI Fix, GPT-5's \"secret sauce\" turns out to be phrases from adult websites, Irish police beg TikTokers to stop faking AI home intruders, Jeff Bezos pitches gigawatt data centers in space, OpenAI rolls out Agent Kit for drag-and-drop agents, and a Chinese startup unveils the creepiest robot head ever. Meanwhile, Graham looks askance at corporate America’s AI obsession - earning calls full of sunshine, SEC filings full of dread - while 95% of AI pilots flop. Mark then takes yo",
-      "url": "https://grahamcluley.com/the-ai-fix-72/",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2025-10-14T14:25:28+00:00",
-      "niche": "security",
-      "score": 12,
-      "keywords": []
     },
     {
       "id": "1376449687263c7c",
