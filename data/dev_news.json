@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-10-31T18:35:05.932929+00:00",
-  "total_articles": 979,
+  "last_updated": "2025-10-31T21:19:43.703657+00:00",
+  "total_articles": 977,
   "articles": [
     {
       "id": "b7086dbf6e29731d",
@@ -210,6 +210,21 @@
       ]
     },
     {
+      "id": "e2545165e185e28c",
+      "title": "Join the AI Agents Intensive Course Writing Challenge with Google and Kaggle!",
+      "description": "We're excited to announce a writing challenge for participants of the 5-Day AI Agents Intensive Course with Google and Kaggle! Running from November 10-14, the 5-Day AI Agents Intensive Course is designed to help you master AI agents: the next frontier of artificial intelligence. Whether you’re just starting with agents or looking to advance your expertise, this immersive experience will guide you through the architectures, tools, and best practices shaping the future of intelligent, autonomous ",
+      "url": "https://dev.to/devteam/join-the-ai-agents-intensive-course-writing-challenge-with-google-and-kaggle-1i46",
+      "source": "Dev.to",
+      "author": "Jess Lee",
+      "published": "2025-10-31T20:42:41+00:00",
+      "niche": "dev",
+      "score": 73,
+      "keywords": [
+        "best practices",
+        "API"
+      ]
+    },
+    {
       "id": "526be92905162009",
       "title": "Angular 20: HttpClient Interceptors — Functional, Predictable, and Powerful",
       "description": "TL;DR — Prefer functional interceptors in Angular 20. Configure them with provideHttpClient(withInterceptors([...])). Use them to add auth headers, cache responses, log timings, retry with backoff, stream progress events, and even return synthetic responses. Lean on HttpContextToken for per-request metadata and AbortSignal/redirect info when using withFetch. Why interceptors? Interceptors are middleware for HttpClient. You can register several and they form a chain; each can: Modify requests (e.",
@@ -377,18 +392,6 @@
       "keywords": [
         "development"
       ]
-    },
-    {
-      "id": "088a4671472ce7e3",
-      "title": "Harmonizing shared state with local state in React",
-      "description": "The split between the mental models of local and shared state management in React apps has been around since time immemorial. Here's an example of how to do these conceptually similar things in a very similar way: + import { Store, useStore } from \"@t8/react-store\"; + + let counterStore = new Store(0); let Counter = () => { - let [counter, setCounter] = useState(0); + let [counter, setCounter] = useStore(counterStore); let handleClick = () => { setCounter(value => value + 1); }; return <button o",
-      "url": "https://dev.to/axtk/harmonizing-shared-state-with-local-state-in-react-47cp",
-      "source": "Dev.to",
-      "author": "axtk",
-      "published": "2025-10-24T20:56:31+00:00",
-      "niche": "dev",
-      "score": 68,
-      "keywords": []
     },
     {
       "id": "72b854d45f71ba30",
@@ -757,18 +760,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "22c0443449d47302",
-      "title": "The Swift SDK for Android",
-      "description": "Comments",
-      "url": "https://www.swift.org/blog/nightly-swift-sdk-for-android/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-24T20:06:52+00:00",
-      "niche": "dev",
-      "score": 62,
-      "keywords": []
     },
     {
       "id": "5192221456d1facc",
@@ -1846,18 +1837,19 @@
       ]
     },
     {
-      "id": "85d2ca8daa741098",
-      "title": "MySQL commands",
-      "description": "MySQL is an open source relational database management system (RDBMS) that’s used to store and manage data. Its reliability, performance, scalability, and ease of use make MySQL a popular choice for developers. In fact, you’ll find it at the heart of demanding, high-traffic applications such as Facebook, Netflix, Uber, Airbnb, Shopify, and Booking.com. What Is MySQL? MySQL is the world’s most popular open source database management system. Databases are the essential data repositories for all so",
-      "url": "https://dev.to/jumptotech/mysql-commands-g53",
+      "id": "ea15fc7e9d387d4d",
+      "title": "A Senior Developer's Guide to the Model Context Protocol",
+      "description": "You’ve been there. You’ve just integrated a powerful new LLM into your workflow, and the possibilities feel endless. Then comes the reality: bridging the gap between the model's linguistic intelligence and the practical, real-world actions you need it to perform. This means wrestling with a dozen different APIs, each with its own authentication quirks, data schemas, and documentation (or lack thereof). You write glue code. You build bespoke adapters. And just when you get it all working, a new m",
+      "url": "https://dev.to/onlineproxy/a-senior-developers-guide-to-the-model-context-protocol-2pfl",
       "source": "Dev.to",
-      "author": "Aisalkyn Aidarova",
-      "published": "2025-10-24T21:08:00+00:00",
+      "author": "OnlineProxy",
+      "published": "2025-10-31T20:35:31+00:00",
       "niche": "dev",
-      "score": 55,
+      "score": 56,
       "keywords": [
-        "performance",
-        "developer"
+        "API",
+        "developer",
+        "code"
       ]
     },
     {
@@ -1873,21 +1865,6 @@
       "keywords": [
         "code",
         "library"
-      ]
-    },
-    {
-      "id": "4b8def865a9e0432",
-      "title": "How the Model Context Protocol Works",
-      "description": "The world of artificial intelligence is moving fast. Every week, it seems like there’s a new tool, framework, or model that promises to make AI better. But as developers build more AI applications, one big problem keeps showing up: the lack of contex...",
-      "url": "https://www.freecodecamp.org/news/how-the-model-context-protocol-works/",
-      "source": "freeCodeCamp",
-      "author": "Manish Shivanandhan",
-      "published": "2025-10-24T19:48:54+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "developer",
-        "framework"
       ]
     },
     {
@@ -2268,34 +2245,6 @@
       ]
     },
     {
-      "id": "234115b7168b48e6",
-      "title": "Protege tu dominio con DNSSEC en Amazon Route 53: Guía paso a paso",
-      "description": "TL;DR: Este artículo te guiará en la implementación de DNSSEC para tus dominios en Amazon Route 53. Mostraré paso a paso cómo activar DNSSEC en tu zona alojada en Route 53 y cómo establecer la cadena de confianza entre el Domain Registrar (Namecheap) y los Authoritative DNS Providers (Cloudflare y Amazon Route 53), todo ello alineado con el pilar de Seguridad del AWS Well-Architected Framework. 🔐 Tiempo estimado de lectura: 10 minutos Nivel: 200 Versión en inglés: Secure Your Domain with DNSSEC ",
-      "url": "https://dev.to/cbecerra/protege-tu-dominio-con-dnssec-en-amazon-route-53-guia-paso-a-paso-2ah5",
-      "source": "Dev.to",
-      "author": "Cristhian Becerra",
-      "published": "2025-10-24T20:50:11+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "framework"
-      ]
-    },
-    {
-      "id": "d09c150f4cc248fa",
-      "title": "Secure Your Domain with DNSSEC in Amazon Route 53: A Step-by-Step Guide",
-      "description": "TL;DR: This article will guide you through implementing DNSSEC for your domains in Amazon Route 53. I’ll show step by step how to enable DNSSEC in your hosted zone in Route 53 and how to establish the chain of trust between the Domain Registrar (Namecheap) and the Authoritative DNS Providers (Cloudflare and Amazon Route 53), all aligned with the Security pillar of the AWS Well-Architected Framework. 🔐 Estimated reading time: 10 minutes Level: 200 Spanish version: Protege tu dominio con DNSSEC en",
-      "url": "https://dev.to/cbecerra/secure-your-domain-with-dnssec-in-amazon-route-53-a-step-by-step-guide-566o",
-      "source": "Dev.to",
-      "author": "Cristhian Becerra",
-      "published": "2025-10-24T20:50:06+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "framework"
-      ]
-    },
-    {
       "id": "83ac54696d89d15f",
       "title": "Building High-Performance Analytics with Rust, Apache Iceberg, and Apache Doris: A Modern Data Stack",
       "description": "Introduction: The Evolution of Analytics Architecture The modern analytics landscape demands a stack that can handle petabyte-scale data, deliver sub-second query performance, and maintain ACID compliance—all while keeping infrastructure costs manageable. The combination of Rust for data ingestion pipelines, Apache Iceberg as the table format, and Apache Doris as the analytics engine represents a paradigm shift in building production-grade analytics applications. This architecture addresses thre",
@@ -2351,20 +2300,6 @@
       "score": 54,
       "keywords": [
         "performance"
-      ]
-    },
-    {
-      "id": "bff45d38929bcd48",
-      "title": "How to Work with TOML Files in Python",
-      "description": "TOML (Tom's Obvious Minimal Language) has become the modern standard for configuration files in Python projects. It's more expressive than INI files and cleaner than JSON or YAML. Since Python 3.11, the standard library includes the tomllib module fo...",
-      "url": "https://www.freecodecamp.org/news/how-to-work-with-toml-files-in-python/",
-      "source": "freeCodeCamp",
-      "author": "Bala Priya C",
-      "published": "2025-10-24T19:50:44+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "library"
       ]
     },
     {
@@ -3336,36 +3271,6 @@
       ]
     },
     {
-      "id": "bda8e93b385663b0",
-      "title": "If I Had to Learn JavaScript Again: The Real Journey From 2017 to Today",
-      "description": "Fresh out of high school. No plan, no direction, just a laptop and a feeling that I should probably figure out what to do with my life. Eight years later, I'm a full-stack developer working with Node, React, TypeScript, building production apps that actually matter. But here's the thing nobody tells you about learning to code - it's not linear. It's messy. Full of false starts, detours, quits, and comebacks. This is that story. The real one. (By the way, some years here might be a bit off maybe,",
-      "url": "https://dev.to/elvissautet/if-i-had-to-learn-javascript-again-the-real-journey-from-2017-to-today-28fg",
-      "source": "Dev.to",
-      "author": "Elvis Sautet",
-      "published": "2025-10-24T20:58:57+00:00",
-      "niche": "dev",
-      "score": 52,
-      "keywords": [
-        "code",
-        "developer"
-      ]
-    },
-    {
-      "id": "a81f808dfcbcac3a",
-      "title": "If I Had to Learn JavaScript Again: The Real Journey From 2017 to Today",
-      "description": "Fresh out of high school. No plan, no direction, just a laptop and a feeling that I should probably figure out what to do with my life. Eight years later, I'm a full-stack developer working with Node, React, TypeScript, building production apps that actually matter. But here's the thing nobody tells you about learning to code - it's not linear. It's messy. Full of false starts, detours, quits, and comebacks. This is that story. The real one. (By the way, some years here might be a bit off maybe,",
-      "url": "https://dev.to/elvissautet/if-i-had-to-learn-javascript-again-the-real-journey-from-2017-to-today-12dg",
-      "source": "Dev.to",
-      "author": "Elvis Sautet",
-      "published": "2025-10-24T20:58:57+00:00",
-      "niche": "dev",
-      "score": 52,
-      "keywords": [
-        "code",
-        "developer"
-      ]
-    },
-    {
       "id": "db83c83fc23b4a19",
       "title": "New in BC 2024 Wave 2: Production Scrap Report for Manufacturing Teams",
       "description": "Heads up, #msdyn365BC developers and consultants, there’s a new report in town. The Production Scrap report just landed in BC 2024 Wave 2, and it’s a must-have for manufacturing visibility. Here’s what it brings: ✅ Production Order Scrap % ✅ Scrap Quantity Over Time ✅ Work & Machine Center stats ✅ Scrap by Code If you’re building or customizing for manufacturing clients, this is one to bookmark. https://learn.microsoft.com/en-us/dynamics365/business-central/manufacturing-powerbi-production-scrap",
@@ -3831,31 +3736,18 @@
       ]
     },
     {
-      "id": "2c5381d52d986596",
-      "title": "How to Create a One-Time Payment Link and Secure Webhook Integration with Stripe",
-      "description": "Introduction Stripe is an online payment platform for securely accepting credit cards, bank transfers, and more. This guide demonstrates an end-to-end integration using Stripe Checkout Sessions for one-time payments and a tamper-proof server webhook to confirm transactions. Terminology: \"Payment Link\" here refers to the URL returned by a Stripe Checkout Session (not Stripe's no-code \"Payment Links\" product). Payment Flow Overview Client clicks \"Pay Now\". Backend creates a unique Checkout Session",
-      "url": "https://dev.to/canhamzacode/how-to-create-a-one-time-payment-link-and-secure-webhook-integration-with-stripe-2l4d",
+      "id": "580da105e8f5de24",
+      "title": "From YAML to Glory: Mastering Infrastructure as Code 🎯",
+      "description": "Don't hesitate to check all the article on my blog — Taverne Tech! Introduction Imagine being able to clone your entire infrastructure like you fork a GitHub repo, or restore a full environment with a simple git checkout. Sounds like sci-fi? Welcome to the amazing world of Infrastructure as Code (IaC)! 🎉 If you’ve ever spent a weekend manually reconfiguring a server that “worked perfectly yesterday,” or wondered why production doesn’t look anything like development anymore, this post is for you.",
+      "url": "https://dev.to/tavernetech/from-yaml-to-glory-mastering-infrastructure-as-code-3eob",
       "source": "Dev.to",
-      "author": "Hamzat Abdul-muizz",
-      "published": "2025-10-24T21:03:37+00:00",
+      "author": "Taverne Tech",
+      "published": "2025-10-31T20:54:11+00:00",
       "niche": "dev",
-      "score": 51,
+      "score": 52,
       "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "b027e748ccc8f52f",
-      "title": "Inside AWS's outage - and What it teaches Developers.",
-      "description": "When AWS sneezed, the internet caught a cold. When AWS experienced its outage, it wasn’t just a small glitch in the cloud; it triggered a domino effect that rippled across much of the internet. The incident wasn’t caused by lost servers or faulty disks, it began with a failure in a monitoring system, the very component meant to keep everything running smoothly. Where it all started An internal monitoring tool inside AWS began reporting wrong information about service health. It reported some sys",
-      "url": "https://dev.to/shimork/inside-awss-outage-and-what-it-teaches-developers-3h8a",
-      "source": "Dev.to",
-      "author": "technologyInsideOut",
-      "published": "2025-10-24T21:01:00+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "developer"
+        "code",
+        "development"
       ]
     },
     {
@@ -5092,28 +4984,18 @@
       ]
     },
     {
-      "id": "3e9f5d58cfea02a6",
-      "title": "My Software Career So Far: An Unapologetic Recap",
-      "description": "Contents This blog will be split into the following sections: Foreword: A Note from the Author Chapter 1: Over-Romanticizing Software Engineering Chapter 2: Education - a Quick Recap Chapter 3: The Internship Experience Chapter 4: First Role at Company #1 Chapter 5: Stagnation & Leaving Company #1 Chapter 6: Moving to Company #2 Chapter 7: Experience, Red Flags & the Exit from Company #2 Chapter 8: Navigating Interview Hell Chapter 9: Company #3 & Beyond Afterword: The End Foreword: A Note from ",
-      "url": "https://dev.to/anonymousdev/my-software-career-so-far-an-unapologetic-recap-40k4",
+      "id": "3ef7d1ae70396a94",
+      "title": "CodePlot-CoT: Mathematical Visual Reasoning by Thinking with Code-Driven Images",
+      "description": "How AI Learns to Draw Its Way Through Math Problems Ever wondered how a computer can actually sketch a picture to crack a tricky math puzzle? Researchers have created a new system called CodePlot‑CoT that lets artificial intelligence think with images, just like we do when we doodle a graph on a napkin. Instead of only talking in words, the AI writes tiny bits of code that instantly turn into a plot or diagram—its own “visual thought. ” Imagine a student who, before solving a geometry question, ",
+      "url": "https://dev.to/paperium/codeplot-cot-mathematical-visual-reasoning-by-thinking-with-code-driven-images-4eik",
       "source": "Dev.to",
-      "author": "Anonymous Dev",
-      "published": "2025-10-24T21:08:37+00:00",
+      "author": "Paperium",
+      "published": "2025-10-31T20:40:48+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "04c2eacf6340d95b",
-      "title": "ACI Protocol + Auth0: Secure Multi-Agent Handoffs with Identity Continuity",
-      "description": "🔐 ACI Protocol + Auth0: Secure Multi-Agent Handoffs with Identity Continuity This is a submission for the Auth0 for AI Agents Challenge What I Built ACI-Auth: Adaptive Contextual Intelligence with Authenticated Agent Handoffs A protocol and reference implementation that enables secure, context-preserving communication between AI agents while maintaining user identity, permission boundaries, and interaction history across model handoffs. The Problem Current AI agent systems face a critical gap: w",
-      "url": "https://dev.to/p_thabiwa_0ca34c2f83/aci-protocol-auth0-secure-multi-agent-handoffs-with-identity-continuity-3d6",
-      "source": "Dev.to",
-      "author": "Peace Thabiwa",
-      "published": "2025-10-24T20:55:07+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "5f3c9e2a95e1770d",
@@ -8108,6 +7990,66 @@
       "keywords": []
     },
     {
+      "id": "478843bfdb485f1d",
+      "title": "Security news weekly round-up - 31st October 2025",
+      "description": "In cybersecurity, when you hear the word vulnerability, you know it's not a good thing. Meanwhile, it can be scary if you learn that attackers are exploiting the vulnerability. In other news, it turns out that researchers can break confidential computing in some popular CPUs. TEE.Fail attack breaks confidential computing on Intel, AMD, NVIDIA CPUs As a reminder, TEE means Trusted Execution Environment. It's a secure area of a system. Now, what happened? The excerpt below has more details. Resear",
+      "url": "https://dev.to/ziizium/security-news-weekly-round-up-31st-october-2025-1j9j",
+      "source": "Dev.to",
+      "author": "Habdul Hazeez",
+      "published": "2025-10-31T21:03:16+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "0c6f7929411a3d95",
+      "title": "Registrars, Name Servers, and DNS Records: How They All Work Together to Serve Your Page",
+      "description": "When you type a website name like google.com in your browser, a lot of things happen quietly before that familiar page appears. Behind the scenes, there’s a small chain of events that makes sure your request finds the right computer somewhere on the internet. 1. The Registrar: Where Your Domain Lives The registrar is where you buy and manage your domain name. Think of it as the official shop where domains are registered and maintained. Popular registrars include Google Domains, Namecheap, GoDadd",
+      "url": "https://dev.to/rijultp/registrars-name-servers-and-dns-records-how-they-all-work-together-to-serve-your-page-5hdo",
+      "source": "Dev.to",
+      "author": "Rijul Rajesh",
+      "published": "2025-10-31T20:58:15+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "c273c2318f980647",
+      "title": "**Caution: Synthetic Data Oversight - Overfitting to Noise**",
+      "description": "Caution: Synthetic Data Oversight - Overfitting to Noise When generating synthetic data, a common pitfall is overfitting to noise present in the training data. This can lead to the creation of biased and unrealistic synthetic data, which can severely impact the accuracy and reliability of your machine learning models. Noise in training data can stem from various sources, including measurement errors, instrumentation limitations, or even data processing mistakes. If your synthetic data generator ",
+      "url": "https://dev.to/drcarlosruizviquez/caution-synthetic-data-oversight-overfitting-to-noise-2m0b",
+      "source": "Dev.to",
+      "author": "Dr. Carlos Ruiz Viquez",
+      "published": "2025-10-31T20:48:49+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "45a8532fd7dcfac5",
+      "title": "First contribution in hacktoberfest",
+      "description": "I worked on my first issue, Implement Binary Search (Iterative), and created my first Pull Request (PR) Add an algorithm in Python In this PR, I implemented a simple algorithm to practice contributing to Hacktoberfest 2025. Since it was my first time joining Hacktoberfest, I chose a simple issue to get started. Through this experience, I realized that if I am interested in a project, I can either create a new issue or find an existing one to solve—whether it is adding a new feature, fixing a bug",
+      "url": "https://dev.to/slyang08/first-contribution-in-hacktoberfest-5eh7",
+      "source": "Dev.to",
+      "author": "Sheng-Lin Yang",
+      "published": "2025-10-31T20:47:41+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "bd1f86f40a5c1971",
+      "title": "How I Built an Agentic AI Coach That Turns Garmin Data Into a Training Partner",
+      "description": "Intro: I’ve been building an open-source project called Garmin AI Coach — a multi-agent endurance coach that analyzes Garmin health and activity data to generate adaptive training plans for triathletes, cyclists, and runners. What makes it special: It’s not just another fitness tracker dashboard. It’s an agentic AI system that actually interprets your physiological data (HRV, sleep, stress, load) and drafts a transparent, auditable plan you can inspect line-by-line. Every insight is reproducible",
+      "url": "https://dev.to/leonzzz435/how-i-built-an-agentic-ai-coach-that-turns-garmin-data-into-a-training-partner-364h",
+      "source": "Dev.to",
+      "author": "Leon Zajchowski",
+      "published": "2025-10-31T20:36:50+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "7733766b45cc4371",
       "title": "Check out the guide on - Tableau Sales Dashboard Performance: The Art of Turning Data into Decisions",
       "description": "Tableau Sales Dashboard Performance: The Art of Turning Data into Decisions Anshuman ・ Oct 25",
@@ -8262,21 +8204,6 @@
       ]
     },
     {
-      "id": "3ee24b73aa1ef651",
-      "title": "How to Use the Model Context Protocol (MCP) with Flutter and Dart",
-      "description": "Software development is moving fast toward AI-assisted workflows and smarter tooling. Whether it’s your IDE completing code, an AI assistant analyzing your project, or automated testing pipelines, all these tools need a standardized way to communicat...",
-      "url": "https://www.freecodecamp.org/news/how-to-use-the-model-context-protocol-mcp-with-flutter-and-dart/",
-      "source": "freeCodeCamp",
-      "author": "Atuoha Anthony",
-      "published": "2025-10-24T19:46:36+00:00",
-      "niche": "dev",
-      "score": 46,
-      "keywords": [
-        "development",
-        "code"
-      ]
-    },
-    {
       "id": "6c26d0900d89745a",
       "title": "[Boost]",
       "description": "🚀 Meet the NextPWA Starter: Your Shortcut to Building Modern Web Apps Muhammad Hamid Raza ・ Oct 26 #pwa #pwabuilder #nextjs #productivity",
@@ -8356,6 +8283,18 @@
       "source": "Dev.to",
       "author": "Ben Halpern",
       "published": "2025-10-31T15:08:36+00:00",
+      "niche": "dev",
+      "score": 46,
+      "keywords": []
+    },
+    {
+      "id": "2aa90f4cf294eaeb",
+      "title": "Lots of momentum this week!",
+      "description": "Forem Weekly Repo Recap: New Community Hub, Email Fixes & Markdown Improvements Forem Project News ・ Oct 31 #product #deployment #opensource #news",
+      "url": "https://dev.to/ben/lots-of-momentum-this-week-10ph",
+      "source": "Dev.to",
+      "author": "Ben Halpern",
+      "published": "2025-10-31T20:39:18+00:00",
       "niche": "dev",
       "score": 46,
       "keywords": []
@@ -8487,30 +8426,6 @@
       ]
     },
     {
-      "id": "dfb636a007e6cfbc",
-      "title": "TextEdit and the relief of simple software",
-      "description": "Comments",
-      "url": "https://www.newyorker.com/culture/infinite-scroll/textedit-and-the-relief-of-simple-software",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-24T20:25:58+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "03a080dcce09124b",
-      "title": "Conductor (YC S24) Is Hiring a Founding Engineer in San Francisco",
-      "description": "Comments",
-      "url": "https://www.ycombinator.com/companies/conductor/jobs/MYjJzBV-founding-engineer",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-24T21:00:27+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
       "id": "fe5841338b180fe6",
       "title": "Vibe Coding in the 90s",
       "description": "Comments",
@@ -8530,30 +8445,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-10-25T00:59:23+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "6fdc1f9b3db9ac30",
-      "title": "Harnessing America's Heat Pump Moment",
-      "description": "Comments",
-      "url": "https://www.heatpumped.org/p/harnessing-america-s-heat-pump-moment",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-24T20:05:07+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "b1401197bd4a4685",
-      "title": "MRI Contrast Agent Causes Harmful Metal Buildup in Some Patients [study]",
-      "description": "Comments",
-      "url": "https://www.ormanager.com/briefs/study-mri-contrast-agent-causes-harmful-metal-buildup-in-some-patients/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-24T20:48:46+00:00",
       "niche": "dev",
       "score": 44,
       "keywords": []
@@ -10395,6 +10286,42 @@
       "keywords": []
     },
     {
+      "id": "b0119b62207f7e38",
+      "title": "Futurelock: A subtle risk in async Rust",
+      "description": "Comments",
+      "url": "https://rfd.shared.oxide.computer/rfd/0609",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-31T16:49:26+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "823ef78a98788e31",
+      "title": "Use DuckDB-WASM to query TB of data in browser",
+      "description": "Comments",
+      "url": "https://lil.law.harvard.edu/blog/2025/10/24/rethinking-data-discovery-for-libraries-and-digital-humanities/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-31T17:37:15+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "a2a309f7232978ce",
+      "title": "How to build silos and decrease collaboration on purpose",
+      "description": "Comments",
+      "url": "https://www.rubick.com/how-to-build-silos-and-decrease-collaboration/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-31T19:16:05+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "78c4b08725d5f56b",
       "title": "React 19 Upgrade Guide",
       "description": "The improvements added to React 19 require some breaking changes, but we've worked to make the upgrade as smooth as possible and we don't expect the changes to impact most apps. In this post, we will guide you through the steps for upgrading apps and libraries to React 19.",
@@ -10459,8 +10386,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "React 19",
-        "performance"
+        "performance",
+        "React 19"
       ]
     },
     {
@@ -10511,18 +10438,6 @@
       "published": "2025-10-31T08:59:47+00:00",
       "niche": "dev",
       "score": 39,
-      "keywords": []
-    },
-    {
-      "id": "c18dd08f46fa9767",
-      "title": "Study: MRI contrast agent causes harmful metal buildup in some patients",
-      "description": "Comments",
-      "url": "https://www.ormanager.com/briefs/study-mri-contrast-agent-causes-harmful-metal-buildup-in-some-patients/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-24T20:48:46+00:00",
-      "niche": "dev",
-      "score": 38,
       "keywords": []
     },
     {
@@ -10718,6 +10633,30 @@
       "keywords": []
     },
     {
+      "id": "e2210be9ca2146f3",
+      "title": "Perfetto: Swiss army knife for Linux client tracing",
+      "description": "Comments",
+      "url": "https://lalitm.com/perfetto-swiss-army-knife/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-31T11:54:00+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
+      "id": "a6154fdb58f11703",
+      "title": "Leaker reveals which Pixels are vulnerable to Cellebrite phone hacking",
+      "description": "Comments",
+      "url": "https://arstechnica.com/gadgets/2025/10/leaker-reveals-which-pixels-are-vulnerable-to-cellebrite-phone-hacking/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-30T23:12:10+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
       "id": "4e6d7290f5ff11d8",
       "title": "React Native 0.80 - React 19.1, JS API Changes, Freezing Legacy Arch and much more",
       "description": "Today we are excited to release React Native 0.80!",
@@ -10728,9 +10667,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "React 19",
+        "API",
         "release",
-        "API"
+        "React 19"
       ]
     },
     {
@@ -10796,9 +10735,9 @@
       "niche": "dev",
       "score": 36,
       "keywords": [
-        "development",
         "developer",
-        "code"
+        "code",
+        "development"
       ]
     },
     {
@@ -10812,8 +10751,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -10865,6 +10804,18 @@
       "source": "React Blog",
       "author": "Ricky Hanlon",
       "published": "2024-05-22T00:00:00+00:00",
+      "niche": "dev",
+      "score": 32,
+      "keywords": []
+    },
+    {
+      "id": "ead5b3dfa8faae7e",
+      "title": "Issue 733",
+      "description": "Swift on Android is now included in nightly Swift builds, will it be official in 6.3?",
+      "url": "https://iosdevweekly.com/issues/733/",
+      "source": "iOS Dev Weekly",
+      "author": "dave@iosdevweekly.com (Dave Verwer)",
+      "published": "2025-10-31T00:00:00+00:00",
       "niche": "dev",
       "score": 32,
       "keywords": []
@@ -10922,11 +10873,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "code",
+        "API",
         "framework",
         "release",
-        "API",
-        "performance"
+        "performance",
+        "code"
       ]
     },
     {
@@ -11138,6 +11089,18 @@
       "keywords": []
     },
     {
+      "id": "4a6e96b76bba246b",
+      "title": "Hacking India's largest automaker: Tata Motors",
+      "description": "Comments",
+      "url": "https://eaton-works.com/2025/10/28/tata-motors-hack/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-29T01:31:56+00:00",
+      "niche": "dev",
+      "score": 26,
+      "keywords": []
+    },
+    {
       "id": "d839f1a2454a8fa9",
       "title": "URLPattern is now Baseline Newly available",
       "description": "URLPattern became Baseline Newly available as of September 15, 2025.",
@@ -11261,8 +11224,8 @@
       "score": 25,
       "keywords": [
         "framework",
-        "release",
-        "Angular"
+        "Angular",
+        "release"
       ]
     },
     {
@@ -11344,9 +11307,9 @@
       "niche": "dev",
       "score": 22,
       "keywords": [
-        "development",
         "release",
-        "performance"
+        "performance",
+        "development"
       ]
     },
     {
@@ -11372,8 +11335,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "API"
+        "API",
+        "release"
       ]
     },
     {
@@ -11402,9 +11365,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "code",
         "developer",
-        "performance"
+        "performance",
+        "code"
       ]
     },
     {
@@ -11418,8 +11381,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
-        "API"
+        "API",
+        "developer"
       ]
     },
     {
@@ -11433,9 +11396,9 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
+        "API",
         "developer",
-        "API"
+        "release"
       ]
     },
     {
@@ -11449,8 +11412,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
-        "developer"
+        "developer",
+        "release"
       ]
     },
     {
@@ -11972,8 +11935,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "development",
-        "programming"
+        "programming",
+        "development"
       ]
     },
     {
@@ -12377,8 +12340,8 @@
       "niche": "dev",
       "score": 11,
       "keywords": [
-        "code",
-        "release"
+        "release",
+        "code"
       ]
     },
     {
@@ -12535,6 +12498,18 @@
       "published": "2025-09-26T00:00:00+00:00",
       "niche": "dev",
       "score": 9,
+      "keywords": []
+    },
+    {
+      "id": "fcef549e1b64dd98",
+      "title": "The 1924 New Mexico regional banking panic",
+      "description": "Comments",
+      "url": "https://nodumbideas.com/p/labor-day-special-the-1924-new-mexico",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-23T13:22:15+00:00",
+      "niche": "dev",
+      "score": 8,
       "keywords": []
     },
     {
@@ -12739,18 +12714,6 @@
       "source": "iOS Dev Weekly",
       "author": "dave@iosdevweekly.com (Dave Verwer)",
       "published": "2025-09-05T00:00:00+00:00",
-      "niche": "dev",
-      "score": 7,
-      "keywords": []
-    },
-    {
-      "id": "b08ca04ee97b9c85",
-      "title": "Issue 723",
-      "description": "What is Apple not saying about Liquid Glass? 🧊",
-      "url": "https://iosdevweekly.com/issues/723/",
-      "source": "iOS Dev Weekly",
-      "author": "dave@iosdevweekly.com (Dave Verwer)",
-      "published": "2025-08-22T00:00:00+00:00",
       "niche": "dev",
       "score": 7,
       "keywords": []
