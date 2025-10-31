@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-10-31T15:24:31.206536+00:00",
-  "total_articles": 978,
+  "last_updated": "2025-10-31T18:35:05.932929+00:00",
+  "total_articles": 979,
   "articles": [
     {
       "id": "b7086dbf6e29731d",
@@ -210,22 +210,6 @@
       ]
     },
     {
-      "id": "d4d71038f88cb258",
-      "title": "5 things you need to know about publishing and distributing your app for Android XR",
-      "description": "Posted by Jan Kleinert, Android Developer Relations Engineer Samsung Galaxy XR is here, powered by Android XR! This blog post is part of our Android XR Spotlight Week, where we provide resources—blog posts, videos, sample code, and more—all designed to help you learn, build, and prepare your apps for Android XR.   Today, we're focusing on one of the last steps in your development journey, ensuring these experiences successfully reach your users. Publishing correctly ensures your app is packaged ",
-      "url": "https://android-developers.googleblog.com/2025/10/5-things-you-need-to-know-about.html",
-      "source": "Android Developers Blog",
-      "author": "Birna (noreply@blogger.com)",
-      "published": "2025-10-24T09:00:00-07:00",
-      "niche": "dev",
-      "score": 72,
-      "keywords": [
-        "developer",
-        "code",
-        "development"
-      ]
-    },
-    {
       "id": "526be92905162009",
       "title": "Angular 20: HttpClient Interceptors — Functional, Predictable, and Powerful",
       "description": "TL;DR — Prefer functional interceptors in Angular 20. Configure them with provideHttpClient(withInterceptors([...])). Use them to add auth headers, cache responses, log timings, retry with backoff, stream progress events, and even return synthetic responses. Lean on HttpContextToken for per-request metadata and AbortSignal/redirect info when using withFetch. Why interceptors? Interceptors are middleware for HttpClient. You can register several and they form a chain; each can: Modify requests (e.",
@@ -393,18 +377,6 @@
       "keywords": [
         "development"
       ]
-    },
-    {
-      "id": "c1b06fdcb3da6b2e",
-      "title": "Jeff Su: Steal the Productivity System I Taught to 6,642 Googlers",
-      "description": "Steal the Productivity System I Taught to 6,642 Googlers Jeff Su lays out the CORE workflow he taught at Google—Capture every idea immediately, Organize with minimal friction, Review during scheduled sessions, and Engage by blocking out time to execute. It works with any tool you already use and becomes second nature within two weeks, so you stop relying on memory or willpower alone. Alongside a step-by-step demo and timestamps, he shares blog links, favorite prompts & templates, and even his go",
-      "url": "https://dev.to/future_ai/jeff-su-steal-the-productivity-system-i-taught-to-6642-googlers-4oob",
-      "source": "Dev.to",
-      "author": "AI News",
-      "published": "2025-10-24T18:08:35+00:00",
-      "niche": "dev",
-      "score": 68,
-      "keywords": []
     },
     {
       "id": "088a4671472ce7e3",
@@ -2296,20 +2268,6 @@
       ]
     },
     {
-      "id": "4070893f18e4a3c0",
-      "title": "How I Simplified My Laravel Filters Using the Pipeline Pattern (With Real Examples)",
-      "description": "Today I learned a new topic in Laravel — Laravel Pipeline. Let me first explain the problem I faced. In each of my repository files, I had to perform filtering in the index method. I noticed that in almost every filter, I was filtering by things like name, email, status, word, or similar fields — only the data source was different. I was doing the filtering like this: Product::when(isset($request->status), function ($query) use ($request) { $query->where('status', $request->status); }) ->when(is",
-      "url": "https://dev.to/jahid02/how-to-use-laravel-pipeline-4jek",
-      "source": "Dev.to",
-      "author": "Jahid Hassan Shovon",
-      "published": "2025-10-24T18:07:49+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "Laravel"
-      ]
-    },
-    {
       "id": "234115b7168b48e6",
       "title": "Protege tu dominio con DNSSEC en Amazon Route 53: Guía paso a paso",
       "description": "TL;DR: Este artículo te guiará en la implementación de DNSSEC para tus dominios en Amazon Route 53. Mostraré paso a paso cómo activar DNSSEC en tu zona alojada en Route 53 y cómo establecer la cadena de confianza entre el Domain Registrar (Namecheap) y los Authoritative DNS Providers (Cloudflare y Amazon Route 53), todo ello alineado con el pilar de Seguridad del AWS Well-Architected Framework. 🔐 Tiempo estimado de lectura: 10 minutos Nivel: 200 Versión en inglés: Secure Your Domain with DNSSEC ",
@@ -3364,18 +3322,17 @@
       ]
     },
     {
-      "id": "80ec3662b10a1e31",
-      "title": "Day 23 of 100 days dsa coding challenge",
-      "description": "Taking on a new challenge: solving GeeksforGeeks POTD daily and sharing my solutions! 💻🔥 The goal: sharpen problem-solving skills, level up coding, and learn something new every day. Follow my journey! 🚀 100DaysOfCode #CodingChallenge #ProblemSolving #GeeksforGeeks #DeveloperJourney Problem: https://www.geeksforgeeks.org/problems/split-array-subsequences/1 Split Array Subsequences Difficulty: Medium Accuracy: 51.83% Given a sorted integer array arr[] and an integer k, determine if it is possible",
-      "url": "https://dev.to/manasi_patil_/day-23-of-100-days-dsa-coding-challenge-58ml",
+      "id": "cc2bb69832c46638",
+      "title": "Implementing MQTT 5 in Go: A Deep Dive into Client Design - Part I",
+      "description": "Introduction In this article, I’ll share my journey of implementing an MQTT 5.0 client in Go. We’ll cover protocol fundamentals, connection and session management, and, of course, publishing and receiving messages to and from a broker. Why build an MQTT client when libraries like Paho already exist? Because I enjoy writing clients, it’s a playground for fun concepts like protocol parsing, networking, concurrency, and performance tuning. github repo: https://github.com/MonsieurTib/gmqtt MQTT 5.0 ",
+      "url": "https://dev.to/monsieur_thib/implementing-mqtt-5-in-go-a-deep-dive-into-client-design-part-i-24p1",
       "source": "Dev.to",
-      "author": "Manasi Patil",
-      "published": "2025-10-24T18:01:42+00:00",
+      "author": "MrTib",
+      "published": "2025-10-31T18:02:46+00:00",
       "niche": "dev",
-      "score": 52,
+      "score": 54,
       "keywords": [
-        "developer",
-        "code"
+        "performance"
       ]
     },
     {
@@ -3874,48 +3831,6 @@
       ]
     },
     {
-      "id": "1e5971e149175636",
-      "title": "The Cost of Clarity: Building Libraries For Artists",
-      "description": "After months of building, documenting, and re-explaining the same boundaries, I realized something: there were no real rules for protecting intentional architecture in open creative systems. That’s how Spec-Kit and OpenSpec were born — not from theory, but from exhaustion. Too many hours lost to random “vibe code,” overwritten logic, and unaligned contributions that turned every rebuild into a recovery cycle. Each incident meant more compute, more subscription costs, more nights without sleep. T",
-      "url": "https://dev.to/bekalah/the-cost-of-clarity-building-libraries-for-artists-50g3",
-      "source": "Dev.to",
-      "author": "Rebecca Respawn",
-      "published": "2025-10-24T18:03:20+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "21b154029576deec",
-      "title": "Day 28 of #30DaysOfCode",
-      "description": "Things i did today : solved the potd practiced 2 ques , 1 based on str , the other one based on array + hashmap+ simulation went to the gym today after diwali holidays , tmr will do a bit of dev cuz not doing it lately need to make some progress there too Good Night",
-      "url": "https://dev.to/justacoder_0x/day-28-of-30daysofcode-5b0k",
-      "source": "Dev.to",
-      "author": "JustACoder",
-      "published": "2025-10-24T18:01:38+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "a38d5f421b1a7039",
-      "title": "Qu'est ce que le RLVR -- Reinforcement Learning from Verifiable Rewards",
-      "description": "Le Reinforcement Learning from Verifiable Rewards entraîne les LLMs à optimiser plutôt qu'imiter. Sur des tâches vérifiables (maths, code), les modèles explorent et découvrent des stratégies émergentes. Guide complet: algorithmes GRPO/PPO, applications, environnements, limites et bonnes pratiques.",
-      "url": "https://blog.octo.com/qu'est-ce-que-le-rlvr-reinforcement-learning-from-verifiable-rewards-1",
-      "source": "Blog Technique Octo",
-      "author": "Teilo Millet",
-      "published": "2025-10-24T16:55:10+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
       "id": "2c5381d52d986596",
       "title": "How to Create a One-Time Payment Link and Secure Webhook Integration with Stripe",
       "description": "Introduction Stripe is an online payment platform for securely accepting credit cards, bank transfers, and more. This guide demonstrates an end-to-end integration using Stripe Checkout Sessions for one-time payments and a tamper-proof server webhook to confirm transactions. Terminology: \"Payment Link\" here refers to the URL returned by a Stripe Checkout Session (not Stripe's no-code \"Payment Links\" product). Payment Flow Overview Client clicks \"Pay Now\". Backend creates a unique Checkout Session",
@@ -3941,20 +3856,6 @@
       "score": 51,
       "keywords": [
         "developer"
-      ]
-    },
-    {
-      "id": "a4caa1337d37213f",
-      "title": "How to Implement Multi-Threading in Node.js With Worker Threads [Full Handbook]",
-      "description": "JavaScript is a single-threaded programming language, and Node.js is the runtime environment for JavaScript. This means that JavaScript essentially runs within Node.js, and all operations are handled through a single thread. But when we perform tasks...",
-      "url": "https://www.freecodecamp.org/news/how-to-implement-multi-threading-in-nodejs-with-worker-threads-full-handbook/",
-      "source": "freeCodeCamp",
-      "author": "Sumit Saha",
-      "published": "2025-10-24T16:30:57+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "programming"
       ]
     },
     {
@@ -5163,64 +5064,32 @@
       ]
     },
     {
-      "id": "d37d320ae5a780c4",
-      "title": "Wie ein Chatbot Event-Anfragen revolutionieren kann – von der Idee zur automatisierten DJ-Buchung",
-      "description": "Hier ist ein Vorschlag für deinen DEV.to-Post-Text, der deinen Link natürlich einbindet und das Thema „Chatbot für Event-Anfragen“ mit deinem DJ-Business verknüpft: Title: Wie ein Chatbot Event-Anfragen revolutionieren kann – von der Idee zur automatisierten DJ-Buchung Tags: ai #automation #eventtech #music Text: In der Eventbranche laufen viele Anfragen immer noch manuell ab: Kunden füllen Formulare aus, warten auf Rückmeldung, und oft gehen Details verloren. Dabei lässt sich dieser Prozess län",
-      "url": "https://dev.to/25heartbeats_djservice_1/wie-ein-chatbot-event-anfragen-revolutionieren-kann-von-der-idee-zur-automatisierten-dj-buchung-54e0",
+      "id": "40c9a99f453229be",
+      "title": "Why I Built Another Feedback Tool",
+      "description": "Why I Built Another Feedback Tool Let's be honest - the market doesn't need another feedback tool. But I needed one I could afford. As a freelance developer at Daring Designs, I was paying $59/month for Marker.io. Great tool, but the price stung every month. So I did what every developer does when faced with a recurring cost: \"How hard could it be to build this myself?\" Narrator: It was harder than that. The Core Problem Most feedback tools fail not because of features, but because of friction. ",
+      "url": "https://dev.to/notedisapp/why-i-built-another-feedback-tool-28e2",
       "source": "Dev.to",
-      "author": "25heartbeats DJ Service",
-      "published": "2025-10-24T18:17:49+00:00",
+      "author": "Darin Larimore",
+      "published": "2025-10-31T18:14:52+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
-      "id": "4097615efa3b4604",
-      "title": "The Strategic Migration: Transforming a Manual QA Team into an Automation Powerhouse",
-      "description": "Introduction In today’s fast-paced Agile and DevOps ecosystems, QA teams face a pivotal challenge: how to uphold product quality without slowing down continuous deployment. The answer isn’t replacing human expertise with machines—it’s transforming manual testing wisdom into a scalable, collaborative automation strategy. This article outlines a proven, five-phase blueprint for evolving manual QA teams into automation-driven, value-focused quality partners. Using a modern stack—Pytest, Appium, All",
-      "url": "https://dev.to/mohsen_akbari_ebe53d7cbc2/the-strategic-migration-transforming-a-manual-qa-team-into-an-automation-powerhouse-54mb",
+      "id": "2d5674d234714bdb",
+      "title": "Building Privacy-Safe Attribution Pipelines: A Marketer’s Engineering Approach",
+      "description": "Every marketer has asked this question at some point: which campaign actually worked? We pour budgets into ads, watch the dashboards light up, and then try to make sense of the chaos. But over the past few years, that chaos has only deepened — cookies are disappearing, platforms report conflicting numbers, and privacy laws have changed how we can even measure success. I’ve lived inside this problem for years. And somewhere between late-night data audits and conversations with developers, I reali",
+      "url": "https://dev.to/saka_satish_661/building-privacy-safe-attribution-pipelines-a-marketers-engineering-approach-578l",
       "source": "Dev.to",
-      "author": "Mohsen Akbari",
-      "published": "2025-10-24T18:15:30+00:00",
+      "author": "Saka Satish",
+      "published": "2025-10-31T18:08:01+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "63dbdc31a9df1a66",
-      "title": "CinemaSins: Everything Wrong With Frankenweenie In 14 Minutes Or Less",
-      "description": "Cinema Sins is back in theaters for a second round of Frankenweenie, dishing out every quirk and nitpick in under 14 minutes—yes, even though they secretly love the film. Along the way they drop links to their main site, YouTube channels, social media, a poll, Patreon, Discord and more, so you can keep the sin train rolling. The description also credits their writing team (Jeremy, Chris, Aaron, Jonathan, Deneé, Ian and Daniel) and points fans to a handy link tree for all the latest updates, merc",
-      "url": "https://dev.to/popcorn_movies/cinemasins-everything-wrong-with-frankenweenie-in-14-minutes-or-less-54h9",
-      "source": "Dev.to",
-      "author": "Movie News",
-      "published": "2025-10-24T18:01:24+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "6fdb08fd31efe686",
-      "title": "Mr Sunday Movies: The Alien VS Predator Series - Caravan of Garbage",
-      "description": "The Alien VS Predator Series – Caravan of Garbage After more than a decade of Alien/Predator crossovers in comics and games (plus a cheeky nod in 1991’s Predator 2), we finally got live-action mashups: 2004’s Alien VS Predator and 2007’s Requiem. Caravan of Garbage dives into why these films, despite having cool visuals and fun moments, never quite delivered on the monster-vs-monster hype. This video bundles two Caravan of Garbage reviews and serves as a warm-up for next week’s deep dive into th",
-      "url": "https://dev.to/popcorn_movies/mr-sunday-movies-the-alien-vs-predator-series-caravan-of-garbage-2ob6",
-      "source": "Dev.to",
-      "author": "Movie News",
-      "published": "2025-10-24T18:01:15+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "4cb841333c1cf87c",
-      "title": "Mr Sunday Movies: Predator - Caravan of Garbage",
-      "description": "Predator – Caravan of Garbage kicks off a four-week deep dive into the first four Predator films, starting with the 1987 Schwarzenegger original. It’s hailed as the pinnacle of ’80s action scifi—perfectly blending badass direction, an all-star cast, killer creature design, massive muscles, mud, lasers, explosions and good old fashioned invisibility chaos. Hungry for more? Head to bigsandwich.co for early videos, bonus podcasts, movie commentaries and video game let’s plays. Check out the extende",
-      "url": "https://dev.to/popcorn_movies/mr-sunday-movies-predator-caravan-of-garbage-1ihc",
-      "source": "Dev.to",
-      "author": "Movie News",
-      "published": "2025-10-24T18:01:05+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
       "id": "3e9f5d58cfea02a6",
@@ -8155,6 +8024,90 @@
       "keywords": []
     },
     {
+      "id": "d4a59506412dc896",
+      "title": "🚀 I’m Open to Building What’s Next — My Journey So Far",
+      "description": "Hi everyone, 👋 I’m Mukkera Pavan Kumar, and I’m officially open to new opportunities — where I can combine community, data, and innovation to make a real impact. Over the past few years, I’ve realized something powerful: every product, campaign, or event is only as strong as the people who believe in it. And I’ve spent my career helping people believe in ideas, adopt technology, and build meaningful ecosystems. 🌍 My Journey My story began in India, where curiosity led me to study Computer Engine",
+      "url": "https://dev.to/pavan_kumarmukkera_527ab/im-open-to-building-whats-next-my-journey-so-far-2l0p",
+      "source": "Dev.to",
+      "author": "PAVAN KUMAR MUKKERA",
+      "published": "2025-10-31T18:23:30+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "5d0b29916eea5451",
+      "title": "CinemaSins: Everything Wrong With Frankenweenie In 14 Minutes Or Less",
+      "description": "Everything Wrong With Frankenweenie In 14 Minutes Or Less is a new CinemaSins video where the team lovingly roasts Tim Burton’s Frankenweenie, tallying every “sin” while celebrating the film’s charm now back in theaters. Their signature snark (and plenty of Franky-boy jokes) keeps it fun for die-hard fans and newcomers alike. The description also points viewers to even more content—CinemaSins’ website, YouTube channels (@TVSins, @CommercialSins), social hubs (Discord, Reddit, Instagram, TikTok),",
+      "url": "https://dev.to/popcorn_movies/cinemasins-everything-wrong-with-frankenweenie-in-14-minutes-or-less-48l0",
+      "source": "Dev.to",
+      "author": "Movie News",
+      "published": "2025-10-31T18:12:21+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "8c9706ebaeca8b91",
+      "title": "Bryan Bros Golf: Can We Make Cut in Return to Pro Golf? (International Series)",
+      "description": "Can We Make the Cut in Our Return to Pro Golf? The Bryan Bros are back on the course, teeing off in an Asian Tour International Series event and wondering if they can survive the cut on their return to pro golf. Along the way, they’re keeping fans in the loop with behind-the-scenes updates via their newsletter, Discord community, and live streams on Twitch. They’ve also lined up all their favorite gear sponsors—Foresight Sports launch monitors, Bushnell laser rangefinders, LAB Putters, Takomo cl",
+      "url": "https://dev.to/youtube_golf/bryan-bros-golf-can-we-make-cut-in-return-to-pro-golf-international-series-547e",
+      "source": "Dev.to",
+      "author": "YouTube Golf",
+      "published": "2025-10-31T18:08:13+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "cb2142d44316096b",
+      "title": "Why DFS Topological Sort Writes Nodes on Backtracking",
+      "description": "Let us have two components, A and B. We traverse A first and then move on to B such that, while visiting B, we find an edge B → A (remember that we have already traversed A). So whatever component we traverse after A must appear before A in the final output — like B, A — so that if we get an edge B → A, it satisfies the rules of topological sorting. But in an array, we can only insert efficiently at the end (inserting at the front is costly). So we just keep inserting at the end, getting somethi",
+      "url": "https://dev.to/haris_abdullah_b8fc481573/why-dfs-topological-sort-writes-nodes-on-backtracking-2p34",
+      "source": "Dev.to",
+      "author": "Haris Abdullah",
+      "published": "2025-10-31T18:03:58+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "72e9f66224f588bc",
+      "title": "CinemaSins: Everything Wrong With Sinners In 15 Minutes Or Less",
+      "description": "Everything Wrong With Sinners In 15 Minutes Or Less CinemaSins just hit us with a Halloween-themed roast of Sinners, cheerfully calling it one of the greatest genre flicks ever… and then gleefully nitpicking every moment in under 15 minutes. Expect the usual pun-laden sins, spooky Easter eggs, and their signature “so bad it’s good” deep dive. Wanna join the fun? Head to cinemasins.com for more videos, check out TVSins, CommercialSins and the CinemaSins Podcast Network on YouTube, drop your thoug",
+      "url": "https://dev.to/popcorn_movies/cinemasins-everything-wrong-with-sinners-in-15-minutes-or-less-50c5",
+      "source": "Dev.to",
+      "author": "Movie News",
+      "published": "2025-10-31T18:02:32+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "d8bd8a65fa6ece9e",
+      "title": "Mr Sunday Movies: Predator - Caravan of Garbage",
+      "description": "Caravan of Garbage kicks off a four-week deep-dive into the Predator franchise with the 1987 classic starring Arnold Schwarzenegger, and they’re not holding back – calling it the ultimate ’80s action-sci-fi mash-up, complete with big muscles, mud, lasers, explosions and an invisible alien. For more nerdy goodness, they’ve got an extended audio edition, bonus podcasts, movie commentaries and Let’s Plays on bigsandwich.co, plus all the usual subscribe links, Twitter handles, Patreon and merch hook",
+      "url": "https://dev.to/popcorn_movies/mr-sunday-movies-predator-caravan-of-garbage-19cc",
+      "source": "Dev.to",
+      "author": "Movie News",
+      "published": "2025-10-31T18:02:18+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "80ce59db68b434dd",
+      "title": "Disable antivirus real-time monitoring with PowerShell",
+      "description": "This is analog of TURBO button of modern days. # Get the ID and security principal of the current user account $myWindowsID = [System.Security.Principal.WindowsIdentity]::GetCurrent() $myWindowsPrincipal = new-object System.Security.Principal.WindowsPrincipal($myWindowsID) # Get the security principal for the Administrator role $adminRole = [System.Security.Principal.WindowsBuiltInRole]::Administrator # Check to see if we are currently running \"as Administrator\" if ($myWindowsPrincipal.IsInRole(",
+      "url": "https://dev.to/stasberkov/disable-antivirus-real-time-monitoring-with-powershell-1cje",
+      "source": "Dev.to",
+      "author": "Stanislav Berkov",
+      "published": "2025-10-31T18:01:45+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "7733766b45cc4371",
       "title": "Check out the guide on - Tableau Sales Dashboard Performance: The Art of Turning Data into Decisions",
       "description": "Tableau Sales Dashboard Performance: The Art of Turning Data into Decisions Anshuman ・ Oct 25",
@@ -8292,6 +8245,20 @@
       "score": 48,
       "keywords": [
         "programming"
+      ]
+    },
+    {
+      "id": "e3abaf8017d05705",
+      "title": "TypeScript and JavaScript dominate on GitHub in 2025",
+      "description": "#​759 — October 31, 2025 Read on the Web JavaScript Weekly Directives and the Platform Boundary — First there was the \"use strict\" directive to opt in to strict mode in JavaScript, but now you’ll encounter use client, use server, React's new use no memo, and more, and they're not standard JS features at all. Tanner thinks this proliferation of directives comes at a cost, with an increased risk of framework and tooling lock-in. Tanner Linsley (TanStack) Add Excel-like Spreadsheet Functionality to",
+      "url": "https://javascriptweekly.com/issues/759",
+      "source": "JavaScript Weekly",
+      "author": "Inconnu",
+      "published": "2025-10-31T00:00:00+00:00",
+      "niche": "dev",
+      "score": 48,
+      "keywords": [
+        "framework"
       ]
     },
     {
@@ -8506,6 +8473,20 @@
       ]
     },
     {
+      "id": "7e83c72c45a2e91e",
+      "title": "x86 architecture 1 byte opcodes",
+      "description": "Comments",
+      "url": "https://www.sandpile.org/x86/opc_1.htm",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-31T17:49:16+00:00",
+      "niche": "dev",
+      "score": 45,
+      "keywords": [
+        "code"
+      ]
+    },
+    {
       "id": "dfb636a007e6cfbc",
       "title": "TextEdit and the relief of simple software",
       "description": "Comments",
@@ -8513,18 +8494,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-10-24T20:25:58+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "5e0db9743bb0f059",
-      "title": "How to make a Smith chart",
-      "description": "Comments",
-      "url": "https://www.johndcook.com/blog/2025/10/23/smith-chart/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-24T17:18:17+00:00",
       "niche": "dev",
       "score": 44,
       "keywords": []
@@ -10390,6 +10359,42 @@
       "keywords": []
     },
     {
+      "id": "63c9fd85d8faebfb",
+      "title": "AI scrapers request commented scripts",
+      "description": "Comments",
+      "url": "https://cryptography.dog/blog/AI-scrapers-request-commented-scripts/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-31T15:44:19+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "b796b7c763331c20",
+      "title": "Another European agency shifts off US Tech as digital sovereignty gains steam",
+      "description": "Comments",
+      "url": "https://www.zdnet.com/article/another-european-agency-ditches-big-tech-as-digital-sovereignty-movement-gains-steam/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-31T16:39:22+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "25a83d1d65314976",
+      "title": "Pangolin (YC S25) Is Hiring a Full Stack Software Engineer (Open-Source)",
+      "description": "Comments",
+      "url": "https://docs.pangolin.net/careers/software-engineer-full-stack",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-31T17:00:37+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "78c4b08725d5f56b",
       "title": "React 19 Upgrade Guide",
       "description": "The improvements added to React 19 require some breaking changes, but we've worked to make the upgrade as smooth as possible and we don't expect the changes to impact most apps. In this post, we will guide you through the steps for upgrading apps and libraries to React 19.",
@@ -10471,18 +10476,6 @@
       "keywords": [
         "React 19"
       ]
-    },
-    {
-      "id": "2f15ea130e2b63cd",
-      "title": "The Human Side of the Interface: Abhishek Jha’s Art of Storytelling Through Design",
-      "description": "From experimental portfolios to award-winning websites, Abhishek Jha shares how curiosity and emotion shape his creative process.",
-      "url": "https://tympanus.net/codrops/2025/10/24/the-human-side-of-the-interface-abhishek-jhas-art-of-storytelling-through-design/",
-      "source": "Codrops",
-      "author": "Abhishek Jha",
-      "published": "2025-10-24T18:32:21+00:00",
-      "niche": "dev",
-      "score": 39,
-      "keywords": []
     },
     {
       "id": "5085cacc1f5407ea",
@@ -10735,8 +10728,8 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "release",
         "React 19",
+        "release",
         "API"
       ]
     },
@@ -10793,6 +10786,22 @@
       ]
     },
     {
+      "id": "d4d71038f88cb258",
+      "title": "5 things you need to know about publishing and distributing your app for Android XR",
+      "description": "Posted by Jan Kleinert, Android Developer Relations Engineer Samsung Galaxy XR is here, powered by Android XR! This blog post is part of our Android XR Spotlight Week, where we provide resources—blog posts, videos, sample code, and more—all designed to help you learn, build, and prepare your apps for Android XR.   Today, we're focusing on one of the last steps in your development journey, ensuring these experiences successfully reach your users. Publishing correctly ensures your app is packaged ",
+      "url": "https://android-developers.googleblog.com/2025/10/5-things-you-need-to-know-about.html",
+      "source": "Android Developers Blog",
+      "author": "Birna (noreply@blogger.com)",
+      "published": "2025-10-24T09:00:00-07:00",
+      "niche": "dev",
+      "score": 36,
+      "keywords": [
+        "development",
+        "developer",
+        "code"
+      ]
+    },
+    {
       "id": "41ea7d009ffcfdf3",
       "title": "React Native 0.78 - React 19 and more",
       "description": "Today we are excited to release React Native 0.78!",
@@ -10803,8 +10812,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10835,18 +10844,6 @@
         "framework",
         "API"
       ]
-    },
-    {
-      "id": "f6b7cb244254966c",
-      "title": "Typst's Math Mode Problem",
-      "description": "Comments",
-      "url": "https://laurmaedje.github.io/posts/math-mode-problem/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-24T18:12:10+00:00",
-      "niche": "dev",
-      "score": 32,
-      "keywords": []
     },
     {
       "id": "7714ac09fabea72d",
@@ -10901,21 +10898,6 @@
       ]
     },
     {
-      "id": "abbbc4f6937ee045",
-      "title": "React 19.2 is in the building",
-      "description": "#​755 — October 3, 2025 Read on the Web JavaScript Weekly The State of JavaScript 2025 Survey — Each year, Devographics runs an epic survey of as many JavaScript community members as it can and turns the results into an interesting report on the state of the ecosystem – here’s the results from 2024. If you have the time, fill it in, especially as they format it in a way where you can actually learn about stuff as you go. Devographics React 19.2 Released — The third release in a year for React, t",
-      "url": "https://javascriptweekly.com/issues/755",
-      "source": "JavaScript Weekly",
-      "author": "Inconnu",
-      "published": "2025-10-03T00:00:00+00:00",
-      "niche": "dev",
-      "score": 30,
-      "keywords": [
-        "release",
-        "React 19"
-      ]
-    },
-    {
       "id": "50c0bccfc929899d",
       "title": "React Compiler v1.0",
       "description": "We are releasing the compiler's first stable release today.",
@@ -10942,9 +10924,9 @@
       "keywords": [
         "code",
         "framework",
+        "release",
         "API",
-        "performance",
-        "release"
+        "performance"
       ]
     },
     {
@@ -11010,20 +10992,6 @@
       ]
     },
     {
-      "id": "c61055c166ec0c9d",
-      "title": "Why I code as a CTO",
-      "description": "Comments",
-      "url": "https://www.assembled.com/blog/why-i-code-as-a-cto",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-24T16:03:53+00:00",
-      "niche": "dev",
-      "score": 27,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
       "id": "d0cb1f493b7a45f3",
       "title": "Tailwind CSS in React and Next.js: A Complete Setup Guide",
       "description": "Complete setup guide for React and Next.js, covering both stable v3 and the new, faster v4 architecture. Includes component patterns & troubleshooting. Continue reading Tailwind CSS in React and Next.js: A Complete Setup Guide on SitePoint.",
@@ -11048,18 +11016,6 @@
       "keywords": [
         "release"
       ]
-    },
-    {
-      "id": "239a2e74654ac36d",
-      "title": "Validating Your Ideas on Strangers",
-      "description": "Comments",
-      "url": "https://jeremyaboyd.com/post/validating-your-ideas-on-strangers",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-24T16:48:23+00:00",
-      "niche": "dev",
-      "score": 26,
-      "keywords": []
     },
     {
       "id": "6f8b5b0378889857",
@@ -11165,6 +11121,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-10-30T00:37:33+00:00",
+      "niche": "dev",
+      "score": 26,
+      "keywords": []
+    },
+    {
+      "id": "27c830dcfcb21056",
+      "title": "Introducing architecture variants",
+      "description": "Comments",
+      "url": "https://discourse.ubuntu.com/t/introducing-architecture-variants-amd64v3-now-available-in-ubuntu-25-10/71312",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-30T10:35:00+00:00",
       "niche": "dev",
       "score": 26,
       "keywords": []
@@ -11292,8 +11260,8 @@
       "niche": "dev",
       "score": 25,
       "keywords": [
-        "release",
         "framework",
+        "release",
         "Angular"
       ]
     },
@@ -11376,8 +11344,8 @@
       "niche": "dev",
       "score": 22,
       "keywords": [
-        "release",
         "development",
+        "release",
         "performance"
       ]
     },
@@ -11419,8 +11387,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "framework"
+        "framework",
+        "release"
       ]
     },
     {
@@ -11434,8 +11402,8 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "developer",
         "code",
+        "developer",
         "performance"
       ]
     },
@@ -11654,6 +11622,20 @@
       ]
     },
     {
+      "id": "a38d5f421b1a7039",
+      "title": "Qu'est ce que le RLVR -- Reinforcement Learning from Verifiable Rewards",
+      "description": "Le Reinforcement Learning from Verifiable Rewards entraîne les LLMs à optimiser plutôt qu'imiter. Sur des tâches vérifiables (maths, code), les modèles explorent et découvrent des stratégies émergentes. Guide complet: algorithmes GRPO/PPO, applications, environnements, limites et bonnes pratiques.",
+      "url": "https://blog.octo.com/qu'est-ce-que-le-rlvr-reinforcement-learning-from-verifiable-rewards-1",
+      "source": "Blog Technique Octo",
+      "author": "Teilo Millet",
+      "published": "2025-10-24T16:55:10+00:00",
+      "niche": "dev",
+      "score": 15,
+      "keywords": [
+        "code"
+      ]
+    },
+    {
       "id": "a6011441ce32c83f",
       "title": "Mettre en place un assistant de code souverain",
       "description": "En un temps record, les assistants de code ont changé de dimension jusqu’à devenir incontournables. L’essor de l’offre ouvre la perspective d’assistants souverains à base de composants standard. Cet article vous donnes les critères et vous guide dans l'assemblage de l'assistant de code souverain adapté à vos besoins.",
@@ -11699,18 +11681,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-10-24T23:18:14+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "2410bb710a7cc678",
-      "title": "Beyond RaspberryPi: What are all the other SoC vendors up to *summarised*",
-      "description": "Comments",
-      "url": "https://sbcwiki.com/news/articles/state-of-embedded-q4-25/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-24T17:52:20+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -11783,6 +11753,30 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-10-25T13:46:35+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "4696d43899c9e7aa",
+      "title": "Lording it, over: A new history of the modern British aristocracy",
+      "description": "Comments",
+      "url": "https://newcriterion.com/article/lording-it-over/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-25T20:27:16+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "96f310295a95f632",
+      "title": "It's the \"hardware\", stupid",
+      "description": "Comments",
+      "url": "https://haebom.dev/archive?post=4w67rj24q76nrm5yq8ep",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-25T07:54:33+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -11978,8 +11972,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "programming",
-        "development"
+        "development",
+        "programming"
       ]
     },
     {
@@ -12383,8 +12377,8 @@
       "niche": "dev",
       "score": 11,
       "keywords": [
-        "release",
-        "code"
+        "code",
+        "release"
       ]
     },
     {
@@ -12493,6 +12487,18 @@
       "published": "2023-01-01T00:00:00+00:00",
       "niche": "dev",
       "score": 10,
+      "keywords": []
+    },
+    {
+      "id": "2f15ea130e2b63cd",
+      "title": "The Human Side of the Interface: Abhishek Jha’s Art of Storytelling Through Design",
+      "description": "From experimental portfolios to award-winning websites, Abhishek Jha shares how curiosity and emotion shape his creative process.",
+      "url": "https://tympanus.net/codrops/2025/10/24/the-human-side-of-the-interface-abhishek-jhas-art-of-storytelling-through-design/",
+      "source": "Codrops",
+      "author": "Abhishek Jha",
+      "published": "2025-10-24T18:32:21+00:00",
+      "niche": "dev",
+      "score": 9,
       "keywords": []
     },
     {
