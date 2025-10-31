@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-10-31T09:26:50.265566+00:00",
-  "total_articles": 984,
+  "last_updated": "2025-10-31T12:50:53.747175+00:00",
+  "total_articles": 980,
   "articles": [
     {
       "id": "b7086dbf6e29731d",
@@ -67,22 +67,6 @@
         "REST API",
         "Spring",
         "API"
-      ]
-    },
-    {
-      "id": "3a4f264a8ced9abf",
-      "title": "This Week In React #255 : Next.js, RSC, shadcn, TanStack, 3D, Fumadocs | Solito, Expo, MMKV, ImGui | Node.js, Vitest",
-      "description": "Hi everyone! This week we have a lot of interesting content about Next.js, with a new major release dropping just before their flagship conf. But also fair cricitisms showing that not everyone is satisfied with the framework. On the mobile side, React Native developers will enjoy improved support for iOS 26 and the ability to provide native iOS header items. BottomTabs is now v1, and Solito v5 dropped with a paradigm change. Let’s also welcome a new co-author of this newsletter: Armand Petit hel",
-      "url": "https://dev.to/sebastienlorber/this-week-in-react-255-nextjs-rsc-shadcn-tanstack-3d-fumadocs-solito-expo-mmkv-imgui-1m40",
-      "source": "Dev.to",
-      "author": "Sebastien Lorber",
-      "published": "2025-10-24T12:36:21+00:00",
-      "niche": "dev",
-      "score": 76,
-      "keywords": [
-        "developer",
-        "framework",
-        "release"
       ]
     },
     {
@@ -323,6 +307,20 @@
       "score": 72,
       "keywords": [
         "Spring"
+      ]
+    },
+    {
+      "id": "4f274183bb27803c",
+      "title": "OpenAI's Browser is here… and 7 more things that shipped this week",
+      "description": "It’s time for another round of tech news. OpenAI released Atlas. A full-fledged web browser that bakes ChatGPT right into the interface. It’s designed to let you browse, search, and summarize pages inside the same window, powered by GPT-4o-mini. Imagine Chrome, but every tab comes with its own assistant. It’s Mac-only for now, with Windows coming later, and yes, it uses Chromium under the hood. But not everything’s shiny — early testers already found that the browser might be more vulnerable tha",
+      "url": "https://dev.to/fabianfrankwerner/openais-browser-is-here-and-7-more-things-that-shipped-this-week-p2c",
+      "source": "Dev.to",
+      "author": "Fabian Frank Werner",
+      "published": "2025-10-31T12:35:26+00:00",
+      "niche": "dev",
+      "score": 72,
+      "keywords": [
+        "release"
       ]
     },
     {
@@ -799,18 +797,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "af26d0362947631d",
-      "title": "Twake Drive – An open-source alternative to Google Drive",
-      "description": "Comments",
-      "url": "https://github.com/linagora/twake-drive",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-24T10:16:25+00:00",
-      "niche": "dev",
-      "score": 62,
-      "keywords": []
     },
     {
       "id": "d8ff508e300a66ff",
@@ -1635,21 +1621,6 @@
       ]
     },
     {
-      "id": "5ce77e35da5f7b8a",
-      "title": "Email Validation and SMTP Handshake With Go",
-      "description": "I was implementing a signup endpoint for an API where users can register via email. There are many ways to verify an email address. You could use a popular library like go-playground/validator to check if the input is in an email format. However, this doesn't confirm if the email address actually exists or if its domain can receive mail. If you prefer not to use regex or an external package, Go's standard library offers the net/mail package to validate an email address format. This approach is g",
-      "url": "https://dev.to/joybtw/email-validation-and-smtp-handshake-with-go-39gp",
-      "source": "Dev.to",
-      "author": "Joy Biswas",
-      "published": "2025-10-24T12:47:29+00:00",
-      "niche": "dev",
-      "score": 57,
-      "keywords": [
-        "library",
-        "API"
-      ]
-    },
-    {
       "id": "c92c1c57f064a65e",
       "title": "Advanced Patterns for Symfony HttpClient: Streaming, Retry, and Resilience",
       "description": "If you’ve worked with Symfony, you’ve used symfony/http-client. You’ve run $client->request(‘GET’, …) and $response->toArray(). This is the bread and butter of API consumption, and it works beautifully for simple use cases. But modern applications aren’t simple. They’re distributed, asynchronous, and expected to be resilient. What happens when you need to: Fetch 100 API endpoints without waiting 30 seconds? Consume a 500MB JSON file without hitting your memory limit? Handle an API that flakes ou",
@@ -1784,6 +1755,21 @@
         "code",
         "developer",
         "release"
+      ]
+    },
+    {
+      "id": "0e4e946a95d9ac5c",
+      "title": "# 🚀 Introducing `vite-plugin-optimize-videos` — Optimize Your Videos at Build Time",
+      "description": "I originally built this library to solve a specific problem at a company I was working for. The idea turned out so well that I decided to turn it into an open-source library! vite-plugin-optimize-videos automatically optimizes your videos during the build process, helping reduce file sizes and improve overall performance — all seamlessly integrated with Vite.js. At the moment, it’s built specifically for Vite, but I’m open to suggestions and collaborations to make it even better. 💡 Feel free to ",
+      "url": "https://dev.to/jaymes/-introducing-vite-plugin-optimize-videos-optimize-your-videos-at-build-time-4jil",
+      "source": "Dev.to",
+      "author": "Jaymes Costa",
+      "published": "2025-10-31T12:35:54+00:00",
+      "niche": "dev",
+      "score": 57,
+      "keywords": [
+        "library",
+        "performance"
       ]
     },
     {
@@ -2324,17 +2310,18 @@
       ]
     },
     {
-      "id": "3413b2d5b46ad2d7",
-      "title": "Crypto Real-Time Data Pipeline",
-      "description": "Crypto Real-Time Data Pipeline A comprehensive real-time data pipeline that pulls cryptocurrency data from Binance API, stores it in MySQL (Aiven), replicates changes to Cassandra via CDC (Debezium), and visualizes metrics using Grafana. Architecture Overview Binance API → Python ETL → MySQL (Aiven) → Debezium CDC → Kafka → Python Consumer → Cassandra → Grafana Components Binance API: Real-time crypto market data source MySQL (Aiven): Primary relational database with SSL Debezium: Change Data Ca",
-      "url": "https://dev.to/lagat_josiah_f024a2c855bc/crypto-real-time-data-pipeline-1c2",
+      "id": "29ab7ae993b04bbd",
+      "title": "Performance Issues in Web Services: A Practical Guide to Identification and Resolution",
+      "description": "In the realm of web development, performance is frequently treated as an afterthought—a quality to be optimised after core functionality is delivered. This approach, however, is fundamentally flawed. Performance is not a feature; it is a foundational requirement, as critical as security, accessibility, or functional correctness. Clients may not explicitly demand a response time of ‘X milliseconds,’ but they will undoubtedly express dissatisfaction if a site feels sluggish or unresponsive. This g",
+      "url": "https://dev.to/byteminds/performance-issues-in-web-services-a-practical-guide-to-identification-and-resolution-226g",
       "source": "Dev.to",
-      "author": "Lagat Josiah",
-      "published": "2025-10-24T12:23:14+00:00",
+      "author": "Byteminds Agency",
+      "published": "2025-10-31T12:25:31+00:00",
       "niche": "dev",
-      "score": 54,
+      "score": 55,
       "keywords": [
-        "API"
+        "development",
+        "performance"
       ]
     },
     {
@@ -3420,6 +3407,20 @@
       ]
     },
     {
+      "id": "a9b7e7108243bd5f",
+      "title": "Worker Pools in Go: The Minimal Pattern I Use for High-Efficiency Concurrency",
+      "description": "Ever felt that surge of panic when you have 10,000 tasks to run? Maybe you're processing images, hitting thousands of API endpoints, or handling data streams from an IoT device (a regular task in my AI/IoT projects). Your first instinct in Go is: \"Easy! I'll just spin up a goroutine for each!\" // The \"Oh No\" Pattern for _, task := range tasks { go processTask(task) } ...And just like that, you've accidentally DDOSed your own database, hit every rate limit imaginable, or maxed out your CPU. I’ve ",
+      "url": "https://dev.to/evgeny_pantela/worker-pools-in-go-the-minimal-pattern-i-use-for-high-efficiency-concurrency-ein",
+      "source": "Dev.to",
+      "author": "Evgeny Pantela",
+      "published": "2025-10-31T12:20:43+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "API"
+      ]
+    },
+    {
       "id": "62704fc75ed7af34",
       "title": "Introducing Solana Instruction MCP — A Game-Changing Tool for Solana Developers",
       "description": "I had the honor of meeting the author of this project during the Chengdu HackHouse, and after testing the Solana Instruction MCP, I was genuinely blown away. This project is so impactful that it would be a real loss for the Solana and AI developer community if it goes unnoticed. So, I decided to write this article to introduce how to install and use this powerful MCP. ⚙️ Note This guide currently supports only Linux and macOS users. Instructions for IDE integrations (e.g., VS Code) will be added",
@@ -3900,73 +3901,33 @@
       ]
     },
     {
-      "id": "8ec90562be579659",
-      "title": "Master Java Read Files: Your No-Fluff Guide to File Handling in Java",
-      "description": "Master Java Read Files: Your No-Fluff Guide to File Handling Alright, let's talk about something that is literally everywhere in the world of software: Files. Config files, data dumps, user uploads, logs—you name it. If you're a Java developer, knowing how to read files isn't just a \"nice-to-have\" skill; it's absolutely essential. But let's be real. Java has, like, a million ways to read a file. FileReader, BufferedReader, Scanner, Files.readAllLines()... it's enough to make your head spin. Whic",
-      "url": "https://dev.to/satyam_gupta_0d1ff2152dcc/master-java-read-files-your-no-fluff-guide-to-file-handling-in-java-a37",
+      "id": "0856aee2f172b2bc",
+      "title": "💡Open Source, Open Mind: My Hacktoberfest 2025 Reflection as a First-Time Contributor",
+      "description": "This is a submission for the 2025 Hacktoberfest Writing Challenge: Open Source Reflections. 🌍 Beginning the Journey: My First Step into Open Source This October marked my very first Hacktoberfest, and it was more than just a coding event — it was a door into a world where collaboration, communication, and curiosity define real development. As a first-time contributor, I started with hesitation. Would my code be good enough? Would maintainers even respond? But once I submitted my first pull reque",
+      "url": "https://dev.to/tanvirmulla11/open-source-open-mind-my-hacktoberfest-2025-reflection-as-a-first-time-contributor-5446",
       "source": "Dev.to",
-      "author": "Satyam Gupta",
-      "published": "2025-10-24T12:39:36+00:00",
+      "author": "Tanvir Mulla",
+      "published": "2025-10-31T12:35:45+00:00",
       "niche": "dev",
-      "score": 51,
+      "score": 52,
       "keywords": [
-        "developer"
+        "code",
+        "development"
       ]
     },
     {
-      "id": "803bf7f9f602b2c8",
-      "title": "Day 69 : Meta Arguments in Terraform",
-      "description": "A. two ready-to-run Terraform examples (one count demo, one for_each demo), B. step-by-step instructions to run and inspect results, C. a clear explanation of meta-arguments and best practices, and (D) cleanup & cost warnings. Replace (AMI, region, key name, etc.) before running. Quick safety note: the AWS EC2 examples will create real instances that can incur cost. If you only want to experiment without charges, use the local_file or null_resource variants (I include a lightweight local demo be",
-      "url": "https://dev.to/udoh_deborah_b1e484c474bf/day-69-meta-arguments-in-terraform-4ead",
+      "id": "f79ab17810ccabb1",
+      "title": "🌱 My First Hacktoberfest: How Open Source Changed the Way I See Code",
+      "description": "This is a submission for the 2025 Hacktoberfest Writing Challenge: Contribution Chronicles. 🎉 My First Step into the Open Source Universe This October, I did something I’d been planning for years — I participated in Hacktoberfest 2025, my first ever open-source event. 🌍 I didn’t know what to expect. I just knew one thing — it was time to stop being a spectator and start being a contributor. 🧠 Before It All Began Before Hacktoberfest, I had only worked on personal projects and tutorials. I’d seen",
+      "url": "https://dev.to/tanvirmulla11/my-first-hacktoberfest-how-open-source-changed-the-way-i-see-code-45p6",
       "source": "Dev.to",
-      "author": "Udoh Deborah",
-      "published": "2025-10-24T12:31:51+00:00",
+      "author": "Tanvir Mulla",
+      "published": "2025-10-31T12:24:28+00:00",
       "niche": "dev",
-      "score": 51,
+      "score": 52,
       "keywords": [
-        "best practices"
-      ]
-    },
-    {
-      "id": "b2703e4bb8f9c1a5",
-      "title": "Inside the Engine: Building a Real AI Solution from Prototype to Production",
-      "description": "Artificial Intelligence (AI) is transforming industries, from healthcare diagnostics to financial forecasting and analysis. This article explores the journey of developing a generic AI solution to solve real-world problems, aligning with the latest AI trends, standards, and best practices. We’ll cover technical challenges, architectural decisions, and actionable insights. Vision to Prototype: Laying the Foundation Every AI solution begins with a clear vision to tackle a specific challenge, such ",
-      "url": "https://dev.to/capestart/inside-the-engine-building-a-real-ai-solution-from-prototype-to-production-1k0",
-      "source": "Dev.to",
-      "author": "CapeStart",
-      "published": "2025-10-24T12:30:23+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "best practices"
-      ]
-    },
-    {
-      "id": "22196896cdef0348",
-      "title": "How Neurolov Engineered a Decentralized Supercloud Before Token Launch",
-      "description": "In the Web3 ecosystem, many teams launch tokens before demonstrating real-world traction. This approach often leads to hype without sustainability. Neurolov took the opposite route — building a decentralized compute infrastructure that proved itself before introducing any token. The project’s approach offers valuable lessons for developers and builders exploring DePIN (Decentralized Physical Infrastructure Networks) and distributed compute systems. Building Infrastructure Before Incentives Inste",
-      "url": "https://dev.to/neurolov__ai/how-neurolov-engineered-a-decentralized-supercloud-before-token-launch-28pi",
-      "source": "Dev.to",
-      "author": "Neurolov AI",
-      "published": "2025-10-24T12:30:18+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "developer"
-      ]
-    },
-    {
-      "id": "f454f783cc946327",
-      "title": "Qu'est ce que le RLVR (Reinforcement Learning from Verifiable Rewards)",
-      "description": "Le Reinforcement Learning from Verifiable Rewards entraîne les LLMs à optimiser plutôt qu'imiter. Sur des tâches vérifiables (maths, code), les modèles explorent et découvrent des stratégies émergentes. Guide complet: algorithmes GRPO/PPO, applications, environnements, limites et bonnes pratiques.",
-      "url": "https://blog.octo.com/qu'est-ce-que-le-rlvr-(reinforcement-learning-from-verifiable-rewards)",
-      "source": "Blog Technique Octo",
-      "author": "Teilo Millet",
-      "published": "2025-10-24T11:04:10+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
+        "code",
+        "tutorial"
       ]
     },
     {
@@ -5259,40 +5220,18 @@
       ]
     },
     {
-      "id": "9a44ed27e84bccd5",
-      "title": "Writing and Running Unit Tests in Autotools",
-      "description": "Introduction If your project is like others, you’ll probably have a util.h and util.c files containing general utility functions. For example, suppose you want a function strnspn that’s like strspn() except limits the number of characters checked to n: size_t strnspn( char const *s, char const *charset, size_t n ); For such fundamental functions, you want to ensure they work correctly in all cases, including degenerate cases, so that if your program has a bug, you can reasonably rule out the bug",
-      "url": "https://dev.to/pauljlucas/writing-and-running-unit-tests-in-autotools-1ob2",
+      "id": "27c7f49f4cd07f12",
+      "title": "How to Evaluate a Developer’s Capability to Implement AI Automation in Business Workflows",
+      "description": "We are moving towards tech tech-driven year 2026, and now a developer’s capability to implement AI automation is not defined by coding skills alone. The true test lies in how well they connect AI technology with business objectives to deliver measurable results. You can consider the following points in evolving developers’ capabilities to implement ai automation in business workflows. 1. Technical Foundation A capable developer should have hands-on experience with tools such as LangChain, OpenAI",
+      "url": "https://dev.to/smit_gohel/how-to-evaluate-a-developers-capability-to-implement-ai-automation-in-business-workflows-a86",
       "source": "Dev.to",
-      "author": "Paul J. Lucas",
-      "published": "2025-10-24T12:43:57+00:00",
+      "author": "Smit Gohel",
+      "published": "2025-10-31T12:29:50+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "1d8b03a98bcbb55b",
-      "title": "DNS Block‑Rate Report",
-      "description": "Purpose: Capture the architecture, basic operation, and recent statistics of my self‑hosted DNS filtering setup. Overview I’ve been running my own DNS resolver for the past ≈ 2 years. It’s a hobby‑grade service deployed on servers in several regions, heavily customized to stay reliable on diverse networks and ISP environments. Whenever the resolver is rolled out to a new region, I manually update the blocklist with region‑specific ads and trackers. I’ve recently started collecting statistics for",
-      "url": "https://dev.to/jundata/dns-block-rate-report-594g",
-      "source": "Dev.to",
-      "author": "Jun",
-      "published": "2025-10-24T12:36:34+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "9ab10802f763686f",
-      "title": "AWS us-east-1 outage: How Ably’s multi-region architecture held up",
-      "description": "Resilience in action: zero service disruption During this week’s AWS us-east-1 outage, Ably maintained full service continuity with no customer impact. This was our multi-region architecture working exactly as designed; error rates were negligibly low and unchanged throughout. Any additional round trip latency was limited to 12ms, which is below the typical variance in any client-to-endpoint connection, and well below our 40–50ms global median; this is imperceptible to users and below monitoring",
-      "url": "https://dev.to/ably/aws-us-east-1-outage-how-ablys-multi-region-architecture-held-up-15mk",
-      "source": "Dev.to",
-      "author": "Ably Blog",
-      "published": "2025-10-24T12:24:17+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
       "id": "887c772e7aa8ecf4",
@@ -8227,6 +8166,42 @@
       "keywords": []
     },
     {
+      "id": "1875ef3439278a0f",
+      "title": "EIP-7702 Infra Goes Live, Bitget’s Gasless Fees, Base’s Global Finance Vision, Thirdweb’s 4337 Wallets on Hyperliquid",
+      "description": "We are welcoming you to our weekly digest! Here, we discuss the latest trends and advancements in account abstraction, chain abstraction and everything related, as well as bring some insights from Etherspot’s kitchen. The latest news we'll cover: Etherspot Launches Public EIP-7702 Infrastructure to Support Account Abstraction for EOAs Bitget Wallet Brings Cross-Chain Gas Abstraction with EIP-7702 Support Base Aims to Power a Permissionless Financial System with Gas Fees Under $0.01 Thirdweb Inte",
+      "url": "https://dev.to/etherspot/eip-7702-infra-goes-live-bitgets-gasless-fees-bases-global-finance-vision-thirdwebs-4337-ef0",
+      "source": "Dev.to",
+      "author": "Alexandra",
+      "published": "2025-10-31T12:39:20+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "cb56ce9862974b19",
+      "title": "🗂️ Wallet-as-a-Service: Why Building Your Own Wallet Is So 2025",
+      "description": "Let’s be honest - not every fintech or Web3 startup needs to reinvent the wheel (or the wallet). In 2025, Wallet-as-a-Service (WaaS) has become one of the smartest infrastructure choices for businesses that want to integrate crypto without drowning in backend chaos. When I first explored WaaS integrations for a project, I was skeptical. How secure could it really be if someone else manages the private keys? Fast-forward a few months, and I realized something simple but profound - WaaS doesn’t re",
+      "url": "https://dev.to/tanelith/wallet-as-a-service-why-building-your-own-wallet-is-so-2025-3fp1",
+      "source": "Dev.to",
+      "author": "Emir Taner",
+      "published": "2025-10-31T12:32:39+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "5552db35b0864a4e",
+      "title": "How to Recognize a Real vs Fake Cybersecurity Alert",
+      "description": "The digital landscape has become a minefield of deceptive alerts and warnings designed to manipulate users into downloading malware, revealing sensitive information, or spending money on fake security solutions. With the rise of sophisticated social engineering tactics and AI-powered phishing campaigns, distinguishing between legitimate security alerts and malicious imposters has never been more critical. This comprehensive guide will equip you with the knowledge to identify real cybersecurity a",
+      "url": "https://dev.to/deepaksharma/how-to-recognize-a-real-vs-fake-cybersecurity-alert-4eki",
+      "source": "Dev.to",
+      "author": "Deepak Sharma",
+      "published": "2025-10-31T12:26:11+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "51e61639c533c309",
       "title": "👋 Hey DEV community! I'm a Full Stack Developer from Lahore 🇵🇰 with 12+ years in PHP, JS, and WordPress. Currently exploring Python & ML. Excited to share my experiences and learn from you all! 🚀",
       "description": "",
@@ -8239,20 +8214,6 @@
       "keywords": [
         "PHP",
         "developer"
-      ]
-    },
-    {
-      "id": "4f7ab3a16d5ce46a",
-      "title": "ChunkLLM: A Lightweight Pluggable Framework for Accelerating LLMs Inference",
-      "description": "Comments",
-      "url": "https://arxiv.org/abs/2510.02361",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-24T11:41:26+00:00",
-      "niche": "dev",
-      "score": 48,
-      "keywords": [
-        "framework"
       ]
     },
     {
@@ -8471,6 +8432,18 @@
       "keywords": []
     },
     {
+      "id": "56b58f45f92ab854",
+      "title": "Fading Light And Falling Leaves (November 2025 Wallpapers Edition)",
+      "description": "The new month is just around the corner, and that means: It’s time for some new desktop wallpapers! All of them are designed by the community for the community and can be downloaded for free. Enjoy!",
+      "url": "https://smashingmagazine.com/2025/10/desktop-wallpaper-calendars-november-2025/",
+      "source": "Smashing Magazine",
+      "author": "hello@smashingmagazine.com (Cosima Mielke)",
+      "published": "2025-10-31T12:00:00+00:00",
+      "niche": "dev",
+      "score": 46,
+      "keywords": []
+    },
+    {
       "id": "3d36af186f574578",
       "title": "Advent of Code 2025: Number of puzzles reduce from 25 to 12 for the first time",
       "description": "Comments",
@@ -8583,42 +8556,6 @@
       ]
     },
     {
-      "id": "f67e8aa836d9b774",
-      "title": "Mesh2Motion – Open-source web application to animate 3D models",
-      "description": "Comments",
-      "url": "https://mesh2motion.org/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-24T11:01:23+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "c54dc639bc72199d",
-      "title": "Debian Technical Committee overrides systemd change",
-      "description": "Comments",
-      "url": "https://lwn.net/Articles/1041316/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-24T10:07:34+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "e36d5881d2532acb",
-      "title": "Padlet (YC W13) Is Hiring in San Francisco and Singapore",
-      "description": "Comments",
-      "url": "https://padlet.jobs",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-24T12:01:08+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
       "id": "18feb4edcf532e3a",
       "title": "A sharded DuckDB on 63 nodes runs 1T row aggregation challenge in 5 sec",
       "description": "Comments",
@@ -8626,18 +8563,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-10-24T12:54:47+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "dcc993badb0536b6",
-      "title": "Typst 0.14",
-      "description": "Comments",
-      "url": "https://typst.app/blog/2025/typst-0.14/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-24T12:33:10+00:00",
       "niche": "dev",
       "score": 44,
       "keywords": []
@@ -10443,6 +10368,30 @@
       "keywords": []
     },
     {
+      "id": "e4f7165d49dd89e2",
+      "title": "Reasoning Models Reason Well, Until They Don't",
+      "description": "Comments",
+      "url": "https://arxiv.org/abs/2510.22371",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-31T09:23:41+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "a3cb1ab971641b89",
+      "title": "Affinity, targeting office workers over pros, making pro tools the loss leader",
+      "description": "Comments",
+      "url": "https://tedium.co/2025/10/30/canva-affinity-free-loss-leader-strategy/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-31T12:18:35+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "78c4b08725d5f56b",
       "title": "React 19 Upgrade Guide",
       "description": "The improvements added to React 19 require some breaking changes, but we've worked to make the upgrade as smooth as possible and we don't expect the changes to impact most apps. In this post, we will guide you through the steps for upgrading apps and libraries to React 19.",
@@ -11029,11 +10978,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "release",
-        "framework",
-        "API",
+        "code",
         "performance",
-        "code"
+        "API",
+        "framework",
+        "release"
       ]
     },
     {
@@ -11110,20 +11059,6 @@
       "score": 27,
       "keywords": [
         "code"
-      ]
-    },
-    {
-      "id": "54aa0e51e1f99089",
-      "title": "Rouille – Rust Programming, in French",
-      "description": "Comments",
-      "url": "https://github.com/bnjbvr/rouille",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-23T09:43:52+00:00",
-      "niche": "dev",
-      "score": 27,
-      "keywords": [
-        "programming"
       ]
     },
     {
@@ -11273,6 +11208,18 @@
       "keywords": []
     },
     {
+      "id": "0189142a1ebfdf69",
+      "title": "In Orbit You Have to Slow Down to Speed Up",
+      "description": "Comments",
+      "url": "https://www.wired.com/story/in-orbit-you-have-to-slow-down-to-speed-up/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-24T11:55:59+00:00",
+      "niche": "dev",
+      "score": 26,
+      "keywords": []
+    },
+    {
       "id": "d839f1a2454a8fa9",
       "title": "URLPattern is now Baseline Newly available",
       "description": "URLPattern became Baseline Newly available as of September 15, 2025.",
@@ -11395,9 +11342,9 @@
       "niche": "dev",
       "score": 25,
       "keywords": [
-        "release",
         "framework",
-        "Angular"
+        "Angular",
+        "release"
       ]
     },
     {
@@ -11479,8 +11426,8 @@
       "niche": "dev",
       "score": 22,
       "keywords": [
-        "release",
         "development",
+        "release",
         "performance"
       ]
     },
@@ -11522,8 +11469,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "framework"
+        "framework",
+        "release"
       ]
     },
     {
@@ -11537,8 +11484,8 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "code",
         "developer",
+        "code",
         "performance"
       ]
     },
@@ -11568,8 +11515,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
         "developer",
+        "release",
         "API"
       ]
     },
@@ -11584,8 +11531,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
-        "developer"
+        "developer",
+        "release"
       ]
     },
     {
@@ -12011,18 +11958,6 @@
       "keywords": []
     },
     {
-      "id": "52af279d72357e6d",
-      "title": "Intent Prototyping: The Allure And Danger Of Pure Vibe Coding In Enterprise UX (Part 1)",
-      "description": "Yegor Gilyov examines the problem of over-reliance on static high-fidelity mockups, which often leave the conceptual model and user flows dangerously underdeveloped. He then explores whether AI-powered prototyping is the answer, questioning whether the path forward is the popular “vibe coding” approach or a more structured, intent-driven approach.",
-      "url": "https://smashingmagazine.com/2025/09/intent-prototyping-pure-vibe-coding-enterprise-ux/",
-      "source": "Smashing Magazine",
-      "author": "hello@smashingmagazine.com (Yegor Gilyov)",
-      "published": "2025-09-24T17:00:00+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
       "id": "765be3c27e734bb8",
       "title": "Default styles for h1 elements are changing",
       "description": "Browsers are starting to roll out changes in default UA styles for nested section headings. This post describes the incoming changes, how to identify if it's an issue on your websites, and hints for conformant and better-structured pages.",
@@ -12069,8 +12004,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "development",
-        "programming"
+        "programming",
+        "development"
       ]
     },
     {
@@ -12620,6 +12555,18 @@
       "published": "2025-09-26T00:00:00+00:00",
       "niche": "dev",
       "score": 9,
+      "keywords": []
+    },
+    {
+      "id": "0249fcaf513ff56e",
+      "title": "Bertie the Brain",
+      "description": "Comments",
+      "url": "https://en.wikipedia.org/wiki/Bertie_the_Brain",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-24T07:00:57+00:00",
+      "niche": "dev",
+      "score": 8,
       "keywords": []
     },
     {
