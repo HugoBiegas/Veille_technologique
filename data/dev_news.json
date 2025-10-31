@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-10-31T01:53:33.009118+00:00",
-  "total_articles": 986,
+  "last_updated": "2025-10-31T03:46:29.194036+00:00",
+  "total_articles": 984,
   "articles": [
     {
       "id": "b7086dbf6e29731d",
@@ -1651,21 +1651,6 @@
       ]
     },
     {
-      "id": "81eb1c6fae59c9d2",
-      "title": ".NET 9 dropped Swashbuckle — but you can still keep Swagger UI backed by OpenAPI",
-      "description": "So, .NET 9 showed up and decided Swashbuckle’s time in the templates was over. No AddSwaggerGen(), no UseSwagger(), just this new built-in OpenAPI thing that looks minimal and kind of confusing the first time you see it. But here’s the thing — Swagger UI isn’t gone. Microsoft just separated the parts. The framework now generates OpenAPI docs by itself, and you can still pull in Swashbuckle.AspNetCore.SwaggerUI to display them. Basically, you get a native OpenAPI backend with the same good-lookin",
-      "url": "https://dev.to/imzihad21/net-9-dropped-swashbuckle-but-you-can-still-keep-swagger-ui-backed-by-openapi-50j3",
-      "source": "Dev.to",
-      "author": "ZèD",
-      "published": "2025-10-24T03:23:25+00:00",
-      "niche": "dev",
-      "score": 57,
-      "keywords": [
-        "API",
-        "framework"
-      ]
-    },
-    {
       "id": "5ce77e35da5f7b8a",
       "title": "Email Validation and SMTP Handshake With Go",
       "description": "I was implementing a signup endpoint for an API where users can register via email. There are many ways to verify an email address. You could use a popular library like go-playground/validator to check if the input is in an email format. However, this doesn't confirm if the email address actually exists or if its domain can receive mail. If you prefer not to use regex or an external package, Go's standard library offers the net/mail package to validate an email address format. This approach is g",
@@ -1801,6 +1786,23 @@
       ]
     },
     {
+      "id": "a5122e875e2e944e",
+      "title": "Tencent's AI Revolution: How AI Development Is Done Right",
+      "description": "Artificial intelligence isn’t just a buzzword anymore; it’s officially writing half of Tencent’s new code. In its 2025 Tencent R&D Big Data Report, released on October 24 to mark China’s “1024 Programmer Day,” the Chinese tech giant shared some striking numbers that show just how deeply AI has transformed its software development process. AI Becomes Tencent’s New Developer Partner According to the report, 50% of newly written code at Tencent now comes from AI assistance, mainly through its in-ho",
+      "url": "https://dev.to/harris001/tencents-ai-revolution-how-ai-development-is-done-right-1mgc",
+      "source": "Dev.to",
+      "author": "Harris",
+      "published": "2025-10-31T03:18:52+00:00",
+      "niche": "dev",
+      "score": 57,
+      "keywords": [
+        "development",
+        "code",
+        "developer",
+        "release"
+      ]
+    },
+    {
       "id": "b2bfb938bade0929",
       "title": "'Attention is all you need' coauthor says he's 'sick' of transformers",
       "description": "Comments",
@@ -1923,21 +1925,6 @@
         "programming",
         "framework",
         "library"
-      ]
-    },
-    {
-      "id": "c47618a54f912317",
-      "title": "DeepSeek-OCR: The New 'Black Tech' in AI, How It's Changing Our Interaction with AI Models?",
-      "description": "In today's era of rapid artificial intelligence development, Large Language Models (LLMs) are reshaping our interaction with the digital world through their astonishing understanding and generation capabilities. However, a long-standing challenge has been how to efficiently and economically handle ultra-long text contexts. Traditional text tokenization methods face exponentially increasing computational costs when dealing with massive amounts of information, effectively putting \"memory shackles\"",
-      "url": "https://dev.to/baboon/deepseek-ocr-the-new-black-tech-in-ai-how-its-changing-our-interaction-with-ai-models-15mh",
-      "source": "Dev.to",
-      "author": "baboon",
-      "published": "2025-10-24T03:14:02+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "API",
-        "development"
       ]
     },
     {
@@ -2360,34 +2347,6 @@
       "keywords": [
         "API",
         "code"
-      ]
-    },
-    {
-      "id": "a0f43eba6eda84af",
-      "title": "Protege tu aplicación web On-Premises con AWS WAF: Guía paso a paso",
-      "description": "TL;DR: Este artículo te guiará en la implementación de AWS WAF para tus aplicaciones web alojadas en servidores On-Premises. Mostraré paso a paso cómo crear los certificados SSL/TLS, desplegar una distribución de CloudFront protegida por WAF y configurar el enrutamiento DNS necesario para esta implementación, todo ello alineado con el pilar de Seguridad del AWS Well-Architected Framework. 🧱 Tiempo estimado de lectura: 15 minutos Nivel: 300 Versión en inglés: Protect Your On-Premises Web Applicat",
-      "url": "https://dev.to/cbecerra/protege-tu-aplicacion-web-on-premises-con-aws-waf-guia-paso-a-paso-11pj",
-      "source": "Dev.to",
-      "author": "Cristhian Becerra",
-      "published": "2025-10-24T03:15:24+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "framework"
-      ]
-    },
-    {
-      "id": "4280d0dc57295f08",
-      "title": "Protect Your On-Premises Web Application with AWS WAF: A Step-by-Step Guide",
-      "description": "TL;DR: This article will guide you through implementing AWS WAF for your web applications hosted on On-Premises servers. I’ll show step by step how to create SSL/TLS certificates, deploy a CloudFront distribution protected by WAF, and configure the necessary DNS routing for this implementation, all aligned with the Security pillar of the AWS Well-Architected Framework. 🧱 Estimated reading time: 15 minutes Level: 300 Spanish version: Protege tu aplicación web On-Premises con AWS WAF: Guía paso a ",
-      "url": "https://dev.to/cbecerra/protect-your-on-premises-web-application-with-aws-waf-a-step-by-step-guide-50om",
-      "source": "Dev.to",
-      "author": "Cristhian Becerra",
-      "published": "2025-10-24T03:15:22+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "framework"
       ]
     },
     {
@@ -3427,6 +3386,64 @@
       ]
     },
     {
+      "id": "04e9e32b13df3f9e",
+      "title": "Practical Guide: How to Quickly Download Online Images to the Gallery in HarmonyOS",
+      "description": "Read the original article：Practical Guide: How to Quickly Download Online Images to the Gallery in HarmonyOS Contents Preface Feature Overview Core Code Imported Kits UI Button for Download Function for Saving Online Images to the Gallery Function Explanation Notes Preface Hello everyone, I am Ruocheng. This series aims to help developers quickly implement small features during HarmonyOS app development. Note that this series will not provide extensive explanations or complex demonstrations, but",
+      "url": "https://dev.to/harmonyos/practical-guide-how-to-quickly-download-online-images-to-the-gallery-in-harmonyos-338a",
+      "source": "Dev.to",
+      "author": "HarmonyOS",
+      "published": "2025-10-31T03:21:53+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "development",
+        "developer",
+        "code"
+      ]
+    },
+    {
+      "id": "b04e68d1da63ab3c",
+      "title": "Generating a Custom Chakra UI v3 Theme from Design Tokens: A Complete Guide",
+      "description": "A practical, framework-agnostic guide to generating a **Chakra UI v3* theme from Figma design tokens — adaptable to any token format.* Chakra UI v3 introduced a new theming system based on tokens, semantic tokens, conditions, and recipes. While the official docs are great, many teams struggle with automating theme generation from Figma in a scalable, maintainable way. This guide walks you through: The exact structure Chakra UI v3 expects in themeConfig.json What goes into tokens vs semanticToken",
+      "url": "https://dev.to/kiranmantha/generating-a-custom-chakra-ui-v3-theme-from-design-tokens-a-complete-guide-1085",
+      "source": "Dev.to",
+      "author": "Kiran Mantha",
+      "published": "2025-10-31T03:21:00+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "framework"
+      ]
+    },
+    {
+      "id": "1ef64abeb76d0369",
+      "title": "Less is More: 4 design patterns for building better MCP servers",
+      "description": "The Model Context Protocol (MCP) has become the standard for AI agent tool connectivity, adopted by major platforms like OpenAI, Microsoft, and Google. However, it hasn't solved the core challenges of tool hallucination and exponential token costs in production AI systems. The core problem remains: when you expose more tools to an AI agent, performance degrades. Your sales AI agent might struggle with simple tasks like \"get all leads\" while burning through expensive tokens processing irrelevant ",
+      "url": "https://dev.to/klavisai/less-is-more-4-design-patterns-for-building-better-mcp-servers-3gpf",
+      "source": "Dev.to",
+      "author": "Xiangkai Zeng",
+      "published": "2025-10-31T03:08:58+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "performance"
+      ]
+    },
+    {
+      "id": "86286db1c636cee5",
+      "title": "Unlock Peak Performance: Refining MCTS with Action-Aware State Grouping",
+      "description": "Unlock Peak Performance: Refining MCTS with Action-Aware State Grouping Tired of Monte Carlo Tree Search (MCTS) algorithms that bog down as complexity increases? Do you crave faster convergence and better decision-making, but feel stuck with inefficient exploration? Imagine significantly reducing the search space without sacrificing solution quality, achieving dramatic speed improvements. The key lies in identifying and leveraging hidden state equivalences within the search tree. The core concep",
+      "url": "https://dev.to/arvind_sundararajan/unlock-peak-performance-refining-mcts-with-action-aware-state-grouping-50la",
+      "source": "Dev.to",
+      "author": "Arvind SundaraRajan",
+      "published": "2025-10-31T03:02:06+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "performance"
+      ]
+    },
+    {
       "id": "9964e40b434b2170",
       "title": "You Don’t Hate Coding — You Just Hate When It Doesn’t Obey You.",
       "description": "Let’s be honest — most developers don’t actually hate coding. We just hate when our code has trust issues. 😅 You write one clean line and suddenly, the whole app crashes. You fix one bug, and three new ones spawn like it’s a Marvel multiverse. 🕷️ Then you Google the error — and Stack Overflow replies with: “It depends.” 😭 But here’s the truth — if you’ve ever yelled at your laptop, felt like quitting, then came back five minutes later... Congrats — you’re a real developer. 👏 Because coding isn’t",
@@ -3904,34 +3921,6 @@
       "keywords": [
         "development",
         "developer"
-      ]
-    },
-    {
-      "id": "c9ee552c69983d44",
-      "title": "📰 Major Tech News: Oct 24th, 2025",
-      "description": "In the fast-paced world of technology, October 24th brought a mix of corporate partnerships, product announcements, and policy discussions that could shape the coming months. From deepened ties between AI leaders to government moves on emerging computing frontiers, the day's developments highlighted the ongoing push toward more powerful, integrated systems. Here's a closer look at the key stories. Google Deepens AI Collaboration with Anthropic in Massive Chip Deal Alphabet's Google has struck a ",
-      "url": "https://dev.to/om_shree_0709/major-tech-news-oct-24th-2025-4o78",
-      "source": "Dev.to",
-      "author": "Om Shree",
-      "published": "2025-10-24T03:18:22+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "development"
-      ]
-    },
-    {
-      "id": "9a4d918c7de6e0c4",
-      "title": "Solve alias problem in Elixir",
-      "description": "Recently, I must type too much for alias Module for using short name in code(Module name in Elixir is quite long). Problem here is I need to repeat that action over and over. When posted a proposal for solve this problem I receives an advice very valuation from community. I repost the idea in here for people can read and solve problem if that problem is like mine. Define a macro and function for supporting centric all aliases like: defmodule Namespace do @moduledoc \"\"\" This module provides a way",
-      "url": "https://dev.to/manhvanvu/solve-alias-problem-in-elixir-ml9",
-      "source": "Dev.to",
-      "author": "Mạnh Vũ",
-      "published": "2025-10-24T03:04:00+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
       ]
     },
     {
@@ -5308,40 +5297,18 @@
       ]
     },
     {
-      "id": "84799e67b9714f95",
-      "title": "🧠 How We’re Helping Small Businesses 5x Their Revenue with AI Automation",
-      "description": "Hey everyone 👋 We’ve been building some wild AI automation systems for small businesses lately — and the results are beyond expected. One client saw their revenue jump 5x in just the first week after implementation. 🚀 What’s Inside These Automations Here’s a quick look at what our systems handle daily: 🔁 Lead generation & auto follow-ups (no more lost leads) 💬 Customer chatbots that feel genuinely human 🚚 Order tracking & analytics for smarter decisions ⚙️ Workflow automations saving 4–6 hours p",
-      "url": "https://dev.to/muhammad_alibajwa_75177a/how-were-helping-small-businesses-5x-their-revenue-with-ai-automation-2gjm",
+      "id": "ac71b46915a09b2e",
+      "title": "Reflection on my Contribution to Open Source in 2025 Hacktoberfest",
+      "description": "Why i join again? To be honest here, I'm here mainly for the digital badges and the goodie, secondly is to put my software development skills into good use to contribute to open source so my skills wont get rusted and dusted in my back closet and so that in future someone else will be benefited from my contribution. thirdly, i want to make some meaningful stuff during my career break? maybe uncertainty situation (i explain this later). Finally, i want to see what kind of challenges i will face t",
+      "url": "https://dev.to/laikokwui/reflection-on-my-contribution-to-open-source-in-2025-hacktoberfest-47bm",
       "source": "Dev.to",
-      "author": "Muhammad Ali Bajwa",
-      "published": "2025-10-24T03:13:59+00:00",
+      "author": "Kok Wui Lai",
+      "published": "2025-10-31T02:47:46+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "f08cb0df923ace4e",
-      "title": "From Static to Stunning: Interactive Charts in R using Plotly",
-      "description": "Introduction Data visualization is no longer about just creating good-looking charts — it’s about making your audience interact with the story behind the numbers. Traditional static plots can show trends and comparisons, but interactive visualizations go one step further: they invite exploration. With interactive charts, users can zoom in on specific regions, hover over points to get details, or filter by categories — all within a browser. That’s where Plotly steps in. Known for its versatility,",
-      "url": "https://dev.to/dipti_m_2e7ba36c478d1a48a/from-static-to-stunning-interactive-charts-in-r-using-plotly-4c2i",
-      "source": "Dev.to",
-      "author": "Dipti M",
-      "published": "2025-10-24T03:05:56+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "01e7684436f6b625",
-      "title": "🎲Binary Search Explained – A Beginner’s Guide",
-      "description": "Binary Search is a lightning-fast technique for finding an item in a sorted list or array. Think of it as the smart way to look up a word in a dictionary. Instead of flipping page by page (which would be slow!), you instantly jump to the middle, see if your word is before or after, and then repeat the process on only half the remaining book. Why is this useful? Because it's fast. Super fast! It's used everywhere, from behind the scenes in database lookups and searching through large sorted datas",
-      "url": "https://dev.to/om_shree_0709/binary-search-explained-a-beginners-guide-1i6c",
-      "source": "Dev.to",
-      "author": "Om Shree",
-      "published": "2025-10-24T03:05:37+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "development"
+      ]
     },
     {
       "id": "a0d2773dee6598a2",
@@ -8240,19 +8207,52 @@
       "keywords": []
     },
     {
-      "id": "bff8989ba7b4c127",
-      "title": "Check out this text-code blogs",
-      "description": "From Static to Stunning: Interactive Charts in R using Plotly Dipti M ・ Oct 24 #programming #webdev #ai #productivity",
-      "url": "https://dev.to/dipti_m_2e7ba36c478d1a48a/check-out-this-text-code-blogs-9nb",
+      "id": "c121ae421cd29b81",
+      "title": "How choose which Kubernetes Way is Right for You",
+      "description": "As someone who's always digging into DevOps tools, I find that explaining a topic is the best way to really understand it. So today, I want to share what I've learned about the different ways you can run Kubernetes (K8s). Getting a Kubernetes cluster started can seem tricky because there isn't just one way to do it. Let's break down the main options in simple terms. The Many Flavors of Kubernetes 1. Managed Services (Provides support) Think of this as the easiest way to get started. Cloud provid",
+      "url": "https://dev.to/kartik_p/how-choose-which-kubernetes-way-is-right-for-you-1jf9",
       "source": "Dev.to",
-      "author": "Dipti M",
-      "published": "2025-10-24T03:06:34+00:00",
+      "author": "Kartik",
+      "published": "2025-10-31T03:30:00+00:00",
       "niche": "dev",
-      "score": 49,
-      "keywords": [
-        "programming",
-        "code"
-      ]
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "e6f9bffabfd4dbf6",
+      "title": "Vibe Coding Tools - Vibespecs CLI",
+      "description": "The Era of Generative Coding — and Why I Finally Gave In I’ve never been a big fan of what people now call vibe coding. To me, coding has always been about clarity, structure, and intent — not just getting something to work because an AI said so. But here’s the thing: in tech, if you don’t evolve, you get left behind. That’s just natural selection in motion. So instead of resisting the wave, I decided to understand it. I started exploring how AI can be used not just as a helper, but as a collabo",
+      "url": "https://dev.to/hrefel/vibe-coding-tools-vibespecs-cli-4oia",
+      "source": "Dev.to",
+      "author": "Muhammad Refel Hidayatullah",
+      "published": "2025-10-31T03:00:58+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "6a2fc7fc3777968b",
+      "title": "RK3568: New Look",
+      "description": "In the bustling arena of System-on-Chips (SoCs), where new processors are announced almost weekly, it’s rare for a single chip to redefine a segment. The Rockchip RK3568, however, didn't just enter the market; it arrived with a deliberate and impactful \"new look.\" This isn't a mere incremental update. It’s a strategic pivot, shedding the skin of a basic multimedia processor to emerge as a robust, versatile, and intelligent platform for the next generation of embedded computing. So, what exactly ",
+      "url": "https://dev.to/dongpei_liao_8092a14d7c50/rk3568-new-look-2m4h",
+      "source": "Dev.to",
+      "author": "Leonard Liao",
+      "published": "2025-10-31T02:54:43+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "d496dc4b63debb00",
+      "title": "How Data Science Shapes Political Campaigns: Inside Modern Party Strategy",
+      "description": "Politics isn’t just speeches, rallies, and debates anymore. Today, political campaigns operate like tech companies — hiring data scientists, analysts, machine learning engineers, and behavioral experts. If elections used to be about “gut feeling” and charisma, modern politics relies on: Data-driven voter segmentation Machine learning for prediction Sentiment analysis on social media Micro-targeted ads and narrative strategies Real-time A/B testing during campaigns It’s no exaggeration to say tha",
+      "url": "https://dev.to/nomidlseo/how-data-science-shapes-political-campaigns-inside-modern-party-strategy-1l39",
+      "source": "Dev.to",
+      "author": "Nomidl Official",
+      "published": "2025-10-31T02:49:12+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
     },
     {
       "id": "51e61639c533c309",
@@ -8609,42 +8609,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "c38fc411f9fa8864",
-      "title": "Computer Science Courses That Don't Exist, but Should (2015)",
-      "description": "Comments",
-      "url": "https://prog21.dadgum.com/210.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-24T02:22:07+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "97d8a97fb61d47f0",
-      "title": "Roc Camera",
-      "description": "Comments",
-      "url": "https://roc.camera/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-24T02:54:29+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "e0a9258284f7c298",
-      "title": "Computer science courses that don't exist, but should (2015)",
-      "description": "Comments",
-      "url": "https://prog21.dadgum.com/210.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-24T02:22:07+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "e5f3da070939ee06",
@@ -10507,6 +10471,30 @@
       "keywords": []
     },
     {
+      "id": "4d657e182d34044b",
+      "title": "John Carmack on Mutable Variables",
+      "description": "Comments",
+      "url": "https://twitter.com/id_aa_carmack/status/1983593511703474196",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-31T02:34:36+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "fa63aa40766c7fea",
+      "title": "ICE and the Smartphone Panopticon",
+      "description": "Comments",
+      "url": "https://www.newyorker.com/culture/infinite-scroll/ice-and-the-smartphone-panopticon",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-31T01:13:56+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "78c4b08725d5f56b",
       "title": "React 19 Upgrade Guide",
       "description": "The improvements added to React 19 require some breaking changes, but we've worked to make the upgrade as smooth as possible and we don't expect the changes to impact most apps. In this post, we will guide you through the steps for upgrading apps and libraries to React 19.",
@@ -10571,8 +10559,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "performance",
-        "React 19"
+        "React 19",
+        "performance"
       ]
     },
     {
@@ -10633,18 +10621,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-10-24T14:12:00+00:00",
-      "niche": "dev",
-      "score": 38,
-      "keywords": []
-    },
-    {
-      "id": "eb852365583fa0f4",
-      "title": "Modern Perfect Hashing",
-      "description": "Comments",
-      "url": "https://blog.sesse.net/blog/tech/2025-10-23-21-23_modern_perfect_hashing.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-24T01:59:56+00:00",
       "niche": "dev",
       "score": 38,
       "keywords": []
@@ -10864,8 +10840,8 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "API",
         "React 19",
+        "API",
         "release"
       ]
     },
@@ -11069,11 +11045,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "framework",
         "API",
         "performance",
-        "code",
-        "release"
+        "release",
+        "framework",
+        "code"
       ]
     },
     {
@@ -11150,6 +11126,20 @@
       "score": 27,
       "keywords": [
         "code"
+      ]
+    },
+    {
+      "id": "54aa0e51e1f99089",
+      "title": "Rouille – Rust Programming, in French",
+      "description": "Comments",
+      "url": "https://github.com/bnjbvr/rouille",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-23T09:43:52+00:00",
+      "niche": "dev",
+      "score": 27,
+      "keywords": [
+        "programming"
       ]
     },
     {
@@ -11563,8 +11553,8 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "performance",
         "developer",
+        "performance",
         "code"
       ]
     },
@@ -12632,18 +12622,6 @@
       "published": "2025-09-26T00:00:00+00:00",
       "niche": "dev",
       "score": 9,
-      "keywords": []
-    },
-    {
-      "id": "8d428fa406eedd21",
-      "title": "The Psychology of Portnoy: On the Making of Philip Roth's Groundbreaking Novel",
-      "description": "Comments",
-      "url": "https://lithub.com/the-psychology-of-portnoy-on-the-making-of-philip-roths-groundbreaking-novel/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-23T07:06:07+00:00",
-      "niche": "dev",
-      "score": 8,
       "keywords": []
     },
     {
