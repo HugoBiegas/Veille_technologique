@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-01T09:22:34.100571+00:00",
+  "last_updated": "2025-11-01T12:44:16.379253+00:00",
   "total_articles": 972,
   "articles": [
     {
@@ -99,23 +99,6 @@
         "developer",
         "release",
         "API"
-      ]
-    },
-    {
-      "id": "e4792a1693d31a88",
-      "title": "Web Developer Travis McCracken on Using GitHub Actions for Rust CI",
-      "description": "Exploring Backend Development with Rust and Go: A Web Developer’s Perspective Hello, I’m Travis McCracken — a passionate Web Developer with a deep focus on backend development. Over the years, I’ve explored numerous technologies to build fast, reliable, and scalable APIs. Today, I want to share insights into my experience working with two powerful programming languages: Rust and Go. These languages have revolutionized my approach to backend systems, and I believe they’re shaping the future of AP",
-      "url": "https://dev.to/travis-mccracken-dev/web-developer-travis-mccracken-on-using-github-actions-for-rust-ci-4ddp",
-      "source": "Dev.to",
-      "author": "Travis McCracken Web Developer",
-      "published": "2025-10-25T12:16:49+00:00",
-      "niche": "dev",
-      "score": 75,
-      "keywords": [
-        "programming",
-        "developer",
-        "API",
-        "development"
       ]
     },
     {
@@ -394,18 +377,6 @@
       ]
     },
     {
-      "id": "72b854d45f71ba30",
-      "title": "Jeff Su: The Productivity System I Taught to 6,642 Googlers",
-      "description": "The Productivity System from Google Jeff Su breaks down the CORE workflow he taught to 6,642 Googlers over nine years: Capture everything immediately Organize with minimal friction Review during scheduled sessions Engage by time-blocking execution It works with any tool you already love, kicks in as a habit in two weeks, and means no more relying on memory or willpower alone. Bonus Resources He’s packed the video/blogpost with timestamps, links to templates, his Workspace Academy, newsletter, an",
-      "url": "https://dev.to/future_ai/jeff-su-the-productivity-system-i-taught-to-6642-googlers-356a",
-      "source": "Dev.to",
-      "author": "AI News",
-      "published": "2025-10-25T12:05:07+00:00",
-      "niche": "dev",
-      "score": 68,
-      "keywords": []
-    },
-    {
       "id": "3cf836af95dbbc53",
       "title": "Jeff Su: The Productivity System I Taught to 6,642 Googlers",
       "description": "The Productivity System I Taught to 6,642 Googlers Jeff Su’s CORE workflow is a simple, four-step system for handling all your workplace info: Capture anything the moment it pops up, Organize with minimal friction, Review in scheduled sessions, and Engage by time-blocking to get things done. He’s proven it at Google—any tool works, and you’ll have it down in just two weeks without relying on memory or willpower. In his video he walks you through the basics, shows the workflow in action, breaks d",
@@ -653,6 +624,18 @@
       "source": "Dev.to",
       "author": "AI News",
       "published": "2025-11-01T06:05:57+00:00",
+      "niche": "dev",
+      "score": 68,
+      "keywords": []
+    },
+    {
+      "id": "6ffc60e3c47c4f64",
+      "title": "Reactive Tree Management in Nuxt 4: How I Modeled Complex Hierarchies with Pinia",
+      "description": "When I started building Alexandrie, I just wanted a fast, offline Markdown note-taking app I could rely on daily. But as the project grew — with nested categories, shared workspaces, and access permissions — it evolved into something much more: a open-source knowledge management platform powered by Nuxt 4 and Go. This article walks through one of the toughest challenges I faced: how to model and manage hierarchical data efficiently, from the database to a reactive Pinia store. 1. Unified Data Mo",
+      "url": "https://dev.to/smaug6739/reactive-tree-management-in-nuxt-4-how-i-modeled-complex-hierarchies-with-pinia-2m8f",
+      "source": "Dev.to",
+      "author": "Smaug#6739",
+      "published": "2025-11-01T12:17:22+00:00",
       "niche": "dev",
       "score": 68,
       "keywords": []
@@ -1315,6 +1298,23 @@
         "development",
         "API",
         "performance"
+      ]
+    },
+    {
+      "id": "6c53976e42e0342a",
+      "title": "Web Developer Travis McCracken on Async Queues in Rust vs Python",
+      "description": "Harnessing the Power of Rust and Go for Backend Development: Insights from Web Developer Travis McCracken Hello, fellow developers! I’m Web Developer Travis McCracken, and today I want to dive into the fascinating world of backend development, particularly focusing on how Rust and Go are transforming the way we build robust, high-performance APIs. Over the years, I've explored various technologies, but Rust and Go have consistently stood out as game-changers for backend engineers looking for spe",
+      "url": "https://dev.to/travis-mccracken-dev/web-developer-travis-mccracken-on-async-queues-in-rust-vs-python-2oca",
+      "source": "Dev.to",
+      "author": "Travis McCracken Web Developer",
+      "published": "2025-11-01T12:17:03+00:00",
+      "niche": "dev",
+      "score": 60,
+      "keywords": [
+        "performance",
+        "development",
+        "API",
+        "developer"
       ]
     },
     {
@@ -2196,20 +2196,6 @@
       "score": 55,
       "keywords": [
         "developer",
-        "API"
-      ]
-    },
-    {
-      "id": "a97d9faec0961758",
-      "title": "Retries",
-      "description": "Рассмотрим две компоненты: A и B, которые взаимодействуют через RPC. Например, компонента A вызывает некую функцию/API компоненты B TPS0 раз в секунду. Например, QPS = TPS0 = 1000 вызовов в секунду. Во время вызовов в продакшене на практике возникают временные (transient) ошибки, которые быстро появляются и исчезают. К ним относятся сетевые сбои, кратковременная перегрузка сервиса, таймауты и т. д. Поэтому на практике почти всегда используют повторные попытки (retries): если ошибка относится к к",
-      "url": "https://dev.to/faangmaster/retries-1ep2",
-      "source": "Dev.to",
-      "author": "faangmaster",
-      "published": "2025-10-25T12:04:47+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
         "API"
       ]
     },
@@ -3212,18 +3198,17 @@
       ]
     },
     {
-      "id": "2c9d8ed03f14c1b3",
-      "title": "🔐 OTP CLI Utils — A Simple and Powerful CLI tool for TOTP Codes",
-      "description": "Hello everyone 👋 I recently built a new Python CLI tool called OTP CLI Utils — a lightweight command-line utility to generate, validate, and manage Time-based One-Time Password (TOTP) codes. If you use Google Authenticator or work with 2FA systems, this tool can make your developer workflow a lot smoother. 🔗 GitHub: https://github.com/dilanka-rathnasiri/otp-cli-utils 🔗 PyPI: https://pypi.org/project/otp-cli-utils 🚀 What It Does OTP CLI Utils provides a simple interface to handle everything relat",
-      "url": "https://dev.to/dilanka-rathnasiri/otp-cli-utils-a-simple-and-powerful-cli-tool-for-totp-codes-197p",
+      "id": "24770357368ff499",
+      "title": "Build a Telegram Bot with ESP32-CAM for Remote Image & Video Capture",
+      "description": "Introduction In this post, I’ll walk you through how to build a wireless image/video capture system using the ESP32‑CAM (AI-Thinker version) and the Telegram Bot API. The goal is to enable remote control of a camera module via Telegram commands—snap a photo, record a short video, and have the bot send it directly to your chat. Whether you’re prototyping an IoT surveillance node, a workshop camera, or simply exploring remote monitoring, this engineer-friendly guide delivers a precise, descriptive",
+      "url": "https://dev.to/messin_tom/build-a-telegram-bot-with-esp32-cam-for-remote-image-video-capture-4949",
       "source": "Dev.to",
-      "author": "Dilanka Rathnasiri",
-      "published": "2025-10-25T12:29:50+00:00",
+      "author": "Messin",
+      "published": "2025-11-01T12:15:56+00:00",
       "niche": "dev",
-      "score": 52,
+      "score": 54,
       "keywords": [
-        "developer",
-        "code"
+        "API"
       ]
     },
     {
@@ -4928,78 +4913,18 @@
       ]
     },
     {
-      "id": "703561bfb847e96b",
-      "title": "Task, Thread και async/await στο .NET",
-      "description": "Η σωστή διαχείριση συναρτήσεων που τρέχουν παράλληλα ή ασύγχρονα είναι κρίσιμη για απόδοση και scalability σε .NET εφαρμογές. 1. Τι είναι Thread στο .NET Thread: Μικρότερο execution unit που τρέχει εντός του process. Κάθε thread έχει τη δική του stack memory, registers, και context. Thread thread = new Thread(() => { Console.WriteLine(\"Running in a separate thread!\"); }); thread.Start(); Χαρακτηριστικά: Heavyweight: κάθε thread έχει κόστος μνήμης (~1MB stack) Manual management: πρέπει να δημιουρ",
-      "url": "https://dev.to/__b63657/task-thread-kai-asyncawait-sto-net-m07",
+      "id": "a5c18b98f7487ca7",
+      "title": "Daily Dev Challenges - Day 01 🚀",
+      "description": "Day 1 — In-Memory Cache with TTL I’ve started a daily challenge to improve my skills as a developer. Today marks Day 1 of the challenge, where I worked on implementing an In-Memory Cache with TTL. You can check out my solution here: 🔗 GitHub Repository 🧠 What I Learned Singleton classes Thread-safe execution LRU cache design Using OrderedDict in Python A solid start to this learning journey — excited for what’s next! 💪",
+      "url": "https://dev.to/kevinrawal/daily-dev-challenges-day-01-5fl6",
       "source": "Dev.to",
-      "author": "Νίκος Σταυρόπουλος",
-      "published": "2025-10-25T12:29:14+00:00",
+      "author": "kevinrawal",
+      "published": "2025-11-01T12:36:02+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "4bdbf958044ef410",
-      "title": "You-Might-Not-Need-WebSockets-The-Simple-Power-of-Server-Sent-Events",
-      "description": "GitHub Home You Might Not Need WebSockets: The Simple Power of Server-Sent Events 🤫 In our toolbox, there are always a few \"star\" tools. 🛠️ In the realm of real-time web communication, WebSocket is undoubtedly the brightest star. It's powerful, supports bidirectional communication, and has become the \"default answer\" for almost all real-time needs. So, when a product manager comes to you and says, \"Hey, we need a dashboard that updates in real-time!\" the first thing that pops into many programme",
-      "url": "https://dev.to/member_083ff294/you-might-not-need-websockets-the-simple-power-of-server-sent-events-e69",
-      "source": "Dev.to",
-      "author": "member_083ff294",
-      "published": "2025-10-25T12:27:27+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "8d568db50bff1f7a",
-      "title": "Java Architecture",
-      "description": "Java Architecture is a framework that combines compilation and interpretation to run the Java programs on any device based on WORA principle. The core components are JDK, JIT, JVM and JRE.",
-      "url": "https://dev.to/vidya_varshini/java-architecture-550e",
-      "source": "Dev.to",
-      "author": "VIDHYA VARSHINI",
-      "published": "2025-10-25T12:13:16+00:00",
-      "niche": "dev",
-      "score": 50,
+      "score": 51,
       "keywords": [
-        "framework"
+        "developer"
       ]
-    },
-    {
-      "id": "d053ec3e79235432",
-      "title": "NPR Music: Tyshawn Sorey’s powerful sounds of silence | Amplify with Lara Downes",
-      "description": "Tyshawn Sorey spent a whirlwind weekend at the Big Ears Festival, but when he finally sat down with Lara Downes in NPR’s makeshift studio, all the hustle melted away into a conversation about the power of space and silence. His new piece, Monochromatic Light (Afterlife), draws on Rothko’s dark, light-revealing color fields in the Houston chapel and Morton Feldman’s commemorative score. By stripping away musical conventions, he creates a canvas where subtle shifts of texture and time become the r",
-      "url": "https://dev.to/music_youtube/npr-music-tyshawn-soreys-powerful-sounds-of-silence-amplify-with-lara-downes-1lf8",
-      "source": "Dev.to",
-      "author": "Music YouTube",
-      "published": "2025-10-25T12:09:06+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "75b6262710a8b08f",
-      "title": "Peter Finch Golf: I challenged a HEAD PRO at HIS OWN course... (Ep. 1 – Heswall GC)",
-      "description": "I challenged Tom, the head pro at Heswall Golf Club, to a £1,000 showdown on his own turf—huge thanks to Titleist for backing this series and championing club pros across the UK. Plus, they’re putting extra support into Heswall’s junior section off the back of this match. Massive shout-out to Tom and all the folks at Heswall GC for hosting the day. For more deets on Titleist, the course, and my gear, hit up the links in the description. Watch on YouTube",
-      "url": "https://dev.to/youtube_golf/peter-finch-golf-i-challenged-a-head-pro-at-his-own-course-ep-1-heswall-gc-h3c",
-      "source": "Dev.to",
-      "author": "YouTube Golf",
-      "published": "2025-10-25T12:05:27+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "ec1f8322c680b541",
-      "title": "Snap & Splat: Turn Everyday Objects into 3D Models with Your Phone",
-      "description": "Snap & Splat: Turn Everyday Objects into 3D Models with Your Phone Tired of clunky 3D scanning rigs and complicated software? Imagine creating detailed 3D models of real-world objects with nothing more than your smartphone camera. No special markers, no depth sensors – just point, record, and generate! This technology is closer than you think. The core idea is building a 3D representation as you film, not afterward. Instead of wrestling with camera positions and depth maps, imagine the system co",
-      "url": "https://dev.to/arvind_sundararajan/snap-splat-turn-everyday-objects-into-3d-models-with-your-phone-246i",
-      "source": "Dev.to",
-      "author": "Arvind SundaraRajan",
-      "published": "2025-10-25T12:02:05+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
     },
     {
       "id": "0fd4e97adf9c18d5",
@@ -8040,6 +7965,68 @@
       "keywords": []
     },
     {
+      "id": "9d005ba6e08648c8",
+      "title": "Check out the guide on - The Art of Tableau Performance Optimization: How Smart Logic Reduced a Dashboard Load Time by 98.9%",
+      "description": "The Art of Tableau Performance Optimization: How Smart Logic Reduced a Dashboard Load Time by 98.9% Dipti Moryani ・ Nov 1",
+      "url": "https://dev.to/dipti_moryani_185c244d578/check-out-the-guide-on-the-art-of-tableau-performance-optimization-how-smart-logic-reduced-a-j41",
+      "source": "Dev.to",
+      "author": "Dipti Moryani",
+      "published": "2025-11-01T12:39:14+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": [
+        "performance"
+      ]
+    },
+    {
+      "id": "e6ae9b3432964899",
+      "title": "🧠 Inside an AI’s Brain: What Data Scientists Can Learn from Neuroscience",
+      "description": "Ever notice how neural networks look suspiciously like brains? That’s no coincidence. AI didn’t just invent intelligence — it borrowed it from biology. Let’s pop the hood on both brains — the human one and the artificial one — and see what data scientists can actually learn from the OG neural network: the human mind. 🧩 The Brain — Nature’s Original Neural Net The human brain is basically the world’s most advanced pattern recognition engine. Every thought, decision, and memory is just electrical ",
+      "url": "https://dev.to/sanskruti_sugandhi/inside-an-ais-brain-what-data-scientists-can-learn-from-neuroscience-2467",
+      "source": "Dev.to",
+      "author": "Sanskruti Sugandhi",
+      "published": "2025-11-01T12:17:12+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "3820676fb33fc427",
+      "title": "Learning Elixir: Ranges",
+      "description": "Ranges are like bookmarks that mark the start and end of a sequence without actually writing down every number in between. I like to think of a range as a smart recipe that knows how to generate numbers on demand - 1..100 doesn't store all 100 numbers in memory, it just remembers \"start at 1, end at 100, count by 1s.\" This lazy approach makes ranges incredibly memory-efficient, whether you're working with small sequences like 1..5 or massive ones like 1..1_000_000. Unlike lists that explicitly s",
+      "url": "https://dev.to/abreujp/learning-elixir-ranges-1iia",
+      "source": "Dev.to",
+      "author": "João Paulo Abreu",
+      "published": "2025-11-01T12:16:35+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "b2387b54ddd72deb",
+      "title": "Ringer Movies: ‘Halloween II’ With Bill Simmons, Chris Ryan, and Van Lathan",
+      "description": "‘Halloween II’ Rewatch Breakdown Bill Simmons, Chris Ryan, and Van Lathan dive into the 1981 return of Michael Myers in Halloween II, questioning if Myers is the ultimate horror movie villain, sharing their most rewatchable scenes, and debating fun custom categories—all neatly timestamped from the cold open (00:00) to category rundowns (55:51). Along the way they sprinkle in shout-outs to sponsors and must-see streaming picks—Paramount+’s Mountain of Movies®, Netflix’s A House of Dynamite—plus a",
+      "url": "https://dev.to/popcorn_movies/ringer-movies-halloween-ii-with-bill-simmons-chris-ryan-and-van-lathan-1g60",
+      "source": "Dev.to",
+      "author": "Movie News",
+      "published": "2025-11-01T12:12:40+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "3a505a3946253739",
+      "title": "CinemaSins: Everything Wrong With Sinners In 15 Minutes Or Less",
+      "description": "Everything Wrong With Sinners In 15 Minutes Or Less is CinemaSins’ tongue-in-cheek Halloween special, where they “sin” one of the greatest genre films of all time in just quarter of an hour. Expect fast-paced nitpicking, the usual pop-culture jokes and a few spooky surprises. Alongside the video, they share all the ways to keep up with CinemaSins—visit their website, follow @TVSins, @commercialsins and @cinemasinspodcastnetwork on YouTube, join the Discord or Reddit, fill out a poll, and even su",
+      "url": "https://dev.to/popcorn_movies/cinemasins-everything-wrong-with-sinners-in-15-minutes-or-less-273d",
+      "source": "Dev.to",
+      "author": "Movie News",
+      "published": "2025-11-01T12:12:18+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "bfd348aeb2855c4a",
       "title": "Clojure Land – Discover open-source Clojure libraries and frameworks",
       "description": "Comments",
@@ -8302,6 +8289,18 @@
       "keywords": []
     },
     {
+      "id": "3d86134422d2cacd",
+      "title": "Check out the guide on - Mastering Principal Component Analysis (PCA) in R: A Complete Guide from Basics to Business Insights",
+      "description": "Mastering Principal Component Analysis (PCA) in R: A Complete Guide from Basics to Business Insights Dipti ・ Nov 1",
+      "url": "https://dev.to/thedatageek/check-out-the-guide-on-mastering-principal-component-analysis-pca-in-r-a-complete-guide-from-1kjg",
+      "source": "Dev.to",
+      "author": "Dipti",
+      "published": "2025-11-01T12:19:00+00:00",
+      "niche": "dev",
+      "score": 46,
+      "keywords": []
+    },
+    {
       "id": "3d36af186f574578",
       "title": "Advent of Code 2025: Number of puzzles reduce from 25 to 12 for the first time",
       "description": "Comments",
@@ -8398,18 +8397,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "8f3e2223b71975d8",
-      "title": "React vs. Backbone in 2025",
-      "description": "Comments",
-      "url": "https://backbonenotbad.hyperclay.com/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-25T09:43:54+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "f26bb7c7d332ae43",
@@ -10336,8 +10323,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "React 19",
-        "performance"
+        "performance",
+        "React 19"
       ]
     },
     {
@@ -10388,18 +10375,6 @@
       "published": "2025-10-31T08:59:47+00:00",
       "niche": "dev",
       "score": 39,
-      "keywords": []
-    },
-    {
-      "id": "92b8aec4b2aef222",
-      "title": "Show HN: Chonky – a neural text semantic chunking goes multilingual",
-      "description": "Comments",
-      "url": "https://huggingface.co/mirth/chonky_mmbert_small_multilingual_1",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-25T12:01:44+00:00",
-      "niche": "dev",
-      "score": 38,
       "keywords": []
     },
     {
@@ -10618,8 +10593,8 @@
       "score": 38,
       "keywords": [
         "release",
-        "React 19",
-        "API"
+        "API",
+        "React 19"
       ]
     },
     {
@@ -10685,9 +10660,9 @@
       "niche": "dev",
       "score": 36,
       "keywords": [
-        "code",
         "development",
-        "developer"
+        "developer",
+        "code"
       ]
     },
     {
@@ -10823,11 +10798,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "API",
         "code",
+        "performance",
+        "API",
         "release",
-        "framework",
-        "performance"
+        "framework"
       ]
     },
     {
@@ -11051,6 +11026,18 @@
       "keywords": []
     },
     {
+      "id": "5ce57909da5f4f31",
+      "title": "Myths Programmers Believe about CPU Caches (2018)",
+      "description": "Comments",
+      "url": "https://software.rajivprab.com/2018/04/29/myths-programmers-believe-about-cpu-caches/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-31T00:46:56+00:00",
+      "niche": "dev",
+      "score": 26,
+      "keywords": []
+    },
+    {
       "id": "d839f1a2454a8fa9",
       "title": "URLPattern is now Baseline Newly available",
       "description": "URLPattern became Baseline Newly available as of September 15, 2025.",
@@ -11173,8 +11160,8 @@
       "niche": "dev",
       "score": 25,
       "keywords": [
-        "Angular",
         "release",
+        "Angular",
         "framework"
       ]
     },
@@ -11257,9 +11244,9 @@
       "niche": "dev",
       "score": 22,
       "keywords": [
-        "release",
+        "performance",
         "development",
-        "performance"
+        "release"
       ]
     },
     {
@@ -11285,8 +11272,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "API"
+        "API",
+        "release"
       ]
     },
     {
@@ -11315,9 +11302,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
+        "performance",
         "code",
-        "developer",
-        "performance"
+        "developer"
       ]
     },
     {
@@ -11346,8 +11333,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
         "API",
+        "release",
         "developer"
       ]
     },
@@ -11420,6 +11407,20 @@
       "score": 18,
       "keywords": [
         "release"
+      ]
+    },
+    {
+      "id": "1d4d9de6695e3ee1",
+      "title": "The Impossible Optimization, and the Metaprogramming to Achieve It",
+      "description": "Comments",
+      "url": "https://verdagon.dev/blog/impossible-optimization",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-28T10:53:21+00:00",
+      "niche": "dev",
+      "score": 15,
+      "keywords": [
+        "programming"
       ]
     },
     {
@@ -11596,18 +11597,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-10-26T15:22:16+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "a08d9235360baa73",
-      "title": "Result is all I need",
-      "description": "Comments",
-      "url": "https://rockyj-blogs.web.app/2025/10/25/result-monad.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-25T11:40:58+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -12424,6 +12413,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-10-23T15:23:55+00:00",
+      "niche": "dev",
+      "score": 8,
+      "keywords": []
+    },
+    {
+      "id": "dfbf878283fd592d",
+      "title": "'Killing the Dead' Review: Watch the Graveyard",
+      "description": "Comments",
+      "url": "https://www.wsj.com/arts-culture/books/killing-the-dead-review-watch-the-graveyard-f54e14f4",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-23T07:06:36+00:00",
       "niche": "dev",
       "score": 8,
       "keywords": []
