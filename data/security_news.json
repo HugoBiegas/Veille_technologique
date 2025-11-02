@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-11-02T15:21:24.727196+00:00",
-  "total_articles": 377,
+  "last_updated": "2025-11-02T18:29:39.678054+00:00",
+  "total_articles": 376,
   "articles": [
     {
       "id": "7d05a4553eda1b43",
@@ -828,11 +828,11 @@
       "niche": "security",
       "score": 80,
       "keywords": [
+        "vulnerability",
+        "RCE",
         "CVE-",
         "security",
-        "RCE",
-        "remote code execution",
-        "vulnerability"
+        "threat"
       ]
     },
     {
@@ -1150,6 +1150,22 @@
       "keywords": [
         "patch",
         "security"
+      ]
+    },
+    {
+      "id": "dea09a26d46a8c7e",
+      "title": "Scans for Port 8530/8531 (TCP). Likely related to WSUS Vulnerability CVE-2025-59287, (Sun, Nov 2nd)",
+      "description": "Sensors reporting firewall logs detected a significant increase in scans for port 8530/TCP and 8531/TCP over the course of last week. Some of these reports originate from Shadowserver, and likely other researchers, but there are also some that do not correspond to known research-related IP addresses.&#xd;",
+      "url": "https://isc.sans.edu/diary/rss/32440",
+      "source": "SANS Internet Storm Center",
+      "author": "Inconnu",
+      "published": "2025-11-02T17:50:48+00:00",
+      "niche": "security",
+      "score": 75,
+      "keywords": [
+        "vulnerability",
+        "CVE-",
+        "firewall"
       ]
     },
     {
@@ -2195,10 +2211,10 @@
       "niche": "security",
       "score": 63,
       "keywords": [
-        "zero-day",
-        "security",
         "exploit",
-        "patch"
+        "patch",
+        "zero-day",
+        "security"
       ]
     },
     {
@@ -2408,10 +2424,10 @@
       "niche": "security",
       "score": 61,
       "keywords": [
-        "secure",
-        "security",
         "RCE",
-        "OWASP"
+        "security",
+        "OWASP",
+        "secure"
       ]
     },
     {
@@ -2470,9 +2486,9 @@
       "niche": "security",
       "score": 60,
       "keywords": [
+        "exploit",
         "zero-day",
-        "security",
-        "exploit"
+        "security"
       ]
     },
     {
@@ -2936,11 +2952,11 @@
       "niche": "security",
       "score": 55,
       "keywords": [
-        "security",
-        "RCE",
         "vulnerability",
-        "cybersecurity",
-        "OWASP"
+        "RCE",
+        "OWASP",
+        "security",
+        "cybersecurity"
       ]
     },
     {
@@ -3169,20 +3185,6 @@
       ]
     },
     {
-      "id": "05437baa0f0a581c",
-      "title": "Safepay ransomware group claims the hack of professional video surveillance provider Xortec",
-      "description": "Safepay group claims the hack of professional video surveillance provider Xortec and added the company to its data leak site. The Safepay group claimed responsibility for hacking German video surveillance provider Xortec and listed the company on its data leak site. The ransomware payment deadline is October 27, 2025. Xortec GmbH, based in Frankfurt with [&#8230;]",
-      "url": "https://securityaffairs.com/183868/malware/safepay-ransomware-group-claims-the-hack-of-professional-video-surveillance-provider-xortec.html",
-      "source": "Security Affairs",
-      "author": "Pierluigi Paganini",
-      "published": "2025-10-26T17:07:44+00:00",
-      "niche": "security",
-      "score": 52,
-      "keywords": [
-        "ransomware"
-      ]
-    },
-    {
       "id": "43dcdbe1adc16253",
       "title": "LADA - L'IA qui dé-pixelise les aubergines",
       "description": "Vous connaissez l&rsquo;Article 175 du Code Pénal japonais ? Non ? Hé bien croyez le ou non, mais c&rsquo;est une loi de 1907 qui interdit les représentations explicites d&rsquo;appareils reproducteurs. Les japonais sont des anges, ils n&rsquo;ont ni zézette, ni pépette ^^. Du coup, tous les films adultes japonais sont pixelisés depuis plus d&rsquo;un siècle. 118 ans que ça pixelise à tout va mais LADA vient de sortir et va changer cela ! En fait c&rsquo;est une IA open source qui retire la pixe",
@@ -3322,9 +3324,9 @@
       "niche": "security",
       "score": 51,
       "keywords": [
+        "vulnerability",
         "disclosure",
-        "patch",
-        "vulnerability"
+        "patch"
       ]
     },
     {
@@ -3338,8 +3340,8 @@
       "niche": "security",
       "score": 51,
       "keywords": [
-        "security",
         "exploit",
+        "security",
         "attack"
       ]
     },
@@ -3354,8 +3356,8 @@
       "niche": "security",
       "score": 51,
       "keywords": [
-        "security",
         "exploit",
+        "security",
         "attack"
       ]
     },
@@ -3590,10 +3592,10 @@
       "niche": "security",
       "score": 49,
       "keywords": [
+        "breach",
+        "phishing",
         "RCE",
         "attack",
-        "phishing",
-        "breach",
         "threat"
       ]
     },
@@ -3681,21 +3683,9 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "security",
-        "CVE-"
+        "CVE-",
+        "security"
       ]
-    },
-    {
-      "id": "fe7b507f5593d80e",
-      "title": "Kaitai Struct WebIDE, (Sun, Oct 26th)",
-      "description": "When I have a binary file to analyze, I often use tools like 010 Editor or format-bytes.py (a tool I develop). Sometimes I also use Kaitai Struct.&#xd;",
-      "url": "https://isc.sans.edu/diary/rss/32422",
-      "source": "SANS Internet Storm Center",
-      "author": "Inconnu",
-      "published": "2025-10-26T16:01:53+00:00",
-      "niche": "security",
-      "score": 46,
-      "keywords": []
     },
     {
       "id": "79cc2dfee4e4ef1a",
@@ -4073,10 +4063,10 @@
       "niche": "security",
       "score": 43,
       "keywords": [
-        "secure",
-        "security",
         "RCE",
-        "OWASP"
+        "security",
+        "OWASP",
+        "secure"
       ]
     },
     {
@@ -4330,8 +4320,8 @@
       "niche": "security",
       "score": 42,
       "keywords": [
-        "security",
         "RCE",
+        "security",
         "OWASP"
       ]
     },
@@ -4412,8 +4402,8 @@
       "niche": "security",
       "score": 37,
       "keywords": [
-        "security",
         "web application security",
+        "security",
         "OWASP",
         "threat"
       ]
@@ -4459,8 +4449,8 @@
       "niche": "security",
       "score": 33,
       "keywords": [
-        "security",
         "exploit",
+        "security",
         "patch"
       ]
     },
@@ -4487,9 +4477,9 @@
       "niche": "security",
       "score": 31,
       "keywords": [
-        "secure",
         "security",
-        "OWASP"
+        "OWASP",
+        "secure"
       ]
     },
     {
@@ -4844,8 +4834,8 @@
       "niche": "security",
       "score": 19,
       "keywords": [
-        "cybersecurity",
-        "security"
+        "security",
+        "cybersecurity"
       ]
     },
     {
@@ -5015,8 +5005,8 @@
       "niche": "security",
       "score": 15,
       "keywords": [
-        "secure",
-        "security"
+        "security",
+        "secure"
       ]
     },
     {
@@ -5030,8 +5020,8 @@
       "niche": "security",
       "score": 15,
       "keywords": [
-        "secure",
-        "security"
+        "security",
+        "secure"
       ]
     },
     {
