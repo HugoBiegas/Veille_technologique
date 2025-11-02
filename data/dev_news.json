@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-11-02T18:29:53.279288+00:00",
-  "total_articles": 975,
+  "last_updated": "2025-11-02T21:19:50.092955+00:00",
+  "total_articles": 979,
   "articles": [
     {
       "id": "b7086dbf6e29731d",
@@ -728,18 +728,6 @@
       "keywords": []
     },
     {
-      "id": "c197bad2a93507b5",
-      "title": "Show HN: MyraOS – My 32-bit operating system in C and ASM (Hack Club project)",
-      "description": "Comments",
-      "url": "https://github.com/dvir-biton/MyraOS",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-26T20:43:40+00:00",
-      "niche": "dev",
-      "score": 62,
-      "keywords": []
-    },
-    {
       "id": "c7fad2d1c421562d",
       "title": "Are-we-fast-yet implementations in Oberon, C++, C, Pascal, Micron and Luon",
       "description": "Comments",
@@ -1177,6 +1165,18 @@
       "keywords": []
     },
     {
+      "id": "134e33b10d1b61a4",
+      "title": "Reproducing the AWS Outage Race Condition with a Model Checker",
+      "description": "Comments",
+      "url": "https://wyounas.github.io/aws/concurrency/2025/10/30/reproducing-the-aws-outage-race-condition-with-model-checker/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-02T18:37:38+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": []
+    },
+    {
       "id": "8872aa545b5183cf",
       "title": "i-benchmarked-seven-backend-frameworks-and-it-changed-my-tech-stack-decisions",
       "description": "About Hyperlane Framework Hyperlane is a lightweight, high-performance, cross-platform Rust HTTP server framework built on Tokio async runtime. Core Features Performance: 324,323 QPS (Keep-Alive on), 51,031 QPS (Keep-Alive off) | Unified API: HTTP, WebSocket, SSE share same interface | Flexible Routing: Static, dynamic, regex routes | Powerful Middleware: Request/response middleware, panic hooks | Real-time: Native WebSocket and SSE support | Cross-platform: Unified experience on Windows, Linux,",
@@ -1240,23 +1240,6 @@
         "Spring",
         "framework",
         "dependency injection"
-      ]
-    },
-    {
-      "id": "26afb501f0e86f21",
-      "title": "AI-assisted Test Driven Development Experiment Quick Takes",
-      "description": "Intrigued by Kent Beck's blog Augmented Coding: Beyond the Vibes, I wanted to experiment with AI-assisted Test Driven Development capabilities. For that, I coded the small library release-parrot. This blog is a quick personal review - any feedback is very welcome 🤗 Quick takes Did AI1 help me to finish the project quicker? I assume no write a better test suite?2 I assume no improve the code quality? I assume no improve the documentation? Yes! It relieved me of the (for me) tedious task of docume",
-      "url": "https://dev.to/shaman-apprentice/ai-assisted-test-driven-development-experiment-quick-takes-17fe",
-      "source": "Dev.to",
-      "author": "shaman-apprentice",
-      "published": "2025-10-26T21:10:29+00:00",
-      "niche": "dev",
-      "score": 60,
-      "keywords": [
-        "library",
-        "code",
-        "release",
-        "development"
       ]
     },
     {
@@ -1669,6 +1652,21 @@
       ]
     },
     {
+      "id": "d69c1d72d5967755",
+      "title": "Helios Engine v0.3.4",
+      "description": "Helios Engine v0.3.4 Helios Engine just got a massive upgrade. This release transforms it into a full-featured Rust framework for intelligent, tool-using, multi-agent systems. What’s New Forest of Agents: Multi-agent collaboration with context sharing and task delegation. RAG System: Retrieval-Augmented Generation powered by InMemory or Qdrant vector stores. Feature Flags: Build only what you need with optional local/offline model support. Streaming Support: True token-by-token streaming for rem",
+      "url": "https://dev.to/ammar-alnagar/helios-engine-v034-30pn",
+      "source": "Dev.to",
+      "author": "Ammar",
+      "published": "2025-11-02T20:40:46+00:00",
+      "niche": "dev",
+      "score": 57,
+      "keywords": [
+        "framework",
+        "release"
+      ]
+    },
+    {
       "id": "5990f4dc9139c2f0",
       "title": "Async Programming in C#",
       "description": "Asynchronous programming is needed to write code that can handle a long-running requests (like querying a database, calling an API, or reading a large file) instead of just stopping and waiting for response. This Async Programming is essential for having a responsive application. The UI freeze without using async in mobile app and using async programming on web servers allows handling a massive number of requests instead of being blocked by one slow request. using sync means the main thread will",
@@ -1812,6 +1810,18 @@
         "code",
         "programming"
       ]
+    },
+    {
+      "id": "aacb7a331d7310f0",
+      "title": "Why don't you use dependent types?",
+      "description": "Comments",
+      "url": "https://lawrencecpaulson.github.io//2025/11/02/Why-not-dependent.html",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-02T15:06:36+00:00",
+      "niche": "dev",
+      "score": 56,
+      "keywords": []
     },
     {
       "id": "30fe7e04c2bf6757",
@@ -2141,76 +2151,6 @@
       "keywords": [
         "developer",
         "framework"
-      ]
-    },
-    {
-      "id": "2d73a832217047e3",
-      "title": "DeepSeek-OCR: When a Picture Is Actually Worth 10 Fewer Tokens",
-      "description": "Published: October 26, 2025 Model Version: DeepSeek-OCR v1 (Oct 20, 2025) Last Verified: October 26, 2025 I spent three hours last week watching my API costs balloon because of one document. Not a video. Not a massive dataset. Just a 10-page PDF that needed OCR processing. The problem? Traditional OCR pipelines were spitting out thousands of tokens that my LLM had to chew through. Every. Single. Page. That's when I stumbled upon DeepSeek-OCR, and honestly, the numbers looked too good to be true.",
-      "url": "https://dev.to/0xrelogic/deepseek-ocr-when-a-picture-is-actually-worth-10x-fewer-tokens-19p6",
-      "source": "Dev.to",
-      "author": "Allen Elzayn",
-      "published": "2025-10-26T20:44:39+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "API"
-      ]
-    },
-    {
-      "id": "50966a510b6b4f2e",
-      "title": "Optimizing Cloud Infrastructure Performance Through Open-Source Innovation",
-      "description": "Enterprises undergoing digital transformation face a central challenge: balancing performance optimization with operational flexibility. As organizations move beyond traditional virtualization solutions, open-source cloud platforms are redefining what’s possible in infrastructure management. These solutions empower IT teams to build scalable, cost-effective environments that adapt dynamically to workload demands while maintaining strong governance and control. The Shift Toward Open-Source Cloud ",
-      "url": "https://dev.to/kapusto/optimizing-cloud-infrastructure-performance-through-open-source-innovation-f9p",
-      "source": "Dev.to",
-      "author": "Mikuz",
-      "published": "2025-10-26T20:35:16+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "performance"
-      ]
-    },
-    {
-      "id": "e6a59b5451902bae",
-      "title": "Automated Identity Management: Strengthening Security and Efficiency in Healthcare IT",
-      "description": "The healthcare industry faces mounting pressure to maintain airtight data security while streamlining daily operations. Between evolving privacy laws, workforce mobility, and the rapid adoption of digital collaboration tools, manual identity management has become a significant liability. Automated identity management systems offer a solution that reduces human error, improves compliance readiness, and accelerates onboarding without compromising patient data security. The Challenge of Managing Us",
-      "url": "https://dev.to/kapusto/automated-identity-management-strengthening-security-and-efficiency-in-healthcare-it-72h",
-      "source": "Dev.to",
-      "author": "Mikuz",
-      "published": "2025-10-26T20:31:51+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "API"
-      ]
-    },
-    {
-      "id": "96554618acf177b7",
-      "title": "How Data Deduplication Enhances Backup Efficiency and Reduces Storage Costs",
-      "description": "As data volumes continue to explode, organizations face growing challenges around backup storage, bandwidth consumption, and overall system performance. Traditional backup methods often copy identical data blocks repeatedly, leading to massive inefficiencies. Data deduplication solves this problem by identifying and eliminating duplicate information across backups, allowing IT teams to store more data using far less space. What Is Data Deduplication? Data deduplication is a process that analyzes",
-      "url": "https://dev.to/kapusto/how-data-deduplication-enhances-backup-efficiency-and-reduces-storage-costs-5d2j",
-      "source": "Dev.to",
-      "author": "Mikuz",
-      "published": "2025-10-26T20:26:26+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "performance"
-      ]
-    },
-    {
-      "id": "e650911c75dccdf8",
-      "title": "Seamless CJS and ESM: Building Dual-Format Packages with Nx",
-      "description": "🚀 Intro The JavaScript module ecosystem is in transition. ESM (ECMAScript Modules) has become the modern standard, but CommonJS (CJS) remains deeply entrenched in the ecosystem. ECMAScript Modules (ESM), introduced in ES6 (2015), is the standardised JavaScript module system designed to work seamlessly across both browsers and servers, unifying how JavaScript handles modularity. Core advantages of ESM: ⚡ Enables better performance and optimisation through asynchronous loading and built-in tree-sh",
-      "url": "https://dev.to/sudokar/seamless-cjs-and-esm-building-dual-format-packages-with-nx-lda",
-      "source": "Dev.to",
-      "author": "sudokar",
-      "published": "2025-10-26T20:25:54+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "performance"
       ]
     },
     {
@@ -3082,18 +3022,73 @@
       ]
     },
     {
-      "id": "16d7b415a5d0bac4",
-      "title": "Getting started with C# as a programming language.",
-      "description": "Programming languages like C# let you write instructions that you want the computer to carry out. Each programming language has its own syntax, but after learning your first programming language and attempting to learn another one, you'll quickly realize that they all share many similar concepts. A programming language's job is to allow a human to express their intent in a human-readable and understandable way. The instructions you write in a programming language are called \"source code\" or just",
-      "url": "https://dev.to/onyemuche/getting-started-with-c-as-a-programming-language-4h82",
+      "id": "de45cc5c91eb527a",
+      "title": "THE LEAN MEAN MEME MACHINE",
+      "description": "Meme Explorer: Technical Critique & Roadmap Live Site: https://meme-explorer.onrender.com/random Date: November 2, 2025 Files Reviewed: app.rb, random.erb, layout.erb, style.css, previous critique Executive Summary Overall Score: 72/100 Meme Explorer is a smart meme discovery platform with TikTok-like personalization that learns what you like and prevents repetition. Built with Ruby/Sinatra, it combines Reddit's meme library with intelligent algorithms that adapt to your taste over time. 🎯 Core ",
+      "url": "https://dev.to/bibimbop123/lean-mean-meme-machine-1pae",
       "source": "Dev.to",
-      "author": "EMMANUEL",
-      "published": "2025-10-26T20:49:47+00:00",
+      "author": "Brian Kim",
+      "published": "2025-11-02T21:08:43+00:00",
       "niche": "dev",
-      "score": 52,
+      "score": 54,
       "keywords": [
-        "code",
-        "programming"
+        "library"
+      ]
+    },
+    {
+      "id": "29617041f6b35316",
+      "title": "Ensuring Data Resilience in Modern Application Environments",
+      "description": "In today’s digital economy, application data drives every business operation—from processing customer orders to managing internal analytics pipelines. Yet, despite its critical role, data protection remains one of the most overlooked areas in application lifecycle management. With the rapid shift toward cloud-native architectures and containerized deployments, organizations face new challenges in maintaining data resilience, consistency, and recoverability. The Growing Complexity of Data Protect",
+      "url": "https://dev.to/kapusto/ensuring-data-resilience-in-modern-application-environments-5hfe",
+      "source": "Dev.to",
+      "author": "Mikuz",
+      "published": "2025-11-02T20:45:59+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "API"
+      ]
+    },
+    {
+      "id": "79eb51973d01a864",
+      "title": "Building a Data-Driven Advantage in Commercial Insurance",
+      "description": "The commercial insurance industry is shifting toward a model where data intelligence defines competitive success. Traditional underwriting methods—dependent on manual reviews and broker-provided spreadsheets—struggle to keep pace with the complexity of modern risk. Insurers and underwriters who embrace data-driven workflows gain not only efficiency but also strategic insight into portfolio performance, risk selection, and market trends. Why Data Is the New Underwriting Currency Every underwritin",
+      "url": "https://dev.to/kapusto/building-a-data-driven-advantage-in-commercial-insurance-3od2",
+      "source": "Dev.to",
+      "author": "Mikuz",
+      "published": "2025-11-02T20:41:11+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "performance"
+      ]
+    },
+    {
+      "id": "811388f253d55a99",
+      "title": "Deep Integration and the Convergence of Model Architecture and Hardware in AI",
+      "description": "Artificial intelligence has entered a stage where the frontier is no longer about bigger models but about more efficient coordination between architecture, data flow, and physical hardware. The next leap forward is coming from co-designed systems, where the boundaries between software optimization, neural topology, and silicon are intentionally blurred. Recent research trends show that high-performance models are increasingly dependent on architectural alignment with the underlying compute subst",
+      "url": "https://dev.to/maurizio_morri_f7f4bd128c/deep-integration-and-the-convergence-of-model-architecture-and-hardware-in-ai-4265",
+      "source": "Dev.to",
+      "author": "Maurizio Morri",
+      "published": "2025-11-02T20:34:23+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "performance"
+      ]
+    },
+    {
+      "id": "933dfef7c16fb17b",
+      "title": "Strengthening Active Directory Security Through Continuous Monitoring and Rapid Recovery",
+      "description": "Modern enterprises depend on their directory services to manage access, enforce policies, and secure user identities. Active Directory (AD) and Entra ID sit at the heart of this infrastructure, making them prime targets for cyber adversaries. Unfortunately, many organizations still rely on periodic audits or manual reviews to monitor these systems—a reactive approach that leaves them exposed to sophisticated, stealthy intrusions. To maintain a secure identity environment, businesses must transit",
+      "url": "https://dev.to/kapusto/strengthening-active-directory-security-through-continuous-monitoring-and-rapid-recovery-2487",
+      "source": "Dev.to",
+      "author": "Mikuz",
+      "published": "2025-11-02T20:33:15+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "API"
       ]
     },
     {
@@ -3574,20 +3569,6 @@
       "keywords": [
         "code",
         "developer"
-      ]
-    },
-    {
-      "id": "6f57571106121119",
-      "title": "Building Smarter Tree UIs: A Deep Dive into Legoblock's Headless Renderer",
-      "description": "View on Legoblock npm package In the world of modern web applications, hierarchical data is everywhere. File systems, organizational charts, navigation menus, comment threads, and nested filters all share a common challenge: rendering tree structures efficiently while maintaining clean, maintainable code. Enter Legoblock, a headless recursive renderer that elegantly solves this problem with a fresh approach to nested data visualization. What is Legoblock? Legoblock (@legoblock/ui) is a lightweig",
-      "url": "https://dev.to/pappijx/building-smarter-tree-uis-a-deep-dive-into-legoblocks-headless-renderer-22gp",
-      "source": "Dev.to",
-      "author": "Ayush",
-      "published": "2025-10-26T21:03:01+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
       ]
     },
     {
@@ -4880,28 +4861,18 @@
       ]
     },
     {
-      "id": "eeab38402edc4bef",
-      "title": "🐳 Working with Docker? Don’t Let Your Disk Explode!",
-      "description": "If you work with Docker on a daily basis — you’ve probably seen it happen: Everything runs smoothly, your builds succeed, containers are up… And then suddenly — “No space left on device” or your computer slows down for no reason. The truth? It’s not Docker’s fault — it’s yours 😉 Every time you run builds, create containers, or pull new images, Docker keeps everything on your local disk: Old images Stopped containers Unused volumes Build cache layers And it all piles up — fast. How to Clean Up Do",
-      "url": "https://dev.to/sara_hajbi/working-with-docker-dont-let-your-disk-explode-35lb",
+      "id": "dffc0b1a4073dfde",
+      "title": "Claude Code for Growth Marketing (Hell Yeah!)",
+      "description": "Below I’ll explain what they built, why it matters, and how you can copy the patterns without a big team (with only Claude Code). Who is they you are asking? Well, Anthrophic! Read their full document here. What they built and why it matters They focused on four practical automations: automatic Google Ads creative generation, a Figma plugin for mass creative production, a Meta Ads MCP (Model Context Protocol) server for campaign pull, and a simple memory system - I personally recommend basic-mem",
+      "url": "https://dev.to/danishashko/claude-code-for-growth-marketing-hell-yeah-i7i",
       "source": "Dev.to",
-      "author": "Sara Hajbi",
-      "published": "2025-10-26T20:45:15+00:00",
+      "author": "Daniel Shashko",
+      "published": "2025-11-02T20:31:14+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "379cc32afce39efa",
-      "title": "Predictive Cost Forecasting: Turning Financial Data into a Competitive Advantage",
-      "description": "In project-based industries, profitability depends not only on tracking expenses but also on anticipating them. Predictive cost forecasting has emerged as a powerful tool that enables businesses to move beyond static reporting toward proactive financial management. By leveraging historical data, real-time analytics, and machine learning, organizations can predict where their budgets are heading before overruns occur—turning insights into decisive action. From Cost Tracking to Cost Prediction Tra",
-      "url": "https://dev.to/kapusto/predictive-cost-forecasting-turning-financial-data-into-a-competitive-advantage-2mmp",
-      "source": "Dev.to",
-      "author": "Mikuz",
-      "published": "2025-10-26T20:29:20+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "db22560b2d10797d",
@@ -8124,6 +8095,42 @@
       "keywords": []
     },
     {
+      "id": "50a87ad0c928e729",
+      "title": "Calgo Featured in Official Binance Interview - The Mobile Mining Future Chosen by 100,000 Users",
+      "description": "Binance Spotlights Calgo's Growth Story [https://www.binance.com/en/live/video?roomId=2282303&utm_campaign=binance_live] The official interview team from Binance, the world's largest cryptocurrency exchange, met with Calgo CEO Ron to conduct an in-depth analysis of the project's vision and achievements. When Binance features a project through its official channels, it's a powerful signal recognizing the project's verified capabilities and potential. Real Value Proven by 100,000 Users Calgo's Cur",
+      "url": "https://dev.to/calgo_62400343865ec0ae72a/calgo-featured-in-official-binance-interview-the-mobile-mining-future-chosen-by-100000-users-502g",
+      "source": "Dev.to",
+      "author": "calgo",
+      "published": "2025-11-02T21:05:33+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "c12162dd6f810fcc",
+      "title": "Math's New Muse: AI as a Reasoning Partner",
+      "description": "Math's New Muse: AI as a Reasoning Partner Stuck trying to model the behavior of a material with a complex internal structure? Or perhaps you're wrestling with equations that seem to dance just beyond your grasp? The landscape of complex mathematical problems just shifted, thanks to a powerful new collaborative paradigm. The core idea is simple: Instead of viewing AI as just a number cruncher, we can leverage it as a reasoning partner in mathematical discovery. Think of it like this: the AI expl",
+      "url": "https://dev.to/arvind_sundararajan/maths-new-muse-ai-as-a-reasoning-partner-gc2",
+      "source": "Dev.to",
+      "author": "Arvind SundaraRajan",
+      "published": "2025-11-02T21:02:05+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "caad4bfa14c8bbc0",
+      "title": "Reglas Personalizadas en Web Application Firewall nativo AWS",
+      "description": "Este post es basado en la presentacion que realize en el evento de la comunidad de AWS Ecuador Temas Evolución de reglas básicas a custom rules avanzadas Casos de uso reales de implementación Integración con CloudFront, ALB Métricas y monitoreo con CloudWatch Características principales Protección en tiempo real Filtrado de tráfico basado en reglas personalizables Inspección profunda de headers, body y query strings Respuesta automática a amenazas detectadas Integración nativa con AWS Compatible",
+      "url": "https://dev.to/cyb3rcloud8888/reglas-personalizadas-en-web-application-firewall-nativo-aws-3g19",
+      "source": "Dev.to",
+      "author": "Willie Reyes",
+      "published": "2025-11-02T20:24:59+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "2fd23dac2ba6bc82",
       "title": "AI agents will succeed because one tool is better than ten",
       "description": "AI agents can chat, use tools, and write new code all from one interface. That&#x27;s why they&#x27;ll last.",
@@ -10290,6 +10297,42 @@
       "keywords": []
     },
     {
+      "id": "2fbb718bf339e786",
+      "title": "Lisp: Notes on its Past and Future (1980)",
+      "description": "Comments",
+      "url": "https://www-formal.stanford.edu/jmc/lisp20th/lisp20th.html",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-02T19:05:32+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "04bc53dff950c0c0",
+      "title": "Linux gamers on Steam cross over the 3% mark",
+      "description": "Comments",
+      "url": "https://www.gamingonlinux.com/2025/11/linux-gamers-on-steam-finally-cross-over-the-3-mark/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-02T18:54:59+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "f65503afd87858c4",
+      "title": "Is Your Bluetooth Chip Leaking Secrets via RF Signals?",
+      "description": "Comments",
+      "url": "https://www.semanticscholar.org/paper/Is-Your-Bluetooth-Chip-Leaking-Secrets-via-RF-Ji-Dubrova/c1d3ceb47ea6f9cc4f29929e2f97d36862a260a2",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-02T18:06:15+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "78c4b08725d5f56b",
       "title": "React 19 Upgrade Guide",
       "description": "The improvements added to React 19 require some breaking changes, but we've worked to make the upgrade as smooth as possible and we don't expect the changes to impact most apps. In this post, we will guide you through the steps for upgrading apps and libraries to React 19.",
@@ -10354,8 +10397,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "performance",
-        "React 19"
+        "React 19",
+        "performance"
       ]
     },
     {
@@ -10421,18 +10464,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "465a7a3ed0af5f55",
-      "title": "We Saved $500k per Year by Rolling Our Own \"S3\"",
-      "description": "Comments",
-      "url": "https://engineering.nanit.com/how-we-saved-500-000-per-year-by-rolling-our-own-s3-6caec1ee1143",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-26T21:05:09+00:00",
-      "niche": "dev",
-      "score": 38,
-      "keywords": []
     },
     {
       "id": "7ab0d603413da166",
@@ -10591,6 +10622,18 @@
       "keywords": []
     },
     {
+      "id": "d544c4e81b78313e",
+      "title": "Using FreeBSD to make self-hosting fun again",
+      "description": "Comments",
+      "url": "https://jsteuernagel.de/posts/using-freebsd-to-make-self-hosting-fun-again/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-02T11:01:23+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
       "id": "4e6d7290f5ff11d8",
       "title": "React Native 0.80 - React 19.1, JS API Changes, Freezing Legacy Arch and much more",
       "description": "Today we are excited to release React Native 0.80!",
@@ -10601,8 +10644,8 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "release",
         "API",
+        "release",
         "React 19"
       ]
     },
@@ -10645,9 +10688,9 @@
       "niche": "dev",
       "score": 36,
       "keywords": [
-        "development",
         "code",
-        "developer"
+        "developer",
+        "development"
       ]
     },
     {
@@ -10783,11 +10826,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "performance",
+        "release",
         "code",
         "framework",
         "API",
-        "release"
+        "performance"
       ]
     },
     {
@@ -11144,8 +11187,8 @@
       "score": 25,
       "keywords": [
         "framework",
-        "Angular",
-        "release"
+        "release",
+        "Angular"
       ]
     },
     {
@@ -11228,8 +11271,8 @@
       "score": 22,
       "keywords": [
         "release",
-        "performance",
-        "development"
+        "development",
+        "performance"
       ]
     },
     {
@@ -11255,8 +11298,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "API"
+        "API",
+        "release"
       ]
     },
     {
@@ -11285,9 +11328,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "performance",
         "code",
-        "developer"
+        "developer",
+        "performance"
       ]
     },
     {
@@ -11316,8 +11359,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
         "API",
+        "release",
         "developer"
       ]
     },
@@ -11835,8 +11878,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "development",
-        "programming"
+        "programming",
+        "development"
       ]
     },
     {
