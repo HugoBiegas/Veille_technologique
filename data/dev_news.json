@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-11-02T01:59:25.233539+00:00",
-  "total_articles": 971,
+  "last_updated": "2025-11-02T03:48:20.079900+00:00",
+  "total_articles": 974,
   "articles": [
     {
       "id": "b7086dbf6e29731d",
@@ -290,6 +290,20 @@
       "score": 72,
       "keywords": [
         "release"
+      ]
+    },
+    {
+      "id": "b73f85d772e6ce12",
+      "title": "🧩 Providers vs ViewProviders in Angular — The Untold Difference",
+      "description": "If you’ve been working with Angular for a while, you’ve likely seen this in component metadata: @Component({ selector: 'app-parent', templateUrl: './parent.component.html', providers: [MyService], // or viewProviders: [MyService] }) At first glance, both providers and viewProviders seem identical. They both inject services into a component, right? So why did Angular create two separate options? The difference lies in scope, encapsulation, and how Angular renders views and projected content. Let’",
+      "url": "https://dev.to/rohit_singh_ee84e64941db7/providers-vs-viewproviders-in-angular-the-untold-difference-cdh",
+      "source": "Dev.to",
+      "author": "ROHIT SINGH",
+      "published": "2025-11-02T03:10:43+00:00",
+      "niche": "dev",
+      "score": 72,
+      "keywords": [
+        "Angular"
       ]
     },
     {
@@ -590,17 +604,41 @@
       "keywords": []
     },
     {
-      "id": "b83dc71e19e94901",
-      "title": "PCB Edge USB C Connector Library",
+      "id": "446c22e3fb4433e0",
+      "title": "Real-World Distributed Tracing: Java, OpenTelemetry, and Google Cloud Trace in Production",
+      "description": "Deep Dive into Google Cloud Tracing for Java: A Production-Ready Implementation Guide Distributed tracing has transformed from an operational luxury to a fundamental requirement for understanding production systems. Over the years, I've debugged countless incidents where proper trace instrumentation made the difference between resolving an issue in minutes versus hours of correlation work across fragmented logs. Google Cloud Trace, now deeply integrated with OpenTelemetry standards, has undergon",
+      "url": "https://dev.to/cloudengg/real-world-distributed-tracing-java-opentelemetry-and-google-cloud-trace-in-production-2m2l",
+      "source": "Dev.to",
+      "author": "Aditya Gupta",
+      "published": "2025-11-02T03:37:52+00:00",
+      "niche": "dev",
+      "score": 68,
+      "keywords": []
+    },
+    {
+      "id": "482e852342ceee41",
+      "title": "Auditing All Shared Files in Google Drive with Apps Script",
+      "description": "I needed a way to list who can access every shared file on my Google Drive. However, most scripts I found online were not working for me. So I opened Cursor and started building it myself. At first, I intended to publish the Apps Script as an add-on, but it turns out the script needs a restricted scope thus requiring a long review process. Finally I decided to publish the script for free, along with a Google Sheets Template. How to Audit Files on Google Drive This is how you can list who has acc",
+      "url": "https://dev.to/terryds/auditing-all-shared-files-in-google-drive-with-apps-script-4c98",
+      "source": "Dev.to",
+      "author": "Terry Djony",
+      "published": "2025-11-02T02:43:34+00:00",
+      "niche": "dev",
+      "score": 68,
+      "keywords": []
+    },
+    {
+      "id": "ae98665596c77dd6",
+      "title": "Crossfire: High-performance lockless spsc/mpsc/mpmc channels for Rust",
       "description": "Comments",
-      "url": "https://github.com/AnasMalas/pcb-edge-usb-c",
+      "url": "https://github.com/frostyplanet/crossfire-rs",
       "source": "Hacker News",
       "author": "Inconnu",
-      "published": "2025-10-26T02:31:54+00:00",
+      "published": "2025-11-02T03:07:15+00:00",
       "niche": "dev",
       "score": 66,
       "keywords": [
-        "library"
+        "performance"
       ]
     },
     {
@@ -690,18 +728,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "3fb26ff2867283b6",
-      "title": "Pico-Banana-400k",
-      "description": "Comments",
-      "url": "https://github.com/apple/pico-banana-400k",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-26T02:01:17+00:00",
-      "niche": "dev",
-      "score": 62,
-      "keywords": []
     },
     {
       "id": "a4d87999c6aa6dc8",
@@ -1139,6 +1165,18 @@
       "keywords": []
     },
     {
+      "id": "1f05de1c958d66d3",
+      "title": "Pomelli",
+      "description": "Comments",
+      "url": "https://blog.google/technology/google-labs/pomelli/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-01T23:09:25+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": []
+    },
+    {
       "id": "8872aa545b5183cf",
       "title": "i-benchmarked-seven-backend-frameworks-and-it-changed-my-tech-stack-decisions",
       "description": "About Hyperlane Framework Hyperlane is a lightweight, high-performance, cross-platform Rust HTTP server framework built on Tokio async runtime. Core Features Performance: 324,323 QPS (Keep-Alive on), 51,031 QPS (Keep-Alive off) | Unified API: HTTP, WebSocket, SSE share same interface | Flexible Routing: Static, dynamic, regex routes | Powerful Middleware: Request/response middleware, panic hooks | Real-time: Native WebSocket and SSE support | Cross-platform: Unified experience on Windows, Linux,",
@@ -1270,22 +1308,6 @@
         "development",
         "API",
         "developer"
-      ]
-    },
-    {
-      "id": "ab255405d686004e",
-      "title": "FlowML — Time-Labeled Programming for Machine Learning",
-      "description": "⬇️ Download the multi-repo starter pack Download binflow-starters.zip Inside you’ll find five ready-to-clone frameworks: flowml-pytorch-template Minimal FlowML primitives (phases, timelabels) + a tiny demo training loop. flowml/flowml.py → TimeLabel, Phase enum examples/train_demo.py → prints live phases (Focus/Loop/Stress/…) pyproject.toml with deps binflow-fastapi-agent-template FastAPI service for /events (post/list) to log BINFLOW events (great for local prototyping). app/main.py with POST /",
-      "url": "https://dev.to/p_thabiwa_0ca34c2f83/flowml-time-labeled-programming-for-machine-learning-4l8n",
-      "source": "Dev.to",
-      "author": "Peace Thabiwa",
-      "published": "2025-10-26T03:11:32+00:00",
-      "niche": "dev",
-      "score": 58,
-      "keywords": [
-        "programming",
-        "API",
-        "framework"
       ]
     },
     {
@@ -1825,21 +1847,6 @@
       ]
     },
     {
-      "id": "62aeccee4ce684b4",
-      "title": "Day 26 - Alert Component Part 5 - Extract logic and component from Alert Bar",
-      "description": "Component Fundamentals with JavaScript Frameworks On day 26, I review the code of AlertBar component and spot two improvements to make it cleaner. The component has a static label and a select element that two-way bind to the AlertList component. It can be extracted to a AlertDropdown component. The AlertList and AlertBar components have logic to manage the state of the closedNotifications ref. The logic and the ref can be encapsulated in a state management solution. Framework State Management V",
-      "url": "https://dev.to/railsstudent/day-26-alert-component-part-5-extract-logic-and-component-from-alert-bar-3mk",
-      "source": "Dev.to",
-      "author": "Connie Leung",
-      "published": "2025-10-26T03:33:33+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "code",
-        "framework"
-      ]
-    },
-    {
       "id": "43d9beaee3627dca",
       "title": "Refactoring Your B2B SEO: An Engineer's Guide to High-Value Lead Generation",
       "description": "As developers, we're trained to optimize systems. We run profilers, refactor bottlenecks, and obsess over performance metrics. So why do we let our marketing colleagues get away with optimizing for a vanity metric like raw traffic? Most B2B SEO is broken. It's a game of chasing high-volume keywords that attract hobbyists and students, not VPs of Engineering with a budget. The result? A hockey-stick traffic graph that impresses the C-suite for a month, followed by a sales team wondering why their",
@@ -2122,36 +2129,6 @@
       "keywords": [
         "code",
         "library"
-      ]
-    },
-    {
-      "id": "ac30afb27c63ee6e",
-      "title": "Framer Motion + Tailwind: The 2025 Animation Stack",
-      "description": "Animation in frontend has gone from “nice-to-have” to core UX. In 2025, users expect smooth, context-aware transitions — not just buttons that move. Framer Motion and Tailwind CSS — two tools that, when combined, give you an elegant, scalable animation workflow without the usual headache of CSS keyframes or timeline-based libraries. 💡 What Are These Tools? 🧩 Tailwind CSS ✅ Utility-first CSS framework ✅ You use short class names like p-4, bg-blue-500, rounded-xl ✅ No need to leave your HTML or JS",
-      "url": "https://dev.to/manukumar07/framer-motion-tailwind-the-2025-animation-stack-1801",
-      "source": "Dev.to",
-      "author": "Manu Kumar Pal",
-      "published": "2025-10-26T03:16:55+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "framework"
-      ]
-    },
-    {
-      "id": "490a25d8d1c437bd",
-      "title": "🔥 JavaScript Interview Series(11): Deep vs Shallow Copy — Hidden Traps & Best Practices",
-      "description": "Welcome to another installment of our JavaScript Interview Series! Today, we're diving deep (and shallow) into one of the most fundamental yet tricky concepts for many developers: copying objects. Understanding the difference between a deep and shallow copy isn't just academic; it's a practical necessity to avoid frustrating bugs and write predictable, solid code. Let's unravel the hidden traps and best practices you need to ace your next interview. 1. What is the fundamental difference between ",
-      "url": "https://dev.to/jackm_345442a09fb53b/javascript-interview-series10-deep-vs-shallow-copy-hidden-traps-best-practices-4gck",
-      "source": "Dev.to",
-      "author": "jackma",
-      "published": "2025-10-26T02:48:16+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "best practices",
-        "code",
-        "developer"
       ]
     },
     {
@@ -3137,18 +3114,17 @@
       ]
     },
     {
-      "id": "9188ca3cd166cb1e",
-      "title": "User Scanner : Find Your Perfect Username Across All Platforms in Seconds ⚡",
-      "description": "🚀 User Scanner: Find Your Perfect Username Across All Platforms in Seconds ⚡ Tired of opening tabs and hunting site-by-site to see if your favorite username is taken? User Scanner fixes that , fast, from your terminal, with clear color-coded output. Perfect for developers, creators, and anyone who wants a consistent online identity without the busywork. 💡 What It Does ✅ Scans social, developer, and creator platforms in a single run (GitHub, Reddit, X, Instagram, YouTube, and more). ✅ Produces a ",
-      "url": "https://dev.to/kaifcodec/user-scanner-find-your-perfect-username-across-all-platforms-in-seconds-1pf5",
+      "id": "f8a9461ce814ec82",
+      "title": "Building a Production-Ready Enterprise AI Assistant with RAG and Security Guardrails",
+      "description": "Building a Production-Ready Enterprise AI Assistant with RAG and Security Guardrails TL;DR I built an enterprise-grade AI assistant that demonstrates how to responsibly deploy RAG systems in regulated environments. The system combines FAISS for document retrieval, FLAN-T5 for generation, and comprehensive security guardrails including PII redaction, policy enforcement, and audit logging. All components run locally using open-source models - no external APIs required. In my testing with real ente",
+      "url": "https://dev.to/exploredataaiml/building-a-production-ready-enterprise-ai-assistant-with-rag-and-security-guardrails-45fp",
       "source": "Dev.to",
-      "author": "kaifcodec",
-      "published": "2025-10-26T03:02:40+00:00",
+      "author": "Aniket Hingane",
+      "published": "2025-11-02T03:16:24+00:00",
       "niche": "dev",
-      "score": 52,
+      "score": 54,
       "keywords": [
-        "code",
-        "developer"
+        "API"
       ]
     },
     {
@@ -3629,6 +3605,21 @@
       "keywords": [
         "developer",
         "code"
+      ]
+    },
+    {
+      "id": "855cce773fe321c3",
+      "title": "Migration Made Easy: Transitioning from Traditional AI Libraries to Low-Code Solutions in Q4 2025",
+      "description": "Migration Made Easy: Transitioning from Traditional AI Libraries to Low-Code Solutions in Q4 2025 Last week, I sat in a conference room listening to our VP of Engineering explain why our AI project—six months in development—needed to be rebuilt from scratch. \"We spent too much time on plumbing,\" he said. \"Not enough on the actual product.\" That conversation stuck with me. According to Gartner's latest research, 75% of enterprise software engineers will use AI-assisted development tools by 2028, ",
+      "url": "https://dev.to/lofcz/migration-made-easy-transitioning-from-traditional-ai-libraries-to-low-code-solutions-in-q4-2025-5dp7",
+      "source": "Dev.to",
+      "author": "Matěj Štágl",
+      "published": "2025-11-02T03:35:58+00:00",
+      "niche": "dev",
+      "score": 52,
+      "keywords": [
+        "code",
+        "development"
       ]
     },
     {
@@ -4879,64 +4870,18 @@
       ]
     },
     {
-      "id": "de1bfca4e987b74a",
-      "title": "EchoVerse: The Self-Generating Universe",
-      "description": "The Problem AI worldbuilding tools are static — you generate once, then explore passively. The world doesn’t evolve with you. 💥 The BINFLOW Solution EchoVerse generates living virtual worlds powered by temporal BINFLOW data. Every biome, creature, and story arc responds to user interaction over time. ⚙️ MVP Markup from binflow import EchoVerse world = EchoVerse(seed=\"Emergence Protocol\") world.flow_evolve(phase=\"Transition\", user=\"Peace\") world.export(\"metaverse_realm.json\") 🌍 Real-World Impact ",
-      "url": "https://dev.to/p_thabiwa_0ca34c2f83/echoverse-the-self-generating-universe-34j",
+      "id": "f390c642b893af5e",
+      "title": "The Hidden DNA of LLM-Generated JavaScript: Structural Patterns EnableHigh-Accuracy Authorship Attribution",
+      "description": "AI's Secret Handwriting in JavaScript Revealed Ever wondered if a computer can leave its own “fingerprint” in the code it writes? Scientists have discovered that JavaScript generated by different AI models each carries a subtle, unique style—much like a person’s handwriting. By training clever detectors, they can tell which AI wrote a piece of code with up to 95% accuracy, even after the code is scrambled or stripped of comments. This matters because it helps spot hidden vulnerabilities, catch m",
+      "url": "https://dev.to/paperium/the-hidden-dna-of-llm-generated-javascript-structural-patterns-enablehigh-accuracy-authorship-493j",
       "source": "Dev.to",
-      "author": "Peace Thabiwa",
-      "published": "2025-10-26T03:06:39+00:00",
+      "author": "Paperium",
+      "published": "2025-11-02T03:00:50+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "56bebd653b54232e",
-      "title": "Building cargo-sane: A Better Way to Manage Rust Dependencies",
-      "description": "Building cargo-sane: A Better Way to Manage Rust Dependencies Have you ever spent hours manually updating dependencies in your Cargo.toml? Copying version numbers from crates.io, wondering which updates are safe, and hoping nothing breaks? Yeah, me too. That's why I built cargo-sane. 🤔 The Problem Managing Rust dependencies is tedious: You need to check crates.io for each dependency manually You don't know which updates are safe (patch? minor? major?) Version conflicts are confusing One wrong up",
-      "url": "https://dev.to/chronocoders/building-cargo-sane-a-better-way-to-manage-rust-dependencies-50j6",
-      "source": "Dev.to",
-      "author": "Altug Tatlisu",
-      "published": "2025-10-26T03:05:13+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "edf6851b8485f65c",
-      "title": "AI Factories: Balancing Brains for Smarter Production",
-      "description": "AI Factories: Balancing Brains for Smarter Production Imagine a recycling plant where AI agents control sorting belts and compacting machines, coordinating everything from waste intake to final product. The challenge? Creating an AI that's both a specialist in its task and a team player within the overall process. We need smarter AI for smart factories. The core idea revolves around a multi-agent system – think of it as a team of specialized AI robots, each handling a specific part of the factor",
-      "url": "https://dev.to/arvind_sundararajan/ai-factories-balancing-brains-for-smarter-production-2g5m",
-      "source": "Dev.to",
-      "author": "Arvind SundaraRajan",
-      "published": "2025-10-26T03:02:04+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "940dde5196ca1f23",
-      "title": "DreamStage: AI Theatre for Virtual Worlds",
-      "description": "The Problem VR experiences are mechanical — pre-scripted, not alive. Once you’ve played it once, it’s predictable. 💥 The BINFLOW Solution DreamStage brings real-time emotional narrative control. NPCs, weather, and soundtrack all adapt to player phase and tempo. ⚙️ MVP Markup from binflow import DreamStage stage = DreamStage(player=\"Peace\") stage.react_to_phase(\"Stress\", event=\"storm\") stage.transition(\"Emergence\", event=\"sunrise\") 🌍 Real-World Impact Theatre powered by your heartbeat. Every sess",
-      "url": "https://dev.to/p_thabiwa_0ca34c2f83/dreamstage-ai-theatre-for-virtual-worlds-557a",
-      "source": "Dev.to",
-      "author": "Peace Thabiwa",
-      "published": "2025-10-26T03:01:08+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "7fe5b40c92fbde7b",
-      "title": "Adeus, oh-my-zsh 😭",
-      "description": "Por muito tempo usei o zsh com o plugin oh-my-zsh, e segui no modo automático todas as vezes que precisei configurar meu ambiente de desenvolvimento. Só que, dessa última vez, eu me fiz a pergunta: “o que de fato eu tô usando desse plugin?” E pra surpresa de zero pessoas, eu tava só seguindo o modus operandi sem nem saber o que tava rolando 😅 Quando abri meu arquivo .zshrc eu fiquei tipo: what? 😂 🤡 Foi aí que decidi deixar o .zshrc o mais limpo possível e me despedir do oh-my-zsh foi necessário ",
-      "url": "https://dev.to/soupaulosilva/adeus-oh-my-zsh-dpg",
-      "source": "Dev.to",
-      "author": "Paulo Silva",
-      "published": "2025-10-26T02:57:50+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "bd07cc0303f4af85",
@@ -8039,6 +7984,54 @@
       "keywords": []
     },
     {
+      "id": "050fbacbca63aa1b",
+      "title": "Halloween CSS Challenge 2025",
+      "description": "This is a submission for Frontend Challenge - Halloween Edition, CSS Art. Inspiration A spooky house... each element will animate. Demo Journey As a backend/full-stack dev with over 25 years of experience, I don't have a lot of decorative CSS experience. On a lark, I decided to fire up ChatGPT and Cursor to see what I could come up with in a few hours while I was watching game 7 of the World Series. This reinforces to me how much I can extend my abilities with LLMs. License This project is relea",
+      "url": "https://dev.to/chris407x/halloween-css-challenge-2025-2g1g",
+      "source": "Dev.to",
+      "author": "chris407x",
+      "published": "2025-11-02T03:22:10+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "2bbb95816bd00927",
+      "title": "Building Confidence Through Open Source",
+      "description": "What project I contributed In the third week of hacktoberfest, I revisited the OpsiMate repo which i found on the first week of hacktoberfest. OpsiMate is an all-in-one platform designed for DevOps and IT teams to manage and monitor their infrastructure in one place. I had discovered this repo in the first week. Initially, I was hesitant about contributing to such a big project, but after gaining confidence through other contributions, I decided to submit a PR which closed this issue.This contri",
+      "url": "https://dev.to/elsad_humbetli_0971c995ce/contributing-while-fixing-api-key-validation-3lm3",
+      "source": "Dev.to",
+      "author": "ElshadHu",
+      "published": "2025-11-02T03:11:00+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "9bfcf2501b96b8b5",
+      "title": "AI as Muse: Unlocking Mathematical Secrets Through Collaborative Discovery",
+      "description": "AI as Muse: Unlocking Mathematical Secrets Through Collaborative Discovery Ever feel like you're hitting a wall with a complex mathematical problem, endlessly tweaking parameters with no breakthrough? Imagine having a tireless, insightful partner to explore uncharted territories alongside you. This isn't science fiction; it's the emerging reality of AI-augmented mathematical discovery. At its core, this new approach involves an AI system, not just as a calculator, but as a genuine collaborator. ",
+      "url": "https://dev.to/arvind_sundararajan/ai-as-muse-unlocking-mathematical-secrets-through-collaborative-discovery-1ig9",
+      "source": "Dev.to",
+      "author": "Arvind SundaraRajan",
+      "published": "2025-11-02T03:02:03+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "281588c5c64b12f8",
+      "title": "What Is SCADA? – Block Diagram, and Its Benefits | Poly Notes Hub",
+      "description": "What Is SCADA? – Block Diagram, and Its Benefits | Poly Notes Hub In modern industrial systems, SCADA (Supervisory Control and Data Acquisition) plays a critical role in monitoring and controlling infrastructure processes. From power generation to water treatment, SCADA systems ensure efficient, real-time supervision of large-scale operations. This article explains what SCADA is, its block diagram, working, and benefits in industrial automation. What Is SCADA? SCADA stands for Supervisory Contro",
+      "url": "https://dev.to/poly_noteshub_bfde70023a/what-is-scada-block-diagram-and-its-benefits-poly-notes-hub-2ige",
+      "source": "Dev.to",
+      "author": "Poly Notes Hub",
+      "published": "2025-11-02T02:51:56+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "bfd348aeb2855c4a",
       "title": "Clojure Land – Discover open-source Clojure libraries and frameworks",
       "description": "Comments",
@@ -8465,6 +8458,34 @@
       ]
     },
     {
+      "id": "a3b2eecca1c5d256",
+      "title": "Visopsys: OS maintained by a single developer since 1997",
+      "description": "Comments",
+      "url": "https://visopsys.org/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-01T22:07:49+00:00",
+      "niche": "dev",
+      "score": 45,
+      "keywords": [
+        "developer"
+      ]
+    },
+    {
+      "id": "ad86d58b27d186fd",
+      "title": "How I use every Claude Code feature",
+      "description": "Comments",
+      "url": "https://blog.sshh.io/p/how-i-use-every-claude-code-feature",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-02T00:13:27+00:00",
+      "niche": "dev",
+      "score": 45,
+      "keywords": [
+        "code"
+      ]
+    },
+    {
       "id": "9ad7104d3b029135",
       "title": "Untitled",
       "description": "Check out this Pen I made!",
@@ -8484,18 +8505,6 @@
       "source": "Dev.to",
       "author": "Dipti Moryani",
       "published": "2025-10-26T06:13:59+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "ffa15b51f336ccad",
-      "title": "GenAI Image Editing Showdown",
-      "description": "Comments",
-      "url": "https://genai-showdown.specr.net/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-26T02:57:57+00:00",
       "niche": "dev",
       "score": 44,
       "keywords": []
@@ -10253,6 +10262,18 @@
       "keywords": []
     },
     {
+      "id": "e4c90d7ffa1c4feb",
+      "title": "Anonymous credentials: rate-limit bots and agents without compromising privacy",
+      "description": "Comments",
+      "url": "https://blog.cloudflare.com/private-rate-limiting/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-02T00:45:13+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "78c4b08725d5f56b",
       "title": "React 19 Upgrade Guide",
       "description": "The improvements added to React 19 require some breaking changes, but we've worked to make the upgrade as smooth as possible and we don't expect the changes to impact most apps. In this post, we will guide you through the steps for upgrading apps and libraries to React 19.",
@@ -10317,8 +10338,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "performance",
-        "React 19"
+        "React 19",
+        "performance"
       ]
     },
     {
@@ -10370,6 +10391,20 @@
       "niche": "dev",
       "score": 39,
       "keywords": []
+    },
+    {
+      "id": "ebce89d6c22acb03",
+      "title": "Claude Code can debug low-level cryptography",
+      "description": "Comments",
+      "url": "https://words.filippo.io/claude-debugging/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-01T18:41:56+00:00",
+      "niche": "dev",
+      "score": 39,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "14c8eae44241f552",
@@ -10586,9 +10621,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
+        "React 19",
         "API",
-        "release",
-        "React 19"
+        "release"
       ]
     },
     {
@@ -10642,9 +10677,9 @@
       "niche": "dev",
       "score": 36,
       "keywords": [
-        "development",
+        "code",
         "developer",
-        "code"
+        "development"
       ]
     },
     {
@@ -10658,8 +10693,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10780,11 +10815,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "release",
-        "API",
-        "performance",
         "code",
-        "framework"
+        "framework",
+        "release",
+        "performance",
+        "API"
       ]
     },
     {
@@ -11140,9 +11175,9 @@
       "niche": "dev",
       "score": 25,
       "keywords": [
-        "release",
         "Angular",
-        "framework"
+        "framework",
+        "release"
       ]
     },
     {
@@ -11225,8 +11260,8 @@
       "score": 22,
       "keywords": [
         "performance",
-        "release",
-        "development"
+        "development",
+        "release"
       ]
     },
     {
@@ -11267,8 +11302,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "framework"
+        "framework",
+        "release"
       ]
     },
     {
@@ -11282,9 +11317,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
+        "code",
         "performance",
-        "developer",
-        "code"
+        "developer"
       ]
     },
     {
@@ -11314,8 +11349,8 @@
       "score": 19,
       "keywords": [
         "API",
-        "release",
-        "developer"
+        "developer",
+        "release"
       ]
     },
     {
@@ -11329,8 +11364,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
-        "developer"
+        "developer",
+        "release"
       ]
     },
     {
@@ -11820,8 +11855,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "development",
-        "programming"
+        "programming",
+        "development"
       ]
     },
     {
@@ -12225,8 +12260,8 @@
       "niche": "dev",
       "score": 11,
       "keywords": [
-        "release",
-        "code"
+        "code",
+        "release"
       ]
     },
     {
