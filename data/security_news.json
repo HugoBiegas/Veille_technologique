@@ -1,25 +1,7 @@
 {
-  "last_updated": "2025-11-03T15:26:19.438594+00:00",
-  "total_articles": 376,
+  "last_updated": "2025-11-03T18:33:21.599431+00:00",
+  "total_articles": 380,
   "articles": [
-    {
-      "id": "5db6b401c8779c07",
-      "title": "Italian spyware vendor linked to Chrome zero-day attacks",
-      "description": "A zero-day vulnerability in Google Chrome exploited in Operation ForumTroll earlier this year delivered malware linked to Italian spyware vendor Memento Labs, born after IntheCyber ​​Group acquired the infamous Hacking Team. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/italian-spyware-vendor-linked-to-chrome-zero-day-attacks/",
-      "source": "Bleeping Computer",
-      "author": "Bill Toulas",
-      "published": "2025-10-27T12:37:28-04:00",
-      "niche": "security",
-      "score": 100,
-      "keywords": [
-        "malware",
-        "vulnerability",
-        "exploit",
-        "attack",
-        "zero-day"
-      ]
-    },
     {
       "id": "37b666b7d6e58d59",
       "title": "Chrome Zero-Day Exploited to Deliver Italian Memento Labs' LeetAgent Spyware",
@@ -522,6 +504,23 @@
       ]
     },
     {
+      "id": "f937b57f915e196f",
+      "title": "US cybersecurity experts indicted for BlackCat ransomware attacks",
+      "description": "Three former employees of cybersecurity incident response companies DigitalMint and Sygnia have been indicted for allegedly hacking the networks of five U.S. companies in BlackCat (ALPHV) ransomware attacks between May 2023 and November 2023. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/us-cybersecurity-experts-indicted-for-blackcat-ransomware-attacks/",
+      "source": "Bleeping Computer",
+      "author": "Sergiu Gatlan",
+      "published": "2025-11-03T12:15:39-05:00",
+      "niche": "security",
+      "score": 88,
+      "keywords": [
+        "security",
+        "ransomware",
+        "attack",
+        "cybersecurity"
+      ]
+    },
+    {
       "id": "69e7184e044f36d7",
       "title": "New Atroposia malware comes with a local vulnerability scanner",
       "description": "A new malware-as-a-service (MaaS) platform named Atroposia provides cybercriminals a remote access trojan that combines capabilities for persistent access, evasion, data theft, and local vulnerability scanning. [...]",
@@ -609,21 +608,6 @@
       ]
     },
     {
-      "id": "7c19975f9bfe5056",
-      "title": "QNAP warns of critical ASP.NET flaw in its Windows backup software",
-      "description": "QNAP warned customers to patch a critical ASP.NET Core vulnerability that also impacts the company's NetBak PC Agent, a Windows utility for backing& up data to a QNAP network-attached storage (NAS) device. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/qnap-warns-its-windows-backup-software-is-also-affected-by-critical-aspnet-flaw/",
-      "source": "Bleeping Computer",
-      "author": "Sergiu Gatlan",
-      "published": "2025-10-27T12:55:02-04:00",
-      "niche": "security",
-      "score": 84,
-      "keywords": [
-        "vulnerability",
-        "patch"
-      ]
-    },
-    {
       "id": "04eda4602e5f933a",
       "title": "Schneider Electric EcoStruxure",
       "description": "View CSAF 1. EXECUTIVE SUMMARY CVSS v4 8.2 ATTENTION: Exploitable remotely/low attack complexity Vendor: Schneider Electric Equipment: EcoStruxure Vulnerability: Allocation of Resources Without Limits or Throttling 2. RISK EVALUATION Successful exploitation of this vulnerability could result in the loss of real-time process data from the Modicon Controller. 3. TECHNICAL DETAILS 3.1 AFFECTED PRODUCTS Schneider Electric reports that the following products are affected: EcoStruxure OPC UA Server Ex",
@@ -701,6 +685,21 @@
       "keywords": [
         "exploit",
         "threat"
+      ]
+    },
+    {
+      "id": "77fe2ca616e07acd",
+      "title": "Hackers use RMM tools to breach freighters and steal cargo shipments",
+      "description": "Threat actors are targeting freight brokers and trucking carriers with malicious links and emails to deploy remote monitoring and management tools (RMMs) that enable them to hijack cargo and steal physical goods. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-use-rmm-tools-to-breach-freighters-and-steal-cargo-shipments/",
+      "source": "Bleeping Computer",
+      "author": "Bill Toulas",
+      "published": "2025-11-03T11:46:40-05:00",
+      "niche": "security",
+      "score": 84,
+      "keywords": [
+        "threat",
+        "breach"
       ]
     },
     {
@@ -824,11 +823,25 @@
       "niche": "security",
       "score": 80,
       "keywords": [
-        "remote code execution",
-        "vulnerability",
         "RCE",
+        "remote code execution",
+        "security",
         "CVE-",
-        "security"
+        "vulnerability"
+      ]
+    },
+    {
+      "id": "054462437f4ac6f7",
+      "title": "Defeating KASLR by Doing Nothing at All",
+      "description": "Posted by Seth Jenkins, Project ZeroIntroductionI've recently been researching Pixel kernel exploitation and as part of this research I found myself with an excellent arbitrary write primitive…but without a KASLR leak. As necessity is the mother of all invention, on a hunch, I started researching the Linux kernel linear mapping.The Linux Linear MappingThe linear mapping is a region in the kernel virtual address space that is a direct 1:1 unstructured representation of physical memory. Working wi",
+      "url": "https://googleprojectzero.blogspot.com/2025/11/defeating-kaslr-by-doing-nothing-at-all.html",
+      "source": "Google Project Zero",
+      "author": "Google Project Zero (noreply@blogger.com)",
+      "published": "2025-11-03T10:09:00-08:00",
+      "niche": "security",
+      "score": 80,
+      "keywords": [
+        "exploit"
       ]
     },
     {
@@ -861,6 +874,22 @@
         "phishing",
         "attack",
         "threat"
+      ]
+    },
+    {
+      "id": "3f0491b49d13084f",
+      "title": "OAuth Device Code Phishing: Azure vs. Google Compared",
+      "description": "Device code phishing abuses the OAuth device flow, and Google and Azure produce strikingly different attack surfaces. Register for Huntress Labs' Live Hack to learn about attack techniques, defensive tactics, and get an Identity Security Assessment. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/oauth-device-code-phishing-azure-vs-google-compared/",
+      "source": "Bleeping Computer",
+      "author": "Sponsored by Huntress Labs",
+      "published": "2025-11-03T10:11:21-05:00",
+      "niche": "security",
+      "score": 79,
+      "keywords": [
+        "phishing",
+        "security",
+        "attack"
       ]
     },
     {
@@ -1367,20 +1396,6 @@
         "attack",
         "threat",
         "malware"
-      ]
-    },
-    {
-      "id": "ee8a29139eb66f4e",
-      "title": "X Warns Users With Security Keys to Re-Enroll Before November 10 to Avoid Lockouts",
-      "description": "Social media platform X is urging users who have enrolled for two-factor authentication (2FA) using passkeys and hardware security keys like Yubikeys to re-enroll their key to ensure continued access to the service. To that end, users are being asked to complete the re-enrollment, either using their existing security key or enrolling a new one, by November 10, 2025. \"After November 10, if you",
-      "url": "https://thehackernews.com/2025/10/x-warns-users-with-security-keys-to-re.html",
-      "source": "The Hacker News",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2025-10-27T21:42:00+05:30",
-      "niche": "security",
-      "score": 72,
-      "keywords": [
-        "security"
       ]
     },
     {
@@ -1965,18 +1980,6 @@
       ]
     },
     {
-      "id": "4e444d7dd09f71ee",
-      "title": "Google says everyone will be able to vibe code video games",
-      "description": "Google AI Studio product lead teased that everyone will be able to vibe code video games by the end of the year. [...]",
-      "url": "https://www.bleepingcomputer.com/news/google/google-says-everyone-will-be-able-to-vibe-code-video-games/",
-      "source": "Bleeping Computer",
-      "author": "Mayank Parmar",
-      "published": "2025-10-27T11:59:36-04:00",
-      "niche": "security",
-      "score": 64,
-      "keywords": []
-    },
-    {
       "id": "58311e654f1a6f6a",
       "title": "Windows will soon prompt for memory scans after BSOD crashes",
       "description": "Microsoft has started testing a new feature that prompts Windows 11 users to run a memory scan when logging in after a blue screen of death (BSOD). [...]",
@@ -2430,9 +2433,9 @@
       "niche": "security",
       "score": 61,
       "keywords": [
+        "security",
         "OWASP",
         "RCE",
-        "security",
         "secure"
       ]
     },
@@ -2496,19 +2499,17 @@
       ]
     },
     {
-      "id": "37863561cb3f9aeb",
-      "title": "Blasting Past Webp",
-      "description": "An analysis of the NSO BLASTPASS iMessage exploit Posted by Ian Beer, Google Project Zero On September 7, 2023 Apple issued an out-of-band security update for iOS: Around the same time on September 7th 2023, Citizen Lab published a blog post linking the two CVEs fixed in iOS 16.6.1 to an \"NSO Group Zero-Click, Zero-Day exploit captured in the wild\": \"[The target was] an individual employed by a Washington DC-based civil society organization with international offices... The exploit chain was cap",
-      "url": "https://googleprojectzero.blogspot.com/2025/03/blasting-past-webp.html",
-      "source": "Google Project Zero",
-      "author": "Google Project Zero (noreply@blogger.com)",
-      "published": "2025-03-26T10:30:00-07:00",
+      "id": "314197f498a2fc92",
+      "title": "OpenAIs Aardvark soll Fehler im Code erkennen und beheben",
+      "description": "KI soll das Thema Sicherheit frühzeitig in den Development-Prozess miteinbeziehen.Summit Art Creations/ Shutterstock OpenAI hat Aardvark vorgestellt, einen autonomen Agenten auf Basis von GPT-5. Er soll wie ein menschlicher Sicherheitsforscher in der Lage sein, Code zu scannen, zu verstehen und zu patchen. Im Gegensatz zu herkömmlichen Scannern, die verdächtigen Code mechanisch markieren, versucht Aardvark zu analysieren, wie und warum sich Code so verhält, wie er sich verhält. „OpenAI Aardvark ",
+      "url": "https://www.csoonline.com/article/4083364/openais-aardvark-soll-fehler-im-code-erkennen-und-beheben.html",
+      "source": "CSO Online",
+      "author": "Inconnu",
+      "published": "2025-11-03T16:02:54+00:00",
       "niche": "security",
       "score": 60,
       "keywords": [
-        "exploit",
-        "security",
-        "zero-day"
+        "patch"
       ]
     },
     {
@@ -2809,6 +2810,22 @@
       ]
     },
     {
+      "id": "83b20df6aa8e0b51",
+      "title": "Let's Get Physical: A New Convergence for Electrical Grid Security",
+      "description": "The power grid is being attacked online and IRL. Increasingly, regulators and industry experts agree: Security teams need to focus on both cyber and physical threats, together.",
+      "url": "https://www.darkreading.com/cybersecurity-operations/physical-convergence-electrical-grid-cybersecurity",
+      "source": "Dark Reading",
+      "author": "Nate Nelson, Contributing Writer",
+      "published": "2025-11-03T14:00:00+00:00",
+      "niche": "security",
+      "score": 57,
+      "keywords": [
+        "threat",
+        "security",
+        "attack"
+      ]
+    },
+    {
       "id": "23345241f8287d4b",
       "title": "U.S. CISA adds Dassault Systèmes DELMIA Apriso flaws to its Known Exploited Vulnerabilities catalog",
       "description": "U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds Dassault Systèmes DELMIA Apriso flaws to its Known Exploited Vulnerabilities catalog. The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added Oracle, Windows, Kentico, and Apple flaws to its Known Exploited Vulnerabilities (KEV) catalog. Dassault Systèmes DELMIA Apriso is a Manufacturing Operations Management (MOM) and Manufacturing Execution System (MES) platform. [&#8230;]",
@@ -2977,6 +2994,21 @@
       ]
     },
     {
+      "id": "bae955d3dc77ab32",
+      "title": "How Software Development Teams Can Securely and Ethically Deploy AI Tools",
+      "description": "To deploy AI tools securely and ethically, teams must balance innovation with accountability—establishing strong governance, upskilling developers, and enforcing rigorous code reviews. The post How Software Development Teams Can Securely and Ethically Deploy AI Tools appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/how-software-development-teams-can-securely-and-ethically-deploy-ai-tools/",
+      "source": "SecurityWeek",
+      "author": "Matias Madou",
+      "published": "2025-11-03T16:00:00+00:00",
+      "niche": "security",
+      "score": 55,
+      "keywords": [
+        "security",
+        "secure"
+      ]
+    },
+    {
       "id": "ad0091b1dfca1a3b",
       "title": "OWASP Calls to Build a Unified Framework for Global Vulnerability Intelligence",
       "description": "In response to increasing concerns over the effectiveness of the CVE Program and the sustainability of the U.S. government’s role in managing the world’s largest vulnerability database, cybersecurity leaders and international stakeholders are coming together to explore a federated model for vulnerability identification. The initiative seeks to address modern security challenges—such as the shift toward hyper-automation, the dominance of open-source software, and emerging needs in cryptography, a",
@@ -2987,11 +3019,11 @@
       "niche": "security",
       "score": 55,
       "keywords": [
-        "cybersecurity",
-        "OWASP",
-        "vulnerability",
         "RCE",
-        "security"
+        "security",
+        "OWASP",
+        "cybersecurity",
+        "vulnerability"
       ]
     },
     {
@@ -3156,6 +3188,20 @@
       "source": "SecurityWeek",
       "author": "Kevin Townsend",
       "published": "2025-11-03T15:00:00+00:00",
+      "niche": "security",
+      "score": 54,
+      "keywords": [
+        "security"
+      ]
+    },
+    {
+      "id": "1a281e08c13d55bf",
+      "title": "Ukrainian Extradited to US Faces Charges in Jabber Zeus Cybercrime Case",
+      "description": "Yuriy Igorevich Rybtsov, aka MrICQ, was arrested in Italy and lost his appeal to avoid extradition to the US. The post Ukrainian Extradited to US Faces Charges in Jabber Zeus Cybercrime Case appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/ukrainian-extradited-to-us-faces-charges-in-jabber-zeus-cybercrime-case/",
+      "source": "SecurityWeek",
+      "author": "Ionut Arghire",
+      "published": "2025-11-03T16:42:32+00:00",
       "niche": "security",
       "score": 54,
       "keywords": [
@@ -3347,9 +3393,9 @@
       "niche": "security",
       "score": 51,
       "keywords": [
-        "disclosure",
         "vulnerability",
-        "patch"
+        "patch",
+        "disclosure"
       ]
     },
     {
@@ -3363,9 +3409,9 @@
       "niche": "security",
       "score": 51,
       "keywords": [
-        "exploit",
         "security",
-        "attack"
+        "attack",
+        "exploit"
       ]
     },
     {
@@ -3379,9 +3425,9 @@
       "niche": "security",
       "score": 51,
       "keywords": [
-        "exploit",
         "security",
-        "attack"
+        "attack",
+        "exploit"
       ]
     },
     {
@@ -3491,20 +3537,6 @@
       "keywords": []
     },
     {
-      "id": "e35e158f7a054d90",
-      "title": "Atos signe un contrat européen record en cybersécurité et relance sa dynamique",
-      "description": "ATOS a remporté un marché stratégique d’une valeur maximale de 326 millions d’euros auprès de la Commission européenne pour assurer des services d’exploitation technique en cybersécurité....",
-      "url": "https://www.zataz.com/atos-signe-un-contrat-europeen-record-en-cybersecurite-et-relance-sa-dynamique/",
-      "source": "Zataz",
-      "author": "Damien Bancal",
-      "published": "2025-10-27T18:13:43+00:00",
-      "niche": "security",
-      "score": 49,
-      "keywords": [
-        "exploit"
-      ]
-    },
-    {
       "id": "b3a1c2a54d036128",
       "title": "Aisuru botnet is behind record 20Tb/sec DDoS attacks",
       "description": "A new Mirai-based IoT botnet, dubbed Aisuru, was used to launch multiple high-impact DDoS attacks exceeding 20Tb/sec and/or 4gpps. In October 2025, the Aisuru Mirai-based IoT botnet launched massive DDoS attacks of over 20Tb/sec, mainly targeting online gaming, cybersecurity firm Netscout reports. The botnet uses residential proxies to reflect HTTPS DDoS attacks. Its nodes are [&#8230;]",
@@ -3591,10 +3623,10 @@
       "niche": "security",
       "score": 49,
       "keywords": [
-        "phishing",
-        "breach",
         "attack",
         "RCE",
+        "breach",
+        "phishing",
         "threat"
       ]
     },
@@ -3682,8 +3714,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "CVE-",
-        "security"
+        "security",
+        "CVE-"
       ]
     },
     {
@@ -3883,6 +3915,21 @@
       ]
     },
     {
+      "id": "c4422770154d2487",
+      "title": "AI Developed Code: 5 Critical Security Checkpoints for Human Oversight",
+      "description": "To write secure code with LLMs developers must have the skills to use AI as a collaborative assistant rather than an autonomous tool, Madou argues.",
+      "url": "https://www.darkreading.com/application-security/ai-code-security-checkpoints",
+      "source": "Dark Reading",
+      "author": "Matias Madou",
+      "published": "2025-11-03T12:00:00+00:00",
+      "niche": "security",
+      "score": 45,
+      "keywords": [
+        "security",
+        "secure"
+      ]
+    },
+    {
       "id": "f3557d1c6e6a60d2",
       "title": "ISC Stormcast For Tuesday, October 28th, 2025 https://isc.sans.edu/podcastdetail/9674, (Tue, Oct 28th)",
       "description": "",
@@ -4021,6 +4068,20 @@
       "keywords": []
     },
     {
+      "id": "0433aaa71c872f7f",
+      "title": "'TruffleNet' Attack Wields Stolen Credentials Against AWS",
+      "description": "Reconnaissance and BEC are among the malicious activities attackers commit after compromising cloud accounts, using a framework based on the TruffleHog tool.",
+      "url": "https://www.darkreading.com/vulnerabilities-threats/trufflenet-attack-stolen-credentials-aws",
+      "source": "Dark Reading",
+      "author": "Elizabeth Montalbano, Contributing Writer",
+      "published": "2025-11-03T10:59:03+00:00",
+      "niche": "security",
+      "score": 44,
+      "keywords": [
+        "attack"
+      ]
+    },
+    {
       "id": "885bd2410101a452",
       "title": "Pointer leaks through pointer-keyed data structures",
       "description": "Posted by Jann Horn, Google Project Zero IntroductionSome time in 2024, during a Project Zero team discussion, we were talking about how remote ASLR leaks would be helpful or necessary for exploiting some types of memory corruption bugs, specifically in the context of Apple devices. Coming from the angle of \"where would be a good first place to look for a remote ASLR leak\", this led to the discovery of a trick that could potentially be used to leak a pointer remotely, without any memory safety v",
@@ -4045,23 +4106,11 @@
       "niche": "security",
       "score": 43,
       "keywords": [
+        "security",
         "OWASP",
         "RCE",
-        "security",
         "secure"
       ]
-    },
-    {
-      "id": "a400eb6ca437da66",
-      "title": "Test de la multiprise UGREEN : bien plus sympa que vos multiprises moches",
-      "description": "– Article invité, rédigé par Vincent Lautier, contient des liens affiliés Amazon – J’ai déménagé récemment, et je me suis très vite rendu compte que je manquais de multiprise, rapport que je suis un Geek avec un bureau franchement très encombré de produits tech divers et variés qui ont besoin d’énergie. L’ami Korben a eu la gentillesse de me dépanner d’une multiprise, mais franchement, elle fait un peu peur, dans son jus bien vintage. Du coup je suis parti à la recherche de multiprises un peu sy",
-      "url": "https://korben.info/test-de-la-multiprise-ugreen-bien-plus-sympa-que-vos-multiprises-moches.html",
-      "source": "Korben",
-      "author": "Korben",
-      "published": "2025-10-27T16:38:35+01:00",
-      "niche": "security",
-      "score": 42,
-      "keywords": []
     },
     {
       "id": "6c5b43ef9b0f28cf",
@@ -4290,9 +4339,9 @@
       "niche": "security",
       "score": 42,
       "keywords": [
+        "security",
         "OWASP",
-        "RCE",
-        "security"
+        "RCE"
       ]
     },
     {
@@ -4372,10 +4421,10 @@
       "niche": "security",
       "score": 37,
       "keywords": [
-        "OWASP",
-        "web application security",
         "security",
-        "threat"
+        "threat",
+        "OWASP",
+        "web application security"
       ]
     },
     {
@@ -4419,9 +4468,9 @@
       "niche": "security",
       "score": 33,
       "keywords": [
-        "exploit",
+        "patch",
         "security",
-        "patch"
+        "exploit"
       ]
     },
     {
@@ -4447,8 +4496,8 @@
       "niche": "security",
       "score": 31,
       "keywords": [
-        "OWASP",
         "security",
+        "OWASP",
         "secure"
       ]
     },
@@ -4463,8 +4512,8 @@
       "niche": "security",
       "score": 30,
       "keywords": [
-        "RCE",
-        "attack"
+        "attack",
+        "RCE"
       ]
     },
     {
@@ -4478,8 +4527,8 @@
       "niche": "security",
       "score": 30,
       "keywords": [
-        "OWASP",
-        "security"
+        "security",
+        "OWASP"
       ]
     },
     {
@@ -4521,8 +4570,8 @@
       "niche": "security",
       "score": 26,
       "keywords": [
-        "SQL injection",
-        "injection"
+        "injection",
+        "SQL injection"
       ]
     },
     {
@@ -4706,8 +4755,8 @@
       "niche": "security",
       "score": 24,
       "keywords": [
-        "SQL injection",
-        "injection"
+        "injection",
+        "SQL injection"
       ]
     },
     {
@@ -4761,8 +4810,8 @@
       "niche": "security",
       "score": 21,
       "keywords": [
-        "malware",
-        "security"
+        "security",
+        "malware"
       ]
     },
     {
@@ -4804,8 +4853,22 @@
       "niche": "security",
       "score": 19,
       "keywords": [
-        "cybersecurity",
-        "security"
+        "security",
+        "cybersecurity"
+      ]
+    },
+    {
+      "id": "e35e158f7a054d90",
+      "title": "Atos signe un contrat européen record en cybersécurité et relance sa dynamique",
+      "description": "ATOS a remporté un marché stratégique d’une valeur maximale de 326 millions d’euros auprès de la Commission européenne pour assurer des services d’exploitation technique en cybersécurité....",
+      "url": "https://www.zataz.com/atos-signe-un-contrat-europeen-record-en-cybersecurite-et-relance-sa-dynamique/",
+      "source": "Zataz",
+      "author": "Damien Bancal",
+      "published": "2025-10-27T18:13:43+00:00",
+      "niche": "security",
+      "score": 19,
+      "keywords": [
+        "exploit"
       ]
     },
     {
@@ -4875,8 +4938,8 @@
       "niche": "security",
       "score": 18,
       "keywords": [
-        "security",
-        "threat"
+        "threat",
+        "security"
       ]
     },
     {
@@ -4890,8 +4953,8 @@
       "niche": "security",
       "score": 18,
       "keywords": [
-        "bug bounty",
-        "security"
+        "security",
+        "bug bounty"
       ]
     },
     {
