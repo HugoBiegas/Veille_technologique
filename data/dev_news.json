@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-02T21:19:50.092955+00:00",
+  "last_updated": "2025-11-03T01:58:37.013114+00:00",
   "total_articles": 979,
   "articles": [
     {
@@ -714,30 +714,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "a331ead4c3cb380c",
-      "title": "Microsoft 365 Copilot – Arbitrary Data Exfiltration via Mermaid Diagrams",
-      "description": "Comments",
-      "url": "https://www.adamlogue.com/microsoft-365-copilot-arbitrary-data-exfiltration-via-mermaid-diagrams-fixed/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-26T22:58:31+00:00",
-      "niche": "dev",
-      "score": 62,
-      "keywords": []
-    },
-    {
-      "id": "c7fad2d1c421562d",
-      "title": "Are-we-fast-yet implementations in Oberon, C++, C, Pascal, Micron and Luon",
-      "description": "Comments",
-      "url": "https://github.com/rochus-keller/Are-we-fast-yet",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-26T23:08:09+00:00",
-      "niche": "dev",
-      "score": 62,
-      "keywords": []
     },
     {
       "id": "c34911342f262816",
@@ -1667,6 +1643,36 @@
       ]
     },
     {
+      "id": "9b33b743d09ac1de",
+      "title": "Introducing U-HOP — Universal Hardware Optimization Protocol",
+      "description": "Modern AI workloads shouldn’t need to be rewritten for every device. Yet today, performance still depends heavily on vendor-specific frameworks, driver stacks, and hand-tuned kernels. U-HOP (Universal Hardware Optimization Protocol) is an open initiative to break that dependency by creating a unified optimization layer that lets compute run fast anywhere. Write once → run optimized across GPUs, CPUs, NPUs, TPUs, and edge accelerators. What U-HOP Does U-HOP dynamically selects the best compute ba",
+      "url": "https://dev.to/dbisina/introducing-u-hop-universal-hardware-optimization-protocol-2m6i",
+      "source": "Dev.to",
+      "author": "Bisina Daniel",
+      "published": "2025-11-03T01:36:37+00:00",
+      "niche": "dev",
+      "score": 57,
+      "keywords": [
+        "performance",
+        "framework"
+      ]
+    },
+    {
+      "id": "8605e05571150bca",
+      "title": "The Design Innovations of NopGraphQL: From API Protocol to a General-Purpose Information Operation Engine",
+      "description": "In modern software architecture, APIs are the core nexus connecting frontends and backends, and services to one another. For a long time, REST has dominated API design as the de facto standard, but its inherent \"push-based\" information model has increasingly shown its limitations when faced with complex frontend requirements. GraphQL, proposed by Facebook, was seen as an alternative, yet most implementations still position it as \"just another API protocol,\" failing to fully unleash its potential",
+      "url": "https://dev.to/canonical/the-design-innovations-of-nopgraphql-from-api-protocol-to-a-general-purpose-information-operation-f5g",
+      "source": "Dev.to",
+      "author": "canonical",
+      "published": "2025-11-03T00:55:50+00:00",
+      "niche": "dev",
+      "score": 57,
+      "keywords": [
+        "API",
+        "GraphQL"
+      ]
+    },
+    {
       "id": "5990f4dc9139c2f0",
       "title": "Async Programming in C#",
       "description": "Asynchronous programming is needed to write code that can handle a long-running requests (like querying a database, calling an API, or reading a large file) instead of just stopping and waiting for response. This Async Programming is essential for having a responsive application. The UI freeze without using async in mobile app and using async programming on web servers allows handling a massive number of requests instead of being blocked by one slow request. using sync means the main thread will",
@@ -2154,17 +2160,18 @@
       ]
     },
     {
-      "id": "7e3e3883b754610b",
-      "title": "Beyond The Spreadsheet: Building Real-time Data Pipelines for Dynamic Sports Analytics",
-      "description": "Hey dev.to community, In the world of sports, insights often have a shelf life measured in minutes, not days. From tracking live game events to assessing player health or trade market fluctuations, traditional batch processing and manual spreadsheet updates simply don't cut it. This is especially true for dynamic applications like fftradeanalyzer.com, where player values can shift rapidly, or ffteamnames.com, where AI-generated content benefits from the freshest context. Building sports analytic",
-      "url": "https://dev.to/wwx516/beyond-the-spreadsheet-building-real-time-data-pipelines-for-dynamic-sports-analytics-244l",
+      "id": "47cc55a01b0b1df9",
+      "title": "Adding Metrics as You Write Your Logs in Node.js",
+      "description": "When building production applications, observability is crucial for understanding system behavior, diagnosing issues, and optimizing performance. However, metrics collection is often treated as an afterthought, bolted onto applications only when problems arise or when someone remembers to add instrumentation. This creates a challenge: by the time you realize you need metrics, you may have already missed critical data points during development and testing phases. More importantly, it separates me",
+      "url": "https://dev.to/theogravity/adding-metrics-as-you-write-your-logs-in-nodejs-3ag0",
       "source": "Dev.to",
-      "author": "wwx516",
-      "published": "2025-10-27T01:30:00+00:00",
+      "author": "Theo Gravity",
+      "published": "2025-11-03T00:42:04+00:00",
       "niche": "dev",
-      "score": 54,
+      "score": 55,
       "keywords": [
-        "API"
+        "development",
+        "performance"
       ]
     },
     {
@@ -3092,33 +3099,17 @@
       ]
     },
     {
-      "id": "55fd1646f5f05ae5",
-      "title": "How I Crushed Advent of Code And Solved Hard Problems Using Autogen Jupyter Executor and Qwen3",
-      "description": "In today’s tutorial, I will use Autogen’s docker-jupyter-executor runtime with Qwen3’s newest max model to try finishing the Advent of Code challenge quickly. I aim to demonstrate that combining LLM code generation with a stateful Python runtime can effectively solve extremely complex algorithmic problems. As usual, I will share the full project source code for you to check. You can find it in the reference section. Course Background You have probably heard of Advent of Code (AOC). It is a fun p",
-      "url": "https://dev.to/qtalen/how-i-crushed-advent-of-code-and-solved-hard-problems-using-autogen-jupyter-executor-and-qwen3-14gp",
+      "id": "0ddfe73b0d983222",
+      "title": "\"Building Mind’s Eye & BinFlow: Architecting Web4’s Temporal Intelligence Layer\"",
+      "description": "published: true description: \"My Hacktoberfest 2025 journey building Mind’s Eye and BinFlow — an open-source framework that turns data, AI, and blockchain into a single, time-aware system of flow.\" tags: hacktoberfest, opensource, ai, blockchain, web4 cover_image: https://dev-to-uploads.s3.amazonaws.com/uploads/articles/placeholder.png series: Hacktoberfest 2025 canonical_url: null Building Mind’s Eye & BinFlow: Architecting Web4’s Temporal Intelligence Layer This is my submission for the 2025 H",
+      "url": "https://dev.to/peacebinflow/building-minds-eye-binflow-architecting-web4s-temporal-intelligence-layer-m9f",
       "source": "Dev.to",
-      "author": "Peng Qian",
-      "published": "2025-10-27T01:20:19+00:00",
+      "author": "PEACEBINFLOW",
+      "published": "2025-11-03T00:37:05+00:00",
       "niche": "dev",
-      "score": 52,
+      "score": 54,
       "keywords": [
-        "tutorial",
-        "code"
-      ]
-    },
-    {
-      "id": "ab329dd6d36e3425",
-      "title": "Agentic Debugging with Time Travel: The Architecture of Certainty",
-      "description": "Software development is fundamentally a reasoning problem. Estimates suggest that nearly 85% of a software engineer’s effort is dedicated not to writing new code, but to understanding and fixing existing code, a process generically referred to as debugging1. This intensive cognitive work is often hampered by two primary, non-ideal methodologies: using print statements (logging), which requires repeated recompilation and guesswork, or using conventional debuggers, which allow stepping but often l",
-      "url": "https://dev.to/om_shree_0709/agentic-debugging-with-time-travel-the-architecture-of-certainty-a2k",
-      "source": "Dev.to",
-      "author": "Om Shree",
-      "published": "2025-10-27T01:14:58+00:00",
-      "niche": "dev",
-      "score": 52,
-      "keywords": [
-        "development",
-        "code"
+        "framework"
       ]
     },
     {
@@ -3572,17 +3563,18 @@
       ]
     },
     {
-      "id": "b363f5e7de7fb116",
-      "title": "📰Major Tech News: October 26th, 2025: The Infrastructure of Intelligence",
-      "description": "The technology news cycle often focuses on shiny new consumer gadgets, but the developments on October 26th, 2025, highlighted something far more foundational: the massive, necessary infrastructure required to power the current boom in Artificial Intelligence. From international corporate partnerships to concerns about data center power grids and the changing nature of the entry-level tech job market, the underlying themes of the day revolved around building the world that AI demands. The New Po",
-      "url": "https://dev.to/om_shree_0709/major-tech-news-october-26th-2025-the-infrastructure-of-intelligence-3lbp",
+      "id": "fafff3e144bca49a",
+      "title": "Building LAW-T: Creating a Time-Native Programming Language from Scratch",
+      "description": "Building LAW-T: Creating a Time-Native Programming Language from Scratch This is my submission for the 2025 Hacktoberfest Writing Challenge: Contribution Chronicles TL;DR I spent Hacktoberfest 2025 building LAW-T, a programming language where every line of code has a cryptographic timestamp. The result: perfect reproducibility, time-travel debugging, and a new way to think about code provenance. What I shipped: ✅ Working interpreter (Python, 300 lines) ✅ Time-Labeled Binary (TLB) system ✅ 10+ ex",
+      "url": "https://dev.to/peacebinflow/building-law-t-creating-a-time-native-programming-language-from-scratch-10ok",
       "source": "Dev.to",
-      "author": "Om Shree",
-      "published": "2025-10-27T01:32:15+00:00",
+      "author": "PEACEBINFLOW",
+      "published": "2025-11-03T00:26:30+00:00",
       "niche": "dev",
-      "score": 51,
+      "score": 52,
       "keywords": [
-        "development"
+        "programming",
+        "code"
       ]
     },
     {
@@ -4875,64 +4867,46 @@
       ]
     },
     {
-      "id": "db22560b2d10797d",
-      "title": "Your-Tests-Are-Slow-and-Brittle-Youre-Testing-the-Wrong-Thing",
-      "description": "GitHub Home Your Tests Are Slow and Brittle? You're Testing the Wrong Thing! 🧪➡️✅ \"We should write more tests.\" In every technical meeting, this sentence is repeated like a sacred mantra. Everyone nods in agreement, everyone knows this is the \"right\" thing to do. But back at their desks, the expression on many faces turns to one of pain. 😫 Why? Because in many projects, writing tests is a chore. The tests run as slow as a turtle; a full test suite takes long enough for you to brew three cups of ",
-      "url": "https://dev.to/member_25c2e834/your-tests-are-slow-and-brittle-youre-testing-the-wrong-thing-2imc",
+      "id": "c0c6e13e800f5443",
+      "title": "Daily Artificial Intelligence Digest - Nov 03, 2025",
+      "description": "AI Industry Dynamics & Product Challenges Google recently pulled its Gemma model from AI Studio following defamation accusations from Senator Blackburn, highlighting the public and legal complexities in AI deployment. Concurrently, Meta appears to be facing significant challenges with its AI product strategy, indicating hurdles in market adoption and utility. Amidst these developments, OpenAI CEO Sam Altman has directly addressed questions about OpenAI's revenue, underscoring the intense financi",
+      "url": "https://dev.to/antony_brahin_f47b663f3a0/daily-artificial-intelligence-digest-nov-03-2025-41me",
       "source": "Dev.to",
-      "author": "member_25c2e834",
-      "published": "2025-10-27T01:41:57+00:00",
+      "author": "Antony Brahin",
+      "published": "2025-11-03T01:45:59+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "development"
+      ]
     },
     {
-      "id": "8815d10fd057a985",
-      "title": "VaultMind: Your AI Calendar Assistant with Auth0-Powered Security",
-      "description": "This is a submission for the Auth0 for AI Agents Challenge What I Built VaultMind is an AI-powered calendar assistant that transforms how you manage your schedule. Instead of clicking through calendar interfaces, just tell VaultMind what you need: 💬 \"Am I free tomorrow afternoon?\" - Instant availability checks 📅 \"Schedule a team standup next Monday at 2pm\" - Smart event creation with conflict detection 🌍 \"What time is 3pm Tokyo in San Francisco?\" - Automatic timezone conversion across 19 global ",
-      "url": "https://dev.to/cuongnp/vaultmind-your-ai-calendar-assistant-with-auth0-powered-security-11m9",
+      "id": "1fcbae3cbb0c9797",
+      "title": "Practical Guide to MCP (Model Context Protocol) in Python",
+      "description": "Introduction MCP (Model Context Protocol) is a protocol that connects LLMs with external tools. This article walks through how to use MCP step by step with real code examples. The full source code is available in the following GitHub repository: https://github.com/M6saw0/mcp-client-sample Read time: ~10 minutes 1. Core Concepts of MCP MCP provides three primary capabilities: Tool: Execute external functionality via function calls Resource: Provide data or information (static or dynamic) Prompt: ",
+      "url": "https://dev.to/m_sea_bass/practical-guide-to-mcp-model-context-protocol-in-python-ijd",
       "source": "Dev.to",
-      "author": "cuongnp",
-      "published": "2025-10-27T01:30:57+00:00",
+      "author": "M Sea Bass",
+      "published": "2025-11-03T01:42:45+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
-      "id": "256622075352213b",
-      "title": "Como construí meu próprio sistema OTA (Over-the-Air Updates) para o Nutrilow com ExpressJS e Expo",
-      "description": "Entenda a arquitetura técnica e as decisões por trás da criação de um sistema customizado de over-the-air updates, substituindo o Expo Updates oficial no Nutrilow. Contexto Em um artigo anterior, compartilhei por que escolhi Expo + React Native + ExpressJS como base para o Nutrilow: ➡️ Por que adotei Expo, React Native e ExpressJS para a escalabilidade do Nutrilow No momento, o foco era escalabilidade e autonomia técnica. Essa mentalidade continuou evoluindo — e o próximo passo natural foi assum",
-      "url": "https://dev.to/bendevoficial/como-construi-meu-proprio-sistema-ota-over-the-air-updates-para-o-nutrilow-com-expressjs-e-expo-38bi",
+      "id": "f25aa65861053a5e",
+      "title": "Code, community, and copilot. AI is changing the way we contribute",
+      "description": "This is a submission for the 2025 Hacktoberfest Writing Challenge: Contribution Chronicles Hacktoberfest is always one of my favourite times of year. It's a month filled with learning, sharing, and connecting through open source. Every year, I try to dive into a few new projects, meet new communities, and stretch my technical skills. This year, my main contribution highlights were to Appwrite, ToolJet, and for the first time, Home Assistant's Core, and I learned tonnes along the way. Learning th",
+      "url": "https://dev.to/mishmanners/code-community-and-copilot-ai-is-changing-the-way-we-contribute-2b3n",
       "source": "Dev.to",
-      "author": "Bendev Junior",
-      "published": "2025-10-27T01:21:18+00:00",
+      "author": "Michelle Duke",
+      "published": "2025-11-03T00:55:29+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "1bdaa46a0c6f8602",
-      "title": "DevSecOps: Modelo de madurez y alternativas de implementación",
-      "description": "Introducción Ante la necesidad de implementar prácticas seguras dentro de los flujos de desarrollo de software en las organizaciones, pueden surgir múltiples dudas: ¿Qué acciones concretas se deben llevar a cabo?, ¿Cómo se encuentra la organización frente a la adopción de prácticas seguras?, ¿Qué herramientas pueden ayudar a establecer el ecosistema de seguridad requerido? Estas y otras inquietudes pueden surgir, y a pesar de que la respuesta es especifica al contexto de cada organización, es co",
-      "url": "https://dev.to/djhuertasg/devsecops-modelo-de-madurez-y-alternativas-de-implementacion-168c",
-      "source": "Dev.to",
-      "author": "Dilver Huertas Guerrero",
-      "published": "2025-10-27T01:14:39+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "e27ec7454d3d5f6e",
-      "title": "MindsEye Access Mesh — Layered Architecture, Build Plan, and Why It Matters",
-      "description": "1) The Layers (what each piece does) Layer 0 — Identity (Auth0 for AI Agents) Issues/rotates short-lived agent and user tokens. Token Vault + fine-grained policies (tool scopes, TTLs, resource filters). Layer 1 — Entry (MindsEye) Visual console: you see logins, sessions, tool calls, and revocations as flows. Human-in-the-loop approval / override with audit reasons. Layer 2 — Agents (BlueFlow) Agents carry ephemeral credential capsules and advertise capabilities. Peer mesh (BT/5G/Wi-Fi) for proxi",
-      "url": "https://dev.to/p_thabiwa_0ca34c2f83/mindseye-access-mesh-layered-architecture-build-plan-and-why-it-matters-5ck6",
-      "source": "Dev.to",
-      "author": "Peace Thabiwa",
-      "published": "2025-10-27T01:06:22+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "0a1631d759822201",
@@ -8131,6 +8105,18 @@
       "keywords": []
     },
     {
+      "id": "72be1542236a4e04",
+      "title": "Infinite Worlds, Perfect Recall: AI's Leap in Simulated Reality",
+      "description": "Infinite Worlds, Perfect Recall: AI's Leap in Simulated Reality Tired of AI simulations that drift, diverge, and ultimately become useless? Imagine designing a virtual environment for testing autonomous vehicles or training robots, only to find that each run produces wildly different, unreliable results. This inconsistency stems from imperfections in how AI models represent and predict the evolution of these simulated worlds. Introducing a new approach: Geometrically-Regularized World Models. Th",
+      "url": "https://dev.to/arvind_sundararajan/infinite-worlds-perfect-recall-ais-leap-in-simulated-reality-1512",
+      "source": "Dev.to",
+      "author": "Arvind SundaraRajan",
+      "published": "2025-11-03T01:02:11+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "2fd23dac2ba6bc82",
       "title": "AI agents will succeed because one tool is better than ten",
       "description": "AI agents can chat, use tools, and write new code all from one interface. That&#x27;s why they&#x27;ll last.",
@@ -8283,18 +8269,6 @@
       "keywords": [
         "API"
       ]
-    },
-    {
-      "id": "be6dea808b305423",
-      "title": "Automation + Time Travel Agent",
-      "description": "Agentic Debugging with Time Travel: The Architecture of Certainty Om Shree ・ Oct 27 #ai #discuss #beginners #architecture",
-      "url": "https://dev.to/barak_codes/automation-time-travel-agent-37pj",
-      "source": "Dev.to",
-      "author": "Eli Barak",
-      "published": "2025-10-27T01:20:51+00:00",
-      "niche": "dev",
-      "score": 46,
-      "keywords": []
     },
     {
       "id": "686d1ce6c0f0cca5",
@@ -8545,16 +8519,18 @@
       ]
     },
     {
-      "id": "c3e2a6a0d9efa975",
-      "title": "ICE Will Use AI to Surveil Social Media",
+      "id": "96d46a2b1b6e099e",
+      "title": "Alleged Jabber Zeus Coder 'MrICQ' in U.S. Custody",
       "description": "Comments",
-      "url": "https://jacobin.com/2025/10/ice-zignal-surveillance-social-media",
+      "url": "https://krebsonsecurity.com/2025/11/alleged-jabber-zeus-coder-mricq-in-u-s-custody/",
       "source": "Hacker News",
       "author": "Inconnu",
-      "published": "2025-10-27T00:43:32+00:00",
+      "published": "2025-11-02T20:40:54+00:00",
       "niche": "dev",
-      "score": 44,
-      "keywords": []
+      "score": 45,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "48c4ba35d322c3a5",
@@ -8564,18 +8540,6 @@
       "source": "Dev.to",
       "author": "Giancarlo Edu Mayhuire Zuñiga",
       "published": "2025-10-27T03:12:01+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "fd6c7ff52e7cbd4a",
-      "title": "How I turned Zig into my favorite language to write network programs in",
-      "description": "Comments",
-      "url": "https://lalinsky.com/2025/10/26/zio-async-io-for-zig.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-27T00:01:17+00:00",
       "niche": "dev",
       "score": 44,
       "keywords": []
@@ -10333,6 +10297,42 @@
       "keywords": []
     },
     {
+      "id": "fee77806b2e707ab",
+      "title": "Untitled",
+      "description": "Check out this Pen I made!",
+      "url": "https://dev.to/zakariahimi/untitled-1997",
+      "source": "Dev.to",
+      "author": "zakaria himi",
+      "published": "2025-11-03T01:38:52+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "413d0f6d5777bf47",
+      "title": "Paris had a moving sidewalk in 1900, and a Thomas Edison film captured it (2020)",
+      "description": "Comments",
+      "url": "https://www.openculture.com/2020/03/paris-had-a-moving-sidewalk-in-1900.html",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-02T21:08:15+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "1bbbe8a1d3e2b1be",
+      "title": "Facts about throwing good parties",
+      "description": "Comments",
+      "url": "https://www.atvbt.com/21-facts-about-throwing-good-parties/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-02T22:32:42+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "78c4b08725d5f56b",
       "title": "React 19 Upgrade Guide",
       "description": "The improvements added to React 19 require some breaking changes, but we've worked to make the upgrade as smooth as possible and we don't expect the changes to impact most apps. In this post, we will guide you through the steps for upgrading apps and libraries to React 19.",
@@ -10397,8 +10397,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "React 19",
-        "performance"
+        "performance",
+        "React 19"
       ]
     },
     {
@@ -10644,8 +10644,8 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "API",
         "release",
+        "API",
         "React 19"
       ]
     },
@@ -10688,9 +10688,9 @@
       "niche": "dev",
       "score": 36,
       "keywords": [
+        "development",
         "code",
-        "developer",
-        "development"
+        "developer"
       ]
     },
     {
@@ -10733,8 +10733,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "framework",
-        "API"
+        "API",
+        "framework"
       ]
     },
     {
@@ -10826,11 +10826,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "release",
         "code",
-        "framework",
+        "performance",
+        "release",
         "API",
-        "performance"
+        "framework"
       ]
     },
     {
@@ -11162,20 +11162,6 @@
       "keywords": []
     },
     {
-      "id": "cd848380008de76e",
-      "title": "[Web dev for beginners] Node.js",
-      "description": "Node.js is a program that lets us run JavaScript code outside browsers – which we can use for a variety of things.",
-      "url": "https://2ality.com/2025/10/nodejs.html",
-      "source": "2ality",
-      "author": "Inconnu",
-      "published": "2025-10-27T00:00:00+00:00",
-      "niche": "dev",
-      "score": 25,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
       "id": "f939083729d901eb",
       "title": "Vitest 4.0 and Next.js 16",
       "description": "#​758 — October 24, 2025 Read on the Web JavaScript Weekly Vitest 4.0 Released: The Vite-Native Testing Framework — The Vite-powered, Jest-compatible testing framework introduces visual regression testing, makes its ‘Browser Mode’ stable (for running tests in a browser directly), adds Playwright Traces support, and more. Still unsure? You can compare it with other test runners here. VoidZero and Contributors 💡 Starting from Angular 21, Vitest will become Angular's default test runner, replacing ",
@@ -11186,9 +11172,9 @@
       "niche": "dev",
       "score": 25,
       "keywords": [
-        "framework",
+        "Angular",
         "release",
-        "Angular"
+        "framework"
       ]
     },
     {
@@ -11270,9 +11256,9 @@
       "niche": "dev",
       "score": 22,
       "keywords": [
-        "release",
         "development",
-        "performance"
+        "performance",
+        "release"
       ]
     },
     {
@@ -11298,8 +11284,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "API",
-        "release"
+        "release",
+        "API"
       ]
     },
     {
@@ -11313,8 +11299,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "framework",
-        "release"
+        "release",
+        "framework"
       ]
     },
     {
@@ -11329,8 +11315,8 @@
       "score": 20,
       "keywords": [
         "code",
-        "developer",
-        "performance"
+        "performance",
+        "developer"
       ]
     },
     {
@@ -11344,8 +11330,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "API",
-        "developer"
+        "developer",
+        "API"
       ]
     },
     {
@@ -11359,8 +11345,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "API",
         "release",
+        "API",
         "developer"
       ]
     },
@@ -11375,8 +11361,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
-        "developer"
+        "developer",
+        "release"
       ]
     },
     {
@@ -11688,6 +11674,18 @@
       "keywords": []
     },
     {
+      "id": "ab611c5f573e5d0e",
+      "title": "Scents of Arabia: Interdisciplinary approaches to ancient olfactory worlds",
+      "description": "Comments",
+      "url": "https://www.scientificamerican.com/article/how-archaeology-is-reviving-the-smell-of-history/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-27T15:48:23+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
       "id": "1b88dc46daed9f02",
       "title": "Open source is giving you choices with your agent systems",
       "description": "Ryan welcomes John Dickerson, CEO of Mozilla.ai, to talk about the evolving landscape of AI agents, the role of open source in keeping the tech ecosystem healthy, the challenges OS communities have faced with the rise of AI, and the implications of data privacy and user choice in the age of multi-agent AI systems.",
@@ -11878,8 +11876,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "programming",
-        "development"
+        "development",
+        "programming"
       ]
     },
     {
@@ -12283,8 +12281,8 @@
       "niche": "dev",
       "score": 11,
       "keywords": [
-        "release",
-        "code"
+        "code",
+        "release"
       ]
     },
     {
@@ -12394,6 +12392,20 @@
       "niche": "dev",
       "score": 10,
       "keywords": []
+    },
+    {
+      "id": "cd848380008de76e",
+      "title": "[Web dev for beginners] Node.js",
+      "description": "Node.js is a program that lets us run JavaScript code outside browsers – which we can use for a variety of things.",
+      "url": "https://2ality.com/2025/10/nodejs.html",
+      "source": "2ality",
+      "author": "Inconnu",
+      "published": "2025-10-27T00:00:00+00:00",
+      "niche": "dev",
+      "score": 10,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "5fccb9304cd10ac0",
