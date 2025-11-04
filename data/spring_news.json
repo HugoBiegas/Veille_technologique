@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-11-04T06:42:24.940363+00:00",
-  "total_articles": 201,
+  "last_updated": "2025-11-04T09:30:58.059660+00:00",
+  "total_articles": 202,
   "articles": [
     {
       "id": "348e80c3717bec4a",
@@ -111,6 +111,18 @@
       "keywords": []
     },
     {
+      "id": "c4832e99a75e6d7e",
+      "title": "Reactive Programming with Project Reactor",
+      "description": "The Case for Reactive Architecture Modern applications face unprecedented demands for responsiveness and scalability. Users expect sub-second response times while systems must handle unpredictable traffic spikes that can multiply load by orders of magnitude within minutes. Traditional blocking I/O models, where threads wait idly for database queries or external API calls to complete, become increasingly &#8230;",
+      "url": "https://www.javacodegeeks.com/2025/11/reactive-programming-with-project-reactor.html",
+      "source": "Java Code Geeks",
+      "author": "Eleftheria Drosopoulou",
+      "published": "2025-11-04T06:56:00+00:00",
+      "niche": "spring",
+      "score": 57,
+      "keywords": []
+    },
+    {
       "id": "1d9d05fcd4b531ad",
       "title": "Introduction to BaseX",
       "description": "Learn about how to use the BaseX XML database for storing, querying, and modifying large amounts of XML data. The post Introduction to BaseX first appeared on Baeldung.&#160;&#160;&#160;&#160;&#160;&#160;&#160;",
@@ -216,18 +228,6 @@
       "published": "2025-11-03T06:03:00-08:00",
       "niche": "spring",
       "score": 45,
-      "keywords": []
-    },
-    {
-      "id": "e2ede67c9dd4b891",
-      "title": "Metric Tagging in Micrometer",
-      "description": "Micrometer is the instrumentation facade in Spring Boot’s observability ecosystem, providing a unified API to collect, tag, and publish metrics to systems like Prometheus, Datadog, and New Relic. Tags, which are key value pairs linked to metrics, allow detailed filtering and aggregation across dimensions such as service or region. However, too many unique tag values &#8230;",
-      "url": "https://www.javacodegeeks.com/metric-tagging-in-micrometer.html",
-      "source": "Java Code Geeks",
-      "author": "Omozegie Aziegbe",
-      "published": "2025-10-28T08:51:00+00:00",
-      "niche": "spring",
-      "score": 42,
       "keywords": []
     },
     {
@@ -598,6 +598,18 @@
       "source": "DZone Microservices",
       "author": "David Iyanu Jonathan",
       "published": "2025-11-03T20:00:09+00:00",
+      "niche": "spring",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "ba03dd718c828228",
+      "title": "Mocking Logger and LoggerFactory Example",
+      "description": "1. Introduction The SLF4J library provides the Logger interface and LoggerFactory utility class to create a logger instance for a given class. Application utilizes the logging message to troubleshoot problems. In this example, I will demonstrate three ways to mock Logger and LoggerFactory in a Spring Boot Web Project: via Mockito.mock(Logger.class) if services inject Logger &#8230;",
+      "url": "https://www.javacodegeeks.com/mocking-logger-and-loggerfactory-example.html",
+      "source": "Java Code Geeks",
+      "author": "Mary Zheng",
+      "published": "2025-11-04T08:35:00+00:00",
       "niche": "spring",
       "score": 42,
       "keywords": []
