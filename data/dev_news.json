@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-11-04T09:28:01.462481+00:00",
-  "total_articles": 979,
+  "last_updated": "2025-11-04T12:54:19.742384+00:00",
+  "total_articles": 978,
   "articles": [
     {
       "id": "b7086dbf6e29731d",
@@ -100,6 +100,36 @@
       ]
     },
     {
+      "id": "bc393fa17a1384b8",
+      "title": "Unifying 3 LLM APIs in Python: OpenAI, Anthropic & Google with one SDK",
+      "description": "A year ago, I released the first version of LLM API Adapter — a lightweight SDK that unified OpenAI, Anthropic, and Google APIs under one interface. It got 7 ⭐ on GitHub and valuable feedback from early users. That was enough motivation to take it to the next level. What changed in the new version The new version (v0.2.2) is now: SDK-free — it talks directly to provider APIs, no external dependencies. Unified — one chat() interface for all models (OpenAI, Anthropic, Google). Transparent — automa",
+      "url": "https://dev.to/inozem/unifying-3-llm-apis-in-python-openai-anthropic-google-with-one-sdk-4l2",
+      "source": "Dev.to",
+      "author": "Sergey Inozemtsev",
+      "published": "2025-11-04T12:34:19+00:00",
+      "niche": "dev",
+      "score": 75,
+      "keywords": [
+        "release",
+        "API"
+      ]
+    },
+    {
+      "id": "42a6235a72c0fb6b",
+      "title": "Developing an A2A-compliant AI Agent with Java, Spring Boot and Spring AI",
+      "description": "An AI agent refers to a software entity that can perceive, reason, and act autonomously to achieve specific goals using artificial intelligence techniques like natural language processing, machine learning, or reasoning systems. I developed an AI agent for Telex which takes a regex pattern and provides a human-friendly explanation on the type(s) of string matched by that regex pattern. The inspiration for this agent lie in an API I developed just before this, where I had to use regex for some na",
+      "url": "https://dev.to/bituan/developing-an-a2a-compliant-ai-agent-with-java-spring-boot-and-spring-ai-3l5e",
+      "source": "Dev.to",
+      "author": "Tobi Awanebi",
+      "published": "2025-11-04T12:23:23+00:00",
+      "niche": "dev",
+      "score": 75,
+      "keywords": [
+        "API",
+        "Spring"
+      ]
+    },
+    {
       "id": "eb6bcf3f2b3adb13",
       "title": "GitHub Co‑Creator: Tetrix for Codebase Mastery",
       "description": "See how Tetrix uses your repository context to speed up navigation, generation, and review. With your code indexed in a knowledge graph, Tetrix can find the right files instantly, generate code that follows your conventions, map dependencies across repos, and review PRs with inline references. You’ll learn Graph-aware code search & cross-repo dependency mapping Repo-aware generation aligned to your framework and lint rules Practical PR review, and repo health checks. ⸻ Resources Full Video: http",
@@ -172,20 +202,6 @@
       "keywords": [
         "tutorial",
         "performance"
-      ]
-    },
-    {
-      "id": "e720687e2130efdd",
-      "title": "🛠️ Refactoring Legacy React Apps: The Micro-Frontend Path",
-      "description": "Our React app started like a puppy 🐶. Cute, small, easy. Five years later, it was a Great Dane chewing through our furniture 🪑. Every feature slowed us down. Every release felt risky. The “quick fixes” piled up into tech debt. We needed a way to break it apart without hitting “rewrite from scratch.” Micro-frontends became our path. Here’s how we split a monolith React app into micro-frontends, the pitfalls we hit, and the lessons we’d pass on. 📖 A Quick Story When we pitched micro-frontends to l",
-      "url": "https://dev.to/tahamjp/refactoring-legacy-react-apps-the-micro-frontend-path-3icf",
-      "source": "Dev.to",
-      "author": "Taha Majlesi Pour",
-      "published": "2025-10-28T12:36:36+00:00",
-      "niche": "dev",
-      "score": 72,
-      "keywords": [
-        "release"
       ]
     },
     {
@@ -342,18 +358,6 @@
       "keywords": [
         "development"
       ]
-    },
-    {
-      "id": "1fedc3a09551e217",
-      "title": "merge jsonschema",
-      "description": "@SuppressWarnings(\"unchecked\") private static Document innerJsonSchema(Document full) { // full is { \"$jsonSchema\": { ... } } return (Document) full.get(\"$jsonSchema\"); } private static Document mergeSchemasAsOneOf(Document... fullSchemas) { List<Document> versions = new ArrayList<>(); for (Document full : fullSchemas) { versions.add(innerJsonSchema(full)); } return new Document(\"$jsonSchema\", new Document(\"oneOf\", versions)); } // If you prefer \"anyOf\": private static Document mergeSchemasAsAny",
-      "url": "https://dev.to/devangular/merge-jsonschema-3667",
-      "source": "Dev.to",
-      "author": "LS",
-      "published": "2025-10-28T12:39:11+00:00",
-      "niche": "dev",
-      "score": 68,
-      "keywords": []
     },
     {
       "id": "455fd57b034513b5",
@@ -660,18 +664,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "b8e33eb15842aed3",
-      "title": "Show HN: Bash Screensavers",
-      "description": "Comments",
-      "url": "https://github.com/attogram/bash-screensavers",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-28T11:12:32+00:00",
-      "niche": "dev",
-      "score": 62,
-      "keywords": []
     },
     {
       "id": "7ff95f935ca621ca",
@@ -1079,6 +1071,24 @@
         "Spring",
         "framework",
         "dependency injection"
+      ]
+    },
+    {
+      "id": "54e851942dc5a3a6",
+      "title": "🚀 Building Knowledge Agent using A2A protocol: An AI Assistant for Backend Developers",
+      "description": "CodeWhiz: My AI Assistant for Backend Developers I recently built Knowledge Agent, an AI-powered assistant designed to help backend developers with questions about Java, Spring Boot, Node.js, Python, Go, and related frameworks. It’s live on Telex and ready to assist anyone exploring backend development. What Knowledge Agent Does Knowledge Agent is a real-time AI assistant. Developers can ask questions through a webhook or directly in the Telex platform. It answers with clear, concise explanation",
+      "url": "https://dev.to/ayobami_adepoju/building-knowledge-agent-an-ai-assistant-for-backend-developers-using-a2a-protocol-40dj",
+      "source": "Dev.to",
+      "author": "Ayobami Adepoju",
+      "published": "2025-11-04T12:18:37+00:00",
+      "niche": "dev",
+      "score": 61,
+      "keywords": [
+        "code",
+        "development",
+        "framework",
+        "Spring",
+        "developer"
       ]
     },
     {
@@ -1504,6 +1514,21 @@
       "keywords": [
         "API",
         "framework"
+      ]
+    },
+    {
+      "id": "f2e8753347171869",
+      "title": "How to build a Heapless Vector using `MaybeUninit` for Better Performance.",
+      "description": "Finally understand MaybeUninit<T> and why it offers better performance over Option<T>, and learn to safeguard unsafe Rust with safe APIs. TL:DR: Heapless Vector in no_std Rust. Rust stores data on the stack (fast, fixed-size), heap (growable but needs alloc), or static (program-long); for memory-tight embedded systems, use #![no_std] to ditch heap-alloc like Vec and build a \"heapless vector\" on stack with a fixed-size array [T; N] tracked by len. Start safe with Option (extra space for None trac",
+      "url": "https://dev.to/allwelldotdev/how-to-build-a-heapless-vector-using-maybeuninit-for-better-performance-ojo",
+      "source": "Dev.to",
+      "author": "Allwell",
+      "published": "2025-11-04T12:37:22+00:00",
+      "niche": "dev",
+      "score": 57,
+      "keywords": [
+        "API",
+        "performance"
       ]
     },
     {
@@ -2115,17 +2140,18 @@
       ]
     },
     {
-      "id": "4edbf0a73efbe710",
-      "title": "SnarkyType, the Snarkier Way to Type gets better?",
-      "description": "A long time ago, I had AI write me a blog post about my progress on SnarkyType because I never thought that I would finish it. Back then, SnarkyType was in Alpha, so it was kinda boring. But, I have NOT given up, mind you, and here's a BETA check in on what's happening! @superskibidisigma67 (and everyone else), No. I do not have a release date yet but I hope to get it out by Nov. 13, 2025 Well, y'all are in for a treat, 'cause today, I'm going to show you a behind-the-scenes look at it. SnarkyTy",
-      "url": "https://dev.to/codemonster240/snarkytype-the-snarkier-way-to-type-gets-better-1hcn",
+      "id": "1740713182420251",
+      "title": "Why You Should Try Vite For Your Next Project (and Forget About Webpack)",
+      "description": "For years, I lived in Webpack configs. Every small project felt like booting a factory for one cup of coffee. Then I tried Vite. Two minutes later, I had a working setup. No waiting. No dependency hell. At its core, frontend isn’t about frameworks. It’s about rendering data into something humans can see, understand, and interact with. For my project, a simple data visualization app, I didn’t need another layer of abstraction. I still wanted a few modern comforts: code splitting, hot reload, fast",
+      "url": "https://dev.to/danilo1/why-you-should-try-vite-for-your-next-project-and-forget-about-webpack-33dh",
       "source": "Dev.to",
-      "author": "Andrew McSillyone",
-      "published": "2025-10-28T12:34:40+00:00",
+      "author": "Danilo",
+      "published": "2025-11-04T12:21:18+00:00",
       "niche": "dev",
-      "score": 54,
+      "score": 55,
       "keywords": [
-        "release"
+        "framework",
+        "code"
       ]
     },
     {
@@ -3051,21 +3077,6 @@
       ]
     },
     {
-      "id": "abd7e7ef39ea5aa1",
-      "title": "Top AI UI Generators for a Faster UI Design in 2025",
-      "description": "Top AI UI Generators for a Faster UI Design in 2025 Let's be honest: as developers, we love to code, but sometimes the front-end design process can feel like a bottleneck. You have a brilliant app idea, but mocking up the UI, choosing the right shades of blue, and ensuring the layout is responsive can eat up precious hours before you even write your first console.log. What if you could describe your vision and get a clean, functional UI prototype in seconds? Welcome to the future of front-end de",
-      "url": "https://dev.to/hashbyt/top-ai-ui-generators-for-a-faster-ui-design-in-2025-45d2",
-      "source": "Dev.to",
-      "author": "Hashbyt",
-      "published": "2025-10-28T12:33:24+00:00",
-      "niche": "dev",
-      "score": 52,
-      "keywords": [
-        "code",
-        "developer"
-      ]
-    },
-    {
       "id": "81d7298646e0bac4",
       "title": "Coding Scalable UIs In Cursor With Kombai",
       "description": "Frontend development is now in a whole new phase where AI isn't just a helper, but an active collaborator. Before, you had to build everything from start to finish by yourself. You'll design, write the code, debug, and go through the entire process again. It was a loop of repeating the same steps and solving the same issues. Despite AI coding assistants' best efforts, many have failed to address these issues. They either create code that's hard to maintain or stop at simple prototypes/demos. Kom",
@@ -3516,30 +3527,17 @@
       ]
     },
     {
-      "id": "41a884408672d2f0",
-      "title": "Why Manual Testing Isn’t “Old School” - It’s the Secret Sauce for Smart Automation",
-      "description": "Hey there, fellow testers! Let me tell you a secret: manual testing isn’t just “doing things by hand.” It’s the R&D lab for automation. Think of it like this: automation is a super-fast robot. You give it instructions, and it follows them perfectly. But here’s the catch: that robot is only as smart as the person who programmed it. Manual testing? That’s the human brain behind the code, curious, messy, and full of “what ifs” that machines miss. 1. “Why” Comes Before “How”: Testing the Testability",
-      "url": "https://dev.to/uziman-qa/why-manual-testing-isnt-old-school-its-the-secret-sauce-for-smart-automation-4f60",
+      "id": "6b18c48e0c51ca0a",
+      "title": "Fixing VSCode pip not recognized Error in 5 Minutes",
+      "description": "The dreaded \"pip is not recognized\" error is one of the most common and frustrating roadblocks new (and even experienced) Python developers hit when setting up their VS Code environment. It feels like a fundamental failure—you have Python installed, but the package manager that handles all the cool libraries just... doesn't exist to your terminal. This guide cuts through the noise. We're not going to waste your time with full re-installs. We’ll cover the three most likely causes of this issue, p",
+      "url": "https://dev.to/devin-rosario/fixing-vscode-pip-not-recognized-error-in-5-minutes-2ndn",
       "source": "Dev.to",
-      "author": "Uziman Oyedele",
-      "published": "2025-10-28T12:36:40+00:00",
+      "author": "Devin Rosario",
+      "published": "2025-11-04T12:30:52+00:00",
       "niche": "dev",
-      "score": 51,
+      "score": 52,
       "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "1832a5c34a2fcd44",
-      "title": "Your-Error-Handling-is-a-Mess-and-Its-Costing-You-💸",
-      "description": "GitHub Home Your Error Handling is a Mess, and It's Costing You 💸 I still remember the bug that kept me up all night. A payment callback endpoint, when handling a rare, exceptional status code from a third-party payment gateway, had a .catch() that was accidentally omitted from a Promise chain. The result? No logs, no alerts, and the service itself didn't crash. It just \"silently\" failed. That user's order status was forever stuck on \"processing,\" and we were completely unaware. It wasn't until ",
-      "url": "https://dev.to/member_ece4a271/your-error-handling-is-a-mess-and-its-costing-you--19i8",
-      "source": "Dev.to",
-      "author": "member_ece4a271",
-      "published": "2025-10-28T12:36:11+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
+        "developer",
         "code"
       ]
     },
@@ -4664,40 +4662,32 @@
       ]
     },
     {
-      "id": "78656bdeecfdaad9",
-      "title": "Building a Test Data Platform After Watching Teams Secretly Use Production for Years",
-      "description": "Two weeks ago I asked data engineers on Reddit how much time they lose getting test data ready. Top response was brutally honest: \"Everywhere I've worked with sensitive data, everybody ended up secretly working off prod.\" Lots of upvotes. Loads of people agreeing in the comments. That's not a compliance problem. That's a tooling problem. The Actual Problem It's not that teams don't want to do things properly. Mock data isn't realistic enough to debug with. Snapshots go stale within weeks. Manual",
-      "url": "https://dev.to/alex_hayward_ff2d88ff331e/building-a-test-data-platform-after-watching-teams-secretly-use-production-for-years-31b6",
+      "id": "b3b0606ac15d872a",
+      "title": "How Playwright Finds Buttons and Text More Smartly Than Selenium",
+      "description": "This post talks about another testing tool called Playwright. Do you want to learn playwright contact testleaf Think of Playwright as a modern version of Selenium — it does the same job (checking whether a website works) but uses smarter ways to find things on the screen. Instead of depending on long, fragile paths like Selenium used to, Playwright looks for meaningful labels such as: the role of an element (like button, textbox, link) or a special tag (called a testId) that developers can add. ",
+      "url": "https://dev.to/magi-magificient/how-playwright-finds-buttons-and-text-more-smartly-than-selenium-129",
       "source": "Dev.to",
-      "author": "Alex Hayward",
-      "published": "2025-10-28T12:34:39+00:00",
+      "author": "Mangai Ram",
+      "published": "2025-11-04T12:30:00+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
-      "id": "17ceb18402aecb8d",
-      "title": "First sakila project log",
-      "description": "📅 Date: 2025-10-16 → 2025-10-18 🔧 Tools: Python, Pydantic, MySQL, JSON, Git Submodules ⸻ How It Started I hit a point where my project needed more than raw input() checks. Validation logic was scattered between main.py, connectors, and random if/else. Time to clean it up. At the same time, my teacher asked to create a separate repo for homeworks, but I already use a monorepo. I finally decided to try something I wanted a long time: create a second repo and attach it as git submodule. So now adva",
-      "url": "https://dev.to/aka_artem_dd17be93c/first-sakila-project-log-3hl4",
+      "id": "157f0b63b68a1970",
+      "title": "Client Status Update Emails: 15 Templates That Actually Work for Agencies",
+      "description": "It’s 6 PM on a Tuesday. You’re still typing up client update emails while your team has already logged off. Sound familiar? If you run a digital agency, whether in marketing, design, or development, you know that client communication is where projects are either built or broken. You can deliver the most innovative work in the world, but if your clients feel “out of the loop”, trust starts to fade fast. In fact, research shows agencies that communicate clearly and proactively are 50% more likely ",
+      "url": "https://dev.to/teamcamp/client-status-update-emails-15-templates-that-actually-work-for-agencies-4gnj",
       "source": "Dev.to",
-      "author": "Thomas Jager",
-      "published": "2025-10-28T12:33:40+00:00",
+      "author": "Kruti",
+      "published": "2025-11-04T12:27:37+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "767f0e7014254ef8",
-      "title": "Your-Deployments-Are-Stuck-in-the-Past-The-Lost-Art-of-the-Hot-Restart",
-      "description": "GitHub Home Your Deployments Are Stuck in the Past: The Lost Art of the Hot Restart I still vividly remember that Friday midnight. I, a man in my forties who should have been at home enjoying the weekend, was instead in a cold server room, the hum of fans buzzing in my ears, and a stream of error logs scrolling endlessly on the terminal before me. What was supposed to be a \"simple\" version update had turned into a disaster. The service wouldn't start, the rollback script failed, and on the other",
-      "url": "https://dev.to/member_25c2e834/your-deployments-are-stuck-in-the-past-the-lost-art-of-the-hot-restart-2p6p",
-      "source": "Dev.to",
-      "author": "member_25c2e834",
-      "published": "2025-10-28T12:29:36+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "development"
+      ]
     },
     {
       "id": "d6690c2a5f9fdd23",
@@ -7966,6 +7956,42 @@
       "keywords": []
     },
     {
+      "id": "5df49a225fa50208",
+      "title": "Why Some Web3 Founders Are Accumulating the NLOV Token — A Practical, Cautious Look",
+      "description": "Quiet accumulation isn’t always noise — sometimes it’s strategic alignment. This article looks at why some builders and founders are taking long-term positions in the NLOV token, and what practical signals and risks they consider. Prologue: What “quiet accumulation” means In Web3, not every token movement is hype. Some participants — founders, ecosystem partners, and treasury managers — accumulate tokens because they depend on the network’s infrastructure and want to align incentives with their ",
+      "url": "https://dev.to/neurolov__ai/why-some-web3-founders-are-accumulating-the-nlov-token-a-practical-cautious-look-47b9",
+      "source": "Dev.to",
+      "author": "Neurolov AI",
+      "published": "2025-11-04T12:30:11+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "1e01ea58753c7ad1",
+      "title": "How Did I Build a .NET Application Using ChatGPT?",
+      "description": "Most of my time during the week goes into discussions about architecture, delivery timelines, and helping teams solve technical challenges. Rarely do I get a chance to sit down and build something myself. But I’ve always believed that staying hands-on keeps your perspective sharp. Just some weeks ago, I decided to experiment with something different. I wanted to see what would happen if I tried to build a .NET application using ChatGPT as a coding companion. There was no plan to automate my work",
+      "url": "https://dev.to/mehul_budasana/how-did-i-build-a-net-application-using-chatgpt-538i",
+      "source": "Dev.to",
+      "author": "Mehul budasana",
+      "published": "2025-11-04T12:26:56+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "2838f2301f966e9e",
+      "title": "How To Leverage Component Variants In Penpot",
+      "description": "With component variants, design systems become more flexible, letting you reuse the same component while adapting its look or state with ease. In this article, Daniel Schwarz demonstrates how design tokens can be leveraged to manage components and their variations using Penpot, the open-source tool built for scalable, consistent design.",
+      "url": "https://smashingmagazine.com/2025/11/how-leverage-component-variants-penpot/",
+      "source": "Smashing Magazine",
+      "author": "hello@smashingmagazine.com (Daniel Schwarz)",
+      "published": "2025-11-04T10:00:00+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "fdad57a941b3c111",
       "title": "[Boost]",
       "description": "10 Best AI Interview Copilot Tools for 2026 🤖 Hadil Ben Abdallah for Final Round AI ・ Oct 17 #programming #ai #interview #career",
@@ -8268,20 +8294,6 @@
       "keywords": []
     },
     {
-      "id": "efe589c618567e37",
-      "title": "Your vibe coded slop PR is not welcome",
-      "description": "Comments",
-      "url": "https://samsaffron.com/archive/2025/10/27/your-vibe-coded-slop-pr-is-not-welcome",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-28T11:03:59+00:00",
-      "niche": "dev",
-      "score": 45,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
       "id": "68fa83a0e663a798",
       "title": "From VS Code to Helix",
       "description": "Comments",
@@ -8392,42 +8404,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "645bb01236083647",
-      "title": "test_devto",
-      "description": "Test DEV.to Post This is a test post to verify the publishing process.",
-      "url": "https://dev.to/__f27cfeca2e21de8d2378/testdevto-18pi",
-      "source": "Dev.to",
-      "author": "hunting3@126.com",
-      "published": "2025-10-28T12:39:27+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "3129b983b825f31f",
-      "title": "Understanding the Worst .NET Vulnerability",
-      "description": "Comments",
-      "url": "https://andrewlock.net/understanding-the-worst-dotnet-vulnerability-request-smuggling-and-cve-2025-55315/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-28T11:03:38+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "af46242bde3519bd",
-      "title": "Amazon confirms 14,000 job losses in corporate division",
-      "description": "Comments",
-      "url": "https://www.bbc.com/news/articles/c1m3zm9jnl1o",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-28T11:39:24+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "3c0242e2eea84734",
@@ -10314,6 +10290,42 @@
       "keywords": []
     },
     {
+      "id": "41694a2e0ad1e0a8",
+      "title": "What Is a Manifold?",
+      "description": "Comments",
+      "url": "https://www.quantamagazine.org/what-is-a-manifold-20251103/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-04T09:58:14+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "ab0a001634461fd2",
+      "title": "This Month in Ladybird – October 2025",
+      "description": "Comments",
+      "url": "https://ladybird.org/newsletter/2025-10-31/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-04T11:52:02+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "4279876c698f34b2",
+      "title": "Bloom filters are good for search that does not scale",
+      "description": "Comments",
+      "url": "https://notpeerreviewed.com/blog/bloom-filters/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-04T09:25:31+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "78c4b08725d5f56b",
       "title": "React 19 Upgrade Guide",
       "description": "The improvements added to React 19 require some breaking changes, but we've worked to make the upgrade as smooth as possible and we don't expect the changes to impact most apps. In this post, we will guide you through the steps for upgrading apps and libraries to React 19.",
@@ -10325,20 +10337,6 @@
       "score": 44,
       "keywords": [
         "React 19"
-      ]
-    },
-    {
-      "id": "d1e7d0db8c8bc7f7",
-      "title": "Using Search Data APIs for Faster Prototyping",
-      "description": "Get structured search data without fighting captchas and build faster with simple, real-time API calls.",
-      "url": "https://tympanus.net/codrops/2025/10/28/using-search-data-apis-for-faster-prototyping/",
-      "source": "Codrops",
-      "author": "advertiser",
-      "published": "2025-10-28T11:20:56+00:00",
-      "niche": "dev",
-      "score": 42,
-      "keywords": [
-        "API"
       ]
     },
     {
@@ -10354,6 +10352,20 @@
       "keywords": []
     },
     {
+      "id": "d23b3535c8570aa3",
+      "title": "Creating 3D Scroll-Driven Text Animations with CSS and GSAP",
+      "description": "A step-by-step guide to building high-performance 3D scroll effects with GSAP, ScrollTrigger, and CSS transform math.",
+      "url": "https://tympanus.net/codrops/2025/11/04/creating-3d-scroll-driven-text-animations-with-css-and-gsap/",
+      "source": "Codrops",
+      "author": "David Faure",
+      "published": "2025-11-04T10:42:13+00:00",
+      "niche": "dev",
+      "score": 42,
+      "keywords": [
+        "performance"
+      ]
+    },
+    {
       "id": "cecd3da845538339",
       "title": "React 19.2",
       "description": "React 19.2 adds new features like Activity, React Performance Tracks, useEffectEvent, and more.",
@@ -10364,8 +10376,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "performance",
-        "React 19"
+        "React 19",
+        "performance"
       ]
     },
     {
@@ -10611,9 +10623,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "API",
         "release",
-        "React 19"
+        "React 19",
+        "API"
       ]
     },
     {
@@ -10711,8 +10723,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "API",
-        "framework"
+        "framework",
+        "API"
       ]
     },
     {
@@ -10804,11 +10816,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "performance",
-        "API",
         "code",
         "release",
-        "framework"
+        "framework",
+        "performance",
+        "API"
       ]
     },
     {
@@ -10996,6 +11008,18 @@
       "keywords": []
     },
     {
+      "id": "6d6f12b377697a22",
+      "title": "Reverse-engineered CUPS driver for Phomemo receipt/label printers",
+      "description": "Comments",
+      "url": "https://github.com/vivier/phomemo-tools",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-28T05:01:38+00:00",
+      "niche": "dev",
+      "score": 26,
+      "keywords": []
+    },
+    {
       "id": "d839f1a2454a8fa9",
       "title": "URLPattern is now Baseline Newly available",
       "description": "URLPattern became Baseline Newly available as of September 15, 2025.",
@@ -11090,8 +11114,8 @@
       "niche": "dev",
       "score": 25,
       "keywords": [
-        "release",
         "Angular",
+        "release",
         "framework"
       ]
     },
@@ -11202,8 +11226,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "API",
-        "release"
+        "release",
+        "API"
       ]
     },
     {
@@ -11248,9 +11272,9 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "API",
         "release",
-        "developer"
+        "developer",
+        "API"
       ]
     },
     {
@@ -11335,22 +11359,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "development",
-        "developer"
-      ]
-    },
-    {
-      "id": "1d4d9de6695e3ee1",
-      "title": "The Impossible Optimization, and the Metaprogramming to Achieve It",
-      "description": "Comments",
-      "url": "https://verdagon.dev/blog/impossible-optimization",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-28T10:53:21+00:00",
-      "niche": "dev",
-      "score": 15,
-      "keywords": [
-        "programming"
+        "developer",
+        "development"
       ]
     },
     {
@@ -11501,18 +11511,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-10-28T13:32:18+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "189e1257d7e2b565",
-      "title": "Austria: Pylons as sculpture for public acceptance of expanding electrification",
-      "description": "Comments",
-      "url": "https://www.goodgoodgood.co/articles/austrian-power-giants-power-line-animals",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-28T09:56:37+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -11710,18 +11708,6 @@
       "keywords": []
     },
     {
-      "id": "4e652f5886af2f86",
-      "title": "From Prompt To Partner: Designing Your Custom AI Assistant",
-      "description": "What if your best AI prompts didn’t disappear into your unorganized chat history, but came back tomorrow as a reliable assistant? In this article, you’ll learn how to turn one-off “aha” prompts into reusable assistants that are tailored to your audience, grounded in your knowledge, and consistent every time, saving you (and your team) from typing the same 448-word prompt ever again.",
-      "url": "https://smashingmagazine.com/2025/09/from-prompt-to-partner-designing-custom-ai-assistant/",
-      "source": "Smashing Magazine",
-      "author": "hello@smashingmagazine.com (Lyndon Cerejo)",
-      "published": "2025-09-26T10:00:00+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
       "id": "765be3c27e734bb8",
       "title": "Default styles for h1 elements are changing",
       "description": "Browsers are starting to roll out changes in default UA styles for nested section headings. This post describes the incoming changes, how to identify if it's an issue on your websites, and hints for conformant and better-structured pages.",
@@ -11768,8 +11754,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "development",
-        "programming"
+        "programming",
+        "development"
       ]
     },
     {
@@ -12103,6 +12089,20 @@
       "keywords": []
     },
     {
+      "id": "d1e7d0db8c8bc7f7",
+      "title": "Using Search Data APIs for Faster Prototyping",
+      "description": "Get structured search data without fighting captchas and build faster with simple, real-time API calls.",
+      "url": "https://tympanus.net/codrops/2025/10/28/using-search-data-apis-for-faster-prototyping/",
+      "source": "Codrops",
+      "author": "advertiser",
+      "published": "2025-10-28T11:20:56+00:00",
+      "niche": "dev",
+      "score": 12,
+      "keywords": [
+        "API"
+      ]
+    },
+    {
       "id": "3c8c620ec278d6fd",
       "title": "Interpol: A Low-Level Take on Tweening and Motion",
       "description": "Exploring the design and mechanics of Interpol, a minimal library for low-level, time-based animations.",
@@ -12378,6 +12378,18 @@
       "keywords": []
     },
     {
+      "id": "cc36dfbde25a205d",
+      "title": "The Farmer Was Replaced [video]",
+      "description": "Comments",
+      "url": "https://www.youtube.com/watch?v=aP2WHQKJVsw",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-10-22T20:23:09+00:00",
+      "niche": "dev",
+      "score": 8,
+      "keywords": []
+    },
+    {
       "id": "644cd92983c9d066",
       "title": "From multilingual semantic search to virtual assistants at Bosch Digital",
       "description": "From sprawling PDFs to a fast, factual conversational assistant.",
@@ -12555,18 +12567,6 @@
       "source": "Codrops",
       "author": "FUTURE THREE®",
       "published": "2025-10-23T10:06:45+00:00",
-      "niche": "dev",
-      "score": 7,
-      "keywords": []
-    },
-    {
-      "id": "bec3e45a2fc40727",
-      "title": "Weisdevice: Crafting a Glitched-Out World Between 2D, 3D, and Sound",
-      "description": "Behind the scenes of a 2D-3D-audio experiment that turns creative chaos into digital art.",
-      "url": "https://tympanus.net/codrops/2025/10/22/weisdevice-crafting-a-glitched-out-world-between-2d-3d-and-sound/",
-      "source": "Codrops",
-      "author": "Xianyao Wei",
-      "published": "2025-10-22T14:19:29+00:00",
       "niche": "dev",
       "score": 7,
       "keywords": []
