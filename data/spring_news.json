@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-11-05T15:28:27.094559+00:00",
-  "total_articles": 205,
+  "last_updated": "2025-11-05T18:38:24.871440+00:00",
+  "total_articles": 206,
   "articles": [
     {
       "id": "348e80c3717bec4a",
@@ -22,6 +22,18 @@
       "source": "Baeldung",
       "author": "Sachin Verma",
       "published": "2025-11-01T03:50:22+00:00",
+      "niche": "spring",
+      "score": 68,
+      "keywords": []
+    },
+    {
+      "id": "f03f150c314c5d49",
+      "title": "Spring gRPC Next Steps for 1.0.0",
+      "description": "This is a new blog post in the Road to GA series, this time updating everyone on the plans to integrate Spring gRPC with Spring Boot 4. The original plan was to move the autoconfiguration from Spring gRPC into Spring Boot in time for the 4.0 release. Unfortunately we haven't been able to find the time to merge that change, but the good news is that we have instead added support for Spring Boot 4 to the existing Spring gRPC project, and are planning a 1.0 release in the coming days. This arrangem",
+      "url": "https://spring.io/blog/2025/11/11/spring-grpc-next-steps",
+      "source": "Spring Blog (Official)",
+      "author": "dsyer",
+      "published": "2025-11-11T00:00:00+00:00",
       "niche": "spring",
       "score": 68,
       "keywords": []
@@ -183,6 +195,18 @@
       "keywords": []
     },
     {
+      "id": "b2efc8d3001f3f87",
+      "title": "Making Spring Integration Tests Run Faster",
+      "description": "Integration tests exercise the application with realistic wiring, bridging the gap between pure unit tests and full end-to-end tests. They verify multiple aspects such as component wiring, configuration correctness, persistence layer functionality, transactions, and HTTP endpoints. The tradeoff is speed: starting and tearing down a Spring ApplicationContext repeatedly can dominate the execution time. In large &#8230;",
+      "url": "https://www.javacodegeeks.com/making-spring-integration-tests-run-faster.html",
+      "source": "Java Code Geeks",
+      "author": "Yatin Batra",
+      "published": "2025-11-05T16:07:00+00:00",
+      "niche": "spring",
+      "score": 57,
+      "keywords": []
+    },
+    {
       "id": "4eee33d5e3631cd8",
       "title": "Java Weekly, Issue 618",
       "description": "JDK 25 brought some solid performance improvements, and JDK 26 is already looking quite good with its new HTTP/3 support. The post Java Weekly, Issue 618 first appeared on Baeldung.&#160;&#160;&#160;&#160;&#160;&#160;&#160;",
@@ -288,42 +312,6 @@
       "published": "2025-11-03T06:03:00-08:00",
       "niche": "spring",
       "score": 45,
-      "keywords": []
-    },
-    {
-      "id": "7838a4d673604470",
-      "title": "Building Lightning-Fast Program Analysis with Soufflé and Datalog",
-      "description": "When you&#8217;re trying to understand what a program does—tracking how data flows through it, finding security vulnerabilities, or optimizing code—you need tools that can handle massive codebases without grinding to a halt. This is where Soufflé and Datalog come into play, offering an elegant approach to program analysis that&#8217;s both expressive and surprisingly fast. What &#8230;",
-      "url": "https://www.javacodegeeks.com/2025/10/building-lightning-fast-program-analysis-with-souffle-and-datalog.html",
-      "source": "Java Code Geeks",
-      "author": "Eleftheria Drosopoulou",
-      "published": "2025-10-29T16:55:00+00:00",
-      "niche": "spring",
-      "score": 42,
-      "keywords": []
-    },
-    {
-      "id": "763555ccf679c356",
-      "title": "Prompt Engineering for GPT-5",
-      "description": "The landscape of software development is changing rapidly. Artificial intelligence, once a futuristic concept, is now an indispensable part of everyday programming workflows. With the release of GPT-5, we now have access to a model that’s more intelligent, context-aware, and code-savvy than any of its predecessors. Whether we’re building a REST API, designing a frontend &#8230;",
-      "url": "https://www.javacodegeeks.com/prompt-engineering-for-gpt-5.html",
-      "source": "Java Code Geeks",
-      "author": "Omozegie Aziegbe",
-      "published": "2025-10-29T15:45:00+00:00",
-      "niche": "spring",
-      "score": 42,
-      "keywords": []
-    },
-    {
-      "id": "04026fa6445f14f2",
-      "title": "ZEISS Demonstrates the Power of Scalable Workflows With Ampere® Altra® and SpinKube",
-      "description": "The Challenge The cost of maintaining a system capable of processing tens of thousands of near-simultaneous requests, but which spends greater than 90 percent of its time in an idle state, cannot be justified. Containerization promised the ability to scale workloads on demand, which includes scaling down when demand is low. Maintaining many pods among a plurality of clusters just so the system doesn’t waste time in the upscaling process contradicts the point of workload containerization. The Sol",
-      "url": "https://feeds.dzone.com/link/18931/17199251/zeiss-demonstrates-the-power-of-scalable-workflows",
-      "source": "DZone Microservices",
-      "author": "Scott Fulton III",
-      "published": "2025-10-29T17:00:00+00:00",
-      "niche": "spring",
-      "score": 42,
       "keywords": []
     },
     {
@@ -694,6 +682,18 @@
       "source": "DZone Microservices",
       "author": "RENJITH RAMACHANDRAN",
       "published": "2025-11-05T14:00:00+00:00",
+      "niche": "spring",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "e5e85b85b8677cf6",
+      "title": "Pattern Matching for Switch: Beyond Basic Type Checking",
+      "description": "The humble switch statement has been a programming staple for decades, but modern languages are pushing far beyond simple value comparisons. Today&#8217;s pattern matching capabilities transform switch statements from basic control flow into powerful destructuring and matching engines that make code more expressive and safer. The Evolution of Switch Traditional switch statements in languages like &#8230;",
+      "url": "https://www.javacodegeeks.com/2025/11/pattern-matching-for-switch-beyond-basic-type-checking.html",
+      "source": "Java Code Geeks",
+      "author": "Eleftheria Drosopoulou",
+      "published": "2025-11-05T17:01:00+00:00",
       "niche": "spring",
       "score": 42,
       "keywords": []
@@ -1899,6 +1899,18 @@
       "keywords": []
     },
     {
+      "id": "04026fa6445f14f2",
+      "title": "ZEISS Demonstrates the Power of Scalable Workflows With Ampere® Altra® and SpinKube",
+      "description": "The Challenge The cost of maintaining a system capable of processing tens of thousands of near-simultaneous requests, but which spends greater than 90 percent of its time in an idle state, cannot be justified. Containerization promised the ability to scale workloads on demand, which includes scaling down when demand is low. Maintaining many pods among a plurality of clusters just so the system doesn’t waste time in the upscaling process contradicts the point of workload containerization. The Sol",
+      "url": "https://feeds.dzone.com/link/18931/17199251/zeiss-demonstrates-the-power-of-scalable-workflows",
+      "source": "DZone Microservices",
+      "author": "Scott Fulton III",
+      "published": "2025-10-29T17:00:00+00:00",
+      "niche": "spring",
+      "score": 12,
+      "keywords": []
+    },
+    {
       "id": "b3cf1fb943c6a62a",
       "title": "Kubernetes Debugging Recipe: Practical Steps to Diagnose Pods Like a Pro",
       "description": "Automation isn’t optional at enterprise scale. It’s resilient by design. Kubernetes provides remarkable scalability and resilience , but when pods crash, even seasoned engineers struggle to translate complex and cryptic logs and events. This guide walks you through the spectrum of AI-powered root cause analysis and manual debugging, combining command-line reproducibility and predictive observability approaches.",
@@ -2045,7 +2057,7 @@
     {
       "id": "7d8b36662fc2f1b1",
       "title": "How Java Open-Source Projects Use IntelliJ IDEA: Real-World Examples – Part 2",
-      "description": "In Part 1 of this series, we introduced some of the Java community’s most recognized open-source projects. Now, we’re back with more standouts: projects that speed up builds, strengthen testing, and simplify working with modern web stacks. And as always, IntelliJ IDEA helps maintainers move faster, confidently, and with a focus on quality. ? jsoup [&#8230;]",
+      "description": "In Part 1 of this series, we introduced some of the Java community’s most recognized open-source projects. Now, we’re back with more standouts: projects that speed up builds, strengthen testing, and simplify working with modern web stacks. And as always, IntelliJ IDEA helps maintainers move faster, confidently, and with a focus on quality. 🌿 jsoup [&#8230;]",
       "url": "https://blog.jetbrains.com/blog/2025/09/26/how-java-open-source-projects-use-intellij-idea-real-world-examples-part-2/",
       "source": "JetBrains IntelliJ IDEA Blog",
       "author": "Lena Morozova",
