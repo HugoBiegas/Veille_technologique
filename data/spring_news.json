@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-06T15:30:55.930624+00:00",
+  "last_updated": "2025-11-06T18:47:19.235336+00:00",
   "total_articles": 201,
   "articles": [
     {
@@ -94,6 +94,30 @@
       "source": "Spring Blog (Official)",
       "author": "joshlong",
       "published": "2025-11-04T00:00:00+00:00",
+      "niche": "spring",
+      "score": 62,
+      "keywords": []
+    },
+    {
+      "id": "ff23ef0b32251f1b",
+      "title": "A Bootiful Podcast: The Vaadin team, live from Vaadin Create 2025",
+      "description": "Hi, Spring fans! In this installment, I had the privilege to sit down with Vaadin legends Joonas Lehtinen, Marcus Hellberg, and Leif Åstrand at the amazing Vaadin Create 2025 event in Frankfurt, Germany.",
+      "url": "https://spring.io/blog/2025/11/06/a-bootiful-podcasd-vaadin-team",
+      "source": "Spring Blog (Official)",
+      "author": "joshlong",
+      "published": "2025-11-06T00:00:00+00:00",
+      "niche": "spring",
+      "score": 62,
+      "keywords": []
+    },
+    {
+      "id": "40e913bb6aeeb6c5",
+      "title": "Spring Batch 6.0.0-RC2 available now!",
+      "description": "I am pleased to announce that Spring Batch 6.0.0-RC2 is now available from Maven Central! What's new in Spring Batch 6.0.0-RC2? This second release candidate introduces a long-awaited feature which is the use of contextual lambda expressions to configure batch artefacts. This new style of configuration provides a more concise and readable way to define item readers and writers. For example, instead of using the traditional builder pattern like in the following snippet to define a delimited file ",
+      "url": "https://spring.io/blog/2025/11/06/spring-batch-6-0-0-rc2-released",
+      "source": "Spring Blog (Official)",
+      "author": "fmbenhassine",
+      "published": "2025-11-06T00:00:00+00:00",
       "niche": "spring",
       "score": 62,
       "keywords": []
@@ -219,6 +243,18 @@
       "keywords": []
     },
     {
+      "id": "a2e6173c15564377",
+      "title": "How to Customize Enum Mappings with @EnumeratedValue",
+      "description": "The post How to Customize Enum Mappings with @EnumeratedValue appeared first on Thorben Janssen. Mapping enums with Jakarta Persistence looks simple at first. But the two traditional options, @Enumerated(EnumType.STRING) and @Enumerated(EnumType.ORDINAL), depend on internal enum details that can change over time. If you store the enum value as a String, you will have to migrate your data whenever you decide to rename a value. And if you store the... The post How to Customize Enum Mappings with @",
+      "url": "https://thorben-janssen.com/custom-enum-mappings-with-enumeratedvalue/",
+      "source": "Thorben Janssen",
+      "author": "Thorben Janssen",
+      "published": "2025-11-06T17:05:28+00:00",
+      "niche": "spring",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "4b896a90e1c44714",
       "title": "The Object Class in Java",
       "description": "A quick guide to Java's Object class and its methods. The post The Object Class in Java first appeared on Baeldung.&#160;&#160;&#160;&#160;&#160;&#160;&#160;",
@@ -264,66 +300,6 @@
       "published": "2025-11-03T06:03:00-08:00",
       "niche": "spring",
       "score": 45,
-      "keywords": []
-    },
-    {
-      "id": "c2a59fcde27c389c",
-      "title": "Static Analysis & Code Generation for Java: Preventing Bugs Before They Happen",
-      "description": "There&#8217;s something deeply satisfying about catching a bug before it ever runs. Not during testing, not in production, but right there in your IDE before you&#8217;ve even committed the code. This is the promise of static analysis—examining code without executing it to find problems that would otherwise lurk until the worst possible moment. Java, with &#8230;",
-      "url": "https://www.javacodegeeks.com/2025/10/static-analysis-code-generation-for-java-preventing-bugs-before-they-happen.html",
-      "source": "Java Code Geeks",
-      "author": "Eleftheria Drosopoulou",
-      "published": "2025-10-30T17:21:00+00:00",
-      "niche": "spring",
-      "score": 42,
-      "keywords": []
-    },
-    {
-      "id": "1c72d37873189c27",
-      "title": "Reading and Writing Deeply Partitioned Files in Apache Spark",
-      "description": "In large-scale data engineering and analytics, files are often stored in deeply partitioned directories to improve performance and manageability. This structure is common in data lakes where data is organised hierarchically by time (e.g., year, month, day). A deeply partitioned structure enables Apache Spark to efficiently prune irrelevant partitions, resulting in faster queries and improved &#8230;",
-      "url": "https://www.javacodegeeks.com/reading-and-writing-deeply-partitioned-files-in-apache-spark.html",
-      "source": "Java Code Geeks",
-      "author": "Omozegie Aziegbe",
-      "published": "2025-10-30T16:05:00+00:00",
-      "niche": "spring",
-      "score": 42,
-      "keywords": []
-    },
-    {
-      "id": "d06b28311b737bb0",
-      "title": "HTTPS Calls to Untrusted SSL Servers with REST Assured",
-      "description": "When testing REST APIs over HTTPS, REST Assured provides a simple and fluent interface to interact with APIs. However, testing against servers with untrusted or self-signed SSL certificates can result in SSL handshake failures. Let us delve into understanding how REST Assured HTTPS connections to untrusted servers can be managed securely and effectively. While relaxed &#8230;",
-      "url": "https://www.javacodegeeks.com/https-calls-to-untrusted-ssl-servers-with-rest-assured.html",
-      "source": "Java Code Geeks",
-      "author": "Yatin Batra",
-      "published": "2025-10-30T15:34:00+00:00",
-      "niche": "spring",
-      "score": 42,
-      "keywords": []
-    },
-    {
-      "id": "f6498a2fe1480147",
-      "title": "A Comprehensive Analysis of Async Communication in Microservice Architecture",
-      "description": "Microservice architecture has become a standard practice for companies, small and large. One of the challenges is communication between different services. I’ve worked with microservices for a decade now, and I’ve seen a lot of people struggle to understand how to implement a proper communication protocol.  In this series of articles, I’ll share my knowledge and expertise on async communication in microservices.",
-      "url": "https://feeds.dzone.com/link/18931/17200074/async-communication-in-microservice-architecture",
-      "source": "DZone Microservices",
-      "author": "Aniruddha Maru",
-      "published": "2025-10-30T17:00:00+00:00",
-      "niche": "spring",
-      "score": 42,
-      "keywords": []
-    },
-    {
-      "id": "09f57e8a2e096e88",
-      "title": "From Model to Microservice: A Practical Guide to Deploying ML Models as APIs",
-      "description": "You’ve done it. You’ve spent weeks cleaning data, feature engineering, and hyperparameter tuning. You have a Jupyter Notebook showing a beautiful .fit() and a .predict() that works perfectly. The model accuracy is 99%. Victory! But now comes the hard part. Your stakeholder asks, \"That's great, but how do we get this into the new mobile app?\" Suddenly, the reality hits: a model in a notebook delivers zero business value. To be truly useful, your machine learning model needs to be integrated into ",
-      "url": "https://feeds.dzone.com/link/18931/17200042/deploying-ml-models-as-apis",
-      "source": "DZone Microservices",
-      "author": "Naga Sai Mrunal Vuppala",
-      "published": "2025-10-30T16:00:00+00:00",
-      "niche": "spring",
-      "score": 42,
       "keywords": []
     },
     {
@@ -682,6 +658,42 @@
       "source": "InfoQ Java",
       "author": "Leela Kumili",
       "published": "2025-11-06T15:00:00+00:00",
+      "niche": "spring",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "fc4b4e3069591cf2",
+      "title": "Observability and Monitoring with Micrometer 2.0",
+      "description": "The gap between writing code and understanding how it behaves in production has always been frustratingly wide. You deploy your application, cross your fingers, and hope the logs tell you what&#8217;s wrong when things break. Micrometer 2.0 changes this game entirely, bringing vendor-neutral observability to the JVM ecosystem with a sophistication that rivals platform-specific solutions. &#8230;",
+      "url": "https://www.javacodegeeks.com/2025/11/observability-and-monitoring-with-micrometer-2-0.html",
+      "source": "Java Code Geeks",
+      "author": "Eleftheria Drosopoulou",
+      "published": "2025-11-06T17:24:00+00:00",
+      "niche": "spring",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "c584481dabd2be8a",
+      "title": "A Beginner's Guide to Essential Commands to Fix Container Setup Issues",
+      "description": "You followed the tutorial. You ran Docker Run. And... nothing. The container exited immediately. Or maybe it is running, but localhost just shows “This site can’t be reached.” We’ve all been there. When you’re new to Docker, a failing container can feel like a sealed black box. You know something is wrong inside, but you have no idea how to look.  In this quick guide, I’ll show you the five essential commands to open that box, see what’s happening, and fix your broken containers.",
+      "url": "https://feeds.dzone.com/link/18931/17204542/docker-commands-fix-container-setup-issues",
+      "source": "DZone Microservices",
+      "author": "Akaash Vishal Hazarika",
+      "published": "2025-11-06T17:00:00+00:00",
+      "niche": "spring",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "0f31cbaee3039499",
+      "title": "A Practical Guide to Modernizing Data Serving Architectures Using DBSQL",
+      "description": "If you’ve ever built analytical dashboards, chances are you’ve worked with the old “batch-load-to-RDS” pattern, where we load the data into RDS from a batch process and read from that operational data store, such as AWS RDS or other databases. We certainly did in our case — and for a while, it served us well. Our applications pulled data from a lakehouse like Snowflake or Delta Lake, transformed it in AWS Glue, and loaded it into Amazon RDS. The RDS database powered Lambda APIs that fed dashboar",
+      "url": "https://feeds.dzone.com/link/18931/17204508/modernizing-data-serving-architectures-with-dbsql",
+      "source": "DZone Microservices",
+      "author": "PRAVEEN DOOTAGANI",
+      "published": "2025-11-06T16:00:00+00:00",
       "niche": "spring",
       "score": 42,
       "keywords": []
@@ -1659,18 +1671,6 @@
       "keywords": []
     },
     {
-      "id": "0d7353bd7d647d6c",
-      "title": "Book Review: DuckDB in Action",
-      "description": "The post Book Review: DuckDB in Action appeared first on Thorben Janssen. What if I told you that there&#8217;s a tool that makes it incredibly easy to process datasets from various sources, analyze them using SQL, and export the result in different formats? And that it doesn&#8217;t require all the hassle you know from typical relational databases or a custom implementation. Sounds too good to be true,... The post Book Review: DuckDB in Action appeared first on Thorben Janssen.",
-      "url": "https://thorben-janssen.com/book-review-duckdb-in-action/",
-      "source": "Thorben Janssen",
-      "author": "Thorben Janssen",
-      "published": "2024-04-10T08:00:00+00:00",
-      "niche": "spring",
-      "score": 14,
-      "keywords": []
-    },
-    {
       "id": "e722e3582008693e",
       "title": "Guide to JUnit 5 Functional Interfaces",
       "description": "In this article, we will get familiar with JUnit 5 functional interfaces. JUnit 5 significantly advanced from its predecessors. Features like functional interfaces can greatly simplify our work once we grasp their functionality.",
@@ -1851,25 +1851,25 @@
       "keywords": []
     },
     {
-      "id": "04026fa6445f14f2",
-      "title": "ZEISS Demonstrates the Power of Scalable Workflows With Ampere® Altra® and SpinKube",
-      "description": "The Challenge The cost of maintaining a system capable of processing tens of thousands of near-simultaneous requests, but which spends greater than 90 percent of its time in an idle state, cannot be justified. Containerization promised the ability to scale workloads on demand, which includes scaling down when demand is low. Maintaining many pods among a plurality of clusters just so the system doesn’t waste time in the upscaling process contradicts the point of workload containerization. The Sol",
-      "url": "https://feeds.dzone.com/link/18931/17199251/zeiss-demonstrates-the-power-of-scalable-workflows",
+      "id": "f6498a2fe1480147",
+      "title": "A Comprehensive Analysis of Async Communication in Microservice Architecture",
+      "description": "Microservice architecture has become a standard practice for companies, small and large. One of the challenges is communication between different services. I’ve worked with microservices for a decade now, and I’ve seen a lot of people struggle to understand how to implement a proper communication protocol.  In this series of articles, I’ll share my knowledge and expertise on async communication in microservices.",
+      "url": "https://feeds.dzone.com/link/18931/17200074/async-communication-in-microservice-architecture",
       "source": "DZone Microservices",
-      "author": "Scott Fulton III",
-      "published": "2025-10-29T17:00:00+00:00",
+      "author": "Aniruddha Maru",
+      "published": "2025-10-30T17:00:00+00:00",
       "niche": "spring",
       "score": 12,
       "keywords": []
     },
     {
-      "id": "b3cf1fb943c6a62a",
-      "title": "Kubernetes Debugging Recipe: Practical Steps to Diagnose Pods Like a Pro",
-      "description": "Automation isn’t optional at enterprise scale. It’s resilient by design. Kubernetes provides remarkable scalability and resilience , but when pods crash, even seasoned engineers struggle to translate complex and cryptic logs and events. This guide walks you through the spectrum of AI-powered root cause analysis and manual debugging, combining command-line reproducibility and predictive observability approaches.",
-      "url": "https://feeds.dzone.com/link/18931/17192975/debugging-kubernetes-pods-like-a-pro",
+      "id": "09f57e8a2e096e88",
+      "title": "From Model to Microservice: A Practical Guide to Deploying ML Models as APIs",
+      "description": "You’ve done it. You’ve spent weeks cleaning data, feature engineering, and hyperparameter tuning. You have a Jupyter Notebook showing a beautiful .fit() and a .predict() that works perfectly. The model accuracy is 99%. Victory! But now comes the hard part. Your stakeholder asks, \"That's great, but how do we get this into the new mobile app?\" Suddenly, the reality hits: a model in a notebook delivers zero business value. To be truly useful, your machine learning model needs to be integrated into ",
+      "url": "https://feeds.dzone.com/link/18931/17200042/deploying-ml-models-as-apis",
       "source": "DZone Microservices",
-      "author": "Sandip Gami",
-      "published": "2025-10-24T19:00:00+00:00",
+      "author": "Naga Sai Mrunal Vuppala",
+      "published": "2025-10-30T16:00:00+00:00",
       "niche": "spring",
       "score": 12,
       "keywords": []
