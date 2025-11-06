@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-11-06T12:54:58.847695+00:00",
-  "total_articles": 204,
+  "last_updated": "2025-11-06T15:30:55.930624+00:00",
+  "total_articles": 201,
   "articles": [
     {
       "id": "1d5e7e55264ceff7",
@@ -99,18 +99,6 @@
       "keywords": []
     },
     {
-      "id": "9067cc8f3bba3e22",
-      "title": "Building Reactive Microservices With Spring WebFlux on Kubernetes",
-      "description": "Migrating from a monolithic Java 8 system to a reactive microservice architecture on Kubernetes allowed us to dramatically improve performance and maintainability. In this article, I’ll share our journey, key Spring Cloud Kubernetes features we adopted, the challenges we faced during development, and the lessons we learned along the way. Business Logic We have a data processing logic that streams information into S3 storage using Kafka, Spark Streaming, and Iceberg. Initially, we encountered mul",
-      "url": "https://feeds.dzone.com/link/18931/17199945/building-reactive-microservices-with-spring-webflu",
-      "source": "DZone Microservices",
-      "author": "Mikhail Povolotskii",
-      "published": "2025-10-30T14:00:00+00:00",
-      "niche": "spring",
-      "score": 57,
-      "keywords": []
-    },
-    {
       "id": "05f56a8700f7dbe9",
       "title": "Real-Time Streaming with Spring AI ChatClient",
       "description": "Streaming response in Spring AI ChatClient enables progressive delivery of AI-generated content, allowing clients to receive partial data as it is produced instead of waiting for the entire response. This approach enhances user experience by showing real-time updates, supports large responses efficiently, and reduces perceived latency. Let us delve into understanding how the spring ai &#8230;",
@@ -171,6 +159,18 @@
       "keywords": []
     },
     {
+      "id": "5273c121387235d4",
+      "title": "Getting Started with Repository Vector Search in Spring Data",
+      "description": "With Spring Data, vector search is supported via new repository methods, allowing us to define similarity queries using familiar repository abstractions. These methods work with vector-enabled databases like PGVector and MongoDB, enabling type-safe, consistent, and context-aware data retrieval across platforms. It’s important to note that these are preview features available in the Spring Data 4.0.0-M6 &#8230;",
+      "url": "https://www.javacodegeeks.com/getting-started-with-repository-vector-search-in-spring-data.html",
+      "source": "Java Code Geeks",
+      "author": "Omozegie Aziegbe",
+      "published": "2025-11-06T15:21:00+00:00",
+      "niche": "spring",
+      "score": 57,
+      "keywords": []
+    },
+    {
       "id": "4eee33d5e3631cd8",
       "title": "Java Weekly, Issue 618",
       "description": "JDK 25 brought some solid performance improvements, and JDK 26 is already looking quite good with its new HTTP/3 support. The post Java Weekly, Issue 618 first appeared on Baeldung.&#160;&#160;&#160;&#160;&#160;&#160;&#160;",
@@ -207,6 +207,18 @@
       "keywords": []
     },
     {
+      "id": "5a452b3c8d7cb18d",
+      "title": "Java Weekly, Issue 619",
+      "description": "JDK 25 brought some solid performance improvements, and JDK 26 is already looking quite good with its new HTTP/3 support. The post Java Weekly, Issue 619 first appeared on Baeldung.&#160;&#160;&#160;&#160;&#160;&#160;&#160;",
+      "url": "https://feeds.feedblitz.com/~/927286922/0/baeldung~Java-Weekly-Issue",
+      "source": "Baeldung",
+      "author": "baeldung",
+      "published": "2025-11-06T14:36:12+00:00",
+      "niche": "spring",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "4b896a90e1c44714",
       "title": "The Object Class in Java",
       "description": "A quick guide to Java's Object class and its methods. The post The Object Class in Java first appeared on Baeldung.&#160;&#160;&#160;&#160;&#160;&#160;&#160;",
@@ -228,30 +240,6 @@
       "published": "2025-11-05T04:40:51+00:00",
       "niche": "spring",
       "score": 46,
-      "keywords": []
-    },
-    {
-      "id": "09349b8e08c609f3",
-      "title": "Top 10 Free Courses to learn Spring Framework and Spring Boot in 2025 - Best of Lot",
-      "description": "Hello guys, if you want to learn Spring Framework and looking for best online resources like books, courses, and tutorials then you have come to the right place. Earlier, I have shared best Spring Framework courses, books, and Spring interview questions and in this article, I am going to share best free courses to learn Spring framework in 2025. When I shared the list of best Spring Courses, a lot of you asked me about free spring courses and this article is the result of that research, but befo",
-      "url": "http://javarevisited.blogspot.com/2022/07/free-courses-to-learn-spring-framework.html",
-      "source": "Java Revisited",
-      "author": "javin paul (noreply@blogger.com)",
-      "published": "2025-10-30T06:41:00.001000-07:00",
-      "niche": "spring",
-      "score": 45,
-      "keywords": []
-    },
-    {
-      "id": "21254f6e7f2e88aa",
-      "title": "Top 5 Courses to Learn Spring Data JPA Courses in 2025 - Best of Lot",
-      "description": "Hello Java programmers, if you want to learn Spring Data JPA in 2025 and looking for the best online courses then you have come to the right place. Earlier, I have shared my favorite courses to learn different projects under Spring frameworks like Spring Boot, Spring Cloud, Spring Security, Reactive Spring + WebFlux, and Spring MVC and in this article, I am going to share the best Spring Data JPA courses for beginners and experienced Java developers. Spring Data JPA is part of Spring Framework a",
-      "url": "http://javarevisited.blogspot.com/2021/08/top-5-spring-data-jpa-courses-for-java.html",
-      "source": "Java Revisited",
-      "author": "javin paul (noreply@blogger.com)",
-      "published": "2025-10-30T06:40:00.001000-07:00",
-      "niche": "spring",
-      "score": 45,
       "keywords": []
     },
     {
@@ -687,6 +675,18 @@
       "keywords": []
     },
     {
+      "id": "48848bc6768af12f",
+      "title": "Inside Uber’s Pinot Query Overhaul: Simplifying Layers and Improving Observability",
+      "description": "Uber rebuilt its Apache Pinot query architecture, replacing the Presto-based Neutrino system with a lightweight proxy called Cellar and Pinot’s Multi-Stage Engine Lite Mode. The redesign simplifies SQL execution, improves resource management, and ensures predictable performance for large-scale analytics workloads. By Leela Kumili",
+      "url": "https://www.infoq.com/news/2025/11/uber-pinot-query-redesign/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+      "source": "InfoQ Java",
+      "author": "Leela Kumili",
+      "published": "2025-11-06T15:00:00+00:00",
+      "niche": "spring",
+      "score": 42,
+      "keywords": []
+    },
+    {
       "id": "6279932d534fcc65",
       "title": "Supercharge your JVM Performance with Project Leyden and Spring Boot",
       "description": "Many modern applications and tools rely on Java. Yet, their startup time and time-to-peak performance remain challenging, especially for microservices and Kubernetes workloads that require fast scaling and responsiveness. Project Leyden, an ambitious OpenJDK initiative, aims to overcome these performance bottlenecks. In this session, Ana and Moritz show how you can take advantage of Leyden’s optimizations using Java 25 and Spring Boot. You also get practical techniques you can apply today, along",
@@ -744,42 +744,6 @@
       "published": "2025-11-03T00:00:00+00:00",
       "niche": "spring",
       "score": 34,
-      "keywords": []
-    },
-    {
-      "id": "0119bf054047474e",
-      "title": "Top 8 Courses to Learn about NFTs (Non Fungible Tokens) in 2025 - Best of Lot",
-      "description": "Hello guys, if you want to learn what is NFT or Non Fungible Token and what is the buzz around NFT, and have questions like should you create and sell NFT etc then you have come to the right place. Earlier, I have shared best online courses to learn Blockchain and crypto currencies and in this article I am going to share best online courses to learn NFTs, but before that, let's understand what is NFT? NFTs or else known as Non-Fungible Tokens are a form of digital art. Non-Fungible basically mea",
-      "url": "http://javarevisited.blogspot.com/2021/12/top-5-courses-to-learn-about-nfts-non.html",
-      "source": "Java Revisited",
-      "author": "javin paul (noreply@blogger.com)",
-      "published": "2025-10-30T06:41:00-07:00",
-      "niche": "spring",
-      "score": 33,
-      "keywords": []
-    },
-    {
-      "id": "eef5339935240dc7",
-      "title": "Top 10 Udemy Courses for Python, JavaScript and Web Development in 2025 - Best of Lot",
-      "description": "Hello guys, Udemy, one of the most popular online learning platforms, is known for its sale where you can buy a $200 course for just $10, and they are running a sale now. It's actually an excellent time to buy some quality courses as you won't get another chance to buy the course at a price as low as $9.9, but the big question is which courses you should buy on Udemy in 2025? I always purchase courses from the reputed instructor and teach evergreen and in-demand skills like Java, Python, Microse",
-      "url": "http://javarevisited.blogspot.com/2020/11/top-10-udemy-courses-you-can-buy-in.html",
-      "source": "Java Revisited",
-      "author": "javin paul (noreply@blogger.com)",
-      "published": "2025-10-30T06:40:00.002000-07:00",
-      "niche": "spring",
-      "score": 33,
-      "keywords": []
-    },
-    {
-      "id": "96de002c68c832e9",
-      "title": "Top 5 Courses to Learn Dynamic Programming for Coding Interviews in 2025 - Best of Lot",
-      "description": "Hello guys, If you are looking for a job and giving interviews then you might have noticed that getting a Software development Job is becoming more and more difficult every day. For example, there was a time when you can get a Java developer position by just knowing Core Java concepts like String, Collections, and Multithreading, etc, but, not anymore. There were definitely some questions on Data structure and Algorithms and even on Dynamic Programming at that time as well, but the focus was alw",
-      "url": "http://javarevisited.blogspot.com/2019/12/top-5-courses-to-learn-dynamic-programming-for-interivews.html",
-      "source": "Java Revisited",
-      "author": "javin paul (noreply@blogger.com)",
-      "published": "2025-10-30T06:40:00-07:00",
-      "niche": "spring",
-      "score": 33,
       "keywords": []
     },
     {
@@ -1251,6 +1215,18 @@
       "keywords": []
     },
     {
+      "id": "9067cc8f3bba3e22",
+      "title": "Building Reactive Microservices With Spring WebFlux on Kubernetes",
+      "description": "Migrating from a monolithic Java 8 system to a reactive microservice architecture on Kubernetes allowed us to dramatically improve performance and maintainability. In this article, I’ll share our journey, key Spring Cloud Kubernetes features we adopted, the challenges we faced during development, and the lessons we learned along the way. Business Logic We have a data processing logic that streams information into S3 storage using Kafka, Spark Streaming, and Iceberg. Initially, we encountered mul",
+      "url": "https://feeds.dzone.com/link/18931/17199945/building-reactive-microservices-with-spring-webflu",
+      "source": "DZone Microservices",
+      "author": "Mikhail Povolotskii",
+      "published": "2025-10-30T14:00:00+00:00",
+      "niche": "spring",
+      "score": 27,
+      "keywords": []
+    },
+    {
       "id": "5c939834b9a06aa2",
       "title": "Spring AI Custom CallAdvisor & StreamAdvisor Example",
       "description": "Spring AI CallAdvisor and StreamAdvisor provide hooks to wrap around LLM invocations, both for synchronous and streaming scenarios. The post Spring AI Custom CallAdvisor & StreamAdvisor Example appeared first on HowToDoInJava.",
@@ -1354,18 +1330,6 @@
       "source": "Baeldung",
       "author": "Pedro Lopes",
       "published": "2025-10-26T12:30:55+00:00",
-      "niche": "spring",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "2aa8885b2043ceae",
-      "title": "Calculate the Difference of Two Angle Measures in Java",
-      "description": "Learn how to calculate the difference between two angle measurements in Java. The post Calculate the Difference of Two Angle Measures in Java first appeared on Baeldung.&#160;&#160;&#160;&#160;&#160;&#160;&#160;",
-      "url": "https://feeds.feedblitz.com/~/926782580/0/baeldung~Calculate-the-Difference-of-Two-Angle-Measures-in-Java",
-      "source": "Baeldung",
-      "author": "Nikhil Bhargav",
-      "published": "2025-10-26T12:26:44+00:00",
       "niche": "spring",
       "score": 14,
       "keywords": []
