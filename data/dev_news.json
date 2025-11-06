@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-11-06T06:36:51.542322+00:00",
-  "total_articles": 960,
+  "last_updated": "2025-11-06T09:27:30.461969+00:00",
+  "total_articles": 963,
   "articles": [
     {
       "id": "b7086dbf6e29731d",
@@ -303,6 +303,34 @@
       ]
     },
     {
+      "id": "d001a0a19bec41d0",
+      "title": "Simplifier la gestion des erreurs de validation dans Angular avec `ng-input-validation`",
+      "description": "💬 Introduction En Angular, afficher les erreurs de validation dans un formulaire peut vite devenir répétitif et verbeux. C’est pour simplifier cette partie que j’ai développé une petite librairie : ng-input-validation, qui centralise et automatise l’affichage des messages d’erreur de manière élégante et réutilisable. Dans ce post, je te montre comment je faisais avant et comment je le fais aujourd’hui 👇 ❌ Avant : une gestion répétitive dans chaque champ Avant, pour chaque champ de formulaire, il",
+      "url": "https://dev.to/bibangjoseph/simplifier-la-gestion-des-erreurs-de-validation-dans-angular-avec-ng-input-validation-366g",
+      "source": "Dev.to",
+      "author": "Joseph Donovan BIBANG BEFENE",
+      "published": "2025-11-06T09:11:25+00:00",
+      "niche": "dev",
+      "score": 72,
+      "keywords": [
+        "Angular"
+      ]
+    },
+    {
+      "id": "9448aefbf8083756",
+      "title": "Hijack the Back button on Android in NativePHP",
+      "description": "While testing my NativePHP Android application, I noticed that the back button / action wasn't behaving the way I would expect for a regular \"native\" application. I realised that it was behaving like a browser with it's history stack. If I navigated into sub-menus using the UI then started using the back button / action it would just take me back through my history instead of up the menu tree like a regular app would, so I thought I'd look into how to fix that behaviour. After a quick Google sea",
+      "url": "https://dev.to/michaelishri/hijack-the-back-button-on-android-in-nativephp-405b",
+      "source": "Dev.to",
+      "author": "Michael Ishri",
+      "published": "2025-11-06T09:00:43+00:00",
+      "niche": "dev",
+      "score": 72,
+      "keywords": [
+        "PHP"
+      ]
+    },
+    {
       "id": "23315dd6c41ad179",
       "title": "⚡ Supercharging GitHub Actions CI: From Slow to Lightning Fast with Turbo Caching",
       "description": "How we optimized our monorepo CI pipeline and reduced build times by 70% using smart caching strategies 🐌 The Problem: Slow CI is a Developer Productivity Killer Picture this: You're working on a critical feature for your React monorepo. You push your changes, create a pull request, and then... you wait. And wait. Your GitHub Actions CI takes 8-10 minutes to run lint and build checks, grinding your development flow to a halt. This was exactly our situation with our @atomicworkhq/atomic-ui monore",
@@ -442,18 +470,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "13d94b5960d85401",
-      "title": "MUI Search - Smart, Flexible Search for Modern React Apps",
-      "description": "Search is one of those features that sounds easy - until you actually build it. You start with a simple input field, then realize you need async queries, loading states, filters, and dynamic results. Suddenly your “quick search box” turns into a full-blown component project. That’s why we built MUI Search - a smart, flexible search component for React and Material-UI. It gives you a polished, async-ready search field right out of the box - with complete control over styling, logic, and UX. The P",
-      "url": "https://dev.to/boilerplate/mui-search-smart-flexible-search-for-modern-react-apps-36ba",
-      "source": "Dev.to",
-      "author": "Boilerplate",
-      "published": "2025-10-30T08:49:59+00:00",
-      "niche": "dev",
-      "score": 68,
-      "keywords": []
     },
     {
       "id": "ab6c01166707bd6a",
@@ -693,23 +709,6 @@
       "score": 63,
       "keywords": [
         "code"
-      ]
-    },
-    {
-      "id": "a975d5861b440a84",
-      "title": "🔥 .𝗡𝗘𝗧 𝗙𝗿𝗮𝗺𝗲𝘄𝗼𝗿𝗸 𝘃𝘀 .𝗡𝗘𝗧 𝗖𝗼𝗿𝗲 — 𝗞𝗲𝘆 𝗗𝗶𝗳𝗳𝗲𝗿𝗲𝗻𝗰𝗲𝘀 𝗘𝘅𝗽𝗹𝗮𝗶𝗻𝗲𝗱",
-      "description": "If you’re preparing for a .NET developer interview, this is one question you can’t afford to miss! Let’s break down the core differences that every developer should know 👇 1️⃣ Platform Support – .NET Framework works only on Windows, while .NET Core is cross-platform (Windows, Linux, macOS). 2️⃣ Performance – .NET Core delivers faster execution and better scalability, making it ideal for cloud and microservices. 3️⃣ Deployment Flexibility – .NET Core allows side-by-side versioning and self-contai",
-      "url": "https://dev.to/supraja_tangella_b7f0738e/--461a",
-      "source": "Dev.to",
-      "author": "Supraja Tangella",
-      "published": "2025-10-30T08:41:07+00:00",
-      "niche": "dev",
-      "score": 62,
-      "keywords": [
-        "microservices",
-        "performance",
-        "framework",
-        "developer"
       ]
     },
     {
@@ -1165,21 +1164,6 @@
       ]
     },
     {
-      "id": "04308fefed8a2132",
-      "title": "🚀 One-Liner Laravel + Vue.js Setup: Skip the Boilerplate, Start Coding!",
-      "description": "No extra tools or libraries - just a simple script that creates a Laravel + Vue.js + Tailwind project, like the old days. Hey Dev.to fam! 👋 If you're like me, tired of spending hours wiring up Laravel with Vue 3, Vite, and Tailwind CSS just to get a \"Hello World\" running - I've got your back. I just released laravel-vuejs-setup, a dead-simple bash script that bootstraps everything in seconds. No scaffolds, no bloat - just pure, manual setup magic. Why This Script? Modern stacks shouldn't feel li",
-      "url": "https://dev.to/theweelab/one-liner-laravel-vuejs-setup-skip-the-boilerplate-start-coding-938",
-      "source": "Dev.to",
-      "author": "Than Phan",
-      "published": "2025-10-30T09:08:03+00:00",
-      "niche": "dev",
-      "score": 57,
-      "keywords": [
-        "Laravel",
-        "release"
-      ]
-    },
-    {
       "id": "a5122e875e2e944e",
       "title": "Tencent's AI Revolution: How AI Development Is Done Right",
       "description": "Artificial intelligence isn’t just a buzzword anymore; it’s officially writing half of Tencent’s new code. In its 2025 Tencent R&D Big Data Report, released on October 24 to mark China’s “1024 Programmer Day,” the Chinese tech giant shared some striking numbers that show just how deeply AI has transformed its software development process. AI Becomes Tencent’s New Developer Partner According to the report, 50% of newly written code at Tencent now comes from AI assistance, mainly through its in-ho",
@@ -1577,21 +1561,6 @@
         "release",
         "tutorial",
         "code"
-      ]
-    },
-    {
-      "id": "22ec122d81d4f812",
-      "title": "Actually Agile: Against Performance Theater in Software Development",
-      "description": "\"You're not a Certified Scrum Master? Then you can't possibly understand.\" I've heard this too many times. My response: \"Yes, and I'm proud of it.\" The Theater We're All Performing Let's be honest about what \"agile\" has become in most organizations: Daily standups that last 45 minutes where nobody actually talks to each other Sprint reviews where we show PowerPoint slides instead of working software Retrospectives where we write post-its we'll never read again Backlogs that replace architecture ",
-      "url": "https://dev.to/pascal_cescato_692b7a8a20/actually-agile-against-performance-theater-in-software-development-1ohi",
-      "source": "Dev.to",
-      "author": "Pascal CESCATO",
-      "published": "2025-10-30T09:15:00+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "performance",
-        "development"
       ]
     },
     {
@@ -2057,6 +2026,21 @@
       "keywords": [
         "API",
         "development"
+      ]
+    },
+    {
+      "id": "7480e5d2861d53fb",
+      "title": "Introducing TokiForge: A Framework-Agnostic Design Token Engine with Runtime Theme Switching",
+      "description": "Introducing TokiForge: A Framework-Agnostic Design Token Engine with Runtime Theme Switching The Problem As frontend developers, we've all been there. You're working on a React project, and you need a theming solution. So you set up styled-components or Theme UI. Then you start a Vue project, and you need a different solution. Then Svelte, and another approach. Before you know it, you're maintaining three different theming systems, each with its own quirks and limitations. The pain points: Diffe",
+      "url": "https://dev.to/toozuuu/introducing-tokiforge-a-framework-agnostic-design-token-engine-with-runtime-theme-switching-2e72",
+      "source": "Dev.to",
+      "author": "Sachin Dilshan",
+      "published": "2025-11-06T09:15:18+00:00",
+      "niche": "dev",
+      "score": 55,
+      "keywords": [
+        "framework",
+        "developer"
       ]
     },
     {
@@ -3126,6 +3110,20 @@
       ]
     },
     {
+      "id": "1ff33a3dc085885b",
+      "title": "The OSI Model Explained: How Data Really Flows Through the Internet",
+      "description": "I am studying for my AWS certifications. Everyone said: \"Learn networking first.\" So I dove into the OSI model. The concept clicked when I stopped trying to memorize layers and started understanding what problem each layer solves. The OSI model is not something you memorize. It provides a framework for understanding how data moves from your laptop to AWS servers and back. Here is what I wish someone told me on day one. Why This Actually Matters for AWS Before we dive in, let me explain why netwo",
+      "url": "https://dev.to/aws-builders/the-osi-model-explained-how-data-really-flows-through-the-internet-548h",
+      "source": "Dev.to",
+      "author": "Stella Achar Oiro",
+      "published": "2025-11-06T09:09:56+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "framework"
+      ]
+    },
+    {
       "id": "2bc05a1e2e65decb",
       "title": "How Framer Website Builder Uses AI to Redefine Web Development in 2026",
       "description": "The Framer Website Builder combines design control, AI automation, and speed—making it a serious competitor in modern web creation. From AI-generated layouts to automatic SEO optimization, Framer Website tools help developers and designers work faster without compromising quality. In this post, we dive into: What makes Framer Website Builder unique for 2026 How it supports responsive design and hosting natively The pros and cons for developers and CMS agencies Why more brands are migrating to Fr",
@@ -3617,48 +3615,6 @@
       "score": 52,
       "keywords": [
         "development",
-        "code"
-      ]
-    },
-    {
-      "id": "2b20dd9f09a23630",
-      "title": "Personas Are the Missing Link in Your Requirements Docs (and Test Strategy)",
-      "description": "“Great developers don’t just build features — they build for someone.” Most requirement documents read like contracts: “The system shall…” and “The user can…” But if you’ve ever built something that passed QA, deployed flawlessly, and still failed with real users — you already know what’s missing. It’s not the acceptance criteria. It’s the context. And context begins with personas. 🧩 Why Personas Belong in Dev Requirements A persona isn’t marketing fluff. It’s an engineering input — a structured",
-      "url": "https://dev.to/copyleftdev/personas-are-the-missing-link-in-your-requirements-docs-and-test-strategy-m1g",
-      "source": "Dev.to",
-      "author": "Mr. 0x1",
-      "published": "2025-10-30T09:20:59+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "developer"
-      ]
-    },
-    {
-      "id": "17dd50ce22e45e50",
-      "title": "AI Recipe Generator: Turn Food Photos into Instant Recipes with AI 🍳✨",
-      "description": "Have you ever looked at a dish and wondered, \"What's in it — and how can I make it myself?\" Introducing the AI Recipe Generator: a project that uses computer vision and AI to analyze any food photo and instantly generate a step-by-step personalized recipe. Upload a picture of your ingredients or a finished dish—get a complete recipe (with cooking steps) in seconds! Why I Built This Food recognition and AI have always fascinated me. As a developer, I noticed a gap: plenty of sites offer recipe br",
-      "url": "https://dev.to/nithiin7/ai-recipe-generator-turn-food-photos-into-instant-recipes-with-ai-1aib",
-      "source": "Dev.to",
-      "author": "Nithin Pradeep",
-      "published": "2025-10-30T08:38:42+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "developer"
-      ]
-    },
-    {
-      "id": "7ac8c233fb2b11be",
-      "title": "Terraform Meets Ansible: Automating Multi-Environment Infrastructure on AWS",
-      "description": "🚀 Introduction Welcome Devs, to the world of Cloud and Code ☁️💻 Today, I’ve got something really exciting for you. We’re going to integrate Terraform with Ansible to showcase the true power of Infrastructure as Code (IaC) and Configuration Management — all fully automated with a multi-environment setup. This setup will give you a real-world glimpse of how modern DevOps projects operate with environments like Dev, Stage, and Prod, and how tools like Terraform and Ansible work together — one handl",
-      "url": "https://dev.to/aws-builders/terraform-meets-ansible-automating-multi-environment-infrastructure-on-aws-55i4",
-      "source": "Dev.to",
-      "author": "Pravesh Sudha",
-      "published": "2025-10-30T08:30:00+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
         "code"
       ]
     },
@@ -4713,40 +4669,18 @@
       ]
     },
     {
-      "id": "3228ac6159556d61",
-      "title": "Asciidoc over Markdown",
-      "description": "I taught myself HTML a long time ago, on a software called HotDog (Pro?). There wasn't such a thing as WYSIWYG capabilities at the time. However, HotDog had an amazing feature: the toolbar had all HTML tags (there weren't that many at the time) as buttons, and you could learn them by clicking on them and watching the results. The only downside was that you had to click on another button to close the tag. Then came Dreamweaver. It was the first WYSIWYG editor, and it immediately became very popul",
-      "url": "https://dev.to/nfrankel/asciidoc-over-markdown-4eam",
+      "id": "6dda54a5c20e8b4e",
+      "title": "Efficient Laziness at Scale: The Agile Team I Never Needed",
+      "description": "It was never there. And if it had been, I’d have dissolved it on day one. How I run my mega one-person enterprise — without Scrum Masters, daily stand-ups, or agile theater I run what some would call a software company. On paper, it's a complete organization with: a developer, an architect, a product owner, a DevOps engineer, and even a quality manager. In practice, all of that is me. And I have a dog who barks at every deployment — probably my only truly engaged stakeholder. Everyone says you n",
+      "url": "https://dev.to/pascal_cescato_692b7a8a20/efficient-laziness-at-scale-the-agile-team-i-never-needed-5052",
       "source": "Dev.to",
-      "author": "Nicolas Fränkel",
-      "published": "2025-10-30T09:02:00+00:00",
+      "author": "Pascal CESCATO",
+      "published": "2025-11-06T09:15:00+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "56beb5d8c0b98951",
-      "title": "Stop Rewriting the Same TypeScript Types",
-      "description": "You know that moment when you’ve got three slightly different versions of the same interface - one for updates, one for read-only views, and another that strips out a few fields? Yeah… we’ve all been there. That’s where TypeScript’s built-in utility types come to the rescue. Things like Partial, Pick, Omit, and Readonly can make your types flexible, safer, and way less repetitive — no more juggling a dozen near-identical interfaces. In my latest post, I break down how to actually use these helpe",
-      "url": "https://dev.to/ptheodosiou/stop-rewriting-the-same-typescript-types-34am",
-      "source": "Dev.to",
-      "author": "Pantelis Theodosiou",
-      "published": "2025-10-30T08:37:51+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "32a7cf627ad3a62c",
-      "title": "Equipment Tracking in Construction: Keeping Every Tool on Site",
-      "description": "On a busy construction site, losing track of one tool can slow down an entire crew. A missing drill. A misplaced generator. Hours wasted searching instead of building. It happens more often than most teams admit. Tools get left on trucks, moved between sites, or borrowed without record. By the time someone notices, the day’s already behind schedule, and the budget’s bleeding from repeated purchases. Without a clear system, no one really knows what’s available, what’s being used, or what’s gone m",
-      "url": "https://dev.to/jennifer_devsamurai/equipment-tracking-in-construction-keeping-every-tool-on-site-681",
-      "source": "Dev.to",
-      "author": "Jennifer",
-      "published": "2025-10-30T08:37:43+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
       "id": "8d7f35a9b6d7960c",
@@ -7955,6 +7889,54 @@
       "keywords": []
     },
     {
+      "id": "1e3ae9b968288b74",
+      "title": "💡 Power BI Storage Mode — সহজ বাংলায় পূর্ণ ধারণা",
+      "description": "Power BI নিয়ে কাজ করতে গেলে আমরা প্রায়ই একটা প্রশ্ন শুনি — 👉 “ডেটা Power BI তে কোথায় থাকে?” 👉 “Import, DirectQuery, Dual — এগুলোর মানে কী?” আজ আমরা একদম সহজভাবে বুঝে নেবো Power BI-এর Storage Mode আসলে কী, আর কখন কোনটা ব্যবহার করা উচিত। 🧠 Power BI Storage Mode কী? Storage Mode মানে হচ্ছে — Power BI তোমার ডেটা কোথায় রাখবে এবং কীভাবে সেই ডেটা ব্যবহার করবে। Power BI তিনভাবে ডেটা হ্যান্ডেল করতে পারে 👇 1️⃣ Import Mode 2️⃣ DirectQuery Mode 3️⃣ Dual (Composite) Mode 1️⃣ Import Mode – সবচেয়ে সাধারণ পদ্ধত",
+      "url": "https://dev.to/sajjadrahman56/power-bi-storage-mode-shj-baanlaayy-puurnn-dhaarnnaa-57b1",
+      "source": "Dev.to",
+      "author": "Sajjad Rahman",
+      "published": "2025-11-06T09:21:59+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "ee30a2d20651c6c4",
+      "title": "Sandbar Stream Ring First Look: The Whisper-Activated AI Smart Wearable for Your Finger",
+      "description": "Specs & Features The Stream Ring offers a compact wearable form-factor with features aimed at voice input and personal AI assistance. According to multiple sources, it includes: Whisper-sensitive microphone activated via a press-and-hold on the ring’s touch-plate. Transcription of voice input into text notes using a companion app (initially iOS). A personalized “Inner Voice” assistant that mimics the user’s own voice for responses. Media-control gestures: tap once to play/pause, double-tap to sk",
+      "url": "https://dev.to/logicverse_2025/sandbar-stream-ring-first-look-the-whisper-activated-ai-smart-wearable-for-your-finger-18cj",
+      "source": "Dev.to",
+      "author": "Logic Verse",
+      "published": "2025-11-06T09:14:04+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "8f4ac607ded7c823",
+      "title": "Choosing a dependency",
+      "description": "Fun fact, I thought I had already written this post, but when I wanted to reference it, I found out that I didn't. In this post, I'd like to describe my approach when choosing a dependency. I'll first define what I mean by dependency in the context of this post. Then, I'll list a grid of several criteria to analyze possible dependencies with. What is a dependency? A dependency is literally something your software depends on: infrastructure such as a filesystem or a database, network, etc. In the",
+      "url": "https://dev.to/nfrankel/choosing-a-dependency-i20",
+      "source": "Dev.to",
+      "author": "Nicolas Fränkel",
+      "published": "2025-11-06T09:02:00+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "7fc84ba5db9c3c96",
+      "title": "🔄 Loop Master: Menguasai Seni Algoritma Perulangan",
+      "description": "Prolog: Ketika Copy-Paste Bukan Solusi 📖 Cerita Pembuka: Si Pelupa dan 1000 Undangan Ada seorang mahasiswa bernama Andi yang ditugaskan panitia acara kampus untuk mengirim email undangan ke 1000 peserta seminar. Andi mulai mengetik: Kirim email ke peserta1@gmail.com Kirim email ke peserta2@gmail.com Kirim email ke peserta3@gmail.com ... (997 email lagi) Setelah 3 jam dan baru selesai 50 email, Andi menyadari: \"Pasti ada cara lebih baik!\" Ngeri, kan? 😱 Nah, di sinilah algoritma perulangan hadir s",
+      "url": "https://dev.to/ahmadasroni38/loop-master-menguasai-seni-algoritma-perulangan-1e8e",
+      "source": "Dev.to",
+      "author": "ahmadasroni38",
+      "published": "2025-11-06T08:51:32+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "ca53022195ef1c48",
       "title": "Intresting platform for Edge AI development. Has anyone tried it out?",
       "description": "Introducing devtool for running and benchmarking AI on-device Elina Norling for Embedl Hub ・ Oct 23 #ai #android #deeplearning #computervision",
@@ -8298,6 +8280,20 @@
       "score": 45,
       "keywords": [
         "code"
+      ]
+    },
+    {
+      "id": "9be897721fa55116",
+      "title": "Erlang Meets Idris: Cure Programming Language",
+      "description": "Comments",
+      "url": "https://cure-lang.org/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-06T08:49:06+00:00",
+      "niche": "dev",
+      "score": 45,
+      "keywords": [
+        "programming"
       ]
     },
     {
@@ -10125,6 +10121,42 @@
       "keywords": []
     },
     {
+      "id": "0c935dd70c850bd0",
+      "title": "You’re not the real product owner if you can’t say, “F*ck it, let’s kill the product.” Until you have that power, you’re just managing, not owning.",
+      "description": "",
+      "url": "https://dev.to/rndthts/youre-not-the-real-product-owner-if-you-cant-say-fck-it-lets-kill-the-product-until-you-4oh9",
+      "source": "Dev.to",
+      "author": "rndthts.dev",
+      "published": "2025-11-06T09:10:39+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "569b0f98f2c8c391",
+      "title": "How I am deeply integrating Emacs",
+      "description": "Comments",
+      "url": "https://joshblais.com/blog/how-i-am-deeply-integrating-emacs/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-06T07:09:07+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "0dec1697bdb06830",
+      "title": "What the hell have you built",
+      "description": "Comments",
+      "url": "https://wthhyb.sacha.house/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-06T08:23:46+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "78c4b08725d5f56b",
       "title": "React 19 Upgrade Guide",
       "description": "The improvements added to React 19 require some breaking changes, but we've worked to make the upgrade as smooth as possible and we don't expect the changes to impact most apps. In this post, we will guide you through the steps for upgrading apps and libraries to React 19.",
@@ -10216,9 +10248,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "performance",
+        "API",
         "developer",
-        "API"
+        "performance"
       ]
     },
     {
@@ -10450,9 +10482,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "React 19",
         "API",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -10478,8 +10510,8 @@
       "niche": "dev",
       "score": 37,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -10521,8 +10553,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -10550,8 +10582,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "framework",
-        "API"
+        "API",
+        "framework"
       ]
     },
     {
@@ -10641,11 +10673,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "performance",
-        "framework",
-        "API",
         "release",
-        "code"
+        "API",
+        "code",
+        "framework",
+        "performance"
       ]
     },
     {
@@ -10880,8 +10912,8 @@
       "score": 25,
       "keywords": [
         "framework",
-        "Angular",
-        "release"
+        "release",
+        "Angular"
       ]
     },
     {
@@ -10963,9 +10995,9 @@
       "niche": "dev",
       "score": 22,
       "keywords": [
+        "release",
         "performance",
-        "development",
-        "release"
+        "development"
       ]
     },
     {
@@ -11006,8 +11038,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "framework",
-        "release"
+        "release",
+        "framework"
       ]
     },
     {
@@ -11021,9 +11053,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
+        "code",
         "developer",
-        "performance",
-        "code"
+        "performance"
       ]
     },
     {
@@ -11037,9 +11069,9 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
         "API",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -11053,8 +11085,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -11517,8 +11549,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "programming",
-        "development"
+        "development",
+        "programming"
       ]
     },
     {
