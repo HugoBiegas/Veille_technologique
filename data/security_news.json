@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-07T01:54:00.706914+00:00",
+  "last_updated": "2025-11-07T03:46:06.378104+00:00",
   "total_articles": 397,
   "articles": [
     {
@@ -1487,20 +1487,6 @@
       ]
     },
     {
-      "id": "c3bd414ea9cd4f1b",
-      "title": "A New Security Layer for macOS Takes Aim at Admin Errors Before Hackers Do",
-      "description": "A design firm is editing a new campaign video on a MacBook Pro. The creative director opens a collaboration app that quietly requests microphone and camera permissions. MacOS is supposed to flag that, but in this case, the checks are loose. The app gets access anyway. On another Mac in the same office, file sharing is enabled through an old protocol called SMB version one. It’s fast and",
-      "url": "https://thehackernews.com/2025/10/a-new-security-layer-for-macos-takes.html",
-      "source": "The Hacker News",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2025-10-31T09:07:00+05:30",
-      "niche": "security",
-      "score": 72,
-      "keywords": [
-        "security"
-      ]
-    },
-    {
       "id": "6da85fbcec6173a4",
       "title": "Australia warns of BadCandy infections on unpatched Cisco devices",
       "description": "The Australian government is warning about ongoing cyberattacks against unpatched Cisco IOS XE devices in the country to infect routers with the BadCandy webshell. [...]",
@@ -2582,10 +2568,10 @@
       "niche": "security",
       "score": 61,
       "keywords": [
-        "security",
         "secure",
-        "RCE",
-        "OWASP"
+        "security",
+        "OWASP",
+        "RCE"
       ]
     },
     {
@@ -2755,6 +2741,22 @@
         "threat",
         "malware",
         "exploit"
+      ]
+    },
+    {
+      "id": "55f44a072d40c6c2",
+      "title": "Malicious npm packages contain Vidar infostealer",
+      "description": "Malicious code continues to be uploaded to open source repositories, making it a challenge for responsible developers to trust what’s there, and for CISOs to trust applications that include open source code. The latest example comes from researchers at Datadog Security, who said that last month they found 17 packages (23 releases) in the npm repository that contained downloader malware for Windows systems that executes via a postinstall script. The associated packages masquerade as Telegram bot ",
+      "url": "https://www.csoonline.com/article/4086415/malicious-npm-packages-contain-vidar-infostealer-2.html",
+      "source": "CSO Online",
+      "author": "Inconnu",
+      "published": "2025-11-07T02:34:07+00:00",
+      "niche": "security",
+      "score": 58,
+      "keywords": [
+        "malware",
+        "security",
+        "RCE"
       ]
     },
     {
@@ -3051,11 +3053,11 @@
       "niche": "security",
       "score": 55,
       "keywords": [
-        "security",
         "cybersecurity",
-        "RCE",
         "vulnerability",
-        "OWASP"
+        "security",
+        "OWASP",
+        "RCE"
       ]
     },
     {
@@ -3553,9 +3555,9 @@
       "niche": "security",
       "score": 51,
       "keywords": [
-        "patch",
+        "vulnerability",
         "disclosure",
-        "vulnerability"
+        "patch"
       ]
     },
     {
@@ -3569,9 +3571,9 @@
       "niche": "security",
       "score": 51,
       "keywords": [
+        "attack",
         "exploit",
-        "security",
-        "attack"
+        "security"
       ]
     },
     {
@@ -3585,9 +3587,9 @@
       "niche": "security",
       "score": 51,
       "keywords": [
+        "attack",
         "exploit",
-        "security",
-        "attack"
+        "security"
       ]
     },
     {
@@ -3888,8 +3890,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "security",
-        "CVE-"
+        "CVE-",
+        "security"
       ]
     },
     {
@@ -4060,18 +4062,6 @@
       ]
     },
     {
-      "id": "46b38d8bd16ebe56",
-      "title": "ISC Stormcast For Friday, October 31st, 2025 https://isc.sans.edu/podcastdetail/9680, (Fri, Oct 31st)",
-      "description": "",
-      "url": "https://isc.sans.edu/diary/rss/32438",
-      "source": "SANS Internet Storm Center",
-      "author": "Inconnu",
-      "published": "2025-10-31T02:00:03+00:00",
-      "niche": "security",
-      "score": 44,
-      "keywords": []
-    },
-    {
       "id": "bcc6e63e8202009e",
       "title": "Dark Reading Confidential: Cyber's Role in the Rapid Rise of Digital Authoritarianism",
       "description": "Dark Reading Confidential Episode 11: Enterprise cyber teams are in prime position to push back against our current \"Golden Age of Surveillance,\" according to our guests Ronald Deibert from Citizen Lab and David Greene from the EFF.",
@@ -4160,6 +4150,18 @@
       "keywords": []
     },
     {
+      "id": "98ac8d002a3135e7",
+      "title": "ISC Stormcast For Friday, November 7th, 2025 https://isc.sans.edu/podcastdetail/9690, (Fri, Nov 7th)",
+      "description": "",
+      "url": "https://isc.sans.edu/diary/rss/32458",
+      "source": "SANS Internet Storm Center",
+      "author": "Inconnu",
+      "published": "2025-11-07T02:00:02+00:00",
+      "niche": "security",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "885bd2410101a452",
       "title": "Pointer leaks through pointer-keyed data structures",
       "description": "Posted by Jann Horn, Google Project Zero IntroductionSome time in 2024, during a Project Zero team discussion, we were talking about how remote ASLR leaks would be helpful or necessary for exploiting some types of memory corruption bugs, specifically in the context of Apple devices. Coming from the angle of \"where would be a good first place to look for a remote ASLR leak\", this led to the discovery of a trick that could potentially be used to leak a pointer remotely, without any memory safety v",
@@ -4198,10 +4200,10 @@
       "niche": "security",
       "score": 43,
       "keywords": [
-        "security",
         "secure",
-        "RCE",
-        "OWASP"
+        "security",
+        "OWASP",
+        "RCE"
       ]
     },
     {
@@ -4520,8 +4522,8 @@
       "score": 42,
       "keywords": [
         "security",
-        "RCE",
-        "OWASP"
+        "OWASP",
+        "RCE"
       ]
     },
     {
@@ -4691,8 +4693,8 @@
       "niche": "security",
       "score": 38,
       "keywords": [
-        "RCE",
-        "OWASP"
+        "OWASP",
+        "RCE"
       ]
     },
     {
@@ -4750,8 +4752,8 @@
       "score": 36,
       "keywords": [
         "SQL injection",
-        "RCE",
-        "injection"
+        "injection",
+        "RCE"
       ]
     },
     {
@@ -4765,9 +4767,9 @@
       "niche": "security",
       "score": 33,
       "keywords": [
-        "patch",
         "exploit",
-        "security"
+        "security",
+        "patch"
       ]
     },
     {
@@ -4793,8 +4795,8 @@
       "niche": "security",
       "score": 32,
       "keywords": [
-        "RCE",
-        "remote code execution"
+        "remote code execution",
+        "RCE"
       ]
     },
     {
@@ -4824,8 +4826,8 @@
       "niche": "security",
       "score": 30,
       "keywords": [
-        "RCE",
-        "attack"
+        "attack",
+        "RCE"
       ]
     },
     {
@@ -4894,9 +4896,9 @@
       "niche": "security",
       "score": 26,
       "keywords": [
+        "cybersecurity",
         "security",
-        "RCE",
-        "cybersecurity"
+        "RCE"
       ]
     },
     {
@@ -5095,8 +5097,8 @@
       "niche": "security",
       "score": 21,
       "keywords": [
-        "security",
-        "malware"
+        "malware",
+        "security"
       ]
     },
     {
