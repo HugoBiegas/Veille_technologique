@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-11-07T09:26:01.566830+00:00",
-  "total_articles": 959,
+  "last_updated": "2025-11-07T12:50:35.752987+00:00",
+  "total_articles": 956,
   "articles": [
     {
       "id": "bf238a77286f451e",
@@ -170,20 +170,6 @@
       "keywords": [
         "development",
         "framework"
-      ]
-    },
-    {
-      "id": "4f274183bb27803c",
-      "title": "OpenAI's Browser is here… and 7 more things that shipped this week",
-      "description": "It’s time for another round of tech news. OpenAI released Atlas. A full-fledged web browser that bakes ChatGPT right into the interface. It’s designed to let you browse, search, and summarize pages inside the same window, powered by GPT-4o-mini. Imagine Chrome, but every tab comes with its own assistant. It’s Mac-only for now, with Windows coming later, and yes, it uses Chromium under the hood. But not everything’s shiny — early testers already found that the browser might be more vulnerable tha",
-      "url": "https://dev.to/fabianfrankwerner/openais-browser-is-here-and-7-more-things-that-shipped-this-week-p2c",
-      "source": "Dev.to",
-      "author": "Fabian Frank Werner",
-      "published": "2025-10-31T12:35:26+00:00",
-      "niche": "dev",
-      "score": 72,
-      "keywords": [
-        "release"
       ]
     },
     {
@@ -895,6 +881,23 @@
       "keywords": []
     },
     {
+      "id": "01391513ce1cb649",
+      "title": "Build HTTP APIs with Dependency Injection in TypeScript — Meet the Inversify Framework",
+      "description": "If you love clean architecture and TypeScript, this guide will show you how to build fast, maintainable HTTP APIs using the Inversify Framework — a decorator-driven, DI-first toolkit on top of InversifyJS. Why another HTTP framework? (Short answer: DI done right) Inversify brings a familiar pattern from large-scale systems — dependency injection — to your Node.js APIs with first-class TypeScript support. The result is code that’s: Strongly typed: Compile-time safety and IDE autocomplete everywhe",
+      "url": "https://dev.to/notaphplover/build-http-apis-with-dependency-injection-in-typescript-meet-the-inversify-framework-ngg",
+      "source": "Dev.to",
+      "author": "notaphplover",
+      "published": "2025-11-07T12:37:47+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": [
+        "framework",
+        "API",
+        "dependency injection",
+        "code"
+      ]
+    },
+    {
       "id": "5278a1b6007b47f1",
       "title": "Blog Post: Demystifying ZIO's Dependency Injection: A Practical Guide",
       "description": "Introduction: The Problem of \"Wiring\" an Application In any non-trivial application, different parts need to talk to each other. A UserService might need a Database connection and an Emailer. A Database might need a Configuration object. This network of dependencies is often called \"the application graph\" or \"the wiring.\" How do we manage this? Manual new-ing? new UserService(new Database(new Config()), new Emailer()). This gets messy fast and is hard to change. A Framework like Spring? This use",
@@ -980,6 +983,23 @@
       ]
     },
     {
+      "id": "3ec50b6755f3d5a6",
+      "title": "Web Developer Travis McCracken on Building Dev Tools for Backend Engineers",
+      "description": "Unlocking the Power of Backend Development with Rust and Go: Insights from Web Developer Travis McCracken As a passionate Web Developer, I’ve spent years honing my skills in backend development, constantly exploring new languages and frameworks to build faster, more reliable APIs. Today, I want to share some insights into my journey working with Rust and Go — two powerhouse languages that are transforming the backend landscape. Why Rust and Go? The Future of Backend APIs When it comes to backend",
+      "url": "https://dev.to/travis-mccracken-dev/web-developer-travis-mccracken-on-building-dev-tools-for-backend-engineers-kf",
+      "source": "Dev.to",
+      "author": "Travis McCracken Web Developer",
+      "published": "2025-11-07T12:19:26+00:00",
+      "niche": "dev",
+      "score": 60,
+      "keywords": [
+        "framework",
+        "API",
+        "development",
+        "developer"
+      ]
+    },
+    {
       "id": "a952e7c959f15220",
       "title": "Buying a Global SSL Certificate—My Real-World Experience in Securing Web Apps and APIs",
       "description": "Buying a global SSL certificate wasn’t just another DevOps task — it was a real learning curve. From comparing CAs to configuring certificates across multiple servers and APIs, I discovered how small setup choices can make or break security and performance. In this story, I’ll share the real-world lessons — what worked, what didn’t, and how the right SSL setup can protect not only your code but also your users’ trust and business credibility. https://medium.com/@hasanmcse/buying-a-global-ssl-cer",
@@ -1025,21 +1045,6 @@
         "framework",
         "programming",
         "API"
-      ]
-    },
-    {
-      "id": "0e4e946a95d9ac5c",
-      "title": "# 🚀 Introducing `vite-plugin-optimize-videos` — Optimize Your Videos at Build Time",
-      "description": "I originally built this library to solve a specific problem at a company I was working for. The idea turned out so well that I decided to turn it into an open-source library! vite-plugin-optimize-videos automatically optimizes your videos during the build process, helping reduce file sizes and improve overall performance — all seamlessly integrated with Vite.js. At the moment, it’s built specifically for Vite, but I’m open to suggestions and collaborations to make it even better. 💡 Feel free to ",
-      "url": "https://dev.to/jaymes/-introducing-vite-plugin-optimize-videos-optimize-your-videos-at-build-time-4jil",
-      "source": "Dev.to",
-      "author": "Jaymes Costa",
-      "published": "2025-10-31T12:35:54+00:00",
-      "niche": "dev",
-      "score": 57,
-      "keywords": [
-        "library",
-        "performance"
       ]
     },
     {
@@ -1270,6 +1275,21 @@
       ]
     },
     {
+      "id": "5709ac95ea03c195",
+      "title": "💡 Next-Level Deployments in AWS ECS: Step-by-Step Guide to Linear & Canary Releases 🚀",
+      "description": "AWS ECS just dropped one of its most practical features for modern DevOps: built-in Linear and Canary deployments! 😲 No more stitching together custom scripts or relying on external tools for smooth traffic-shifting and safer releases. Whether you’re all-in on microservices or just want to reduce the risk of production rollouts, this guide’s for you! Let’s get our hands dirty with a real ECS service so you can confidently say, “I did it!” ✌️ Why Linear & Canary Deployments? 🧐 Safer Updates: Grad",
+      "url": "https://dev.to/ahmedadel/next-level-deployments-in-aws-ecs-step-by-step-guide-to-linear-canary-releases-2025-edition-3bbb",
+      "source": "Dev.to",
+      "author": "Ahmed Adel",
+      "published": "2025-11-07T12:43:32+00:00",
+      "niche": "dev",
+      "score": 57,
+      "keywords": [
+        "release",
+        "microservices"
+      ]
+    },
+    {
       "id": "ea15fc7e9d387d4d",
       "title": "A Senior Developer's Guide to the Model Context Protocol",
       "description": "You’ve been there. You’ve just integrated a powerful new LLM into your workflow, and the possibilities feel endless. Then comes the reality: bridging the gap between the model's linguistic intelligence and the practical, real-world actions you need it to perform. This means wrestling with a dozen different APIs, each with its own authentication quirks, data schemas, and documentation (or lack thereof). You write glue code. You build bespoke adapters. And just when you get it all working, a new m",
@@ -1404,21 +1424,6 @@
       "niche": "dev",
       "score": 56,
       "keywords": []
-    },
-    {
-      "id": "29ab7ae993b04bbd",
-      "title": "Performance Issues in Web Services: A Practical Guide to Identification and Resolution",
-      "description": "In the realm of web development, performance is frequently treated as an afterthought—a quality to be optimised after core functionality is delivered. This approach, however, is fundamentally flawed. Performance is not a feature; it is a foundational requirement, as critical as security, accessibility, or functional correctness. Clients may not explicitly demand a response time of ‘X milliseconds,’ but they will undoubtedly express dissatisfaction if a site feels sluggish or unresponsive. This g",
-      "url": "https://dev.to/byteminds/performance-issues-in-web-services-a-practical-guide-to-identification-and-resolution-226g",
-      "source": "Dev.to",
-      "author": "Byteminds Agency",
-      "published": "2025-10-31T12:25:31+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "development",
-        "performance"
-      ]
     },
     {
       "id": "baee2fc738589d64",
@@ -1915,20 +1920,6 @@
         "tutorial",
         "programming",
         "development"
-      ]
-    },
-    {
-      "id": "a9b7e7108243bd5f",
-      "title": "Worker Pools in Go: The Minimal Pattern I Use for High-Efficiency Concurrency",
-      "description": "Ever felt that surge of panic when you have 10,000 tasks to run? Maybe you're processing images, hitting thousands of API endpoints, or handling data streams from an IoT device (a regular task in my AI/IoT projects). Your first instinct in Go is: \"Easy! I'll just spin up a goroutine for each!\" // The \"Oh No\" Pattern for _, task := range tasks { go processTask(task) } ...And just like that, you've accidentally DDOSed your own database, hit every rate limit imaginable, or maxed out your CPU. I’ve ",
-      "url": "https://dev.to/evgeny_pantela/worker-pools-in-go-the-minimal-pattern-i-use-for-high-efficiency-concurrency-ein",
-      "source": "Dev.to",
-      "author": "Evgeny Pantela",
-      "published": "2025-10-31T12:20:43+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "API"
       ]
     },
     {
@@ -2936,33 +2927,17 @@
       ]
     },
     {
-      "id": "0856aee2f172b2bc",
-      "title": "💡Open Source, Open Mind: My Hacktoberfest 2025 Reflection as a First-Time Contributor",
-      "description": "This is a submission for the 2025 Hacktoberfest Writing Challenge: Open Source Reflections. 🌍 Beginning the Journey: My First Step into Open Source This October marked my very first Hacktoberfest, and it was more than just a coding event — it was a door into a world where collaboration, communication, and curiosity define real development. As a first-time contributor, I started with hesitation. Would my code be good enough? Would maintainers even respond? But once I submitted my first pull reque",
-      "url": "https://dev.to/tanvirmulla11/open-source-open-mind-my-hacktoberfest-2025-reflection-as-a-first-time-contributor-5446",
+      "id": "4069299b98b7aa40",
+      "title": "NVIDIA H200 GPU Server Explained: Performance, Speed, and Scalability Like Never Before",
+      "description": "In the fast-paced world of artificial intelligence (AI) and high-performance computing (HPC), GPU technology plays a pivotal role. NVIDIA’s H200 GPU server has emerged as a groundbreaking solution that redefines how enterprises handle complex AI, ML, and data workloads. Designed for scalability, speed, and performance, this powerful GPU architecture stands as a significant leap forward in computational efficiency. For organizations striving to push AI boundaries, Cyfuture AI integrates NVIDIA H2",
+      "url": "https://dev.to/cyfutureai/nvidia-h200-gpu-server-explained-performance-speed-and-scalability-like-never-before-4gff",
       "source": "Dev.to",
-      "author": "Tanvir Mulla",
-      "published": "2025-10-31T12:35:45+00:00",
+      "author": "Cyfuture AI",
+      "published": "2025-11-07T12:37:46+00:00",
       "niche": "dev",
-      "score": 52,
+      "score": 54,
       "keywords": [
-        "code",
-        "development"
-      ]
-    },
-    {
-      "id": "f79ab17810ccabb1",
-      "title": "🌱 My First Hacktoberfest: How Open Source Changed the Way I See Code",
-      "description": "This is a submission for the 2025 Hacktoberfest Writing Challenge: Contribution Chronicles. 🎉 My First Step into the Open Source Universe This October, I did something I’d been planning for years — I participated in Hacktoberfest 2025, my first ever open-source event. 🌍 I didn’t know what to expect. I just knew one thing — it was time to stop being a spectator and start being a contributor. 🧠 Before It All Began Before Hacktoberfest, I had only worked on personal projects and tutorials. I’d seen",
-      "url": "https://dev.to/tanvirmulla11/my-first-hacktoberfest-how-open-source-changed-the-way-i-see-code-45p6",
-      "source": "Dev.to",
-      "author": "Tanvir Mulla",
-      "published": "2025-10-31T12:24:28+00:00",
-      "niche": "dev",
-      "score": 52,
-      "keywords": [
-        "code",
-        "tutorial"
+        "performance"
       ]
     },
     {
@@ -3398,20 +3373,6 @@
       "keywords": [
         "code",
         "development"
-      ]
-    },
-    {
-      "id": "27c7f49f4cd07f12",
-      "title": "How to Evaluate a Developer’s Capability to Implement AI Automation in Business Workflows",
-      "description": "We are moving towards tech tech-driven year 2026, and now a developer’s capability to implement AI automation is not defined by coding skills alone. The true test lies in how well they connect AI technology with business objectives to deliver measurable results. You can consider the following points in evolving developers’ capabilities to implement ai automation in business workflows. 1. Technical Foundation A capable developer should have hands-on experience with tools such as LangChain, OpenAI",
-      "url": "https://dev.to/smit_gohel/how-to-evaluate-a-developers-capability-to-implement-ai-automation-in-business-workflows-a86",
-      "source": "Dev.to",
-      "author": "Smit Gohel",
-      "published": "2025-10-31T12:29:50+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "developer"
       ]
     },
     {
@@ -4535,40 +4496,60 @@
       ]
     },
     {
-      "id": "1875ef3439278a0f",
-      "title": "EIP-7702 Infra Goes Live, Bitget’s Gasless Fees, Base’s Global Finance Vision, Thirdweb’s 4337 Wallets on Hyperliquid",
-      "description": "We are welcoming you to our weekly digest! Here, we discuss the latest trends and advancements in account abstraction, chain abstraction and everything related, as well as bring some insights from Etherspot’s kitchen. The latest news we'll cover: Etherspot Launches Public EIP-7702 Infrastructure to Support Account Abstraction for EOAs Bitget Wallet Brings Cross-Chain Gas Abstraction with EIP-7702 Support Base Aims to Power a Permissionless Financial System with Gas Fees Under $0.01 Thirdweb Inte",
-      "url": "https://dev.to/etherspot/eip-7702-infra-goes-live-bitgets-gasless-fees-bases-global-finance-vision-thirdwebs-4337-ef0",
+      "id": "abe514d6b00884c3",
+      "title": "Como configurar um projeto Swift sem StoryBoard",
+      "description": "Atenção! para seguir com o post, é necessário possuir um computador da Apple e ter instalado o Xcode. Quando criamos um novo projeto no Xcode, ele geralmente vem configurado para usar Storyboards na construção das telas. Porém, em muitos casos, trabalhar diretamente com UIKit em código pode ser mais simples, flexível e organizado. Neste post vou explicar, passo a passo, como remover o Storyboard e configurar a interface inicial do app usando apenas Swift + UIKit. Vamos começar abrindo o Xcode e ",
+      "url": "https://dev.to/henriquepablo/como-configurar-um-projeto-swift-sem-storyboard-fe0",
       "source": "Dev.to",
-      "author": "Alexandra",
-      "published": "2025-10-31T12:39:20+00:00",
+      "author": "Lacerda",
+      "published": "2025-11-07T12:27:30+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
-      "id": "cb56ce9862974b19",
-      "title": "🗂️ Wallet-as-a-Service: Why Building Your Own Wallet Is So 2025",
-      "description": "Let’s be honest - not every fintech or Web3 startup needs to reinvent the wheel (or the wallet). In 2025, Wallet-as-a-Service (WaaS) has become one of the smartest infrastructure choices for businesses that want to integrate crypto without drowning in backend chaos. When I first explored WaaS integrations for a project, I was skeptical. How secure could it really be if someone else manages the private keys? Fast-forward a few months, and I realized something simple but profound - WaaS doesn’t re",
-      "url": "https://dev.to/tanelith/wallet-as-a-service-why-building-your-own-wallet-is-so-2025-3fp1",
+      "id": "0bd3e6503c3eacb1",
+      "title": "🚨 I just discovered a C++ surprise!",
+      "description": "I was playing around with arrays in C++ and wrote this simple code 👇 include using namespace std; int main() { int marks[5] = {23, 22, 33, 43, 50}; cout << marks[8] << endl; return 0; } Guess what happened? 💥 Output: 4199048 No error. No warning. Just a random number. At first I thought something was wrong with my compiler, but then I realized: 👉** C++ does not check array bounds.** That means if you try to access an index that doesn’t exist, it still “works” — but you’re reading from some rando",
+      "url": "https://dev.to/vaidu_jha/i-just-discovered-a-c-surprise-2gjl",
       "source": "Dev.to",
-      "author": "Emir Taner",
-      "published": "2025-10-31T12:32:39+00:00",
+      "author": "Vaidehi Jha",
+      "published": "2025-11-07T12:23:28+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
-      "id": "5552db35b0864a4e",
-      "title": "How to Recognize a Real vs Fake Cybersecurity Alert",
-      "description": "The digital landscape has become a minefield of deceptive alerts and warnings designed to manipulate users into downloading malware, revealing sensitive information, or spending money on fake security solutions. With the rise of sophisticated social engineering tactics and AI-powered phishing campaigns, distinguishing between legitimate security alerts and malicious imposters has never been more critical. This comprehensive guide will equip you with the knowledge to identify real cybersecurity a",
-      "url": "https://dev.to/deepaksharma/how-to-recognize-a-real-vs-fake-cybersecurity-alert-4eki",
+      "id": "ada7f17e21ed67ac",
+      "title": "Dockerfile A to Z: A Beginner’s Guide to Writing Dockerfiles the Easy Way",
+      "description": "🐳 What is a Dockerfile? A Dockerfile is a 📜 plain text file with instructions to build a Docker image — think of it as a recipe for your app’s environment. When Docker reads it, it executes each step to create a lightweight, portable image for your application. 🚀 📘 Dockerfile Structure: Detailed Breakdown Here’s how a Dockerfile works, broken down into its key components with examples and best practices. 🌟 1. FROM — Base Image 🏗️ FROM node:18 Purpose: Defines the starting point by pulling a base",
+      "url": "https://dev.to/ritesh355/dockerfile-a-to-z-a-beginners-guide-to-writing-dockerfiles-the-easy-way-34eg",
       "source": "Dev.to",
-      "author": "Deepak Sharma",
-      "published": "2025-10-31T12:26:11+00:00",
+      "author": "Ritesh Singh",
+      "published": "2025-11-07T12:19:17+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "best practices"
+      ]
+    },
+    {
+      "id": "d63ea0a227a076e5",
+      "title": "Generative AI Development Is Redefining Creativity, Exciting or Scary?",
+      "description": "Been exploring generative AI development, and it’s wild how machines can now create art, music, and even full product designs from scratch. It’s like creativity on autopilot. Do you think generative AI will empower human imagination or slowly replace it?",
+      "url": "https://dev.to/mahi_dholpure_0b4a20eb4b5/generative-ai-development-is-redefining-creativity-exciting-or-scary-17o3",
+      "source": "Dev.to",
+      "author": "Mahi Dholpure",
+      "published": "2025-11-07T12:18:07+00:00",
+      "niche": "dev",
+      "score": 51,
+      "keywords": [
+        "development"
+      ]
     },
     {
       "id": "e10717489cee3a7f",
@@ -7777,6 +7758,30 @@
       "keywords": []
     },
     {
+      "id": "519bad99975e6a98",
+      "title": "How To Setup MonoGame for F#",
+      "description": "There are little to NO guides on using F# with MonoGame.. well that's bit of an over statement there are a few on the internet but they are either outdated or just don't work at all. So I got to work and figured out to setup an F# project to use MonoGame! There are probably other ways to do it but this way worked for me and I want to show how other people can do it too. So let's get started! Start by creating a new F# console project. dotnet new console -lang F# -o <ProjectName> cd <ProjectName>",
+      "url": "https://dev.to/sabedoesthings/how-to-setup-monogame-for-f-14fg",
+      "source": "Dev.to",
+      "author": "SabeDoesThings",
+      "published": "2025-11-07T12:45:44+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "9d691b32d841de2d",
+      "title": "Hudson River Trading VO Interview Experience",
+      "description": "Hudson River Trading (HRT) has long been known as one of the most intellectually demanding firms in the quant world. Their interview process is fast-paced, precise, and pushes you to think deeply — it’s not just about solving a problem but about how you think and explain under pressure. Here’s a full recap of a recent HRT Video Interview (VO) that one of our candidates went through, including question styles, flow, and real insights from the experience. Interview Overview Platform: Karat or HRT’",
+      "url": "https://dev.to/net_programhelp_e160eef28/hudson-river-trading-vo-interview-experience-gch",
+      "source": "Dev.to",
+      "author": "net programhelp",
+      "published": "2025-11-07T12:39:51+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "bfecf660a18e9ad0",
       "title": "Tetrix vs Claude",
       "description": "Learn how Tetrix connects code, infrastructure, and operations to your AI, enabling it to reason across your full software system. https://deskree.com/how-it-works",
@@ -7901,18 +7906,6 @@
       "keywords": [
         "tutorial"
       ]
-    },
-    {
-      "id": "56b58f45f92ab854",
-      "title": "Fading Light And Falling Leaves (November 2025 Wallpapers Edition)",
-      "description": "The new month is just around the corner, and that means: It’s time for some new desktop wallpapers! All of them are designed by the community for the community and can be downloaded for free. Enjoy!",
-      "url": "https://smashingmagazine.com/2025/10/desktop-wallpaper-calendars-november-2025/",
-      "source": "Smashing Magazine",
-      "author": "hello@smashingmagazine.com (Cosima Mielke)",
-      "published": "2025-10-31T12:00:00+00:00",
-      "niche": "dev",
-      "score": 46,
-      "keywords": []
     },
     {
       "id": "afe8dfeda3e9129f",
@@ -8175,18 +8168,6 @@
       ]
     },
     {
-      "id": "a3cb1ab971641b89",
-      "title": "Affinity, targeting office workers over pros, making pro tools the loss leader",
-      "description": "Comments",
-      "url": "https://tedium.co/2025/10/30/canva-affinity-free-loss-leader-strategy/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-31T12:18:35+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
       "id": "42dc97ee5aff9016",
       "title": "Nix Derivation Madness",
       "description": "Comments",
@@ -8242,18 +8223,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-10-31T14:09:04+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "1bd64ecdab7c404d",
-      "title": "The cryptography behind electronic passports",
-      "description": "Comments",
-      "url": "https://blog.trailofbits.com/2025/10/31/the-cryptography-behind-electronic-passports/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-31T11:33:41+00:00",
       "niche": "dev",
       "score": 44,
       "keywords": []
@@ -10047,6 +10016,18 @@
       "keywords": []
     },
     {
+      "id": "801650128dfd8ee4",
+      "title": "Sweep (YC S23) is hiring to build autocomplete for JetBrains",
+      "description": "Comments",
+      "url": "https://www.ycombinator.com/companies/sweep/jobs/8dUn406-founding-engineer-intern",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-07T12:00:40+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "78c4b08725d5f56b",
       "title": "React 19 Upgrade Guide",
       "description": "The improvements added to React 19 require some breaking changes, but we've worked to make the upgrade as smooth as possible and we don't expect the changes to impact most apps. In this post, we will guide you through the steps for upgrading apps and libraries to React 19.",
@@ -10141,8 +10122,8 @@
       "score": 40,
       "keywords": [
         "API",
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -10156,8 +10137,8 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "API",
         "developer",
+        "API",
         "performance"
       ]
     },
@@ -10202,18 +10183,6 @@
       ]
     },
     {
-      "id": "e2210be9ca2146f3",
-      "title": "Perfetto: Swiss army knife for Linux client tracing",
-      "description": "Comments",
-      "url": "https://lalitm.com/perfetto-swiss-army-knife/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-31T11:54:00+00:00",
-      "niche": "dev",
-      "score": 38,
-      "keywords": []
-    },
-    {
       "id": "96cb24257b3ed14a",
       "title": "Addiction Markets",
       "description": "Comments",
@@ -10221,18 +10190,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-10-31T17:42:55+00:00",
-      "niche": "dev",
-      "score": 38,
-      "keywords": []
-    },
-    {
-      "id": "a8804ee01a95c07b",
-      "title": "My Impressions of the MacBook Pro M4",
-      "description": "Comments",
-      "url": "https://michael.stapelberg.ch/posts/2025-10-31-macbook-pro-m4-impressions/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-31T10:13:40+00:00",
       "niche": "dev",
       "score": 38,
       "keywords": []
@@ -10380,9 +10337,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
+        "React 19",
         "API",
-        "release",
-        "React 19"
+        "release"
       ]
     },
     {
@@ -10466,8 +10423,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10509,8 +10466,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "API",
-        "framework"
+        "framework",
+        "API"
       ]
     },
     {
@@ -10628,11 +10585,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
+        "framework",
+        "code",
         "API",
         "release",
-        "code",
-        "performance",
-        "framework"
+        "performance"
       ]
     },
     {
@@ -10940,8 +10897,8 @@
       "niche": "dev",
       "score": 22,
       "keywords": [
-        "release",
         "development",
+        "release",
         "performance"
       ]
     },
@@ -10983,8 +10940,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "framework"
+        "framework",
+        "release"
       ]
     },
     {
@@ -11015,8 +10972,8 @@
       "score": 19,
       "keywords": [
         "API",
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -11045,9 +11002,9 @@
       "niche": "dev",
       "score": 18,
       "keywords": [
-        "developer",
+        "development",
         "code",
-        "development"
+        "developer"
       ]
     },
     {
@@ -11117,8 +11074,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "developer",
-        "development"
+        "development",
+        "developer"
       ]
     },
     {
@@ -11276,18 +11233,6 @@
       ]
     },
     {
-      "id": "d4177155033ad7c4",
-      "title": "By the Power of Grayscale",
-      "description": "Comments",
-      "url": "https://zserge.com/posts/grayskull/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-31T12:11:03+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
       "id": "60d3903eae06c827",
       "title": "How often does Python allocate?",
       "description": "Comments",
@@ -11307,6 +11252,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-11-03T00:50:41+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "774e14a1512a8811",
+      "title": "OpenTelemetry: Escape Hatch from the Observability Cartel",
+      "description": "Comments",
+      "url": "https://oneuptime.com/blog/post/2025-11-03-opentelemetry-escape-from-observability-cartel/view",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-04T11:42:10+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -11925,9 +11882,21 @@
       "niche": "dev",
       "score": 11,
       "keywords": [
-        "release",
-        "code"
+        "code",
+        "release"
       ]
+    },
+    {
+      "id": "56b58f45f92ab854",
+      "title": "Fading Light And Falling Leaves (November 2025 Wallpapers Edition)",
+      "description": "The new month is just around the corner, and that means: It’s time for some new desktop wallpapers! All of them are designed by the community for the community and can be downloaded for free. Enjoy!",
+      "url": "https://smashingmagazine.com/2025/10/desktop-wallpaper-calendars-november-2025/",
+      "source": "Smashing Magazine",
+      "author": "hello@smashingmagazine.com (Cosima Mielke)",
+      "published": "2025-10-31T12:00:00+00:00",
+      "niche": "dev",
+      "score": 10,
+      "keywords": []
     },
     {
       "id": "686d1ce6c0f0cca5",
