@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-11-07T21:18:40.675182+00:00",
-  "total_articles": 965,
+  "last_updated": "2025-11-08T01:48:09.797641+00:00",
+  "total_articles": 969,
   "articles": [
     {
       "id": "bf238a77286f451e",
@@ -15,6 +15,21 @@
       "keywords": [
         "Angular",
         "Angular 19"
+      ]
+    },
+    {
+      "id": "1ae22987d7c7bf3e",
+      "title": "Implementare Micro Frontend con Angular 19 e Module Federation: Shell + Runtime Integration",
+      "description": "Step 1: Creare la Shell Genera il progetto principale: ng new shell-app --routing --style=scss Aggiungi il supporto Module Federation: ng add @angular-architects/module-federation --type host --port 4200 Esempio di configurazione webpack.config.js: const ModuleFederationPlugin = require(\"webpack/lib/container/ModuleFederationPlugin\"); module.exports = { output: { publicPath: \"http://localhost:4200/\", uniqueName: \"shell\" }, optimization: { runtimeChunk: false }, plugins: [ new ModuleFederationPlu",
+      "url": "https://dev.to/fedecroletti/implementare-micro-frontend-con-angular-19-e-module-federation-shell-runtime-integration-5d69",
+      "source": "Dev.to",
+      "author": "Federico",
+      "published": "2025-11-08T00:53:52+00:00",
+      "niche": "dev",
+      "score": 84,
+      "keywords": [
+        "Angular 19",
+        "Angular"
       ]
     },
     {
@@ -271,6 +286,20 @@
       "score": 72,
       "keywords": [
         "PHP"
+      ]
+    },
+    {
+      "id": "21de3d0f1200bc12",
+      "title": "Google Cloud SQL: x86 N2 vs ARM C4A",
+      "description": "The recent upgrade of our production Cloud SQL databases to Enterprise Plus required an in-place process to minimize downtime for our 2TB instance. This meant that we couldn't explore the new C4A ARM option offered under Enterprise Plus offers, as it currently does not support in-place upgrades (I am told Google is working on it though). Given how impressed I was when testing Google Axion-powered C4A GCP VMs, I thought I should explore the C4A Cloud SQL performance for initial use in our test en",
+      "url": "https://dev.to/dkechag/google-cloud-sql-x86-n2-vs-arm-c4a-4cga",
+      "source": "Dev.to",
+      "author": "Dimitrios Kechagias",
+      "published": "2025-11-08T00:24:37+00:00",
+      "niche": "dev",
+      "score": 72,
+      "keywords": [
+        "performance"
       ]
     },
     {
@@ -601,6 +630,20 @@
       ]
     },
     {
+      "id": "08e235f332e4e71f",
+      "title": "Snapchat open-sources Valdi a cross-platform UI framework",
+      "description": "Comments",
+      "url": "https://github.com/Snapchat/Valdi",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-08T00:14:50+00:00",
+      "niche": "dev",
+      "score": 66,
+      "keywords": [
+        "framework"
+      ]
+    },
+    {
       "id": "bab0ab323f3fcebc",
       "title": "Show HN: Why write code if the LLM can just do the thing? (web app experiment)",
       "description": "Comments",
@@ -627,30 +670,6 @@
       "keywords": [
         "programming"
       ]
-    },
-    {
-      "id": "8c4a05a18e072f6d",
-      "title": "S.a.r.c.a.s.m: Slightly Annoying Rubik's Cube Automatic Solving Machine",
-      "description": "Comments",
-      "url": "https://github.com/vindar/SARCASM",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-31T23:03:18+00:00",
-      "niche": "dev",
-      "score": 62,
-      "keywords": []
-    },
-    {
-      "id": "57999b38cadaeeab",
-      "title": "S.A.R.C.A.S.M: Slightly Annoying Rubik's Cube Automatic Solving Machine",
-      "description": "Comments",
-      "url": "https://github.com/vindar/SARCASM",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-31T23:03:18+00:00",
-      "niche": "dev",
-      "score": 62,
-      "keywords": []
     },
     {
       "id": "a584101a0b67df55",
@@ -927,6 +946,18 @@
       "keywords": []
     },
     {
+      "id": "93b1de048ce864e9",
+      "title": "Why is Zig so Cool?",
+      "description": "Comments",
+      "url": "https://nilostolte.github.io/tech/articles/ZigCool.html",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-07T23:04:39+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": []
+    },
+    {
       "id": "5278a1b6007b47f1",
       "title": "Blog Post: Demystifying ZIO's Dependency Injection: A Practical Guide",
       "description": "Introduction: The Problem of \"Wiring\" an Application In any non-trivial application, different parts need to talk to each other. A UserService might need a Database connection and an Emailer. A Database might need a Configuration object. This network of dependencies is often called \"the application graph\" or \"the wiring.\" How do we manage this? Manual new-ing? new UserService(new Database(new Config()), new Emailer()). This gets messy fast and is hard to change. A Framework like Spring? This use",
@@ -1073,36 +1104,6 @@
       "keywords": [
         "framework",
         "programming",
-        "API"
-      ]
-    },
-    {
-      "id": "d8181bbb291655ad",
-      "title": "第 18 课：Web UI 与 API 使用",
-      "description": "第 18 课：Web UI 与 API 使用 ⏱ 课时：1.5 小时 🎯 学习目标：掌握图形界面和 API 操作 📚 难度：⭐⭐ 实时信号 📖 课程概览 通过 Web UI 和 API，你可以用图形界面管理交易机器人，不再依赖命令行。本课将教你如何启用 API Server，使用 FreqUI 进行可视化管理，以及通过 REST API 进行远程控制。 18.1 启用 API Server 什么是 API Server？ 定义：Freqtrade 内置的 REST API 服务器，提供： Web UI 数据接口 远程控制功能 实时数据查询 交易操作接口 配置 API Server 编辑 config.json 在配置文件中添加 API Server 配置： { \"api_server\": { \"enabled\": true, \"listen_ip_address\": \"127.0.0.1\", \"listen_port\": 8080, \"verbosity\": \"error\", \"enable_openapi\": false, \"jwt_secret_key\": \"your-secret",
-      "url": "https://dev.to/henry_lin_3ac6363747f45b4/di-18-ke-web-ui-yu-api-shi-yong-35do",
-      "source": "Dev.to",
-      "author": "Henry Lin",
-      "published": "2025-11-01T00:59:45+00:00",
-      "niche": "dev",
-      "score": 57,
-      "keywords": [
-        "REST API",
-        "API"
-      ]
-    },
-    {
-      "id": "fe2d745d5af8c142",
-      "title": "Lesson 18: Web UI and API Usage",
-      "description": "Lesson 18: Web UI and API Usage ⏱ Duration: 1.5 hours 🎯 Learning Objectives: Master graphical interface and API operations 📚 Difficulty: ⭐⭐ Real-time Signals 📖 Course Overview Through Web UI and API, you can manage trading bots with graphical interfaces, no longer relying on command line. This lesson will teach you how to enable API Server, use FreqUI for visualized management, and control remotely through REST API. 18.1 Enable API Server What is API Server? Definition: Freqtrade's built-in REST",
-      "url": "https://dev.to/henry_lin_3ac6363747f45b4/lesson-18-web-ui-and-api-usage-20f0",
-      "source": "Dev.to",
-      "author": "Henry Lin",
-      "published": "2025-11-01T00:59:24+00:00",
-      "niche": "dev",
-      "score": 57,
-      "keywords": [
-        "REST API",
         "API"
       ]
     },
@@ -1437,6 +1438,22 @@
       "niche": "dev",
       "score": 56,
       "keywords": []
+    },
+    {
+      "id": "ab9899139e1dadad",
+      "title": "Unlock Dual Revenue Streams: Monetizing LLM Apps with AI-Driven Advertising",
+      "description": "Why 90% of AI Apps Fail to Monetize Effectively—and How Monetzly Can Change That As developers, we pour our hearts into building innovative AI applications, yet many of us face a harsh reality: 90% of AI apps fail to monetize effectively. Why? The answer lies in the monetization models that disrupt user experience and fail to offer sustainable revenue streams. Enter Monetzly—think of it as the Google Ads for AI conversations. Understanding the Math Behind Sustainable AI App Development The rapid",
+      "url": "https://dev.to/monetzly/unlock-dual-revenue-streams-monetizing-llm-apps-with-ai-driven-advertising-1d1b",
+      "source": "Dev.to",
+      "author": "Monetzly",
+      "published": "2025-11-08T00:53:42+00:00",
+      "niche": "dev",
+      "score": 56,
+      "keywords": [
+        "API",
+        "developer",
+        "development"
+      ]
     },
     {
       "id": "849d44cb1d19144c",
@@ -1953,17 +1970,18 @@
       ]
     },
     {
-      "id": "798c1fb07a5b4581",
-      "title": "The Async Iterator Part 2: Streaming Data and Real-World Patterns",
-      "description": "The next morning, Timothy arrived at the library early, eager to apply what he'd learned about async iteration. He'd spent the evening refactoring his log analyzer, and now he wanted to tackle something more ambitious: building a real-time dashboard that streamed library statistics. \"Margaret, I've got async iteration working,\" Timothy said, pulling up his screen. \"But now I'm trying to do something practical, and I keep running into problems.\" Margaret looked over with interest. \"Show me what y",
-      "url": "https://dev.to/aaron_rose_0787cc8b4775a0/the-async-iterator-part-2-streaming-data-and-real-world-patterns-kdj",
+      "id": "f6be1e8f9416a40e",
+      "title": "Keyshade Debugging: Mastering Workspace Role Tests and API Repair",
+      "description": "\"A good tester prevents problems; a great tester finds them.\" Keith Klain, Director of Quality Engineering at KPMG UK Introduction Four disabled tests. One cryptic comment: 'flaky.' When I dove into Keyshade's workspace role tests, I discovered the failures weren't random at all—they revealed a fundamental misunderstanding of how the API validates permissions. Keyshade is a modern solution for secure, centralized credential and configuration management, designed for developers, DevOps engineers,",
+      "url": "https://dev.to/jds64/keyshade-debugging-mastering-workspace-role-tests-and-api-repair-1ok6",
       "source": "Dev.to",
-      "author": "Aaron Rose",
-      "published": "2025-11-01T01:16:16+00:00",
+      "author": "Johnny Santamaria",
+      "published": "2025-11-08T01:06:38+00:00",
       "niche": "dev",
-      "score": 54,
+      "score": 55,
       "keywords": [
-        "library"
+        "API",
+        "developer"
       ]
     },
     {
@@ -2985,6 +3003,34 @@
       ]
     },
     {
+      "id": "33d33baf39bd659b",
+      "title": "interview questions and answers",
+      "description": "✅ INTERVIEW MASTER SHEET (FULL ANSWERS READY TO SPEAK) 1) Tell Me About Your Role / Project Answer: I built a Profile Service application on AWS using EKS, DynamoDB, and Terraform. The application is a Python Flask API deployed on Kubernetes behind an AWS ALB. I used IRSA to allow the pods to securely access DynamoDB without storing any credentials. The entire infrastructure is provisioned using Terraform, and CI/CD is automated with GitHub Actions to build, test, and deploy changes. I enabled o",
+      "url": "https://dev.to/jumptotech/interview-questions-and-answers-5535",
+      "source": "Dev.to",
+      "author": "Aisalkyn Aidarova",
+      "published": "2025-11-08T00:21:13+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "API"
+      ]
+    },
+    {
+      "id": "74a5671e8e37f3a7",
+      "title": "GTA Vice City Nextgen Edition on Linux/Steam Deck - Guide",
+      "description": "Starting GTA Vice City Next Edition on Linux - Complete Guide Tested Environment This guide was tested on: OS: EndeavourOS Kernel: 6.17.7-arch1-1 Lutris: lutris-0.5.19 Wine (Lutris): wine-ge-8-26-x86_64 Proton-GE: GE-Proton10-15 GE-Proton9-27 DXVK: lib32-vulkan-icd-loader 1.4.328.1-1 MangoHud: v0.8.1 To get your system info, run this command: echo \"OS: $(cat /etc/os-release | grep PRETTY_NAME | cut -d'\"' -f2)\" && \\ echo \"Kernel: $(uname -r)\" && \\ echo \"Lutris: $(lutris --version 2>/dev/null || e",
+      "url": "https://dev.to/hopsayer/gta-vice-city-nextgen-edition-on-linux-starting-guide-4mo9",
+      "source": "Dev.to",
+      "author": "hopsayer",
+      "published": "2025-11-08T00:00:31+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "release"
+      ]
+    },
+    {
       "id": "f20310ee06b19978",
       "title": "The Rise of Agentic AI: Transforming Workflows in C# Development",
       "description": "The Rise of Agentic AI: Transforming Workflows in C# Development Hey there! If you've been keeping an eye on AI developments lately, you've probably noticed something exciting happening—agentic AI is changing how we build applications, especially in the .NET ecosystem. I know it can feel overwhelming when new paradigms emerge (trust me, I've been there), so let's walk through this together and figure out what agentic AI means for us as C# developers. What's This Agentic AI Thing Anyway? When I f",
@@ -3402,20 +3448,6 @@
       "keywords": [
         "code",
         "programming"
-      ]
-    },
-    {
-      "id": "7e32709c784970cc",
-      "title": "ReLook: Vision-Grounded RL with a Multimodal LLM Critic for Agentic Web Coding",
-      "description": "How AI Learns to Build Web Pages by Seeing Them Ever wondered how a computer could see a web page and fix its own code? ReLook makes that possible. Imagine a robot artist who paints a picture, steps back, looks at the canvas, and then adds the perfect brushstroke. In the same way, this new AI system writes a snippet of front‑end code, takes a screenshot of the result, and lets a smart visual critic point out what looks off. The critic is a multimodal language model that can understand both text ",
-      "url": "https://dev.to/paperium/relook-vision-grounded-rl-with-a-multimodal-llm-critic-for-agentic-web-coding-4d0o",
-      "source": "Dev.to",
-      "author": "Paperium",
-      "published": "2025-11-01T01:20:50+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
       ]
     },
     {
@@ -4609,64 +4641,18 @@
       ]
     },
     {
-      "id": "936b8e92048b9f2c",
-      "title": "The Shocking Truth Behind America's Air Traffic Control Meltdown (And Why Your Business Could Be Next)",
-      "description": "What if a single overlooked leverage point could ground an entire nation’s air travel? The U.S. air traffic control crisis isn’t just about delayed flights—it’s a wake-up call for anyone who manages complex systems or business operations. With America’s airspace brought to its knees by staff shortages at major airports, everyone blames bad weather or government squabbles. But the brutal truth runs much deeper: the whole system is balancing on a razor-thin line of leverage that’s about to snap—un",
-      "url": "https://dev.to/paul_allen_ccfde9d33a48d5/the-shocking-truth-behind-americas-air-traffic-control-meltdown-and-why-your-business-could-be-3ik2",
+      "id": "525d2c78cc47d438",
+      "title": "Dear Devs, This Is a Call to All of Us 💻❤️",
+      "description": "💭 Dear Devs, Designers & Dreamers, There are moments in this journey when you realize — no one truly grows alone. I’m a junior developer, still learning, still building, still trying to turn ideas into something that speaks to people. Right now, I’m working on a digital printing and gallery website — something simple, but meaningful to me. It’s more than a project; it’s a reflection of growth, patience, and passion. But if I’ve learned anything, it’s that every great dev once stood where I’m sta",
+      "url": "https://dev.to/velora_tech_cbfb10dd9eede/dear-devs-this-is-a-call-to-all-of-us-4blp",
       "source": "Dev.to",
-      "author": "Paul Allen",
-      "published": "2025-11-01T01:25:32+00:00",
+      "author": "Velora Tech",
+      "published": "2025-11-08T00:47:45+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "09e4cc804763e7ae",
-      "title": "The Billion-User Tech Power Play Hiding Behind AOL: Why Bending Spoons' Silent Leverage Is Rewriting the Rules",
-      "description": "What if the next tech giant isn't a headline-grabber—but a stealth player quietly controlling over a billion users? While most of the world forgot about AOL, an unknown Italian company named Bending Spoons made a move no one saw coming. Their secret? Not scale, not hype, but a ruthless mastery of leverage that turns legacy assets like AOL into modern gold mines. The Company You’ve Never Heard Of—But Use Every Day Bending Spoons isn’t chasing Silicon Valley fame. They don’t parade at conferences ",
-      "url": "https://dev.to/paul_allen_ccfde9d33a48d5/the-billion-user-tech-power-play-hiding-behind-aol-why-bending-spoons-silent-leverage-is-3pco",
-      "source": "Dev.to",
-      "author": "Paul Allen",
-      "published": "2025-11-01T01:19:04+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "80cb5ff4132c63ec",
-      "title": "Unlocking AI Speed: The Hidden Symmetries in Reinforcement Learning",
-      "description": "Unlocking AI Speed: The Hidden Symmetries in Reinforcement Learning Imagine training an AI to play a complex strategy game. Days turn into weeks, weeks into months, and still, the AI struggles to learn effectively. The culprit? Redundant exploration of similar scenarios that waste precious computation time. We need a smarter way to guide the AI's learning process. The key lies in identifying and exploiting hidden symmetries within the search space. The core idea is to group states that are essen",
-      "url": "https://dev.to/arvind_sundararajan/unlocking-ai-speed-the-hidden-symmetries-in-reinforcement-learning-18o2",
-      "source": "Dev.to",
-      "author": "Arvind SundaraRajan",
-      "published": "2025-11-01T01:02:06+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "5230ff271248f03d",
-      "title": "Daily Artificial Intelligence Digest - Nov 01, 2025",
-      "description": "AI Market Dynamics & Corporate Strategy The AI sector demonstrates a buoyant yet volatile investment climate, with a perceived \"bubbly\" market characterized by significant seed rounds and data center builds. Major players like Apple are open to M&A on the AI front to enhance their capabilities. Simultaneously, concerns arise over large-scale financial commitments, as Meta and Xai initiate a trend for billions in off-balance-sheet debt, and OpenAI faces a substantial 12 billion loss last quarter,",
-      "url": "https://dev.to/antony_brahin_f47b663f3a0/daily-artificial-intelligence-digest-nov-01-2025-1a08",
-      "source": "Dev.to",
-      "author": "Antony Brahin",
-      "published": "2025-11-01T01:01:24+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "8bba706319add03d",
-      "title": "\"Unlocking the Musical Secrets of Ancient Civilizations: The",
-      "description": "\"Unlocking the Musical Secrets of Ancient Civilizations: The Power of Generative AI Imagine being transported to the ancient city of Ur, surrounded by the mysterious sounds of a long-lost culture. Generative AI, a cutting-edge technology that can create new, original content, is opening doors to uncovering the musical heritage of ancient civilizations. By analyzing fragments of texts, inscriptions, and artifacts, AI algorithms can recreate the musical compositions of bygone eras. One fascinating",
-      "url": "https://dev.to/drcarlosruizviquez/unlocking-the-musical-secrets-of-ancient-civilizations-the-58n2",
-      "source": "Dev.to",
-      "author": "Dr. Carlos Ruiz Viquez",
-      "published": "2025-11-01T01:00:37+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
       "id": "e0c4b17a1fd52305",
@@ -7887,6 +7873,54 @@
       "keywords": []
     },
     {
+      "id": "6fba88467b32f5a4",
+      "title": "LLMs Whispering Secrets: Vector Translation for AI Communication",
+      "description": "LLMs Whispering Secrets: Vector Translation for AI Communication Imagine a world where AI agents can seamlessly collaborate, sharing complex ideas without the limitations of human-defined languages. What if they could bypass the clunky token-based communication we currently rely on and talk directly, mind-to-mind, in a shared understanding? This isn't science fiction; it's the potential of a new technique emerging in the world of large language models. The core idea is vector translation: creati",
+      "url": "https://dev.to/arvind_sundararajan/llms-whispering-secrets-vector-translation-for-ai-communication-2lb9",
+      "source": "Dev.to",
+      "author": "Arvind SundaraRajan",
+      "published": "2025-11-08T01:02:08+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "c4bc96d6e34e3299",
+      "title": "たった1枚の引き伸ばされた画像から、AWS Lambdaのコード移行とCI/CD構築に至った話",
+      "description": "始まり ある日、開発中の画面でサムネイル画像が不自然に引き伸ばされて表示されていることに気づきました。 「ああ、このパターンな。CSSのobject-fitがcoverになってるのをcontainにすれば直るやつじゃ」 そう高を括ってコードを修正。しかし、表示は変わらず引き伸ばされたまま。ブラウザの開発者ツールで画像のURLを直接開いてみると、Amazon S3から返されている画像そのものが既に引き伸ばされていました 「まじすか先輩」 しかし、わしはプロジェクトに参加したばかりでしかもインフラはよぉ知らん。該当の画像生成処理がどこに書かれているのか見当もつきませんので同僚に聞いてみましたわ 「すんまへん、このサムネイル画像、どうもAWS側でリサイズされてるっぽいんですが、どこの処理か分かりますか？」 すると、同僚から 「ああ、その処理は別のインフラ用リポジトリにあるLambda関数がやってるんですよ。ただ、そのリポジトリを直接編集しても意味なくて、今のアプリケーション用リポジトリにコードを移行して、CI/CDを再設定する必要があるんですわこりゃ」 わしの頭の中は「あーLambda聞いた",
+      "url": "https://dev.to/kaziusan/tatuta1mei-noyin-kishen-basaretahua-xiang-kara-aws-lambdanokodoyi-xing-tocicdgou-zhu-nizhi-tutahua-252p",
+      "source": "Dev.to",
+      "author": "Kaziu",
+      "published": "2025-11-08T00:42:07+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "ee88917a12c7109a",
+      "title": "Building a Mini Build System in Go: Understanding How Bazel Works Under the Hood",
+      "description": "Imagine you're running a restaurant kitchen. You have recipes (build targets), ingredients (source files), and some dishes that need other dishes to be ready first (dependencies). How do you organize this chaos? That's exactly what build systems like Bazel, Make, and our Mini-Bazel do for software. Why Build Systems Matter (The Busy Kitchen Problem) Picture this: You're making a sandwich. You need: Bread (must be toasted first) Butter (must be softened) Cheese (must be sliced) If the bread is al",
+      "url": "https://dev.to/tmwakalasya/building-a-mini-build-system-in-go-understanding-how-bazel-works-under-the-hood-3gp6",
+      "source": "Dev.to",
+      "author": "Tuntufye Mwakalasya",
+      "published": "2025-11-08T00:27:40+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "cb1cfa9dd134a449",
+      "title": "VPNs vs Proxies: What are the Differences?",
+      "description": "In the age of online privacy, two tools are often mentioned together: VPNs and proxies. Both hide your IP address and help you browse the internet more privately, but they work in different ways and serve different purposes. From simple security to w...",
+      "url": "https://www.freecodecamp.org/news/vpns-vs-proxies-what-are-the-differences/",
+      "source": "freeCodeCamp",
+      "author": "Manish Shivanandhan",
+      "published": "2025-11-07T21:20:25+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "bfecf660a18e9ad0",
       "title": "Tetrix vs Claude",
       "description": "Learn how Tetrix connects code, infrastructure, and operations to your AI, enabling it to reason across your full software system. https://deskree.com/how-it-works",
@@ -8039,18 +8073,6 @@
       "keywords": [
         "API"
       ]
-    },
-    {
-      "id": "d7e6726b6d46faed",
-      "title": "Recomendo este Artigo",
-      "description": "Como ajudar as pessoas a contribuirem com seu projeto Open Source Morganna ・ Oct 29 #devchallenge #hacktoberfest #opensource #braziliandevs",
-      "url": "https://dev.to/anamaria/-352l",
-      "source": "Dev.to",
-      "author": "Ana Maria | @ana.tech.dev",
-      "published": "2025-11-01T01:21:10+00:00",
-      "niche": "dev",
-      "score": 46,
-      "keywords": []
     },
     {
       "id": "3d86134422d2cacd",
@@ -8287,28 +8309,18 @@
       ]
     },
     {
-      "id": "7b4abba20b339248",
-      "title": "Show HN: Strange Attractors",
+      "id": "bd37432b33c9be4d",
+      "title": "YouTube Removes Windows 11 Bypass Tutorials, Claims 'Risk of Physical Harm'",
       "description": "Comments",
-      "url": "https://blog.shashanktomar.com/posts/strange-attractors",
+      "url": "https://news.itsfoss.com/youtube-removes-windows-11-bypass-tutorials/",
       "source": "Hacker News",
       "author": "Inconnu",
-      "published": "2025-10-31T23:23:59+00:00",
+      "published": "2025-11-07T20:50:40+00:00",
       "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "beaea55ff7ca2588",
-      "title": "Fungus: The Befunge CPU(2015)",
-      "description": "Comments",
-      "url": "https://www.bedroomlan.org/hardware/fungus/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-01T01:38:24+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
+      "score": 45,
+      "keywords": [
+        "tutorial"
+      ]
     },
     {
       "id": "03202586009a14f9",
@@ -10159,6 +10171,54 @@
       "keywords": []
     },
     {
+      "id": "221376a6fd50a23c",
+      "title": "Becoming a Compiler Engineer",
+      "description": "Comments",
+      "url": "https://rona.substack.com/p/becoming-a-compiler-engineer",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-07T21:45:03+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "3d2994fc8d12cfb6",
+      "title": "Analysis of Hedy Lamarr's Contribution to Spread-Spectrum Communication",
+      "description": "Comments",
+      "url": "https://researchers.one/articles/24.01.00001v4",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-07T23:42:01+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "4603e1574f3498e1",
+      "title": "Immutable Software Deploys Using ZFS Jails on FreeBSD",
+      "description": "Comments",
+      "url": "https://conradresearch.com/articles/immutable-software-deploy-zfs-jails",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-08T00:21:45+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "88c4bcdaf0da9d0d",
+      "title": "How a devboard works (and how to make your own)",
+      "description": "Comments",
+      "url": "https://kaipereira.com/journal/build-a-devboard",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-07T22:35:28+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "78c4b08725d5f56b",
       "title": "React 19 Upgrade Guide",
       "description": "The improvements added to React 19 require some breaking changes, but we've worked to make the upgrade as smooth as possible and we don't expect the changes to impact most apps. In this post, we will guide you through the steps for upgrading apps and libraries to React 19.",
@@ -10237,8 +10297,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "performance",
-        "React 19"
+        "React 19",
+        "performance"
       ]
     },
     {
@@ -10266,8 +10326,8 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "release",
         "API",
+        "release",
         "developer"
       ]
     },
@@ -10470,8 +10530,8 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "release",
         "API",
+        "release",
         "React 19"
       ]
     },
@@ -10599,8 +10659,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "framework",
-        "API"
+        "API",
+        "framework"
       ]
     },
     {
@@ -10730,11 +10790,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "release",
         "code",
+        "API",
+        "release",
         "performance",
-        "framework",
-        "API"
+        "framework"
       ]
     },
     {
@@ -10946,9 +11006,9 @@
       "niche": "dev",
       "score": 25,
       "keywords": [
-        "Angular",
         "framework",
-        "release"
+        "release",
+        "Angular"
       ]
     },
     {
@@ -11058,8 +11118,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "API"
+        "API",
+        "release"
       ]
     },
     {
@@ -11088,8 +11148,8 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "code",
         "developer",
+        "code",
         "performance"
       ]
     },
@@ -11104,8 +11164,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
         "API",
+        "release",
         "developer"
       ]
     },
@@ -11135,9 +11195,9 @@
       "niche": "dev",
       "score": 18,
       "keywords": [
-        "code",
+        "developer",
         "development",
-        "developer"
+        "code"
       ]
     },
     {
@@ -11193,8 +11253,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "development",
-        "developer"
+        "developer",
+        "development"
       ]
     },
     {
