@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-11-08T12:44:15.175602+00:00",
-  "total_articles": 976,
+  "last_updated": "2025-11-08T15:22:17.962055+00:00",
+  "total_articles": 977,
   "articles": [
     {
       "id": "bf238a77286f451e",
@@ -740,16 +740,19 @@
       ]
     },
     {
-      "id": "a584101a0b67df55",
-      "title": "CharlotteOS – An Experimental Modern Operating System",
+      "id": "c4a39c904ed15fd4",
+      "title": "Valdi – A cross-platform UI framework that delivers native performance",
       "description": "Comments",
-      "url": "https://github.com/charlotte-os/Catten",
+      "url": "https://github.com/Snapchat/Valdi",
       "source": "Hacker News",
       "author": "Inconnu",
-      "published": "2025-11-01T13:12:47+00:00",
+      "published": "2025-11-08T00:14:50+00:00",
       "niche": "dev",
-      "score": 62,
-      "keywords": []
+      "score": 63,
+      "keywords": [
+        "framework",
+        "performance"
+      ]
     },
     {
       "id": "80fd71eb783313b0",
@@ -1038,22 +1041,6 @@
       "keywords": []
     },
     {
-      "id": "5278a1b6007b47f1",
-      "title": "Blog Post: Demystifying ZIO's Dependency Injection: A Practical Guide",
-      "description": "Introduction: The Problem of \"Wiring\" an Application In any non-trivial application, different parts need to talk to each other. A UserService might need a Database connection and an Emailer. A Database might need a Configuration object. This network of dependencies is often called \"the application graph\" or \"the wiring.\" How do we manage this? Manual new-ing? new UserService(new Database(new Config()), new Emailer()). This gets messy fast and is hard to change. A Framework like Spring? This use",
-      "url": "https://dev.to/depa_reddy_5e0e3025aa6eed/blog-post-demystifying-zios-dependency-injection-a-practical-guide-5c1g",
-      "source": "Dev.to",
-      "author": "Depa Reddy",
-      "published": "2025-11-01T14:58:13+00:00",
-      "niche": "dev",
-      "score": 61,
-      "keywords": [
-        "Spring",
-        "framework",
-        "dependency injection"
-      ]
-    },
-    {
       "id": "54e851942dc5a3a6",
       "title": "🚀 Building Knowledge Agent using A2A protocol: An AI Assistant for Backend Developers",
       "description": "CodeWhiz: My AI Assistant for Backend Developers I recently built Knowledge Agent, an AI-powered assistant designed to help backend developers with questions about Java, Spring Boot, Node.js, Python, Go, and related frameworks. It’s live on Telex and ready to assist anyone exploring backend development. What Knowledge Agent Does Knowledge Agent is a real-time AI assistant. Developers can ask questions through a webhook or directly in the Telex platform. It answers with clear, concise explanation",
@@ -1198,6 +1185,22 @@
         "API",
         "developer",
         "release"
+      ]
+    },
+    {
+      "id": "c7b050d30e504a5f",
+      "title": "5 Laravel Eloquent Secrets That Will Make You a Better Developer",
+      "description": "After 2+ years working with Laravel, I discovered these 5 Eloquent techniques that completely changed how I build applications. Number 3 will save you hours of debugging! Eager Loading vs Lazy Loading - The Performance Game Changer // Don't do this (N+1 problem) $users = User::all(); foreach($users as $user) { echo $user->profile->name; } // Do this instead $users = User::with('profile')->get(); Local Scopes - Your Query Building Superpower // In your Model public function scopeActive($query) { ",
+      "url": "https://dev.to/hussien_code_fe8e965f770e/5-laravel-eloquent-secrets-that-will-make-you-a-better-developer-2g75",
+      "source": "Dev.to",
+      "author": "Hussein Code",
+      "published": "2025-11-08T14:56:59+00:00",
+      "niche": "dev",
+      "score": 58,
+      "keywords": [
+        "developer",
+        "performance",
+        "Laravel"
       ]
     },
     {
@@ -2154,17 +2157,18 @@
       ]
     },
     {
-      "id": "d229be7b4e7dd8dd",
-      "title": "Udio allows users to download AI songs for 48 hours after backlash over UMGlegal settlement",
-      "description": "Udio Unlocks Downloads: AI Music Platform Responds to Backlash and Legal Settlements\\n\\nUdio, a prominent player in the burgeoning AI music generation space, empowers users to create original songs simply from text prompts. This innovative platform, alongside others, represents a significant leap in creative technology, enabling individuals without traditional musical training to compose tracks. However, the rapid advancement of generative AI in music has also ignited intense debate regarding in",
-      "url": "https://dev.to/ytosko/udio-allows-users-to-download-ai-songs-for-48-hours-after-backlash-over-umglegal-settlement-5018",
+      "id": "10941fdca9e2bb15",
+      "title": "Unlocking Developer Revenue: Dual-Earning Strategies for LLM Apps with Monetzly",
+      "description": "Traditional Ads Don't Work in AI Conversations. Here's What Does. In the rapidly evolving landscape of AI applications, developers face a significant challenge: how to effectively monetize their creations without compromising user experience. Enter Monetzly—the first platform designed to empower developers with a dual-earning model that transforms the way we think about monetization in AI. Imagine a marketplace where you can both monetize your AI app and earn extra revenue from hosting relevant ",
+      "url": "https://dev.to/monetzly/unlocking-developer-revenue-dual-earning-strategies-for-llm-apps-with-monetzly-1029",
       "source": "Dev.to",
-      "author": "Saiki Sarkar",
-      "published": "2025-11-01T15:02:53+00:00",
+      "author": "Monetzly",
+      "published": "2025-11-08T15:10:52+00:00",
       "niche": "dev",
-      "score": 54,
+      "score": 55,
       "keywords": [
-        "API"
+        "API",
+        "developer"
       ]
     },
     {
@@ -3184,6 +3188,18 @@
       ]
     },
     {
+      "id": "919ae3f5d5c4af28",
+      "title": "Azure DevOps Nedir ?",
+      "description": "Azure Devops Microsoft firmasının sağlamış olduğu ve DevOps süreçlerini yönetmemizi sağlayan bir hizmettir. Azure DevOps, sürekli teslimatı etkinleştirmek için kaynak kontrolü, oluşturma, test etme ve yayınlama süreçlerini optimize eder. Azure DevOps kendi içerisinde aşağıdaki kaynakları barındırmaktadır. Boards: İş planlama ve takip sistemidir. Ekiplerin görevlerini oluşturma, planlama ve raporlama işlemlerininin yapılmasını sağlar. Repos: Git veya Team Foundation Version Control (TFVC) tabanlı",
+      "url": "https://dev.to/suleymanakturk/azure-devops-nedir--2jjg",
+      "source": "Dev.to",
+      "author": "Suleyman",
+      "published": "2025-11-08T15:03:26+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": []
+    },
+    {
       "id": "400d06e6e9f822fd",
       "title": "The 7 Paid Subscriptions I Use in 2025 as a Freelance Software Developer",
       "description": "(And Why I Don’t Regret Paying for a Single One) Freelancing in tech is exciting—but it’s also chaotic. Between managing clients, writing clean code, building personal projects, and trying to market yourself, there’s a constant tug-of-war between creativity, productivity, and sanity. I’ve been freelancing as a software developer for the last few years, and 2025 has been the first year where I feel like my workflow finally clicked. Why? Because I invested in the right paid tools — not fancy gadge",
@@ -3544,17 +3560,18 @@
       ]
     },
     {
-      "id": "1c1e716c9662cb8d",
-      "title": "⚡Auto-Capture in XSLT Debugger",
-      "description": "The Auto-Capture feature in the XSLT Debugger automatically records variables, parameters, loops, and inline C# calls during XSLT execution — without any manual logging or code changes. 🔍 What It Does Automatically captures all variable values and expressions during runtime. Logs every inline C# (msxsl:script) method call with both arguments and return values. Displays real-time values in the Variables panel and traces them in the Debug Console. Provides a synchronized timeline between XSLT and ",
-      "url": "https://dev.to/imdj/auto-capture-in-xslt-debugger-5gb7",
+      "id": "62ec6be000d48b51",
+      "title": "🫱🏾‍🫲 Quality Experience: How to Introduce QA Practices to Your Organization",
+      "description": "🖥️ Whether your tech stack is brand new or teetering with age, any time is a good time to introduce Quality Assurance practices within your organization. What do I mean by QA practices? For this article, QA practices are defined by specific standards set within an organization that increase the product's efficiency, quality, and reduce communication confusion when bugs or defects are discovered during the development process. Wait, why didn’t you say “best practices”? I avoid the word “best” bec",
+      "url": "https://dev.to/jmosley/quality-experience-how-to-introduce-qa-practices-to-your-organization-1dg9",
       "source": "Dev.to",
-      "author": "Daniel Jonathan",
-      "published": "2025-11-01T14:52:54+00:00",
+      "author": "Judy Mosley",
+      "published": "2025-11-08T14:46:55+00:00",
       "niche": "dev",
-      "score": 51,
+      "score": 52,
       "keywords": [
-        "code"
+        "best practices",
+        "development"
       ]
     },
     {
@@ -4763,88 +4780,32 @@
       ]
     },
     {
-      "id": "06b55002e5a576d8",
-      "title": "Understanding Agent-Driven Healthcare Chatbots: A Detailed Guide",
-      "description": "What is an Agent-Driven Chatbot? An agent-driven chatbot is an intelligent conversational system that can handle tasks independently (like an \"agent\") but can also escalate complex issues to human agents when needed. Think of it as a smart assistant that knows its limits. Real-world analogy: Imagine a hospital receptionist who can answer most questions (appointment times, directions, basic health info) but calls a nurse or doctor for medical concerns. Breaking Down the Core Components 1. Convers",
-      "url": "https://dev.to/junaaid96/understanding-agent-driven-healthcare-chatbots-a-detailed-guide-k3",
+      "id": "efd82d5185645f9a",
+      "title": "Why Your AI Workflow Design Might Be Overcomplicated",
+      "description": "Why Your AI Workflow Design Might Be Overcomplicated Last month, I spent three days building what I thought was an elegant AI content generation pipeline. Multiple agents, orchestrated tasks, parallel processing—the works. Then I realized something embarrassing: my \"sophisticated\" workflow was doing the job of what could've been a 50-line script. Sound familiar? As AI tools become more accessible in 2025, I've noticed a weird trend among developers (myself included): we're building Rube Goldberg",
+      "url": "https://dev.to/lofcz/why-your-ai-workflow-design-might-be-overcomplicated-1hfb",
       "source": "Dev.to",
-      "author": "Md. Junaidul Islam",
-      "published": "2025-11-01T15:09:58+00:00",
+      "author": "Matěj Štágl",
+      "published": "2025-11-08T15:06:41+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
-      "id": "64a36f181d5f48b9",
-      "title": "How Andon Labs’ Robot Vacuum Reveals the Real AI Constraint (Hint: It’s Not Data or Computation)",
-      "description": "What if your robot vacuum suddenly cracked a Robin Williams joke? That’s not sci-fi. It’s what happened when Andon Labs embedded a large language model (LLM) into a consumer robot—pushing the boundaries of AI automation and exposing the harsh reality behind AI embodiment. The headline change? It’s not raw intelligence or data that’s holding us back. It’s how AIs move and perceive the real world. And the gap is much bigger than most AI engineers admit. ## The Embodiment Trap: LLMs Go From Cloud t",
-      "url": "https://dev.to/paul_allen_ccfde9d33a48d5/how-andon-labs-robot-vacuum-reveals-the-real-ai-constraint-hint-its-not-data-or-computation-2nh4",
+      "id": "a82be0672d84b809",
+      "title": "Rust Traits and Generics: Build Flexible Code Without Runtime Overhead",
+      "description": "As a best-selling author, I invite you to explore my books on Amazon. Don't forget to follow me on Medium and show your support. Thank you! Your support means the world! When I first started learning Rust, I struggled with how to make my code work with different types without duplicating logic. Then I discovered traits. Traits are like rules or contracts that types can agree to follow. If a type implements a trait, it promises to have certain behaviors. This lets me write functions that work wit",
+      "url": "https://dev.to/aaravjoshi/rust-traits-and-generics-build-flexible-code-without-runtime-overhead-3o1n",
       "source": "Dev.to",
-      "author": "Paul Allen",
-      "published": "2025-11-01T15:07:54+00:00",
+      "author": "Aarav Joshi",
+      "published": "2025-11-08T14:49:12+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "8d4311c27712321d",
-      "title": "A comprehensive guide to Map in Java",
-      "description": "In this post, we take a closer look at Maps in Java, examining each implementation of the Map interface 🔍. By the end, you'll have a clearer understanding of the use cases for each class—and when to use ✅ or avoid them 🙅‍♂️. A Map is an object that maps keys to values. A map cannot contain duplicate keys; each key can map to at most one value. The interface provides 3 collection views which allows it's contents to be viewed as: set of keys collection of values or set of key-value mappings The or",
-      "url": "https://dev.to/ehrbhein/a-comprehensive-guide-to-usage-of-map-in-java-10ja",
-      "source": "Dev.to",
-      "author": "Irvin Gil",
-      "published": "2025-11-01T15:03:45+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "aabc306ad6a3da72",
-      "title": "Quantum Leaps in Finance: Optimizing Collateral with Quantum-Inspired AI",
-      "description": "Quantum Leaps in Finance: Optimizing Collateral with Quantum-Inspired AI Tired of inefficient and complex financial models that struggle to handle real-world constraints? Imagine a future where collateral management, a cornerstone of financial stability, is supercharged by the power of quantum-inspired algorithms. The key is to blend the analytical prowess of AI with the optimization capabilities inspired by quantum computing. At its heart, this approach uses a hybrid system. First, an AI, simil",
-      "url": "https://dev.to/arvind_sundararajan/quantum-leaps-in-finance-optimizing-collateral-with-quantum-inspired-ai-2hko",
-      "source": "Dev.to",
-      "author": "Arvind SundaraRajan",
-      "published": "2025-11-01T15:02:08+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "5cf631ea8a000a3b",
-      "title": "Saga Pattern: Consistência de Dados em Microsserviços de Verdade",
-      "description": "Bora falar de Sagas? Garantir consistência de dados em sistemas distribuídos é, sem exagero, um dos maiores perrengues que a gente enfrenta quando entra no mundo dos microsserviços. É tipo tentar manter várias bandas tocando juntas sem maestro — cada uma no seu ritmo, mas tudo tem que soar em harmonia. E é aí que entra o Saga Pattern: um jeito moderno e bem pragmático de coordenar serviços diferentes, sem perder escalabilidade nem resiliência. 🤔 Por que a gente precisa de Sagas? Num monolito, a ",
-      "url": "https://dev.to/filipi_firmino_dev/saga-pattern-consistencia-de-dados-em-microsservicos-de-verdade-4h34",
-      "source": "Dev.to",
-      "author": "Filipi Firmino",
-      "published": "2025-11-01T14:48:41+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "42e89da975ff0674",
-      "title": "Why I Built LogTaskr: The Search for Simpler Productivity",
-      "description": "Most productivity apps promise efficiency — but end up creating friction. Too many features, too many clicks, too much noise. I built LogTaskr because I wanted a task manager that helps you think less and do more. 🧠 The Problem with Modern Productivity Tools I’ve always loved experimenting with productivity systems. Notion, Todoist, ClickUp — you name it, I’ve tried it. But over time, I noticed something ironic: the more tools I used, the less productive I became. Why? Because I spent more time ",
-      "url": "https://dev.to/vjygour/why-i-built-logtaskr-the-search-for-simpler-productivity-lf",
-      "source": "Dev.to",
-      "author": "Vijay Kumar",
-      "published": "2025-11-01T14:46:43+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "1440dd4edd9ea0a7",
-      "title": "I built a free PowerShell tool to fix common Windows 11 issues (BSOD, network, audio, login, updates)",
-      "description": "🛠️ Windows SOS – A Free Troubleshooting Script for Windows 11 Hey Devs 👋 I’ve built something I wish existed years ago: a modular, interactive PowerShell script that helps users fix the most common Windows 11 issues — without needing to be a tech expert. Introducing Windows SOS, a free and open-source troubleshooting tool that covers: ⚠️ BSOD (Blue Screen of Death) 🌐 Network issues 🔄 Windows Update failures 🔇 Audio problems 🔐 Login and PIN errors It’s designed to be simple, readable, and expanda",
-      "url": "https://dev.to/mentalistops/i-built-a-free-powershell-tool-to-fix-common-windows-11-issues-bsod-network-audio-login-5dfm",
-      "source": "Dev.to",
-      "author": "MentalistOps",
-      "published": "2025-11-01T14:46:17+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "35cc0708e3a33098",
@@ -7979,18 +7940,52 @@
       "keywords": []
     },
     {
-      "id": "e91c1b34424de704",
-      "title": "Abandonware of the web: do you know that there is an HTML tables API?",
-      "description": "Comments",
-      "url": "https://christianheilmann.com/2025/10/08/abandonware-of-the-web-do-you-know-that-there-is-an-html-tables-api/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-01T12:58:21+00:00",
+      "id": "9ba811d49925a467",
+      "title": "Unlocking Out-of-Distribution Generalization in Transformers via RecursiveLatent Space Reasoning",
+      "description": "How AI Learns to Think Outside the Box What if your phone could solve a puzzle it has never seen before? Scientists discovered a clever trick that lets modern AI models, the same kind that power chatbots, handle brand‑new problems without extra training. By giving the model a hidden “scratch‑pad” to work on, it can break down a tough question into tiny steps, check its own work, and even correct mistakes on the fly—much like a student using a notebook to solve a math problem they’ve never practi",
+      "url": "https://dev.to/paperium/unlocking-out-of-distribution-generalization-in-transformers-via-recursivelatent-space-reasoning-3cc5",
+      "source": "Dev.to",
+      "author": "Paperium",
+      "published": "2025-11-08T15:10:34+00:00",
       "niche": "dev",
-      "score": 48,
-      "keywords": [
-        "API"
-      ]
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "507d9e9991fa4643",
+      "title": "Kim Kardashian calls ChatGPT her frenemy after failing legal exams due to AIadvice",
+      "description": "Kim Kardashian's AI Legal Mishap: A \\\"Frenemy\\\" Forewarning\\n\\nIn a candid revelation that has sparked conversations across the tech and legal worlds, reality TV star and aspiring lawyer Kim Kardashian recently opened up about her relationship with generative AI, specifically ChatGPT. Her verdict? It's a \\\"frenemy,\\\" a label she assigned after the AI's advice reportedly contributed to her failing legal exams. This surprising admission from a high-profile individual highlights a critical, emergin",
+      "url": "https://dev.to/ytosko/kim-kardashian-calls-chatgpt-her-frenemy-after-failing-legal-exams-due-to-aiadvice-10gl",
+      "source": "Dev.to",
+      "author": "Saiki Sarkar",
+      "published": "2025-11-08T15:01:11+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "e8783c3a5abd1470",
+      "title": "'머신러닝 시스템 설계' (Chip Huyen) 요약 - 파트 2",
+      "description": "책 머신러닝 시스템 설계과 그에 대한 요약본 Summary of Designing Machine Learning Systems을 참고하였습니다. 6 - 모델 개발 및 오프라인 평가 초기 학습 피처 세트가 준비되면, 드디어 모델 개발을 시작할 수 있습니다. 피처 엔지니어링과 모델 개발은 반복적인 과정임을 명심하십시오. 이 장에서는 다음 내용을 다룹니다. 모델 선택, 개발 및 학습 ML 모델 선택 기준 모델 선택의 일부로서의 앙상블(Ensembles) 모델 개발 중 실험 추적 및 버전 관리 ML 모델 디버깅 분산 학습 모드: 데이터 병렬성, 모델 병렬성, 파이프라인 병렬성 AutoML: 자동 하이퍼파라미터 튜닝, 자동 아키텍처 탐색, 학습된 옵티마이저 오프라인 평가: 최상의 모델을 선택하기 위해 모델 대안을 평가하는 방법 베이스라인: 모델을 비교할 대상이 필요합니다. 전반적인 ML 지표를 넘어서는 오프라인 평가 방법: 프로덕션에 보내기 전에 모델의 견고성(robustness), 공정성(",
+      "url": "https://dev.to/bits-bytes-nn/meosinreoning-siseutem-seolgye-chip-huyen-yoyag-pateu-2-39hm",
+      "source": "Dev.to",
+      "author": "Jonas Kim",
+      "published": "2025-11-08T14:54:16+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "db3a9d6f70da72b6",
+      "title": "DataDog Interview Experience | Full Review from Coding to System Design",
+      "description": "Recently, one of our students landed a DataDog offer, and I helped him review the entire interview process. To be honest, the interview was more engineering-oriented than pure algorithmic — DataDog really values your system thinking and ability to reason through design trade-offs. Here’s a full breakdown of what happened and how we prepared for it. Interview Process Overview The overall process had four stages, and the timeline was quite fast: Recruiter Screen – background chat, availability, an",
+      "url": "https://dev.to/net_programhelp_e160eef28/datadog-interview-experience-full-review-from-coding-to-system-design-2572",
+      "source": "Dev.to",
+      "author": "net programhelp",
+      "published": "2025-11-08T14:50:09+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
     },
     {
       "id": "cc1af18d555e459c",
@@ -8367,42 +8362,6 @@
       "keywords": [
         "tutorial"
       ]
-    },
-    {
-      "id": "e131ae34d26000e3",
-      "title": "arXiv No Longer Accepts Computer Science Position or Review Papers Due to LLMs",
-      "description": "Comments",
-      "url": "https://blog.arxiv.org/2025/10/31/attention-authors-updated-practice-for-review-articles-and-position-papers-in-arxiv-cs-category/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-01T14:58:05+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "39780acd9e8e614b",
-      "title": "SQLite concurrency and why you should care about it",
-      "description": "Comments",
-      "url": "https://jellyfin.org/posts/SQLite-locking/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-01T12:59:03+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "4dedce9d0f7e0285",
-      "title": "Updated practice for review articles and position papers in ArXiv CS category",
-      "description": "Comments",
-      "url": "https://blog.arxiv.org/2025/10/31/attention-authors-updated-practice-for-review-articles-and-position-papers-in-arxiv-cs-category/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-01T14:58:05+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "759405a5a8cb4425",
@@ -10289,6 +10248,42 @@
       "keywords": []
     },
     {
+      "id": "8b2240cb395ca21c",
+      "title": "Why hasn't there been a new major sports league?",
+      "description": "Comments",
+      "url": "https://humaninvariant.substack.com/p/why-hasnt-there-been-a-new-major",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-08T13:36:30+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "4d3fe88b88955107",
+      "title": "AI benchmarks are a bad joke – and LLM makers are the ones laughing",
+      "description": "Comments",
+      "url": "https://www.theregister.com/2025/11/07/measuring_ai_models_hampered_by/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-08T14:18:22+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "e4e2160435ae3e4a",
+      "title": "Sam Altman Is Getting Desperate and It Is Starting to Show",
+      "description": "Comments",
+      "url": "https://tickerfeed.net/articles/sam-altman-reeks-of-desperation",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-08T14:52:26+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "78c4b08725d5f56b",
       "title": "React 19 Upgrade Guide",
       "description": "The improvements added to React 19 require some breaking changes, but we've worked to make the upgrade as smooth as possible and we don't expect the changes to impact most apps. In this post, we will guide you through the steps for upgrading apps and libraries to React 19.",
@@ -10367,8 +10362,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "React 19",
-        "performance"
+        "performance",
+        "React 19"
       ]
     },
     {
@@ -10614,9 +10609,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "React 19",
         "API",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -10700,8 +10695,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -10874,11 +10869,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
+        "code",
         "framework",
         "performance",
         "API",
-        "release",
-        "code"
+        "release"
       ]
     },
     {
@@ -11090,9 +11085,9 @@
       "niche": "dev",
       "score": 25,
       "keywords": [
+        "framework",
         "release",
-        "Angular",
-        "framework"
+        "Angular"
       ]
     },
     {
@@ -11174,9 +11169,9 @@
       "niche": "dev",
       "score": 22,
       "keywords": [
-        "development",
         "performance",
-        "release"
+        "release",
+        "development"
       ]
     },
     {
@@ -11217,8 +11212,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "framework"
+        "framework",
+        "release"
       ]
     },
     {
@@ -11232,8 +11227,8 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "developer",
         "code",
+        "developer",
         "performance"
       ]
     },
@@ -11279,9 +11274,9 @@
       "niche": "dev",
       "score": 18,
       "keywords": [
-        "development",
+        "code",
         "developer",
-        "code"
+        "development"
       ]
     },
     {
@@ -11337,8 +11332,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "development",
-        "developer"
+        "developer",
+        "development"
       ]
     },
     {
@@ -11592,6 +11587,30 @@
       "keywords": []
     },
     {
+      "id": "3a7bc259acfa4868",
+      "title": "Friendly attributes pattern in Ruby",
+      "description": "Comments",
+      "url": "https://brunosutic.com/blog/ruby-friendly-attributes-pattern",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-02T19:02:04+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "814186e962c24678",
+      "title": "Dark mode by local sunlight (2021)",
+      "description": "Comments",
+      "url": "https://www.ctnicholas.dev/articles/dark-mode-by-sunlight",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-03T15:15:12+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
       "id": "3559bf5fa3c3b21e",
       "title": "Getting Creative With Small Screens",
       "description": "On mobile, people can lose their sense of context and can’t easily tell where a section begins or ends. Good small-screen design can help orient them using a variety of techniques. Getting Creative With Small Screens originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
@@ -11734,8 +11753,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "development",
-        "programming"
+        "programming",
+        "development"
       ]
     },
     {
