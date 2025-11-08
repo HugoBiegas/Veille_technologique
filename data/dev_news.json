@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-11-08T09:22:22.451549+00:00",
-  "total_articles": 973,
+  "last_updated": "2025-11-08T12:44:15.175602+00:00",
+  "total_articles": 976,
   "articles": [
     {
       "id": "bf238a77286f451e",
@@ -333,6 +333,20 @@
       ]
     },
     {
+      "id": "e77be187055300b1",
+      "title": "Migrating from RxJS to Angular Signals — A Real-World Perspective from a Frontend Lead",
+      "description": "“Signals don’t replace RxJS — but they definitely reshape how we think about reactivity in Angular.” When Angular introduced Signals in v16, many teams (including ours) faced the same question: Should we migrate our existing RxJS-based state and component logic to Signals? As a Lead Frontend Engineer working with large Angular applications, I’ve gone through that transition — and in this post, I’ll share what we learned, what we changed, and what we kept. 🔍 Why Signals? RxJS has been the heart o",
+      "url": "https://dev.to/amrita_19599ff03c75151c80/migrating-from-rxjs-to-angular-signals-a-real-world-perspective-from-a-frontend-lead-dg8",
+      "source": "Dev.to",
+      "author": "Amrita",
+      "published": "2025-11-08T12:36:39+00:00",
+      "niche": "dev",
+      "score": 72,
+      "keywords": [
+        "Angular"
+      ]
+    },
+    {
       "id": "23315dd6c41ad179",
       "title": "⚡ Supercharging GitHub Actions CI: From Slow to Lightning Fast with Turbo Caching",
       "description": "How we optimized our monorepo CI pipeline and reduced build times by 70% using smart caching strategies 🐌 The Problem: Slow CI is a Developer Productivity Killer Picture this: You're working on a critical feature for your React monorepo. You push your changes, create a pull request, and then... you wait. And wait. Your GitHub Actions CI takes 8-10 minutes to run lint and build checks, grinding your development flow to a halt. This was exactly our situation with our @atomicworkhq/atomic-ui monore",
@@ -474,18 +488,6 @@
       ]
     },
     {
-      "id": "6ffc60e3c47c4f64",
-      "title": "Reactive Tree Management in Nuxt 4: How I Modeled Complex Hierarchies with Pinia",
-      "description": "When I started building Alexandrie, I just wanted a fast, offline Markdown note-taking app I could rely on daily. But as the project grew — with nested categories, shared workspaces, and access permissions — it evolved into something much more: a open-source knowledge management platform powered by Nuxt 4 and Go. This article walks through one of the toughest challenges I faced: how to model and manage hierarchical data efficiently, from the database to a reactive Pinia store. 1. Unified Data Mo",
-      "url": "https://dev.to/smaug6739/reactive-tree-management-in-nuxt-4-how-i-modeled-complex-hierarchies-with-pinia-2m8f",
-      "source": "Dev.to",
-      "author": "Smaug#6739",
-      "published": "2025-11-01T12:17:22+00:00",
-      "niche": "dev",
-      "score": 68,
-      "keywords": []
-    },
-    {
       "id": "446c22e3fb4433e0",
       "title": "Real-World Distributed Tracing: Java, OpenTelemetry, and Google Cloud Trace in Production",
       "description": "Deep Dive into Google Cloud Tracing for Java: A Production-Ready Implementation Guide Distributed tracing has transformed from an operational luxury to a fundamental requirement for understanding production systems. Over the years, I've debugged countless incidents where proper trace instrumentation made the difference between resolving an issue in minutes versus hours of correlation work across fragmented logs. Google Cloud Trace, now deeply integrated with OpenTelemetry standards, has undergon",
@@ -625,6 +627,30 @@
       "source": "Dev.to",
       "author": "Kiyamov-Bulat",
       "published": "2025-11-08T08:58:41+00:00",
+      "niche": "dev",
+      "score": 68,
+      "keywords": []
+    },
+    {
+      "id": "b8dcd207bb036c12",
+      "title": "Data Cleaning Challenge with Pandas (Google Colab)",
+      "description": "Data Cleaning Challenge with Pandas (Google Colab) Data cleaning is one of the most crucial steps in any data science or analytics project. In this challenge, I worked on a real-world dataset from Kaggle with over 100,000 rows, performing various Pandas operations to clean, preprocess, and prepare it for further analysis. Dataset Details For this challenge, I selected the E-commerce Sales Dataset from Kaggle containing around 120,000 rows and 12 columns. It includes data such as: 🧾 Order ID 👤 Cu",
+      "url": "https://dev.to/abhishek_nm_d45c9eb975fe/data-cleaning-challenge-with-pandas-google-colab-4pfa",
+      "source": "Dev.to",
+      "author": "ABHISHEK N M",
+      "published": "2025-11-08T12:38:53+00:00",
+      "niche": "dev",
+      "score": 68,
+      "keywords": []
+    },
+    {
+      "id": "1b23788bff5ed406",
+      "title": "layout-manager-react: Highly Customizable React Layout Manager",
+      "description": "I built layout-manager-react for React apps that need flexible, real-time, and resizable layouts — perfect for dashboards, trading platforms, and IDEs. ✨ Key Features Flexbox-based layout system for responsive panels Drag & drop with 4 drop zones (center, left, right, top/bottom) Resizable tabsets with splitters RTL/LTR direction support Persistent state with localStorage and debouncing Tab closing, restoration, and reordering Custom close icons for tabs Component restoration system Tab selectio",
+      "url": "https://dev.to/ashkan_hooshidar_c507d1ef/layout-manager-react-highly-customizable-react-layout-manager-1i3f",
+      "source": "Dev.to",
+      "author": "ashkan hooshidar",
+      "published": "2025-11-08T12:19:24+00:00",
       "niche": "dev",
       "score": 68,
       "keywords": []
@@ -1062,23 +1088,6 @@
       ]
     },
     {
-      "id": "6c53976e42e0342a",
-      "title": "Web Developer Travis McCracken on Async Queues in Rust vs Python",
-      "description": "Harnessing the Power of Rust and Go for Backend Development: Insights from Web Developer Travis McCracken Hello, fellow developers! I’m Web Developer Travis McCracken, and today I want to dive into the fascinating world of backend development, particularly focusing on how Rust and Go are transforming the way we build robust, high-performance APIs. Over the years, I've explored various technologies, but Rust and Go have consistently stood out as game-changers for backend engineers looking for spe",
-      "url": "https://dev.to/travis-mccracken-dev/web-developer-travis-mccracken-on-async-queues-in-rust-vs-python-2oca",
-      "source": "Dev.to",
-      "author": "Travis McCracken Web Developer",
-      "published": "2025-11-01T12:17:03+00:00",
-      "niche": "dev",
-      "score": 60,
-      "keywords": [
-        "performance",
-        "development",
-        "API",
-        "developer"
-      ]
-    },
-    {
       "id": "92124662ca33c56f",
       "title": "[Boost]",
       "description": "Laravel API Development: RESTful Best Practices for 2025 Hafiz ・ Oct 29 #laravel #restapi #apidevelopment #php",
@@ -1111,6 +1120,20 @@
         "API",
         "development",
         "developer"
+      ]
+    },
+    {
+      "id": "6569e21cb15dc3ae",
+      "title": "Valdi – A cross-platform UI framework",
+      "description": "Comments",
+      "url": "https://github.com/Snapchat/Valdi",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-08T00:14:50+00:00",
+      "niche": "dev",
+      "score": 60,
+      "keywords": [
+        "framework"
       ]
     },
     {
@@ -1158,6 +1181,22 @@
       "keywords": [
         "developer",
         "performance",
+        "release"
+      ]
+    },
+    {
+      "id": "369a92a664ed331f",
+      "title": "apimock-rs 4.4.0 is released: HTTPS is now supported",
+      "description": "apimock-rs is a developer-friendly, featherlight and functional HTTP(S) mock server built in Rust. We are happy to announce HTTPS is now supported after much effort made :) https://apimokka.github.io/apimock-rs/user-guide/getting-started/https-support.html",
+      "url": "https://dev.to/nabbisen/apimock-rs-440-is-released-https-is-now-supported-291e",
+      "source": "Dev.to",
+      "author": "nabbisen",
+      "published": "2025-11-08T12:21:25+00:00",
+      "niche": "dev",
+      "score": 58,
+      "keywords": [
+        "API",
+        "developer",
         "release"
       ]
     },
@@ -2100,17 +2139,18 @@
       ]
     },
     {
-      "id": "24770357368ff499",
-      "title": "Build a Telegram Bot with ESP32-CAM for Remote Image & Video Capture",
-      "description": "Introduction In this post, I’ll walk you through how to build a wireless image/video capture system using the ESP32‑CAM (AI-Thinker version) and the Telegram Bot API. The goal is to enable remote control of a camera module via Telegram commands—snap a photo, record a short video, and have the bot send it directly to your chat. Whether you’re prototyping an IoT surveillance node, a workshop camera, or simply exploring remote monitoring, this engineer-friendly guide delivers a precise, descriptive",
-      "url": "https://dev.to/messin_tom/build-a-telegram-bot-with-esp32-cam-for-remote-image-video-capture-4949",
+      "id": "536798d2eacba6cc",
+      "title": "Building an AWS Daily Helper Assistant with Strands Agents and Bedrock AgentCore",
+      "description": "Introduction Managing AWS infrastructure can be overwhelming, especially when you're juggling multiple services, trying to optimize costs, and ensuring security best practices. What if you had an AI assistant that could help you with these daily AWS tasks? In this blog post, I'll walk you through how I built an intelligent AWS helper using the Strands Agents framework and deployed it to AWS Bedrock AgentCore. Why Build This? As someone who works with AWS regularly, I found myself repeatedly sear",
+      "url": "https://dev.to/aws-builders/building-an-aws-daily-helper-assistant-with-strands-agents-and-bedrock-agentcore-2290",
       "source": "Dev.to",
-      "author": "Messin",
-      "published": "2025-11-01T12:15:56+00:00",
+      "author": "Venkata Pavan Vishnu Rachapudi",
+      "published": "2025-11-08T12:09:20+00:00",
       "niche": "dev",
-      "score": 54,
+      "score": 55,
       "keywords": [
-        "API"
+        "best practices",
+        "framework"
       ]
     },
     {
@@ -3504,20 +3544,6 @@
       ]
     },
     {
-      "id": "a5c18b98f7487ca7",
-      "title": "Daily Dev Challenges - Day 01 🚀",
-      "description": "Day 1 — In-Memory Cache with TTL I’ve started a daily challenge to improve my skills as a developer. Today marks Day 1 of the challenge, where I worked on implementing an In-Memory Cache with TTL. You can check out my solution here: 🔗 GitHub Repository 🧠 What I Learned Singleton classes Thread-safe execution LRU cache design Using OrderedDict in Python A solid start to this learning journey — excited for what’s next! 💪",
-      "url": "https://dev.to/kevinrawal/daily-dev-challenges-day-01-5fl6",
-      "source": "Dev.to",
-      "author": "kevinrawal",
-      "published": "2025-11-01T12:36:02+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "developer"
-      ]
-    },
-    {
       "id": "1c1e716c9662cb8d",
       "title": "⚡Auto-Capture in XSLT Debugger",
       "description": "The Auto-Capture feature in the XSLT Debugger automatically records variables, parameters, loops, and inline C# calls during XSLT execution — without any manual logging or code changes. 🔍 What It Does Automatically captures all variable values and expressions during runtime. Logs every inline C# (msxsl:script) method call with both arguments and return values. Displays real-time values in the Variables panel and traces them in the Debug Console. Provides a synchronized timeline between XSLT and ",
@@ -4709,66 +4735,32 @@
       ]
     },
     {
-      "id": "9d005ba6e08648c8",
-      "title": "Check out the guide on - The Art of Tableau Performance Optimization: How Smart Logic Reduced a Dashboard Load Time by 98.9%",
-      "description": "The Art of Tableau Performance Optimization: How Smart Logic Reduced a Dashboard Load Time by 98.9% Dipti Moryani ・ Nov 1",
-      "url": "https://dev.to/dipti_moryani_185c244d578/check-out-the-guide-on-the-art-of-tableau-performance-optimization-how-smart-logic-reduced-a-j41",
+      "id": "ef07fd6a5ca1c053",
+      "title": "Python basics - Day 22",
+      "description": "Day 22 – OOP Basics: Class & Object Project: Build a “Student Management App” using Python classes and objects. 01. Learning Goal By the end of this lesson, you will be able to: Understand the core idea of Object-Oriented Programming (OOP) Define a class and create objects (instances) Use attributes and methods effectively Understand how the __init__() constructor works 02. Problem Scenario Imagine you’re building a system to manage students in a school. Each student has a name, an age, and the ",
+      "url": "https://dev.to/ian_b838138a27a917398d181/python-basics-day-22-35i",
       "source": "Dev.to",
-      "author": "Dipti Moryani",
-      "published": "2025-11-01T12:39:14+00:00",
+      "author": "Sabin Sim",
+      "published": "2025-11-08T12:10:53+00:00",
       "niche": "dev",
-      "score": 50,
+      "score": 51,
       "keywords": [
-        "performance"
+        "programming"
       ]
     },
     {
-      "id": "e6ae9b3432964899",
-      "title": "🧠 Inside an AI’s Brain: What Data Scientists Can Learn from Neuroscience",
-      "description": "Ever notice how neural networks look suspiciously like brains? That’s no coincidence. AI didn’t just invent intelligence — it borrowed it from biology. Let’s pop the hood on both brains — the human one and the artificial one — and see what data scientists can actually learn from the OG neural network: the human mind. 🧩 The Brain — Nature’s Original Neural Net The human brain is basically the world’s most advanced pattern recognition engine. Every thought, decision, and memory is just electrical ",
-      "url": "https://dev.to/sanskruti_sugandhi/inside-an-ais-brain-what-data-scientists-can-learn-from-neuroscience-2467",
+      "id": "3a36f990e18adc69",
+      "title": "# 🏗️ Understanding Go Project Structure (Without Losing Your Mind)",
+      "description": "**Assalamu Alaikum and welcome! 👋 **Ready to dive deeper into the world of Go programming? If you've opened a Go project before and felt lost among main.go, utils.go, handlers.go, and a mysterious go.mod, don’t worry. This article will guide you step by step, with a few laughs along the way 😁. ## 🧩 The Big Picture: How Go Keeps It Clean ** Go 1.22.5 continues to enforce neat project organization. Messy folders? Scattered files? Not on Go's watch. Every Go project usually follows a clear structur",
+      "url": "https://dev.to/ahmed112/-understanding-go-project-structure-without-losing-your-mind-4fm4",
       "source": "Dev.to",
-      "author": "Sanskruti Sugandhi",
-      "published": "2025-11-01T12:17:12+00:00",
+      "author": "Ahmed Alasser",
+      "published": "2025-11-08T12:08:43+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "3820676fb33fc427",
-      "title": "Learning Elixir: Ranges",
-      "description": "Ranges are like bookmarks that mark the start and end of a sequence without actually writing down every number in between. I like to think of a range as a smart recipe that knows how to generate numbers on demand - 1..100 doesn't store all 100 numbers in memory, it just remembers \"start at 1, end at 100, count by 1s.\" This lazy approach makes ranges incredibly memory-efficient, whether you're working with small sequences like 1..5 or massive ones like 1..1_000_000. Unlike lists that explicitly s",
-      "url": "https://dev.to/abreujp/learning-elixir-ranges-1iia",
-      "source": "Dev.to",
-      "author": "João Paulo Abreu",
-      "published": "2025-11-01T12:16:35+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "b2387b54ddd72deb",
-      "title": "Ringer Movies: ‘Halloween II’ With Bill Simmons, Chris Ryan, and Van Lathan",
-      "description": "‘Halloween II’ Rewatch Breakdown Bill Simmons, Chris Ryan, and Van Lathan dive into the 1981 return of Michael Myers in Halloween II, questioning if Myers is the ultimate horror movie villain, sharing their most rewatchable scenes, and debating fun custom categories—all neatly timestamped from the cold open (00:00) to category rundowns (55:51). Along the way they sprinkle in shout-outs to sponsors and must-see streaming picks—Paramount+’s Mountain of Movies®, Netflix’s A House of Dynamite—plus a",
-      "url": "https://dev.to/popcorn_movies/ringer-movies-halloween-ii-with-bill-simmons-chris-ryan-and-van-lathan-1g60",
-      "source": "Dev.to",
-      "author": "Movie News",
-      "published": "2025-11-01T12:12:40+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "3a505a3946253739",
-      "title": "CinemaSins: Everything Wrong With Sinners In 15 Minutes Or Less",
-      "description": "Everything Wrong With Sinners In 15 Minutes Or Less is CinemaSins’ tongue-in-cheek Halloween special, where they “sin” one of the greatest genre films of all time in just quarter of an hour. Expect fast-paced nitpicking, the usual pop-culture jokes and a few spooky surprises. Alongside the video, they share all the ways to keep up with CinemaSins—visit their website, follow @TVSins, @commercialsins and @cinemasinspodcastnetwork on YouTube, join the Discord or Reddit, fill out a poll, and even su",
-      "url": "https://dev.to/popcorn_movies/cinemasins-everything-wrong-with-sinners-in-15-minutes-or-less-273d",
-      "source": "Dev.to",
-      "author": "Movie News",
-      "published": "2025-11-01T12:12:18+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "programming"
+      ]
     },
     {
       "id": "06b55002e5a576d8",
@@ -7951,6 +7943,42 @@
       "keywords": []
     },
     {
+      "id": "c7e36d5974b637c3",
+      "title": "I hacked time in Chrome for a demo video",
+      "description": "How I made Chrome believe a full workday passed in seconds to record a Timesheetr demo video. I wanted to demo how easy it is to add entries to Timesheetr, use the keyboard shortcuts, and basically show how it would be used throughout the day to track timesheets. Problem: I couldn't just wait for the whole day to pass and screen-capture the process over 8 hours. So I had to make Chrome think that time had changed in between my timesheet entries. See, when you add an entry in Timesheetr, it autom",
+      "url": "https://dev.to/xraytangooscar/i-hacked-time-in-chrome-for-a-demo-video-lg7",
+      "source": "Dev.to",
+      "author": "X-ray Tango",
+      "published": "2025-11-08T12:30:52+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "1da3e5add51b5446",
+      "title": "How to Set Up AWS Cost Explorer (and Why It’s Not Enough)",
+      "description": "Managing AWS spend starts with visibility — and AWS Cost Explorer is often the first tool teams reach for. It’s powerful, free to start, and gives you a high-level view of where your money goes. But here’s the truth most startups discover later: Cost Explorer shows you what you spent, not why you spent it. This guide walks through how to set it up properly — and what gaps you’ll still face after. Step 1: Enable Cost Explorer Go to: AWS Console → Billing → Cost Explorer → Launch Cost Explorer → E",
+      "url": "https://dev.to/cloudwiseteam/how-to-set-up-aws-cost-explorer-and-why-its-not-enough-45hg",
+      "source": "Dev.to",
+      "author": "CloudWise Team",
+      "published": "2025-11-08T12:16:45+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "d3ea6edd25b66ae6",
+      "title": "Pair-Coding CleanIt.Now with AI on Cloudflare Workers",
+      "description": "After building a tiny Flutter offline timer \"Kvart\" (it got about 73 downloads so far!), I've set into building a fully functional fullstack web application in a few evenings next. How and why I switched to building AI assisted free microapps is a whole another story that can be narrowed down to me underestimating the amount of effort my beloved Hounty takes and looking for ways to iterate and test ideas faster. I'm pretty sure that services like Lovable or Cloudflare's own platform would allow ",
+      "url": "https://dev.to/valeriavg/pair-coding-cleanitnow-with-ai-on-cloudflare-workers-2967",
+      "source": "Dev.to",
+      "author": "Valeria",
+      "published": "2025-11-08T12:10:39+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "e91c1b34424de704",
       "title": "Abandonware of the web: do you know that there is an HTML tables API?",
       "description": "Comments",
@@ -8103,18 +8131,6 @@
       "keywords": [
         "developer"
       ]
-    },
-    {
-      "id": "3d86134422d2cacd",
-      "title": "Check out the guide on - Mastering Principal Component Analysis (PCA) in R: A Complete Guide from Basics to Business Insights",
-      "description": "Mastering Principal Component Analysis (PCA) in R: A Complete Guide from Basics to Business Insights Dipti ・ Nov 1",
-      "url": "https://dev.to/thedatageek/check-out-the-guide-on-mastering-principal-component-analysis-pca-in-r-a-complete-guide-from-1kjg",
-      "source": "Dev.to",
-      "author": "Dipti",
-      "published": "2025-11-01T12:19:00+00:00",
-      "niche": "dev",
-      "score": 46,
-      "keywords": []
     },
     {
       "id": "97f00c4f81026d34",
@@ -10249,6 +10265,30 @@
       "keywords": []
     },
     {
+      "id": "a582bcbe1ff72119",
+      "title": "My friends and I accidentally faked the Ryzen 7 9700X3D leaks",
+      "description": "Comments",
+      "url": "https://old.reddit.com/r/pcmasterrace/comments/1orc6jl/my_friends_and_i_accidentally_faked_the_ryzen_7/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-08T11:27:56+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "1633a956f3a14136",
+      "title": "Cekura (YC F24) Is Hiring",
+      "description": "Comments",
+      "url": "https://news.ycombinator.com/item?id=45856069",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-08T12:00:50+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "78c4b08725d5f56b",
       "title": "React 19 Upgrade Guide",
       "description": "The improvements added to React 19 require some breaking changes, but we've worked to make the upgrade as smooth as possible and we don't expect the changes to impact most apps. In this post, we will guide you through the steps for upgrading apps and libraries to React 19.",
@@ -10357,8 +10397,8 @@
       "score": 40,
       "keywords": [
         "API",
-        "release",
-        "developer"
+        "developer",
+        "release"
       ]
     },
     {
@@ -10574,8 +10614,8 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "API",
         "React 19",
+        "API",
         "release"
       ]
     },
@@ -10834,11 +10874,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "API",
+        "framework",
         "performance",
-        "code",
+        "API",
         "release",
-        "framework"
+        "code"
       ]
     },
     {
@@ -11050,9 +11090,9 @@
       "niche": "dev",
       "score": 25,
       "keywords": [
-        "framework",
         "release",
-        "Angular"
+        "Angular",
+        "framework"
       ]
     },
     {
@@ -11135,8 +11175,8 @@
       "score": 22,
       "keywords": [
         "development",
-        "release",
-        "performance"
+        "performance",
+        "release"
       ]
     },
     {
@@ -11177,8 +11217,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "framework",
-        "release"
+        "release",
+        "framework"
       ]
     },
     {
@@ -11193,8 +11233,8 @@
       "score": 20,
       "keywords": [
         "developer",
-        "performance",
-        "code"
+        "code",
+        "performance"
       ]
     },
     {
@@ -11209,8 +11249,8 @@
       "score": 19,
       "keywords": [
         "API",
-        "release",
-        "developer"
+        "developer",
+        "release"
       ]
     },
     {
