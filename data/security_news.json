@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-11-09T15:20:57.306733+00:00",
-  "total_articles": 393,
+  "last_updated": "2025-11-09T18:30:20.201209+00:00",
+  "total_articles": 390,
   "articles": [
     {
       "id": "f5e6014af2fc1587",
@@ -1104,19 +1104,17 @@
       ]
     },
     {
-      "id": "dea09a26d46a8c7e",
-      "title": "Scans for Port 8530/8531 (TCP). Likely related to WSUS Vulnerability CVE-2025-59287, (Sun, Nov 2nd)",
-      "description": "Sensors reporting firewall logs detected a significant increase in scans for port 8530/TCP and 8531/TCP over the course of last week. Some of these reports originate from Shadowserver, and likely other researchers, but there are also some that do not correspond to known research-related IP addresses.&#xd;",
-      "url": "https://isc.sans.edu/diary/rss/32440",
-      "source": "SANS Internet Storm Center",
-      "author": "Inconnu",
-      "published": "2025-11-02T17:50:48+00:00",
+      "id": "272ce00288e06934",
+      "title": "Dangerous runC flaws could allow hackers to escape Docker containers",
+      "description": "Three newly disclosed vulnerabilities in the runC container runtime used in Docker and Kubernetes could be exploited to bypass isolation restrictions and get access to the host system. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/dangerous-runc-flaws-could-allow-hackers-to-escape-docker-containers/",
+      "source": "Bleeping Computer",
+      "author": "Bill Toulas",
+      "published": "2025-11-09T10:11:12-05:00",
       "niche": "security",
-      "score": 75,
+      "score": 76,
       "keywords": [
-        "vulnerability",
-        "CVE-",
-        "firewall"
+        "exploit"
       ]
     },
     {
@@ -1285,6 +1283,21 @@
       "keywords": [
         "threat",
         "attack"
+      ]
+    },
+    {
+      "id": "d4aa96deb650a16a",
+      "title": "Lost iPhone? Don’t fall for phishing texts saying it was found",
+      "description": "The Swiss National Cyber Security Centre (NCSC) is warning iPhone owners about a phishing scam that claims to have found your lost or stolen iPhone but is actually trying to steal your Apple ID credentials. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/lost-iphone-dont-fall-for-phishing-texts-saying-it-was-found/",
+      "source": "Bleeping Computer",
+      "author": "Lawrence Abrams",
+      "published": "2025-11-09T10:12:22-05:00",
+      "niche": "security",
+      "score": 75,
+      "keywords": [
+        "phishing",
+        "security"
       ]
     },
     {
@@ -1685,6 +1698,20 @@
       ]
     },
     {
+      "id": "ae760b5d25cddb96",
+      "title": "NAKIVO Introduces v11.1 with Upgraded Disaster Recovery and MSP Features",
+      "description": "NAKIVO Backup & Replication v11.1 expands disaster recovery with real-time replication, enhanced Proxmox VE support, and granular physical backups. The update adds MSP Direct Connect for secure client management and a multilingual interface supporting seven languages. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/nakivo-introduces-v111-with-upgraded-disaster-recovery-and-msp-features/",
+      "source": "Bleeping Computer",
+      "author": "Sponsored by Nakivo",
+      "published": "2025-11-09T10:30:40-05:00",
+      "niche": "security",
+      "score": 69,
+      "keywords": [
+        "secure"
+      ]
+    },
+    {
       "id": "cd36b3271e0eea3e",
       "title": "Android Malware Mutes Alerts, Drains Crypto Wallets",
       "description": "Android/BankBot-YNRK is currently targeting users in Indonesia by masquerading as legitimate applications.",
@@ -1913,6 +1940,22 @@
         "secure",
         "exploit",
         "firewall"
+      ]
+    },
+    {
+      "id": "3edf29b1e43e3cb3",
+      "title": "Drilling Down on Uncle Sam’s Proposed TP-Link Ban",
+      "description": "The U.S. government is reportedly preparing to ban the sale of wireless routers and other networking gear from TP-Link Systems, a tech company that currently enjoys an estimated 50% market share among home users and small businesses. Experts say while the proposed ban may have more to do with TP-Link's ties to China than any specific technical threats, much of the rest of the industry serving this market also sources hardware from China and ships products that are insecure fresh out of the box.",
+      "url": "https://krebsonsecurity.com/2025/11/drilling-down-on-uncle-sams-proposed-tp-link-ban/",
+      "source": "Krebs on Security",
+      "author": "BrianKrebs",
+      "published": "2025-11-09T18:14:40+00:00",
+      "niche": "security",
+      "score": 67,
+      "keywords": [
+        "secure",
+        "threat",
+        "RCE"
       ]
     },
     {
@@ -2339,6 +2382,21 @@
       ]
     },
     {
+      "id": "8e0506e7afd509fd",
+      "title": "AI chat privacy at risk: Microsoft details Whisper Leak side-channel attack",
+      "description": "Microsoft uncovered Whisper Leak, a side-channel attack that lets network snoopers infer AI chat topics despite encryption, risking user privacy. Microsoft revealed a new side-channel attack called Whisper Leak, which lets attackers who can monitor network traffic infer what users discuss with remote language models, even when the data is encrypted. The company warned that [&#8230;]",
+      "url": "https://securityaffairs.com/184372/hacking/ai-chat-privacy-at-risk-microsoft-details-whisper-leak-side-channel-attack.html",
+      "source": "Security Affairs",
+      "author": "Pierluigi Paganini",
+      "published": "2025-11-09T15:30:21+00:00",
+      "niche": "security",
+      "score": 61,
+      "keywords": [
+        "encryption",
+        "attack"
+      ]
+    },
+    {
       "id": "b8d3a025890603ad",
       "title": "cdxgen and CycloneDX .NET Join GitHub Secure Open Source Fund",
       "description": "cdxgen and CycloneDX .NET participated in the GitHub Secure Open Source Fund Strengthening supply-chain security from the inside out. In the domain of supply-chain security, two distinct aspects exist: security within the supply chain and the security of the supply chain itself. The CycloneDX specification, an OWASP flagship project, is supported by a community that maintains an extensive ecosystem of open-source specifications, libraries, and tools, focusing primarily on enhancing security and ",
@@ -2349,10 +2407,10 @@
       "niche": "security",
       "score": 61,
       "keywords": [
-        "RCE",
-        "security",
+        "secure",
         "OWASP",
-        "secure"
+        "security",
+        "RCE"
       ]
     },
     {
@@ -2838,10 +2896,10 @@
       "niche": "security",
       "score": 55,
       "keywords": [
-        "security",
-        "OWASP",
-        "cybersecurity",
         "vulnerability",
+        "security",
+        "cybersecurity",
+        "OWASP",
         "RCE"
       ]
     },
@@ -3355,9 +3413,9 @@
       "niche": "security",
       "score": 51,
       "keywords": [
+        "vulnerability",
         "disclosure",
-        "patch",
-        "vulnerability"
+        "patch"
       ]
     },
     {
@@ -3371,9 +3429,9 @@
       "niche": "security",
       "score": 51,
       "keywords": [
-        "exploit",
         "security",
-        "attack"
+        "attack",
+        "exploit"
       ]
     },
     {
@@ -3387,9 +3445,9 @@
       "niche": "security",
       "score": 51,
       "keywords": [
-        "exploit",
         "security",
-        "attack"
+        "attack",
+        "exploit"
       ]
     },
     {
@@ -3604,8 +3662,8 @@
         "phishing",
         "attack",
         "breach",
-        "RCE",
-        "threat"
+        "threat",
+        "RCE"
       ]
     },
     {
@@ -4101,10 +4159,10 @@
       "niche": "security",
       "score": 43,
       "keywords": [
-        "RCE",
-        "security",
+        "secure",
         "OWASP",
-        "secure"
+        "security",
+        "RCE"
       ]
     },
     {
@@ -4446,9 +4504,9 @@
       "niche": "security",
       "score": 42,
       "keywords": [
-        "RCE",
+        "OWASP",
         "security",
-        "OWASP"
+        "RCE"
       ]
     },
     {
@@ -4632,8 +4690,8 @@
       "niche": "security",
       "score": 38,
       "keywords": [
-        "RCE",
-        "OWASP"
+        "OWASP",
+        "RCE"
       ]
     },
     {
@@ -4659,10 +4717,10 @@
       "niche": "security",
       "score": 37,
       "keywords": [
-        "threat",
-        "security",
+        "web application security",
         "OWASP",
-        "web application security"
+        "security",
+        "threat"
       ]
     },
     {
@@ -4690,9 +4748,9 @@
       "niche": "security",
       "score": 36,
       "keywords": [
-        "RCE",
         "injection",
-        "SQL injection"
+        "SQL injection",
+        "RCE"
       ]
     },
     {
@@ -4706,8 +4764,8 @@
       "niche": "security",
       "score": 33,
       "keywords": [
-        "exploit",
         "security",
+        "exploit",
         "patch"
       ]
     },
@@ -4734,8 +4792,8 @@
       "niche": "security",
       "score": 32,
       "keywords": [
-        "RCE",
-        "remote code execution"
+        "remote code execution",
+        "RCE"
       ]
     },
     {
@@ -4749,9 +4807,9 @@
       "niche": "security",
       "score": 31,
       "keywords": [
-        "security",
+        "secure",
         "OWASP",
-        "secure"
+        "security"
       ]
     },
     {
@@ -4765,8 +4823,8 @@
       "niche": "security",
       "score": 30,
       "keywords": [
-        "RCE",
-        "attack"
+        "attack",
+        "RCE"
       ]
     },
     {
@@ -4780,8 +4838,8 @@
       "niche": "security",
       "score": 30,
       "keywords": [
-        "security",
-        "OWASP"
+        "OWASP",
+        "security"
       ]
     },
     {
@@ -4825,22 +4883,6 @@
       ]
     },
     {
-      "id": "28bdc8b5bda1f2e2",
-      "title": "Smashing Security podcast #441: Inside the mob’s million-dollar poker hack, and a Formula 1 fumble",
-      "description": "Basketball stars have allegedly joined forces with the mafia to fleece high-rollers in a poker scam involving hacked shufflers, covert cameras, and an X-ray card table. Meanwhile, researchers have found they could poke around an FIA driver portal to pull up the personal details of Formula 1 megastars. All this and more is discussed in episode 441 of \"Smashing Security\" podcast with cybersecurity veteran Graham Cluley, and special guest Danny Palmer.",
-      "url": "https://grahamcluley.com/smashing-security-podcast-441/",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2025-10-30T00:35:09+00:00",
-      "niche": "security",
-      "score": 26,
-      "keywords": [
-        "RCE",
-        "security",
-        "cybersecurity"
-      ]
-    },
-    {
       "id": "8365a28660c07be6",
       "title": "Can Burp AI hack a website? CyberMaddy explores the new agentic capabilities in Burp AI",
       "description": "In her latest video, CyberMaddy dives into the world of AI-driven ethical hacking, exploring how Burp AI performs in Repeater when tasked with finding web vulnerabilities like SQL injection, cross-sit",
@@ -4851,8 +4893,8 @@
       "niche": "security",
       "score": 26,
       "keywords": [
-        "SQL injection",
-        "injection"
+        "injection",
+        "SQL injection"
       ]
     },
     {
@@ -4992,8 +5034,8 @@
       "niche": "security",
       "score": 24,
       "keywords": [
-        "SQL injection",
-        "injection"
+        "injection",
+        "SQL injection"
       ]
     },
     {
@@ -5022,21 +5064,6 @@
       "score": 22,
       "keywords": [
         "RCE"
-      ]
-    },
-    {
-      "id": "18882cba43409092",
-      "title": "Self-Replicating Worm Hits 180+ Software Packages",
-      "description": "At least 187 code packages made available through the JavaScript repository NPM have been infected with a self-replicating worm that steals credentials from developers and publishes those secrets on GitHub, experts warn. The malware, which briefly infected multiple code packages from the security vendor CrowdStrike, steals and publishes even more credentials every time an infected package is installed.",
-      "url": "https://krebsonsecurity.com/2025/09/self-replicating-worm-hits-180-software-packages/",
-      "source": "Krebs on Security",
-      "author": "BrianKrebs",
-      "published": "2025-09-16T14:08:02+00:00",
-      "niche": "security",
-      "score": 21,
-      "keywords": [
-        "security",
-        "malware"
       ]
     },
     {
@@ -5092,8 +5119,8 @@
       "niche": "security",
       "score": 19,
       "keywords": [
-        "security",
-        "cybersecurity"
+        "cybersecurity",
+        "security"
       ]
     },
     {
@@ -5150,21 +5177,6 @@
       "score": 18,
       "keywords": [
         "threat"
-      ]
-    },
-    {
-      "id": "569879cc8dcce304",
-      "title": "Smashing Security podcast #440: How to hack a prison, and the hidden threat of online checkouts",
-      "description": "A literal insider threat: we head to a Romanian prison where “self-service” web kiosks allowed inmates to run wild. Then we head to the checkout aisle to ask why JavaScript on payment pages went feral, and how new PCI DSS rules are finally muzzling Magecart-style skimmers. Plus: Graham reveals his new-found superpower with Keyboard Maestro, and Scott describes a slick new way to whip up beautiful how-to videos with Screen Studio. All this and more is discussed in episode 440 of \"Smashing Securit",
-      "url": "https://grahamcluley.com/smashing-security-podcast-440/",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2025-10-22T23:30:31+00:00",
-      "niche": "security",
-      "score": 18,
-      "keywords": [
-        "threat",
-        "security"
       ]
     },
     {
@@ -5225,34 +5237,6 @@
       ]
     },
     {
-      "id": "26e360562b9e95e6",
-      "title": "Spam text scammer fined £200,000 for targeting people in debt, after sending nearly one million messages",
-      "description": "The UK Information Commissioner’s Office (ICO) has levied a fine of £200,000 against a sole trader who sent almost one million spam text messages to people across the country - many of whom were already struggling with debt. Read more in my article on the Hot for Security blog.",
-      "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/spam-text-scammer-fined-200-000-for-targeting-people-in-debt-after-sending-nearly-one-million-messages",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2025-10-30T16:18:34+00:00",
-      "niche": "security",
-      "score": 15,
-      "keywords": [
-        "security"
-      ]
-    },
-    {
-      "id": "f7edea7763b7cbba",
-      "title": "LinkedIn gives you until Monday to stop AI from training on your profile",
-      "description": "If you live in the UK/EU/Canada/Hong Kong, LinkedIn has given you until Monday to stop AI from training on your profile. You have to opt-out if you don't want this to happen to your data. Take action now, and tell your friends. Read more in my article on the Hot for Security blog.",
-      "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/linkedin-gives-you-until-monday-to-stop-ai-from-training-on-your-profile",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2025-10-30T08:52:47+00:00",
-      "niche": "security",
-      "score": 15,
-      "keywords": [
-        "security"
-      ]
-    },
-    {
       "id": "af18e46e100e20f7",
       "title": "Watch the webinar: Scale secure coverage without scaling headcount",
       "description": "Application security teams are under pressure. With expanding application estates, growing API usage, and faster release cycles, many teams struggle to keep up. Backlogs grow, releases are delayed, an",
@@ -5263,8 +5247,8 @@
       "niche": "security",
       "score": 15,
       "keywords": [
-        "security",
-        "secure"
+        "secure",
+        "security"
       ]
     },
     {
@@ -5278,8 +5262,8 @@
       "niche": "security",
       "score": 15,
       "keywords": [
-        "security",
-        "secure"
+        "secure",
+        "security"
       ]
     },
     {
@@ -5493,18 +5477,6 @@
       "keywords": []
     },
     {
-      "id": "4a548cb53a17bccf",
-      "title": "The AI Fix #74: AGI, LLM brain rot, and how to scam an AI browser",
-      "description": "In episode 74 of The AI Fix, we meet Amazon's AI-powered delivery glasses, an AI TV presenter who doesn't exist, and an Ohio lawmaker who wants to stop people from marrying their chatbot. Also, we learn how Geoffrey Hinton and Steve Wozniak have teamed up with the unlikely coupling of will.i.am and Steve Bannon to pull the brakes on \"super-intelligence.\" Meanwhile, Graham wonders if you should really trust an AI browser with your passwords, or your credit card, or, frankly, anything at all, and ",
-      "url": "https://grahamcluley.com/the-ai-fix-74/",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2025-10-28T15:34:38+00:00",
-      "niche": "security",
-      "score": 12,
-      "keywords": []
-    },
-    {
       "id": "6c5b43ef9b0f28cf",
       "title": "Événement « RGPD : quel impact économique ? » : compte-rendu des débats",
       "description": "Afin d’offrir un espace de discussion sur les impacts économiques du RGPD, la CNIL et la Direction générale du Trésor ont organisé, le 20&nbsp;mai&nbsp;2025, un événement académique international, rassemblant économistes et régulateurs. Le présent compte rendu revient sur les principaux enseignements et échanges issus de cette rencontre.",
@@ -5664,18 +5636,6 @@
       "published": "2025-09-16T00:00:00+00:00",
       "niche": "security",
       "score": 8,
-      "keywords": []
-    },
-    {
-      "id": "179f208ebcd2ccd8",
-      "title": "The human cost of the UK Government’s Afghan data leak",
-      "description": "Can data leaks do real harm? Yes, they can. And so can a failure to respond appropriately.",
-      "url": "https://grahamcluley.com/the-human-cost-of-the-uk-governments-afghan-data-leak/",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2025-10-30T16:05:00+00:00",
-      "niche": "security",
-      "score": 7,
       "keywords": []
     },
     {
