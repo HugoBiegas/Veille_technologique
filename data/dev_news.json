@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-09T12:44:11.495287+00:00",
+  "last_updated": "2025-11-09T15:21:14.034371+00:00",
   "total_articles": 970,
   "articles": [
     {
@@ -461,18 +461,6 @@
       ]
     },
     {
-      "id": "63d7a56682c1e6a5",
-      "title": "The biggest pitfall of React Context - Unwanted re-render",
-      "description": "Usually, in small apps, people create a global context to share state across the application. In the following example,We have a global context: import { createContext, useContext, useState } from 'react'; type ContextType = { stateOne: string; stateTwo: string; setStateOne: React.Dispatch<React.SetStateAction<string>>; setStateTwo: React.Dispatch<React.SetStateAction<string>>; } const GlobalContext = createContext<ContextType>({ stateOne: '', stateTwo: '', setStateOne: () => null, setStateTwo: ",
-      "url": "https://dev.to/rdd_d9d31a9bee259e6c/the-biggest-pitfall-of-react-context-unwanted-re-render-2ok0",
-      "source": "Dev.to",
-      "author": "Random Dude",
-      "published": "2025-11-02T14:55:56+00:00",
-      "niche": "dev",
-      "score": 68,
-      "keywords": []
-    },
-    {
       "id": "146c69908fd8e9d0",
       "title": "Week 7: React hooks and more!",
       "description": "This week was very light. I did not cover anything that was too new or too hard because I needed a break and also wanted to stay in touch! So let's get right into it. Topics Covered✅ React returns- the need to return just one parent component Re-Renders and minimising them Keys in React Wrapper components and children Hooks React.memo Let's get into them in detail. 1. React Returns If you notice that when we try to return sibling components out of a React component, React screams a huge NO. This",
@@ -657,18 +645,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-11-02T17:24:39+00:00",
-      "niche": "dev",
-      "score": 62,
-      "keywords": []
-    },
-    {
-      "id": "7afa248f0364385b",
-      "title": "\"Why don't you use dependent types?\"",
-      "description": "Comments",
-      "url": "https://lawrencecpaulson.github.io//2025/11/02/Why-not-dependent.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-02T15:06:36+00:00",
       "niche": "dev",
       "score": 62,
       "keywords": []
@@ -907,6 +883,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-11-09T04:59:19+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": []
+    },
+    {
+      "id": "5056a86ef2013d1a",
+      "title": "Zensical – A modern static site generator built by the Material for MkDocs team",
+      "description": "Comments",
+      "url": "https://squidfunk.github.io/mkdocs-material/blog/2025/11/05/zensical/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-09T12:50:07+00:00",
       "niche": "dev",
       "score": 62,
       "keywords": []
@@ -1364,18 +1352,6 @@
       ]
     },
     {
-      "id": "aacb7a331d7310f0",
-      "title": "Why don't you use dependent types?",
-      "description": "Comments",
-      "url": "https://lawrencecpaulson.github.io//2025/11/02/Why-not-dependent.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-02T15:06:36+00:00",
-      "niche": "dev",
-      "score": 56,
-      "keywords": []
-    },
-    {
       "id": "1ffaeab0c3be7d2b",
       "title": "Functional Ruby Programming with Trailblazer",
       "description": "You might be surprised to learn that you're already using many functional programming (FP) approaches in your Ruby code without realizing it. While languages like Haskell enforce these principles, Ruby and Python leave it up to the programmer to make conscious choices. Let's explore how we can leverage these FP concepts in Ruby, particularly when using the Trailblazer (TRB) framework. Key Functional Programming Concepts in Ruby and Trailblazer 1. Embrace Immutability In Trailblazer, we treat inc",
@@ -1480,21 +1456,6 @@
       "keywords": [
         "developer",
         "code",
-        "framework"
-      ]
-    },
-    {
-      "id": "53b3d03178a33656",
-      "title": "Learning to Learn: The Real Skill of a Developer",
-      "description": "Learning Go is easy. Five videos, two blogs, a bit of coding, and a few right questions to ChatGPT — and you’ll have your “hello world.” But the point isn’t learning Go.It’s learning how to learn any technology quickly. Because tomorrow it’ll be Rust, and the next day, AI will turn it all into some meta-language anyway. Technology no longer expects humans to be knowledgeable it expects them to be adaptable. Mastering one framework isn’t a skill; being able to understand the logic behind any fram",
-      "url": "https://dev.to/yemrealtanay/learning-to-learn-the-real-skill-of-a-developer-1m8m",
-      "source": "Dev.to",
-      "author": "Yunus Emre Altanay",
-      "published": "2025-11-02T15:06:46+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "developer",
         "framework"
       ]
     },
@@ -2073,17 +2034,18 @@
       ]
     },
     {
-      "id": "e021bff9265f8f48",
-      "title": "Bright Data vs Browse AI: Choosing the Right Web Scraping Stack Without Regret",
-      "description": "A practical, technical comparison of Bright Data and Browse AI that helps you design a reliable data acquisition workflow, scale with confidence, and keep compliance in check. Why Web Data Still Matters Web data powers pricing engines, market monitoring, product discovery, and AI workflows. Teams that collect clean and compliant data faster than their competitors compound advantage over time. The tricky part is not starting a scraper. The real challenge is selecting a stack that keeps working un",
-      "url": "https://dev.to/alifar/bright-data-vs-browse-ai-choosing-the-right-web-scraping-stack-without-regret-291d",
+      "id": "9f6ab47272d2888c",
+      "title": "The Case of the Missing Proxy: When Multiple Valtio Instances Broke My App",
+      "description": "This debugging story is from the do-not-stop project - a full-stack Web3 app with React frontend, React Native mobile frontend, Node.js backend, and multi-blockchain smart contracts. The Mystery Begins It all started with a crash in @reown/appkit-react-native. While debugging that crash, I noticed something weird happening with valtio. The subscribe() function seemed to work fine, but proxy() wasn't behaving as expected. I decided to dig into the library code itself and added some debugging dire",
+      "url": "https://dev.to/heyradcode/the-case-of-the-missing-proxy-when-multiple-valtio-instances-broke-my-app-1ke9",
       "source": "Dev.to",
-      "author": "Ali Farhat",
-      "published": "2025-11-02T15:14:21+00:00",
+      "author": "Rad Code",
+      "published": "2025-11-09T14:24:55+00:00",
       "niche": "dev",
-      "score": 54,
+      "score": 55,
       "keywords": [
-        "API"
+        "library",
+        "code"
       ]
     },
     {
@@ -3171,6 +3133,34 @@
       ]
     },
     {
+      "id": "6bc3d4b48a5b9c04",
+      "title": "Unlocking PIM Potential: A Software-First Approach to Power Integrity by Arvind Sundararajan",
+      "description": "Unlocking PIM Potential: A Software-First Approach to Power Integrity Tired of performance bottlenecks holding back your cutting-edge applications? Processing-in-Memory (PIM) offers a tantalizing solution – compute directly within the memory chip itself. But there's a catch: increased operating frequencies and complex designs often lead to significant voltage droop, crippling performance and threatening chip reliability. To overcome this hurdle, imagine a system where software intelligently coll",
+      "url": "https://dev.to/arvind_sundararajan/unlocking-pim-potential-a-software-first-approach-to-power-integrity-by-arvind-sundararajan-2pjo",
+      "source": "Dev.to",
+      "author": "Arvind SundaraRajan",
+      "published": "2025-11-09T15:02:10+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "performance"
+      ]
+    },
+    {
+      "id": "2939353e493ef821",
+      "title": "🧠 Circuit Breaker Patterns in Go Microservices",
+      "description": "In this article, we’ll explore the Circuit Breaker pattern — a crucial design pattern for building resilient microservices in Go. Building Self-Healing and Fault-Tolerant Systems When designing distributed systems, it’s not a question of if something will fail — it’s when. Even the most stable services can occasionally hang, slow down, or fail under high load. In production systems, retries and backoff strategies help, but sometimes they’re not enough. That’s where Circuit Breaker patterns come ",
+      "url": "https://dev.to/serifcolakel/circuit-breaker-patterns-in-go-microservices-n3",
+      "source": "Dev.to",
+      "author": "Serif COLAKEL",
+      "published": "2025-11-09T14:53:08+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "microservices"
+      ]
+    },
+    {
       "id": "fafff3e144bca49a",
       "title": "Building LAW-T: Creating a Time-Native Programming Language from Scratch",
       "description": "Building LAW-T: Creating a Time-Native Programming Language from Scratch This is my submission for the 2025 Hacktoberfest Writing Challenge: Contribution Chronicles TL;DR I spent Hacktoberfest 2025 building LAW-T, a programming language where every line of code has a cryptographic timestamp. The result: perfect reproducibility, time-travel debugging, and a new way to think about code provenance. What I shipped: ✅ Working interpreter (Python, 300 lines) ✅ Time-Labeled Binary (TLB) system ✅ 10+ ex",
@@ -3531,45 +3521,18 @@
       ]
     },
     {
-      "id": "48708a7e6c5f40ca",
-      "title": "Feeling the Vibes with Verifi",
-      "description": "Imagine this. You've landed yourself a role at BIG CORP and it's day one. You're excited to dive in and make that first commit all the way to production. You run npm install and suddenly npm ERR! RequestError: unable to get local issuer certificate appears. No one likes certificate errors, but disabling the checks altogether is not a secure choice. What's a developer to do? I've created a utility command line tool to help ease this all-too-frequent experience. Verifi is a command-line tool that ",
-      "url": "https://dev.to/prince_of_pasta/feeling-the-vibes-with-verifi-152c",
+      "id": "37574aa0118544c1",
+      "title": "User Scanner : Find Your Unique & Perfect Username Across All Popular Platforms",
+      "description": "User Scanner Repo: https://github.com/kaifcodec/user-scanner Scan a username across multiple social, developer, and creator platforms to see if it’s available. Perfect for finding a unique username across GitHub, Twitter, Reddit, Instagram, and more, all in one command. Features ✅ Check usernames across social networks, developer platforms, and creator communities. ✅ Clear Available / Taken / Error output for each platform. ✅ Fully modular: add new platform modules easily. ✅ Command-line interfa",
+      "url": "https://dev.to/kaifcodec/user-scanner-find-your-unique-perfect-username-across-all-popular-platforms-2pp8",
       "source": "Dev.to",
-      "author": "Anthony Barbieri",
-      "published": "2025-11-02T15:19:35+00:00",
+      "author": "kaifcodec",
+      "published": "2025-11-09T14:44:02+00:00",
       "niche": "dev",
-      "score": 51,
+      "score": 52,
       "keywords": [
-        "developer"
-      ]
-    },
-    {
-      "id": "3fe82e5d3481f8c1",
-      "title": "Adobe unveils experimental AI tool that edits entire videos from a single frame",
-      "description": "Adobe's Game-Changing AI: Edit Entire Videos from a Single Frame\\n\\nAdobe is once again pushing the boundaries of creative technology with its latest experimental AI tool, a groundbreaking innovation set to revolutionize video editing. This new tool, still in its developmental stages, promises an unprecedented capability: the ability to edit an entire video clip from just a single reference frame. This isn't just an incremental update; it's a fundamental shift in how creators might interact with",
-      "url": "https://dev.to/ytosko/adobe-unveils-experimental-ai-tool-that-edits-entire-videos-from-a-single-frame-53ho",
-      "source": "Dev.to",
-      "author": "Saiki Sarkar",
-      "published": "2025-11-02T15:01:13+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "development"
-      ]
-    },
-    {
-      "id": "ac8c0e9650e0f7fc",
-      "title": "Part 2: Building MCP Servers to Control a Home Coffee Roaster - An Agentic Development Journey with Warp Agent",
-      "description": "Introduction In this 3-part series, we are building an autonomous coffee roasting agent with Warp. The first part covered how we fine-tuned a model to detect first crack — a critical phase in the roasting process. This was a nice warm-up implementing a key component for our end goal, but detection alone isn't enough. Now we need to expose this functionality so the agent we'll build can both detect first crack and control the roasting process. This post focuses on: The objective: Turning ML predi",
-      "url": "https://dev.to/syamaner/part-2-building-mcp-servers-to-control-a-home-coffee-roaster-an-agentic-development-journey-with-58ik",
-      "source": "Dev.to",
-      "author": "sy",
-      "published": "2025-11-02T14:58:02+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "development"
+        "developer",
+        "code"
       ]
     },
     {
@@ -4776,54 +4739,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "95042ef5070df36e",
-      "title": "How I Passed the AWS Certified CloudOps Engineer (SOA-CO3) Exam — My Honest Preparation Journey",
-      "description": "A few weeks ago, I finally cleared the AWS Certified CloudOps Engineer – SOA-CO3 exam 🎉. If you’re planning to take it, trust me — this exam goes beyond memorizing AWS services. It’s all about how well you can think like a CloudOps Engineer who can automate, monitor, and troubleshoot production systems. Here’s exactly how I prepared, what resources I used, and a few tips that made all the difference. 🚀 Step 1: Understanding What AWS Expects Before I even started studying, I went through the AWS ",
-      "url": "https://dev.to/ravi_prakashsingh_24e356/how-i-passed-the-aws-certified-cloudops-engineer-soa-co3-exam-my-honest-preparation-journey-2o8g",
-      "source": "Dev.to",
-      "author": "Ravi Prakash Singh",
-      "published": "2025-11-02T15:03:31+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "3b6dacd88b40b0f7",
-      "title": "Unlocking LLMs: The Self-Steering Revolution",
-      "description": "Unlocking LLMs: The Self-Steering Revolution Tired of battling erratic outputs from your language models? Do you spend hours tweaking cryptic \"temperature\" and \"top-p\" parameters, only to get inconsistent results? It feels like we're wrestling these powerful models instead of guiding them. There's a better way. The core concept is to teach the model to dynamically control its own text generation strategy, on a token-by-token basis. This is achieved by incorporating lightweight modules that predi",
-      "url": "https://dev.to/arvind_sundararajan/unlocking-llms-the-self-steering-revolution-4k42",
-      "source": "Dev.to",
-      "author": "Arvind SundaraRajan",
-      "published": "2025-11-02T15:02:08+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "7b3311002e8f2ef8",
-      "title": "AI in Education Marketing: Empowering Institutions with Data-Driven Growth",
-      "description": "The education industry is changing faster than ever before. From online learning to global student recruitment, schools, universities, and edtech platforms are facing new challenges in attracting, engaging, and retaining learners. To stay competitive in this evolving landscape, institutions are turning to artificial intelligence (AI)—a powerful ally that transforms marketing, communication, and strategy into smarter, more personalized experiences. With AI-driven insights and tools like the AI SE",
-      "url": "https://dev.to/babahakka/ai-in-education-marketing-empowering-institutions-with-data-driven-growth-45gk",
-      "source": "Dev.to",
-      "author": "babahakka",
-      "published": "2025-11-02T14:59:18+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "0dcdac91aaf0542f",
-      "title": "AI in Healthcare Marketing: Transforming Patient Engagement and Trust",
-      "description": "The healthcare industry is undergoing a massive digital transformation, and artificial intelligence (AI) is at the center of it. From diagnostics and treatment to patient communication and brand visibility, AI is not only improving care—it’s also revolutionizing how healthcare organizations connect with patients. In the world of healthcare marketing, AI offers unprecedented opportunities to personalize outreach, optimize content, and build trust. Combined with smart data tools like the AI SEO tr",
-      "url": "https://dev.to/babahakka/ai-in-healthcare-marketing-transforming-patient-engagement-and-trust-2p3",
-      "source": "Dev.to",
-      "author": "babahakka",
-      "published": "2025-11-02T14:56:11+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
     },
     {
       "id": "c30ce8baaa202c14",
@@ -7934,6 +7849,82 @@
       "keywords": []
     },
     {
+      "id": "7b41ec336cb68697",
+      "title": "Cointelegraph reports rise in AI trading bots as experts caution they are notfoolproof for investors",
+      "description": "AI Trading Bots See Surge, But Experts Warn: Not a \\\"Set It and Forget It\\\" Solution\\n\\nThe world of cryptocurrency and traditional finance is buzzing with the increased adoption of AI trading bots. These sophisticated algorithms are designed to analyze market data, identify trends, and execute trades automatically, often at speeds and efficiencies impossible for human traders. Cointelegraph recently highlighted a significant rise in their usage, attracting both seasoned investors and newcomers ",
+      "url": "https://dev.to/ytosko/cointelegraph-reports-rise-in-ai-trading-bots-as-experts-caution-they-are-notfoolproof-for-investors-2aii",
+      "source": "Dev.to",
+      "author": "Saiki Sarkar",
+      "published": "2025-11-09T15:01:21+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "ba652fdef476c883",
+      "title": "🌟",
+      "description": "Week 3: From 0 to 30 Developers (Building in Public) Liquidcode ・ Nov 8 #webdev #programming #startup #buildinpublic",
+      "url": "https://dev.to/thebitforge/-43jn",
+      "source": "Dev.to",
+      "author": "TheBitForge",
+      "published": "2025-11-09T14:55:54+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": [
+        "developer",
+        "programming",
+        "code"
+      ]
+    },
+    {
+      "id": "642ee66c598c5d15",
+      "title": "'이 언어'로 코딩테스트 준비하는 취업준비생... 심장병 확률 44%⬆",
+      "description": "코딩테스트를 javascript로 그동안 준비했었는데 결국에는 python으로 갈아탔습니다. 평소에도 코드를 javascript로 작성하기에 문법에 익숙해서 구현하기가 편한데, 다른 언어들은 꾸준히 사용하지 않다보니 문법을 자주 잊어버리게 돼요. 코딩테스트 언어로 javascript를 선택하여 언어 문법 자체도 잘 알게 되고 익숙한 언어로 코딩테스트도 수월하게 볼 수 있으니까 일석이조 아닐까요? 이 이론은 여러번의 실험 끝에 저를 배신했습니다. 라이브러리 없는 javascript의 실용성이 너무나도 떨어지기 때문이에요. 어떤 부분이 javascript를 비생산적으로 만들고 코딩테스트에서 여러분을 불리하게 만들 수 있는지 소개합니다. javascript를 코딩테스트 언어로 지원하는 기업이 드물다. 프로그래머스 환경에서 코딩테스트를 지원하는 기업이 아닌 경우 높은 확률로 javascript를 지원하지 않습니다. 반면 C++, Java, Python의 경우에는 대기업부터 스타트업까지 전부",
+      "url": "https://dev.to/algoorgoal/i-eoneoro-kodingteseuteu-junbihaneun-cwieobjunbisaeng-simjangbyeong-hwagryul-44-4mmo",
+      "source": "Dev.to",
+      "author": "Chan",
+      "published": "2025-11-09T14:52:04+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "9e5f373c2665742b",
+      "title": "Building a Lightweight Camunda Monitoring Dashboard: From Enterprise Pain to Open Source Solution",
+      "description": "\"You can't improve what you can't measure.\" - Peter Drucker Last year, our production Camunda clusters started showing strange behavior. Process instances were stuck. Job executors were falling behind. Incidents were piling up. But our monitoring dashboards? They showed everything was \"green.\" 🟢 or just \"no data to show\" 😤 The Problem: Why Monitoring Camunda is Frustrating I've been working with Camunda 7 for years, and monitoring has always been the painful part. Not because monitoring tools do",
+      "url": "https://dev.to/dmitriy_champa_d458cfc7/building-a-lightweight-camunda-monitoring-dashboard-from-enterprise-pain-to-open-source-solution-2ik4",
+      "source": "Dev.to",
+      "author": "Dmitriy Champa",
+      "published": "2025-11-09T14:51:47+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "0bbb83d77c84a283",
+      "title": "🧙 LLMs as Dungeon Masters: Can AI Run a Tabletop Game Without Cheating?",
+      "description": "“The dragon’s eyes gleam red in the darkness. Roll for initiative.” You wait. The AI Dungeon Master pauses... then declares you rolled a 47. On a twenty-sided die. Something’s not right here. Welcome to the chaotic crossroads of artificial intelligence and tabletop imagination — where LLMs try to become Dungeon Masters, and reality checks in with a +5 modifier. 🎭 The Promise: An Always-Available DM Anyone who’s played Dungeons & Dragons knows the bottleneck: finding a good Dungeon Master is hard",
+      "url": "https://dev.to/pracode_2503/llms-as-dungeon-masters-can-ai-run-a-tabletop-game-without-cheating-425m",
+      "source": "Dev.to",
+      "author": "Pratham Dabhane",
+      "published": "2025-11-09T14:42:08+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "8f2dd3812894d3b9",
+      "title": "Developing Human-First Solutions",
+      "description": "When developing solutions, it’s easy to get distracted by shiny new tools. A sleek interface, a trending platform, a feature-rich dashboard, all tempting shortcuts to progress. But here’s the truth: tools are irrelevant without purpose, process, and people. The Tool Is Not the Strategy Choosing software is not a strategy. It’s a tactic, one that only works if it’s embedded in a well-defined process. Whether you’re hiring, building workflows, or designing systems, the real question isn’t “What to",
+      "url": "https://dev.to/katkeilty/developing-human-first-solutions-41a",
+      "source": "Dev.to",
+      "author": "Kat Keilty",
+      "published": "2025-11-09T14:27:10+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "cc1af18d555e459c",
       "title": "The great decoupling of labor and capital",
       "description": "Comments",
@@ -8308,30 +8299,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "3c55411a50d63399",
-      "title": "X.org Security Advisory: multiple security issues X.Org X server and Xwayland",
-      "description": "Comments",
-      "url": "https://lists.x.org/archives/xorg-announce/2025-October/003635.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-02T13:07:31+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "25f1a3459c85aeed",
-      "title": "Writing FreeDOS Programs in C",
-      "description": "Comments",
-      "url": "https://www.freedos.org/books/cprogramming/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-02T13:43:08+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "970349ca584b7cfd",
@@ -10146,6 +10113,42 @@
       "keywords": []
     },
     {
+      "id": "282531631923589c",
+      "title": "Reviving Classic Unix Games: A 20-Year Journey Through Software Archaeology",
+      "description": "Comments",
+      "url": "https://vejeta.com/reviving-classic-unix-games-a-20-year-journey-through-software-archaeology/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-09T12:44:35+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "951ce624412a9a90",
+      "title": "Using bubblewrap to add sandboxing to NetBSD",
+      "description": "Comments",
+      "url": "https://blog.netbsd.org/tnf/entry/gsoc2025_bubblewrap_sandboxing",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-09T13:09:22+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "120c64bd0aaab5e7",
+      "title": "Alive internet theory",
+      "description": "Comments",
+      "url": "https://alivetheory.net/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-09T12:33:38+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "78c4b08725d5f56b",
       "title": "React 19 Upgrade Guide",
       "description": "The improvements added to React 19 require some breaking changes, but we've worked to make the upgrade as smooth as possible and we don't expect the changes to impact most apps. In this post, we will guide you through the steps for upgrading apps and libraries to React 19.",
@@ -10253,9 +10256,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
+        "developer",
         "release",
-        "API",
-        "developer"
+        "API"
       ]
     },
     {
@@ -10269,9 +10272,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "performance",
+        "developer",
         "API",
-        "developer"
+        "performance"
       ]
     },
     {
@@ -10481,8 +10484,8 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "React 19",
         "release",
+        "React 19",
         "API"
       ]
     },
@@ -10509,8 +10512,8 @@
       "niche": "dev",
       "score": 37,
       "keywords": [
-        "API",
-        "developer"
+        "developer",
+        "API"
       ]
     },
     {
@@ -10524,8 +10527,8 @@
       "niche": "dev",
       "score": 37,
       "keywords": [
-        "API",
-        "developer"
+        "developer",
+        "API"
       ]
     },
     {
@@ -10567,8 +10570,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -10741,11 +10744,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "code",
-        "performance",
-        "API",
         "framework",
-        "release"
+        "performance",
+        "release",
+        "API",
+        "code"
       ]
     },
     {
@@ -10863,6 +10866,18 @@
       "keywords": []
     },
     {
+      "id": "5d7fe2df31d56765",
+      "title": "Email verification protocol",
+      "description": "Comments",
+      "url": "https://github.com/WICG/email-verification-protocol",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-01T15:04:56+00:00",
+      "niche": "dev",
+      "score": 26,
+      "keywords": []
+    },
+    {
       "id": "d839f1a2454a8fa9",
       "title": "URLPattern is now Baseline Newly available",
       "description": "URLPattern became Baseline Newly available as of September 15, 2025.",
@@ -10957,9 +10972,9 @@
       "niche": "dev",
       "score": 25,
       "keywords": [
+        "Angular",
         "release",
-        "framework",
-        "Angular"
+        "framework"
       ]
     },
     {
@@ -11041,9 +11056,9 @@
       "niche": "dev",
       "score": 22,
       "keywords": [
-        "performance",
         "development",
-        "release"
+        "release",
+        "performance"
       ]
     },
     {
@@ -11099,9 +11114,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "performance",
+        "developer",
         "code",
-        "developer"
+        "performance"
       ]
     },
     {
@@ -11115,9 +11130,9 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
+        "developer",
         "release",
-        "API",
-        "developer"
+        "API"
       ]
     },
     {
@@ -11131,8 +11146,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
-        "developer"
+        "developer",
+        "release"
       ]
     },
     {
@@ -11147,8 +11162,8 @@
       "score": 18,
       "keywords": [
         "development",
-        "code",
-        "developer"
+        "developer",
+        "code"
       ]
     },
     {
@@ -11483,18 +11498,6 @@
       "keywords": []
     },
     {
-      "id": "549651cd038b5cca",
-      "title": "Open-source communications by bouncing signals off the Moon",
-      "description": "Comments",
-      "url": "https://open.space/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-02T14:44:02+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
       "id": "9bb12433e45a413c",
       "title": "AI for Senior Software Engineers",
       "description": "Comments",
@@ -11509,6 +11512,18 @@
     {
       "id": "9a84c13b179a6254",
       "title": "The overengineered Solution to my Pigeon Problem",
+      "description": "Comments",
+      "url": "https://maxnagy.com/posts/pigeons/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-03T00:48:32+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "e54e70d1d742f957",
+      "title": "The overengineered solution to my pigeon problem (2022)",
       "description": "Comments",
       "url": "https://maxnagy.com/posts/pigeons/",
       "source": "Hacker News",
@@ -12291,18 +12306,6 @@
       "published": "2025-09-26T00:00:00+00:00",
       "niche": "dev",
       "score": 9,
-      "keywords": []
-    },
-    {
-      "id": "b8589fdb564648cb",
-      "title": "Show HN: I built a self-hosted error tracker in Rails",
-      "description": "Comments",
-      "url": "https://telebugs.com",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-10-31T20:46:51+00:00",
-      "niche": "dev",
-      "score": 8,
       "keywords": []
     },
     {
