@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-10T15:27:53.473201+00:00",
+  "last_updated": "2025-11-10T18:35:21.650739+00:00",
   "total_articles": 396,
   "articles": [
     {
@@ -288,6 +288,23 @@
       ]
     },
     {
+      "id": "5bf1bfa0a02f196c",
+      "title": "Popular JavaScript library expr-eval vulnerable to RCE flaw",
+      "description": "A critical vulnerability in the popular expr-eval JavaScript library, with over 800,000 weekly downloads on NPM, can be exploited to execute code remotely through maliciously crafted input. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/popular-javascript-library-expr-eval-vulnerable-to-rce-flaw/",
+      "source": "Bleeping Computer",
+      "author": "Bill Toulas",
+      "published": "2025-11-10T13:32:29-05:00",
+      "niche": "security",
+      "score": 100,
+      "keywords": [
+        "critical vulnerability",
+        "exploit",
+        "vulnerability",
+        "RCE"
+      ]
+    },
+    {
       "id": "2d02a2f7bc383cab",
       "title": "Critical Flaw in Popular React Native NPM Package Exposes Developers to Attacks",
       "description": "Arbitrary command/code execution has been demonstrated through the exploitation of CVE-2025-11953 on Windows, macOS and Linux. The post Critical Flaw in Popular React Native NPM Package Exposes Developers to Attacks appeared first on SecurityWeek.",
@@ -459,23 +476,6 @@
         "security",
         "patch",
         "exploit"
-      ]
-    },
-    {
-      "id": "f937b57f915e196f",
-      "title": "US cybersecurity experts indicted for BlackCat ransomware attacks",
-      "description": "Three former employees of cybersecurity incident response companies DigitalMint and Sygnia have been indicted for allegedly hacking the networks of five U.S. companies in BlackCat (ALPHV) ransomware attacks between May 2023 and November 2023. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/us-cybersecurity-experts-indicted-for-blackcat-ransomware-attacks/",
-      "source": "Bleeping Computer",
-      "author": "Sergiu Gatlan",
-      "published": "2025-11-03T12:15:39-05:00",
-      "niche": "security",
-      "score": 88,
-      "keywords": [
-        "security",
-        "ransomware",
-        "attack",
-        "cybersecurity"
       ]
     },
     {
@@ -683,21 +683,6 @@
       ]
     },
     {
-      "id": "77fe2ca616e07acd",
-      "title": "Hackers use RMM tools to breach freighters and steal cargo shipments",
-      "description": "Threat actors are targeting freight brokers and trucking carriers with malicious links and emails to deploy remote monitoring and management tools (RMMs) that enable them to hijack cargo and steal physical goods. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-use-rmm-tools-to-breach-freighters-and-steal-cargo-shipments/",
-      "source": "Bleeping Computer",
-      "author": "Bill Toulas",
-      "published": "2025-11-03T11:46:40-05:00",
-      "niche": "security",
-      "score": 84,
-      "keywords": [
-        "threat",
-        "breach"
-      ]
-    },
-    {
       "id": "706822edbf29fdc7",
       "title": "Fake Solidity VSCode extension on Open VSX backdoors developers",
       "description": "A remote access trojan dubbed SleepyDuck, and disguised as the well-known Solidity extension in the Open VSX open-source registry, uses an Ethereum smart contract to establish a communication channel with the attacker. [...]",
@@ -795,20 +780,6 @@
         "breach",
         "attack",
         "protection"
-      ]
-    },
-    {
-      "id": "054462437f4ac6f7",
-      "title": "Defeating KASLR by Doing Nothing at All",
-      "description": "Posted by Seth Jenkins, Project ZeroIntroductionI've recently been researching Pixel kernel exploitation and as part of this research I found myself with an excellent arbitrary write primitive…but without a KASLR leak. As necessity is the mother of all invention, on a hunch, I started researching the Linux kernel linear mapping.The Linux Linear MappingThe linear mapping is a region in the kernel virtual address space that is a direct 1:1 unstructured representation of physical memory. Working wi",
-      "url": "https://googleprojectzero.blogspot.com/2025/11/defeating-kaslr-by-doing-nothing-at-all.html",
-      "source": "Google Project Zero",
-      "author": "Google Project Zero (noreply@blogger.com)",
-      "published": "2025-11-03T10:09:00-08:00",
-      "niche": "security",
-      "score": 80,
-      "keywords": [
-        "exploit"
       ]
     },
     {
@@ -1272,22 +1243,6 @@
       ]
     },
     {
-      "id": "99298f8f28193790",
-      "title": "Malicious VSX Extension \"SleepyDuck\" Uses Ethereum to Keep Its Command Server Alive",
-      "description": "Cybersecurity researchers have flagged a new malicious extension in the Open VSX registry that harbors a remote access trojan called SleepyDuck. According to Secure Annex's John Tuckner, the extension in question, juan-bianco.solidity-vlang (version 0.0.7), was first published on October 31, 2025, as a completely benign library that was subsequently updated to version 0.0.8 on November 1 to",
-      "url": "https://thehackernews.com/2025/11/malicious-vsx-extension-sleepyduck-uses.html",
-      "source": "The Hacker News",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2025-11-03T23:38:00+05:30",
-      "niche": "security",
-      "score": 74,
-      "keywords": [
-        "security",
-        "secure",
-        "cybersecurity"
-      ]
-    },
-    {
       "id": "356c3c480b9abcba",
       "title": "European Authorities Dismantle €600 Million Crypto Fraud Network in Global Sweep",
       "description": "Nine people have been arrested in connection with a coordinated law enforcement operation that targeted a cryptocurrency money laundering network that defrauded victims of €600 million (~$688 million). According to a statement released by Eurojust today, the action took place between October 27 and 29 across Cyprus, Spain, and Germany, with the suspects arrested on charges of involvement in",
@@ -1543,6 +1498,38 @@
       "score": 72,
       "keywords": [
         "security"
+      ]
+    },
+    {
+      "id": "c75c730cb1a717f8",
+      "title": "Many Forbes AI 50 Companies Leak Secrets on GitHub",
+      "description": "Wiz found the secrets and warned that they can expose training data, organizational structures, and private models. The post Many Forbes AI 50 Companies Leak Secrets on GitHub appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/many-forbes-ai-50-companies-leak-secrets-on-github/",
+      "source": "SecurityWeek",
+      "author": "Eduard Kovacs",
+      "published": "2025-11-10T16:12:37+00:00",
+      "niche": "security",
+      "score": 72,
+      "keywords": [
+        "security"
+      ]
+    },
+    {
+      "id": "282f488160babb69",
+      "title": "Layered security: How SMBs can protect against sophisticated cyberthreats during the holiday season.",
+      "description": "Small and medium-size businesses (SMBs) face a daunting cybersecurity landscape. With 29% of businesses with fewer than 25 employees and nearly one in five midsize SMBs (19%) having experienced ransomware attacks in 2025, the threat is no longer theoretical; it’s a statistical inevitability. And as the holiday season approaches, these challenges intensify dramatically. Cyberattacks traditionally spike during this time, creating a perfect storm of vulnerability when businesses can least afford di",
+      "url": "https://www.csoonline.com/article/4087452/layered-security-how-smbs-can-protect-against-sophisticated-cyberthreats-during-the-holiday-season.html",
+      "source": "CSO Online",
+      "author": "Inconnu",
+      "published": "2025-11-10T15:51:18+00:00",
+      "niche": "security",
+      "score": 72,
+      "keywords": [
+        "attack",
+        "vulnerability",
+        "security",
+        "cybersecurity",
+        "threat"
       ]
     },
     {
@@ -2387,24 +2374,10 @@
       "niche": "security",
       "score": 61,
       "keywords": [
-        "OWASP",
-        "RCE",
+        "secure",
         "security",
-        "secure"
-      ]
-    },
-    {
-      "id": "314197f498a2fc92",
-      "title": "OpenAIs Aardvark soll Fehler im Code erkennen und beheben",
-      "description": "KI soll das Thema Sicherheit frühzeitig in den Development-Prozess miteinbeziehen.Summit Art Creations/ Shutterstock OpenAI hat Aardvark vorgestellt, einen autonomen Agenten auf Basis von GPT-5. Er soll wie ein menschlicher Sicherheitsforscher in der Lage sein, Code zu scannen, zu verstehen und zu patchen. Im Gegensatz zu herkömmlichen Scannern, die verdächtigen Code mechanisch markieren, versucht Aardvark zu analysieren, wie und warum sich Code so verhält, wie er sich verhält. „OpenAI Aardvark ",
-      "url": "https://www.csoonline.com/article/4083364/openais-aardvark-soll-fehler-im-code-erkennen-und-beheben.html",
-      "source": "CSO Online",
-      "author": "Inconnu",
-      "published": "2025-11-03T16:02:54+00:00",
-      "niche": "security",
-      "score": 60,
-      "keywords": [
-        "patch"
+        "OWASP",
+        "RCE"
       ]
     },
     {
@@ -2703,6 +2676,22 @@
       ]
     },
     {
+      "id": "b7fb602632f328b5",
+      "title": "ClickFix Campaign Targets Hotels, Spurs Secondary Customer Attacks",
+      "description": "Attackers compromise hospitality providers with an infostealer and RAT malware and then use stolen data to launch phishing attacks against customers via both email and WhatsApp.",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/clickfix-targets-hotels-secondary-customer-attacks",
+      "source": "Dark Reading",
+      "author": "Elizabeth Montalbano, Contributing Writer",
+      "published": "2025-11-10T15:16:58+00:00",
+      "niche": "security",
+      "score": 57,
+      "keywords": [
+        "phishing",
+        "malware",
+        "attack"
+      ]
+    },
+    {
       "id": "f6c5ef3950246ee0",
       "title": "U.S. CISA adds Gladinet CentreStack, and CWP Control Web Panel flaws to its Known Exploited Vulnerabilities catalog",
       "description": "U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds Gladinet CentreStack, and CWP Control Web Panel flaws to its Known Exploited Vulnerabilities catalog. The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added XWiki Platform, and Gladinet CentreStack, and CWP Control Web Panel flaws to its Known Exploited Vulnerabilities (KEV) catalog. Below are the flaws added to the [&#8230;]",
@@ -2746,21 +2735,6 @@
         "security",
         "cybersecurity",
         "RCE"
-      ]
-    },
-    {
-      "id": "bae955d3dc77ab32",
-      "title": "How Software Development Teams Can Securely and Ethically Deploy AI Tools",
-      "description": "To deploy AI tools securely and ethically, teams must balance innovation with accountability—establishing strong governance, upskilling developers, and enforcing rigorous code reviews. The post How Software Development Teams Can Securely and Ethically Deploy AI Tools appeared first on SecurityWeek.",
-      "url": "https://www.securityweek.com/how-software-development-teams-can-securely-and-ethically-deploy-ai-tools/",
-      "source": "SecurityWeek",
-      "author": "Matias Madou",
-      "published": "2025-11-03T16:00:00+00:00",
-      "niche": "security",
-      "score": 55,
-      "keywords": [
-        "security",
-        "secure"
       ]
     },
     {
@@ -2850,24 +2824,10 @@
       "score": 55,
       "keywords": [
         "vulnerability",
+        "security",
         "cybersecurity",
         "OWASP",
-        "security",
         "RCE"
-      ]
-    },
-    {
-      "id": "1a281e08c13d55bf",
-      "title": "Ukrainian Extradited to US Faces Charges in Jabber Zeus Cybercrime Case",
-      "description": "Yuriy Igorevich Rybtsov, aka MrICQ, was arrested in Italy and lost his appeal to avoid extradition to the US. The post Ukrainian Extradited to US Faces Charges in Jabber Zeus Cybercrime Case appeared first on SecurityWeek.",
-      "url": "https://www.securityweek.com/ukrainian-extradited-to-us-faces-charges-in-jabber-zeus-cybercrime-case/",
-      "source": "SecurityWeek",
-      "author": "Ionut Arghire",
-      "published": "2025-11-03T16:42:32+00:00",
-      "niche": "security",
-      "score": 54,
-      "keywords": [
-        "security"
       ]
     },
     {
@@ -3336,9 +3296,9 @@
       "niche": "security",
       "score": 51,
       "keywords": [
+        "patch",
         "disclosure",
-        "vulnerability",
-        "patch"
+        "vulnerability"
       ]
     },
     {
@@ -3353,8 +3313,8 @@
       "score": 51,
       "keywords": [
         "exploit",
-        "attack",
-        "security"
+        "security",
+        "attack"
       ]
     },
     {
@@ -3369,8 +3329,8 @@
       "score": 51,
       "keywords": [
         "exploit",
-        "attack",
-        "security"
+        "security",
+        "attack"
       ]
     },
     {
@@ -3622,9 +3582,9 @@
       "niche": "security",
       "score": 49,
       "keywords": [
-        "threat",
-        "attack",
         "phishing",
+        "attack",
+        "threat",
         "breach",
         "RCE"
       ]
@@ -3745,8 +3705,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "CVE-",
-        "security"
+        "security",
+        "CVE-"
       ]
     },
     {
@@ -4098,6 +4058,20 @@
       "keywords": []
     },
     {
+      "id": "054462437f4ac6f7",
+      "title": "Defeating KASLR by Doing Nothing at All",
+      "description": "Posted by Seth Jenkins, Project ZeroIntroductionI've recently been researching Pixel kernel exploitation and as part of this research I found myself with an excellent arbitrary write primitive…but without a KASLR leak. As necessity is the mother of all invention, on a hunch, I started researching the Linux kernel linear mapping.The Linux Linear MappingThe linear mapping is a region in the kernel virtual address space that is a direct 1:1 unstructured representation of physical memory. Working wi",
+      "url": "https://googleprojectzero.blogspot.com/2025/11/defeating-kaslr-by-doing-nothing-at-all.html",
+      "source": "Google Project Zero",
+      "author": "Google Project Zero (noreply@blogger.com)",
+      "published": "2025-11-03T10:09:00-08:00",
+      "niche": "security",
+      "score": 44,
+      "keywords": [
+        "exploit"
+      ]
+    },
+    {
       "id": "885bd2410101a452",
       "title": "Pointer leaks through pointer-keyed data structures",
       "description": "Posted by Jann Horn, Google Project Zero IntroductionSome time in 2024, during a Project Zero team discussion, we were talking about how remote ASLR leaks would be helpful or necessary for exploiting some types of memory corruption bugs, specifically in the context of Apple devices. Coming from the angle of \"where would be a good first place to look for a remote ASLR leak\", this led to the discovery of a trick that could potentially be used to leak a pointer remotely, without any memory safety v",
@@ -4150,10 +4124,10 @@
       "niche": "security",
       "score": 43,
       "keywords": [
-        "OWASP",
-        "RCE",
+        "secure",
         "security",
-        "secure"
+        "OWASP",
+        "RCE"
       ]
     },
     {
@@ -4485,22 +4459,6 @@
       "keywords": []
     },
     {
-      "id": "de39f9e791a6a5b6",
-      "title": "GSoC 2025 Recap",
-      "description": "OWASP at Google Summer of Code 2025 Celebrating real impact, strong mentorship, and a growing community The Google Summer of Code (GSoC) 2025 program has wrapped, and OWASP’s participation once again delivered meaningful improvements across the open-source security ecosystem. This year, 15 contributors worked across multiple OWASP projects, supported by 26 mentors. Of the 15 projects evaluated, 10 reached successful completion, three are still working on the final deliveries with extended deadli",
-      "url": "http://owasp.org/blog/2025/10/01/GSoCRecap.html",
-      "source": "OWASP News",
-      "author": "Fabio Cerullo & Starr Brown",
-      "published": "2025-10-01T07:00:00+00:00",
-      "niche": "security",
-      "score": 42,
-      "keywords": [
-        "OWASP",
-        "RCE",
-        "security"
-      ]
-    },
-    {
       "id": "5de3274c9f9c8ec8",
       "title": "BenQ ScreenBar Pro : la lampe de bureau que je prenais pour un gadget (et que je ne peux plus quitter)",
       "description": "– Article invité, rédigé par Vincent Lautier, contient des liens affiliés Amazon – Au départ, j’étais persuadé que c’était encore un gadget pour geeks. Une lampe pour écran à plus de 130 euros ? Vraiment ? Et puis, après avoir vu la moitié de mes collègues journalistes et amis l’utiliser, j’ai craqué. Résultat : la BenQ ScreenBar Pro est devenue un indispensable de mon bureau, au point que je me demande comment j’ai pu bosser sans elle.",
@@ -4511,6 +4469,34 @@
       "niche": "security",
       "score": 42,
       "keywords": []
+    },
+    {
+      "id": "1db528a070b4ec35",
+      "title": "Stadtverwaltung Ludwigshafen kämpft mit IT-Ausfall",
+      "description": "Die Stadtverwaltung Ludwigshafen wurde vermutlich von Hackern angegriffen.Deemerwha studio In Ludwigshafen sind derzeit weder die Online-Services nutzbar, noch ist die Verwaltung per Telefon oder Mail zu erreichen. Und dies dürfte noch eine Weile so bleiben. Denn erst am Sonntag informierte die Stadt in einer öffentlichen Mitteilung darüber, dass „Überprüfungen des Datennetzes noch mindestens die gesamte kommende Woche andauern, möglicherweise auch länger“. Die Stadtverwaltung Ludwigshafen sah s",
+      "url": "https://www.csoonline.com/article/4087433/stadtverwaltung-ludwigshafen-kampft-mit-it-ausfall.html",
+      "source": "CSO Online",
+      "author": "Inconnu",
+      "published": "2025-11-10T15:46:18+00:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "de39f9e791a6a5b6",
+      "title": "GSoC 2025 Recap",
+      "description": "OWASP at Google Summer of Code 2025 Celebrating real impact, strong mentorship, and a growing community The Google Summer of Code (GSoC) 2025 program has wrapped, and OWASP’s participation once again delivered meaningful improvements across the open-source security ecosystem. This year, 15 contributors worked across multiple OWASP projects, supported by 26 mentors. Of the 15 projects evaluated, 10 reached successful completion, three are still working on the final deliveries with extended deadli",
+      "url": "http://owasp.org/blog/2025/10/01/GSoCRecap.html",
+      "source": "OWASP News",
+      "author": "Fabio Cerullo & Starr Brown",
+      "published": "2025-10-01T07:00:00+00:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": [
+        "security",
+        "OWASP",
+        "RCE"
+      ]
     },
     {
       "id": "f24cdca7d167bf26",
@@ -4720,10 +4706,10 @@
       "niche": "security",
       "score": 37,
       "keywords": [
-        "web application security",
-        "OWASP",
+        "threat",
         "security",
-        "threat"
+        "web application security",
+        "OWASP"
       ]
     },
     {
@@ -4752,8 +4738,8 @@
       "score": 36,
       "keywords": [
         "SQL injection",
-        "RCE",
-        "injection"
+        "injection",
+        "RCE"
       ]
     },
     {
@@ -4767,9 +4753,23 @@
       "niche": "security",
       "score": 33,
       "keywords": [
+        "patch",
         "exploit",
-        "security",
-        "patch"
+        "security"
+      ]
+    },
+    {
+      "id": "66d825e5769aa7b3",
+      "title": "'Landfall' Malware Targets Samsung Galaxy Users",
+      "description": "The tool let its operators secretly record conversations, track device locations, capture photos, collect contacts, and perform other surveillance on compromised devices.",
+      "url": "https://www.darkreading.com/mobile-security/landfall-malware-targeted-samsung-galaxy-users",
+      "source": "Dark Reading",
+      "author": "Jai Vijayan, Contributing Writer",
+      "published": "2025-11-07T21:15:29+00:00",
+      "niche": "security",
+      "score": 32,
+      "keywords": [
+        "malware"
       ]
     },
     {
@@ -4795,8 +4795,8 @@
       "niche": "security",
       "score": 32,
       "keywords": [
-        "RCE",
-        "remote code execution"
+        "remote code execution",
+        "RCE"
       ]
     },
     {
@@ -4810,9 +4810,9 @@
       "niche": "security",
       "score": 31,
       "keywords": [
-        "OWASP",
+        "secure",
         "security",
-        "secure"
+        "OWASP"
       ]
     },
     {
@@ -4826,8 +4826,8 @@
       "niche": "security",
       "score": 30,
       "keywords": [
-        "RCE",
-        "security"
+        "security",
+        "RCE"
       ]
     },
     {
@@ -4856,8 +4856,8 @@
       "niche": "security",
       "score": 30,
       "keywords": [
-        "OWASP",
-        "security"
+        "security",
+        "OWASP"
       ]
     },
     {
@@ -4925,9 +4925,9 @@
       "niche": "security",
       "score": 26,
       "keywords": [
-        "RCE",
         "security",
-        "cybersecurity"
+        "cybersecurity",
+        "RCE"
       ]
     },
     {
@@ -5238,8 +5238,8 @@
       "niche": "security",
       "score": 18,
       "keywords": [
-        "bug bounty",
-        "security"
+        "security",
+        "bug bounty"
       ]
     },
     {
@@ -5323,8 +5323,8 @@
       "niche": "security",
       "score": 15,
       "keywords": [
-        "security",
-        "secure"
+        "secure",
+        "security"
       ]
     },
     {
@@ -5338,8 +5338,8 @@
       "niche": "security",
       "score": 15,
       "keywords": [
-        "security",
-        "secure"
+        "secure",
+        "security"
       ]
     },
     {
