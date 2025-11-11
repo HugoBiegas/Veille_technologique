@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-11-11T18:34:58.337875+00:00",
-  "total_articles": 967,
+  "last_updated": "2025-11-11T21:22:19.532348+00:00",
+  "total_articles": 975,
   "articles": [
     {
       "id": "2445dbb389252855",
@@ -149,6 +149,21 @@
       "keywords": [
         "framework",
         "performance"
+      ]
+    },
+    {
+      "id": "5a517533deae65b6",
+      "title": "Google Maps Routes API: Passing the 25 Waypoint Limit",
+      "description": "If you've worked on the new Google Maps Routes API, and are working on a complex solution, you've probably been hampered by the 25 Waypoint limit. I've recently been working on a solution where the number of Waypoints could be in the hundreds! But not to worry, there's a solution that's simple and scalable. So pull up a chair, and let's take a look. Getting Started To help me along, I've used the 'vis.gl/react-google-maps' library, which provides React components that wrap around the Google Maps",
+      "url": "https://dev.to/dannyhodge/google-maps-routes-api-passing-the-25-waypoint-limit-3m0",
+      "source": "Dev.to",
+      "author": "Danny Hodge",
+      "published": "2025-11-11T21:11:46+00:00",
+      "niche": "dev",
+      "score": 75,
+      "keywords": [
+        "API",
+        "library"
       ]
     },
     {
@@ -1189,21 +1204,6 @@
       ]
     },
     {
-      "id": "fc1a71b498ed229d",
-      "title": "Cloud Performance Beyond the Cloud: Monitoring the Entire Internet Stack",
-      "description": "Organizations often focus their monitoring efforts on cloud services like AWS EKS or Azure API Gateway, assuming these are the primary drivers of cloud performance. In reality, cloud providers consistently meet their SLAs. The real bottlenecks exist in the overlooked segments of the transaction path. When a user clicks a button, their request travels through DNS servers, content delivery networks, and multiple ISP routing hops before reaching your application. Each of these points can degrade pe",
-      "url": "https://dev.to/kapusto/cloud-performance-beyond-the-cloud-monitoring-the-entire-internet-stack-5fb6",
-      "source": "Dev.to",
-      "author": "Mikuz",
-      "published": "2025-11-04T20:43:26+00:00",
-      "niche": "dev",
-      "score": 57,
-      "keywords": [
-        "API",
-        "performance"
-      ]
-    },
-    {
       "id": "2a337b4b7e45f309",
       "title": "Adding Unit Tests to repo-context-packager",
       "description": "To add unit tests into my CLI tool I used Catch2, a modern C++ unit testing framework that makes writing tests easy and quick. It has a nice single-header option that you can drop into a repo, simple REQUIRE / CHECK macros, and flexible test naming and tagging. Also, Catch2 was the library I found interesting when I was looking at open-source projects during the first week of OSD600 cource, so I already liked it. To write unit tests, I first created a tests/ folder in my project and added the Ca",
@@ -1385,22 +1385,6 @@
       ]
     },
     {
-      "id": "bdf45e0548affb01",
-      "title": "Devoxx: Inspiring the Next Generations",
-      "description": "Inspiring the Next Generations Frank Delporte sits down with Cassandra Chin—author of Raising Young Coders—to dive into her tips for making programming fun and accessible for kids. Grab her Springer book with a 20% discount (code APAUT) and connect with her on LinkedIn for more hands-on advice. Then it’s Daniel De Luca, the founder of Devoxx4Kids, sharing how his workshops turn tech-curious youngsters into passionate coders through playful, age-friendly activities. Hit up his LinkedIn to see how",
-      "url": "https://dev.to/scale_youtube/devoxx-inspiring-the-next-generations-4cjc",
-      "source": "Dev.to",
-      "author": "Scale YouTube",
-      "published": "2025-11-04T20:36:59+00:00",
-      "niche": "dev",
-      "score": 56,
-      "keywords": [
-        "Spring",
-        "programming",
-        "code"
-      ]
-    },
-    {
       "id": "cde9bc5849bdcb92",
       "title": "Guide to Seamless Data Security in Rails With Mongoid’s Automatic Encryption",
       "description": "This tutorial was written by MongoDB Champion Humberto Diaz. One of Rails' doctrinal pillars puts programmer happiness on a pedestal. Convention over configuration, human-readable code, and smart defaults make the Rails Way feel almost intuitive. With the release of Mongoid 9.0, that same philosophy now extends to data encryption. Tasks that once required multi-step configurations can now be completed through a single model declaration. MongoDB’s Client-Side Field-Level Encryption (CSFLE) can no",
@@ -1502,21 +1486,6 @@
         "code",
         "developer",
         "framework"
-      ]
-    },
-    {
-      "id": "2d7dc28bcfb5b866",
-      "title": "Laravel AI Agent That Chats with Telex.im",
-      "description": "🤖 Building a Laravel AI Agent That Chats with Telex.im Using Neuron AI + Gemini 2.5 Flash 🌟 Introduction Imagine chatting with an intelligent Laravel agent right inside your Telex.im workspace — one that can explain, generate, or fix code instantly. That’s exactly what I built: Dev Assist, a Laravel-based AI assistant powered by Neuron AI and Google Gemini 2.5 Flash, integrated with Telex.im using a workflow node (a2a/mastra-a2a-node) and publicly accessible via Expose and Render. This setup cre",
-      "url": "https://dev.to/usenmfon_uko/laravel-ai-agent-that-chats-with-telexim-2elj",
-      "source": "Dev.to",
-      "author": "Usenmfon",
-      "published": "2025-11-04T20:45:02+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "Laravel",
-        "code"
       ]
     },
     {
@@ -3070,6 +3039,20 @@
       ]
     },
     {
+      "id": "c80bdfd33faa50d8",
+      "title": "How To Make A Custom Type Iterable In Rust.",
+      "description": "Learn how to make your custom type implement the IntoIterator, Iterator, and FromIterator trait. Understand how to add the into_iter, iter, and iter_mut methods to your custom type. In my former article, How to build a Heapless Vector using MaybeUninit<T> for Better Performance, I taught how to build a heapless vector data structure to enable a Vec-like data structure without heap allocation for use in embedded systems where heap allocation is unlikely. The heapless vector ArrayVec is a wrapper ",
+      "url": "https://dev.to/allwelldotdev/how-to-make-a-custom-type-iterable-in-rust-c0i",
+      "source": "Dev.to",
+      "author": "Allwell",
+      "published": "2025-11-11T20:45:01+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "performance"
+      ]
+    },
+    {
       "id": "9e6e6c081c544503",
       "title": "Mid Term Cloud Services - Containerization",
       "description": "Di era dimana cloud computing semakin banyak digunakan seperti saat ini, developer dituntut untuk semakin cepat dalam mengembangkan serta mendeploy aplikasi. Aplikasi yang dibuat juga harus konsisten dan portabel untuk semua platform. Dulu, memindahkan aplikasi dari satu lingkungan atau sistem ke lingkungan atau sistem lain yang berbeda berarti “main tebak-tebakan” dependensi dan versi – jalan di komputer lokal, belum tentu jalan di server, jalan di development, belum tentu jalan di production. ",
@@ -3472,34 +3455,6 @@
       "keywords": [
         "developer",
         "tutorial"
-      ]
-    },
-    {
-      "id": "58e6605aec0fa9f6",
-      "title": "Effortless PostgreSQL Environment in Docker For Windows",
-      "description": "Introduction PostgreSQL is a powerful, open-source object-relational database system. It is a highly scalable, SQL-compliant database management system that is used to handle large workloads. PostgreSQL is a popular choice for many developers and organizations due to its robust features, extensibility, and reliability. Installing PostgreSQL directly on your local machine can be a difficult and also take multiple steps, configuration issues, and potential conflicts with other software. This proce",
-      "url": "https://dev.to/sandipm03/effortless-postgresql-environment-in-docker-for-windows-3i13",
-      "source": "Dev.to",
-      "author": "Sandip Mandal",
-      "published": "2025-11-04T20:45:28+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "developer"
-      ]
-    },
-    {
-      "id": "59e7e05562b78ee1",
-      "title": "NDC Conferences: \"Would YOU Survive the Titanic?\", with ML and .NET - Simon Painter - NDC Copenhagen 2025",
-      "description": "Ever wondered if you’d survive the Titanic? Simon Painter’s NDC Copenhagen talk dives into ML.NET and .NET to build a Titanic survivor predictor right inside Visual Studio with C#. Using Kaggle’s Titanic Challenge dataset, he proves you don’t need Python to get powerful ML results—just a few clicks and your codebase is ready to set sail. ML.NET is Microsoft’s surprisingly easy SDK for adding machine learning to your apps, and this demo shows how quickly you can train, evaluate and ship a model w",
-      "url": "https://dev.to/scale_youtube/ndc-conferences-would-you-survive-the-titanic-with-ml-and-net-simon-painter-ndc-41m4",
-      "source": "Dev.to",
-      "author": "Scale YouTube",
-      "published": "2025-11-04T20:38:15+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
       ]
     },
     {
@@ -4694,64 +4649,18 @@
       ]
     },
     {
-      "id": "f2cc1bd9da735b78",
-      "title": "🧠 I built a full system monitor in Bash — and fought awk along the way 💀",
-      "description": "I wanted to see how far I could push pure Bash before it collapses under its own syntax. So, naturally, I decided to write a system monitoring tool — in Bash. And thus, system-monitor was born: 👉 GitHub repo Yes, it’s fully functional. Yes, it uses colors. Yes, awk is involved. No, I don’t recommend doing this sober. 😅 💡 The idea I wanted a single script that could show: CPU load and number of cores RAM usage and percentage Disk space for / Network I/O Process count Basically, the “lazy Linux ad",
-      "url": "https://dev.to/danlinx2004x/i-built-a-full-system-monitor-in-bash-and-fought-awk-along-the-way-53ge",
+      "id": "fdfb7ff808357bad",
+      "title": "💻 Flutter V2Ray Client Desktop Plugin — V2Ray/Xray & Sing-Box VPN for Windows, macOS, Linux",
+      "description": "🧩 Following the success of flutter_v2ray_client (mobile), I'm excited to introduce the Desktop Edition — a premium Flutter plugin that brings V2Ray, Xray, and Sing-Box VPN/TUN capabilities to Windows, macOS, and Linux. Ideal for developers and companies building cross-platform VPN or proxy tools. 🎥 Quick Youtube Video Demo Watch on YouTube 💎 Premium Highlights 🔒 2-Year Guarantee — Free updates & maintenance 💬 Priority Support — Fast Telegram support for all premium users 🚀 Advanced Features — Re",
+      "url": "https://dev.to/amirzr/flutter-v2ray-client-desktop-plugin-v2rayxray-sing-box-vpn-for-windows-macos-linux-5h9d",
       "source": "Dev.to",
-      "author": "DanLin",
-      "published": "2025-11-04T21:16:25+00:00",
+      "author": "Amir Ziari",
+      "published": "2025-11-11T20:46:11+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "d469cf254c2e96e3",
-      "title": "Molecular Alchemy: AI-Powered Design of Novel Compounds by Arvind Sundararajan",
-      "description": "Molecular Alchemy: AI-Powered Design of Novel Compounds \\Imagine a world where new drug candidates are designed in hours, not years. Where customized medicine is within everyone's reach. This isn't science fiction; it's the promise of AI revolutionizing molecule creation. The core concept enabling this leap is a novel deep-learning architecture that predicts the arrangement of atoms to build novel molecules. This system learns to arrange molecules atom by atom, similar to how a sculptor adds cla",
-      "url": "https://dev.to/arvind_sundararajan/molecular-alchemy-ai-powered-design-of-novel-compounds-by-arvind-sundararajan-23mc",
-      "source": "Dev.to",
-      "author": "Arvind SundaraRajan",
-      "published": "2025-11-04T21:02:08+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "177d52ad8f9134dc",
-      "title": "The Problem Space: Why Modern Banking Infrastructure is Broken",
-      "description": "Part 1: The Problem Space - Why Modern Banking Infrastructure is Broken Series: Building a 100K TPS Financial Ledger Part: 1 of 7 Reading Time: 8 minutes Introduction Imagine you're the CTO of a major bank. It's Black Friday, and your payment processing system just hit a wall. Transactions are queueing up. Customers can't pay. Revenue is bleeding. Your core banking system—the one that cost $50 million to implement in 2005—is choking on modern transaction volumes. This isn't a hypothetical. It's ",
-      "url": "https://dev.to/mharris021/the-problem-space-why-modern-banking-infrastructure-is-broken-5g60",
-      "source": "Dev.to",
-      "author": "Michael Harris",
-      "published": "2025-11-04T20:56:09+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "3b95cb02d40a058a",
-      "title": "Redis",
-      "description": "what is it? it is a open-source in memory data store. so, it like the cache stored memory, it is usually way too much faster than requesting querying the data. usually when the query is made, first it finds in cache(redis memory) if not query is sent to DB, then the data is sent back to user while also saving it in the redis memory. it is a structured key-value pair, but with various data structure. redis port number : 6379 installing redis redis can be a standalone application, but usually in p",
-      "url": "https://dev.to/algon31/redis-4abo",
-      "source": "Dev.to",
-      "author": "Ravi Bhuvan",
-      "published": "2025-11-04T20:30:51+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "55d1903a80351abe",
-      "title": "How to use SQLite3 in Node.js (full clear documentation for beginners)",
-      "description": "SQLite3 is the file based database No server needed. Just one file → .db You can embed this DB inside your desktop app, CLI tool or small web backend. For using SQLite3 we need a SQLite3 package and web admin panel. You can install it from NPM npm install sqlite3 sqlite3-admin Making a database connection First of all for using SQLite3 database you need a making connection (for instance create a file db.js): const sqlite3 = require('sqlite3').verbose(); // Opens database file // if file not exis",
-      "url": "https://dev.to/jahongir2007/how-to-use-sqlite3-in-nodejs-full-clear-documentation-for-beginners-5epd",
-      "source": "Dev.to",
-      "author": "Jahongir Sobirov",
-      "published": "2025-11-04T20:27:09+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
       "id": "ebda7ad8a7708978",
@@ -7944,6 +7853,90 @@
       "keywords": []
     },
     {
+      "id": "73a04a6b791488ed",
+      "title": "Construindo um Operador Kubernetes com Go",
+      "description": "Introdução Se você já administra aplicações em Kubernetes, provavelmente sabe o quanto pode ser trabalhoso manter tudo funcionando corretamente. Criar Deployments, Services, Ingresses, aplicar patches, gerenciar atualizações… a lista não acaba. Ferramentas como o Helm ajudam a organizar e versionar YAMLs, mas mas não lidam com lógica operacional complexa. Afinal, o Helm não “pensa”: ele 'apenas' aplica templates. E se pudéssemos ensinar o Kubernetes a fazer esse trabalho sozinho, reagindo a muda",
+      "url": "https://dev.to/gfalves87/construindo-um-operador-kubernetes-com-go-51ld",
+      "source": "Dev.to",
+      "author": "Gabriel francisco Alves",
+      "published": "2025-11-11T20:54:15+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "be86440eb02ca1b8",
+      "title": "Ability to Create Async Commands in WebForms Core 2",
+      "description": "In version 2 of WebForms Core technology, we will be able to execute commands asynchronously. This is a new feature that is structurally similar to conditional commands in the Condition section of the WebForms class on the server. Async execution in a section of commands allows the application to perform multiple tasks simultaneously without waiting for the completion of a time-consuming operation (such as a network request or the execution of a heavy method). This approach increases system perf",
+      "url": "https://dev.to/elanatframework/ability-to-create-async-commands-in-webforms-core-2-2ghk",
+      "source": "Dev.to",
+      "author": "Elanat Framework",
+      "published": "2025-11-11T20:49:24+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "ac051d82d3764fad",
+      "title": "Mastering Cryptography: A Senior's Guide to Design, Attack, and Defend",
+      "description": "From the first whispered secret you tried to pass in school to the last password you sent over a chat app, you’ve already lived inside the world of cryptography. Sometimes you wanted to hide what you were saying. Sometimes you wanted to avoid attracting attention altogether. Sometimes you needed to prove you were you without giving away anything else. And sometimes you just needed reassurance that what arrived was exactly what was sent. Those familiar, everyday needs are the spine of a field tha",
+      "url": "https://dev.to/tsaplina_elena/mastering-cryptography-a-seniors-guide-to-design-attack-and-defend-h9c",
+      "source": "Dev.to",
+      "author": "Tsaplina Elena",
+      "published": "2025-11-11T20:34:05+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "fdee389d613cdf66",
+      "title": "Djowda — Looking for a New Steward for an Open FoodTech Ecosystem",
+      "description": "Hey folks, I’ve been building Djowda for the past few years — a large-scale, open, and decentralized ecosystem designed to connect local food chains across the world. It started with a question: “If we can decentralize finance, why can’t we decentralize food?” From that question came a family of Android apps, a global spatial database, and a concept called the Intelligent Cell System — an architecture inspired by neurons, where every cell learns, remembers, and shares. Over time, Djowda grew int",
+      "url": "https://dev.to/mosescodedev/djowda-looking-for-a-new-steward-for-an-open-foodtech-ecosystem-30gc",
+      "source": "Dev.to",
+      "author": "Djowda",
+      "published": "2025-11-11T20:32:38+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "1b9b414e2bf04220",
+      "title": "Podcast: ConformIQ CEO & LayerLens Co-Founder on the Reality of AI in Testing",
+      "description": "Hi Everyone, My name is Mark, and I'm new to the group. I work at ConformIQ, where we focus on solving a major source of friction in the CI/CD pipeline: unreliable and high-maintenance automated testing. I'm joining this community to learn, but I wanted to introduce myself by sharing some value first. Our CEO, Mark Creamer, recently sat down with Archie Chaudhury (Co-Founder of LayerLens) for a deep-dive podcast series. They cut through the \"GenAI hype\" and addressed the \"95% AI failure rate\" th",
+      "url": "https://dev.to/mj_creamer/podcast-conformiq-ceo-layerlens-co-founder-on-the-reality-of-ai-in-testing-4mbe",
+      "source": "Dev.to",
+      "author": "MJ Creamer",
+      "published": "2025-11-11T20:26:21+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "cc7e735901afe18f",
+      "title": "What Actually Happens When You Type a URL in the Browser?",
+      "description": "Imagine you’re at your desk, maybe with a little mug of tea, and you open your browser. You type www.google.com, hit Enter, and in what feels like a heartbeat, you’re staring at the Google homepage. Simple, right? Here’s the thing: behind that one keystroke lies a chain reaction, a series of machines, protocols, translations, negotiations, all secretly working together so you can see a web page. It’s less magic, more engineering, but still pretty magical when you think about it. Step 1: The URL ",
+      "url": "https://dev.to/byte-sized-news/what-actually-happens-when-you-type-a-url-in-the-browser-5b08",
+      "source": "Dev.to",
+      "author": "Ishan Bagchi",
+      "published": "2025-11-11T20:25:07+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "ae55007d85b5f810",
+      "title": "Por que minha conta de luz está tão alta em 2025? 7 causas ocultas",
+      "description": "Por que minha conta de luz está tão alta em 2025? 7 causas ocultas Se você abriu sua conta de luz em 2025 e levou um susto com o valor, não está sozinho. As tarifas residenciais de energia elétrica acumulam alta de 16,42% entre janeiro e setembro de 2025, tornando-se um dos principais vilões da inflação brasileira. Mas o que realmente está por trás desse aumento? Muitos consumidores olham apenas para o consumo em kWh e não entendem por que a conta continua subindo, mesmo economizando energia. A ",
+      "url": "https://dev.to/ava_mendes/por-que-minha-conta-de-luz-esta-tao-alta-em-2025-7-causas-ocultas-1c6m",
+      "source": "Dev.to",
+      "author": "Ava Mendes",
+      "published": "2025-11-11T20:20:33+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "614c2897ff68900a",
       "title": "Check out this blog on all device compatible tableau dashboards",
       "description": "Designing All-Device Compatible Tableau Dashboards: A Complete Guide Dipti M ・ Nov 9 #webdev #programming #beginners #tutorial",
@@ -10120,6 +10113,66 @@
       "keywords": []
     },
     {
+      "id": "ca02cdedf72bc534",
+      "title": "Collaboration sucks",
+      "description": "Comments",
+      "url": "https://newsletter.posthog.com/p/collaboration-sucks",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-11T20:27:38+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "8cc9f9c0570eda46",
+      "title": "A catalog of side effects",
+      "description": "Comments",
+      "url": "https://bernsteinbear.com/blog/compiler-effects/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-11T19:44:49+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "bd40d9debdbd0f60",
+      "title": "A modern 35mm film scanner for home",
+      "description": "Comments",
+      "url": "https://www.soke.engineering/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-11T19:48:19+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "d6f9cd02a17108f3",
+      "title": "Meticulous (YC S21) is hiring to redefine software dev",
+      "description": "Comments",
+      "url": "https://jobs.ashbyhq.com/meticulous/3197ae3d-bb26-4750-9ed7-b830f640515e",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-11T21:00:35+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "880025ebe386052b",
+      "title": "Cache-friendly, low-memory Lanczos algorithm in Rust",
+      "description": "Comments",
+      "url": "https://lukefleed.xyz/posts/cache-friendly-low-memory-lanczos/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-11T17:08:00+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "78c4b08725d5f56b",
       "title": "React 19 Upgrade Guide",
       "description": "The improvements added to React 19 require some breaking changes, but we've worked to make the upgrade as smooth as possible and we don't expect the changes to impact most apps. In this post, we will guide you through the steps for upgrading apps and libraries to React 19.",
@@ -10225,9 +10278,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
+        "developer",
         "library",
-        "release",
-        "developer"
+        "release"
       ]
     },
     {
@@ -10241,9 +10294,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "release",
         "API",
-        "developer"
+        "developer",
+        "release"
       ]
     },
     {
@@ -10257,9 +10310,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "performance",
         "API",
-        "developer"
+        "developer",
+        "performance"
       ]
     },
     {
@@ -10519,6 +10572,30 @@
       "keywords": []
     },
     {
+      "id": "b331d12010f1b720",
+      "title": "Scaling HNSWs",
+      "description": "Comments",
+      "url": "https://antirez.com/news/156",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-11T14:11:49+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
+      "id": "de82685371963f31",
+      "title": "Pikaday: A friendly guide to front-end date pickers",
+      "description": "Comments",
+      "url": "https://pikaday.dbushell.com",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-11T14:58:47+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
       "id": "4e6d7290f5ff11d8",
       "title": "React Native 0.80 - React 19.1, JS API Changes, Freezing Legacy Arch and much more",
       "description": "Today we are excited to release React Native 0.80!",
@@ -10529,9 +10606,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
+        "API",
         "React 19",
-        "release",
-        "API"
+        "release"
       ]
     },
     {
@@ -10753,11 +10830,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "performance",
         "release",
         "code",
-        "framework",
-        "API"
+        "performance",
+        "API",
+        "framework"
       ]
     },
     {
@@ -10969,9 +11046,9 @@
       "niche": "dev",
       "score": 25,
       "keywords": [
-        "release",
+        "Angular",
         "framework",
-        "Angular"
+        "release"
       ]
     },
     {
@@ -11053,9 +11130,9 @@
       "niche": "dev",
       "score": 22,
       "keywords": [
-        "release",
+        "development",
         "performance",
-        "development"
+        "release"
       ]
     },
     {
@@ -11081,8 +11158,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "API"
+        "API",
+        "release"
       ]
     },
     {
@@ -11096,8 +11173,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "framework"
+        "framework",
+        "release"
       ]
     },
     {
@@ -11112,8 +11189,8 @@
       "score": 20,
       "keywords": [
         "code",
-        "performance",
-        "developer"
+        "developer",
+        "performance"
       ]
     },
     {
@@ -11127,9 +11204,9 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
         "API",
-        "developer"
+        "developer",
+        "release"
       ]
     },
     {
@@ -11143,8 +11220,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
-        "developer"
+        "developer",
+        "release"
       ]
     },
     {
@@ -11172,8 +11249,8 @@
       "niche": "dev",
       "score": 18,
       "keywords": [
-        "code",
         "development",
+        "code",
         "developer"
       ]
     },
@@ -11473,6 +11550,30 @@
       "keywords": []
     },
     {
+      "id": "5a7ad70c5b1db2a2",
+      "title": "My fan worked fine, so I gave it WiFi",
+      "description": "Comments",
+      "url": "https://ellis.codes/blog/my-fan-worked-fine-so-i-gave-it-wi-fi/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-06T01:04:23+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "f38dc98891001e7b",
+      "title": "Étude in C minor (2020)",
+      "description": "Comments",
+      "url": "https://zserge.com/posts/etude-in-c/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-04T23:18:04+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
       "id": "40e317e52f2a5a52",
       "title": "The “Most Hated” CSS Feature: tan()",
       "description": "Last time, we discussed that, sadly, according to the&#160;State of CSS 2025 survey, trigonometric functions are deemed the &#8220;Most Hated&#8221; CSS feature. That shocked me. I may have even been a little offended, being a math nerd and &#8230; The &#8220;Most Hated&#8221; CSS Feature: tan() originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
@@ -11615,8 +11716,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "programming",
-        "development"
+        "development",
+        "programming"
       ]
     },
     {
@@ -12269,18 +12370,6 @@
       "published": "2025-09-26T00:00:00+00:00",
       "niche": "dev",
       "score": 9,
-      "keywords": []
-    },
-    {
-      "id": "eb1e65fb9d0ceec9",
-      "title": "I Fell in Love with Erlang",
-      "description": "Comments",
-      "url": "https://boragonul.com/post/falling-in-love-with-erlang",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-01T21:00:33+00:00",
-      "niche": "dev",
-      "score": 8,
       "keywords": []
     },
     {
