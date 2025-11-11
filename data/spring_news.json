@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-11T06:42:20.041556+00:00",
+  "last_updated": "2025-11-11T09:32:51.692621+00:00",
   "total_articles": 197,
   "articles": [
     {
@@ -22,6 +22,18 @@
       "source": "Baeldung",
       "author": "Hardik Singh Behl",
       "published": "2025-11-10T07:28:58+00:00",
+      "niche": "spring",
+      "score": 68,
+      "keywords": []
+    },
+    {
+      "id": "a1a5105910961394",
+      "title": "The best way to clean up test data with Spring and Hibernate",
+      "description": "Introduction In this article, I&#8217;m going to show you the best way to clean up test data when using Spring and Hibernate. While it&#8217;s very common to use the @DataJpaTest annotation when implementing integration tests, in this blog post, you will see why you are better off avoiding using this annotation. Why I don&#8217;t use @DataJpaTest As explained by the manual, Spring Boot provides the @DataJpaTest annotation for Spring Data JPA integration testing. Once the @DataJpaTest annotation ",
+      "url": "https://vladmihalcea.com/clean-up-test-data-spring/",
+      "source": "Vlad Mihalcea",
+      "author": "vladmihalcea",
+      "published": "2025-11-11T08:05:24+00:00",
       "niche": "spring",
       "score": 68,
       "keywords": []
@@ -60,18 +72,6 @@
       "published": "2025-11-10T00:00:00+00:00",
       "niche": "spring",
       "score": 62,
-      "keywords": []
-    },
-    {
-      "id": "c4832e99a75e6d7e",
-      "title": "Reactive Programming with Project Reactor",
-      "description": "The Case for Reactive Architecture Modern applications face unprecedented demands for responsiveness and scalability. Users expect sub-second response times while systems must handle unpredictable traffic spikes that can multiply load by orders of magnitude within minutes. Traditional blocking I/O models, where threads wait idly for database queries or external API calls to complete, become increasingly &#8230;",
-      "url": "https://www.javacodegeeks.com/2025/11/reactive-programming-with-project-reactor.html",
-      "source": "Java Code Geeks",
-      "author": "Eleftheria Drosopoulou",
-      "published": "2025-11-04T06:56:00+00:00",
-      "niche": "spring",
-      "score": 57,
       "keywords": []
     },
     {
@@ -315,6 +315,18 @@
       "keywords": []
     },
     {
+      "id": "44d618e1980fac69",
+      "title": "This Week in Spring - November 10th, 2025",
+      "description": "Hi, Spring fans! Welcome to another installment of This Week in Spring! As I write this I am preparing for a flight to North Carolina (first in flight!). This week's going to be busy, but next week even busier still! I'll be at AI By The Bay (in San Francisco), AI Native Dev Con (in NYC), and QCon SF (in SF). All in five days! It's going to be a ton of fun but I can't wait. Why am I so busy? Because Spring's kind of a big thing and it should be and I want to share it. Which brings us to this wee",
+      "url": "https://spring.io/blog/2025/11/10/this-week-in-spring-november-11th-2025",
+      "source": "Spring Blog (Official)",
+      "author": "joshlong",
+      "published": "2025-11-10T00:00:00+00:00",
+      "niche": "spring",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "4b896a90e1c44714",
       "title": "The Object Class in Java",
       "description": "A quick guide to Java's Object class and its methods. The post The Object Class in Java first appeared on Baeldung.&#160;&#160;&#160;&#160;&#160;&#160;&#160;",
@@ -384,18 +396,6 @@
       "published": "2025-11-08T02:35:56+00:00",
       "niche": "spring",
       "score": 46,
-      "keywords": []
-    },
-    {
-      "id": "ba03dd718c828228",
-      "title": "Mocking Logger and LoggerFactory Example",
-      "description": "1. Introduction The SLF4J library provides the Logger interface and LoggerFactory utility class to create a logger instance for a given class. Application utilizes the logging message to troubleshoot problems. In this example, I will demonstrate three ways to mock Logger and LoggerFactory in a Spring Boot Web Project: via Mockito.mock(Logger.class) if services inject Logger &#8230;",
-      "url": "https://www.javacodegeeks.com/mocking-logger-and-loggerfactory-example.html",
-      "source": "Java Code Geeks",
-      "author": "Mary Zheng",
-      "published": "2025-11-04T08:35:00+00:00",
-      "niche": "spring",
-      "score": 42,
       "keywords": []
     },
     {
@@ -802,6 +802,18 @@
       "source": "InfoQ Java",
       "author": "Michael Redlich",
       "published": "2025-11-11T02:30:00+00:00",
+      "niche": "spring",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "5e02bd4bfb482b62",
+      "title": "Structured Concurrency Patterns in Java",
+      "description": "Concurrent programming has long been Java&#8216;s Achilles&#8217; heel. While ExecutorService and Future have served us well, they allow unrestricted patterns where subtasks can outlive their parents, threads leak, and cancellation becomes a nightmare. Structured concurrency changes this by treating groups of related tasks running in different threads as a single unit of work, streamlining error &#8230;",
+      "url": "https://www.javacodegeeks.com/2025/11/structured-concurrency-patterns-in-java.html",
+      "source": "Java Code Geeks",
+      "author": "Eleftheria Drosopoulou",
+      "published": "2025-11-11T07:36:00+00:00",
       "niche": "spring",
       "score": 42,
       "keywords": []
@@ -1378,18 +1390,6 @@
       "source": "Vlad Mihalcea",
       "author": "vladmihalcea",
       "published": "2024-11-26T17:53:03+00:00",
-      "niche": "spring",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "9eeb9cded9434990",
-      "title": "JTA Transaction Type",
-      "description": "Introduction In this article, we are going to analyze how the JTA transaction type works. Since this is the default transaction type when using Jakarta EE or Java EE applications, it&#8217;s very important to understand how JTA transactions work, especially since Spring Boot or Spring applications use RESOURCE_LOCAL transactions instead. JTA Transaction Type When using the JTA transaction type, you can operate modifications across multiple data sources in an atomic global transaction that either",
-      "url": "https://vladmihalcea.com/jta-transaction-type/",
-      "source": "Vlad Mihalcea",
-      "author": "vladmihalcea",
-      "published": "2024-11-14T12:29:20+00:00",
       "niche": "spring",
       "score": 14,
       "keywords": []
