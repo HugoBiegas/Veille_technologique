@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-11-12T12:53:04.144620+00:00",
-  "total_articles": 984,
+  "last_updated": "2025-11-12T15:28:53.785316+00:00",
+  "total_articles": 977,
   "articles": [
     {
       "id": "2445dbb389252855",
@@ -168,21 +168,6 @@
       ]
     },
     {
-      "id": "be57b4b34609bc76",
-      "title": "🤖 Déployer son agent sur Google Vertex AI Agent Engine",
-      "description": "Google Cloud a récemment introduit Vertex AI Agent Engine, une plateforme intégrée à l’écosystème Vertex AI conçue pour centraliser et déployer des agents à grande échelle dans unun environnement cloud sécurisé et scalable. Dans cet article, nous allons voir les avantages de Vertex AI Agent Engine et les différentes façons de déployer un agent dessus : l'approche native avec ADK (Agent Development Kit) et l'approche flexible via le SDK Vertex AI pour les agents conçus avec des frameworks comme L",
-      "url": "https://dev.to/zenika/deployer-son-agent-sur-google-vertex-ai-agent-engine-342l",
-      "source": "Dev.to",
-      "author": "Benjamin Bourgeois",
-      "published": "2025-11-05T15:14:01+00:00",
-      "niche": "dev",
-      "score": 73,
-      "keywords": [
-        "development",
-        "framework"
-      ]
-    },
-    {
       "id": "deeeb4ca0d69b993",
       "title": "I wrestled AppSync WebSockets for 4 hours so you don’t have to (React + GraphQL Subscriptions)",
       "description": "You know that moment when “it should be simple” puts on a clown wig and honks a tiny horn? That was me, trying to wire a React client to AWS AppSync for real-time GraphQL updates. Four hours, three coffees, and one thousand console.logs later… it works. Here’s the story, the fixes, and enough code breadcrumbs to save Future You from my timeline. Spoiler for the curious: I tried Cursor and a couple other AI copilots mid-chaos—useful for rubber-ducking, but they didn’t splice the wires for me. I a",
@@ -225,6 +210,21 @@
       "keywords": [
         "library",
         "code"
+      ]
+    },
+    {
+      "id": "a646457a5cf74d9d",
+      "title": "Efficient Android Screen Recording Using MediaRecorder + MediaProjection",
+      "description": "Efficient Android Screen Recording Using MediaRecorder + MediaProjection Preface On the Android platform, there are two primary approaches to implement screen recording: the MediaCodec + MediaMuxer combination and MediaRecorder. The former offers high flexibility and customization but is relatively complex, requiring manual handling of video/audio encoding and muxing processes. In contrast, MediaRecorder is a high-level API that encapsulates the underlying audio/video recording and encoding work",
+      "url": "https://dev.to/cat_dogrunning_in_the_s/efficient-android-screen-recording-using-mediarecorder-mediaprojection-27ib",
+      "source": "Dev.to",
+      "author": "cat dog (running_in_the_storm)",
+      "published": "2025-11-12T14:56:24+00:00",
+      "niche": "dev",
+      "score": 73,
+      "keywords": [
+        "code",
+        "API"
       ]
     },
     {
@@ -1416,22 +1416,6 @@
       ]
     },
     {
-      "id": "cde9bc5849bdcb92",
-      "title": "Guide to Seamless Data Security in Rails With Mongoid’s Automatic Encryption",
-      "description": "This tutorial was written by MongoDB Champion Humberto Diaz. One of Rails' doctrinal pillars puts programmer happiness on a pedestal. Convention over configuration, human-readable code, and smart defaults make the Rails Way feel almost intuitive. With the release of Mongoid 9.0, that same philosophy now extends to data encryption. Tasks that once required multi-step configurations can now be completed through a single model declaration. MongoDB’s Client-Side Field-Level Encryption (CSFLE) can no",
-      "url": "https://dev.to/mongodb/guide-to-seamless-data-security-in-rails-with-mongoids-automatic-encryption-33d2",
-      "source": "Dev.to",
-      "author": "MongoDB Guests",
-      "published": "2025-11-05T15:16:55+00:00",
-      "niche": "dev",
-      "score": 56,
-      "keywords": [
-        "release",
-        "tutorial",
-        "code"
-      ]
-    },
-    {
       "id": "388684f036b1b53c",
       "title": "Open Source Implementation of Apple's Private Compute Cloud",
       "description": "Comments",
@@ -2118,48 +2102,6 @@
       "keywords": [
         "programming",
         "framework"
-      ]
-    },
-    {
-      "id": "9d37f3a1f6064c5a",
-      "title": "Understanding Kafka Lag",
-      "description": "Understanding Kafka Lag What is Kafka Lag? Kafka lag is the difference between the latest message offset in a topic partition and the current offset of a consumer. It represents the number of messages produced but not yet consumed—essentially, how far behind your consumer is from real-time. Real-World Example: Cryptocurrency Price Streaming System Let's examine a practical system that streams cryptocurrency prices: Architecture: Producer: Fetches BTC, ETH, and SOL prices from Binance API every 3",
-      "url": "https://dev.to/lagat_josiah_f024a2c855bc/understanding-kafka-lag-395b",
-      "source": "Dev.to",
-      "author": "Lagat Josiah",
-      "published": "2025-11-05T15:13:44+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "API"
-      ]
-    },
-    {
-      "id": "4899a2e944849c28",
-      "title": "VPC Lattice Explained for Production: Real Architect Patterns, Costs, and Security",
-      "description": "Introduction Modern cloud architectures increasingly rely on microservices distributed across multiple VPCs and AWS accounts, creating complex networking challenges. Traditional approaches using Transit Gateways, VPC peering, and load balancers can become difficult to manage at scale, requiring extensive configuration for service discovery, traffic routing, and security policies. Amazon VPC Lattice addresses these challenges by providing a fully managed application networking service that simpli",
-      "url": "https://dev.to/manishpcp/vpc-lattice-explained-for-production-real-architect-patterns-costs-and-security-31d7",
-      "source": "Dev.to",
-      "author": "Manish Kumar",
-      "published": "2025-11-05T15:12:00+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "microservices"
-      ]
-    },
-    {
-      "id": "6901f96f179b1f41",
-      "title": "7 technologies qui révolutionnent le monde de la crypto au-delà du Bitcoin",
-      "description": "Depuis la création du Bitcoin, la blockchain a évolué bien au-delà du simple concept de monnaie numérique. Aujourd’hui, les développeurs, investisseurs et entrepreneurs s’appuient sur des technologies plus rapides, plus écologiques et plus interactives pour construire le Web3. Grâce à des plateformes accessibles comme MoonPay, il est désormais possible d’acheter, vendre ou échanger facilement des cryptomonnaies comme Solana, Ethereum ou Polygon, et d’expérimenter les innovations de ce nouvel éco",
-      "url": "https://dev.to/carlvilla/7-technologies-qui-revolutionnent-le-monde-de-la-crypto-au-dela-du-bitcoin-21c2",
-      "source": "Dev.to",
-      "author": "Carl Villa",
-      "published": "2025-11-05T14:59:41+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "API"
       ]
     },
     {
@@ -3560,20 +3502,6 @@
       ]
     },
     {
-      "id": "caa8c9e9decac62a",
-      "title": "Unlocking the Brain of AI: How Neural Networks Are Changing Everything",
-      "description": "Picture this: You're scrolling through Netflix late at night, and suddenly, it suggests that quirky indie film you've been dying to watch. Or maybe you're at the airport, and the facial recognition scanner waves you through without a hitch. These moments feel magical, right? But behind them, there's no wizard, just layers of code mimicking the human brain. That's the world of neural networks, these incredible systems that power so much of what we call artificial intelligence today. I remember th",
-      "url": "https://dev.to/vikramlingam/unlocking-the-brain-of-ai-how-neural-networks-are-changing-everything-2fhf",
-      "source": "Dev.to",
-      "author": "Vikram Lingam",
-      "published": "2025-11-05T15:09:50+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
       "id": "52de4a7ecf0ffd63",
       "title": "**The Paradox of Empathy in AI Development: A Call for More",
       "description": "The Paradox of Empathy in AI Development: A Call for More Human 'Uniqueness' As we push the boundaries of artificial intelligence, I'd like to challenge a notion that has become increasingly prominent in the AI ethics debate: the idea that AI systems must be designed to be empathetic and mirror human emotions. While empathy is undoubtedly a valuable trait in humans, I believe we should exercise caution when applying this concept to AI development. Empathy, in humans, is a complex and context-dep",
@@ -3595,34 +3523,6 @@
       "source": "Dev.to",
       "author": "Dr. Carlos Ruiz Viquez",
       "published": "2025-11-05T17:51:12+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "42234220b649fdad",
-      "title": "How Do Global Execution Context and Temporal Dead Zone Work in JavaScript?",
-      "description": "Have you ever wondered how JavaScript runs your code behind the scenes, and how the Global Execution Context actually works? How does hoisting work for var, let, and const? Consider the code bellow: console.log('My age is', age) console.log('My name ...",
-      "url": "https://www.freecodecamp.org/news/global-execution-context-and-temporal-dead-zone-explained/",
-      "source": "freeCodeCamp",
-      "author": "Shejan Mahamud",
-      "published": "2025-11-05T13:52:17+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "d6d4867059876caa",
-      "title": "A Practical Guide To UX Strategy",
-      "description": "Let’s dive into the building blocks of UX strategy and see how it speaks the language of product and business strategy to create user value while achieving company goals. Part of the Measure UX & Design Impact (use the code 🎟 IMPACT to save 20% off today).",
-      "url": "https://smashingmagazine.com/2025/11/practical-guide-ux-strategy/",
-      "source": "Smashing Magazine",
-      "author": "hello@smashingmagazine.com (Vitaly Friedman)",
-      "published": "2025-11-05T13:00:00+00:00",
       "niche": "dev",
       "score": 51,
       "keywords": [
@@ -4765,52 +4665,46 @@
       ]
     },
     {
-      "id": "c9a8f4cb1bdce78d",
-      "title": "How do you handle the Cold Start Problem for a semantic knowledge graph? (TF-IDF vs. Fine-Tuned BERT)",
-      "description": "I’m working on a personal Augmented Intelligence System that builds a semantic knowledge graph from a user's unstructured notes. The goal is to show hidden connections between concepts. Currently, I'm using TF-IDF (Term Frequency-Inverse Document Frequency) for embedding, but it suffers from a massive cold start problem—it needs hundreds of documents to establish meaningful weightings before it becomes useful to a new user. The alternative is using a tiny, fine-tuned BERT model for zero-shot cla",
-      "url": "https://dev.to/shalinibhavi525sudo/how-do-you-handle-the-cold-start-problem-for-a-semantic-knowledge-graph-tf-idf-vs-fine-tuned-34og",
+      "id": "a28a0ecc46390ddf",
+      "title": "Coding Challenge Practice - Question 53",
+      "description": "The task is to implement a function to find the longest substring that has no repeated characters. The boilerplate code: function longestUniqueSubstr(str) { // your code here } Keep a moving window[start, end] that contains unique characters. let start = 0; let maxLen = 0; let maxSubstr = \"\"; const seen = new Map(); // stores the last index of each character Check through the window, if there's a duplicate character in that window, move the start to after the previous index of that character for",
+      "url": "https://dev.to/tomivan/coding-challenge-practice-question-53-2378",
       "source": "Dev.to",
-      "author": "shalinibhavi525-sudo",
-      "published": "2025-11-05T15:08:33+00:00",
+      "author": "Bukunmi Odugbesan",
+      "published": "2025-11-12T14:44:58+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
-      "id": "51b3b84837744ae9",
-      "title": "Reinforcement Learning: Why It's Quietly Powering the AI Revolution",
-      "description": "Picture this: it's 2016, and a bunch of folks are glued to their screens watching a computer program take on the world's best Go player. Lee Sedol, a legend in the ancient board game, sits across from AlphaGo, an AI built by DeepMind. The room's tense. Sedol makes his moves with that human flair, intuitive, almost artistic. But AlphaGo? It doesn't flinch. It calculates, learns, adapts. By the end of the match, AlphaGo wins 4–1, shocking everyone. How did a machine pull that off? Not by memorizin",
-      "url": "https://dev.to/vikramlingam/reinforcement-learning-why-its-quietly-powering-the-ai-revolution-1p21",
+      "id": "3df8efcd5b6b4d4e",
+      "title": "Building Your Own Virtual Private Cloud (VPC) on Linux: A Complete Guide",
+      "description": "Introduction Have you ever wondered how cloud providers like AWS, Azure, and Google Cloud implement their Virtual Private Cloud (VPC) services? In this comprehensive guide, I'll walk you through building your own VPC implementation from scratch using Linux networking primitives. By the end of this tutorial, you'll have a deep understanding of how network isolation, routing, and security work at the infrastructure level. This project recreates the fundamental concepts of cloud VPCs using only Lin",
+      "url": "https://dev.to/james_okonkwo_d6c2fb9ada2/building-your-own-virtual-private-cloud-vpc-on-linux-a-complete-guide-3mja",
       "source": "Dev.to",
-      "author": "Vikram Lingam",
-      "published": "2025-11-05T15:05:41+00:00",
+      "author": "James Okonkwo",
+      "published": "2025-11-12T14:39:57+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "tutorial"
+      ]
     },
     {
-      "id": "fa9f1803c056ecb3",
-      "title": "How to Read a 10-K Without Falling Asleep",
-      "description": "Most people fail to save not because they lack discipline—but because their system requires it. Every month, they start from zero, manually move money around, and hope they’ll “feel ready” to save at the end. Spoiler: they rarely do. At Finelo, we teach a different approach—design your budget so saving happens automatically, not optionally. When your system saves for you, consistency stops being a struggle. Here’s how to automate your finances so “paying yourself first” becomes your default beha",
-      "url": "https://dev.to/adamcooper/how-to-read-a-10-k-without-falling-asleep-1ie5",
+      "id": "251edcc72c29733f",
+      "title": "Day 32: Python Temperature Converter, Switch Between Fahrenheit and Celsius with Inputs",
+      "description": "Welcome to Day 32 of the #80DaysOfChallenges journey! This beginner task involves creating a temperature converter that handles Fahrenheit to Celsius and vice versa, based on user choice and value, using math ops and conditionals for the logic. It's a practical intro to interactive scripts, blending inputs, calculations, and error checks, ideal for everyday utils or learning flow control. If you're practicing user-driven code or arithmetic in conditions, this \"Python temperature converter\" examp",
+      "url": "https://dev.to/shahrouzlogs/day-32-python-temperature-converter-switch-between-fahrenheit-and-celsius-with-inputs-1naj",
       "source": "Dev.to",
-      "author": "Adam Cooper",
-      "published": "2025-11-05T15:05:38+00:00",
+      "author": "Shahrouz Nikseresht",
+      "published": "2025-11-12T14:39:52+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "ddbbc7e2d3b689a6",
-      "title": "How to Automate Your Budget So Saving Happens by Default",
-      "description": "Most people fail to save not because they lack discipline—but because their system requires it. Every month, they start from zero, manually move money around, and hope they’ll “feel ready” to save at the end. Spoiler: they rarely do. At Finelo, we teach a different approach—design your budget so saving happens automatically, not optionally. When your system saves for you, consistency stops being a struggle. Here’s how to automate your finances so “paying yourself first” becomes your default beha",
-      "url": "https://dev.to/adamcooper/how-to-automate-your-budget-so-saving-happens-by-default-1ec",
-      "source": "Dev.to",
-      "author": "Adam Cooper",
-      "published": "2025-11-05T15:05:00+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "bef988f3e3233101",
@@ -7979,6 +7873,78 @@
       "keywords": []
     },
     {
+      "id": "cbcd2e8fa532b187",
+      "title": "From Legacy Windows to AI Agent: The Journey of MintBridge to REMI (Final PoC)",
+      "description": "🚀 The Origin: MintBridge, A Migration Toolkit for Legacy Hardware Hello community! I'm jramonrivasg , an independent creator, and this is the story of how an old hardware problem evolved into the birth of my Patrimonial Intelligence Agent, REMI. Context: My trusty legacy machine with the Intel Core i5 650 couldn't meet the requirements of Windows 10 22H2. I decided to migrate to Linux Mint, but the process was daunting for other legacy users. Thus, MintBridge was born—a modular toolkit to simpli",
+      "url": "https://dev.to/jramone3/from-legacy-windows-to-ai-agent-the-journey-of-mintbridge-to-remi-final-poc-4mm1",
+      "source": "Dev.to",
+      "author": "Jramone3",
+      "published": "2025-11-12T15:08:10+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "8efd4295349065f7",
+      "title": "The next machine learning startup is in your front yard",
+      "description": "The next machine learning startup is in your front yard The US Postal Service has used machine learning for address recognition since 1997, debunking myths that ML is exclusive to Silicon Valley startups. Machine learning powers everyday services like USPS mail sorting, not just flashy startups, with the postal service processing billions of transactions yearly. Neural networks mimic brain neurons by processing inputs through mathematical functions to generate outputs, making ML more accessible ",
+      "url": "https://dev.to/leon_lin_s/the-next-machine-learning-startup-is-in-your-front-yard-hg9",
+      "source": "Dev.to",
+      "author": "Leon Lin",
+      "published": "2025-11-12T14:57:58+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "04fd8aa1eb63ff53",
+      "title": "Enclave Games Monthly Report: October 2025",
+      "description": "At the beginning of every October the js13kGames competition winners are announced, and I also found the time to fly to San Francisco for the GitHub Universe conference third year in a row. Games Nope, but I’ll try participating in GitHub’s Game Off 2025. Writing Not much, but better than nothing: [04.10] js13kGames: Winners announced! [10.10] End3r’s Corner: js13kGames 2025 rigid yard sign [17.10] js13kGames: T-shirts galore: two originals for $13 [20.10] Gamedev.js: js13kGames 2025 winners ann",
+      "url": "https://dev.to/end3r/enclave-games-monthly-report-october-2025-12k3",
+      "source": "Dev.to",
+      "author": "Andrzej Mazur",
+      "published": "2025-11-12T14:53:06+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "2898e71a7e31720f",
+      "title": "Yann LeCun to depart Meta and launch AI startup focused on 'world models'",
+      "description": "Ever had that moment when a tech giant loses a major player, and suddenly the landscape feels a bit different? That’s how I felt when I heard the news about Yann LeCun departing Meta to launch his own AI startup focused on \"world models.\" For those of us who geek out over AI and deep learning, this is a big deal. LeCun isn't just any AI thinker; he’s one of the founding fathers of convolutional neural networks. So, what’s he planning to do next? Let's dive into this exciting topic and explore th",
+      "url": "https://dev.to/technoblogger14o3/yann-lecun-to-depart-meta-and-launch-ai-startup-focused-on-world-models-1102",
+      "source": "Dev.to",
+      "author": "Aman Shekhar",
+      "published": "2025-11-12T14:46:40+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "ba1c618bcc2ff6e8",
+      "title": "Build Your Own Virtual Private Cloud (VPC) on Linux – Beginner’s Guide",
+      "description": "Build Your Own Virtual Private Cloud (VPC) on Linux – Beginner’s Guide Learn how to recreate the fundamentals of a cloud Virtual Private Cloud (VPC) using Linux native tools. We'll simulate public and private subnets, routing, NAT, and isolation—all on your local machine! Prerequisites Linux host (or Docker container on macOS) Python 3.x Basic familiarity with Linux commands macOS users: Docker is required because Linux network namespaces and iptables require a Linux kernel. Project Overview We'",
+      "url": "https://dev.to/miracle_ify_be2aaea8e74f8/build-your-own-virtual-private-cloud-vpc-on-linux-beginners-guide-52l",
+      "source": "Dev.to",
+      "author": "miracle ify",
+      "published": "2025-11-12T14:42:40+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "0fc03a01403400be",
+      "title": "Pure Cascade — Week 4: Chrome Extension MVP",
+      "description": "This week was rough— probably the hardest so far. We hit a wall of unexpected bugs: Chrome’s CSP blocking injected scripts, mysterious “file isn’t UTF-8” errors, weird Vite + MV3 alias resolution quirks, and several executeScript dead ends that broke silently. It took dozens of micro-fixes and re-architecture steps, but the result is solid: ✅ What we accomplished Stable Vite build with browser polyfills (path-browserify, fs shim). MV3-safe architecture: content scripts loaded via manifest, no un",
+      "url": "https://dev.to/__23aca6dca/pure-cascade-week-4-chrome-extension-mvp-4dd5",
+      "source": "Dev.to",
+      "author": "Pure Cascade",
+      "published": "2025-11-12T14:41:09+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "614c2897ff68900a",
       "title": "Check out this blog on all device compatible tableau dashboards",
       "description": "Designing All-Device Compatible Tableau Dashboards: A Complete Guide Dipti M ・ Nov 9 #webdev #programming #beginners #tutorial",
@@ -8355,90 +8321,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "df1fde23f5a14bdb",
-      "title": "The Shadows Lurking in the Equations",
-      "description": "Comments",
-      "url": "https://gods.art/articles/equation_shadows.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-05T14:21:13+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "d1e275fa55f7676a",
-      "title": "Removing XSLT for a more secure browser",
-      "description": "Comments",
-      "url": "https://developer.chrome.com/docs/web-platform/deprecating-xslt",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-05T14:14:23+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "a23904aee52a47fc",
-      "title": "Radiant Computer",
-      "description": "Comments",
-      "url": "https://radiant.computer",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-05T13:22:35+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "6f423fe265667641",
-      "title": "A P2P Vision for QUIC (2024)",
-      "description": "Comments",
-      "url": "https://seemann.io/posts/2024-10-26---p2p-quic/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-05T14:06:22+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "c884b9d732724999",
-      "title": "Carice TC2 – An fully analog electric car",
-      "description": "Comments",
-      "url": "https://www.caricecars.com/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-05T14:25:36+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "5d906503855267ec",
-      "title": "The shadows lurking in the equations",
-      "description": "Comments",
-      "url": "https://gods.art/articles/equation_shadows.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-05T14:21:13+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "6b4cd8ade09bc5db",
-      "title": "Ruby and Its Neighbors: Smalltalk",
-      "description": "Comments",
-      "url": "https://noelrappin.com/blog/2025/11/ruby-and-its-neighbors-smalltalk/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-05T15:24:35+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "a5b269e7d9fdae11",
@@ -10289,6 +10171,42 @@
       "keywords": []
     },
     {
+      "id": "1c86005ce365c627",
+      "title": "The Geometry Behind Normal Maps",
+      "description": "Comments",
+      "url": "https://www.shlom.dev/articles/geometry-behind-normal-maps/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-12T13:50:47+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "36bc8730c69f5698",
+      "title": "Micro.blog launches new 'Studio' tier with video hosting",
+      "description": "Comments",
+      "url": "https://heydingus.net/blog/2025/11/micro-blog-offers-an-indie-alternative-to-youtube-with-its-studio-video-hosting-plan",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-12T13:46:28+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "14ef94369db8d705",
+      "title": "Fungus in Chernobyl nuclear disaster zone has mutated to 'feed' on radiation",
+      "description": "Comments",
+      "url": "https://www.unilad.com/news/world-news/fungus-chernobyl-mutated-feed-radiation-164735-20241217",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-12T15:08:35+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "78c4b08725d5f56b",
       "title": "React 19 Upgrade Guide",
       "description": "The improvements added to React 19 require some breaking changes, but we've worked to make the upgrade as smooth as possible and we don't expect the changes to impact most apps. In this post, we will guide you through the steps for upgrading apps and libraries to React 19.",
@@ -10353,8 +10271,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "React 19",
-        "performance"
+        "performance",
+        "React 19"
       ]
     },
     {
@@ -10382,9 +10300,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
+        "library",
         "release",
-        "developer",
-        "library"
+        "developer"
       ]
     },
     {
@@ -10398,8 +10316,8 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "API",
         "release",
+        "API",
         "developer"
       ]
     },
@@ -10414,9 +10332,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
+        "performance",
         "API",
-        "developer",
-        "performance"
+        "developer"
       ]
     },
     {
@@ -10469,18 +10387,6 @@
       "published": "2025-11-12T11:47:43+00:00",
       "niche": "dev",
       "score": 39,
-      "keywords": []
-    },
-    {
-      "id": "48115d2bbd9a4278",
-      "title": "Carice TC2 – A non-digital electric car",
-      "description": "Comments",
-      "url": "https://www.caricecars.com/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-05T14:25:36+00:00",
-      "niche": "dev",
-      "score": 38,
       "keywords": []
     },
     {
@@ -10722,8 +10628,8 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "React 19",
         "release",
+        "React 19",
         "API"
       ]
     },
@@ -10796,22 +10702,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
-      ]
-    },
-    {
-      "id": "da70701c5e51f04a",
-      "title": "Six Key Components of UX Strategy",
-      "description": "Let’s dive into the building blocks of UX strategy and see how it speaks the language of product and business strategy to create user value while achieving company goals. Part of the Measure UX & Design Impact (use the code 🎟 IMPACT to save 20% off today).",
-      "url": "https://smashingmagazine.com/2025/11/practical-guide-ux-strategy/",
-      "source": "Smashing Magazine",
-      "author": "hello@smashingmagazine.com (Vitaly Friedman)",
-      "published": "2025-11-05T13:00:00+00:00",
-      "niche": "dev",
-      "score": 33,
-      "keywords": [
-        "code"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -10884,6 +10776,18 @@
       "keywords": []
     },
     {
+      "id": "51f95bb0fdffea66",
+      "title": "A Vision of Chocolate's Future in an Amsterdam Brownie",
+      "description": "Comments",
+      "url": "https://www.bloomberg.com/graphics/2025-opinion-future-of-chocolate/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-06T19:19:58+00:00",
+      "niche": "dev",
+      "score": 32,
+      "keywords": []
+    },
+    {
       "id": "dda779f172a006b1",
       "title": "React Conf 2024 Recap",
       "description": "Last week we hosted React Conf 2024, a two-day conference in Henderson, Nevada where 700+ attendees gathered in-person to discuss the latest in UI engineering. In this post, we'll summarize the talks and announcements from the event.",
@@ -10947,10 +10851,10 @@
       "score": 30,
       "keywords": [
         "API",
-        "framework",
-        "release",
+        "performance",
         "code",
-        "performance"
+        "release",
+        "framework"
       ]
     },
     {
@@ -11246,9 +11150,9 @@
       "niche": "dev",
       "score": 22,
       "keywords": [
+        "performance",
         "release",
-        "development",
-        "performance"
+        "development"
       ]
     },
     {
@@ -11274,8 +11178,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "API",
-        "release"
+        "release",
+        "API"
       ]
     },
     {
@@ -11304,9 +11208,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "developer",
+        "performance",
         "code",
-        "performance"
+        "developer"
       ]
     },
     {
@@ -11320,8 +11224,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "API",
         "release",
+        "API",
         "developer"
       ]
     },
@@ -11365,9 +11269,9 @@
       "niche": "dev",
       "score": 18,
       "keywords": [
-        "development",
+        "code",
         "developer",
-        "code"
+        "development"
       ]
     },
     {
@@ -11437,8 +11341,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "development",
-        "developer"
+        "developer",
+        "development"
       ]
     },
     {
@@ -11481,6 +11385,20 @@
       "score": 15,
       "keywords": [
         "development"
+      ]
+    },
+    {
+      "id": "da70701c5e51f04a",
+      "title": "Six Key Components of UX Strategy",
+      "description": "Let’s dive into the building blocks of UX strategy and see how it speaks the language of product and business strategy to create user value while achieving company goals. Part of the Measure UX & Design Impact (use the code 🎟 IMPACT to save 20% off today).",
+      "url": "https://smashingmagazine.com/2025/11/practical-guide-ux-strategy/",
+      "source": "Smashing Magazine",
+      "author": "hello@smashingmagazine.com (Vitaly Friedman)",
+      "published": "2025-11-05T13:00:00+00:00",
+      "niche": "dev",
+      "score": 15,
+      "keywords": [
+        "code"
       ]
     },
     {
@@ -11651,18 +11569,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-11-05T21:19:09+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "2c3376045f04938c",
-      "title": "The kind of company I want to be a part of",
-      "description": "Comments",
-      "url": "https://www.dvsj.in/my-company",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-05T13:02:05+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -11846,8 +11752,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "development",
-        "programming"
+        "programming",
+        "development"
       ]
     },
     {
