@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-11-12T18:33:43.432875+00:00",
-  "total_articles": 977,
+  "last_updated": "2025-11-12T21:23:09.620266+00:00",
+  "total_articles": 971,
   "articles": [
     {
       "id": "2445dbb389252855",
@@ -228,17 +228,18 @@
       ]
     },
     {
-      "id": "de1c81e19c142943",
-      "title": "Feature Release 0.54.0 of the GitHub Action for Checking Spelling",
-      "description": "A feature release for the GitHub Action for Checking Spelling has just been made. The release is numbered 0.54.0 and contains an update of the core component PySpelling from version 2.11 to 2.12. The update allows for the configuration parameters jobs to be set to: 0 to allow for use of maximum number of cores. See the documentation for PySpelling and of course 0.54.0 of this action. The support for this setting was introduced with release 2.10 of PySpelling, which was adopted in release 0.36.0 ",
-      "url": "https://dev.to/jonasbn/feature-release-0540-of-the-github-action-for-checking-spelling-10ap",
+      "id": "809e073fc81909e3",
+      "title": "Next.js vs React: Which One Should You Choose in 2025?",
+      "description": "If you’ve been building web apps for a while, you’ve probably heard the React vs. Next.js debate more times than you can count. Both are powerful, both come from Meta’s ecosystem, and both dominate the frontend world but which one should you choose in 2025? As a full-stack developer who’s built production apps using both React and Next.js, here’s my honest breakdown. What is React? React is a frontend JavaScript library used for building user interfaces. It’s great for single-page applications (",
+      "url": "https://dev.to/sathick0227/nextjs-vs-react-which-one-should-you-choose-in-2025-1a0d",
       "source": "Dev.to",
-      "author": "Jonas Brømsø",
-      "published": "2025-11-05T21:01:41+00:00",
+      "author": "sathick batcha",
+      "published": "2025-11-12T20:59:11+00:00",
       "niche": "dev",
-      "score": 72,
+      "score": 73,
       "keywords": [
-        "release"
+        "developer",
+        "library"
       ]
     },
     {
@@ -337,20 +338,6 @@
       "score": 72,
       "keywords": [
         "Angular"
-      ]
-    },
-    {
-      "id": "3d402718b4e36540",
-      "title": "Tune GitHub Copilot Settings in VS Code",
-      "description": "Tune GitHub Copilot & Chat in VS Code If you are rolling out GitHub Copilot across a team, the settings surface in VS Code can feel sprawling. This guide breaks the options into digestible groups, highlights what each toggle does, and finishes with a comprehensive settings.json you can paste into a workspace policy or user profile. Why It Matters Teams gain consistent Copilot behaviour across devices and projects. You can audit which preview or experimental capabilities are enabled before a roll",
-      "url": "https://dev.to/pwd9000/tune-github-copilot-settings-in-vs-code-32kp",
-      "source": "Dev.to",
-      "author": "Marcel.L",
-      "published": "2025-11-05T21:12:59+00:00",
-      "niche": "dev",
-      "score": 69,
-      "keywords": [
-        "code"
       ]
     },
     {
@@ -675,18 +662,6 @@
         "framework",
         "performance"
       ]
-    },
-    {
-      "id": "e04df044b02b3328",
-      "title": "Dillo, a multi-platform graphical web browser",
-      "description": "Comments",
-      "url": "https://github.com/dillo-browser/dillo",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-05T18:40:32+00:00",
-      "niche": "dev",
-      "score": 62,
-      "keywords": []
     },
     {
       "id": "c3d18fd6b57d7dfe",
@@ -1557,36 +1532,6 @@
         "framework",
         "development",
         "code"
-      ]
-    },
-    {
-      "id": "759e55cca576ddf5",
-      "title": "React Tip: Pass a Function to useState, Don’t Call It",
-      "description": "We’ve all written code like this before: const [value, setValue] = useState(getInitialValue()); It looks innocent — but this line hides a subtle performance pitfall. When you call useState(getInitialValue()), that function executes on every render, not just the first one. That’s because React re-runs your component function on every render, and the argument to useState() is evaluated before React decides whether to reuse the existing state. If getInitialValue() does something expensive — like co",
-      "url": "https://dev.to/shahab65/eact-tip-pass-a-function-to-usestate-dont-call-it-2ch5",
-      "source": "Dev.to",
-      "author": "Shahab Emami",
-      "published": "2025-11-05T20:57:55+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "code",
-        "performance"
-      ]
-    },
-    {
-      "id": "bebb3af75a3cc82e",
-      "title": "Browser Simulation vs API Access: Why Amazon Is Challenging Perplexity Comet",
-      "description": "The first real battle over AI web access has started, and it is not about scraping. It is about identity, control and the future architecture of autonomous AI agents. Perplexity’s new desktop assistant Comet behaves like a human user with a browser. It can open websites, extract information in real time and act on behalf of the user. Amazon has responded by signalling that this type of access may violate its platform rules. Developers have discussed scraping, headless browsers and bot detection ",
-      "url": "https://dev.to/alifar/browser-simulation-vs-api-access-why-amazon-is-challenging-perplexity-comet-459p",
-      "source": "Dev.to",
-      "author": "Ali Farhat",
-      "published": "2025-11-05T20:53:07+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "API",
-        "developer"
       ]
     },
     {
@@ -3126,21 +3071,6 @@
       ]
     },
     {
-      "id": "08c94633b64145ac",
-      "title": "Build 3 Real-World Azure Projects - Problem Statements, Step-by-Step Solutions, and Code (Developer Focused)",
-      "description": "Table of contents Why these projects and why CareerByteCode matters Project 1 — Serverless HTML → PDF pipeline (Azure Service Bus + Functions + Headless Chrome) Problem statement Architecture overview Step-by-step implementation (code included) Common pitfalls & answers Project 2 — GitOps CI/CD to AKS (Terraform + Azure DevOps/GitHub Actions + Helm) Problem statement Architecture overview Step-by-step implementation (code included) Common pitfalls & answers Project 3 — Real-time telemetry pipeli",
-      "url": "https://dev.to/careerbytecode/build-3-real-world-azure-projects-problem-statements-step-by-step-solutions-and-code-developer-576c",
-      "source": "Dev.to",
-      "author": "CareerByteCode",
-      "published": "2025-11-05T21:04:57+00:00",
-      "niche": "dev",
-      "score": 52,
-      "keywords": [
-        "developer",
-        "code"
-      ]
-    },
-    {
       "id": "ef9db193c8a71c5f",
       "title": "Building FarmHelper: A Complete JavaScript Dashboard for Farm Simulator 22",
       "description": "Introduction In this tutorial, we’ll create FarmHelper, a web-based tool that tracks crop growth and equipment maintenance for Farm Simulator 22. This guide is fully coding-focused, with all code included in text form so you can copy, paste, and experiment. We’ll use HTML, CSS, and JavaScript, and store farm data in the browser using localStorage. Step 1: Project Setup Create a project folder, farmhelper, with three files: index.html style.css script.js This keeps your code organized and easy to",
@@ -3528,20 +3458,6 @@
       "keywords": [
         "development",
         "code"
-      ]
-    },
-    {
-      "id": "39fd7059630680b9",
-      "title": "Production-Grade AI Agents: Architecture Patterns That Actually Work",
-      "description": "Your AI agent works beautifully in development. Responses are quick, conversations flow naturally, and everything feels magical. Then you deploy to production with real users, and suddenly everything breaks. Response times spike to 5+ seconds. Agents lose conversation context mid-workflow. Memory usage explodes. Users report inconsistent behavior. Your costs skyrocket. I've built AI agent systems that handle 100+ concurrent users with sub-2-second response times. Here's what actually works in pr",
-      "url": "https://dev.to/akshaygupta1996/production-grade-ai-agents-architecture-patterns-that-actually-work-19h",
-      "source": "Dev.to",
-      "author": "Akshay Gupta",
-      "published": "2025-11-05T21:03:03+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "development"
       ]
     },
     {
@@ -4692,54 +4608,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "932e5a7d018a6966",
-      "title": "Quantum-Powered Privacy: Securing the IoT with Decentralized Anomaly Detection",
-      "description": "Quantum-Powered Privacy: Securing the IoT with Decentralized Anomaly Detection Imagine a world where your smart home devices can identify and neutralize security threats before they even materialize, all without exposing your personal data. The reality is that the explosion of IoT devices has created a breeding ground for malicious activity, making anomaly detection crucial. However, traditional cloud-based approaches require sharing sensitive data, raising serious privacy concerns. What if we c",
-      "url": "https://dev.to/arvind_sundararajan/quantum-powered-privacy-securing-the-iot-with-decentralized-anomaly-detection-3b76",
-      "source": "Dev.to",
-      "author": "Arvind SundaraRajan",
-      "published": "2025-11-05T21:02:06+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "b5437bf2344dabdf",
-      "title": "Ditch the Config Chaos: Meet Kiponos - the Real-Time Config Revolution You've Been Waiting For",
-      "description": "Picture this: It's 3 AM, your app's in flames because someone fat-fingered an env var in prod. Or worse—that \"quick\" config tweak forces a full redeploy, downtime ticking like a bomb. Sound familiar? We've all been there, wrestling with YAML nightmares, secret managers, and endless \"it works on my machine\" debates. Config management feels like herding cats... in the dark. But what if I told you there's a better way? One that turns config into a living thing—shared, collaborative, and instant. En",
-      "url": "https://dev.to/kiponos/ditch-the-config-chaos-meet-kiponos-the-real-time-config-revolution-youve-been-waiting-for-4ac7",
-      "source": "Dev.to",
-      "author": "Devops Kiponos",
-      "published": "2025-11-05T20:57:20+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "534e78b547fa75ce",
-      "title": "The Orchestrator Pattern: Routing Conversations to Specialized AI Agents",
-      "description": "Building one AI agent to handle everything sounds simple. One conversation, one context, one set of instructions. But in practice, generalist agents fail at complex workflows. They lose focus. They confuse tasks. They can't decide when they're done. They try to be everything and end up being mediocre at most things. The solution isn't a smarter single agent—it's specialized agents with intelligent orchestration. Each agent does one thing exceptionally well, and an orchestrator routes conversatio",
-      "url": "https://dev.to/akshaygupta1996/the-orchestrator-pattern-routing-conversations-to-specialized-ai-agents-33h8",
-      "source": "Dev.to",
-      "author": "Akshay Gupta",
-      "published": "2025-11-05T20:54:47+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "87d196bd4f74a3fa",
-      "title": "Context Engineering: Giving AI Agents Memory Without Breaking the Token Budget",
-      "description": "Your AI agent needs to remember things. User preferences, project details, conversation history, tool results—all of it matters for providing intelligent responses. But every token you send costs money and consumes your context window. Send too little context, and your agent gives generic, unhelpful responses. Send too much, and you hit token limits, rack up costs, and slow down responses. I've built agents that manage context for manufacturing operations, sales workflows, and productivity syste",
-      "url": "https://dev.to/akshaygupta1996/context-engineering-giving-ai-agents-memory-without-breaking-the-token-budget-1ho5",
-      "source": "Dev.to",
-      "author": "Akshay Gupta",
-      "published": "2025-11-05T20:52:32+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
     },
     {
       "id": "2713fe9c69daa2d2",
@@ -7932,6 +7800,114 @@
       "keywords": []
     },
     {
+      "id": "574c4c8ab5bb883a",
+      "title": "full text",
+      "description": "CREATE OR REPLACE PROCEDURE get_blob_full_text( p_key1 IN VARCHAR2, p_key2 IN VARCHAR2 DEFAULT NULL ) IS l_full_text CLOB := EMPTY_CLOB(); l_chunk_content VARCHAR2(32767); BEGIN -- Enable large buffer for DBMS_OUTPUT DBMS_OUTPUT.ENABLE(1000000); FOR rec IN ( SELECT blob_to_text_range(t.VERSIONS, c.start_byte, c.end_byte) as chunk_content FROM CacheIOIStates t CROSS JOIN ( SELECT level as chunk_num, (level * 4000 - 3999) as start_byte, (level * 4000) as end_byte FROM dual CONNECT BY level <= CEIL",
+      "url": "https://dev.to/query_filter_591122b53770/full-text-3emj",
+      "source": "Dev.to",
+      "author": "Query Filter",
+      "published": "2025-11-12T21:17:25+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "14959e074136f44f",
+      "title": "Building an ICO on Canton Network",
+      "description": "A hands-on guide to creating privacy-preserving token sales on Canton Network Ever wanted to build a token sale where only the buyer, seller, and maybe a regulator can see the details? That's exactly what we're going to create today. We'll build a complete ICO (Initial Coin Offering) smart contract that sells one token for another, with privacy built-in and atomic operations that can't fail halfway through. What's an ICO Anyway? ICO's are back! From Monad to MegaETH or projects launching their t",
+      "url": "https://dev.to/dennisonbertram/building-an-ico-on-canton-network-2a31",
+      "source": "Dev.to",
+      "author": "Dennison Bertram",
+      "published": "2025-11-12T21:06:22+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "dcf292bbf1f7ac3e",
+      "title": "AI's Achilles Heel: Can We *Prove* Plans Before They Execute?",
+      "description": "AI's Achilles Heel: Can We Prove Plans Before They Execute? Imagine deploying an AI-powered system only to find its carefully crafted plan leads to a catastrophic failure. What if your self-driving car suddenly decided the best route involved driving through a lake? The current AI planning paradigm often lacks a critical step: rigorous verification. It's time to move beyond black-box AI and embrace provably correct planning. Proof-Carrying Plans: A Blueprint for Trustworthy AI The core idea is t",
+      "url": "https://dev.to/arvind_sundararajan/ais-achilles-heel-can-we-prove-plans-before-they-execute-2ba6",
+      "source": "Dev.to",
+      "author": "Arvind SundaraRajan",
+      "published": "2025-11-12T21:02:05+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "3135efbf044b9fb9",
+      "title": "Predicting the Unpredictable: Reproducible BiLSTM Forecasting of Incident Countsin the Global Terrorism Database (GTD)",
+      "description": "Can AI Predict the Next Terror Attack? What if we could look a few weeks ahead and see where the next wave of terror incidents might rise, just like checking tomorrow’s weather? Researchers have built a smart computer model that learns from decades of global terror data and now gives surprisingly accurate short‑term forecasts. By feeding the system weeks of past events, it spots subtle patterns—like a quiet lull followed by a sudden surge—much like a seasoned meteorologist reads pressure changes",
+      "url": "https://dev.to/paperium/predicting-the-unpredictable-reproducible-bilstm-forecasting-of-incident-countsin-the-global-2hka",
+      "source": "Dev.to",
+      "author": "Paperium",
+      "published": "2025-11-12T21:00:33+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "5d96931b9b3b8736",
+      "title": "Day 1: Building SpeakSheet – An AI-Powered Excel Generator (NextJS + Gemini + Python)",
+      "description": "I'm building my first SaaS product in public. It's called SpeakSheet, and it generates Excel spreadsheets from natural language prompts. This is my Day 1 devlog. 🧠 The Idea Most people create the same spreadsheets repeatedly. Budget trackers. Sales logs. Task lists. Client rosters. What if you could just describe what you need and get a fully structured .xlsx file in seconds? That's SpeakSheet. 💡 How It Works User types a prompt (e.g., \"Track gym members with name, age, membership type, join dat",
+      "url": "https://dev.to/varun_krishnan_1339308c02/day-1-building-speaksheet-an-ai-powered-excel-generator-nextjs-gemini-python-ifh",
+      "source": "Dev.to",
+      "author": "Varun Krishnan",
+      "published": "2025-11-12T20:59:37+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "d13522a7ef9d8c45",
+      "title": "Ma première extension Chrome... Synonymes Maison",
+      "description": "Je ne suis pas développeur de métier. J’ai simplement eu envie d’apprendre quelque chose de nouveau, pour le fun, et de créer un outil concret. L’idée était simple : une extension qui repère automatiquement les synonymes du mot maison sur n’importe quelle page web, les surligne, puis affiche un compteur. Rien d’ambitieux au départ, juste un petit projet pour progresser et voir si j’étais capable de le mettre en ligne. Résultat : Synonymes Maison, une extension Chrome légère, sans publicité et sa",
+      "url": "https://dev.to/maison/ma-premiere-extension-chrome-synonymes-maison-2bi2",
+      "source": "Dev.to",
+      "author": "Synonymes Maison",
+      "published": "2025-11-12T20:55:15+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "d042bf9ccc108f8f",
+      "title": "New major HMPL version 3.2.0 🕶",
+      "description": "Today's vibe is to talk about the new version of the template language. We've been working on this project for a year and a half now, and, man, this is definitely the level of seriousness we're looking for. You might think that after all this time, things could be done much better. That's true, but the fact is, what we have is really, really cool. Let's take a look at the new version and see what we've prepared :) 🔗 Bind Articles usually fill you with unnecessary fluff, whether on topic or not. ",
+      "url": "https://dev.to/hmpljs/new-major-version-320-79e",
+      "source": "Dev.to",
+      "author": "Anthony Max",
+      "published": "2025-11-12T20:50:59+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "84093e565e20fe5b",
+      "title": "The Architecture of Traffic Arbitrage: A Professional's Blueprint",
+      "description": "Of all the gilded promises the internet offers, few are as shrouded in mystique as “traffic arbitrage.” You’ve seen the lifestyle it supposedly funds: laptops open on pristine beaches, dashboard shots of luxury cars, and screenshots of dizzying daily profits. It feels like a private club, and the rules of entry are written in a language you don’t yet speak. But what if I told you the core principle is something you already understand intuitively? What if the complex jargon—CPA, RevShare, ROI, ve",
+      "url": "https://dev.to/tsaplina_elena/the-architecture-of-traffic-arbitrage-a-professionals-blueprint-3kpm",
+      "source": "Dev.to",
+      "author": "Tsaplina Elena",
+      "published": "2025-11-12T20:44:04+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "1c8bec481ea71301",
+      "title": "Building Your Own VPC on Linux: A DevOps Love Story 💘🐧",
+      "description": "Or: How I Learned to Stop Worrying and Love Network Namespaces Introduction: The Plot Twist Nobody Saw Coming 🎬 Warning: No AWS bills were harmed in the making of this project! 💸 Hey! I'm Sherifdeen Adebayo, and buckle up because I'm about to tell you how I accidentally became best friends with Linux networking (didn't see THAT coming in 2025! 😅). So there I was, staring at the HNG13 Stage 4 DevOps challenge like it was jollof rice without chicken 😭. The task? Build a complete Virtual Private Cl",
+      "url": "https://dev.to/herdeybayor/building-your-own-vpc-on-linux-a-devops-love-story-4ca1",
+      "source": "Dev.to",
+      "author": "Sherifdeen Adebayo",
+      "published": "2025-11-12T20:42:03+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "614c2897ff68900a",
       "title": "Check out this blog on all device compatible tableau dashboards",
       "description": "Designing All-Device Compatible Tableau Dashboards: A Complete Guide Dipti M ・ Nov 9 #webdev #programming #beginners #tutorial",
@@ -8284,54 +8260,6 @@
       ]
     },
     {
-      "id": "7be2b5101c2542b2",
-      "title": "Solarpunk is already happening in Africa",
-      "description": "Comments",
-      "url": "https://climatedrift.substack.com/p/why-solarpunk-is-already-happening",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-05T20:00:40+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "8292dac9c4f795d3",
-      "title": "The state of SIMD in Rust in 2025",
-      "description": "Comments",
-      "url": "https://shnatsel.medium.com/the-state-of-simd-in-rust-in-2025-32c263e5f53d",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-05T18:45:57+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "e71f559eff9c1785",
-      "title": "New gel restores dental enamel and could revolutionise tooth repair",
-      "description": "Comments",
-      "url": "https://www.nottingham.ac.uk/news/new-gel-restores-dental-enamel-and-could-revolutionise-tooth-repair",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-05T19:44:49+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "e2db3b693c8c99de",
-      "title": "Solarpunk is happening in Africa",
-      "description": "Comments",
-      "url": "https://climatedrift.substack.com/p/why-solarpunk-is-already-happening",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-05T20:00:40+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
       "id": "2e11b687899c6a4e",
       "title": "Recursive macros in C, demystified (once the ugly crying stops)",
       "description": "Comments",
@@ -8339,18 +8267,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-11-06T01:09:18+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "3f2b72ed58753059",
-      "title": "A Lost IBM PC/at Model? Analyzing a Newfound Old Bios",
-      "description": "Comments",
-      "url": "https://int10h.org/blog/2025/11/lost-ibm-at-model-bios-analysis/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-05T20:40:39+00:00",
       "niche": "dev",
       "score": 44,
       "keywords": []
@@ -10204,6 +10120,42 @@
       "keywords": []
     },
     {
+      "id": "912cb3df42bd82b8",
+      "title": "Project Euler",
+      "description": "Comments",
+      "url": "https://projecteuler.net",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-12T17:24:54+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "fb756f93489bdf28",
+      "title": "Blasting Yeast with UV Light",
+      "description": "Comments",
+      "url": "https://chillphysicsenjoyer.substack.com/p/results-from-blasting-yeast-with",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-12T18:46:40+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "12ae8b8e44c24047",
+      "title": "OmniAI (YC W24) Is Hiring Forward Deployed Engineers",
+      "description": "Comments",
+      "url": "https://www.ycombinator.com/companies/omniai/jobs/fuTMf2w-forward-deployed-engineer",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-12T21:00:43+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "78c4b08725d5f56b",
       "title": "React 19 Upgrade Guide",
       "description": "The improvements added to React 19 require some breaking changes, but we've worked to make the upgrade as smooth as possible and we don't expect the changes to impact most apps. In this post, we will guide you through the steps for upgrading apps and libraries to React 19.",
@@ -10232,20 +10184,6 @@
       ]
     },
     {
-      "id": "dff32d743db87a07",
-      "title": "Show HN: See chords as flags – Visual harmony of top composers on musescore",
-      "description": "Comments",
-      "url": "https://rawl.rocks/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-05T18:57:09+00:00",
-      "niche": "dev",
-      "score": 42,
-      "keywords": [
-        "Composer"
-      ]
-    },
-    {
       "id": "be8364954ba107a3",
       "title": "Why Headings Are Important in HTML: Structure, Accessibility, and SEO",
       "description": "Misusing HTML headings hurts accessibility and SEO. Discover how proper heading structure improves accessibility, SEO, and user navigation. Continue reading Why Headings Are Important in HTML: Structure, Accessibility, and SEO on SitePoint.",
@@ -10268,8 +10206,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "performance",
-        "React 19"
+        "React 19",
+        "performance"
       ]
     },
     {
@@ -10298,8 +10236,8 @@
       "score": 40,
       "keywords": [
         "release",
-        "developer",
-        "library"
+        "library",
+        "developer"
       ]
     },
     {
@@ -10314,8 +10252,8 @@
       "score": 40,
       "keywords": [
         "release",
-        "developer",
-        "API"
+        "API",
+        "developer"
       ]
     },
     {
@@ -10329,9 +10267,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "performance",
         "developer",
-        "API"
+        "API",
+        "performance"
       ]
     },
     {
@@ -10615,6 +10553,18 @@
       "keywords": []
     },
     {
+      "id": "dbf7852e5822876e",
+      "title": "A brief look at FreeBSD",
+      "description": "Comments",
+      "url": "https://yorickpeterse.com/articles/a-brief-look-at-freebsd/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-12T12:10:11+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
       "id": "4e6d7290f5ff11d8",
       "title": "React Native 0.80 - React 19.1, JS API Changes, Freezing Legacy Arch and much more",
       "description": "Today we are excited to release React Native 0.80!",
@@ -10625,8 +10575,8 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "release",
         "React 19",
+        "release",
         "API"
       ]
     },
@@ -10699,8 +10649,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10728,8 +10678,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "framework",
-        "API"
+        "API",
+        "framework"
       ]
     },
     {
@@ -10847,11 +10797,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "code",
-        "performance",
         "release",
         "API",
-        "framework"
+        "framework",
+        "performance",
+        "code"
       ]
     },
     {
@@ -11051,9 +11001,9 @@
       "niche": "dev",
       "score": 25,
       "keywords": [
-        "framework",
+        "Angular",
         "release",
-        "Angular"
+        "framework"
       ]
     },
     {
@@ -11135,9 +11085,9 @@
       "niche": "dev",
       "score": 22,
       "keywords": [
+        "development",
         "release",
-        "performance",
-        "development"
+        "performance"
       ]
     },
     {
@@ -11178,8 +11128,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "framework",
-        "release"
+        "release",
+        "framework"
       ]
     },
     {
@@ -11193,9 +11143,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "code",
+        "developer",
         "performance",
-        "developer"
+        "code"
       ]
     },
     {
@@ -11210,8 +11160,8 @@
       "score": 19,
       "keywords": [
         "release",
-        "developer",
-        "API"
+        "API",
+        "developer"
       ]
     },
     {
@@ -11254,9 +11204,9 @@
       "niche": "dev",
       "score": 18,
       "keywords": [
-        "code",
         "development",
-        "developer"
+        "developer",
+        "code"
       ]
     },
     {
@@ -11523,18 +11473,6 @@
       "keywords": []
     },
     {
-      "id": "534a431e8c8b2449",
-      "title": "Automating our home video imports",
-      "description": "Comments",
-      "url": "https://pierce.dev/notes/automating-our-home-video-imports",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-05T19:13:30+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
       "id": "d5f5f23772c55c2b",
       "title": "SanDisk launches dongle-like Extreme Fit USB-C flash drive with up to 1 TB",
       "description": "Comments",
@@ -11542,18 +11480,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-11-07T12:11:42+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "4ca1c2ea09740607",
-      "title": "Shinigami the Reaper",
-      "description": "Comments",
-      "url": "https://mixedmartialarts.com/street/goth-nerd-tests-his-kenpo-skills-under-mma-rules/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-05T21:19:09+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -11737,8 +11663,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "programming",
-        "development"
+        "development",
+        "programming"
       ]
     },
     {
@@ -12427,18 +12353,6 @@
       "published": "2025-09-26T00:00:00+00:00",
       "niche": "dev",
       "score": 9,
-      "keywords": []
-    },
-    {
-      "id": "28972d41e4eebfc2",
-      "title": "Ioannis Yannas invented artificial skin for treatment of burns–dies at 90",
-      "description": "Comments",
-      "url": "https://news.mit.edu/2025/professor-ioannis-yannas-dies-1027",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-01T17:18:23+00:00",
-      "niche": "dev",
-      "score": 8,
       "keywords": []
     },
     {
