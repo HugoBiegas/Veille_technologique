@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-11-13T15:32:18.396432+00:00",
-  "total_articles": 197,
+  "last_updated": "2025-11-13T18:40:31.590642+00:00",
+  "total_articles": 198,
   "articles": [
     {
       "id": "f03f150c314c5d49",
@@ -69,6 +69,30 @@
       "url": "https://spring.io/blog/2025/11/13/spring-framework-6-2-13-available-now",
       "source": "Spring Blog (Official)",
       "author": "bclozel",
+      "published": "2025-11-13T00:00:00+00:00",
+      "niche": "spring",
+      "score": 62,
+      "keywords": []
+    },
+    {
+      "id": "08019e37b9e7b43e",
+      "title": "Spring Cloud 2025.1.0-RC1 (aka Oakwood) has been released",
+      "description": "On behalf of the community, I am pleased to announce that the Release Candidate 1 (RC1) of the Spring Cloud 2025.1.0 Release Train is available today. The release can be found in Spring Milestone repository. You can check out the 2025.1.0 release notes for more information. Notable Changes in the 2025.1.0 Release Train Highlights of this release are support for Spring Boot 4.0.0-RC2, updates for Jackson 3 support, initial support for JSpecify Null-Safety, dependency updates and bug fixes. A comp",
+      "url": "https://spring.io/blog/2025/11/13/spring-cloud-2025-1-0-RC1-aka-oakwood-has-been-released",
+      "source": "Spring Blog (Official)",
+      "author": "spencergibb",
+      "published": "2025-11-13T00:00:00+00:00",
+      "niche": "spring",
+      "score": 62,
+      "keywords": []
+    },
+    {
+      "id": "5a9c4c709c6d11d5",
+      "title": "Spring Framework 7.0 General Availability",
+      "description": "Dear Spring community, On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Framework 7.0 is generally available now! Spring Framework 7.0 is the beginning of a new framework generation with a focus on Java 25 and the latest open source ecosystem, serving as the foundation for Spring Boot 4.0. This generation of Spring comes with a pragmatic baseline and dependency upgrade: Embracing Java 25 (as the latest LTS) while retaining a Java 17 baseline Jakarta EE",
+      "url": "https://spring.io/blog/2025/11/13/spring-framework-7-0-general-availability",
+      "source": "Spring Blog (Official)",
+      "author": "jhoeller",
       "published": "2025-11-13T00:00:00+00:00",
       "niche": "spring",
       "score": 62,
@@ -144,18 +168,6 @@
       "published": "2025-11-12T11:30:30+00:00",
       "niche": "spring",
       "score": 57,
-      "keywords": []
-    },
-    {
-      "id": "a2e6173c15564377",
-      "title": "How to Customize Enum Mappings with @EnumeratedValue",
-      "description": "The post How to Customize Enum Mappings with @EnumeratedValue appeared first on Thorben Janssen. Mapping enums with Jakarta Persistence looks simple at first. But the two traditional options, @Enumerated(EnumType.STRING) and @Enumerated(EnumType.ORDINAL), depend on internal enum details that can change over time. If you store the enum value as a String, you will have to migrate your data whenever you decide to rename a value. And if you store the... The post How to Customize Enum Mappings with @",
-      "url": "https://thorben-janssen.com/custom-enum-mappings-with-enumeratedvalue/",
-      "source": "Thorben Janssen",
-      "author": "Thorben Janssen",
-      "published": "2025-11-06T17:05:28+00:00",
-      "niche": "spring",
-      "score": 50,
       "keywords": []
     },
     {
@@ -360,42 +372,6 @@
       "published": "2025-11-08T02:35:56+00:00",
       "niche": "spring",
       "score": 46,
-      "keywords": []
-    },
-    {
-      "id": "fc4b4e3069591cf2",
-      "title": "Observability and Monitoring with Micrometer 2.0",
-      "description": "The gap between writing code and understanding how it behaves in production has always been frustratingly wide. You deploy your application, cross your fingers, and hope the logs tell you what&#8217;s wrong when things break. Micrometer 2.0 changes this game entirely, bringing vendor-neutral observability to the JVM ecosystem with a sophistication that rivals platform-specific solutions. &#8230;",
-      "url": "https://www.javacodegeeks.com/2025/11/observability-and-monitoring-with-micrometer-2-0.html",
-      "source": "Java Code Geeks",
-      "author": "Eleftheria Drosopoulou",
-      "published": "2025-11-06T17:24:00+00:00",
-      "niche": "spring",
-      "score": 42,
-      "keywords": []
-    },
-    {
-      "id": "c584481dabd2be8a",
-      "title": "A Beginner's Guide to Essential Commands to Fix Container Setup Issues",
-      "description": "You followed the tutorial. You ran Docker Run. And... nothing. The container exited immediately. Or maybe it is running, but localhost just shows “This site can’t be reached.” We’ve all been there. When you’re new to Docker, a failing container can feel like a sealed black box. You know something is wrong inside, but you have no idea how to look.  In this quick guide, I’ll show you the five essential commands to open that box, see what’s happening, and fix your broken containers.",
-      "url": "https://feeds.dzone.com/link/18931/17204542/docker-commands-fix-container-setup-issues",
-      "source": "DZone Microservices",
-      "author": "Akaash Vishal Hazarika",
-      "published": "2025-11-06T17:00:00+00:00",
-      "niche": "spring",
-      "score": 42,
-      "keywords": []
-    },
-    {
-      "id": "0f31cbaee3039499",
-      "title": "A Practical Guide to Modernizing Data Serving Architectures Using DBSQL",
-      "description": "If you’ve ever built analytical dashboards, chances are you’ve worked with the old “batch-load-to-RDS” pattern, where we load the data into RDS from a batch process and read from that operational data store, such as AWS RDS or other databases. We certainly did in our case — and for a while, it served us well. Our applications pulled data from a lakehouse like Snowflake or Delta Lake, transformed it in AWS Glue, and loaded it into Amazon RDS. The RDS database powered Lambda APIs that fed dashboar",
-      "url": "https://feeds.dzone.com/link/18931/17204508/modernizing-data-serving-architectures-with-dbsql",
-      "source": "DZone Microservices",
-      "author": "PRAVEEN DOOTAGANI",
-      "published": "2025-11-06T16:00:00+00:00",
-      "niche": "spring",
-      "score": 42,
       "keywords": []
     },
     {
@@ -766,6 +742,42 @@
       "source": "Java Code Geeks",
       "author": "Java Code Geeks",
       "published": "2025-11-13T11:30:30+00:00",
+      "niche": "spring",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "3a9141bbb26b72e4",
+      "title": "Best Tips You Should Know About to Hire a Quality Software Developer",
+      "description": "Let&#8217;s be honest: hiring a software developer in 2025 feels like trying to find a unicorn that can also fix your Wi-Fi. The global developer count is hitting 28.7 million this year, yet somehow there are still five vacant job roles for each developer. McKinsey predicts we&#8217;ll need 1 million more developers skilled in AI-driven &#8230;",
+      "url": "https://www.javacodegeeks.com/2025/11/best-tips-you-should-know-about-to-hire-a-quality-software-developer.html",
+      "source": "Java Code Geeks",
+      "author": "Eleftheria Drosopoulou",
+      "published": "2025-11-13T17:22:00+00:00",
+      "niche": "spring",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "4fe6954022c66985",
+      "title": "How to Set Target Property Values to Null in MapStruct",
+      "description": "In mapping scenarios, we may encounter situations where certain fields should be explicitly set to null during the mapping process, even when the source property has a non-null value. MapStruct provides ways to control how null values are handled for target properties. This article explores how to set null values intentionally for target properties in &#8230;",
+      "url": "https://www.javacodegeeks.com/how-to-set-target-property-values-to-null-in-mapstruct.html",
+      "source": "Java Code Geeks",
+      "author": "Omozegie Aziegbe",
+      "published": "2025-11-13T16:19:00+00:00",
+      "niche": "spring",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "543086d9a61d4d48",
+      "title": "DocumentDB Goes Cloud-Native: Introducing the DocumentDB Kubernetes Operator",
+      "description": "Today, we're excited to announce the DocumentDB Kubernetes Operator, an open-source, cloud-native solution to deploy, manage, and scale DocumentDB instances on Kubernetes. DocumentDB is a MongoDB-compatible, open-source document database built on PostgreSQL. The DocumentDB Kubernetes Operator represents a natural evolution of the DocumentDB ecosystem, following our open source announcement and recent joining of the Linux Foundation. When it comes to distributed databases, there is no one-size-fi",
+      "url": "https://feeds.dzone.com/link/18931/17208645/documentdb-kubernetes-operator-cloud-native",
+      "source": "DZone Microservices",
+      "author": "Abhishek Gupta",
+      "published": "2025-11-13T15:00:00+00:00",
       "niche": "spring",
       "score": 42,
       "keywords": []
@@ -1179,18 +1191,6 @@
       "keywords": []
     },
     {
-      "id": "0dfa3885f0ad5213",
-      "title": "The Unified Observability Model: Deep Dive into Micrometer’s Observation API (1.10+)",
-      "description": "For too long, the gap between writing code and understanding its production behavior has been frustratingly wide. We&#8217;ve deployed applications, crossed our fingers, and relied solely on sparse logs when things inevitably break. Micrometer&#8217;s Observation API (available since version 1.10) closes this gap entirely, fundamentally changing the JVM observability landscape by bringing vendor-neutral, unified metrics &#8230;",
-      "url": "https://www.javacodegeeks.com/2025/11/observability-and-monitoring-with-micrometer-2-0.html",
-      "source": "Java Code Geeks",
-      "author": "Eleftheria Drosopoulou",
-      "published": "2025-11-06T17:24:00+00:00",
-      "niche": "spring",
-      "score": 17,
-      "keywords": []
-    },
-    {
       "id": "b3725faf35c7a6b4",
       "title": "Book Review – Troubleshooting Java",
       "description": "Introduction My friend, Laurentiu Spilca, has been working on the second edition of his Troubleshooting Java book, and when I was asked to review it, I was more than happy to do it since the book features a lot of topics that I&#8217;m also very interested in, such as performance tuning and query optimization. Audience This book is useful for any Java developer because it teaches you how to get the best out of your IDE debugger, as well as showing you how to profile Java applications and fix ver",
@@ -1390,6 +1390,18 @@
       "source": "Piotr's TechBlog",
       "author": "piotr.minkowski",
       "published": "2025-03-20T09:40:46+00:00",
+      "niche": "spring",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "a2e6173c15564377",
+      "title": "How to Customize Enum Mappings with @EnumeratedValue",
+      "description": "The post How to Customize Enum Mappings with @EnumeratedValue appeared first on Thorben Janssen. Mapping enums with Jakarta Persistence looks simple at first. But the two traditional options, @Enumerated(EnumType.STRING) and @Enumerated(EnumType.ORDINAL), depend on internal enum details that can change over time. If you store the enum value as a String, you will have to migrate your data whenever you decide to rename a value. And if you store the... The post How to Customize Enum Mappings with @",
+      "url": "https://thorben-janssen.com/custom-enum-mappings-with-enumeratedvalue/",
+      "source": "Thorben Janssen",
+      "author": "Thorben Janssen",
+      "published": "2025-11-06T17:05:28+00:00",
       "niche": "spring",
       "score": 14,
       "keywords": []
