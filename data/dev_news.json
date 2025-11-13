@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-11-13T01:56:51.312900+00:00",
-  "total_articles": 967,
+  "last_updated": "2025-11-13T03:49:59.362679+00:00",
+  "total_articles": 971,
   "articles": [
     {
       "id": "2445dbb389252855",
@@ -423,16 +423,18 @@
       ]
     },
     {
-      "id": "ec5e78fd9739e0d0",
-      "title": "androidx.navigation:navigation-ui is causing increasing inflation time for each component (in Java xml project)?",
-      "description": "@mark: simply by removing implementation 'androidx.navigation:navigation-ui:2.9.5' EACH SINGLE ONE of my MaterialButton inflation time decreases from 4.5~6ms to 3.5~4ms. I have no idea why. this is a pure java xml project. no Kotlin, no Jetpack Compose. this is a hello world level project. no complex theme or logic. I didnt even use the navigation-ui in my project, I just added the dependency in gradle. im not talking about the time to transition from one page to another -- not inflation of a fr",
-      "url": "https://dev.to/nl_p_/androidxnavigationnavigation-ui-is-causing-increasing-inflation-time-for-each-component-12l9",
+      "id": "9f2db91929042e3c",
+      "title": "GitHub Copilot Model Context Sizes (Nov 2025)",
+      "description": "Main Models GPT-4.1 — 128,000 tokens GPT-5 mini — 128,000 tokens GPT-5 — 128,000 tokens GPT-4o — 128,000 tokens o3-mini — 200,000 tokens Claude Sonnet 3.5 — 90,000 tokens Claude Sonnet 3.7 — 200,000 tokens Claude Sonnet 4 — 128,000 tokens Claude Sonnet 4.5 — 200,000 tokens (standard) / 1,000,000 tokens (beta) Gemini 2.0 Flash — 1,000,000 tokens Gemini 2.5 Pro — 128,000 tokens o4-mini — 128,000 (picker) / 200,000 (full version) Grok Code Fast 1 — 128,000 tokens Smaller Models GPT-3.5 Turbo — 16,3",
+      "url": "https://dev.to/dr_furqanullah_8819ecd9/github-copilot-model-context-sizes-nov-2025-3nif",
       "source": "Dev.to",
-      "author": "Nor",
-      "published": "2025-11-06T03:31:22+00:00",
+      "author": "Dr. Furqan Ullah",
+      "published": "2025-11-13T03:14:55+00:00",
       "niche": "dev",
-      "score": 68,
-      "keywords": []
+      "score": 69,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "da3a50bfe15fda8f",
@@ -961,22 +963,6 @@
       "niche": "dev",
       "score": 62,
       "keywords": []
-    },
-    {
-      "id": "208dd96602cb238f",
-      "title": "Introducing YasuiJS — A Modern, Minimal REST Framework for Any Runtime",
-      "description": "Most backend frameworks today are built on foundations from a different era. Express sits on Node.js HTTP. NestJS sits on Express. Each layer adds abstraction, dependencies, and constraints. What if we started fresh? YasuiJS is a new TypeScript framework for building REST APIs, built on Web Standards from day one. No Express underneath. No Node.js HTTP layer. Just the Fetch API, Web Standards Request/Response, and a lightweight server adapter (srvx) that works across runtimes. The result? A fram",
-      "url": "https://dev.to/thomas_barkats_8d0da46be2/introducing-yasuijs-a-modern-minimal-rest-framework-for-any-runtime-4e54",
-      "source": "Dev.to",
-      "author": "Thomas BARKATS",
-      "published": "2025-11-06T03:31:40+00:00",
-      "niche": "dev",
-      "score": 61,
-      "keywords": [
-        "API",
-        "framework",
-        "REST API"
-      ]
     },
     {
       "id": "8b65d9a50eefef7f",
@@ -2094,48 +2080,6 @@
       ]
     },
     {
-      "id": "a5ac1be64bddb6fe",
-      "title": "NocoBase Weekly Updates: Optimization and Bug Fixes",
-      "description": "Originally published at https://www.nocobase.com/en/blog/weekly-updates-20251106 Summarize the weekly product update logs, and the latest releases can be checked on our blog. NocoBase is currently updated with three branches: main , next and develop. main：The most stable version to date, recommended for installation; next：Beta version, contains upcoming new features and has been preliminarily tested. There might be some known or unknown issues. It's mainly for test users to collect feedback and ",
-      "url": "https://dev.to/nocobase/nocobase-weekly-updates-optimization-and-bug-fixes-49ji",
-      "source": "Dev.to",
-      "author": "NocoBase",
-      "published": "2025-11-06T03:48:51+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "release"
-      ]
-    },
-    {
-      "id": "371344b894b18442",
-      "title": "How does AI infrastructure and automation reshape data centers?",
-      "description": "Introduction AI infrastructure and automation now power business strategy and scale. Companies pour billions into data centers and GPUs because raw compute defines competitive edge. As a result, organizations redesign operations, networks, and energy plans to host large models. The rise of massive GPU farms reshaped how teams train models and ship features. However, this rapid evolution raises hard questions about electricity limits, labor dislocation, and geopolitics. The stakes span grid capac",
-      "url": "https://dev.to/jay_all_day/how-does-ai-infrastructure-and-automation-reshape-data-centers-2ef3",
-      "source": "Dev.to",
-      "author": "Jayant Harilela",
-      "published": "2025-11-06T03:29:02+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "API"
-      ]
-    },
-    {
-      "id": "95d89ccd435da83f",
-      "title": "A Treta do Module Federation e Next.js: Uma História de Falta de Colaboração",
-      "description": "Durante meus estudos sobre micro-frontends, mais especificamente sobre o uso de Module Federation com Next.js, procurei formas de fazer essa integração utilizando o novo bundler do framework, o Turbopack. No entanto, acabei me deparando com uma série de issues no GitHub e publicações em fóruns da comunidade que revelaram um debate intenso (e bastante interessante) dentro do ecossistema React/Next.js. Neste texto, compartilho o que descobri (pois sou fofoqueiro): o que aconteceu, quais foram os p",
-      "url": "https://dev.to/albornozrodrigo/a-treta-do-module-federation-e-nextjs-uma-historia-de-falta-de-colaboracao-12dk",
-      "source": "Dev.to",
-      "author": "Rodrigo Albornoz",
-      "published": "2025-11-06T03:23:31+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "framework"
-      ]
-    },
-    {
       "id": "9eef9207d90b7f2e",
       "title": "Building a Password Checker with Vanilla JS (No Frameworks!)",
       "description": "I got locked out of the GST portal for the third time because my password \"didn't meet requirements.\" No explanation. Just \"Invalid password.\" After wasting 30 minutes trying different passwords, I decided to build a tool that would tell me exactly what was wrong with my password for different government portals. Result: PasswordChecker.in - Built in 2 weekends with vanilla JavaScript. No React. No Vue. No frameworks. Here's how I did it. Why No Frameworks? Speed. I wanted the tool to be: Fast t",
@@ -3100,18 +3044,45 @@
       ]
     },
     {
-      "id": "ef9db193c8a71c5f",
-      "title": "Building FarmHelper: A Complete JavaScript Dashboard for Farm Simulator 22",
-      "description": "Introduction In this tutorial, we’ll create FarmHelper, a web-based tool that tracks crop growth and equipment maintenance for Farm Simulator 22. This guide is fully coding-focused, with all code included in text form so you can copy, paste, and experiment. We’ll use HTML, CSS, and JavaScript, and store farm data in the browser using localStorage. Step 1: Project Setup Create a project folder, farmhelper, with three files: index.html style.css script.js This keeps your code organized and easy to",
-      "url": "https://dev.to/jayden_imel_92ef7dcc5b7b7/building-farmhelper-a-complete-javascript-dashboard-for-farm-simulator-22-hnh",
+      "id": "021e8e5443965679",
+      "title": "🧩Scenario #15 — Horizontal Pod Autoscaler (HPA) in Kubernetes",
+      "description": "🎯 Goal Automatically scale an NGINX deployment based on CPU usage using Kubernetes Horizontal Pod Autoscaler. 🧰 Step 1 — Create a Deployment Let’s create a simple NGINX deployment that runs a lightweight web app to simulate load. cat <<EOF > nginx-hpa.yaml apiVersion: apps/v1 kind: Deployment metadata: name: nginx-hpa-demo spec: replicas: 1 selector: matchLabels: app: nginx-hpa-demo template: metadata: labels: app: nginx-hpa-demo spec: containers: - name: nginx image: nginx ports: - containerPor",
+      "url": "https://dev.to/latchudevops/scenario-15-horizontal-pod-autoscaler-hpa-in-kubernetes-5eo1",
       "source": "Dev.to",
-      "author": "Jayden Imel",
-      "published": "2025-11-06T03:23:02+00:00",
+      "author": "Latchu@DevOps",
+      "published": "2025-11-13T03:42:50+00:00",
       "niche": "dev",
-      "score": 52,
+      "score": 54,
       "keywords": [
-        "tutorial",
-        "code"
+        "API"
+      ]
+    },
+    {
+      "id": "4b93049d49e75320",
+      "title": "NocoBase Weekly Updates: Optimization and Bug Fixes",
+      "description": "Originally published at https://www.nocobase.com/en/blog/weekly-updates-20251113 Summarize the weekly product update logs, and the latest releases can be checked on our blog. NocoBase is currently updated with three branches: main , next and develop. main：The most stable version to date, recommended for installation; next：Beta version, contains upcoming new features and has been preliminarily tested. There might be some known or unknown issues. It's mainly for test users to collect feedback and ",
+      "url": "https://dev.to/nocobase/nocobase-weekly-updates-optimization-and-bug-fixes-4fin",
+      "source": "Dev.to",
+      "author": "NocoBase",
+      "published": "2025-11-13T03:30:55+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "release"
+      ]
+    },
+    {
+      "id": "11377fd4e39362e0",
+      "title": "Build Live Caption Broadcasting for Events with Next.js and Elevenlabs API",
+      "description": "captions.events: Open-source real-time captioning platform for live events Built with Next.js, ElevenLabs Scribe v2, and Supabase Realtime. Features: 🎤 100-200ms transcription latency with automatic language detection 🌍 On-device translation into 14+ languages using Chrome's built-in AI 📡 Broadcast to unlimited viewers through Supabase Realtime 🔒 Single-use token system keeps API credentials secure 📜 Full caption history with language metadata 👤 GitHub OAuth for authentication and event manageme",
+      "url": "https://dev.to/jqueryscript/build-live-caption-broadcasting-for-events-with-nextjs-and-elevenlabs-api-1mbb",
+      "source": "Dev.to",
+      "author": "jQueryScript",
+      "published": "2025-11-13T03:04:22+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "API"
       ]
     },
     {
@@ -3490,17 +3461,34 @@
       ]
     },
     {
-      "id": "3626791757de31a3",
-      "title": "Quản lý mở rộng",
-      "description": "Trong Trae, bạn có thể cài đặt, vô hiệu hóa hoặc gỡ bỏ tiện ích mở rộng. Cài đặt một tiện ích mở rộng Bạn có thể cài đặt mở rộng từ cửa hàng mở rộng của Trae hoặc từ thị trường của VS Code, hoặc bạn có thể cài đặt mở rộng trực tiếp bằng cách cài đặt tệp .vsix địa phương vào Trae IDE. Từ cửa hàng mở rộng của Trae 1. Trên thanh điều hướng bên trái, nhấp vào biểu tượng cửa hàng mở rộng. Cửa hàng mở rộng xuất hiện bên trái. 2. Tìm kiếm phần mở rộng bạn muốn cài đặt và chọn nó từ danh sách Có sẵn. Cử",
-      "url": "https://dev.to/treemeat79541/quan-ly-mo-rong-1kc7",
+      "id": "1e10f55ba221bde1",
+      "title": "How to Monetize Your Coding Skills by Building Niche Web Apps",
+      "description": "In today’s ever-evolving tech landscape, developers have more opportunities than ever to turn their coding skills into a sustainable income stream. But how can you stand out in a sea of generic apps? The answer lies in building niche web applications—apps that target specific, underserved markets with tailored solutions. Not only are niche web apps highly valuable, but they also open up multiple avenues for monetization, making them a great way to turn your development skills into a profitable b",
+      "url": "https://dev.to/softwaredeveloperhub01/how-to-monetize-your-coding-skills-by-building-niche-web-apps-25pb",
       "source": "Dev.to",
-      "author": "TreeMeat",
-      "published": "2025-11-06T03:22:48+00:00",
+      "author": "Software Developer",
+      "published": "2025-11-13T03:00:00+00:00",
       "niche": "dev",
-      "score": 51,
+      "score": 52,
       "keywords": [
-        "code"
+        "development",
+        "developer"
+      ]
+    },
+    {
+      "id": "775e7b8985aea34f",
+      "title": "How to Parse XML in Python Without Using External Libraries",
+      "description": "In software development, you’ll run into XML (Extensible Markup Language) when working with configuration files, API responses, data exports, and more. While there are powerful third-party libraries for parsing XML, Python's standard library already ...",
+      "url": "https://www.freecodecamp.org/news/how-to-parse-xml-in-python-without-using-external-libraries/",
+      "source": "freeCodeCamp",
+      "author": "Bala Priya C",
+      "published": "2025-11-12T20:29:56+00:00",
+      "niche": "dev",
+      "score": 52,
+      "keywords": [
+        "development",
+        "library",
+        "API"
       ]
     },
     {
@@ -4651,42 +4639,6 @@
       "keywords": [
         "developer"
       ]
-    },
-    {
-      "id": "2ac2bee488969cc5",
-      "title": "Decoding the 100314QI: Efficient Differential Receivers for Embedded Projects",
-      "description": "Hey devs! Diving into differential signaling for clean data over noisy lines? Think RS-422/RS-485. Today: the 100314QI, onsemi's low-power five-channel differential line receiver IC (ex-Fairchild). Ideal for battery-powered IoT where reliability meets efficiency. In 2025's edge computing boom, it revives legacy protocols with modern MCUs. ESD-protected, 3V operation, up to 10Mbps/channel—in a tiny QFN-20. Ditch bulky transceivers. We'll cover: datasheet basics, Arduino hookup, SPICE sim, and tip",
-      "url": "https://dev.to/xecor_company/decoding-the-100314qi-efficient-differential-receivers-for-embedded-projects-39pk",
-      "source": "Dev.to",
-      "author": "xecor",
-      "published": "2025-11-06T03:28:31+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "7a293ad2dd8be0d7",
-      "title": "Conditional logic for jQuery formBuilder in 5 minutes",
-      "description": "Need show/hide or enable/disable behavior in a jQuery formBuilder form without patching core? I built a small add-on that layers rules-based conditional logic on top of formBuilder’s builder/renderer. Repo: https://github.com/jaimonorle/formBuilder-ConditionalLogic Live demos: Builder: https://jaimonorle.github.io/formBuilder-ConditionalLogic/demo/builder-static.html Render: https://jaimonorle.github.io/formBuilder-ConditionalLogic/demo/render-static.html What it does Rules like “if X then Y” (e",
-      "url": "https://dev.to/jaimonorle/conditional-logic-for-jquery-formbuilder-in-5-minutes-2i8n",
-      "source": "Dev.to",
-      "author": "Jaimon Orlé",
-      "published": "2025-11-06T03:14:28+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "5960d5e5019235d7",
-      "title": "3607. Power Grid Maintenance",
-      "description": "3607. Power Grid Maintenance Difficulty: Medium Topics: Array, Hash Table, Depth-First Search, Breadth-First Search, Union Find, Graph, Heap (Priority Queue), Ordered Set, Weekly Contest 457 You are given an integer c representing c power stations, each with a unique identifier id from 1 to c (1‑based indexing). These stations are interconnected via n bidirectional cables, represented by a 2D array connections, where each element connections[i] = [uᵢ vᵢ] indicates a connection between station uᵢ",
-      "url": "https://dev.to/mdarifulhaque/3607-power-grid-maintenance-53f3",
-      "source": "Dev.to",
-      "author": "MD ARIFUL HAQUE",
-      "published": "2025-11-06T03:10:59+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
     },
     {
       "id": "6c86710fe563fbf9",
@@ -7903,6 +7855,54 @@
       "keywords": []
     },
     {
+      "id": "18cac64346625ed7",
+      "title": "How I Build Books, Brands & Products With ChatGPT",
+      "description": "Most people use AI to save time. I use it to create assets that make money while I sleep. AI isn’t just a productivity tool — it’s a revenue engine if you learn to connect prompting with systems, publishing, and brand building. Here’s exactly how I use ChatGPT every week to turn ideas into books, products, and content streams that keep compounding. 1️⃣ Idea to Market — The Prompt Incubation System Every product, article, or book starts as a prompt thread, not a business plan. I begin with: Act a",
+      "url": "https://dev.to/jaideepparashar/how-i-build-books-brands-products-with-chatgpt-3em5",
+      "source": "Dev.to",
+      "author": "Jaideep Parashar",
+      "published": "2025-11-13T03:14:20+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "cf028ff2bec5183a",
+      "title": "🚀 ¡Despídete del Caos de Configs! Mi Viaje con Azure App Configuration: Escalabilidad, Seguridad y 0 Downtimes en Microservicios",
+      "description": "💭 Imagina esto: Eres un desarrollador apasionado (como yo 😅) que lleva semanas lidiando con configs dispersos entre YAMLs, repositorios Git y variables de entorno olvidadas. Tus microservicios en Node.js, Python y Go crecen rápido, pero cada cambio —por mínimo que sea, como actualizar un db.host— termina en reinicios manuales, merge conflicts y noches sin dormir tratando de entender por qué algo rompió en producción. 😵‍💫 Un viernes (sí, otro viernes de deploys peligrosos), decidí que ya era sufi",
+      "url": "https://dev.to/francotel/despidete-del-caos-de-configs-mi-viaje-con-azure-app-configuration-escalabilidad-seguridad-y-52g7",
+      "source": "Dev.to",
+      "author": "francotel",
+      "published": "2025-11-13T03:04:45+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "2ea637d69bf2607f",
+      "title": "Taming Complexity: Unleashing Evolutionary Algorithms for System Modeling",
+      "description": "Taming Complexity: Unleashing Evolutionary Algorithms for System Modeling Imagine trying to predict the spread of a new disease, model the fluctuations of a stock market, or simulate the behavior of a robot swarm. These complex systems have countless interacting parts, making accurate modeling a nightmare. The biggest hurdle? Pinpointing the right values for all the crucial parameters that govern the system's behavior. The core idea is surprisingly simple: treat parameter tuning as an optimizati",
+      "url": "https://dev.to/arvind_sundararajan/taming-complexity-unleashing-evolutionary-algorithms-for-system-modeling-52lb",
+      "source": "Dev.to",
+      "author": "Arvind SundaraRajan",
+      "published": "2025-11-13T03:02:07+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "e7cf79074a97237e",
+      "title": "How to Set Up Your Own Google Analytics Alternative Using Umami",
+      "description": "Website analytics are crucial for understanding how visitors interact with your content. And while Google Analytics dominates the market, it often raises privacy concerns and can be complex for small projects. If you’re looking for a simpler, open-so...",
+      "url": "https://www.freecodecamp.org/news/how-to-set-up-your-own-google-analytics-alternative-using-umami/",
+      "source": "freeCodeCamp",
+      "author": "Manish Shivanandhan",
+      "published": "2025-11-11T23:36:55+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "614c2897ff68900a",
       "title": "Check out this blog on all device compatible tableau dashboards",
       "description": "Designing All-Device Compatible Tableau Dashboards: A Complete Guide Dipti M ・ Nov 9 #webdev #programming #beginners #tutorial",
@@ -8056,6 +8056,20 @@
       "score": 48,
       "keywords": [
         "programming"
+      ]
+    },
+    {
+      "id": "9e6ae5bb51257dde",
+      "title": "How to Cut AI Costs Without Losing Capability: The Rise of Small LLMs",
+      "description": "Artificial intelligence is getting smaller – and smarter. For years, the story of AI progress was about scale. Bigger models meant better performance. But now, a new wave of innovation is proving that smaller models can do more with less. These compa...",
+      "url": "https://www.freecodecamp.org/news/how-to-cut-ai-costs-without-losing-capability-the-rise-of-small-llms/",
+      "source": "freeCodeCamp",
+      "author": "Manish Shivanandhan",
+      "published": "2025-11-12T20:31:19+00:00",
+      "niche": "dev",
+      "score": 48,
+      "keywords": [
+        "performance"
       ]
     },
     {
@@ -8255,64 +8269,18 @@
       ]
     },
     {
-      "id": "9edab7e365d7a3e4",
-      "title": "Longtime Mozilla Support Japanese Community Shuts Down over AI Translation Usage",
-      "description": "Comments",
-      "url": "https://support.mozilla.org/en-US/forums/contributors/717446",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-06T02:38:53+00:00",
+      "id": "d3cc276930acb7c4",
+      "title": "System Architecture Documentation Best Practices and Tools",
+      "description": "Imagine being asked to give UX feedback on a system workflow document and realizing you can’t understand a word of it. That’s exactly what happened to me. As an IT support officer, I can put myself in the perspective of a user and identify friction p...",
+      "url": "https://www.freecodecamp.org/news/system-architecture-documentation-best-practices-and-tools/",
+      "source": "freeCodeCamp",
+      "author": "Ifeoma Udu",
+      "published": "2025-11-12T12:58:57+00:00",
       "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "184f4a9e4dfdba08",
-      "title": "Rust's TUI Revolution",
-      "description": "Comments",
-      "url": "https://ratatui.rs/showcase/apps/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-06T02:50:31+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "40b69f46735db177",
-      "title": "FAA to cut flights by 10% at 40 major airports due to government shutdown",
-      "description": "Comments",
-      "url": "https://www.cnbc.com/2025/11/05/faa-cuts-flight-capacity-shutdown.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-06T02:44:05+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "5ccde7e414243e9e",
-      "title": "End of Japanese community",
-      "description": "Comments",
-      "url": "https://support.mozilla.org/en-US/forums/contributors/717446",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-06T02:38:53+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "1c32c14b8df4925e",
-      "title": "Ratatui – App Showcase",
-      "description": "Comments",
-      "url": "https://ratatui.rs/showcase/apps/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-06T02:50:31+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
+      "score": 45,
+      "keywords": [
+        "best practices"
+      ]
     },
     {
       "id": "0c935dd70c850bd0",
@@ -10151,6 +10119,78 @@
       "keywords": []
     },
     {
+      "id": "d790e5ed6fb50644",
+      "title": "Untitled",
+      "description": "Check out this Pen I made!",
+      "url": "https://dev.to/junayed_islam_2c7c9e1d0ce/untitled-3bjh",
+      "source": "Dev.to",
+      "author": "Junayed Islam",
+      "published": "2025-11-13T03:37:24+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "6b27df07f8fefe4d",
+      "title": "Untitled",
+      "description": "Check out this Pen I made!",
+      "url": "https://dev.to/junayed_islam_2c7c9e1d0ce/untitled-4eaa",
+      "source": "Dev.to",
+      "author": "Junayed Islam",
+      "published": "2025-11-13T03:01:56+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "382eb7b7518616b7",
+      "title": "My dad could still be alive, but he's not",
+      "description": "Comments",
+      "url": "https://www.jenn.site/my-dad-could-still-be-alive-but-hes-not/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-13T02:17:30+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "36642b1998e3525e",
+      "title": "Human Fovea Detector",
+      "description": "Comments",
+      "url": "https://www.shadertoy.com/view/4dsXzM",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-13T00:48:45+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "54dcb1ace1ccf391",
+      "title": "Valve is about to win the console generation",
+      "description": "Comments",
+      "url": "https://xeiaso.net/blog/2025/valve-is-about-to-win-the-console-generation/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-12T23:35:41+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "92e9c51b4de26af0",
+      "title": "How to Integrate Vector Search in Columnar Storage",
+      "description": "Integrating vector search into traditional data platforms is becoming a common task in the current AI-driven landscape. When Google announced general availability for vector search in BigQuery in early 2024, it joined a growing list of established da...",
+      "url": "https://www.freecodecamp.org/news/how-to-integrate-vector-search-in-columnar-storage/",
+      "source": "freeCodeCamp",
+      "author": "Chirag Agrawal",
+      "published": "2025-11-12T21:43:04+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "78c4b08725d5f56b",
       "title": "React 19 Upgrade Guide",
       "description": "The improvements added to React 19 require some breaking changes, but we've worked to make the upgrade as smooth as possible and we don't expect the changes to impact most apps. In this post, we will guide you through the steps for upgrading apps and libraries to React 19.",
@@ -10201,8 +10241,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "React 19",
-        "performance"
+        "performance",
+        "React 19"
       ]
     },
     {
@@ -10231,8 +10271,8 @@
       "score": 40,
       "keywords": [
         "library",
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -10246,9 +10286,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "developer",
         "API",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -10554,9 +10594,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "React 19",
         "API",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -10570,8 +10610,8 @@
       "niche": "dev",
       "score": 37,
       "keywords": [
-        "developer",
-        "API"
+        "API",
+        "developer"
       ]
     },
     {
@@ -10585,8 +10625,8 @@
       "niche": "dev",
       "score": 37,
       "keywords": [
-        "developer",
-        "API"
+        "API",
+        "developer"
       ]
     },
     {
@@ -10628,8 +10668,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -10776,10 +10816,10 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "release",
-        "framework",
         "performance",
+        "release",
         "code",
+        "framework",
         "API"
       ]
     },
@@ -11122,9 +11162,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "developer",
         "code",
-        "performance"
+        "performance",
+        "developer"
       ]
     },
     {
@@ -11138,9 +11178,9 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
         "API",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -11154,8 +11194,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -11618,8 +11658,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "development",
-        "programming"
+        "programming",
+        "development"
       ]
     },
     {
@@ -12308,6 +12348,18 @@
       "published": "2025-09-26T00:00:00+00:00",
       "niche": "dev",
       "score": 9,
+      "keywords": []
+    },
+    {
+      "id": "b485803ef012ae8d",
+      "title": "Max Number of Simultaneous Key-Press (N-Key Rollover, NKRO, Ghosting) (2010)",
+      "description": "Comments",
+      "url": "http://xahlee.info/kbd/keyboard_n-key_rollover_key_ghosting.html",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-03T19:36:27+00:00",
+      "niche": "dev",
+      "score": 8,
       "keywords": []
     },
     {
