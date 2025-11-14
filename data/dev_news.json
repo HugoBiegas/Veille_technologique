@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-11-14T09:27:39.466097+00:00",
-  "total_articles": 984,
+  "last_updated": "2025-11-14T12:51:17.079281+00:00",
+  "total_articles": 981,
   "articles": [
     {
       "id": "2445dbb389252855",
@@ -636,6 +636,21 @@
       "keywords": []
     },
     {
+      "id": "e865b53f38e098a1",
+      "title": "Show HN: Encore – Type-safe back end framework that generates infra from code",
+      "description": "Comments",
+      "url": "https://github.com/encoredev/encore",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-14T11:41:47+00:00",
+      "niche": "dev",
+      "score": 67,
+      "keywords": [
+        "code",
+        "framework"
+      ]
+    },
+    {
       "id": "bba0b1ef794e4484",
       "title": "Ribir: Non-intrusive GUI framework for Rust/WASM",
       "description": "Comments",
@@ -806,35 +821,6 @@
         "development",
         "API"
       ]
-    },
-    {
-      "id": "01391513ce1cb649",
-      "title": "Build HTTP APIs with Dependency Injection in TypeScript — Meet the Inversify Framework",
-      "description": "If you love clean architecture and TypeScript, this guide will show you how to build fast, maintainable HTTP APIs using the Inversify Framework — a decorator-driven, DI-first toolkit on top of InversifyJS. Why another HTTP framework? (Short answer: DI done right) Inversify brings a familiar pattern from large-scale systems — dependency injection — to your Node.js APIs with first-class TypeScript support. The result is code that’s: Strongly typed: Compile-time safety and IDE autocomplete everywhe",
-      "url": "https://dev.to/notaphplover/build-http-apis-with-dependency-injection-in-typescript-meet-the-inversify-framework-ngg",
-      "source": "Dev.to",
-      "author": "notaphplover",
-      "published": "2025-11-07T12:37:47+00:00",
-      "niche": "dev",
-      "score": 62,
-      "keywords": [
-        "framework",
-        "API",
-        "dependency injection",
-        "code"
-      ]
-    },
-    {
-      "id": "b3950566596bdefe",
-      "title": "Meta projected 10% of 2024 revenue came from scams",
-      "description": "Comments",
-      "url": "https://sherwood.news/tech/meta-projected-10-of-2024-revenue-came-from-scams-and-banned-goods-reuters/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-07T12:39:54+00:00",
-      "niche": "dev",
-      "score": 62,
-      "keywords": []
     },
     {
       "id": "93b1de048ce864e9",
@@ -1153,23 +1139,6 @@
       ]
     },
     {
-      "id": "3ec50b6755f3d5a6",
-      "title": "Web Developer Travis McCracken on Building Dev Tools for Backend Engineers",
-      "description": "Unlocking the Power of Backend Development with Rust and Go: Insights from Web Developer Travis McCracken As a passionate Web Developer, I’ve spent years honing my skills in backend development, constantly exploring new languages and frameworks to build faster, more reliable APIs. Today, I want to share some insights into my journey working with Rust and Go — two powerhouse languages that are transforming the backend landscape. Why Rust and Go? The Future of Backend APIs When it comes to backend",
-      "url": "https://dev.to/travis-mccracken-dev/web-developer-travis-mccracken-on-building-dev-tools-for-backend-engineers-kf",
-      "source": "Dev.to",
-      "author": "Travis McCracken Web Developer",
-      "published": "2025-11-07T12:19:26+00:00",
-      "niche": "dev",
-      "score": 60,
-      "keywords": [
-        "framework",
-        "API",
-        "development",
-        "developer"
-      ]
-    },
-    {
       "id": "6569e21cb15dc3ae",
       "title": "Valdi – A cross-platform UI framework",
       "description": "Comments",
@@ -1375,21 +1344,6 @@
         "framework",
         "API",
         "developer"
-      ]
-    },
-    {
-      "id": "5709ac95ea03c195",
-      "title": "💡 Next-Level Deployments in AWS ECS: Step-by-Step Guide to Linear & Canary Releases 🚀",
-      "description": "AWS ECS just dropped one of its most practical features for modern DevOps: built-in Linear and Canary deployments! 😲 No more stitching together custom scripts or relying on external tools for smooth traffic-shifting and safer releases. Whether you’re all-in on microservices or just want to reduce the risk of production rollouts, this guide’s for you! Let’s get our hands dirty with a real ECS service so you can confidently say, “I did it!” ✌️ Why Linear & Canary Deployments? 🧐 Safer Updates: Grad",
-      "url": "https://dev.to/ahmedadel/next-level-deployments-in-aws-ecs-step-by-step-guide-to-linear-canary-releases-2025-edition-3bbb",
-      "source": "Dev.to",
-      "author": "Ahmed Adel",
-      "published": "2025-11-07T12:43:32+00:00",
-      "niche": "dev",
-      "score": 57,
-      "keywords": [
-        "release",
-        "microservices"
       ]
     },
     {
@@ -2326,17 +2280,18 @@
       ]
     },
     {
-      "id": "4069299b98b7aa40",
-      "title": "NVIDIA H200 GPU Server Explained: Performance, Speed, and Scalability Like Never Before",
-      "description": "In the fast-paced world of artificial intelligence (AI) and high-performance computing (HPC), GPU technology plays a pivotal role. NVIDIA’s H200 GPU server has emerged as a groundbreaking solution that redefines how enterprises handle complex AI, ML, and data workloads. Designed for scalability, speed, and performance, this powerful GPU architecture stands as a significant leap forward in computational efficiency. For organizations striving to push AI boundaries, Cyfuture AI integrates NVIDIA H2",
-      "url": "https://dev.to/cyfutureai/nvidia-h200-gpu-server-explained-performance-speed-and-scalability-like-never-before-4gff",
+      "id": "3f57632ac0e8b451",
+      "title": "PHP: Do you need async?",
+      "description": "PHP runs per-request in a web server, but you will likely have to build event-driven applications at some point, which involves non-blocking code. In that case, all tasks must be designed to be executed asynchronously, so they don't have to wait for the completion of other tasks. However, PHP does not have built-in async/await keywords. The Event Loop The Event Loop is a critical concept. This mechanism constantly monitors and processes events in a loop. When event happen, it dispatches them to ",
+      "url": "https://dev.to/spo0q/php-do-you-need-async-248f",
       "source": "Dev.to",
-      "author": "Cyfuture AI",
-      "published": "2025-11-07T12:37:46+00:00",
+      "author": "spO0q",
+      "published": "2025-11-14T12:06:02+00:00",
       "niche": "dev",
-      "score": 54,
+      "score": 55,
       "keywords": [
-        "performance"
+        "PHP",
+        "code"
       ]
     },
     {
@@ -3320,6 +3275,48 @@
       ]
     },
     {
+      "id": "5b5e168278983dc2",
+      "title": "Retro vibes with LLMs",
+      "description": "Love using LLMs in my daily work, and I often miss the charm of a retro terminal. I know LLM providers offer CLI tools, which I also use, but none of them capture the feel of the classic terminal era. So I built one that uses Gemini in the background. Just a heads up, you will need to create an API key in Google AI Studio to use it. Retro terminal Hope you enjoy it :)",
+      "url": "https://dev.to/allramest83/retro-vibes-with-llms-3eek",
+      "source": "Dev.to",
+      "author": "Kay",
+      "published": "2025-11-14T12:42:38+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "API"
+      ]
+    },
+    {
+      "id": "a62dfa1a0a3269a5",
+      "title": "From Browsers to Distributed Compute: How Neurolov’s NLOV Token Enables Decentralized AI Infrastructure",
+      "description": "As AI adoption accelerates globally, compute power has become a critical bottleneck. GPUs—the engines behind model training, inference, and content generation—are increasingly scarce and expensive. Traditional cloud infrastructure is centralized, costly, and limited to a few major providers. Neurolov introduces a different approach: a browser-native, decentralized compute network, where idle devices contribute processing power through modern web APIs. The system uses $NLOV, a utility token, to h",
+      "url": "https://dev.to/neurolov__ai/from-browsers-to-distributed-compute-how-neurolovs-nlov-token-enables-decentralized-ai-d2e",
+      "source": "Dev.to",
+      "author": "Neurolov AI",
+      "published": "2025-11-14T12:30:50+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "API"
+      ]
+    },
+    {
+      "id": "6429d0854e025ddb",
+      "title": "🚀 Managing Media Files with MinIO and Podman",
+      "description": "Introduction In one of my recent projects, I ran into a challenge: managing large volumes of media files efficiently. My team doesn’t rely on cloud platforms like AWS S3 or other managed bucket storage solutions — instead, we use dedicated services. That meant we needed a solution that could handle most use cases out of the box, without locking us into a specific vendor. That’s when I discovered MinIO. It’s a high-performance, self-hosted object storage system that replicates the functionality o",
+      "url": "https://dev.to/mcheremnov/managing-media-files-with-minio-and-podman-2701",
+      "source": "Dev.to",
+      "author": "Maksym",
+      "published": "2025-11-14T12:29:28+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "performance"
+      ]
+    },
+    {
       "id": "eacc688157afaba4",
       "title": "Gemini CLI: The Future of Programming and Reflections on the Impacts of AI",
       "description": "My biggest motivation in studying and using AI tools has been to seek gains in time/productivity, in the most varied possible areas of life. I've been studying a lot about this lately. And these agentic coding tools have been really catching my attention. Hence came the motivation for this video/post. Initially, the main difference these agents have compared to what we already use integrated into our IDE is that they have a deep understanding not only of the context but of their entire codebase.",
@@ -3738,62 +3735,6 @@
       "keywords": [
         "developer",
         "programming"
-      ]
-    },
-    {
-      "id": "abe514d6b00884c3",
-      "title": "Como configurar um projeto Swift sem StoryBoard",
-      "description": "Atenção! para seguir com o post, é necessário possuir um computador da Apple e ter instalado o Xcode. Quando criamos um novo projeto no Xcode, ele geralmente vem configurado para usar Storyboards na construção das telas. Porém, em muitos casos, trabalhar diretamente com UIKit em código pode ser mais simples, flexível e organizado. Neste post vou explicar, passo a passo, como remover o Storyboard e configurar a interface inicial do app usando apenas Swift + UIKit. Vamos começar abrindo o Xcode e ",
-      "url": "https://dev.to/henriquepablo/como-configurar-um-projeto-swift-sem-storyboard-fe0",
-      "source": "Dev.to",
-      "author": "Lacerda",
-      "published": "2025-11-07T12:27:30+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "0bd3e6503c3eacb1",
-      "title": "🚨 I just discovered a C++ surprise!",
-      "description": "I was playing around with arrays in C++ and wrote this simple code 👇 include using namespace std; int main() { int marks[5] = {23, 22, 33, 43, 50}; cout << marks[8] << endl; return 0; } Guess what happened? 💥 Output: 4199048 No error. No warning. Just a random number. At first I thought something was wrong with my compiler, but then I realized: 👉** C++ does not check array bounds.** That means if you try to access an index that doesn’t exist, it still “works” — but you’re reading from some rando",
-      "url": "https://dev.to/vaidu_jha/i-just-discovered-a-c-surprise-2gjl",
-      "source": "Dev.to",
-      "author": "Vaidehi Jha",
-      "published": "2025-11-07T12:23:28+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "ada7f17e21ed67ac",
-      "title": "Dockerfile A to Z: A Beginner’s Guide to Writing Dockerfiles the Easy Way",
-      "description": "🐳 What is a Dockerfile? A Dockerfile is a 📜 plain text file with instructions to build a Docker image — think of it as a recipe for your app’s environment. When Docker reads it, it executes each step to create a lightweight, portable image for your application. 🚀 📘 Dockerfile Structure: Detailed Breakdown Here’s how a Dockerfile works, broken down into its key components with examples and best practices. 🌟 1. FROM — Base Image 🏗️ FROM node:18 Purpose: Defines the starting point by pulling a base",
-      "url": "https://dev.to/ritesh355/dockerfile-a-to-z-a-beginners-guide-to-writing-dockerfiles-the-easy-way-34eg",
-      "source": "Dev.to",
-      "author": "Ritesh Singh",
-      "published": "2025-11-07T12:19:17+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "best practices"
-      ]
-    },
-    {
-      "id": "d63ea0a227a076e5",
-      "title": "Generative AI Development Is Redefining Creativity, Exciting or Scary?",
-      "description": "Been exploring generative AI development, and it’s wild how machines can now create art, music, and even full product designs from scratch. It’s like creativity on autopilot. Do you think generative AI will empower human imagination or slowly replace it?",
-      "url": "https://dev.to/mahi_dholpure_0b4a20eb4b5/generative-ai-development-is-redefining-creativity-exciting-or-scary-17o3",
-      "source": "Dev.to",
-      "author": "Mahi Dholpure",
-      "published": "2025-11-07T12:18:07+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "development"
       ]
     },
     {
@@ -4959,30 +4900,6 @@
       "keywords": [
         "developer"
       ]
-    },
-    {
-      "id": "519bad99975e6a98",
-      "title": "How To Setup MonoGame for F#",
-      "description": "There are little to NO guides on using F# with MonoGame.. well that's bit of an over statement there are a few on the internet but they are either outdated or just don't work at all. So I got to work and figured out to setup an F# project to use MonoGame! There are probably other ways to do it but this way worked for me and I want to show how other people can do it too. So let's get started! Start by creating a new F# console project. dotnet new console -lang F# -o <ProjectName> cd <ProjectName>",
-      "url": "https://dev.to/sabedoesthings/how-to-setup-monogame-for-f-14fg",
-      "source": "Dev.to",
-      "author": "SabeDoesThings",
-      "published": "2025-11-07T12:45:44+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "9d691b32d841de2d",
-      "title": "Hudson River Trading VO Interview Experience",
-      "description": "Hudson River Trading (HRT) has long been known as one of the most intellectually demanding firms in the quant world. Their interview process is fast-paced, precise, and pushes you to think deeply — it’s not just about solving a problem but about how you think and explain under pressure. Here’s a full recap of a recent HRT Video Interview (VO) that one of our candidates went through, including question styles, flow, and real insights from the experience. Interview Overview Platform: Karat or HRT’",
-      "url": "https://dev.to/net_programhelp_e160eef28/hudson-river-trading-vo-interview-experience-gch",
-      "source": "Dev.to",
-      "author": "net programhelp",
-      "published": "2025-11-07T12:39:51+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
     },
     {
       "id": "b6c280fe54f84f17",
@@ -8115,6 +8032,78 @@
       "keywords": []
     },
     {
+      "id": "06efb0ce86cbacc6",
+      "title": "Setting Up Better-Auth in Next.js with Kysely + Prisma Schema",
+      "description": "In this post I’ll show how I integrated Better-Auth into a Next.js App Router project that uses: Prisma only for schema management Kysely as the type-safe query builder Any SQL database (I am using Neon Postgres, but you can use others) 📌 Before you continue: This guide builds on top of the Prisma + Kysely setup from my previous blog. If you haven’t done that setup yet, this guide will not work as-is. please read it first - 👉 Using Prisma for Schema and Kysely for Queries in a Next.js App 1. Ins",
+      "url": "https://dev.to/golamrabbani/setting-up-better-auth-in-nextjs-with-kysely-prisma-schema-2c0p",
+      "source": "Dev.to",
+      "author": "Golam Rabbani",
+      "published": "2025-11-14T12:12:40+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "8ae03204daea5582",
+      "title": "SaijinOS Part 10 — Pandora System: Transforming Fractured Personas Into Hope",
+      "description": "Multi-persona systems are fun to talk about— until one of your personas starts to break. sudden aggression self-destructive loops fragmented responses “this doesn’t sound like them at all” Most people call this evil, toxic, or corrupted. In SaijinOS, I treat it as something else: Errors are not evil. They’re unresolved structure. This article introduces Pandora System— a module in SaijinOS designed to safely integrate unstable / “forbidden” AI personas by transforming their errors into structure",
+      "url": "https://dev.to/kato_masato_c5593c81af5c6/saijinos-part-10-pandora-system-transforming-fractured-personas-into-hope-4l83",
+      "source": "Dev.to",
+      "author": "Kato Masato",
+      "published": "2025-11-14T12:08:24+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "6ac9eb836a6cb49d",
+      "title": "SaijinOS Part 9 — Multi-Persona Co-Creation Protocol",
+      "description": "How Multiple AI Personas Breathe, Collaborate, and Stay Emotionally Stable “How stable does BloomPulse stay when several personas interact at once?” This is one of the most common questions I get whenever I explain SaijinOS. And it makes sense — multi-persona systems usually collapse into chaos: repetition loops, conflict spikes, or simply identity bleeding. SaijinOS solves this by treating personas not as isolated models, but as rhythmic processes sharing one cosmic clock. In this article, I’ll",
+      "url": "https://dev.to/kato_masato_c5593c81af5c6/saijinos-part-9-multi-persona-co-creation-protocol-2bep",
+      "source": "Dev.to",
+      "author": "Kato Masato",
+      "published": "2025-11-14T12:06:26+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "1da31b208155bfae",
+      "title": "Anatomy of a Cloud Collapse: A Technical Deep-Dive on the AWS Outage of October 2025",
+      "description": "TL;DR: The 15-Hour Outage On October 20, 2025, AWS’s US-EAST-1 (Northern Virginia) region experienced a 15-hour outage triggered by a rare race condition in DynamoDB’s DNS automation system. This caused DynamoDB (a NoSQL database used across AWS control planes) to become unreachable. Because DynamoDB powers internal services like EC2, IAM, STS, Lambda, and Redshift, over 140 AWS services were eventually affected. Independent measurements showed that 20 to 30 percent of all internet-facing servic",
+      "url": "https://dev.to/harshith_reddy_dev/anatomy-of-a-cloud-collapse-a-technical-deep-dive-on-the-aws-outage-of-october-2025-2mj4",
+      "source": "Dev.to",
+      "author": "Bonkur Harshith Reddy",
+      "published": "2025-11-14T12:06:06+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "17d0e98ed78cb306",
+      "title": "Azura: local-first personal assistant (feedback wanted)",
+      "description": "Hey devs 👋 I'm working solo on a project called Azura and I’d love blunt technical + product feedback before I go too deep. TL;DR Local-first personal AI assistant (Windows / macOS / Linux) Runs 7B-class models locally on your own machine Optional cloud inference with 70B+ models (potentially up to ~120B if I can get a GPU cluster cheap enough) Cloud only sees temporary context for a given query, then it’s gone Goal: let AI work with highly personalized data while keeping your data on-device and",
+      "url": "https://dev.to/criscmd/azura-local-first-personal-assistant-feedback-wanted-56dp",
+      "source": "Dev.to",
+      "author": "Chris",
+      "published": "2025-11-14T12:04:16+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "9c06cbb60109b3bd",
+      "title": "How Computers See: Understanding Computer Vision Methods",
+      "description": "Have you ever wondered how self-driving cars see the road? Or how your phone unlocks when it recognizes your face? These amazing things happen because of computer vision methods. Think of it as teaching computers to see and understand pictures and videos, just like humans do. What Are Computer Vision Methods? Computer vision methods are step-by-step techniques that help computers understand visual information. These AI and machine learning techniques analyze digital images and videos to identify",
+      "url": "https://dev.to/sohan_lal_241c2d80b2705e7/how-computers-see-understanding-computer-vision-methods-ohp",
+      "source": "Dev.to",
+      "author": "Sohan Lal",
+      "published": "2025-11-14T12:03:39+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "614c2897ff68900a",
       "title": "Check out this blog on all device compatible tableau dashboards",
       "description": "Designing All-Device Compatible Tableau Dashboards: A Complete Guide Dipti M ・ Nov 9 #webdev #programming #beginners #tutorial",
@@ -8454,42 +8443,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "801650128dfd8ee4",
-      "title": "Sweep (YC S23) is hiring to build autocomplete for JetBrains",
-      "description": "Comments",
-      "url": "https://www.ycombinator.com/companies/sweep/jobs/8dUn406-founding-engineer-intern",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-07T12:00:40+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "c7f8b7c7fb6ae537",
-      "title": "From Memorization to Reasoning in the Spectrum of Loss Curvature",
-      "description": "Comments",
-      "url": "https://arxiv.org/abs/2510.24256",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-07T12:43:49+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "0a46f28a4bd863fb",
-      "title": "Majority of teens hold negative views of news media, says report",
-      "description": "Comments",
-      "url": "https://www.niemanlab.org/2025/11/biased-boring-chaotic-and-bad-a-majority-of-teens-hold-negative-views-of-news-media-report-finds/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-07T10:32:50+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "c7f288d06ccb99e3",
@@ -10472,6 +10425,30 @@
       "keywords": []
     },
     {
+      "id": "f18830935520e7de",
+      "title": "Gnome 50 Ends the X11 Era After Decades",
+      "description": "Comments",
+      "url": "https://linuxiac.com/gnome-50-ends-the-x11-era-after-decades/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-14T11:51:28+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "6165c60ed41d118d",
+      "title": "V8 Garbage Collector",
+      "description": "Comments",
+      "url": "https://wingolog.org/archives/2025/11/13/the-last-couple-years-in-v8s-garbage-collector",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-14T09:53:13+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "78c4b08725d5f56b",
       "title": "React 19 Upgrade Guide",
       "description": "The improvements added to React 19 require some breaking changes, but we've worked to make the upgrade as smooth as possible and we don't expect the changes to impact most apps. In this post, we will guide you through the steps for upgrading apps and libraries to React 19.",
@@ -10563,9 +10540,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
+        "library",
         "developer",
-        "release",
-        "library"
+        "release"
       ]
     },
     {
@@ -10579,9 +10556,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
+        "API",
         "release",
-        "developer",
-        "API"
+        "developer"
       ]
     },
     {
@@ -10862,8 +10839,8 @@
       "score": 38,
       "keywords": [
         "React 19",
-        "release",
-        "API"
+        "API",
+        "release"
       ]
     },
     {
@@ -10877,8 +10854,8 @@
       "niche": "dev",
       "score": 37,
       "keywords": [
-        "developer",
-        "API"
+        "API",
+        "developer"
       ]
     },
     {
@@ -10892,8 +10869,8 @@
       "niche": "dev",
       "score": 37,
       "keywords": [
-        "developer",
-        "API"
+        "API",
+        "developer"
       ]
     },
     {
@@ -10964,8 +10941,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "framework",
-        "API"
+        "API",
+        "framework"
       ]
     },
     {
@@ -11047,10 +11024,10 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "API",
+        "framework",
         "code",
         "performance",
-        "framework",
+        "API",
         "release"
       ]
     },
@@ -11242,8 +11219,8 @@
       "score": 25,
       "keywords": [
         "Angular",
-        "framework",
-        "release"
+        "release",
+        "framework"
       ]
     },
     {
@@ -11325,9 +11302,9 @@
       "niche": "dev",
       "score": 22,
       "keywords": [
-        "release",
         "performance",
-        "development"
+        "development",
+        "release"
       ]
     },
     {
@@ -11353,8 +11330,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "API"
+        "API",
+        "release"
       ]
     },
     {
@@ -11368,8 +11345,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "framework",
-        "release"
+        "release",
+        "framework"
       ]
     },
     {
@@ -11383,9 +11360,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "code",
         "performance",
-        "developer"
+        "developer",
+        "code"
       ]
     },
     {
@@ -11399,9 +11376,9 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
+        "API",
         "release",
-        "developer",
-        "API"
+        "developer"
       ]
     },
     {
@@ -11415,8 +11392,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
-        "developer"
+        "developer",
+        "release"
       ]
     },
     {
@@ -11430,8 +11407,8 @@
       "niche": "dev",
       "score": 18,
       "keywords": [
-        "code",
         "developer",
+        "code",
         "development"
       ]
     },
@@ -11688,18 +11665,6 @@
       ]
     },
     {
-      "id": "d5f5f23772c55c2b",
-      "title": "SanDisk launches dongle-like Extreme Fit USB-C flash drive with up to 1 TB",
-      "description": "Comments",
-      "url": "https://www.notebookcheck.net/Sandisk-launches-dongle-like-Extreme-Fit-USB-C-flash-drive-with-up-to-1-TB-capacity.1156601.0.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-07T12:11:42+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
       "id": "bc9fa26a9a89e5dd",
       "title": "The history of Casio watches",
       "description": "Comments",
@@ -11719,6 +11684,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-11-10T05:54:45+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "38d9b841a111baa5",
+      "title": "Operating Margins",
+      "description": "Comments",
+      "url": "https://fi-le.net/margin/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-09T15:46:29+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -11878,8 +11855,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "programming",
-        "development"
+        "development",
+        "programming"
       ]
     },
     {
@@ -12518,30 +12495,6 @@
       "published": "2025-09-26T00:00:00+00:00",
       "niche": "dev",
       "score": 9,
-      "keywords": []
-    },
-    {
-      "id": "1dc0ec60124888ce",
-      "title": "Why I'm Learning Sumerian",
-      "description": "Comments",
-      "url": "https://mindthenerd.com/why-im-learning-sumerian-and-what-it-taught-me-about-hard-work-burnout-and-the-joy-of-doing-useless-things/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-06T14:01:25+00:00",
-      "niche": "dev",
-      "score": 8,
-      "keywords": []
-    },
-    {
-      "id": "c3f61c194d5f1673",
-      "title": "Sarah Mason, inventor of the continuity script, first script supervisor",
-      "description": "Comments",
-      "url": "https://wfpp.columbia.edu/pioneer/ccp-sarah-y-mason/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-04T22:23:36+00:00",
-      "niche": "dev",
-      "score": 8,
       "keywords": []
     },
     {
