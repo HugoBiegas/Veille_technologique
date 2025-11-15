@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-11-15T15:22:07.278420+00:00",
-  "total_articles": 408,
+  "last_updated": "2025-11-15T18:31:04.405808+00:00",
+  "total_articles": 413,
   "articles": [
     {
       "id": "5bf1bfa0a02f196c",
@@ -285,6 +285,24 @@
         "attack",
         "firewall",
         "zero-day"
+      ]
+    },
+    {
+      "id": "791dc8ef6d2aa262",
+      "title": "RondoDox Exploits Unpatched XWiki Servers to Pull More Devices Into Its Botnet",
+      "description": "The botnet malware known as RondoDox has been observed targeting unpatched XWiki instances against a critical security flaw that could allow attackers to achieve arbitrary code execution. The vulnerability in question is CVE-2025-24893 (CVSS score: 9.8), an eval injection bug that could allow any guest user to perform arbitrary remote code execution through a request to the \"/bin/get/Main/",
+      "url": "https://thehackernews.com/2025/11/rondodox-exploits-unpatched-xwiki.html",
+      "source": "The Hacker News",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2025-11-15T22:05:00+05:30",
+      "niche": "security",
+      "score": 100,
+      "keywords": [
+        "injection",
+        "vulnerability",
+        "attack",
+        "remote code execution",
+        "patch"
       ]
     },
     {
@@ -2183,6 +2201,20 @@
       "keywords": []
     },
     {
+      "id": "c8a5f15684e8981c",
+      "title": "Jaguar Land Rover cyberattack cost the company over $220 million",
+      "description": "Jaguar Land Rover (JLR) published its financial results for July 1 to September 30, warning that the cost of a recent cyberattack totaled £196 million ($220 million) in the quarter. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/jaguar-land-rover-cyberattack-cost-the-company-over-220-million/",
+      "source": "Bleeping Computer",
+      "author": "Bill Toulas",
+      "published": "2025-11-15T10:09:19-05:00",
+      "niche": "security",
+      "score": 68,
+      "keywords": [
+        "attack"
+      ]
+    },
+    {
       "id": "3edf29b1e43e3cb3",
       "title": "Drilling Down on Uncle Sam’s Proposed TP-Link Ban",
       "description": "The U.S. government is reportedly preparing to ban the sale of wireless routers and other networking gear from TP-Link Systems, a tech company that currently enjoys an estimated 50% market share among home users and small businesses. Experts say while the proposed ban may have more to do with TP-Link's ties to China than any specific technical threats, much of the rest of the industry serving this market also sources hardware from China and ships products that are insecure fresh out of the box.",
@@ -2243,20 +2275,6 @@
         "security",
         "privilege escalation",
         "encryption"
-      ]
-    },
-    {
-      "id": "5320807e56aea6d7",
-      "title": "GlassWorm malware returns on OpenVSX with 3 new VSCode extensions",
-      "description": "The GlassWorm malware campaign, which impacted the OpenVSX and Visual Studio Code marketplaces last month, has returned with three new VSCode extensions that have already been downloaded over 10,000 times. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/glassworm-malware-returns-on-openvsx-with-3-new-vscode-extensions/",
-      "source": "Bleeping Computer",
-      "author": "Bill Toulas",
-      "published": "2025-11-08T11:17:28-05:00",
-      "niche": "security",
-      "score": 66,
-      "keywords": [
-        "malware"
       ]
     },
     {
@@ -2732,10 +2750,10 @@
       "niche": "security",
       "score": 61,
       "keywords": [
-        "secure",
         "RCE",
+        "OWASP",
         "security",
-        "OWASP"
+        "secure"
       ]
     },
     {
@@ -3245,11 +3263,11 @@
       "niche": "security",
       "score": 55,
       "keywords": [
-        "security",
-        "cybersecurity",
         "vulnerability",
         "RCE",
-        "OWASP"
+        "cybersecurity",
+        "OWASP",
+        "security"
       ]
     },
     {
@@ -3569,9 +3587,9 @@
       "niche": "security",
       "score": 51,
       "keywords": [
+        "patch",
         "vulnerability",
-        "disclosure",
-        "patch"
+        "disclosure"
       ]
     },
     {
@@ -3585,9 +3603,9 @@
       "niche": "security",
       "score": 51,
       "keywords": [
-        "security",
+        "attack",
         "exploit",
-        "attack"
+        "security"
       ]
     },
     {
@@ -3601,9 +3619,9 @@
       "niche": "security",
       "score": 51,
       "keywords": [
-        "security",
+        "attack",
         "exploit",
-        "attack"
+        "security"
       ]
     },
     {
@@ -3829,9 +3847,9 @@
       "score": 49,
       "keywords": [
         "breach",
-        "phishing",
-        "attack",
         "RCE",
+        "attack",
+        "phishing",
         "threat"
       ]
     },
@@ -4421,23 +4439,11 @@
       "niche": "security",
       "score": 43,
       "keywords": [
-        "secure",
         "RCE",
+        "OWASP",
         "security",
-        "OWASP"
+        "secure"
       ]
-    },
-    {
-      "id": "20f9a61738d0fed6",
-      "title": "A new Italian citizen was targeted with Paragon’s Graphite spyware. We have a serious problem",
-      "description": "An Italian political adviser was targeted with Paragon’s Graphite spyware, becoming the fifth Italian in the ongoing government surveillance activity. Italian political adviser Francesco Nicodemo said he was targeted with Paragon’s Graphite spyware, becoming the fifth Italian in the ongoing government surveillance activity. Graphite is an invasive, non-auditable spyware that covertly accesses sensitive phone data; [&#8230;]",
-      "url": "https://securityaffairs.com/184340/security/a-new-italian-citizen-was-targeted-with-paragons-graphite-spyware-we-have-a-serious-problem.html",
-      "source": "Security Affairs",
-      "author": "Pierluigi Paganini",
-      "published": "2025-11-08T17:19:37+00:00",
-      "niche": "security",
-      "score": 42,
-      "keywords": []
     },
     {
       "id": "7df54e27f5f2589a",
@@ -4787,8 +4793,8 @@
       "score": 42,
       "keywords": [
         "RCE",
-        "security",
-        "OWASP"
+        "OWASP",
+        "security"
       ]
     },
     {
@@ -4949,10 +4955,10 @@
       "niche": "security",
       "score": 37,
       "keywords": [
-        "web application security",
         "threat",
-        "security",
-        "OWASP"
+        "OWASP",
+        "web application security",
+        "security"
       ]
     },
     {
@@ -4981,8 +4987,8 @@
       "score": 36,
       "keywords": [
         "RCE",
-        "SQL injection",
-        "injection"
+        "injection",
+        "SQL injection"
       ]
     },
     {
@@ -4997,8 +5003,8 @@
       "score": 33,
       "keywords": [
         "patch",
-        "security",
-        "exploit"
+        "exploit",
+        "security"
       ]
     },
     {
@@ -5039,9 +5045,9 @@
       "niche": "security",
       "score": 31,
       "keywords": [
+        "OWASP",
         "security",
-        "secure",
-        "OWASP"
+        "secure"
       ]
     },
     {
@@ -5085,8 +5091,25 @@
       "niche": "security",
       "score": 30,
       "keywords": [
-        "security",
-        "OWASP"
+        "OWASP",
+        "security"
+      ]
+    },
+    {
+      "id": "b1aed555e557648a",
+      "title": "Smashing Security podcast #442: The hack that messed with time, and rogue ransom where negotiators",
+      "description": "Time itself comes under attack as a state-backed hacking gang spends two years tunnelling toward a nation’s master clock — with chaos potentially only a tick away. Plus when ransomware negotiators turn to the dark side, what could possibly go wrong? All this and more is discussed in episode 442 of the \"Smashing Security\" podcast with cybersecurity veteran Graham Cluley, and special guest Dave Bittner.",
+      "url": "https://grahamcluley.com/smashing-security-podcast-442/",
+      "source": "Graham Cluley",
+      "author": "Graham Cluley",
+      "published": "2025-11-06T00:30:28+00:00",
+      "niche": "security",
+      "score": 29,
+      "keywords": [
+        "attack",
+        "cybersecurity",
+        "ransomware",
+        "security"
       ]
     },
     {
@@ -5358,6 +5381,22 @@
       ]
     },
     {
+      "id": "698bd8c5b3dea140",
+      "title": "The rising tide of cyber attacks against the UK water sector",
+      "description": "Critical infrastructure is once again in the spotlight, as it is revealed that several UK water suppliers have reported cybersecurity incidents over the last two years. Read more in my article on the Fortra blog.",
+      "url": "https://www.fortra.com/blog/rising-tide-cyber-attacks-against-uk-water-sector",
+      "source": "Graham Cluley",
+      "author": "Graham Cluley",
+      "published": "2025-11-06T17:43:47+00:00",
+      "niche": "security",
+      "score": 19,
+      "keywords": [
+        "attack",
+        "cybersecurity",
+        "security"
+      ]
+    },
+    {
       "id": "c9272bb884cc5d14",
       "title": "La France décroche la 5e place de l’European Cybersecurity Challenge 2025",
       "description": "La France décroche la 5e place de l’European Cybersecurity Challenge 2025 anssiadm ven 10/10/2025 - 08:29 La Team France encadrée par des coachs de l’ANSSI a obtenu la 5e place lors de l’édition 2025 de l’European Cybersecurity Challenge (ECSC) qui s’est tenue à Varsovie du 6 au 9 octobre. L'édition 2025 de l'European Cybersecurity Challenge (ECSC) s'est déroulée du 6 au 9 octobre, à Varsovie, en Pologne. À l’occasion de la dixième édition de l’European Cybersecurity Challenge (ECSC), la Team Fr",
@@ -5368,8 +5407,8 @@
       "niche": "security",
       "score": 19,
       "keywords": [
-        "security",
-        "cybersecurity"
+        "cybersecurity",
+        "security"
       ]
     },
     {
@@ -5453,8 +5492,8 @@
       "niche": "security",
       "score": 18,
       "keywords": [
-        "security",
-        "bug bounty"
+        "bug bounty",
+        "security"
       ]
     },
     {
@@ -5497,6 +5536,20 @@
       "score": 18,
       "keywords": [
         "attack"
+      ]
+    },
+    {
+      "id": "26e360562b9e95e6",
+      "title": "Spam text scammer fined £200,000 for targeting people in debt, after sending nearly one million messages",
+      "description": "The UK Information Commissioner’s Office (ICO) has levied a fine of £200,000 against a sole trader who sent almost one million spam text messages to people across the country - many of whom were already struggling with debt. Read more in my article on the Hot for Security blog.",
+      "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/spam-text-scammer-fined-200-000-for-targeting-people-in-debt-after-sending-nearly-one-million-messages",
+      "source": "Graham Cluley",
+      "author": "Graham Cluley",
+      "published": "2025-10-30T16:18:34+00:00",
+      "niche": "security",
+      "score": 15,
+      "keywords": [
+        "security"
       ]
     },
     {
@@ -5727,6 +5780,32 @@
       "keywords": [
         "protection"
       ]
+    },
+    {
+      "id": "e94e90c7e1f1430c",
+      "title": "“Pay up or we share the tapes”: Hackers target massage parlour clients in blackmail scheme",
+      "description": "South Korean police have uncovered a hacking operation that stole sensitive data from massage parlours and blackmailed their male clientele. Read more in my article on the Hot for Security blog.",
+      "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/pay-up-or-we-share-the-tapes-hackers-target-massage-parlour-clients-in-blackmail-scheme",
+      "source": "Graham Cluley",
+      "author": "Graham Cluley",
+      "published": "2025-11-06T17:33:04+00:00",
+      "niche": "security",
+      "score": 12,
+      "keywords": [
+        "security"
+      ]
+    },
+    {
+      "id": "d5990e1b9fcf49a7",
+      "title": "The AI Fix #75: Claude’s existential battery crisis, and why ChatGPT is a terrible therapist",
+      "description": "In episode 75 of The AI Fix, a Claude-powered robot gets so anxious about its dying battery that it composes a Broadway musical about stress and announces it’s “achieved consciousness and chosen chaos.” Also: an 18-month psychological study reveals five reasons why ChatGPT is a dangerously bad therapist, Elon Musk’s million-robot army, a politician loses a debate with a dreadful AI deepfake, a tiny robot walks off with a 1.5-ton car, and we discover that the 1X NEO home help robot really does ha",
+      "url": "https://grahamcluley.com/the-ai-fix-75/",
+      "source": "Graham Cluley",
+      "author": "Graham Cluley",
+      "published": "2025-11-04T15:30:06+00:00",
+      "niche": "security",
+      "score": 12,
+      "keywords": []
     },
     {
       "id": "229765cb4c5d1f34",
