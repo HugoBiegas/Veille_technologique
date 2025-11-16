@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-11-16T03:51:04.340908+00:00",
-  "total_articles": 988,
+  "last_updated": "2025-11-16T06:34:50.834397+00:00",
+  "total_articles": 986,
   "articles": [
     {
       "id": "13f7eacb8f2aa8e3",
@@ -285,6 +285,21 @@
       ]
     },
     {
+      "id": "41f75cc205bced49",
+      "title": "The Ultimate React Interview Prep: 30+ Questions Covering Hooks, Context, VDOM, and Fiber",
+      "description": "**Landing a senior or even mid-level React role **requires more than knowing how to use useState. You need to understand why React works the way it does. I just published a massive guide that breaks down 30+ interview questions, categorized by difficulty, with concise solutions and code examples. Intermediate Concepts Q15. The Memoization Trap: Why does a child component wrapped in React.memo still re-render? How do you fix it? Solution: This is a classic performance trap! A component wrapped in",
+      "url": "https://dev.to/rahul_lokare_323a1be36f3a/the-ultimate-react-interview-prep-30-questions-covering-hooks-context-vdom-and-fiber-37jb",
+      "source": "Dev.to",
+      "author": "Rahul Lokare",
+      "published": "2025-11-16T05:54:37+00:00",
+      "niche": "dev",
+      "score": 73,
+      "keywords": [
+        "code",
+        "performance"
+      ]
+    },
+    {
       "id": "41e248feb2a6e568",
       "title": "My Learnings from Day 1a & 1b of the Google AI Agents Intensive",
       "description": "Introduction Hi everyone! I’m currently taking part in the Google × Kaggle AI Agents Intensive, and I’ve completed Day 1a (Agent Basics) and Day 1b (Agent Architectures). This post is a short reflection on what I learned, what I built, and how it went! Day 1a – Agent Basics Learned what an AI agent is and how it can automate reasoning and decision-making. Tried my first simple agent using prompts and instructions. Learned how to safely manage API keys and secrets in Kaggle. Saw how agents can fo",
@@ -408,20 +423,6 @@
       "score": 70,
       "keywords": [
         "developer",
-        "code"
-      ]
-    },
-    {
-      "id": "2fd65deee2ab9e32",
-      "title": "Building PolicyPal , An AI-Powered Health Insurance Plan Assistant on Google Cloud Run",
-      "description": "I built PolicyPal for the Google Cloud Run Hackathon, an AI-powered assistant that helps users understand their health insurance coverage using Google Cloud Run, Gemini (AI Studio), Cloud Functions, and Google Sheets. In this post, I’ll briefly explain how I built it, what I learned, and how Cloud Run helped me deploy a fully serverless, scalable solution. What’s Under the Hood AI Layer: Google Gemini (via AI Studio) I used Google AI Studio to vibe-code and design the conversational logic, defin",
-      "url": "https://dev.to/godwin_olokor_f6b23cf6ef9/building-policypal-an-ai-powered-health-insurance-plan-assistant-on-google-cloud-run-2lgg",
-      "source": "Dev.to",
-      "author": "Godwin Olokor",
-      "published": "2025-11-09T05:58:33+00:00",
-      "niche": "dev",
-      "score": 69,
-      "keywords": [
         "code"
       ]
     },
@@ -797,30 +798,6 @@
         "development",
         "API"
       ]
-    },
-    {
-      "id": "37c6af09237b07f2",
-      "title": "Runc breaks pods when CPU requests aren't multiples of 10",
-      "description": "Comments",
-      "url": "https://github.com/opencontainers/runc/issues/4982",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-09T04:47:27+00:00",
-      "niche": "dev",
-      "score": 62,
-      "keywords": []
-    },
-    {
-      "id": "fbb474082abe333b",
-      "title": "Forth – is it still relevant?",
-      "description": "Comments",
-      "url": "https://github.com/chochain/eforth",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-09T04:59:19+00:00",
-      "niche": "dev",
-      "score": 62,
-      "keywords": []
     },
     {
       "id": "5056a86ef2013d1a",
@@ -2327,20 +2304,6 @@
       ]
     },
     {
-      "id": "4dd3e18f3b49e60a",
-      "title": "✅ Scenario #4 — Debugging with Ephemeral Debug Containers in Kubernetes",
-      "description": "Ephemeral containers let you attach a temporary debug container to a running Pod without restarting it. 🟩 Step 1 — Create a Simple NGINX Pod (to Debug) Create file nginx-ephemeral.yaml: apiVersion: v1 kind: Pod metadata: name: nginx-ephemeral labels: app: nginx-ephemeral spec: containers: - name: nginx image: nginx:latest ports: - containerPort: 80 Apply it: kubectl apply -f nginx-ephemeral.yaml 🟩 Step 2 — Verify Pod Status kubectl get pods -o wide Expected: nginx-ephemeral 1/1 Running 0 10s Wai",
-      "url": "https://dev.to/latchudevops/scenario-4-debugging-with-ephemeral-debug-containers-in-kubernetes-l76",
-      "source": "Dev.to",
-      "author": "Latchu@DevOps",
-      "published": "2025-11-09T06:09:31+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "API"
-      ]
-    },
-    {
       "id": "9fb77a27fed6c8ad",
       "title": "🎯 Scenario #8 — Deploy a ReplicaSet and Verify Self-Healing of Pods in Kubernetes",
       "description": "ReplicaSets ensure that the desired number of Pods is always running. If a Pod is deleted manually → ReplicaSet AUTO-CREATES a new one. ✅ Step 1 — Create ReplicaSet YAML # rs-nginx.yaml apiVersion: apps/v1 kind: ReplicaSet metadata: name: nginx-rs spec: replicas: 3 selector: matchLabels: app: nginx-demo template: metadata: labels: app: nginx-demo spec: containers: - name: nginx image: nginx:1.25 ports: - containerPort: 80 Apply: kubectl apply -f rs-nginx.yaml ✅ Step 2 — Verify ReplicaSet + Pods ",
@@ -3311,6 +3274,20 @@
       ]
     },
     {
+      "id": "37bb48bae6069f3c",
+      "title": "CinemaSins: Everything Wrong With Jurassic World Rebirth In 17 Minutes Or Less",
+      "description": "CinemaSins’ latest video, “Everything Wrong With Jurassic World Rebirth In 17 Minutes Or Less,” rips into every cheesy dino revival and plot hiccup with their trademark rapid-fire sin counting. Think endless T-Rex comebacks, cringe-worthy dialogue and more Jurassic clichés than you can shake a fossil at. Of course, they’re not just sinning— they’re also hyping their network (TVSins, CommercialSins, Cinemasins Podcast), social hangouts (Discord, Reddit, Twitter, Instagram, TikTok), a fun sin-fill",
+      "url": "https://dev.to/popcorn_movies/cinemasins-everything-wrong-with-jurassic-world-rebirth-in-17-minutes-or-less-1ad9",
+      "source": "Dev.to",
+      "author": "Movie News",
+      "published": "2025-11-16T06:00:11+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "API"
+      ]
+    },
+    {
       "id": "0425755ea405df76",
       "title": "Stop Coding in Chaos: Why You Need a Pro Dev Environment Now (And How to Set It Up)",
       "description": "When you start a new project the temptation is to jump right into the \"fun\" part: writing code. Setting up linting, formatting and testing feels like \"admin work\" you can do later. This is a trap Fast forward two weeks, your code works but it's a mess. Formatting is inconsistent, you are terrified to refactor anything in case it breaks and adding a new feature feels like you are playing Jenga. You are living in chaos. The best time to set up your proffessional development environment is in the v",
@@ -3792,17 +3769,18 @@
       ]
     },
     {
-      "id": "6bbd9959bffe60c7",
-      "title": "My new project: Coz.jp",
-      "description": "Hello, Dev Community! I'm excited to finally pull back the curtain on my latest side project: Coz.jp, a new link shortening service. While \"yet another link shortener\" might sound simple, the goal here was to build something fast, reliable, and deeply integrated, all while using a modern and scalable tech stack. I want to share a little bit about what it does and the architecture I chose. Why I Built It As a developer, I've always needed a link shortener that gives me full control after the link",
-      "url": "https://dev.to/danielpetrica/my-new-project-cozjp-45o",
+      "id": "7a62c65e0f698d86",
+      "title": "How Software Development Drives Business Growth",
+      "description": "In a digital-first economy, the code that powers your business is as critical as any other asset. Custom software and robust web development are no longer just operational tools; they are powerful engines for growth, innovation, and competitive advantage. Investing in professional software development services allows companies to scale operations, enhance customer experiences, and unlock new revenue streams. This post will explore the significant ways software development services contribute to ",
+      "url": "https://dev.to/glensizemore/how-software-development-drives-business-growth-2j74",
       "source": "Dev.to",
-      "author": "Daniel, Petrica Andrei-Daniel",
-      "published": "2025-11-09T06:06:40+00:00",
+      "author": "Glen Sizemore",
+      "published": "2025-11-16T05:53:07+00:00",
       "niche": "dev",
-      "score": 51,
+      "score": 52,
       "keywords": [
-        "developer"
+        "code",
+        "development"
       ]
     },
     {
@@ -4898,90 +4876,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "6c481e646e76506d",
-      "title": "The Silent Killer of Your SaaS Growth",
-      "description": "The Silent Killer of Your SaaS Growth It was 3:17 PM on a Tuesday when the first cancellation email hit. Then another. And another. By Friday, you'd lost 12 customers worth €24,000 in annual recurring revenue. The trigger? A competitor launched their long-awaited AI forecasting module - and your sales team didn't even know it existed until customers started asking for it. Three weeks later, your churn rate jumped 18%. Your engineering team is now scrambling to build a comparable feature while yo",
-      "url": "https://dev.to/tracksimple/the-silent-killer-of-your-saas-growth-3pg8",
-      "source": "Dev.to",
-      "author": "TrackSimple",
-      "published": "2025-11-09T06:08:02+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "37b4053abc2be3c5",
-      "title": "Jeff Su: 4 ChatGPT Hacks that Cut My Workload in Half",
-      "description": "4 ChatGPT Hacks that Cut My Workload in Half This video walks you through four killer techniques—Prompt Reversal, the 5-Minute Amplifier, the Red Team Technique, and Blueprint Scaffolding—that will slash your AI workflow time in half. Each hack shows you how to reverse-engineer great prompts, spin one piece of content into multiple formats, have ChatGPT rigorously critique its own work, and force it to lay out its reasoning step by step before execution. These methods are packed with real-world ",
-      "url": "https://dev.to/future_ai/jeff-su-4-chatgpt-hacks-that-cut-my-workload-in-half-52i2",
-      "source": "Dev.to",
-      "author": "AI News",
-      "published": "2025-11-09T06:05:46+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "adda755ea466aefe",
-      "title": "CinemaSins: Everything Wrong With Sinners In 15 Minutes Or Less",
-      "description": "TL;DR CinemaSins just unleashed “Everything Wrong With Sinners In 15 Minutes Or Less,” a tongue-in-cheek Halloween-themed roast of one of the year’s best genre flicks. They promise all the signature “sins,” plus links to their site, socials, Patreon and a tiny poll to get your feedback. Alongside the video promo they drop links to Discord, Reddit, TikTok and more—you’ll even find a shout-out to their writer squad (Jeremy, Chris, Aaron, Jonathan, Deneé, Ian and Daniel). Whether you’re here for mo",
-      "url": "https://dev.to/popcorn_movies/cinemasins-everything-wrong-with-sinners-in-15-minutes-or-less-59eg",
-      "source": "Dev.to",
-      "author": "Movie News",
-      "published": "2025-11-09T06:00:40+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "7c66ff02eb036e98",
-      "title": "Language Models Model Language",
-      "description": "Why Chatbots Get Better When We Count Words, Not Just Rules Ever wondered why a chatbot sometimes sounds just like a friend? Scientists have discovered that the secret isn’t hidden grammar trees but simple word‑frequency patterns. Imagine learning a new language by listening to the most‑used phrases on the street instead of memorizing every rule in a textbook. That’s the fresh view brought by linguist Witold Mańczak, who says language is really the sum of everything we say and write, driven by h",
-      "url": "https://dev.to/paperium/language-models-model-language-23o",
-      "source": "Dev.to",
-      "author": "Paperium",
-      "published": "2025-11-09T06:00:34+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "2ae2b6a5bb1a1a98",
-      "title": "CinemaSins: Everything Wrong With Thunderbolts* (The New Avengers) In 20 Minutes Or Less",
-      "description": "TL;DR CinemaSins just dropped “Everything Wrong With Thunderbolts* (The New Avengers) In 20 Minutes Or Less,” where they gleefully rip into every plot hole, cringe-worthy moment and cheeky Easter egg in the latest Marvel mash-up. Amid the snark, they even wonder if the movie might secretly be pretty great—spoiler: they’ll let you decide. On the side, they’re shilling all their usual stuff: polls, Patreon, Twitch, Reddit, Discord and a whole squad of social-media handles, plus writer shout-outs t",
-      "url": "https://dev.to/popcorn_movies/cinemasins-everything-wrong-with-thunderbolts-the-new-avengers-in-20-minutes-or-less-3iek",
-      "source": "Dev.to",
-      "author": "Movie News",
-      "published": "2025-11-09T06:00:30+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "ab53e906538b714a",
-      "title": "Mr Sunday Movies: Predators - Caravan of Garbage",
-      "description": "Predators – Caravan of Garbage Predators (2010) takes the franchise back to its roots after the 1990 sequel and two Alien vs. Predator flops, dropping a rag-tag band of lunatics into a muddy jungle showdown. Mr Sunday Movies applauds its fresh twists and tight, back-to-basics action—so good that fans still lament the lack of a direct follow-up. This Caravan of Garbage review is brought to you by Mr Sunday Movies. For bonus content, podcasts, merch and more, check out bigsandwich.co and follow th",
-      "url": "https://dev.to/popcorn_movies/mr-sunday-movies-predators-caravan-of-garbage-b95",
-      "source": "Dev.to",
-      "author": "Movie News",
-      "published": "2025-11-09T06:00:22+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "7d9967183f6fc800",
-      "title": "How To Create an Object Lifecycle Policy for Amazon S3",
-      "description": "1. Create an S3 bucket Click Create bucket Set Bucket Name as Unique Name Click Create bucket Click Upload Click Add files Choose Your File and Click Upload Click Test.txt Check at Storage class Click Your bucket name Click Managment and Create lifecycle rule Write lifecycyle-rule at Lifecycle rule name Select Apply to all objects in the bucket Click I acknowledge that this rule will apply to all objects in the bucket. Select Lifecycle rule actionslike this and choose Choose storage class transi",
-      "url": "https://dev.to/thukhakyawe_cloud/how-to-create-an-object-lifecycle-policy-for-amazon-s3-4ac3",
-      "source": "Dev.to",
-      "author": "Thu Kha Kyawe",
-      "published": "2025-11-09T05:57:31+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
     },
     {
       "id": "af3a1ab83f4eba7f",
@@ -8032,6 +7926,90 @@
       "keywords": []
     },
     {
+      "id": "30b1dbcccf896259",
+      "title": "What's the use of Intermediate models in Django (Many to Many Relationship)",
+      "description": "The Many-to-Many relationship is a cornerstone of database design, but what happens when you need to store extra data about that relationship? Standard Many-to-Many falls short. In Django, the solution is the intermediary model or intermediary table. Example 1: Enriching a Customer-Product Relationship Let's start with a classic e-commerce scenario. A Customer can buy many Products, and a Product can be bought by many Customers. This is a Many-to-Many link. If we only link Customer and Product, ",
+      "url": "https://dev.to/guzmanojero/whats-the-use-of-intermediate-models-in-django-many-to-many-relationship-40li",
+      "source": "Dev.to",
+      "author": "guzmanojero",
+      "published": "2025-11-16T06:23:34+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "e230811c4bf20a65",
+      "title": "How to Compare Chatbot Platforms for Your Business",
+      "description": "So, you're looking to get a chatbot for your business, huh? It’s a smart move, but with so many options out there, figuring out which one is the best fit can feel like a maze. We're going to break down how to compare chatbot platforms, looking at what they can do, how much they cost, and how easy they are to actually use. Think of this as your guide to not getting lost in the chatbot jungle. Key Takeaways When comparing chatbot platforms, evaluate the AI sophistication — some bots are simple, wh",
+      "url": "https://dev.to/chatboqai/how-to-compare-chatbot-platforms-for-your-business-3n2n",
+      "source": "Dev.to",
+      "author": "ChatboqAI",
+      "published": "2025-11-16T06:03:32+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "5c1df3bdc2c75770",
+      "title": "Ringer Movies: ‘Snake Eyes’ With Bill Simmons, Sean Fennessey, and Van Lathan | Ringer Movies",
+      "description": "‘Snake Eyes’ Rewatch with Bill, Sean & Van The Ringer’s Bill Simmons, Sean Fennessey and Van Lathan dive back into Brian De Palma’s neon-drenched thriller Snake Eyes—yes, the one with Nic Cage, Gary Sinise and Carla Gugino—to break down the wild camerawork, conspiracy twist and ’90s vibes you forgot you loved. Produced by Craig Horlbeck, Chia Hao Tat and Eduardo Ocampo, this episode is fueled by PayPal’s holiday Pay in 4 deal (5% cash back through 12/31). Don’t miss the Ringer-Verse and Bill Sim",
+      "url": "https://dev.to/popcorn_movies/ringer-movies-snake-eyes-with-bill-simmons-sean-fennessey-and-van-lathan-ringer-movies-59gf",
+      "source": "Dev.to",
+      "author": "Movie News",
+      "published": "2025-11-16T06:00:35+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "2fe0594d08efaabc",
+      "title": "How Cryptocurrency Prices Work Across Different Blockchains",
+      "description": "Crypto often feels confusing when you see Bitcoin (BTC) listed at slightly different prices on Binance, Coinbase, OKX, KuCoin, and even other blockchains like Ethereum or BNB Chain. If Bitcoin lives on its own blockchain, how can it exist and trade on so many different platforms at once? This article breaks down exactly how crypto pricing works, why BTC always stays nearly the same price everywhere, and the big difference between: Real BTC on the Bitcoin blockchain, and Wrapped or pegged BTC on ",
+      "url": "https://dev.to/thevenice/how-cryptocurrency-prices-work-across-different-blockchains-13j4",
+      "source": "Dev.to",
+      "author": "Prakash Pawar",
+      "published": "2025-11-16T05:47:43+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "4d2ee3d846e4694f",
+      "title": "Connect django with tailwind css",
+      "description": "This guide will help you integrate TailwindCSS into your Django project using the popular package django-tailwind. Step 1: Install Required Packages First, install django-tailwind and its dependencies: pip install django-tailwind pip install django-browser-reload Step 2: Add to INSTALLED_APPS Open your settings.py and add: INSTALLED_APPS = [ ... 'tailwind', 'theme', 'django_browser_reload', ] Also add this middleware: MIDDLEWARE = [ ... \"django_browser_reload.middleware.BrowserReloadMiddleware\",",
+      "url": "https://dev.to/pritish_academy/connect-django-with-tailwind-css-a86",
+      "source": "Dev.to",
+      "author": "Shashwat Pritish",
+      "published": "2025-11-16T05:45:09+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "4a12c1fdb8ad6434",
+      "title": "A Importância dos Metas Keys no Desenvolvimento de Plugins no WordPress",
+      "description": "No WordPress, metas keys surgem como um mecanismo invisível que nos proporciona uma verdadeira flexibilidade de customização. Eles transformam dados estáticos em camadas dinâmicas, permitindo que plugins evoluam de meras extensões para ecossistemas completos e adaptáveis. Neste guia direto e prático, iremos falar um pouco sobre os fundamentos de post_meta, user_meta e similares, com exemplos que elevam o desenvolvimento de plugins a um patamar mais profissional. Caso tenha interesse, veja o últi",
+      "url": "https://dev.to/matheussesso/a-importancia-dos-metas-keys-no-desenvolvimento-de-plugins-no-wordpress-jl3",
+      "source": "Dev.to",
+      "author": "Matheus Mendonça Sesso",
+      "published": "2025-11-16T05:35:17+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "a468a17abe315959",
+      "title": "From Azure Fundamentals to Architect: How to Progress from AZ-900 to AZ-305 in One Year",
+      "description": "Becoming an Azure Solutions Architect is one of the most rewarding—and in-demand—career goals in 2025. But many cloud learners struggle with the question: How do I go from beginner-level AZ-900 to expert-level AZ-305 without feeling overwhelmed? The truth is, with the right roadmap, consistent practice, and smart use of learning resources (including ethical use of Azure Exam Dumps), you can progress from fundamentals to architecture expertise in just one year. Here's a realistic, month-by-month ",
+      "url": "https://dev.to/cyberry_technologies/from-azure-fundamentals-to-architect-how-to-progress-from-az-900-to-az-305-in-one-year-5fih",
+      "source": "Dev.to",
+      "author": "Cyberry Technologies",
+      "published": "2025-11-16T05:32:50+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "614c2897ff68900a",
       "title": "Check out this blog on all device compatible tableau dashboards",
       "description": "Designing All-Device Compatible Tableau Dashboards: A Complete Guide Dipti M ・ Nov 9 #webdev #programming #beginners #tutorial",
@@ -8310,20 +8288,6 @@
       "keywords": []
     },
     {
-      "id": "27dab34b75cfcbff",
-      "title": "Reverse engineering Codex CLI to get GPT-5-Codex-Mini to draw me a pelican",
-      "description": "Comments",
-      "url": "https://simonwillison.net/2025/Nov/9/gpt-5-codex-mini/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-09T04:02:47+00:00",
-      "niche": "dev",
-      "score": 45,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
       "id": "9a106591ea1eef26",
       "title": "Hiring a developer as a small indie studio in 2025",
       "description": "Comments",
@@ -8434,18 +8398,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "c8304aa619240b3b",
-      "title": "I Am Mark Zuckerberg",
-      "description": "Comments",
-      "url": "https://iammarkzuckerberg.com/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-09T06:13:05+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "2ce67bd72828d329",
@@ -10565,8 +10517,8 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "developer",
         "release",
+        "developer",
         "library"
       ]
     },
@@ -10581,9 +10533,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
+        "release",
         "developer",
-        "API",
-        "release"
+        "API"
       ]
     },
     {
@@ -10863,9 +10815,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "API",
         "React 19",
-        "release"
+        "release",
+        "API"
       ]
     },
     {
@@ -11109,11 +11061,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "release",
-        "framework",
+        "performance",
         "code",
-        "API",
-        "performance"
+        "framework",
+        "release",
+        "API"
       ]
     },
     {
@@ -11252,6 +11204,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-11-13T06:22:01+00:00",
+      "niche": "dev",
+      "score": 26,
+      "keywords": []
+    },
+    {
+      "id": "631a7beb1dce9903",
+      "title": "Boa: A standard-conforming embeddable JavaScript engine written in Rust",
+      "description": "Comments",
+      "url": "https://github.com/boa-dev/boa",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-06T06:15:43+00:00",
       "niche": "dev",
       "score": 26,
       "keywords": []
@@ -11411,8 +11375,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "API",
-        "release"
+        "release",
+        "API"
       ]
     },
     {
@@ -11441,9 +11405,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
+        "code",
         "developer",
-        "performance",
-        "code"
+        "performance"
       ]
     },
     {
@@ -11457,9 +11421,9 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
+        "release",
         "developer",
-        "API",
-        "release"
+        "API"
       ]
     },
     {
@@ -11473,8 +11437,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -11488,9 +11452,9 @@
       "niche": "dev",
       "score": 18,
       "keywords": [
-        "development",
+        "code",
         "developer",
-        "code"
+        "development"
       ]
     },
     {
@@ -11960,8 +11924,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "development",
-        "programming"
+        "programming",
+        "development"
       ]
     },
     {
@@ -12602,6 +12566,18 @@
       "published": "2025-09-26T00:00:00+00:00",
       "niche": "dev",
       "score": 9,
+      "keywords": []
+    },
+    {
+      "id": "f4d856cf5ee1bc7d",
+      "title": "Aunt Mary's Storybook",
+      "description": "Comments",
+      "url": "https://cjtinc.org/projects/amsb/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-03T12:46:23+00:00",
+      "niche": "dev",
+      "score": 8,
       "keywords": []
     },
     {
