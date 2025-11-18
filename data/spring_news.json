@@ -1,19 +1,7 @@
 {
-  "last_updated": "2025-11-18T06:39:24.105148+00:00",
-  "total_articles": 192,
+  "last_updated": "2025-11-18T09:31:07.885003+00:00",
+  "total_articles": 194,
   "articles": [
-    {
-      "id": "a1a5105910961394",
-      "title": "The best way to clean up test data with Spring and Hibernate",
-      "description": "Introduction In this article, I&#8217;m going to show you the best way to clean up test data when using Spring and Hibernate. While it&#8217;s very common to use the @DataJpaTest annotation when implementing integration tests, in this blog post, you will see why you are better off avoiding using this annotation. Why I don&#8217;t use @DataJpaTest As explained by the manual, Spring Boot provides the @DataJpaTest annotation for Spring Data JPA integration testing. Once the @DataJpaTest annotation ",
-      "url": "https://vladmihalcea.com/clean-up-test-data-spring/",
-      "source": "Vlad Mihalcea",
-      "author": "vladmihalcea",
-      "published": "2025-11-11T08:05:24+00:00",
-      "niche": "spring",
-      "score": 68,
-      "keywords": []
-    },
     {
       "id": "2682e570e04bd1c3",
       "title": "Sending XML POST Requests with Spring RestTemplate",
@@ -106,6 +94,18 @@
       "source": "Spring Blog (Official)",
       "author": "rwinch",
       "published": "2025-11-17T00:00:00+00:00",
+      "niche": "spring",
+      "score": 62,
+      "keywords": []
+    },
+    {
+      "id": "368c1501a227dd72",
+      "title": "Spring Vault 4.0 goes GA",
+      "description": "On behalf of the team, it is my very great pleasure to announce that Spring Vault 4.0 is now generally available from Maven Central. This release ships with several refinements and new features. Highlights of the new release include: Upgrade to Spring Framework 7.0 as baseline upgrade Support for Spring Framework's RestClient Upgrade to Jackson 3 (preserving Jackson 2 compatibility) Support for Reactor, Jetty, and JDK ClientHttpRequestFactory implementations Head over to the release notes page i",
+      "url": "https://spring.io/blog/2025/11/18/spring-vault-4-0-goes-ga",
+      "source": "Spring Blog (Official)",
+      "author": "mp911de",
+      "published": "2025-11-18T00:00:00+00:00",
       "niche": "spring",
       "score": 62,
       "keywords": []
@@ -255,15 +255,63 @@
       "keywords": []
     },
     {
-      "id": "5e02bd4bfb482b62",
-      "title": "Structured Concurrency Patterns in Java",
-      "description": "Concurrent programming has long been Java&#8216;s Achilles&#8217; heel. While ExecutorService and Future have served us well, they allow unrestricted patterns where subtasks can outlive their parents, threads leak, and cancellation becomes a nightmare. Structured concurrency changes this by treating groups of related tasks running in different threads as a single unit of work, streamlining error &#8230;",
-      "url": "https://www.javacodegeeks.com/2025/11/structured-concurrency-patterns-in-java.html",
-      "source": "Java Code Geeks",
-      "author": "Eleftheria Drosopoulou",
-      "published": "2025-11-11T07:36:00+00:00",
+      "id": "57728311407f63a9",
+      "title": "Spring for Apache Pulsar 1.2.12 and 2.0.0 are now available",
+      "description": "On behalf of the team and everyone who has contributed, I’m happy to announce that Spring for Apache Pulsar 1.2.12 and 2.0.0 have been released and are now available from Maven Central. The 1.2.12 release will be included in the upcoming Spring Boot 3.4.12 and 3.5.8 releases. The 2.0.0 release will be included in the upcoming Spring Boot 4.0.0 release. Please see the release notes (1.2.12 and 2.0.0) for more details.",
+      "url": "https://spring.io/blog/2025/11/17/spring-for-apache-pulsar-1-2-12-and-2-0-0-are-now-available",
+      "source": "Spring Blog (Official)",
+      "author": "onobc",
+      "published": "2025-11-17T00:00:00+00:00",
       "niche": "spring",
-      "score": 42,
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "2910866997010ebb",
+      "title": "Resolving JUnit Error: Test Class Should Have Exactly One Public Zero-Argument Constructor",
+      "description": "Understand the JUnit error: Test class should have exactly one public zero-argument constructor. The post Resolving JUnit Error: Test Class Should Have Exactly One Public Zero-Argument Constructor first appeared on Baeldung.&#160;&#160;&#160;&#160;&#160;&#160;&#160;",
+      "url": "https://feeds.feedblitz.com/~/928056185/0/baeldung~Resolving-JUnit-Error-Test-Class-Should-Have-Exactly-One-Public-ZeroArgument-Constructor",
+      "source": "Baeldung",
+      "author": "Samuel Njoki",
+      "published": "2025-11-18T07:39:58+00:00",
+      "niche": "spring",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "5860fcb773f98d46",
+      "title": "Select a Random Key from a HashMap in Java",
+      "description": "Learn several methods for accessing random elements from a HashMap in Java and their advantages and disadvantages. The post Select a Random Key from a HashMap in Java first appeared on Baeldung.&#160;&#160;&#160;&#160;&#160;&#160;&#160;",
+      "url": "https://feeds.feedblitz.com/~/928056188/0/baeldung~Select-a-Random-Key-from-a-HashMap-in-Java",
+      "source": "Baeldung",
+      "author": "Eugene Kovko",
+      "published": "2025-11-18T07:34:48+00:00",
+      "niche": "spring",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "74a183ce3dddd34d",
+      "title": "Running Tomcat Server on Two Different Ports",
+      "description": "Explore different approaches to running a Tomcat server on other ports. The post Running Tomcat Server on Two Different Ports first appeared on Baeldung.&#160;&#160;&#160;&#160;&#160;&#160;&#160;",
+      "url": "https://feeds.feedblitz.com/~/928056575/0/baeldung~Running-Tomcat-Server-on-Two-Different-Ports",
+      "source": "Baeldung",
+      "author": "Rajat Garg",
+      "published": "2025-11-18T07:43:31+00:00",
+      "niche": "spring",
+      "score": 46,
+      "keywords": []
+    },
+    {
+      "id": "3a2cd7eb753b87de",
+      "title": "How to Set a Specific Bit of a Number in Java",
+      "description": "Learn how to set a single bit or multiple bits of an interger in Java. The post How to Set a Specific Bit of a Number in Java first appeared on Baeldung.&#160;&#160;&#160;&#160;&#160;&#160;&#160;",
+      "url": "https://feeds.feedblitz.com/~/928056191/0/baeldung~How-to-Set-a-Specific-Bit-of-a-Number-in-Java",
+      "source": "Baeldung",
+      "author": "Burak Gökmen",
+      "published": "2025-11-18T07:30:31+00:00",
+      "niche": "spring",
+      "score": 46,
       "keywords": []
     },
     {
@@ -651,6 +699,18 @@
       "keywords": []
     },
     {
+      "id": "6f80e7c1791f1abd",
+      "title": "Java Platform Module System: Migration Strategies for Legacy Applications",
+      "description": "The Java Platform Module System (JPMS), introduced in Java 9, represents one of the most significant changes to the platform. For organizations running legacy monoliths, JPMS offers a path toward better maintainability, security, and scalability through explicit modular boundaries and strong encapsulation. However, migration requires careful planning and strategy. This article provides practical guidance for &#8230;",
+      "url": "https://www.javacodegeeks.com/2025/11/java-platform-module-system-migration-strategies-for-legacy-applications.html",
+      "source": "Java Code Geeks",
+      "author": "Eleftheria Drosopoulou",
+      "published": "2025-11-18T06:45:00+00:00",
+      "niche": "spring",
+      "score": 42,
+      "keywords": []
+    },
+    {
       "id": "20d8b895e434ff83",
       "title": "Running Java on iOS",
       "description": "OpenJDK is now able to build and run on iOS (and Android) as a native binary, opening the way to run unmodified Java code on mobile. By Ben Evans",
@@ -790,6 +850,18 @@
       "source": "Baeldung",
       "author": "Hardik Singh Behl",
       "published": "2025-11-10T07:28:58+00:00",
+      "niche": "spring",
+      "score": 32,
+      "keywords": []
+    },
+    {
+      "id": "a1a5105910961394",
+      "title": "The best way to clean up test data with Spring and Hibernate",
+      "description": "Introduction In this article, I&#8217;m going to show you the best way to clean up test data when using Spring and Hibernate. While it&#8217;s very common to use the @DataJpaTest annotation when implementing integration tests, in this blog post, you will see why you are better off avoiding using this annotation. Why I don&#8217;t use @DataJpaTest As explained by the manual, Spring Boot provides the @DataJpaTest annotation for Spring Data JPA integration testing. Once the @DataJpaTest annotation ",
+      "url": "https://vladmihalcea.com/clean-up-test-data-spring/",
+      "source": "Vlad Mihalcea",
+      "author": "vladmihalcea",
+      "published": "2025-11-11T08:05:24+00:00",
       "niche": "spring",
       "score": 32,
       "keywords": []
@@ -1080,30 +1152,6 @@
       "published": "2025-11-13T20:00:00+00:00",
       "niche": "spring",
       "score": 17,
-      "keywords": []
-    },
-    {
-      "id": "85d3ed044750cd85",
-      "title": "Reuse Embedded Kafka Broker in Multiple Test Classes",
-      "description": "Learn how to reuse an embedded Kafka broker in multiple test classes to speed up integration tests. The post Reuse Embedded Kafka Broker in Multiple Test Classes first appeared on Baeldung.&#160;&#160;&#160;&#160;&#160;&#160;&#160;",
-      "url": "https://feeds.feedblitz.com/~/927441974/0/baeldung~Reuse-Embedded-Kafka-Broker-in-Multiple-Test-Classes",
-      "source": "Baeldung",
-      "author": "Balamurugan Radhakrishnan",
-      "published": "2025-11-10T07:24:32+00:00",
-      "niche": "spring",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "5f437db6e42e39af",
-      "title": "Tool to Analyze Offline Java Heap Dumps",
-      "description": "Explore two different memory analyzers to demonstrate how we analyze the Java heap memory via an offline heap dump file. The post Tool to Analyze Offline Java Heap Dumps first appeared on Baeldung.&#160;&#160;&#160;&#160;&#160;&#160;&#160;",
-      "url": "https://feeds.feedblitz.com/~/927360569/0/baeldung~Tool-to-Analyze-Offline-Java-Heap-Dumps",
-      "source": "Baeldung",
-      "author": "Manfred Ng",
-      "published": "2025-11-08T02:32:06+00:00",
-      "niche": "spring",
-      "score": 14,
       "keywords": []
     },
     {
@@ -1872,30 +1920,6 @@
       "published": "2025-11-06T00:00:00+00:00",
       "niche": "spring",
       "score": 12,
-      "keywords": []
-    },
-    {
-      "id": "e51b83094e41ca53",
-      "title": "Computing the Padovan Sequnce in Java",
-      "description": "Learn how to calculate the Padovan sequence in many different ways. The post Computing the Padovan Sequnce in Java first appeared on Baeldung.&#160;&#160;&#160;&#160;&#160;&#160;&#160;",
-      "url": "https://feeds.feedblitz.com/~/927360941/0/baeldung~Computing-the-Padovan-Sequnce-in-Java",
-      "source": "Baeldung",
-      "author": "Eugene Kovko",
-      "published": "2025-11-08T02:40:06+00:00",
-      "niche": "spring",
-      "score": 10,
-      "keywords": []
-    },
-    {
-      "id": "76dca02c5a173455",
-      "title": "SFTP With JSch",
-      "description": "Learn how to interact with an SFTP server in Java using JSch. The post SFTP With JSch first appeared on Baeldung.&#160;&#160;&#160;&#160;&#160;&#160;&#160;",
-      "url": "https://feeds.feedblitz.com/~/927360947/0/baeldung~SFTP-With-JSch",
-      "source": "Baeldung",
-      "author": "Graham Cox",
-      "published": "2025-11-08T02:35:56+00:00",
-      "niche": "spring",
-      "score": 10,
       "keywords": []
     },
     {
