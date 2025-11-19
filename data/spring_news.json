@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-11-19T15:30:02.976492+00:00",
-  "total_articles": 198,
+  "last_updated": "2025-11-19T18:39:36.629170+00:00",
+  "total_articles": 201,
   "articles": [
     {
       "id": "2682e570e04bd1c3",
@@ -165,6 +165,42 @@
       "url": "https://spring.io/blog/2025/11/19/spring-restdocs-4",
       "source": "Spring Blog (Official)",
       "author": "wilkinsona",
+      "published": "2025-11-19T00:00:00+00:00",
+      "niche": "spring",
+      "score": 62,
+      "keywords": []
+    },
+    {
+      "id": "ba83557fb8270967",
+      "title": "Spring Batch 6.0.0 GA is out!",
+      "description": "Dear Spring Batch community, On behalf of the team and everyone who has contributed, I am pleased to announce the release of Spring Batch 6.0.0 GA! Spring Batch 6.0 is a major release that builds upon the foundations in Spring Framework 7.0, and will be available through Spring Boot 4.0 to provide a robust and efficient batch processing framework. This general availability release includes all the features and improvements introduced in the previous release candidates, along with additional enha",
+      "url": "https://spring.io/blog/2025/11/19/spring-batch-6-0-0-ga",
+      "source": "Spring Blog (Official)",
+      "author": "fmbenhassine",
+      "published": "2025-11-19T00:00:00+00:00",
+      "niche": "spring",
+      "score": 62,
+      "keywords": []
+    },
+    {
+      "id": "19ff63a54b17f2e8",
+      "title": "Spring AMQP 4.0.0 Available",
+      "description": "On behalf of the team and everyone who contributed, I am pleased to announce the General Availability for 4.0.0 of Spring AMQP. Some notable feature and changes in this new generation: The spring-rabbitmq-client module for AMQP 1.0 protocol with RabbitMQ; Jackson 3 Support; Nullability via JSpecify; Migration to Spring Core Retry. See the Release Notes and What's New for more information. Cheers, Artem Project Page | GitHub Issues | Contributing | Help",
+      "url": "https://spring.io/blog/2025/11/19/spring-amqp-4-0-0-available",
+      "source": "Spring Blog (Official)",
+      "author": "artembilan",
+      "published": "2025-11-19T00:00:00+00:00",
+      "niche": "spring",
+      "score": 62,
+      "keywords": []
+    },
+    {
+      "id": "7e1f6d331b751ea3",
+      "title": "Spring Integration 7.0.0 Available",
+      "description": "On behalf of the team and everyone who contributed, I am pleased to announce the General Availability of the Spring Integration 7.0.0 generation. In addition, the 6.5.4 and 6.4.9 versions with bug fixes and dependency upgrades have been released. Some notable changes in 7.0.0: Nullability via JSpecify; Jackson 3 Support; Migration to Spring Core Retry; Channel Adapters for AMQP 1.0 based on Spring AMQP 4.0; The directory to scan in the FileReadingMessageSource can now be configured as an express",
+      "url": "https://spring.io/blog/2025/11/19/spring-integration-7-0-0-released",
+      "source": "Spring Blog (Official)",
+      "author": "artembilan",
       "published": "2025-11-19T00:00:00+00:00",
       "niche": "spring",
       "score": 62,
@@ -363,30 +399,6 @@
       "keywords": []
     },
     {
-      "id": "1027e3c47b1681fb",
-      "title": "JDK HttpClient with Virtual Threads and WebClient: The Future of Asynchronous HTTP in Java",
-      "description": "Introduction: Java&#8217;s HTTP Revolution The landscape of HTTP communication in Java has undergone a dramatic transformation. Gone are the days when developers relied solely on Apache HttpClient or OkHttp for modern HTTP needs. With Java 11&#8217;s introduction of the standardized HttpClient API and Java 21&#8216;s groundbreaking virtual threads (Project Loom), Java now offers a first-class, &#8230;",
-      "url": "https://www.javacodegeeks.com/2025/11/jdk-httpclient-with-virtual-threads-and-webclient-the-future-of-asynchronous-http-in-java.html",
-      "source": "Java Code Geeks",
-      "author": "Eleftheria Drosopoulou",
-      "published": "2025-11-12T18:00:00+00:00",
-      "niche": "spring",
-      "score": 42,
-      "keywords": []
-    },
-    {
-      "id": "ff12343334c165d9",
-      "title": "Pattern-Based File Content Modification in Java",
-      "description": "In many real-world scenarios, developers need to modify file content based on specific patterns. For instance, you might want to replace placeholders in a configuration file, update log messages, or clean up unwanted data. Java provides powerful tools for reading, analyzing, and rewriting file contents using regular expressions and efficient I/O APIs. 1. Introduction Suppose &#8230;",
-      "url": "https://www.javacodegeeks.com/pattern-based-file-content-modification-in-java.html",
-      "source": "Java Code Geeks",
-      "author": "Yatin Batra",
-      "published": "2025-11-12T16:13:00+00:00",
-      "niche": "spring",
-      "score": 42,
-      "keywords": []
-    },
-    {
       "id": "7246f3499dff2be3",
       "title": "Facilitate AI-Human Architectural Thinking",
       "description": "Architectural thinking or modeling will only be effective when it involves a landscape, decisional, and structural view. People talk a lot about systems thinking, but to ensure a viable architectural model, systems thinking must approach it from the three pillars of thinking. AI-powered architectural thinking or modeling also requires these three pillars of thinking. Let’s briefly look at each of these from a perspective of enterprise solution architecture (ESA), which falls somewhere between en",
@@ -394,18 +406,6 @@
       "source": "DZone Microservices",
       "author": "Sean Gu",
       "published": "2025-11-12T20:00:00+00:00",
-      "niche": "spring",
-      "score": 42,
-      "keywords": []
-    },
-    {
-      "id": "9ba31dbc5002d04f",
-      "title": "Compose Architecture, Done Right: MVI’s Unidirectional State vs. MVVM",
-      "description": "Why MVVM Feels Clunky With Compose MVVM grew up with XML and two-way data binding. Compose flipped the model: the UI is a function of state. That mismatch shows up in common pain points: Scattered state. Multiple LiveData/Flows (loading, items, error, searchQuery, pagination…) mutate independently. Compose recomposes at odd times, and you start sprinkling remember { mutableStateOf(...) } to “patch” glitches. The “SingleLiveEvent” saga. One-off actions (toasts, navigation, snackbars) don’t belong",
-      "url": "https://feeds.dzone.com/link/18931/17208084/compose-architecture-mvi-vs-mvvm",
-      "source": "DZone Microservices",
-      "author": "Mohan Sankaran",
-      "published": "2025-11-12T18:00:00+00:00",
       "niche": "spring",
       "score": 42,
       "keywords": []
@@ -754,6 +754,42 @@
       "source": "Java Code Geeks",
       "author": "Java Code Geeks",
       "published": "2025-11-19T11:30:30+00:00",
+      "niche": "spring",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "0526d648eff19cdf",
+      "title": "How to Rasterize PDFs in Java: A Comprehensive Guide",
+      "description": "PDF rasterization is a critical process in modern document management, transforming vector-based PDF content into pixel-based images embedded within PDF files. This technique has become increasingly important for organizations handling sensitive documents, preparing files for printing, and ensuring consistent rendering across different platforms. At a high level, rasterization refers to the process of converting any &#8230;",
+      "url": "https://www.javacodegeeks.com/2025/11/how-to-rasterize-pdfs-in-java-a-comprehensive-guide.html",
+      "source": "Java Code Geeks",
+      "author": "Eleftheria Drosopoulou",
+      "published": "2025-11-19T17:10:00+00:00",
+      "niche": "spring",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "90a6180ce1d150d2",
+      "title": "Beyond APIs: The Rise of the Model Context Protocol (MCP)",
+      "description": "In recent years, application development has experienced a quiet but fundamental shift. Traditional APIs, once the backbone of interoperability between systems, are now sharing the stage with the Model Context Protocol (MCP). While both aim to connect applications, services, and data, they operate on very different principles. Understanding these differences is crucial as organisations increasingly &#8230;",
+      "url": "https://www.javacodegeeks.com/beyond-apis-the-rise-of-the-model-context-protocol-mcp.html",
+      "source": "Java Code Geeks",
+      "author": "Omozegie Aziegbe",
+      "published": "2025-11-19T16:13:00+00:00",
+      "niche": "spring",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "592cbdefe1885fe8",
+      "title": "Why Your Architecture Team Is Slow (And It's Not the Technology)",
+      "description": "Last Tuesday, I watched a senior architect spend forty-five minutes presenting a technically flawless case for migrating from REST to GraphQL. Beautiful diagrams. Solid reasoning. Compelling data. The team nodded along. And then nothing happened because this was the seventh architectural discussion that the team had scheduled in three weeks. Not seven decisions. Seven discussions.",
+      "url": "https://feeds.dzone.com/link/18931/17213052/why-your-architecture-team-is-slow",
+      "source": "DZone Microservices",
+      "author": "Dinesh Elumalai",
+      "published": "2025-11-19T16:00:00+00:00",
       "niche": "spring",
       "score": 42,
       "keywords": []
@@ -1719,6 +1755,18 @@
       "keywords": []
     },
     {
+      "id": "9ba31dbc5002d04f",
+      "title": "Compose Architecture, Done Right: MVI’s Unidirectional State vs. MVVM",
+      "description": "Why MVVM Feels Clunky With Compose MVVM grew up with XML and two-way data binding. Compose flipped the model: the UI is a function of state. That mismatch shows up in common pain points: Scattered state. Multiple LiveData/Flows (loading, items, error, searchQuery, pagination…) mutate independently. Compose recomposes at odd times, and you start sprinkling remember { mutableStateOf(...) } to “patch” glitches. The “SingleLiveEvent” saga. One-off actions (toasts, navigation, snackbars) don’t belong",
+      "url": "https://feeds.dzone.com/link/18931/17208084/compose-architecture-mvi-vs-mvvm",
+      "source": "DZone Microservices",
+      "author": "Mohan Sankaran",
+      "published": "2025-11-12T18:00:00+00:00",
+      "niche": "spring",
+      "score": 12,
+      "keywords": []
+    },
+    {
       "id": "6e0bf6724ce3ad5c",
       "title": "A Developer's Guide to Mastering Docker Networking Concepts",
       "description": "As developers, our first success with Docker is typically running a single container and accessing it through localhost. While this is a solid beginning, the true strength of containers emerges when you start running multi-container applications. This is also where most developers face challenges. You have a web application in one container and a database in another. How do they communicate?",
@@ -1726,18 +1774,6 @@
       "source": "DZone Microservices",
       "author": "Akaash Vishal Hazarika",
       "published": "2025-11-12T15:00:01+00:00",
-      "niche": "spring",
-      "score": 12,
-      "keywords": []
-    },
-    {
-      "id": "7d68aba0dfc799a7",
-      "title": "Kubernetes Guardrail Extension: Bringing Compliance-as-Code to Your Browser",
-      "description": "Why Developers Needed This Every DevOps engineer knows how fragile Kubernetes manifests can be. A single missing resourceLimit, an unpinned container image, or an accidental privileged: true can create serious performance, security, or compliance issues. The problem isn’t awareness — it’s timing. Most existing tools surface feedback only after commit, once CI/CD scans or admission controllers run. By that point, the feedback loop has stretched into hours.",
-      "url": "https://feeds.dzone.com/link/18931/17207187/kubernetes-guardrail-extension-brings-compliance-as-code-to-browser",
-      "source": "DZone Microservices",
-      "author": "Sajal Nigam",
-      "published": "2025-11-11T12:00:00+00:00",
       "niche": "spring",
       "score": 12,
       "keywords": []
