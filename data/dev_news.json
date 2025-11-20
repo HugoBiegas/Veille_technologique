@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-11-20T01:53:33.562675+00:00",
-  "total_articles": 981,
+  "last_updated": "2025-11-20T03:45:51.832876+00:00",
+  "total_articles": 979,
   "articles": [
     {
       "id": "9ca523bc483f8697",
@@ -626,20 +626,6 @@
       "score": 70,
       "keywords": [
         "development",
-        "code"
-      ]
-    },
-    {
-      "id": "9f2db91929042e3c",
-      "title": "GitHub Copilot Model Context Sizes (Nov 2025)",
-      "description": "Main Models GPT-4.1 — 128,000 tokens GPT-5 mini — 128,000 tokens GPT-5 — 128,000 tokens GPT-4o — 128,000 tokens o3-mini — 200,000 tokens Claude Sonnet 3.5 — 90,000 tokens Claude Sonnet 3.7 — 200,000 tokens Claude Sonnet 4 — 128,000 tokens Claude Sonnet 4.5 — 200,000 tokens (standard) / 1,000,000 tokens (beta) Gemini 2.0 Flash — 1,000,000 tokens Gemini 2.5 Pro — 128,000 tokens o4-mini — 128,000 (picker) / 200,000 (full version) Grok Code Fast 1 — 128,000 tokens Smaller Models GPT-3.5 Turbo — 16,3",
-      "url": "https://dev.to/dr_furqanullah_8819ecd9/github-copilot-model-context-sizes-nov-2025-3nif",
-      "source": "Dev.to",
-      "author": "Dr. Furqan Ullah",
-      "published": "2025-11-13T03:14:55+00:00",
-      "niche": "dev",
-      "score": 69,
-      "keywords": [
         "code"
       ]
     },
@@ -1743,6 +1729,21 @@
       ]
     },
     {
+      "id": "0286ff834d4301cf",
+      "title": "Implementing BitDT: A Step-by-Step Guide to Date-Time Lossless Compression",
+      "description": "From Zero to Production in Your Chosen Language BitDT's multi-language support makes it accessible across your entire tech stack. This comprehensive guide walks through implementation strategies for Java, TypeScript, and Python environments. Assessment: When to Use BitDT Ideal Use Cases: · High-volume timestamp storage (databases, logs) · Network payload optimization (APIs, microservices) · Memory-constrained environments (mobile, IoT) · Time-series data applications · Bulk date-time operations ",
+      "url": "https://dev.to/danexcodr/implementing-bitdt-a-step-by-step-guide-to-date-time-compression-30h7",
+      "source": "Dev.to",
+      "author": "Danison Nuñez",
+      "published": "2025-11-20T02:59:29+00:00",
+      "niche": "dev",
+      "score": 57,
+      "keywords": [
+        "API",
+        "microservices"
+      ]
+    },
+    {
       "id": "17b0fce800199709",
       "title": "College Projects to Production Code: Mindset Shifts Every Beginner Developer Must Make",
       "description": "When I wrote my very first “real” application outside of college, I thought I was ready. After all, I had built a chat app, an e-commerce prototype, a few AI models, and even a “weather app that totally worked if the API didn’t fail.” I walked into my first professional project with the calm arrogance of someone who knew how to center a div. Reality greeted me like a silent CSS bug at 3 AM. College projects are great for learning how to code; they’re terrible for learning what production code re",
@@ -2449,45 +2450,18 @@
       ]
     },
     {
-      "id": "021e8e5443965679",
-      "title": "🧩Scenario #15 — Horizontal Pod Autoscaler (HPA) in Kubernetes",
-      "description": "🎯 Goal Automatically scale an NGINX deployment based on CPU usage using Kubernetes Horizontal Pod Autoscaler. 🧰 Step 1 — Create a Deployment Let’s create a simple NGINX deployment that runs a lightweight web app to simulate load. cat <<EOF > nginx-hpa.yaml apiVersion: apps/v1 kind: Deployment metadata: name: nginx-hpa-demo spec: replicas: 1 selector: matchLabels: app: nginx-hpa-demo template: metadata: labels: app: nginx-hpa-demo spec: containers: - name: nginx image: nginx ports: - containerPor",
-      "url": "https://dev.to/latchudevops/scenario-15-horizontal-pod-autoscaler-hpa-in-kubernetes-5eo1",
+      "id": "5a8f8b3cb0ef89c7",
+      "title": "Generate MCP Tool Schemas Directly From Java Code",
+      "description": "If you are building an MCP server, every tool you expose needs an inputSchema. MCP servers written with Spring AI support often start with a simple data class for tool inputs. Then come changes: a new field, a renamed property, or updated constraints. The JSON schema in the tool registration rarely keeps up - that means clients may send invalid payloads. By generating the schema from the source of truth — the Java type — you remove that drift. Writing that JSON by hand is repetitive, easy to get",
+      "url": "https://dev.to/sualeh/generate-mcp-tool-schemas-directly-from-java-code-3bif",
       "source": "Dev.to",
-      "author": "Latchu@DevOps",
-      "published": "2025-11-13T03:42:50+00:00",
+      "author": "Sualeh Fatehi",
+      "published": "2025-11-20T02:59:44+00:00",
       "niche": "dev",
-      "score": 54,
+      "score": 55,
       "keywords": [
-        "API"
-      ]
-    },
-    {
-      "id": "4b93049d49e75320",
-      "title": "NocoBase Weekly Updates: Optimization and Bug Fixes",
-      "description": "Originally published at https://www.nocobase.com/en/blog/weekly-updates-20251113 Summarize the weekly product update logs, and the latest releases can be checked on our blog. NocoBase is currently updated with three branches: main , next and develop. main：The most stable version to date, recommended for installation; next：Beta version, contains upcoming new features and has been preliminarily tested. There might be some known or unknown issues. It's mainly for test users to collect feedback and ",
-      "url": "https://dev.to/nocobase/nocobase-weekly-updates-optimization-and-bug-fixes-4fin",
-      "source": "Dev.to",
-      "author": "NocoBase",
-      "published": "2025-11-13T03:30:55+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "release"
-      ]
-    },
-    {
-      "id": "11377fd4e39362e0",
-      "title": "Build Live Caption Broadcasting for Events with Next.js and Elevenlabs API",
-      "description": "captions.events: Open-source real-time captioning platform for live events Built with Next.js, ElevenLabs Scribe v2, and Supabase Realtime. Features: 🎤 100-200ms transcription latency with automatic language detection 🌍 On-device translation into 14+ languages using Chrome's built-in AI 📡 Broadcast to unlimited viewers through Supabase Realtime 🔒 Single-use token system keeps API credentials secure 📜 Full caption history with language metadata 👤 GitHub OAuth for authentication and event manageme",
-      "url": "https://dev.to/jqueryscript/build-live-caption-broadcasting-for-events-with-nextjs-and-elevenlabs-api-1mbb",
-      "source": "Dev.to",
-      "author": "jQueryScript",
-      "published": "2025-11-13T03:04:22+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "API"
+        "code",
+        "Spring"
       ]
     },
     {
@@ -3536,18 +3510,19 @@
       ]
     },
     {
-      "id": "1e10f55ba221bde1",
-      "title": "How to Monetize Your Coding Skills by Building Niche Web Apps",
-      "description": "In today’s ever-evolving tech landscape, developers have more opportunities than ever to turn their coding skills into a sustainable income stream. But how can you stand out in a sea of generic apps? The answer lies in building niche web applications—apps that target specific, underserved markets with tailored solutions. Not only are niche web apps highly valuable, but they also open up multiple avenues for monetization, making them a great way to turn your development skills into a profitable b",
-      "url": "https://dev.to/softwaredeveloperhub01/how-to-monetize-your-coding-skills-by-building-niche-web-apps-25pb",
+      "id": "bd907259292e9032",
+      "title": "The Difference Between Unrestricted and Restricted Integer Partitions",
+      "description": "Hello, I'm Ganesh. I'm working on FreeDevTools online, currently building a single platform for all development tools, cheat codes, and TL; DRs — a free, open-source hub where developers can quickly find and use tools without the hassle of searching the internet. In my previous post, I explored the \"Coin Change\" problem—specifically, calculating the number of ways to form a target sum. After publishing, I received a thoughtful comment from a reader that highlighted a few nuances in my implementa",
+      "url": "https://dev.to/ganesh-kumar/the-difference-between-unrestricted-and-restricted-integer-partitions-548o",
       "source": "Dev.to",
-      "author": "Software Developer",
-      "published": "2025-11-13T03:00:00+00:00",
+      "author": "Ganesh Kumar",
+      "published": "2025-11-20T03:12:57+00:00",
       "niche": "dev",
-      "score": 52,
+      "score": 54,
       "keywords": [
-        "development",
-        "developer"
+        "code",
+        "developer",
+        "development"
       ]
     },
     {
@@ -5322,40 +5297,46 @@
       ]
     },
     {
-      "id": "18cac64346625ed7",
-      "title": "How I Build Books, Brands & Products With ChatGPT",
-      "description": "Most people use AI to save time. I use it to create assets that make money while I sleep. AI isn’t just a productivity tool — it’s a revenue engine if you learn to connect prompting with systems, publishing, and brand building. Here’s exactly how I use ChatGPT every week to turn ideas into books, products, and content streams that keep compounding. 1️⃣ Idea to Market — The Prompt Incubation System Every product, article, or book starts as a prompt thread, not a business plan. I begin with: Act a",
-      "url": "https://dev.to/jaideepparashar/how-i-build-books-brands-products-with-chatgpt-3em5",
+      "id": "d264529dd7fce2a1",
+      "title": "Create a Text Editor in Go - Search",
+      "description": "You can access the code of this chapter in the Kilo-Go github repository in the search branch. Currently your file structure should look something like this: We have now a functional text editor, we could even continue writing the code for this project in it Search Let's use editorPrompt to implement a minimal search feature. When the user types a search query and presses Enter, we'll loop through the text, and if a row contains the query string, we'll move the cursor there File: utils/constants",
+      "url": "https://dev.to/alcb1310/create-a-text-editor-in-go-search-13l7",
       "source": "Dev.to",
-      "author": "Jaideep Parashar",
-      "published": "2025-11-13T03:14:20+00:00",
+      "author": "Andres Court",
+      "published": "2025-11-20T03:40:44+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
-      "id": "cf028ff2bec5183a",
-      "title": "🚀 ¡Despídete del Caos de Configs! Mi Viaje con Azure App Configuration: Escalabilidad, Seguridad y 0 Downtimes en Microservicios",
-      "description": "💭 Imagina esto: Eres un desarrollador apasionado (como yo 😅) que lleva semanas lidiando con configs dispersos entre YAMLs, repositorios Git y variables de entorno olvidadas. Tus microservicios en Node.js, Python y Go crecen rápido, pero cada cambio —por mínimo que sea, como actualizar un db.host— termina en reinicios manuales, merge conflicts y noches sin dormir tratando de entender por qué algo rompió en producción. 😵‍💫 Un viernes (sí, otro viernes de deploys peligrosos), decidí que ya era sufi",
-      "url": "https://dev.to/francotel/despidete-del-caos-de-configs-mi-viaje-con-azure-app-configuration-escalabilidad-seguridad-y-52g7",
+      "id": "08d9b38d80597a92",
+      "title": "How I Built a Chase Bank PDF Parser with 99% Accuracy",
+      "description": "Parsing PDFs sounds easy until you try parsing bank statements. I learned this the hard way. I spent nearly 2 months building a Chase Bank PDF parser that reaches 99% accuracy across 23 real statements (1,123 transactions total). Meanwhile, generic converters like Tabula or PDFTables only hit ~70% on the same documents. Here’s why Chase PDFs are much harder than you think—and how I solved the problems using TypeScript and pdfjs-dist, with real code you can copy. ⸻ Introduction If you’ve ever wor",
+      "url": "https://dev.to/baurzhan_zhetenov_442c4cd/how-i-built-a-chase-bank-pdf-parser-with-99-accuracy-4j6c",
       "source": "Dev.to",
-      "author": "francotel",
-      "published": "2025-11-13T03:04:45+00:00",
+      "author": "Baurzhan Zhetenov",
+      "published": "2025-11-20T03:36:48+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
-      "id": "2ea637d69bf2607f",
-      "title": "Taming Complexity: Unleashing Evolutionary Algorithms for System Modeling",
-      "description": "Taming Complexity: Unleashing Evolutionary Algorithms for System Modeling Imagine trying to predict the spread of a new disease, model the fluctuations of a stock market, or simulate the behavior of a robot swarm. These complex systems have countless interacting parts, making accurate modeling a nightmare. The biggest hurdle? Pinpointing the right values for all the crucial parameters that govern the system's behavior. The core idea is surprisingly simple: treat parameter tuning as an optimizati",
-      "url": "https://dev.to/arvind_sundararajan/taming-complexity-unleashing-evolutionary-algorithms-for-system-modeling-52lb",
+      "id": "51c9ede04ec4aa70",
+      "title": "Leveraging CPC and IPC Codes to Improve Searches: Using Classification in Patent Search",
+      "description": "Introduction For patent professionals, the sheer volume of patent filings across jurisdictions can make keyword-only searches unreliable. Terms vary, translations introduce discrepancies, and technical nuances often get missed. This is where using classification in patent search becomes indispensable. Classification systems, such as the Cooperative Patent Classification (CPC) and International Patent Classification (IPC), categorize patents by technology rather than words, providing a structured",
+      "url": "https://dev.to/patentscanai/leveraging-cpc-and-ipc-codes-to-improve-searches-using-classification-in-patent-search-5e2h",
       "source": "Dev.to",
-      "author": "Arvind SundaraRajan",
-      "published": "2025-11-13T03:02:07+00:00",
+      "author": "Zainab Imran",
+      "published": "2025-11-20T02:50:48+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "0177f893fd3303cf",
@@ -8108,6 +8089,54 @@
       "keywords": []
     },
     {
+      "id": "98f1a605e2546eb2",
+      "title": "Why Modern DevOps Engineers Ignore CPU, Memory & Networking — And Why It’s a Big Mistake",
+      "description": "Because most tools abstract the system Tools like: Kubernetes Docker Terraform Cloud providers CI/CD tools …hide the underlying CPU, RAM, storage, network details. So engineers assume: “The platform will manage it; I don’t need to know systems-level details.” That’s WRONG. 2️⃣ Because modern DevOps training is shortcut-based Bootcamps and online courses teach: Docker commands Jenkins pipelines Kubernetes YAML GitHub Actions …but don’t teach: How CPU scheduling works How memory paging or swapping",
+      "url": "https://dev.to/srinivasamcjf/why-modern-devops-engineers-ignore-cpu-memory-networking-and-why-its-a-big-mistake-5ac8",
+      "source": "Dev.to",
+      "author": "Srinivasaraju Tangella",
+      "published": "2025-11-20T03:43:53+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "cb3c368bc4ee7bee",
+      "title": "Understanding Backend Routing Like a Pro",
+      "description": "When you send a request to your server, two things matter: WHAT you want to do → defined by HTTP methods WHERE you want to do it → handled by Routing Together, they decide what action to perform and on which resource. And then your handler function steps in to run the business logic. 🌐 HTTP Methods = \"What do you want to do?\" HTTP methods describe the intention of your request. Method Meaning Example GET \"Give me data\" /users → fetch users POST \"Create something\" /users → add a new user PUT \"Rep",
+      "url": "https://dev.to/yuktisays/understanding-backend-routing-like-a-pro-9id",
+      "source": "Dev.to",
+      "author": "Yukti Sahu",
+      "published": "2025-11-20T03:25:41+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "0fe70186e9543e62",
+      "title": "overflow",
+      "description": "overflow overflow 是 CSS 中用于控制 当元素内容超出盒子范围时应该如何显示 的属性。它非常常用，尤其在做滚动区域、隐藏内容、处理浮层时。 overflow 的常见取值 1.visible（默认值） 内容会正常溢出，不做任何裁剪。 overflow: visible; 特点： 内容可溢出盒子外 不添加滚动条 不影响布局（看起来内容会撑出去） 2.hidden（隐藏） 超出的内容直接裁剪，不显示滚动条。 overflow: hidden; 特点： 常用于隐藏超出的背景图、做圆角遮罩、动画裁剪区 如果想滑动，需要配合 JS 或 touch-action 3.scroll（始终显示滚动条） 无论内容是否超出都出现滚动条。 overflow: scroll; 特点： 滚动条一直存在（即使没东西滚） 在现代 UI 中较少使用，但适合调试可滚动区 4.auto（根据需要显示滚动条） 内容超出时显示滚动条，不超出则不显示。 overflow: auto; 特点： 最常用！ 浏览器自动判断是否需要滚动条 5.clip 隐藏超出部分，但行为更像“更严格的 hidden”。 overf",
+      "url": "https://dev.to/nikimunger/overflow-2781",
+      "source": "Dev.to",
+      "author": "NikiMunger",
+      "published": "2025-11-20T03:01:44+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "51068cc2be738bac",
+      "title": "How to deal with borderRadius not taking effect after clipShape is used for clipping",
+      "description": "Read the original article：How to deal with borderRadius not taking effect after clipShape is used for clipping How to deal with borderRadius not taking effect after clipShape is used for clipping Problem Description After clipShape is used to clip a container component, borderRadius cannot be used to set the rounded corners of the clipped container, as shown in the following figure: Background knowledge 1. How to set component rounded corners 1.1 borderRadius The borderRadius attribute is used t",
+      "url": "https://dev.to/harmonyos/how-to-deal-with-borderradius-not-taking-effect-after-clipshape-is-used-for-clipping-1937",
+      "source": "Dev.to",
+      "author": "HarmonyOS",
+      "published": "2025-11-20T02:52:28+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "e803e2c69282fe5c",
       "title": "Build Complex Workflows with n8n & Master AI Integration",
       "description": "n8n is an open-source workflow automation platform that lets you connect different apps, APIs, and services to easily automate tasks without needing to implement extensive code. We just posted a course on the freeCodeCamp.org YouTube channel that is ...",
@@ -8565,42 +8594,6 @@
       ]
     },
     {
-      "id": "d790e5ed6fb50644",
-      "title": "Untitled",
-      "description": "Check out this Pen I made!",
-      "url": "https://dev.to/junayed_islam_2c7c9e1d0ce/untitled-3bjh",
-      "source": "Dev.to",
-      "author": "Junayed Islam",
-      "published": "2025-11-13T03:37:24+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "6b27df07f8fefe4d",
-      "title": "Untitled",
-      "description": "Check out this Pen I made!",
-      "url": "https://dev.to/junayed_islam_2c7c9e1d0ce/untitled-4eaa",
-      "source": "Dev.to",
-      "author": "Junayed Islam",
-      "published": "2025-11-13T03:01:56+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "382eb7b7518616b7",
-      "title": "My dad could still be alive, but he's not",
-      "description": "Comments",
-      "url": "https://www.jenn.site/my-dad-could-still-be-alive-but-hes-not/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-13T02:17:30+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
       "id": "36d21d17817d9053",
       "title": "Android 16 QPR1 is being pushed to the Android Open Source Project",
       "description": "Comments",
@@ -8613,18 +8606,6 @@
       "keywords": []
     },
     {
-      "id": "304fb4f40540bbc1",
-      "title": "Bitcoin's big secret: How cryptocurrency became law enforcement's secret weapon",
-      "description": "Comments",
-      "url": "https://bitwarden.com/blog/how-cryptocurrency-became-law-enforcements-secret-weapon/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-13T03:39:56+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
       "id": "bcc5d9bcc2ce5667",
       "title": "CollectWise (YC F24) Is Hiring",
       "description": "Comments",
@@ -8632,18 +8613,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-11-13T04:26:56+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "303271a1fa34d3e9",
-      "title": "Meta replaces WhatsApp for Windows with web wrapper that uses 1 GB RAM when idle",
-      "description": "Comments",
-      "url": "https://www.windowslatest.com/2025/11/12/meta-just-killed-native-whatsapp-on-windows-11-now-it-opens-webview-uses-1gb-ram-all-the-time/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-13T03:44:37+00:00",
       "niche": "dev",
       "score": 44,
       "keywords": []
@@ -10571,6 +10540,18 @@
       "keywords": []
     },
     {
+      "id": "1070d0607544bde4",
+      "title": "Precise geolocation via Wi-Fi Positioning System",
+      "description": "Comments",
+      "url": "https://www.amoses.dev/blog/wifi-location/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-19T21:58:47+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "78c4b08725d5f56b",
       "title": "React 19 Upgrade Guide",
       "description": "The improvements added to React 19 require some breaking changes, but we've worked to make the upgrade as smooth as possible and we don't expect the changes to impact most apps. In this post, we will guide you through the steps for upgrading apps and libraries to React 19.",
@@ -10619,8 +10600,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "React 19",
-        "performance"
+        "performance",
+        "React 19"
       ]
     },
     {
@@ -10882,6 +10863,18 @@
       "keywords": []
     },
     {
+      "id": "af6d249e1f2fc847",
+      "title": "Robert Louis Stevenson's Art of Living (and Dying)",
+      "description": "Comments",
+      "url": "https://lithub.com/robert-louis-stevensons-art-of-living-and-dying/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-19T19:55:49+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
       "id": "4e6d7290f5ff11d8",
       "title": "React Native 0.80 - React 19.1, JS API Changes, Freezing Legacy Arch and much more",
       "description": "Today we are excited to release React Native 0.80!",
@@ -10936,8 +10929,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -11044,11 +11037,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "API",
-        "code",
         "release",
-        "framework",
-        "performance"
+        "performance",
+        "code",
+        "API",
+        "framework"
       ]
     },
     {
@@ -11249,8 +11242,8 @@
       "score": 25,
       "keywords": [
         "release",
-        "Angular",
-        "framework"
+        "framework",
+        "Angular"
       ]
     },
     {
@@ -11386,9 +11379,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "code",
+        "performance",
         "developer",
-        "performance"
+        "code"
       ]
     },
     {
@@ -11513,8 +11506,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "code",
-        "developer"
+        "developer",
+        "code"
       ]
     },
     {
@@ -11912,8 +11905,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "development",
-        "programming"
+        "programming",
+        "development"
       ]
     },
     {
@@ -12536,18 +12529,6 @@
       "published": "2025-09-26T00:00:00+00:00",
       "niche": "dev",
       "score": 9,
-      "keywords": []
-    },
-    {
-      "id": "16116c2a1bdb9e88",
-      "title": "Why CUDA translation wont unlock AMD",
-      "description": "Comments",
-      "url": "https://eliovp.com/why-cuda-translation-wont-unlock-amds-real-potential/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-12T18:47:15+00:00",
-      "niche": "dev",
-      "score": 8,
       "keywords": []
     },
     {
