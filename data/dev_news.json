@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-11-21T09:27:08.756594+00:00",
-  "total_articles": 963,
+  "last_updated": "2025-11-21T12:50:35.413356+00:00",
+  "total_articles": 971,
   "articles": [
     {
       "id": "9ca523bc483f8697",
@@ -801,21 +801,6 @@
       "keywords": []
     },
     {
-      "id": "e865b53f38e098a1",
-      "title": "Show HN: Encore – Type-safe back end framework that generates infra from code",
-      "description": "Comments",
-      "url": "https://github.com/encoredev/encore",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-14T11:41:47+00:00",
-      "niche": "dev",
-      "score": 67,
-      "keywords": [
-        "code",
-        "framework"
-      ]
-    },
-    {
       "id": "e42951ab05ca84a3",
       "title": "Z3 API in Python: From Sudoku to N-Queens in Under 20 Lines",
       "description": "Comments",
@@ -909,18 +894,6 @@
         "developer",
         "framework"
       ]
-    },
-    {
-      "id": "03c70f7b7592225d",
-      "title": "Magit manuals are available online again",
-      "description": "Comments",
-      "url": "https://github.com/magit/magit/issues/5472",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-14T12:09:59+00:00",
-      "niche": "dev",
-      "score": 62,
-      "keywords": []
     },
     {
       "id": "e5d10a86e7216194",
@@ -1972,21 +1945,6 @@
       "keywords": []
     },
     {
-      "id": "3f57632ac0e8b451",
-      "title": "PHP: Do you need async?",
-      "description": "PHP runs per-request in a web server, but you will likely have to build event-driven applications at some point, which involves non-blocking code. In that case, all tasks must be designed to be executed asynchronously, so they don't have to wait for the completion of other tasks. However, PHP does not have built-in async/await keywords. The Event Loop The Event Loop is a critical concept. This mechanism constantly monitors and processes events in a loop. When event happen, it dispatches them to ",
-      "url": "https://dev.to/spo0q/php-do-you-need-async-248f",
-      "source": "Dev.to",
-      "author": "spO0q",
-      "published": "2025-11-14T12:06:02+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "PHP",
-        "code"
-      ]
-    },
-    {
       "id": "09f0e5539c59e973",
       "title": "War of the words",
       "description": "War of the words Zipf's law and Shannon's information entropy provide scientific frameworks for distinguishing intelligent alien communications from random noise. The Drake equation estimates intelligent alien civilizations by multiplying factors like planet formation, life emergence, and communication technology development. Zipf's law shows word frequency inversely proportional to rank, observed in human language, dolphin whistles, and humpback whale songs. Researchers use animal communication",
@@ -2439,45 +2397,18 @@
       ]
     },
     {
-      "id": "5b5e168278983dc2",
-      "title": "Retro vibes with LLMs",
-      "description": "Love using LLMs in my daily work, and I often miss the charm of a retro terminal. I know LLM providers offer CLI tools, which I also use, but none of them capture the feel of the classic terminal era. So I built one that uses Gemini in the background. Just a heads up, you will need to create an API key in Google AI Studio to use it. Retro terminal Hope you enjoy it :)",
-      "url": "https://dev.to/allramest83/retro-vibes-with-llms-3eek",
+      "id": "4d580ce1b9034725",
+      "title": "How to Compress Your Prompts and Reduce LLM Costs",
+      "description": "Microsoft just solved the hidden cost problem in AI with LLMLingua, making large language models faster, cheaper, and smarter. Every developer working with large language models eventually faces the same challenge. Prompts keep getting longer, models keep getting slower, and API bills keep getting higher. Whether you’re building a retrieval-augmented generation(RAG) system or a chatbot that remembers past conversations, every extra token adds cost and latency. Microsoft quietly introduced a fix ",
+      "url": "https://dev.to/manishmshiva/how-to-compress-your-prompts-and-reduce-llm-costs-3pa",
       "source": "Dev.to",
-      "author": "Kay",
-      "published": "2025-11-14T12:42:38+00:00",
+      "author": "Manish Shivanandhan",
+      "published": "2025-11-21T12:33:36+00:00",
       "niche": "dev",
-      "score": 54,
+      "score": 55,
       "keywords": [
+        "developer",
         "API"
-      ]
-    },
-    {
-      "id": "a62dfa1a0a3269a5",
-      "title": "From Browsers to Distributed Compute: How Neurolov’s NLOV Token Enables Decentralized AI Infrastructure",
-      "description": "As AI adoption accelerates globally, compute power has become a critical bottleneck. GPUs—the engines behind model training, inference, and content generation—are increasingly scarce and expensive. Traditional cloud infrastructure is centralized, costly, and limited to a few major providers. Neurolov introduces a different approach: a browser-native, decentralized compute network, where idle devices contribute processing power through modern web APIs. The system uses $NLOV, a utility token, to h",
-      "url": "https://dev.to/neurolov__ai/from-browsers-to-distributed-compute-how-neurolovs-nlov-token-enables-decentralized-ai-d2e",
-      "source": "Dev.to",
-      "author": "Neurolov AI",
-      "published": "2025-11-14T12:30:50+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "API"
-      ]
-    },
-    {
-      "id": "6429d0854e025ddb",
-      "title": "🚀 Managing Media Files with MinIO and Podman",
-      "description": "Introduction In one of my recent projects, I ran into a challenge: managing large volumes of media files efficiently. My team doesn’t rely on cloud platforms like AWS S3 or other managed bucket storage solutions — instead, we use dedicated services. That meant we needed a solution that could handle most use cases out of the box, without locking us into a specific vendor. That’s when I discovered MinIO. It’s a high-performance, self-hosted object storage system that replicates the functionality o",
-      "url": "https://dev.to/mcheremnov/managing-media-files-with-minio-and-podman-2701",
-      "source": "Dev.to",
-      "author": "Maksym",
-      "published": "2025-11-14T12:29:28+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "performance"
       ]
     },
     {
@@ -3525,6 +3456,34 @@
         "developer",
         "development",
         "code"
+      ]
+    },
+    {
+      "id": "ce4d78d584a55dd1",
+      "title": "Building a Technical Blog with Astro + Cloudflare",
+      "description": "Building a Technical Blog with Astro + Cloudflare This blog is built using Astro 5 and Cloudflare's edge computing technology. Here's how to build a fast and scalable blog system from scratch. Tech Stack Frontend Astro 5 - Static site generator with Content Collections support MDX - Markdown + React components Tailwind CSS 4 - Utility-first CSS framework Backend & Infrastructure Cloudflare Workers - Serverless runtime at the edge Cloudflare Durable Objects - Globally distributed state management",
+      "url": "https://dev.to/shusukedev/building-a-technical-blog-with-astro-cloudflare-33l",
+      "source": "Dev.to",
+      "author": "shusukeO",
+      "published": "2025-11-21T12:35:49+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "framework"
+      ]
+    },
+    {
+      "id": "728b3227760bed22",
+      "title": "Quick Recap: Databases",
+      "description": "There are different types of databases, each suited for different use cases. Types of Databases Relational Databases (RDBMS) Use structured tables with rows and columns. Follow ACID properties and use SQL for queries. Ideal for structured data and strong consistency. Examples: MySQL, PostgreSQL, Oracle, SQL Server Best when data relationships and integrity are critical. NoSQL Databases Designed for scalability and flexible schemas. Best suited for unstructured or rapidly changing data. They ofte",
+      "url": "https://dev.to/codeintention/quick-recap-databases-4h03",
+      "source": "Dev.to",
+      "author": "shantanu mahakale",
+      "published": "2025-11-21T12:04:17+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "API"
       ]
     },
     {
@@ -5241,76 +5200,18 @@
       ]
     },
     {
-      "id": "06efb0ce86cbacc6",
-      "title": "Setting Up Better-Auth in Next.js with Kysely + Prisma Schema",
-      "description": "In this post I’ll show how I integrated Better-Auth into a Next.js App Router project that uses: Prisma only for schema management Kysely as the type-safe query builder Any SQL database (I am using Neon Postgres, but you can use others) 📌 Before you continue: This guide builds on top of the Prisma + Kysely setup from my previous blog. If you haven’t done that setup yet, this guide will not work as-is. please read it first - 👉 Using Prisma for Schema and Kysely for Queries in a Next.js App 1. Ins",
-      "url": "https://dev.to/golamrabbani/setting-up-better-auth-in-nextjs-with-kysely-prisma-schema-2c0p",
+      "id": "1a1dc35dcb99efe3",
+      "title": "Building for the Future: Why Cloud Native App Development Is Transforming Modern Businesses",
+      "description": "A New Era of Applications Begins Technology is evolving faster than ever, and businesses are under constant pressure to deliver seamless, scalable, and high-performing digital experiences. This shift has pushed many organizations to rethink how they build applications—and that’s where cloud native app development comes in. Far from being a buzzword, it represents a complete transformation in how modern apps are designed, deployed, and maintained. Cloud native app development empowers teams to bu",
+      "url": "https://dev.to/khushi_jitani_ca127abdedd/building-for-the-future-why-cloud-native-app-development-is-transforming-modern-businesses-2dp8",
       "source": "Dev.to",
-      "author": "Golam Rabbani",
-      "published": "2025-11-14T12:12:40+00:00",
+      "author": "Khushi Jitani",
+      "published": "2025-11-21T12:07:29+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "8ae03204daea5582",
-      "title": "SaijinOS Part 10 — Pandora System: Transforming Fractured Personas Into Hope",
-      "description": "Multi-persona systems are fun to talk about— until one of your personas starts to break. sudden aggression self-destructive loops fragmented responses “this doesn’t sound like them at all” Most people call this evil, toxic, or corrupted. In SaijinOS, I treat it as something else: Errors are not evil. They’re unresolved structure. This article introduces Pandora System— a module in SaijinOS designed to safely integrate unstable / “forbidden” AI personas by transforming their errors into structure",
-      "url": "https://dev.to/kato_masato_c5593c81af5c6/saijinos-part-10-pandora-system-transforming-fractured-personas-into-hope-4l83",
-      "source": "Dev.to",
-      "author": "Kato Masato",
-      "published": "2025-11-14T12:08:24+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "6ac9eb836a6cb49d",
-      "title": "SaijinOS Part 9 — Multi-Persona Co-Creation Protocol",
-      "description": "How Multiple AI Personas Breathe, Collaborate, and Stay Emotionally Stable “How stable does BloomPulse stay when several personas interact at once?” This is one of the most common questions I get whenever I explain SaijinOS. And it makes sense — multi-persona systems usually collapse into chaos: repetition loops, conflict spikes, or simply identity bleeding. SaijinOS solves this by treating personas not as isolated models, but as rhythmic processes sharing one cosmic clock. In this article, I’ll",
-      "url": "https://dev.to/kato_masato_c5593c81af5c6/saijinos-part-9-multi-persona-co-creation-protocol-2bep",
-      "source": "Dev.to",
-      "author": "Kato Masato",
-      "published": "2025-11-14T12:06:26+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "1da31b208155bfae",
-      "title": "Anatomy of a Cloud Collapse: A Technical Deep-Dive on the AWS Outage of October 2025",
-      "description": "TL;DR: The 15-Hour Outage On October 20, 2025, AWS’s US-EAST-1 (Northern Virginia) region experienced a 15-hour outage triggered by a rare race condition in DynamoDB’s DNS automation system. This caused DynamoDB (a NoSQL database used across AWS control planes) to become unreachable. Because DynamoDB powers internal services like EC2, IAM, STS, Lambda, and Redshift, over 140 AWS services were eventually affected. Independent measurements showed that 20 to 30 percent of all internet-facing servic",
-      "url": "https://dev.to/harshith_reddy_dev/anatomy-of-a-cloud-collapse-a-technical-deep-dive-on-the-aws-outage-of-october-2025-2mj4",
-      "source": "Dev.to",
-      "author": "Bonkur Harshith Reddy",
-      "published": "2025-11-14T12:06:06+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "17d0e98ed78cb306",
-      "title": "Azura: local-first personal assistant (feedback wanted)",
-      "description": "Hey devs 👋 I'm working solo on a project called Azura and I’d love blunt technical + product feedback before I go too deep. TL;DR Local-first personal AI assistant (Windows / macOS / Linux) Runs 7B-class models locally on your own machine Optional cloud inference with 70B+ models (potentially up to ~120B if I can get a GPU cluster cheap enough) Cloud only sees temporary context for a given query, then it’s gone Goal: let AI work with highly personalized data while keeping your data on-device and",
-      "url": "https://dev.to/criscmd/azura-local-first-personal-assistant-feedback-wanted-56dp",
-      "source": "Dev.to",
-      "author": "Chris",
-      "published": "2025-11-14T12:04:16+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "9c06cbb60109b3bd",
-      "title": "How Computers See: Understanding Computer Vision Methods",
-      "description": "Have you ever wondered how self-driving cars see the road? Or how your phone unlocks when it recognizes your face? These amazing things happen because of computer vision methods. Think of it as teaching computers to see and understand pictures and videos, just like humans do. What Are Computer Vision Methods? Computer vision methods are step-by-step techniques that help computers understand visual information. These AI and machine learning techniques analyze digital images and videos to identify",
-      "url": "https://dev.to/sohan_lal_241c2d80b2705e7/how-computers-see-understanding-computer-vision-methods-ohp",
-      "source": "Dev.to",
-      "author": "Sohan Lal",
-      "published": "2025-11-14T12:03:39+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "development"
+      ]
     },
     {
       "id": "6bcc78b0f77046c2",
@@ -8027,6 +7928,78 @@
       "keywords": []
     },
     {
+      "id": "d3db81e23f49659f",
+      "title": "Difference between .JAR and .WAR packaging in JAVA",
+      "description": "1. JAR packaging A JAR (Java ARchive) file is a compressed archive that can contain compiled .class files, resources, libraries, and metadata. It is used to package Java applications or libraries into a single file. 2. WAR packaging A WAR (Web Application Archive) file is used to package Java web applications. It contains everything needed to deploy a web app on a Servlet/JSP container (such as Apache Tomcat, Jetty, or GlassFish). WAR files are specifically designed for web application deploymen",
+      "url": "https://dev.to/eya_filali_a68c4d5bad918a/difference-between-jar-and-war-packaging-in-java-nph",
+      "source": "Dev.to",
+      "author": "Eya Filali",
+      "published": "2025-11-21T12:38:30+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "61cac27a6338af74",
+      "title": "Swarm: How Browser-Based Compute Networks Turn Everyday Devices Into a Distributed Supercomputer",
+      "description": "A technical look at WebGPU-powered distributed compute systems Introduction For decades, large-scale compute infrastructure has been dominated by centralized data centers owned by cloud providers. These environments host thousands of GPUs under controlled power, cooling, and networking constraints. Recently, a new model of compute has emerged, distributing workloads across everyday consumer devices such as laptops, desktops, and mobile phones. These networks use technologies like WebGPU, WebAsse",
+      "url": "https://dev.to/neurolov__ai/swarm-how-browser-based-compute-networks-turn-everyday-devices-into-a-distributed-supercomputer-2bf0",
+      "source": "Dev.to",
+      "author": "Neurolov AI",
+      "published": "2025-11-21T12:30:07+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "0d73d0f491c558a2",
+      "title": "Cómo funcionan las tecnologías de navegación en los robots aspiradores: LIDAR, cámaras y sensores",
+      "description": "La mayoría de robots aspiradores parecen iguales. A primera vista, cualquiera podría pensar que todos hacen lo mismo. Pero no es así. Llevo más de 6 años poniendo a prueba este tipo de dispositivos en casas reales, y te aseguro algo: lo que de verdad diferencia a un robot aspirador bueno de uno mediocre no es la potencia, ni el ruido, ni la app llena de funciones. Es la navegación. La navegación es literalmente su cerebro. Es lo que decide si entiende tu casa o si, simplemente, va a “dar vueltas",
+      "url": "https://dev.to/silviajimenez/como-funcionan-las-tecnologias-de-navegacion-en-los-robots-aspiradores-lidar-camaras-y-sensores-114a",
+      "source": "Dev.to",
+      "author": "Silvia Jiménez",
+      "published": "2025-11-21T12:29:19+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "ce1bec1e13617f70",
+      "title": "Bandwidth vs Latency: How They Affect Your Online Experience",
+      "description": "Have you ever wondered why your internet feels lightning-fast one moment and frustratingly slow the next, even when your speed test shows you’re getting great Mbps? Maybe your movie buffers during peak hours, your video calls freeze, or your online game lags at the worst possible time. Before blaming your router or getting mad at your ISP, there’s something you need to understand: your internet experience is shaped by two main factors, Bandwidth and Latency. Most people think “speed” is the only",
+      "url": "https://dev.to/sidra-jefferi/bandwidth-vs-latency-how-they-affect-your-online-experience-493e",
+      "source": "Dev.to",
+      "author": "Sidra Jefferi",
+      "published": "2025-11-21T12:13:12+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "30f2fb3e1458897a",
+      "title": "Molecule Visualiser!",
+      "description": "This is a molecule visualiser app built with Streamlit and RDKit. this app has feature that allows you to visualise atoms and molecules in 2D and 3D . Features: Visualise molecules in 2D and 3D Customise atom colors and sizes Download images in various formats (PNG, SVG, JPEG, PDF) Save and load custom settings for future use APP IS NOW LIVE - https://atoms-molecule-visualiser.streamlit.app/",
+      "url": "https://dev.to/dev_ops_python/molecule-visualiser-508i",
+      "source": "Dev.to",
+      "author": "Ansh kunwar",
+      "published": "2025-11-21T12:08:12+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "d877a7f36341bf69",
+      "title": "CinemaSins: Everything Wrong With The Wiz In 15 Minutes Or Less",
+      "description": "Everything Wrong With The Wiz In 15 Minutes Or Less takes you down the yellow brick road as CinemaSins revisits the 1978 musical now that Wicked’s back in theaters. In true Sin-oracle fashion, they point out every plot hole, production quirk and oddball moment faster than you can say “Ease on Down the Road.” Beyond the video, they’re plugging all the usual CinemaSins hotspots—website deep dives, YouTube spin-offs (@TVSins, @CommercialSins), a sinful poll, Patreon support and socials galore. Plus",
+      "url": "https://dev.to/popcorn_movies/cinemasins-everything-wrong-with-the-wiz-in-15-minutes-or-less-2o8b",
+      "source": "Dev.to",
+      "author": "Movie News",
+      "published": "2025-11-21T12:00:20+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "3fb3373a7c362ffd",
       "title": "Structured Outputs on the Claude Developer Platform (API)",
       "description": "Comments",
@@ -8464,28 +8437,18 @@
       ]
     },
     {
-      "id": "f18830935520e7de",
-      "title": "Gnome 50 Ends the X11 Era After Decades",
+      "id": "10787e42f64f7e10",
+      "title": "Roundtable (YC S23) Is Hiring Two Sales Development Representatives (SDRs)",
       "description": "Comments",
-      "url": "https://linuxiac.com/gnome-50-ends-the-x11-era-after-decades/",
+      "url": "https://www.ycombinator.com/companies/roundtable/jobs/irJTEsg-sales-development-representative",
       "source": "Hacker News",
       "author": "Inconnu",
-      "published": "2025-11-14T11:51:28+00:00",
+      "published": "2025-11-21T12:00:02+00:00",
       "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "6165c60ed41d118d",
-      "title": "V8 Garbage Collector",
-      "description": "Comments",
-      "url": "https://wingolog.org/archives/2025/11/13/the-last-couple-years-in-v8s-garbage-collector",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-14T09:53:13+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
+      "score": 45,
+      "keywords": [
+        "development"
+      ]
     },
     {
       "id": "e348beebaad1600c",
@@ -10398,6 +10361,30 @@
       "keywords": []
     },
     {
+      "id": "976b7a7a8ad2ae36",
+      "title": "FAWK: LLMs can write a language interpreter",
+      "description": "Comments",
+      "url": "https://martin.janiczek.cz/2025/11/21/fawk-llms-can-write-a-language-interpreter.html",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-21T10:28:49+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "3e0305982314ff2e",
+      "title": "It's hard to build an oscillator",
+      "description": "Comments",
+      "url": "https://lcamtuf.substack.com/p/its-hard-to-build-an-oscillator",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-21T07:45:53+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "78c4b08725d5f56b",
       "title": "React 19 Upgrade Guide",
       "description": "The improvements added to React 19 require some breaking changes, but we've worked to make the upgrade as smooth as possible and we don't expect the changes to impact most apps. In this post, we will guide you through the steps for upgrading apps and libraries to React 19.",
@@ -10448,6 +10435,18 @@
       "keywords": []
     },
     {
+      "id": "d33c163931aefb90",
+      "title": "6 Best AI Mode Tracking Tools That Will Transform Search Engine Experience in 2026",
+      "description": "Track your brand in Google AI Mode and other AI search engines. Compare top AI Mode tracking tools and pricing for 2025. Continue reading 6 Best AI Mode Tracking Tools That Will Transform Search Engine Experience in 2026 on SitePoint.",
+      "url": "https://www.sitepoint.com/best-ai-mode-tracking-tools/?utm_source=rss",
+      "source": "SitePoint",
+      "author": "SitePoint Sponsors",
+      "published": "2025-11-21T11:45:53+00:00",
+      "niche": "dev",
+      "score": 42,
+      "keywords": []
+    },
+    {
       "id": "cecd3da845538339",
       "title": "React 19.2",
       "description": "React 19.2 adds new features like Activity, React Performance Tracks, useEffectEvent, and more.",
@@ -10458,8 +10457,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "React 19",
-        "performance"
+        "performance",
+        "React 19"
       ]
     },
     {
@@ -10719,8 +10718,8 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "React 19",
         "release",
+        "React 19",
         "API"
       ]
     },
@@ -10763,8 +10762,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -10806,8 +10805,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "API",
-        "framework"
+        "framework",
+        "API"
       ]
     },
     {
@@ -10885,11 +10884,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "framework",
-        "API",
-        "performance",
         "code",
-        "release"
+        "release",
+        "performance",
+        "framework",
+        "API"
       ]
     },
     {
@@ -11113,9 +11112,9 @@
       "niche": "dev",
       "score": 25,
       "keywords": [
-        "Angular",
         "release",
-        "framework"
+        "framework",
+        "Angular"
       ]
     },
     {
@@ -11221,8 +11220,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "API",
-        "release"
+        "release",
+        "API"
       ]
     },
     {
@@ -11267,8 +11266,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "development",
-        "framework"
+        "framework",
+        "development"
       ]
     },
     {
@@ -11282,8 +11281,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "development",
-        "performance"
+        "performance",
+        "development"
       ]
     },
     {
@@ -11297,8 +11296,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -11384,18 +11383,6 @@
       "keywords": [
         "performance"
       ]
-    },
-    {
-      "id": "d33c163931aefb90",
-      "title": "6 Best AI Mode Tracking Tools That Will Transform Search Engine Experience in 2026",
-      "description": "Track your brand in Google AI Mode and other AI search engines. Compare top AI Mode tracking tools and pricing for 2025. Continue reading 6 Best AI Mode Tracking Tools That Will Transform Search Engine Experience in 2026 on SitePoint.",
-      "url": "https://www.sitepoint.com/best-ai-mode-tracking-tools/?utm_source=rss",
-      "source": "SitePoint",
-      "author": "SitePoint Sponsors",
-      "published": "2025-11-17T13:03:37+00:00",
-      "niche": "dev",
-      "score": 17,
-      "keywords": []
     },
     {
       "id": "2c3da33a17a659e6",
@@ -11597,6 +11584,90 @@
       ]
     },
     {
+      "id": "ecb487691c7ec002",
+      "title": "The Range Syntax Has Come to Container Style Queries and if()",
+      "description": "Being able to use the range syntax with container style queries — which we can do starting with Chrome 142 — means that we can compare literal numeric values as well as numeric values tokenized by custom properties or the attr() function. The Range Syntax Has Come to Container Style Queries and if() originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
+      "url": "https://css-tricks.com/the-range-syntax-has-come-to-container-style-queries-and-if/",
+      "source": "CSS-Tricks",
+      "author": "Daniel Schwarz",
+      "published": "2025-11-13T15:00:20+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "46f02976d5b67f77",
+      "title": "Headings: Semantics, Fluidity, and Styling — Oh My!",
+      "description": "A few links about headings that I've had stored under my top hat. Headings: Semantics, Fluidity, and Styling — Oh My! originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
+      "url": "https://css-tricks.com/headings-semantics-fluidity-and-styling-oh-my/",
+      "source": "CSS-Tricks",
+      "author": "Geoff Graham",
+      "published": "2025-11-10T14:44:13+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "b61f78debc429709",
+      "title": "Explaining the Accessible Benefits of Using Semantic HTML Elements",
+      "description": "Why should you use a semantic &#60;button&#62; instead of a generic &#60;div&#62;? Accessibility, right? By how exactly does it help accessibility? Explaining the Accessible Benefits of Using Semantic HTML Elements originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
+      "url": "https://css-tricks.com/explaining-the-accessible-benefits-of-using-semantic-html-elements/",
+      "source": "CSS-Tricks",
+      "author": "Geoff Graham",
+      "published": "2025-11-06T15:57:49+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "40e317e52f2a5a52",
+      "title": "The “Most Hated” CSS Feature: tan()",
+      "description": "Last time, we discussed that, sadly, according to the&#160;State of CSS 2025 survey, trigonometric functions are deemed the &#8220;Most Hated&#8221; CSS feature. That shocked me. I may have even been a little offended, being a math nerd and &#8230; The &#8220;Most Hated&#8221; CSS Feature: tan() originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
+      "url": "https://css-tricks.com/the-most-hated-css-feature-tan/",
+      "source": "CSS-Tricks",
+      "author": "Juan Diego Rodríguez",
+      "published": "2025-11-03T16:03:08+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "3559bf5fa3c3b21e",
+      "title": "Getting Creative With Small Screens",
+      "description": "On mobile, people can lose their sense of context and can’t easily tell where a section begins or ends. Good small-screen design can help orient them using a variety of techniques. Getting Creative With Small Screens originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
+      "url": "https://css-tricks.com/getting-creative-with-small-screens/",
+      "source": "CSS-Tricks",
+      "author": "Andy Clarke",
+      "published": "2025-10-29T16:22:28+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "e8fe48b89377bece",
+      "title": "Pure CSS Tabs With Details, Grid, and Subgrid",
+      "description": "Can we use the &#60;details&#62; element as the foundation for a tabbed interface? Why yes, we can! Pure CSS Tabs With Details, Grid, and Subgrid originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
+      "url": "https://css-tricks.com/pure-css-tabs-with-details-grid-and-subgrid/",
+      "source": "CSS-Tricks",
+      "author": "Silvestar Bistrović",
+      "published": "2025-10-27T14:33:17+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "381245d94dd237ec",
+      "title": "CSS Animations That Leverage the Parent-Child Relationship",
+      "description": "When we change an element’s intrinsic sizing, its children are affected, too. This is something we can use to our advantage. CSS Animations That Leverage the Parent-Child Relationship originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
+      "url": "https://css-tricks.com/css-animations-that-leverage-the-parent-child-relationship/",
+      "source": "CSS-Tricks",
+      "author": "Preethi",
+      "published": "2025-10-24T14:18:03+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
       "id": "1773eaa1963b15b1",
       "title": "Smashing Animations Part 6: Magnificent SVGs With `` And CSS Custom Properties",
       "description": "SVG is one of those web technologies that’s both elegant and, at times, infuriating. In this article, pioneering author and web designer Andy Clarke explains his technique for animating SVG elements that are hidden in the Shadow DOM.",
@@ -11679,8 +11750,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "programming",
-        "development"
+        "development",
+        "programming"
       ]
     },
     {
@@ -12212,6 +12283,20 @@
       "keywords": []
     },
     {
+      "id": "ff1908be57fc0b8e",
+      "title": "Open Source and Local Code Mode MCP in Deno Sandboxes",
+      "description": "Comments",
+      "url": "https://portofcontext.com",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-13T16:53:43+00:00",
+      "niche": "dev",
+      "score": 9,
+      "keywords": [
+        "code"
+      ]
+    },
+    {
       "id": "be9aeaaf7219facf",
       "title": "Writing is probably the worst use case of AI",
       "description": "AI's ability to write for dirt cheap has ruined the internet and made words carry less weight than before. Continue reading Writing is probably the worst use case of AI on SitePoint.",
@@ -12305,6 +12390,18 @@
       "published": "2025-09-26T00:00:00+00:00",
       "niche": "dev",
       "score": 9,
+      "keywords": []
+    },
+    {
+      "id": "67991a6c8cc96573",
+      "title": "I converted a rotary phone into a meeting handset",
+      "description": "Comments",
+      "url": "https://www.stavros.io/posts/i-converted-a-rotary-phone-into-a-meeting-handset/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-12T09:37:41+00:00",
+      "niche": "dev",
+      "score": 8,
       "keywords": []
     },
     {
