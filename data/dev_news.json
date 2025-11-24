@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-11-24T06:38:04.444816+00:00",
-  "total_articles": 959,
+  "last_updated": "2025-11-24T09:31:05.342756+00:00",
+  "total_articles": 963,
   "articles": [
     {
       "id": "9ca523bc483f8697",
@@ -579,18 +579,6 @@
       ]
     },
     {
-      "id": "ddc6f5a9d48bacf2",
-      "title": "Going ahead with Clean Architecture in Android. Example with complex navigation.",
-      "description": "Let's continue talking about Clean Architecture in Android. Unlike previous example we will move away out of encapsulation principle. It's not so good but if we have some complex navigation when you have to move to different features and don't have a main menu or something like this, it's much more simple is making pubic routes than injecting navigation functions from NavGraph to each composable component. Here I wanna concentrate on navigation. Example 2. Complex navigation. Requirements Platfo",
-      "url": "https://dev.to/mardsoul/going-ahead-with-clean-architecture-in-android-example-with-complex-navigation-5116",
-      "source": "Dev.to",
-      "author": "Aleksei Laptev",
-      "published": "2025-11-17T09:02:50+00:00",
-      "niche": "dev",
-      "score": 68,
-      "keywords": []
-    },
-    {
       "id": "609223984c482f73",
       "title": "📻 I built an infinite 90s boombox with Gemini + Lyria (and it has an AI DJ!)",
       "description": "I recently built an experiment that I honestly can’t stop listening to. It’s a virtual, web-based Boombox. You tune the dial, the station changes, and the music crossfades in real-time. But here is the kicker: The DJ is AI. Every time you settle on a station, a dynamically generated voice (courtesy of Gemini text-to-speech) chimes in to introduce the track and the genre, totally context-aware. It feels like a ghost in the machine, and it was built using the Google Gen AI SDK, Lit, and the Lyria ",
@@ -742,6 +730,18 @@
       "source": "Dev.to",
       "author": "Sripadh Sujith",
       "published": "2025-11-24T01:34:12+00:00",
+      "niche": "dev",
+      "score": 68,
+      "keywords": []
+    },
+    {
+      "id": "a43d1b266163fdb1",
+      "title": "Implementing AIOps on Xperience by Kentico with n8n and GitHub Coding Agents: Automated Resolutions with Human in the Loop",
+      "description": "Modern teams can resolve production issues faster by connecting Xperience by Kentico with n8n and AI coding agents. The goal is simple: capture errors, route them to an orchestrated workflow, classify root causes, and draft fixes as governed pull requests. Keep humans in control, protect secrets, and maintain a complete audit trail. 💡🛠️🔒 This post lays out a practical architecture for software engineers, DevOps practitioners, and solutions architects. It covers event collection, scheduled forwar",
+      "url": "https://dev.to/truelime/implementing-aiops-on-xperience-by-kentico-with-n8n-and-github-coding-agents-automated-resolutions-7o",
+      "source": "Dev.to",
+      "author": "Jeroen Fürst",
+      "published": "2025-11-24T09:09:09+00:00",
       "niche": "dev",
       "score": 68,
       "keywords": []
@@ -1214,22 +1214,6 @@
         "performance",
         "API",
         "developer"
-      ]
-    },
-    {
-      "id": "f5a40b711f5e0ed0",
-      "title": "Building Better on AWS: A Practical Guide to the Well-Architected Framework",
-      "description": "AWS is huge, hundreds of services and thousands of features. So many services, so many possibilities, and hence, so many ways to mess things up. A misconfigured S3 bucket. That's all it took for Capital One to lose 100 million customer records in 2019. What if someone had asked the right questions about their architecture? What if there is a free tool to systematically review your entire environment and workloads against AWS best practices? To top it up, what if AWS pays you to fix these risks? ",
-      "url": "https://dev.to/sauveer_ketan/building-better-on-aws-a-practical-guide-to-the-well-architected-framework-1l2p",
-      "source": "Dev.to",
-      "author": "Sauveer Ketan",
-      "published": "2025-11-17T09:10:41+00:00",
-      "niche": "dev",
-      "score": 58,
-      "keywords": [
-        "API",
-        "best practices",
-        "framework"
       ]
     },
     {
@@ -1919,23 +1903,6 @@
       ]
     },
     {
-      "id": "f229c6df92c72e6a",
-      "title": "Master JavaScript: Complete Guide for Beginners with Examples",
-      "description": "JavaScript is one of the most popular and powerful programming languages used for building dynamic and interactive web applications. Whether you are a student, a beginner in coding, or someone aiming to become a web developer, learning JavaScript Tutorial is an essential step toward mastering modern web development. It allows developers to add interactive features like buttons, sliders, animations, forms, and real-time updates to websites, making them more engaging and user-friendly. Along with ",
-      "url": "https://dev.to/suraj_kumar_fb57ae0928df2/master-javascript-complete-guide-for-beginners-with-examples-309d",
-      "source": "Dev.to",
-      "author": "suraj kumar",
-      "published": "2025-11-17T09:07:40+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "developer",
-        "programming",
-        "tutorial",
-        "development"
-      ]
-    },
-    {
       "id": "a29e150552efebed",
       "title": "🚀 Stop Fighting Alembic — FastAPI & Flask Migrations Can Finally Be as Simple as Django.",
       "description": "If you’ve ever tried setting up Alembic, you probably went through this cycle: create a migrations folder edit alembic.ini modify env.py manually import your models configure database URLs hope it works And when it finally runs, you pray nothing breaks when you update your models again. I hated this. Every FastAPI / Flask / SQLAlchemy developer I know hates this. So I built something to fix it. Introducing Migrator — A Zero-Config Migration CLI for Python Migrator brings Django-like migrations t",
@@ -2401,30 +2368,62 @@
       ]
     },
     {
-      "id": "c6f72bbf7d6ddfa6",
-      "title": "Retries and Hedges: Calming the Tail",
-      "description": "Architecture of Trust Noise gathers at the edge of time. Latency is a resource, not a rumor. Attempts are spent, not wished into absence. Steady tails earn steady trust. Reliability is not a polish layer; it is a constraint the system must obey. Trust erodes at the tail, not the median, and latency cannot be wished away; it must be spent. Retries repair transient failure; hedging trims the slow tail by racing two paths and keeping the first clean result. Both spend capacity to steady performance",
-      "url": "https://dev.to/miller-28/retries-and-hedges-calming-the-tail-ima",
+      "id": "2d27a7fa18df2b24",
+      "title": "Inside the Edge: Building an Automation-Native Telecom Stack for Real-Time Networks",
+      "description": "Telecom is shifting from a network business to a software business. APIs, automation pipelines, real-time data flows, and programmable network functions are becoming the new stack developers work with. The shift isn’t just about lowering OpEx anymore. It’s about enabling entirely new categories of apps: IoT billing per event, AI-driven assurance, low-latency AR, automotive telemetry, industrial robotics — all running at the edge. This post looks at telecom automation from a developer’s perspecti",
+      "url": "https://dev.to/abdul_shamim/inside-the-edge-building-an-automation-native-telecom-stack-for-real-time-networks-3cfl",
       "source": "Dev.to",
-      "author": "Jonathan Miller",
-      "published": "2025-11-17T09:21:12+00:00",
+      "author": "Abdul Shamim",
+      "published": "2025-11-24T09:21:03+00:00",
       "niche": "dev",
-      "score": 54,
+      "score": 55,
       "keywords": [
-        "performance"
+        "developer",
+        "API"
       ]
     },
     {
-      "id": "67d22784edb48eea",
-      "title": "Liman Mail Ayarları",
-      "description": "Mock mail sunucusu kurmak Mailhog Mailhog, gönderilen e-postaları yakalayıp kendi web arayüzünde gösteren bir servistir. Gerçek bir mail sunucusu değildir. Test ortamlarında kullanılan geçici bir mail sunucusu gibi düşünülebilir. Kurulum Mailhog indirilir ve çalıştırma izni verilir. sudo wget -O /usr/local/bin/mailhog https://github.com/mailhog/MailHog/releases/download/v1.0.0/MailHog_linux_amd64 sudo chmod +x /usr/local/bin/mailhog /etc/systemd/system/mailhog.service servis dosyası oluşturulur ",
-      "url": "https://dev.to/aciklab/liman-mail-ayarlari-3351",
+      "id": "232ab61dc1de34fa",
+      "title": "Why I Stopped Using LocalStorage for Auth and What You Should Do Instead",
+      "description": "I came across a tweet some time back reminding developers to use HttpOnly cookies for tokens instead of localStorage, shout out to Captain It immediately hit me, many of us (especially frontend developers) still store tokens in localStorage because it’s simple. But simple doesn’t always mean safe. In this article, I’ll explain why storing tokens in localStorage exposes your app to cross-site scripting (XSS) attacks and how you can fix that by using HttpOnly cookies with Spring Boot and React. Wh",
+      "url": "https://dev.to/hills-dev/why-i-stopped-using-localstorage-for-auth-and-what-you-should-do-instead-5gli",
       "source": "Dev.to",
-      "author": "Enes Baytekin",
-      "published": "2025-11-17T09:07:37+00:00",
+      "author": "Hilary",
+      "published": "2025-11-24T09:19:48+00:00",
       "niche": "dev",
-      "score": 54,
+      "score": 55,
       "keywords": [
+        "Spring",
+        "developer"
+      ]
+    },
+    {
+      "id": "994d69eda8df6855",
+      "title": "Transform Your OpenAPI Specs Into Living Documentation: The Complete Guide",
+      "description": "Documentation debt is real. Every developer knows the sinking feeling of discovering their API docs are three versions behind the actual implementation. The endpoint that was renamed last sprint? Still documented under the old name. That new required parameter? Nowhere to be found in the docs. The traditional approach to API documentation—manually writing and updating documentation files—creates an unsustainable maintenance burden. But there's a better way: automatic documentation generation fro",
+      "url": "https://dev.to/apilover/transform-your-openapi-specs-into-living-documentation-the-complete-guide-4mki",
+      "source": "Dev.to",
+      "author": "Wanda",
+      "published": "2025-11-24T09:06:53+00:00",
+      "niche": "dev",
+      "score": 55,
+      "keywords": [
+        "developer",
+        "API"
+      ]
+    },
+    {
+      "id": "55bd95df64833bd2",
+      "title": "Perl 🐪 Weekly #748 - Perl v5.43.5",
+      "description": "Originally published at Perl Weekly 748 Hi there, Just couple of days ago, we had another development release: Perl v5.43.5. Among the many changes in this release, my favourite is Named Parameters in Signatures. For further details, please check out the perldelta page. The LPW 2025 is finally happening on 29th Nov 2025. So if you are available then please do join us for the tech meet. I would request you to register if you are planning to attend as this will help the organisers schedule the day",
+      "url": "https://dev.to/szabgab/perl-weekly-748-perl-v5435-30nl",
+      "source": "Dev.to",
+      "author": "Gabor Szabo",
+      "published": "2025-11-24T09:01:29+00:00",
+      "niche": "dev",
+      "score": 55,
+      "keywords": [
+        "development",
         "release"
       ]
     },
@@ -3528,6 +3527,20 @@
       ]
     },
     {
+      "id": "02abf686599bf695",
+      "title": "How Pagination Saved an API from Crashing: A Practical Case Study",
+      "description": "The Problem That Inspired This Article Recently, I encountered an interesting situation. I opened a certain web resource (which I won't name) and tried to view a list of data. The page started loading... and loading... and the browser froze. After restarting the page and opening DevTools, the picture became clear: the API endpoint was returning all records in a single request - tens of thousands of rows in a JSON response over 50 MB in size. The browser simply couldn't handle it. Testing the req",
+      "url": "https://dev.to/taras_antoniuk_ea6a2fe7ee/how-pagination-saved-an-api-from-crashing-a-practical-case-study-4jfb",
+      "source": "Dev.to",
+      "author": "Taras Antoniuk",
+      "published": "2025-11-24T09:10:49+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "API"
+      ]
+    },
+    {
       "id": "fe2b09eeff6c9443",
       "title": "Tic Tac Toe Game with HTML, CSS & JavaScript — Live Demo + Source Code",
       "description": "💡 Why This Project Matters Every developer has built Tic-Tac-Toe app, but I built this version not just as a game, but as a practical exercise in frontend polish and asset management. It demonstrates that you can achieve a professional feel—complete with smooth UI transitions and audio feedback—using nothing but pure JavaScript and core web technologies. This project goes beyond the basics to tackle real-world challenges like cross-origin audio loading and effective DOM state synchronization. 🧠 ",
@@ -4005,48 +4018,6 @@
       "keywords": [
         "programming",
         "code"
-      ]
-    },
-    {
-      "id": "b5c58950557ea1a0",
-      "title": "Using CTEs When Your ORM Says No (The Lazy Developer's Survival Guide)",
-      "description": "You just spent two articles learning about CTEs. You're excited. You've seen the power. You understand the elegance. You're ready to refactor that nightmare query that's been haunting your dreams. You open your ORM documentation... 404: CTE support not found. \"Wait, WHAT? Every database has supported CTEs since 2005-2018, but my ORM doesn't?\" Welcome to the final boss fight: making CTEs work in real projects despite ORM limitations. This is Part 3 of 3 - the practical guide to actually using wha",
-      "url": "https://dev.to/pascal_cescato_692b7a8a20/using-ctes-when-your-orm-says-no-the-lazy-developers-survival-guide-2e24",
-      "source": "Dev.to",
-      "author": "Pascal CESCATO",
-      "published": "2025-11-17T09:15:00+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "developer"
-      ]
-    },
-    {
-      "id": "cb77ad5f7da8c77b",
-      "title": "A Beginner’s Guide to Website Development for Building a Strong Online Presence",
-      "description": "In today’s digital-first world, website development has become essential for businesses, creators, and entrepreneurs looking to establish a meaningful online presence. Whether you're building a personal blog, an online store, or a corporate website, understanding the foundations of website development can help you make informed decisions and create a platform that truly represents your brand. This article breaks down the basics and explains why partnering with the best web development agencies i",
-      "url": "https://dev.to/dzine_soniya_a2ac908944fc/a-beginners-guide-to-website-development-for-building-a-strong-online-presence-5ff9",
-      "source": "Dev.to",
-      "author": "dzine soniya",
-      "published": "2025-11-17T09:06:55+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "development"
-      ]
-    },
-    {
-      "id": "7f227fb75dc3112f",
-      "title": "My Approach: Clarifying DevOps Gaps Before Teaching Tools",
-      "description": "Dear Community, Before I start sharing projects, labs, tools, and tutorials, I want to tell you why I’m taking a different approach. For years I observed something very important in the DevOps world: 🚫 DevOps is full of gaps, illusions, and confusion. People jump directly into Docker, Kubernetes, Jenkins, AWS, GitOps— but they don’t understand the fundamentals that make DevOps meaningful: How the operating system really works How applications behave internally How networks route traffic How cont",
-      "url": "https://dev.to/srinivasamcjf/my-approach-clarifying-devops-gaps-before-teaching-tools-5053",
-      "source": "Dev.to",
-      "author": "Srinivasaraju Tangella",
-      "published": "2025-11-17T09:04:07+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "tutorial"
       ]
     },
     {
@@ -5408,28 +5379,32 @@
       ]
     },
     {
-      "id": "278150ca41d00daf",
-      "title": "Saving and Storing Machine Learning Models for Deployment: A Complete Guide",
-      "description": "Once you finish training a machine learning model, the next big question is: How do you save this model so it can be reused, deployed, or integrated into an application? Model training is just the first step. Deployment requires your model to be: Stored safely Loaded consistently Versioned properly Portable across environments Fast and reliable This guide explains everything you need to know about saving and storing ML models for real-world deployment. 1. Why You Must Save a Model Before Deploym",
-      "url": "https://dev.to/techkene/saving-and-storing-machine-learning-models-for-deployment-a-complete-guide-2ioo",
+      "id": "54b005c2d4e01a39",
+      "title": "BATCHNORM IN LANGUAGE MODELS",
+      "description": "Welcome to the next chapter! This is a really important topic for LLMs and even DL in general. Batchnorm, alongside with other innovative normalization techniques, is a must-know in Deep Learning. Maybe we should jump right in to the topic, as there is a lot to talk about. A note here, this is still the part from the Makemore series of Andrej Karpathy, so shout out to him with a big respect. Also, I assume that you already have the code for the previous model, because we won't code everything al",
+      "url": "https://dev.to/blackbidz/batchnorm-in-language-models-539c",
       "source": "Dev.to",
-      "author": "Kenechukwu Anoliefo",
-      "published": "2025-11-17T09:06:18+00:00",
+      "author": "Hưng Lê Tiến",
+      "published": "2025-11-24T09:20:19+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
-      "id": "9384861cf841ff24",
-      "title": "Smart_Store Schema Guide: Future-Proofing Your Data with Versioning",
-      "description": "Let’s be honest—data doesn’t stay still. As your application evolves, so do your data models. New fields get added, formats change, and business logic shifts. But if you’ve ever tried to update a live system without breaking everything, you know how painful schema evolution can be. That’s where Smart_Store steps in with a clean, reliable solution: schema-based item management with versioned migrations. Why Schema and Versioning Matter Smart_Store treats your data like a first-class citizen. Ever",
-      "url": "https://dev.to/emma_vic_5c08c5a528c1513e7/smartstore-schema-guide-future-proofing-your-data-with-versioning-3cp3",
+      "id": "64dc78f8074511fb",
+      "title": "Introducing the All-New SLS SQL Copilot",
+      "description": "This article is the first time that Alibaba Cloud Simple Log Service (SLS) systematically unveils the product philosophy, architecture design, and core technology accumulation behind SLS SQL Copilot. We will provide an in-depth look at how this intelligent analysis assistant starts from real user needs and integrates cutting-edge AI capabilities with over a decade of SLS log analysis best practices to create a future-oriented and intelligent log analysis experience. Origin Ten years ago, SLS was",
+      "url": "https://dev.to/observabilityguy/introducing-the-all-new-sls-sql-copilot-2mg3",
       "source": "Dev.to",
-      "author": "Emmanuel Victor",
-      "published": "2025-11-17T09:02:50+00:00",
+      "author": "ObservabilityGuy",
+      "published": "2025-11-24T09:11:10+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "best practices"
+      ]
     },
     {
       "id": "649b63051b5639b6",
@@ -8012,6 +7987,30 @@
       "keywords": []
     },
     {
+      "id": "5bca68c8f10a741e",
+      "title": "Encrypt your GDrive / Dropbox files. GPG for beginners!",
+      "description": "Cloud providers like Google Drive and Dropbox encrypt your data during transfer, but they do not always encrypt it while stored on their servers. This means the service provider could technically read your files. I’m not suggesting that they actually do this, but it’s still something many people are understandably uncomfortable with especially during the recent fiasco on requests of backdoor to the customer data from the government. Encryption Under Threat: The UK’s Backdoor Mandate and Its Impa",
+      "url": "https://dev.to/aviiciii/encrypt-your-gdrive-dropbox-files-gpg-for-beginners-2c4j",
+      "source": "Dev.to",
+      "author": "aviiciii",
+      "published": "2025-11-24T09:24:44+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "ded17ec6117d5327",
+      "title": "The Ultimate Guide to Automotive MOST Cables",
+      "description": "I. What Is an Automotive MOST Cable? Core Basics Before diving into specifics, it’s critical to understand what sets MOST cables apart from standard automotive wiring. Developed in the 1990s by a consortium of automotive giants (including BMW, Daimler, and Audi), MOST technology was created to address the growing demand for efficient multimedia data transfer—something traditional CAN bus systems (focused on control data) couldn’t handle. Key Definition & Working Principle An automotive MOST cabl",
+      "url": "https://dev.to/dspof2000/the-ultimate-guide-to-automotive-most-cables-a0k",
+      "source": "Dev.to",
+      "author": "dspof2000",
+      "published": "2025-11-24T09:05:20+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "5bf5ca989c5e2100",
       "title": "How to Compress Your Prompts and Reduce LLM Costs",
       "description": "Every developer working with large language models eventually faces the same challenge: prompts keep getting longer, models keep getting slower, and API bills keep getting higher. Whether you’re building a retrieval-augmented generation (RAG) system ...",
@@ -10226,6 +10225,30 @@
       "keywords": []
     },
     {
+      "id": "f665a2bd0780381a",
+      "title": "A One-Minute ADHD Test",
+      "description": "Comments",
+      "url": "https://psychotechnology.substack.com/p/a-one-minute-adhd-test-2330",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-24T07:09:28+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "99b6e0aea9e3028d",
+      "title": "Lambda Calculus – Animated Beta Reduction of Lambda Diagrams",
+      "description": "Comments",
+      "url": "https://cruzgodar.com/applets/lambda-calculus",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-24T05:17:15+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "78c4b08725d5f56b",
       "title": "React 19 Upgrade Guide",
       "description": "The improvements added to React 19 require some breaking changes, but we've worked to make the upgrade as smooth as possible and we don't expect the changes to impact most apps. In this post, we will guide you through the steps for upgrading apps and libraries to React 19.",
@@ -10312,8 +10335,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "performance",
-        "React 19"
+        "React 19",
+        "performance"
       ]
     },
     {
@@ -10525,6 +10548,18 @@
       "keywords": []
     },
     {
+      "id": "d6b152a8fab6c0b9",
+      "title": "Japan's gamble to turn island of Hokkaido into global chip hub",
+      "description": "Comments",
+      "url": "https://www.bbc.com/news/articles/c8676qpxgnqo",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-24T03:07:07+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
       "id": "4e6d7290f5ff11d8",
       "title": "React Native 0.80 - React 19.1, JS API Changes, Freezing Legacy Arch and much more",
       "description": "Today we are excited to release React Native 0.80!",
@@ -10535,9 +10570,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
+        "React 19",
         "release",
-        "API",
-        "React 19"
+        "API"
       ]
     },
     {
@@ -10607,8 +10642,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10650,8 +10685,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "API",
-        "framework"
+        "framework",
+        "API"
       ]
     },
     {
@@ -10780,10 +10815,10 @@
       "score": 30,
       "keywords": [
         "code",
-        "performance",
-        "release",
         "API",
-        "framework"
+        "framework",
+        "release",
+        "performance"
       ]
     },
     {
@@ -11141,9 +11176,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "performance",
         "developer",
-        "code"
+        "code",
+        "performance"
       ]
     },
     {
@@ -11157,8 +11192,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "framework",
-        "development"
+        "development",
+        "framework"
       ]
     },
     {
@@ -11172,8 +11207,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "performance",
-        "development"
+        "development",
+        "performance"
       ]
     },
     {
@@ -11314,8 +11349,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "developer",
-        "code"
+        "code",
+        "developer"
       ]
     },
     {
@@ -11513,6 +11548,18 @@
       "keywords": []
     },
     {
+      "id": "d2bae9bd5667dcf1",
+      "title": "Breakthrough in antimatter production",
+      "description": "Comments",
+      "url": "https://home.cern/news/news/experiments/breakthrough-antimatter-production",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-19T13:19:39+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
       "id": "dbd2b0d5506595c5",
       "title": "The fastest agent in the race has the best evals",
       "description": "Ryan welcomes Benjamin Klieger, lead engineer at Groq, to explore the infrastructure behind AI agents, how you can turn a one-minute agent into a ten-second agent, and how they used fast inference and effective evals to build their efficient and reliable Compound agent.",
@@ -11695,8 +11742,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "programming",
-        "development"
+        "development",
+        "programming"
       ]
     },
     {
