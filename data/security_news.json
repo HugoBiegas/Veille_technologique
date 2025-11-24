@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-11-23T21:21:41.165482+00:00",
-  "total_articles": 422,
+  "last_updated": "2025-11-24T02:02:58.741549+00:00",
+  "total_articles": 421,
   "articles": [
     {
       "id": "a08752222f9e1e66",
@@ -231,23 +231,6 @@
         "security flaw",
         "vulnerability",
         "zero-day"
-      ]
-    },
-    {
-      "id": "da64ee2a301988f2",
-      "title": "Microsoft Patch Tuesday, November 2025 Edition",
-      "description": "Microsoft this week pushed security updates to fix more than 60 vulnerabilities in its Windows operating systems and supported software, including at least one zero-day bug that is already being exploited. Microsoft also fixed a glitch that prevented some Windows 10 users from taking advantage of an extra year of security updates, which is nice because the zero-day flaw and other critical weaknesses patched today affect all versions of Windows, including Windows 10.",
-      "url": "https://krebsonsecurity.com/2025/11/microsoft-patch-tuesday-november-2025-edition/",
-      "source": "Krebs on Security",
-      "author": "BrianKrebs",
-      "published": "2025-11-16T21:47:14+00:00",
-      "niche": "security",
-      "score": 99,
-      "keywords": [
-        "security",
-        "exploit",
-        "zero-day",
-        "patch"
       ]
     },
     {
@@ -2461,6 +2444,23 @@
       ]
     },
     {
+      "id": "da64ee2a301988f2",
+      "title": "Microsoft Patch Tuesday, November 2025 Edition",
+      "description": "Microsoft this week pushed security updates to fix more than 60 vulnerabilities in its Windows operating systems and supported software, including at least one zero-day bug that is already being exploited. Microsoft also fixed a glitch that prevented some Windows 10 users from taking advantage of an extra year of security updates, which is nice because the zero-day flaw and other critical weaknesses patched today affect all versions of Windows, including Windows 10.",
+      "url": "https://krebsonsecurity.com/2025/11/microsoft-patch-tuesday-november-2025-edition/",
+      "source": "Krebs on Security",
+      "author": "BrianKrebs",
+      "published": "2025-11-16T21:47:14+00:00",
+      "niche": "security",
+      "score": 63,
+      "keywords": [
+        "security",
+        "zero-day",
+        "patch",
+        "exploit"
+      ]
+    },
+    {
       "id": "175d99de571c9d02",
       "title": "Windows 11 gets new Cloud Rebuild, Point-in-Time Restore tools",
       "description": "Microsoft announced two new Windows 11 recovery features today at the Ignite developer conference, called Cloud Rebuild and Point-in-Time Restore (PITR), that aim to reduce downtime and make it easier to recover from system failures or faulty updates. [...]",
@@ -2564,10 +2564,10 @@
       "niche": "security",
       "score": 61,
       "keywords": [
-        "RCE",
-        "secure",
+        "OWASP",
         "security",
-        "OWASP"
+        "secure",
+        "RCE"
       ]
     },
     {
@@ -3777,8 +3777,8 @@
       "score": 51,
       "keywords": [
         "vulnerability",
-        "patch",
-        "disclosure"
+        "disclosure",
+        "patch"
       ]
     },
     {
@@ -3792,9 +3792,9 @@
       "niche": "security",
       "score": 51,
       "keywords": [
-        "attack",
+        "security",
         "exploit",
-        "security"
+        "attack"
       ]
     },
     {
@@ -3808,9 +3808,9 @@
       "niche": "security",
       "score": 51,
       "keywords": [
-        "attack",
+        "security",
         "exploit",
-        "security"
+        "attack"
       ]
     },
     {
@@ -4068,8 +4068,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "CVE-",
-        "security"
+        "security",
+        "CVE-"
       ]
     },
     {
@@ -4367,18 +4367,6 @@
       ]
     },
     {
-      "id": "aa98a129505e690f",
-      "title": "ISC Stormcast For Monday, November 17th, 2025 https://isc.sans.edu/podcastdetail/9702, (Mon, Nov 17th)",
-      "description": "",
-      "url": "https://isc.sans.edu/diary/rss/32494",
-      "source": "SANS Internet Storm Center",
-      "author": "Inconnu",
-      "published": "2025-11-17T02:00:03+00:00",
-      "niche": "security",
-      "score": 44,
-      "keywords": []
-    },
-    {
       "id": "ec42437e5ae1cc70",
       "title": "ISC Stormcast For Tuesday, November 18th, 2025 https://isc.sans.edu/podcastdetail/9704, (Tue, Nov 18th)",
       "description": "",
@@ -4465,6 +4453,18 @@
       "keywords": []
     },
     {
+      "id": "98c895aaab441c79",
+      "title": "ISC Stormcast For Monday, November 24th, 2025 https://isc.sans.edu/podcastdetail/9712, (Mon, Nov 24th)",
+      "description": "",
+      "url": "https://isc.sans.edu/diary/rss/32516",
+      "source": "SANS Internet Storm Center",
+      "author": "Inconnu",
+      "published": "2025-11-24T02:00:02+00:00",
+      "niche": "security",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "054462437f4ac6f7",
       "title": "Defeating KASLR by Doing Nothing at All",
       "description": "Posted by Seth Jenkins, Project ZeroIntroductionI've recently been researching Pixel kernel exploitation and as part of this research I found myself with an excellent arbitrary write primitive…but without a KASLR leak. As necessity is the mother of all invention, on a hunch, I started researching the Linux kernel linear mapping.The Linux Linear MappingThe linear mapping is a region in the kernel virtual address space that is a direct 1:1 unstructured representation of physical memory. Working wi",
@@ -4518,23 +4518,11 @@
       "niche": "security",
       "score": 43,
       "keywords": [
-        "RCE",
-        "secure",
+        "OWASP",
         "security",
-        "OWASP"
+        "secure",
+        "RCE"
       ]
-    },
-    {
-      "id": "88ac06d02ee0b493",
-      "title": "Five admit helping North Korea evade sanctions through IT worker schemes",
-      "description": "Five pleaded guilty to aiding North Korea ’s illicit revenue via IT worker fraud, violating international sanctions. The U.S. Department of Justice announced that five people have pleaded guilty to helping North Korea secretly generate revenue by running illegal IT-worker schemes that violated international sanctions. The individuals &#8211; Audricus Phagnasay (24), Jason Salazar (30), Alexander [&#8230;]",
-      "url": "https://securityaffairs.com/184712/cyber-crime/five-admit-helping-north-korea-evade-sanctions-through-it-worker-schemes.html",
-      "source": "Security Affairs",
-      "author": "Pierluigi Paganini",
-      "published": "2025-11-16T21:39:29+00:00",
-      "niche": "security",
-      "score": 42,
-      "keywords": []
     },
     {
       "id": "de5b0184c9673462",
@@ -4847,9 +4835,9 @@
       "niche": "security",
       "score": 42,
       "keywords": [
-        "RCE",
+        "OWASP",
         "security",
-        "OWASP"
+        "RCE"
       ]
     },
     {
@@ -4892,8 +4880,8 @@
       "niche": "security",
       "score": 38,
       "keywords": [
-        "RCE",
-        "OWASP"
+        "OWASP",
+        "RCE"
       ]
     },
     {
@@ -4907,10 +4895,10 @@
       "niche": "security",
       "score": 37,
       "keywords": [
-        "threat",
-        "web application security",
+        "OWASP",
         "security",
-        "OWASP"
+        "threat",
+        "web application security"
       ]
     },
     {
@@ -4966,9 +4954,9 @@
       "niche": "security",
       "score": 36,
       "keywords": [
-        "RCE",
+        "injection",
         "SQL injection",
-        "injection"
+        "RCE"
       ]
     },
     {
@@ -4994,8 +4982,8 @@
       "niche": "security",
       "score": 32,
       "keywords": [
-        "RCE",
-        "remote code execution"
+        "remote code execution",
+        "RCE"
       ]
     },
     {
@@ -5009,9 +4997,9 @@
       "niche": "security",
       "score": 31,
       "keywords": [
+        "secure",
         "threat",
-        "RCE",
-        "secure"
+        "RCE"
       ]
     },
     {
@@ -5025,9 +5013,9 @@
       "niche": "security",
       "score": 31,
       "keywords": [
-        "secure",
+        "OWASP",
         "security",
-        "OWASP"
+        "secure"
       ]
     },
     {
@@ -5041,8 +5029,8 @@
       "niche": "security",
       "score": 30,
       "keywords": [
-        "RCE",
-        "security"
+        "security",
+        "RCE"
       ]
     },
     {
@@ -5056,8 +5044,8 @@
       "niche": "security",
       "score": 30,
       "keywords": [
-        "RCE",
-        "attack"
+        "attack",
+        "RCE"
       ]
     },
     {
@@ -5071,8 +5059,8 @@
       "niche": "security",
       "score": 30,
       "keywords": [
-        "security",
-        "OWASP"
+        "OWASP",
+        "security"
       ]
     },
     {
@@ -5086,9 +5074,9 @@
       "niche": "security",
       "score": 28,
       "keywords": [
-        "attack",
         "ransomware",
-        "security"
+        "security",
+        "attack"
       ]
     },
     {
@@ -5156,8 +5144,8 @@
       "niche": "security",
       "score": 26,
       "keywords": [
-        "SQL injection",
-        "injection"
+        "injection",
+        "SQL injection"
       ]
     },
     {
@@ -5297,8 +5285,8 @@
       "niche": "security",
       "score": 24,
       "keywords": [
-        "SQL injection",
-        "injection"
+        "injection",
+        "SQL injection"
       ]
     },
     {
@@ -5368,9 +5356,9 @@
       "niche": "security",
       "score": 19,
       "keywords": [
+        "security",
         "cybersecurity",
-        "PoC",
-        "security"
+        "PoC"
       ]
     },
     {
@@ -5384,8 +5372,8 @@
       "niche": "security",
       "score": 19,
       "keywords": [
-        "cybersecurity",
-        "security"
+        "security",
+        "cybersecurity"
       ]
     },
     {
@@ -5483,8 +5471,8 @@
       "niche": "security",
       "score": 18,
       "keywords": [
-        "attack",
-        "security"
+        "security",
+        "attack"
       ]
     },
     {
@@ -5498,8 +5486,8 @@
       "niche": "security",
       "score": 18,
       "keywords": [
-        "bug bounty",
-        "security"
+        "security",
+        "bug bounty"
       ]
     },
     {
@@ -5569,8 +5557,8 @@
       "niche": "security",
       "score": 15,
       "keywords": [
-        "secure",
-        "security"
+        "security",
+        "secure"
       ]
     },
     {
