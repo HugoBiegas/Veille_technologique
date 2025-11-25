@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-11-25T18:38:06.397896+00:00",
-  "total_articles": 950,
+  "last_updated": "2025-11-25T21:23:18.050784+00:00",
+  "total_articles": 967,
   "articles": [
     {
       "id": "9ca523bc483f8697",
@@ -128,6 +128,21 @@
       "keywords": [
         "framework",
         "dependency injection"
+      ]
+    },
+    {
+      "id": "f097bea60cc6a763",
+      "title": "How to Align Spring Boot Validation Errors with Your JSON Property Naming Strategy",
+      "description": "Problem Our API uses a snake_case naming strategy for DTO deserialization and serialization. However, when validation fails, the error messages still use the original object property names, ignoring the configured naming strategy, which leads to inconsistent API responses. Solution This issue occurs because bean validation happens after the incoming request has been deserialized into the DTO, but before the response is serialized. As a result, validation errors report the Java field names rather",
+      "url": "https://dev.to/ibrahimgunduz34/how-to-align-spring-boot-validation-errors-with-your-json-property-naming-strategy-4b83",
+      "source": "Dev.to",
+      "author": "İbrahim Gündüz",
+      "published": "2025-11-25T21:00:18+00:00",
+      "niche": "dev",
+      "score": 75,
+      "keywords": [
+        "Spring",
+        "API"
       ]
     },
     {
@@ -530,6 +545,34 @@
       ]
     },
     {
+      "id": "855b8d3a2b58fcaf",
+      "title": "AlloyDB Agentic RAG Application with MCP Toolbox [Part 2]",
+      "description": "This is Part 2 of the AlloyDB Agentic RAG application tutorial, please start with Part 1. 7. Deploy the MCP Toolbox to Cloud Run Now we can deploy the MCP Toolbox to Cloud Run. There are different ways how the MCP toolbox can be deployed. The simplest way is to run it from the command line but if we want to have it as a scalable and reliable service then Cloud Run is a better solution. Prepare Client ID To use booking functionality of the application we need to prepare OAuth 2.0 Client ID using ",
+      "url": "https://dev.to/googleai/alloydb-agentic-rag-application-with-mcp-toolbox-part-2-2l28",
+      "source": "Dev.to",
+      "author": "Gleb Otochkin",
+      "published": "2025-11-25T21:18:50+00:00",
+      "niche": "dev",
+      "score": 69,
+      "keywords": [
+        "tutorial"
+      ]
+    },
+    {
+      "id": "db054582ebef9669",
+      "title": "AlloyDB Agentic RAG Application with MCP Toolbox [Part 1]",
+      "description": "1. Introduction In this codelab, you will learn how to create an AlloyDB cluster, deploy the MCP toolbox, and configure it to use AlloyDB as a data source. You'll then build a sample interactive RAG application that uses the deployed toolbox to ground its requests. You can get more information about the MCP Toolbox on the documentation page and the sample Cymbal Air application here. This lab is part of a lab collection dedicated to AlloyDB AI features. You can read more on the AlloyDB AI page i",
+      "url": "https://dev.to/googleai/alloydb-agentic-rag-application-with-mcp-toolbox-part-1-1l8k",
+      "source": "Dev.to",
+      "author": "Gleb Otochkin",
+      "published": "2025-11-25T21:17:28+00:00",
+      "niche": "dev",
+      "score": 69,
+      "keywords": [
+        "code"
+      ]
+    },
+    {
       "id": "c92028c7be390095",
       "title": "The lumberjack paradox: From theory to practice",
       "description": "Previously, I shared my thoughts on Neal Sample’s \"lumberjack paradox\" and the urgent need to build the systems thinkers of tomorrow. I argued that leaders must move beyond simple efficiency and focus on re-engineering the experience (Dr. Gary Klein) and creating context to ensure we don't lose the path to deep expertise. But what does \"leadership as context creator\" look like in practice? For us in Cloud DevRel Engineering, it isn't abstract. It comes down to how we manage the most fundamental ",
@@ -774,18 +817,6 @@
         "framework",
         "REST API"
       ]
-    },
-    {
-      "id": "1ee8d7ef3fb273b3",
-      "title": "GitHub: Git operation failures",
-      "description": "Comments",
-      "url": "https://www.githubstatus.com/incidents/5q7nmlxz30sk",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-18T20:40:46+00:00",
-      "niche": "dev",
-      "score": 62,
-      "keywords": []
     },
     {
       "id": "7221b60cc653b15b",
@@ -1033,6 +1064,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-11-25T17:33:50+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": []
+    },
+    {
+      "id": "7d16e9bfb706d2de",
+      "title": "Google Antigravity exfiltrates data",
+      "description": "Comments",
+      "url": "https://www.promptarmor.com/resources/google-antigravity-exfiltrates-data",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-25T18:31:16+00:00",
       "niche": "dev",
       "score": 62,
       "keywords": []
@@ -1490,6 +1533,23 @@
       "keywords": [
         "performance",
         "API"
+      ]
+    },
+    {
+      "id": "26ba08b8ce1a8800",
+      "title": "Why Execution Matters More Than Ideas in Modern Software Development",
+      "description": "Most developers believe great products start with great ideas - but in reality, execution decides everything. A digital product can have all the potential in the world, but if the engineering is slow, the UX is confusing, the architecture can’t scale, or the workflows lack automation… the entire project collapses. Ideas don’t ship. Execution does. When we say Build fast, but build smart, it means: Move quickly, but don’t skip fundamentals. Keep your code lean and modular. Prioritize performance ",
+      "url": "https://dev.to/farhannasirdev/why-execution-matters-more-than-ideas-in-modern-software-development-4l5i",
+      "source": "Dev.to",
+      "author": "Farhan Nasir",
+      "published": "2025-11-25T20:58:47+00:00",
+      "niche": "dev",
+      "score": 57,
+      "keywords": [
+        "code",
+        "performance",
+        "development",
+        "developer"
       ]
     },
     {
@@ -2305,6 +2365,21 @@
       "keywords": [
         "developer",
         "release"
+      ]
+    },
+    {
+      "id": "3ed3981f47963df7",
+      "title": "AWS Blu Age Modernization: My Journey Through All 3 Certification Levels",
+      "description": "AWS Blu Age Modernization: My Journey Through All 3 Certification Levels What is AWS Blu Age? AWS Blu Age is an automated mainframe modernization solution that transforms legacy COBOL applications into modern Java Spring Boot applications running on AWS. It's part of AWS Mainframe Modernization service and uses AI-powered refactoring to convert decades-old code into cloud-native applications. Key Value: Instead of manually rewriting millions of lines of COBOL code (which takes years), Blu Age au",
+      "url": "https://dev.to/debapriya_dey_aada54b7766/aws-blu-age-modernization-my-journey-through-all-3-certification-levels-18c5",
+      "source": "Dev.to",
+      "author": "Debapriya Dey",
+      "published": "2025-11-25T21:10:21+00:00",
+      "niche": "dev",
+      "score": 55,
+      "keywords": [
+        "Spring",
+        "code"
       ]
     },
     {
@@ -3209,6 +3284,34 @@
       "score": 54,
       "keywords": [
         "API"
+      ]
+    },
+    {
+      "id": "f2844fc19975f20b",
+      "title": "ASP.NET Core + Docker: Mastering Multi-Stage Builds for Web APIs",
+      "description": "ASP.NET Core + Docker: Mastering Multi‑Stage Builds for Web APIs “Visual Studio gave me this Dockerfile… but what is it actually doing?” If you’ve ever right‑clicked “Add > Docker Support” in an ASP.NET project, you’ve probably seen a fairly complex multi‑stage Dockerfile appear in your repo. It looks smart. It builds. It even runs in Debug. But: What does each stage really do? What do you actually need installed to make it work? Why is there a mysterious USER $APP_UID line? How do you safely bu",
+      "url": "https://dev.to/cristiansifuentes/aspnet-core-docker-mastering-multi-stage-builds-for-web-apis-5f7i",
+      "source": "Dev.to",
+      "author": "Cristian Sifuentes",
+      "published": "2025-11-25T21:02:39+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "API"
+      ]
+    },
+    {
+      "id": "a9c05ac964a1b599",
+      "title": "Design System Culture: What It Is And Why It Matters (Excerpt)",
+      "description": "We’re so happy to announce that “Maturing Design Systems”—a Smashing book by Ben Callahan &mdash; will soon be joining the Smashing Library! Ben’s insights and advice are so powerful, we thought you might like to read an excerpt from the book. Subscribe to our Smashing newsletter to be notified when orders are open.",
+      "url": "https://smashingmagazine.com/2025/11/design-system-culture/",
+      "source": "Smashing Magazine",
+      "author": "hello@smashingmagazine.com (Ari Stiles)",
+      "published": "2025-11-25T18:00:00+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "library"
       ]
     },
     {
@@ -5261,6 +5364,48 @@
       "score": 51,
       "keywords": [
         "developer"
+      ]
+    },
+    {
+      "id": "a5f5a3e0f7e40bd9",
+      "title": "Learn CSS Flexbox for Beginners [Free 2-hour course]",
+      "description": "Flexbox is a powerful CSS feature that lets you build user interfaces that fit any screen size. freeCodeCamp just published a Flexbox for beginners course where you'll learn the concepts and code syntax by building your own website navigation bar. If...",
+      "url": "https://www.freecodecamp.org/news/learn-css-flexbox-for-beginners-free-2-hour-course/",
+      "source": "freeCodeCamp",
+      "author": "Quincy Larson",
+      "published": "2025-11-25T18:01:24+00:00",
+      "niche": "dev",
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
+    },
+    {
+      "id": "b290359689a11665",
+      "title": "How to Deploy Your Own Cockroach DB Instance on Kubernetes [Full Book for Devs]",
+      "description": "Developers are smart, wonderful people, and they’re some of the most logical thinkers you’ll ever meet. But we’re pretty terrible at naming things 😂 Like, what in the world – out of every other possible name, they decided to name a database after a ...",
+      "url": "https://www.freecodecamp.org/news/deploy-your-own-cockroach-db-instance-on-kubernetes-full-book-for-devs/",
+      "source": "freeCodeCamp",
+      "author": "Prince Onukwili",
+      "published": "2025-11-25T17:16:50+00:00",
+      "niche": "dev",
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
+    },
+    {
+      "id": "53e89465371c3b93",
+      "title": "How to Use Vibe Coding Effectively as a Dev",
+      "description": "It may seem like everyone is a vibe coder these days, and prompting seemed like it would become the new coding. But is this AI-generated code really deployable? Bragging on social media about a clever script is one thing, but pushing a vibe coded app...",
+      "url": "https://www.freecodecamp.org/news/how-to-use-vibe-coding-effectively-as-a-dev/",
+      "source": "freeCodeCamp",
+      "author": "Ankur Tyagi",
+      "published": "2025-11-25T16:52:00+00:00",
+      "niche": "dev",
+      "score": 51,
+      "keywords": [
+        "code"
       ]
     },
     {
@@ -7834,19 +7979,64 @@
       "keywords": []
     },
     {
-      "id": "5bf5ca989c5e2100",
-      "title": "How to Compress Your Prompts and Reduce LLM Costs",
-      "description": "Every developer working with large language models eventually faces the same challenge: prompts keep getting longer, models keep getting slower, and API bills keep getting higher. Whether you’re building a retrieval-augmented generation (RAG) system ...",
-      "url": "https://www.freecodecamp.org/news/how-to-compress-your-prompts-and-reduce-llm-costs/",
-      "source": "freeCodeCamp",
-      "author": "Manish Shivanandhan",
-      "published": "2025-11-18T19:10:56+00:00",
+      "id": "6defcf718513b0af",
+      "title": "✅ *Authentication & Authorization Basics* 🔐🌐",
+      "description": "🔹 What is Authentication? It’s the process of verifying who a user is. 🔹 What is Authorization? It’s the process of verifying what a user is allowed to do after logging in. ✅ Step 1: Authentication – Common Methods • Username & Password – Basic login • OAuth – Login via Google, GitHub, etc. • JWT (JSON Web Token) – Popular for token-based auth • Session-Based – Stores session on server with session ID ✅ Step 2: How Login Works (JWT Example) User sends email & password to server Server verifies a",
+      "url": "https://dev.to/ssekabirarobertsims/authentication-authorization-basics-3o6g",
+      "source": "Dev.to",
+      "author": "ssekabira robert sims",
+      "published": "2025-11-25T21:04:20+00:00",
       "niche": "dev",
-      "score": 49,
-      "keywords": [
-        "API",
-        "developer"
-      ]
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "bd52c8c8c979b9a0",
+      "title": "I Treated My Team Like Customers and Became a Better Manager",
+      "description": "I used to be terrible at 1-on-1s. Not because I didn't care. I cared deeply about my team. But every meeting felt like I was starting from scratch. \"How's that project going?\" I'd ask. \"I finished that two weeks ago,\" they'd remind me. Awkward silence. Then one day, I had a realization that changed everything. The Sales Team Didn't Have This Problem Our sales team managed relationships with 50+ customers each. Somehow, they never forgot what was discussed in the last call. They never asked the s",
+      "url": "https://dev.to/secur3-et/i-treated-my-team-like-customers-and-became-a-better-manager-18mj",
+      "source": "Dev.to",
+      "author": "Secur3-et",
+      "published": "2025-11-25T21:03:20+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "db8fb7581ed59298",
+      "title": "Illuminating the Nanoscale: AI-Driven Design for Light Bending",
+      "description": "Illuminating the Nanoscale: AI-Driven Design for Light Bending Imagine designing optical devices atom-by-atom, manipulating light at scales smaller than the wavelength of visibility. Sounds like science fiction, right? The challenge lies in the sheer complexity – traditionally, designing these structures requires computationally intensive simulations and painstaking trial-and-error. Now, picture a universal translator for light. That’s the essence of what's now possible: an AI trained to connect",
+      "url": "https://dev.to/arvind_sundararajan/illuminating-the-nanoscale-ai-driven-design-for-light-bending-38m7",
+      "source": "Dev.to",
+      "author": "Arvind SundaraRajan",
+      "published": "2025-11-25T21:02:07+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "0fc308d86cbf195d",
+      "title": "Why Data-Driven Decision Making Begins With ERP Integration",
+      "description": "In today’s fast-moving business world, leaders talk constantly about the importance of data. But the real challenge is not the lack of information — it’s the fact that most companies collect data that never truly connects. Sales teams track one set of numbers, finance uses another system, and operations monitor their own spreadsheets. Everyone is working hard, yet the picture they’re looking at is incomplete. This is exactly where ERP integration changes the story. Instead of scattered fragments",
+      "url": "https://dev.to/disiplin_forml_e60c4755/why-data-driven-decision-making-begins-with-erp-integration-559g",
+      "source": "Dev.to",
+      "author": "Disiplin Formülü",
+      "published": "2025-11-25T21:00:16+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "f437f58af6c89726",
+      "title": "How to Build a Secure Authentication System with JWT and Refresh Tokens",
+      "description": "Every app that handles user accounts needs a way to confirm who’s who. That’s what authentication is for, making sure the person using an app is the person they claim to be. But doing this securely is harder than it sounds. Traditional methods often ...",
+      "url": "https://www.freecodecamp.org/news/how-to-build-a-secure-authentication-system-with-jwt-and-refresh-tokens/",
+      "source": "freeCodeCamp",
+      "author": "Joan Ayebola",
+      "published": "2025-11-25T18:32:53+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
     },
     {
       "id": "b1048e51551dc974",
@@ -9965,6 +10155,30 @@
       "keywords": []
     },
     {
+      "id": "2b91f49b483178b6",
+      "title": "Bad UX World Cup 2025",
+      "description": "Comments",
+      "url": "https://badux.lol/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-25T18:36:10+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "f23ff45510614605",
+      "title": "A New Bridge Links the Math of Infinity to Computer Science",
+      "description": "Comments",
+      "url": "https://www.quantamagazine.org/a-new-bridge-links-the-strange-math-of-infinity-to-computer-science-20251121/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-25T19:53:20+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "78c4b08725d5f56b",
       "title": "React 19 Upgrade Guide",
       "description": "The improvements added to React 19 require some breaking changes, but we've worked to make the upgrade as smooth as possible and we don't expect the changes to impact most apps. In this post, we will guide you through the steps for upgrading apps and libraries to React 19.",
@@ -10068,10 +10282,10 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "release",
+        "developer",
         "performance",
-        "development",
-        "developer"
+        "release",
+        "development"
       ]
     },
     {
@@ -10159,10 +10373,10 @@
       "niche": "dev",
       "score": 39,
       "keywords": [
-        "release",
-        "development",
+        "developer",
         "code",
-        "developer"
+        "release",
+        "development"
       ]
     },
     {
@@ -10341,6 +10555,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-11-25T12:14:11+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
+      "id": "dcad16407adfb102",
+      "title": "Jakarta is now the biggest city in the world",
+      "description": "Comments",
+      "url": "https://www.axios.com/2025/11/24/jakarta-tokyo-worlds-biggest-city-population",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-25T06:09:05+00:00",
       "niche": "dev",
       "score": 38,
       "keywords": []
@@ -10581,10 +10807,10 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "framework",
-        "performance",
         "code",
         "release",
+        "framework",
+        "performance",
         "API"
       ]
     },
@@ -10689,18 +10915,6 @@
       "keywords": [
         "release"
       ]
-    },
-    {
-      "id": "17f38e2e2eb2fab3",
-      "title": "A surprise with how '#!' handles its program argument in practice",
-      "description": "Comments",
-      "url": "https://utcc.utoronto.ca/~cks/space/blog/unix/ShebangRelativePathSurprise",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-18T19:32:27+00:00",
-      "niche": "dev",
-      "score": 26,
-      "keywords": []
     },
     {
       "id": "a3523071d4e21ff6",
@@ -10940,8 +11154,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "framework"
+        "framework",
+        "release"
       ]
     },
     {
@@ -10955,8 +11169,8 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "performance",
         "code",
+        "performance",
         "developer"
       ]
     },
@@ -10971,8 +11185,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "development",
-        "framework"
+        "framework",
+        "development"
       ]
     },
     {
@@ -11380,6 +11594,30 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-11-21T10:54:15+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "cd22c2cdb9845801",
+      "title": "how to repurpose your old phone into a web server",
+      "description": "Comments",
+      "url": "https://far.computer/how-to/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-22T18:16:59+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "7b19eb85a5c8f53f",
+      "title": "A rare GM EV1 saved from the crusher is going to be driveable again",
+      "description": "Comments",
+      "url": "https://electrek.co/2025/11/19/gm-ev1-saved-from-crusher-going-driveable-again/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-20T02:08:17+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -11973,18 +12211,6 @@
       "published": "2025-10-10T00:00:00+00:00",
       "niche": "dev",
       "score": 12,
-      "keywords": []
-    },
-    {
-      "id": "56b58f45f92ab854",
-      "title": "Fading Light And Falling Leaves (November 2025 Wallpapers Edition)",
-      "description": "The new month is just around the corner, and that means: It’s time for some new desktop wallpapers! All of them are designed by the community for the community and can be downloaded for free. Enjoy!",
-      "url": "https://smashingmagazine.com/2025/10/desktop-wallpaper-calendars-november-2025/",
-      "source": "Smashing Magazine",
-      "author": "hello@smashingmagazine.com (Cosima Mielke)",
-      "published": "2025-10-31T12:00:00+00:00",
-      "niche": "dev",
-      "score": 10,
       "keywords": []
     },
     {
