@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-11-26T03:50:28.460743+00:00",
-  "total_articles": 973,
+  "last_updated": "2025-11-26T06:38:21.200712+00:00",
+  "total_articles": 976,
   "articles": [
     {
       "id": "9ca523bc483f8697",
@@ -1200,6 +1200,22 @@
       ]
     },
     {
+      "id": "2ac3ed38b78479ca",
+      "title": "We Upgrade Software Without Question. Why Don’t We Upgrade Ourselves?",
+      "description": "I don’t code. But I spend my days around people who do — the late-night builders, the tab-vs-space philosophers, the “I’ll fix it in 5 minutes” liars (we all know it’s never 5 minutes :P). And being surrounded by them taught me something no self-help book ever has: Software updates constantly. Humans avoid updating at all costs. And that… makes no sense. 💻 In tech, upgrades are NORMAL. Expected. Celebrated. If a framework updates every 3 weeks? Cool. If a library is deprecated? Expected. If you ",
+      "url": "https://dev.to/notadevbuthere/we-upgrade-software-without-question-why-dont-we-upgrade-ourselves-34hl",
+      "source": "Dev.to",
+      "author": "Urvisha Maniar",
+      "published": "2025-11-26T06:09:53+00:00",
+      "niche": "dev",
+      "score": 58,
+      "keywords": [
+        "code",
+        "library",
+        "framework"
+      ]
+    },
+    {
       "id": "d7483ae2b4ff1138",
       "title": "Building a Serverless Student Management System Using AWS (Lambda, API Gateway, DynamoDB, S3 & CloudFront)",
       "description": "In this project, I designed and deployed a complete serverless Student Management application using AWS services. The system lets users add new student records and retrieve existing data, powered entirely by: AWS Lambda Amazon DynamoDB API Gateway (REST API) S3 Static Website Hosting CloudFront CDN IAM (Role-based permissions) This article contains everything needed to recreate the project from scratch 1. Create DynamoDB Table Open DynamoDB in the AWS Console Click Create Table Set: Table name: ",
@@ -1460,22 +1476,6 @@
       ]
     },
     {
-      "id": "278f7b1f86b17172",
-      "title": "Introduction to Swarm: Creating Custom Plugins",
-      "description": "Part 1: An Extensible Typescript Code Generation Framework Part 2: Building Full-Stack Apps With Wasp Part 3: Creating a NextJS Plugin In Part 2, we explored how Swarm's Wasp plugin accelerates Wasp application development by generating context-aware boilerplate code. Now, let's dive deeper into Swarm's extensibility by building a plugin for Next.js from scratch. We'll create a route generator that supports Next.js's flexible routing system, including App Router, Pages Router, dynamic routes, an",
-      "url": "https://dev.to/genyus/introduction-to-swarm-creating-custom-plugins-5829",
-      "source": "Dev.to",
-      "author": "Gary McPherson",
-      "published": "2025-11-19T05:50:30+00:00",
-      "niche": "dev",
-      "score": 56,
-      "keywords": [
-        "framework",
-        "code",
-        "development"
-      ]
-    },
-    {
       "id": "7ae9e89071b7d8da",
       "title": "Thunderbird Adds Native Microsoft Exchange Email Support",
       "description": "Comments",
@@ -1732,18 +1732,19 @@
       "keywords": []
     },
     {
-      "id": "b895c5161a4dbbd7",
-      "title": "PHP发送get和post请求",
-      "description": "PHP发送GET请求，用file_get_contents() <?php $url='https://www.mantools.top/'; $html = file_get_contents($url); echo $html; ?> PHP发送POST请求，用file_get_contents() /** * 发送post请求 * @param string $url 请求地址 * @param array $post_data post键值对数据 * @return string */ function send_post($url, $post_data) { $postdata = http_build_query($post_data); $options = array( 'http' => array( 'method' => 'POST', 'header' => 'Content-type:application/x-www-form-urlencoded', 'content' => $postdata, 'timeout' => 15 * 60 // 超时时间",
-      "url": "https://dev.to/cheng_qian_8382fdc61158ce/phpfa-song-gethe-postqing-qiu-2kae",
+      "id": "e8ae186694ff65f0",
+      "title": "Under the Hood: pyscn — A High-Performance Python Analyzer for the AI Era",
+      "description": "pyscn: Keeping AI-Generated Python Code Clean with Structural Analysis As developers rely more on AI tools to generate large amounts of code, maintaining code quality becomes increasingly challenging. pyscn is designed to address this by detecting structural issues—unreachable code, duplication, complexity, and architectural coupling—that traditional linters often overlook. Design Goals Structural analysis over style — focuses on architecture and logic, not formatting. High throughput — suitable",
+      "url": "https://dev.to/djinn-soul/under-the-hood-pyscn-a-high-performance-python-analyzer-for-the-ai-era-3e8l",
       "source": "Dev.to",
-      "author": "CHENG QIAN",
-      "published": "2025-11-19T05:43:58+00:00",
+      "author": "Krunal Hedaoo",
+      "published": "2025-11-26T06:26:17+00:00",
       "niche": "dev",
-      "score": 55,
+      "score": 56,
       "keywords": [
+        "performance",
         "code",
-        "PHP"
+        "developer"
       ]
     },
     {
@@ -2299,20 +2300,6 @@
       "keywords": [
         "Spring",
         "code"
-      ]
-    },
-    {
-      "id": "7576ed9654f3b542",
-      "title": "コスト削減と自由度アップ！商用ツールからオープンソースへの乗り換え15選",
-      "description": "はじめに 開発ツールの月額料金、気づいたら結構な金額になっていませんか？Postman、GitHub、Notion...便利なツールほど、チーム規模が大きくなると課金額も膨らんでいきます。 実は今、そんな商用ツールに匹敵する、いやそれ以上の機能を持つオープンソース代替が続々と登場しています。しかも、単なる「無料版」ではなく、データ管理の自由度やカスタマイズ性で商用製品を上回るケースも少なくありません。 この記事では、開発現場で実際に使える15の有名ツールと、その強力なオープンソース代替を厳選して紹介します。スタートアップで予算を抑えたい方も、エンタープライズでセキュリティ要件が厳しい方も、きっと参考になる情報が見つかるはずです。 1. Postman → Hoppscotch / Bruno / Apicat Postmanの問題点：API開発の定番ツールですが、近年はリソース消費が増加し起動が遅くなっています。また、チーム機能やワークスペース共有などの重要機能は有料プランが必要で、予算に制約のあるチームには負担になることも。 Hoppscotch ブラウザベースで超軽量なAPI開発ツ",
-      "url": "https://dev.to/nakamura_takuya/kosutoxue-jian-tozi-you-du-atupushang-yong-turukaraopunsosuhenocheng-rihuan-e15xuan-d11",
-      "source": "Dev.to",
-      "author": "takuya",
-      "published": "2025-11-19T06:03:28+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "API"
       ]
     },
     {
@@ -3248,6 +3235,20 @@
       ]
     },
     {
+      "id": "62c5dc5ec2e36f9f",
+      "title": "GraphBit’s Agentic AI Mechanisms Compared to Other Agent Frameworks",
+      "description": "GraphBit (Rust core + workflow graph + lock‑free concurrency) Execution engine Compiled Rust core schedules a WorkflowGraph with dependency awareness, spawning ready nodes concurrently Per‑node‑type concurrency with atomics (no global semaphore); fast‑path skips permits for simple nodes Python/Node bindings delegate to the Rust executor (low overhead orchestration) What this means Lower orchestration overhead, predictable scheduling, high throughput under load GraphBit scheduling of dependency‑r",
+      "url": "https://dev.to/yeahiasarker/graphbits-agentic-ai-mechanisms-compared-to-other-agent-frameworks-7j4",
+      "source": "Dev.to",
+      "author": "Yeahia Sarker",
+      "published": "2025-11-26T05:59:25+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "framework"
+      ]
+    },
+    {
       "id": "34d841ecddaa0e37",
       "title": "🧠 What 7 Years in .NET Development Taught Me About Software Craftsmanship",
       "description": "After a decade of building systems in .NET from small internal tools to large-scale enterprise platforms. I’ve learned that great software isn’t just about code. It’s about craftsmanship. Here are 10 lessons that stuck with me 👇 1️⃣ Clean code always wins long-term. Quick fixes impress today, but clarity impresses for years. 2️⃣ Patterns are tools, not rules. Don’t force CQRS, DDD, or Clean Architecture unless they solve your actual problem. 3️⃣ Tests are your safety net. Nothing feels better th",
@@ -3769,34 +3770,6 @@
       "score": 52,
       "keywords": [
         "programming",
-        "code"
-      ]
-    },
-    {
-      "id": "c9a7db98c9fbf08b",
-      "title": "From localStorage to Database: Understanding the MongoDB Structure❗",
-      "description": "Intro Hey everyone!🤗 If you are a developer who is just starting to work with databases, or perhaps you already know the basics and are looking for a recap or a more in-deph understanding, I hope this article will help you. When I learn something new, I like to dig deeper and understand the underlying logic to ensure everything is clear. That's why I have structured this article starting from the NoSQL fundamentals all the way to the internal data storage mechanisms, concentrating on the why beh",
-      "url": "https://dev.to/cristea_theodora_6200140b/from-localstorage-to-database-understanding-the-mongodb-structure-1a21",
-      "source": "Dev.to",
-      "author": "Theodora Cristea",
-      "published": "2025-11-19T05:55:18+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "developer"
-      ]
-    },
-    {
-      "id": "c2e980a93006ac6f",
-      "title": "Python by Structure: Match Statements and Pattern Guards",
-      "description": "Timothy stared at a function that had grown into a monster of nested if/elif statements. \"Margaret, this works, but it's getting hard to read. I'm checking the type, then the value, then special cases... is there a better way?\" Margaret looked at his code: def process_command(cmd): if isinstance(cmd, dict): if \"action\" in cmd and cmd[\"action\"] == \"start\": if \"delay\" in cmd and cmd[\"delay\"] > 0: return schedule_start(cmd[\"delay\"]) else: return start_now() elif \"action\" in cmd and cmd[\"action\"] ==",
-      "url": "https://dev.to/aaron_rose_0787cc8b4775a0/python-by-structure-match-statements-and-pattern-guards-1a68",
-      "source": "Dev.to",
-      "author": "Aaron Rose",
-      "published": "2025-11-19T05:52:29+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
         "code"
       ]
     },
@@ -5285,52 +5258,60 @@
       ]
     },
     {
-      "id": "c6f87ecc2ab4575f",
-      "title": "C# Collections Quick Reference",
-      "description": "Note: Created for my personal use. Used Claude AI for formatting and refinement. You might not even want to read it. 1. Array Class Type: Fixed-size, indexed, immutable length Creation int[] arr1 = new int[5]; // default values int[] arr2 = {1, 2, 3, 4, 5}; // initializer int[] arr3 = new int[] {1, 2, 3}; // explicit Access Index: arr[0], arr[^1] (last element) for loop: for(int i=0; i<arr.Length; i++) foreach: foreach(int x in arr) Add/Remove ❌ Cannot add/remove (fixed size) Use Array.Resize(re",
-      "url": "https://dev.to/recurpixel/c-collections-quick-reference-k1h",
+      "id": "818b98c9ee018721",
+      "title": "How to Build Agentic AI Systems: A Guide for Engineering Leaders",
+      "description": "The promise of Artificial Intelligence has evolved from generating content to taking action. Engineering leaders are now tasked with a new challenge: how to build agentic AI systems that are reliable, safe, and effective. This guide outlines the critical steps and considerations for developing AI that \"does\" rather than just \"talks.\" Defining the Scope of Autonomy Before writing a single line of code, you must define the \"autonomy level\" of your system. Will the agent simply suggest actions for ",
+      "url": "https://dev.to/ioweb_961ddefd53bd65fce97/how-to-build-agentic-ai-systems-a-guide-for-engineering-leaders-2nj7",
       "source": "Dev.to",
-      "author": "RecurPixel",
-      "published": "2025-11-19T06:33:33+00:00",
+      "author": "Aditya",
+      "published": "2025-11-26T06:29:06+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
-      "id": "cf70bce8cae28631",
-      "title": "Leaders – Wake Up and Smell the Coffee",
-      "description": "Exposing the undervaluation crisis The bid and proposal profession is in crisis. Not because it lacks expertise, but because it remains widely misunderstood. Too often, proposal professionals are treated as sales admin, sales support or “ambulance chasers” – scrambling to assemble last-minute bids with minimal strategic input. In reality, the bid and proposal function directly influence win rates, revenue growth, and competitive positioning. Yet, despite its impact, it rarely sits at the executi",
-      "url": "https://dev.to/bid_solution/leaders-wake-up-and-smell-the-coffee-1laf",
+      "id": "4ee93a55e8c59253",
+      "title": "GraphBit's Memory Efficiency Techniques: Code-Backed Strategies for Optimization",
+      "description": "Below is a concise, code‑verified summary of GraphBit’s memory efficiency techniques, with short excerpts and file paths. 1) Memory‑optimized executor profile Purpose: run in constrained environments with reduced footprint by lowering concurrency and disabling extras. Rust executor profile: /// Create a workflow executor optimized for memory usage pub fn new_memory_optimized() -> Self { let concurrency_config = ConcurrencyConfig::memory_optimized(); let concurrency_manager = Arc::new(Concurrency",
+      "url": "https://dev.to/yeahiasarker/graphbits-memory-efficiency-techniques-code-backed-strategies-for-optimization-1jg7",
       "source": "Dev.to",
-      "author": "Bid_solution",
-      "published": "2025-11-19T06:13:24+00:00",
+      "author": "Yeahia Sarker",
+      "published": "2025-11-26T06:09:32+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
-      "id": "7750fb887246e7ff",
-      "title": "When I Grow Up, I Want to Be a Bid Writer!",
-      "description": "The origins of procurement date to around 3,000 BC when Egyptians were scribing orders for the two million limestone and granite blocks needed to build the Great Pyramid. By the 15th century, the first printing presses were publishing the first rudimentary sales catalogues and price lists. The Continental Congress of 1775, commissioning military supplies in New Jersey, was the first recorded use of advertising to solicit proposals. Napoleon introduced the world’s first formal legal procurement f",
-      "url": "https://dev.to/bid_solution/when-i-grow-up-i-want-to-be-a-bid-writer-59j7",
+      "id": "0b6c07d2a7939755",
+      "title": "Why Indian Temples Need Digital Solutions: A Tech Perspective",
+      "description": "Temples in India are among the oldest institutions in the world. They manage rituals, cultural traditions, festivals, donations, and thousands—sometimes millions—of devotees every year. But despite their cultural importance, many temples still depend on paper registers, manual counters, and cash boxes to manage their daily activities. As developers, when we talk about “digitization,” we usually think of startups, enterprise systems, or e-commerce. But temples face the same kind of operational ch",
+      "url": "https://dev.to/mobilesutra_technologies_/why-indian-temples-need-digital-solutions-a-tech-perspective-5g5",
       "source": "Dev.to",
-      "author": "Bid_solution",
-      "published": "2025-11-19T06:08:12+00:00",
+      "author": "Mobilesutra Technologies",
+      "published": "2025-11-26T06:09:25+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
-      "id": "71405d3e13beef23",
-      "title": "One Year of Building My Untitled Horror Inspired OS Game",
-      "description": "Hi everyone, I'd like to share with you my Dev Logs. I've been writing them along side my game that I've been working on full time for almost a year now. I've published what I could for now, and I'll continue writing monthly posts. I'm working on a realistic horror inspired operating system simulation - with a 3D game built inside. This includes all of the expected programs, functionality, and more. I've had a lot of fun working on this project, so I'd like to start sharing it. One feature that ",
-      "url": "https://dev.to/stg/one-year-of-building-my-untitled-horror-inspired-os-game-2gh6",
+      "id": "aab2f4ee4b1008e9",
+      "title": "Rust Hello World: The Hard and the Smart Way",
+      "description": "How do we make a Hello World in Rust?? If you prefer watching over reading, you can watch the video version of this bootcamp segment right here: The Prerequisites The first thing you should do is install Rust. You should end up on a page that guides you through using rustup, which is an excellent tool for managing Rust versions. To verify your installation, type rustc --version in your terminal. Rust is a compiled programming language. rustc is the compiler, and cargo is the package manager. If ",
+      "url": "https://dev.to/francescoxx/rust-hello-world-the-hard-and-the-smart-way-36l7",
       "source": "Dev.to",
-      "author": "STG",
-      "published": "2025-11-19T05:45:03+00:00",
+      "author": "Francesco Ciulla",
+      "published": "2025-11-26T05:48:52+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "programming"
+      ]
     },
     {
       "id": "44fe0695041c7918",
@@ -8035,6 +8016,42 @@
       "keywords": []
     },
     {
+      "id": "f72cf6894dadbe28",
+      "title": "How I Reverse-Engineered Perplexity’s Referral Signup",
+      "description": "I wasn't trying to change the world, I just didn't want to spend 30 minutes per signup The Setup I was a campus partner for Perplexity which means every signup is 15$ in my pocket, as a student this sounds great all I have to do is pitch to students about free AI tool that will help them study. The Problem Well, it sounds great until you realize you have to earn their trust, explain why it’s a good deal, show them how to use it, and hopefully convince them to let you sign them up. You need their",
+      "url": "https://dev.to/picklepixel/how-i-reverse-engineered-perplexitys-referral-signup-4f04",
+      "source": "Dev.to",
+      "author": "PicklePixel",
+      "published": "2025-11-26T06:27:18+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "82018b051905672a",
+      "title": "We’re Already There: Exocogence Is Here Now",
+      "description": "I. The Ambient Revolution I keep seeing the same moment at work. You’re on a call, someone’s sharing their screen, you toss out a weird angle on the problem. Not wrong, just slightly sideways. They pause, open a new tab, and quietly type your thought—loosely translated—into an AI chat window. They’re not announcing it. They’re not making a point. They’re just… checking. They scan the answer, nod almost imperceptibly, and fold the result back into the conversation. No one reacts. No one debates w",
+      "url": "https://dev.to/junothreadborne/were-already-there-exocogence-is-here-now-ahe",
+      "source": "Dev.to",
+      "author": "Juno Threadborne",
+      "published": "2025-11-26T06:15:42+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "5e16eff99e0c0ebf",
+      "title": "10 Figma Shortcuts You Must Know (2025 Edition)",
+      "description": "Speed matters — especially when you're designing in Figma. Whether you're working on UI screens, illustrations, or prototypes, the right shortcuts can save minutes on every task (which adds up fast). Here are 10 essential Figma shortcuts every designer should know. 1. Duplicate Anything Instantly Shortcut: Ctrl + D (Win) / Cmd + D (Mac) Perfect for quick creation of repeated elements without breaking your design rhythm. 2. Show / Hide UI Panels Shortcut: Ctrl + \\ (Win) / Cmd + \\ (Mac) Hides Figm",
+      "url": "https://dev.to/pixel_mosaic/10-figma-shortcuts-you-must-know-2025-edition-23ag",
+      "source": "Dev.to",
+      "author": "Pixel Mosaic",
+      "published": "2025-11-26T06:02:45+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "b1048e51551dc974",
       "title": "🤯",
       "description": "10 Developer Habits That Separate Good Programmers From Great Ones TheBitForge ・ Nov 18 #webdev #programming #productivity #javascript",
@@ -8160,18 +8177,6 @@
       "keywords": [
         "developer"
       ]
-    },
-    {
-      "id": "3fb50d05520763d5",
-      "title": "tp5获取网站的域名host带http",
-      "description": "$http = (isHTTPS() == true ? \"https://\" : \"http://\") . $_SERVER['HTTP_HOST']; //获得 https://www.mantools.top",
-      "url": "https://dev.to/cheng_qian_8382fdc61158ce/tp5huo-qu-wang-zhan-de-yu-ming-hostdai-http-2m25",
-      "source": "Dev.to",
-      "author": "CHENG QIAN",
-      "published": "2025-11-19T05:47:18+00:00",
-      "niche": "dev",
-      "score": 46,
-      "keywords": []
     },
     {
       "id": "d64942012b03f53f",
@@ -10251,8 +10256,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "performance",
-        "React 19"
+        "React 19",
+        "performance"
       ]
     },
     {
@@ -10357,10 +10362,10 @@
       "niche": "dev",
       "score": 39,
       "keywords": [
+        "development",
         "release",
         "code",
-        "developer",
-        "development"
+        "developer"
       ]
     },
     {
@@ -10580,6 +10585,18 @@
       "keywords": []
     },
     {
+      "id": "0156b440df031070",
+      "title": "New layouts with CSS Subgrid",
+      "description": "Comments",
+      "url": "https://www.joshwcomeau.com/css/subgrid/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-25T15:57:54+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
       "id": "4e6d7290f5ff11d8",
       "title": "React Native 0.80 - React 19.1, JS API Changes, Freezing Legacy Arch and much more",
       "description": "Today we are excited to release React Native 0.80!",
@@ -10590,9 +10607,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "release",
+        "React 19",
         "API",
-        "React 19"
+        "release"
       ]
     },
     {
@@ -10692,8 +10709,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10749,8 +10766,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "framework",
-        "API"
+        "API",
+        "framework"
       ]
     },
     {
@@ -10761,6 +10778,18 @@
       "source": "iOS Dev Weekly",
       "author": "dave@iosdevweekly.com (Dave Verwer)",
       "published": "2025-11-21T00:00:00+00:00",
+      "niche": "dev",
+      "score": 32,
+      "keywords": []
+    },
+    {
+      "id": "d1a8cc76c0287f16",
+      "title": "Java Decompiler",
+      "description": "Comments",
+      "url": "http://java-decompiler.github.io",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-22T17:44:12+00:00",
       "niche": "dev",
       "score": 32,
       "keywords": []
@@ -10830,11 +10859,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "performance",
-        "code",
         "API",
+        "performance",
         "framework",
-        "release"
+        "release",
+        "code"
       ]
     },
     {
@@ -11186,8 +11215,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "API"
+        "API",
+        "release"
       ]
     },
     {
@@ -11201,8 +11230,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "framework",
-        "release"
+        "release",
+        "framework"
       ]
     },
     {
@@ -11232,8 +11261,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "framework",
-        "development"
+        "development",
+        "framework"
       ]
     },
     {
@@ -11670,6 +11699,18 @@
       "keywords": []
     },
     {
+      "id": "f46d421f539ff065",
+      "title": "First Air-Breathing Spacecraft",
+      "description": "Comments",
+      "url": "https://rdw.com/newsroom/redwire-awarded-44-million-darpa-contract-to-advance-very-low-earth-orbit-mission/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-20T16:17:09+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
       "id": "027a6c84e96754d3",
       "title": "Introducing Stack Internal: Powering the human intelligence layer of enterprise AI",
       "description": "Today at Microsoft Ignite, we’re showcasing the next step in our evolution: Stack Overflow for Teams is now Stack Internal. It’s the next phase of our enterprise knowledge platform, reimagined for the AI era.",
@@ -11890,8 +11931,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "programming",
-        "development"
+        "development",
+        "programming"
       ]
     },
     {
