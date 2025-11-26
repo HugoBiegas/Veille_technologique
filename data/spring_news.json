@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-11-26T15:28:22.425111+00:00",
-  "total_articles": 192,
+  "last_updated": "2025-11-26T18:35:39.728823+00:00",
+  "total_articles": 191,
   "articles": [
     {
       "id": "86a740f98d3c0106",
@@ -279,6 +279,18 @@
       "keywords": []
     },
     {
+      "id": "f9470930ea425cfd",
+      "title": "Master Spring Data AOT in IntelliJ IDEA",
+      "description": "Spring’s AOT engine has been around since the Spring Native days, but Spring Data never really benefited from it – until now. Repository infrastructure is one of the most dynamic parts of the framework, and for years it relied heavily on proxies, reflection, and queries generated at runtime. That flexibility has a price: it slows [&#8230;]",
+      "url": "https://blog.jetbrains.com/idea/2025/11/spring-data-aot/",
+      "source": "JetBrains IntelliJ IDEA Blog",
+      "author": "Andrey Belyaev",
+      "published": "2025-11-26T14:50:05+00:00",
+      "niche": "spring",
+      "score": 57,
+      "keywords": []
+    },
+    {
       "id": "dbbbb3e255cf5ab0",
       "title": "Converting Blob to String and String to Blob in Java",
       "description": "Learn how to convert between Blob and String in Java when dealing with persistence of binary large objects in relational databases. The post Converting Blob to String and String to Blob in Java first appeared on Baeldung.&#160;&#160;&#160;&#160;&#160;&#160;&#160;",
@@ -432,42 +444,6 @@
       "published": "2025-11-26T00:04:18+00:00",
       "niche": "spring",
       "score": 46,
-      "keywords": []
-    },
-    {
-      "id": "0526d648eff19cdf",
-      "title": "How to Rasterize PDFs in Java: A Comprehensive Guide",
-      "description": "PDF rasterization is a critical process in modern document management, transforming vector-based PDF content into pixel-based images embedded within PDF files. This technique has become increasingly important for organizations handling sensitive documents, preparing files for printing, and ensuring consistent rendering across different platforms. At a high level, rasterization refers to the process of converting any &#8230;",
-      "url": "https://www.javacodegeeks.com/2025/11/how-to-rasterize-pdfs-in-java-a-comprehensive-guide.html",
-      "source": "Java Code Geeks",
-      "author": "Eleftheria Drosopoulou",
-      "published": "2025-11-19T17:10:00+00:00",
-      "niche": "spring",
-      "score": 42,
-      "keywords": []
-    },
-    {
-      "id": "90a6180ce1d150d2",
-      "title": "Beyond APIs: The Rise of the Model Context Protocol (MCP)",
-      "description": "In recent years, application development has experienced a quiet but fundamental shift. Traditional APIs, once the backbone of interoperability between systems, are now sharing the stage with the Model Context Protocol (MCP). While both aim to connect applications, services, and data, they operate on very different principles. Understanding these differences is crucial as organisations increasingly &#8230;",
-      "url": "https://www.javacodegeeks.com/beyond-apis-the-rise-of-the-model-context-protocol-mcp.html",
-      "source": "Java Code Geeks",
-      "author": "Omozegie Aziegbe",
-      "published": "2025-11-19T16:13:00+00:00",
-      "niche": "spring",
-      "score": 42,
-      "keywords": []
-    },
-    {
-      "id": "592cbdefe1885fe8",
-      "title": "Why Your Architecture Team Is Slow (And It's Not the Technology)",
-      "description": "Last Tuesday, I watched a senior architect spend forty-five minutes presenting a technically flawless case for migrating from REST to GraphQL. Beautiful diagrams. Solid reasoning. Compelling data. The team nodded along. And then nothing happened because this was the seventh architectural discussion that the team had scheduled in three weeks. Not seven decisions. Seven discussions.",
-      "url": "https://feeds.dzone.com/link/18931/17213052/why-your-architecture-team-is-slow",
-      "source": "DZone Microservices",
-      "author": "Dinesh Elumalai",
-      "published": "2025-11-19T16:00:00+00:00",
-      "niche": "spring",
-      "score": 42,
       "keywords": []
     },
     {
@@ -783,6 +759,42 @@
       "keywords": []
     },
     {
+      "id": "6e582ef37cb46625",
+      "title": "The Future Role of Domain-Specific Languages in Enterprise Solutions",
+      "description": "Domain-Specific Languages (DSLs) are specialized programming languages designed to solve problems in a particular domain. Unlike general-purpose languages like Java or Python, DSLs focus on expressing solutions in terms that domain experts understand. As enterprises seek more efficient ways to build software, DSLs are becoming increasingly relevant. Photo by Ling App on Unsplash 1. What &#8230;",
+      "url": "https://www.javacodegeeks.com/2025/11/the-future-role-of-domain-specific-languages-in-enterprise-solutions.html",
+      "source": "Java Code Geeks",
+      "author": "Eleftheria Drosopoulou",
+      "published": "2025-11-26T17:09:00+00:00",
+      "niche": "spring",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "d41d046f67ba90ed",
+      "title": "Rethinking the Software Supply Chain for Agents",
+      "description": "A recent MIT study reported that only about 5% of GenAI applications are creating real, measurable business value. In my opinion, that’s not a failure of ambition. If anything, most teams are experimenting aggressively. The issue is that the underlying systems we use to deliver software haven’t adapted to what AI actually is. It has become incredibly easy to build a prototype or demo. A few prompt tweaks, an API call, and you can show something impressive. But turning that prototype into somethi",
+      "url": "https://feeds.dzone.com/link/18931/17217493/rethinking-the-software-supply-chain-for-agents",
+      "source": "DZone Microservices",
+      "author": "Shibashis Mishra",
+      "published": "2025-11-26T17:30:00+00:00",
+      "niche": "spring",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "5ce30f36c1585944",
+      "title": "LLMOps Under the Hood: Docker Practices for Large Language Model Deployment",
+      "description": "Large language models (LLMs) are everywhere — powering chatbots, copilots, and AI-driven apps across industries. But if you’ve ever tried to run one outside of a managed service, you know the pain: gigabytes of model weights, conflicting Python dependencies, fragile CUDA versions, and a GPU setup that only seems to work on your machine. This is where Docker shines. By packaging the entire environment — code, libraries, and drivers — into a container, you can run an LLM anywhere, whether it’s you",
+      "url": "https://feeds.dzone.com/link/18931/17217434/llmops-docker-practices-llm-deployment",
+      "source": "DZone Microservices",
+      "author": "Pragya Keshap",
+      "published": "2025-11-26T15:30:02+00:00",
+      "niche": "spring",
+      "score": 42,
+      "keywords": []
+    },
+    {
       "id": "6c09e90def99ff2c",
       "title": "Java 26 Warns of Deep Reflection - Inside Java Newscast #101",
       "description": "Java 26 will issue run-time warnings when a final field is mutated through reflection. This prepares for a future change that will make such final field mutations illegal by default to improve Java's integrity, specifically the keyword final. This will have beneficial effects on maintainability, security, and performance. While the recommendation is to move away from final field mutation, the new permanent command-line option --enable-final-field-mutation allows it for selected modules. To ease ",
@@ -898,6 +910,18 @@
       "source": "Java Revisited",
       "author": "javin paul (noreply@blogger.com)",
       "published": "2025-11-25T20:52:00-08:00",
+      "niche": "spring",
+      "score": 33,
+      "keywords": []
+    },
+    {
+      "id": "5778cfd46b8f6ebf",
+      "title": "ByteByteGo Black Friday SALE 50% OFF - Should You Join to Learn System Design?",
+      "description": "Hello guys, I have a great news for you, especially if you are preparing for your next career move or looking for your next Job. ByteByteGo, the platform founded by Alex Xu, author of the popular System Design Interview — An Insider’s Guide, is currently offering a limited-time 50% OFF deal on its yearly subscription. If you’re preparing for software engineering interviews — especially system design or high-level architecture roles — now is the best time to join as not just they are offering 50%",
+      "url": "http://javarevisited.blogspot.com/2025/11/bytebytego-black-friday-sale-60-off.html",
+      "source": "Java Revisited",
+      "author": "javin paul (noreply@blogger.com)",
+      "published": "2025-11-26T06:46:00-08:00",
       "niche": "spring",
       "score": 33,
       "keywords": []
@@ -1695,6 +1719,18 @@
       "keywords": []
     },
     {
+      "id": "592cbdefe1885fe8",
+      "title": "Why Your Architecture Team Is Slow (And It's Not the Technology)",
+      "description": "Last Tuesday, I watched a senior architect spend forty-five minutes presenting a technically flawless case for migrating from REST to GraphQL. Beautiful diagrams. Solid reasoning. Compelling data. The team nodded along. And then nothing happened because this was the seventh architectural discussion that the team had scheduled in three weeks. Not seven decisions. Seven discussions.",
+      "url": "https://feeds.dzone.com/link/18931/17213052/why-your-architecture-team-is-slow",
+      "source": "DZone Microservices",
+      "author": "Dinesh Elumalai",
+      "published": "2025-11-19T16:00:00+00:00",
+      "niche": "spring",
+      "score": 12,
+      "keywords": []
+    },
+    {
       "id": "b59504191f94a19a",
       "title": "NVIDIA GPU Operator Explained: Simplifying GPU Workloads on Kubernetes",
       "description": "While GPUs have long been a staple in industries like gaming, video editing, CAD, and 3D rendering, their role has evolved dramatically over the years. Originally designed to handle graphics-intensive tasks, GPUs have proven to be powerful tools for a wide range of computationally demanding applications. Today, their ability to perform massive parallel processing has made them indispensable in modern fields such as data science, artificial intelligence and machine learning (AI/ML), robotics, cry",
@@ -1702,30 +1738,6 @@
       "source": "DZone Microservices",
       "author": "Sagar Parmar",
       "published": "2025-11-18T16:00:00+00:00",
-      "niche": "spring",
-      "score": 12,
-      "keywords": []
-    },
-    {
-      "id": "6318c7da47a718de",
-      "title": "Kubernetes CNI Drivers",
-      "description": "Ever wondered how we just create a pod in Kubernetes and it gets an IP address magically, can communicate with each other, and host nodes without issues? Networking is not that simple, so how does all this magic work? With this article, I attempt to unwrap the mystery and provide an understanding of the inner workings of CNI (Container Network Interface).  First, let’s start with the why.",
-      "url": "https://feeds.dzone.com/link/18931/17210996/kubernetes-cni-drivers",
-      "source": "DZone Microservices",
-      "author": "Ramesh Sinha",
-      "published": "2025-11-17T17:00:00+00:00",
-      "niche": "spring",
-      "score": 12,
-      "keywords": []
-    },
-    {
-      "id": "6283181ea40fe3ee",
-      "title": "From Agent AI to Agentic AI: Building Self-Healing Kubernetes Clusters That Learn",
-      "description": "In Part 1: AI-Driven Kubernetes Diagnostics, we built an AI agent that analyzes Kubernetes pod failures and suggests fixes. It works when you're at your desk, ready to approve each action. For the purposes of this article, here's a scenario.",
-      "url": "https://feeds.dzone.com/link/18931/17210863/self-healing-kubernetes-clusters-agentic-ai",
-      "source": "DZone Microservices",
-      "author": "Shamsher Khan",
-      "published": "2025-11-17T13:00:00+00:00",
       "niche": "spring",
       "score": 12,
       "keywords": []
@@ -1875,18 +1887,6 @@
       "keywords": []
     },
     {
-      "id": "a63921c896b31aaa",
-      "title": "IntelliJ IDEA 2025.2.3 Is Out!",
-      "description": "We’ve just released the next minor update for IntelliJ IDEA 2025.2 – v2025.2.3. You can update to this version from inside the IDE, via the Toolbox App, or by using snaps for Ubuntu. You can also download it from our website. This release includes the following improvements: To find out more about the resolved issues, [&#8230;]",
-      "url": "https://blog.jetbrains.com/idea/2025/10/intellij-idea-2025-2-3/",
-      "source": "JetBrains IntelliJ IDEA Blog",
-      "author": "Julia Shashkova",
-      "published": "2025-10-02T18:33:54+00:00",
-      "niche": "spring",
-      "score": 12,
-      "keywords": []
-    },
-    {
       "id": "d28370b7fb25a1dd",
       "title": "Beyond the Vector API - A Quest for a Lower Level API #JVMLS",
       "description": "Throughout the project, the Vector API balanced providing a cross-platform API with staying close to the metal, performance-wise. While the project succeeded in that goal, the Vector API had to give up some important functionality when it didn't fit the design. As a result, the API became unsuitable for implementing an important class of vectorized algorithms that depend on access to particular hardware functionality. With recent progress in Project Panama (on the Foreign Function & Memory API a",
@@ -1990,18 +1990,6 @@
       "source": "Java Revisited",
       "author": "javin paul (noreply@blogger.com)",
       "published": "2025-11-14T22:41:00-08:00",
-      "niche": "spring",
-      "score": 9,
-      "keywords": []
-    },
-    {
-      "id": "451e1b111f4d6a68",
-      "title": "Is Exponent Good Place to Prepare for System Design and Tech Interview? Review",
-      "description": "Hello guys, Preparing for FAANG or top-tier tech interviews is never easy. Between data structures and algorithms, system design, and behavioral questions, you need a structured and reliable approach. That’s where Exponent stands out. The tryExponent.com isn’t just another interview prep platform — it’s a complete ecosystem for software engineers, product managers, data scientists, designers, and technical leaders preparing for some of the most competitive roles in tech. With their current 70% O",
-      "url": "http://javarevisited.blogspot.com/2025/11/is-exponent-good-place-to-prepare-for.html",
-      "source": "Java Revisited",
-      "author": "javin paul (noreply@blogger.com)",
-      "published": "2025-11-13T20:12:00-08:00",
       "niche": "spring",
       "score": 9,
       "keywords": []
