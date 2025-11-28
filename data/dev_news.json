@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-11-28T09:27:03.459657+00:00",
-  "total_articles": 970,
+  "last_updated": "2025-11-28T12:51:44.014647+00:00",
+  "total_articles": 964,
   "articles": [
     {
       "id": "bc7c03cba6a15884",
@@ -446,6 +446,20 @@
       ]
     },
     {
+      "id": "acddee021fa6c387",
+      "title": "Nested Checkox - React Interview",
+      "description": "// App.js (React, CodeSandbox-ready) // Nested checkboxes with parent/child sync and indeterminate states. import React from \"react\"; // ----- Sample tree data ----- const tree = { id: \"a\", label: \"A\", children: [ { id: \"a1\", label: \"A1\" }, { id: \"a2\", label: \"A2\", children: [ { id: \"a21\", label: \"A2.1\" }, { id: \"a22\", label: \"A2.2\" }, ], }, ], }; // ----- Utilities ----- function visit(node, fn) { fn(node); node.children?.forEach((c) => visit(c, fn)); } function initState(root) { const s = {}; ",
+      "url": "https://dev.to/zeeshanali0704/nested-checkox-react-interview-145p",
+      "source": "Dev.to",
+      "author": "ZeeshanAli-0704",
+      "published": "2025-11-28T12:25:51+00:00",
+      "niche": "dev",
+      "score": 69,
+      "keywords": [
+        "code"
+      ]
+    },
+    {
       "id": "8b721156199778ff",
       "title": "React Context & Routing Mastery — From Prop Drilling Pain to Auth‑Ready Architectures",
       "description": "React Context & Routing Mastery — From Prop Drilling Pain to Auth‑Ready Architectures frontend · javascript · react · architecture Most React interviews won’t ask you to build a whole app. Instead, they test your mental model of Context, routing, state persistence, URL‑driven state, and auth flows with questions like: What is prop drilling and how does Context solve it? What exactly does a Provider do? What goes inside the value prop of a Provider? When should I use useContext vs the new use() A",
@@ -597,6 +611,18 @@
       "source": "Dev.to",
       "author": "Vladimir",
       "published": "2025-11-28T06:04:20+00:00",
+      "niche": "dev",
+      "score": 68,
+      "keywords": []
+    },
+    {
+      "id": "9da43f9657156756",
+      "title": "useState in React Hook",
+      "description": "updating the screen: first you import the useState import { useState } from 'react'; your component to “remember” some information and display it. declare a state variable inside your component: function MyButton() { const [count, setCount] = useState(0); initial state of count is 0 if you change the state use setCount function MyButton() { const [count, setCount] = useState(0); function handleClick() { setCount(count + 1); } return ( <button onClick={handleClick}> Clicked {count} times </button",
+      "url": "https://dev.to/bharath_11/usestate-in-react-hook-43bd",
+      "source": "Dev.to",
+      "author": "Bharath kumar",
+      "published": "2025-11-28T12:09:34+00:00",
       "niche": "dev",
       "score": 68,
       "keywords": []
@@ -1620,21 +1646,6 @@
       ]
     },
     {
-      "id": "4d580ce1b9034725",
-      "title": "How to Compress Your Prompts and Reduce LLM Costs",
-      "description": "Microsoft just solved the hidden cost problem in AI with LLMLingua, making large language models faster, cheaper, and smarter. Every developer working with large language models eventually faces the same challenge. Prompts keep getting longer, models keep getting slower, and API bills keep getting higher. Whether you’re building a retrieval-augmented generation(RAG) system or a chatbot that remembers past conversations, every extra token adds cost and latency. Microsoft quietly introduced a fix ",
-      "url": "https://dev.to/manishmshiva/how-to-compress-your-prompts-and-reduce-llm-costs-3pa",
-      "source": "Dev.to",
-      "author": "Manish Shivanandhan",
-      "published": "2025-11-21T12:33:36+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "developer",
-        "API"
-      ]
-    },
-    {
       "id": "dacd61917e5e9e60",
       "title": "Why Java Dependencies Are Not Installed Like JavaScript or Python Packages",
       "description": "If you are coming from JavaScript, Python, or other ecosystems, you might be familiar with installation commands like npm install package-name or pip install package-name. These commands directly fetch packages from a registry and install them into your project. Java handles library dependencies differently, and understanding this difference is important for Java or Android development. Java Dependencies In Java, libraries are typically distributed through Maven Central or other artifact reposit",
@@ -2202,34 +2213,6 @@
       "keywords": [
         "API",
         "tutorial"
-      ]
-    },
-    {
-      "id": "ce4d78d584a55dd1",
-      "title": "Building a Technical Blog with Astro + Cloudflare",
-      "description": "Building a Technical Blog with Astro + Cloudflare This blog is built using Astro 5 and Cloudflare's edge computing technology. Here's how to build a fast and scalable blog system from scratch. Tech Stack Frontend Astro 5 - Static site generator with Content Collections support MDX - Markdown + React components Tailwind CSS 4 - Utility-first CSS framework Backend & Infrastructure Cloudflare Workers - Serverless runtime at the edge Cloudflare Durable Objects - Globally distributed state management",
-      "url": "https://dev.to/shusukedev/building-a-technical-blog-with-astro-cloudflare-33l",
-      "source": "Dev.to",
-      "author": "shusukeO",
-      "published": "2025-11-21T12:35:49+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "framework"
-      ]
-    },
-    {
-      "id": "728b3227760bed22",
-      "title": "Quick Recap: Databases",
-      "description": "There are different types of databases, each suited for different use cases. Types of Databases Relational Databases (RDBMS) Use structured tables with rows and columns. Follow ACID properties and use SQL for queries. Ideal for structured data and strong consistency. Examples: MySQL, PostgreSQL, Oracle, SQL Server Best when data relationships and integrity are critical. NoSQL Databases Designed for scalability and flexible schemas. Best suited for unstructured or rapidly changing data. They ofte",
-      "url": "https://dev.to/codeintention/quick-recap-databases-4h03",
-      "source": "Dev.to",
-      "author": "shantanu mahakale",
-      "published": "2025-11-21T12:04:17+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "API"
       ]
     },
     {
@@ -3680,20 +3663,6 @@
       "keywords": [
         "tutorial",
         "developer"
-      ]
-    },
-    {
-      "id": "1a1dc35dcb99efe3",
-      "title": "Building for the Future: Why Cloud Native App Development Is Transforming Modern Businesses",
-      "description": "A New Era of Applications Begins Technology is evolving faster than ever, and businesses are under constant pressure to deliver seamless, scalable, and high-performing digital experiences. This shift has pushed many organizations to rethink how they build applications—and that’s where cloud native app development comes in. Far from being a buzzword, it represents a complete transformation in how modern apps are designed, deployed, and maintained. Cloud native app development empowers teams to bu",
-      "url": "https://dev.to/khushi_jitani_ca127abdedd/building-for-the-future-why-cloud-native-app-development-is-transforming-modern-businesses-2dp8",
-      "source": "Dev.to",
-      "author": "Khushi Jitani",
-      "published": "2025-11-21T12:07:29+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "development"
       ]
     },
     {
@@ -5265,76 +5234,60 @@
       ]
     },
     {
-      "id": "d3db81e23f49659f",
-      "title": "Difference between .JAR and .WAR packaging in JAVA",
-      "description": "1. JAR packaging A JAR (Java ARchive) file is a compressed archive that can contain compiled .class files, resources, libraries, and metadata. It is used to package Java applications or libraries into a single file. 2. WAR packaging A WAR (Web Application Archive) file is used to package Java web applications. It contains everything needed to deploy a web app on a Servlet/JSP container (such as Apache Tomcat, Jetty, or GlassFish). WAR files are specifically designed for web application deploymen",
-      "url": "https://dev.to/eya_filali_a68c4d5bad918a/difference-between-jar-and-war-packaging-in-java-nph",
+      "id": "23be01be8504c9da",
+      "title": "How Vibe Coding Changed my Development Workflow",
+      "description": "Intro In this article, I walk through the process of building Phantom Pulse, highlighting how I used AI tools for planning and development. I share insights from exploring the LLM landscape, as well as the mistakes I made along the way. At the end of the article, I provide feedback and links to each tool I used, along with a brief explanation of my classification. Why build Phantom Pulse (with AI?) After being unexpectedly fired for the first time, I went to a remote location in Portugal's inter",
+      "url": "https://dev.to/davidmorais/how-vibe-coding-changed-my-development-workflow-38gb",
       "source": "Dev.to",
-      "author": "Eya Filali",
-      "published": "2025-11-21T12:38:30+00:00",
+      "author": "David  Morais",
+      "published": "2025-11-28T12:37:05+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "development"
+      ]
     },
     {
-      "id": "61cac27a6338af74",
-      "title": "Swarm: How Browser-Based Compute Networks Turn Everyday Devices Into a Distributed Supercomputer",
-      "description": "A technical look at WebGPU-powered distributed compute systems Introduction For decades, large-scale compute infrastructure has been dominated by centralized data centers owned by cloud providers. These environments host thousands of GPUs under controlled power, cooling, and networking constraints. Recently, a new model of compute has emerged, distributing workloads across everyday consumer devices such as laptops, desktops, and mobile phones. These networks use technologies like WebGPU, WebAsse",
-      "url": "https://dev.to/neurolov__ai/swarm-how-browser-based-compute-networks-turn-everyday-devices-into-a-distributed-supercomputer-2bf0",
+      "id": "8327faa653c0f83a",
+      "title": "Java String Ceiling: What It Is & How to Implement It | CoderCrafter",
+      "description": "Java String Ceil(): The Method That Doesn't Exist (And How to Build Your Own ) Alright, let's talk about something that trips up a lot of Java newbies and even some seasoned devs who are having a long day. You're coding away, deep in the zone, and you get this brainwave: \"I need to find the ceiling of a string.\" You instinctively type \"someText\".ceil() and... nothing. Your IDE stares back at you with a red squiggly line of disapproval. Wait, what? There's no ceil() method for strings in Java? Yo",
+      "url": "https://dev.to/satyam_gupta_0d1ff2152dcc/java-string-ceiling-what-it-is-how-to-implement-it-codercrafter-3iik",
       "source": "Dev.to",
-      "author": "Neurolov AI",
-      "published": "2025-11-21T12:30:07+00:00",
+      "author": "Satyam Gupta",
+      "published": "2025-11-28T12:35:37+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
-      "id": "0d73d0f491c558a2",
-      "title": "Cómo funcionan las tecnologías de navegación en los robots aspiradores: LIDAR, cámaras y sensores",
-      "description": "La mayoría de robots aspiradores parecen iguales. A primera vista, cualquiera podría pensar que todos hacen lo mismo. Pero no es así. Llevo más de 6 años poniendo a prueba este tipo de dispositivos en casas reales, y te aseguro algo: lo que de verdad diferencia a un robot aspirador bueno de uno mediocre no es la potencia, ni el ruido, ni la app llena de funciones. Es la navegación. La navegación es literalmente su cerebro. Es lo que decide si entiende tu casa o si, simplemente, va a “dar vueltas",
-      "url": "https://dev.to/silviajimenez/como-funcionan-las-tecnologias-de-navegacion-en-los-robots-aspiradores-lidar-camaras-y-sensores-114a",
+      "id": "523e2c5de2aaf4d1",
+      "title": "My Journey From No-Code to Real Product Design",
+      "description": "My Journey From No-Code to Real Product Design When I first started building things, I wasn’t writing code. No JavaScript. No React. No Tailwind. Nothing. I began with no-code tools — simple drag-and-drop platforms that helped me bring ideas to life without touching a text editor. And looking back, that phase was more important than I realized. This is the story of how no-code gave me the confidence to create, and how that journey slowly pushed me toward UI design, and eventually into real devel",
+      "url": "https://dev.to/vidya_trikon_tech/my-journey-from-no-code-to-real-product-design-29gj",
       "source": "Dev.to",
-      "author": "Silvia Jiménez",
-      "published": "2025-11-21T12:29:19+00:00",
+      "author": "Vidya",
+      "published": "2025-11-28T12:20:20+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
-      "id": "ce1bec1e13617f70",
-      "title": "Bandwidth vs Latency: How They Affect Your Online Experience",
-      "description": "Have you ever wondered why your internet feels lightning-fast one moment and frustratingly slow the next, even when your speed test shows you’re getting great Mbps? Maybe your movie buffers during peak hours, your video calls freeze, or your online game lags at the worst possible time. Before blaming your router or getting mad at your ISP, there’s something you need to understand: your internet experience is shaped by two main factors, Bandwidth and Latency. Most people think “speed” is the only",
-      "url": "https://dev.to/sidra-jefferi/bandwidth-vs-latency-how-they-affect-your-online-experience-493e",
+      "id": "551e226dc711457c",
+      "title": "Vue tricks: smart layouts for VueJS",
+      "description": "Mastering layouts in Vue.js is a milestone that separates beginners from intermediate developers. When you first start, you likely wrap every page in a <NavBar> and <Footer> component. It works, but it’s repetitive and destroys component state every time you navigate. This guide explores \"Smart Layouts\", a set of patterns that make your Vue application more maintainable, performant, and capable of advanced behaviors like persistent state (think Spotify’s audio player that doesn't stop when you c",
+      "url": "https://dev.to/nickpe/vue-tricks-smart-layouts-for-vuejs-8d5",
       "source": "Dev.to",
-      "author": "Sidra Jefferi",
-      "published": "2025-11-21T12:13:12+00:00",
+      "author": "Nick Peterson",
+      "published": "2025-11-28T12:14:13+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "30f2fb3e1458897a",
-      "title": "Molecule Visualiser!",
-      "description": "This is a molecule visualiser app built with Streamlit and RDKit. this app has feature that allows you to visualise atoms and molecules in 2D and 3D . Features: Visualise molecules in 2D and 3D Customise atom colors and sizes Download images in various formats (PNG, SVG, JPEG, PDF) Save and load custom settings for future use APP IS NOW LIVE - https://atoms-molecule-visualiser.streamlit.app/",
-      "url": "https://dev.to/dev_ops_python/molecule-visualiser-508i",
-      "source": "Dev.to",
-      "author": "Ansh kunwar",
-      "published": "2025-11-21T12:08:12+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "d877a7f36341bf69",
-      "title": "CinemaSins: Everything Wrong With The Wiz In 15 Minutes Or Less",
-      "description": "Everything Wrong With The Wiz In 15 Minutes Or Less takes you down the yellow brick road as CinemaSins revisits the 1978 musical now that Wicked’s back in theaters. In true Sin-oracle fashion, they point out every plot hole, production quirk and oddball moment faster than you can say “Ease on Down the Road.” Beyond the video, they’re plugging all the usual CinemaSins hotspots—website deep dives, YouTube spin-offs (@TVSins, @CommercialSins), a sinful poll, Patreon support and socials galore. Plus",
-      "url": "https://dev.to/popcorn_movies/cinemasins-everything-wrong-with-the-wiz-in-15-minutes-or-less-2o8b",
-      "source": "Dev.to",
-      "author": "Movie News",
-      "published": "2025-11-21T12:00:20+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
       "id": "2ac4c9a33f0b8f21",
@@ -8003,6 +7956,54 @@
       "keywords": []
     },
     {
+      "id": "15de215f7e7e818a",
+      "title": "Java copySign() Method: Your Guide to Sign Manipulation",
+      "description": "Java copySign() Method: Finally, Take Control of Your Number's Sign Alright, let's talk about one of those \"hidden gem\" methods in Java that doesn't get the spotlight it deserves. We're diving deep into Math.copySign(). Ever been in a situation where you have a number, and you need its magnitude (the value without the sign) but with the sign of another number? If you've ever tried to do this manually with if conditions and multiplication, you know it's clunky. It's one of those things that makes",
+      "url": "https://dev.to/satyam_gupta_0d1ff2152dcc/java-copysign-method-your-guide-to-sign-manipulation-1k2i",
+      "source": "Dev.to",
+      "author": "Satyam Gupta",
+      "published": "2025-11-28T12:38:56+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "e5ceed52727026b9",
+      "title": "Amazon Quick Suite : Quick Flow and Quick Research",
+      "description": "REQUIREMENTS : AWS account, you can sign up/sign in here Amazon Quick Suite : Integration and Extension blog, you can see this blog A. Amazon Quick Suite : Quick Flow PROBLEM : Manual check CV screening need more time, human bias (name, gender, age) then unfair decision and CV format are different. SOLUTION : Automated CV screening system that extracts candidate information, scores against job requirements, and conditionally sends interview questions to Slack and interview email to Gmail OR reje",
+      "url": "https://dev.to/budionosan/amazon-quick-suite-quick-flow-and-quick-research-15li",
+      "source": "Dev.to",
+      "author": "Budiono Santoso",
+      "published": "2025-11-28T12:32:56+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "82d42a98a31e405b",
+      "title": "🚀 From Scattered Scripts to Product Hunt Launch: My Journey Building the Professional Automation Toolkit",
+      "description": "🚀 From Scattered Scripts to Product Hunt Launch: My Journey Building the Professional Automation Toolkit 🌱 The Beginning Six months ago, I was staring at a folder full of chaos: 30+ automation scripts scattered across directories. They were useful in isolation, but together they felt like nonsense—no consistent CLI patterns, no error handling, no documentation, and no way to chain them into something bigger. I knew there was potential, but I didn’t know how to turn it into a product. 🔧 The Trans",
+      "url": "https://dev.to/dopaminefiend/from-scattered-scripts-to-product-hunt-launch-my-journey-building-the-professional-automation-6b8",
+      "source": "Dev.to",
+      "author": "Kurt Warner",
+      "published": "2025-11-28T12:25:55+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "bec4555b0fb57b6c",
+      "title": "Explore Private Plane Charter Benefits With First Book Never Miss",
+      "description": "Traveling by air can be stressful. Long check-ins, security lines, and delays often make trips exhausting. For those who value time, comfort, and convenience, private plane charter is an ideal solution. Anmar Aviation, a trusted provider in Australia, offers a range of private aviation services that cater to business, government, and personal travel needs. From corporate charter flights to luxury private jets, there are many benefits to choosing private plane travel. Flexibility for FIFO Charter",
+      "url": "https://dev.to/anmaraviation/explore-private-plane-charter-benefits-with-first-book-never-miss-5930",
+      "source": "Dev.to",
+      "author": "Anmar Aviation",
+      "published": "2025-11-28T12:03:19+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "b1048e51551dc974",
       "title": "🤯",
       "description": "10 Developer Habits That Separate Good Programmers From Great Ones TheBitForge ・ Nov 18 #webdev #programming #productivity #javascript",
@@ -8216,20 +8217,6 @@
       "keywords": []
     },
     {
-      "id": "10787e42f64f7e10",
-      "title": "Roundtable (YC S23) Is Hiring Two Sales Development Representatives (SDRs)",
-      "description": "Comments",
-      "url": "https://www.ycombinator.com/companies/roundtable/jobs/irJTEsg-sales-development-representative",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-21T12:00:02+00:00",
-      "niche": "dev",
-      "score": 45,
-      "keywords": [
-        "development"
-      ]
-    },
-    {
       "id": "0676f451cf905df3",
       "title": "µcad: New open source programming language that can generate 2D sketches and 3D",
       "description": "Comments",
@@ -8298,18 +8285,6 @@
       "keywords": [
         "programming"
       ]
-    },
-    {
-      "id": "976b7a7a8ad2ae36",
-      "title": "FAWK: LLMs can write a language interpreter",
-      "description": "Comments",
-      "url": "https://martin.janiczek.cz/2025/11/21/fawk-llms-can-write-a-language-interpreter.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-21T10:28:49+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "b3292a5347c949b5",
@@ -9980,6 +9955,66 @@
       "keywords": []
     },
     {
+      "id": "33bf580bd3352a81",
+      "title": "EU Council Approves New \"Chat Control\" Mandate Pushing Mass Surveillance",
+      "description": "Comments",
+      "url": "https://reclaimthenet.org/eu-council-approves-new-chat-control-mandate-pushing-mass-surveillance",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-28T10:36:08+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "9230ed48ede910dc",
+      "title": "The mysterious black fungus from Chernobyl that may eat radiation",
+      "description": "Comments",
+      "url": "https://www.bbc.com/future/article/20251125-the-mysterious-black-fungus-from-chernobyl-that-appears-to-eat-radiation",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-28T12:17:15+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "10a2b0cd8460d248",
+      "title": "A Repository with 44 Years of Unix Evolution",
+      "description": "Comments",
+      "url": "https://www.spinellis.gr/pubs/conf/2015-MSR-Unix-History/html/Spi15c.html",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-28T09:32:38+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "1d529a0ad45d0590",
+      "title": "A Tale of Four Fuzzers",
+      "description": "Comments",
+      "url": "https://tigerbeetle.com/blog/2025-11-28-tale-of-four-fuzzers/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-28T12:11:39+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "c2269c58b0be3c9f",
+      "title": "Google denies 'misleading' reports of Gmail using your emails to train AI",
+      "description": "Comments",
+      "url": "https://www.theverge.com/news/826902/gmail-ai-training-data-opt-out",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-28T10:38:41+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "78c4b08725d5f56b",
       "title": "React 19 Upgrade Guide",
       "description": "The improvements added to React 19 require some breaking changes, but we've worked to make the upgrade as smooth as possible and we don't expect the changes to impact most apps. In this post, we will guide you through the steps for upgrading apps and libraries to React 19.",
@@ -10006,18 +10041,6 @@
       "keywords": [
         "best practices"
       ]
-    },
-    {
-      "id": "d33c163931aefb90",
-      "title": "6 Best AI Mode Tracking Tools That Will Transform Search Engine Experience in 2026",
-      "description": "Track your brand in Google AI Mode and other AI search engines. Compare top AI Mode tracking tools and pricing for 2025. Continue reading 6 Best AI Mode Tracking Tools That Will Transform Search Engine Experience in 2026 on SitePoint.",
-      "url": "https://www.sitepoint.com/best-ai-mode-tracking-tools/?utm_source=rss",
-      "source": "SitePoint",
-      "author": "SitePoint Sponsors",
-      "published": "2025-11-21T11:45:53+00:00",
-      "niche": "dev",
-      "score": 42,
-      "keywords": []
     },
     {
       "id": "0b6f79b39dcb1bca",
@@ -10068,8 +10091,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "React 19",
-        "performance"
+        "performance",
+        "React 19"
       ]
     },
     {
@@ -10083,10 +10106,10 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "release",
         "development",
+        "performance",
         "developer",
-        "performance"
+        "release"
       ]
     },
     {
@@ -10152,6 +10175,18 @@
       "keywords": []
     },
     {
+      "id": "cf6f0a9124859d5a",
+      "title": "The Geometry of Movement: A Shopify-Powered Digital Tribute to Raymond Templier’s Modernist Vision",
+      "description": "How a custom Shopify experience reimagines Templier’s modernist legacy through motion and refined digital design.",
+      "url": "https://tympanus.net/codrops/2025/11/28/the-geometry-of-movement-a-shopify-powered-digital-tribute-to-raymond-templiers-modernist-vision/",
+      "source": "Codrops",
+      "author": "Index Studio",
+      "published": "2025-11-28T09:50:30+00:00",
+      "niche": "dev",
+      "score": 39,
+      "keywords": []
+    },
+    {
       "id": "163762ab516c5fad",
       "title": "Leveling Guide for your Performance Journey",
       "description": "Posted by Alice Yuan - Senior Developer Relations Engineer Welcome to day 4 of Performance Spotlight Week. Now that you've learned about some of the awesome tools and best practices we've introduced recently such as the R8 Optimizer, and Profile Guided Optimization with Baseline Profiles and Startup Profiles, you might be wondering where to start your performance improvement journey. We've come up with a step-by-step performance leveling guide to meet your mobile development team where you are—w",
@@ -10162,10 +10197,10 @@
       "niche": "dev",
       "score": 39,
       "keywords": [
-        "best practices",
         "development",
+        "performance",
         "developer",
-        "performance"
+        "best practices"
       ]
     },
     {
@@ -10179,10 +10214,10 @@
       "niche": "dev",
       "score": 39,
       "keywords": [
-        "release",
-        "developer",
         "development",
-        "code"
+        "code",
+        "developer",
+        "release"
       ]
     },
     {
@@ -10512,8 +10547,8 @@
       "niche": "dev",
       "score": 37,
       "keywords": [
-        "library",
-        "developer"
+        "developer",
+        "library"
       ]
     },
     {
@@ -10542,8 +10577,8 @@
       "niche": "dev",
       "score": 37,
       "keywords": [
-        "developer",
-        "performance"
+        "performance",
+        "developer"
       ]
     },
     {
@@ -10572,8 +10607,8 @@
       "niche": "dev",
       "score": 37,
       "keywords": [
-        "developer",
-        "performance"
+        "performance",
+        "developer"
       ]
     },
     {
@@ -10615,8 +10650,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10627,6 +10662,20 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-11-21T16:23:50+00:00",
+      "niche": "dev",
+      "score": 33,
+      "keywords": [
+        "code"
+      ]
+    },
+    {
+      "id": "374fda72f7dd9e52",
+      "title": "Moss: a Rust Linux-compatible kernel in 26,000 lines of code",
+      "description": "Comments",
+      "url": "https://github.com/hexagonal-sun/moss",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-22T07:11:59+00:00",
       "niche": "dev",
       "score": 33,
       "keywords": [
@@ -10725,10 +10774,10 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "API",
-        "release",
         "code",
         "framework",
+        "API",
+        "release",
         "performance"
       ]
     },
@@ -10779,10 +10828,10 @@
       "niche": "dev",
       "score": 28,
       "keywords": [
-        "release",
-        "Angular",
+        "framework",
         "library",
-        "framework"
+        "Angular",
+        "release"
       ]
     },
     {
@@ -11076,18 +11125,6 @@
       ]
     },
     {
-      "id": "2af2a75d8a70f20e",
-      "title": "Building a 3D Infinite Carousel with Reactive Background Gradients",
-      "description": "Learn how to build a smooth, infinite 3D carousel where each image drives a reactive, canvas-based background gradient that adapts to its colors.",
-      "url": "https://tympanus.net/codrops/2025/11/11/building-a-3d-infinite-carousel-with-reactive-background-gradients/",
-      "source": "Codrops",
-      "author": "Clément Grellier",
-      "published": "2025-11-11T13:50:43+00:00",
-      "niche": "dev",
-      "score": 24,
-      "keywords": []
-    },
-    {
       "id": "d4f80f6117483130",
       "title": "React Native Core Contributor Summit 2024 Recap",
       "description": "Every year, the core contributors in the React Native Community get together with the React Native team to collaboratively shape the direction of this project.",
@@ -11137,8 +11174,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "framework"
+        "framework",
+        "release"
       ]
     },
     {
@@ -11152,9 +11189,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
+        "performance",
         "code",
-        "developer",
-        "performance"
+        "developer"
       ]
     },
     {
@@ -11168,8 +11205,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "framework",
-        "development"
+        "development",
+        "framework"
       ]
     },
     {
@@ -11198,22 +11235,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
-        "developer"
-      ]
-    },
-    {
-      "id": "ef05c1494dc99f74",
-      "title": "Quiet UI Came and Went, Quiet as a Mouse",
-      "description": "The extremely new framework that caught lots of attention will continue as a personal project. Quiet UI Came and Went, Quiet as a Mouse originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-      "url": "https://css-tricks.com/quiet-ui-came-and-went-quiet-as-a-mouse/",
-      "source": "CSS-Tricks",
-      "author": "Ryan Trimble",
-      "published": "2025-11-14T15:32:50+00:00",
-      "niche": "dev",
-      "score": 18,
-      "keywords": [
-        "framework"
+        "developer",
+        "release"
       ]
     },
     {
@@ -11453,30 +11476,6 @@
       "keywords": []
     },
     {
-      "id": "484d09ae3f30d984",
-      "title": "Nearby peer discovery without GPS using environmental fingerprints",
-      "description": "Comments",
-      "url": "https://www.svendewaerhert.com/blog/nearby-peer-discovery/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-21T11:47:38+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "2be6a1c84ee5d4a6",
-      "title": "The 101 of analog signal filtering (2024)",
-      "description": "Comments",
-      "url": "https://lcamtuf.substack.com/p/the-101-of-analog-signal-filtering",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-21T10:54:15+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
       "id": "cd22c2cdb9845801",
       "title": "how to repurpose your old phone into a web server",
       "description": "Comments",
@@ -11585,18 +11584,6 @@
       "keywords": []
     },
     {
-      "id": "c52513e5886f2ee7",
-      "title": "Abuse of the nullish coalescing operator in JS/TS",
-      "description": "Comments",
-      "url": "https://fredrikmalmo.com/blog/js-ts-nullish-empty-string-coalescing",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-21T12:28:37+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
       "id": "49d9651929b3ba6d",
       "title": "Physicists drive antihydrogen breakthrough at CERN",
       "description": "Comments",
@@ -11681,90 +11668,6 @@
       "keywords": [
         "release"
       ]
-    },
-    {
-      "id": "bf6585116f113096",
-      "title": "Should We Even Have :closed?",
-      "description": "Is there really a difference between using :not(:open) and :closed? As always, it depends. Sunkanmi Fafowora explains why :closed is currently not a thing. Should We Even Have :closed? originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-      "url": "https://css-tricks.com/should-we-even-have-closed/",
-      "source": "CSS-Tricks",
-      "author": "Sunkanmi Fafowora",
-      "published": "2025-11-20T15:10:26+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "3ca11ebaa03aa1ca",
-      "title": "The “Most Hated” CSS Feature: asin(), acos(), atan() and atan2()",
-      "description": "If we have a ratio that represents the sine, cosine or tangent of an angle, how can we get the original angle? This is where inverse trigonometric functions come in! The “Most Hated” CSS Feature: asin(), acos(), atan() and atan2() originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-      "url": "https://css-tricks.com/the-most-hated-css-feature-asin-acos-atan-and-atan2/",
-      "source": "CSS-Tricks",
-      "author": "Juan Diego Rodríguez",
-      "published": "2025-11-17T14:47:54+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "ecb487691c7ec002",
-      "title": "The Range Syntax Has Come to Container Style Queries and if()",
-      "description": "Being able to use the range syntax with container style queries — which we can do starting with Chrome 142 — means that we can compare literal numeric values as well as numeric values tokenized by custom properties or the attr() function. The Range Syntax Has Come to Container Style Queries and if() originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-      "url": "https://css-tricks.com/the-range-syntax-has-come-to-container-style-queries-and-if/",
-      "source": "CSS-Tricks",
-      "author": "Daniel Schwarz",
-      "published": "2025-11-13T15:00:20+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "46f02976d5b67f77",
-      "title": "Headings: Semantics, Fluidity, and Styling — Oh My!",
-      "description": "A few links about headings that I've had stored under my top hat. Headings: Semantics, Fluidity, and Styling — Oh My! originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-      "url": "https://css-tricks.com/headings-semantics-fluidity-and-styling-oh-my/",
-      "source": "CSS-Tricks",
-      "author": "Geoff Graham",
-      "published": "2025-11-10T14:44:13+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "b61f78debc429709",
-      "title": "Explaining the Accessible Benefits of Using Semantic HTML Elements",
-      "description": "Why should you use a semantic &#60;button&#62; instead of a generic &#60;div&#62;? Accessibility, right? By how exactly does it help accessibility? Explaining the Accessible Benefits of Using Semantic HTML Elements originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-      "url": "https://css-tricks.com/explaining-the-accessible-benefits-of-using-semantic-html-elements/",
-      "source": "CSS-Tricks",
-      "author": "Geoff Graham",
-      "published": "2025-11-06T15:57:49+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "40e317e52f2a5a52",
-      "title": "The “Most Hated” CSS Feature: tan()",
-      "description": "Last time, we discussed that, sadly, according to the&#160;State of CSS 2025 survey, trigonometric functions are deemed the &#8220;Most Hated&#8221; CSS feature. That shocked me. I may have even been a little offended, being a math nerd and &#8230; The &#8220;Most Hated&#8221; CSS Feature: tan() originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-      "url": "https://css-tricks.com/the-most-hated-css-feature-tan/",
-      "source": "CSS-Tricks",
-      "author": "Juan Diego Rodríguez",
-      "published": "2025-11-03T16:03:08+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "3559bf5fa3c3b21e",
-      "title": "Getting Creative With Small Screens",
-      "description": "On mobile, people can lose their sense of context and can’t easily tell where a section begins or ends. Good small-screen design can help orient them using a variety of techniques. Getting Creative With Small Screens originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-      "url": "https://css-tricks.com/getting-creative-with-small-screens/",
-      "source": "CSS-Tricks",
-      "author": "Andy Clarke",
-      "published": "2025-10-29T16:22:28+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
     },
     {
       "id": "38a87157206b0e68",
@@ -11865,8 +11768,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "programming",
-        "development"
+        "development",
+        "programming"
       ]
     },
     {
@@ -12112,6 +12015,18 @@
       "keywords": [
         "developer"
       ]
+    },
+    {
+      "id": "d33c163931aefb90",
+      "title": "6 Best AI Mode Tracking Tools That Will Transform Search Engine Experience in 2026",
+      "description": "Track your brand in Google AI Mode and other AI search engines. Compare top AI Mode tracking tools and pricing for 2025. Continue reading 6 Best AI Mode Tracking Tools That Will Transform Search Engine Experience in 2026 on SitePoint.",
+      "url": "https://www.sitepoint.com/best-ai-mode-tracking-tools/?utm_source=rss",
+      "source": "SitePoint",
+      "author": "SitePoint Sponsors",
+      "published": "2025-11-21T11:45:53+00:00",
+      "niche": "dev",
+      "score": 12,
+      "keywords": []
     },
     {
       "id": "be8364954ba107a3",
@@ -12429,6 +12344,18 @@
       "published": "2025-09-26T00:00:00+00:00",
       "niche": "dev",
       "score": 9,
+      "keywords": []
+    },
+    {
+      "id": "a90e9a4286782beb",
+      "title": "The three thousand year journey of colchicine",
+      "description": "Comments",
+      "url": "https://www.worksinprogress.news/p/the-three-thousand-year-journey-of",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-20T23:43:30+00:00",
+      "niche": "dev",
+      "score": 8,
       "keywords": []
     },
     {
