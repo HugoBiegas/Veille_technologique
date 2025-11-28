@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-11-28T18:34:33.612613+00:00",
-  "total_articles": 972,
+  "last_updated": "2025-11-28T21:21:25.943860+00:00",
+  "total_articles": 969,
   "articles": [
     {
       "id": "bc7c03cba6a15884",
@@ -270,6 +270,20 @@
       "score": 72,
       "keywords": [
         "API"
+      ]
+    },
+    {
+      "id": "37969841220897a6",
+      "title": "Android Storage Complete Guide: Internal Storage vs External Storage (Part 1)",
+      "description": "While working on an Android app, persisting data is a common use case. Take a simple example: an app that supports light and dark themes. If a user toggles between both, we need to remember this preference across lifecycle changes, like when the app is closed and reopened. This theme-setting example highlights a common challenge: choosing the right storage mechanism. Which storage mechanism fits our specific needs while balancing performance, persistence, and security? In this article, we will i",
+      "url": "https://dev.to/yousrasd/android-storage-complete-guide-internal-storage-vs-external-storage-part-1-40kg",
+      "source": "Dev.to",
+      "author": "Yousra S",
+      "published": "2025-11-28T21:02:25+00:00",
+      "niche": "dev",
+      "score": 72,
+      "keywords": [
+        "performance"
       ]
     },
     {
@@ -654,6 +668,18 @@
       "keywords": []
     },
     {
+      "id": "beb55b666e609be4",
+      "title": "You SHOULD derive your state in React",
+      "description": "Topic is not new but the more I work this concept is forgotten and rediscovered all over again. Your component can be small and swift, but it becomes doing more and more. Apply now this easy rules and thanks me later. What is deriving state? Deriving state is computing value based on the data we already have. This means figuring out a value based on props or state we already have. Good, deriving value from data How that differs from setting state? When you're setting state you manage multiple so",
+      "url": "https://dev.to/marcin_codes/you-should-derive-your-state-in-react-1fbl",
+      "source": "Dev.to",
+      "author": "Marcin",
+      "published": "2025-11-28T20:57:58+00:00",
+      "niche": "dev",
+      "score": 68,
+      "keywords": []
+    },
+    {
       "id": "0bb0864961ed6566",
       "title": "Architecting Advanced Routing Patterns in Symfony",
       "description": "If you ask a junior developer what the Symfony Routing component does, they will tell you it maps a URL to a controller. They aren’t wrong, but they are only scratching the surface. For a Senior Developer or Architect, the Routing component is the nervous system of the application. It is the first line of defense, the primary content negotiator and the mechanism that transforms a stateless HTTP request into a stateful domain context. In Symfony 7, the ecosystem has matured significantly. We have",
@@ -994,22 +1020,28 @@
       "keywords": []
     },
     {
-      "id": "9115450a7b3cb6ac",
-      "title": "How to Use the Django REST Framework - Build Backend APIs with DRF",
-      "description": "When you click on most backend development tutorials, they often teach you what to do, not how to think.That’s why many developers only realize their mistakes after they start building. So, how does one actually think like a backend developer? Before...",
-      "url": "https://www.freecodecamp.org/news/how-to-use-the-django-rest-framework/",
-      "source": "freeCodeCamp",
-      "author": "Mari",
-      "published": "2025-11-21T21:13:28+00:00",
+      "id": "280e17b0f5b11fe9",
+      "title": "Effective harnesses for long-running agents",
+      "description": "Comments",
+      "url": "https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-28T19:05:16+00:00",
       "niche": "dev",
-      "score": 61,
-      "keywords": [
-        "API",
-        "development",
-        "tutorial",
-        "framework",
-        "developer"
-      ]
+      "score": 62,
+      "keywords": []
+    },
+    {
+      "id": "c153deaa7dfcd833",
+      "title": "The original ABC language, Python's predecessor (1991)",
+      "description": "Comments",
+      "url": "https://github.com/gvanrossum/abc-unix",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-28T19:58:13+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": []
     },
     {
       "id": "87152edff5e457a4",
@@ -1172,21 +1204,6 @@
         "API",
         "code",
         "framework"
-      ]
-    },
-    {
-      "id": "8bab7607084e81b2",
-      "title": "Using DigitalOcean Spaces to Store MySQL Cache Files in PHP",
-      "description": "Caching database queries is one of the most effective ways to improve application performance. While tools like Redis and Memcached are the gold standard for real-time caching, sometimes you want a simple, file-based approach — and maybe even store those cached files in the cloud for durability and scalability. In this article, I’ll show you how to: Implement a file-based cache for MySQL queries in PHP Upload those cached JSON files to DigitalOcean Spaces Serve cached data efficiently to clients",
-      "url": "https://dev.to/wildshark/using-digitalocean-spaces-to-store-mysql-cache-files-in-php-2idl",
-      "source": "Dev.to",
-      "author": "iQuipe Digital",
-      "published": "2025-11-21T20:35:54+00:00",
-      "niche": "dev",
-      "score": 57,
-      "keywords": [
-        "PHP",
-        "performance"
       ]
     },
     {
@@ -1692,6 +1709,22 @@
       "score": 56,
       "keywords": [
         "API",
+        "developer",
+        "development"
+      ]
+    },
+    {
+      "id": "6c2a3c84c9296978",
+      "title": "Stop fighting your build tools. Meet AtomAttr.",
+      "description": "For years, frontend development has been dominated by the build step. Webpack, Rollup, Vite, PostCSS... the list goes on. While tools like Tailwind CSS revolutionized how we style apps, they introduced a heavy dependency on Node.js environments. If you are a backend developer (PHP, Python, Go) or just want to prototype a quick idea, setting up a full frontend toolchain feels like overkill. I asked myself: What if you could just write HTML? So I built AtomAttr. ⚛️ What is AtomAttr? AtomAttr is a ",
+      "url": "https://dev.to/devadetayo/stop-fighting-your-build-tools-meet-atomattr-4bko",
+      "source": "Dev.to",
+      "author": "Adetayo Adeniyi",
+      "published": "2025-11-28T20:51:16+00:00",
+      "niche": "dev",
+      "score": 56,
+      "keywords": [
+        "PHP",
         "developer",
         "development"
       ]
@@ -2249,76 +2282,6 @@
       "keywords": [
         "developer",
         "Laravel"
-      ]
-    },
-    {
-      "id": "1112ce03fac79ce6",
-      "title": "When Heaven Teaches You How to Live: A Deep Journey Through Matthew Chapter 6",
-      "description": "There are chapters in Scripture that read like lightning—bright, sudden, unforgettable. And then there are chapters that read like slow, holy rain—soaking into the soil of your soul until everything grows differently. Matthew 6 is rain. It is the quiet voice of Jesus calling us into a life not built on fear… not built on performance… not built on the brittle scaffolding of human approval… but built on trust, surrender, simplicity, purity, and the unshakeable faith that our Father sees, knows, an",
-      "url": "https://dev.to/douglasvandergraph/when-heaven-teaches-you-how-to-live-a-deep-journey-through-matthew-chapter-6-45mh",
-      "source": "Dev.to",
-      "author": "DouglasVandergraph",
-      "published": "2025-11-21T21:06:07+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "performance"
-      ]
-    },
-    {
-      "id": "3bb81b992e7134a4",
-      "title": "The Monolith Strikes Back: When a Monolith Still Beats Microservices",
-      "description": "Somewhere along the line, microservices became the default answer to every architectural question—like the tech equivalent of \"let's form a committee.\" But the moment you've actually run a distributed system in production, you start seeing the cracks. Here are the moments where a monolith still wins without breaking a sweat: When you spend more time stitching services together than building actual features. When a simple bug fix turns into a safari across eight repos, three pipelines, and a trac",
-      "url": "https://dev.to/oluyinka_ahmedabubakar_1/the-monolith-strikes-back-when-a-monolith-still-beats-microservices-254f",
-      "source": "Dev.to",
-      "author": "Oluyinka Ahmed Abubakar",
-      "published": "2025-11-21T20:52:42+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "microservices"
-      ]
-    },
-    {
-      "id": "9fba0f6437f1c060",
-      "title": "Python by Structure - Class-Based Decorators That Remember",
-      "description": "Timothy was reviewing a performance monitoring system when he stopped on an unfamiliar pattern. \"Margaret, this decorator isn't a function - it's a class. I've only ever seen decorators written as functions.\" Margaret looked over. \"Class-based decorators are powerful when you need your decorator to maintain state. What are you looking at?\" class CallCounter: \"\"\"A decorator class to count function calls.\"\"\" def __init__(self, func): self.func = func self.count = 0 def __call__(self, *args, **kwar",
-      "url": "https://dev.to/aaron_rose_0787cc8b4775a0/python-by-structure-class-based-decorators-that-remember-3fgn",
-      "source": "Dev.to",
-      "author": "Aaron Rose",
-      "published": "2025-11-21T20:49:13+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "performance"
-      ]
-    },
-    {
-      "id": "961c07297109db6a",
-      "title": "Payra WooCommerce Plugin Updated — New Branding and Improved Media",
-      "description": "We’ve released an update to the Payra Cash plugin for WordPress/WooCommerce, focused on refreshing the branding and aligning the plugin with the broader Payra product ecosystem. What’s Updated? New Logo — consistent with the updated Payra branding Updated Links — Payra is now a suite of products, so plugin links now point to specific product pages instead of a single homepage New media sources added — including links to dev.to, Hashnode, and the YouTube channel Improved plugin metadata — cleaner",
-      "url": "https://dev.to/payracash/payra-woocommerce-plugin-updated-new-branding-and-improved-media-h5",
-      "source": "Dev.to",
-      "author": "Wraith",
-      "published": "2025-11-21T20:41:12+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "release"
-      ]
-    },
-    {
-      "id": "9712beb6182e9a65",
-      "title": "How Mental Health Impacts Student Performance (And Why It Matters in a High-Pressure, Digital Learning World)",
-      "description": "Modern students aren’t just dealing with homework and exams anymore. They’re navigating a hyper-connected, always-on world filled with digital distractions, performance pressure, and unrealistic expectations. And here’s something many educators still overlook: 💡 A student’s mental health directly affects their ability to learn, focus, and perform. As teams at NVelUp.care work with students across Washington, Idaho, New Mexico, and Utah, we consistently see the same pattern: Addressing mental hea",
-      "url": "https://dev.to/nvelup_e92618d5196e8d9f43/how-mental-health-impacts-student-performance-and-why-it-matters-in-a-high-pressure-digital-1npo",
-      "source": "Dev.to",
-      "author": "NVelUp",
-      "published": "2025-11-21T20:31:55+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "performance"
       ]
     },
     {
@@ -3222,18 +3185,17 @@
       ]
     },
     {
-      "id": "239b210107b2f92d",
-      "title": "How We Use AI as Software & Cloud Engineers",
-      "description": "How We Use AI as Software & Cloud Engineers By Seyi Babine AI has become a big part of our daily work as engineers. It helps us build faster, work smarter, and deliver better solutions. As software engineers, AI assists with writing code, fixing bugs, creating tests, and improving code quality. It acts like a coding partner that speeds up development and reduces mistakes. As cloud engineers, AI helps automate infrastructure, optimize cloud costs, and predict issues before they happen. AI tools a",
-      "url": "https://dev.to/seyibabs/how-we-use-ai-as-software-cloud-engineers-56ho",
+      "id": "9f6e57c0d23daffa",
+      "title": "Simplify AWS Lambda Routing with Zapix – A Lightweight TypeScript Router",
+      "description": "If you’re building serverless applications on AWS Lambda, handling routing, middleware, and errors can quickly get messy. Enter Zapix – a lightweight, TypeScript-friendly router designed specifically for Lambda. Why Zapix? Minimal router supporting get, post, put, patch, delete, options, and all methods Middleware chaining similar to Express.js – validate, authenticate, or transform requests easily Global error handling with router.useError for centralized control Safe and consistent HTTP respon",
+      "url": "https://dev.to/devrsrimon/simplify-aws-lambda-routing-with-zapix-a-lightweight-typescript-router-33n6",
       "source": "Dev.to",
-      "author": "Seyi Babine",
-      "published": "2025-11-21T20:30:44+00:00",
+      "author": "Rs. Rimon",
+      "published": "2025-11-28T20:59:25+00:00",
       "niche": "dev",
-      "score": 52,
+      "score": 54,
       "keywords": [
-        "code",
-        "development"
+        "API"
       ]
     },
     {
@@ -3702,20 +3664,6 @@
       ]
     },
     {
-      "id": "40abf5bd2972d2fc",
-      "title": "Building an AWS-Based RAG Pipeline",
-      "description": "The Generational AI Blind Spot We've got a fantastic new AI coding assistant, but when you ask it about your company's proprietary service architecture, it gives you a generic shrug (or worse, a confident hallucination). Why? Because our AI lives on the general internet, and our team's hard-won knowledge is locked behind firewalls and scattered across tools like Confluence, Slack, and internal documentation. This is a pain point for everyone. As a service developer, we need that agent to underst",
-      "url": "https://dev.to/elbanic/building-an-aws-based-rag-pipeline-1lp1",
-      "source": "Dev.to",
-      "author": "elbanic",
-      "published": "2025-11-21T21:02:00+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "developer"
-      ]
-    },
-    {
       "id": "a1730279cbddc52f",
       "title": "I Built a Bedrock Agent for Learning… And It Definitely Took That Mission Seriously",
       "description": "TL;DR In this lab you’re going to build a fully functional Bedrock Agent that can: Read your documents in S3 Extract information Execute functions Answer questions in a structured way Reason step by step using Amazon Nova Micro All 100% from the console, no Studio and no manual code. You will learn to: Create a bucket, upload PDFs, create an Agent, add Actions, connect S3, test with real questions, and validate responses using grounding. Estimated time: 20–30 min Services: Bedrock Agents, S3, IA",
@@ -3755,20 +3703,6 @@
       "score": 51,
       "keywords": [
         "developer"
-      ]
-    },
-    {
-      "id": "f486cfed8d6b90d5",
-      "title": "How to Manage Your Python Projects with Poetry",
-      "description": "Python development looks simple from the outside. But managing real projects is rarely easy. You need to install packages, update them, avoid version conflicts, create virtual environments, and prepare your project for distribution. Many beginners th...",
-      "url": "https://www.freecodecamp.org/news/how-to-manage-your-python-projects-with-poetry/",
-      "source": "freeCodeCamp",
-      "author": "Manish Shivanandhan",
-      "published": "2025-11-21T21:16:02+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "development"
       ]
     },
     {
@@ -5282,42 +5216,6 @@
       "keywords": [
         "developer"
       ]
-    },
-    {
-      "id": "0d926c13e4d0d503",
-      "title": "Introducing nenv — A portable, per-project Node.js runtime for Windows (no global install required)",
-      "description": "Most of us have dealt with Node.js version conflicts at some point: One project needs Node 18. Another needs Node 20. A global upgrade breaks something. Corporate or restricted laptops don’t allow installers. CI/CD behaves differently from local environments. Teammates run “slightly different” versions and bugs magically appear. On Linux/macOS, tools like nvm, asdf, volta, and fnm help… But on Windows, especially without admin rights, things get messy. So I started experimenting with a simple id",
-      "url": "https://dev.to/tabreezsajjad/introducing-nenv-a-portable-per-project-nodejs-runtime-for-windows-no-global-install-required-4fp7",
-      "source": "Dev.to",
-      "author": "Sajjad Tabreez",
-      "published": "2025-11-21T21:09:06+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "f94a06f720035430",
-      "title": "Vehicle Diagnostic Timeline and Dealership Communication Analysis - Volkswagen",
-      "description": "Vehicle Diagnostic Timeline and Dealership Communication Analysis VIN: 3VWE57BUXKM218251 Model: 2019 Volkswagen Jetta This post documents the vehicle’s diagnostic history in chronological order, followed by a comparison to the dealership’s written statements. All quotes from the dealership representative (Colin) are taken exactly as written. No interpretations or recall references are included. The goal is to present clear facts based on the vehicle’s ODIS engineering log and compare them to the",
-      "url": "https://dev.to/formantaudio/vehicle-diagnostic-timeline-and-dealership-communication-analysis-volkswagen-2i87",
-      "source": "Dev.to",
-      "author": "Tyler Johnston-Kent",
-      "published": "2025-11-21T20:41:11+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "6c36a405ecb91c85",
-      "title": "Sketch: A guided tour of Copenhagen",
-      "description": "Sketch probably didn't \"have\" to redesign its UI to line up with macOS Tahoe, but a big part of its appeal is the fact that it feels like it totally belongs to the Mac. Sketch: A guided tour of Copenhagen originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-      "url": "https://css-tricks.com/sketch-a-guided-tour-of-copenhagen/",
-      "source": "CSS-Tricks",
-      "author": "Geoff Graham",
-      "published": "2025-11-21T18:53:05+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
     },
     {
       "id": "9dff0745b60db49f",
@@ -7998,6 +7896,78 @@
       "keywords": []
     },
     {
+      "id": "a689a41c420b30c4",
+      "title": "When Heaven Leaned In to Listen: A Deep Journey Through John 17",
+      "description": "When Heaven Leaned In to Listen: A Deep Journey Through John 17 There are moments in Scripture that feel like history, moments that feel like revelation, and moments that feel like stepping directly into the presence of God. John 17 is one of those moments—one of the holiest, most intimate, most awe-inspiring chapters in the entire Bible. It is not Jesus speaking to the crowds. It is not Jesus confronting religious leaders. It is not Jesus performing miracles or teaching parables or challenging ",
+      "url": "https://dev.to/douglasvandergraph/when-heaven-leaned-in-to-listen-a-deep-journey-through-john-17-4h37",
+      "source": "Dev.to",
+      "author": "DouglasVandergraph",
+      "published": "2025-11-28T21:12:16+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "ad187cf2c4314b1d",
+      "title": "Security news weekly round-up - 28th November 2025",
+      "description": "Be careful what you post online. Here, \"online\" does not mean social media; it means online tools that you are likely to use in your day-to-day activities. It's also worth noting that cybercrime is a real threat and with the popularity of LLMs, cyber criminals can now automate lots of things, e.g., creation of phishing emails. The security of your organization also depends on your cybersecurity education and awareness. This can potentially save your organization from financial losses or loss of ",
+      "url": "https://dev.to/ziizium/security-news-weekly-round-up-28th-november-2025-50l8",
+      "source": "Dev.to",
+      "author": "Habdul Hazeez",
+      "published": "2025-11-28T21:08:42+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "3e1d8f183e317795",
+      "title": "Unmasking Bias: How Vocal Cues Skew Speech Translation",
+      "description": "Unmasking Bias: How Vocal Cues Skew Speech Translation Imagine a translation system consistently assigning masculine pronouns to a pilot, even when the speaker is female. Or defaulting to feminine pronouns for nurses, regardless of vocal characteristics. This isn't just a glitch; it's a reflection of deep-seated biases subtly influencing our AI. The core issue? Speech translation models often rely on a speaker's voice to infer gender, especially when translating between languages with different ",
+      "url": "https://dev.to/arvind_sundararajan/unmasking-bias-how-vocal-cues-skew-speech-translation-2ba4",
+      "source": "Dev.to",
+      "author": "Arvind SundaraRajan",
+      "published": "2025-11-28T21:02:06+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "b0070e3a92ca9e5a",
+      "title": "fil9",
+      "description": "#!/bin/bash # filter_lastNdays.sh – works with your exact format as of Nov 2025 [[ -z \"$1\" || -z \"$2\" ]] && { echo \"Usage: $0 <column> <days_back> [delimiter]\" echo \"Example: cat Zxtra.dat | $0 4 60\" exit 1 } COL=\"$1\" DAYS=\"$2\" DELIM=\"${3:-~}\" # your files use ~ as delimiter # Correct cutoff: N days ago (this was the #1 bug before) CUTOFF=$(date -d \"$DAYS days ago\" +%s) awk -v col=\"$COL\" -v cutoff=\"$CUTOFF\" -F\"$DELIM\" ' function month2num(m) { return (index(\"JanFebMarAprMayJunJulAugSepOctNovDec\"",
+      "url": "https://dev.to/query_filter_591122b53770/fil9-51o4",
+      "source": "Dev.to",
+      "author": "Query Filter",
+      "published": "2025-11-28T21:01:02+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "66a2a65313906bf8",
+      "title": "filetr8",
+      "description": "#!/bin/bash # filter_lastNdays.sh – works with your exact format as of Nov 2025 [[ -z \"$1\" || -z \"$2\" ]] && { echo \"Usage: $0 <column> <days_back> [delimiter]\" echo \"Example: cat Zxtra.dat | $0 4 60\" exit 1 } COL=\"$1\" DAYS=\"$2\" DELIM=\"${3:-~}\" # your files use ~ as delimiter # Correct cutoff: N days ago (this was the #1 bug before) CUTOFF=$(date -d \"$DAYS days ago\" +%s) awk -v col=\"$COL\" -v cutoff=\"$CUTOFF\" -F\"$DELIM\" ' function month2num(m) { return (index(\"JanFebMarAprMayJunJulAugSepOctNovDec\"",
+      "url": "https://dev.to/query_filter_591122b53770/filetr8-4l11",
+      "source": "Dev.to",
+      "author": "Query Filter",
+      "published": "2025-11-28T20:59:47+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "329bc8c4ad972744",
+      "title": "Unknown Unknowns (Bite-size Article)",
+      "description": "Introduction When you work on a long-term project, you may have experienced situations like: Something unexpected happens and the project drifts far away from the original plan You start a task and suddenly encounter unforeseen issues, which create even more tasks These are what we call “Unknown Unknowns.” The term dates back to a 2002 press briefing by U.S. Secretary of Defense Donald Rumsfeld. In response to questions about whether Iraq possessed weapons of mass destruction, he explained that ",
+      "url": "https://dev.to/koshirok096/unknown-unknowns-bite-size-article-37j",
+      "source": "Dev.to",
+      "author": "koshirok096",
+      "published": "2025-11-28T20:54:49+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "b1048e51551dc974",
       "title": "🤯",
       "description": "10 Developer Habits That Separate Good Programmers From Great Ones TheBitForge ・ Nov 18 #webdev #programming #productivity #javascript",
@@ -8307,30 +8277,6 @@
       ]
     },
     {
-      "id": "57e0c4c9581f2061",
-      "title": "We Remain Alive Also in a Dead Internet",
-      "description": "Comments",
-      "url": "https://slavoj.substack.com/p/why-we-remain-alive-also-in-a-dead-954",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-21T20:46:36+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "727238d46f84821f",
-      "title": "We remember the internet bubble. This mania looks and feels the same",
-      "description": "Comments",
-      "url": "https://crazystupidtech.com/2025/11/21/boom-bubble-bust-boom-why-should-ai-be-different/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-21T20:30:51+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
       "id": "538aa6671101e626",
       "title": "California DMV approves map increase in Waymo driverless operations",
       "description": "Comments",
@@ -8362,18 +8308,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-11-21T23:28:40+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "64cb996ec64d466b",
-      "title": "Pixar: The Early Days A never-before-seen 1996 interview",
-      "description": "Comments",
-      "url": "https://stevejobsarchive.com/stories/pixar-early-days",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-21T20:45:06+00:00",
       "niche": "dev",
       "score": 44,
       "keywords": []
@@ -10035,6 +9969,30 @@
       "keywords": []
     },
     {
+      "id": "4a3b55d2526ac125",
+      "title": "Molly: An Improved Signal App",
+      "description": "Comments",
+      "url": "https://molly.im/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-28T17:48:25+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "fa2c2277b1eab996",
+      "title": "Airloom – 3D Flight Tracker",
+      "description": "Comments",
+      "url": "https://objectiveunclear.com/airloom.html",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-28T16:49:12+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "78c4b08725d5f56b",
       "title": "React 19 Upgrade Guide",
       "description": "The improvements added to React 19 require some breaking changes, but we've worked to make the upgrade as smooth as possible and we don't expect the changes to impact most apps. In this post, we will guide you through the steps for upgrading apps and libraries to React 19.",
@@ -10124,10 +10082,10 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "developer",
+        "release",
         "development",
-        "performance",
-        "release"
+        "developer",
+        "performance"
       ]
     },
     {
@@ -10205,8 +10163,8 @@
       "keywords": [
         "best practices",
         "development",
-        "performance",
-        "developer"
+        "developer",
+        "performance"
       ]
     },
     {
@@ -10220,23 +10178,11 @@
       "niche": "dev",
       "score": 39,
       "keywords": [
-        "code",
+        "release",
         "development",
-        "developer",
-        "release"
+        "code",
+        "developer"
       ]
-    },
-    {
-      "id": "8ea3d960cdbed310",
-      "title": "Arduino Terms of Service and Privacy Policy update: setting the record straight",
-      "description": "Comments",
-      "url": "https://blog.arduino.cc/2025/11/21/the-arduino-terms-of-service-and-privacy-policy-update-setting-the-record-straight/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-21T21:13:11+00:00",
-      "niche": "dev",
-      "score": 38,
-      "keywords": []
     },
     {
       "id": "35f6613f0a7be507",
@@ -10552,8 +10498,8 @@
       "score": 38,
       "keywords": [
         "React 19",
-        "API",
-        "release"
+        "release",
+        "API"
       ]
     },
     {
@@ -10567,9 +10513,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
+        "developer",
         "best practices",
-        "performance",
-        "developer"
+        "performance"
       ]
     },
     {
@@ -10610,8 +10556,8 @@
       "niche": "dev",
       "score": 37,
       "keywords": [
-        "API",
-        "developer"
+        "developer",
+        "API"
       ]
     },
     {
@@ -10625,8 +10571,8 @@
       "niche": "dev",
       "score": 37,
       "keywords": [
-        "performance",
-        "developer"
+        "developer",
+        "performance"
       ]
     },
     {
@@ -10640,8 +10586,8 @@
       "niche": "dev",
       "score": 37,
       "keywords": [
-        "API",
-        "developer"
+        "developer",
+        "API"
       ]
     },
     {
@@ -10655,8 +10601,8 @@
       "niche": "dev",
       "score": 37,
       "keywords": [
-        "performance",
-        "developer"
+        "developer",
+        "performance"
       ]
     },
     {
@@ -10808,10 +10754,10 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "framework",
-        "performance",
-        "code",
         "release",
+        "performance",
+        "framework",
+        "code",
         "API"
       ]
     },
@@ -10862,10 +10808,10 @@
       "niche": "dev",
       "score": 28,
       "keywords": [
-        "library",
         "framework",
-        "Angular",
-        "release"
+        "release",
+        "library",
+        "Angular"
       ]
     },
     {
@@ -10933,18 +10879,6 @@
       "keywords": [
         "release"
       ]
-    },
-    {
-      "id": "de1133bdb4731e20",
-      "title": "We Induced Smells With Ultrasound",
-      "description": "Comments",
-      "url": "https://writetobrain.com/olfactory",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-21T20:02:45+00:00",
-      "niche": "dev",
-      "score": 26,
-      "keywords": []
     },
     {
       "id": "2a305523198685b7",
@@ -11181,8 +11115,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "API",
-        "release"
+        "release",
+        "API"
       ]
     },
     {
@@ -11211,9 +11145,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
+        "code",
         "developer",
-        "performance",
-        "code"
+        "performance"
       ]
     },
     {
@@ -11257,8 +11191,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -11399,8 +11333,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "API",
-        "code"
+        "code",
+        "API"
       ]
     },
     {
@@ -11692,6 +11626,18 @@
       "keywords": [
         "release"
       ]
+    },
+    {
+      "id": "6c36a405ecb91c85",
+      "title": "Sketch: A guided tour of Copenhagen",
+      "description": "Sketch probably didn't \"have\" to redesign its UI to line up with macOS Tahoe, but a big part of its appeal is the fact that it feels like it totally belongs to the Mac. Sketch: A guided tour of Copenhagen originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
+      "url": "https://css-tricks.com/sketch-a-guided-tour-of-copenhagen/",
+      "source": "CSS-Tricks",
+      "author": "Geoff Graham",
+      "published": "2025-11-21T18:53:05+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
     },
     {
       "id": "bf6585116f113096",
