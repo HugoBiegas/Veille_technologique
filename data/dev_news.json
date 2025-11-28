@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-27T21:22:33.308470+00:00",
+  "last_updated": "2025-11-28T01:54:13.833719+00:00",
   "total_articles": 964,
   "articles": [
     {
@@ -234,20 +234,6 @@
       ]
     },
     {
-      "id": "cb3d162e1bb24438",
-      "title": "I put an Air-Gapped Neural Network in my pocket (Python on Android)",
-      "description": "The Pocket Mainframe I shared my desktop AI defense system. Now I'm sharing the mobile unit. This is NEXUS v9, a sovereign network intelligence tool designed to run natively on Android (via Pydroid3 or Termux). Most \"AI apps\" on your phone are just wrappers sending your data to a cloud API. This is different. This is a complete, self-contained neural network running locally on my device. The Mobile Engineering Challenge Running a complex defense system on a phone presents unique challenges: No R",
-      "url": "https://dev.to/sovarcneo/i-put-an-air-gapped-neural-network-in-my-pocket-python-on-android-1632",
-      "source": "Dev.to",
-      "author": "c_davenport795@proton.me",
-      "published": "2025-11-21T01:05:12+00:00",
-      "niche": "dev",
-      "score": 72,
-      "keywords": [
-        "API"
-      ]
-    },
-    {
       "id": "88d53f8f8451a3b9",
       "title": "GitHub Finally Became a Part of My Coding Routine",
       "description": "For the longest time, Git and GitHub were just words I kept hearing everywhere.In tutorials, on X/Twitter, in developer posts. I wasn’t avoiding it. I just didn’t see why I should push every small thing I wrote. I was practicing Python, SQL, doing LeetCode… and everything lived quietly inside my laptop. It worked fine. Nothing felt “wrong.” But at some point, I wanted more structure. A place where my learning wouldn’t disappear into random folders. Something that showed progress. Not for others,",
@@ -289,6 +275,20 @@
       "score": 72,
       "keywords": [
         "release"
+      ]
+    },
+    {
+      "id": "92324cba4398fc72",
+      "title": "A beginner's guide to the Gpt-4o-Mini model by Openai on Replicate",
+      "description": "This is a simplified guide to an AI model called Gpt-4o-Mini maintained by Openai. If you like these kinds of analysis, you should join AImodels.fyi or follow us on Twitter. gpt-4o-mini is a streamlined variant of gpt-4o optimized for speed and cost efficiency. Developed by OpenAI, this model balances performance with resource utilization. Model inputs and outputs The model processes text inputs with configurable parameters to control response generation. It supports both standard prompts and sy",
+      "url": "https://dev.to/aimodels-fyi/a-beginners-guide-to-the-gpt-4o-mini-model-by-openai-on-replicate-4jln",
+      "source": "Dev.to",
+      "author": "aimodels-fyi",
+      "published": "2025-11-28T01:44:42+00:00",
+      "niche": "dev",
+      "score": 72,
+      "keywords": [
+        "performance"
       ]
     },
     {
@@ -434,18 +434,6 @@
       ]
     },
     {
-      "id": "e8ea8fb9427085d1",
-      "title": "How useEffect Works Behind the Scenes in React",
-      "description": "You've probably used useEffect hundreds of times by now. Maybe you've even mastered the dependency array dance (we've all been there). But here's something that might surprise you. Have you ever stopped to wonder what actually happens when React sees that useEffect call? If you've read about how useState works under the hood, you'll recognize some familiar patterns in the fiber architecture that powers both hooks. I'll be honest with you. It's way more fascinating than you might think. React doe",
-      "url": "https://dev.to/sxchintha/how-useeffect-works-behind-the-scenes-in-react-3fjd",
-      "source": "Dev.to",
-      "author": "Sachintha",
-      "published": "2025-11-21T01:19:37+00:00",
-      "niche": "dev",
-      "score": 68,
-      "keywords": []
-    },
-    {
       "id": "8b721156199778ff",
       "title": "React Context & Routing Mastery — From Prop Drilling Pain to Auth‑Ready Architectures",
       "description": "React Context & Routing Mastery — From Prop Drilling Pain to Auth‑Ready Architectures frontend · javascript · react · architecture Most React interviews won’t ask you to build a whole app. Instead, they test your mental model of Context, routing, state persistence, URL‑driven state, and auth flows with questions like: What is prop drilling and how does Context solve it? What exactly does a Provider do? What goes inside the value prop of a Provider? When should I use useContext vs the new use() A",
@@ -578,6 +566,18 @@
       "keywords": []
     },
     {
+      "id": "6e6cf39605537af4",
+      "title": "Lina: Adaptive Scroll Area for React with Native Touch Support",
+      "description": "Lina: A shadcn/ui ScrollArea replacement that actually adapts to your input method. Key features: 🎯 Detects touch vs pointer and switches between native scrolling and custom scrollbars 🌫️ Edge masks that appear only when content overflows 🖱️ Hover and press effects for desktop scrollbars 📱 Proper momentum scrolling and touch action on mobile 🔄 Drop-in replacement for existing ScrollArea components 🧩 Works with both Radix UI and Base UI Install through shadcn CLI in one command. No config changes",
+      "url": "https://dev.to/jqueryscript/lina-adaptive-scroll-area-for-react-with-native-touch-support-45oh",
+      "source": "Dev.to",
+      "author": "jQueryScript",
+      "published": "2025-11-28T01:15:55+00:00",
+      "niche": "dev",
+      "score": 68,
+      "keywords": []
+    },
+    {
       "id": "3eca927c177bb3d5",
       "title": "A desktop app for isolated, parallel agentic development",
       "description": "Comments",
@@ -635,23 +635,6 @@
       "score": 63,
       "keywords": [
         "code"
-      ]
-    },
-    {
-      "id": "e4695869898a39a5",
-      "title": "Give Your SQLite Queries Their Own Workers: A Practical Guide for Node.js Developers",
-      "description": "SQLite is known for being lightweight, reliable, and surprisingly fast. In the Node.js ecosystem, one of the most popular libraries for working with it is better-sqlite3. The performance is excellent, but there is one important detail many developers overlook: the library is synchronous. When a heavy query is executed, the Node.js event loop stops until the database finishes its work. For small side projects, this never becomes noticeable. But once you introduce API routes, server-side rendering",
-      "url": "https://dev.to/mashraf_aiman_b9a968e5c1d/give-your-sqlite-queries-their-own-workers-a-practical-guide-for-nodejs-developers-3d74",
-      "source": "Dev.to",
-      "author": "Mashraf Aiman",
-      "published": "2025-11-21T01:11:36+00:00",
-      "niche": "dev",
-      "score": 62,
-      "keywords": [
-        "library",
-        "developer",
-        "performance",
-        "API"
       ]
     },
     {
@@ -973,23 +956,6 @@
       ]
     },
     {
-      "id": "bb5a91d4a7e96556",
-      "title": "A significant Angular release",
-      "description": "#​762 — November 21, 2025 Read on the Web JavaScript Weekly Google Announces Angular v21 — The Google team has gone all out with this significant release of its popular JavaScript framework. They’ve put together a retro game-themed adventure-based tour of what’s new, along with top notch videos showing off features like its new signal-based approach to forms, MCP server for AI-powered workflows, library of headless components focused on accessibility, and even a new ‘Angular AI Tutor’ to get up ",
-      "url": "https://javascriptweekly.com/issues/762",
-      "source": "JavaScript Weekly",
-      "author": "Inconnu",
-      "published": "2025-11-21T00:00:00+00:00",
-      "niche": "dev",
-      "score": 58,
-      "keywords": [
-        "Angular",
-        "framework",
-        "release",
-        "library"
-      ]
-    },
-    {
       "id": "ce56bf8ee59631d1",
       "title": "Build Claude Desktop Extensions in Minutes with QuickMCP.NET",
       "description": "Hey developers! Remember the last time you tried to integrate a REST API with Claude Desktop? Yeah, me too. It involved reading through MCP docs, writing YAML configs, figuring out authentication, and probably a few frustrated sighs. What if I told you there's a better way? A way that involves one command and lets AI do the heavy lifting? Let me introduce you to QuickMCP.NET - specifically its brand new Claude Desktop Extension Builder. Trust me, this is going to blow your mind. The Problem We'v",
@@ -1278,6 +1244,21 @@
       "score": 57,
       "keywords": [
         "performance",
+        "API"
+      ]
+    },
+    {
+      "id": "c70870db523dcafa",
+      "title": "Uncovering Global Content Trends on Netflix: A Full Tableau Analytics Breakdown",
+      "description": "The rapid growth of streaming platforms has generated an unprecedented volume of content, making data visualization essential for understanding catalog composition, audience targeting, and regional content strategies. In this technical article, I explore a Netflix Movies & TV Shows dataset and build a fully interactive Tableau dashboard to examine global distribution, ratings, genres, and release patterns. This breakdown walks through the insights discovered from the dashboard and the analytics ",
+      "url": "https://dev.to/augo_amos/uncovering-global-content-trends-on-netflix-a-full-tableau-analytics-breakdown-23c9",
+      "source": "Dev.to",
+      "author": "Amos Augo",
+      "published": "2025-11-28T01:42:26+00:00",
+      "niche": "dev",
+      "score": 57,
+      "keywords": [
+        "release",
         "API"
       ]
     },
@@ -2171,20 +2152,6 @@
       "score": 55,
       "keywords": [
         "code",
-        "API"
-      ]
-    },
-    {
-      "id": "8bf59efd23edf344",
-      "title": "TestRail Manager: Automatiza tu Gestión de Pruebas con Python",
-      "description": "🚀 TestRail Manager: Automatiza tu Gestión de Pruebas con Python ¿Cansado de gestionar manualmente tus casos de prueba en TestRail? ¿Quieres automatizar el reporte de resultados desde tus tests? TestRail Manager es la solución que necesitas. 🎯 ¿Qué es TestRail Manager? TestRail Manager es una librería Python completa que te permite interactuar con la API de TestRail de forma simple y eficiente. Con ella puedes: ✅ Crear y gestionar proyectos, suites y casos de prueba ✅ Ejecutar test runs automátic",
-      "url": "https://dev.to/jefferson_rosas/testrail-manager-automatiza-tu-gestion-de-pruebas-con-python-2ba",
-      "source": "Dev.to",
-      "author": "JEFFERSON ROSAS CHAMBILLA",
-      "published": "2025-11-21T00:58:05+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
         "API"
       ]
     },
@@ -3663,20 +3630,6 @@
       "keywords": [
         "code",
         "programming"
-      ]
-    },
-    {
-      "id": "17783c31f9af2252",
-      "title": "The Solution to Rails schema.sql Fickleness: BetterStructureSql",
-      "description": "Database schema dumps play a larger role in production engineering than most teams realize. A clean, deterministic, version-stable schema file becomes crucial once an application evolves beyond a simple CRUD workflow. Rails traditionally relies on external tools like pg_dump or mysqldump, but these introduce noise, metadata differences between versions, and inconsistent ordering that complicate code reviews, automation, and onboarding. I have been testing a new approach called BetterStructureSql",
-      "url": "https://dev.to/mashraf_aiman_b9a968e5c1d/the-solution-to-rails-schemasql-fickleness-betterstructuresql-3aca",
-      "source": "Dev.to",
-      "author": "Mashraf Aiman",
-      "published": "2025-11-21T01:26:52+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
       ]
     },
     {
@@ -5206,64 +5159,32 @@
       ]
     },
     {
-      "id": "5ea2d3da96087b5f",
-      "title": "A beginner's guide to the Whisperx model by Victor-Upmeet on Replicate",
-      "description": "This is a simplified guide to an AI model called Whisperx maintained by Victor-Upmeet. If you like these kinds of analysis, you should join AImodels.fyi or follow us on Twitter. Model overview whisperx is a speech transcription model developed by researchers at Upmeet. It builds upon OpenAI's Whisper model, adding features like accelerated transcription, word-level timestamps, and speaker diarization. Unlike the original Whisper, whisperx supports batching for faster processing of long-form audi",
-      "url": "https://dev.to/aimodels-fyi/a-beginners-guide-to-the-whisperx-model-by-victor-upmeet-on-replicate-pj0",
+      "id": "39b422ce89e64e7a",
+      "title": "The Only Developer Skill That Scales in 2026",
+      "description": "Technical stacks shift. Hiring markets mutate. Tooling obsoletes itself every quarter. The only durable advantage is the ability to convert ambiguity into working systems faster than your peers. That isn’t creativity or talent. It’s process. Define the problem in one sentence. Strip every requirement that doesn't change the outcome. Identify the single constraint that governs the system. Build the minimum artifact that validates your assumption. Iterate only on what breaks. Eliminate everything ",
+      "url": "https://dev.to/brandonkylebailey/the-only-developer-skill-that-scales-in-2026-1km8",
       "source": "Dev.to",
-      "author": "aimodels-fyi",
-      "published": "2025-11-21T01:45:09+00:00",
+      "author": "Brandon",
+      "published": "2025-11-28T01:14:08+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
-      "id": "9b9fe177cbf9fe87",
-      "title": "Making dynamic UIs accessible with ARIA live regions",
-      "description": "If your UI updates content dynamically — form errors, loading states, search results, “saved!” messages — screen reader users won’t automatically know that something changed. Unless you tell them. This is where ARIA Live Regions come in. What ARIA Live Regions actually do** A live region is an invisible area in the DOM that screen readers monitor. When the text inside it changes, it gets announced automatically. The two attributes you’ll use most often: aria-live=\"polite\" — announce when the scr",
-      "url": "https://dev.to/nick_fe_nick/making-dynamic-uis-accessible-with-aria-live-regions-531d",
+      "id": "63c2c640df8c4d92",
+      "title": "Transform SDK Integration with Monetzly's Smart Ad Solutions",
+      "description": "What if Your AI App Could Generate Revenue in Two Ways Simultaneously? Imagine a world where your AI application not only serves users but also generates revenue through two distinct channels—without compromising user experience. Enter Monetzly, the groundbreaking platform designed to empower developers like you to monetize your AI tools efficiently while seamlessly integrating relevant advertising. The Dual Revenue Revolution In the current landscape of AI applications, monetization can often f",
+      "url": "https://dev.to/monetzly/transform-sdk-integration-with-monetzlys-smart-ad-solutions-2d20",
       "source": "Dev.to",
-      "author": "Nick Gulev",
-      "published": "2025-11-21T01:42:50+00:00",
+      "author": "Monetzly",
+      "published": "2025-11-28T00:55:44+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "dec8a41426bc290e",
-      "title": "After-Sales Support from Mini Asphalt Plant Manufacturers Reduces Long-Term Costs",
-      "description": "Beyond the initial investment of how much does it cost to build an asphalt plant, after-sales support from mini asphalt plant manufacturers plays a crucial role in reducing long-term operational costs for small-scale operators. Reliable maintenance services and access to spare parts can significantly enhance the productivity and efficiency of asphalt plants. This article delves into the various aspects of after-sales support that contribute to cost optimization for small operators. The Importanc",
-      "url": "https://dev.to/macroad/after-sales-support-from-mini-asphalt-plant-manufacturers-reduces-long-term-costs-2589",
-      "source": "Dev.to",
-      "author": "Asphalt Plant Macroad",
-      "published": "2025-11-21T01:34:11+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "3b4680bed26d03b2",
-      "title": "📰 Tech Takes: A Whirlwind Day in Innovation on November 20, 2025",
-      "description": "Hey there, fellow gadget lover. Picture this: It's a crisp autumn morning, your coffee's brewing, and you fire up your phone to catch up on the world. But instead of the usual doom-scroll, tech news hits you like a plot twist in your favorite sci-fi flick. November 20, 2025, was one of those days—full of jaw-dropping breakthroughs, eyebrow-raising controversies, and the kind of market mood swings that make you question if we're all just betting on the next big \"eureka\" moment. From AI chips powe",
-      "url": "https://dev.to/om_shree_0709/tech-takes-a-whirlwind-day-in-innovation-on-november-20-2025-309c",
-      "source": "Dev.to",
-      "author": "Om Shree",
-      "published": "2025-11-21T01:29:12+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "72aff0d0a249e7df",
-      "title": "Beyond Behavior Trees: Unleashing Smarter Robots with Executable Knowledge by Arvind Sundararajan",
-      "description": "Beyond Behavior Trees: Unleashing Smarter Robots with Executable Knowledge Tired of brittle robot behaviors that fall apart when the environment changes? Are you struggling to scale your autonomous systems beyond pre-programmed routines? There's a better way to build truly intelligent robots: move beyond imperative control flows and embrace knowledge-driven autonomy. Instead of explicitly coding every action sequence with behavior trees, imagine describing the robot's understanding of the world ",
-      "url": "https://dev.to/arvind_sundararajan/beyond-behavior-trees-unleashing-smarter-robots-with-executable-knowledge-by-arvind-sundararajan-1fg2",
-      "source": "Dev.to",
-      "author": "Arvind SundaraRajan",
-      "published": "2025-11-21T01:02:05+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
       "id": "b31a208493e1ae4e",
@@ -7992,6 +7913,66 @@
       "keywords": []
     },
     {
+      "id": "9966b761335085a7",
+      "title": "🧩 Need for Services in Kubernetes.",
+      "description": "Kubernetes Pods are not permanent. They can: restart scale up/down get recreated move to another node 👉 Every time a Pod is recreated, it receives a new Pod IP. This makes Pod IPs unreliable for direct communication. 🚨 Without Services If App A wants to talk to App B: App B’s Pod IP might change at any moment App A would immediately lose connection You would need to manually update IPs everywhere This is completely unacceptable in production. ✅ So Kubernetes created “Services” A Service gives a ",
+      "url": "https://dev.to/itsmecharan7/need-for-services-in-kubernetes-5acl",
+      "source": "Dev.to",
+      "author": "Shiva Charan",
+      "published": "2025-11-28T01:46:12+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "e49cb30f18a7e831",
+      "title": "When we can use ARIA",
+      "description": "Element type Use ARIA? Why Native button with visible text ❌ No HTML already covers it Paragraph with text ❌ No Screen reader reads text Icon-only button ✔️ Yes HTML can't describe icon Button that expands a menu ✔️ Yes HTML can't describe expanded state Custom elements (divs) acting as UI ✔️ Yes Need roles, states Form inputs with labels ❌ No Use instead 👉 Don't add ARIA to explain what HTML already explains. 👉 Use ARIA only to explain behavior or meaning HTML cannot express Let’s compare with ",
+      "url": "https://dev.to/jeganmurugan_0101/when-we-can-use-aria-42h6",
+      "source": "Dev.to",
+      "author": "S.M. Jegan",
+      "published": "2025-11-28T01:30:27+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "bdee747ed3bd211e",
+      "title": "Understanding Web 3.0: The Blockchain Revolution",
+      "description": "The internet has evolved through multiple stages: from static web pages in Web 1.0, to dynamic and social platforms in Web 2.0, and now to Web 3.0, an era powered by blockchain technology, decentralized finance, and digital ownership. Web 3.0 represents a shift from centralized platforms to a decentralized ecosystem, giving users control over their data, digital identity, and assets. At its core, Web 3.0 leverages blockchain, cryptocurrencies, and NFTs (Non-Fungible Tokens) to enable secure, tra",
+      "url": "https://dev.to/sreeni5018/understanding-web-30-the-blockchain-revolution-17of",
+      "source": "Dev.to",
+      "author": "Seenivasa Ramadurai",
+      "published": "2025-11-28T01:24:46+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "b517f3b0495b936b",
+      "title": "Seeing Through the Shine: AI That 'Sculpts' 3D from Reflections",
+      "description": "Seeing Through the Shine: AI That 'Sculpts' 3D from Reflections Ever tried to 3D scan a shiny object? The reflections throw everything off, making accurate reconstruction nearly impossible. It's like trying to photograph a ghost – the data is there, but distorted. What if AI could learn to ignore the glint and see the underlying shape, like an artist sculpting clay? This is the core idea behind a new approach to 3D reconstruction. Instead of directly interpreting reflected light, a neural networ",
+      "url": "https://dev.to/arvind_sundararajan/seeing-through-the-shine-ai-that-sculpts-3d-from-reflections-3cci",
+      "source": "Dev.to",
+      "author": "Arvind SundaraRajan",
+      "published": "2025-11-28T01:02:05+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "e260e280973b94af",
+      "title": "How Subtle UI Details Make Your Design Stand Out. Practical Techniques for Modern Interfaces",
+      "description": "How Subtle UI Details Make Your Design Stand Out. Practical Techniques for Modern Interfaces Introduction Most UI layouts today are clean, responsive, and technically sound, but they often lack something crucial: personality. Subtle visual details, micro-animations, and layered depth can transform a standard interface into something memorable, emotional, and visually distinct. In this article, I’ll show how small aesthetic decisions, like parallax depth, environmental motion, soft textures, and ",
+      "url": "https://dev.to/jalen_lt/how-subtle-ui-details-make-your-design-stand-out-practical-techniques-for-modern-interfaces-1pfp",
+      "source": "Dev.to",
+      "author": "Stefan Seunarine",
+      "published": "2025-11-28T00:52:07+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "b1048e51551dc974",
       "title": "🤯",
       "description": "10 Developer Habits That Separate Good Programmers From Great Ones TheBitForge ・ Nov 18 #webdev #programming #productivity #javascript",
@@ -8275,54 +8256,6 @@
       "keywords": [
         "programming"
       ]
-    },
-    {
-      "id": "8b10e8253f8a2220",
-      "title": "Nursing Excluded as 'Professional' Degree by Department of Education",
-      "description": "Comments",
-      "url": "https://nurse.org/news/nursing-excluded-as-professional-degree-dept-of-ed/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-21T01:00:33+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "c9db248223f325d5",
-      "title": "Over-Regulation is Doubling the Cost",
-      "description": "Comments",
-      "url": "https://rein.pk/over-regulation-is-doubling-the-cost",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-20T22:58:06+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "54a386e1924fdc8d",
-      "title": "Why top firms fire good workers",
-      "description": "Comments",
-      "url": "https://www.rochester.edu/newscenter/employee-turnover-why-top-firms-churn-good-workers-681832/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-21T00:36:01+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "d9eec31da706eabd",
-      "title": "Over-regulation is doubling the cost",
-      "description": "Comments",
-      "url": "https://rein.pk/over-regulation-is-doubling-the-cost",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-20T22:58:06+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "349f6607dbbda20a",
@@ -9957,6 +9890,54 @@
       "keywords": []
     },
     {
+      "id": "5ffa4a33a413b624",
+      "title": "250MWh 'Sand Battery' to start construction in Finland",
+      "description": "Comments",
+      "url": "https://www.energy-storage.news/250mwh-sand-battery-to-start-construction-in-finland-for-both-heating-and-ancillary-services/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-27T22:48:44+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "4607a606dfa45d5f",
+      "title": "How Charles M Schulz created Charlie Brown and Snoopy (2024)",
+      "description": "Comments",
+      "url": "https://www.bbc.com/culture/article/20241205-how-charles-m-schulz-created-charlie-brown-and-snoopy",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-28T00:10:38+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "250156e2e2b57ad5",
+      "title": "Vsora Jotunn-8 5nm European inference chip",
+      "description": "Comments",
+      "url": "https://vsora.com/products/jotunn-8/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-27T23:30:11+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "d63004dd7c7140ca",
+      "title": "A programmer-friendly I/O abstraction over io_uring and kqueue (2022)",
+      "description": "Comments",
+      "url": "https://tigerbeetle.com/blog/2022-11-23-a-friendly-abstraction-over-iouring-and-kqueue/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-27T22:41:06+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "78c4b08725d5f56b",
       "title": "React 19 Upgrade Guide",
       "description": "The improvements added to React 19 require some breaking changes, but we've worked to make the upgrade as smooth as possible and we don't expect the changes to impact most apps. In this post, we will guide you through the steps for upgrading apps and libraries to React 19.",
@@ -10061,9 +10042,9 @@
       "score": 42,
       "keywords": [
         "development",
-        "performance",
         "release",
-        "developer"
+        "developer",
+        "performance"
       ]
     },
     {
@@ -10140,9 +10121,9 @@
       "score": 39,
       "keywords": [
         "development",
-        "performance",
         "best practices",
-        "developer"
+        "developer",
+        "performance"
       ]
     },
     {
@@ -10158,8 +10139,8 @@
       "keywords": [
         "development",
         "release",
-        "code",
-        "developer"
+        "developer",
+        "code"
       ]
     },
     {
@@ -10461,9 +10442,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "React 19",
         "release",
-        "API"
+        "API",
+        "React 19"
       ]
     },
     {
@@ -10519,8 +10500,8 @@
       "niche": "dev",
       "score": 37,
       "keywords": [
-        "performance",
-        "developer"
+        "developer",
+        "performance"
       ]
     },
     {
@@ -10549,8 +10530,8 @@
       "niche": "dev",
       "score": 37,
       "keywords": [
-        "performance",
-        "developer"
+        "developer",
+        "performance"
       ]
     },
     {
@@ -10592,8 +10573,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -10638,18 +10619,6 @@
         "framework",
         "API"
       ]
-    },
-    {
-      "id": "9fc67a1e37390ae6",
-      "title": "Issue 736",
-      "description": "Can LLMs generate not only content and data, but user interfaces, too? 🤔",
-      "url": "https://iosdevweekly.com/issues/736/",
-      "source": "iOS Dev Weekly",
-      "author": "dave@iosdevweekly.com (Dave Verwer)",
-      "published": "2025-11-21T00:00:00+00:00",
-      "niche": "dev",
-      "score": 32,
-      "keywords": []
     },
     {
       "id": "d1a8cc76c0287f16",
@@ -10714,11 +10683,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "API",
-        "performance",
         "code",
+        "API",
         "release",
-        "framework"
+        "framework",
+        "performance"
       ]
     },
     {
@@ -10756,6 +10725,23 @@
       "niche": "dev",
       "score": 28,
       "keywords": []
+    },
+    {
+      "id": "bb5a91d4a7e96556",
+      "title": "A significant Angular release",
+      "description": "#​762 — November 21, 2025 Read on the Web JavaScript Weekly Google Announces Angular v21 — The Google team has gone all out with this significant release of its popular JavaScript framework. They’ve put together a retro game-themed adventure-based tour of what’s new, along with top notch videos showing off features like its new signal-based approach to forms, MCP server for AI-powered workflows, library of headless components focused on accessibility, and even a new ‘Angular AI Tutor’ to get up ",
+      "url": "https://javascriptweekly.com/issues/762",
+      "source": "JavaScript Weekly",
+      "author": "Inconnu",
+      "published": "2025-11-21T00:00:00+00:00",
+      "niche": "dev",
+      "score": 28,
+      "keywords": [
+        "release",
+        "framework",
+        "Angular",
+        "library"
+      ]
     },
     {
       "id": "c5118e9b01e9ae19",
@@ -11124,9 +11110,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "performance",
         "code",
-        "developer"
+        "developer",
+        "performance"
       ]
     },
     {
@@ -12509,6 +12495,18 @@
       "source": "2ality",
       "author": "Inconnu",
       "published": "2025-09-23T00:00:00+00:00",
+      "niche": "dev",
+      "score": 7,
+      "keywords": []
+    },
+    {
+      "id": "9fc67a1e37390ae6",
+      "title": "Issue 736",
+      "description": "Can LLMs generate not only content and data, but user interfaces, too? 🤔",
+      "url": "https://iosdevweekly.com/issues/736/",
+      "source": "iOS Dev Weekly",
+      "author": "dave@iosdevweekly.com (Dave Verwer)",
+      "published": "2025-11-21T00:00:00+00:00",
       "niche": "dev",
       "score": 7,
       "keywords": []
