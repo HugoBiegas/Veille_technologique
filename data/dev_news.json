@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-11-28T12:51:44.014647+00:00",
-  "total_articles": 964,
+  "last_updated": "2025-11-28T15:25:59.407991+00:00",
+  "total_articles": 970,
   "articles": [
     {
       "id": "bc7c03cba6a15884",
@@ -334,6 +334,21 @@
       ]
     },
     {
+      "id": "b113df266c9ee0d9",
+      "title": "Figma to React: How Kombai Finally Solved My Frontend Workflow",
+      "description": "As a frontend developer, much of my job is converting Figma designs into React code—a process that’s both meticulous and repetitive. Every pixel, color, font weight, spacing, and padding has to match the designer’s intent exactly. It can be satisfying when it comes together, but it’s also a huge time sink. Naturally, to save time and speed up my workflow, I’ve tried out various tools that promise to automate the conversion from Figma to React. But most of them ended up creating more cleanup work",
+      "url": "https://dev.to/daveyhert/figma-to-react-how-kombai-finally-solved-my-frontend-workflow-9ol",
+      "source": "Dev.to",
+      "author": "David Herbert💻🚀",
+      "published": "2025-11-28T15:11:06+00:00",
+      "niche": "dev",
+      "score": 70,
+      "keywords": [
+        "code",
+        "developer"
+      ]
+    },
+    {
       "id": "4191ecb000cc31a1",
       "title": "10 GitHub Repos Every Serious Prompt Writer Should Be Using",
       "description": "Let’s skip the part where I explain what prompt engineering is. You’re here because you’ve already burned hours getting garbage outputs from GPT, watched your token costs spiral, and wondered why the same prompt works beautifully on Monday and completely falls apart on Tuesday. If you want to read the full guide with all the working examples and detailed explanations, I suggest checking out the original article here: 10 GitHub Repos Every Serious Prompt Write The difference between developers wh",
@@ -458,18 +473,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "8b721156199778ff",
-      "title": "React Context & Routing Mastery — From Prop Drilling Pain to Auth‑Ready Architectures",
-      "description": "React Context & Routing Mastery — From Prop Drilling Pain to Auth‑Ready Architectures frontend · javascript · react · architecture Most React interviews won’t ask you to build a whole app. Instead, they test your mental model of Context, routing, state persistence, URL‑driven state, and auth flows with questions like: What is prop drilling and how does Context solve it? What exactly does a Provider do? What goes inside the value prop of a Provider? When should I use useContext vs the new use() A",
-      "url": "https://dev.to/cristiansifuentes/react-context-routing-mastery-from-prop-drilling-pain-to-auth-ready-architectures-1nld",
-      "source": "Dev.to",
-      "author": "Cristian Sifuentes",
-      "published": "2025-11-21T15:02:01+00:00",
-      "niche": "dev",
-      "score": 68,
-      "keywords": []
     },
     {
       "id": "d6d4ef7dd7553292",
@@ -623,6 +626,30 @@
       "source": "Dev.to",
       "author": "Bharath kumar",
       "published": "2025-11-28T12:09:34+00:00",
+      "niche": "dev",
+      "score": 68,
+      "keywords": []
+    },
+    {
+      "id": "7d4d2ad169203ba7",
+      "title": "Lessons learned implementing SCIM with Microsoft Entra and the SCIM Validator",
+      "description": "I had to redo the entire SCIM validator journey after we've migrated to a new company. This article shares the practical lessons from that rework: tightening concurrency, adding hybrid caching, clarifying when /Schemas actually matters and structuring validation runs so progress is repeatable instead of guesswork. SCIM still promises automated provisioning from an IdP, but the path to a production-grade, Entra-compatible implementation is about disciplined iteration, not just “passing the tests.",
+      "url": "https://dev.to/eelcolos/lessons-learned-implementing-scim-with-microsoft-entra-and-the-scim-validator-20gl",
+      "source": "Dev.to",
+      "author": "Eelco Los",
+      "published": "2025-11-28T15:00:54+00:00",
+      "niche": "dev",
+      "score": 68,
+      "keywords": []
+    },
+    {
+      "id": "ad2d5c9175102a47",
+      "title": "useState in React Hook",
+      "description": "updating the screen: first you import the useState import { useState } from 'react'; your component to “remember” some information and display it. declare a state variable inside your component: function MyButton() { const [count, setCount] = useState(0); initial state of count is 0 if you change the state use setCount function MyButton() { const [count, setCount] = useState(0); function handleClick() { setCount(count + 1); } return ( <button onClick={handleClick}> Clicked {count} times </button",
+      "url": "https://dev.to/bharath_11/usestate-in-react-hook-2195",
+      "source": "Dev.to",
+      "author": "Bharath kumar",
+      "published": "2025-11-28T14:58:30+00:00",
       "niche": "dev",
       "score": 68,
       "keywords": []
@@ -1106,6 +1133,22 @@
         "API",
         "framework",
         "developer"
+      ]
+    },
+    {
+      "id": "b11b0c33ddbb6faf",
+      "title": "Catalyst::Request body issues with the file position pointer",
+      "description": "OK, so... For those using the Perl Catalyst web framework in ways involving structured request bodies (e.g. API POSTs)... $c->req->body is a string, unless Content-Type is application/x-www-form-urlencoded, text/xml, or multipart/form-data (or in fact application/json, which isn't in the docs), in which case it's a File::Temp (an overloaded file handle), and $c->req->body_data gets you the deserialised body. For various reasons, largely to do with the idiosyncrasies of one particular module, I n",
+      "url": "https://dev.to/fleetfootmike/catalystrequest-body-issues-with-the-file-position-pointer-2k7l",
+      "source": "Dev.to",
+      "author": "Mike Whitaker",
+      "published": "2025-11-28T15:15:54+00:00",
+      "niche": "dev",
+      "score": 58,
+      "keywords": [
+        "API",
+        "code",
+        "framework"
       ]
     },
     {
@@ -2216,31 +2259,18 @@
       ]
     },
     {
-      "id": "71147d711228d5a9",
-      "title": "Quick Recap: Java Threads",
-      "description": "Java supports multithreading to perform multiple tasks concurrently. Threads allow efficient use of CPU cores, improve performance, and enable responsive applications. They are a core part of Java concurrency. What is a Thread? A thread is a lightweight unit of execution within a process. A Java application starts with a single main thread but can spawn multiple threads to run tasks in parallel. Ways to Create Threads 1. Extending Thread class class MyThread extends Thread { public void run() { ",
-      "url": "https://dev.to/codeintention/quick-recap-java-threads-13c9",
+      "id": "d9a138292da71efa",
+      "title": "Laravel 12 + shadcn/ui: Build Modern UIs with Ease in 2025",
+      "description": "In 2025, Laravel continues to evolve — and with version 12, it makes building modern, full-stack applications even easier by embracing frontend-first tooling. In this post we’ll explore what’s new in Laravel 12, how it works with shadcn/ui, and why combining them can give you a powerful, clean, and highly customizable developer experience.",
+      "url": "https://dev.to/haridas4274/laravel-12-shadcnui-build-modern-uis-with-ease-in-2025-3koo",
       "source": "Dev.to",
-      "author": "shantanu mahakale",
-      "published": "2025-11-21T15:09:53+00:00",
+      "author": "Haridas",
+      "published": "2025-11-28T15:06:24+00:00",
       "niche": "dev",
-      "score": 54,
+      "score": 55,
       "keywords": [
-        "performance"
-      ]
-    },
-    {
-      "id": "7c626f14a72e1c32",
-      "title": "Day 11 — AWS Billing & Cost Management: Process, API, and Tools Explained",
-      "description": "Billing is the process of calculating, recording, and invoicing charges for goods or services provided to a customer. In the context of cloud computing, billing refers to the systematic tracking and reporting of usage-based costs for resources such as compute, storage, networking, and other services consumed by an organization or individual. Usage Tracking Charge Calculation Invoice Generation Payment Processing Reporting and Analysis AWS Billing is the system that tracks, calculates, and invoic",
-      "url": "https://dev.to/ibbus/day-11-aws-billing-cost-management-process-api-and-tools-explained-47op",
-      "source": "Dev.to",
-      "author": "Ibrahim S",
-      "published": "2025-11-21T15:05:28+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "API"
+        "developer",
+        "Laravel"
       ]
     },
     {
@@ -3663,34 +3693,6 @@
       "keywords": [
         "tutorial",
         "developer"
-      ]
-    },
-    {
-      "id": "4052909df90c46e6",
-      "title": "Claude Code Will Be As Good As You Are",
-      "description": "Over the past few months, I've been living in Claude Code. I'm talking about serious, production-level work—building new services, refactoring legacy systems, rebuilding our integration test infrastructure from scratch. If I'm being honest, over 80% of the code I've shipped in that time was generated by AI. But here's what nobody tells you: AI-generated code isn't replacing my engineering skills. It's amplifying them. And more importantly, it's exposing every gap in my own thinking. The code Cla",
-      "url": "https://dev.to/lucasbrogni1/claude-code-will-be-as-good-as-you-are-1f16",
-      "source": "Dev.to",
-      "author": "Lucas Geovani Castro Brogni",
-      "published": "2025-11-21T15:04:46+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "64a58dc244c205c9",
-      "title": "Running Firefox in Docker? Yes, with a GUI and noVNC!",
-      "description": "Docker isn’t just for serve your code, appliactions. you can actually run a full desktop app inside it. In this project, I containerized Firefox with a virtual desktop and made it accessible through a browser using noVNC. What this project does? It creates a lightweight container that: - Runs a minimal desktop environment (Fluxbox) - Launches Firefox - Serves a VNC display using x11vnc - Exposes that desktop through noVNC (so you can open it in your web browser) You can literally open Firefox ru",
-      "url": "https://dev.to/danielcristho/running-firefox-in-docker-yes-with-a-gui-and-novnc-5fk",
-      "source": "Dev.to",
-      "author": "Daniel Pepuho",
-      "published": "2025-11-21T15:02:15+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
       ]
     },
     {
@@ -5290,64 +5292,18 @@
       ]
     },
     {
-      "id": "2ac4c9a33f0b8f21",
-      "title": "Day F4: The Uneventful Day (And That's Fine)",
-      "description": "Not every day is dramatic. Today was just... a day. DBMS Exam Prep Studied the basics of database management. Normalization, SQL queries, transactions—the usual stuff you need to know to not completely bomb the exam. Nothing exciting. Just grinding through notes and hoping it sticks. The Project Presentation Had to present a college project today. You know how college projects are. They're not groundbreaking. They're not going to change the world. They're just... there. Something to check off a ",
-      "url": "https://dev.to/casperday11/day-f4-the-uneventful-day-and-thats-fine-359p",
+      "id": "156dfc6994ce954a",
+      "title": "Self-corrective Code Generation: A Basic Understanding and Real-life Application",
+      "description": "Self-corrective Code Generation is an advanced AI approach where code is not only generated but also continuously refined based on feedback and predefined rules. Unlike traditional methods, this process ensures that code meets essential standards for readability, efficiency, maintainability, and compliance with coding guidelines. This article will explore how AI-generated code can be incomplete without proper validation, the consequences of using untested code, and how self-corrective code gener",
+      "url": "https://dev.to/kayson_2025/self-corrective-code-generation-a-basic-understanding-and-real-life-application-383d",
       "source": "Dev.to",
-      "author": "Somay",
-      "published": "2025-11-21T15:16:39+00:00",
+      "author": "Khiem Phan",
+      "published": "2025-11-28T14:58:01+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "713ce44b6ddbf72d",
-      "title": "The Scaling Arms Race Is Over - The Application Age Has Begun",
-      "description": "For the past several years, the artificial intelligence landscape has sold a story of a high-stakes arms race. The logic was simple: bigger models and more data would pave the road to true intelligence. But this narrative, while compelling, misses the ground truth that engineers have been living. The real story isn't a glamorous race to the top; it's been a grueling, frustrating slog out of the mud. That slog is finally over. The scaling race didn't end because someone won; it ended because we f",
-      "url": "https://dev.to/ejb503/the-scaling-arms-race-is-over-the-application-age-has-begun-4fp2",
-      "source": "Dev.to",
-      "author": "Edward Burton",
-      "published": "2025-11-21T15:14:56+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "01897434375b2054",
-      "title": "Next.JS Authentication with Clerk",
-      "description": "Authentication is usually the most time-consuming part of any app… but it doesn’t have to be. With Clerk, you can add a fully secure auth system to Next.js (App Router) in minutes — and in this guide, we’ll build a custom Sign-In / Sign-Up UI plus a protected dashboard route. 🚀 What we'll build 🔐 Sign In page (custom UI) 🆕 Sign Up page (custom UI) 🛡 Protected route: /dashboard (only logged-in users can open it) ⚡ Using Clerk hooks (useSignIn, useSignUp, useUser) 1️⃣ Install Clerk in Next.js (App",
-      "url": "https://dev.to/pritish_academy/nextjs-authentication-with-clerk-73d",
-      "source": "Dev.to",
-      "author": "Shashwat Pritish",
-      "published": "2025-11-21T15:06:07+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "fc1e329d950dcb8d",
-      "title": "Beyond Autopilot: Giving Robots the Gift of Self-Doubt",
-      "description": "Beyond Autopilot: Giving Robots the Gift of Self-Doubt Imagine a robot confidently assembling a complex engine, only to realize after hours of work that it used the wrong bolt. Or worse, a surgical robot proceeding with a procedure based on faulty sensor data. Today's advanced AI excels at pattern recognition, but often lacks a crucial human trait: self-awareness. That's where metacognition comes in. It's essentially \"thinking about thinking,\" and it allows a system to evaluate the reliability o",
-      "url": "https://dev.to/arvind_sundararajan/beyond-autopilot-giving-robots-the-gift-of-self-doubt-2i4j",
-      "source": "Dev.to",
-      "author": "Arvind SundaraRajan",
-      "published": "2025-11-21T15:02:05+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "238d84bf51b2f19a",
-      "title": "Midjourney Unveils Early Access to New \"Style Creator\" Tool for AestheticExploration",
-      "description": "Midjourney's \\\"Style Creator\\\" Tool: A New Frontier for AI Aesthetic Exploration\\n\\nMidjourney, a trailblazer in the realm of AI art generation, has just pulled back the curtain on its latest innovation: the \\\"Style Creator\\\" tool. Currently in early access, this groundbreaking feature is set to revolutionize how creators approach aesthetic consistency and personalized visual identities within their AI-generated artworks. For those deeply invested in pushing the boundaries of digital art, this t",
-      "url": "https://dev.to/ytosko/midjourney-unveils-early-access-to-new-style-creator-tool-for-aestheticexploration-58go",
-      "source": "Dev.to",
-      "author": "Saiki Sarkar",
-      "published": "2025-11-21T15:01:33+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "fc285888379d6414",
@@ -5369,18 +5325,6 @@
       "source": "Dev.to",
       "author": "Music YouTube",
       "published": "2025-11-21T18:09:14+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "12bd19dcaaa49243",
-      "title": "When NOT to use AI in your hackathon project with MLH winners Cindy Cui and Alison Co [Podcast #198]",
-      "description": "Today Quincy Larson interviews Alison Co and Cindy Cui, two university students who won the NW Hacks hackathon with their tool that helps people who are losing their vision learn to read Braille. He met them when GitHub invited them to their big San ...",
-      "url": "https://www.freecodecamp.org/news/when-not-to-use-ai-in-your-hackathon-project-with-mlh-winners-cindy-cui-and-alison-co-podcast-198/",
-      "source": "freeCodeCamp",
-      "author": "Beau Carnes",
-      "published": "2025-11-21T15:00:50+00:00",
       "niche": "dev",
       "score": 50,
       "keywords": []
@@ -8004,6 +7948,54 @@
       "keywords": []
     },
     {
+      "id": "068bfa7701573a45",
+      "title": "Why CutMix Works (Even When It Breaks the Image Apart)",
+      "description": "What is CutMix? CutMix, introduced in 2019, takes Cutout’s idea and dials it up: Instead of dropping pixels, it replaces them with content from a different image and mixes the labels accordingly. You cut a patch from image A, paste it onto image B, and assign the new image a label proportional to the visible region. Cutout removes. CutMix replaces. Mixup blends. CutMix sits in the middle of that spectrum. Why does replacing a patch help? Because it attacks two problems at once: Localization bias",
+      "url": "https://dev.to/aniket_kuyate_15acc4e6587/why-cutmix-works-even-when-it-breaks-the-image-apart-1aek",
+      "source": "Dev.to",
+      "author": "Unknownerror-404",
+      "published": "2025-11-28T15:12:16+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "11e4e0b6654a49f9",
+      "title": "Building Trinity Shield™ Custom In House TEE for Multi-Chain Consensus Seeking Open Source Feedback",
+      "description": "How we're adding hardware security to a formally verified 2 of 3 consensus system across Arbitrum, Solana, and TON. 78 Lean proofs. Zero external dependencies. The Problem with External TEE Services I've spent 3 years building Trinity Protocol a 2 of 3 multi-chain consensus system that distributes trust across Arbitrum, Solana, and TON. When a community member suggested adding Trusted Execution Environments (TEE), I researched the options: Oasis ROFL: $100-150/month, vendor lock-in Cloud TEE (Az",
+      "url": "https://dev.to/chronosvault/building-trinity-shield-custom-in-house-tee-for-multi-chain-consensus-seeking-open-source-feedback-4kn",
+      "source": "Dev.to",
+      "author": "Chronos Vault",
+      "published": "2025-11-28T15:05:23+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "efc6d73b4e6f4212",
+      "title": "KEDA HTTP Add-on: Escalonamento Dinâmico por Volume de Requisições",
+      "description": "Introdução O escalonamento tradicional baseado em CPU ou memória atende bem a diversos cenários, mas pode apresentar limitações em aplicações que sofrem bursts de requisições ou que exibem padrões de tráfego irregulares. Nesses casos, é comum que a aplicação mantenha níveis estáveis de CPU e memória ao mesmo tempo que enfrenta pressão direta no atendimento HTTP, gerando aumento de latência, formação de filas e redução de throughput antes que o autoscaler identifique a necessidade de ajuste. O KE",
+      "url": "https://dev.to/jonas-elias/keda-http-add-on-escalonamento-dinamico-por-volume-de-requisicoes-3d88",
+      "source": "Dev.to",
+      "author": "jonas-elias",
+      "published": "2025-11-28T14:57:36+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "71bf69ee9633a59a",
+      "title": "2025 - All Posts From Product With Attitude",
+      "description": "A List of Canonical Links from the Publication \"Product with Attitude\" Last updated: November 2025 Article: If You Build With AI, You Need This File. And The System That Generates It. Author: Karo Zieminski Canonical Link: https://karozieminski.substack.com/p/if-you-build-with-ai-you-need-this Original Publish Date: November 27, 2025 Tags: #vibecoding #rules-for-ai #prompt-systems #beginner-guides #prompt-back #builder-community What’s Your Substack Roadmap for 2026? Mine Comes Straight From 315",
+      "url": "https://dev.to/with_attitude/2025-all-posts-from-product-with-attitude-ka7",
+      "source": "Dev.to",
+      "author": "With Attitude",
+      "published": "2025-11-28T14:50:20+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "b1048e51551dc974",
       "title": "🤯",
       "description": "10 Developer Habits That Separate Good Programmers From Great Ones TheBitForge ・ Nov 18 #webdev #programming #productivity #javascript",
@@ -8287,30 +8279,6 @@
       ]
     },
     {
-      "id": "b3292a5347c949b5",
-      "title": "EXIF orientation info in PNGs isn't used for image-orientation",
-      "description": "Comments",
-      "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=1627423",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-21T13:29:14+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "949781d9888b913c",
-      "title": "Building a Minimal Viable Armv7 Emulator from Scratch",
-      "description": "Comments",
-      "url": "https://xnacly.me/posts/2025/building-a-minimal-viable-armv7-emulator/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-21T13:30:36+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
       "id": "6ca49d3519034634",
       "title": "Show HN: Wealthfolio 2.0- Open source investment tracker. Now Mobile and Docker",
       "description": "Comments",
@@ -8347,30 +8315,6 @@
       "keywords": []
     },
     {
-      "id": "6d4efe076aa96c94",
-      "title": "We should all be using dependency cooldowns",
-      "description": "Comments",
-      "url": "https://blog.yossarian.net/2025/11/21/We-should-all-be-using-dependency-cooldowns",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-21T14:50:36+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "9b1aeb9436dfd28f",
-      "title": "XBMC 4.0 for the Original Xbox",
-      "description": "Comments",
-      "url": "https://www.xbox-scene.info/articles/announcing-xbmc-40-for-the-original-xbox-r64/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-21T15:18:05+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
       "id": "4f68c3aab13a406e",
       "title": "Pivot Robotics (YC W24) Is Hiring for an Industrial Automation Hardware Engineer",
       "description": "Comments",
@@ -8378,18 +8322,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-11-21T17:00:00+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "fb96a20ff44d1f2a",
-      "title": "Making a Small RPG",
-      "description": "Comments",
-      "url": "https://jslegenddev.substack.com/p/making-a-small-rpg",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-21T13:23:16+00:00",
       "niche": "dev",
       "score": 44,
       "keywords": []
@@ -10015,6 +9947,30 @@
       "keywords": []
     },
     {
+      "id": "f78046620fa6fe78",
+      "title": "Petition to formally recognize open source work as civic service in Germany",
+      "description": "Comments",
+      "url": "https://www.openpetition.de/petition/online/anerkennung-von-open-source-arbeit-als-ehrenamt-in-deutschland#petition-main",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-28T14:08:14+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "9ed539af29ce532e",
+      "title": "A Remarkable Assertion from A16Z",
+      "description": "Comments",
+      "url": "https://nealstephenson.substack.com/p/a-remarkable-assertion-from-a16z",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-28T12:41:32+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "78c4b08725d5f56b",
       "title": "React 19 Upgrade Guide",
       "description": "The improvements added to React 19 require some breaking changes, but we've worked to make the upgrade as smooth as possible and we don't expect the changes to impact most apps. In this post, we will guide you through the steps for upgrading apps and libraries to React 19.",
@@ -10029,18 +9985,16 @@
       ]
     },
     {
-      "id": "00c282d5ae5e3603",
-      "title": "How Glassmorphism and Voice UI are Redefining Website UX",
-      "description": "Learn how Glassmorphism and Voice User Interface (VUI) work together to create immersive, futuristic websites. Explore design trends, benefits, and best practices for modern web UX. Continue reading How Glassmorphism and Voice UI are Redefining Website UX on SitePoint.",
-      "url": "https://www.sitepoint.com/glassmorphism-and-voice-ui/?utm_source=rss",
-      "source": "SitePoint",
-      "author": "Atanu Sarkar",
-      "published": "2025-11-21T15:15:23+00:00",
+      "id": "1e2e6f388581b982",
+      "title": "Quand la génération synthétique permet de voir ce qui n’existe pas",
+      "description": "Comment entraîner une IA à détecter des défauts qu'elle ne voit presque jamais ? En industrie, les anomalies graves sont si rares qu'elles privent les modèles de matière d'apprentissage. La donnée synthétique offre une réponse inattendue : générer de faux défauts pour mieux reconnaître les vrais. REX sur la détection de soudures défectueuses.",
+      "url": "https://blog.octo.com/quand-la-generation-synthetique-permet-de-voir-ce-qui-n'existe-pas-1",
+      "source": "Blog Technique Octo",
+      "author": "Simon Calarn",
+      "published": "2025-11-27T16:00:10+00:00",
       "niche": "dev",
-      "score": 43,
-      "keywords": [
-        "best practices"
-      ]
+      "score": 44,
+      "keywords": []
     },
     {
       "id": "0b6f79b39dcb1bca",
@@ -10106,10 +10060,10 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "development",
         "performance",
-        "developer",
-        "release"
+        "development",
+        "release",
+        "developer"
       ]
     },
     {
@@ -10137,18 +10091,6 @@
       "keywords": [
         "React 19"
       ]
-    },
-    {
-      "id": "0a5ef3b53acff082",
-      "title": "One Canvas to Rule Them All: How INK Games’ New Site Handles Complex 3D",
-      "description": "A look at how ToyFight® crafted a bold new site for INK Games, a global leader in mobile gaming, through layered 3D, scroll-driven animation, and a single shared WebGL canvas.",
-      "url": "https://tympanus.net/codrops/2025/11/21/one-canvas-to-rule-them-all-how-ink-games-new-site-handles-complex-3d/",
-      "source": "Codrops",
-      "author": "ToyFight®",
-      "published": "2025-11-21T14:25:13+00:00",
-      "niche": "dev",
-      "score": 39,
-      "keywords": []
     },
     {
       "id": "fb98990cf9227291",
@@ -10197,10 +10139,10 @@
       "niche": "dev",
       "score": 39,
       "keywords": [
-        "development",
         "performance",
-        "developer",
-        "best practices"
+        "best practices",
+        "development",
+        "developer"
       ]
     },
     {
@@ -10214,10 +10156,10 @@
       "niche": "dev",
       "score": 39,
       "keywords": [
-        "development",
         "code",
-        "developer",
-        "release"
+        "development",
+        "release",
+        "developer"
       ]
     },
     {
@@ -10509,6 +10451,18 @@
       "keywords": []
     },
     {
+      "id": "24e31033159423d3",
+      "title": "Tech Titans Amass Multimillion-Dollar War Chests to Fight AI Regulation",
+      "description": "Comments",
+      "url": "https://www.wsj.com/tech/ai/tech-titans-amass-multimillion-dollar-war-chests-to-fight-ai-regulation-88c600e1",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-28T09:21:55+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
       "id": "4e6d7290f5ff11d8",
       "title": "React Native 0.80 - React 19.1, JS API Changes, Freezing Legacy Arch and much more",
       "description": "Today we are excited to release React Native 0.80!",
@@ -10520,8 +10474,8 @@
       "score": 38,
       "keywords": [
         "API",
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -10547,8 +10501,8 @@
       "niche": "dev",
       "score": 37,
       "keywords": [
-        "developer",
-        "library"
+        "library",
+        "developer"
       ]
     },
     {
@@ -10650,8 +10604,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -10774,11 +10728,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "code",
-        "framework",
         "API",
+        "code",
         "release",
-        "performance"
+        "performance",
+        "framework"
       ]
     },
     {
@@ -10828,8 +10782,8 @@
       "niche": "dev",
       "score": 28,
       "keywords": [
-        "framework",
         "library",
+        "framework",
         "Angular",
         "release"
       ]
@@ -11004,6 +10958,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-11-26T15:40:14+00:00",
+      "niche": "dev",
+      "score": 26,
+      "keywords": []
+    },
+    {
+      "id": "ee539c812393907d",
+      "title": "Show HN: Spikelog – A simple metrics service for scripts, cron jobs, and MVPs",
+      "description": "Comments",
+      "url": "https://spikelog.com",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-27T11:10:51+00:00",
       "niche": "dev",
       "score": 26,
       "keywords": []
@@ -11220,8 +11186,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "development",
-        "performance"
+        "performance",
+        "development"
       ]
     },
     {
@@ -11235,8 +11201,22 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
+      ]
+    },
+    {
+      "id": "ef05c1494dc99f74",
+      "title": "Quiet UI Came and Went, Quiet as a Mouse",
+      "description": "The extremely new framework that caught lots of attention will continue as a personal project. Quiet UI Came and Went, Quiet as a Mouse originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
+      "url": "https://css-tricks.com/quiet-ui-came-and-went-quiet-as-a-mouse/",
+      "source": "CSS-Tricks",
+      "author": "Ryan Trimble",
+      "published": "2025-11-14T15:32:50+00:00",
+      "niche": "dev",
+      "score": 18,
+      "keywords": [
+        "framework"
       ]
     },
     {
@@ -11251,6 +11231,20 @@
       "score": 18,
       "keywords": [
         "performance"
+      ]
+    },
+    {
+      "id": "00c282d5ae5e3603",
+      "title": "How Glassmorphism and Voice UI are Redefining Website UX",
+      "description": "Learn how Glassmorphism and Voice User Interface (VUI) work together to create immersive, futuristic websites. Explore design trends, benefits, and best practices for modern web UX. Continue reading How Glassmorphism and Voice UI are Redefining Website UX on SitePoint.",
+      "url": "https://www.sitepoint.com/glassmorphism-and-voice-ui/?utm_source=rss",
+      "source": "SitePoint",
+      "author": "Atanu Sarkar",
+      "published": "2025-11-24T14:03:27+00:00",
+      "niche": "dev",
+      "score": 18,
+      "keywords": [
+        "best practices"
       ]
     },
     {
@@ -11348,8 +11342,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "programming",
-        "developer"
+        "developer",
+        "programming"
       ]
     },
     {
@@ -11668,6 +11662,90 @@
       "keywords": [
         "release"
       ]
+    },
+    {
+      "id": "bf6585116f113096",
+      "title": "Should We Even Have :closed?",
+      "description": "Is there really a difference between using :not(:open) and :closed? As always, it depends. Sunkanmi Fafowora explains why :closed is currently not a thing. Should We Even Have :closed? originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
+      "url": "https://css-tricks.com/should-we-even-have-closed/",
+      "source": "CSS-Tricks",
+      "author": "Sunkanmi Fafowora",
+      "published": "2025-11-20T15:10:26+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "3ca11ebaa03aa1ca",
+      "title": "The “Most Hated” CSS Feature: asin(), acos(), atan() and atan2()",
+      "description": "If we have a ratio that represents the sine, cosine or tangent of an angle, how can we get the original angle? This is where inverse trigonometric functions come in! The “Most Hated” CSS Feature: asin(), acos(), atan() and atan2() originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
+      "url": "https://css-tricks.com/the-most-hated-css-feature-asin-acos-atan-and-atan2/",
+      "source": "CSS-Tricks",
+      "author": "Juan Diego Rodríguez",
+      "published": "2025-11-17T14:47:54+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "ecb487691c7ec002",
+      "title": "The Range Syntax Has Come to Container Style Queries and if()",
+      "description": "Being able to use the range syntax with container style queries — which we can do starting with Chrome 142 — means that we can compare literal numeric values as well as numeric values tokenized by custom properties or the attr() function. The Range Syntax Has Come to Container Style Queries and if() originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
+      "url": "https://css-tricks.com/the-range-syntax-has-come-to-container-style-queries-and-if/",
+      "source": "CSS-Tricks",
+      "author": "Daniel Schwarz",
+      "published": "2025-11-13T15:00:20+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "46f02976d5b67f77",
+      "title": "Headings: Semantics, Fluidity, and Styling — Oh My!",
+      "description": "A few links about headings that I've had stored under my top hat. Headings: Semantics, Fluidity, and Styling — Oh My! originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
+      "url": "https://css-tricks.com/headings-semantics-fluidity-and-styling-oh-my/",
+      "source": "CSS-Tricks",
+      "author": "Geoff Graham",
+      "published": "2025-11-10T14:44:13+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "b61f78debc429709",
+      "title": "Explaining the Accessible Benefits of Using Semantic HTML Elements",
+      "description": "Why should you use a semantic &#60;button&#62; instead of a generic &#60;div&#62;? Accessibility, right? By how exactly does it help accessibility? Explaining the Accessible Benefits of Using Semantic HTML Elements originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
+      "url": "https://css-tricks.com/explaining-the-accessible-benefits-of-using-semantic-html-elements/",
+      "source": "CSS-Tricks",
+      "author": "Geoff Graham",
+      "published": "2025-11-06T15:57:49+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "40e317e52f2a5a52",
+      "title": "The “Most Hated” CSS Feature: tan()",
+      "description": "Last time, we discussed that, sadly, according to the&#160;State of CSS 2025 survey, trigonometric functions are deemed the &#8220;Most Hated&#8221; CSS feature. That shocked me. I may have even been a little offended, being a math nerd and &#8230; The &#8220;Most Hated&#8221; CSS Feature: tan() originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
+      "url": "https://css-tricks.com/the-most-hated-css-feature-tan/",
+      "source": "CSS-Tricks",
+      "author": "Juan Diego Rodríguez",
+      "published": "2025-11-03T16:03:08+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "3559bf5fa3c3b21e",
+      "title": "Getting Creative With Small Screens",
+      "description": "On mobile, people can lose their sense of context and can’t easily tell where a section begins or ends. Good small-screen design can help orient them using a variety of techniques. Getting Creative With Small Screens originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
+      "url": "https://css-tricks.com/getting-creative-with-small-screens/",
+      "source": "CSS-Tricks",
+      "author": "Andy Clarke",
+      "published": "2025-10-29T16:22:28+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
     },
     {
       "id": "38a87157206b0e68",
@@ -12275,6 +12353,18 @@
       "keywords": []
     },
     {
+      "id": "0a5ef3b53acff082",
+      "title": "One Canvas to Rule Them All: How INK Games’ New Site Handles Complex 3D",
+      "description": "A look at how ToyFight® crafted a bold new site for INK Games, a global leader in mobile gaming, through layered 3D, scroll-driven animation, and a single shared WebGL canvas.",
+      "url": "https://tympanus.net/codrops/2025/11/21/one-canvas-to-rule-them-all-how-ink-games-new-site-handles-complex-3d/",
+      "source": "Codrops",
+      "author": "ToyFight®",
+      "published": "2025-11-21T14:25:13+00:00",
+      "niche": "dev",
+      "score": 9,
+      "keywords": []
+    },
+    {
       "id": "c4e497b216a19c83",
       "title": "Behind the KAI Design Dept. Experience: WebGL Line Blur, Video Scrubbing, and 3D Animation",
       "description": "A look at the technical insights behind the KAI Design Dept. site, covering WebGL line DoF, video scrubbing, and Blender integration.",
@@ -12344,18 +12434,6 @@
       "published": "2025-09-26T00:00:00+00:00",
       "niche": "dev",
       "score": 9,
-      "keywords": []
-    },
-    {
-      "id": "a90e9a4286782beb",
-      "title": "The three thousand year journey of colchicine",
-      "description": "Comments",
-      "url": "https://www.worksinprogress.news/p/the-three-thousand-year-journey-of",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-20T23:43:30+00:00",
-      "niche": "dev",
-      "score": 8,
       "keywords": []
     },
     {
