@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-11-29T01:53:47.146638+00:00",
-  "total_articles": 958,
+  "last_updated": "2025-11-29T03:47:13.283181+00:00",
+  "total_articles": 966,
   "articles": [
     {
       "id": "bc7c03cba6a15884",
@@ -32,22 +32,6 @@
         "programming",
         "developer",
         "Spring"
-      ]
-    },
-    {
-      "id": "5ce7bec9583da5b0",
-      "title": "React Suite v6: A Steady Step Toward Modernization",
-      "description": "React Suite (rsuite) v6 is now available. This release focuses on modernizing the foundation: the styling system has been rebuilt, new layout primitives were added, and responsiveness plus the overall developer workflow received targeted improvements. The goal is to keep the library stable while making it easier to adapt to contemporary UI requirements. 1. Style System Overhaul: CSS Variables by Default The most fundamental change in v6 is the migration from Less to SCSS with CSS variables as th",
-      "url": "https://dev.to/simonguo/react-suite-v6-a-steady-step-toward-modernization-22b3",
-      "source": "Dev.to",
-      "author": "郭小铭",
-      "published": "2025-11-22T02:57:16+00:00",
-      "niche": "dev",
-      "score": 76,
-      "keywords": [
-        "developer",
-        "release",
-        "library"
       ]
     },
     {
@@ -1779,18 +1763,19 @@
       ]
     },
     {
-      "id": "26f97019aec5aa6e",
-      "title": "Release 0.3 — Normalizing Unicode for Event Text",
-      "description": "For my second PR, I worked on improving Unicode handling across event data, specifically addressing a bug where diacritics and accented characters were displaying incorrectly in event summaries, descriptions, and locations in Open Web Calendar project. This issue affected international users whose calendars contained characters like á, ñ, ü, and ø. To fix this, I explored the ICS conversion process in events.py, added a normalization function using Python’s unicodedata.normalize(\"NFC\"), and made",
-      "url": "https://dev.to/kkrishnan10/release-03-normalizing-unicode-for-event-text-5e9p",
+      "id": "5fb404403f42c10d",
+      "title": "Dev-Experience-Glorious-Transformation",
+      "description": "GitHub Home As a veteran with 40 years of programming experience, I have witnessed the rise and fall of countless technologies. From early assembly language, to later C/C++, then Java, Python, JavaScript, every change of technology stack has been accompanied by huge changes in development experience. But when it comes to which change has shocked me most, I believe it's the feeling a Rust-based web framework I recently encountered brought me. I remember the scene when I first encountered this fra",
+      "url": "https://dev.to/member_34349a73/dev-experience-glorious-transformation-1je1",
       "source": "Dev.to",
-      "author": "kkrishnan10",
-      "published": "2025-11-22T03:11:10+00:00",
+      "author": "member_34349a73",
+      "published": "2025-11-29T02:41:34+00:00",
       "niche": "dev",
-      "score": 55,
+      "score": 56,
       "keywords": [
-        "release",
-        "code"
+        "framework",
+        "programming",
+        "development"
       ]
     },
     {
@@ -2346,34 +2331,6 @@
       "keywords": [
         "performance",
         "code"
-      ]
-    },
-    {
-      "id": "d5a87760aa555a64",
-      "title": "Release 0.3 — Fixing All-Day Events Displaying as Two Days",
-      "description": "For my first PR in Release 0.3, I decided to fix an issue in the Open Web Calendar project where all-day events were showing incorrectly as two-day spans. This bug had been reported by multiple users and required me to go deeper into the frontend event-rendering logic in calendar.js. I started by running the project locally, comparing real ICS behavior, reading the DHTMLX scheduler documentation, and tracing how the app determines whether a start and end time represent a one-day duration. Eventu",
-      "url": "https://dev.to/kkrishnan10/release-03-fixing-all-day-events-displaying-as-two-days-1k9p",
-      "source": "Dev.to",
-      "author": "kkrishnan10",
-      "published": "2025-11-22T03:04:51+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "release"
-      ]
-    },
-    {
-      "id": "2e32697ac2e5a0d3",
-      "title": "The Secret Life of Go",
-      "description": "Chapter 1: The Archives Below The rain arrived without warning, as rain in Manhattan so often does—one moment the October sky was merely gray and brooding, the next it was releasing sheets of water that sent pedestrians scrambling for awnings and doorways. Ethan, clutching a laptop bag that was definitely not waterproof, ducked into the first open door he found. The Whitmore Branch of the New York Public Library occupied a narrow Beaux-Arts building on a quiet street in lower Manhattan, wedged b",
-      "url": "https://dev.to/aaron_rose_0787cc8b4775a0/the-secret-life-of-go-1enk",
-      "source": "Dev.to",
-      "author": "Aaron Rose",
-      "published": "2025-11-22T02:51:45+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "library"
       ]
     },
     {
@@ -3221,6 +3178,20 @@
       ]
     },
     {
+      "id": "eb2f5483f5118f62",
+      "title": "Why AI Infrastructure Startups Are the Real Gold Rush",
+      "description": "Everyone is talking about AI apps. Everyone is building AI tools. Everyone is launching yet another “AI-powered productivity app.” But here’s the truth that most founders and investors will realise too late: The real opportunity in AI isn’t in the apps. It’s in the infrastructure. Not the shiny front-end tools. Not the wrappers. Not the quick SaaS clones. The deepest, most durable value is in the: orchestration layers data pipelines agent frameworks evaluation systems vector infrastructure monit",
+      "url": "https://dev.to/jaideepparashar/why-ai-infrastructure-startups-are-the-real-gold-rush-45ck",
+      "source": "Dev.to",
+      "author": "Jaideep Parashar",
+      "published": "2025-11-29T02:25:24+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "framework"
+      ]
+    },
+    {
       "id": "ecdb570bb430b9c5",
       "title": "Be a Responsible Code Reviewer",
       "description": "When you work with different teams long enough, you start noticing something meaningful: Good code reviews don’t just improve the code—they strengthen teams, culture, and the way we write applications. Think about it... That's where we actually teach each other new tricks / ways, share our best practices, and make sure we're all building something awesome, maintainable and reliable. Let’s take a clear look... what a helpful, responsible code review really looks like. I am going to dig into the e",
@@ -3667,34 +3638,6 @@
       "score": 52,
       "keywords": [
         "developer",
-        "code"
-      ]
-    },
-    {
-      "id": "d53a312fb6508b0f",
-      "title": "Understanding Linux distros (and how to pick one)",
-      "description": "\"Top 10 distros for gaming\" \"The BEST Linux distro for developers\" \"The best distro of 2025\" These are the type of articles that show up when you're a new user trying to switch to Linux. Most of the time, such articles don't make the distinction between distros clear enough that users can compare them. This article aims to break down the basic components that make up a Linux distro, and see how popular distros differ in these aspects. What makes a distro While there are lots of components that s",
-      "url": "https://dev.to/svhl/understanding-linux-distros-1ikb",
-      "source": "Dev.to",
-      "author": "svhl",
-      "published": "2025-11-22T03:30:00+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "developer"
-      ]
-    },
-    {
-      "id": "0963698763e95aed",
-      "title": "Packaging and Releasing ContextWeaver for Lab 9",
-      "description": "For my lab, I worked on my repo ContextWeaver and I used Python’s packaging tools and published my project on TestPyPI using build and twine, since Python packages are all managed through PyPI and TestPyPI. The process was pretty detailed. I had to reorganize my code into a proper src/contextweaver structure, create a pyproject.toml with all the metadata, bump versions every time I re-uploaded, build the package using python -m build, and then upload it with twine. I learned a lot about how stri",
-      "url": "https://dev.to/kkrishnan10/packaging-and-releasing-contextweaver-for-lab-9-2e4n",
-      "source": "Dev.to",
-      "author": "kkrishnan10",
-      "published": "2025-11-22T03:20:29+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
         "code"
       ]
     },
@@ -5209,54 +5152,6 @@
       "keywords": [
         "developer"
       ]
-    },
-    {
-      "id": "bed75144851e1fe3",
-      "title": "Unlocking Speed: Certified Symmetry Breaking with Auxiliary Variables",
-      "description": "Unlocking Speed: Certified Symmetry Breaking with Auxiliary Variables Imagine coordinating thousands of servers in a massive data center. Now, picture ensuring they're all running the most efficient tasks without any redundancy, a feat previously plagued by uncertainty. Symmetry breaking, a critical optimization technique, makes this possible, but ensuring its correctness has always been a challenge. That's where this new approach changes everything. At its core, this breakthrough introduces a n",
-      "url": "https://dev.to/arvind_sundararajan/unlocking-speed-certified-symmetry-breaking-with-auxiliary-variables-1dmd",
-      "source": "Dev.to",
-      "author": "Arvind SundaraRajan",
-      "published": "2025-11-22T03:02:04+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "fac5a0674ef7c750",
-      "title": "🎓 Capstone Project Completed! 🚀",
-      "description": "AI-Powered Customer Master Data Management (MDM) Hey everyone! 👋 I am excited to share that I have officially completed my capstone project as part of the IIT Patna Generative AI program! 🎉 I tackled a real-world challenge: duplicate and inconsistent customer data across multiple systems. My solution is an end-to-end AI-powered Customer Master Data Management (MDM) platform that: 🔹 Detects duplicate and partial-match records using ML embeddings 🔹 Generates a Golden Customer Record 🔹 Enables fast",
-      "url": "https://dev.to/santhosh_kumar_5803e67c2d/capstone-project-completed-3mbn",
-      "source": "Dev.to",
-      "author": "Santhosh Kumar",
-      "published": "2025-11-22T02:55:12+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "bb552c800dcf6c2b",
-      "title": "Publishing Your First NPM Package: A Real-World Guide That Actually Helps",
-      "description": "You know that moment when you’ve written the same utility function for the third time across different projects and suddenly think: “Wait… why am I doing this again?” Yeah — that’s exactly how NPM packages quietly sneak into your life. I recently went through the process of turning a simple HTML-to-PDF generator into a proper NPM package. What started as a quick utility became a small adventure — a mix of excitement, challenges, and learning-by-doing. A little confusing at times, but absolutely ",
-      "url": "https://dev.to/mir_mursalin_ankur/publishing-your-first-npm-package-a-real-world-guide-that-actually-helps-4l4",
-      "source": "Dev.to",
-      "author": "Mir Mursalin Ankur",
-      "published": "2025-11-22T02:54:55+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "21b9007b6c0bcee1",
-      "title": "Mix with the Masters: Mixing Night with Ken Lewis - FULL MIX NIGHT - 11/12/2025",
-      "description": "Mixing Night with Ken Lewis – FULL MIX NIGHT (11/12/2025) Join 2-time Grammy winner Ken Lewis for a free, live monthly audio livestream where he demos pro mixing techniques, offers real-world production and career advice, and answers everything from mix-bus tweaks to recording tips. With over 30 years in the major-label game and credits on 114 gold & platinum records, Ken’s bringing insider know-how straight to your screen. Stick around for live giveaways from Session Studio, Sound Radix, and Be",
-      "url": "https://dev.to/music_youtube/mix-with-the-masters-mixing-night-with-ken-lewis-full-mix-night-11122025-f6l",
-      "source": "Dev.to",
-      "author": "Music YouTube",
-      "published": "2025-11-22T02:11:20+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
     },
     {
       "id": "8ae7fedf06fde858",
@@ -7973,6 +7868,78 @@
       "keywords": []
     },
     {
+      "id": "e804fdb3099c2b48",
+      "title": "Is copy-pasting from the clipboard in Vim broken for you on Wayland?",
+      "description": "Vim uses registers to store copied text and paste from, rather than the system clipboard. When copy-pasting from another app, this isn't ideal, since the clipboard is inaccessible within Vim. To avoid this, the clipboard flag needs to be set. To check it, run $ vim --version This output contains all the flags that are set. If you see +clipboard, you're good. Otherwise, you'll have to recompile Vim with this flag, but the easier solution would be to additionally install vim-gtk3. Then, add set cl",
+      "url": "https://dev.to/svhl/is-copy-pasting-from-the-clipboard-in-vim-broken-for-you-on-wayland-3lgi",
+      "source": "Dev.to",
+      "author": "svhl",
+      "published": "2025-11-29T03:30:00+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "e30ad21d613cb361",
+      "title": "Why Mixup Works (Even When It Blends Everything Into Goo)",
+      "description": "What is Mixup? Mixup, introduced in 2018, is one of the oddest augmentations ever proposed. Instead of masking, cropping, or jittering, Mixup generates new samples via linear interpolation: x = λxi​+(1−λ)xj​ y ​= λyi​+(1−λ)yj​ λ∼B(α,α) where B is Beta. In plain terms: Pick two images Blend them pixel-by-pixel Blend their labels too The resulting image looks surreal, but it works. Why does pixel-blending help? Mixup acts as a smoothness prior on the model’s decision boundary: If two samples belon",
+      "url": "https://dev.to/aniket_kuyate_15acc4e6587/why-mixup-works-even-when-it-blends-everything-into-goo-25g1",
+      "source": "Dev.to",
+      "author": "Unknownerror-404",
+      "published": "2025-11-29T03:06:54+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "adb31d4166c7e35f",
+      "title": "AI in Medicine: A Physician–Engineer’s Perspective on the Future of Healthcare",
+      "description": "By Dr. Alireza Minagar — Software Engineer, AI Researcher, Bioinformatics Scientist, and Author Introduction Artificial intelligence is transforming nearly every industry, but its impact on healthcare is deeper, faster, and more disruptive than any other domain. As both a physician–researcher and a software engineer working in AI and bioinformatics, I see medicine not as a siloed profession, but as a data-driven ecosystem ready for reinvention. AI is not just automating tasks or digitizing workf",
+      "url": "https://dev.to/alireza_minagar_99f01ecb6/ai-in-medicine-a-physician-engineers-perspective-on-the-future-of-healthcare-8gm",
+      "source": "Dev.to",
+      "author": "Alireza Minagar",
+      "published": "2025-11-29T02:54:49+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "f7b5fee4bec0936d",
+      "title": "📁Kubernetes Project Folder Structure",
+      "description": "A well-structured Kubernetes project repo usually looks like this: k8s-project/ ├── README.md ├── docs/ ├── manifests/ │ ├── namespaces/ │ ├── deployments/ │ ├── services/ │ ├── ingresses/ │ ├── configmaps/ │ ├── secrets/ │ ├── storage/ │ └── crds/ ├── overlays/ │ ├── dev/ │ ├── test/ │ └── prod/ ├── charts/ ├── scripts/ ├── ci-cd/ └── templates/ Now let's break down every folder, its purpose, what goes inside, and why it exists. 📘 1. README.md Your project documentation. Overview of the applica",
+      "url": "https://dev.to/itsmecharan7/kubernetes-project-folder-structure-32ai",
+      "source": "Dev.to",
+      "author": "Shiva Charan",
+      "published": "2025-11-29T02:49:18+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "9e69c11d930fa950",
+      "title": "How Does Gemini 3 Process Our Queries?",
+      "description": "The Multi-Step Workflow from Client Input to Agentic Reasoning and Final Output Gemini 3, Google's advanced multi-modal AI model, uses a highly complex and sequential process to understand a user's query and generate a comprehensive, accurate response. This workflow goes far beyond simple text prediction, incorporating modality fusion, external tool calls, self-correction, and robust safety checks. 1. Client Input, Preprocessing, and Tokenization ⚙️ The process begins with the raw user data and ",
+      "url": "https://dev.to/nube_colectiva_nc/how-does-gemini-3-process-our-queries-424",
+      "source": "Dev.to",
+      "author": "Nube Colectiva",
+      "published": "2025-11-29T02:34:01+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "8aa32cdd93a691db",
+      "title": "The Secret Life of Go: Maps",
+      "description": "Chapter 5: Keys, Values, and the Art of Looking Things Up Friday morning arrived with clear skies. Ethan descended to the archive carrying the usual coffee tray and a small paper bag. Eleanor looked up from her desk. \"What did you bring today?\" \"Black and white cookies. I figured we've covered enough territory this week to deserve them.\" She smiled and took one. \"The optimist's cookie—never commit to just one flavor. Appropriate for today's topic.\" \"Which is?\" \"Maps. Or as other languages call t",
+      "url": "https://dev.to/aaron_rose_0787cc8b4775a0/the-secret-life-of-go-maps-4dma",
+      "source": "Dev.to",
+      "author": "Aaron Rose",
+      "published": "2025-11-29T02:10:58+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "b1048e51551dc974",
       "title": "🤯",
       "description": "10 Developer Habits That Separate Good Programmers From Great Ones TheBitForge ・ Nov 18 #webdev #programming #productivity #javascript",
@@ -7985,20 +7952,6 @@
       "keywords": [
         "developer",
         "programming"
-      ]
-    },
-    {
-      "id": "5358d05e10d85f54",
-      "title": "Microsoft Will Preload Windows 11 File Explorer to Fix Bad Performance",
-      "description": "Comments",
-      "url": "https://blogs.windows.com/windows-insider/2025/11/21/announcing-windows-11-insider-preview-build-26100-7271-dev-beta-channels/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-22T02:38:42+00:00",
-      "niche": "dev",
-      "score": 48,
-      "keywords": [
-        "performance"
       ]
     },
     {
@@ -8111,6 +8064,20 @@
       "score": 48,
       "keywords": [
         "performance"
+      ]
+    },
+    {
+      "id": "3bf89efd58955ad6",
+      "title": "The new gold rush is not the next AI productivity app. It's building the critical infrastructure for the startups.",
+      "description": "Why AI Infrastructure Startups Are the Real Gold Rush Jaideep Parashar ・ Nov 29 #ai #buildinpublic #development #webdev",
+      "url": "https://dev.to/jaideepparashar/the-new-gold-rush-is-not-the-next-ai-productivity-app-its-building-the-critical-infrastructure-dbd",
+      "source": "Dev.to",
+      "author": "Jaideep Parashar",
+      "published": "2025-11-29T02:27:43+00:00",
+      "niche": "dev",
+      "score": 48,
+      "keywords": [
+        "development"
       ]
     },
     {
@@ -8308,18 +8275,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "bbd8ae212f34dd87",
-      "title": "The death of tech idealism and rise of the homeless in Northern California",
-      "description": "Comments",
-      "url": "https://lithub.com/on-the-death-of-tech-idealism-and-rise-of-the-homeless-in-northern-california/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-22T02:28:28+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "6a509086a9c1b2f5",
@@ -10002,6 +9957,30 @@
       "keywords": []
     },
     {
+      "id": "e474d6520865cb54",
+      "title": "Server Components aren't SSR!",
+      "description": "React Server Components vs. Server-Side Rendering: what’s really happening under the hood",
+      "url": "https://dev.to/devops-make-it-run/server-components-arent-ssr-4c32",
+      "source": "Dev.to",
+      "author": "Devops Makeit-run",
+      "published": "2025-11-29T02:16:01+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "5c2c6ccd423731d4",
+      "title": "System 7 natively boots on the Mac mini G4",
+      "description": "Comments",
+      "url": "https://macos9lives.com/smforum/index.php?topic=7711.0",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-29T03:26:01+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "78c4b08725d5f56b",
       "title": "React 19 Upgrade Guide",
       "description": "The improvements added to React 19 require some breaking changes, but we've worked to make the upgrade as smooth as possible and we don't expect the changes to impact most apps. In this post, we will guide you through the steps for upgrading apps and libraries to React 19.",
@@ -10076,8 +10055,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "performance",
-        "React 19"
+        "React 19",
+        "performance"
       ]
     },
     {
@@ -10092,9 +10071,9 @@
       "score": 42,
       "keywords": [
         "performance",
-        "development",
         "release",
-        "developer"
+        "developer",
+        "development"
       ]
     },
     {
@@ -10171,9 +10150,9 @@
       "score": 39,
       "keywords": [
         "performance",
-        "development",
         "best practices",
-        "developer"
+        "developer",
+        "development"
       ]
     },
     {
@@ -10187,10 +10166,10 @@
       "niche": "dev",
       "score": 39,
       "keywords": [
-        "development",
         "release",
         "code",
-        "developer"
+        "developer",
+        "development"
       ]
     },
     {
@@ -10506,9 +10485,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
+        "React 19",
         "release",
-        "API",
-        "React 19"
+        "API"
       ]
     },
     {
@@ -10523,8 +10502,8 @@
       "score": 38,
       "keywords": [
         "performance",
-        "best practices",
-        "developer"
+        "developer",
+        "best practices"
       ]
     },
     {
@@ -10653,8 +10632,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10696,8 +10675,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "API",
-        "framework"
+        "framework",
+        "API"
       ]
     },
     {
@@ -10766,8 +10745,8 @@
         "release",
         "code",
         "performance",
-        "API",
-        "framework"
+        "framework",
+        "API"
       ]
     },
     {
@@ -10817,10 +10796,10 @@
       "niche": "dev",
       "score": 28,
       "keywords": [
-        "library",
+        "Angular",
         "release",
         "framework",
-        "Angular"
+        "library"
       ]
     },
     {
@@ -11170,8 +11149,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "development",
-        "framework"
+        "framework",
+        "development"
       ]
     },
     {
@@ -11216,6 +11195,20 @@
       "score": 18,
       "keywords": [
         "best practices"
+      ]
+    },
+    {
+      "id": "ef05c1494dc99f74",
+      "title": "Quiet UI Came and Went, Quiet as a Mouse",
+      "description": "The extremely new framework that caught lots of attention will continue as a personal project. Quiet UI Came and Went, Quiet as a Mouse originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
+      "url": "https://css-tricks.com/quiet-ui-came-and-went-quiet-as-a-mouse/",
+      "source": "CSS-Tricks",
+      "author": "Ryan Trimble",
+      "published": "2025-11-14T15:32:50+00:00",
+      "niche": "dev",
+      "score": 18,
+      "keywords": [
+        "framework"
       ]
     },
     {
@@ -11313,8 +11306,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "programming",
-        "developer"
+        "developer",
+        "programming"
       ]
     },
     {
@@ -11328,8 +11321,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "API",
-        "code"
+        "code",
+        "API"
       ]
     },
     {
@@ -11599,6 +11592,102 @@
       ]
     },
     {
+      "id": "6c36a405ecb91c85",
+      "title": "Sketch: A guided tour of Copenhagen",
+      "description": "Sketch probably didn't \"have\" to redesign its UI to line up with macOS Tahoe, but a big part of its appeal is the fact that it feels like it totally belongs to the Mac. Sketch: A guided tour of Copenhagen originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
+      "url": "https://css-tricks.com/sketch-a-guided-tour-of-copenhagen/",
+      "source": "CSS-Tricks",
+      "author": "Geoff Graham",
+      "published": "2025-11-21T18:53:05+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "bf6585116f113096",
+      "title": "Should We Even Have :closed?",
+      "description": "Is there really a difference between using :not(:open) and :closed? As always, it depends. Sunkanmi Fafowora explains why :closed is currently not a thing. Should We Even Have :closed? originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
+      "url": "https://css-tricks.com/should-we-even-have-closed/",
+      "source": "CSS-Tricks",
+      "author": "Sunkanmi Fafowora",
+      "published": "2025-11-20T15:10:26+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "3ca11ebaa03aa1ca",
+      "title": "The “Most Hated” CSS Feature: asin(), acos(), atan() and atan2()",
+      "description": "If we have a ratio that represents the sine, cosine or tangent of an angle, how can we get the original angle? This is where inverse trigonometric functions come in! The “Most Hated” CSS Feature: asin(), acos(), atan() and atan2() originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
+      "url": "https://css-tricks.com/the-most-hated-css-feature-asin-acos-atan-and-atan2/",
+      "source": "CSS-Tricks",
+      "author": "Juan Diego Rodríguez",
+      "published": "2025-11-17T14:47:54+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "ecb487691c7ec002",
+      "title": "The Range Syntax Has Come to Container Style Queries and if()",
+      "description": "Being able to use the range syntax with container style queries — which we can do starting with Chrome 142 — means that we can compare literal numeric values as well as numeric values tokenized by custom properties or the attr() function. The Range Syntax Has Come to Container Style Queries and if() originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
+      "url": "https://css-tricks.com/the-range-syntax-has-come-to-container-style-queries-and-if/",
+      "source": "CSS-Tricks",
+      "author": "Daniel Schwarz",
+      "published": "2025-11-13T15:00:20+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "46f02976d5b67f77",
+      "title": "Headings: Semantics, Fluidity, and Styling — Oh My!",
+      "description": "A few links about headings that I've had stored under my top hat. Headings: Semantics, Fluidity, and Styling — Oh My! originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
+      "url": "https://css-tricks.com/headings-semantics-fluidity-and-styling-oh-my/",
+      "source": "CSS-Tricks",
+      "author": "Geoff Graham",
+      "published": "2025-11-10T14:44:13+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "b61f78debc429709",
+      "title": "Explaining the Accessible Benefits of Using Semantic HTML Elements",
+      "description": "Why should you use a semantic &#60;button&#62; instead of a generic &#60;div&#62;? Accessibility, right? By how exactly does it help accessibility? Explaining the Accessible Benefits of Using Semantic HTML Elements originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
+      "url": "https://css-tricks.com/explaining-the-accessible-benefits-of-using-semantic-html-elements/",
+      "source": "CSS-Tricks",
+      "author": "Geoff Graham",
+      "published": "2025-11-06T15:57:49+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "40e317e52f2a5a52",
+      "title": "The “Most Hated” CSS Feature: tan()",
+      "description": "Last time, we discussed that, sadly, according to the&#160;State of CSS 2025 survey, trigonometric functions are deemed the &#8220;Most Hated&#8221; CSS feature. That shocked me. I may have even been a little offended, being a math nerd and &#8230; The &#8220;Most Hated&#8221; CSS Feature: tan() originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
+      "url": "https://css-tricks.com/the-most-hated-css-feature-tan/",
+      "source": "CSS-Tricks",
+      "author": "Juan Diego Rodríguez",
+      "published": "2025-11-03T16:03:08+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "3559bf5fa3c3b21e",
+      "title": "Getting Creative With Small Screens",
+      "description": "On mobile, people can lose their sense of context and can’t easily tell where a section begins or ends. Good small-screen design can help orient them using a variety of techniques. Getting Creative With Small Screens originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
+      "url": "https://css-tricks.com/getting-creative-with-small-screens/",
+      "source": "CSS-Tricks",
+      "author": "Andy Clarke",
+      "published": "2025-10-29T16:22:28+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
       "id": "38a87157206b0e68",
       "title": "Keyframes Tokens: Standardizing Animation Across Projects",
       "description": "Animations can be one of the most joyful parts of building interfaces, but without structure, they can also become one of the biggest sources of frustration. By consolidating and standardizing keyframes, you take something that is usually messy and hard to manage and turn it into a clear, predictable system.",
@@ -11697,8 +11786,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "development",
-        "programming"
+        "programming",
+        "development"
       ]
     },
     {
