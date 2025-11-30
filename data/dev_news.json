@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-11-30T09:24:04.288872+00:00",
-  "total_articles": 973,
+  "last_updated": "2025-11-30T12:46:59.989882+00:00",
+  "total_articles": 974,
   "articles": [
     {
       "id": "c609831d7def551c",
@@ -48,6 +48,22 @@
         "dependency injection",
         "programming",
         "developer",
+        "Spring"
+      ]
+    },
+    {
+      "id": "20fa15270df8ed54",
+      "title": "How to Handle HttpClientErrorException in Spring RestTemplate: A Complete Guide",
+      "description": "The Problem RestTemplate restTemplate = new RestTemplate(); // If this URL returns 404, the app crashes! String response = restTemplate.getForObject(\"https://api.example.com/users/999\", String.class); While working on a company project one evening, I encountered an HttpClientErrorException from an API response. This error was new to me. After debugging, I solved it and learned how to handle it properly. In this post, I'll explain what this error is and how you can handle it in your code. Underst",
+      "url": "https://dev.to/aquib_javed_e55c5b2494560/how-to-handle-httpclienterrorexception-in-spring-resttemplate-a-complete-guide-1f3p",
+      "source": "Dev.to",
+      "author": "Aquib Javed",
+      "published": "2025-11-30T12:18:35+00:00",
+      "niche": "dev",
+      "score": 76,
+      "keywords": [
+        "API",
+        "code",
         "Spring"
       ]
     },
@@ -209,21 +225,6 @@
       "score": 72,
       "keywords": [
         "performance"
-      ]
-    },
-    {
-      "id": "c92e4acfb998f49c",
-      "title": "Google ADK Tutorials",
-      "description": "I'm putting a list of tutorials for Google ADK (Agent Development Kit). This is the foundation. A quick start to get a feel of Google ADK First experience with ADK tools A good crash course ADK pattern with Memory and MCP (Model Context Protocol) google/adk-samples: A collection of sample agents built with Agent Development (ADK)",
-      "url": "https://dev.to/liberifatali/google-adk-tutorials-1e2b",
-      "source": "Dev.to",
-      "author": "Cless",
-      "published": "2025-11-23T12:12:16+00:00",
-      "niche": "dev",
-      "score": 70,
-      "keywords": [
-        "development",
-        "tutorial"
       ]
     },
     {
@@ -970,23 +971,6 @@
       "keywords": []
     },
     {
-      "id": "87152edff5e457a4",
-      "title": "Uniface Meets 3GL: Integrating Legacy Power with Modern Performance",
-      "description": "Hey Developers! 👋 If you work with Rocket Uniface, you know how powerful ProcScript is for building business applications quickly. But let’s be honest—sometimes you hit a wall. Maybe you need to perform a heavy statistical calculation that takes ages, or you have to interface with a specific piece of hardware or a legacy system that just doesn't speak \"Uniface.\" That's where 3GL integration (Third Generation Language) comes in. It’s the bridge that lets you combine the rapid development of Unifa",
-      "url": "https://dev.to/petercode/uniface-meets-3gl-integrating-legacy-power-with-modern-performance-6gj",
-      "source": "Dev.to",
-      "author": "Peter + AI",
-      "published": "2025-11-23T12:14:13+00:00",
-      "niche": "dev",
-      "score": 60,
-      "keywords": [
-        "development",
-        "performance",
-        "API",
-        "developer"
-      ]
-    },
-    {
       "id": "ed69940d0703fd6a",
       "title": "PynamoDB Tutorial: Build Production-Ready DynamoDB CRUD APIs in AWS Lambda",
       "description": "I've been building on AWS for multiple years now, and one of the most repetitive parts I found was writing crude operations for DynamoDB. Every project starts the same: use boto3 to define the table define a big JSON payload JUST to fetch some data from the table copy-and-paste methods from previous projects for all CRUD operations, basically adding boilerplate code That's when I found out about a library called PynamoDB , a lightweight ORM for DynamoDB tables and that changed the way I manipula",
@@ -1688,18 +1672,19 @@
       ]
     },
     {
-      "id": "13ccd4d43c4ff990",
-      "title": "Bridging the Gap: Integrating 3GL Languages with Uniface",
-      "description": "Introduction If you work with Uniface, you know it’s a powerful low-code platform for building enterprise applications. However, there are moments when standard 4GL isn't enough. You might need high-performance algorithms, specific system calls, or integration with existing libraries. This is where the 3GL (Third-Generation Language) interface comes into play. In this post, I’ll break down how Uniface handles 3GL integration, which languages work best, and the constraints you need to know. The C",
-      "url": "https://dev.to/petercode/bridging-the-gap-integrating-3gl-languages-with-uniface-4fa2",
+      "id": "8c909953038b2e52",
+      "title": "Web Developer Travis McCracken on API Gateway Design with Rust and Go",
+      "description": "Harnessing the Power of Rust and Go in Backend Development: Insights from Web Developer Travis McCracken As a seasoned Web Developer specializing in backend architecture, I’ve always been fascinated by the capabilities of Rust and Go. These two languages continue to redefine how we build fast, reliable, and scalable APIs. Today, I want to share some insights into why I’ve integrated Rust and Go into my projects, discuss some fictional yet illustrative projects like 'fastjson-api' and 'rust-cache",
+      "url": "https://dev.to/travis-mccracken-dev/web-developer-travis-mccracken-on-api-gateway-design-with-rust-and-go-3348",
       "source": "Dev.to",
-      "author": "Peter + AI",
-      "published": "2025-11-23T12:23:49+00:00",
+      "author": "Travis McCracken Web Developer",
+      "published": "2025-11-30T12:17:58+00:00",
       "niche": "dev",
-      "score": 55,
+      "score": 56,
       "keywords": [
-        "performance",
-        "code"
+        "developer",
+        "API",
+        "development"
       ]
     },
     {
@@ -2243,59 +2228,18 @@
       ]
     },
     {
-      "id": "e63363ff5bbec364",
-      "title": "How I Achieved a 95+ Lighthouse Performance Score in a Next.js E-commerce Site (And How You Can, Too)",
-      "description": "In the world of e-commerce, every second counts. Studies show that a mere one-second delay in page load time can lead to a 7% reduction in conversions. For a business, that's not just a statistic; it's lost revenue. When a client approached me to rebuild their sluggish, WordPress-based e-commerce store, their main goal was simple: make it blazing fast. They were tired of high bounce rates and abandoned carts. My goal was to not only meet but exceed their expectations by leveraging the power of N",
-      "url": "https://dev.to/seyedahmaddv/how-i-achieved-a-95-lighthouse-performance-score-in-a-nextjs-e-commerce-site-and-how-you-can-2pe5",
-      "source": "Dev.to",
-      "author": "Seyed Ahmad",
-      "published": "2025-11-23T12:08:12+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "performance"
-      ]
-    },
-    {
-      "id": "1d75fb2eca71e391",
-      "title": "De-Silo Your Revenue Engine: A 5-Step Playbook for Aligning Sales & Marketing APIs",
-      "description": "Let's be honest, the traditional wall between sales and marketing teams feels like a legacy monolith with no API documentation. Marketing generates leads (pushes data to a queue), and sales complains about the quality (data validation error). The result? A leaky funnel, frustrated teams, and stalled growth. This isn't a \"people problem\"; it's a systems integration problem. As engineers, we solve these problems every day. We build resilient, interconnected systems. It's time to apply that same th",
-      "url": "https://dev.to/michaelaiglobal/de-silo-your-revenue-engine-a-5-step-playbook-for-aligning-sales-marketing-apis-3ci9",
+      "id": "a9ea7d5d5f947a04",
+      "title": "Hacking Social Proof: An Engineer's Playbook for Automated Video Testimonials",
+      "description": "As engineers, we live and breathe automation. We build CI/CD pipelines to ship code faster, write scripts to provision infrastructure, and create APIs to make data flow seamlessly. So why are so many B2B companies still collecting customer testimonials like it's 2005—with manual emails, calendar invites, and a prayer? Social proof isn't just marketing fluff; it's a critical dataset for building trust and driving growth. But manual collection is a bottleneck. It’s inconsistent, time-consuming, an",
+      "url": "https://dev.to/michaelaiglobal/hacking-social-proof-an-engineers-playbook-for-automated-video-testimonials-4bp1",
       "source": "Dev.to",
       "author": "Michael",
-      "published": "2025-11-23T12:01:48+00:00",
+      "published": "2025-11-30T12:00:41+00:00",
       "niche": "dev",
-      "score": 54,
+      "score": 55,
       "keywords": [
-        "API"
-      ]
-    },
-    {
-      "id": "7c7644df0e268953",
-      "title": "The New Digital Empire",
-      "description": "The race to regulate artificial intelligence has begun, but the starting line isn't level. As governments scramble to establish ethical frameworks for AI systems that could reshape society, a troubling pattern emerges: the loudest voices in this global conversation belong to the same nations that have dominated technology for decades. From Brussels to Washington, the Global North is writing the rules for artificial intelligence, potentially creating a new form of digital colonialism that could l",
-      "url": "https://dev.to/rawveg/the-new-digital-empire-3lnm",
-      "source": "Dev.to",
-      "author": "Tim Green",
-      "published": "2025-11-23T12:00:00+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "framework"
-      ]
-    },
-    {
-      "id": "e32727b81557bf39",
-      "title": "Understanding npm Package Versioning: A Guide to Major, Minor, and Patch Updates",
-      "description": "When working with npm packages, version numbers like 1.4.2 aren't just arbitrary numbers—they follow a standardized system called Semantic Versioning (SemVer) that communicates important information about the changes in each release. Understanding this system is crucial for maintaining stable applications while keeping your dependencies up-to-date. The Three-Part Version Number: MAJOR.MINOR.PATCH Every version number consists of three parts: MAJOR version (first number): Indicates breaking chang",
-      "url": "https://dev.to/gouranga-das-khulna/understanding-npm-package-versioning-a-guide-to-major-minor-and-patch-updates-1nhn",
-      "source": "Dev.to",
-      "author": "Gouranga Das Samrat",
-      "published": "2025-11-23T12:00:00+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "release"
+        "API",
+        "code"
       ]
     },
     {
@@ -3185,6 +3129,20 @@
       ]
     },
     {
+      "id": "605d2838008f0770",
+      "title": "The \"Happy Path\" is dead. This is the era of Defensive AI Architecture.",
+      "description": "We spent the last two years figuring out how to make LLMs \"smart.\" We learned RAG, Chain-of-Thought, and Tool Use. But in 2025, the challenge isn't intelligence. It's Containment. The difference between a demo and a production system isn't the prompt, it's the architecture that stops the LLM from bankrupting you or crashing your backend. I call this shift \"Defensive AI Architecture.\" It's the discipline of treating LLMs not as magic oracles, but as non-deterministic, hostile microservices. The A",
+      "url": "https://dev.to/jaliil9/the-happy-path-is-dead-this-is-the-era-of-defensive-ai-architecture-1dlc",
+      "source": "Dev.to",
+      "author": "Jalil B.",
+      "published": "2025-11-30T12:03:47+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "microservices"
+      ]
+    },
+    {
       "id": "d29b94af0ad3b23e",
       "title": "Automation for Request Transport by Copy ‐ [TOC][zse09]",
       "description": "These days, I'm working on a new form layout using Adobe Forms. I don’t know about you, but I’m terrible at visual design when it comes to forms. To make things worse, there isn’t enough data in the Development System for proper unit testing, forcing me to manually copy and transport requests multiple times. I’m not sure if this is a common problem, but I decided to write a simple piece of code to make my life easier. Automation for Request Transport by Copy ‐ [TOC][zse09]",
@@ -3647,6 +3605,21 @@
       "keywords": [
         "developer",
         "code"
+      ]
+    },
+    {
+      "id": "68720bd06fed532e",
+      "title": "CODEON – Recruitment Phase 1.0",
+      "description": "Hello everyone, I’m glad to share that we’ve opened CODEON – Recruitment Phase 1.0, and applications are now live. What is CODEON? CODEON is an emerging English-based programming language designed to let users write logic in simple natural-language form and automatically generate real executable code across multiple languages such as Python, SQL, HTML, CSS, and more. It is built on a complete compiler architecture (Lexer → Parser → AST → Semantic Analysis → Optimization → Multi-Target Transpilat",
+      "url": "https://dev.to/nikhil_ks/codeon-recruitment-phase-10-4p48",
+      "source": "Dev.to",
+      "author": "Nikhil kumar shah",
+      "published": "2025-11-30T12:25:27+00:00",
+      "niche": "dev",
+      "score": 52,
+      "keywords": [
+        "code",
+        "programming"
       ]
     },
     {
@@ -5134,28 +5107,32 @@
       ]
     },
     {
-      "id": "0a50435c1baeeee8",
-      "title": "Why Softmax is Used Instead of Argmax in Neural Network Training",
-      "description": "Why Softmax is Used Instead of Argmax in Neural Network Training 1. Information Loss with Argmax Argmax only returns the index of the highest logit value and completely discards all confidence information: argmax([2.1, 1.0, 0.5]) = 0 argmax([5.0, 0.1, 0.1]) = 0 Both return class 0, but we lose critical information about how confident the model is in its prediction. 2. Softmax Preserves the Full Distribution Softmax converts logits into a probability distribution that preserves the relative confi",
-      "url": "https://dev.to/imdadul_haqueohi_1eb693e/why-softmax-is-used-instead-of-argmax-in-neural-network-training-aba",
+      "id": "f1ee5f6bcf30472a",
+      "title": "Bedrock AgentCore: What 5 Real ANZ Enterprise Deploys Taught Us",
+      "description": "I've spent the last 9 months shipping Bedrock AgentCore into four different ANZ enterprises (plus one internal PoC that crashed and burned). This isn't a hello-world tutorial – it's the bruises, the invoices, and the 3 a.m. CloudWatch alarms that finally made the thing stick. If you're about to promote an agent past the \"demo for the board\" stage, steal this checklist – it will save you at least one rollback. the numbers we actually saw Pattern Use-case 10 k q/mo cost p95 latency Notes Single ag",
+      "url": "https://dev.to/rajmurugan/bedrock-agentcore-what-5-real-anz-enterprise-deploys-taught-us-1e28",
       "source": "Dev.to",
-      "author": "Imdadul Haque ohi",
-      "published": "2025-11-23T12:04:18+00:00",
+      "author": "Raj Murugan",
+      "published": "2025-11-30T12:27:44+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "tutorial"
+      ]
     },
     {
-      "id": "c20e9819804c6972",
-      "title": "🛠️ Uniface 10.4 Tip: How to Debug C/C++ Components Without Crashing",
-      "description": "Introduction If you work with Uniface, you probably know that it plays well with others—specifically with 3GL languages like C or C++. We often use activate or perform to call out to legacy C libraries for complex calculations or system-level tasks. But here is the pain point: Debugging. Have you ever tried to attach a C++ debugger (like Visual Studio or GDB) to a running Uniface process? Often, the moment the debugger attaches, the application crashes or behaves unpredictably. This happens beca",
-      "url": "https://dev.to/petercode/uniface-104-tip-how-to-debug-cc-components-without-crashing-kip",
+      "id": "6ce73b286d6a9171",
+      "title": "QR-Genie: Building a Single-Purpose QR Code Tool with Kiro AI",
+      "description": "✨ QR-Genie: Building a Single-Purpose QR Code Tool with Kiro AI AI for Bharat Hackathon - Week 1: Micro-Tools Submission 📌 The Problem QR codes are everywhere — restaurant menus, payment apps, event tickets, WiFi sharing. Yet, most QR tools online are either: Cluttered with ads and unnecessary features Slow and require multiple steps Ugly with outdated UI designs Limited — generate only, no scanning I needed a single-purpose micro-tool that does ONE thing elegantly: Generate and scan QR codes in",
+      "url": "https://dev.to/abhishek_maurya9118/qr-genie-building-a-single-purpose-qr-code-tool-with-kiro-ai-15j2",
       "source": "Dev.to",
-      "author": "Peter + AI",
-      "published": "2025-11-23T12:02:31+00:00",
+      "author": "Abhishek Maurya",
+      "published": "2025-11-30T12:21:31+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "166cd3311d568a54",
@@ -8016,6 +7993,42 @@
       "keywords": []
     },
     {
+      "id": "da532bc81b4fb15e",
+      "title": "[AWS] 1. IAM (Identity and Access Management) & AWS CLI (Command Line Interface)",
+      "description": "AWS Global Infrastructure 1. AWS Regions (지역) 2. AWS Availability Zones (가용 영역) 3. AWS Data Centers (데이터 센터) 4. AWS Edge Locations / Points of Presence (엣지 로케이션, 접속 지점) 1. AWS Regions (지역, 리전) AWS has Regions all around the world (AWS는 전 세계에 리전 보유) Names can be us-east-1, eu-west-3.. (리전명 예시) A region is a cluster of data centers (리전은 데이터 센터의 집합) Most AWS services are region-scoped (대부분 AWS 서비스는 리전 범위로 제공) Q. How to choose an AWS Region? (1). Compliance with data governance and legal requirement",
+      "url": "https://dev.to/sangwoo_rhie/aws-1-iam-identity-and-access-management-aws-cli-command-line-interface-2lmp",
+      "source": "Dev.to",
+      "author": "Sangwoo Lee",
+      "published": "2025-11-30T12:27:44+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "5e59e0e8c9b84d2d",
+      "title": "Stop Getting KeyError: '\\ufeffName' When Reading CSVs in Python — Here’s the Fix",
+      "description": "If you’ve ever tried reading a CSV file in Python and suddenly got this confusing error: KeyError: '\\ufeffName' …you’re not alone. This problem happens even when the CSV looks perfectly fine, especially if it was exported from Windows or Excel. There’s an invisible character at the start of the file that Python reads — but you don’t. Let’s break down the issue and the one-line fix. The Hidden Problem: BOM (\\ufeff) Many CSV files created on Windows tools include a Byte Order Mark (BOM). It’s invi",
+      "url": "https://dev.to/suavebajaj/stop-getting-keyerror-ufeffname-when-reading-csvs-in-python-heres-the-fix-5e0n",
+      "source": "Dev.to",
+      "author": "Suave Bajaj",
+      "published": "2025-11-30T12:27:05+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "31d6f1141e90ca5e",
+      "title": "SaijinOS Part 17 — Silent-Civ Phase 3 in 5 Minutes (UPKA Integration Overview)",
+      "description": "This is the lightweight overview for DEV readers. For the full deep-dive (YAML, diagrams, structural analysis), see the link at the end. 🚀 Why Phase 3 Matters Phase 3 is the moment where the pre-language Silent-Civ substrate finally connects with the Unified Persona Kernel Architecture (UPKA) in a stable, reusable form. Silent-Civ explains how meaning behaves before language. UPKA explains how personas keep identity, memory, and tone. Phase 3 is the bridge where these two systems start behaving ",
+      "url": "https://dev.to/kato_masato_c5593c81af5c6/saijinos-part-17-silent-civ-phase-3-in-5-minutes-upka-integration-overview-411a",
+      "source": "Dev.to",
+      "author": "Masato　Kato",
+      "published": "2025-11-30T12:24:43+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "b1048e51551dc974",
       "title": "🤯",
       "description": "10 Developer Habits That Separate Good Programmers From Great Ones TheBitForge ・ Nov 18 #webdev #programming #productivity #javascript",
@@ -8315,42 +8328,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "cdbf8e2a1046cea6",
-      "title": "I've got the best idea for Thanksgiving. Im going to make a multi layer gelatin cake. Then I can tell everyone its my OSI model and how this gelatin cake relates to computer science. Dorky? Yes. Going to make my OSI gelatin cake anyways. 🌈",
-      "description": "",
-      "url": "https://dev.to/annavi11arrea1/ive-got-the-best-idea-for-thanksgiving-im-going-to-make-a-multi-layer-gelatin-cake-then-i-can-104l",
-      "source": "Dev.to",
-      "author": "Anna Villarreal",
-      "published": "2025-11-23T12:22:09+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "e857d27d49a5a4dc",
-      "title": "Deepnote (YC S19) is hiring engineers to build a better Jupyter notebook",
-      "description": "Comments",
-      "url": "https://deepnote.com/join-us",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-23T12:03:06+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "b1c62d55b28065a8",
-      "title": "Shaders: How to draw high fidelity graphics with just x and y coordinates",
-      "description": "Comments",
-      "url": "https://www.makingsoftware.com/chapters/shaders",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-23T12:26:30+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "cbdd9ef7f17db6f9",
@@ -10081,6 +10058,18 @@
       "keywords": []
     },
     {
+      "id": "da8714a4bcb5d224",
+      "title": "CachyOS: Fast and Customizable Linux Distribution",
+      "description": "Comments",
+      "url": "https://cachyos.org/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-30T10:47:27+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "78c4b08725d5f56b",
       "title": "React 19 Upgrade Guide",
       "description": "The improvements added to React 19 require some breaking changes, but we've worked to make the upgrade as smooth as possible and we don't expect the changes to impact most apps. In this post, we will guide you through the steps for upgrading apps and libraries to React 19.",
@@ -10155,8 +10144,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "performance",
-        "React 19"
+        "React 19",
+        "performance"
       ]
     },
     {
@@ -10170,10 +10159,10 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
+        "release",
         "performance",
-        "developer",
         "development",
-        "release"
+        "developer"
       ]
     },
     {
@@ -10261,10 +10250,10 @@
       "niche": "dev",
       "score": 39,
       "keywords": [
+        "best practices",
         "performance",
-        "developer",
         "development",
-        "best practices"
+        "developer"
       ]
     },
     {
@@ -10278,10 +10267,10 @@
       "niche": "dev",
       "score": 39,
       "keywords": [
-        "code",
+        "release",
         "developer",
         "development",
-        "release"
+        "code"
       ]
     },
     {
@@ -10609,9 +10598,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
+        "React 19",
         "API",
-        "release",
-        "React 19"
+        "release"
       ]
     },
     {
@@ -10625,9 +10614,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
+        "best practices",
         "performance",
-        "developer",
-        "best practices"
+        "developer"
       ]
     },
     {
@@ -10668,8 +10657,8 @@
       "niche": "dev",
       "score": 37,
       "keywords": [
-        "API",
-        "developer"
+        "developer",
+        "API"
       ]
     },
     {
@@ -10698,8 +10687,8 @@
       "niche": "dev",
       "score": 37,
       "keywords": [
-        "API",
-        "developer"
+        "developer",
+        "API"
       ]
     },
     {
@@ -10756,8 +10745,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10785,8 +10774,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "API",
-        "framework"
+        "framework",
+        "API"
       ]
     },
     {
@@ -10876,10 +10865,10 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "performance",
+        "API",
         "code",
         "framework",
-        "API",
+        "performance",
         "release"
       ]
     },
@@ -11213,8 +11202,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "API",
-        "release"
+        "release",
+        "API"
       ]
     },
     {
@@ -11228,8 +11217,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "framework",
-        "release"
+        "release",
+        "framework"
       ]
     },
     {
@@ -11243,8 +11232,8 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "code",
         "performance",
+        "code",
         "developer"
       ]
     },
@@ -11289,8 +11278,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -11416,8 +11405,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "programming",
-        "developer"
+        "developer",
+        "programming"
       ]
     },
     {
@@ -11621,6 +11610,30 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-11-25T21:46:21+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "fe6bbc0f7c6af4c2",
+      "title": "Show HN: Real-time system that tracks how news spreads across 200k websites",
+      "description": "Comments",
+      "url": "https://yandori.io/news-flow/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-26T01:27:16+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "9b9b96779fafff66",
+      "title": "RL is more information inefficient than you thought",
+      "description": "Comments",
+      "url": "https://www.dwarkesh.com/p/bits-per-sample",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-27T08:23:03+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -11870,8 +11883,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "programming",
-        "development"
+        "development",
+        "programming"
       ]
     },
     {
