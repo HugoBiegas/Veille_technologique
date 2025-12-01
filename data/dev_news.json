@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-01T12:54:30.537325+00:00",
-  "total_articles": 976,
+  "last_updated": "2025-12-01T15:29:00.897464+00:00",
+  "total_articles": 977,
   "articles": [
     {
       "id": "c609831d7def551c",
@@ -431,16 +431,18 @@
       ]
     },
     {
-      "id": "58861a5d2c81c9d0",
-      "title": "Type-Safe Routing in React Without Redefining Routes (No Giant Constant Objects)",
-      "description": "Introduction The reason I ended up writing this post started from pure coincidence. While browsing through technical blogs(sorry its korean ref), I saw an article that made me think about path auto-completion. When I first read the post, I genuinely thought it was impressive. But there were parts I couldn’t immediately wrap my head around, and I kept wondering whether there was room for improvement. In the projects I had worked on before, I didn’t even have path auto-completion— I didn’t even ha",
-      "url": "https://dev.to/ash9river/type-safe-routing-in-react-without-redefining-routes-no-giant-constant-objects-50dg",
+      "id": "8833492e73bc561c",
+      "title": "React's Render Pipeline: A Deep Dive From JSX to the Screen",
+      "description": "How does React transform this code into a visible, interactive interface on the screen? What really happens behind the scenes? This article provides a deep dive into React's complete rendering pipeline, step by step. We'll use the mental model of a simplified React implementation (like a \"mini-react\") to understand its core mechanics. 1. The Render Pipeline at a Glance 🏭 Think of React's render pipeline as a factory assembly line: Raw Materials: Your JSX code. Initial Processing: It's converted ",
+      "url": "https://dev.to/curry/reacts-render-pipeline-a-deep-dive-from-jsx-to-the-screen-e2k",
       "source": "Dev.to",
-      "author": "강재구",
-      "published": "2025-11-24T15:09:07+00:00",
+      "author": "Ben",
+      "published": "2025-12-01T15:19:21+00:00",
       "niche": "dev",
-      "score": 68,
-      "keywords": []
+      "score": 69,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "343c433c97baa80f",
@@ -1305,22 +1307,6 @@
       ]
     },
     {
-      "id": "4876906bb3726654",
-      "title": "I built an AI agent that ships full-stack apps from a prompt (Not just code — real running Next.js apps)",
-      "description": "Hey Dev Community 👋 I’m Saathwik — I’ve been obsessed with developer experience for the last 2 years. AI tools today generate beautiful code… but the code rarely runs without hours of debugging. So I built Synoppy — an AI coding agent that ships real, running apps, not just code. 🚀 What Synoppy does You describe your idea → it delivers a full application with: ✔ Pages & components ✔ API routes ✔ State management ✔ Database / config variables ✔ UI using Shadcn + Tailwind ✔ Auto-connected APIs (St",
-      "url": "https://dev.to/saathwik/i-built-an-ai-agent-that-ships-full-stack-apps-from-a-prompt-not-just-code-real-running-nextjs-4gbf",
-      "source": "Dev.to",
-      "author": "Saathwik",
-      "published": "2025-11-24T15:18:56+00:00",
-      "niche": "dev",
-      "score": 56,
-      "keywords": [
-        "API",
-        "developer",
-        "code"
-      ]
-    },
-    {
       "id": "0a5f6a74ac1d3f0c",
       "title": "Unlocking Automation with Strands Agents and Bedrock",
       "description": "Introducing Strands Agents & The YourDay Project Overview Strands Agents is a powerful, code-first framework that dramatically simplifies the process of building and operating complex, multi-tool Agentic systems. It provides a robust structure for orchestrating Large Language Models (LLMs) and integrating them with external services. For more insights on AI agent development and context management, check out my series on context management with Kiro. To showcase how easily Strands Agents can be ",
@@ -2179,20 +2165,6 @@
       "keywords": [
         "code",
         "framework"
-      ]
-    },
-    {
-      "id": "2f60122fb009a5f6",
-      "title": "Controlling Kubernetes Network Traffic - Part 2",
-      "description": "In part 1 of this series, I have discussed Ingress controllers and Gateway APIs as a way to control ingress traffic into applications deployed on top of a Kubernetes cluster. In the second of this series, I will discuss intra-cluster (East-West) traffic passed through inside a Kubernetes cluster (i.e., between the Pods) and egress traffic outside the Kubernetes cluster. Terminology Before we deep dive into the article, let's review some important concepts: Container Network Interface (CNI): A Cl",
-      "url": "https://dev.to/aws-builders/controlling-kubernetes-network-traffic-part-2-lni",
-      "source": "Dev.to",
-      "author": "Eyal Estrin",
-      "published": "2025-11-24T15:18:42+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "API"
       ]
     },
     {
@@ -3138,6 +3110,34 @@
       ]
     },
     {
+      "id": "08138991ff90d74c",
+      "title": "Killing the Stochastic Parrot: I Built Accurate Cognitive AI Search",
+      "description": "I built Clarisa, an accurate Search that outperforms Gemini on 70B parameters. You can try for yourself here: https://www.craftedlogiclab.com/playground/clarisa. I wasn't going to release the alpha but D.B. Woodside changed my mind... I have lunch out with my wife on Saturdays. Scrolling Instagram, she shows me this viral post that's got everyone confused: apparently DB Woodside from Suits has an identical twin working behind the scenes on the show? Thousands of comments, people genuinely debati",
+      "url": "https://dev.to/iantepoot/killing-the-stochastic-parrot-i-built-accurate-cognitive-ai-search-3gh1",
+      "source": "Dev.to",
+      "author": "Ian Tepoot",
+      "published": "2025-12-01T15:14:47+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "release"
+      ]
+    },
+    {
+      "id": "b2ab1601d3be6561",
+      "title": "Fake SMTP Server",
+      "description": "Step 1: Install aiosmtpd library pip install aiosmtpd Step 2: The Modern Fake SMTP Server Script (aioserver.py) import asyncio from aiosmtpd.controller import Controller from aiosmtpd.smtp import SMTP # --- Define the Handler Class --- # This class defines what happens when the server receives a message. class DebuggingHandler: \"\"\" A modern asynchronous handler that processes and prints received emails. \"\"\" async def handle_DATA(self, server, session, envelope): \"\"\" Called when the server receiv",
+      "url": "https://dev.to/nazanin_ashrafi/fake-smtp-server-3ah9",
+      "source": "Dev.to",
+      "author": "Nazanin Ashrafi",
+      "published": "2025-12-01T15:12:45+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "library"
+      ]
+    },
+    {
       "id": "776e1677e5d32028",
       "title": "Software Development Teams and Architecture: A Complete Guide",
       "description": "Table of Contents Software Team Roles 1.1 Core Team Structure 1.2 Required Skills for All Roles 1.3 The Functional Analyst 1.4 The Lead Developer 1.5 The Solution Architect Architect Personality Traits and Pitfalls 2.1 Essential Personality Traits 2.2 Three Types of Power 2.3 Common Pitfalls for New Architects Software Architecture Fundamentals 3.1 What Is Software Architecture? 3.2 Architecture Requirements Sources 3.3 What Composes Architecture? 3.4 Architecture Goals 3.5 Design Tips Key Archi",
@@ -3558,86 +3558,17 @@
       ]
     },
     {
-      "id": "046caffd56b56cbc",
-      "title": "Mastering SQL: Revisiting the Basics",
-      "description": "After some time away from SQL, I decided to revisit it as part of my journey to transition into a Data Analyst role. As someone with a background as a BI Admin, I have worked closely with analysts and developers, and I realized that in order to sharpen my skills and better prepare for new opportunities, a solid refresh of SQL was necessary. SQL is still one of the most essential skills for anyone working with data, whether you're analyzing large datasets or simply querying information to make bu",
-      "url": "https://dev.to/ch-kartik/mastering-sql-revisiting-the-basics-43ci",
+      "id": "3dfaf46afd595aeb",
+      "title": "I Created S3 Buckets Using ArgoCD + ACK with EKS Capabilities—No Controllers Installed.",
+      "description": "Amazon Web Services (AWS) EKS team has introduced EKS capabilities on Dec 1, 2025 to help developers for writing their code by offloading Kubernetes management of resources like Argo CD, ACK, kro by a simple turn/off switch. Why does it matter to you? Amazon EKS Capabilities is a new set of fully managed features designed to make running Kubernetes easier and faster for developers. Think of it as a on-off button on top of your EKS cluster that removes a lot of the heavy lifting you normally deal",
+      "url": "https://dev.to/aws-builders/i-created-s3-buckets-using-argocd-ack-with-eks-capabilities-no-controllers-installed-cm0",
       "source": "Dev.to",
-      "author": "Kartik Chelagamsetty",
-      "published": "2025-11-24T15:23:52+00:00",
+      "author": "Jatin Mehrotra",
+      "published": "2025-12-01T15:08:10+00:00",
       "niche": "dev",
-      "score": 51,
+      "score": 52,
       "keywords": [
-        "developer"
-      ]
-    },
-    {
-      "id": "cee9455bb6ca2527",
-      "title": "Tutorial: Packaging Operations Runbooks with Puppet Edge Workflows",
-      "description": "Puppet Edge Workflows, available with Puppet Enterprise Advanced, provide the orchestration tools to define multistep workflows to run against your infrastructure. This allows Puppet experts to create workflows that Ops teams can run without having deep Puppet language knowledge or the underlying infrastructure. The goal with workflow definitions is to provide your teams with the ability to do common automation tasks with a few parameters, configured and controlled by a small team of experts who",
-      "url": "https://dev.to/jasonstcyr/tutorial-packaging-operations-runbooks-with-puppet-edge-workflows-16jp",
-      "source": "Dev.to",
-      "author": "Jason St-Cyr",
-      "published": "2025-11-24T15:21:49+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "tutorial"
-      ]
-    },
-    {
-      "id": "b8db1eb7c4f98268",
-      "title": "🎉 I Just Launched AnimTheme A Marketplace for Web Animations",
-      "description": "Hey DEV community! I’m Emmanuel, a full-stack developer who loves building animation-driven interfaces with Three.js, GSAP, and modern web tools. After weeks of work, I just launched AnimTheme — a niche marketplace for developers and designers who create web animations, motion components, and animated UI elements. 🔥 What AnimTheme offers Curated animations & themed components Ready-to-use motion assets for websites/apps A place for creators to list and sell their animation work Instant downloads",
-      "url": "https://dev.to/anim_theme_a5314fe2e0c287/i-just-launched-animtheme-a-marketplace-for-web-animations-160f",
-      "source": "Dev.to",
-      "author": "Anim Theme",
-      "published": "2025-11-24T15:18:51+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "developer"
-      ]
-    },
-    {
-      "id": "c8781891c4997fc2",
-      "title": "All Data and AI Weekly #217-24Nov2025",
-      "description": "All Data and AI Weekly #217-24Nov2025 ( AI, Data, NiFi, Iceberg, Polaris, Streamlit, Flink, Kafka, Python, Java, SQL, MCP, LLM, RAG, Cortex AI, AISQL, Search, Unstructured Data ) NiFi + AI + AI Data Cloud + Iceberg. https://www.reddit.com/r/DataEngineeringForAI/hot/ Monthly NYC and Youtube Events https://lu.ma/PINSAI Code and Open Source Projects https://github.com/tspannhw/TrafficAI https://docs.snowflake.com/en/user-guide/tables-iceberg-query-using-external-query-engine-snowflake-horizon 🎤 Whe",
-      "url": "https://dev.to/timothy_spann_a41a639e47c/all-data-and-ai-weekly-217-24nov2025-1kgh",
-      "source": "Dev.to",
-      "author": "Timothy Spann",
-      "published": "2025-11-24T15:14:15+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "30f5af0cdb47d571",
-      "title": "Build, Manage, and Ship Python Projects the Easy Way using Poetry",
-      "description": "A guide to understanding Python Poetry, how it works, and how to use it in your next Python project. Python development looks simple from the outside. But managing real projects is rarely easy. You need to install packages, update them, avoid version conflicts, create virtual environments, and prepare your project for distribution. Many beginners think they can handle everything with pip and venv. This works for small scripts, but becomes messy once your project grows. Poetry solves this problem",
-      "url": "https://dev.to/manishmshiva/build-manage-and-ship-python-projects-the-easy-way-using-poetry-4ko",
-      "source": "Dev.to",
-      "author": "Manish Shivanandhan",
-      "published": "2025-11-24T15:08:53+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "development"
-      ]
-    },
-    {
-      "id": "c7cb113178ba613a",
-      "title": "Designing For Stress And Emergency",
-      "description": "Practical guidelines on designing time-critical products that prevent errors and improve accuracy. Part of the Measure UX & Design Impact (use the code 🎟 IMPACT to save 20% off today). With a live UX training starting next week.",
-      "url": "https://smashingmagazine.com/2025/11/designing-for-stress-emergency/",
-      "source": "Smashing Magazine",
-      "author": "hello@smashingmagazine.com (Vitaly Friedman)",
-      "published": "2025-11-24T13:00:00+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
+        "developer",
         "code"
       ]
     },
@@ -5057,40 +4988,18 @@
       ]
     },
     {
-      "id": "99b2c996fc87cf3c",
-      "title": "const and constexpr",
-      "description": "Introduction While working on a personal project, I learned about constexpr. I understood the difference between const and constexpr. However, I wondered why constexpr is necessary when const seems sufficient. I want to share what I found in this article. const A keyword that promises the compiler that a value cannot be changed. Once initialized, the value cannot be modified. const int MAX_USERS = 100; MAX_USERS = 200; // Compilation error! Characteristics The initialization value can be known a",
-      "url": "https://dev.to/min38/const-and-constexpr-3fen",
+      "id": "47a827f3f137c485",
+      "title": "I made a energy recovery game",
+      "description": "Ever since I started working as an indie developer, I often sit for hours at a stretch. Over time, this has caused serious shoulder and neck pain. When I try to exercise on my own, I have to rack my brain for moves; when I want to follow a workout video, I have to open a browser, find the link, and the moment YouTube loads, I immediately get sucked into other videos and the whole exercise plan falls apart. So I built a motion-sensing fitness game that starts the moment you turn on the camera. Wh",
+      "url": "https://dev.to/lovefoopants/i-made-a-energy-recovery-game-3c9b",
       "source": "Dev.to",
-      "author": "MinBapE",
-      "published": "2025-11-24T15:08:57+00:00",
+      "author": "Fiona",
+      "published": "2025-12-01T15:15:11+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "e8033736ff821b21",
-      "title": "select1",
-      "description": "SELECT row_identifier, RTRIM(XMLAGG(XMLELEMENT(E, chunk_content).EXTRACT('/text()') ORDER BY chunk_num).GETCLOBVAL()) as full_text FROM ( SELECT t.ROWID as row_identifier, c.chunk_num, blob_to_text_range(t.CONTRAGRP, c.start_byte, c.end_byte) as chunk_content FROM ZExecDetail t CROSS JOIN LATERAL ( SELECT level as chunk_num, (level * 4000 - 3999) as start_byte, (level * 4000) as end_byte FROM dual CONNECT BY level <= CEIL(blob_length(t.CONTRAGRP) / 4000) ) c WHERE t.INTERNTIMESTAMP = to_orating_",
-      "url": "https://dev.to/query_filter_591122b53770/select1-3ap2",
-      "source": "Dev.to",
-      "author": "Query Filter",
-      "published": "2025-11-24T15:08:31+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "2bc1b4577dae79ed",
-      "title": "On Inheriting and Sharing Property Values",
-      "description": "There are many ways to share properties, but what would it look like to inherit and use any parent property value on a child? On Inheriting and Sharing Property Values originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-      "url": "https://css-tricks.com/on-inheriting-and-sharing-property-values/",
-      "source": "CSS-Tricks",
-      "author": "Daniel Schwarz",
-      "published": "2025-11-24T14:22:30+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
       "id": "0571726134d2467d",
@@ -7999,6 +7908,54 @@
       "keywords": []
     },
     {
+      "id": "b9760ecd8630488f",
+      "title": "Z-Image.vip – I Built a Free AI Image Generator in 24 Hours",
+      "description": "It was 2 AM. I couldn't sleep.I'd been watching Z-Image-Turbo blow up on Reddit — a new 6B parameter model from Alibaba that generates images in just 8 inference steps with accurate bilingual text rendering.I tried the Hugging Face Space. Queue was always packed. So I made a public bet on Reddit: \"I'm building a free website for this in 48 hours. Livestream the whole thing. Roast me forever if I fail.\" 24 hours later, it shipped.Here's exactly how I built it. The Tech StackFrontend: Next.js (dep",
+      "url": "https://dev.to/zaneryan/z-imagevip-i-built-a-free-ai-image-generator-in-24-hours-2f23",
+      "source": "Dev.to",
+      "author": "IndieDevr",
+      "published": "2025-12-01T15:12:57+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "f7bc4dc13c8760de",
+      "title": "Transform Static Images into Interactive Experiences: The Elementor Hotspot Widget Guide",
+      "description": "Transform Static Images into Interactive Experiences: The Elementor Hotspot Widget Guide In the dynamic world of digital marketing and web design, user engagement is paramount. Static content, while informative, often struggles to capture and retain audience attention in the way interactive elements can. For WordPress users relying on the powerful Elementor page builder, there’s an elegant solution to this challenge: the Hotspot widget. This incredible tool allows you to breathe life into ordina",
+      "url": "https://dev.to/artarasaneh2025/transform-static-images-into-interactive-experiences-the-elementor-hotspot-widget-guide-4hi9",
+      "source": "Dev.to",
+      "author": "Artarasaneh",
+      "published": "2025-12-01T15:08:26+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "bed2f059babef9be",
+      "title": "Productivity Software Tools: Enhancing Workflow in a Digital World",
+      "description": "In an increasingly connected and fast-moving world, productivity software tools have become indispensable for individuals and organizations aiming to maximize efficiency and achieve their goals. Whether you’re considering options to Sell Phone or simply looking to improve your work habits, these tools offer powerful ways to organize tasks, collaborate, and automate routine processes. They are designed to make work smoother, faster, and more effective across various environments. The Role of Prod",
+      "url": "https://dev.to/rapidcellphone/productivity-software-tools-enhancing-workflow-in-a-digital-world-4eom",
+      "source": "Dev.to",
+      "author": "Rapid Cell Phone",
+      "published": "2025-12-01T15:04:29+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "528cd1401ea705b4",
+      "title": "best passive earning tools 2025",
+      "description": "Beyond the 9-5: The Best Passive Earning Tools to Master in 2025 Unlock Your Financial Potential with Smart, Automated Income Streams In a world constantly evolving, the dream of financial freedom isn't just about earning more – it's about earning smarter. Passive income, often misunderstood as \"money for nothing,\" is truly about setting up systems that generate revenue with minimal ongoing effort after the initial setup. As we look towards 2025, technology, market shifts, and innovative platfor",
+      "url": "https://dev.to/wadie_realme_733c52996966/best-passive-earning-tools-2025-2o6",
+      "source": "Dev.to",
+      "author": "Wadie Realme",
+      "published": "2025-12-01T15:03:59+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "6c97f86796472907",
       "title": "SHA1-Hulud the Second Comming – Postman, Zapier, PostHog All Compromised via NPM",
       "description": "Comments",
@@ -8125,6 +8082,20 @@
       ]
     },
     {
+      "id": "c2e8ee625e0bb893",
+      "title": "What’s new at Stack Overflow: December 2025",
+      "description": "Including a new MCP server, expanded access to a new question type, a long requested community ask to make copying code easier, and more!",
+      "url": "https://stackoverflow.blog/2025/12/01/what-s-new-at-stack-overflow-december-2025/",
+      "source": "Stack Overflow Blog",
+      "author": "Zach Rutta",
+      "published": "2025-12-01T15:18:09+00:00",
+      "niche": "dev",
+      "score": 48,
+      "keywords": [
+        "code"
+      ]
+    },
+    {
       "id": "1c4bed0afa6ab7c3",
       "title": "Essential ingredients for enterprise AI success",
       "description": "Here, we’ve distilled the survey findings, laid out action items for leadership, and dug into recommendations around agentic AI for the enterprise. Spoiler alert: It all comes back to data quality.",
@@ -8180,6 +8151,18 @@
       "source": "Dev.to",
       "author": "Jaideep Parashar",
       "published": "2025-12-01T02:02:08+00:00",
+      "niche": "dev",
+      "score": 46,
+      "keywords": []
+    },
+    {
+      "id": "5db538549d21be31",
+      "title": "Meme Monday",
+      "description": "Meme Monday! Today's cover image comes from last week's thread. DEV is an inclusive space! Humor in poor taste will be downvoted by mods.",
+      "url": "https://dev.to/ben/meme-monday-4c68",
+      "source": "Dev.to",
+      "author": "Ben Halpern",
+      "published": "2025-12-01T15:13:46+00:00",
       "niche": "dev",
       "score": 46,
       "keywords": []
@@ -8295,30 +8278,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "b7b07032d45695ed",
-      "title": "Show HN: Cynthia – Reliably play MIDI music files – MIT / Portable / Windows",
-      "description": "Comments",
-      "url": "https://www.blaizenterprises.com/cynthia.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-24T13:58:05+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "87e85f9fbab71c10",
-      "title": "Fast Lua runtime written in Rust",
-      "description": "Comments",
-      "url": "https://astra.arkforge.net/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-24T13:57:53+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "8cba58e6c44bca04",
@@ -10109,6 +10068,54 @@
       "keywords": []
     },
     {
+      "id": "f009c713e616b084",
+      "title": "Why xor eax, eax?",
+      "description": "Comments",
+      "url": "https://xania.org/202512/01-xor-eax-eax",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-01T12:22:35+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "3042ae3425c6e558",
+      "title": "WordPress plugin quirk resulted in UK Gov OBR Budget leak [pdf]",
+      "description": "Comments",
+      "url": "https://obr.uk/docs/dlm_uploads/01122025-Investigation-into-November-2025-EFO-publication-error.pdf",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-01T15:00:45+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "4ed26ef626fd851b",
+      "title": "Cartographers Have Been Hiding Covert Illustrations Inside of Switzerland's Maps",
+      "description": "Comments",
+      "url": "https://eyeondesign.aiga.org/for-decades-cartographers-have-been-hiding-covert-illustrations-inside-of-switzerlands-official-maps/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-01T13:41:15+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "3f2b06acc20b807d",
+      "title": "A vector graphics workstation from the 70s",
+      "description": "Comments",
+      "url": "https://justanotherelectronicsblog.com/?p=1429",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-01T13:31:58+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "78c4b08725d5f56b",
       "title": "React 19 Upgrade Guide",
       "description": "The improvements added to React 19 require some breaking changes, but we've worked to make the upgrade as smooth as possible and we don't expect the changes to impact most apps. In this post, we will guide you through the steps for upgrading apps and libraries to React 19.",
@@ -10120,20 +10127,6 @@
       "score": 44,
       "keywords": [
         "React 19"
-      ]
-    },
-    {
-      "id": "0b6f79b39dcb1bca",
-      "title": "Building a Different Kind of Agency: Inside 14islands’ People-First Creative Vision",
-      "description": "A look inside 14islands, a creative agency shaping digital products through creative storytelling and a strong, people-centered culture.",
-      "url": "https://tympanus.net/codrops/2025/11/24/building-a-different-kind-of-agency-inside-14islands-people-first-creative-vision/",
-      "source": "Codrops",
-      "author": "14islands",
-      "published": "2025-11-24T13:08:46+00:00",
-      "niche": "dev",
-      "score": 42,
-      "keywords": [
-        "API"
       ]
     },
     {
@@ -10198,9 +10191,9 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "developer",
-        "development",
         "performance",
+        "development",
+        "developer",
         "release"
       ]
     },
@@ -10229,18 +10222,6 @@
       "keywords": [
         "React 19"
       ]
-    },
-    {
-      "id": "fb98990cf9227291",
-      "title": "Top 10 Black Friday Deals for Designers in 2025",
-      "description": "Black Friday 2025 deals for designers: Get up to 70% off top design tools, website builders, and WordPress plugins. Continue reading Top 10 Black Friday Deals for Designers in 2025 on SitePoint.",
-      "url": "https://www.sitepoint.com/black-friday-2025-deals-for-designers/?utm_source=rss",
-      "source": "SitePoint",
-      "author": "SitePoint Sponsors",
-      "published": "2025-11-24T14:08:43+00:00",
-      "niche": "dev",
-      "score": 39,
-      "keywords": []
     },
     {
       "id": "a6edd1f61a260b8a",
@@ -10315,10 +10296,10 @@
       "niche": "dev",
       "score": 39,
       "keywords": [
-        "developer",
-        "best practices",
         "performance",
-        "development"
+        "development",
+        "developer",
+        "best practices"
       ]
     },
     {
@@ -10332,8 +10313,8 @@
       "niche": "dev",
       "score": 39,
       "keywords": [
-        "developer",
         "development",
+        "developer",
         "code",
         "release"
       ]
@@ -10617,6 +10598,18 @@
       "keywords": []
     },
     {
+      "id": "6e71f2cc62667379",
+      "title": "Games using anti-cheats and their compatibility with GNU/Linux or Wine/Proton",
+      "description": "Comments",
+      "url": "https://areweanticheatyet.com/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-01T07:05:57+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
       "id": "4e6d7290f5ff11d8",
       "title": "React Native 0.80 - React 19.1, JS API Changes, Freezing Legacy Arch and much more",
       "description": "Today we are excited to release React Native 0.80!",
@@ -10643,9 +10636,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "best practices",
         "performance",
-        "developer"
+        "developer",
+        "best practices"
       ]
     },
     {
@@ -10671,8 +10664,8 @@
       "niche": "dev",
       "score": 37,
       "keywords": [
-        "developer",
-        "library"
+        "library",
+        "developer"
       ]
     },
     {
@@ -10820,18 +10813,6 @@
       "keywords": []
     },
     {
-      "id": "91cfcd10150adf71",
-      "title": "Show HN: Mu – The Micro Network",
-      "description": "Comments",
-      "url": "https://github.com/asim/mu",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-24T14:06:40+00:00",
-      "niche": "dev",
-      "score": 32,
-      "keywords": []
-    },
-    {
       "id": "97c54ad5120cfb69",
       "title": "Show HN: Explore what the browser exposes about you",
       "description": "Comments",
@@ -10908,9 +10889,9 @@
       "keywords": [
         "API",
         "performance",
+        "framework",
         "code",
-        "release",
-        "framework"
+        "release"
       ]
     },
     {
@@ -10960,10 +10941,10 @@
       "niche": "dev",
       "score": 28,
       "keywords": [
-        "release",
-        "Angular",
         "library",
-        "framework"
+        "framework",
+        "Angular",
+        "release"
       ]
     },
     {
@@ -11246,8 +11227,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "framework"
+        "framework",
+        "release"
       ]
     },
     {
@@ -11261,8 +11242,8 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "developer",
         "performance",
+        "developer",
         "code"
       ]
     },
@@ -11309,20 +11290,6 @@
       "keywords": [
         "developer",
         "release"
-      ]
-    },
-    {
-      "id": "00c282d5ae5e3603",
-      "title": "How Glassmorphism and Voice UI are Redefining Website UX",
-      "description": "Learn how Glassmorphism and Voice User Interface (VUI) work together to create immersive, futuristic websites. Explore design trends, benefits, and best practices for modern web UX. Continue reading How Glassmorphism and Voice UI are Redefining Website UX on SitePoint.",
-      "url": "https://www.sitepoint.com/glassmorphism-and-voice-ui/?utm_source=rss",
-      "source": "SitePoint",
-      "author": "Atanu Sarkar",
-      "published": "2025-11-24T14:03:27+00:00",
-      "niche": "dev",
-      "score": 18,
-      "keywords": [
-        "best practices"
       ]
     },
     {
@@ -11434,8 +11401,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "programming",
-        "developer"
+        "developer",
+        "programming"
       ]
     },
     {
@@ -11450,6 +11417,20 @@
       "score": 16,
       "keywords": [
         "API",
+        "code"
+      ]
+    },
+    {
+      "id": "c7cb113178ba613a",
+      "title": "Designing For Stress And Emergency",
+      "description": "Practical guidelines on designing time-critical products that prevent errors and improve accuracy. Part of the Measure UX & Design Impact (use the code 🎟 IMPACT to save 20% off today). With a live UX training starting next week.",
+      "url": "https://smashingmagazine.com/2025/11/designing-for-stress-emergency/",
+      "source": "Smashing Magazine",
+      "author": "hello@smashingmagazine.com (Vitaly Friedman)",
+      "published": "2025-11-24T13:00:00+00:00",
+      "niche": "dev",
+      "score": 15,
+      "keywords": [
         "code"
       ]
     },
@@ -11531,18 +11512,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-11-24T20:15:53+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "96961f9295516f54",
-      "title": "WebR – R in the Browser",
-      "description": "Comments",
-      "url": "https://webr.sh/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-24T15:27:53+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -11656,6 +11625,18 @@
       "keywords": []
     },
     {
+      "id": "d1f3b9ef7964bdc1",
+      "title": "Historic Engineering Wonders: Photos That Reveal How They Pulled It Off",
+      "description": "Comments",
+      "url": "https://rarehistoricalphotos.com/engineering-methods-from-the-past/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-25T14:04:37+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
       "id": "027a6c84e96754d3",
       "title": "Introducing Stack Internal: Powering the human intelligence layer of enterprise AI",
       "description": "Today at Microsoft Ignite, we’re showcasing the next step in our evolution: Stack Overflow for Teams is now Stack Internal. It’s the next phase of our enterprise knowledge platform, reimagined for the AI era.",
@@ -11692,18 +11673,16 @@
       "keywords": []
     },
     {
-      "id": "2d88200a15c61925",
-      "title": "2025.8 release introduces Stack Overflow Internal: The next generation of enterprise knowledge intelligence",
-      "description": "Today, we’re excited to introduce Stack Overflow Internal—the next evolution of our enterprise platform and the future of Stack Overflow for Teams.",
-      "url": "https://stackoverflow.blog/2025/11/12/2025-8-release-introduces-stack-overflow-internal-the-next-generation-of-enterprise-knowledge-intelligence/",
-      "source": "Stack Overflow Blog",
-      "author": "Carrie Koos",
-      "published": "2025-11-12T15:00:00+00:00",
+      "id": "2bc1b4577dae79ed",
+      "title": "On Inheriting and Sharing Property Values",
+      "description": "There are many ways to share properties, but what would it look like to inherit and use any parent property value on a child? On Inheriting and Sharing Property Values originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
+      "url": "https://css-tricks.com/on-inheriting-and-sharing-property-values/",
+      "source": "CSS-Tricks",
+      "author": "Daniel Schwarz",
+      "published": "2025-11-24T14:22:30+00:00",
       "niche": "dev",
       "score": 14,
-      "keywords": [
-        "release"
-      ]
+      "keywords": []
     },
     {
       "id": "6c36a405ecb91c85",
@@ -11900,8 +11879,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "programming",
-        "development"
+        "development",
+        "programming"
       ]
     },
     {
@@ -11952,6 +11931,20 @@
       "score": 13,
       "keywords": [
         "development"
+      ]
+    },
+    {
+      "id": "00c282d5ae5e3603",
+      "title": "How Glassmorphism and Voice UI are Redefining Website UX",
+      "description": "Learn how Glassmorphism and Voice User Interface (VUI) work together to create immersive, futuristic websites. Explore design trends, benefits, and best practices for modern web UX. Continue reading How Glassmorphism and Voice UI are Redefining Website UX on SitePoint.",
+      "url": "https://www.sitepoint.com/glassmorphism-and-voice-ui/?utm_source=rss",
+      "source": "SitePoint",
+      "author": "Atanu Sarkar",
+      "published": "2025-11-24T14:03:27+00:00",
+      "niche": "dev",
+      "score": 13,
+      "keywords": [
+        "best practices"
       ]
     },
     {
@@ -12185,6 +12178,20 @@
       "keywords": []
     },
     {
+      "id": "0b6f79b39dcb1bca",
+      "title": "Building a Different Kind of Agency: Inside 14islands’ People-First Creative Vision",
+      "description": "A look inside 14islands, a creative agency shaping digital products through creative storytelling and a strong, people-centered culture.",
+      "url": "https://tympanus.net/codrops/2025/11/24/building-a-different-kind-of-agency-inside-14islands-people-first-creative-vision/",
+      "source": "Codrops",
+      "author": "14islands",
+      "published": "2025-11-24T13:08:46+00:00",
+      "niche": "dev",
+      "score": 12,
+      "keywords": [
+        "API"
+      ]
+    },
+    {
       "id": "284ac66b8cca92f0",
       "title": "Fix “This video format is not supported” on YouTube TV",
       "description": "Setting up a new computer is bliss &#8212; no old, unused apps and the machine performs much better than the previous. Unfortunately, you may encounter new problems based on the new hardware. One such issue I encountered with my new MacBook was a &#8220;This video format is not supported&#8221; message when I went to YouTube [&#8230;] The post Fix &#8220;This video format is not supported&#8221; on YouTube TV appeared first on David Walsh Blog.",
@@ -12383,6 +12390,18 @@
       "keywords": []
     },
     {
+      "id": "fb98990cf9227291",
+      "title": "Top 10 Black Friday Deals for Designers in 2025",
+      "description": "Black Friday 2025 deals for designers: Get up to 70% off top design tools, website builders, and WordPress plugins. Continue reading Top 10 Black Friday Deals for Designers in 2025 on SitePoint.",
+      "url": "https://www.sitepoint.com/black-friday-2025-deals-for-designers/?utm_source=rss",
+      "source": "SitePoint",
+      "author": "SitePoint Sponsors",
+      "published": "2025-11-24T14:08:43+00:00",
+      "niche": "dev",
+      "score": 9,
+      "keywords": []
+    },
+    {
       "id": "be9aeaaf7219facf",
       "title": "Writing is probably the worst use case of AI",
       "description": "AI's ability to write for dirt cheap has ruined the internet and made words carry less weight than before. Continue reading Writing is probably the worst use case of AI on SitePoint.",
@@ -12452,18 +12471,6 @@
       "published": "2025-09-26T00:00:00+00:00",
       "niche": "dev",
       "score": 9,
-      "keywords": []
-    },
-    {
-      "id": "838e086196d1da33",
-      "title": "Trifold is a tool to quickly and cheaply host static websites using a CDN",
-      "description": "Comments",
-      "url": "https://www.jpt.sh/projects/trifold/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-24T08:19:45+00:00",
-      "niche": "dev",
-      "score": 8,
       "keywords": []
     },
     {
