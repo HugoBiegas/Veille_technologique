@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-01T09:34:43.635350+00:00",
-  "total_articles": 975,
+  "last_updated": "2025-12-01T12:54:30.537325+00:00",
+  "total_articles": 976,
   "articles": [
     {
       "id": "c609831d7def551c",
@@ -83,18 +83,33 @@
       ]
     },
     {
-      "id": "124885f291df89fe",
-      "title": "Building fast in Angular with Zard UI, Tailwind CSS and Signals",
-      "description": "If you are building products in a startup environment you do not have time to reinvent buttons and argue about folder structures for a week. You need to ship. Modern Angular actually makes that pretty fun Especially when you combine three things Zard UI Tailwind CSS Angular’s new signals and control flow Add a couple of small helper libraries on top and you get a stack that lets you move very fast without your codebase turning into chaos. Let’s break it down. 1. Why this stack is so fast Most fr",
-      "url": "https://dev.to/hassantayyab/building-fast-in-angular-with-zard-ui-tailwind-css-and-signals-cj5",
+      "id": "3c19353bca69377d",
+      "title": "Testing Angular 21 Components with Vitest: A Complete Guide",
+      "description": "Angular 21 replaced Karma with Vitest as the default testing framework. If you're used to Karma or Jest, this shift means new syntax, different patterns, and a fresh approach to testing, especially with Angular's signals and new control flow. What You'll Learn Setting up Vitest in Angular 21 Testing standalone components with signals and computed signals Working with Angular's control flow syntax (@for, @if, @empty) Understanding fixture.detectChanges() for DOM updates Testing user interactions ",
+      "url": "https://dev.to/olayeancarh/testing-angular-21-components-with-vitest-a-complete-guide-4db7",
       "source": "Dev.to",
-      "author": "hassantayyab",
-      "published": "2025-11-24T12:41:55+00:00",
+      "author": "Olayinka Akeju",
+      "published": "2025-12-01T12:08:07+00:00",
       "niche": "dev",
-      "score": 73,
+      "score": 75,
       "keywords": [
         "Angular",
-        "code"
+        "framework"
+      ]
+    },
+    {
+      "id": "ec7de39dfd629564",
+      "title": "Testing Angular 21 Components with Vitest: A Complete Guide",
+      "description": "Angular 21 replaced Karma with Vitest as the default testing framework. If you're used to Karma or Jest, this shift means new syntax, different patterns, and a fresh approach to testing, especially with Angular's signals and new control flow. What You'll Learn Setting up Vitest in Angular 21 Testing standalone components with signals and computed signals Working with Angular's control flow syntax (@for, @if, @empty) Understanding fixture.detectChanges() for DOM updates Testing user interactions ",
+      "url": "https://dev.to/olayeancarh/testing-angular-21-components-with-vitest-a-complete-guide-8l2",
+      "source": "Dev.to",
+      "author": "Olayinka Akeju",
+      "published": "2025-12-01T12:08:07+00:00",
+      "niche": "dev",
+      "score": 75,
+      "keywords": [
+        "Angular",
+        "framework"
       ]
     },
     {
@@ -2137,17 +2152,33 @@
       ]
     },
     {
-      "id": "d5f23df4898de1fa",
-      "title": "Polars vs Pandas: Why 2025 Data Scientists Must Master This New Power Tool",
-      "description": "For over a decade, Pandas has been the undisputed champion of data manipulation in Python. Every data scientist's journey begins with learning DataFrames, and Pandas has been synonymous with tabular data processing. But in 2025, a powerful challenger has emerged that's forcing professionals to reconsider their entire workflow: Polars. Built from the ground up in Rust with performance as its core DNA, Polars isn't just faster—it's fundamentally changing how data scientists approach large-scale da",
-      "url": "https://dev.to/gowthamimmek196/polars-vs-pandas-why-2025-data-scientists-must-master-this-new-power-tool-49aa",
+      "id": "2eef83706a0233fe",
+      "title": "Smart_Store: Triple-Lock Validation for Secure Data Imports",
+      "description": "Previously, I talked about schema guides and versioning in Smart_Store; today, I will discuss schema validation during file import. Data is the lifeblood of modern applications. But here’s the truth: not all data is trustworthy. In fact, one of the biggest challenges developers face is ensuring that the information flowing into their systems is both authentic and safe. Most frameworks rely on schema validation alone. They check if a file has the right fields, types, and formats. That’s useful, b",
+      "url": "https://dev.to/emma_vic_5c08c5a528c1513e7/smartstore-triple-lock-validation-for-secure-data-imports-3761",
       "source": "Dev.to",
-      "author": "Gowtham",
-      "published": "2025-11-24T12:19:48+00:00",
+      "author": "Emmanuel Victor",
+      "published": "2025-12-01T12:21:41+00:00",
       "niche": "dev",
-      "score": 54,
+      "score": 55,
       "keywords": [
-        "performance"
+        "developer",
+        "framework"
+      ]
+    },
+    {
+      "id": "c51d9f30b3695b7c",
+      "title": "OpenTofu Cheat Sheet: 31 CLI Commands You Should Know",
+      "description": "The OpenTofu CLI is a command-line interface for managing infrastructure as code using the OpenTofu framework, a community-driven fork of Terraform. It allows users to define, provision, and manage infrastructure across multiple cloud providers using declarative configuration files. If you've used Terraform before, you'll feel right at home. OpenTofu mirrors much of the same functionality - commands like init, plan, apply, and destroy work just as you expect. You also get state management, resou",
+      "url": "https://dev.to/spacelift/opentofu-cheat-sheet-31-cli-commands-you-should-know-3dhb",
+      "source": "Dev.to",
+      "author": "Spacelift team",
+      "published": "2025-12-01T12:07:23+00:00",
+      "niche": "dev",
+      "score": 55,
+      "keywords": [
+        "code",
+        "framework"
       ]
     },
     {
@@ -3523,90 +3554,6 @@
       "score": 52,
       "keywords": [
         "development",
-        "developer"
-      ]
-    },
-    {
-      "id": "3e679b6c9904c12e",
-      "title": "LLM Code Map: Visualize TypeScript/JavaScript Dependencies & Empower AI Agents",
-      "description": "Repository URL: https://github.com/mk668a/llm-codemap Have you ever jumped into a new codebase and felt completely lost in a web of imports and function calls? Or maybe you are working with AI agents and want them to have a better spatial understanding of your project structure? I'm excited to share a project I've been working on called LLM Code Map. It is a VSCode extension designed to graphically visualize code dependencies and structure for TypeScript and JavaScript projects. But it goes a st",
-      "url": "https://dev.to/mk668a/llm-code-map-visualize-typescriptjavascript-dependencies-empower-ai-agents-4bng",
-      "source": "Dev.to",
-      "author": "mk668a",
-      "published": "2025-11-24T12:40:57+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "553e0b35748a7f58",
-      "title": "Unlock Better AI Outputs with These 3 Prompt Engineering Secrets",
-      "description": "⭐ 1. Give Context + Goal + Constraints LLMs perform best when they understand: Who you are (role) What you want (goal) How to behave (constraints) Example: “You are a senior React mentor. Explain React Server Components in simple language, in under 150 words, with 1 example.” ⭐ 2. Use Step-by-Step Instructions Break the task into explicit steps. Clear steps = predictable, controllable output. Example: “Rewrite this code. Step 1: Explain the issue. Step 2: Give the corrected version. Step 3: Prov",
-      "url": "https://dev.to/pritish_academy/unlock-better-ai-outputs-with-these-3-prompt-engineering-secrets-29ka",
-      "source": "Dev.to",
-      "author": "Shashwat Pritish",
-      "published": "2025-11-24T12:39:54+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "5c808d51ecba135a",
-      "title": "We hosted a Live Session on Gemini 3 Pro Preview. Here's how it went.",
-      "description": "We just wrapped an action-packed session walking through Google's new Gemini 3 model and how it performs inside Kilo Code. We talked benchmarks and pricing, and even shipped an entire video game with one prompt using Kilo Deploy. Highlights Headline: Gemini 3 is Google's most capable model so far. Crushes benchmarks like GPQA Diamond, Humanity's Last Exam, MathArena Apex, and tops WebDev Arena and Terminal Bench 2.0 It has 1M+ token context, and up to ~65k output tokens It's designed to feel sma",
-      "url": "https://dev.to/kilocode/we-hosted-a-live-session-on-gemini-3-pro-preview-heres-how-it-went-557i",
-      "source": "Dev.to",
-      "author": "Darko from Kilo",
-      "published": "2025-11-24T12:18:10+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "390424863b6251ba",
-      "title": "Better Agents CLI with Kilo Code and LangWatch",
-      "description": "Better Agents CLI with Kilo Code and LangWatch This is a guest post by Rogerio Chaves, CTO and Founder of LangWatch. He brings 14 years of software engineering experience to solving one of AI's biggest challenges: making AI agents more reliable, testable, and production-ready. Today, more than 95% of enterprise agent projects fail to reach production due to a lack of reliability, evaluation discipline, and trust. Most are abandoned entirely, never making it past prototype phase. The industry nee",
-      "url": "https://dev.to/kilocode/better-agents-cli-with-kilo-code-and-langwatch-16gc",
-      "source": "Dev.to",
-      "author": "Darko from Kilo",
-      "published": "2025-11-24T12:03:32+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "8123b962c75db91e",
-      "title": "Do not let your code turn into sausage that goes beyond screen",
-      "description": "Today, we talk about a bug that shows in practice how \"code sausage\" can cause a series of problems related to the last line effect and careless copy-paste, as well as lead to new errors. The PVS-Studio team not only creates new diagnostic rules, but also gradually refines the existing ones. For example, we've recently enhanced one of the oldest diagnostic rules in the C# analyzer, V3001, to make it detect redundant parentheses more accurately. As a result, the analyzer started detecting new bug",
-      "url": "https://dev.to/pvsdev/do-not-let-your-code-turn-into-sausage-that-goes-beyond-screen-57kc",
-      "source": "Dev.to",
-      "author": "Anna Voronina",
-      "published": "2025-11-24T12:02:41+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "be6b031800d0471b",
-      "title": "The B2B Retention Playbook: A Developer's Checklist to Slash Churn and Maximize LTV",
-      "description": "As developers, we're wired to build and ship. We launch a feature, merge the PR, and move on to the next ticket. But in the world of B2B SaaS, the real work begins after the customer signs up. Shipping features isn't enough. If your users churn, you're just filling a leaky bucket. Great B2B customer retention isn't just the job of a Customer Success Manager; it's an engineering challenge. It's about building a product that's not just functional, but indispensable. This checklist is your playbook",
-      "url": "https://dev.to/michaelaiglobal/the-b2b-retention-playbook-a-developers-checklist-to-slash-churn-and-maximize-ltv-2gbl",
-      "source": "Dev.to",
-      "author": "Michael",
-      "published": "2025-11-24T12:01:29+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
         "developer"
       ]
     },
@@ -5054,28 +5001,60 @@
       ]
     },
     {
-      "id": "d5063892e77413e3",
-      "title": "Coffee Haven - Uno Platform AI Challenge Entry",
-      "description": "Coffee Haven ☕ - Cross-Platform Coffee Shop App I built a professional coffee shop application for the Uno Platform AI Challenge Screenshots Features Professional Design Clean, modern UI with warm color palette Real coffee images from Unsplash Smooth hover animations Gold badge labels (Signature, Popular, etc.) Menu Items Espresso ($3.50) Cappuccino ($4.50) Latte ($4.00) Americano ($3.00) Mocha ($5.00) Macchiato ($3.75) Cross-Platform Works on Windows, Mac, Linux Mobile responsive Web browsers (",
-      "url": "https://dev.to/shiva_shanker_k/coffee-haven-uno-platform-ai-challenge-entry-4ib",
+      "id": "7df2905ae6f5b15b",
+      "title": "AWS Terraform Meta Arguments | Count, depends_on, for_each",
+      "description": "Terraform becomes truly powerful when you start using meta-arguments — special parameters that change how resources are created, managed, and related to each other. While Terraform syntax is easy to learn, mastering meta-arguments like count, for_each, and depends_on is what enables you to build dynamic, scalable, and production-ready AWS infrastructure. This guide explains each meta-argument in detail with clear examples, best practices, and common real-world scenarios where these features beco",
+      "url": "https://dev.to/adarsh_gupta_c5fecf658fd7/aws-terraform-meta-arguments-count-dependson-foreach-19nh",
       "source": "Dev.to",
-      "author": "shiva shanker",
-      "published": "2025-11-24T12:03:50+00:00",
+      "author": "Adarsh Gupta",
+      "published": "2025-12-01T12:32:20+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "best practices"
+      ]
     },
     {
-      "id": "ac72ac90eb80131d",
-      "title": "The Rebirth of the Artist",
-      "description": "The Beatles' \"Now And Then\" won a Grammy in 2024, but John Lennon had been dead for over four decades when he sang the lead vocals. Using machine learning to isolate Lennon's voice from a decades-old demo cassette, the surviving band members completed what Paul McCartney called \"the last Beatles song.\" The track's critical acclaim and commercial success marked a watershed moment: artificial intelligence had not merely assisted in creating art—it had helped resurrect the dead to do it. As AI tool",
-      "url": "https://dev.to/rawveg/the-rebirth-of-the-artist-213b",
+      "id": "de58ad459d3f9a14",
+      "title": "Day 12: Python Programming",
+      "description": "Regular Expressions (RegEx) What is Regular Expression? Regular Expression (RegEx) is a technique used to search, match, and manipulate text based on patterns. In Python, RegEx is provided by re module. import re Why RegEx is Important? Validating emails, phone numbers Extracting IPs, URLs from logs Checking passwords Searching patterns Replacing characters Parsing large text files Important Functions in re Module Function Description re.search() Returns first match re.match() Match only beginni",
+      "url": "https://dev.to/aruna_arun_0cda4eb425bb0f/day-12-python-programming-156n",
       "source": "Dev.to",
-      "author": "Tim Green",
-      "published": "2025-11-24T12:00:00+00:00",
+      "author": "Aruna Arun",
+      "published": "2025-12-01T12:10:30+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "programming"
+      ]
+    },
+    {
+      "id": "9dff67369b229e51",
+      "title": "Smart TV App Development: OTT Beyond Mobile and Web",
+      "description": "1. Introduction: OTT's New Frontier The over-the-top (OTT) platform has changed the landscape of digital entertainment and has largely focused on web and mobile over the last few years. But a major shift is happening. Customers are demanding seamless and seamless experiences on all screens. This is especially true with Smart TVs that give a better, more immersive theatre-like experience in the home. The growth of OTT App Development now goes beyond browsers and smartphones. Multi-device streamin",
+      "url": "https://dev.to/regal22/smart-tv-app-development-ott-beyond-mobile-and-web-6fc",
+      "source": "Dev.to",
+      "author": "Regal Streaming Solutions",
+      "published": "2025-12-01T12:09:07+00:00",
+      "niche": "dev",
+      "score": 51,
+      "keywords": [
+        "development"
+      ]
+    },
+    {
+      "id": "735544895ac59801",
+      "title": "\"That's Just How It Is\" Kills Innovation: Building Teams That Question Everything",
+      "description": "Three months into a new project, our builds were taking 12 minutes. Everyone complained. Nobody investigated. \"That's just how it is with large codebases.\" A new teammate joined. Day two, she asked: \"Why does this take so long?\" We shrugged. She didn't. She spent an afternoon digging. Turns out we were bundling dev dependencies in production. One config change later: 3-minute builds. Twelve months of collective frustration, solved in an afternoon—because one person refused to accept \"that's just",
+      "url": "https://dev.to/tlorent/thats-just-how-it-is-kills-innovation-building-teams-that-question-everything-28o2",
+      "source": "Dev.to",
+      "author": "Tim Lorent",
+      "published": "2025-12-01T12:08:46+00:00",
+      "niche": "dev",
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "99b2c996fc87cf3c",
@@ -7996,6 +7975,30 @@
       "keywords": []
     },
     {
+      "id": "4d620293a56c7d74",
+      "title": "Migrating Azure Table Storage Across Organizations: A Practical Guide",
+      "description": "Introduction Cloud migrations are a common challenge in modern DevOps workflows, especially when dealing with organizational changes like mergers, acquisitions, or restructuring. Recently, I had to migrate Azure Table Storage data from one Azure organization to another a task that isn't as straightforward as moving data within the same subscription. In this post, I'll walk through the strategy, challenges, and solutions for cross organization Azure Table Storage migration, so you can tackle simi",
+      "url": "https://dev.to/techwithhari/migrating-azure-table-storage-across-organizations-a-practical-guide-5gph",
+      "source": "Dev.to",
+      "author": "Haripriya Veluchamy",
+      "published": "2025-12-01T12:43:00+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "91db33c943d42eb7",
+      "title": "Cooked this Paperfolio template with V0 | Here’s the template you can use for free",
+      "description": "Cooked this Paperfolio template with V0 | Here’s the template you can use for free I’ve been experimenting with V0 - by Vercel, and I rebuilt the popular Paperfolio layout originally created by Brix Templates. This is a community-made clone — all ownership of the original design stays with @brixtemplatesbrixtemplates. My goal was simply to recreate it in V0 so anyone can use or remix it. Live Demo & Template Access → Template (Clone / Remix): v0.dev → Live Preview: v0-paperfolio.vercel.app Video",
+      "url": "https://dev.to/nikhilshukla/cooked-this-paperfolio-template-with-v0-heres-the-template-you-can-use-for-free-576e",
+      "source": "Dev.to",
+      "author": "Nikhil Shukla",
+      "published": "2025-12-01T12:04:50+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "6c97f86796472907",
       "title": "SHA1-Hulud the Second Comming – Postman, Zapier, PostHog All Compromised via NPM",
       "description": "Comments",
@@ -8294,42 +8297,6 @@
       ]
     },
     {
-      "id": "1992b371433a3303",
-      "title": "Shai-Hulud Returns: Over 300 NPM Packages Infected",
-      "description": "Comments",
-      "url": "https://helixguard.ai/blog/malicious-sha1hulud-2025-11-24",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-24T10:40:22+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "e543173431cb3cfc",
-      "title": "NSA and IETF, part 3: Dodging the issues at hand",
-      "description": "Comments",
-      "url": "https://blog.cr.yp.to/20251123-dodging.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-24T12:00:55+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "a65cb896346073a8",
-      "title": "General principles for the use of AI at CERN",
-      "description": "Comments",
-      "url": "https://home.web.cern.ch/news/official-news/knowledge-sharing/general-principles-use-ai-cern",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-24T10:37:05+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
       "id": "b7b07032d45695ed",
       "title": "Show HN: Cynthia – Reliably play MIDI music files – MIT / Portable / Windows",
       "description": "Comments",
@@ -8349,18 +8316,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-11-24T13:57:53+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "ca8cb5ddb6fb148f",
-      "title": "Chrome Jpegxl Issue Reopened",
-      "description": "Comments",
-      "url": "https://issues.chromium.org/issues/40168998",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-24T12:23:02+00:00",
       "niche": "dev",
       "score": 44,
       "keywords": []
@@ -10118,6 +10073,42 @@
       "keywords": []
     },
     {
+      "id": "ff31ce77e354a9c9",
+      "title": "Self-hosting a Matrix server for 5 years",
+      "description": "Comments",
+      "url": "https://yaky.dev/2025-11-30-self-hosting-matrix/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-01T11:26:39+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "b17cbba3536d061c",
+      "title": "DeepSeekMath-V2: Towards Self-Verifiable Mathematical Reasoning",
+      "description": "Comments",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-Math-V2",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-01T08:54:31+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "3e0fb3b65263ca3f",
+      "title": "1GB Raspberry Pi 5, and memory-driven price rises",
+      "description": "Comments",
+      "url": "https://www.raspberrypi.com/news/1gb-raspberry-pi-5-now-available-at-45-and-memory-driven-price-rises/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-01T11:37:18+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "78c4b08725d5f56b",
       "title": "React 19 Upgrade Guide",
       "description": "The improvements added to React 19 require some breaking changes, but we've worked to make the upgrade as smooth as possible and we don't expect the changes to impact most apps. In this post, we will guide you through the steps for upgrading apps and libraries to React 19.",
@@ -10207,10 +10198,10 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "performance",
-        "release",
+        "developer",
         "development",
-        "developer"
+        "performance",
+        "release"
       ]
     },
     {
@@ -10302,6 +10293,18 @@
       ]
     },
     {
+      "id": "faebec22c0f4491d",
+      "title": "From a Founder’s Restless Urge to a Rule-Breaking Studio: The Unfiltered Creative Evolution of Zajno",
+      "description": "How one founder’s drive to make “cool sh*t only” sparked a studio culture built on experimentation, attitude, and fearless digital craft.",
+      "url": "https://tympanus.net/codrops/2025/12/01/from-a-founders-restless-urge-to-a-rule-breaking-studio-the-unfiltered-creative-evolution-of-zajno/",
+      "source": "Codrops",
+      "author": "Zajno",
+      "published": "2025-12-01T12:11:32+00:00",
+      "niche": "dev",
+      "score": 39,
+      "keywords": []
+    },
+    {
       "id": "163762ab516c5fad",
       "title": "Leveling Guide for your Performance Journey",
       "description": "Posted by Alice Yuan - Senior Developer Relations Engineer Welcome to day 4 of Performance Spotlight Week. Now that you've learned about some of the awesome tools and best practices we've introduced recently such as the R8 Optimizer, and Profile Guided Optimization with Baseline Profiles and Startup Profiles, you might be wondering where to start your performance improvement journey. We've come up with a step-by-step performance leveling guide to meet your mobile development team where you are—w",
@@ -10312,10 +10315,10 @@
       "niche": "dev",
       "score": 39,
       "keywords": [
-        "performance",
-        "development",
+        "developer",
         "best practices",
-        "developer"
+        "performance",
+        "development"
       ]
     },
     {
@@ -10329,10 +10332,10 @@
       "niche": "dev",
       "score": 39,
       "keywords": [
-        "release",
-        "development",
         "developer",
-        "code"
+        "development",
+        "code",
+        "release"
       ]
     },
     {
@@ -10624,8 +10627,8 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "React 19",
         "API",
+        "React 19",
         "release"
       ]
     },
@@ -10640,8 +10643,8 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "performance",
         "best practices",
+        "performance",
         "developer"
       ]
     },
@@ -10668,8 +10671,8 @@
       "niche": "dev",
       "score": 37,
       "keywords": [
-        "library",
-        "developer"
+        "developer",
+        "library"
       ]
     },
     {
@@ -10903,11 +10906,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "code",
+        "API",
         "performance",
+        "code",
         "release",
-        "framework",
-        "API"
+        "framework"
       ]
     },
     {
@@ -11228,8 +11231,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "API"
+        "API",
+        "release"
       ]
     },
     {
@@ -11258,9 +11261,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
+        "developer",
         "performance",
-        "code",
-        "developer"
+        "code"
       ]
     },
     {
@@ -11304,8 +11307,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
-        "developer"
+        "developer",
+        "release"
       ]
     },
     {
@@ -11446,8 +11449,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "code",
-        "API"
+        "API",
+        "code"
       ]
     },
     {
@@ -11631,6 +11634,18 @@
     {
       "id": "ca660481ddd73a9d",
       "title": "We've Detected Lightning on Mars",
+      "description": "Comments",
+      "url": "https://gizmodo.com/weve-detected-lightning-on-mars-for-the-first-time-2000691996",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-26T19:26:43+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "3735dc25924ff4a3",
+      "title": "Detection of triboelectric discharges during dust events on Mars",
       "description": "Comments",
       "url": "https://gizmodo.com/weve-detected-lightning-on-mars-for-the-first-time-2000691996",
       "source": "Hacker News",
@@ -11885,8 +11900,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "development",
-        "programming"
+        "programming",
+        "development"
       ]
     },
     {
@@ -12416,18 +12431,6 @@
       "keywords": []
     },
     {
-      "id": "9e4a540b7ca2cbb2",
-      "title": "Windsurf x Metalab: Building a New Brand for the Future of AI Coding",
-      "description": "How Metalab partnered with Windsurf to build a brand that led to a $2.4 billion deal with Google and Cognition.",
-      "url": "https://tympanus.net/codrops/2025/11/17/windsurf-x-metalab-building-a-new-brand-for-the-future-of-ai-coding/",
-      "source": "Codrops",
-      "author": "Metalab",
-      "published": "2025-11-17T12:58:51+00:00",
-      "niche": "dev",
-      "score": 9,
-      "keywords": []
-    },
-    {
       "id": "68b99fc7561857c6",
       "title": "Taking SVG “screenshots” of HTML elements",
       "description": "I was looking for a way to create images (think screenshots) of CSS layouts that I can use in HTML, EPUB and PDF files. This blog post describes my solution – which produces SVG images.",
@@ -12449,6 +12452,18 @@
       "published": "2025-09-26T00:00:00+00:00",
       "niche": "dev",
       "score": 9,
+      "keywords": []
+    },
+    {
+      "id": "838e086196d1da33",
+      "title": "Trifold is a tool to quickly and cheaply host static websites using a CDN",
+      "description": "Comments",
+      "url": "https://www.jpt.sh/projects/trifold/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-24T08:19:45+00:00",
+      "niche": "dev",
+      "score": 8,
       "keywords": []
     },
     {
