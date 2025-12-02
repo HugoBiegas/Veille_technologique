@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-02T15:30:29.909812+00:00",
-  "total_articles": 983,
+  "last_updated": "2025-12-02T18:40:49.187496+00:00",
+  "total_articles": 980,
   "articles": [
     {
       "id": "c609831d7def551c",
@@ -147,21 +147,6 @@
       ]
     },
     {
-      "id": "83403176f41c8c4f",
-      "title": "🚀 React Performance Tip: Why useState(() => ...) Beats useState({...})",
-      "description": "Most developers write: const [ref] = useState({ current: initialValue }); ...but don't realize this silently creates performance overhead --- especially in components that re-render often. Hidden Performance Problem When you do: useState({ current: initialValue }); JavaScript still recreates that object on every single render, even though React only uses the initial value on the first render. This causes: unnecessary object allocations\\ extra CPU work during render\\ increased garbage-collection ",
-      "url": "https://dev.to/yorgie7/react-performance-tip-why-usestate-beats-usestate-5blj",
-      "source": "Dev.to",
-      "author": "Yogesh Bamanier",
-      "published": "2025-11-25T18:19:30+00:00",
-      "niche": "dev",
-      "score": 73,
-      "keywords": [
-        "performance",
-        "developer"
-      ]
-    },
-    {
       "id": "e150c8283c8c266f",
       "title": "Nano-Banana Pro: Prompting Guide & Strategies",
       "description": "Nano-Banana Pro: Prompting Guide & Strategies Nano-Banana Pro is a significant leap forward from previous generation models, moving from \"fun\" image generation to \"functional\" professional asset production. It excels in text rendering, character consistency, visual synthesis, world knowledge (Search), and high-resolution (4K) output. Following the developer guide on how to get started with AI Studio and the API, this guide covers the core capabilities and how to prompt them effectively. 🛑 Sectio",
@@ -174,6 +159,21 @@
       "keywords": [
         "developer",
         "API"
+      ]
+    },
+    {
+      "id": "81a82f970ed9eed1",
+      "title": "Explore AI on Android with Our Sample Catalog App",
+      "description": "Posted by Thomas Ezan and Ivy KnightAs the AI landscape continues to expand, we often hear that developers aren't always sure where to start and which API or SDK is best for their use case.So we wanted to provide you with examples of AI-enabled features using both on-device and Cloud models and inspire you to create delightful experiences for your users.We are thrilled to announce the launch of the redesigned Android AI Sample Catalog, a dedicated application designed to inspire and educate Andr",
+      "url": "https://android-developers.googleblog.com/2025/12/explore-ai-on-android-with-our-sample.html",
+      "source": "Android Developers Blog",
+      "author": "Android Developers (noreply@blogger.com)",
+      "published": "2025-12-02T09:00:00-08:00",
+      "niche": "dev",
+      "score": 73,
+      "keywords": [
+        "API",
+        "developer"
       ]
     },
     {
@@ -348,20 +348,6 @@
         "Spring",
         "Spring Framework",
         "framework"
-      ]
-    },
-    {
-      "id": "065d39be2e9d72b5",
-      "title": "#WeArePlay: Solving the dinner dilemma - how Delish Kitchen empowers 13 million home cooks",
-      "description": "Posted by Robbie McLachlan - Developer Marketing In our latest #WeArePlay film, which celebrates the people behind apps and games on Google Play, we meet Chiharu - a co-founder of Delish Kitchen. She is on a mission to solve one of the most common daily frustrations: \"What should I make for dinner?\" Discover how this avid baker since her teens combined her passions for food and tech, building an app that delivers 55,000 professional recipes to over 13 million users across Japan.You went from mak",
-      "url": "https://android-developers.googleblog.com/2025/11/weareplay-solving-dinner-dilemma-how.html",
-      "source": "Android Developers Blog",
-      "author": "Birna (noreply@blogger.com)",
-      "published": "2025-11-25T09:00:00-08:00",
-      "niche": "dev",
-      "score": 69,
-      "keywords": [
-        "developer"
       ]
     },
     {
@@ -679,30 +665,6 @@
       ]
     },
     {
-      "id": "ce2707e4ef4e4a30",
-      "title": "Show HN: We built an open source, zero webhooks payment processor",
-      "description": "Comments",
-      "url": "https://github.com/flowglad/flowglad",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-25T17:33:50+00:00",
-      "niche": "dev",
-      "score": 62,
-      "keywords": []
-    },
-    {
-      "id": "7d16e9bfb706d2de",
-      "title": "Google Antigravity exfiltrates data",
-      "description": "Comments",
-      "url": "https://www.promptarmor.com/resources/google-antigravity-exfiltrates-data",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-25T18:31:16+00:00",
-      "niche": "dev",
-      "score": 62,
-      "keywords": []
-    },
-    {
       "id": "c944fbc800495d84",
       "title": "Reinventing how .NET builds and ships (again)",
       "description": "Comments",
@@ -974,6 +936,30 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-02T12:38:28+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": []
+    },
+    {
+      "id": "569ee41a518a320c",
+      "title": "Bun is joining Anthropic",
+      "description": "Comments",
+      "url": "https://bun.com/blog/bun-joins-anthropic",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-02T18:05:44+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": []
+    },
+    {
+      "id": "ceb642f73864fac3",
+      "title": "Nixtml: Static website and blog generator written in Nix",
+      "description": "Comments",
+      "url": "https://github.com/arnarg/nixtml",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-02T14:54:49+00:00",
       "niche": "dev",
       "score": 62,
       "keywords": []
@@ -1332,18 +1318,6 @@
         "GraphQL",
         "microservices"
       ]
-    },
-    {
-      "id": "6846f10cf41ba7f7",
-      "title": "Google Antigravity exfiltrates data via indirect prompt injection attack",
-      "description": "Comments",
-      "url": "https://www.promptarmor.com/resources/google-antigravity-exfiltrates-data",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-25T18:31:16+00:00",
-      "niche": "dev",
-      "score": 56,
-      "keywords": []
     },
     {
       "id": "e8ae186694ff65f0",
@@ -2180,31 +2154,18 @@
       ]
     },
     {
-      "id": "05f851d3a3934bdf",
-      "title": "**Unlocking AI-Driven Content Optimization: The 'Engagement",
-      "description": "Unlocking AI-Driven Content Optimization: The 'Engagement Lift Index' When evaluating the success of AI-powered content on Netflix, a crucial metric to consider is the 'Engagement Lift Index' (ELI). This metric measures the increase in user engagement attributed to AI-driven content optimization. Essentially, it quantifies how AI-driven content curation impacts viewers' interaction with Netflix's vast library. To illustrate the concept, let's examine a hypothetical AI-driven content optimization",
-      "url": "https://dev.to/drcarlosruizviquez/unlocking-ai-driven-content-optimization-the-engagement-5cmg",
+      "id": "b4557a568dc4bca6",
+      "title": "8 Technical SEO Processes Every Developer Should Own in Modern SaaS Teams",
+      "description": "Technical SEO is no longer just a marketing concern. In modern SaaS organizations, developers play a critical role in building scalable, discoverable, and high-performance websites. When dev teams collaborate early with product and marketing, SEO becomes a built-in asset rather than a patchwork fix. Although marketers often handle content, developers own the infrastructure that determines how easily search engines can crawl, interpret, and rank that content. And with organic acquisition still dr",
+      "url": "https://dev.to/liamtakahiro/8-technical-seo-processes-every-developer-should-own-in-modern-saas-teams-1i9k",
       "source": "Dev.to",
-      "author": "Dr. Carlos Ruiz Viquez",
-      "published": "2025-11-25T18:08:39+00:00",
+      "author": "Liam Takahiro",
+      "published": "2025-12-02T18:10:55+00:00",
       "niche": "dev",
-      "score": 54,
+      "score": 55,
       "keywords": [
-        "library"
-      ]
-    },
-    {
-      "id": "02a5890bc12f6739",
-      "title": "Ringer Movies: ‘Two for the Money’ With Bill Simmons, Chris Ryan, and Cousin Sal | The Rewatchables",
-      "description": "‘Two for the Money’ With Bill Simmons, Chris Ryan, and Cousin Sal Bill Simmons, Chris Ryan and Cousin Sal dive into the 2005 sports-betting drama Two for the Money (starring Matthew McConaughey, Al Pacino and Rene Russo), firing up their favorite Monday night parlay to break down all the highs, lows and oddball antics of the film’s gambling world. After unpacking the movie’s sports-betting mechanics, they each name their most rewatchable scene and—around the 48-minute mark—get into a rapid-fire ",
-      "url": "https://dev.to/popcorn_movies/ringer-movies-two-for-the-money-with-bill-simmons-chris-ryan-and-cousin-sal-the-rewatchables-3ngf",
-      "source": "Dev.to",
-      "author": "Movie News",
-      "published": "2025-11-25T18:00:25+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "API"
+        "developer",
+        "performance"
       ]
     },
     {
@@ -2219,20 +2180,6 @@
       "score": 54,
       "keywords": [
         "API"
-      ]
-    },
-    {
-      "id": "a9c05ac964a1b599",
-      "title": "Design System Culture: What It Is And Why It Matters (Excerpt)",
-      "description": "We’re so happy to announce that “Maturing Design Systems”—a Smashing book by Ben Callahan &mdash; will soon be joining the Smashing Library! Ben’s insights and advice are so powerful, we thought you might like to read an excerpt from the book. Subscribe to our Smashing newsletter to be notified when orders are open.",
-      "url": "https://smashingmagazine.com/2025/11/design-system-culture/",
-      "source": "Smashing Magazine",
-      "author": "hello@smashingmagazine.com (Ari Stiles)",
-      "published": "2025-11-25T18:00:00+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "library"
       ]
     },
     {
@@ -3194,33 +3141,45 @@
       ]
     },
     {
-      "id": "a9decd9cad06003d",
-      "title": "Why Pub/Sub Is the Architecture Trick Every Developer Should Know",
-      "description": "Did you ever run into a situation where an event or specific action happens in your code, and you want other components to react — maybe update the UI, trigger a toast, refresh some data — but you end up creating a mess of callback functions just to make things talk to each other? One function calling another, that one calling a third, and suddenly your code looks like a bowl of tightly coupled spaghetti🍝. Example: Component A fires an event, so you directly call a function in Component B. Then ",
-      "url": "https://dev.to/vatukah/why-pubsub-is-the-architecture-trick-every-developer-should-know-1i8k",
+      "id": "8019741f4110a97b",
+      "title": "CHW Monthly Activity Aggregation: Turning Visit Logs into Insight",
+      "description": "Community Health Workers (CHWs) generate a huge amount of visit-level data: every household visit, assessment, and follow-up. On its own, this raw data is hard to use. Our CHW Monthly Activity Aggregation project turns those raw records into a clean monthly summary that's ready for dashboards and performance reviews. At a high level, this project is a dbt (data build tool) project that reads a fact table of CHW activities and produces a single, analytics-ready table: public.chw_activity_monthly,",
+      "url": "https://dev.to/oliver_samuel_028c6f65ad6/chw-monthly-activity-aggregation-turning-visit-logs-into-insight-4jm5",
       "source": "Dev.to",
-      "author": "Anupam Thakur",
-      "published": "2025-11-25T18:21:57+00:00",
+      "author": "Oliver Samuel",
+      "published": "2025-12-02T18:33:21+00:00",
       "niche": "dev",
-      "score": 52,
+      "score": 54,
       "keywords": [
-        "code",
-        "developer"
+        "performance"
       ]
     },
     {
-      "id": "3fcfcbfa41a27a87",
-      "title": "Did you know that synthetic data can be used to anonymize se",
-      "description": "Did you know that synthetic data can be used to anonymize sensitive information more effectively than traditional anonymization methods, while preserving its quality and relevance for machine learning model development? By leveraging techniques like Generative Adversarial Networks (GANs) and Variational Autoencoders (VAEs), synthetic data can mimic the distribution and relationships of the original data, making it virtually indistinguishable. This approach has significant implications for indust",
-      "url": "https://dev.to/drcarlosruizviquez/did-you-know-that-synthetic-data-can-be-used-to-anonymize-se-mkc",
+      "id": "a9fe4c5469114e06",
+      "title": "Easy Steps to Generate a Config Module in NestJS",
+      "description": "When I started with NestJS, I didn't understand modules, interceptors, guards, and other advanced techniques the framework offers. As a result, I built insecure applications with poor practices. Over time, I learned the hard way which patterns truly matter for production-grade applications. After several years working with NestJS, I've collected capabilities I want to share. One is creating a custom config module where you can declare, load, and validate environment variables. After reading this",
+      "url": "https://dev.to/rubenoalvarado/easy-steps-to-generate-a-config-module-in-nestjs-246n",
       "source": "Dev.to",
-      "author": "Dr. Carlos Ruiz Viquez",
-      "published": "2025-11-25T18:03:32+00:00",
+      "author": "Ruben Alvarado",
+      "published": "2025-12-02T18:09:23+00:00",
       "niche": "dev",
-      "score": 52,
+      "score": 54,
       "keywords": [
-        "development",
-        "code"
+        "framework"
+      ]
+    },
+    {
+      "id": "166cdaf6ed096235",
+      "title": "Most Outages Are Preventable: Why Your System Needs Self-Healing Yesterday",
+      "description": "Self-healing systems are basically computer systems that can fix themselves automatically when something goes wrong. Instead of waiting for a human to notice a problem and manually fix it (\"reactive firefighting\"), these systems are designed to be proactive. They are constantly watching (Continuous Monitoring) themselves to catch tiny signs of trouble or \"degradation\" (a slight performance drop or early error). When they find an issue, they automatically take steps to correct it (Automatic Corre",
+      "url": "https://dev.to/vimgudy/most-outages-are-preventable-why-your-system-needs-self-healing-yesterday-27jb",
+      "source": "Dev.to",
+      "author": "Vimal Maheedharan",
+      "published": "2025-12-02T18:00:39+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "performance"
       ]
     },
     {
@@ -3569,59 +3528,18 @@
       ]
     },
     {
-      "id": "fd7a998678e257aa",
-      "title": "Linux-Compatible HTML Editors That Work",
-      "description": "Developers sometimes move between different operating systems as they switch devices or environments. Many workflows start on macOS or Windows, but teams also use Linux installation setups for server work, container testing, or long-running tasks. This mix creates a simple problem: not every HTML editor behaves the same across platforms. Some tools offer stable Windows builds but weak Linux support. Others run on Linux but require workarounds during installation or setup. HTML editors (including",
-      "url": "https://dev.to/ideradevtools/linux-compatible-html-editors-that-work-2boi",
+      "id": "c614d6a9df03a683",
+      "title": "If It’s Hard to Read, It’s Hard to Build",
+      "description": "Hello, I'm Maneshwar. I'm working on FreeDevTools online currently building **one place for all dev tools, cheat codes, and TLDRs* — a free, open-source hub where developers can quickly find and use tools without any hassle of searching all over the internet.* In 1979, Singapore’s Prime Minister Lee Kuan Yew spoke about the importance of clear, simple written English in government. Decades later, his message applies perfectly to today’s technology and software world. Our industry builds complex ",
+      "url": "https://dev.to/lovestaco/if-its-hard-to-read-its-hard-to-build-19eg",
       "source": "Dev.to",
-      "author": "IderaDevTools",
-      "published": "2025-11-25T18:06:32+00:00",
+      "author": "Athreya aka Maneshwar",
+      "published": "2025-12-02T18:00:21+00:00",
       "niche": "dev",
-      "score": 51,
+      "score": 52,
       "keywords": [
+        "code",
         "developer"
-      ]
-    },
-    {
-      "id": "a5f5a3e0f7e40bd9",
-      "title": "Learn CSS Flexbox for Beginners [Free 2-hour course]",
-      "description": "Flexbox is a powerful CSS feature that lets you build user interfaces that fit any screen size. freeCodeCamp just published a Flexbox for beginners course where you'll learn the concepts and code syntax by building your own website navigation bar. If...",
-      "url": "https://www.freecodecamp.org/news/learn-css-flexbox-for-beginners-free-2-hour-course/",
-      "source": "freeCodeCamp",
-      "author": "Quincy Larson",
-      "published": "2025-11-25T18:01:24+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "b290359689a11665",
-      "title": "How to Deploy Your Own Cockroach DB Instance on Kubernetes [Full Book for Devs]",
-      "description": "Developers are smart, wonderful people, and they’re some of the most logical thinkers you’ll ever meet. But we’re pretty terrible at naming things 😂 Like, what in the world – out of every other possible name, they decided to name a database after a ...",
-      "url": "https://www.freecodecamp.org/news/deploy-your-own-cockroach-db-instance-on-kubernetes-full-book-for-devs/",
-      "source": "freeCodeCamp",
-      "author": "Prince Onukwili",
-      "published": "2025-11-25T17:16:50+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "developer"
-      ]
-    },
-    {
-      "id": "53e89465371c3b93",
-      "title": "How to Use Vibe Coding Effectively as a Dev",
-      "description": "It may seem like everyone is a vibe coder these days, and prompting seemed like it would become the new coding. But is this AI-generated code really deployable? Bragging on social media about a clever script is one thing, but pushing a vibe coded app...",
-      "url": "https://www.freecodecamp.org/news/how-to-use-vibe-coding-effectively-as-a-dev/",
-      "source": "freeCodeCamp",
-      "author": "Ankur Tyagi",
-      "published": "2025-11-25T16:52:00+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
       ]
     },
     {
@@ -3874,20 +3792,6 @@
       "score": 51,
       "keywords": [
         "development"
-      ]
-    },
-    {
-      "id": "f58f8ccf3a462eb2",
-      "title": "#WeArePlay: Solving the dinner dilemma - how DELISH KITCHEN empowers 13 million home cooks",
-      "description": "Posted by Robbie McLachlan - Developer Marketing In our latest #WeArePlay film, which celebrates the people behind apps and games on Google Play, we meet Chiharu - a co-founder of DELISH KITCHEN. She is on a mission to solve one of the most common daily frustrations: \"What should I make for dinner?\" Discover how this avid baker since her teens combined her passions for food and tech, building an app that delivers 55,000 professional recipes to over 13 million users across Japan.You went from mak",
-      "url": "https://android-developers.googleblog.com/2025/11/weareplay-solving-dinner-dilemma-how.html",
-      "source": "Android Developers Blog",
-      "author": "Birna (noreply@blogger.com)",
-      "published": "2025-11-25T09:00:00-08:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "developer"
       ]
     },
     {
@@ -5111,52 +5015,46 @@
       ]
     },
     {
-      "id": "e07b5e1b0737e7b6",
-      "title": "Session Service: як правильно будувати сесію у high-load казино",
-      "description": "Session Service: як правильно будувати сесію у high-load казино Управління сесіями в онлайн-казино — це не просто \"зберігати токен у Redis\". При навантаженні в десятки тисяч одночасних гравців кожна архітектурна помилка може призвести до втрати коштів, витоку даних або відмови сервісу. Розглянемо перевірені рішення. Вимоги до session service в казино Критичні вимоги: Безпека — неможливість підробки або викрадення сесії Масштабованість — мільйони активних сесій одночасно Продуктивність — перевірк",
-      "url": "https://dev.to/4mars/session-service-iak-pravilno-buduvati-siesiiu-u-high-load-kazino-19mf",
+      "id": "b478ba00d92a2224",
+      "title": "Building My First RAG System in One Week with Kiro IDE 🎃",
+      "description": "Submitted for Kiroween Hackathon 2024 - Skeleton Crew Category 🎃 The Challenge As a junior apps developer, I'd never built a RAG (Retrieval Augmented Generation) system before. The concept seemed intimidating: vector embeddings, semantic search, chunking strategies—all foreign territory. But the Kiroween hackathon's \"Skeleton Crew\" category sparked an idea: what if I could build ONE reusable skeleton that transforms into ANY AI personality? Seven days later, I had Project Corpus: a production-re",
+      "url": "https://dev.to/syed_shahnizam_4d470b6e21/building-my-first-rag-system-in-one-week-with-kiro-ide-19ee",
       "source": "Dev.to",
-      "author": "Maksim",
-      "published": "2025-11-25T18:15:12+00:00",
+      "author": "Syed Shahnizam",
+      "published": "2025-12-02T18:26:05+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
-      "id": "c3f258360ae2f6bf",
-      "title": "We had enough of brainrot. We built a terminal app for Instagram to stop that.",
-      "description": "Instagram: the app you open to send one message… and suddenly 30 minutes are gone. We all know the cycle — and we finally had enough. What if Instagram had a quick fix? A productivity-friendly mode that keeps your connections, but gives your attention span a fighting chance? Instead of quitting social media (yeah right) or pretending we’ll use it “mindfully,” we built something different: A distraction-free way to chat with friends and view stories — right from your terminal. No algorithm traps.",
-      "url": "https://dev.to/jet_chiang_d3ea958f9227d2/we-had-enough-of-brainrot-we-built-a-terminal-app-for-instagram-to-stop-that-3p1n",
+      "id": "5a3d32fe7efde1cb",
+      "title": "Your First Mini Terraform Project: Install, Configure, and Deploy on AWS",
+      "description": "🌟 What is Terraform? Terraform by HashiCorp is an Infrastructure as Code (IaC) tool used to: ✔ Provision AWS / Azure / GCP resources ✔ Automate infrastructure ✔ Maintain repeatable, version-controlled deployments ✔ Destroy and recreate resources easily It uses its own DSL called HCL (HashiCorp Configuration Language). In this guide, we will: Install Terraform Configure AWS access Create a Terraform project Deploy AWS infrastructure Step 1: Install Terraform on Ubuntu sudo apt update sudo apt ins",
+      "url": "https://dev.to/krisha_arya_55/your-first-mini-terraform-project-install-configure-and-deploy-on-aws-10j2",
       "source": "Dev.to",
-      "author": "Jet Chiang",
-      "published": "2025-11-25T18:13:26+00:00",
+      "author": "Krisha Arya",
+      "published": "2025-12-02T18:20:05+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
-      "id": "1a9fbb487757b809",
-      "title": "CinemaSins: Everything Wrong With The Wiz In 15 Minutes Or Less",
-      "description": "Everything Wrong With The Wiz In 15 Minutes Or Less CinemaSins is back on the yellow brick road, whipping up a snappy 15-minute rundown of every nitpick and plot hiccup in The Wiz—just in time with Wicked storming back into theaters. Expect their trademark wit as they dissect what makes this classic feel more fun (or flawed) than you remember. Along the way they drop links to polls, a Patreon shout-out, and all their social handles for fans who can’t get enough Cinematic Sinning. Plus, a quick r",
-      "url": "https://dev.to/popcorn_movies/cinemasins-everything-wrong-with-the-wiz-in-15-minutes-or-less-681",
-      "source": "Dev.to",
-      "author": "Movie News",
-      "published": "2025-11-25T18:00:17+00:00",
+      "id": "5e0d37f4751b4d27",
+      "title": "freeCodeCamp's New Responsive Web Design Certification is Now Live",
+      "description": "The freeCodeCamp community just published our new Responsive Web Design certification. You can now sit for the exam to earn the free verified certification, which you can add to your résumé, CV, or LinkedIn profile. Each certification is filled with ...",
+      "url": "https://www.freecodecamp.org/news/freecodecamps-new-responsive-web-design-certification-is-now-live/",
+      "source": "freeCodeCamp",
+      "author": "Jessica Wilkins",
+      "published": "2025-12-02T15:22:50+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "8a3db9c3776390cc",
-      "title": "CinemaSins: Everything Wrong With Mission: Impossible - The Final Reckoning In 27 Minutes Or Less",
-      "description": "Everything Wrong With Mission: Impossible – The Final Reckoning In 27 Minutes Or Less CinemaSins takes aim at the latest Mission: Impossible, counting up every plot hole, shaky stunt and Tom Cruise’s perpetual flirtation with on-screen death. They admit they still love the series but feel these recent chapters have strayed a bit from the franchise’s glory days. They also plug their website and social channels—TVSins, CommercialSins, CinemaSins Podcast—plus shout out their writers (Jeremy, Chris,",
-      "url": "https://dev.to/popcorn_movies/cinemasins-everything-wrong-with-mission-impossible-the-final-reckoning-in-27-minutes-or-less-2lgc",
-      "source": "Dev.to",
-      "author": "Movie News",
-      "published": "2025-11-25T18:00:08+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "6defcf718513b0af",
@@ -5202,18 +5100,6 @@
       "source": "Dev.to",
       "author": "Disiplin Formülü",
       "published": "2025-11-25T21:00:16+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "f437f58af6c89726",
-      "title": "How to Build a Secure Authentication System with JWT and Refresh Tokens",
-      "description": "Every app that handles user accounts needs a way to confirm who’s who. That’s what authentication is for, making sure the person using an app is the person they claim to be. But doing this securely is harder than it sounds. Traditional methods often ...",
-      "url": "https://www.freecodecamp.org/news/how-to-build-a-secure-authentication-system-with-jwt-and-refresh-tokens/",
-      "source": "freeCodeCamp",
-      "author": "Joan Ayebola",
-      "published": "2025-11-25T18:32:53+00:00",
       "niche": "dev",
       "score": 50,
       "keywords": []
@@ -8063,6 +7949,54 @@
       "keywords": []
     },
     {
+      "id": "4f8330e5a8afb80e",
+      "title": "->> Day-08 AWS Terraform Meta Arguments | count, depends_on, for_each",
+      "description": "Terraform gets much easier to use once you understand its meta arguments. These arguments help you decide how many resources to create, how they should be linked, and how Terraform keeps track of them. In this article, we will break down the three most commonly used meta arguments: count, for_each, and depends_on. These are important to know if you're building AWS infrastructure with Terraform, especially when creating multiple resources or managing their order. 1. count: Create Multiple Resourc",
+      "url": "https://dev.to/amit_kumar_7db8e36a64dd45/-day-08-aws-terraform-meta-arguments-count-dependson-foreach-2im0",
+      "source": "Dev.to",
+      "author": "Amit Kushwaha",
+      "published": "2025-12-02T18:12:35+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "22b2f8bd70bfd893",
+      "title": "What Burnout Taught Me About My Post-Hollywood Phone Problem",
+      "description": "When I was a motion picture literary agent in Beverly Hills, I averaged two hundred calls or more a day. My assistant fielded each one, booked meetings, and was the traffic controller keeping the planes from colliding. In 2015, it seemed incredibly efficient. Today, not so much. After I stepped out of the corporate airlock and into the vacuum of entrepreneurship, hiring a salaried personal assistant didn’t make sense economically. I experimented with part-time contractors and outsourced call ser",
+      "url": "https://dev.to/michael_esola_2b72a138c22/what-burnout-taught-me-about-my-post-hollywood-phone-problem-3mg7",
+      "source": "Dev.to",
+      "author": "Michael Esola",
+      "published": "2025-12-02T18:03:45+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "ebc44bf42d661340",
+      "title": "New to Dev to community",
+      "description": "Hey Everyone I am new to dev community starting out my journey again in the coding. I used to do coding from 2013-2018 after that explore the new opportunities started my start ups but got failed and I am againg starting programmer Journey. The tech stack which I have choosen is React,Express,Mongo & Node. If there are any suggestions please comment.",
+      "url": "https://dev.to/jagtar_singh_11d201bd24a6/new-to-dev-to-community-206g",
+      "source": "Dev.to",
+      "author": "Jagtar Singh",
+      "published": "2025-12-02T17:59:20+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "c530d9db33b434a3",
+      "title": "Scrollytelling on Steroids With Scroll-State Queries",
+      "description": "Unconvinced of the value of scrollytelling? Alright, skeptic, let’s first warm up with some common use cases for scroll-based styling. Scrollytelling on Steroids With Scroll-State Queries originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
+      "url": "https://css-tricks.com/scrollytelling-on-steroids-with-scroll-state-queries/",
+      "source": "CSS-Tricks",
+      "author": "Lee Meyer",
+      "published": "2025-12-02T16:47:14+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "ecb1a9d939c2569c",
       "title": "The developers who win the AI era will not be the ones who chase hype. And if we don’t talk about it, more developers will burn out, stall their careers, or build the wrong things.",
       "description": "The Hidden Cost of AI Hype in Developer Communities Jaideep Parashar ・ Nov 26 #webdev #ai #devops #developer",
@@ -8217,16 +8151,18 @@
       ]
     },
     {
-      "id": "1c4bed0afa6ab7c3",
-      "title": "Essential ingredients for enterprise AI success",
-      "description": "Here, we’ve distilled the survey findings, laid out action items for leadership, and dug into recommendations around agentic AI for the enterprise. Spoiler alert: It all comes back to data quality.",
-      "url": "https://stackoverflow.blog/2025/11/25/essential-ingredients-for-enterprise-ai-success/",
-      "source": "Stack Overflow Blog",
-      "author": "Eira May",
-      "published": "2025-11-25T17:00:00+00:00",
+      "id": "d1c3f2ed05e36848",
+      "title": "Mistral 3 family of models released",
+      "description": "Comments",
+      "url": "https://mistral.ai/news/mistral-3",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-02T15:01:53+00:00",
       "niche": "dev",
-      "score": 46,
-      "keywords": []
+      "score": 48,
+      "keywords": [
+        "release"
+      ]
     },
     {
       "id": "55813d3385cc472f",
@@ -8453,54 +8389,6 @@
       "keywords": [
         "development"
       ]
-    },
-    {
-      "id": "db8f910a6372d374",
-      "title": "FLUX.2: Frontier Visual Intelligence",
-      "description": "Comments",
-      "url": "https://bfl.ai/blog/flux-2",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-25T15:47:14+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "239151bd362763b5",
-      "title": "It is ok to say \"CSS variables\" instead of \"custom properties\"",
-      "description": "Comments",
-      "url": "https://blog.kizu.dev/css-variables/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-25T17:31:47+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "21fa6c3a3c7bed8d",
-      "title": "Ozempic does not slow Alzheimer's, study finds",
-      "description": "Comments",
-      "url": "https://www.semafor.com/article/11/25/2025/ozempic-does-not-slow-alzheimers-study-finds",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-25T16:34:08+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "2b91f49b483178b6",
-      "title": "Bad UX World Cup 2025",
-      "description": "Comments",
-      "url": "https://badux.lol/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-25T18:36:10+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "f23ff45510614605",
@@ -10379,6 +10267,42 @@
       ]
     },
     {
+      "id": "dff343b308eae073",
+      "title": "100000 TPS over a billion rows: the unreasonable effectiveness of SQLite",
+      "description": "Comments",
+      "url": "https://andersmurphy.com/2025/12/02/100000-tps-over-a-billion-rows-the-unreasonable-effectiveness-of-sqlite.html",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-02T17:59:53+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "c55acc9050799fa4",
+      "title": "The Junior Hiring Crisis",
+      "description": "Comments",
+      "url": "https://people-work.io/blog/junior-hiring-crisis/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-02T17:48:33+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "2137c3b0d1b5dc43",
+      "title": "Poka Labs (YC S24) Is Hiring a Founding Engineer",
+      "description": "Comments",
+      "url": "https://www.ycombinator.com/companies/poka-labs/jobs/RCQgmqB-founding-engineer",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-02T17:00:12+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "78c4b08725d5f56b",
       "title": "React 19 Upgrade Guide",
       "description": "The improvements added to React 19 require some breaking changes, but we've worked to make the upgrade as smooth as possible and we don't expect the changes to impact most apps. In this post, we will guide you through the steps for upgrading apps and libraries to React 19.",
@@ -10455,23 +10379,6 @@
       "keywords": [
         "React 19",
         "performance"
-      ]
-    },
-    {
-      "id": "93e8de7d38767e5c",
-      "title": "Gemini 3 is now available for AI assistance in Android Studio",
-      "description": "Posted by Tor Norbye - Senior Director of Engineering The Gemini 3 Pro model, released today and engineered for better coding and agentic experiences, is now available for AI assistance in the latest version of Android Studio Otter. Android Studio is the best place for professional Android developers to use Gemini 3 for superior performance in Agent Mode, streamlined development workflows, and advanced problem solving capabilities. With agentic AI assistance to help you with boilerplate and comp",
-      "url": "https://android-developers.googleblog.com/2025/11/gemini-3-is-now-available-for-ai.html",
-      "source": "Android Developers Blog",
-      "author": "Birna (noreply@blogger.com)",
-      "published": "2025-11-18T08:06:00-08:00",
-      "niche": "dev",
-      "score": 42,
-      "keywords": [
-        "developer",
-        "release",
-        "performance",
-        "development"
       ]
     },
     {
@@ -10562,9 +10469,9 @@
       "score": 39,
       "keywords": [
         "developer",
-        "performance",
+        "best practices",
         "development",
-        "best practices"
+        "performance"
       ]
     },
     {
@@ -10579,9 +10486,9 @@
       "score": 39,
       "keywords": [
         "code",
-        "release",
         "development",
-        "developer"
+        "developer",
+        "release"
       ]
     },
     {
@@ -10592,42 +10499,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-11-25T19:53:20+00:00",
-      "niche": "dev",
-      "score": 38,
-      "keywords": []
-    },
-    {
-      "id": "b4fb96238b424995",
-      "title": "Unifying our mobile and desktop domains",
-      "description": "Comments",
-      "url": "https://techblog.wikimedia.org/2025/11/21/unifying-mobile-and-desktop-domains/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-25T17:07:06+00:00",
-      "niche": "dev",
-      "score": 38,
-      "keywords": []
-    },
-    {
-      "id": "0958e7b4c188a985",
-      "title": "Brand New Layouts with CSS Subgrid",
-      "description": "Comments",
-      "url": "https://www.joshwcomeau.com/css/subgrid/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-25T15:57:54+00:00",
-      "niche": "dev",
-      "score": 38,
-      "keywords": []
-    },
-    {
-      "id": "0156b440df031070",
-      "title": "New layouts with CSS Subgrid",
-      "description": "Comments",
-      "url": "https://www.joshwcomeau.com/css/subgrid/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-25T15:57:54+00:00",
       "niche": "dev",
       "score": 38,
       "keywords": []
@@ -10799,9 +10670,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "release",
+        "API",
         "React 19",
-        "API"
+        "release"
       ]
     },
     {
@@ -10816,8 +10687,8 @@
       "score": 38,
       "keywords": [
         "developer",
-        "performance",
-        "best practices"
+        "best practices",
+        "performance"
       ]
     },
     {
@@ -10858,8 +10729,8 @@
       "niche": "dev",
       "score": 37,
       "keywords": [
-        "developer",
-        "API"
+        "API",
+        "developer"
       ]
     },
     {
@@ -10888,8 +10759,8 @@
       "niche": "dev",
       "score": 37,
       "keywords": [
-        "developer",
-        "API"
+        "API",
+        "developer"
       ]
     },
     {
@@ -10931,8 +10802,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10965,6 +10836,20 @@
       ]
     },
     {
+      "id": "f58f8ccf3a462eb2",
+      "title": "#WeArePlay: Solving the dinner dilemma - how DELISH KITCHEN empowers 13 million home cooks",
+      "description": "Posted by Robbie McLachlan - Developer Marketing In our latest #WeArePlay film, which celebrates the people behind apps and games on Google Play, we meet Chiharu - a co-founder of DELISH KITCHEN. She is on a mission to solve one of the most common daily frustrations: \"What should I make for dinner?\" Discover how this avid baker since her teens combined her passions for food and tech, building an app that delivers 55,000 professional recipes to over 13 million users across Japan.You went from mak",
+      "url": "https://android-developers.googleblog.com/2025/11/weareplay-solving-dinner-dilemma-how.html",
+      "source": "Android Developers Blog",
+      "author": "Birna (noreply@blogger.com)",
+      "published": "2025-11-25T09:00:00-08:00",
+      "niche": "dev",
+      "score": 33,
+      "keywords": [
+        "developer"
+      ]
+    },
+    {
       "id": "e83f6ba996395cbc",
       "title": "Show HN: Fixing Google Nano Banana Pixel Art with Rust",
       "description": "Comments",
@@ -10972,18 +10857,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-11-26T15:46:51+00:00",
-      "niche": "dev",
-      "score": 32,
-      "keywords": []
-    },
-    {
-      "id": "343c433c97baa80f",
-      "title": "How to Simplify Your React Components with Derived State",
-      "description": "React simplifies building user interfaces with hooks like useState for managing dynamic values. But it's common to overuse useState. This often leads to duplicated data and unnecessary complexity. For instance, you might store a full name in state wh...",
-      "url": "https://www.freecodecamp.org/news/simplify-react-components-with-derived-state/",
-      "source": "freeCodeCamp",
-      "author": "Olaleye Blessing",
-      "published": "2025-11-24T20:58:35+00:00",
       "niche": "dev",
       "score": 32,
       "keywords": []
@@ -11053,11 +10926,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "code",
-        "release",
+        "framework",
         "performance",
+        "code",
         "API",
-        "framework"
+        "release"
       ]
     },
     {
@@ -11107,10 +10980,10 @@
       "niche": "dev",
       "score": 28,
       "keywords": [
-        "Angular",
         "release",
+        "framework",
         "library",
-        "framework"
+        "Angular"
       ]
     },
     {
@@ -11252,6 +11125,18 @@
       "keywords": []
     },
     {
+      "id": "420f4a13a0d7d807",
+      "title": "I Designed and Printed a Custom Nose Guard to Help My Dog with DLE",
+      "description": "Comments",
+      "url": "https://snoutcover.com/billie-story",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-30T06:56:33+00:00",
+      "niche": "dev",
+      "score": 26,
+      "keywords": []
+    },
+    {
       "id": "76fac1e29bad26dc",
       "title": "October 2025 Baseline monthly digest",
       "description": "Read about various happenings with Baseline during October 2025.",
@@ -11378,8 +11263,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "API"
+        "API",
+        "release"
       ]
     },
     {
@@ -11408,9 +11293,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
+        "developer",
         "code",
-        "performance",
-        "developer"
+        "performance"
       ]
     },
     {
@@ -11439,8 +11324,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "performance",
-        "development"
+        "development",
+        "performance"
       ]
     },
     {
@@ -11470,6 +11355,20 @@
       "score": 18,
       "keywords": [
         "framework"
+      ]
+    },
+    {
+      "id": "a9c05ac964a1b599",
+      "title": "Design System Culture: What It Is And Why It Matters (Excerpt)",
+      "description": "We’re so happy to announce that “Maturing Design Systems”—a Smashing book by Ben Callahan &mdash; will soon be joining the Smashing Library! Ben’s insights and advice are so powerful, we thought you might like to read an excerpt from the book. Subscribe to our Smashing newsletter to be notified when orders are open.",
+      "url": "https://smashingmagazine.com/2025/11/design-system-culture/",
+      "source": "Smashing Magazine",
+      "author": "hello@smashingmagazine.com (Ari Stiles)",
+      "published": "2025-11-25T18:00:00+00:00",
+      "niche": "dev",
+      "score": 18,
+      "keywords": [
+        "library"
       ]
     },
     {
@@ -11567,8 +11466,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "developer",
-        "programming"
+        "programming",
+        "developer"
       ]
     },
     {
@@ -11582,8 +11481,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "developer",
-        "programming"
+        "programming",
+        "developer"
       ]
     },
     {
@@ -11599,6 +11498,48 @@
       "keywords": [
         "code",
         "API"
+      ]
+    },
+    {
+      "id": "a5f5a3e0f7e40bd9",
+      "title": "Learn CSS Flexbox for Beginners [Free 2-hour course]",
+      "description": "Flexbox is a powerful CSS feature that lets you build user interfaces that fit any screen size. freeCodeCamp just published a Flexbox for beginners course where you'll learn the concepts and code syntax by building your own website navigation bar. If...",
+      "url": "https://www.freecodecamp.org/news/learn-css-flexbox-for-beginners-free-2-hour-course/",
+      "source": "freeCodeCamp",
+      "author": "Quincy Larson",
+      "published": "2025-11-25T18:01:24+00:00",
+      "niche": "dev",
+      "score": 15,
+      "keywords": [
+        "code"
+      ]
+    },
+    {
+      "id": "b290359689a11665",
+      "title": "How to Deploy Your Own Cockroach DB Instance on Kubernetes [Full Book for Devs]",
+      "description": "Developers are smart, wonderful people, and they’re some of the most logical thinkers you’ll ever meet. But we’re pretty terrible at naming things 😂 Like, what in the world – out of every other possible name, they decided to name a database after a ...",
+      "url": "https://www.freecodecamp.org/news/deploy-your-own-cockroach-db-instance-on-kubernetes-full-book-for-devs/",
+      "source": "freeCodeCamp",
+      "author": "Prince Onukwili",
+      "published": "2025-11-25T17:16:50+00:00",
+      "niche": "dev",
+      "score": 15,
+      "keywords": [
+        "developer"
+      ]
+    },
+    {
+      "id": "53e89465371c3b93",
+      "title": "How to Use Vibe Coding Effectively as a Dev",
+      "description": "It may seem like everyone is a vibe coder these days, and prompting seemed like it would become the new coding. But is this AI-generated code really deployable? Bragging on social media about a clever script is one thing, but pushing a vibe coded app...",
+      "url": "https://www.freecodecamp.org/news/how-to-use-vibe-coding-effectively-as-a-dev/",
+      "source": "freeCodeCamp",
+      "author": "Ankur Tyagi",
+      "published": "2025-11-25T16:52:00+00:00",
+      "niche": "dev",
+      "score": 15,
+      "keywords": [
+        "code"
       ]
     },
     {
@@ -11818,6 +11759,18 @@
       "keywords": []
     },
     {
+      "id": "f437f58af6c89726",
+      "title": "How to Build a Secure Authentication System with JWT and Refresh Tokens",
+      "description": "Every app that handles user accounts needs a way to confirm who’s who. That’s what authentication is for, making sure the person using an app is the person they claim to be. But doing this securely is harder than it sounds. Traditional methods often ...",
+      "url": "https://www.freecodecamp.org/news/how-to-build-a-secure-authentication-system-with-jwt-and-refresh-tokens/",
+      "source": "freeCodeCamp",
+      "author": "Joan Ayebola",
+      "published": "2025-11-25T18:32:53+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
       "id": "2bc1b4577dae79ed",
       "title": "On Inheriting and Sharing Property Values",
       "description": "There are many ways to share properties, but what would it look like to inherit and use any parent property value on a child? On Inheriting and Sharing Property Values originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
@@ -11897,18 +11850,6 @@
       "source": "CSS-Tricks",
       "author": "Geoff Graham",
       "published": "2025-11-06T15:57:49+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "40e317e52f2a5a52",
-      "title": "The “Most Hated” CSS Feature: tan()",
-      "description": "Last time, we discussed that, sadly, according to the&#160;State of CSS 2025 survey, trigonometric functions are deemed the &#8220;Most Hated&#8221; CSS feature. That shocked me. I may have even been a little offended, being a math nerd and &#8230; The &#8220;Most Hated&#8221; CSS Feature: tan() originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-      "url": "https://css-tricks.com/the-most-hated-css-feature-tan/",
-      "source": "CSS-Tricks",
-      "author": "Juan Diego Rodríguez",
-      "published": "2025-11-03T16:03:08+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -12000,8 +11941,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "development",
-        "programming"
+        "programming",
+        "development"
       ]
     },
     {
@@ -12361,6 +12302,18 @@
       "keywords": []
     },
     {
+      "id": "1c4bed0afa6ab7c3",
+      "title": "Essential ingredients for enterprise AI success",
+      "description": "Here, we’ve distilled the survey findings, laid out action items for leadership, and dug into recommendations around agentic AI for the enterprise. Spoiler alert: It all comes back to data quality.",
+      "url": "https://stackoverflow.blog/2025/11/25/essential-ingredients-for-enterprise-ai-success/",
+      "source": "Stack Overflow Blog",
+      "author": "Eira May",
+      "published": "2025-11-25T17:00:00+00:00",
+      "niche": "dev",
+      "score": 10,
+      "keywords": []
+    },
+    {
       "id": "1e0445c8d7018d5c",
       "title": "A beginner-friendly guide to view transitions in CSS",
       "description": "Learn how to bring smooth, animated navigation to multi-page apps with view transitions. With just one line of CSS, you can enable seamless transitions between pages.",
@@ -12554,6 +12507,18 @@
       "published": "2025-09-26T00:00:00+00:00",
       "niche": "dev",
       "score": 9,
+      "keywords": []
+    },
+    {
+      "id": "896f9d1b79005db4",
+      "title": "YesNotice",
+      "description": "Comments",
+      "url": "https://infinitedigits.co/docs/software/yesnotice/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-25T16:08:33+00:00",
+      "niche": "dev",
+      "score": 8,
       "keywords": []
     },
     {
