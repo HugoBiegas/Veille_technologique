@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-02T06:42:36.861321+00:00",
+  "last_updated": "2025-12-02T09:35:06.546380+00:00",
   "total_articles": 199,
   "articles": [
     {
@@ -267,6 +267,18 @@
       "keywords": []
     },
     {
+      "id": "b4440c52669296e5",
+      "title": "The best way to replace the deprecated GenericGenerator",
+      "description": "Introduction In this article, I&#8217;m going to show you the best way to replace the deprecated @GenericGenerator when upgrading your application to Hibernate 7. Hibernate @GenericGenerator annotation The @GenericGenerator annotation has been available since Hibernate 3.5, as an alternative to the &#60;generator&#62; XML element from HBM mappings. As illustrated by the Hibernate 6.5 @GenericGenerator Javadoc, this annotation was deprecated in favor of the @IdGeneratorType meta-annotation, which",
+      "url": "https://vladmihalcea.com/replace-deprecated-genericgenerator/",
+      "source": "Vlad Mihalcea",
+      "author": "vladmihalcea",
+      "published": "2025-12-02T08:23:12+00:00",
+      "niche": "spring",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "76de9042371f8ec1",
       "title": "Using TermQueries in Elastic Search",
       "description": "Learn how to use TermQueries in Elastic Search. The post Using TermQueries in Elastic Search first appeared on Baeldung.&#160;&#160;&#160;&#160;&#160;&#160;&#160;",
@@ -312,30 +324,6 @@
       "published": "2025-11-28T19:54:00-08:00",
       "niche": "spring",
       "score": 45,
-      "keywords": []
-    },
-    {
-      "id": "869830e62da7ec83",
-      "title": "Detecting Deprecated Method Calls in Java Using JFR",
-      "description": "Java Flight Recorder (JFR) is a powerful profiling and diagnostics tool built into the JVM that allows developers to capture detailed runtime information with minimal performance overhead. Among its many capabilities, JFR can detect deprecated method invocations via the jdk.OldDeprecatedMethod event, enabling developers to monitor usage of deprecated APIs dynamically. Let us delve into understanding &#8230;",
-      "url": "https://www.javacodegeeks.com/detecting-deprecated-method-calls-in-java-using-jfr.html",
-      "source": "Java Code Geeks",
-      "author": "Yatin Batra",
-      "published": "2025-11-25T07:53:00+00:00",
-      "niche": "spring",
-      "score": 42,
-      "keywords": []
-    },
-    {
-      "id": "2fbd62f8f016a21f",
-      "title": "Java Platform Module System: A Practical Migration Guide",
-      "description": "The Java Platform Module System, introduced in Java 9, addresses fundamental architectural problems that have plagued large-scale Java applications for years. Before JPMS, the classpath mechanism offered no real boundaries between components, leading to tangled dependencies and accidental coupling that became harder to untangle as codebases grew. 1. The Problem JPMS Solves Traditional Java applications &#8230;",
-      "url": "https://www.javacodegeeks.com/2025/11/java-platform-module-system-a-practical-migration-guide.html",
-      "source": "Java Code Geeks",
-      "author": "Eleftheria Drosopoulou",
-      "published": "2025-11-25T07:26:00+00:00",
-      "niche": "spring",
-      "score": 42,
       "keywords": []
     },
     {
@@ -723,6 +711,30 @@
       "keywords": []
     },
     {
+      "id": "5e67fdf2453f07cd",
+      "title": "How To Build And Deploy Containerized Node.js Apps",
+      "description": "Containerization packages your application and its environment (runtime, libraries, and configuration) into a single immutable image that runs the same everywhere — your laptop, CI, staging, and production. This makes builds reproducible, deployment predictable, and scaling straightforward. We&#8217;ll use Docker to create a Node.js image and then deploy that image to Heroku&#8217;s Container Registry &#38; &#8230;",
+      "url": "https://www.javacodegeeks.com/how-to-build-and-deploy-containerized-node-js-apps.html",
+      "source": "Java Code Geeks",
+      "author": "Yatin Batra",
+      "published": "2025-12-02T07:49:00+00:00",
+      "niche": "spring",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "cb9442d049aefaa0",
+      "title": "Advanced Software Testing Methodologies and Practices for Senior Developers",
+      "description": "Moving past basic annotations, a senior developer interview for a Spring Boot role shifts focus dramatically. It’s less about what Spring Boot does and more about how you leverage it to design, optimize, and maintain complex, production-ready systems. This article presents advanced, high-impact questions focusing on architecture, resilience, performance, and advanced configuration, separating the journeymen &#8230;",
+      "url": "https://www.javacodegeeks.com/2025/12/advanced-software-testing-methodologies-and-practices-for-senior-developers.html",
+      "source": "Java Code Geeks",
+      "author": "Eleftheria Drosopoulou",
+      "published": "2025-12-02T07:00:00+00:00",
+      "niche": "spring",
+      "score": 42,
+      "keywords": []
+    },
+    {
       "id": "8c7df9ab4f22dddd",
       "title": "Top 5 Practices for Building Dockerized MCP Servers",
       "description": "The Model Context Protocol (MCP) is changing how we build software. It provides the \"API\" for large language models (LLMs) to interact with the real world. This lets an AI agent query a database, read a file, or call a third-party service. This new capability brings new challenges. MCP servers, the back-end tools the AI uses, are not traditional microservices. Their user is a non-deterministic AI, and they often need access to sensitive systems.  How do we build, deploy, and secure these servers",
@@ -1054,6 +1066,18 @@
       "source": "Thorben Janssen",
       "author": "Thorben Janssen",
       "published": "2025-11-19T09:42:05+00:00",
+      "niche": "spring",
+      "score": 32,
+      "keywords": []
+    },
+    {
+      "id": "318bc425a4f78ae7",
+      "title": "JEP targeted to JDK 26: 529: Vector API (11th Incubator)",
+      "description": "The following JEP is targeted to JDK 26: 529: Vector API (Eleventh Incubator)",
+      "url": "https://inside.java/2025/12/02/jep529-target-jdk26/",
+      "source": "Inside.java (Oracle)",
+      "author": "[\"XuemingShen\"]",
+      "published": "2025-12-02T00:00:00+00:00",
       "niche": "spring",
       "score": 32,
       "keywords": []
@@ -1498,18 +1522,6 @@
       "source": "Vlad Mihalcea",
       "author": "vladmihalcea",
       "published": "2025-01-14T12:10:05+00:00",
-      "niche": "spring",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "bf1d541833a1565a",
-      "title": "High-Performance Java Persistence Newsletter, Issue 69",
-      "description": "Introduction Welcome to a new issue of the High-Performance Java Persistence Newsletter in which we share articles, videos, workshops, and StackOverflow answers that are very relevant to any developer who interacts with a database system using Java. Articles The pick of this week is this series of articles from Franck Pachot about Amazon Aurora Limitless, a PostgreSQL-compatible database that provides automatic sharding. While the solution lacks several features, it&#8217;s good to keep an eye o",
-      "url": "https://vladmihalcea.com/high-performance-java-persistence-newsletter-issue-69/",
-      "source": "Vlad Mihalcea",
-      "author": "vladmihalcea",
-      "published": "2024-12-12T17:50:30+00:00",
       "niche": "spring",
       "score": 14,
       "keywords": []
@@ -2086,18 +2098,6 @@
       "source": "Reflectoring",
       "author": "Inconnu",
       "published": "2024-06-11T00:00:00+11:00",
-      "niche": "spring",
-      "score": 9,
-      "keywords": []
-    },
-    {
-      "id": "7203a1a7fb39203f",
-      "title": "JEP targeted to JDK 26: 524: PEM Encodings of Cryptographic Objects (Second Preview)",
-      "description": "The following JEP is targeted to JDK 26: 524: PEM Encodings of Cryptographic Objects (Second Preview)",
-      "url": "https://inside.java/2025/11/17/jep524-target-jdk26/",
-      "source": "Inside.java (Oracle)",
-      "author": "[\"AnthonyScarpino\"]",
-      "published": "2025-11-17T00:00:00+00:00",
       "niche": "spring",
       "score": 9,
       "keywords": []
