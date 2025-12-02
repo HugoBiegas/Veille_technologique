@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-02T01:58:39.631750+00:00",
-  "total_articles": 974,
+  "last_updated": "2025-12-02T03:54:31.736092+00:00",
+  "total_articles": 977,
   "articles": [
     {
       "id": "c609831d7def551c",
@@ -927,6 +927,18 @@
       "keywords": []
     },
     {
+      "id": "bd0ab005cc99bd14",
+      "title": "AI agents find $4.6M in blockchain smart contract exploits",
+      "description": "Comments",
+      "url": "https://red.anthropic.com/2025/smart-contracts/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-01T23:44:51+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": []
+    },
+    {
       "id": "ed69940d0703fd6a",
       "title": "PynamoDB Tutorial: Build Production-Ready DynamoDB CRUD APIs in AWS Lambda",
       "description": "I've been building on AWS for multiple years now, and one of the most repetitive parts I found was writing crude operations for DynamoDB. Every project starts the same: use boto3 to define the table define a big JSON payload JUST to fetch some data from the table copy-and-paste methods from previous projects for all CRUD operations, basically adding boilerplate code That's when I found out about a library called PynamoDB , a lightweight ORM for DynamoDB tables and that changed the way I manipula",
@@ -1620,18 +1632,19 @@
       "keywords": []
     },
     {
-      "id": "43e9624d84261e13",
-      "title": "Using Gemini CLI Through LiteLLM Proxy",
-      "description": "Organizations adopting LLMs at scale often struggle with fragmented API usage, inconsistent authentication methods, and lack of visibility across teams. Tools like Gemini CLI make local development easier, but they also introduce governance challenges—especially when authentication silently bypasses centralized gateways. In this article, I walk through how to route Gemini CLI traffic through LiteLLM Proxy, explain why this configuration matters for enterprise environments, and highlight key oper",
-      "url": "https://dev.to/polar3130/using-gemini-cli-through-litellm-proxy-1627",
+      "id": "ec0f760006e2ab91",
+      "title": "Positional Encodings and Context Window Engineering: Why Token Order Matters",
+      "description": "📚 Tech Acronyms Reference Quick reference for acronyms used in this article: AI - Artificial Intelligence ALiBi - Attention with Linear Biases API - Application Programming Interface BERT - Bidirectional Encoder Representations from Transformers GPU - Graphics Processing Unit GPT - Generative Pre-trained Transformer LLM - Large Language Model QKV - Query, Key, Value RAM - Random Access Memory RoPE - Rotary Positional Embeddings ROI - Return on Investment Technical Terms: Context Window - Maximum",
+      "url": "https://dev.to/qvfagundes/positional-encodings-and-context-window-engineering-why-token-order-matters-13h",
       "source": "Dev.to",
-      "author": "polar3130",
-      "published": "2025-11-25T03:31:00+00:00",
+      "author": "Vinicius Fagundes",
+      "published": "2025-12-02T03:03:28+00:00",
       "niche": "dev",
-      "score": 55,
+      "score": 56,
       "keywords": [
-        "development",
-        "API"
+        "API",
+        "code",
+        "programming"
       ]
     },
     {
@@ -2112,20 +2125,6 @@
       "keywords": [
         "development",
         "performance"
-      ]
-    },
-    {
-      "id": "217bcb30babf518d",
-      "title": "Building API Integrations Shouldn’t Require Re-Reading Docs Every Time",
-      "description": "Sometimes it feels like building software isn’t the hard part — rebuilding the same integrations over and over is. Every time I started a new project, I found myself: Searching for the same API docs Copy-pasting an old webhook handler Debugging the same auth flow Fixing missing env variables Rewriting the same config boilerplate None of it moved the project forward. It was just the tax you paid before the real work began. So I asked myself: \"Why isn't there a reusable, production-ready playgroun",
-      "url": "https://dev.to/reliathedisco/building-api-integrations-shouldnt-require-re-reading-docs-every-time-4gnl",
-      "source": "Dev.to",
-      "author": "IntegrateAPI",
-      "published": "2025-11-25T02:47:55+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "API"
       ]
     },
     {
@@ -3563,17 +3562,33 @@
       ]
     },
     {
-      "id": "e6210367515d1131",
-      "title": "Back with another cancerous code block to share",
-      "description": "Look at this bad boy I cooked up to extract a folder location from an error handling XD def extract_cwd(data): import re match = re.search(r'File \"(.*?\\.py)\", line \\d+, in <module>', data) if match: print(f\"Current Working Directory (CWD): {match.group(1)}\") else: print(\"CWD not found in the traceback string.\") try: crash except Exception as e: from traceback import format_exc extract_cwd(format_exc()) # Output - :> Current Working Directory (CWD): path/to/script I also made a smaller version us",
-      "url": "https://dev.to/ramoyald/back-with-another-cancerous-code-block-to-share-4cig",
+      "id": "6300156a9c0147e8",
+      "title": "how to use GVM (Go Version Manager)",
+      "description": "How to Use GVM (Go Version Manager) GVM (Go Version Manager) is a tool that allows developers to easily install, manage, and switch between multiple versions of the Go programming language on a single system. It simplifies handling different Go versions for different projects without conflicts. Installing GVM To install GVM on your system, follow these steps: First, install the required dependencies: sudo apt-get install curl git mercurial make binutils bison gcc build-essential Next, install GV",
+      "url": "https://dev.to/kingyou/how-to-use-gvm-go-version-manager-4kd6",
       "source": "Dev.to",
-      "author": "IO_Node",
-      "published": "2025-11-25T02:50:20+00:00",
+      "author": "kingyou",
+      "published": "2025-12-02T03:49:11+00:00",
       "niche": "dev",
-      "score": 51,
+      "score": 52,
       "keywords": [
-        "code"
+        "developer",
+        "programming"
+      ]
+    },
+    {
+      "id": "c106f2fac8170f09",
+      "title": "The Code Review Killer: Ditch Manual Checks with this n8n & GPT Automation Guide",
+      "description": "Have you ever wished you had a code review assistant of your own that could instantly give feedback on each new Pull Request (PR)? Manual code reviews are a necessary part of the development process, but they are expensive, slow, and inconsistent. As of writing this article, tools like GitHub Copilot's Code Review feature are premium, requiring subscriptions: Copilot Pro: ($10 USD/month or $100/year) Copilot Pro+: ($39 USD/month or $390/year) Can we achieve this within a reduced budget? YES. Thi",
+      "url": "https://dev.to/ashikvarma11/the-code-review-killer-ditch-manual-checks-with-this-n8n-gpt-automation-guide-5g1a",
+      "source": "Dev.to",
+      "author": "Ashik Varma",
+      "published": "2025-12-02T03:07:05+00:00",
+      "niche": "dev",
+      "score": 52,
+      "keywords": [
+        "code",
+        "development"
       ]
     },
     {
@@ -5020,88 +5035,32 @@
       ]
     },
     {
-      "id": "96156619df34c6a8",
-      "title": "Amazon Q - Kiro-dev",
-      "description": "Of all the IDEs, CLIs, and systems in general that allow process automation through agents that I’ve tested, Kirodev has definitely been a great surprise. I decided to create a very simple test application: I obtained a dashboard-style template and replicated the components and look and feel as closely as possible. When installing the IDE, I found a new tab showing the enhanced tools: Specs, Hooks, Agent Steering, and MCP (I’ll explain this in more detail later). On the right side, the chat wind",
-      "url": "https://dev.to/gara501/amazon-q-kiro-dev-faj",
+      "id": "8608a8967ba4f97b",
+      "title": "7 Nano Banana Pro Workflows That Actually Save You Hours As a Developer and More",
+      "description": "If you have subscribed to my newsletter, you may know that my previous post explained the basics of what Nano Banana Pro can do and shared a number of mind-blowing use cases. It went viral (and even ranked on Google) because people are tired of hearing \"it can make a picture of a cat\". Later, I wrote a post explaining how Nano Banana can specifically help if you are a designer, a teacher, or a founder, and I shared practical workflows for each. Seeing the hype around Nano Banana Pro, I spent ano",
+      "url": "https://dev.to/nitinfab/7-nano-banana-pro-workflows-that-actually-save-you-hours-as-a-developer-and-more-17bj",
       "source": "Dev.to",
-      "author": "Andres Ramirez",
-      "published": "2025-11-25T03:15:10+00:00",
+      "author": "Nitin Sharma",
+      "published": "2025-12-02T03:10:46+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
-      "id": "1777632edc9f9f9b",
-      "title": "Decoding AI: Unveiling Intelligence Beyond the Black Box",
-      "description": "Decoding AI: Unveiling Intelligence Beyond the Black Box Imagine a world where AI not only performs tasks but also exhibits distinct personalities. Can we truly quantify 'intelligence' and pinpoint biases in complex AI systems? More importantly, can we ensure fairness and predictability as AI evolves? This requires a new way of looking at how we evaluate these systems. The key lies in understanding that a single test isn't enough. We need a comprehensive 'AI psychometric battery' – a suite of ev",
-      "url": "https://dev.to/arvind_sundararajan/decoding-ai-unveiling-intelligence-beyond-the-black-box-10kl",
+      "id": "5d7efbf8dd120314",
+      "title": "The Hidden Dockerfile Mistakes That Waste Hours (Thinking of Building a Tool for This)",
+      "description": "Developers love to pretend their Dockerfiles are perfect until a build takes eight minutes and the image balloons bigger than a AAA game update. Most of the time, the cause is embarrassingly simple stuff: missing version pins, unnecessary layers, or copying half the universe into the image. Example mistakes I keep seeing: \"RUN apt-get install python No version pin. Enjoy the surprise upgrades later. COPY . . Congrats, you just shoved your entire repo and node_modules into the image because why n",
+      "url": "https://dev.to/waruni_manike_30f5e1b12d9/the-hidden-dockerfile-mistakes-that-waste-hours-thinking-of-building-a-tool-for-this-2h5f",
       "source": "Dev.to",
-      "author": "Arvind SundaraRajan",
-      "published": "2025-11-25T03:02:04+00:00",
+      "author": "Waruni Manike",
+      "published": "2025-12-02T03:09:58+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "47f98f6078449265",
-      "title": "HTTP vs HTTPS vs TCP vs UDP",
-      "description": "HTTP vs HTTPS vs TCP vs UDP: Finally Understand The Difference! 🏗️ If you've ever felt confused about these four acronyms that rule the internet, you're not alone. Most explanations get stuck in technical jargon, but today I'll give you a mental model that will make everything click forever. 🏗️ Think of Networking Like Building a House Here's the analogy that changes everything: 1️⃣ TCP/UDP → The Foundation & Roads This is the TRANSPORT LAYER - it decides HOW data moves between systems. The Vehi",
-      "url": "https://dev.to/sreekanth_kuruba_91721e5d/http-vs-https-vs-tcp-vs-udp-41d6",
-      "source": "Dev.to",
-      "author": "Sreekanth Kuruba",
-      "published": "2025-11-25T02:59:05+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "b223e40c430dd32d",
-      "title": "When Ordinary Water Meets a Holy God: A Legacy Reflection on John Chapter 2",
-      "description": "There are chapters in Scripture that feel like thunder—loud, shaking the ground beneath your feet. There are others that feel like lightning—sharp, sudden, unforgettable. And then there are chapters like John 2, where Jesus steps into the world with a quiet authority that rearranges everything we thought we knew about power, mercy, holiness, and transformation. John 2 is not just a set of stories. It’s a doorway. A turning point. A moment where the ordinary becomes a canvas for the glory of God.",
-      "url": "https://dev.to/douglasvandergraph/when-ordinary-water-meets-a-holy-god-a-legacy-reflection-on-john-chapter-2-1o71",
-      "source": "Dev.to",
-      "author": "DouglasVandergraph",
-      "published": "2025-11-25T02:54:56+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "d9bf134ec5bf6a02",
-      "title": "I Used to Fear Webhooks. Now They’re the Most Predictable Part of My Apps.",
-      "description": "I used to treat webhooks like landmines — you never knew if a payload was going to break something at 2AM. Retry loops, signature verification, timestamps, ordering, idempotency… It felt messy. And every provider did it slightly differently. Then Something Shifted I didn’t need every webhook pattern — I needed one reliable, reusable approach: Verify the signature Parse and validate the payload Handle events through a dispatcher Log and retry failure safely Idempotency first Respond fast Once I b",
-      "url": "https://dev.to/reliathedisco/i-used-to-fear-webhooks-now-theyre-the-most-predictable-part-of-my-apps-3nip",
-      "source": "Dev.to",
-      "author": "IntegrateAPI",
-      "published": "2025-11-25T02:54:30+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "528ecd91ec120873",
-      "title": "The Hidden Cost of “Just Integrate It Later”",
-      "description": "In product conversations, there’s always that moment: “We’ll just integrate Stripe later.” Or SendGrid. Or OAuth. Or Supabase policies. It sounds small — until you're the one doing it. Integrations Aren’t “Later Work” They affect: Database permissions Role-based UI logic Onboarding flows Environment setup Local and production parity Webhooks and retry logic Push them late enough in the build and suddenly: Architecture decisions need rewrites. I Built Something to Change That After hitting this w",
-      "url": "https://dev.to/reliathedisco/the-hidden-cost-of-just-integrate-it-later-29hc",
-      "source": "Dev.to",
-      "author": "IntegrateAPI",
-      "published": "2025-11-25T02:51:06+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "60cf56316b102ae6",
-      "title": "Java JOLT built in functions",
-      "description": "=intSum =doubleSum =toString =toInteger =toLong =toDouble =toBoolean =size, '=sort' =join =substring =abs, =avg, =min, '=max' These functions work only inside modify-overwrite-beta or modify-default-beta operations. 1. JOLT Modify Operations Overview There are two modify operations: 1. modify-overwrite-beta Replaces the existing value Can use functions (=intSum, =multiply, etc.) Used for math/string/date transformations 2. modify-default-beta Only sets value if missing Good for default initializ",
-      "url": "https://dev.to/sadiul_hakim/java-jolt-built-in-functions-2p4j",
-      "source": "Dev.to",
-      "author": "Sadiul Hakim",
-      "published": "2025-11-25T02:47:29+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
       "id": "2990176b0669a620",
@@ -7986,6 +7945,66 @@
       "keywords": []
     },
     {
+      "id": "2f9e1ca3770a5336",
+      "title": "# 🛡️ Entendiendo las Service Control Policies (SCPs) en AWS Organizations",
+      "description": "1. Introducción ¿Qué problema resuelven las SCPs? Las SCPs, a diferencia de los permisos de IAM, no otorgan permisos, sino que los restringen. Popularmente llamados \"guardrails\" o \"barandillas\", son una herramienta clave para la gobernanza de AWS, así como también para fijar los lineamientos de seguridad y cumplimiento de la empresa. Antes de proseguir debemos entender unos conceptos previos: IAM Policy Es un tipo de política de IAM que permite otorgar permisos a los usuarios y roles de AWS. AWS",
+      "url": "https://dev.to/terry_cloud/-entendiendo-las-service-control-policies-scps-en-aws-organizations-40li",
+      "source": "Dev.to",
+      "author": "Terry Quispe Paniagua",
+      "published": "2025-12-02T03:47:50+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "84e723351222b76b",
+      "title": "Mitigating post-airdrop fud practical guide for Web3 teams",
+      "description": "Post-airdrop chaos isn't random. It's a predictable structural failure in expectations management. The airdrop \"mercenary\" isn't here for your technology or vision. They're hunting profit. When that profit expectation gets crushed, whether through Sybil detection or an allocation smaller than imagined, the response is swift and brutal: FUD (Fear, Uncertainty, and Doubt) weaponized as revenge. 85% of eligible addresses received between $100 and $500. This isn't a philosophical problem. It's a tac",
+      "url": "https://dev.to/wevolv3_c2aea5159adf3b85f/mitigating-post-airdrop-fud-practical-guide-for-web3-teams-3l63",
+      "source": "Dev.to",
+      "author": "Wevolv3",
+      "published": "2025-12-02T03:45:00+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "d31162874fc52bbd",
+      "title": "Mitigating post-airdrop fud practical guide for Web3 teams",
+      "description": "Post-airdrop chaos isn't random. It's a predictable structural failure in expectations management. The airdrop \"mercenary\" isn't here for your technology or vision. They're hunting profit. When that profit expectation gets crushed, whether through Sybil detection or an allocation smaller than imagined, the response is swift and brutal: FUD (Fear, Uncertainty, and Doubt) weaponized as revenge. 85% of eligible addresses received between $100 and $500. This isn't a philosophical problem. It's a tac",
+      "url": "https://dev.to/wevolv3_c2aea5159adf3b85f/mitigating-post-airdrop-fud-practical-guide-for-web3-teams-3i99",
+      "source": "Dev.to",
+      "author": "Wevolv3",
+      "published": "2025-12-02T03:34:52+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "d3fe7017525529e3",
+      "title": "Why ~40% of AI Engineering is repetitive glue work (not AI work)",
+      "description": "Short Answer Most of the time AI engineers lose is not spent on model reasoning or system design. It is spent on a predictable set of repetitive workflow steps: ingestion, chunking, metadata alignment, JSON validation, evaluation setup, and DAG wiring, that require mechanical cleanup, not deep AI skill. These steps accumulate silently and create most of the failures teams mistakenly attribute to the model. The Long Answer I have worked with AI teams for more than two decades. Across industries, ",
+      "url": "https://dev.to/wehadit/why-40-of-ai-engineering-is-repetitive-glue-work-not-ai-work-497c",
+      "source": "Dev.to",
+      "author": "Anindya Obi",
+      "published": "2025-12-02T03:33:22+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "4b1038a929b3bf3c",
+      "title": "I'm 19 and building ZK identity for Nostr. Looking for co-founders.",
+      "description": "The problem In 3-5 years, most content online will be AI-generated. Bots will be indistinguishable from humans. Deepfakes will be perfect. Current platforms have no answer. Blue checks can be bought. \"Real name\" policies are theater. Meanwhile, journalists get murdered for telling the truth. Creators get deplatformed overnight. Everyone self-censors. What I'm building: A ZK identity layer for Nostr that lets you: Prove you're human without revealing who Prove credentials (journalist, expert, etc",
+      "url": "https://dev.to/o3ryan/im-19-and-building-zk-identity-for-nostr-looking-for-co-founders-4k1e",
+      "source": "Dev.to",
+      "author": "ryan",
+      "published": "2025-12-02T03:07:49+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "ecb1a9d939c2569c",
       "title": "The developers who win the AI era will not be the ones who chase hype. And if we don’t talk about it, more developers will burn out, stall their careers, or build the wrong things.",
       "description": "The Hidden Cost of AI Hype in Developer Communities Jaideep Parashar ・ Nov 26 #webdev #ai #devops #developer",
@@ -10184,6 +10203,30 @@
       "keywords": []
     },
     {
+      "id": "738932fb8b8c8d60",
+      "title": "What Will Enter the Public Domain in 2026?",
+      "description": "Comments",
+      "url": "https://publicdomainreview.org/features/entering-the-public-domain/2026/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-02T03:23:10+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "c82ae88f4f1efb5b",
+      "title": "Reverse math shows why hard problems are hard",
+      "description": "Comments",
+      "url": "https://www.quantamagazine.org/reverse-mathematics-illuminates-why-hard-problems-are-hard-20251201/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-02T02:35:47+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "78c4b08725d5f56b",
       "title": "React 19 Upgrade Guide",
       "description": "The improvements added to React 19 require some breaking changes, but we've worked to make the upgrade as smooth as possible and we don't expect the changes to impact most apps. In this post, we will guide you through the steps for upgrading apps and libraries to React 19.",
@@ -10259,10 +10302,10 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "release",
         "developer",
-        "development",
-        "performance"
+        "release",
+        "performance",
+        "development"
       ]
     },
     {
@@ -10365,9 +10408,9 @@
       "score": 39,
       "keywords": [
         "developer",
-        "best practices",
+        "performance",
         "development",
-        "performance"
+        "best practices"
       ]
     },
     {
@@ -10381,10 +10424,10 @@
       "niche": "dev",
       "score": 39,
       "keywords": [
-        "code",
+        "developer",
         "release",
-        "development",
-        "developer"
+        "code",
+        "development"
       ]
     },
     {
@@ -10652,8 +10695,8 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "release",
         "API",
+        "release",
         "React 19"
       ]
     },
@@ -10668,9 +10711,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "best practices",
         "developer",
-        "performance"
+        "performance",
+        "best practices"
       ]
     },
     {
@@ -10696,8 +10739,8 @@
       "niche": "dev",
       "score": 37,
       "keywords": [
-        "library",
-        "developer"
+        "developer",
+        "library"
       ]
     },
     {
@@ -10904,11 +10947,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
+        "framework",
         "code",
         "API",
-        "performance",
         "release",
-        "framework"
+        "performance"
       ]
     },
     {
@@ -10959,8 +11002,8 @@
       "score": 28,
       "keywords": [
         "framework",
-        "release",
         "Angular",
+        "release",
         "library"
       ]
     },
@@ -11205,8 +11248,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "API"
+        "API",
+        "release"
       ]
     },
     {
@@ -11235,8 +11278,8 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "code",
         "developer",
+        "code",
         "performance"
       ]
     },
@@ -11266,8 +11309,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "development",
-        "performance"
+        "performance",
+        "development"
       ]
     },
     {
@@ -11281,8 +11324,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
-        "developer"
+        "developer",
+        "release"
       ]
     },
     {
@@ -11394,8 +11437,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "programming",
-        "developer"
+        "developer",
+        "programming"
       ]
     },
     {
@@ -11409,8 +11452,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "code",
-        "API"
+        "API",
+        "code"
       ]
     },
     {
@@ -11848,8 +11891,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "programming",
-        "development"
+        "development",
+        "programming"
       ]
     },
     {
