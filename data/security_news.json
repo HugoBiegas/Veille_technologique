@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-03T15:30:03.591011+00:00",
+  "last_updated": "2025-12-03T18:38:53.676492+00:00",
   "total_articles": 358,
   "articles": [
     {
@@ -72,6 +72,42 @@
         "attack",
         "exploit",
         "zero-day"
+      ]
+    },
+    {
+      "id": "cffaa228b6b721b5",
+      "title": "Microsoft Silently Patches Windows LNK Flaw After Years of Active Exploitation",
+      "description": "Microsoft has silently plugged a security flaw that has been exploited by several threat actors since 2017 as part of the company's November 2025 Patch Tuesday updates, according to ACROS Security's 0patch. The vulnerability in question is CVE-2025-9491 (CVSS score: 7.8/7.0), which has been described as a Windows Shortcut (LNK) file UI misinterpretation vulnerability that could lead to remote",
+      "url": "https://thehackernews.com/2025/12/microsoft-silently-patches-windows-lnk.html",
+      "source": "The Hacker News",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2025-12-03T23:16:36+05:30",
+      "niche": "security",
+      "score": 100,
+      "keywords": [
+        "patch",
+        "vulnerability",
+        "threat",
+        "exploit",
+        "security flaw"
+      ]
+    },
+    {
+      "id": "04616199b894b109",
+      "title": "WordPress King Addons Flaw Under Active Attack Lets Hackers Make Admin Accounts",
+      "description": "A critical security flaw impacting a WordPress plugin known as King Addons for Elementor has come under active exploitation in the wild. The vulnerability, CVE-2025-8489 (CVSS score: 9.8), is a case of privilege escalation that allows unauthenticated attackers to grant themselves administrative privileges by simply specifying the administrator user role during registration. It affects versions",
+      "url": "https://thehackernews.com/2025/12/wordpress-king-addons-flaw-under-active.html",
+      "source": "The Hacker News",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2025-12-03T22:38:00+05:30",
+      "niche": "security",
+      "score": 100,
+      "keywords": [
+        "vulnerability",
+        "exploit",
+        "security flaw",
+        "privilege escalation",
+        "security"
       ]
     },
     {
@@ -375,20 +411,6 @@
         "vulnerability",
         "security",
         "zero-day"
-      ]
-    },
-    {
-      "id": "36600463d4dfc332",
-      "title": "Comcast to pay $1.5M fine for vendor breach affecting 270K customers",
-      "description": "Comcast will pay a $1.5 million fine to settle a Federal Communications Commission investigation into a February 2024 vendor data breach that exposed the personal information of nearly 275,000 customers. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/comcast-to-pay-15-million-fine-after-a-vendor-data-breach-affecting-270-000-customers/",
-      "source": "Bleeping Computer",
-      "author": "Sergiu Gatlan",
-      "published": "2025-11-26T13:30:10-05:00",
-      "niche": "security",
-      "score": 80,
-      "keywords": [
-        "breach"
       ]
     },
     {
@@ -776,6 +798,21 @@
       ]
     },
     {
+      "id": "be7476b449e5cb6c",
+      "title": "Brazil Hit by Banking Trojan Spread via WhatsApp Worm and RelayNFC NFC Relay Fraud",
+      "description": "The threat actor known as Water Saci is actively evolving its tactics, switching to a sophisticated, highly layered infection chain that uses HTML Application (HTA) files and PDFs to propagate via WhatsApp a worm that deploys a banking trojan in attacks targeting users in Brazil. The latest wave is characterized by the attackers shifting from PowerShell to a Python-based variant that spreads the",
+      "url": "https://thehackernews.com/2025/12/brazil-hit-by-banking-trojan-spread-via.html",
+      "source": "The Hacker News",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2025-12-03T21:02:00+05:30",
+      "niche": "security",
+      "score": 75,
+      "keywords": [
+        "threat",
+        "attack"
+      ]
+    },
+    {
       "id": "d2a2677752f9eb0c",
       "title": "Malicious LLMs empower inexperienced hackers with advanced tools",
       "description": "Unrestricted large language models (LLMs) like WormGPT 4 and KawaiiGPT are improving their capabilities to generate malicious code, delivering functional scripts for ransomware encryptors and lateral movement. [...]",
@@ -803,22 +840,6 @@
         "exploit",
         "security",
         "patch",
-        "cybersecurity"
-      ]
-    },
-    {
-      "id": "9039a516c8c56942",
-      "title": "Multiple London councils' IT systems disrupted by cyberattack",
-      "description": "The Royal Borough of Kensington and Chelsea (RBKC) and the Westminster City Council (WCC) announced that they are experiencing service disruptions following a cybersecurity issue. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/multiple-london-councils-it-systems-disrupted-by-cyberattack/",
-      "source": "Bleeping Computer",
-      "author": "Bill Toulas",
-      "published": "2025-11-26T12:26:11-05:00",
-      "niche": "security",
-      "score": 73,
-      "keywords": [
-        "security",
-        "attack",
         "cybersecurity"
       ]
     },
@@ -913,20 +934,6 @@
       "keywords": [
         "cybersecurity",
         "security"
-      ]
-    },
-    {
-      "id": "555eb1fb2801e1bb",
-      "title": "Shai-Hulud v2 Campaign Spreads From npm to Maven, Exposing Thousands of Secrets",
-      "description": "The second wave of the Shai-Hulud supply chain attack has spilled over to the Maven ecosystem after compromising more than 830 packages in the npm registry. The Socket Research Team said it identified a Maven Central package named org.mvnpm:posthog-node:4.18.1 that embeds the same two components associated with Sha1-Hulud: the \"setup_bun.js\" loader and the main payload \"bun_environment.js.\" \"",
-      "url": "https://thehackernews.com/2025/11/shai-hulud-v2-campaign-spreads-from-npm.html",
-      "source": "The Hacker News",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2025-11-26T23:38:00+05:30",
-      "niche": "security",
-      "score": 72,
-      "keywords": [
-        "attack"
       ]
     },
     {
@@ -1301,20 +1308,6 @@
       ]
     },
     {
-      "id": "c0a0150b10429cfd",
-      "title": "Shai-Hulud v2 Spreads From npm to Maven, as Campaign Exposes Thousands of Secrets",
-      "description": "The second wave of the Shai-Hulud supply chain attack has spilled over to the Maven ecosystem after compromising more than 830 packages in the npm registry. The Socket Research Team said it identified a Maven Central package named org.mvnpm:posthog-node:4.18.1 that embeds the same two components associated with Sha1-Hulud: the \"setup_bun.js\" loader and the main payload \"bun_environment.js.\" The",
-      "url": "https://thehackernews.com/2025/11/shai-hulud-v2-campaign-spreads-from-npm.html",
-      "source": "The Hacker News",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2025-11-26T23:38:00+05:30",
-      "niche": "security",
-      "score": 66,
-      "keywords": [
-        "attack"
-      ]
-    },
-    {
       "id": "4c4af315e1104e41",
       "title": "$29 Million Worth of Bitcoin Seized in Cryptomixer Takedown",
       "description": "Cryptomixer was targeted by law enforcement in Operation Olympia for facilitating cybercrime and money laundering. The post $29 Million Worth of Bitcoin Seized in Cryptomixer Takedown appeared first on SecurityWeek.",
@@ -1500,9 +1493,9 @@
       "score": 63,
       "keywords": [
         "patch",
-        "zero-day",
         "security",
-        "exploit"
+        "exploit",
+        "zero-day"
       ]
     },
     {
@@ -1608,9 +1601,9 @@
       "niche": "security",
       "score": 61,
       "keywords": [
-        "secure",
-        "OWASP",
         "security",
+        "OWASP",
+        "secure",
         "RCE"
       ]
     },
@@ -2036,20 +2029,6 @@
       ]
     },
     {
-      "id": "f3d74341ccf7906d",
-      "title": "Meet Rey, the Admin of ‘Scattered Lapsus$ Hunters’",
-      "description": "A prolific cybercriminal group that calls itself \"Scattered LAPSUS$ Hunters\" made headlines regularly this year by stealing data from and publicly mass extorting dozens of major corporations. But the tables seem to have turned somewhat for \"Rey,\" the moniker chosen by the technical operator and public face of the hacker group: Earlier this week, Rey confirmed his real life identity and agreed to an interview after KrebsOnSecurity tracked him down and contacted his father.",
-      "url": "https://krebsonsecurity.com/2025/11/meet-rey-the-admin-of-scattered-lapsus-hunters/",
-      "source": "Krebs on Security",
-      "author": "BrianKrebs",
-      "published": "2025-11-26T17:22:36+00:00",
-      "niche": "security",
-      "score": 54,
-      "keywords": [
-        "security"
-      ]
-    },
-    {
       "id": "77dbb5ff984e58e8",
       "title": "AI browsers can be tricked with malicious prompts hidden in URL fragments",
       "description": "Researchers have demonstrated another indirect prompt injection attack against AI-powered browsers and browser assistants that could lead to phishing, sensitive data exfiltration, credential theft, or malware downloads. The attack, dubbed HashJack, relies on rogue prompts added to URLs after the hash (#) symbol, also known as a named anchor or URL fragment. “HashJack is the first known indirect prompt injection that can weaponize any legitimate website to manipulate AI browser assistants,” resea",
@@ -2229,34 +2208,35 @@
       ]
     },
     {
-      "id": "be5a2a5b151eb88f",
-      "title": "Opto 22 groov View",
-      "description": "View CSAF 1. EXECUTIVE SUMMARY CVSS v4 6.1 ATTENTION: Exploitable remotely/Low attack complexity Vendor: Opto 22 Equipment: groov View Vulnerability: Exposure of Sensitive Information Through Metadata 2. RISK EVALUATION Successful exploitation of this vulnerability could result in credential exposure, key exposure, and privilege escalation. 3. TECHNICAL DETAILS 3.1 AFFECTED PRODUCTS The following versions of groov View are affected: groov View Server for Windows: Versions R1.0a to R4.5d GRV-EPIC",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-25-329-04",
-      "source": "CISA Cybersecurity Advisories",
-      "author": "CISA",
-      "published": "2025-11-25T12:00:00+00:00",
+      "id": "361ba511a32f99a6",
+      "title": "Hybrid 2FA phishing kits are making attacks harder to detect",
+      "description": "Some 2FA-phishing attacks are becoming significantly harder to spot as threat actors blend two previously distinct phishing-as-a-service (PhaaS) kits: Salty2FA and Tycoon2FA, into a single hybrid strain. Researchers at Any.Run warn that the hybrid is already bypassing detection rules tuned to either kit alone. Alerts that once reliably caught Salty2FA or Tycoon2FA activity are now going quiet, leaving security teams blind to MFA-bypass attacks that previously triggered obvious signatures. The re",
+      "url": "https://www.csoonline.com/article/4100393/hybrid-2fa-phishing-kits-are-making-attacks-harder-to-detect.html",
+      "source": "CSO Online",
+      "author": "Inconnu",
+      "published": "2025-12-03T16:23:29+00:00",
       "niche": "security",
       "score": 54,
       "keywords": [
-        "exploit",
-        "vulnerability",
-        "attack",
-        "privilege escalation"
+        "phishing",
+        "security",
+        "threat",
+        "attack"
       ]
     },
     {
-      "id": "8414160924e27c53",
-      "title": "Des outils de formatage de code ont exposé des milliers de mots de passe",
-      "description": "Bon, j&rsquo;étais un petit peu occupé aujourd&rsquo;hui parce que c&rsquo;est mercredi et c&rsquo;est le jour des enfants, mais je ne pouvais pas finir ma journée sans vous parler de cette histoire incroyable. Si vous faites partie des gens qui utilisent des sites comme JSONFormatter ou CodeBeautify pour rendre votre JSON lisible ou reformater du code, et bien figurez-vous que des chercheurs en sécu viennent de découvrir que ces outils ont laissé fuiter des tonnes de données sensibles durant de",
-      "url": "https://korben.info/code-beautifiers-fuite-credentials-banques-gouvernements.html",
-      "source": "Korben",
-      "author": "Korben",
-      "published": "2025-11-26T17:56:17+01:00",
+      "id": "23356d1e3a6bdbdf",
+      "title": "[webapps] Django 5.1.13 - SQL Injection",
+      "description": "Django 5.1.13 - SQL Injection",
+      "url": "https://www.exploit-db.com/exploits/52456",
+      "source": "Exploit Database",
+      "author": "Inconnu",
+      "published": "2025-12-03T00:00:00+00:00",
       "niche": "security",
-      "score": 52,
+      "score": 54,
       "keywords": [
-        "RCE"
+        "injection",
+        "SQL injection"
       ]
     },
     {
@@ -2446,8 +2426,8 @@
       "niche": "security",
       "score": 51,
       "keywords": [
-        "exploit",
         "security",
+        "exploit",
         "attack"
       ]
     },
@@ -2462,36 +2442,8 @@
       "niche": "security",
       "score": 51,
       "keywords": [
-        "exploit",
         "security",
-        "attack"
-      ]
-    },
-    {
-      "id": "a8319ad51fe28e40",
-      "title": "Prompt Injections Loom Large Over ChatGPT's Atlas Browser",
-      "description": "It's the law of unintended consequences: equipping browsers with agentic AI opens the door to an exponential volume of prompt injections.",
-      "url": "https://www.darkreading.com/application-security/prompt-injections-loom-large-over-chatgpt-atlas-launch",
-      "source": "Dark Reading",
-      "author": "Alexander Culafi",
-      "published": "2025-11-26T15:52:49+00:00",
-      "niche": "security",
-      "score": 50,
-      "keywords": [
-        "injection"
-      ]
-    },
-    {
-      "id": "bafc067db867be29",
-      "title": "Digital Fraud at Industrial Scale: 2025 Wasn't Great",
-      "description": "Advanced fraud attacks surged 180% in 2025 as cyber scammers used generative AI to churn out flawless IDs, deepfakes, and autonomous bots at levels never before seen.",
-      "url": "https://www.darkreading.com/cyberattacks-data-breaches/digital-fraud-industrial-scale-2025",
-      "source": "Dark Reading",
-      "author": "Jai Vijayan, Contributing Writer",
-      "published": "2025-11-26T17:06:03+00:00",
-      "niche": "security",
-      "score": 50,
-      "keywords": [
+        "exploit",
         "attack"
       ]
     },
@@ -2660,6 +2612,78 @@
       ]
     },
     {
+      "id": "b2646601acfa5fd6",
+      "title": "CISA, Australia, and Partners Author Joint Guidance on Securely Integrating Artificial Intelligence in Operational Technology",
+      "description": "CISA and the Australian Signals Directorate’s Australian Cyber Security Centre, in collaboration with federal and international partners, have released new cybersecurity guidance: Principles for the Secure Integration of Artificial Intelligence in Operational Technology. This guidance aims to help critical infrastructure owners and operators integrate artificial intelligence (AI) into operational technology (OT) systems securely, balancing the benefits of AI—such as increased efficiency, enhance",
+      "url": "https://www.cisa.gov/news-events/alerts/2025/12/03/cisa-australia-and-partners-author-joint-guidance-securely-integrating-artificial-intelligence",
+      "source": "CISA Cybersecurity Advisories",
+      "author": "CISA",
+      "published": "2025-12-03T12:00:00+00:00",
+      "niche": "security",
+      "score": 50,
+      "keywords": [
+        "security",
+        "secure",
+        "cybersecurity"
+      ]
+    },
+    {
+      "id": "2fe65994d231e419",
+      "title": "[webapps] phpMyFAQ 2.9.8 - Cross-Site Request Forgery(CSRF)",
+      "description": "phpMyFAQ 2.9.8 - Cross-Site Request Forgery(CSRF)",
+      "url": "https://www.exploit-db.com/exploits/52459",
+      "source": "Exploit Database",
+      "author": "Inconnu",
+      "published": "2025-12-03T00:00:00+00:00",
+      "niche": "security",
+      "score": 50,
+      "keywords": [
+        "CSRF"
+      ]
+    },
+    {
+      "id": "3fd1b4e83f572d37",
+      "title": "[webapps] phpMyFAQ 2.9.8 - Cross-Site Request Forgery (CSRF)",
+      "description": "phpMyFAQ 2.9.8 - Cross-Site Request Forgery (CSRF)",
+      "url": "https://www.exploit-db.com/exploits/52458",
+      "source": "Exploit Database",
+      "author": "Inconnu",
+      "published": "2025-12-03T00:00:00+00:00",
+      "niche": "security",
+      "score": 50,
+      "keywords": [
+        "CSRF"
+      ]
+    },
+    {
+      "id": "f44ab1a97269659a",
+      "title": "[webapps] MaNGOSWebV4 4.0.6 - Reflected XSS",
+      "description": "MaNGOSWebV4 4.0.6 - Reflected XSS",
+      "url": "https://www.exploit-db.com/exploits/52457",
+      "source": "Exploit Database",
+      "author": "Inconnu",
+      "published": "2025-12-03T00:00:00+00:00",
+      "niche": "security",
+      "score": 50,
+      "keywords": [
+        "XSS"
+      ]
+    },
+    {
+      "id": "93f59c8670ba06ec",
+      "title": "[webapps] phpMyFaq 2.9.8 - Cross Site Request Forgery (CSRF)",
+      "description": "phpMyFaq 2.9.8 - Cross Site Request Forgery (CSRF)",
+      "url": "https://www.exploit-db.com/exploits/52455",
+      "source": "Exploit Database",
+      "author": "Inconnu",
+      "published": "2025-12-03T00:00:00+00:00",
+      "niche": "security",
+      "score": 50,
+      "keywords": [
+        "CSRF"
+      ]
+    },
+    {
       "id": "68c9b29f2c5427b6",
       "title": "[Dark Reading Virtual Event] Cybersecurity Outlook 2026",
       "description": "",
@@ -2797,6 +2821,21 @@
       ]
     },
     {
+      "id": "f2baf9cc7fca7ffd",
+      "title": "AI Bolsters Python Variant of Brazilian WhatsApp Attacks",
+      "description": "Water Saci has upgraded its self-propagating malware to compromise banks and cryptocurrency exchanges by targeting enterprise users of the popular chat app.",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/ai-python-variant-brazilian-whatsapp-attacks",
+      "source": "Dark Reading",
+      "author": "Elizabeth Montalbano, Contributing Writer",
+      "published": "2025-12-03T10:56:24+00:00",
+      "niche": "security",
+      "score": 48,
+      "keywords": [
+        "malware",
+        "attack"
+      ]
+    },
+    {
       "id": "e176602525f70707",
       "title": "From Chrome renderer code exec to kernel with MSG_OOB",
       "description": "Posted by Jann Horn, Google Project ZeroIntroduction In early June, I was reviewing a new Linux kernel feature when I learned about the MSG_OOB feature supported by stream-oriented UNIX domain sockets. I reviewed the implementation of MSG_OOB, and discovered a security bug (CVE-2025-38236) affecting Linux >=6.9. I reported the bug to Linux, and it got fixed. Interestingly, while the MSG_OOB feature is not used by Chrome, it was exposed in the Chrome renderer sandbox. (Since then, sending MSG_OOB",
@@ -2807,8 +2846,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "CVE-",
-        "security"
+        "security",
+        "CVE-"
       ]
     },
     {
@@ -2824,18 +2863,6 @@
       "keywords": [
         "RCE"
       ]
-    },
-    {
-      "id": "740ab1219c9eea00",
-      "title": "'Dark LLMs' Aid Petty Criminals, But Underwhelm Technically",
-      "description": "As in the wider world, AI is not quite living up to the hype in the cyber underground. But it's definitely helping low-level cybercriminals do competent work.",
-      "url": "https://www.darkreading.com/threat-intelligence/dark-llms-petty-criminals",
-      "source": "Dark Reading",
-      "author": "Nate Nelson, Contributing Writer",
-      "published": "2025-11-26T16:01:35+00:00",
-      "niche": "security",
-      "score": 46,
-      "keywords": []
     },
     {
       "id": "f8a00cbd5827dac6",
@@ -3123,20 +3150,6 @@
       ]
     },
     {
-      "id": "73ad54dbc80c82e2",
-      "title": "Signal propose enfin des sauvegardes chiffrées sur iOS",
-      "description": "Une grosse lacune de Signal sur iPhone c&rsquo;est qu&rsquo;il était impossible de sauvegarder proprement son historique de messages. Par exemple, si vous changiez de téléphone ou si vous deviez réinstaller l&rsquo;app, pouf, tout disparaissait. Hé bien maintenant c&rsquo;est terminé puisqu&rsquo;ils viennent de lancer les Secure Backups sur iOS avec la version 7.86. Techniquement, rien de magique, c&rsquo;est simplement une sauvegarde chiffrée de bout en bout de tous vos messages et médias, pro",
-      "url": "https://korben.info/signal-sauvegardes-chiffrees-ios-secure-backups.html",
-      "source": "Korben",
-      "author": "Korben",
-      "published": "2025-11-26T18:59:45+01:00",
-      "niche": "security",
-      "score": 43,
-      "keywords": [
-        "secure"
-      ]
-    },
-    {
       "id": "f7e0b4f62973331e",
       "title": "Festo Compact Vision System, Control Block, Controller, and Operator Unit products",
       "description": "View CSAF 1. EXECUTIVE SUMMARY CVSS v3 9.8 ATTENTION: Exploitable remotely/Low attack complexity Vendor: Festo Equipment: Compact Vision System, Control Block, Controller, and Operator Unit products Vulnerabilities: Exposure of Resource to Wrong Sphere, Initialization of a Resource with an Insecure Default 2. RISK EVALUATION Successful exploitation of these vulnerabilities could result in an attacker accessing devices without authentication or modifying configuration files. 3. TECHNICAL DETAILS ",
@@ -3164,23 +3177,11 @@
       "niche": "security",
       "score": 43,
       "keywords": [
-        "secure",
-        "OWASP",
         "security",
+        "OWASP",
+        "secure",
         "RCE"
       ]
-    },
-    {
-      "id": "ed99c6b007ac2643",
-      "title": "Chat Control - 3 ans de débats pour accoucher d'un truc qui ne sert à rien",
-      "description": "Vous vous souvenez de Chat Control ? Ce projet de règlement européen qui voulait scanner tous vos messages privés pour détecter des contenus pédocriminels ? J&rsquo;en avais parlé à l&rsquo;époque et je m&rsquo;étais bien énervé dessus. Hé bien après plus de 3 ans de négociations, de votes ratés, de blocages par l&rsquo;Allemagne , les Pays-Bas et l&rsquo;Autriche&hellip; le Conseil de l&rsquo;UE a enfin trouvé un accord. Et devinez quoi ? Bah c&rsquo;est du vent.",
-      "url": "https://korben.info/chat-control-europe-scanning-volontaire-gaspillage.html",
-      "source": "Korben",
-      "author": "Korben",
-      "published": "2025-11-26T18:44:29+01:00",
-      "niche": "security",
-      "score": 42,
-      "keywords": []
     },
     {
       "id": "b7afe442b9098117",
@@ -3787,6 +3788,18 @@
       "keywords": []
     },
     {
+      "id": "93eb42d60f5dafb8",
+      "title": "FBI warns of surge in account takeover (ATO) fraud schemes – what you need to know",
+      "description": "The FBI has recently issued a public service announcement that warns that since January 2025 there have been more than 5,100 complaints of account takeover fraud, and total reported losses in excess of US $262 million. Read more in my article on the Fortra blog.",
+      "url": "https://www.fortra.com/blog/fbi-warns-surge-account-takeover-ato-fraud-schemes-need-know",
+      "source": "Graham Cluley",
+      "author": "Graham Cluley",
+      "published": "2025-12-03T15:38:17+00:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": []
+    },
+    {
       "id": "4e58886109d011c0",
       "title": "SiRcom SMART Alert (SiSA)",
       "description": "View CSAF 1. EXECUTIVE SUMMARY CVSS v4 8.8 ATTENTION: Exploitable remotely/low attack complexity Vendor: SiRcom Equipment: SMART Alert (SiSA) Vulnerability: Missing Authentication for Critical Function 2. RISK EVALUATION Successful exploitation of this vulnerability could enable an attacker to remotely activate or manipulate emergency sirens. 3. TECHNICAL DETAILS 3.1 AFFECTED PRODUCTS The following versions of SiRcom SMART Alert (SiSA), a central control system, are affected: SMART Alert (SiSA):",
@@ -3797,8 +3810,8 @@
       "niche": "security",
       "score": 42,
       "keywords": [
-        "exploit",
         "vulnerability",
+        "exploit",
         "attack"
       ]
     },
@@ -3813,8 +3826,8 @@
       "niche": "security",
       "score": 42,
       "keywords": [
-        "OWASP",
         "security",
+        "OWASP",
         "RCE"
       ]
     },
@@ -3940,10 +3953,10 @@
       "niche": "security",
       "score": 37,
       "keywords": [
-        "web application security",
-        "OWASP",
         "security",
-        "threat"
+        "threat",
+        "web application security",
+        "OWASP"
       ]
     },
     {
@@ -3985,10 +3998,10 @@
       "niche": "security",
       "score": 34,
       "keywords": [
-        "OWASP",
         "security",
         "threat",
-        "cybersecurity"
+        "cybersecurity",
+        "OWASP"
       ]
     },
     {
@@ -4030,9 +4043,9 @@
       "niche": "security",
       "score": 31,
       "keywords": [
+        "security",
         "secure",
-        "OWASP",
-        "security"
+        "OWASP"
       ]
     },
     {
@@ -4090,8 +4103,8 @@
       "niche": "security",
       "score": 30,
       "keywords": [
-        "exploit",
-        "security"
+        "security",
+        "exploit"
       ]
     },
     {
@@ -4105,8 +4118,8 @@
       "niche": "security",
       "score": 30,
       "keywords": [
-        "OWASP",
-        "security"
+        "security",
+        "OWASP"
       ]
     },
     {
@@ -4122,8 +4135,8 @@
       "keywords": [
         "security",
         "ransomware",
-        "cybersecurity",
-        "attack"
+        "attack",
+        "cybersecurity"
       ]
     },
     {
@@ -4140,22 +4153,6 @@
         "security",
         "ransomware",
         "attack"
-      ]
-    },
-    {
-      "id": "75c5181ea8381884",
-      "title": "Smashing Security podcast #444: We’re sorry. Wait, did a company actually say that?",
-      "description": "Stop the press - a company has actually said \"sorry\" after a data breach, and hotels are helping hackers phish their own guests. We examine a refreshingly honest breach response (and why legacy systems are still going to ruin your week), dig into a nasty hotel-booking malware campaign that abuses trust in apps and CAPTCHAs, and chat about autonomous pen testing, AI-turbocharged cybercrime, and what CISOs should really be asking on Monday morning. And lost Doctor Who is brought back to life by on",
-      "url": "https://grahamcluley.com/smashing-security-podcast-444/",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2025-11-20T09:29:54+00:00",
-      "niche": "security",
-      "score": 28,
-      "keywords": [
-        "malware",
-        "security",
-        "breach"
       ]
     },
     {
@@ -4211,8 +4208,8 @@
       "niche": "security",
       "score": 26,
       "keywords": [
-        "SQL injection",
-        "injection"
+        "injection",
+        "SQL injection"
       ]
     },
     {
@@ -4382,8 +4379,8 @@
       "niche": "security",
       "score": 21,
       "keywords": [
-        "penetration test",
-        "security"
+        "security",
+        "penetration test"
       ]
     },
     {
@@ -4447,6 +4444,20 @@
       ]
     },
     {
+      "id": "f3d74341ccf7906d",
+      "title": "Meet Rey, the Admin of ‘Scattered Lapsus$ Hunters’",
+      "description": "A prolific cybercriminal group that calls itself \"Scattered LAPSUS$ Hunters\" made headlines regularly this year by stealing data from and publicly mass extorting dozens of major corporations. But the tables seem to have turned somewhat for \"Rey,\" the moniker chosen by the technical operator and public face of the hacker group: Earlier this week, Rey confirmed his real life identity and agreed to an interview after KrebsOnSecurity tracked him down and contacted his father.",
+      "url": "https://krebsonsecurity.com/2025/11/meet-rey-the-admin-of-scattered-lapsus-hunters/",
+      "source": "Krebs on Security",
+      "author": "BrianKrebs",
+      "published": "2025-11-26T17:22:36+00:00",
+      "niche": "security",
+      "score": 18,
+      "keywords": [
+        "security"
+      ]
+    },
+    {
       "id": "445277d771ab5d5f",
       "title": "Cloudflare Scrubs Aisuru Botnet from Top Domains List",
       "description": "For the past week, domains associated with the massive Aisuru botnet have repeatedly usurped Amazon, Apple, Google and Microsoft in Cloudflare's public ranking of the most frequently requested websites. Cloudflare responded by redacting Aisuru domain names from their top websites list. The chief executive at Cloudflare says Aisuru's overlords are using the botnet to boost their malicious domain rankings, while simultaneously attacking the company's domain name system (DNS) service.",
@@ -4499,8 +4510,8 @@
       "niche": "security",
       "score": 18,
       "keywords": [
-        "malware",
-        "security"
+        "security",
+        "malware"
       ]
     },
     {
@@ -4514,8 +4525,8 @@
       "niche": "security",
       "score": 18,
       "keywords": [
-        "bug bounty",
-        "security"
+        "security",
+        "bug bounty"
       ]
     },
     {
