@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-02T21:25:24.527687+00:00",
-  "total_articles": 987,
+  "last_updated": "2025-12-03T01:58:07.312725+00:00",
+  "total_articles": 981,
   "articles": [
     {
       "id": "c609831d7def551c",
@@ -352,20 +352,6 @@
       ]
     },
     {
-      "id": "9d0da3282752a7a5",
-      "title": "shadcn-components-blocks: 100+ UI Components for React/Next.js",
-      "description": "shadcn-components-blocks adds over 100 production-ready components to your shadcn/ui projects. Key features: ✅ Install directly through shadcn CLI ✅ Professional design quality without AI generation ✅ Full TypeScript support included ✅ Complete sections like hero blocks and pricing tables ✅ Works with your existing Tailwind config ✅ Modify source code after installation Check the documentation site to browse the full catalog and grab the installation commands for components and blocks you need. ",
-      "url": "https://dev.to/jqueryscript/shadcn-components-blocks-100-ui-components-for-reactnextjs-41o7",
-      "source": "Dev.to",
-      "author": "jQueryScript",
-      "published": "2025-11-26T01:39:28+00:00",
-      "niche": "dev",
-      "score": 69,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
       "id": "acddee021fa6c387",
       "title": "Nested Checkox - React Interview",
       "description": "// App.js (React, CodeSandbox-ready) // Nested checkboxes with parent/child sync and indeterminate states. import React from \"react\"; // ----- Sample tree data ----- const tree = { id: \"a\", label: \"A\", children: [ { id: \"a1\", label: \"A1\" }, { id: \"a2\", label: \"A2\", children: [ { id: \"a21\", label: \"A2.1\" }, { id: \"a22\", label: \"A2.2\" }, ], }, ], }; // ----- Utilities ----- function visit(node, fn) { fn(node); node.children?.forEach((c) => visit(c, fn)); } function initState(root) { const s = {}; ",
@@ -650,18 +636,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "c944fbc800495d84",
-      "title": "Reinventing how .NET builds and ships (again)",
-      "description": "Comments",
-      "url": "https://devblogs.microsoft.com/dotnet/reinventing-how-dotnet-builds-and-ships-again/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-25T22:37:48+00:00",
-      "niche": "dev",
-      "score": 62,
-      "keywords": []
     },
     {
       "id": "eae011fe1d50348f",
@@ -2209,20 +2183,6 @@
       ]
     },
     {
-      "id": "70b0e655f010a229",
-      "title": "createElementNS、setAttribute()、SVG 的 viewBox 属性、``",
-      "description": "createElementNS document.createElementNS(namespaceURL, tagName) namespaceURL（命名空间 URL） 这是一个固定的字符串，用来告诉浏览器这个标签属于哪个规范。 SVG 固定用： 'http://www.w3.org/2000/svg' MathML 用： 'http://www.w3.org/1998/Math/MathML' tagName（元素名称） 也就是你要创建的标签名称，例如： 'svg' 'circle' 'rect' 'path' 示例：在 SVG 命名空间里创建一个 <svg> 标签 document.createElementNS('http://www.w3.org/2000/svg', 'svg'); setAttribute() setAttribute(name, value) 是 DOM API，用于： 给元素添加 / 修改 HTML 或 SVG 的属性（attribute） 它可以操作任何标签上的属性，包括： HTML 属性 SVG 属性 自定义属性（data-*） 布尔属性（dis",
-      "url": "https://dev.to/nikimunger/createelementns-setattribute-svg-de-viewbox-shu-xing--cbg",
-      "source": "Dev.to",
-      "author": "NikiMunger",
-      "published": "2025-11-26T01:25:23+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "API"
-      ]
-    },
-    {
       "id": "1a4dca9a02cda552",
       "title": "Anon: The Adaptive Optimizer Bridging SGD and Adam for Peak AI Performance",
       "description": "Anon: The Adaptive Optimizer Bridging SGD and Adam for Peak AI Performance Tired of wrestling with finicky optimizers that either converge slowly or fail to generalize? Imagine an AI training process so streamlined that peak accuracy is achievable with minimal hyperparameter tweaking. What if we could have the best of both worlds: the robust convergence of Stochastic Gradient Descent (SGD) and the lightning-fast training speed of adaptive methods like Adam? The key lies in tunable adaptivity. An",
@@ -3225,6 +3185,48 @@
       ]
     },
     {
+      "id": "477b177655e81c91",
+      "title": "Agentic CI with Buildkite: Three practical examples",
+      "description": "If you read our previous post about how AI is reshaping CI, then you're aware of the new building blocks we recently added to the Buildkite platform. We're calling these building blocks our agentic workflow components — composable primitives designed to give platform teams the tools they need to bring AI-assisted processes into their CI/CD workflows. In this post, we'll show you how to use those components, with three simple-but-practical examples that use AI agents to solve common real-world pr",
+      "url": "https://dev.to/cnunciato/agentic-ci-with-buildkite-three-practical-examples-12bk",
+      "source": "Dev.to",
+      "author": "Christian Nunciato",
+      "published": "2025-12-03T01:45:09+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "API"
+      ]
+    },
+    {
+      "id": "bf1f81949156ceb0",
+      "title": "How to Avoid Route 53 $0.50 / Month Charge per Hosting Zone using Free CloudFront Distribution",
+      "description": "AWS Route 53 charges US$0.50 per hosted zone per month. Even when we otherwise use AWS services sparingly - Route 53 charges a fixed amount This can quickly add up if you have multiple domains – especially when using different AWS accounts for dev, uat and prod; which each will need their own hosted zone. Thankfully AWS has recently release flat-rate pricing for CloudFront distributions, and one of the included services for the free-tier plan is a Route 53 hosted zone 🥳 Using CloudFront distribu",
+      "url": "https://dev.to/mxro/how-to-avoid-route-53-050-month-charge-per-hosting-zone-using-free-cloudfront-distribution-319k",
+      "source": "Dev.to",
+      "author": "Max Rohde",
+      "published": "2025-12-03T01:42:11+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "release"
+      ]
+    },
+    {
+      "id": "4b662ad43e3959aa",
+      "title": "I built a waitlist tool with viral mechanics",
+      "description": "I built a waitlist tool with viral mechanics (because I was tired of paying $79/mo for basic features) Background: I'm an indie hacker who's launched a few products. Every time I needed a waitlist, the tools were either: Expensive ($79-199/mo) Missing features (no API, no webhooks) Cluttered with features I didn't need So I built ReferralLoop. What makes it different: Actual viral mechanics - People move UP in line by referring friends. Not just \"share to get updates\" - actual position movement.",
+      "url": "https://dev.to/soyzamudio/i-built-a-waitlist-tool-with-viral-mechanics-7o4",
+      "source": "Dev.to",
+      "author": "Jose Zamudio",
+      "published": "2025-12-03T01:40:14+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "API"
+      ]
+    },
+    {
       "id": "2f6d58d8b2934ab5",
       "title": "A Complete Guide to MariaDB: Architecture, Features, Installation, and Best Practices",
       "description": "MariaDB is one of the most popular open-source relational database management systems (RDBMS). It began as a community-driven fork of MySQL and has since evolved into a powerful, enterprise-ready database engine used by companies like Google, Wikipedia, Red Hat, and many more. If you are a developer, DevOps engineer, database administrator, or simply someone who wants to understand modern database systems, this article will guide you through everything you need to know about MariaDB — its histor",
@@ -3598,6 +3600,21 @@
         "code",
         "programming",
         "API"
+      ]
+    },
+    {
+      "id": "02936513b3683a4b",
+      "title": "Mastering Jenkins: From Pipeline Rookie to DevOps Hero 🎭",
+      "description": "Introduction Welcome to the world before proper CI/CD pipelines - a dark place where developers manually deployed code like digital cowboys, hoping their changes wouldn't explode in users' faces. Enter Jenkins - your new digital butler who's equal parts genius and chaos agent. Originally called \"Hudson\" (until Oracle's lawyers crashed the party), Jenkins has been automating developers' lives since 2011. Fun fact: Jenkins' mascot is literally a butler named \"Jenkins\" - because apparently, tech fo",
+      "url": "https://dev.to/tavernetech/mastering-jenkins-from-pipeline-rookie-to-devops-hero-3eof",
+      "source": "Dev.to",
+      "author": "Taverne Tech",
+      "published": "2025-12-03T01:43:51+00:00",
+      "niche": "dev",
+      "score": 52,
+      "keywords": [
+        "code",
+        "developer"
       ]
     },
     {
@@ -5115,88 +5132,18 @@
       ]
     },
     {
-      "id": "dddcb5650610585a",
-      "title": "Open-source Chinese-style reporting engine using Excel as the designer: NopReport",
-      "description": "Chinese-style reports are synonymous with complex-structure reports. They broadly refer to summary reports commonly found in domestic information systems, presenting multi-source data in the form of row-column cross-tabulation, multi-level headers, and free cell splitting/merging. Why is there the notion of \"Chinese-style reports\" The founder of Raqsoft Report, Bu-xing Jiang, is a legendary figure inscribed in Chinese history (the first Chinese gold medalist in the International Mathematical Oly",
-      "url": "https://dev.to/canonical/open-source-chinese-style-reporting-engine-using-excel-as-the-designer-nopreport-2j20",
+      "id": "5f56b2e79430de6e",
+      "title": "Understanding Backend Architecture: A Complete Guide to Request Lifecycle",
+      "description": "When building scalable and maintainable backend applications, proper architecture isn't just a nice-to-have—it's essential. In this article, we'll dive deep into the journey of an HTTP request through a well-structured backend system, exploring each layer's responsibility and how they work together. Why Separate Concerns? Before we jump into the request lifecycle, let's understand why we organize code into different layers: Maintainability: Each layer has a single responsibility, making bugs eas",
+      "url": "https://dev.to/yuktisays/understanding-backend-architecture-a-complete-guide-to-request-lifecycle-55gp",
       "source": "Dev.to",
-      "author": "canonical",
-      "published": "2025-11-26T01:39:36+00:00",
+      "author": "Yukti Sahu",
+      "published": "2025-12-03T01:34:52+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "1e467154c86594a7",
-      "title": "The 2025 Tech Layoff Cycle Isn’t the Real Threat, It’s What Comes After",
-      "description": "Title: The 2025 Tech Layoff Cycle Isn’t the Real Threat — It’s What Comes After Everyone keeps staring at layoff numbers, but that’s not what’s putting devs out of work. The real danger is simpler: hiring managers no longer believe most candidates can produce value without supervision. That single assumption is wiping out entire tiers of applicants overnight. This is why rejection feels instantaneous now. Recruiters aren’t hunting for promise. They’re hunting for proof you won’t drain time, cont",
-      "url": "https://dev.to/brandonkylebailey/the-2025-tech-layoff-cycle-isnt-the-real-threat-its-what-comes-after-4cf7",
-      "source": "Dev.to",
-      "author": "Brandon",
-      "published": "2025-11-26T01:31:54+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "2522b47f85d71a5c",
-      "title": "DevConnect 2025",
-      "description": "DevConnect is Ethereum’s annual week of deep-dive community events. in 2025, it took place in Buenos Aires - the region where crypto actually runs day-to-day finance. I’ve broken it down to the structural takeaways, so you can see where ETHereum is heading now: privacy returns to the core newly presented Kohaku (modular tooling for privacy-preserving wallets), and Tor/onion services show that Ethereum is reinforcing privacy at the protocol edge, treating user protection as priority infrastructur",
-      "url": "https://dev.to/kubo_sk/devconnect-2025-l5b",
-      "source": "Dev.to",
-      "author": "KUBO",
-      "published": "2025-11-26T01:11:39+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "3927771b457ac163",
-      "title": "El conocimiento lingüístico en NLP: el puente entre la sintaxis y la semántica",
-      "description": "La inteligencia artificial moderna ha avanzado enormemente en el procesamiento de lenguaje natural (NLP), pero sigue enfrentándose a una pregunta esencial: ¿entienden las máquinas el lenguaje o simplemente lo imitan? Aquí entra en juego el conocimiento lingüístico, el conjunto de reglas, estructuras y significados que los humanos utilizamos para comunicarnos de manera coherente. Durante décadas, el NLP se apoyó en la lingüística tradicional. Los sistemas estaban construidos sobre gramáticas, par",
-      "url": "https://dev.to/vicodev/el-conocimiento-linguistico-en-nlp-el-puente-entre-la-sintaxis-y-la-semantica-2m8a",
-      "source": "Dev.to",
-      "author": "Victor Olvera Thome (Vico)",
-      "published": "2025-11-26T01:10:49+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "ce5843b0308ef786",
-      "title": "Linguistic Knowledge in NLP: bridging syntax and semantics",
-      "description": "Modern artificial intelligence has made tremendous progress in natural language processing (NLP), yet it still faces a profound question: do machines truly understand language, or are they simply mimicking it? This is where linguistic knowledge comes into play — the set of rules, structures, and meanings humans use to communicate coherently. For decades, NLP was grounded in traditional linguistics. Early systems relied on grammars, parsers, and syntactic rules, reflecting a structured understand",
-      "url": "https://dev.to/vicodev/linguistic-knowledge-in-nlp-bridging-syntax-and-semantics-11a7",
-      "source": "Dev.to",
-      "author": "Victor Olvera Thome (Vico)",
-      "published": "2025-11-26T01:10:19+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "d8fe18753cc021b5",
-      "title": "Fedora 43 Post-Install Guide: 10 Essential Things to Do After Installing",
-      "description": "Unlock the full potential of your new Fedora Workstation with these essential optimization steps, tested directly on our engineering lab hardware. Congratulations on installing Fedora 43! You are now running one of the most advanced Linux operating systems available in late 2025. With the full transition to DNF5 as the default package manager and the polished GNOME 49 desktop environment, the experience is faster and smoother than ever. However, Fedora adheres strictly to open-source principles,",
-      "url": "https://dev.to/alldaylinux/fedora-43-post-install-guide-10-essential-things-to-do-after-installing-2m15",
-      "source": "Dev.to",
-      "author": "Linuxallday",
-      "published": "2025-11-26T01:05:43+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "a02b15acaebc6aa0",
-      "title": "Surgical Precision with AI: A New Era in Lung Cancer Staging",
-      "description": "Surgical Precision with AI: A New Era in Lung Cancer Staging Imagine the anxiety of waiting for a lung cancer diagnosis, compounded by the uncertainty of accurate staging. Misdiagnosis can lead to inappropriate treatment, impacting patient outcomes and quality of life. But what if AI could provide a more precise, transparent, and reliable staging process? We're entering a new era where AI doesn't just classify images; it understands anatomy. The core concept is a hybrid approach: using deep lear",
-      "url": "https://dev.to/arvind_sundararajan/surgical-precision-with-ai-a-new-era-in-lung-cancer-staging-a26",
-      "source": "Dev.to",
-      "author": "Arvind SundaraRajan",
-      "published": "2025-11-26T01:02:06+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "737d78534d23e940",
@@ -8043,18 +7990,52 @@
       "keywords": []
     },
     {
-      "id": "ecb1a9d939c2569c",
-      "title": "The developers who win the AI era will not be the ones who chase hype. And if we don’t talk about it, more developers will burn out, stall their careers, or build the wrong things.",
-      "description": "The Hidden Cost of AI Hype in Developer Communities Jaideep Parashar ・ Nov 26 #webdev #ai #devops #developer",
-      "url": "https://dev.to/jaideepparashar/the-developers-who-win-the-ai-era-will-not-be-the-ones-who-chase-hype-and-if-we-dont-talk-56kl",
+      "id": "24a722d1d6c2fcc6",
+      "title": "Advent of Agents - Day 2",
+      "description": "4 lines of text = 1 working AI agent. No coding. Just YAML. A working AI agent powered by Gemini 3 Google Search integration uvx --from google-adk adk create --type=config my_agent uvx --from google-adk adk web",
+      "url": "https://dev.to/liberifatali/advent-of-agents-day-2-4mnp",
       "source": "Dev.to",
-      "author": "Jaideep Parashar",
-      "published": "2025-11-26T01:02:57+00:00",
+      "author": "Cless",
+      "published": "2025-12-03T01:35:35+00:00",
       "niche": "dev",
-      "score": 48,
-      "keywords": [
-        "developer"
-      ]
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "3a9569aba2d3ec60",
+      "title": "Case Study: Training AI to Deliver Precision Prevention in Natural Healthcare",
+      "description": "Most AI-in-healthcare conversations orbit diagnosis, triage, or billing automation. But the real moonshot is upstream: using AI to help people avoid disease in the first place. This case study explores how an Ayurveda-inspired system was trained to act as a compliance engine — helping users follow personalized, diet-anchored preventive routines drawn from a 5,000-year-old knowledge base. The Challenge: Turning Ancient Rules Into Machine-Readable Logic Ayurvedic nutrition isn’t just “eat healthy.",
+      "url": "https://dev.to/amit_gupta/case-study-training-ai-to-deliver-precision-prevention-in-natural-healthcare-1p5j",
+      "source": "Dev.to",
+      "author": "Amit Gupta",
+      "published": "2025-12-03T01:30:13+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "01d60fae22b25274",
+      "title": "Day 1277 : Never Before",
+      "description": "liner notes: Professional : Had a pretty good day. I responded to some community questions. Met with some folks about the next steps for a project I've been building a workflow. I got a request for some samples to be built with what I've been working on. Spent the rest of the day creating a plan on how I can make it work in the best way. Personal : Getting really close to getting these dashboard applications launched. Going to keep working on these dashboards. I've gotten the admin dashboard's m",
+      "url": "https://dev.to/dwane/day-1277-never-before-9bp",
+      "source": "Dev.to",
+      "author": "HIPHOP and CODE",
+      "published": "2025-12-03T01:29:22+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "10fbe51f0e406028",
+      "title": "Unlocking Time's Secrets: Temporal Pattern Recognition for System Anomaly Detection by Arvind Sundararajan",
+      "description": "Unlocking Time's Secrets: Temporal Pattern Recognition for System Anomaly Detection Imagine your servers are chirping like crickets, each chirp a system event. How do you tell a normal chorus from a sign of impending doom buried within a symphony of events happening at different times and durations? Standard time-series analysis often overlooks the critical when and how long of state changes. The key is understanding the interplay between event sequence and the time spent in each state. We've be",
+      "url": "https://dev.to/arvind_sundararajan/unlocking-times-secrets-temporal-pattern-recognition-for-system-anomaly-detection-by-arvind-4a5h",
+      "source": "Dev.to",
+      "author": "Arvind SundaraRajan",
+      "published": "2025-12-03T01:02:05+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
     },
     {
       "id": "c36b58fb0adeacea",
@@ -8283,20 +8264,6 @@
       "keywords": []
     },
     {
-      "id": "238ed168a610bb8e",
-      "title": "LLVM Adds Constant-Time Support for Protecting Cryptographic Code",
-      "description": "Comments",
-      "url": "https://blog.trailofbits.com/2025/11/25/constant-time-support-lands-in-llvm-protecting-cryptographic-code-at-the-compiler-level/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-25T23:26:38+00:00",
-      "niche": "dev",
-      "score": 45,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
       "id": "ff2f2edffdea46fc",
       "title": "C100 Developer Terminal",
       "description": "Comments",
@@ -8437,42 +8404,6 @@
       ]
     },
     {
-      "id": "7045768b902d5be1",
-      "title": "What They Don't Tell You About Maintaining an Open Source Project",
-      "description": "Comments",
-      "url": "https://andrej.sh/blog/maintaining-open-source-project/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-25T22:08:25+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "fa9faad1776fed00",
-      "title": "A DOOM vector engine for rendering in KiCad, and over an audio jack",
-      "description": "Comments",
-      "url": "https://www.mikeayles.com/#kidoom",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-25T22:13:35+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "5962049145c74fc0",
-      "title": "Show HN: KiDoom – Running DOOM on PCB Traces",
-      "description": "Comments",
-      "url": "https://www.mikeayles.com/#kidoom",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-25T22:13:35+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
       "id": "fcbbcebfa9d808ec",
       "title": "Space Truckin' – The Nostromo (2012)",
       "description": "Comments",
@@ -8492,18 +8423,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-11-26T02:05:36+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "cb602d2bf46cd63f",
-      "title": "BebboSSH: SSH2 implementation for Amiga systems (68000, GPLv3)",
-      "description": "Comments",
-      "url": "https://franke.ms/git/bebbo/bebbossh",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-26T01:51:26+00:00",
       "niche": "dev",
       "score": 44,
       "keywords": []
@@ -10397,6 +10316,42 @@
       "keywords": []
     },
     {
+      "id": "f74ddeb02efc1c99",
+      "title": "Funmilola shoroye",
+      "description": "Check out this Pen I made!",
+      "url": "https://dev.to/shoroye_funmilola_/funmilola-shoroye-364i",
+      "source": "Dev.to",
+      "author": "Shoroye Funmilola",
+      "published": "2025-12-03T01:02:47+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "38788ce0520ee84a",
+      "title": "DOOM could have had PC Speaker Music",
+      "description": "Comments",
+      "url": "https://lenowo.org/viewtopic.php?t=45",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-02T23:19:07+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "92a0db71299636aa",
+      "title": "Free static site generator for small restaurants and cafes",
+      "description": "Comments",
+      "url": "https://lite.localcafe.org/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-02T20:08:55+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "78c4b08725d5f56b",
       "title": "React 19 Upgrade Guide",
       "description": "The improvements added to React 19 require some breaking changes, but we've worked to make the upgrade as smooth as possible and we don't expect the changes to impact most apps. In this post, we will guide you through the steps for upgrading apps and libraries to React 19.",
@@ -10471,8 +10426,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "performance",
-        "React 19"
+        "React 19",
+        "performance"
       ]
     },
     {
@@ -10562,23 +10517,11 @@
       "niche": "dev",
       "score": 39,
       "keywords": [
+        "best practices",
         "developer",
         "development",
-        "best practices",
         "performance"
       ]
-    },
-    {
-      "id": "f52beee59e35d4f0",
-      "title": "CS234: Reinforcement Learning Winter 2025",
-      "description": "Comments",
-      "url": "https://web.stanford.edu/class/cs234/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-26T00:33:29+00:00",
-      "niche": "dev",
-      "score": 38,
-      "keywords": []
     },
     {
       "id": "116d7e8971bb2553",
@@ -10725,6 +10668,18 @@
       "keywords": []
     },
     {
+      "id": "f73f11ccfc83bb03",
+      "title": "IBM CEO says there is 'no way' spending on AI data centers will pay off",
+      "description": "Comments",
+      "url": "https://www.businessinsider.com/ibm-ceo-big-tech-ai-capex-data-center-spending-2025-12",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-02T18:10:23+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
       "id": "4e6d7290f5ff11d8",
       "title": "React Native 0.80 - React 19.1, JS API Changes, Freezing Legacy Arch and much more",
       "description": "Today we are excited to release React Native 0.80!",
@@ -10735,9 +10690,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
+        "React 19",
         "API",
-        "release",
-        "React 19"
+        "release"
       ]
     },
     {
@@ -10751,8 +10706,8 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "developer",
         "best practices",
+        "developer",
         "performance"
       ]
     },
@@ -10779,8 +10734,8 @@
       "niche": "dev",
       "score": 37,
       "keywords": [
-        "developer",
-        "library"
+        "library",
+        "developer"
       ]
     },
     {
@@ -10867,8 +10822,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10992,10 +10947,10 @@
       "score": 30,
       "keywords": [
         "release",
-        "API",
         "code",
         "performance",
-        "framework"
+        "framework",
+        "API"
       ]
     },
     {
@@ -11045,10 +11000,10 @@
       "niche": "dev",
       "score": 28,
       "keywords": [
-        "release",
-        "framework",
         "Angular",
-        "library"
+        "library",
+        "framework",
+        "release"
       ]
     },
     {
@@ -11214,6 +11169,18 @@
       "keywords": []
     },
     {
+      "id": "e0e92d2c792f4777",
+      "title": "Qwen3-VL can scan two-hour videos and pinpoint nearly every detail",
+      "description": "Comments",
+      "url": "https://the-decoder.com/qwen3-vl-can-scan-two-hour-videos-and-pinpoint-nearly-every-detail/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-30T07:27:25+00:00",
+      "niche": "dev",
+      "score": 26,
+      "keywords": []
+    },
+    {
       "id": "76fac1e29bad26dc",
       "title": "October 2025 Baseline monthly digest",
       "description": "Read about various happenings with Baseline during October 2025.",
@@ -11340,8 +11307,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "API"
+        "API",
+        "release"
       ]
     },
     {
@@ -11355,8 +11322,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "framework"
+        "framework",
+        "release"
       ]
     },
     {
@@ -11370,9 +11337,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "developer",
         "code",
-        "performance"
+        "performance",
+        "developer"
       ]
     },
     {
@@ -11543,8 +11510,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "developer",
-        "programming"
+        "programming",
+        "developer"
       ]
     },
     {
@@ -11558,8 +11525,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "developer",
-        "programming"
+        "programming",
+        "developer"
       ]
     },
     {
@@ -11754,30 +11721,6 @@
       "keywords": []
     },
     {
-      "id": "038f27c327d43b62",
-      "title": "Let go of StackOverflow; communities must take ownership",
-      "description": "Comments",
-      "url": "https://ahelwer.ca/post/2025-11-25-stackoverflow/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-25T21:46:21+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "fe6bbc0f7c6af4c2",
-      "title": "Show HN: Real-time system that tracks how news spreads across 200k websites",
-      "description": "Comments",
-      "url": "https://yandori.io/news-flow/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-26T01:27:16+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
       "id": "9b9b96779fafff66",
       "title": "RL is more information inefficient than you thought",
       "description": "Comments",
@@ -11809,30 +11752,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-11-26T19:26:43+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "f9bfb13f7f37a0f2",
-      "title": "Learning Music with Strudel",
-      "description": "Comments",
-      "url": "https://terryds.notion.site/Learning-Music-with-Strudel-2ac98431b24180deb890cc7de667ea92",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-26T00:09:19+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "ba71949f8a6938cd",
-      "title": "Learning music with Strudel",
-      "description": "Comments",
-      "url": "https://terryds.notion.site/Learning-Music-with-Strudel-2ac98431b24180deb890cc7de667ea92",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-26T00:09:19+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -12044,8 +11963,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "development",
-        "programming"
+        "programming",
+        "development"
       ]
     },
     {
@@ -12610,6 +12529,18 @@
       "published": "2025-09-26T00:00:00+00:00",
       "niche": "dev",
       "score": 9,
+      "keywords": []
+    },
+    {
+      "id": "ba71949f8a6938cd",
+      "title": "Learning music with Strudel",
+      "description": "Comments",
+      "url": "https://terryds.notion.site/Learning-Music-with-Strudel-2ac98431b24180deb890cc7de667ea92",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-26T00:09:19+00:00",
+      "niche": "dev",
+      "score": 8,
       "keywords": []
     },
     {
