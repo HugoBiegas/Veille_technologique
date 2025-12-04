@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-04T15:33:21.101985+00:00",
+  "last_updated": "2025-12-04T18:43:15.025969+00:00",
   "total_articles": 192,
   "articles": [
     {
@@ -60,6 +60,18 @@
       "published": "2025-12-04T00:00:00+00:00",
       "niche": "spring",
       "score": 62,
+      "keywords": []
+    },
+    {
+      "id": "d21ff50022a18f87",
+      "title": "A Bootiful Podcast: Dan Vega on the fundamentals of software engineering",
+      "description": "Hi, Spring fans! I'm so excited to chat with fellow Spring developer advocate Dan Vega about his new book, Fundamentals of Software Engineering",
+      "url": "https://spring.io/blog/2025/12/04/a-bootiful-podcast-dan-vega",
+      "source": "Spring Blog (Official)",
+      "author": "joshlong",
+      "published": "2025-12-04T00:00:00+00:00",
+      "niche": "spring",
+      "score": 58,
       "keywords": []
     },
     {
@@ -142,6 +154,18 @@
       "source": "Java Code Geeks",
       "author": "Yatin Batra",
       "published": "2025-12-04T07:58:00+00:00",
+      "niche": "spring",
+      "score": 57,
+      "keywords": []
+    },
+    {
+      "id": "26b7a1fad5ce689a",
+      "title": "Dealing with UnexpectedRollbackException in Spring",
+      "description": "In Spring applications, managing transactions properly is critical to maintaining data consistency and integrity. Sometimes, developers encounter the UnexpectedRollbackException, which often indicates that an inner transaction marked for rollback causes the outer transaction to fail unexpectedly. Let us delve into understanding the Unexpected Rollback Exception in Spring and how to effectively handle it. 1. Identifying &#8230;",
+      "url": "https://www.javacodegeeks.com/dealing-with-unexpectedrollbackexception-in-spring.html",
+      "source": "Java Code Geeks",
+      "author": "Yatin Batra",
+      "published": "2025-12-04T15:37:00+00:00",
       "niche": "spring",
       "score": 57,
       "keywords": []
@@ -252,42 +276,6 @@
       "published": "2025-11-28T19:54:00-08:00",
       "niche": "spring",
       "score": 45,
-      "keywords": []
-    },
-    {
-      "id": "eb4ee397d7780f63",
-      "title": "Automatic Modules: Bridging Legacy and Modular Java",
-      "description": "When Java 9 introduced the Java Platform Module System (JPMS) in 2017, it created an immediate problem. Millions of existing JAR files had no module descriptors. Organizations couldn&#8217;t simply abandon their dependencies overnight, yet they wanted to embrace the new module system&#8217;s benefits. The solution was automatic modules, a transitional mechanism that lets non-modular JARs &#8230;",
-      "url": "https://www.javacodegeeks.com/2025/11/automatic-modules-bridging-legacy-and-modular-java-2.html",
-      "source": "Java Code Geeks",
-      "author": "Eleftheria Drosopoulou",
-      "published": "2025-11-27T16:26:00+00:00",
-      "niche": "spring",
-      "score": 42,
-      "keywords": []
-    },
-    {
-      "id": "b76be44a78707899",
-      "title": "Getting Started with BaseX",
-      "description": "BaseX is a high-performance, open-source XML database and XQuery processor designed for storing, querying, and managing structured data efficiently. It provides a lightweight engine, powerful indexing features, and a rich set of tools for working with XML. With its built-in GUI, command-line client, and REST API, BaseX makes it easy for us to explore data, &#8230;",
-      "url": "https://www.javacodegeeks.com/getting-started-with-basex.html",
-      "source": "Java Code Geeks",
-      "author": "Omozegie Aziegbe",
-      "published": "2025-11-27T16:23:00+00:00",
-      "niche": "spring",
-      "score": 42,
-      "keywords": []
-    },
-    {
-      "id": "e296b4f75498fca7",
-      "title": "Mastering Fluent Bit: Controlling Logs with Fluent Bit on Kubernetes (update to Part 4)",
-      "description": "NOTE: This is a special update to the original Controlling Logs with  Fluent Bit on Kubernetes (Part 4) article published previously. The issue requiring this update arose over the weekend when I discovered that Broadcom, who acquired VMWare, who were the custodians of the Bitnami catalog, did something not so nice to all of us.",
-      "url": "https://feeds.dzone.com/link/18931/17218280/mastering-fluent-bit-controlling-logs-with-fluent",
-      "source": "DZone Microservices",
-      "author": "Eric D. Schabell",
-      "published": "2025-11-27T18:00:00+00:00",
-      "niche": "spring",
-      "score": 42,
       "keywords": []
     },
     {
@@ -651,6 +639,18 @@
       "keywords": []
     },
     {
+      "id": "dcc3688f5d61e9c4",
+      "title": "The TypeScript Revolution: How JavaScript Borrowed Java’s Type Safety Philosophy",
+      "description": "In October 2012, Microsoft released TypeScript to the public after two years of internal development, introducing a superset of JavaScript that would fundamentally change how developers approach web application development. Anders Hejlsberg, lead architect of C# and creator of Delphi and Turbo Pascal, has worked on developing TypeScript, bringing decades of experience with statically typed &#8230;",
+      "url": "https://www.javacodegeeks.com/2025/12/the-typescript-revolution-how-javascript-borrowed-javas-type-safety-philosophy.html",
+      "source": "Java Code Geeks",
+      "author": "Eleftheria Drosopoulou",
+      "published": "2025-12-04T16:52:00+00:00",
+      "niche": "spring",
+      "score": 42,
+      "keywords": []
+    },
+    {
       "id": "b9332f398e0dd084",
       "title": "Help, My Java Object Vanished (and the GC is Not at Fault)",
       "description": "This post provides an insight into Project Valhalla development, while offering insights into the inner workings of HotSpot. It also pragmatically demonstrates how JVM flags can be used to help you, and shares some lessons learned when debugging HotSpot.",
@@ -886,18 +886,6 @@
       "source": "Inside.java (Oracle)",
       "author": "[\"XuemingShen\"]",
       "published": "2025-12-02T00:00:00+00:00",
-      "niche": "spring",
-      "score": 32,
-      "keywords": []
-    },
-    {
-      "id": "b15903cee2d5c847",
-      "title": "A Bootiful Podcast: Spring community legend and friend Simon Martinelli",
-      "description": "Hi, Spring fans! Happy Thanksgiving from me, and I am sure the entire Spring team, to you! We are, it should be clear, oh so very grateful.. thankful.. for you, the community. This week it is my great pleasure to chat with Spring community legend Simon Martinelli.",
-      "url": "https://spring.io/blog/2025/11/27/a-bootiful-podcast-simon-martinelli",
-      "source": "Spring Blog (Official)",
-      "author": "joshlong",
-      "published": "2025-11-27T00:00:00+00:00",
       "niche": "spring",
       "score": 32,
       "keywords": []
@@ -1786,6 +1774,18 @@
       "source": "InfoQ Java",
       "author": "Michael Redlich",
       "published": "2025-11-25T02:30:00+00:00",
+      "niche": "spring",
+      "score": 12,
+      "keywords": []
+    },
+    {
+      "id": "e296b4f75498fca7",
+      "title": "Mastering Fluent Bit: Controlling Logs with Fluent Bit on Kubernetes (update to Part 4)",
+      "description": "NOTE: This is a special update to the original Controlling Logs with  Fluent Bit on Kubernetes (Part 4) article published previously. The issue requiring this update arose over the weekend when I discovered that Broadcom, who acquired VMWare, who were the custodians of the Bitnami catalog, did something not so nice to all of us.",
+      "url": "https://feeds.dzone.com/link/18931/17218280/mastering-fluent-bit-controlling-logs-with-fluent",
+      "source": "DZone Microservices",
+      "author": "Eric D. Schabell",
+      "published": "2025-11-27T18:00:00+00:00",
       "niche": "spring",
       "score": 12,
       "keywords": []
