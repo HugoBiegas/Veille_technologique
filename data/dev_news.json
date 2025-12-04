@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-04T03:55:02.878713+00:00",
-  "total_articles": 973,
+  "last_updated": "2025-12-04T06:38:56.445575+00:00",
+  "total_articles": 970,
   "articles": [
     {
       "id": "c609831d7def551c",
@@ -972,6 +972,22 @@
       "niche": "dev",
       "score": 62,
       "keywords": []
+    },
+    {
+      "id": "4c31f1e9460bb126",
+      "title": "Quarkus 3 application on AWS Lambda- Part 9 Measuring Lambda cold and warm starts with GraalVM Native Image and REST API",
+      "description": "Introduction In the part 8 of this article series, we learned how to develop a pure Quarkus REST application and deploy it on AWS Lambda. We also measure the performance (cold and warm start time times) of Lambda function. In this article series, we'll convert this sample application from part 8 into the GraalVM Native image and deploy it as AWS Lambda Custom Runtime and measure its performance. Quarkus 3 sample REST API application on AWS Lambda with GraalVM Native Image In the part 5 of this a",
+      "url": "https://dev.to/vkazulkin/quarkus-3-application-on-aws-lambda-part-9-measuring-lambda-cold-and-warm-starts-with-graalvm-8d3",
+      "source": "Dev.to",
+      "author": "Vadym Kazulkin",
+      "published": "2025-12-04T06:21:22+00:00",
+      "niche": "dev",
+      "score": 61,
+      "keywords": [
+        "performance",
+        "API",
+        "REST API"
+      ]
     },
     {
       "id": "eb881c08bd0c86f8",
@@ -2115,45 +2131,18 @@
       ]
     },
     {
-      "id": "b19488ce2f7d95e9",
-      "title": "The Shopify products.json Trick: Scrape Any Store 25x Faster with Python",
-      "description": "If you’ve ever done any web scraping, you know how annoying it is to parse HTML: finding parents of elements, navigating through a web of xml tags, hoping CSS selectors don’t change over time and break everything. However, on Shopify - one of the largest and most useful repositories of product data - contains a trick that allows us to bypass this process entirely, leaving us with beautiful JSON right out the gate. I recently built Sillage, a fragrance drop tracker that scrapes dozens of Shopify ",
-      "url": "https://dev.to/dentedlogic/the-shopify-productsjson-trick-scrape-any-store-25x-faster-with-python-4p95",
+      "id": "0263d5f664054502",
+      "title": "Part 3: Accelerating Calculations using GPU",
+      "description": "The success of the logistic regression gave me a confidence boost, but the program's performance felt like a punch to the gut. The naive matrix multiplication module was taking forever to complete even on a small dataset like (321 * 6). No programmer enjoys staring at the console for the program to finish its execution. I have a CUDA-enabled GPU sitting in my machine gathering dust. I had avoided configuring it for development for two years out of sheer laziness. But, to scale up I had to conque",
+      "url": "https://dev.to/palash90/building-a-ml-library-from-scratch-in-rust-part-3-accelerating-calculations-from-cpu-to-gpu-with-270d",
       "source": "Dev.to",
-      "author": "Ivan Korostenskij",
-      "published": "2025-11-27T06:14:44+00:00",
+      "author": "Palash Kanti Kundu",
+      "published": "2025-12-04T06:23:46+00:00",
       "niche": "dev",
-      "score": 54,
+      "score": 55,
       "keywords": [
-        "API"
-      ]
-    },
-    {
-      "id": "9b1b95584701535d",
-      "title": "Project-Based Learning With 3D Design and Printing: Transforming Classrooms Through Creative Making",
-      "description": "Project-Based Learning With 3D Design and Printing: Transforming Classrooms Through Creative Making Education has shifted from passive learning to active, hands-on engagement. Among the most transformative tools accelerating this shift is 3D design and printing, which brings abstract ideas to life and empowers students to become creators rather than mere consumers. When combined with Project-Based Learning, a framework where students gain knowledge and skills by working on meaningful, real-world",
-      "url": "https://dev.to/julia970/project-based-learning-with-3d-design-and-printing-transforming-classrooms-through-creative-making-51k5",
-      "source": "Dev.to",
-      "author": "Juliana Misiko",
-      "published": "2025-11-27T06:07:34+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "framework"
-      ]
-    },
-    {
-      "id": "2054611c67d30d15",
-      "title": "Gemini 3.0: Stop Arguing Models—Start Rewiring Work",
-      "description": "Everyone's talking about Google's Gemini 3.0, but the real opportunity isn't model vs model—it’s how UI understanding will reshape your daily work. Most teams will wait for the press release. The smart ones will run small pilots inside tools they already use. Here’s the play that actually works ↓ Debates about AI supremacy miss the point. What matters is time to value in real workflows. If an AI can read screens, understand buttons, and learn from short videos, you get stacked gains. Those gains",
-      "url": "https://dev.to/aiwithapex/gemini-30-stop-arguing-models-start-rewiring-work-5c71",
-      "source": "Dev.to",
-      "author": "Max aka Mosheh",
-      "published": "2025-11-27T06:04:49+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "release"
+        "performance",
+        "development"
       ]
     },
     {
@@ -3149,6 +3138,34 @@
       ]
     },
     {
+      "id": "a1aaca77742d5119",
+      "title": "I Built NimPacket, a Raw Packet Crafting Library in Nim, and It Turned Into One of My Best Cyber Projects",
+      "description": "For my cybersecurity masters work, I wanted to go deeper than running tools and reading packet captures. I wanted to understand what was happening inside the packets themselves. Instead of calling Scapy or hiding behind Python abstractions, I decided to build my own packet manipulation library from scratch in Nim. That became NimPacket, and it turned out to be one of the most useful and eye opening projects I have done. NimPacket gives full control of IPv4, TCP, UDP, and ICMP headers. Everything",
+      "url": "https://dev.to/0x57origin/i-built-nimpacket-a-raw-packet-crafting-library-in-nim-and-it-turned-into-one-of-my-best-cyber-1n0g",
+      "source": "Dev.to",
+      "author": "0x57Origin",
+      "published": "2025-12-04T06:17:12+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "library"
+      ]
+    },
+    {
+      "id": "2e5c3c976e76aed1",
+      "title": "Stop Wasting Time on Nitpicks: Automating PR Reviews",
+      "description": "We've all been there. You open a Pull Request, and it's 50 files deep. You spend the next hour commenting on indentation, variable naming, and missing docstrings. By the time you're done, you're exhausted. And that's exactly when the real bugs slip through. I'm talking about the silent performance killers. The O(n) operation inside a loop. The unconstrained file extraction that becomes a Zip Bomb. The full database reload triggered by a single user action. These aren't style issues. They are arc",
+      "url": "https://dev.to/allenz_1011/stop-wasting-time-on-nitpicks-automating-pr-reviews-4plp",
+      "source": "Dev.to",
+      "author": "allen_z",
+      "published": "2025-12-04T06:03:20+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "performance"
+      ]
+    },
+    {
       "id": "eb50f6a3b1d35e89",
       "title": "🧪 05AB1E — Tiny Language, Big Chaos",
       "description": "05AB1E 05AB1E is a code-golf programming language created around 2015 by Adnan. The goal of the language is to make programs as short as possible, even if the code looks strange or unreadable. It uses a stack-based execution model and many operations are represented by single Unicode characters. Language Type: Code Golf Difficulty: Hard Typing: Dynamic Execution Style: Stack-based / Implicit output Example (Hello World): \"Hello, World!\" This prints automatically because the language assumes outp",
@@ -3522,34 +3539,6 @@
       "score": 52,
       "keywords": [
         "code",
-        "development"
-      ]
-    },
-    {
-      "id": "fc3e607eae6a84c9",
-      "title": "🚀 Terraform Azure Infrastructure (Modular Architecture + DevSecOps)",
-      "description": "Code Structure . ├── azure-pipelines.yml # Azure DevOps CI/CD pipeline ├── main │ ├── main.tf # Module orchestration │ ├── provider.tf # Azure provider configuration │ ├── terraform.tfvars # Input variable values │ └── variable.tf # Module variables ├── modules │ ├── 01_resource_group # Resource Group creation │ ├── 02_storage_account # Storage Accounts │ ├── 03_storage_container # Storage Containers │ ├── 04-Public_IP # Public IP │ ├── 05_Virtual_Net # VNet & Subnets │ ├── 06_sql_server # Azure",
-      "url": "https://dev.to/techmademi/terraform-azure-infrastructure-modular-architecture-devsecops-291p",
-      "source": "Dev.to",
-      "author": "Deepak Sharma",
-      "published": "2025-11-27T06:17:02+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "94d7f9735a0cf721",
-      "title": "Building My Own HTTP Server in TypeScript",
-      "description": "How I Started When I started my journey with web development, after some weeks I kept hearing about \"requests\" and \"responses.\" Wait! What is a request? What is a response? Why does HTTP exist, and why is it called HTTP? I hate pretending to understand something. Therefore, I decided to build my own HTTP server—or at least pretend to :). Eventually, I got to the core idea: HTTP is just Hypertext Transfer Protocol—basically a set of rules for transferring data. But what really mattered was unders",
-      "url": "https://dev.to/elsad_humbetli_0971c995ce/building-my-own-http-server-in-typescript-51a",
-      "source": "Dev.to",
-      "author": "ElshadHu",
-      "published": "2025-11-27T06:04:51+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
         "development"
       ]
     },
@@ -5040,64 +5029,46 @@
       ]
     },
     {
-      "id": "1375a27f4c86e0d1",
-      "title": "Definition of Services in Kubernetes",
-      "description": "A Service in Kubernetes is an object that provides a stable IP address, DNS name, and consistent network access to a group of Pods. Because Pods are temporary — they die, restart, or get new IPs — a Service makes sure that: ✔ Applications can find and talk to Pods reliably ✔ Network traffic is load-balanced across Pods ✔ The communication remains stable even if Pods change 🧠 Why Services Exist Pods are not permanent: Their IPs keep changing Pods come and go during scaling New Pods replace old Po",
-      "url": "https://dev.to/itsmecharan7/definition-of-services-in-kubernetes-36if",
+      "id": "5152299f9d0e2c6d",
+      "title": "A Single .NET Codebase, Three Platforms, One Stunning UI - Smart Café",
+      "description": "This is a submission for the AI Challenge for Cross-Platform Apps — WOW Factor. 🌟 What I Built I built a cross-platform app called Smart Café, a coffee-shop themed application that mimics the experience of entering a premium café menu on your device. The goal was to create a UI that feels warm, modern and immersive — an app where the user enjoys looking around even before clicking anything. The entire app runs from a single Uno Platform .NET codebase and maintains the same visual quality, animat",
+      "url": "https://dev.to/aditya_kumar_ai00/a-single-net-codebase-three-platforms-one-stunning-ui-smart-cafe-1dhi",
       "source": "Dev.to",
-      "author": "Shiva Charan",
-      "published": "2025-11-27T06:23:11+00:00",
+      "author": "Aditya Kumar",
+      "published": "2025-12-04T06:25:00+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
-      "id": "113e76dd8cad3f22",
-      "title": "Types of Chatbots: Rule-Based, NLP & AI Chatbots Explained (Insights from DGTL Tech Hub)",
-      "description": "Chatbots have become an essential part of modern business communication. Whether it's answering customer questions, guiding online shoppers, or generating new leads, chatbots help companies save time and improve efficiency. But not all chatbots work the same way. Some follow fixed flows, some understand natural language, and some learn from user behavior. In this guide, we’ll break down the main types of chatbots in simple language and share how DGTL Tech Hub builds these solutions for different",
-      "url": "https://dev.to/dgtltechhub/types-of-chatbots-rule-based-nlp-ai-chatbots-explained-insights-from-dgtl-tech-hub-2ohb",
+      "id": "903113ff98298c55",
+      "title": "Part 1: Resuming my journey on learning the basics of AI",
+      "description": "I have attempted to learn Rust several times in the past. The journey always looked the same: start learning an area of development, implement a few things, understand the concept; and then leave it after some time. This happened more than once, so I decided to try a different approach this time. I was also curious about how AI works. I don't quite like the \"magic\" of black boxes and machine learning felt like one to me. So, I set out on a new journey: to merge both of my areas of learning in on",
+      "url": "https://dev.to/palash90/resuming-my-journey-on-learning-the-basics-of-ai-50lj",
       "source": "Dev.to",
-      "author": "DGTLTech hub",
-      "published": "2025-11-27T06:19:54+00:00",
+      "author": "Palash Kanti Kundu",
+      "published": "2025-12-04T06:10:52+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "development"
+      ]
     },
     {
-      "id": "36f625bd11171cac",
-      "title": "Forget Wall Street: Here’s How to Create the Best Stock Screener Yourself",
-      "description": "Stock Screeners for Math People: Build Your Own A stock screener is just a function. You don't need Wall Street, a fancy terminal, or YouTube. If you know high school math and Python, you can build your own screener that is transparent, tuned to your portfolio, and changeable as your ideas evolve. 1. What Is a Stock Screener, Really? At its core, a stock screener is a mathematical filter function: Screener(stock)={TRUEif stock passes your rules FALSEotherwise \\text{Screener}(\\text{stock}) = \\beg",
-      "url": "https://dev.to/djinn/forget-wall-street-heres-how-to-create-the-best-stock-screener-yourself-4k2i",
+      "id": "ec7e1b5ca53ef581",
+      "title": "How AI-Based Automation Reduces Manual Errors by 80% in Operations",
+      "description": "Developers and automation engineers know one constant truth: 👉 Human error is the biggest bottleneck in operational accuracy. RPA handles structured tasks well, but once inputs become unpredictable or unstructured, error rates spike. This is where AI makes a measurable difference. Below is a technical breakdown of how AI reduces manual errors by up to 80% in enterprise operations. Data Extraction Accuracy Improves from ~70% → 95%+ Traditional OCR fails on: • Low-quality scans • Complex tables • ",
+      "url": "https://dev.to/mdmamunkabir/how-ai-based-automation-reduces-manual-errors-by-80-in-operations-17b8",
       "source": "Dev.to",
-      "author": "Supreet Sethi",
-      "published": "2025-11-27T06:19:03+00:00",
+      "author": "Md Mamun Kabir",
+      "published": "2025-12-04T06:06:08+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "a9e18dc89d3f2470",
-      "title": "Shared Namespaces",
-      "description": "🧠 First: What is a Namespace in Linux? A namespace in Linux is a boundary or an isolation mechanism. It decides what a process is allowed to see on the system. Think of it like: A private room inside a house. You only see what’s inside your room, not the whole house. Containers rely heavily on Linux namespaces. 🧩 Types of Linux Namespaces Some key ones used by containers: Namespace What it isolates Example NET Network Each container gets its own virtual network stack PID Processes Each container",
-      "url": "https://dev.to/itsmecharan7/shared-namespaces-fpm",
-      "source": "Dev.to",
-      "author": "Shiva Charan",
-      "published": "2025-11-27T06:11:04+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "8140f6bf4a83d15b",
-      "title": "From PNG to PDF — Exploring the Design Behind PNG to PDF",
-      "description": "If you often need to convert PNG images (screenshots, UI designs, scans, etc.) into PDF documents, pngtopdf.io offers a lightweight, fast, cross-platform solution. This article walks through the design philosophy, implementation logic, and why tools like this fit modern workflows better than traditional “open in an editor → export as PDF”. 🧠 Why Do We Need a PNG → PDF Tool? PNG is great for screenshots, UI assets, and digital graphics — it’s crisp, lossless, and supports transparency. But in man",
-      "url": "https://dev.to/yabin/from-png-to-pdf-exploring-the-design-behind-png-to-pdf-4916",
-      "source": "Dev.to",
-      "author": "YaBin",
-      "published": "2025-11-27T06:06:26+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
       "id": "7873f965bc786664",
@@ -8016,6 +7987,42 @@
       "keywords": []
     },
     {
+      "id": "3d747a6ef40e6ec7",
+      "title": "From Wrappers to Reasoners: Building an Iterative Research Agent",
+      "description": "Submission for the AI Agents Intensive Course Writing Challenge Introduction I'll be honest—before taking the 5-Day AI Agents Intensive Course with Google and Kaggle, I thought I understood agents. Spoiler: I didn't. My mental model was basically wrapping an LLM in a while(true) loop, adding a few if-statements, and calling it \"agentic.\" Embarrassing in hindsight, but we all start somewhere, right? The past five days have completely rewired that thinking. I've gone from building simple, reactive",
+      "url": "https://dev.to/kaustav_chowdhury_f3cdc47/from-wrappers-to-reasoners-building-an-iterative-research-agent-3j7l",
+      "source": "Dev.to",
+      "author": "Kaustav Chowdhury",
+      "published": "2025-12-04T06:14:55+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "35e361c73f57cdbd",
+      "title": "[AWS] DevTools Evangelism Kiro's Edition",
+      "description": "This article is a machine translation of the contents of the following URL, which I wrote in Japanese: https://qiita.com/Nana_777/items/d71dacb97e1e99375b36 Introduction This is the fifth post in the Japan AWS Top Engineers Advent Calendar 2025. Today, I'd like to introduce Kiro, a character who frequently appears in my Advent Calendar-related posts. I've written about Kiro in several past articles, so I'll quote those articles and provide an overall overview of Kiro. ↓ Japan AWS Top Engineers A",
+      "url": "https://dev.to/aws-builders/aws-devtools-evangelism-kiros-edition-1jcp",
+      "source": "Dev.to",
+      "author": "Nao San",
+      "published": "2025-12-04T06:06:22+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "9b19dd8e9ffc7b08",
+      "title": "The Mood Mirror App - My Antigravity first experience",
+      "description": "Just a week ago, Google launched Antigravity, and why not give it a try and share my experience? And here I am for this. In this article, I'll talk about my first experience with Antigravity and how I built a small web app called The Mood Mirror. This app emulates an artist who can convert your mood into abstract images or videos. Spoiler: this app uses Gemini 3, Nano Banana Pro and Veo, but I'll talk about them in a future article. Antigravity Intro Let's start with a small presentation about A",
+      "url": "https://dev.to/this-is-learning/the-mood-mirror-app-my-antigravity-first-experience-10a4",
+      "source": "Dev.to",
+      "author": "Luca Del Puppo",
+      "published": "2025-12-04T06:03:00+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "0dd264f5f115f5a6",
       "title": "Learn R Programming from Harvard University",
       "description": "Harvard University creates amazing beginner computer science courses. We just released Harvard CS50’s introduction to programming using a language called R, a popular language for statistical computing and graphics in data science and other domains. ...",
@@ -8182,6 +8189,20 @@
       "score": 48,
       "keywords": [
         "programming"
+      ]
+    },
+    {
+      "id": "b6e6d691b7fabd0b",
+      "title": "Postman’s journey and unlocking the power of APIs",
+      "description": "Lessons learned building a global API platform, navigating hyper-growth, and API-powered AI agents.",
+      "url": "https://stackoverflow.blog/2025/12/04/postman-s-journey-and-unlocking-the-power-of-apis/",
+      "source": "Stack Overflow Blog",
+      "author": "Katja Skafar",
+      "published": "2025-12-04T08:40:00+00:00",
+      "niche": "dev",
+      "score": 48,
+      "keywords": [
+        "API"
       ]
     },
     {
@@ -8369,30 +8390,6 @@
       ]
     },
     {
-      "id": "649afb1fdeba58ac",
-      "title": "Coq: The World's Best Macro Assembler? [pdf] [2013]",
-      "description": "Comments",
-      "url": "https://nickbenton.name/coqasm.pdf",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-27T04:34:56+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "5229a68e2eec5ac0",
-      "title": "Linux Kernel Explorer",
-      "description": "Comments",
-      "url": "https://reverser.dev/linux-kernel-explorer",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-27T06:17:37+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
       "id": "356516c325e3440e",
       "title": "Ray Marching Soft Shadows in 2D",
       "description": "Comments",
@@ -8400,18 +8397,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-11-27T07:31:24+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "836be2fd43d59b98",
-      "title": "Music eases surgery and speeds recovery, study finds",
-      "description": "Comments",
-      "url": "https://www.bbc.com/news/articles/c231dv9zpz3o",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-27T04:55:57+00:00",
       "niche": "dev",
       "score": 44,
       "keywords": []
@@ -10425,8 +10410,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "React 19",
-        "performance"
+        "performance",
+        "React 19"
       ]
     },
     {
@@ -10516,8 +10501,8 @@
       "niche": "dev",
       "score": 39,
       "keywords": [
-        "best practices",
         "performance",
+        "best practices",
         "development",
         "developer"
       ]
@@ -10542,18 +10527,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-11-27T07:02:40+00:00",
-      "niche": "dev",
-      "score": 38,
-      "keywords": []
-    },
-    {
-      "id": "bc01c65e696cf5c7",
-      "title": "Tell HN: Happy Thanksgiving",
-      "description": "Comments",
-      "url": "https://news.ycombinator.com/item?id=46065955",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-27T05:21:16+00:00",
       "niche": "dev",
       "score": 38,
       "keywords": []
@@ -10653,8 +10626,8 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "API",
         "React 19",
+        "API",
         "release"
       ]
     },
@@ -10709,8 +10682,8 @@
       "niche": "dev",
       "score": 37,
       "keywords": [
-        "library",
-        "developer"
+        "developer",
+        "library"
       ]
     },
     {
@@ -10895,10 +10868,10 @@
       "score": 30,
       "keywords": [
         "API",
-        "code",
         "release",
         "framework",
-        "performance"
+        "performance",
+        "code"
       ]
     },
     {
@@ -10961,8 +10934,8 @@
       "score": 28,
       "keywords": [
         "framework",
-        "release",
         "Angular",
+        "release",
         "library"
       ]
     },
@@ -11298,8 +11271,8 @@
       "score": 20,
       "keywords": [
         "performance",
-        "developer",
-        "code"
+        "code",
+        "developer"
       ]
     },
     {
@@ -11343,8 +11316,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
-        "developer"
+        "developer",
+        "release"
       ]
     },
     {
@@ -11660,6 +11633,18 @@
       "keywords": []
     },
     {
+      "id": "32447e185f574cc5",
+      "title": "The Differences Between an IndyCar and a F1 Car",
+      "description": "Comments",
+      "url": "https://www.openwheelworld.net/en/indycar101/76/IndyCar_vs_Formula_1_cars",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-01T00:03:51+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
       "id": "42606fa851c99727",
       "title": "You’re probably underutilizing your GPUs",
       "description": "Ryan is joined by Jared Quincy Davis, CEO and co-founder of Mithril, to explore the importance of efficient resource allocation and GPU utilization in AI, the myth and misconceptions of the GPU shortage, and how the economics of GPU will change with new scheduling and utilization strategies.",
@@ -11667,18 +11652,6 @@
       "source": "Stack Overflow Blog",
       "author": "Phoebe Sajor",
       "published": "2025-11-25T08:40:00+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "027a6c84e96754d3",
-      "title": "Introducing Stack Internal: Powering the human intelligence layer of enterprise AI",
-      "description": "Today at Microsoft Ignite, we’re showcasing the next step in our evolution: Stack Overflow for Teams is now Stack Internal. It’s the next phase of our enterprise knowledge platform, reimagined for the AI era.",
-      "url": "https://stackoverflow.blog/2025/11/18/introducing-stack-internal-powering-the-human-intelligence-layer-of-enterprise-ai/",
-      "source": "Stack Overflow Blog",
-      "author": "Eira May",
-      "published": "2025-11-18T15:00:00+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -11866,8 +11839,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "programming",
-        "development"
+        "development",
+        "programming"
       ]
     },
     {
