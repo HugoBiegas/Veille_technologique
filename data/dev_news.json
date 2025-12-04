@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-04T12:55:57.275271+00:00",
-  "total_articles": 970,
+  "last_updated": "2025-12-04T15:30:19.620754+00:00",
+  "total_articles": 975,
   "articles": [
     {
       "id": "c609831d7def551c",
@@ -668,18 +668,6 @@
       "published": "2025-12-04T01:34:03+00:00",
       "niche": "dev",
       "score": 64,
-      "keywords": []
-    },
-    {
-      "id": "9a2978180f2cd890",
-      "title": "Show HN: Runprompt – run .prompt files from the command line",
-      "description": "Comments",
-      "url": "https://github.com/chr15m/runprompt",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-27T14:26:35+00:00",
-      "niche": "dev",
-      "score": 62,
       "keywords": []
     },
     {
@@ -1665,36 +1653,6 @@
       ]
     },
     {
-      "id": "62ac34ab1c2a98fb",
-      "title": "Drone-ambient-noise synthesizer in Javascript: when instability is a feature, not a bug",
-      "description": "We will talk about the nuances of using the Web Audio API and Web MIDI API for sound synthesis in the browser, the methods of databanding and sonification, the UX when using the keyboard and mouse for musical purposes, and why the ungoogled-chromium browser is better than Google Chrome. Table of Contents Introduction Cultural studies or how I came to this Converting the binary code to hertz Nuances of the Web Audio API and a little bit about granular synthesis Nuances of the Web MIDI API The UX ",
-      "url": "https://dev.to/max_alyokhin/drone-ambient-noise-synthesizer-in-javascript-when-instability-is-a-feature-not-a-bug-34i8",
-      "source": "Dev.to",
-      "author": "Max Alyokhin",
-      "published": "2025-11-27T15:15:02+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "API",
-        "code"
-      ]
-    },
-    {
-      "id": "b4ef752c7cc0a802",
-      "title": "MySQL SELECT … FOR UPDATE is causing a table lock during high traffic while generating sequential transaction IDs",
-      "description": "I have a PHP + MySQL project where I need to generate sequential transaction IDs.Each transaction can have multiple items, so all rows for that transaction must share the same txn_in value. Tables stock_inward ID | txn_in | material_code | insert_dt 1 | TXN001 | MT001 | 2025-01-13 14:09:08 2 | TXN001 | MT002 | 2025-01-13 14:09:08 3 | TXN001 | MT003 | 2025-01-13 14:09:08 4 | TXN002 | MT002 | 2025-01-13 15:02:37 5 | TXN003 | MT009 | 2025-01-14 11:01:25 6 | TXN003 | MT006 | 2025-01-14 11:01:25 txn_",
-      "url": "https://dev.to/developer_account_19c62ad/mysql-select-for-update-is-causing-a-table-lock-during-high-traffic-while-generating-sequential-4ola",
-      "source": "Dev.to",
-      "author": "Developer Account",
-      "published": "2025-11-27T15:11:40+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "PHP",
-        "code"
-      ]
-    },
-    {
       "id": "4e722f9d6d4f29bb",
       "title": "Why Studying the Turing Machine Changed How I See AI And Why Every New AI Engineer Should Revisit It",
       "description": "How a “boring theory subject” ended up shaping my entire AI career When I was doing my Master’s in computer engineering at the University of Padova, there was one subject everyone whispered about: Automata Theory & Computation. Not because it was exciting… …but because most students wanted to survive it. I remember sitting in the lecture hall asking myself: “Why are we learning about an imaginary tape machine in 2024? I want to build AI systems, not decode puzzles from 1936.” What I didn’t know ",
@@ -2190,45 +2148,18 @@
       ]
     },
     {
-      "id": "e221cba94ddc6428",
-      "title": "Хурдтай вебийн 3 шинж",
-      "description": "1️⃣ Source Order буюу Эх кодын дараалал HTML-ийн дараалал хэрэглэгчийн харж буй хурдыг шууд тодорхойлдог. Жишээ: html <!-- Удаан хувилбар --> <script src=\"heavy-library.js\"></script> <h1>Мэдээлэл</h1> <p>Эндээс уншиж эхэлнэ.</p> <!-- Оновчтой хувилбар --> <h1>Мэдээлэл</h1> <p>Эндээс уншиж эхэлнэ.</p> <script src=\"heavy-library.js\" defer></script> 👉 defer ашигласнаар хэрэглэгч эхний контентыг шууд харна. 2️⃣ Critical Rendering Path Браузер DOM + CSSOM → Render Tree → Layout → Paint дарааллаар ажи",
-      "url": "https://dev.to/bizocci/khurdtai-viebiin-3-shinzh-4ofk",
+      "id": "b7fe3f47fde50e25",
+      "title": "Strands Agents now speaks TypeScript: A side-by-side guide",
+      "description": "The Strands Agents SDK, which was released as open source in May 2025, recently added TypeScript support as a public preview. Developers who prefer Python have had access to Strands since launch. Now TypeScript developers can build AI agents using the same model-driven approach, with full type safety and modern async patterns. This article compares the Python and TypeScript implementations side by side, building a practical example along the way. Because the Strands Agents TypeScript SDK is curr",
+      "url": "https://dev.to/aws/strands-agents-now-speaks-typescript-a-side-by-side-guide-12b3",
       "source": "Dev.to",
-      "author": "Batzorig Tselger",
-      "published": "2025-11-27T15:12:01+00:00",
+      "author": "Danilo Poccia",
+      "published": "2025-12-04T15:14:46+00:00",
       "niche": "dev",
-      "score": 54,
+      "score": 55,
       "keywords": [
-        "library"
-      ]
-    },
-    {
-      "id": "03fab533db78e8e6",
-      "title": "Why the Directory Is the Core of IAM: The Digital Heartbeat of Every Organization",
-      "description": "In a world where businesses run on SaaS, APIs, cloud apps, and hybrid environments, Identity and Access Management (IAM) has become one of the most foundational pillars of enterprise security. Everyone talks about MFA, SSO, Zero Trust, role-based access, and least privilege but surprisingly few talk about the real center of IAM: The Directory. Your directory isn't just an address book. It's not just \"Active Directory,\" \"Okta Universal Directory,\" or \"Entra ID.\" It is and always has been the sour",
-      "url": "https://dev.to/sunnysinh_a/why-the-directory-is-the-core-of-iam-the-digital-heartbeat-of-every-organization-57m1",
-      "source": "Dev.to",
-      "author": "Sunny Sinha",
-      "published": "2025-11-27T14:47:37+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "API"
-      ]
-    },
-    {
-      "id": "4465c4379a55909c",
-      "title": "School of Product 2025 : les 5 notions à retenir",
-      "description": "La 8ème édition de la conférence Produit et Design organisée par OCTO Technology s'est déroulée le mardi 18 novembre, à Paris. On avait rendez-vous comme l’an passé avec le caméléon, notre mascotte Produit, et le thème cette année était : “Comment conjuguer performance, prise de risque et bien-être? and quot;",
-      "url": "https://blog.octo.com/octo-school-of-product-2025--les-5-notions-a-retenir",
-      "source": "Blog Technique Octo",
-      "author": "Laure Constantinesco",
-      "published": "2025-11-27T14:58:54+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "performance"
+        "developer",
+        "release"
       ]
     },
     {
@@ -3196,6 +3127,48 @@
       ]
     },
     {
+      "id": "fea7035ec8f16178",
+      "title": "How Rust Is Quietly Rewriting the AI Compute Stack",
+      "description": "🔥 AI workloads are growing quickly — and the infrastructure supporting them is evolving too. We often talk about models, GPUs, and datasets, but the systems that feed, schedule, and execute those workloads matter just as much. Rust has been making steady progress in this layer — not by replacing ecosystems, but by reinforcing performance-critical paths where it fits well. I’ve published a detailed, example-driven breakdown of where Rust appears in today’s AI and data pipelines, including: 🧩 Toke",
+      "url": "https://dev.to/manjushaps/how-rust-is-quietly-rewriting-the-ai-compute-stack-20nf",
+      "source": "Dev.to",
+      "author": "manjushaps",
+      "published": "2025-12-04T15:23:12+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "performance"
+      ]
+    },
+    {
+      "id": "a19b23f19599a51e",
+      "title": "Building 'Block City Racer': Procedural Generation & Performance in Three.js",
+      "description": "The Challenge I wanted to build an infinite, procedural cyberpunk city. I wanted traffic, drones, physics, and day/night cycles. But there was a catch: I’m coding on a laptop with only 4GB of RAM. If I loaded a single 4K texture or a heavy physics engine, my browser tab would crash. So, I had to get creative. I decided to build Block City Racer—a lightweight, mobile-responsive driving simulator for the web—using raw math and optimization tricks. Here is a look at the dev log and how I pulled it ",
+      "url": "https://dev.to/anim_theme_a5314fe2e0c287/building-block-city-racer-procedural-generation-performance-in-threejs-1iie",
+      "source": "Dev.to",
+      "author": "Anim Theme",
+      "published": "2025-12-04T15:15:27+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "performance"
+      ]
+    },
+    {
+      "id": "affbc87ce4ab21f3",
+      "title": "All Ordinaries: A Comprehensive Insight Into Australia’s Broad Market Benchmark",
+      "description": "The All Ordinaries, often referred to simply as the All Ords, stands as one of the most widely recognised markers of performance within Australia’s equity landscape. Created in 1979, it was the first major index that attempted to capture a holistic view of the nation’s corporate market environment. Today, it represents around 500 of the largest companies listed on the Australian Securities Exchange (ASX), providing a broad mirror of economic sentiment, industry movements, and long-term structura",
+      "url": "https://dev.to/amelia_hartley/all-ordinaries-a-comprehensive-insight-into-australias-broad-market-benchmark-2jl3",
+      "source": "Dev.to",
+      "author": "Amelia Hartley",
+      "published": "2025-12-04T15:15:21+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "performance"
+      ]
+    },
+    {
       "id": "eb50f6a3b1d35e89",
       "title": "🧪 05AB1E — Tiny Language, Big Chaos",
       "description": "05AB1E 05AB1E is a code-golf programming language created around 2015 by Adnan. The goal of the language is to make programs as short as possible, even if the code looks strange or unreadable. It uses a stack-based execution model and many operations are represented by single Unicode characters. Language Type: Code Golf Difficulty: Hard Typing: Dynamic Execution Style: Stack-based / Implicit output Example (Hello World): \"Hello, World!\" This prints automatically because the language assumes outp",
@@ -3584,20 +3557,6 @@
       "score": 52,
       "keywords": [
         "code",
-        "developer"
-      ]
-    },
-    {
-      "id": "64429c8a0ca2b1dc",
-      "title": "MP4 is Not for Streaming: Understanding the Core Problem",
-      "description": "Most creators, developers, and clients don’t know this: MP4 is a download-first format, not a streaming format. Today, I focused on explaining this clearly in my content. 💡 Why MP4 Causes Buffering It loads big chunks No adaptive bitrate No quality switching Entire file is a single stream If a user’s internet drops → the video freezes. 🎥 Why m3u8 Solves This Creates multiple resolutions Breaks video into .ts chunks Player switches quality automatically Zero buffering More network-friendly This i",
-      "url": "https://dev.to/mr_transcodr/day-2-mp4-is-not-for-streaming-understanding-the-core-problem-1o62",
-      "source": "Dev.to",
-      "author": "Mr. Transcodr",
-      "published": "2025-11-27T15:05:39+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
         "developer"
       ]
     },
@@ -5102,64 +5061,18 @@
       ]
     },
     {
-      "id": "faffbdb8e4eb7307",
-      "title": "How have I managed Date types in my asyncio python web scraper using PostgreSQL?",
-      "description": "*Hi there! It is my first post here so today I'll be talking about Date types managemnt in PostgreSQL, as example it will be my own web scraper. Firstly, let us cover the basics. * 1. A recommended format of data storage in PostgreSQL The standard SQL convention is to use ISO 8601 format for date types but there are a lot of other formats that can be stored in PostgreSQL , by the way, PostgreSQL provides a lot of convenient features for managing date types, especially, that is why I have moved m",
-      "url": "https://dev.to/brainstorm86/how-have-i-managed-date-types-in-my-asyncio-python-web-scraper-using-postgresql-2272",
+      "id": "e3f0176cb834abaa",
+      "title": "Boost Your SDK Integration with Monetzly's AI Ads Platform",
+      "description": "How We Built Ad Injection That Users Actually Appreciate: Introducing Monetzly As AI applications become ubiquitous, developers face a pressing challenge: how to monetize effectively without compromising user experience. Enter Monetzly—the first dual-earning platform tailored for AI conversations. Imagine a world where you can monetize your app without paywalls, while also hosting relevant ads that enhance user engagement. Sounds revolutionary, right? Let’s dive into the engineering principles t",
+      "url": "https://dev.to/monetzly/boost-your-sdk-integration-with-monetzlys-ai-ads-platform-11k2",
       "source": "Dev.to",
-      "author": "Timur",
-      "published": "2025-11-27T15:20:57+00:00",
+      "author": "Monetzly",
+      "published": "2025-12-04T15:16:12+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "8d6a9d7da132c964",
-      "title": "The Future of Cyber Resilience for Complex AWS Environments is Here",
-      "description": "2025 has seen the cloud landscape continue to evolve at an extraordinary pace. As organizations accelerate their AI, analytics, and digital transformation workloads, many of us are experiencing a significant increase in complexity. Systems are becoming more distributed, with workloads spread across multiple regions, accounts, and vendors. With complexity comes fragmentation, and a sharp rise in risk around cyber threats, identity compromise, and multi-cloud governance, leading many of us to wond",
-      "url": "https://dev.to/aws-builders/the-future-of-cyber-resilience-for-complex-aws-environments-is-here-26c1",
-      "source": "Dev.to",
-      "author": "Faye Ellis",
-      "published": "2025-11-27T15:05:48+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "a2c0ddafb961ab7b",
-      "title": "🚀Terraform State File Management with AWS S3",
-      "description": "🧩 What Is the Terraform State File? Whenever Terraform builds your AWS infrastructure, it needs a way to remember what it created. That memory is stored in a file called: terraform.tfstate This file tracks: EC2 instances S3 buckets IAM roles Databases And their metadata Terraform uses this file to compare: Desired State (your .tf files) Actual State (what exists in AWS) ❌ Why You Should NOT Store State Files Locally 🔐 1. Security Risk State file contains sensitive info like: AWS account IDs Secr",
-      "url": "https://dev.to/amit_kumar_7db8e36a64dd45/terraform-state-file-management-with-aws-s3-22dj",
-      "source": "Dev.to",
-      "author": "Amit Kushwaha",
-      "published": "2025-11-27T14:52:53+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "530c87c2ed55141c",
-      "title": "How n8n Automates Contract Review and Approvals",
-      "description": "Legal teams handle more contracts than ever before. As your caseload grows, manual tasks start slowing down your entire operation. Simple activities like routing documents, gathering comments, tracking approvals, and keeping every version updated can take hours of unnecessary effort. When your team relies on emails and spreadsheets, contracts move unevenly and delays become unavoidable. This is exactly why more legal teams now look for practical ways to reduce repetitive work and keep contract c",
-      "url": "https://dev.to/enna/how-n8n-automates-contract-review-and-approvals-2o96",
-      "source": "Dev.to",
-      "author": "Ena Vaghela",
-      "published": "2025-11-27T14:44:44+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "c381972c555c8bec",
-      "title": "Блогер нашёл способ воспроизводить на PS5 содержимое обычных компакт-дисков",
-      "description": "Автор YouTube-канала Will It Work нашёл способ воспроизводить на PlayStation 5 содержимое обычных компакт-дисков. Для этого нужен Первые поколения PlayStation воспроизводили компакт-диски и служили пользователям универсальными медиацентрами. В PlayStation 4 поддержку Audio CD и Video CD убрали. Компания сделала ставку на стриминговые сервисы. Поколение PS5 тоже официально не воспроизводит Audio CD, но открывает различные форматы музыки с USB-накопителя. Блогер выяснил, что если записать диск в ф",
-      "url": "https://dev.to/ad_layer_4acdca7d59ff763f/bloghier-nashiol-sposob-vosproizvodit-na-ps5-sodierzhimoie-obychnykh-kompakt-diskov-ib5",
-      "source": "Dev.to",
-      "author": "ad layer",
-      "published": "2025-11-27T14:43:06+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
       "id": "78b1530f71cef112",
@@ -8018,6 +7931,90 @@
       "keywords": []
     },
     {
+      "id": "ee6581b139f28e4b",
+      "title": "Kalman Filter (Day 1) - Why?",
+      "description": "The Mission: From Zero to State Estimation The purpose of this blog is to publicly document my commitment and journey toward mastering the skills required for the ft_kalman project from School 42. This project requires me to build a complex real-time 3D Kalman Filter. In the simplest terms, the end goal is to create a C program that can consistently and accurately determine a vehicle’s position, velocity, and orientation—despite receiving highly noisy, incomplete, and flawed sensor data. To get ",
+      "url": "https://dev.to/chocolatebrownie/kalman-filter-day-1-why-3bcm",
+      "source": "Dev.to",
+      "author": "Milan Godawatta",
+      "published": "2025-12-04T15:20:08+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "d76fbfa8730b3634",
+      "title": "Interop.io & io.Connect Glossary",
+      "description": "If you are new to io.Connect and the interop.io ecosystem you may wonder what some of the acronyms and nicknames you see are. I tried to put together a glossary to help: Acronyms & shorthand IOCD - shorthand for io.Connect Desktop. IOCB - shorthand for io.Connect Browser. ENV‑REG - The “environment‑region” folder name in user paths (e.g., UserData/DEMO-INTEROP.IO). You’ll see it in examples like .../UserData/<ENV>-<REG>/apps. BBG - Bloomberg adapter namespace (e.g., T42.BBG.*); shows up in metho",
+      "url": "https://dev.to/tpetrov9/interopio-ioconnect-glossary-43h3",
+      "source": "Dev.to",
+      "author": "Toni Petov",
+      "published": "2025-12-04T15:19:39+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "8391f35c8897f359",
+      "title": "How I could have avoided a loss if I had just stuck to my rule🤦🏾‍♂️",
+      "description": "I took two trades. The Sell → hit Break-Even The Buy → straight to stop loss The funny thing? That losing Buy could have been completely avoided if I had just obeyed one of my own rules: Wait for the 4-hour Break of Structure (H4 BOS) before flipping my bias. Price traded into an Extreme Supply Zone. Price also swept the supply zone and started trading downwards. All these are valid confluences but none of them give any confirmation that it is time to sell. None except the 4H BOS Why the H4 BOS ",
+      "url": "https://dev.to/dhis_is_jj/how-i-could-have-avoided-a-loss-if-i-had-just-stuck-to-my-rule-585e",
+      "source": "Dev.to",
+      "author": "Jude⚜",
+      "published": "2025-12-04T15:17:52+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "0bde7ed863d68091",
+      "title": "Best Affordable AI Headshot Tools for Professional Photos in 2026",
+      "description": "If you had told me two years ago I’d be trusting artificial intelligence to take my headshot, I would have laughed. But here we are in 2025, and I’ve now tested dozens of AI headshot tools-on myself, my friends, and even a few unlucky colleagues. Turns out, what started as a fun experiment kept me coming back, not just to see if the tech worked (spoiler: it does), but for the pure convenience of updating my profile pic without ever booking a photographer. Disclaimer: This piece was generated wit",
+      "url": "https://dev.to/keane/best-affordable-ai-headshot-tools-for-professional-photos-in-2026-207a",
+      "source": "Dev.to",
+      "author": "Elena",
+      "published": "2025-12-04T15:16:40+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "8ee5499e2ada5bed",
+      "title": "Best outsourced IT support companies in Edmonton",
+      "description": "Looking for the top outsourced IT support companies in Edmonton? I took a deep dive to help you sort the best options from the rest. Note: This piece incorporates AI-assisted writing and may reference businesses I'm affiliated with. After spending more than 60 hours researching, comparing, and evaluating top providers that serve businesses in Edmonton, I’ve narrowed down the list. My approach was simple: focus on real user experiences, consistency of service, clarity in pricing, and strong secur",
+      "url": "https://dev.to/fionacampbell/best-outsourced-it-support-companies-in-edmonton-2ekj",
+      "source": "Dev.to",
+      "author": "Fiona Campbell",
+      "published": "2025-12-04T15:10:00+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "31e80884aa5cfb3d",
+      "title": "Getting Creative With “The Measure”",
+      "description": "A good measure makes reading text comfortable, while a bad one makes it more difficult. So, rather than allowing layout to dictate the measure, doesn’t it make more sense for the measure to inform layout decisions? Getting Creative With “The Measure” originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
+      "url": "https://css-tricks.com/getting-creative-with-the-measure/",
+      "source": "CSS-Tricks",
+      "author": "Andy Clarke",
+      "published": "2025-12-04T14:04:52+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "7561b15fc4c94798",
+      "title": "School of Product 2025 - Compte-rendu du talk : De la contrainte à la créativité : le REX du lancement des shorts chez ARTE",
+      "description": "Olivier Hoffschir, Product Manager chez Arte.tv, raconte comment un format vidéo vertical imposé par un financeur a donné naissance aux “shorts” sur l’app mobile. En quatre mois, l’équipe a conçu un MVP simple mais engageant, test en production inclus, doublant la rétention mobile et révélant le chaos derrière la simplicité",
+      "url": "https://blog.octo.com/school-of-product-2025-compte-rendu-du-talk--de-la-contrainte-a-la-creativite--le-rex-du-lancement-des-shorts-chez-arte",
+      "source": "Blog Technique Octo",
+      "author": "Mohammed Wakkach",
+      "published": "2025-12-04T14:41:10+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "0dd264f5f115f5a6",
       "title": "Learn R Programming from Harvard University",
       "description": "Harvard University creates amazing beginner computer science courses. We just released Harvard CS50’s introduction to programming using a language called R, a popular language for statistical computing and graphics in data science and other domains. ...",
@@ -8398,30 +8395,6 @@
       "keywords": [
         "programming"
       ]
-    },
-    {
-      "id": "5b93e9595fd4b8d9",
-      "title": "Don't be a scary old guy: My 40s survival strategy with charm",
-      "description": "Comments",
-      "url": "https://www.devas.life/dont-be-a-scary-old-guy-my-40s-survival-strategy-with-charm/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-27T14:48:02+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "46407eed2018a143",
-      "title": "TPUs vs. GPUs and why Google is positioned to win AI race in the long term",
-      "description": "Comments",
-      "url": "https://www.uncoveralpha.com/p/the-chip-made-for-the-ai-inference",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-27T13:28:34+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "f23f9f0d9c028966",
@@ -10420,6 +10393,78 @@
       "keywords": []
     },
     {
+      "id": "47ea7b5e5c1ceea7",
+      "title": "Transparent Leadership Beats Servant Leadership",
+      "description": "Comments",
+      "url": "https://entropicthoughts.com/transparent-leadership-beats-servant-leadership",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-04T13:40:00+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "f8c675eae4ef33d2",
+      "title": "I ignore the spotlight as a staff engineer",
+      "description": "Comments",
+      "url": "https://lalitm.com/software-engineering-outside-the-spotlight/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-04T11:36:36+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "93b765eb71c38083",
+      "title": "Functional Quadtrees",
+      "description": "Comments",
+      "url": "https://lbjgruppen.com/en/posts/functional-quadtree-clojure",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-04T13:18:38+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "fe177601727c5d14",
+      "title": "Japanese Four-Cylinder Engine Is So Reliable Still in Production After 25 Years",
+      "description": "Comments",
+      "url": "https://www.topspeed.com/reliable-japanese-four-cylinder-engine-still-in-production/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-04T12:09:43+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "1b9c416911db9c23",
+      "title": "RAM is so expensive, Samsung won't even sell it to Samsung",
+      "description": "Comments",
+      "url": "https://www.pcworld.com/article/2998935/ram-is-so-expensive-samsung-wont-even-sell-it-to-samsung.html",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-04T13:20:07+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "e3979cda8eeb5eda",
+      "title": "Building optimistic UI in Rails (and learn custom elements)",
+      "description": "Comments",
+      "url": "https://railsdesigner.com/custom-elements/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-04T11:03:16+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "3bea7f8846dcd34d",
       "title": "Color Contrast and Web Accessibility",
       "description": "Understand color contrast for web accessibility. WCAG standards, testing tools, and best practices to make your website inclusive and accessible. Continue reading Color Contrast and Web Accessibility on SitePoint.",
@@ -10432,18 +10477,6 @@
       "keywords": [
         "best practices"
       ]
-    },
-    {
-      "id": "fc5213daca7c9526",
-      "title": "Importance of CRMs for Business Growth",
-      "description": "CRM software streamlines sales tracking, enables personalized support, and automates workflows. Explore how smart CRM platforms boost business growth. Continue reading Importance of CRMs for Business Growth on SitePoint.",
-      "url": "https://www.sitepoint.com/crms-for-business-growth/?utm_source=rss",
-      "source": "SitePoint",
-      "author": "SitePoint Sponsors",
-      "published": "2025-11-27T14:58:35+00:00",
-      "niche": "dev",
-      "score": 42,
-      "keywords": []
     },
     {
       "id": "8ae8dd5ecd6ed6f5",
@@ -10480,8 +10513,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "performance",
-        "React 19"
+        "React 19",
+        "performance"
       ]
     },
     {
@@ -10549,6 +10582,18 @@
       "keywords": []
     },
     {
+      "id": "8751aa5857c4243c",
+      "title": "Crafting Nature Beyond Technology: A Project from Roots to Leaves",
+      "description": "A deep dive into how a nature-inspired concept evolved into a polished WebGL experience blending design, animation, and technology.",
+      "url": "https://tympanus.net/codrops/2025/12/04/crafting-nature-beyond-technology-a-project-from-roots-to-leaves/",
+      "source": "Codrops",
+      "author": "Robin Navas",
+      "published": "2025-12-04T13:49:18+00:00",
+      "niche": "dev",
+      "score": 39,
+      "keywords": []
+    },
+    {
       "id": "163762ab516c5fad",
       "title": "Leveling Guide for your Performance Journey",
       "description": "Posted by Alice Yuan - Senior Developer Relations Engineer Welcome to day 4 of Performance Spotlight Week. Now that you've learned about some of the awesome tools and best practices we've introduced recently such as the R8 Optimizer, and Profile Guided Optimization with Baseline Profiles and Startup Profiles, you might be wondering where to start your performance improvement journey. We've come up with a step-by-step performance leveling guide to meet your mobile development team where you are—w",
@@ -10559,10 +10604,10 @@
       "niche": "dev",
       "score": 39,
       "keywords": [
-        "performance",
-        "best practices",
         "development",
-        "developer"
+        "developer",
+        "performance",
+        "best practices"
       ]
     },
     {
@@ -10661,8 +10706,8 @@
       "score": 38,
       "keywords": [
         "release",
-        "React 19",
-        "API"
+        "API",
+        "React 19"
       ]
     },
     {
@@ -10676,22 +10721,10 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
+        "developer",
         "performance",
-        "best practices",
-        "developer"
+        "best practices"
       ]
-    },
-    {
-      "id": "7620e537736244f2",
-      "title": "Letting the Creative Process Shape a WebGL Portfolio",
-      "description": "Exploring how experimenting with Three.js, React Three Fiber, and GSAP shaped the final experience.",
-      "url": "https://tympanus.net/codrops/2025/11/27/letting-the-creative-process-shape-a-webgl-portfolio/",
-      "source": "Codrops",
-      "author": "Roman Jean-Elie",
-      "published": "2025-11-27T13:50:17+00:00",
-      "niche": "dev",
-      "score": 37,
-      "keywords": []
     },
     {
       "id": "01595522754a09f6",
@@ -10716,8 +10749,8 @@
       "niche": "dev",
       "score": 37,
       "keywords": [
-        "library",
-        "developer"
+        "developer",
+        "library"
       ]
     },
     {
@@ -10731,8 +10764,8 @@
       "niche": "dev",
       "score": 37,
       "keywords": [
-        "API",
-        "developer"
+        "developer",
+        "API"
       ]
     },
     {
@@ -10746,8 +10779,8 @@
       "niche": "dev",
       "score": 37,
       "keywords": [
-        "performance",
-        "developer"
+        "developer",
+        "performance"
       ]
     },
     {
@@ -10901,10 +10934,10 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "release",
-        "performance",
-        "framework",
         "code",
+        "performance",
+        "release",
+        "framework",
         "API"
       ]
     },
@@ -10968,9 +11001,9 @@
       "score": 28,
       "keywords": [
         "framework",
-        "library",
         "Angular",
-        "release"
+        "release",
+        "library"
       ]
     },
     {
@@ -11119,6 +11152,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-02T20:33:10+00:00",
+      "niche": "dev",
+      "score": 26,
+      "keywords": []
+    },
+    {
+      "id": "820f7fc84df257af",
+      "title": "Contextualization Machines",
+      "description": "Comments",
+      "url": "https://stochasm.blog/posts/contextualization-machines/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-01T16:14:39+00:00",
       "niche": "dev",
       "score": 26,
       "keywords": []
@@ -11292,9 +11337,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "performance",
         "code",
-        "developer"
+        "developer",
+        "performance"
       ]
     },
     {
@@ -11308,8 +11353,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "framework",
-        "development"
+        "development",
+        "framework"
       ]
     },
     {
@@ -11323,8 +11368,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "performance",
-        "development"
+        "development",
+        "performance"
       ]
     },
     {
@@ -11338,8 +11383,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
-        "developer"
+        "developer",
+        "release"
       ]
     },
     {
@@ -11427,13 +11472,13 @@
       ]
     },
     {
-      "id": "fd52b0592306d53d",
-      "title": "Du dataset jetable au data product pérenne : comment le data mesh transforme notre rapport à la donnée",
-      "description": "Dans les organisations où les données sont nombreuses, hétérogènes et stratégiques, leur mise à disposition efficace devient un levier clé de performance. L’approche data mesh, en décentralisant la gouvernance et en traitant la donnée comme un produit, promet une meilleure agilité et une appropriation renforcée par les équipes métier.",
-      "url": "https://blog.octo.com/du-dataset-jetable-au-data-product-perenne--comment-le-data-mesh-transforme-notre-rapport-a-la-donnee",
+      "id": "4465c4379a55909c",
+      "title": "School of Product 2025 : les 5 notions à retenir",
+      "description": "La 8ème édition de la conférence Produit et Design organisée par OCTO Technology s'est déroulée le mardi 18 novembre, à Paris. On avait rendez-vous comme l’an passé avec le caméléon, notre mascotte Produit, et le thème cette année était : “Comment conjuguer performance, prise de risque et bien-être? and quot;",
+      "url": "https://blog.octo.com/octo-school-of-product-2025--les-5-notions-a-retenir",
       "source": "Blog Technique Octo",
-      "author": "Imane Ryane",
-      "published": "2025-11-14T13:20:18+00:00",
+      "author": "Laure Constantinesco",
+      "published": "2025-11-27T14:58:54+00:00",
       "niche": "dev",
       "score": 18,
       "keywords": [
@@ -11441,13 +11486,13 @@
       ]
     },
     {
-      "id": "c4d80c85a8e1a9c9",
-      "title": "Performance d’entreprise : le rôle clé de la Supply Chain et de la donnée",
-      "description": "Les directions clés portent la stratégie, mais si la Supply Chain n’est pas maîtrisée, la performance s’effrite : coûts, délais, qualité, satisfaction client… Dans cet article, explorez comment la transformer pour obtenir des résultats opérationnels et financiers tangibles.",
-      "url": "https://blog.octo.com/performance-d'entreprise--le-role-cle-de-la-supply-chain-et-de-la-donnee",
+      "id": "fd52b0592306d53d",
+      "title": "Du dataset jetable au data product pérenne : comment le data mesh transforme notre rapport à la donnée",
+      "description": "Dans les organisations où les données sont nombreuses, hétérogènes et stratégiques, leur mise à disposition efficace devient un levier clé de performance. L’approche data mesh, en décentralisant la gouvernance et en traitant la donnée comme un produit, promet une meilleure agilité et une appropriation renforcée par les équipes métier.",
+      "url": "https://blog.octo.com/du-dataset-jetable-au-data-product-perenne--comment-le-data-mesh-transforme-notre-rapport-a-la-donnee",
       "source": "Blog Technique Octo",
-      "author": "Bintou Diarra",
-      "published": "2025-11-04T14:23:10+00:00",
+      "author": "Imane Ryane",
+      "published": "2025-11-14T13:20:18+00:00",
       "niche": "dev",
       "score": 18,
       "keywords": [
@@ -11465,8 +11510,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "programming",
-        "developer"
+        "developer",
+        "programming"
       ]
     },
     {
@@ -11643,6 +11688,18 @@
       "keywords": []
     },
     {
+      "id": "09bc54816090d5ce",
+      "title": "A lost Amazon world just reappeared in Bolivia",
+      "description": "Comments",
+      "url": "https://www.sciencedaily.com/releases/2025/11/251130205421.htm",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-01T07:30:46+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
       "id": "42606fa851c99727",
       "title": "You’re probably underutilizing your GPUs",
       "description": "Ryan is joined by Jared Quincy Davis, CEO and co-founder of Mithril, to explore the importance of efficient resource allocation and GPU utilization in AI, the myth and misconceptions of the GPU shortage, and how the economics of GPU will change with new scheduling and utilization strategies.",
@@ -11734,18 +11791,6 @@
       "source": "CSS-Tricks",
       "author": "Geoff Graham",
       "published": "2025-11-10T14:44:13+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "b61f78debc429709",
-      "title": "Explaining the Accessible Benefits of Using Semantic HTML Elements",
-      "description": "Why should you use a semantic &#60;button&#62; instead of a generic &#60;div&#62;? Accessibility, right? By how exactly does it help accessibility? Explaining the Accessible Benefits of Using Semantic HTML Elements originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-      "url": "https://css-tricks.com/explaining-the-accessible-benefits-of-using-semantic-html-elements/",
-      "source": "CSS-Tricks",
-      "author": "Geoff Graham",
-      "published": "2025-11-06T15:57:49+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -12060,6 +12105,18 @@
       ]
     },
     {
+      "id": "fc5213daca7c9526",
+      "title": "Importance of CRMs for Business Growth",
+      "description": "CRM software streamlines sales tracking, enables personalized support, and automates workflows. Explore how smart CRM platforms boost business growth. Continue reading Importance of CRMs for Business Growth on SitePoint.",
+      "url": "https://www.sitepoint.com/crms-for-business-growth/?utm_source=rss",
+      "source": "SitePoint",
+      "author": "SitePoint Sponsors",
+      "published": "2025-11-27T14:58:35+00:00",
+      "niche": "dev",
+      "score": 12,
+      "keywords": []
+    },
+    {
       "id": "d33c163931aefb90",
       "title": "6 Best AI Mode Tracking Tools That Will Transform Search Engine Experience in 2026",
       "description": "Track your brand in Google AI Mode and other AI search engines. Compare top AI Mode tracking tools and pricing for 2025. Continue reading 6 Best AI Mode Tracking Tools That Will Transform Search Engine Experience in 2026 on SitePoint.",
@@ -12356,18 +12413,6 @@
       "keywords": []
     },
     {
-      "id": "0a5ef3b53acff082",
-      "title": "One Canvas to Rule Them All: How INK Games’ New Site Handles Complex 3D",
-      "description": "A look at how ToyFight® crafted a bold new site for INK Games, a global leader in mobile gaming, through layered 3D, scroll-driven animation, and a single shared WebGL canvas.",
-      "url": "https://tympanus.net/codrops/2025/11/21/one-canvas-to-rule-them-all-how-ink-games-new-site-handles-complex-3d/",
-      "source": "Codrops",
-      "author": "ToyFight®",
-      "published": "2025-11-21T14:25:13+00:00",
-      "niche": "dev",
-      "score": 9,
-      "keywords": []
-    },
-    {
       "id": "68b99fc7561857c6",
       "title": "Taking SVG “screenshots” of HTML elements",
       "description": "I was looking for a way to create images (think screenshots) of CSS layouts that I can use in HTML, EPUB and PDF files. This blog post describes my solution – which produces SVG images.",
@@ -12536,6 +12581,18 @@
       "keywords": [
         "development"
       ]
+    },
+    {
+      "id": "7620e537736244f2",
+      "title": "Letting the Creative Process Shape a WebGL Portfolio",
+      "description": "Exploring how experimenting with Three.js, React Three Fiber, and GSAP shaped the final experience.",
+      "url": "https://tympanus.net/codrops/2025/11/27/letting-the-creative-process-shape-a-webgl-portfolio/",
+      "source": "Codrops",
+      "author": "Roman Jean-Elie",
+      "published": "2025-11-27T13:50:17+00:00",
+      "niche": "dev",
+      "score": 7,
+      "keywords": []
     },
     {
       "id": "4bd6a6ce7d39a562",
