@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-03T21:22:22.854376+00:00",
-  "total_articles": 362,
+  "last_updated": "2025-12-04T01:59:00.877012+00:00",
+  "total_articles": 367,
   "articles": [
     {
       "id": "f1cff7571efd3482",
@@ -146,6 +146,24 @@
       ]
     },
     {
+      "id": "e0362e817ea5e81f",
+      "title": "Critical flaw in WordPress add-on for Elementor exploited in attacks",
+      "description": "Attackers are exploiting a critical-severity privilege escalation vulnerability (CVE-2025-8489) in the King Addons for Elementor plugin for WordPress, which lets them obtain administrative permissions during the registration process. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-flaw-in-wordpress-add-on-for-elementor-exploited-in-attacks/",
+      "source": "Bleeping Computer",
+      "author": "Bill Toulas",
+      "published": "2025-12-03T16:31:20-05:00",
+      "niche": "security",
+      "score": 100,
+      "keywords": [
+        "privilege escalation",
+        "CVE-",
+        "vulnerability",
+        "exploit",
+        "attack"
+      ]
+    },
+    {
       "id": "d3e42dbb250f8ed3",
       "title": "Google Patches 107 Android Flaws, Including Two Framework Bugs Exploited in the Wild",
       "description": "Google on Monday released monthly security updates for the Android operating system, including two vulnerabilities that it said have been exploited in the wild. The patch addresses a total of 107 security flaws spanning different components, including Framework, System, Kernel, as well as those from Arm, Imagination Technologies, MediaTek, Qualcomm, and Unison. The two high-severity shortcomings",
@@ -229,6 +247,24 @@
       ]
     },
     {
+      "id": "dda47b38b699202c",
+      "title": "RCE flaw in OpenAI’s Codex CLI highlights new risks to dev environments",
+      "description": "In a new example of how AI tools expand the attack surface of development machines, researchers found a serious remote code execution flaw in OpenAI’s Codex CLI, one of the most popular LLM-powered coding agents. “This vulnerability enables silent, repeatable remote code execution in any environment where developers run codex against a repository,” researchers from security firm CheckPoint, who found the flaw, said in their report. “By abusing project-local config loading, an attacker who can la",
+      "url": "https://www.csoonline.com/article/4100632/rce-flaw-in-openais-codex-cli-highlights-new-risks-to-dev-environments.html",
+      "source": "CSO Online",
+      "author": "Inconnu",
+      "published": "2025-12-03T23:03:05+00:00",
+      "niche": "security",
+      "score": 93,
+      "keywords": [
+        "remote code execution",
+        "vulnerability",
+        "RCE",
+        "security",
+        "attack"
+      ]
+    },
+    {
       "id": "4be1ca422b862888",
       "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
       "description": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2025-48572 Android Framework Privilege Escalation Vulnerability   CVE-2025-48633 Android Framework Information Disclosure Vulnerability  These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise.    Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Know",
@@ -277,6 +313,23 @@
         "CVE-",
         "security",
         "exploit"
+      ]
+    },
+    {
+      "id": "5e2f04fa33b6b0b4",
+      "title": "Developers urged to immediately upgrade React, Next.js",
+      "description": "Developers using the React 19 library for building application interfaces are urged to immediately upgrade to the latest version because of a critical vulnerability that can be easily exploited by an attacker to remotely run their own code. Researchers at Wiz said Wednesday that a vulnerability in the React Server Components (RSC) Flight protocol affects the React 19 ecosystem, as well as frameworks that implement it. In particular, that means Next.js, a popular full stack development framework ",
+      "url": "https://www.csoonline.com/article/4100653/developers-urged-to-immediately-upgrade-react-next-js-2.html",
+      "source": "CSO Online",
+      "author": "Inconnu",
+      "published": "2025-12-04T00:28:11+00:00",
+      "niche": "security",
+      "score": 90,
+      "keywords": [
+        "vulnerability",
+        "exploit",
+        "attack",
+        "critical vulnerability"
       ]
     },
     {
@@ -466,18 +519,20 @@
       ]
     },
     {
-      "id": "ef4455586632df21",
-      "title": "New ShadowV2 botnet malware used AWS outage as a test opportunity",
-      "description": "A new Mirai-based botnet malware named 'ShadowV2' has been observed targeting IoT devices from D-Link, TP-Link, and other vendors with exploits for known vulnerabilities. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/new-shadowv2-botnet-malware-used-aws-outage-as-a-test-opportunity/",
-      "source": "Bleeping Computer",
-      "author": "Bill Toulas",
-      "published": "2025-11-26T17:24:14-05:00",
+      "id": "c8fea8666e58368e",
+      "title": "King Addons flaw lets anyone become WordPress admin",
+      "description": "Hackers are exploiting a King Addons flaw (CVE-2025-8489) that lets anyone register and instantly gain admin privileges on WordPress sites. Hackers are exploiting a critical vulnerability, tracked as CVE-2025-8489 (CVSS score of 9.8), in the WordPress plugin King Addons for Elementor that allows unauthenticated users to create admin accounts via a registration privilege bug. King [&#8230;]",
+      "url": "https://securityaffairs.com/185286/hacking/king-addons-flaw-lets-anyone-become-wordpress-admin.html",
+      "source": "Security Affairs",
+      "author": "Pierluigi Paganini",
+      "published": "2025-12-03T22:27:34+00:00",
       "niche": "security",
-      "score": 80,
+      "score": 82,
       "keywords": [
+        "CVE-",
         "exploit",
-        "malware"
+        "vulnerability",
+        "critical vulnerability"
       ]
     },
     {
@@ -739,6 +794,34 @@
       "score": 76,
       "keywords": [
         "breach"
+      ]
+    },
+    {
+      "id": "85078a33766b2e3b",
+      "title": "Marquis data breach impacts over 74 US banks, credit unions",
+      "description": "Financial software provider Marquis Software Solutions is warning that it suffered a data breach that impacted dozens of banks and credit unions across the US. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/marquis-data-breach-impacts-over-74-us-banks-credit-unions/",
+      "source": "Bleeping Computer",
+      "author": "Lawrence Abrams",
+      "published": "2025-12-03T17:06:07-05:00",
+      "niche": "security",
+      "score": 76,
+      "keywords": [
+        "breach"
+      ]
+    },
+    {
+      "id": "f8a3835cdb34a0b2",
+      "title": "Critical React Flaw Triggers Calls for Immediate Action",
+      "description": "The vulnerability, which was assigned two CVEs with maximum CVSS scores of 10, may affect more than a third of cloud service providers.",
+      "url": "https://www.darkreading.com/vulnerabilities-threats/critical-react-flaw-triggers-immediate-action",
+      "source": "Dark Reading",
+      "author": "Rob Wright",
+      "published": "2025-12-03T21:51:03+00:00",
+      "niche": "security",
+      "score": 76,
+      "keywords": [
+        "vulnerability"
       ]
     },
     {
@@ -1571,10 +1654,10 @@
       "niche": "security",
       "score": 63,
       "keywords": [
+        "security",
         "zero-day",
         "exploit",
-        "patch",
-        "security"
+        "patch"
       ]
     },
     {
@@ -1680,10 +1763,10 @@
       "niche": "security",
       "score": 61,
       "keywords": [
+        "security",
         "secure",
         "OWASP",
-        "RCE",
-        "security"
+        "RCE"
       ]
     },
     {
@@ -1744,22 +1827,6 @@
         "RCE",
         "security",
         "cybersecurity"
-      ]
-    },
-    {
-      "id": "b95a081f324c1a26",
-      "title": "SonicWall ransomware attacks offer an M&A lesson for CSOs",
-      "description": "The recent ransomware attacks on organizations with SonicWall SSL VPNs may teach more lessons than just the need for patch management and identity and access control. Some of the victim firms had vulnerable SonicWall devices on their IT networks as legacies of past mergers or acquisitions, suggesting infosec leaders need to be more involved in preparing for M&A deals or risk their organizations being stung by hackers. That’s the conclusion from a report this week by researchers at ReliaQuest. Th",
-      "url": "https://www.csoonline.com/article/4097078/sonicwall-ransomware-attacks-offer-an-ma-lesson-for-csos.html",
-      "source": "CSO Online",
-      "author": "Inconnu",
-      "published": "2025-11-27T00:59:02+00:00",
-      "niche": "security",
-      "score": 58,
-      "keywords": [
-        "ransomware",
-        "attack",
-        "patch"
       ]
     },
     {
@@ -1999,24 +2066,6 @@
       ]
     },
     {
-      "id": "1e9e2aaaf95b784f",
-      "title": "Smashing Security podcast #445: The hack that brought back the zombie apocalypse",
-      "description": "America's airwaves are haunted by zombies again, as we dig into a decade of broadcasters leaving their hardware open to attack, giving hackers the chance to hijack TV shows, blast out fake emergency alerts, and even replace religious sermons with explicit furry podcasts. Meanwhile, we look at how a worker at a cybersecurity firm allegedly leaked internal information to a hacking gang - raising big questions about insider threats. Plus: Frankenstein on Netflix, Vine nostalgia, and why Barney the ",
-      "url": "https://grahamcluley.com/smashing-security-podcast-445/",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2025-11-27T00:34:24+00:00",
-      "niche": "security",
-      "score": 55,
-      "keywords": [
-        "PoC",
-        "threat",
-        "attack",
-        "cybersecurity",
-        "security"
-      ]
-    },
-    {
       "id": "f783b262ad069416",
       "title": "Attackers stole member data from French Soccer Federation",
       "description": "The French Soccer Federation (FFF) disclosed a data breach after hackers used a compromised account to steal member data. A compromised account allowed attackers to breach the French Soccer Federation (FFF), stealing data belonging to its members. The organization confirmed the cyberattack on Thursday, but did not disclose the number of members impacted. &#8220;The FFF [&#8230;]",
@@ -2107,20 +2156,18 @@
       ]
     },
     {
-      "id": "77dbb5ff984e58e8",
-      "title": "AI browsers can be tricked with malicious prompts hidden in URL fragments",
-      "description": "Researchers have demonstrated another indirect prompt injection attack against AI-powered browsers and browser assistants that could lead to phishing, sensitive data exfiltration, credential theft, or malware downloads. The attack, dubbed HashJack, relies on rogue prompts added to URLs after the hash (#) symbol, also known as a named anchor or URL fragment. “HashJack is the first known indirect prompt injection that can weaponize any legitimate website to manipulate AI browser assistants,” resea",
-      "url": "https://www.csoonline.com/article/4097087/ai-browsers-can-be-tricked-with-malicious-prompts-hidden-in-url-fragments.html",
-      "source": "CSO Online",
-      "author": "Inconnu",
-      "published": "2025-11-27T00:12:30+00:00",
+      "id": "55da451330e4d776",
+      "title": "Smashing Security podcast #446: A hacker doxxes himself, and social engineering-as-a-service",
+      "description": "A teenage cybercriminal posts a smug screenshot to mock a sextortion scammer... and accidentally hands over the keys to his real-world identity. Meanwhile, we look into the crystal ball for 2026 and consider how stolen data is now the jet fuel of cybercrime – and how next year could be even nastier than 2025. Plus, Graham rants about recipe sites that won’t shut up, and there's even more love for Lily Allen's album \"West End Girl\" album. All this and more is discussed in episode 446 of the \"Smas",
+      "url": "https://grahamcluley.com/smashing-security-podcast-446/",
+      "source": "Graham Cluley",
+      "author": "Graham Cluley",
+      "published": "2025-12-04T00:30:56+00:00",
       "niche": "security",
-      "score": 54,
+      "score": 55,
       "keywords": [
-        "phishing",
-        "injection",
-        "attack",
-        "malware"
+        "security",
+        "XXE"
       ]
     },
     {
@@ -2503,8 +2550,8 @@
       "score": 51,
       "keywords": [
         "vulnerability",
-        "disclosure",
-        "patch"
+        "patch",
+        "disclosure"
       ]
     },
     {
@@ -2518,9 +2565,9 @@
       "niche": "security",
       "score": 51,
       "keywords": [
-        "attack",
+        "security",
         "exploit",
-        "security"
+        "attack"
       ]
     },
     {
@@ -2534,9 +2581,9 @@
       "niche": "security",
       "score": 51,
       "keywords": [
-        "attack",
+        "security",
         "exploit",
-        "security"
+        "attack"
       ]
     },
     {
@@ -2776,6 +2823,32 @@
       ]
     },
     {
+      "id": "e0d7377bb7404ecb",
+      "title": "'ShadyPanda' Hackers Weaponize Millions of Browsers",
+      "description": "The China-based cyber-threat group has been quietly using malicious extensions on the Google Chrome and Microsoft Edge marketplaces to spy on millions of users.",
+      "url": "https://www.darkreading.com/endpoint-security/shadypanda-hackers-weaponize-browsers",
+      "source": "Dark Reading",
+      "author": "Jai Vijayan, Contributing Writer",
+      "published": "2025-12-03T22:06:56+00:00",
+      "niche": "security",
+      "score": 50,
+      "keywords": [
+        "threat"
+      ]
+    },
+    {
+      "id": "e1393039d1ad1835",
+      "title": "Why Does Have I Been Pwned Contain \"Fake\" Email Addresses?",
+      "description": "Normally, when someone sends feedback like this, I ignore it, but it happens often enough that it deserves an explainer, because the answer is really, really simple. So simple, in fact, that it should be evident to the likes of Bruce, who decided his misunderstanding deserved a 1-star Trustpilot review",
+      "url": "https://www.troyhunt.com/why-does-have-i-been-pwned-contain-fake-email-addresses/",
+      "source": "Troy Hunt",
+      "author": "Troy Hunt",
+      "published": "2025-12-03T23:37:06+00:00",
+      "niche": "security",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "68c9b29f2c5427b6",
       "title": "[Dark Reading Virtual Event] Cybersecurity Outlook 2026",
       "description": "",
@@ -2820,6 +2893,21 @@
         "threat",
         "cybersecurity",
         "security"
+      ]
+    },
+    {
+      "id": "559b7874623819f6",
+      "title": "GISEC GLOBAL 2026 – The Middle East & Africa’s Largest Cybersecurity Event",
+      "description": "",
+      "url": "https://www.darkreading.com/events/gisec-global",
+      "source": "Dark Reading",
+      "author": "Inconnu",
+      "published": "2026-05-05T11:00:00+00:00",
+      "niche": "security",
+      "score": 49,
+      "keywords": [
+        "security",
+        "cybersecurity"
       ]
     },
     {
@@ -2923,8 +3011,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "RCE",
-        "security"
+        "security",
+        "RCE"
       ]
     },
     {
@@ -3264,10 +3352,10 @@
       "niche": "security",
       "score": 43,
       "keywords": [
+        "security",
         "secure",
         "OWASP",
-        "RCE",
-        "security"
+        "RCE"
       ]
     },
     {
@@ -3901,9 +3989,9 @@
       "niche": "security",
       "score": 42,
       "keywords": [
+        "security",
         "OWASP",
-        "RCE",
-        "security"
+        "RCE"
       ]
     },
     {
@@ -4028,10 +4116,10 @@
       "niche": "security",
       "score": 37,
       "keywords": [
-        "OWASP",
-        "threat",
+        "security",
         "web application security",
-        "security"
+        "OWASP",
+        "threat"
       ]
     },
     {
@@ -4073,10 +4161,10 @@
       "niche": "security",
       "score": 34,
       "keywords": [
-        "OWASP",
-        "threat",
+        "security",
         "cybersecurity",
-        "security"
+        "OWASP",
+        "threat"
       ]
     },
     {
@@ -4102,9 +4190,9 @@
       "niche": "security",
       "score": 31,
       "keywords": [
-        "threat",
+        "secure",
         "RCE",
-        "secure"
+        "threat"
       ]
     },
     {
@@ -4118,9 +4206,9 @@
       "niche": "security",
       "score": 31,
       "keywords": [
+        "security",
         "secure",
-        "OWASP",
-        "security"
+        "OWASP"
       ]
     },
     {
@@ -4148,8 +4236,8 @@
       "niche": "security",
       "score": 30,
       "keywords": [
-        "RCE",
-        "security"
+        "security",
+        "RCE"
       ]
     },
     {
@@ -4178,8 +4266,8 @@
       "niche": "security",
       "score": 30,
       "keywords": [
-        "exploit",
-        "security"
+        "security",
+        "exploit"
       ]
     },
     {
@@ -4193,8 +4281,8 @@
       "niche": "security",
       "score": 30,
       "keywords": [
-        "OWASP",
-        "security"
+        "security",
+        "OWASP"
       ]
     },
     {
@@ -4208,26 +4296,10 @@
       "niche": "security",
       "score": 29,
       "keywords": [
-        "ransomware",
-        "attack",
+        "security",
         "cybersecurity",
-        "security"
-      ]
-    },
-    {
-      "id": "5a2390b753e530ac",
-      "title": "Wind farm worker sentenced after turning turbines into a secret crypto mine",
-      "description": "A technical manager at a Dutch wind farm operator has been sentenced after it was discovered he had secretly installed cryptocurrency mining rigs at two wind farm sites - just as the company was recovering from a ransomware attack. Read more in my article on the Hot for Security blog.",
-      "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/wind-farm-worker-sentenced-after-turning-turbines-into-a-secret-crypto-mine",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2025-11-20T10:31:15+00:00",
-      "niche": "security",
-      "score": 28,
-      "keywords": [
-        "ransomware",
         "attack",
-        "security"
+        "ransomware"
       ]
     },
     {
@@ -4414,6 +4486,24 @@
       ]
     },
     {
+      "id": "1e9e2aaaf95b784f",
+      "title": "Smashing Security podcast #445: The hack that brought back the zombie apocalypse",
+      "description": "America's airwaves are haunted by zombies again, as we dig into a decade of broadcasters leaving their hardware open to attack, giving hackers the chance to hijack TV shows, blast out fake emergency alerts, and even replace religious sermons with explicit furry podcasts. Meanwhile, we look at how a worker at a cybersecurity firm allegedly leaked internal information to a hacking gang - raising big questions about insider threats. Plus: Frankenstein on Netflix, Vine nostalgia, and why Barney the ",
+      "url": "https://grahamcluley.com/smashing-security-podcast-445/",
+      "source": "Graham Cluley",
+      "author": "Graham Cluley",
+      "published": "2025-11-27T00:34:24+00:00",
+      "niche": "security",
+      "score": 25,
+      "keywords": [
+        "cybersecurity",
+        "PoC",
+        "threat",
+        "security",
+        "attack"
+      ]
+    },
+    {
       "id": "54cdbba572486806",
       "title": "Shadow AI security breaches will hit 40% of all companies by 2030, warns Gartner",
       "description": "Shadow AI - the use of artificial intelligence tools by employees without a company's approval and oversight - is becoming a significant cybersecurity risk. Read more in my article on the Fortra blog.",
@@ -4424,9 +4514,9 @@
       "niche": "security",
       "score": 23,
       "keywords": [
-        "breach",
+        "security",
         "cybersecurity",
-        "security"
+        "breach"
       ]
     },
     {
@@ -4454,8 +4544,8 @@
       "niche": "security",
       "score": 21,
       "keywords": [
-        "penetration test",
-        "security"
+        "security",
+        "penetration test"
       ]
     },
     {
@@ -4469,8 +4559,8 @@
       "niche": "security",
       "score": 19,
       "keywords": [
-        "protection",
-        "security"
+        "security",
+        "protection"
       ]
     },
     {
@@ -4484,9 +4574,9 @@
       "niche": "security",
       "score": 19,
       "keywords": [
-        "PoC",
+        "security",
         "cybersecurity",
-        "security"
+        "PoC"
       ]
     },
     {
@@ -4500,8 +4590,8 @@
       "niche": "security",
       "score": 19,
       "keywords": [
-        "cybersecurity",
-        "security"
+        "security",
+        "cybersecurity"
       ]
     },
     {
@@ -4585,8 +4675,8 @@
       "niche": "security",
       "score": 18,
       "keywords": [
-        "malware",
-        "security"
+        "security",
+        "malware"
       ]
     },
     {
@@ -4600,8 +4690,8 @@
       "niche": "security",
       "score": 18,
       "keywords": [
-        "bug bounty",
-        "security"
+        "security",
+        "bug bounty"
       ]
     },
     {
@@ -4738,18 +4828,6 @@
       "source": "Troy Hunt",
       "author": "Troy Hunt",
       "published": "2025-10-27T09:09:21+00:00",
-      "niche": "security",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "9cb72fcc5c4fa3ec",
-      "title": "Weekly Update 474",
-      "description": "You&apos;re not going to believe this - the criminals that took the Qantas data ignored the injunction &#x1f62e; I know, I know, we&apos;re all a bit stunned that making crime illegal hasn&apos;t appeared to stop it, but here we are. Just before the time",
-      "url": "https://www.troyhunt.com/weekly-update-474/",
-      "source": "Troy Hunt",
-      "author": "Troy Hunt",
-      "published": "2025-10-20T07:09:27+00:00",
       "niche": "security",
       "score": 14,
       "keywords": []
