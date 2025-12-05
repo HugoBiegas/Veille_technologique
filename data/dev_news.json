@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-05T01:59:43.912080+00:00",
-  "total_articles": 984,
+  "last_updated": "2025-12-05T03:53:58.657186+00:00",
+  "total_articles": 986,
   "articles": [
     {
       "id": "c609831d7def551c",
@@ -1225,23 +1225,6 @@
       ]
     },
     {
-      "id": "6c5ddc103a0ccfee",
-      "title": "The Skill That Separates Average Developers From Great Ones — And It’s Not Coding",
-      "description": "For a long time, I believed software development was all about writing good code clean, scalable, and efficient. I thought if I improved my coding skills, learned new frameworks, and solved more problems, everything else would fall into place. But as I grew in the field, one realization hit me harder than any bug I ever faced: Coding isn't the skill that separates average developers from great ones communication is. Many beginners and even intermediate developers spend years mastering syntax but",
-      "url": "https://dev.to/thebigwealth89/the-skill-that-separates-average-developers-from-great-ones-and-its-not-coding-3h76",
-      "source": "Dev.to",
-      "author": "Dabira olaoluwa",
-      "published": "2025-11-28T03:07:13+00:00",
-      "niche": "dev",
-      "score": 57,
-      "keywords": [
-        "code",
-        "framework",
-        "developer",
-        "development"
-      ]
-    },
-    {
       "id": "643f8fc5ae9c8f43",
       "title": "ERC 8004 and Trustless AI Agents",
       "description": "What ERC 8004 Tries To Solve AI agents need a way to identify themselves, prove what they did, and accumulate reputational history across different environments. Today this is fragmented. Each API or platform uses its own identity model, its own reputation rules, and its own trust signals. ERC 8004 proposes a shared framework so that autonomous agents can reliably interact across chains and systems. Identity Registry The standard introduces a common identity layer where each agent is represented",
@@ -1411,6 +1394,21 @@
       "keywords": [
         "API",
         "REST API"
+      ]
+    },
+    {
+      "id": "c4cdf2225ccac4b2",
+      "title": "Creating Laravel Artisan Command To Generate Model Repository Service Controller for each table automatically.",
+      "description": "Custom Artisan Command: Auto Generate Layers Run: php artisan make:command GenerateCrudFromDb Implement the Command Replace the file app/Console/Commands/GenerateCrudFromDb.php with: <?php namespace App\\Console\\Commands; use Illuminate\\Console\\Command; use Illuminate\\Support\\Facades\\DB; use Illuminate\\Support\\Facades\\File; use Illuminate\\Support\\Str; class GenerateCrudFromDb extends Command { protected $signature = 'generate:crud {--table=*}'; protected $description = 'Automatically generate Mod",
+      "url": "https://dev.to/macarthurgonde/creating-laravel-artisan-command-to-generate-model-repository-service-controller-for-each-3g55",
+      "source": "Dev.to",
+      "author": "macarthurgonde",
+      "published": "2025-12-05T03:15:08+00:00",
+      "niche": "dev",
+      "score": 57,
+      "keywords": [
+        "PHP",
+        "Laravel"
       ]
     },
     {
@@ -1659,21 +1657,6 @@
         "API",
         "development",
         "code"
-      ]
-    },
-    {
-      "id": "6c1fc24499d3e9f8",
-      "title": "AI Dominates Global Tech Landscape: From Chipsets and Scientific Ambitions to Job Market Shifts and Financial Markets.",
-      "description": "The Artificial Intelligence landscape is in rapid flux, touching everything from hardware innovation to the very definition of intelligence and its impact on the global economy and workforce. This post serves as a technical primer on recent developments: Hardware Advancements: Qualcomm's Snapdragon 8 Gen 5 platform is pushing the boundaries of mobile processing power and AI capabilities, crucial for edge AI applications. Cognitive AI Research: A significant study in Nature Human Behaviour questi",
-      "url": "https://dev.to/stelixx-insights/ai-dominates-global-tech-landscape-from-chipsets-and-scientific-ambitions-to-job-market-shifts-and-5f1o",
-      "source": "Dev.to",
-      "author": "Stelixx Insights",
-      "published": "2025-11-28T03:02:45+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "development",
-        "API"
       ]
     },
     {
@@ -2172,33 +2155,33 @@
       ]
     },
     {
-      "id": "1dd8572df525b31a",
-      "title": "Improve Performance with 64K Memory Pages on AWS Graviton Processors",
-      "description": "If you're running memory intensive workloads on AWS Graviton processors, you may want to investigate 64K pages. One commonly overlooked optimization is switching from the default 4K memory pages to 64K pages. This kernel configuration change can reduce memory management overhead and improve performance for some workloads. This article explains what memory pages are and shows how to switch between 4K and 64K pages on Ubuntu 24.04. What Are Memory Pages? Memory pages are the standardized container",
-      "url": "https://dev.to/aws-builders/improve-performance-with-64k-memory-pages-on-aws-graviton-processors-ifa",
+      "id": "2e6c9c72177712e5",
+      "title": "From Code Red to Reality Check: The Three Forces Defining AI's Next Chapter",
+      "description": "The AI industry entered December 2025 with headlines that paint a fascinating paradox: billion-dollar valuations alongside slashed sales targets, explosive user growth meeting commercial skepticism, and groundbreaking capabilities colliding with legal landmines. Behind the noise, three fundamental forces are reshaping what comes next. This isn't another listicle of AI announcements. Instead, let's decode the interconnected dynamics that explain why AI's trajectory is far more nuanced than either",
+      "url": "https://dev.to/ethan_zhang_e501fea89c25b/from-code-red-to-reality-check-the-three-forces-defining-ais-next-chapter-1342",
       "source": "Dev.to",
-      "author": "Jason Andrews",
-      "published": "2025-11-28T03:38:02+00:00",
+      "author": "Ethan Zhang",
+      "published": "2025-12-05T03:04:10+00:00",
       "niche": "dev",
-      "score": 54,
+      "score": 55,
       "keywords": [
-        "performance"
+        "API",
+        "code"
       ]
     },
     {
-      "id": "21ce1bc46e4b1785",
-      "title": "A Complete Guide to MongoDB for Developers (With Code Examples)",
-      "description": "MongoDB has become one of the most popular NoSQL databases in the world. Its flexible schema, JSON-like documents, and developer-friendly ecosystem make it a top choice for modern applications, from small side projects to large-scale enterprise systems. In this article, you will learn everything you need to know to get started with MongoDB, from installation to CRUD operations, indexes, aggregation, schema design, and best practices. 1. What Is MongoDB? MongoDB is a NoSQL document database that ",
-      "url": "https://dev.to/farhadrahimiklie/a-complete-guide-to-mongodb-for-developers-with-code-examples-k23",
+      "id": "7e5174c31b176052",
+      "title": "Hello World is Hard: Surviving the SGX Setup",
+      "description": "Welcome back to the Confidential Computing Chronicles. In last post, we discussed why you should be paranoid about your cloud provider. Today, we stop philosophizing and start typing. If you are a Python developer who complains when pip install takes more than 10 seconds, take a deep breath. Intel SGX (Software Guard Extensions) is not a library; it’s an architectural lifestyle change. Building a \"Hello World\" in SGX isn't just print(\"Hello\"). It involves: Checking if your CPU even supports it (",
+      "url": "https://dev.to/max_jiang/hello-world-is-hard-surviving-the-sgx-setup-4il9",
       "source": "Dev.to",
-      "author": "Farhad Rahimi Klie",
-      "published": "2025-11-28T03:08:55+00:00",
+      "author": "Max Jiang",
+      "published": "2025-12-05T03:00:50+00:00",
       "niche": "dev",
-      "score": 54,
+      "score": 55,
       "keywords": [
-        "code",
-        "best practices",
-        "developer"
+        "developer",
+        "library"
       ]
     },
     {
@@ -3262,21 +3245,6 @@
       ]
     },
     {
-      "id": "9ee0f179004111dd",
-      "title": "Small Languages, Big Impact: Building the Russian Version of Sentence Rewriter",
-      "description": "Recently, I worked on adding Russian support to my sentence rewriter. During development, I encountered several technical challenges, ranging from NLP model adaptation to text handling and front-end multilingual rendering. In this post, I’ll share practical solutions, code snippets, and lessons learned for anyone interested in small-language NLP projects. Why Russian? Most sentence rewriter focus on English, but Russian has unique grammatical structures and usage patterns. Supporting it isn’t ju",
-      "url": "https://dev.to/peggggykang/small-languages-big-impact-building-the-russian-version-of-sentence-rewriter-6ho",
-      "source": "Dev.to",
-      "author": "Peggy",
-      "published": "2025-11-28T03:14:46+00:00",
-      "niche": "dev",
-      "score": 52,
-      "keywords": [
-        "code",
-        "development"
-      ]
-    },
-    {
       "id": "2571272e22da9249",
       "title": "What the Data Says About Developer Skill Acceleration With AI Assistance",
       "description": "In 2026, developer skill growth isn’t just faster — it’s measurable. AI-assisted learning has introduced a level of acceleration that would’ve been impossible with traditional tutorials, bootcamps, or documentation-heavy workflows. Across teams, industries, and self-taught developers, the trend is the same: AI shrinks the time between “I don’t know this” and “I can ship this” — often by an order of magnitude. Coursiv’s microlearning system turns this acceleration into a structured, repeatable ha",
@@ -3639,31 +3607,18 @@
       ]
     },
     {
-      "id": "ada37c38b3a3d848",
-      "title": "What is the 40-20-40 Rule in Software Engineering?",
-      "description": "Here's a question I get from founders at least once a week: \"Why is my development team so slow?\" Usually, they're not slow. They're just drowning. Drowning in feature requests from customers who threaten to churn. Drowning in technical debt that's piling up. Drowning in half-baked ideas that might be brilliant or might be distractions. And somehow, they're supposed to ship the next big feature that'll unlock the next funding round. Welcome to startup engineering. Where everything is urgent, not",
-      "url": "https://dev.to/sociilabs/what-is-the-40-20-40-rule-in-software-engineering-2bok",
+      "id": "48315bb50f27c6ba",
+      "title": "Python for Beginners and Intermediate Developers — A Complete Guide",
+      "description": "Python is one of the most widely used programming languages in the world. Its clean syntax, massive ecosystem of packages, and versatility make it perfect for beginners and powerful enough for intermediate and advanced developers. In this article, you will learn Python step-by-step—from fundamentals to intermediate-level concepts—with fully explained examples you can copy, paste, and run. Why Python? Python is popular because it is: Beginner-friendly Easy to read and write Used in web developmen",
+      "url": "https://dev.to/farhadrahimiklie/python-for-beginners-and-intermediate-developers-a-complete-guide-e66",
       "source": "Dev.to",
-      "author": "Muhammad Arslan Aslam",
-      "published": "2025-11-28T03:39:01+00:00",
+      "author": "Farhad Rahimi Klie",
+      "published": "2025-12-05T03:22:22+00:00",
       "niche": "dev",
-      "score": 51,
+      "score": 52,
       "keywords": [
-        "development"
-      ]
-    },
-    {
-      "id": "4933cfd0dfbdf9ea",
-      "title": "Billiard Fractals: The Infinite Patterns Hidden in a Rectangle",
-      "description": "Complex systems often appear chaotic or incomprehensible, yet closer examination reveals that such complexity can frequently be reduced to a simple underlying mechanism. By systematically removing layers of emergent behavior, one can uncover a fundamental rule or equation from which the entire system originates. While the system described in this article may appear trivial at first glance, the resulting patterns exhibit quasi-fractal behavior that can be analyzed, encoded, and even predicted thr",
-      "url": "https://dev.to/xcontcom/billiard-fractals-the-infinite-patterns-hidden-in-a-rectangle-282l",
-      "source": "Dev.to",
-      "author": "Serhii Herasymov",
-      "published": "2025-11-28T03:05:30+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
+        "developer",
+        "programming"
       ]
     },
     {
@@ -5181,28 +5136,32 @@
       ]
     },
     {
-      "id": "004937dc7e924d67",
-      "title": "Red Queen Hypothesis and The Crescendo Jailbreak Attack Explained",
-      "description": "It takes all the running you can do, to keep in the same place When I think about safe guarding LLMs against attacks the paradigm that comes to mind is the Red Queen Hypothesis: The Red Queen hypothesis in evolutionary biology is a theory that species must constantly adapt, evolve, and proliferate in order to survive while pitted against ever-evolving opposing species. source How does a theory from Evolutionary Biology relate to modern day Artificial Intelligence attacks? In the wild, the prey c",
-      "url": "https://dev.to/arhodesvcu/red-queen-hypothesis-and-the-crescendo-jailbreak-attack-explained-2hdf",
+      "id": "6b79c338e3348580",
+      "title": "AWS re:Invent 2025 - Ericsson Innovation: Optimizing Mobile Networks & Unified Development with AWS",
+      "description": "🦄 Making great presentations more accessible. This project aims to enhances multilingual accessibility and discoverability while maintaining the integrity of original content. Detailed transcriptions and keyframes preserve the nuances and technical insights that make each session compelling. Overview 📖 AWS re:Invent 2025 - Ericsson Innovation: Optimizing Mobile Networks & Unified Development with AWS In this video, Christian Finelli and Ibrahim from AWS and Ericsson discuss how Ericsson transfor",
+      "url": "https://dev.to/kazuya_dev/aws-reinvent-2025-ericsson-innovation-optimizing-mobile-networks-unified-development-with-aws-23nb",
       "source": "Dev.to",
-      "author": "a.rhodes",
-      "published": "2025-11-28T03:30:59+00:00",
+      "author": "Kazuya",
+      "published": "2025-12-05T03:38:48+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "development"
+      ]
     },
     {
-      "id": "f98966db181f654f",
-      "title": "Quality Management Plan Errors That Risk Your Project (And How to Fix Them)",
-      "description": "A Quality Management Plan is often introduced early in project planning, but many teams treat it as a static document instead of a living system for controlling and improving quality. This is where problems begin. A weak or incomplete Quality Management Plan creates gaps that are eventually felt through defects, miscommunication, cost overruns or dissatisfied stakeholders. In project management, these consequences are expensive and difficult to reverse. A clear and detailed Quality Management Pl",
-      "url": "https://dev.to/taskford/quality-management-plan-errors-that-risk-your-project-and-how-to-fix-them-3bka",
+      "id": "79f8c1dbed179589",
+      "title": "Start with a Gravel Road: Why MVPs Beat 12‑Lane Highways",
+      "description": "Building software is like traveling between destinations. In our case, it’s traveling from Problem City to New Solution. The software is the road that connects the two. But too often I see developers trying to build a 12‑lane interstate before they even know if the road reaches the right destination! (If you’re not familiar with roadwork: building an interstate highway can take months or even years, requires tons of planning and manpower, costs a fortune, and disrupts pretty much everyone around",
+      "url": "https://dev.to/wraith/start-with-a-gravel-road-why-mvps-beat-12-lane-highways-2mdk",
       "source": "Dev.to",
-      "author": "TaskFord",
-      "published": "2025-11-28T03:06:58+00:00",
+      "author": "Jake Lundberg",
+      "published": "2025-12-05T03:23:04+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
       "id": "407525ba069abc9d",
@@ -8085,6 +8044,54 @@
       "keywords": []
     },
     {
+      "id": "f65a2c51575f2071",
+      "title": "How I Built Professor Doom - A Spooky Resume Roaster Using Kiro",
+      "description": "So here's the thing - I don't really have a coding background. I've been messing around with various vibe-coding platforms for a few months now, just trying to build stuff and see what sticks. Some worked out, most didn't. But I kept at it because honestly, there's something addictive about describing what you want and watching it come to life. When I heard about the Kiroween Hackathon, I thought why not give it a shot? Halloween theme, AI coding assistant, seemed like a fun combo. I didn't know",
+      "url": "https://dev.to/shuvodip99/how-i-built-professor-doom-a-spooky-resume-roaster-using-kiro-1li",
+      "source": "Dev.to",
+      "author": "Shuvodip Ray",
+      "published": "2025-12-05T03:41:38+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "3240ec5c7f058723",
+      "title": "How to Implement LLM Grounding using Retrieval Augmented Generation Technique(RAG)",
+      "description": "Introduction Nowadays, when you prompt ChatGPT for information not part of its training data, it will search the web to retrieve it, use it in context, and return an appropriate response. Grounding is when Large Language Models(LLMs) use domain-specific information and data to generate accurate and relevant output. This article will examine LLM grounding using the RAG technique. ​ Importance of LLM grounding This section highlights the importance of LLM grounding. The importance of LLM grounding",
+      "url": "https://dev.to/eyitayoitalt/how-to-implement-llm-grounding-using-retrieval-augmented-generation-techniquerag-1m2p",
+      "source": "Dev.to",
+      "author": "Eyitayo Itunu Babatope",
+      "published": "2025-12-05T03:30:11+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "078882856a750c04",
+      "title": "Applying CIS Hardening for Linux Servers Using Ansible Automation",
+      "description": "Introduction As organizations continue to scale their digital infrastructure, security has become a top priority—especially for large enterprises and regulated industries such as healthcare, finance, and government. Linux remains one of the most widely used operating systems for server workloads, and applying security hardening is essential to protect mission-critical systems from vulnerabilities, misconfigurations, and attacks. The Center for Internet Security (CIS) provides one of the most wid",
+      "url": "https://dev.to/balaramakrishna_alti_3fc/applying-cis-hardening-for-linux-servers-using-ansible-automation-352c",
+      "source": "Dev.to",
+      "author": "Balaramakrishna Alti",
+      "published": "2025-12-05T03:18:43+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "5048407ea9ceac3b",
+      "title": "Unit vs Integration vs E2E Testing : Understand in 3 Minutes",
+      "description": "Problem Statement Choosing the right type of test is about deciding what you're testing—a single function, a group of components talking to each other, or the entire application from a user's perspective. You encounter this problem daily when a bug slips into production, a \"simple\" change breaks something unexpected, or your test suite takes an hour to run, slowing down your entire team's progress. Core Explanation Think of testing like building a car. You test each part individually, then see i",
+      "url": "https://dev.to/hongster85/unit-vs-integration-vs-e2e-testing-understand-in-3-minutes-4pin",
+      "source": "Dev.to",
+      "author": "Hongster",
+      "published": "2025-12-05T02:54:53+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "0dd264f5f115f5a6",
       "title": "Learn R Programming from Harvard University",
       "description": "Harvard University creates amazing beginner computer science courses. We just released Harvard CS50’s introduction to programming using a language called R, a popular language for statistical computing and graphics in data science and other domains. ...",
@@ -8096,20 +8103,6 @@
       "score": 49,
       "keywords": [
         "release",
-        "programming"
-      ]
-    },
-    {
-      "id": "dbe572b89859f0f3",
-      "title": "[Boost]",
-      "description": "What is the 40-20-40 Rule in Software Engineering? Muhammad Arslan Aslam for SociiLabs LLC ・ Nov 28 #startup #softwareengineering #programming #career",
-      "url": "https://dev.to/arximughal/-4f4a",
-      "source": "Dev.to",
-      "author": "Muhammad Arslan Aslam",
-      "published": "2025-11-28T03:44:54+00:00",
-      "niche": "dev",
-      "score": 48,
-      "keywords": [
         "programming"
       ]
     },
@@ -8467,28 +8460,18 @@
       ]
     },
     {
-      "id": "f476049eb5d7792e",
-      "title": "Pocketbase – open-source realtime back end in 1 file",
+      "id": "88674786cf7603c4",
+      "title": "AV1: A Modern, Open Codec",
       "description": "Comments",
-      "url": "https://pocketbase.io/",
+      "url": "https://netflixtechblog.com/av1-now-powering-30-of-netflix-streaming-02f592242d80",
       "source": "Hacker News",
       "author": "Inconnu",
-      "published": "2025-11-28T03:45:04+00:00",
+      "published": "2025-12-05T00:09:57+00:00",
       "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "f5f0d958c3cb4f79",
-      "title": "China's BEV Trucks and the End of Diesel's Dominance",
-      "description": "Comments",
-      "url": "https://cleantechnica.com/2025/11/26/chinas-bev-trucks-and-the-end-of-diesels-dominance/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-28T03:40:52+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
+      "score": 45,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "13aafb1066fe150b",
@@ -10583,6 +10566,42 @@
       "keywords": []
     },
     {
+      "id": "0abd2ce6cd72d275",
+      "title": "BMW PHEV: Safety fuse replacement is extremely expensive",
+      "description": "Comments",
+      "url": "https://evclinic.eu/2025/12/04/2021-phev-bmw-ibmucp-21f37e-post-crash-recovery-when-eu-engineering-becomes-a-synonym-for-unrepairable-generating-waste/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-05T01:05:57+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "3bb40e16b589982a",
+      "title": "NeurIPS 2025 Best Paper Awards",
+      "description": "Comments",
+      "url": "https://blog.neurips.cc/2025/11/26/announcing-the-neurips-2025-best-paper-awards/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-05T01:15:42+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "04be9d501c96becb",
+      "title": "How Brussels writes so many laws",
+      "description": "Comments",
+      "url": "https://www.siliconcontinent.com/p/how-brussels-writes-so-many-laws",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-05T01:39:24+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "3bea7f8846dcd34d",
       "title": "Color Contrast and Web Accessibility",
       "description": "Understand color contrast for web accessibility. WCAG standards, testing tools, and best practices to make your website inclusive and accessible. Continue reading Color Contrast and Web Accessibility on SitePoint.",
@@ -10619,8 +10638,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "performance",
-        "React 19"
+        "React 19",
+        "performance"
       ]
     },
     {
@@ -10710,8 +10729,8 @@
       "niche": "dev",
       "score": 39,
       "keywords": [
-        "developer",
         "best practices",
+        "developer",
         "development",
         "performance"
       ]
@@ -10847,9 +10866,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "API",
         "release",
-        "React 19"
+        "React 19",
+        "API"
       ]
     },
     {
@@ -11061,11 +11080,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "performance",
+        "code",
         "framework",
-        "API",
         "release",
-        "code"
+        "performance",
+        "API"
       ]
     },
     {
@@ -11128,9 +11147,9 @@
       "score": 28,
       "keywords": [
         "release",
+        "library",
         "framework",
-        "Angular",
-        "library"
+        "Angular"
       ]
     },
     {
@@ -11434,8 +11453,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "API",
-        "release"
+        "release",
+        "API"
       ]
     },
     {
@@ -11449,8 +11468,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "framework",
-        "release"
+        "release",
+        "framework"
       ]
     },
     {
@@ -11480,8 +11499,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "framework",
-        "development"
+        "development",
+        "framework"
       ]
     },
     {
@@ -11510,8 +11529,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -11637,8 +11656,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "programming",
-        "developer"
+        "developer",
+        "programming"
       ]
     },
     {
@@ -11985,8 +12004,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "programming",
-        "development"
+        "development",
+        "programming"
       ]
     },
     {
