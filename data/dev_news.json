@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-05T09:27:44.391473+00:00",
-  "total_articles": 990,
+  "last_updated": "2025-12-05T12:52:47.155322+00:00",
+  "total_articles": 983,
   "articles": [
     {
       "id": "c609831d7def551c",
@@ -324,20 +324,6 @@
       ]
     },
     {
-      "id": "acddee021fa6c387",
-      "title": "Nested Checkox - React Interview",
-      "description": "// App.js (React, CodeSandbox-ready) // Nested checkboxes with parent/child sync and indeterminate states. import React from \"react\"; // ----- Sample tree data ----- const tree = { id: \"a\", label: \"A\", children: [ { id: \"a1\", label: \"A1\" }, { id: \"a2\", label: \"A2\", children: [ { id: \"a21\", label: \"A2.1\" }, { id: \"a22\", label: \"A2.2\" }, ], }, ], }; // ----- Utilities ----- function visit(node, fn) { fn(node); node.children?.forEach((c) => visit(c, fn)); } function initState(root) { const s = {}; ",
-      "url": "https://dev.to/zeeshanali0704/nested-checkox-react-interview-145p",
-      "source": "Dev.to",
-      "author": "ZeeshanAli-0704",
-      "published": "2025-11-28T12:25:51+00:00",
-      "niche": "dev",
-      "score": 69,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
       "id": "8833492e73bc561c",
       "title": "React's Render Pipeline: A Deep Dive From JSX to the Screen",
       "description": "How does React transform this code into a visible, interactive interface on the screen? What really happens behind the scenes? This article provides a deep dive into React's complete rendering pipeline, step by step. We'll use the mental model of a simplified React implementation (like a \"mini-react\") to understand its core mechanics. 1. The Render Pipeline at a Glance 🏭 Think of React's render pipeline as a factory assembly line: Raw Materials: Your JSX code. Initial Processing: It's converted ",
@@ -420,18 +406,6 @@
       "keywords": [
         "development"
       ]
-    },
-    {
-      "id": "9da43f9657156756",
-      "title": "useState in React Hook",
-      "description": "updating the screen: first you import the useState import { useState } from 'react'; your component to “remember” some information and display it. declare a state variable inside your component: function MyButton() { const [count, setCount] = useState(0); initial state of count is 0 if you change the state use setCount function MyButton() { const [count, setCount] = useState(0); function handleClick() { setCount(count + 1); } return ( <button onClick={handleClick}> Clicked {count} times </button",
-      "url": "https://dev.to/bharath_11/usestate-in-react-hook-43bd",
-      "source": "Dev.to",
-      "author": "Bharath kumar",
-      "published": "2025-11-28T12:09:34+00:00",
-      "niche": "dev",
-      "score": 68,
-      "keywords": []
     },
     {
       "id": "7d4d2ad169203ba7",
@@ -657,6 +631,21 @@
       "score": 66,
       "keywords": [
         "performance"
+      ]
+    },
+    {
+      "id": "83ff8fee975107f7",
+      "title": "Master Server-Sent Events (SSE) in Symfony 7.4",
+      "description": "I often see teams reach for WebSockets (via Socket.io or Pusher) when they simply need to update a UI with server-side state changes. While WebSockets are powerful, they are often overkill. If your requirement is unidirectional (Server → Client) — like stock tickers, progress bars, or notification feeds — Server-Sent Events (SSE) is the protocol you should master. SSE runs over standard HTTP/1.1 or HTTP/2. It doesn’t require complex handshakes, works with standard authentication mechanisms and n",
+      "url": "https://dev.to/mattleads/master-server-sent-events-sse-in-symfony-74-15co",
+      "source": "Dev.to",
+      "author": "Matt Mochalkin",
+      "published": "2025-12-05T12:11:33+00:00",
+      "niche": "dev",
+      "score": 66,
+      "keywords": [
+        "Symfony 7",
+        "Symfony"
       ]
     },
     {
@@ -3161,6 +3150,20 @@
       ]
     },
     {
+      "id": "dc49b4af44a6dc28",
+      "title": "AWS re:Invent 2025 - Optimize for AWS with intelligent automation (AIM235)",
+      "description": "🦄 Making great presentations more accessible. This project aims to enhances multilingual accessibility and discoverability while maintaining the integrity of original content. Detailed transcriptions and keyframes preserve the nuances and technical insights that make each session compelling. Overview 📖 AWS re:Invent 2025 - Optimize for AWS with intelligent automation (AIM235) In this video, the session explores performance and cost challenges of Agentic AI workloads in AWS and hybrid cloud envir",
+      "url": "https://dev.to/kazuya_dev/aws-reinvent-2025-optimize-for-aws-with-intelligent-automation-aim235-1edj",
+      "source": "Dev.to",
+      "author": "Kazuya",
+      "published": "2025-12-05T12:19:23+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "performance"
+      ]
+    },
+    {
       "id": "c442eb4bf319bc8e",
       "title": "Downloads Stalling? Not Anymore. Developing Retry Maniac for Chrome",
       "description": "I'm a Python developer who takes pride in writing code that's more readable and less ambiguous or failure prone. Therefore, it was a never-before seen adventure for me, a journey of treading unknown terrains of JavaScript to get this extension working. Now, as for the motive that lead to this moment, I was downloading some large files from sites online as a part of my research, and I was disappointed to see that the native download manager wouldn't handle downloads for my use case right. I mean,",
@@ -3520,62 +3523,6 @@
       "keywords": [
         "developer",
         "programming"
-      ]
-    },
-    {
-      "id": "23be01be8504c9da",
-      "title": "How Vibe Coding Changed my Development Workflow",
-      "description": "Intro In this article, I walk through the process of building Phantom Pulse, highlighting how I used AI tools for planning and development. I share insights from exploring the LLM landscape, as well as the mistakes I made along the way. At the end of the article, I provide feedback and links to each tool I used, along with a brief explanation of my classification. Why build Phantom Pulse (with AI?) After being unexpectedly fired for the first time, I went to a remote location in Portugal's inter",
-      "url": "https://dev.to/davidmorais/how-vibe-coding-changed-my-development-workflow-38gb",
-      "source": "Dev.to",
-      "author": "David  Morais",
-      "published": "2025-11-28T12:37:05+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "development"
-      ]
-    },
-    {
-      "id": "8327faa653c0f83a",
-      "title": "Java String Ceiling: What It Is & How to Implement It | CoderCrafter",
-      "description": "Java String Ceil(): The Method That Doesn't Exist (And How to Build Your Own ) Alright, let's talk about something that trips up a lot of Java newbies and even some seasoned devs who are having a long day. You're coding away, deep in the zone, and you get this brainwave: \"I need to find the ceiling of a string.\" You instinctively type \"someText\".ceil() and... nothing. Your IDE stares back at you with a red squiggly line of disapproval. Wait, what? There's no ceil() method for strings in Java? Yo",
-      "url": "https://dev.to/satyam_gupta_0d1ff2152dcc/java-string-ceiling-what-it-is-how-to-implement-it-codercrafter-3iik",
-      "source": "Dev.to",
-      "author": "Satyam Gupta",
-      "published": "2025-11-28T12:35:37+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "523e2c5de2aaf4d1",
-      "title": "My Journey From No-Code to Real Product Design",
-      "description": "My Journey From No-Code to Real Product Design When I first started building things, I wasn’t writing code. No JavaScript. No React. No Tailwind. Nothing. I began with no-code tools — simple drag-and-drop platforms that helped me bring ideas to life without touching a text editor. And looking back, that phase was more important than I realized. This is the story of how no-code gave me the confidence to create, and how that journey slowly pushed me toward UI design, and eventually into real devel",
-      "url": "https://dev.to/vidya_trikon_tech/my-journey-from-no-code-to-real-product-design-29gj",
-      "source": "Dev.to",
-      "author": "Vidya",
-      "published": "2025-11-28T12:20:20+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "551e226dc711457c",
-      "title": "Vue tricks: smart layouts for VueJS",
-      "description": "Mastering layouts in Vue.js is a milestone that separates beginners from intermediate developers. When you first start, you likely wrap every page in a <NavBar> and <Footer> component. It works, but it’s repetitive and destroys component state every time you navigate. This guide explores \"Smart Layouts\", a set of patterns that make your Vue application more maintainable, performant, and capable of advanced behaviors like persistent state (think Spotify’s audio player that doesn't stop when you c",
-      "url": "https://dev.to/nickpe/vue-tricks-smart-layouts-for-vuejs-8d5",
-      "source": "Dev.to",
-      "author": "Nick Peterson",
-      "published": "2025-11-28T12:14:13+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "developer"
       ]
     },
     {
@@ -5037,52 +4984,46 @@
       ]
     },
     {
-      "id": "15de215f7e7e818a",
-      "title": "Java copySign() Method: Your Guide to Sign Manipulation",
-      "description": "Java copySign() Method: Finally, Take Control of Your Number's Sign Alright, let's talk about one of those \"hidden gem\" methods in Java that doesn't get the spotlight it deserves. We're diving deep into Math.copySign(). Ever been in a situation where you have a number, and you need its magnitude (the value without the sign) but with the sign of another number? If you've ever tried to do this manually with if conditions and multiplication, you know it's clunky. It's one of those things that makes",
-      "url": "https://dev.to/satyam_gupta_0d1ff2152dcc/java-copysign-method-your-guide-to-sign-manipulation-1k2i",
+      "id": "d3c988b96e47c448",
+      "title": "Implement Noise Suppression in JavaScript",
+      "description": "Noise suppression can significantly improve the audio quality in any web app. This tutorial shows how to integrate the Koala Noise Suppression Web SDK from Picovoice and run speech enhancement directly in the browser. Since processing happens on-device, audio never leaves the user's machine, keeping voice data private with low latency. What You'll Build A simple webpage that accesses the microphone and applies Koala's noise-suppression model. This serves as a foundation for building voice chat t",
+      "url": "https://dev.to/khushi_nakra_eb3cba0ef3b5/real-time-noise-suppression-in-javascript-2o18",
       "source": "Dev.to",
-      "author": "Satyam Gupta",
-      "published": "2025-11-28T12:38:56+00:00",
+      "author": "Khushi Nakra",
+      "published": "2025-12-05T12:18:50+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "tutorial"
+      ]
     },
     {
-      "id": "e5ceed52727026b9",
-      "title": "Amazon Quick Suite : Quick Flow and Quick Research",
-      "description": "REQUIREMENTS : AWS account, you can sign up/sign in here Amazon Quick Suite : Integration and Extension blog, you can see this blog A. Amazon Quick Suite : Quick Flow PROBLEM : Manual check CV screening need more time, human bias (name, gender, age) then unfair decision and CV format are different. SOLUTION : Automated CV screening system that extracts candidate information, scores against job requirements, and conditionally sends interview questions to Slack and interview email to Gmail OR reje",
-      "url": "https://dev.to/budionosan/amazon-quick-suite-quick-flow-and-quick-research-15li",
+      "id": "54b712e752ea8dc5",
+      "title": "Js in loop",
+      "description": "Loop: Loops in JavaScript are used to reduce repetitive tasks by repeatedly executing a block of code as long as a specified condition is true. 1. for Loop The for loop repeats a block of code a specific number of times. It contains initialization, condition, and increment/decrement in one line. for (let i = 1; i <= 3; i++) { console.log(\"Count:\", i); } for in loop: The for-in loop iterates over the enumerable keys of an object. const person = { name: \"Alice\", age: 22, city: \"Delhi\" }; for (let ",
+      "url": "https://dev.to/bharath_11/js-in-loop-14e0",
       "source": "Dev.to",
-      "author": "Budiono Santoso",
-      "published": "2025-11-28T12:32:56+00:00",
+      "author": "Bharath kumar",
+      "published": "2025-12-05T12:17:18+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
-      "id": "82d42a98a31e405b",
-      "title": "🚀 From Scattered Scripts to Product Hunt Launch: My Journey Building the Professional Automation Toolkit",
-      "description": "🚀 From Scattered Scripts to Product Hunt Launch: My Journey Building the Professional Automation Toolkit 🌱 The Beginning Six months ago, I was staring at a folder full of chaos: 30+ automation scripts scattered across directories. They were useful in isolation, but together they felt like nonsense—no consistent CLI patterns, no error handling, no documentation, and no way to chain them into something bigger. I knew there was potential, but I didn’t know how to turn it into a product. 🔧 The Trans",
-      "url": "https://dev.to/dopaminefiend/from-scattered-scripts-to-product-hunt-launch-my-journey-building-the-professional-automation-6b8",
+      "id": "927b04cc6882983f",
+      "title": "How AWS Kiro Was Used to Build DreamWeen",
+      "description": "Project: DreamWeen - AI-Powered Dream Visualization Platform Challenge: Kiroween Hackathon 2025 Category: Costume Contest Development Period: October - December 2025 Executive Summary DreamWeen was built entirely using Kiro, an AI-powered IDE that transformed the development process from concept to production-ready application. This document provides concrete examples of how Kiro's unique features—Spec-Driven Development, Steering Docs, Agent Hooks, MCP Servers, and Vibe Coding—were leveraged to",
+      "url": "https://dev.to/jeanmarc_bah_474aa3fc1b6/how-aws-kiro-was-used-to-build-dreamween-2nmh",
       "source": "Dev.to",
-      "author": "Kurt Warner",
-      "published": "2025-11-28T12:25:55+00:00",
+      "author": "Jean-Marc Bah",
+      "published": "2025-12-05T12:10:40+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "bec4555b0fb57b6c",
-      "title": "Explore Private Plane Charter Benefits With First Book Never Miss",
-      "description": "Traveling by air can be stressful. Long check-ins, security lines, and delays often make trips exhausting. For those who value time, comfort, and convenience, private plane charter is an ideal solution. Anmar Aviation, a trusted provider in Australia, offers a range of private aviation services that cater to business, government, and personal travel needs. From corporate charter flights to luxury private jets, there are many benefits to choosing private plane travel. Flexibility for FIFO Charter",
-      "url": "https://dev.to/anmaraviation/explore-private-plane-charter-benefits-with-first-book-never-miss-5930",
-      "source": "Dev.to",
-      "author": "Anmar Aviation",
-      "published": "2025-11-28T12:03:19+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "development"
+      ]
     },
     {
       "id": "068bfa7701573a45",
@@ -8049,6 +7990,54 @@
       "keywords": []
     },
     {
+      "id": "40f732cc84270381",
+      "title": "AWS re:Invent 2025 - New Era of Platform Engineering – Agentic AI-Powered Self-Service (AIM359)",
+      "description": "🦄 Making great presentations more accessible. This project aims to enhances multilingual accessibility and discoverability while maintaining the integrity of original content. Detailed transcriptions and keyframes preserve the nuances and technical insights that make each session compelling. Overview 📖 AWS re:Invent 2025 - New Era of Platform Engineering – Agentic AI-Powered Self-Service (AIM359) In this video, Ruslan Kusov, Cloud COE Director at SoftServe and AWS Ambassador, presents how platfo",
+      "url": "https://dev.to/kazuya_dev/aws-reinvent-2025-new-era-of-platform-engineering-agentic-ai-powered-self-service-aim359-hii",
+      "source": "Dev.to",
+      "author": "Kazuya",
+      "published": "2025-12-05T12:34:23+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "f65399384b08e015",
+      "title": "✨ FSCSS Quick Tip — Using Arrays the Smart Way",
+      "description": "FSCSS gives CSS superpowers, and one of my favorite features is how it handles arrays. They make your styles more organized, reusable, and cleaner — without needing JavaScript. Today, here’s a very short example showing two ways to create arrays in FSCSS. 🥇 1. Using the $array Variable You can declare an array using variables and then convert it into an FSCSS array: $array: a[2,3,4]; @arr($array!) exec(_log, \"@arr.a\") /* 2 3 4 */ @arr() registers the array, and exec(_log, ...) prints it to the c",
+      "url": "https://dev.to/fscss/fscss-quick-tip-using-arrays-the-smart-way-dmi",
+      "source": "Dev.to",
+      "author": "FSCSS tutorial",
+      "published": "2025-12-05T12:17:22+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "1d08061dc2ecaafa",
+      "title": "Transformando WordPress en una Herramienta Sostenible: Plugins y Configuraciones Eco-Amigables",
+      "description": "En la era de la transformación digital, el impacto ambiental de la tecnología es un tema que debe ser considerado seriamente. Las plataformas de creación de sitios web, como WordPress, no son una excepción a esto. En este sentido, es posible implementar una serie de plugins y configuraciones que hacen de WordPress una herramienta más sostenible, contribuyendo a la reducción de la huella digital de nuestro sitio web. Primero, es importante tener en cuenta que el consumo de energía de un sitio web",
+      "url": "https://dev.to/lontafara/transformando-wordpress-en-una-herramienta-sostenible-plugins-y-configuraciones-eco-amigables-25je",
+      "source": "Dev.to",
+      "author": "lontafara",
+      "published": "2025-12-05T12:15:15+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "3e452a14ede0457b",
+      "title": "Efecto copos de nieve para dar a nuestra web un toque navideño",
+      "description": "Hola, hoy os traigo un pequeño script que acabo de generar (si, si, con la ayuda inestimable de la IA, en este caso, Chat-GPT 5.1). Con este script tendremos en cualquier página un efecto de copos de nieve cayendo muy chulo, y sin añadir ninguna librería externa, es super ligero. <script> document.addEventListener(\"DOMContentLoaded\", () => { const css = ` .snowflake { position: fixed; top: -10px; color: white; font-size: 1em; pointer-events: none; animation: fall linear infinite; } @keyframes fa",
+      "url": "https://dev.to/drodero/efecto-copos-de-nieve-para-dar-a-nuestra-web-un-toque-navideno-3j01",
+      "source": "Dev.to",
+      "author": "Diego",
+      "published": "2025-12-05T12:11:43+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "0dd264f5f115f5a6",
       "title": "Learn R Programming from Harvard University",
       "description": "Harvard University creates amazing beginner computer science courses. We just released Harvard CS50’s introduction to programming using a language called R, a popular language for statistical computing and graphics in data science and other domains. ...",
@@ -8293,6 +8282,18 @@
       "keywords": []
     },
     {
+      "id": "2280c0d62e7691dc",
+      "title": "Getting a NO from an open source maintainer",
+      "description": "You think you're immune from rejections in reallife, zen and all, but getting a big NO from an opensource maintainer always hits differently",
+      "url": "https://dev.to/sean_k_3986f74eac06354e59/getting-a-no-from-an-open-source-maintainer-5b5j",
+      "source": "Dev.to",
+      "author": "Sean K",
+      "published": "2025-12-05T12:35:47+00:00",
+      "niche": "dev",
+      "score": 46,
+      "keywords": []
+    },
+    {
       "id": "6741887a421a91b5",
       "title": "Confessions of a Software Developer: No More Self-Censorship",
       "description": "Comments",
@@ -8405,66 +8406,6 @@
       ]
     },
     {
-      "id": "33bf580bd3352a81",
-      "title": "EU Council Approves New \"Chat Control\" Mandate Pushing Mass Surveillance",
-      "description": "Comments",
-      "url": "https://reclaimthenet.org/eu-council-approves-new-chat-control-mandate-pushing-mass-surveillance",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-28T10:36:08+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "9230ed48ede910dc",
-      "title": "The mysterious black fungus from Chernobyl that may eat radiation",
-      "description": "Comments",
-      "url": "https://www.bbc.com/future/article/20251125-the-mysterious-black-fungus-from-chernobyl-that-appears-to-eat-radiation",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-28T12:17:15+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "10a2b0cd8460d248",
-      "title": "A Repository with 44 Years of Unix Evolution",
-      "description": "Comments",
-      "url": "https://www.spinellis.gr/pubs/conf/2015-MSR-Unix-History/html/Spi15c.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-28T09:32:38+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "1d529a0ad45d0590",
-      "title": "A Tale of Four Fuzzers",
-      "description": "Comments",
-      "url": "https://tigerbeetle.com/blog/2025-11-28-tale-of-four-fuzzers/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-28T12:11:39+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "c2269c58b0be3c9f",
-      "title": "Google denies 'misleading' reports of Gmail using your emails to train AI",
-      "description": "Comments",
-      "url": "https://www.theverge.com/news/826902/gmail-ai-training-data-opt-out",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-28T10:38:41+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
       "id": "f78046620fa6fe78",
       "title": "Petition to formally recognize open source work as civic service in Germany",
       "description": "Comments",
@@ -8472,18 +8413,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-11-28T14:08:14+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "9ed539af29ce532e",
-      "title": "A Remarkable Assertion from A16Z",
-      "description": "Comments",
-      "url": "https://nealstephenson.substack.com/p/a-remarkable-assertion-from-a16z",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-28T12:41:32+00:00",
       "niche": "dev",
       "score": 44,
       "keywords": []
@@ -10569,6 +10498,30 @@
       "keywords": []
     },
     {
+      "id": "aa3c8dd599d26a27",
+      "title": "Netflix to Acquire Warner Bros. In an $82.7B Deal",
+      "description": "Comments",
+      "url": "https://about.netflix.com/en/news/netflix-to-acquire-warner-bros",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-05T12:21:19+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "9fe3dbd054c564c2",
+      "title": "The US polluters that are rewriting the EU's human rights and climate law",
+      "description": "Comments",
+      "url": "https://www.somo.nl/the-secretive-cabal-of-us-polluters-that-is-rewriting-the-eus-human-rights-and-climate-law/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-05T09:58:01+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "3bea7f8846dcd34d",
       "title": "Color Contrast and Web Accessibility",
       "description": "Understand color contrast for web accessibility. WCAG standards, testing tools, and best practices to make your website inclusive and accessible. Continue reading Color Contrast and Web Accessibility on SitePoint.",
@@ -10595,6 +10548,20 @@
       "keywords": []
     },
     {
+      "id": "8c9b23857864c20c",
+      "title": "From Illusions to Optimization: The Creative WebGL Worlds of Adrián Gubrica",
+      "description": "A look at Adrián Gubrica’s journey from design roots to high-performance WebGL, and the creative, technical worlds he’s built along the way.",
+      "url": "https://tympanus.net/codrops/2025/12/05/from-illusions-to-optimization-the-creative-webgl-worlds-of-adrian-gubrica/",
+      "source": "Codrops",
+      "author": "Adrián Gubrica",
+      "published": "2025-12-05T11:29:50+00:00",
+      "niche": "dev",
+      "score": 42,
+      "keywords": [
+        "performance"
+      ]
+    },
+    {
       "id": "cecd3da845538339",
       "title": "React 19.2",
       "description": "React 19.2 adds new features like Activity, React Performance Tracks, useEffectEvent, and more.",
@@ -10605,8 +10572,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "React 19",
-        "performance"
+        "performance",
+        "React 19"
       ]
     },
     {
@@ -10622,18 +10589,6 @@
       "keywords": [
         "React 19"
       ]
-    },
-    {
-      "id": "cf6f0a9124859d5a",
-      "title": "The Geometry of Movement: A Shopify-Powered Digital Tribute to Raymond Templier’s Modernist Vision",
-      "description": "How a custom Shopify experience reimagines Templier’s modernist legacy through motion and refined digital design.",
-      "url": "https://tympanus.net/codrops/2025/11/28/the-geometry-of-movement-a-shopify-powered-digital-tribute-to-raymond-templiers-modernist-vision/",
-      "source": "Codrops",
-      "author": "Index Studio",
-      "published": "2025-11-28T09:50:30+00:00",
-      "niche": "dev",
-      "score": 39,
-      "keywords": []
     },
     {
       "id": "3c371647edf4094c",
@@ -10696,10 +10651,10 @@
       "niche": "dev",
       "score": 39,
       "keywords": [
-        "development",
-        "developer",
         "performance",
-        "best practices"
+        "best practices",
+        "developer",
+        "development"
       ]
     },
     {
@@ -10857,9 +10812,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "React 19",
         "API",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -10873,9 +10828,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "developer",
         "performance",
-        "best practices"
+        "best practices",
+        "developer"
       ]
     },
     {
@@ -10901,8 +10856,8 @@
       "niche": "dev",
       "score": 37,
       "keywords": [
-        "library",
-        "developer"
+        "developer",
+        "library"
       ]
     },
     {
@@ -10916,8 +10871,8 @@
       "niche": "dev",
       "score": 37,
       "keywords": [
-        "developer",
-        "API"
+        "API",
+        "developer"
       ]
     },
     {
@@ -10959,8 +10914,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -11083,10 +11038,10 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "code",
         "performance",
-        "API",
+        "code",
         "framework",
+        "API",
         "release"
       ]
     },
@@ -11137,23 +11092,6 @@
       "niche": "dev",
       "score": 28,
       "keywords": []
-    },
-    {
-      "id": "bb5a91d4a7e96556",
-      "title": "A significant Angular release",
-      "description": "#​762 — November 21, 2025 Read on the Web JavaScript Weekly Google Announces Angular v21 — The Google team has gone all out with this significant release of its popular JavaScript framework. They’ve put together a retro game-themed adventure-based tour of what’s new, along with top notch videos showing off features like its new signal-based approach to forms, MCP server for AI-powered workflows, library of headless components focused on accessibility, and even a new ‘Angular AI Tutor’ to get up ",
-      "url": "https://javascriptweekly.com/issues/762",
-      "source": "JavaScript Weekly",
-      "author": "Inconnu",
-      "published": "2025-11-21T00:00:00+00:00",
-      "niche": "dev",
-      "score": 28,
-      "keywords": [
-        "library",
-        "framework",
-        "release",
-        "Angular"
-      ]
     },
     {
       "id": "c5118e9b01e9ae19",
@@ -11486,8 +11424,8 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "code",
         "performance",
+        "code",
         "developer"
       ]
     },
@@ -11502,23 +11440,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "development",
-        "framework"
-      ]
-    },
-    {
-      "id": "343a3c374bd0a8e2",
-      "title": "Every JavaScript engine all at once",
-      "description": "#​761 — November 14, 2025 Read on the Web JavaScript Weekly JavaScript Engines Zoo: Learn About Over 100 JS Engines — I’m a sucker for a big table of data and this is about as big as it gets when it comes to JavaScript engines. See how various engines compare, sort them by performance, or click on an engine’s name to learn more about its development, history, and end users. The project’s repo also has Dockerfiles for trying each of them out. Ivan Krasilnikov 💡 Sticking with a theme, I've always ",
-      "url": "https://javascriptweekly.com/issues/761",
-      "source": "JavaScript Weekly",
-      "author": "Inconnu",
-      "published": "2025-11-14T00:00:00+00:00",
-      "niche": "dev",
-      "score": 19,
-      "keywords": [
-        "development",
-        "performance"
+        "framework",
+        "development"
       ]
     },
     {
@@ -11576,20 +11499,6 @@
       "score": 18,
       "keywords": [
         "performance"
-      ]
-    },
-    {
-      "id": "bced3ad1979ab43f",
-      "title": "How JavaScript source maps actually work",
-      "description": "#​760 — November 7, 2025 Read on the Web JavaScript Weekly The Inner Workings of JavaScript Source Maps — Ever wondered how devtools can magically turn mangled, minified JavaScript back into readable source while debugging? Zero magic; that’s a source map doing its job. But how do source maps actually work under the hood? Manoj Vivek Ship Secure MCP Auth Without Relying on API Keys — API keys are hard to scope and break user flows. WorkOS Connect delivers a fully compliant OAuth 2.1 flow. It han",
-      "url": "https://javascriptweekly.com/issues/760",
-      "source": "JavaScript Weekly",
-      "author": "Inconnu",
-      "published": "2025-11-07T00:00:00+00:00",
-      "niche": "dev",
-      "score": 18,
-      "keywords": [
-        "API"
       ]
     },
     {
@@ -11674,8 +11583,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "code",
-        "API"
+        "API",
+        "code"
       ]
     },
     {
@@ -11763,20 +11672,6 @@
       ]
     },
     {
-      "id": "580f7d7d004eeecc",
-      "title": "Algorithms visualized and demonstrated in JavaScript",
-      "description": "#​763 — November 28, 2025 Read on the Web JavaScript Weekly Over 150 Algorithms and Data Structures Demonstrated in JS — Examples of many common algorithms (e.g. bit manipulation, Pascal’s triangle, Hamming distance) and data structures (e.g. linked lists, tries, graphs) with explanations. Available in eighteen other written languages too. Oleksii Trekhleb et al. TypeScript: From First Steps to Professional — Learn TypeScript step-by-step with Anjana Vakil, and gain confidence writing code you c",
-      "url": "https://javascriptweekly.com/issues/763",
-      "source": "JavaScript Weekly",
-      "author": "Inconnu",
-      "published": "2025-11-28T00:00:00+00:00",
-      "niche": "dev",
-      "score": 15,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
       "id": "1dabf0ba69bda974",
       "title": "Preserving Snow Crystals",
       "description": "Comments",
@@ -11832,6 +11727,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-01T17:13:29+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "1a5de22d592d2911",
+      "title": "Stacked Diffs with git rebase —onto",
+      "description": "Comments",
+      "url": "https://dineshpandiyan.com/blog/stacked-diffs-with-rebase-onto/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-01T04:47:30+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -12290,20 +12197,6 @@
       "keywords": []
     },
     {
-      "id": "0b6f79b39dcb1bca",
-      "title": "Building a Different Kind of Agency: Inside 14islands’ People-First Creative Vision",
-      "description": "A look inside 14islands, a creative agency shaping digital products through creative storytelling and a strong, people-centered culture.",
-      "url": "https://tympanus.net/codrops/2025/11/24/building-a-different-kind-of-agency-inside-14islands-people-first-creative-vision/",
-      "source": "Codrops",
-      "author": "14islands",
-      "published": "2025-11-24T13:08:46+00:00",
-      "niche": "dev",
-      "score": 12,
-      "keywords": [
-        "API"
-      ]
-    },
-    {
       "id": "284ac66b8cca92f0",
       "title": "Fix “This video format is not supported” on YouTube TV",
       "description": "Setting up a new computer is bliss &#8212; no old, unused apps and the machine performs much better than the previous. Unfortunately, you may encounter new problems based on the new hardware. One such issue I encountered with my new MacBook was a &#8220;This video format is not supported&#8221; message when I went to YouTube [&#8230;] The post Fix &#8220;This video format is not supported&#8221; on YouTube TV appeared first on David Walsh Blog.",
@@ -12557,6 +12450,18 @@
       "source": "SitePoint",
       "author": "Zain Zaidi",
       "published": "2025-11-13T21:05:14+00:00",
+      "niche": "dev",
+      "score": 9,
+      "keywords": []
+    },
+    {
+      "id": "cf6f0a9124859d5a",
+      "title": "The Geometry of Movement: A Shopify-Powered Digital Tribute to Raymond Templier’s Modernist Vision",
+      "description": "How a custom Shopify experience reimagines Templier’s modernist legacy through motion and refined digital design.",
+      "url": "https://tympanus.net/codrops/2025/11/28/the-geometry-of-movement-a-shopify-powered-digital-tribute-to-raymond-templiers-modernist-vision/",
+      "source": "Codrops",
+      "author": "Index Studio",
+      "published": "2025-11-28T09:50:30+00:00",
       "niche": "dev",
       "score": 9,
       "keywords": []
