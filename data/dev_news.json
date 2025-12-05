@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-05T12:52:47.155322+00:00",
-  "total_articles": 983,
+  "last_updated": "2025-12-05T15:28:13.779389+00:00",
+  "total_articles": 991,
   "articles": [
     {
       "id": "c609831d7def551c",
@@ -247,36 +247,6 @@
       ]
     },
     {
-      "id": "b113df266c9ee0d9",
-      "title": "Figma to React: How Kombai Finally Solved My Frontend Workflow",
-      "description": "As a frontend developer, much of my job is converting Figma designs into React code—a process that’s both meticulous and repetitive. Every pixel, color, font weight, spacing, and padding has to match the designer’s intent exactly. It can be satisfying when it comes together, but it’s also a huge time sink. Naturally, to save time and speed up my workflow, I’ve tried out various tools that promise to automate the conversion from Figma to React. But most of them ended up creating more cleanup work",
-      "url": "https://dev.to/daveyhert/figma-to-react-how-kombai-finally-solved-my-frontend-workflow-9ol",
-      "source": "Dev.to",
-      "author": "David Herbert💻🚀",
-      "published": "2025-11-28T15:11:06+00:00",
-      "niche": "dev",
-      "score": 70,
-      "keywords": [
-        "code",
-        "developer"
-      ]
-    },
-    {
-      "id": "4779edca245b9943",
-      "title": "Tips from a Serial Career Changer with GitHub's Andrea Griffiths [Podcast #199]",
-      "description": "Today Quincy Larson interviews Andrea Griffiths, who taught herself programming using freeCodeCamp while working in construction. She moved to the US from Colombia when she was 17, and within 6 months she joined the US Army. She ran a chain of gyms b...",
-      "url": "https://www.freecodecamp.org/news/tips-from-serial-career-changer-github-andrea-griffiths-podcast-199/",
-      "source": "freeCodeCamp",
-      "author": "Estefania Cassingena Navone",
-      "published": "2025-11-28T14:49:36+00:00",
-      "niche": "dev",
-      "score": 70,
-      "keywords": [
-        "programming",
-        "code"
-      ]
-    },
-    {
       "id": "f5174c11dad6b610",
       "title": "Java > Python for AI Agents? I Built a Surf-Forecasting Agent to Find Out",
       "description": "StokeBroker: My Journey Building an AI Surf Agent with Java and Embabel Shots fired! Sorry Python people, but let me explain. Only a couple of days after I wrote CodeBro, my AI agent written in Java, I discovered this post called You Can Build Better AI Agents in Java Than Python. Ha! I love it (hence the clickbait title). The post was written by Rod Johnson (creator of Spring framework) and he introduced his framework for writing AI agents on the JVM. Granted he was using Kotlin, but since I've",
@@ -408,28 +378,18 @@
       ]
     },
     {
-      "id": "7d4d2ad169203ba7",
-      "title": "Lessons learned implementing SCIM with Microsoft Entra and the SCIM Validator",
-      "description": "I had to redo the entire SCIM validator journey after we've migrated to a new company. This article shares the practical lessons from that rework: tightening concurrency, adding hybrid caching, clarifying when /Schemas actually matters and structuring validation runs so progress is repeatable instead of guesswork. SCIM still promises automated provisioning from an IdP, but the path to a production-grade, Entra-compatible implementation is about disciplined iteration, not just “passing the tests.",
-      "url": "https://dev.to/eelcolos/lessons-learned-implementing-scim-with-microsoft-entra-and-the-scim-validator-20gl",
+      "id": "5f16d12e62f8a152",
+      "title": "Found a Google for DevOps utilities",
+      "description": "Last week, I was helping a team debug a failing K8s rollout Everything looked fine until we realized the issue was a single malformed YAML key. What did I do? I Googled a YAML-to-JSON converter… Then a JSON validator… Then a CIDR calculator… Then a JWT decoder… Then a Cron generator… 5 tabs. 5 different websites. 10 popups. Ads everywhere. Slow. Cluttered. Frustrating. And this is something we do EVERY SINGLE DAY. Almost felt like we needed a “Google for DevOps utilities.” And then I stumbled up",
+      "url": "https://dev.to/imranonline/found-a-google-for-devops-utilities-3ml4",
       "source": "Dev.to",
-      "author": "Eelco Los",
-      "published": "2025-11-28T15:00:54+00:00",
+      "author": "Mohammad Imran Ansari",
+      "published": "2025-12-05T15:10:41+00:00",
       "niche": "dev",
-      "score": 68,
-      "keywords": []
-    },
-    {
-      "id": "ad2d5c9175102a47",
-      "title": "useState in React Hook",
-      "description": "updating the screen: first you import the useState import { useState } from 'react'; your component to “remember” some information and display it. declare a state variable inside your component: function MyButton() { const [count, setCount] = useState(0); initial state of count is 0 if you change the state use setCount function MyButton() { const [count, setCount] = useState(0); function handleClick() { setCount(count + 1); } return ( <button onClick={handleClick}> Clicked {count} times </button",
-      "url": "https://dev.to/bharath_11/usestate-in-react-hook-2195",
-      "source": "Dev.to",
-      "author": "Bharath kumar",
-      "published": "2025-11-28T14:58:30+00:00",
-      "niche": "dev",
-      "score": 68,
-      "keywords": []
+      "score": 69,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "beb55b666e609be4",
@@ -1095,22 +1055,6 @@
       ]
     },
     {
-      "id": "b11b0c33ddbb6faf",
-      "title": "Catalyst::Request body issues with the file position pointer",
-      "description": "OK, so... For those using the Perl Catalyst web framework in ways involving structured request bodies (e.g. API POSTs)... $c->req->body is a string, unless Content-Type is application/x-www-form-urlencoded, text/xml, or multipart/form-data (or in fact application/json, which isn't in the docs), in which case it's a File::Temp (an overloaded file handle), and $c->req->body_data gets you the deserialised body. For various reasons, largely to do with the idiosyncrasies of one particular module, I n",
-      "url": "https://dev.to/fleetfootmike/catalystrequest-body-issues-with-the-file-position-pointer-2k7l",
-      "source": "Dev.to",
-      "author": "Mike Whitaker",
-      "published": "2025-11-28T15:15:54+00:00",
-      "niche": "dev",
-      "score": 58,
-      "keywords": [
-        "API",
-        "code",
-        "framework"
-      ]
-    },
-    {
       "id": "e3aaf699aba222c6",
       "title": "Predictions for AI Developments by the End of 2027",
       "description": "Predictions for AI Developments by the End of 2027 Executive Summary Over the next two years (through December 31, 2027), we anticipate rapid maturation and widespread adoption across multiple layers of the AI technology stack. This transformation will encompass foundation models, hardware infrastructure, regulatory frameworks, enterprise workflows, and consumer experiences. The AI landscape is poised for significant evolution as the technology moves from experimental phases into production-grad",
@@ -1347,6 +1291,23 @@
       ]
     },
     {
+      "id": "3a7bebe787b41b0f",
+      "title": "Building the AI-Native Foundation: How Creating for Kiro Unlocked a New Development Paradigm",
+      "description": "For this hackathon, we didn't just build with Kiro. We built for it. Our project, SkipSetup, started from a simple, frustrating observation that every developer using AI assistants has experienced: the \"hallucination gap.\" You ask for a feature, the AI generates plausible-looking code, and then it breaks because it doesn't understand your project's authentication flow, your database schema, or your API conventions. We initially blamed the tools. But building with Kiro for #Kiroween revealed a mo",
+      "url": "https://dev.to/getaw_dejen_f52547be8575e/building-the-ai-native-foundation-how-creating-for-kiro-unlocked-a-new-development-paradigm-aj6",
+      "source": "Dev.to",
+      "author": "Getaw Dejen",
+      "published": "2025-12-05T15:10:18+00:00",
+      "niche": "dev",
+      "score": 57,
+      "keywords": [
+        "developer",
+        "code",
+        "API",
+        "development"
+      ]
+    },
+    {
       "id": "6c2a3c84c9296978",
       "title": "Stop fighting your build tools. Meet AtomAttr.",
       "description": "For years, frontend development has been dominated by the build step. Webpack, Rollup, Vite, PostCSS... the list goes on. While tools like Tailwind CSS revolutionized how we style apps, they introduced a heavy dependency on Node.js environments. If you are a backend developer (PHP, Python, Go) or just want to prototype a quick idea, setting up a full frontend toolchain feels like overkill. I asked myself: What if you could just write HTML? So I built AtomAttr. ⚛️ What is AtomAttr? AtomAttr is a ",
@@ -1576,21 +1537,6 @@
         "API",
         "development",
         "code"
-      ]
-    },
-    {
-      "id": "d9a138292da71efa",
-      "title": "Laravel 12 + shadcn/ui: Build Modern UIs with Ease in 2025",
-      "description": "In 2025, Laravel continues to evolve — and with version 12, it makes building modern, full-stack applications even easier by embracing frontend-first tooling. In this post we’ll explore what’s new in Laravel 12, how it works with shadcn/ui, and why combining them can give you a powerful, clean, and highly customizable developer experience.",
-      "url": "https://dev.to/haridas4274/laravel-12-shadcnui-build-modern-uis-with-ease-in-2025-3koo",
-      "source": "Dev.to",
-      "author": "Haridas",
-      "published": "2025-11-28T15:06:24+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "developer",
-        "Laravel"
       ]
     },
     {
@@ -3526,20 +3472,6 @@
       ]
     },
     {
-      "id": "156dfc6994ce954a",
-      "title": "Self-corrective Code Generation: A Basic Understanding and Real-life Application",
-      "description": "Self-corrective Code Generation is an advanced AI approach where code is not only generated but also continuously refined based on feedback and predefined rules. Unlike traditional methods, this process ensures that code meets essential standards for readability, efficiency, maintainability, and compliance with coding guidelines. This article will explore how AI-generated code can be incomplete without proper validation, the consequences of using untested code, and how self-corrective code gener",
-      "url": "https://dev.to/kayson_2025/self-corrective-code-generation-a-basic-understanding-and-real-life-application-383d",
-      "source": "Dev.to",
-      "author": "Khiem Phan",
-      "published": "2025-11-28T14:58:01+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
       "id": "89cd2f9a0b2d2688",
       "title": "Memory-Safety-Ultimate-Guardian",
       "description": "GitHub Home As a programmer with 40 years of development experience, I experienced a security incident that still gives me chills to this day. We were developing an online trading system for a financial client. A young programmer, when writing an interface to query order history, directly concatenated SQL statements with strings for convenience. Yes, you read that right, the most classic, textbook-style SQL injection vulnerability. A hacker exploited this vulnerability, bypassed authentication, ",
@@ -5026,52 +4958,32 @@
       ]
     },
     {
-      "id": "068bfa7701573a45",
-      "title": "Why CutMix Works (Even When It Breaks the Image Apart)",
-      "description": "What is CutMix? CutMix, introduced in 2019, takes Cutout’s idea and dials it up: Instead of dropping pixels, it replaces them with content from a different image and mixes the labels accordingly. You cut a patch from image A, paste it onto image B, and assign the new image a label proportional to the visible region. Cutout removes. CutMix replaces. Mixup blends. CutMix sits in the middle of that spectrum. Why does replacing a patch help? Because it attacks two problems at once: Localization bias",
-      "url": "https://dev.to/aniket_kuyate_15acc4e6587/why-cutmix-works-even-when-it-breaks-the-image-apart-1aek",
+      "id": "cf2b2bd388d410be",
+      "title": "Turn your local machine into a web server with Cloudflare Tunnel",
+      "description": "📋 Table of Contents What is Cloudflare Tunnel? Why Use Cloudflare Tunnel? Prerequisites Installation Quick Start Configuration Advanced Usage Use Cases Troubleshooting Best Practices FAQ What is Cloudflare Tunnel? Cloudflare Tunnel (formerly Argo Tunnel) creates a secure, encrypted tunnel between your local machine and Cloudflare's global network. It allows you to expose your localhost to the internet without: Opening ports on your router Exposing your home IP address Complex firewall configurat",
+      "url": "https://dev.to/jobayer6735/turn-your-local-machine-into-a-web-server-with-cloudflare-tunnel-5fcb",
       "source": "Dev.to",
-      "author": "Unknownerror-404",
-      "published": "2025-11-28T15:12:16+00:00",
+      "author": "jobayer ahmed",
+      "published": "2025-12-05T15:02:53+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "best practices"
+      ]
     },
     {
-      "id": "11e4e0b6654a49f9",
-      "title": "Building Trinity Shield™ Custom In House TEE for Multi-Chain Consensus Seeking Open Source Feedback",
-      "description": "How we're adding hardware security to a formally verified 2 of 3 consensus system across Arbitrum, Solana, and TON. 78 Lean proofs. Zero external dependencies. The Problem with External TEE Services I've spent 3 years building Trinity Protocol a 2 of 3 multi-chain consensus system that distributes trust across Arbitrum, Solana, and TON. When a community member suggested adding Trusted Execution Environments (TEE), I researched the options: Oasis ROFL: $100-150/month, vendor lock-in Cloud TEE (Az",
-      "url": "https://dev.to/chronosvault/building-trinity-shield-custom-in-house-tee-for-multi-chain-consensus-seeking-open-source-feedback-4kn",
+      "id": "154f131072d13440",
+      "title": "Building a Broken Link Checker: Web Crawling and HTTP Status Validation",
+      "description": "Introduction Broken links are a common problem that damages SEO, user experience, and site credibility. In this technical guide, we'll build a comprehensive broken link checker that crawls websites, validates HTTP status codes, and identifies issues. Understanding Broken Links A broken link returns an HTTP error status code (typically 404) when accessed. Types of broken links: 404 Not Found: Page doesn't exist 500 Internal Server Error: Server-side error 503 Service Unavailable: Server temporari",
+      "url": "https://dev.to/techbelievers/building-a-broken-link-checker-web-crawling-and-http-status-validation-1aa1",
       "source": "Dev.to",
-      "author": "Chronos Vault",
-      "published": "2025-11-28T15:05:23+00:00",
+      "author": "Tech Believers",
+      "published": "2025-12-05T15:02:34+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "efc6d73b4e6f4212",
-      "title": "KEDA HTTP Add-on: Escalonamento Dinâmico por Volume de Requisições",
-      "description": "Introdução O escalonamento tradicional baseado em CPU ou memória atende bem a diversos cenários, mas pode apresentar limitações em aplicações que sofrem bursts de requisições ou que exibem padrões de tráfego irregulares. Nesses casos, é comum que a aplicação mantenha níveis estáveis de CPU e memória ao mesmo tempo que enfrenta pressão direta no atendimento HTTP, gerando aumento de latência, formação de filas e redução de throughput antes que o autoscaler identifique a necessidade de ajuste. O KE",
-      "url": "https://dev.to/jonas-elias/keda-http-add-on-escalonamento-dinamico-por-volume-de-requisicoes-3d88",
-      "source": "Dev.to",
-      "author": "jonas-elias",
-      "published": "2025-11-28T14:57:36+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "71bf69ee9633a59a",
-      "title": "2025 - All Posts From Product With Attitude",
-      "description": "A List of Canonical Links from the Publication \"Product with Attitude\" Last updated: November 2025 Article: If You Build With AI, You Need This File. And The System That Generates It. Author: Karo Zieminski Canonical Link: https://karozieminski.substack.com/p/if-you-build-with-ai-you-need-this Original Publish Date: November 27, 2025 Tags: #vibecoding #rules-for-ai #prompt-systems #beginner-guides #prompt-back #builder-community What’s Your Substack Roadmap for 2026? Mine Comes Straight From 315",
-      "url": "https://dev.to/with_attitude/2025-all-posts-from-product-with-attitude-ka7",
-      "source": "Dev.to",
-      "author": "With Attitude",
-      "published": "2025-11-28T14:50:20+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "2280ef298c8106dd",
@@ -8038,6 +7950,78 @@
       "keywords": []
     },
     {
+      "id": "04326b4e43c84383",
+      "title": "Swift Testing #6: Aislando bugs conocidos usando withKnownIssue",
+      "description": "withKnownIssue sirve para marcar una sección de una prueba como un error conocido que no debería hacer fallar la prueba, pero cuya resolución se quiere detectar en el futuro. Si el objetivo fuera simplemente ignorar una prueba fallida durante el desarrollo, es mejor deshabilitarla con .disabled. @Test func expectedIssue() { let sut = FailingFeature() sut.executeWithUnderlyingError() #expect(sut.expectedIssue == false) // ❌ Falla } En el ejemplo anterior, se sabe que el código señalado tiene un b",
+      "url": "https://dev.to/david_goyes_a488f58a17a53/swift-testing-6-aislando-bugs-conocidos-usando-withknownissue-4k6f",
+      "source": "Dev.to",
+      "author": "David Goyes",
+      "published": "2025-12-05T15:11:38+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "3b8d514a258d3b07",
+      "title": "AWS re:Invent 2025 - Agentic AI's new generation of Industry and Line of Business solutions (PEX202)",
+      "description": "🦄 Making great presentations more accessible. This project aims to enhances multilingual accessibility and discoverability while maintaining the integrity of original content. Detailed transcriptions and keyframes preserve the nuances and technical insights that make each session compelling. Overview 📖 AWS re:Invent 2025 - Agentic AI's new generation of Industry and Line of Business solutions (PEX202) In this video, Michael Schmidt and Ryan Thomas from AWS discuss agentic AI's transformation acr",
+      "url": "https://dev.to/kazuya_dev/aws-reinvent-2025-agentic-ais-new-generation-of-industry-and-line-of-business-solutions-pex202-5b",
+      "source": "Dev.to",
+      "author": "Kazuya",
+      "published": "2025-12-05T15:11:01+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "f5a3598a83f42aa5",
+      "title": "Pixel Café ☕ - A Retro-Futuristic Coffee Shop with a Virtual Pet\"",
+      "description": "This is a submission for the AI Challenge for Cross-Platform Apps - WOW Factor What I Built Pixel Café is not just a coffee shop app—it's a nostalgic journey into the world of retro gaming and 8-bit aesthetics! I created an immersive retro-futuristic coffee ordering experience that combines the charm of classic GameBoy graphics with modern interactive elements. The app features: 🖥️ Authentic CRT Monitor Effect with scanlines, screen curvature, and bezels 🐕 Beanagotchi - Your own pixel art Shiba ",
+      "url": "https://dev.to/sai_dinesh/pixel-cafe-a-retro-futuristic-coffee-shop-with-a-virtual-pet-1h7k",
+      "source": "Dev.to",
+      "author": "Sai Dinesh",
+      "published": "2025-12-05T15:10:26+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "1f61cc7cd51ee7cd",
+      "title": "Building an SSL Certificate Checker: TLS Validation and Security Audit",
+      "description": "Introduction SSL/TLS certificates are critical for web security and SEO, but they expire, get misconfigured, and develop vulnerabilities. In this guide, we'll build a comprehensive SSL certificate checker that validates certificates, checks security configuration, and monitors expiry. Understanding SSL/TLS Certificates SSL (Secure Sockets Layer) and its successor TLS (Transport Layer Security) encrypt data between client and server. Certificates authenticate the server's identity. Key Components",
+      "url": "https://dev.to/techbelievers/building-an-ssl-certificate-checker-tls-validation-and-security-audit-1oia",
+      "source": "Dev.to",
+      "author": "Tech Believers",
+      "published": "2025-12-05T15:05:23+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "48592d34dca9e579",
+      "title": "नियम नियति (Niyam Niyati) - Youth Bill Engagement Platform",
+      "description": "📋 Project Overview Niyam Niyati (meaning \"Laws & Destiny\" in Nepali) is an AI-powered civic engagement platform that helps Nepali youth (ages 16-25) understand complex legislative bills through empathy-driven persona exploration. The application transforms abstract legal documents into relatable human stories, enabling young citizens to understand legislation through the eyes of those it affects most. The Problem We're Solving Young people often feel disconnected from legislative processes becau",
+      "url": "https://dev.to/niranjannlc/using-kiro-in-order-to-transforms-abstract-legal-documents-into-relatable-human-story-26go",
+      "source": "Dev.to",
+      "author": "NIRANJAN LAMICHHANE",
+      "published": "2025-12-05T15:03:38+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "b54b141337f02305",
+      "title": "Quantum Illusions: Can We Really Trust Our Entanglement Tests? by Arvind Sundararajan",
+      "description": "Quantum Illusions: Can We Really Trust Our Entanglement Tests? Imagine building a fortress, only to discover the enemy can waltz right through a seemingly impenetrable wall. That's the unsettling reality facing quantum cryptography. We think we're generating provably secure keys using quantum principles, but are we truly immune to sophisticated eavesdropping strategies? The answer may surprise you. The core challenge lies in quantum certification – verifying that the correlations we observe are ",
+      "url": "https://dev.to/arvind_sundararajan/quantum-illusions-can-we-really-trust-our-entanglement-tests-by-arvind-sundararajan-34c4",
+      "source": "Dev.to",
+      "author": "Arvind SundaraRajan",
+      "published": "2025-12-05T15:02:18+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "0dd264f5f115f5a6",
       "title": "Learn R Programming from Harvard University",
       "description": "Harvard University creates amazing beginner computer science courses. We just released Harvard CS50’s introduction to programming using a language called R, a popular language for statistical computing and graphics in data science and other domains. ...",
@@ -8050,6 +8034,21 @@
       "keywords": [
         "release",
         "programming"
+      ]
+    },
+    {
+      "id": "9a0795cc1b2dd725",
+      "title": "What's the story? JavaScript's 30!",
+      "description": "#​764 — December 5, 2025 Read on the Web JavaScript Weekly 🎉 JavaScript Turns 30 Years Old 🎉 Back in May 1995, a 33 year old Brendan Eich built the first prototype of JavaScript in just ten days, originally codenamed Mocha (and then LiveScript). On December 4, 1995, Netscape and Sun Microsystems officially announced 'JavaScript' in a press release as \"an easy-to-use object scripting language designed for creating live online applications that link together objects and resources on both clients a",
+      "url": "https://javascriptweekly.com/issues/764",
+      "source": "JavaScript Weekly",
+      "author": "Inconnu",
+      "published": "2025-12-05T00:00:00+00:00",
+      "niche": "dev",
+      "score": 49,
+      "keywords": [
+        "release",
+        "code"
       ]
     },
     {
@@ -8404,18 +8403,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "f78046620fa6fe78",
-      "title": "Petition to formally recognize open source work as civic service in Germany",
-      "description": "Comments",
-      "url": "https://www.openpetition.de/petition/online/anerkennung-von-open-source-arbeit-als-ehrenamt-in-deutschland#petition-main",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-28T14:08:14+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "207180d4e9d57190",
@@ -10522,6 +10509,66 @@
       "keywords": []
     },
     {
+      "id": "b41b56921f1bea0c",
+      "title": "Netflix to Acquire Warner Bros",
+      "description": "Comments",
+      "url": "https://about.netflix.com/en/news/netflix-to-acquire-warner-bros",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-05T12:21:19+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "0499dbde73216407",
+      "title": "Making RSS More Fun",
+      "description": "Comments",
+      "url": "https://matduggan.com/making-rss-more-fun/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-05T13:00:28+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "018c82ff8243fffa",
+      "title": "Most technical problems are people problems",
+      "description": "Comments",
+      "url": "https://blog.joeschrag.com/2023/11/most-technical-problems-are-really.html",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-05T13:07:59+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "00149a28783d6c71",
+      "title": "Emerge Career (YC S22) Is Hiring",
+      "description": "Comments",
+      "url": "https://www.ycombinator.com/companies/emerge-career/jobs/qQhLEmC-founding-design-engineer",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-05T14:06:53+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "fe8407f7c904e256",
+      "title": "Influential study on glyphosate safety retracted 25 years after publication",
+      "description": "Comments",
+      "url": "https://www.lemonde.fr/en/environment/article/2025/12/03/influential-study-on-glyphosate-safety-retracted-25-years-after-publication_6748114_114.html",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-05T13:39:04+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "3bea7f8846dcd34d",
       "title": "Color Contrast and Web Accessibility",
       "description": "Understand color contrast for web accessibility. WCAG standards, testing tools, and best practices to make your website inclusive and accessible. Continue reading Color Contrast and Web Accessibility on SitePoint.",
@@ -10562,6 +10609,18 @@
       ]
     },
     {
+      "id": "8ae8dd5ecd6ed6f5",
+      "title": "Top 7 AI SEO Tools to Improve Your Rankings in 2026",
+      "description": "AI-powered SEO tools help boost rankings, speed up research, and automate optimization. Discover 2026’s best AI SEO tools for smarter growth. Continue reading Top 7 AI SEO Tools to Improve Your Rankings in 2026 on SitePoint.",
+      "url": "https://www.sitepoint.com/top-ai-seo-tools/?utm_source=rss",
+      "source": "SitePoint",
+      "author": "SitePoint Sponsors",
+      "published": "2025-12-05T13:23:11+00:00",
+      "niche": "dev",
+      "score": 42,
+      "keywords": []
+    },
+    {
       "id": "cecd3da845538339",
       "title": "React 19.2",
       "description": "React 19.2 adds new features like Activity, React Performance Tracks, useEffectEvent, and more.",
@@ -10572,8 +10631,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "performance",
-        "React 19"
+        "React 19",
+        "performance"
       ]
     },
     {
@@ -10651,9 +10710,9 @@
       "niche": "dev",
       "score": 39,
       "keywords": [
-        "performance",
-        "best practices",
         "developer",
+        "best practices",
+        "performance",
         "development"
       ]
     },
@@ -10812,9 +10871,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "API",
         "release",
-        "React 19"
+        "React 19",
+        "API"
       ]
     },
     {
@@ -10828,9 +10887,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "performance",
+        "developer",
         "best practices",
-        "developer"
+        "performance"
       ]
     },
     {
@@ -10871,8 +10930,8 @@
       "niche": "dev",
       "score": 37,
       "keywords": [
-        "API",
-        "developer"
+        "developer",
+        "API"
       ]
     },
     {
@@ -11038,11 +11097,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "performance",
-        "code",
         "framework",
+        "release",
+        "code",
         "API",
-        "release"
+        "performance"
       ]
     },
     {
@@ -11092,6 +11151,23 @@
       "niche": "dev",
       "score": 28,
       "keywords": []
+    },
+    {
+      "id": "bb5a91d4a7e96556",
+      "title": "A significant Angular release",
+      "description": "#​762 — November 21, 2025 Read on the Web JavaScript Weekly Google Announces Angular v21 — The Google team has gone all out with this significant release of its popular JavaScript framework. They’ve put together a retro game-themed adventure-based tour of what’s new, along with top notch videos showing off features like its new signal-based approach to forms, MCP server for AI-powered workflows, library of headless components focused on accessibility, and even a new ‘Angular AI Tutor’ to get up ",
+      "url": "https://javascriptweekly.com/issues/762",
+      "source": "JavaScript Weekly",
+      "author": "Inconnu",
+      "published": "2025-11-21T00:00:00+00:00",
+      "niche": "dev",
+      "score": 28,
+      "keywords": [
+        "release",
+        "Angular",
+        "library",
+        "framework"
+      ]
     },
     {
       "id": "c5118e9b01e9ae19",
@@ -11158,18 +11234,6 @@
       "keywords": [
         "release"
       ]
-    },
-    {
-      "id": "d5ec3d2c2e7a2fd1",
-      "title": "An update on the Farphone's battery",
-      "description": "Comments",
-      "url": "https://far.computer/battery-update/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-28T13:57:43+00:00",
-      "niche": "dev",
-      "score": 26,
-      "keywords": []
     },
     {
       "id": "f26b3704d7fc85d1",
@@ -11251,6 +11315,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-01T16:14:39+00:00",
+      "niche": "dev",
+      "score": 26,
+      "keywords": []
+    },
+    {
+      "id": "65f13f3651254ae4",
+      "title": "Show HN: Kraa – Writing App for Everything",
+      "description": "Comments",
+      "url": "https://kraa.io/about",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-04T07:35:10+00:00",
       "niche": "dev",
       "score": 26,
       "keywords": []
@@ -11394,8 +11470,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "API",
-        "release"
+        "release",
+        "API"
       ]
     },
     {
@@ -11409,8 +11485,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "framework",
-        "release"
+        "release",
+        "framework"
       ]
     },
     {
@@ -11424,9 +11500,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "performance",
+        "developer",
         "code",
-        "developer"
+        "performance"
       ]
     },
     {
@@ -11440,7 +11516,22 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "framework",
+        "development",
+        "framework"
+      ]
+    },
+    {
+      "id": "343a3c374bd0a8e2",
+      "title": "Every JavaScript engine all at once",
+      "description": "#​761 — November 14, 2025 Read on the Web JavaScript Weekly JavaScript Engines Zoo: Learn About Over 100 JS Engines — I’m a sucker for a big table of data and this is about as big as it gets when it comes to JavaScript engines. See how various engines compare, sort them by performance, or click on an engine’s name to learn more about its development, history, and end users. The project’s repo also has Dockerfiles for trying each of them out. Ivan Krasilnikov 💡 Sticking with a theme, I've always ",
+      "url": "https://javascriptweekly.com/issues/761",
+      "source": "JavaScript Weekly",
+      "author": "Inconnu",
+      "published": "2025-11-14T00:00:00+00:00",
+      "niche": "dev",
+      "score": 19,
+      "keywords": [
+        "performance",
         "development"
       ]
     },
@@ -11583,8 +11674,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "API",
-        "code"
+        "code",
+        "API"
       ]
     },
     {
@@ -11672,6 +11763,20 @@
       ]
     },
     {
+      "id": "580f7d7d004eeecc",
+      "title": "Algorithms visualized and demonstrated in JavaScript",
+      "description": "#​763 — November 28, 2025 Read on the Web JavaScript Weekly Over 150 Algorithms and Data Structures Demonstrated in JS — Examples of many common algorithms (e.g. bit manipulation, Pascal’s triangle, Hamming distance) and data structures (e.g. linked lists, tries, graphs) with explanations. Available in eighteen other written languages too. Oleksii Trekhleb et al. TypeScript: From First Steps to Professional — Learn TypeScript step-by-step with Anjana Vakil, and gain confidence writing code you c",
+      "url": "https://javascriptweekly.com/issues/763",
+      "source": "JavaScript Weekly",
+      "author": "Inconnu",
+      "published": "2025-11-28T00:00:00+00:00",
+      "niche": "dev",
+      "score": 15,
+      "keywords": [
+        "code"
+      ]
+    },
+    {
       "id": "1dabf0ba69bda974",
       "title": "Preserving Snow Crystals",
       "description": "Comments",
@@ -11739,6 +11844,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-01T04:47:30+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "6bc12fb3ea87a9d6",
+      "title": "Nimony (Nim 3.0) Design Principles",
+      "description": "Comments",
+      "url": "https://nim-lang.org/araq/nimony.html",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-02T00:39:41+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -11926,8 +12043,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "development",
-        "programming"
+        "programming",
+        "development"
       ]
     },
     {
@@ -12147,18 +12264,6 @@
       "keywords": [
         "developer"
       ]
-    },
-    {
-      "id": "8ae8dd5ecd6ed6f5",
-      "title": "Top 7 AI SEO Tools to Improve Your Rankings in 2026",
-      "description": "AI-powered SEO tools help boost rankings, speed up research, and automate optimization. Discover 2026’s best AI SEO tools for smarter growth. Continue reading Top 7 AI SEO Tools to Improve Your Rankings in 2026 on SitePoint.",
-      "url": "https://www.sitepoint.com/top-ai-seo-tools/?utm_source=rss",
-      "source": "SitePoint",
-      "author": "SitePoint Sponsors",
-      "published": "2025-11-27T17:10:25+00:00",
-      "niche": "dev",
-      "score": 12,
-      "keywords": []
     },
     {
       "id": "fc5213daca7c9526",
