@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-05T15:28:13.779389+00:00",
-  "total_articles": 991,
+  "last_updated": "2025-12-05T18:34:33.641581+00:00",
+  "total_articles": 987,
   "articles": [
     {
       "id": "c609831d7def551c",
@@ -244,6 +244,20 @@
       "score": 72,
       "keywords": [
         "performance"
+      ]
+    },
+    {
+      "id": "b867c7b4d9adb60c",
+      "title": "How I Built a 3D Product Configurator using Alpine.js & Three.js (No React required!)",
+      "description": "The Goal I recently took on a challenge to build a real-time 3D product configurator for custom adhesive tapes. The objective was to allow users to customize dimensions (width, length), materials, and graphical elements (text, logos) on a 2D canvas, and see the results instantly projected onto a 3D model. Instead of reaching for heavy frameworks like React Three Fiber, I wanted to explore a lightweight, modular approach using Native ES Modules and Alpine.js for state management. Live Demo: https",
+      "url": "https://dev.to/espfra95/how-i-built-a-3d-product-configurator-using-alpinejs-threejs-no-react-required-ah6",
+      "source": "Dev.to",
+      "author": "Francesco Esposito",
+      "published": "2025-12-05T18:23:00+00:00",
+      "niche": "dev",
+      "score": 72,
+      "keywords": [
+        "framework"
       ]
     },
     {
@@ -524,6 +538,18 @@
       "keywords": []
     },
     {
+      "id": "c39ed5d10c741eff",
+      "title": "My Journey Through the Google & Kaggle 5-Day AI Agents Intensive Course",
+      "description": "I recently completed the Google x Kaggle 5-Day AI Agents Intensive. It was one of the most eye-opening learning experiences I’ve had this year. I joined because I kept hearing about “agentic AI,” but I wanted a simple, hands-on explanation of how agents actually work. This course made everything feel clear and approachable. What I Learned About AI Agents Before the course, I mostly thought of AI agents as smart chatbots with tool calls. After the sessions, I realized they are structured problem-",
+      "url": "https://dev.to/dhanashree_pande/my-journey-through-the-google-kaggle-5-day-ai-agents-intensive-course-5fp5",
+      "source": "Dev.to",
+      "author": "Dhanashree Pande",
+      "published": "2025-12-05T18:18:13+00:00",
+      "niche": "dev",
+      "score": 68,
+      "keywords": []
+    },
+    {
       "id": "999382e295163412",
       "title": "ETH-Zurich: Digital Design and Computer Architecture; 227-0003-10L, Spring, 2025",
       "description": "Comments",
@@ -618,30 +644,6 @@
       "published": "2025-12-04T01:34:03+00:00",
       "niche": "dev",
       "score": 64,
-      "keywords": []
-    },
-    {
-      "id": "2991c80ab0757133",
-      "title": "Can Dutch universities do without Microsoft?",
-      "description": "Comments",
-      "url": "https://dub.uu.nl/en/news/can-dutch-universities-do-without-microsoft",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-28T15:53:39+00:00",
-      "niche": "dev",
-      "score": 62,
-      "keywords": []
-    },
-    {
-      "id": "5f3e7d362822024f",
-      "title": "True P2P Email on Top of Yggdrasil Network",
-      "description": "Comments",
-      "url": "https://github.com/JB-SelfCompany/Tyr",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-28T16:35:24+00:00",
-      "niche": "dev",
-      "score": 62,
       "keywords": []
     },
     {
@@ -904,6 +906,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-04T17:43:07+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": []
+    },
+    {
+      "id": "d0b0cc3e3871b5d6",
+      "title": "The AI Backlash Is Here: Why Public Patience with Tech Giants Is Running Out",
+      "description": "Comments",
+      "url": "https://www.newsweek.com/ai-backlash-openai-meta-friend-10807425",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-05T17:29:47+00:00",
       "niche": "dev",
       "score": 62,
       "keywords": []
@@ -2050,34 +2064,6 @@
       ]
     },
     {
-      "id": "517555f07c884f32",
-      "title": "How Do I Return the Response from an Asynchronous Call?",
-      "description": "Async calls (e.g., fetch()) return Promises, not immediate values. Direct return yields undefined. Focus: JavaScript (adapt for other langs). Problem Example function fetchData() { let result; fetch('https://api.example.com/data') .then(data => { result = data; }); return result; // undefined } Solutions 1. Return Promise (Chain .then()) function fetchData() { return fetch('https://api.example.com/data') .then(response => response.json()) .catch(error => { throw error; }); } // Usage fetchData()",
-      "url": "https://dev.to/sharmaprash/how-do-i-return-the-response-from-an-asynchronous-call-nl2",
-      "source": "Dev.to",
-      "author": "Prashant Sharma",
-      "published": "2025-11-28T18:10:05+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "API"
-      ]
-    },
-    {
-      "id": "f3c0a1dbe14ffb21",
-      "title": "CinemaSins: Everything Wrong With The Fantastic Four: First Steps In 20 Minutes Or Less",
-      "description": "Summary Cinema Sins takes on Fantastic Four in a rapid-fire “Everything Wrong With…” video, clocking in at under 20 minutes and delivering their usual blend of snarky quips and pointed “sins.” They even joke that the film is just as “sintastic” as any other Marvel outing. Alongside the video, they plug BetterHelp therapy discounts, showcase their website and YouTube channels (@TVSins, @CommercialSins, @CinemaSinsPodcastNetwork), and invite fans to fill out a poll, support them on Patreon, and fo",
-      "url": "https://dev.to/popcorn_movies/cinemasins-everything-wrong-with-the-fantastic-four-first-steps-in-20-minutes-or-less-3c05",
-      "source": "Dev.to",
-      "author": "Movie News",
-      "published": "2025-11-28T18:00:10+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "API"
-      ]
-    },
-    {
       "id": "9f6e57c0d23daffa",
       "title": "Simplify AWS Lambda Routing with Zapix – A Lightweight TypeScript Router",
       "description": "If you’re building serverless applications on AWS Lambda, handling routing, middleware, and errors can quickly get messy. Enter Zapix – a lightweight, TypeScript-friendly router designed specifically for Lambda. Why Zapix? Minimal router supporting get, post, put, patch, delete, options, and all methods Middleware chaining similar to Express.js – validate, authenticate, or transform requests easily Global error handling with router.useError for centralized control Safe and consistent HTTP respon",
@@ -3110,21 +3096,6 @@
       ]
     },
     {
-      "id": "c442eb4bf319bc8e",
-      "title": "Downloads Stalling? Not Anymore. Developing Retry Maniac for Chrome",
-      "description": "I'm a Python developer who takes pride in writing code that's more readable and less ambiguous or failure prone. Therefore, it was a never-before seen adventure for me, a journey of treading unknown terrains of JavaScript to get this extension working. Now, as for the motive that lead to this moment, I was downloading some large files from sites online as a part of my research, and I was disappointed to see that the native download manager wouldn't handle downloads for my use case right. I mean,",
-      "url": "https://dev.to/neeyatlotlikar/downloads-stalling-not-anymore-developing-retry-maniac-for-chrome-3lj3",
-      "source": "Dev.to",
-      "author": "Neeyat Lotlikar",
-      "published": "2025-11-28T17:44:13+00:00",
-      "niche": "dev",
-      "score": 52,
-      "keywords": [
-        "developer",
-        "code"
-      ]
-    },
-    {
       "id": "363992c6a1e91a11",
       "title": "What are the Programming Languages?",
       "description": "There are many programming languages in the world. I tell about mostly using programming languages. These are C (Foundation of Everything, OS, Embedded systems, Core computing) C++ (System softwares(Windows,Android,Macos,Linux),Game Engines(Godot,Unity,Unreal Engines),Critical Apps(Video editing softwares,photoshop,matlab)) Java (Banking apps(like Gpay,Official banking apps),Android) JavaScript (Web development (frontend + backend with Node.js). Every website uses ) Python (AI, ML, automation, b",
@@ -3472,45 +3443,18 @@
       ]
     },
     {
-      "id": "89cd2f9a0b2d2688",
-      "title": "Memory-Safety-Ultimate-Guardian",
-      "description": "GitHub Home As a programmer with 40 years of development experience, I experienced a security incident that still gives me chills to this day. We were developing an online trading system for a financial client. A young programmer, when writing an interface to query order history, directly concatenated SQL statements with strings for convenience. Yes, you read that right, the most classic, textbook-style SQL injection vulnerability. A hacker exploited this vulnerability, bypassed authentication, ",
-      "url": "https://dev.to/member_8455d9df/memory-safety-ultimate-guardian-20eb",
+      "id": "aca060462f453dfa",
+      "title": "Behind the Screens: The Quiet Work That Shapes the Code",
+      "description": "Most of the real work in development happens before the first line of code. It is in the structure, the workflow, the decisions, and the way everything fits together behind the scenes. Last week, I was deep in data logic for a service scheduling application, debugging unexpected behavior and juggling shifting priorities. It was another reminder that developing a system is never just about typing syntax — it is the entire system design. Here are a few realizations from the trenches: 1. Micro-inef",
+      "url": "https://dev.to/mzghosty/behind-the-screens-the-quiet-work-that-shapes-the-code-jpm",
       "source": "Dev.to",
-      "author": "member_8455d9df",
-      "published": "2025-11-28T18:07:46+00:00",
+      "author": "MeL",
+      "published": "2025-12-05T18:28:24+00:00",
       "niche": "dev",
-      "score": 51,
+      "score": 52,
       "keywords": [
+        "code",
         "development"
-      ]
-    },
-    {
-      "id": "bb9e9b18b3500d11",
-      "title": "What is a NullPointerException, and How Do I Fix It?",
-      "description": "NullPointerException (NPE) is a Java runtime exception thrown when code accesses a null reference (e.g., calling a method on null). Core Concept Trigger: Attempting to use a null object reference (e.g., null.length()). Type: Unchecked exception; occurs at runtime, not compile time. Example: String name = null; System.out.println(name.length()); // Throws NPE Stack Trace: Points to the line; trace upward for root cause. Common Causes Uninitialized References: Variables default to null if not set.",
-      "url": "https://dev.to/sharmaprash/what-is-a-nullpointerexception-and-how-do-i-fix-it-7bc",
-      "source": "Dev.to",
-      "author": "Prashant Sharma",
-      "published": "2025-11-28T18:06:47+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "2f5e0b92e4302d04",
-      "title": "From stealth to spotlight: How Dimension launched on Product Hunt",
-      "description": "Dimension is a proactive AI assistant for engineering teams that removes context-switching. It launched on Product Hunt this month, for the first time after months in stealth mode, got featured, ranked #2 Product of the Day, and #3 Developer Tool of the Week. Here's what they did right and how to apply it to your launch. What Dimension did right Rode the tailwinds. Their founder introduced Dimension on X the previous day. It gained traction with 3.5+ millions impressions and the team rode those ",
-      "url": "https://dev.to/fmerian/from-stealth-to-spotlight-how-dimension-launched-on-product-hunt-7oi",
-      "source": "Dev.to",
-      "author": "fmerian",
-      "published": "2025-11-28T17:41:45+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "developer"
       ]
     },
     {
@@ -4986,52 +4930,46 @@
       ]
     },
     {
-      "id": "2280ef298c8106dd",
-      "title": "Clean and maintainable Git Histories – Part 2",
-      "description": "3 simple tricks for managing git histories It took me a while to learn these simple tricks for effectively managing Git histories with just a few commands. In the first article, I explained why clear, structured Git commit messages and cohesiv commits are important or why temporary commits make the history more difficult to read. This time, I will show you how to organise your commits before merging them. This will give you a clean, easy-to-understand commit history. Changes should be reviewed a",
-      "url": "https://dev.to/claudioaltamura/clean-and-maintainable-git-histories-part-2-iip",
+      "id": "a30c6964f3098b85",
+      "title": "Building EduCollab: How Kiro’s Multi-Feature Approach Revolutionized My Development Workflow",
+      "description": "--- title: \"Building EduCollab: How Kiro’s Multi-Feature Approach Revolutionized My Development Workflow\" published: false description: \"How I built a production-ready educational collaboration platform in days using Kiro’s specs, hooks, steering docs, and conversational coding.\" tags: kiro, hackathon, react, supabase, ai series: \"Kiroween 2025\" --- For the Kiroween hackathon, I set out to build EduCollab — a comprehensive educational collaboration platform that blends the best of Slack, Discord",
+      "url": "https://dev.to/priyadarshini_r_9f9488a19/building-educollab-how-kiros-multi-feature-approach-revolutionized-my-development-workflow-35dp",
       "source": "Dev.to",
-      "author": "Claudio Altamura",
-      "published": "2025-11-28T18:05:26+00:00",
+      "author": "PRIYADARSHINI R",
+      "published": "2025-12-05T18:26:08+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "development"
+      ]
     },
     {
-      "id": "9745fac63f3fa681",
-      "title": "Xray Test Management for Jira: To What Extent Can AgileTest Be An Affordable Alternative?",
-      "description": "Xray Test Management for Jira is a widely used tool for test planning, execution, and reporting, offering a comprehensive set of features to manage testing workflows directly within Jira. It’s designed for teams that need full capabilities and extensive integration with Jira, making it a popular choice for larger organizations. AgileTest by DevSamurai is also an effective test management solution that integrates with Jira. In this article, we will go through some key features in which AgileTest ",
-      "url": "https://dev.to/kayson_2025/xray-test-management-for-jira-to-what-extent-can-agiletest-be-an-affordable-alternative-4h4c",
+      "id": "5ac23a41f577c43f",
+      "title": "AWS re:Invent 2025 - Implementing security best practices for serverless applications (CNS360)",
+      "description": "🦄 Making great presentations more accessible. This project aims to enhances multilingual accessibility and discoverability while maintaining the integrity of original content. Detailed transcriptions and keyframes preserve the nuances and technical insights that make each session compelling. Overview 📖 AWS re:Invent 2025 - Implementing security best practices for serverless applications (CNS360) In this video, AWS Principal Solutions Architects Heeki Park and Chris McPeek present security best p",
+      "url": "https://dev.to/kazuya_dev/aws-reinvent-2025-implementing-security-best-practices-for-serverless-applications-cns360-43o3",
       "source": "Dev.to",
-      "author": "Khiem Phan",
-      "published": "2025-11-28T18:04:54+00:00",
+      "author": "Kazuya",
+      "published": "2025-12-05T18:17:38+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "best practices"
+      ]
     },
     {
-      "id": "1928545e67f8cd6c",
-      "title": "Ringer Movies: The Robert Redford Hall of Fame",
-      "description": "The Robert Redford Hall of Fame Sean Fennessey and Amanda Dobbins invite actor-playwright Tracy Letts to celebrate Robert Redford’s illustrious career. Together they riff on his standout roles, share personal anecdotes about the star’s impact, and literally build their own Redford Hall of Fame. From Sundance Kid stardom to directorial triumphs like Ordinary People, this lively chat maps Redford’s biggest milestones and enduring appeal. If you’re streaming on Prime or just love classic Hollywood ",
-      "url": "https://dev.to/popcorn_movies/ringer-movies-the-robert-redford-hall-of-fame-4k88",
+      "id": "c028b12e9bc13fbd",
+      "title": "Maximize SDK Integration with Monetzly: A New Era for AI Monetization",
+      "description": "How We Built Ad Injection That Users Actually Appreciate: The Monetzly Approach In an era where AI applications are surging, developers face a common challenge: how to monetize their innovations without compromising the user experience. Enter Monetzly, the first dual-earning platform in the AI space, designed to empower developers while enhancing user interactions. But what sets us apart? It’s our engineering innovation that enables seamless ad injection within AI conversations—ads that users ac",
+      "url": "https://dev.to/monetzly/maximize-sdk-integration-with-monetzly-a-new-era-for-ai-monetization-48ap",
       "source": "Dev.to",
-      "author": "Movie News",
-      "published": "2025-11-28T18:00:23+00:00",
+      "author": "Monetzly",
+      "published": "2025-12-05T18:16:21+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "7bd7188f0afca6cd",
-      "title": "PART 5 — The Rise of Network SQL (N-SQL)",
-      "description": "SECTION 1 — The Past: The Origin Story of SQL Before we talk about a new query language for networks, we have to pay respect to the old one — the one that defined how the entire digital world thinks about data. Because SQL wasn’t just a technology. It was a philosophical shift. And to understand why N-SQL exists, we have to rewind to the beginning. 1.1 — Why SQL Was Born The early 1970s were chaos in data land. Every company wrote its own custom data access systems: hierarchical stores pointer-b",
-      "url": "https://dev.to/peacebinflow/part-5-the-rise-of-network-sql-n-sql-240b",
-      "source": "Dev.to",
-      "author": "PEACEBINFLOW",
-      "published": "2025-11-28T17:42:37+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
       "id": "a689a41c420b30c4",
@@ -8022,6 +7960,90 @@
       "keywords": []
     },
     {
+      "id": "ec5f057dfd9354eb",
+      "title": "AWS re:Invent 2025 - What's new with AWS Lambda (CNS376)",
+      "description": "🦄 Making great presentations more accessible. This project aims to enhances multilingual accessibility and discoverability while maintaining the integrity of original content. Detailed transcriptions and keyframes preserve the nuances and technical insights that make each session compelling. Overview 📖 AWS re:Invent 2025 - What's new with AWS Lambda (CNS376) In this video, the AWS Lambda product management lead presents 2025's transformational serverless capabilities. Key launches include Lambda",
+      "url": "https://dev.to/kazuya_dev/aws-reinvent-2025-whats-new-with-aws-lambda-cns376-3ojp",
+      "source": "Dev.to",
+      "author": "Kazuya",
+      "published": "2025-12-05T18:26:18+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "bf2207ed65f6bcaa",
+      "title": "🧟‍♂️ Stitching the Spirit: Engineering a \"Frankenstein\" AI Agent with Kiro & MCP",
+      "description": "Most AI hackathon projects are just chatbots with a fancy wrapper. For Kiro-ween, the theme was 'Frankenstein,' so I took that literally. I didn't want another polished, polite chatbot. I wanted to stitch together a bunch of messy, incompatible tech stacks into something that felt alive—and maybe a little dangerous. We are currently living in the era of \"Chat.\" We ask an LLM a question, and it gives us text back. But the future of AI isn't just about retrieval; it's about agency. It's about agen",
+      "url": "https://dev.to/vaishnavi_mishra_9a68c0b2/stitching-the-spirit-engineering-a-frankenstein-ai-agent-with-kiro-mcp-4okb",
+      "source": "Dev.to",
+      "author": "Vaishnavi Mishra",
+      "published": "2025-12-05T18:22:50+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "3400bfe97cd88419",
+      "title": "What’s Next — Freelancers & AI-Generated Documents: Emerging Risks & Smart Practices for 2026”",
+      "description": "Introduction As generative AI tools get smarter and more deeply integrated into everyday workflows, freelancers and small teams face a wave of new challenges — and opportunities. The previous post warned about hallucinations, metadata leaks, and careless sharing. In the next phase (2026 and beyond), the stakes are even higher: from AI-seeded social engineering to compliance and privacy law changes. If you're a freelancer using AI to produce documents, proposals, or deliverables — or working with",
+      "url": "https://dev.to/cyber8080/whats-next-freelancers-ai-generated-documents-emerging-risks-smart-practices-for-2026-38io",
+      "source": "Dev.to",
+      "author": "Cyber Safety Zone",
+      "published": "2025-12-05T18:22:36+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "5f529e6c642f93fd",
+      "title": "I Built a Infinite Variation Knowledge Base That AI Can Query — Here's How Kiro Made It Possible 🎃",
+      "description": "How I used specs, hooks, steering, and MCP integrations to build NEXUS in a weekend Ever clicked a link in your notes app and immediately forgot what you were looking at before? Yeah, me too. That frustration led me to build NEXUS — a knowledge base template where clicking a link opens a new pane beside your current one, not instead of it. But here's the twist: I built it for the Kiroween Hackathon, and Kiro's AI-powered IDE features turned what would've been a month-long project into a weekend ",
+      "url": "https://dev.to/keshraf/i-built-a-infinite-variation-knowledge-base-that-ai-can-query-heres-how-kiro-made-it-possible-32d2",
+      "source": "Dev.to",
+      "author": "Ketan Saraf",
+      "published": "2025-12-05T18:21:22+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "6ccea39338950c0e",
+      "title": "How to build your own learning path using Open Source with Kunal Kushwaha [Podcast #200]",
+      "description": "Today Quincy Larson interviews Kunal Kushwaha. He's a software engineer and prolific computer science teacher on YouTube. He failed the JEE, the Indian Engineering Entrance Exam, TWICE. But he persevered. He did 4 years of university but attended ZER...",
+      "url": "https://www.freecodecamp.org/news/how-to-build-your-own-learning-path-using-open-source-with-kunal-kushwaha-podcast-200/",
+      "source": "freeCodeCamp",
+      "author": "Beau Carnes",
+      "published": "2025-12-05T15:00:12+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "889f4cb23a040ea1",
+      "title": "HTML Web Components Proposal From 1998",
+      "description": "It's easy to think of HTML Web Components as a recent feature, but it has roots that go all the way back to 1998. HTML Web Components Proposal From 1998 originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
+      "url": "https://css-tricks.com/html-web-components-proposal-from-1998/",
+      "source": "CSS-Tricks",
+      "author": "Geoff Graham",
+      "published": "2025-12-05T18:16:48+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "b62d27ecb13a43e3",
+      "title": "Beyond The Black Box: Practical XAI For UX Practitioners",
+      "description": "Explainable AI isn’t just a challenge for data scientists. It’s also a design challenge and a core pillar of trustworthy, effective AI products. Victor Yocco offers practical guidance and design patterns for building explainability into real products.",
+      "url": "https://smashingmagazine.com/2025/12/beyond-black-box-practical-xai-ux-practitioners/",
+      "source": "Smashing Magazine",
+      "author": "hello@smashingmagazine.com (Victor Yocco)",
+      "published": "2025-12-05T15:00:00+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "0dd264f5f115f5a6",
       "title": "Learn R Programming from Harvard University",
       "description": "Harvard University creates amazing beginner computer science courses. We just released Harvard CS50’s introduction to programming using a language called R, a popular language for statistical computing and graphics in data science and other domains. ...",
@@ -8221,6 +8243,20 @@
       ]
     },
     {
+      "id": "484c1a4fadb095ab",
+      "title": "Framework Laptop 13 gets ARM processor with 12 cores via upgrade kit",
+      "description": "Comments",
+      "url": "https://www.notebookcheck.net/Framework-Laptop-13-gets-ARM-processor-with-12-cores-via-upgrade-kit.1177930.0.html",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-05T15:49:56+00:00",
+      "niche": "dev",
+      "score": 48,
+      "keywords": [
+        "framework"
+      ]
+    },
+    {
       "id": "8fd5e47f8f1884f1",
       "title": "[Boost]",
       "description": "How to Create An Amazon EKS - Step by Step for Beginners On-cloud7 ・ Nov 30 #aws #eks #containers #cloud",
@@ -8288,6 +8324,30 @@
       "source": "Dev.to",
       "author": "Sean K",
       "published": "2025-12-05T12:35:47+00:00",
+      "niche": "dev",
+      "score": 46,
+      "keywords": []
+    },
+    {
+      "id": "6de5936a3d8eb3c9",
+      "title": "[SoPo 2025] From 0 to AI : Product Marketing Lessons from Launching Create with AI - Dominique Rolink",
+      "description": "Comment positionner l’IA comme un outil accessible plutôt qu’un saut dans l’inconnu ?Dominique Rolink PMM chez Miro nous donne quelques clés pour encourager l'adoption d'un produit IA.",
+      "url": "https://blog.octo.com/sopo-2025-from-0-to-ai--product-marketing-lessons-from-launching-create-with-ai-dominique-rolink",
+      "source": "Blog Technique Octo",
+      "author": "Bastien HILAIRE",
+      "published": "2025-12-05T16:26:10+00:00",
+      "niche": "dev",
+      "score": 46,
+      "keywords": []
+    },
+    {
+      "id": "50be230841563635",
+      "title": "CR School of Product 2025 - Table ronde \"Et si ralentir faisait gagner du temps ?\"",
+      "description": "CR de la table ronde and quot;Et si ralentir faisait gagner du temps ? and quot; à la Conf' School of Product 2025.",
+      "url": "https://blog.octo.com/cr-school-of-product-2025-table-ronde-et-si-ralentir-faisait-gagner-du-temps-",
+      "source": "Blog Technique Octo",
+      "author": "Dan Dang",
+      "published": "2025-12-05T15:51:10+00:00",
       "niche": "dev",
       "score": 46,
       "keywords": []
@@ -8405,124 +8465,18 @@
       ]
     },
     {
-      "id": "207180d4e9d57190",
-      "title": "28M Hacker News comments as vector embedding search dataset",
+      "id": "7c2103ff888afd1f",
+      "title": "Patterns for Defensive Programming in Rust",
       "description": "Comments",
-      "url": "https://clickhouse.com/docs/getting-started/example-datasets/hackernews-vector-search-dataset",
+      "url": "https://corrode.dev/blog/defensive-programming/",
       "source": "Hacker News",
       "author": "Inconnu",
-      "published": "2025-11-28T18:02:04+00:00",
+      "published": "2025-12-05T16:34:25+00:00",
       "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "9f2b030c46eaa6b5",
-      "title": "Imgur Geo-Blocked the UK, So I Geo-Unblocked My Network",
-      "description": "Comments",
-      "url": "https://blog.tymscar.com/posts/imgurukproxy/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-28T18:15:50+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "949b4fbcad3431d2",
-      "title": "So you wanna build a local RAG?",
-      "description": "Comments",
-      "url": "https://blog.yakkomajuri.com/blog/local-rag",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-28T16:54:56+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "f7f50c609ab07c96",
-      "title": "C++ Web Server on my custom hobby OS",
-      "description": "Comments",
-      "url": "https://oshub.org/projects/retros-32/posts/getting-a-webserver-running",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-28T17:15:20+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "9daf57656cd19ca3",
-      "title": "Don't tug on that, you never know what it might be attached to (2016)",
-      "description": "Comments",
-      "url": "https://blog.plover.com/2016/07/01/#tmpdir",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-28T16:01:01+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "f59168fcf1991454",
-      "title": "JSON Schema Demystified: Dialects, Vocabularies and Metaschemas",
-      "description": "Comments",
-      "url": "https://www.iankduncan.com/engineering/2025-11-24-json-schema-demystified/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-28T17:34:26+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "294dcc238c64446a",
-      "title": "Bringing Sexy Back. Internet surveillance has killed eroticism",
-      "description": "Comments",
-      "url": "https://lux-magazine.com/article/privacy-eroticism/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-28T17:05:31+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "edbd9b8fcabfe272",
-      "title": "Meta hiding $27B in debt using advanced geometry",
-      "description": "Comments",
-      "url": "https://stohl.substack.com/p/exclusive-credit-report-shows-meta",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-28T16:09:50+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "4a3b55d2526ac125",
-      "title": "Molly: An Improved Signal App",
-      "description": "Comments",
-      "url": "https://molly.im/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-28T17:48:25+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "fa2c2277b1eab996",
-      "title": "Airloom – 3D Flight Tracker",
-      "description": "Comments",
-      "url": "https://objectiveunclear.com/airloom.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-28T16:49:12+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
+      "score": 45,
+      "keywords": [
+        "programming"
+      ]
     },
     {
       "id": "97b2494e4fa97a54",
@@ -10569,6 +10523,78 @@
       "keywords": []
     },
     {
+      "id": "06e15ae8b0971d1a",
+      "title": "Cloudflare outage on December 5, 2025",
+      "description": "Comments",
+      "url": "https://blog.cloudflare.com/5-december-2025-outage/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-05T15:35:43+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "a5cbff39e6787d47",
+      "title": "I'm Peter Roberts, immigration attorney who does work for YC and startups. AMA",
+      "description": "Comments",
+      "url": "https://news.ycombinator.com/item?id=46163121",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-05T16:04:20+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "3c9a7493d0870022",
+      "title": "Shingles vaccination prevented or delayed dementia",
+      "description": "Comments",
+      "url": "https://www.cell.com/cell/fulltext/S0092-8674(25)01256-5",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-05T17:47:16+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "dde3fb6c3e1d4e3e",
+      "title": "Onlook (YC W25) the Cursor for Designers Is Hiring a Founding Fullstack Engineer",
+      "description": "Comments",
+      "url": "https://news.ycombinator.com/item?id=46163977",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-05T17:00:10+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "9f0c2ba9e82a1f0f",
+      "title": "Synadia and TigerBeetle Pledge $512,000 to the Zig Software Foundation",
+      "description": "Comments",
+      "url": "https://tigerbeetle.com/blog/2025-10-25-synadia-and-tigerbeetle-pledge-512k-to-the-zig-software-foundation/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-05T16:38:30+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "ae8f30ca99b22544",
+      "title": "School of Product 2025-Compte rendu du talk: Accélérez la croissance de vos produits par le Content Design",
+      "description": "",
+      "url": "https://blog.octo.com/school-of-product-2025-compte-rendu-du-talk-accelerez-la-croissance-de-vos-produits-par-le-content-design",
+      "source": "Blog Technique Octo",
+      "author": "Sarra Harfouche",
+      "published": "2025-12-05T15:58:10+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "3bea7f8846dcd34d",
       "title": "Color Contrast and Web Accessibility",
       "description": "Understand color contrast for web accessibility. WCAG standards, testing tools, and best practices to make your website inclusive and accessible. Continue reading Color Contrast and Web Accessibility on SitePoint.",
@@ -10581,18 +10607,6 @@
       "keywords": [
         "best practices"
       ]
-    },
-    {
-      "id": "056235095ed615a7",
-      "title": "How Microfrontends Work: 3 Integration Strategies",
-      "description": "What's the best way to build microfrontends? Compare route segmentation, iframes, and JavaScript composition approaches with real trade-offs and use cases. Continue reading How Microfrontends Work: 3 Integration Strategies on SitePoint.",
-      "url": "https://www.sitepoint.com/microfrontends-integration/?utm_source=rss",
-      "source": "SitePoint",
-      "author": "Nikolay Gushchin",
-      "published": "2025-11-28T16:22:48+00:00",
-      "niche": "dev",
-      "score": 42,
-      "keywords": []
     },
     {
       "id": "8c9b23857864c20c",
@@ -10631,8 +10645,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "React 19",
-        "performance"
+        "performance",
+        "React 19"
       ]
     },
     {
@@ -10710,23 +10724,11 @@
       "niche": "dev",
       "score": 39,
       "keywords": [
+        "performance",
         "developer",
         "best practices",
-        "performance",
         "development"
       ]
-    },
-    {
-      "id": "bfeb55aa3dfcec68",
-      "title": "Imgur geo-blocked the UK, so I geo-unblocked my network",
-      "description": "Comments",
-      "url": "https://blog.tymscar.com/posts/imgurukproxy/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-28T18:15:50+00:00",
-      "niche": "dev",
-      "score": 38,
-      "keywords": []
     },
     {
       "id": "50dc85cf84499959",
@@ -10872,8 +10874,8 @@
       "score": 38,
       "keywords": [
         "release",
-        "React 19",
-        "API"
+        "API",
+        "React 19"
       ]
     },
     {
@@ -10887,9 +10889,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
+        "performance",
         "developer",
-        "best practices",
-        "performance"
+        "best practices"
       ]
     },
     {
@@ -10915,8 +10917,8 @@
       "niche": "dev",
       "score": 37,
       "keywords": [
-        "developer",
-        "library"
+        "library",
+        "developer"
       ]
     },
     {
@@ -11002,8 +11004,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "API",
-        "framework"
+        "framework",
+        "API"
       ]
     },
     {
@@ -11097,8 +11099,8 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "framework",
         "release",
+        "framework",
         "code",
         "API",
         "performance"
@@ -11163,10 +11165,10 @@
       "niche": "dev",
       "score": 28,
       "keywords": [
-        "release",
         "Angular",
+        "framework",
         "library",
-        "framework"
+        "release"
       ]
     },
     {
@@ -11500,9 +11502,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "developer",
+        "performance",
         "code",
-        "performance"
+        "developer"
       ]
     },
     {
@@ -11516,8 +11518,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "development",
-        "framework"
+        "framework",
+        "development"
       ]
     },
     {
@@ -11546,8 +11548,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -11576,20 +11578,6 @@
       "score": 18,
       "keywords": [
         "library"
-      ]
-    },
-    {
-      "id": "600f2567cc270b2d",
-      "title": "Effectively Monitoring Web Performance",
-      "description": "There are lots of tips for [improving your website performance](https://www.debugbear.com/blog/improve-website-performance?utm_campaign=sm-10). But even if you follow all of the advice, are you able to maintain an optimized site? And are you targeting the right pages? Matt Zeunert outlines an effective strategy for web performance optimization and explains the roles that different types of data play in it.",
-      "url": "https://smashingmagazine.com/2025/11/effectively-monitoring-web-performance/",
-      "source": "Smashing Magazine",
-      "author": "hello@smashingmagazine.com (Matt Zeunert)",
-      "published": "2025-11-11T10:00:00+00:00",
-      "niche": "dev",
-      "score": 18,
-      "keywords": [
-        "performance"
       ]
     },
     {
@@ -11635,20 +11623,6 @@
       ]
     },
     {
-      "id": "fd52b0592306d53d",
-      "title": "Du dataset jetable au data product pérenne : comment le data mesh transforme notre rapport à la donnée",
-      "description": "Dans les organisations où les données sont nombreuses, hétérogènes et stratégiques, leur mise à disposition efficace devient un levier clé de performance. L’approche data mesh, en décentralisant la gouvernance et en traitant la donnée comme un produit, promet une meilleure agilité et une appropriation renforcée par les équipes métier.",
-      "url": "https://blog.octo.com/du-dataset-jetable-au-data-product-perenne--comment-le-data-mesh-transforme-notre-rapport-a-la-donnee",
-      "source": "Blog Technique Octo",
-      "author": "Imane Ryane",
-      "published": "2025-11-14T13:20:18+00:00",
-      "niche": "dev",
-      "score": 18,
-      "keywords": [
-        "performance"
-      ]
-    },
-    {
       "id": "eb6de8461ae36470",
       "title": "Only you can stop AI database drops",
       "description": "Ryan is joined by David Hsu, CEO and founder of Retool, to explore how AI is transforming the role of a software developer into a software architect, the increasing accessibility of coding for non-engineers, and the importance of placing guardrails and higher-level programming primitives on AI coding assistants.",
@@ -11659,8 +11633,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "developer",
-        "programming"
+        "programming",
+        "developer"
       ]
     },
     {
@@ -11933,18 +11907,6 @@
       "keywords": []
     },
     {
-      "id": "46f02976d5b67f77",
-      "title": "Headings: Semantics, Fluidity, and Styling — Oh My!",
-      "description": "A few links about headings that I've had stored under my top hat. Headings: Semantics, Fluidity, and Styling — Oh My! originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-      "url": "https://css-tricks.com/headings-semantics-fluidity-and-styling-oh-my/",
-      "source": "CSS-Tricks",
-      "author": "Geoff Graham",
-      "published": "2025-11-10T14:44:13+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
       "id": "2b2f8ecb09607b99",
       "title": "The Accessibility Problem With Authentication Methods Like CAPTCHA",
       "description": "CAPTCHAs were meant to keep bots out, but too often, they lock people with disabilities out, too. From image classification to click-based tests, many “human checks” are anything but inclusive. There’s no universal solution, but understanding real user needs is where accessibility truly starts.",
@@ -12055,18 +12017,6 @@
       "source": "Blog Technique Octo",
       "author": "Simon Calarn",
       "published": "2025-11-27T16:00:10+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "60ae0b6696e796b3",
-      "title": "Numérique en commun(s) 2025 : quand la parentalité devient un choix engagé",
-      "description": "Entre les nombreuses présentations de NEC 2025, qui sont autant de petits pas et de bons de géants pour faire avancer les services publics, il y avait la place pour toutes les questions, dont la mienne : comment construire une parentalité à l'ère du numérique?",
-      "url": "https://blog.octo.com/numerique-en-commun-2025--quand-la-parentalite-devient-un-choix-engage-1",
-      "source": "Blog Technique Octo",
-      "author": "Lola Benarroche",
-      "published": "2025-11-04T16:25:10+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -12264,6 +12214,18 @@
       "keywords": [
         "developer"
       ]
+    },
+    {
+      "id": "056235095ed615a7",
+      "title": "How Microfrontends Work: 3 Integration Strategies",
+      "description": "What's the best way to build microfrontends? Compare route segmentation, iframes, and JavaScript composition approaches with real trade-offs and use cases. Continue reading How Microfrontends Work: 3 Integration Strategies on SitePoint.",
+      "url": "https://www.sitepoint.com/microfrontends-integration/?utm_source=rss",
+      "source": "SitePoint",
+      "author": "Nikolay Gushchin",
+      "published": "2025-11-28T16:22:48+00:00",
+      "niche": "dev",
+      "score": 12,
+      "keywords": []
     },
     {
       "id": "fc5213daca7c9526",
@@ -12519,18 +12481,6 @@
       "source": "Blog Technique Octo",
       "author": "",
       "published": "2025-11-17T14:33:10+00:00",
-      "niche": "dev",
-      "score": 10,
-      "keywords": []
-    },
-    {
-      "id": "e3d0ec5269e47011",
-      "title": "Connaissez vous vraiment les OKR ? Quelques astuces pour bien démarrer",
-      "description": "Je vous partage quelques astuces OKR à avoir pour bien démarrer et éviter quelques pièges. Avançons dans un cycle OKR et voyons comment progresser un peu plus sereinement",
-      "url": "https://blog.octo.com/connaissez-vous-vraiment-les-okr-quelques-astuces-pour-bien-demarrer",
-      "source": "Blog Technique Octo",
-      "author": "Anthony Coulon",
-      "published": "2025-11-07T10:35:55+00:00",
       "niche": "dev",
       "score": 10,
       "keywords": []
