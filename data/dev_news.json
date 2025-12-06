@@ -1,24 +1,7 @@
 {
-  "last_updated": "2025-12-06T18:33:19.957408+00:00",
-  "total_articles": 998,
+  "last_updated": "2025-12-06T21:21:47.098345+00:00",
+  "total_articles": 997,
   "articles": [
-    {
-      "id": "c609831d7def551c",
-      "title": "How I Designed a Full-Stack Banking Microservices Architecture Using .NET 9 + Angular Nx",
-      "description": "For the last few years, I’ve been working on enterprise systems in banking, logistics, and fintech. One thing I realized is that most tutorials don’t come close to what a real production environment looks like. So I decided to build and share a real digital banking platform, using the same technologies used by modern financial systems: .NET 9 Microservices Angular 19 in an Nx Monorepo Clean Architecture + DDD PostgreSQL + EF Core RabbitMQ (Event-Driven Architecture) Docker & Docker Compose GitHu",
-      "url": "https://dev.to/gustavojofelix/how-i-designed-a-full-stack-banking-microservices-architecture-using-net-9-angular-nx-1jmc",
-      "source": "Dev.to",
-      "author": "Gustavo felix",
-      "published": "2025-11-29T20:51:47+00:00",
-      "niche": "dev",
-      "score": 88,
-      "keywords": [
-        "Angular",
-        "tutorial",
-        "Angular 19",
-        "microservices"
-      ]
-    },
     {
       "id": "819ff64ed0f6e568",
       "title": "Authenticating Users in Astro & React Apps with Better Auth",
@@ -258,6 +241,20 @@
       "score": 72,
       "keywords": [
         "framework"
+      ]
+    },
+    {
+      "id": "dc64b35a9a857b7e",
+      "title": "DevPill #2: How to build and push a docker image to google cloud Artifact Registry",
+      "description": "Specify Dockerfile. Example: FROM golang:1.25 AS builder WORKDIR /app COPY . . WORKDIR /app/services/api-gateway/cmd RUN CGO_ENABLED=0 GOOS=linux go build -o api-gateway FROM alpine:latest RUN apk --no-cache add ca-certificates WORKDIR /root/ COPY --from=builder /app/services/api-gateway/cmd/api-gateway . CMD [\"./api-gateway\"] Docker \"build\" to create the image locally. Example: docker build -t us-central1-docker.pkg.dev/<project-id>/<repository-name>/api-gateway:latest --platform linux/amd64 -f",
+      "url": "https://dev.to/raulsilva/devpill-2-how-to-build-and-send-a-docker-image-to-google-cloud-container-registry-1mbe",
+      "source": "Dev.to",
+      "author": "Raul Paes Silva",
+      "published": "2025-12-06T21:02:08+00:00",
+      "niche": "dev",
+      "score": 72,
+      "keywords": [
+        "API"
       ]
     },
     {
@@ -633,18 +630,6 @@
       "published": "2025-12-04T01:34:03+00:00",
       "niche": "dev",
       "score": 64,
-      "keywords": []
-    },
-    {
-      "id": "36c70fb93a245419",
-      "title": "Show HN: Nano PDF – A CLI Tool to Edit PDFs with Gemini's Nano Banana",
-      "description": "Comments",
-      "url": "https://github.com/gavrielc/Nano-PDF",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-29T20:44:24+00:00",
-      "niche": "dev",
-      "score": 62,
       "keywords": []
     },
     {
@@ -1299,18 +1284,6 @@
       ]
     },
     {
-      "id": "14e7103e8b6808a4",
-      "title": "Learning Feynman's Trick for Integrals",
-      "description": "Comments",
-      "url": "https://zackyzz.github.io/feynman.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-29T19:55:17+00:00",
-      "niche": "dev",
-      "score": 56,
-      "keywords": []
-    },
-    {
       "id": "efd5395e6fb9bd43",
       "title": "The 20 Most Essential DevOps Tools: Bridging the Gap Between Development and Operations",
       "description": "The world of software delivery has changed forever. Gone are the days of isolated dev and ops teams exchanging endless tickets. Now, speed, collaboration, and automation rule. At the center of this evolution stands DevOps — a movement reshaping how software is built, tested, and deployed. Imagine this: your development team pushes new code at 10 a.m., automated tests validate the changes, infrastructure scales dynamically, and within minutes, users see the update. That’s the kind of magic DevOps",
@@ -1944,6 +1917,52 @@
       "keywords": [
         "performance",
         "best practices"
+      ]
+    },
+    {
+      "id": "8a8083fdd901c714",
+      "title": "[Boost]",
+      "description": "From Tutorials to a Real Banking Platform: Inside Alvor Bank (.NET 10 + Angular 21 Nx Monorepo) Gustavo felix ・ Dec 6 #dotnet #angular #microservices #eventdriven",
+      "url": "https://dev.to/gustavojofelix/-3dll",
+      "source": "Dev.to",
+      "author": "Gustavo felix",
+      "published": "2025-12-06T21:17:29+00:00",
+      "niche": "dev",
+      "score": 55,
+      "keywords": [
+        "Angular",
+        "tutorial",
+        "microservices"
+      ]
+    },
+    {
+      "id": "ec50220b8385438e",
+      "title": "LogGuard",
+      "description": "A high-performance Flutter plugin that automatically sanitizes sensitive data in logs using Rust FFI with regex-based pattern matching. Why LogGuard? Accidentally logging sensitive information is one of the most common security vulnerabilities in mobile apps. LogGuard provides automatic protection by intercepting and sanitizing all log output before it reaches the console, crash reporters, or analytics systems. Key Benefits 🛡️ Automatic Protection: No code changes needed - wrap your app and you'",
+      "url": "https://dev.to/cas8398/logguard-29cb",
+      "source": "Dev.to",
+      "author": "Cahyanudien Aziz Saputra",
+      "published": "2025-12-06T20:57:46+00:00",
+      "niche": "dev",
+      "score": 55,
+      "keywords": [
+        "performance",
+        "code"
+      ]
+    },
+    {
+      "id": "d9e736adab5533f3",
+      "title": "How Container Governance Shapes Enterprise Deployment Strategies",
+      "description": "As containerized applications scale across teams and environments, organizations quickly discover that building containers is only the first step. The greater challenge lies in governing how those containers are deployed, monitored, secured, and maintained across development, staging, and production clusters. Without a defined governance framework, even well-architected applications can encounter drift, inconsistent configurations, and security gaps that slow innovation and increase operational ",
+      "url": "https://dev.to/kapusto/how-container-governance-shapes-enterprise-deployment-strategies-eg",
+      "source": "Dev.to",
+      "author": "Mikuz",
+      "published": "2025-12-06T20:47:41+00:00",
+      "niche": "dev",
+      "score": 55,
+      "keywords": [
+        "framework",
+        "development"
       ]
     },
     {
@@ -2951,6 +2970,20 @@
       ]
     },
     {
+      "id": "cabddb64f154dae1",
+      "title": "Why Switching Companies Every 2–3 Years Can Supercharge Your Career",
+      "description": "In today’s fast‑moving tech and business landscape, staying too long at one company can actually slow down your growth. While loyalty used to be seen as the ultimate career virtue, the modern workplace rewards adaptability, fresh perspectives, and the ability to reinvent yourself. That’s why many professionals are choosing to change companies every two to three years — and reaping the benefits. Faster Skill Growth When you move to a new company, you’re exposed to different tools, workflows, and ",
+      "url": "https://dev.to/svdisv/why-switching-companies-every-2-3-years-can-supercharge-your-career-385o",
+      "source": "Dev.to",
+      "author": "Dima",
+      "published": "2025-12-06T21:03:52+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "API"
+      ]
+    },
+    {
       "id": "710901817cdb372a",
       "title": "UserScanner a CLI tool to help you select a unique username across all popular sites.",
       "description": "User Scanner Repo: https://github.com/kaifcodec/user-scanner Super easy to contribute and add new site support, join the other contributors and help us make the tool better. Scan a username across multiple social, developer, and creator platforms to see if it’s available. Perfect for finding a unique username across GitHub, Twitter, Reddit, Instagram, and more, all in one command. Features ✅ Check usernames across social networks, developer platforms, and creator communities. ✅ Clear Available /",
@@ -3298,17 +3331,18 @@
       ]
     },
     {
-      "id": "bb1ddccb1bbf2574",
-      "title": "The Catch-22 of programming",
-      "description": "In the early days of computing, the route to becoming a programmer was straightforward. You just did it. Training courses were initially nonexistent, so we had to learn from textbooks and data sheets. The ones who had the motivation to stick with it were the ones who became professional programmers. After that, in some ways it got a lot easier. Information became more plentiful, and with the arrival of first email then the World Wide Web, there were people you could ask and articles you could re",
-      "url": "https://dev.to/gtanyware/the-catch-22-of-programming-2e1p",
+      "id": "a666bc9e21ca2752",
+      "title": "From ARM Assembly to Machine Code: A Bare-Metal Primer",
+      "description": "ARMv7 programmer-visible registers From assembly source to machine code A minimal startup example How labels and offsets are resolved Encoding ldr r2, str1 Encoding b . Why b . becomes an infinite loop Why this pattern is used in bare-metal code Encoding .word 0xDEADBEEF How instructions appear in memory From source to raw binary Bare-metal programming begins at a boundary where abstractions disappear. There is no operating system, no loader, and no safety net between software and silicon. At th",
+      "url": "https://dev.to/ripan030/from-arm-assembly-to-machine-code-a-bare-metal-primer-4c7m",
       "source": "Dev.to",
-      "author": "Graham Trott",
-      "published": "2025-11-29T21:06:33+00:00",
+      "author": "Ripan Deuri",
+      "published": "2025-12-06T20:36:47+00:00",
       "niche": "dev",
-      "score": 51,
+      "score": 52,
       "keywords": [
-        "programming"
+        "programming",
+        "code"
       ]
     },
     {
@@ -4812,100 +4846,18 @@
       ]
     },
     {
-      "id": "a4476cfb75d95901",
-      "title": "Nano Banana 2",
-      "description": "Nano Banana 2 - 4K AI Image Generation Platform ## Overview Nano Banana 2 is Google's next-generation 4K AI image generation and editing platform powered by Gemini technology. Unlike traditional AI models limited by resolution and accuracy, Nano Banana 2 delivers professional-grade 4K output with revolutionary self-correction workflow. ## Core Features ### 4K Quality Output Native 2K rendering with 4K upscaling Professional-grade images for print and digital media Sharper fidelity ideal for comm",
-      "url": "https://dev.to/leo_king_25a8aa998a261145/nano-banana-2-4ahf",
+      "id": "5a649d9d9227bd46",
+      "title": "Automating Ubuntu VM Creation with libvirt (KVM/QEMU) and Cloud-Init",
+      "description": "Ever needed to spin up multiple Ubuntu VMs quickly for testing, development, or learning? In this post, I'll walk you through a bash script that automates the entire process using libvirt/KVM and cloud-init. What This Script Does Downloads the official Ubuntu Noble cloud image automatically Creates multiple VMs with customizable resources (memory, CPUs, disk) Configures static IPs in the 192.168.1.100-150 range Sets up SSH access via your GitHub public keys Pre-installs useful packages including",
+      "url": "https://dev.to/tjuliu/automating-ubuntu-vm-creation-with-libvirt-kvmqemu-and-cloud-init-2inf",
       "source": "Dev.to",
-      "author": "LEO KING",
-      "published": "2025-11-29T21:09:18+00:00",
+      "author": "julio",
+      "published": "2025-12-06T21:05:07+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "61c6a34ba599edfd",
-      "title": "A Financial MCP server with multi-provider orchestration (Open Source)",
-      "description": "Recently I built an AI-native Model Context Protocol (MCP) server that aggregates financial data from multiple providers, adds intelligent orchestration, and enforces multilingual compliance guardrails. Here’s the GitHub: https://github.com/kiarashplusplus/FIML and Docs: https://kiarashplusplus.github.io/FIML/",
-      "url": "https://dev.to/kiarashplusplus/a-financial-mcp-server-with-multi-provider-orchestration-open-source-dob",
-      "source": "Dev.to",
-      "author": "Kiarash",
-      "published": "2025-11-29T21:09:00+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "5eb54d00769d90a7",
-      "title": "Free tool to remove watermarks from AI images, 100% private",
-      "description": "I've created a tool to remove watermarks from images. Perfect for those who experiment with AI and create many images with it. It's FREE and 100% private; your images are not sent to any server. Everything is processed in your browser thanks to OpenCV technology. https://jawuil.dev/remove-watermark",
-      "url": "https://dev.to/jawuilp/free-tool-to-remove-watermarks-from-ai-images-100-private-1pf4",
-      "source": "Dev.to",
-      "author": "Jawuil Pineda",
-      "published": "2025-11-29T21:00:07+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "3b951645f8ddee7b",
-      "title": "My Journey to Becoming a Newly Promoted Senior Software Engineer",
-      "description": "Becoming a Senior Engineer is not a title—it is a journey shaped by continuous learning, challenging projects, strong communication, and countless real-world experiences. In this article, I want to share how I started my software career, how I progressed through different companies, and how my banking & fintech experience helped me reach the Senior level. 🧩 1. Getting Started: Building the Foundation I started from absolute zero, spending 10–12 hours a day for nearly a year learning HTML, CSS, a",
-      "url": "https://dev.to/serifcolakel/my-journey-to-becoming-a-newly-promoted-senior-software-engineer-45ie",
-      "source": "Dev.to",
-      "author": "Serif COLAKEL",
-      "published": "2025-11-29T20:52:20+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "0418f3098bbd4c45",
-      "title": "Building Your Own Block Cipher: Part 1 — Block Cipher Theory & Rebuilding DES (Foundations You Can See)",
-      "description": "🔸 1. Introduction In the previous article, we built the “Lego bricks” of cryptography — pseudo-random generators, one-way functions, and permutations. Those components are not just academic toys; they form the internal mechanics of real encryption systems. Now it’s time to assemble those bricks into something that actually encrypts data. Welcome to block ciphers. A block cipher is a deterministic algorithm that: takes a fixed-size block of input (e.g. 64 or 128 bits), mixes it with a secret key,",
-      "url": "https://dev.to/dmytro_huz/building-your-own-block-cipher-part-1-block-cipher-theory-rebuilding-des-foundations-you-can-2nld",
-      "source": "Dev.to",
-      "author": "Dmytro Huz",
-      "published": "2025-11-29T20:44:35+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "cde99cae7461d4f7",
-      "title": "The Brain's Visual Resilience: How We Compensate for Imperfections and Blue Light Shapes Our World",
-      "description": "The Brain's Visual Resilience: How We Compensate for Imperfections and Blue Light Shapes Our World Our sense of sight is often taken for granted, yet it's an intricate dance between our eyes and our brain. Far from being a passive receiver of light, the brain actively constructs our visual reality, constantly making adjustments, filling in gaps, and interpreting ambiguous signals. This remarkable adaptability allows us to navigate a complex world, even compensating for subtle visual imperfection",
-      "url": "https://dev.to/buysellshop/the-brains-visual-resilience-how-we-compensate-for-imperfections-and-blue-light-shapes-our-world-143m",
-      "source": "Dev.to",
-      "author": "buysellshop",
-      "published": "2025-11-29T20:38:49+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "f75e4b940b740d5d",
-      "title": "DNS Demystified: How It Works, Why Hackers Target It & How DNS Hijacking Really Happens",
-      "description": "What is DNS? The Domain Name System (DNS) is the internet's address book—it translates human-readable domain names like google.com into machine-readable IP addresses like 142.250.190.46. Without DNS, you'd need to memorize IP addresses for every website you visit. Key DNS Record Types: A Record: Maps domain to IPv4 address AAAA Record: Maps domain to IPv6 address CNAME Record: Creates domain aliases MX Record: Specifies mail servers TXT Record: Stores text data (used for verification) How DNS Re",
-      "url": "https://dev.to/sudiip__17/dns-demystified-how-it-works-why-hackers-target-it-how-dns-hijacking-really-happens-24mn",
-      "source": "Dev.to",
-      "author": "sudip khatiwada",
-      "published": "2025-11-29T20:27:29+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "870782dd224ff2d5",
-      "title": "📝 Top AI Tools for Writing in 2025 (That Actually Make You Write Better)",
-      "description": "Writing today is faster — but also more demanding. Whether you're creating blog posts, emails, scripts, or technical documentation, AI writing tools can help you write clearer, faster, and more professionally. Here are the top AI tools for writing in 2025, based on accuracy, speed, creativity, and real-world usefulness. ChatGPT 5.1 The current leader in natural and creative writing. Perfect for: Blog posts Long-form articles Storytelling Email writing Technical explanations Why it’s great: Stron",
-      "url": "https://dev.to/ailon_tech_29dfe73d5236e2/top-ai-tools-for-writing-in-2025-that-actually-make-you-write-better-254m",
-      "source": "Dev.to",
-      "author": "Ailon Tech",
-      "published": "2025-11-29T20:26:37+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "development"
+      ]
     },
     {
       "id": "ab43f63a3ab467cb",
@@ -7992,6 +7944,42 @@
       "keywords": []
     },
     {
+      "id": "0efd452332b324c6",
+      "title": "Aqua-Tech Cities: How AI Will Build Climate-Proof Ocean Worlds",
+      "description": "As climate change continues to reshape our planet, rising sea levels and extreme weather are forcing humanity to rethink how and where we live. One of the most exciting ideas emerging from this crisis is the concept of Aqua-Tech Cities—floating, climate-proof smart cities powered by artificial intelligence and sustainable technology. Imagine cities built on water, not as a last resort, but as a smarter, safer, and greener future. These ocean-based cities would use AI-driven systems to manage eve",
+      "url": "https://dev.to/dawoodtech/aqua-tech-cities-how-ai-will-build-climate-proof-ocean-worlds-3ij6",
+      "source": "Dev.to",
+      "author": "Muhammad Dawood Anwar",
+      "published": "2025-12-06T21:07:21+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "e01e8d5c05af6c02",
+      "title": "Building SkyMoment: A 4K Personalized Star Map Generator with Python, Skyfield and Astronomical Data",
+      "description": "Building SkyMoment: A 4K Personalized Star Map Generator with Python, Skyfield and Real Astronomical Data I recently shipped a small side project called SkyMoment — a generator that creates personalized 4K star map posters using real astronomical data. You enter a date, time, and location. SkyMoment recreates the exact night sky for that moment and renders it as a minimalist, print-ready 4000×4000 poster. 🔗 Live demo: https://skymoment.art/ This post is a breakdown of how the system works — from",
+      "url": "https://dev.to/balyakin/building-skymoment-a-4k-personalized-star-map-generator-with-python-skyfield-and-astronomical-data-11h9",
+      "source": "Dev.to",
+      "author": "balyakin",
+      "published": "2025-12-06T20:47:43+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "5f91aaec9868d334",
+      "title": "En los próximos 1-2 años, es previsible que la Prevención de",
+      "description": "En los próximos 1-2 años, es previsible que la Prevención de Lavado de Dinero (PLD) en México seguirá evolucionando hacia un enfoque más tecnológico y automatizado. La analítica y la explicabilidad tendrán un papel crucial en esta evolución. La analítica permitirá a las instituciones financieras y otras entidades reguladas identificar patrones y tendencias en los flujos de dinero, lo que les permitirá detectar posibles operaciones relacionadas con lavado de dinero con mayor precisión. La explica",
+      "url": "https://dev.to/drcarlosruizviquez/en-los-proximos-1-2-anos-es-previsible-que-la-prevencion-de-4lec",
+      "source": "Dev.to",
+      "author": "Dr. Carlos Ruiz Viquez",
+      "published": "2025-12-06T20:37:04+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "0dd264f5f115f5a6",
       "title": "Learn R Programming from Harvard University",
       "description": "Harvard University creates amazing beginner computer science courses. We just released Harvard CS50’s introduction to programming using a language called R, a popular language for statistical computing and graphics in data science and other domains. ...",
@@ -8439,42 +8427,6 @@
       "keywords": [
         "programming"
       ]
-    },
-    {
-      "id": "cc16f52f3395ae8d",
-      "title": "All it takes is for one to work out",
-      "description": "Comments",
-      "url": "https://alearningaday.blog/2025/11/28/all-it-takes-is-for-one-to-work-out-2/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-29T20:22:44+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "36555da56d362344",
-      "title": "Be Like Clippy",
-      "description": "Comments",
-      "url": "https://be-clippy.com/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-29T19:41:55+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "5d7e541382ede83e",
-      "title": "The Origins of Scala (2009)",
-      "description": "Comments",
-      "url": "https://www.artima.com/articles/the-origins-of-scala",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-29T19:59:12+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "40efb07472dae951",
@@ -10617,6 +10569,42 @@
       "keywords": []
     },
     {
+      "id": "8da98c0084ce9358",
+      "title": "OMSCS Open Courseware",
+      "description": "Comments",
+      "url": "https://sites.gatech.edu/omscsopencourseware/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-06T19:14:35+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "b221f8d1fc07f57d",
+      "title": "The general who refused to crush Tiananmen's protesters",
+      "description": "Comments",
+      "url": "https://www.economist.com/china/2025/12/04/the-general-who-refused-to-crush-tiananmens-protesters",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-06T19:47:13+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "f4f1f7fc4f4783fb",
+      "title": "Zebra-Llama: Towards Efficient Hybrid Models",
+      "description": "Comments",
+      "url": "https://arxiv.org/abs/2505.17272",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-06T20:15:54+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "3bea7f8846dcd34d",
       "title": "Color Contrast and Web Accessibility",
       "description": "Understand color contrast for web accessibility. WCAG standards, testing tools, and best practices to make your website inclusive and accessible. Continue reading Color Contrast and Web Accessibility on SitePoint.",
@@ -10734,9 +10722,9 @@
       "niche": "dev",
       "score": 39,
       "keywords": [
-        "developer",
         "performance",
         "best practices",
+        "developer",
         "development"
       ]
     },
@@ -10861,6 +10849,18 @@
       "keywords": []
     },
     {
+      "id": "90abd75058e15b0e",
+      "title": "Autism's confusing cousins",
+      "description": "Comments",
+      "url": "https://www.psychiatrymargins.com/p/autisms-confusing-cousins",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-06T11:18:40+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
       "id": "4e6d7290f5ff11d8",
       "title": "React Native 0.80 - React 19.1, JS API Changes, Freezing Legacy Arch and much more",
       "description": "Today we are excited to release React Native 0.80!",
@@ -10871,9 +10871,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "API",
         "release",
-        "React 19"
+        "React 19",
+        "API"
       ]
     },
     {
@@ -10887,9 +10887,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "developer",
         "performance",
-        "best practices"
+        "best practices",
+        "developer"
       ]
     },
     {
@@ -10915,8 +10915,8 @@
       "niche": "dev",
       "score": 37,
       "keywords": [
-        "library",
-        "developer"
+        "developer",
+        "library"
       ]
     },
     {
@@ -10930,8 +10930,8 @@
       "niche": "dev",
       "score": 37,
       "keywords": [
-        "API",
-        "developer"
+        "developer",
+        "API"
       ]
     },
     {
@@ -10973,8 +10973,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -11002,8 +11002,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "API",
-        "framework"
+        "framework",
+        "API"
       ]
     },
     {
@@ -11109,11 +11109,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "code",
-        "performance",
+        "framework",
         "API",
         "release",
-        "framework"
+        "performance",
+        "code"
       ]
     },
     {
@@ -11175,10 +11175,10 @@
       "niche": "dev",
       "score": 28,
       "keywords": [
-        "library",
         "release",
         "Angular",
-        "framework"
+        "framework",
+        "library"
       ]
     },
     {
@@ -11380,6 +11380,18 @@
       "keywords": []
     },
     {
+      "id": "4448e942b0fb9cde",
+      "title": "Abstract Interpretation in the Toy Optimizer",
+      "description": "Comments",
+      "url": "https://bernsteinbear.com/blog/toy-abstract-interpretation/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-04T02:09:47+00:00",
+      "niche": "dev",
+      "score": 26,
+      "keywords": []
+    },
+    {
       "id": "76fac1e29bad26dc",
       "title": "October 2025 Baseline monthly digest",
       "description": "Read about various happenings with Baseline during October 2025.",
@@ -11518,8 +11530,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "API",
-        "release"
+        "release",
+        "API"
       ]
     },
     {
@@ -11533,8 +11545,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "framework"
+        "framework",
+        "release"
       ]
     },
     {
@@ -11548,8 +11560,8 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "developer",
         "performance",
+        "developer",
         "code"
       ]
     },
@@ -11564,8 +11576,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "development",
-        "framework"
+        "framework",
+        "development"
       ]
     },
     {
@@ -12661,18 +12673,6 @@
       "published": "2025-09-26T00:00:00+00:00",
       "niche": "dev",
       "score": 9,
-      "keywords": []
-    },
-    {
-      "id": "380656f3f1ab67fd",
-      "title": "The unexpected effectiveness of one-shot decompilation with Claude",
-      "description": "Comments",
-      "url": "https://blog.chrislewis.au/the-unexpected-effectiveness-of-one-shot-decompilation-with-claude/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-28T17:07:48+00:00",
-      "niche": "dev",
-      "score": 8,
       "keywords": []
     },
     {
