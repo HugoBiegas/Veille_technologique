@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-05T21:23:52.299547+00:00",
+  "last_updated": "2025-12-06T01:52:54.766369+00:00",
   "total_articles": 991,
   "articles": [
     {
@@ -247,19 +247,16 @@
       ]
     },
     {
-      "id": "f5174c11dad6b610",
-      "title": "Java > Python for AI Agents? I Built a Surf-Forecasting Agent to Find Out",
-      "description": "StokeBroker: My Journey Building an AI Surf Agent with Java and Embabel Shots fired! Sorry Python people, but let me explain. Only a couple of days after I wrote CodeBro, my AI agent written in Java, I discovered this post called You Can Build Better AI Agents in Java Than Python. Ha! I love it (hence the clickbait title). The post was written by Rod Johnson (creator of Spring framework) and he introduced his framework for writing AI agents on the JVM. Granted he was using Kotlin, but since I've",
-      "url": "https://dev.to/phouchens/java-python-for-ai-agents-i-built-a-surf-forecasting-agent-to-find-out-5aca",
+      "id": "3777512587887def",
+      "title": "Cross-Compile Anything to Anywhere with One GitHub Action Why I Ended Up Building This",
+      "description": "I write a fair amount of C and C++, and over time cross-compiling turned into the part of the job I postponed until the end. Different toolchains per platform, half-documented cross-compilers, GLIBC differences between build and runtime, CI jobs that spend more time starting Docker than compiling anything useful. It adds up. Around the same time I kept seeing Zig show up on Reddit. Not big framework posts, just small practical things: “Here is how I built a Linux ARM64 binary from x86_64 with zi",
+      "url": "https://dev.to/rul1an/cross-compile-anything-to-anywhere-with-one-github-actionwhy-i-ended-up-building-this-2b62",
       "source": "Dev.to",
-      "author": "Perry H",
-      "published": "2025-11-29T01:30:34+00:00",
+      "author": "Rul1an",
+      "published": "2025-12-06T01:14:13+00:00",
       "niche": "dev",
-      "score": 70,
+      "score": 72,
       "keywords": [
-        "code",
-        "Spring",
-        "Spring Framework",
         "framework"
       ]
     },
@@ -901,6 +898,24 @@
       ]
     },
     {
+      "id": "e36a48a368e40622",
+      "title": "Discordo: A Go Library for Streamlined Discord Bot Development",
+      "description": "Discordo: Streamlining Discord Bot Development in Go Building Discord bots can often involve grappling with boilerplate code and complex API interactions. For developers working with Go, the discordo library offers a refreshing solution. It provides a clean, intuitive interface to the Discord API, allowing developers to shift their focus from repetitive setup to the core logic and features of their bots. Why Discordo? Clean Interface: Designed for ease of use and understandability. Focus on Logi",
+      "url": "https://dev.to/stelixx-insider/discordo-a-go-library-for-streamlined-discord-bot-development-36e2",
+      "source": "Dev.to",
+      "author": "Stelixx Insider",
+      "published": "2025-12-06T01:17:36+00:00",
+      "niche": "dev",
+      "score": 61,
+      "keywords": [
+        "library",
+        "code",
+        "development",
+        "API",
+        "developer"
+      ]
+    },
+    {
       "id": "eb881c08bd0c86f8",
       "title": "Hoppscotch — The Open Source API Development Ecosystem",
       "description": "🎯 What is Hoppscotch? Hoppscotch is a free open-source API development ecosystem — essentially a modern API client — that helps developers build, test, document, and collaborate over APIs, all in one place. 🔗 hoppscotch.io Hoppscotch is platform‑agnostic: available via web, desktop app, or CLI. 🔧 Key Features REST, GraphQL & More Protocols – Supports REST, GraphQL, WebSocket, MQTT, SSE, and Socket.IO. Environments & Variables – Manage base URLs, API keys, etc. for multiple environments. Collecti",
@@ -1284,54 +1299,6 @@
       ]
     },
     {
-      "id": "66f322d66a278eb6",
-      "title": "Building a Frankenstein App in 14 Days: How Kiro Changed My Development Workflow",
-      "description": "The Challenge During the Kiroween hackathon, I set out to build something ambitious: an API Schema Explorer that combines three typically separate developer tools into one unified platform. The app needed to: Parse and explore OpenAPI specifications Generate and serve mock API responses (Prism integration) Generate production-ready client SDKs (OpenAPI Generator integration) All of this in 14 days. Alone. Using an AI IDE. It sounds impossible until you realize: each of these components already e",
-      "url": "https://dev.to/dev_dl/building-a-frankenstein-app-in-14-days-how-kiro-changed-my-development-workflow-96a",
-      "source": "Dev.to",
-      "author": "DL",
-      "published": "2025-11-29T01:43:32+00:00",
-      "niche": "dev",
-      "score": 56,
-      "keywords": [
-        "development",
-        "API",
-        "developer"
-      ]
-    },
-    {
-      "id": "ae71c071edeb8678",
-      "title": "Middleware-Philosophy-The-Perfect-Balance-of-Simplicity-and-Power",
-      "description": "GitHub Home Throughout my 40 years of programming career, middleware system design has always been my focus. A good middleware architecture can greatly improve development efficiency, but poorly designed middleware often becomes a source of system complexity. My recent experience with hyperlane framework gave me a completely new understanding of middleware design. That was in a large e-commerce platform project where we needed to implement complex request processing flows. User authentication, p",
-      "url": "https://dev.to/member_8455d9df/middleware-philosophy-the-perfect-balance-of-simplicity-and-power-oaj",
-      "source": "Dev.to",
-      "author": "member_8455d9df",
-      "published": "2025-11-29T01:42:06+00:00",
-      "niche": "dev",
-      "score": 56,
-      "keywords": [
-        "development",
-        "programming",
-        "framework"
-      ]
-    },
-    {
-      "id": "dfbb584b3d3f0e57",
-      "title": "Async-Programming-New-Era",
-      "description": "GitHub Home In the long river of software development, I have witnessed several major transformations in programming paradigms. From early synchronous blocking models, to later multi-threaded concurrency, and then to event-driven asynchronous programming, each transformation has made our applications more efficient and responsive. But when it comes to which transformation was most profound, I believe it was the comprehensive adoption of asynchronous programming, and a framework I recently encoun",
-      "url": "https://dev.to/member_34349a73/async-programming-new-era-401c",
-      "source": "Dev.to",
-      "author": "member_34349a73",
-      "published": "2025-11-29T01:08:25+00:00",
-      "niche": "dev",
-      "score": 56,
-      "keywords": [
-        "development",
-        "programming",
-        "framework"
-      ]
-    },
-    {
       "id": "5fb404403f42c10d",
       "title": "Dev-Experience-Glorious-Transformation",
       "description": "GitHub Home As a veteran with 40 years of programming experience, I have witnessed the rise and fall of countless technologies. From early assembly language, to later C/C++, then Java, Python, JavaScript, every change of technology stack has been accompanied by huge changes in development experience. But when it comes to which change has shocked me most, I believe it's the feeling a Rust-based web framework I recently encountered brought me. I remember the scene when I first encountered this fra",
@@ -1512,21 +1479,6 @@
       "keywords": [
         "framework",
         "developer",
-        "code"
-      ]
-    },
-    {
-      "id": "5ac4ea86be1c5a32",
-      "title": "Digital Excellence Is Now the Baseline - Not a Bonus",
-      "description": "Digital excellence isn’t optional anymore. Every pixel, every workflow, and every line of code directly shapes how users experience your product — and how your business grows. In 2025, building with intention means prioritizing clarity, performance, accessibility, and meaningful impact. Whether it’s refining UI, optimizing backend logic, or automating workflows with AI, quality engineering is the new competitive edge. Build fast - but build smart. Build with purpose - and build for growth.",
-      "url": "https://dev.to/farhannasirdev/digital-excellence-is-now-the-baseline-not-a-bonus-4nl4",
-      "source": "Dev.to",
-      "author": "Farhan Nasir",
-      "published": "2025-11-29T01:39:14+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "performance",
         "code"
       ]
     },
@@ -3044,6 +2996,20 @@
       ]
     },
     {
+      "id": "583b5c684094eaf2",
+      "title": "AWS re:Invent 2025 - Balance cost, performance & reliability for AI at enterprise scale (AIM3304)",
+      "description": "🦄 Making great presentations more accessible. This project aims to enhances multilingual accessibility and discoverability while maintaining the integrity of original content. Detailed transcriptions and keyframes preserve the nuances and technical insights that make each session compelling. Overview 📖 AWS re:Invent 2025 - Balance cost, performance & reliability for AI at enterprise scale (AIM3304) In this video, Jared Dean, Ankur Desai, and Deepen Mehta discuss Amazon Bedrock's inference tier o",
+      "url": "https://dev.to/kazuya_dev/aws-reinvent-2025-balance-cost-performance-reliability-for-ai-at-enterprise-scale-aim3304-jcd",
+      "source": "Dev.to",
+      "author": "Kazuya",
+      "published": "2025-12-06T01:14:22+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "performance"
+      ]
+    },
+    {
       "id": "363992c6a1e91a11",
       "title": "What are the Programming Languages?",
       "description": "There are many programming languages in the world. I tell about mostly using programming languages. These are C (Foundation of Everything, OS, Embedded systems, Core computing) C++ (System softwares(Windows,Android,Macos,Linux),Game Engines(Godot,Unity,Unreal Engines),Critical Apps(Video editing softwares,photoshop,matlab)) Java (Banking apps(like Gpay,Official banking apps),Android) JavaScript (Web development (frontend + backend with Node.js). Every website uses ) Python (AI, ML, automation, b",
@@ -3417,34 +3383,6 @@
       "score": 52,
       "keywords": [
         "development",
-        "developer"
-      ]
-    },
-    {
-      "id": "694562e727630437",
-      "title": "Modern Navigation in SwiftUI",
-      "description": "Navigation in SwiftUI has evolved massively since the early days of NavigationView. With NavigationStack, NavigationPath, sheet detents, and modern transitions, we finally have a system that’s flexible and robust enough for real apps. But many developers still struggle with: programmatic navigation multiple stacks (tabs + navigation) sheets vs fullScreenCover deep linking passing data between screens resetting stacks best architecture practices This guide will give you the cleanest, most scalabl",
-      "url": "https://dev.to/sebastienlato/modern-navigation-in-swiftui-1c8g",
-      "source": "Dev.to",
-      "author": "Sebastien Lato",
-      "published": "2025-11-29T01:24:41+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "developer"
-      ]
-    },
-    {
-      "id": "2f7cc59c2a2efa62",
-      "title": "Local LLM Hosting: Complete 2025 Guide - Ollama, vLLM, LocalAI, Jan, LM Studio & More",
-      "description": "Local deployment of LLMs has become increasingly popular as developers and organizations seek enhanced privacy, reduced latency, and greater control over their AI infrastructure. The market now offers multiple sophisticated tools for running LLMs locally, each with distinct strengths and trade-offs. Before cloud-based AI services dominated the landscape, the idea of running sophisticated language models on local hardware seemed impractical. Today, advances in model quantization, efficient infere",
-      "url": "https://dev.to/rosgluk/local-llm-hosting-complete-2025-guide-ollama-vllm-localai-jan-lm-studio-more-1dcl",
-      "source": "Dev.to",
-      "author": "Rost",
-      "published": "2025-11-29T01:07:08+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
         "developer"
       ]
     },
@@ -4991,40 +4929,60 @@
       ]
     },
     {
-      "id": "b9eb19c1774a4c84",
-      "title": "A Critique & Refresh for the SXSW Community Manager Manifesto (2012)",
-      "description": "SXSW Community Manager Manifesto (2012) CRITIQUE & ANALYSIS Authored by: Michael Ellis Joy Ndukwe [Your Name Here] Context, Introduction & Critiques Introduction The Community Creed (2026) is a living document created to help community professionals navigate the changing realities of our work. It combines principle with practice, offering guidance that is both ethical and actionable. This Creed was inspired by the Community Manager Manifesto first drafted at SXSW in 2012, one of the earliest col",
-      "url": "https://dev.to/commit_confidential/a-critique-refresh-for-the-sxsw-community-manager-manifesto-2012-4741",
+      "id": "ca2ebef8b40b2e82",
+      "title": "Secure Your Python App Using Bandit as a SAST Tool",
+      "description": "Static Application Security Testing (SAST) tools help you detect vulnerabilities directly in your source code before the application is executed or deployed. In this article, you will see how to use Bandit, a Python‑focused SAST tool, to scan a Python application and improve its security posture.​ What Is SAST and Why It Matters SAST refers to techniques and tools that analyze source code, bytecode or binaries to find security weaknesses without running the application. These tools search for pa",
+      "url": "https://dev.to/renzo_fernandoloyolavil/secure-your-python-app-using-bandit-as-a-sast-tool-1ofm",
       "source": "Dev.to",
-      "author": "Michael Ellis",
-      "published": "2025-11-29T01:44:01+00:00",
+      "author": "Renzo Fernando LOYOLA VILCA CHOQUE",
+      "published": "2025-12-06T01:18:08+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
-      "id": "0b3e14c7fa2afb4b",
-      "title": "mcp-scan: a ferramenta que revela riscos que você não vê",
-      "description": "Recentemente saiu a nova edição do Tech Radar da Thoughtworks e, dando uma olhada no quadrante de ferramentas no anel Trial, me deparei com uma recomendação de um colega: o servidor MCP Context7. A proposta é bem interessante porque permite que um agente consulte a documentação real de uma tecnologia em vez de simplesmente “chutar” — evitando aquelas alucinações ou respostas mágicas que parecem existir… mas só na imaginação do modelo. Mas aí surgiu outra dúvida: com tantas recomendações de servi",
-      "url": "https://dev.to/caramelo-ti/mcp-scan-a-ferramenta-que-revela-riscos-que-voce-nao-ve-3dci",
+      "id": "8735b654c4cea288",
+      "title": "AWS re:Invent 2025 - Agents in the enterprise: Best practices with Amazon Bedrock AgentCore(AIM3310)",
+      "description": "🦄 Making great presentations more accessible. This project aims to enhances multilingual accessibility and discoverability while maintaining the integrity of original content. Detailed transcriptions and keyframes preserve the nuances and technical insights that make each session compelling. Overview 📖 AWS re:Invent 2025 - Agents in the enterprise: Best practices with Amazon Bedrock AgentCore(AIM3310) In this video, AWS Principal Product Manager Kosti Vasilakakis and Tech Lead Maira Ladeira Tank",
+      "url": "https://dev.to/kazuya_dev/aws-reinvent-2025-agents-in-the-enterprise-best-practices-with-amazon-bedrock-agentcoreaim3310-2m8a",
       "source": "Dev.to",
-      "author": "Caramelo da TI",
-      "published": "2025-11-29T01:31:03+00:00",
+      "author": "Kazuya",
+      "published": "2025-12-06T01:10:56+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "best practices"
+      ]
     },
     {
-      "id": "a490deef04b281ea",
-      "title": "Because the existing Mermaid diagram editors online produce unattractive charts, I created a new one.",
-      "description": "https://modern-mermaid.live I've been using Mermaid for flowcharts and diagrams for a while, but I always felt that the available online editors just produce ugly, unpolished charts. So I decided to build a new Mermaid editor from scratch. It features a modern, clean interface, multiple visual themes including hand-drawn and Studio Ghibli styles, real-time preview, and high-quality export options (PNG/JPG). I’d love to hear what the community thinks—feedback and suggestions are welcome!",
-      "url": "https://dev.to/glenn_chencg33_10528ea/because-the-existing-mermaid-diagram-editors-online-produce-unattractive-charts-i-created-a-new-1939",
+      "id": "490881369f93845d",
+      "title": "Stripboard Savior: AI Automates Your Circuit Layouts",
+      "description": "Stripboard Savior: AI Automates Your Circuit Layouts Tired of tangled wires and frustrating stripboard layouts? Wish you could instantly visualize the most efficient way to connect your components? What if AI could handle the tedious parts, freeing you to focus on the fun of building? The core idea is to use a special type of AI programming called Answer Set Programming (ASP) to automatically find the best possible arrangement of electronic components on a stripboard. This means describing the r",
+      "url": "https://dev.to/arvind_sundararajan/stripboard-savior-ai-automates-your-circuit-layouts-4hjo",
       "source": "Dev.to",
-      "author": "glenn chen (cg33)",
-      "published": "2025-11-29T01:24:02+00:00",
+      "author": "Arvind SundaraRajan",
+      "published": "2025-12-06T01:02:04+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "programming"
+      ]
+    },
+    {
+      "id": "26def5c6e1b34446",
+      "title": "Monetzly: The Future of AI Monetization for LLM Apps and Developers",
+      "description": "Why 90% of AI Apps Fail to Monetize Effectively and How to Change That with Monetzly In the bustling world of AI applications, developers face a stark reality: 90% of AI apps fail to monetize effectively. While the potential for innovation is vast, many developers find themselves struggling with sustainable revenue models that don’t disrupt user experience. So, what’s the solution? Enter Monetzly—the Google Ads for AI conversations. The Dilemma of Monetization As developers, we pour our passion ",
+      "url": "https://dev.to/monetzly/monetzly-the-future-of-ai-monetization-for-llm-apps-and-developers-39la",
+      "source": "Dev.to",
+      "author": "Monetzly",
+      "published": "2025-12-06T00:56:23+00:00",
+      "niche": "dev",
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
       "id": "e804fdb3099c2b48",
@@ -8051,6 +8009,42 @@
       "keywords": []
     },
     {
+      "id": "24cad9280a67de5f",
+      "title": "AWS re:Invent 2025 - [NEW LAUNCH] Amazon Nova 2 Omni: A new frontier in multimodal AI (AIM3324)",
+      "description": "🦄 Making great presentations more accessible. This project aims to enhances multilingual accessibility and discoverability while maintaining the integrity of original content. Detailed transcriptions and keyframes preserve the nuances and technical insights that make each session compelling. Overview 📖 AWS re:Invent 2025 - [NEW LAUNCH] Amazon Nova 2 Omni: A new frontier in multimodal AI (AIM3324) In this video, AWS introduces Amazon Nova 2 Omni, a unified multimodal AI model that can understand ",
+      "url": "https://dev.to/kazuya_dev/aws-reinvent-2025-new-launch-amazon-nova-2-omni-a-new-frontier-in-multimodal-ai-aim3324-1bnp",
+      "source": "Dev.to",
+      "author": "Kazuya",
+      "published": "2025-12-06T01:03:58+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "bd014539fc4aa5d5",
+      "title": "AWS re:Invent 2025 - Amazon Nova Forge: Build your own frontier models using Amazon Nova (AIM3325)",
+      "description": "🦄 Making great presentations more accessible. This project aims to enhances multilingual accessibility and discoverability while maintaining the integrity of original content. Detailed transcriptions and keyframes preserve the nuances and technical insights that make each session compelling. Overview 📖 AWS re:Invent 2025 - Amazon Nova Forge: Build your own frontier models using Amazon Nova (AIM3325) In this video, Mark Andrews and Karan Bhandarkar introduce Amazon Nova Forge, a service enabling ",
+      "url": "https://dev.to/kazuya_dev/aws-reinvent-2025-amazon-nova-forge-build-your-own-frontier-models-using-amazon-nova-aim3325-g40",
+      "source": "Dev.to",
+      "author": "Kazuya",
+      "published": "2025-12-06T00:59:41+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "357e0253d522ab57",
+      "title": "AWS re:Invent 2025 - Beyond web browsers: HITL and tool integration for Nova Agents (AIM3334)",
+      "description": "🦄 Making great presentations more accessible. This project aims to enhances multilingual accessibility and discoverability while maintaining the integrity of original content. Detailed transcriptions and keyframes preserve the nuances and technical insights that make each session compelling. Overview 📖 AWS re:Invent 2025 - Beyond web browsers: HITL and tool integration for Nova Agents (AIM3334) In this video, Amazon's AGI lab introduces Nova Act, a frontier-class AI model for browser automation ",
+      "url": "https://dev.to/kazuya_dev/aws-reinvent-2025-beyond-web-browsers-hitl-and-tool-integration-for-nova-agents-aim3334-18e",
+      "source": "Dev.to",
+      "author": "Kazuya",
+      "published": "2025-12-06T00:57:01+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "0dd264f5f115f5a6",
       "title": "Learn R Programming from Harvard University",
       "description": "Harvard University creates amazing beginner computer science courses. We just released Harvard CS50’s introduction to programming using a language called R, a popular language for statistical computing and graphics in data science and other domains. ...",
@@ -8292,6 +8286,20 @@
       ]
     },
     {
+      "id": "3fc3fbc1ae9a5b6d",
+      "title": "Adenosine on the common path of rapid antidepressant action: The coffee paradox",
+      "description": "Comments",
+      "url": "https://genomicpress.kglmeridian.com/view/journals/brainmed/aop/article-10.61373-bm025c.0134/article-10.61373-bm025c.0134.xml",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-05T22:10:50+00:00",
+      "niche": "dev",
+      "score": 48,
+      "keywords": [
+        "API"
+      ]
+    },
+    {
       "id": "8fd5e47f8f1884f1",
       "title": "[Boost]",
       "description": "How to Create An Amazon EKS - Step by Step for Beginners On-cloud7 ・ Nov 30 #aws #eks #containers #cloud",
@@ -8386,20 +8394,6 @@
       "niche": "dev",
       "score": 46,
       "keywords": []
-    },
-    {
-      "id": "6741887a421a91b5",
-      "title": "Confessions of a Software Developer: No More Self-Censorship",
-      "description": "Comments",
-      "url": "https://kerrick.blog/articles/2025/confessions-of-a-software-developer-no-more-self-censorship/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-28T22:21:25+00:00",
-      "niche": "dev",
-      "score": 45,
-      "keywords": [
-        "developer"
-      ]
     },
     {
       "id": "548b3647d38e9c65",
@@ -8500,42 +8494,6 @@
       ]
     },
     {
-      "id": "97b2494e4fa97a54",
-      "title": "A triangle whose interior angles sum to zero",
-      "description": "Comments",
-      "url": "https://www.johndcook.com/blog/2025/11/28/tricusp-triangle/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-29T00:26:42+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "ac6827491207962f",
-      "title": "Airbus A320 – intense solar radiation may corrupt data critical for flight",
-      "description": "Comments",
-      "url": "https://www.airbus.com/en/newsroom/press-releases/2025-11-airbus-update-on-a320-family-precautionary-fleet-action",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-28T21:40:21+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "5d0bbb5aea3d3f26",
-      "title": "A first look at Django's new background tasks",
-      "description": "Comments",
-      "url": "https://roam.be/notes/2025/a-first-look-at-djangos-new-background-tasks/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-28T21:46:07+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
       "id": "e474d6520865cb54",
       "title": "Server Components aren't SSR!",
       "description": "React Server Components vs. Server-Side Rendering: what’s really happening under the hood",
@@ -8555,18 +8513,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-11-29T03:26:01+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "9b753215b9ececa5",
-      "title": "Every mathematician has only a few tricks (2020)",
-      "description": "Comments",
-      "url": "https://mathoverflow.net/questions/363119/every-mathematician-has-only-a-few-tricks",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-29T01:37:42+00:00",
       "niche": "dev",
       "score": 44,
       "keywords": []
@@ -10640,6 +10586,54 @@
       "keywords": []
     },
     {
+      "id": "da94db15e4b747bb",
+      "title": "Leaving Intel",
+      "description": "Comments",
+      "url": "https://www.brendangregg.com/blog//2025-12-05/leaving-intel.html",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-05T21:27:04+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "1339da81c1b369de",
+      "title": "Perpetual Futures",
+      "description": "Comments",
+      "url": "https://www.bitsaboutmoney.com/archive/perpetual-futures-explained/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-05T21:23:03+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "a5e8e5015e1622e7",
+      "title": "Extra Instructions of the 65XX Series CPU",
+      "description": "Comments",
+      "url": "http://www.ffd2.com/fridge/docs/6502-NMOS.extra.opcodes",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-06T00:38:50+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "561d08c23a2fefe2",
+      "title": "Fizz Buzz in CSS",
+      "description": "Comments",
+      "url": "https://susam.net/fizz-buzz-in-css.html",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-05T20:18:22+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "3bea7f8846dcd34d",
       "title": "Color Contrast and Web Accessibility",
       "description": "Understand color contrast for web accessibility. WCAG standards, testing tools, and best practices to make your website inclusive and accessible. Continue reading Color Contrast and Web Accessibility on SitePoint.",
@@ -10770,9 +10764,9 @@
       "score": 39,
       "keywords": [
         "performance",
-        "best practices",
+        "developer",
         "development",
-        "developer"
+        "best practices"
       ]
     },
     {
@@ -10935,8 +10929,8 @@
       "score": 38,
       "keywords": [
         "performance",
-        "best practices",
-        "developer"
+        "developer",
+        "best practices"
       ]
     },
     {
@@ -11049,8 +11043,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "framework",
-        "API"
+        "API",
+        "framework"
       ]
     },
     {
@@ -11144,11 +11138,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "API",
         "release",
         "performance",
-        "framework",
-        "code"
+        "code",
+        "API",
+        "framework"
       ]
     },
     {
@@ -11210,9 +11204,9 @@
       "niche": "dev",
       "score": 28,
       "keywords": [
+        "library",
         "Angular",
         "framework",
-        "library",
         "release"
       ]
     },
@@ -11544,8 +11538,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "framework",
-        "release"
+        "release",
+        "framework"
       ]
     },
     {
@@ -11605,8 +11599,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
-        "developer"
+        "developer",
+        "release"
       ]
     },
     {
