@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-06T01:52:54.766369+00:00",
-  "total_articles": 991,
+  "last_updated": "2025-12-06T03:44:29.003747+00:00",
+  "total_articles": 994,
   "articles": [
     {
       "id": "c609831d7def551c",
@@ -288,6 +288,21 @@
       "keywords": [
         "developer",
         "code"
+      ]
+    },
+    {
+      "id": "6e350336e878120a",
+      "title": "Reflecting on Day 1A of Google's 5-Day AI Agents Intensive: From Prompt to Action",
+      "description": "Wrapped up Day 1A of Kaggle's 5-Day AI Agents Intensive Course with Google – the \"From Prompt to Action\" codelab that had me build my first functional AI agent using Gemini and the Agent Development Kit (ADK). In this hands-on Kaggle notebook, basic prompts and Python functions evolved into a tool-calling agent handling end-to-end tasks autonomously, marking a clear jump from static LLM prompts. Core Takeaways from the Build Tool Setup & Invocation: Defined simple Python tools (like search or ma",
+      "url": "https://dev.to/nexoperose/reflecting-on-day-1a-of-googles-5-day-ai-agents-intensive-from-prompt-to-action-295e",
+      "source": "Dev.to",
+      "author": "Subhasis Das",
+      "published": "2025-12-06T03:20:40+00:00",
+      "niche": "dev",
+      "score": 70,
+      "keywords": [
+        "code",
+        "development"
       ]
     },
     {
@@ -1299,22 +1314,6 @@
       ]
     },
     {
-      "id": "5fb404403f42c10d",
-      "title": "Dev-Experience-Glorious-Transformation",
-      "description": "GitHub Home As a veteran with 40 years of programming experience, I have witnessed the rise and fall of countless technologies. From early assembly language, to later C/C++, then Java, Python, JavaScript, every change of technology stack has been accompanied by huge changes in development experience. But when it comes to which change has shocked me most, I believe it's the feeling a Rust-based web framework I recently encountered brought me. I remember the scene when I first encountered this fra",
-      "url": "https://dev.to/member_34349a73/dev-experience-glorious-transformation-1je1",
-      "source": "Dev.to",
-      "author": "member_34349a73",
-      "published": "2025-11-29T02:41:34+00:00",
-      "niche": "dev",
-      "score": 56,
-      "keywords": [
-        "framework",
-        "programming",
-        "development"
-      ]
-    },
-    {
       "id": "9777bc03030e6603",
       "title": "Web Developer Travis McCracken on The Simplicity of Net/HTTP in Go",
       "description": "Exploring Backend Development with Rust and Go: Insights from Web Developer Travis McCracken Hi, I’m Travis McCracken—your friendly Web Developer passionate about building efficient, scalable, and reliable backend systems. Today, I want to share my experiences working with two powerhouse languages in backend development: Rust and Go. Over the years, I’ve delved into both, creating projects, solving tricky problems, and optimizing APIs that power modern applications. Whether you’re just starting ",
@@ -1975,20 +1974,6 @@
       "keywords": [
         "API",
         "developer"
-      ]
-    },
-    {
-      "id": "eb2f5483f5118f62",
-      "title": "Why AI Infrastructure Startups Are the Real Gold Rush",
-      "description": "Everyone is talking about AI apps. Everyone is building AI tools. Everyone is launching yet another “AI-powered productivity app.” But here’s the truth that most founders and investors will realise too late: The real opportunity in AI isn’t in the apps. It’s in the infrastructure. Not the shiny front-end tools. Not the wrappers. Not the quick SaaS clones. The deepest, most durable value is in the: orchestration layers data pipelines agent frameworks evaluation systems vector infrastructure monit",
-      "url": "https://dev.to/jaideepparashar/why-ai-infrastructure-startups-are-the-real-gold-rush-45ck",
-      "source": "Dev.to",
-      "author": "Jaideep Parashar",
-      "published": "2025-11-29T02:25:24+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "framework"
       ]
     },
     {
@@ -4985,78 +4970,6 @@
       ]
     },
     {
-      "id": "e804fdb3099c2b48",
-      "title": "Is copy-pasting from the clipboard in Vim broken for you on Wayland?",
-      "description": "Vim uses registers to store copied text and paste from, rather than the system clipboard. When copy-pasting from another app, this isn't ideal, since the clipboard is inaccessible within Vim. To avoid this, the clipboard flag needs to be set. To check it, run $ vim --version This output contains all the flags that are set. If you see +clipboard, you're good. Otherwise, you'll have to recompile Vim with this flag, but the easier solution would be to additionally install vim-gtk3. Then, add set cl",
-      "url": "https://dev.to/svhl/is-copy-pasting-from-the-clipboard-in-vim-broken-for-you-on-wayland-3lgi",
-      "source": "Dev.to",
-      "author": "svhl",
-      "published": "2025-11-29T03:30:00+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "e30ad21d613cb361",
-      "title": "Why Mixup Works (Even When It Blends Everything Into Goo)",
-      "description": "What is Mixup? Mixup, introduced in 2018, is one of the oddest augmentations ever proposed. Instead of masking, cropping, or jittering, Mixup generates new samples via linear interpolation: x = λxi​+(1−λ)xj​ y ​= λyi​+(1−λ)yj​ λ∼B(α,α) where B is Beta. In plain terms: Pick two images Blend them pixel-by-pixel Blend their labels too The resulting image looks surreal, but it works. Why does pixel-blending help? Mixup acts as a smoothness prior on the model’s decision boundary: If two samples belon",
-      "url": "https://dev.to/aniket_kuyate_15acc4e6587/why-mixup-works-even-when-it-blends-everything-into-goo-25g1",
-      "source": "Dev.to",
-      "author": "Unknownerror-404",
-      "published": "2025-11-29T03:06:54+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "adb31d4166c7e35f",
-      "title": "AI in Medicine: A Physician–Engineer’s Perspective on the Future of Healthcare",
-      "description": "By Dr. Alireza Minagar — Software Engineer, AI Researcher, Bioinformatics Scientist, and Author Introduction Artificial intelligence is transforming nearly every industry, but its impact on healthcare is deeper, faster, and more disruptive than any other domain. As both a physician–researcher and a software engineer working in AI and bioinformatics, I see medicine not as a siloed profession, but as a data-driven ecosystem ready for reinvention. AI is not just automating tasks or digitizing workf",
-      "url": "https://dev.to/alireza_minagar_99f01ecb6/ai-in-medicine-a-physician-engineers-perspective-on-the-future-of-healthcare-8gm",
-      "source": "Dev.to",
-      "author": "Alireza Minagar",
-      "published": "2025-11-29T02:54:49+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "f7b5fee4bec0936d",
-      "title": "📁Kubernetes Project Folder Structure",
-      "description": "A well-structured Kubernetes project repo usually looks like this: k8s-project/ ├── README.md ├── docs/ ├── manifests/ │ ├── namespaces/ │ ├── deployments/ │ ├── services/ │ ├── ingresses/ │ ├── configmaps/ │ ├── secrets/ │ ├── storage/ │ └── crds/ ├── overlays/ │ ├── dev/ │ ├── test/ │ └── prod/ ├── charts/ ├── scripts/ ├── ci-cd/ └── templates/ Now let's break down every folder, its purpose, what goes inside, and why it exists. 📘 1. README.md Your project documentation. Overview of the applica",
-      "url": "https://dev.to/itsmecharan7/kubernetes-project-folder-structure-32ai",
-      "source": "Dev.to",
-      "author": "Shiva Charan",
-      "published": "2025-11-29T02:49:18+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "9e69c11d930fa950",
-      "title": "How Does Gemini 3 Process Our Queries?",
-      "description": "The Multi-Step Workflow from Client Input to Agentic Reasoning and Final Output Gemini 3, Google's advanced multi-modal AI model, uses a highly complex and sequential process to understand a user's query and generate a comprehensive, accurate response. This workflow goes far beyond simple text prediction, incorporating modality fusion, external tool calls, self-correction, and robust safety checks. 1. Client Input, Preprocessing, and Tokenization ⚙️ The process begins with the raw user data and ",
-      "url": "https://dev.to/nube_colectiva_nc/how-does-gemini-3-process-our-queries-424",
-      "source": "Dev.to",
-      "author": "Nube Colectiva",
-      "published": "2025-11-29T02:34:01+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "8aa32cdd93a691db",
-      "title": "The Secret Life of Go: Maps",
-      "description": "Chapter 5: Keys, Values, and the Art of Looking Things Up Friday morning arrived with clear skies. Ethan descended to the archive carrying the usual coffee tray and a small paper bag. Eleanor looked up from her desk. \"What did you bring today?\" \"Black and white cookies. I figured we've covered enough territory this week to deserve them.\" She smiled and took one. \"The optimist's cookie—never commit to just one flavor. Appropriate for today's topic.\" \"Which is?\" \"Maps. Or as other languages call t",
-      "url": "https://dev.to/aaron_rose_0787cc8b4775a0/the-secret-life-of-go-maps-4dma",
-      "source": "Dev.to",
-      "author": "Aaron Rose",
-      "published": "2025-11-29T02:10:58+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
       "id": "49bfe0b664976280",
       "title": "A Secret-Scoped Semantic Value That Can Be “Pulled” Into a Public Block Without Revealing Its Origin",
       "description": "Let me break down what happens in .me(and why it’s powerful ⸻ ✅ 1. You store a value inside a secret branch Example: me.wallet.secret(\"alpha\").privateBalance(99999); This produces: payload = { wallet: \"<encrypted blob under secret alpha>\" } Nobody can see: • the key privateBalance • the number 99999 • that this branch exists Only you can decrypt it with alpha. ⸻ ✅ 2. Later, you create a public block that manifests the hidden value For example: const hidden = me(\"wallet.privateBalance\"); cleaker(",
@@ -8045,6 +7958,114 @@
       "keywords": []
     },
     {
+      "id": "456f350c1f595085",
+      "title": "AWS re:Invent 2025 - AWS Support: New Tiers Making Customer Operations Effortless (SPS325)",
+      "description": "🦄 Making great presentations more accessible. This project aims to enhances multilingual accessibility and discoverability while maintaining the integrity of original content. Detailed transcriptions and keyframes preserve the nuances and technical insights that make each session compelling. Overview 📖 AWS re:Invent 2025 - AWS Support: New Tiers Making Customer Operations Effortless (SPS325) In this video, George He, Senior Product Manager at AWS, introduces the redesigned AWS Support with three",
+      "url": "https://dev.to/kazuya_dev/aws-reinvent-2025-aws-support-new-tiers-making-customer-operations-effortless-sps325-788",
+      "source": "Dev.to",
+      "author": "Kazuya",
+      "published": "2025-12-06T03:39:54+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "ae1f7ca5b81e3464",
+      "title": "AWS re:Invent 2025 - Next-Generation Data Management — Insights at Scale with Agentic AI in Pharma",
+      "description": "🦄 Making great presentations more accessible. This project aims to enhances multilingual accessibility and discoverability while maintaining the integrity of original content. Detailed transcriptions and keyframes preserve the nuances and technical insights that make each session compelling. Overview 📖 AWS re:Invent 2025 - Next-Generation Data Management — Insights at Scale with Agentic AI in Pharma In this video, a ZS representative discusses agentic AI transformation in life sciences data mana",
+      "url": "https://dev.to/kazuya_dev/aws-reinvent-2025-next-generation-data-management-insights-at-scale-with-agentic-ai-in-pharma-90d",
+      "source": "Dev.to",
+      "author": "Kazuya",
+      "published": "2025-12-06T03:39:50+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "526f2b8678cd884e",
+      "title": "AWS re:Invent 2025 - From Documents to Decisions: Unleashing AI-Powered Business Automation (SMB204)",
+      "description": "🦄 Making great presentations more accessible. This project aims to enhances multilingual accessibility and discoverability while maintaining the integrity of original content. Detailed transcriptions and keyframes preserve the nuances and technical insights that make each session compelling. Overview 📖 AWS re:Invent 2025 - From Documents to Decisions: Unleashing AI-Powered Business Automation (SMB204) In this video, David Mefford from AWS and Priya Iragavarapu from AArete discuss how they built ",
+      "url": "https://dev.to/kazuya_dev/aws-reinvent-2025-from-documents-to-decisions-unleashing-ai-powered-business-automation-smb204-54cg",
+      "source": "Dev.to",
+      "author": "Kazuya",
+      "published": "2025-12-06T03:21:14+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "4e45b64fa2d56df8",
+      "title": "AWS re:Invent 2025 - Move fast & don't break things: Maintaining software excellence as you adopt AI",
+      "description": "🦄 Making great presentations more accessible. This project aims to enhances multilingual accessibility and discoverability while maintaining the integrity of original content. Detailed transcriptions and keyframes preserve the nuances and technical insights that make each session compelling. Overview 📖 AWS re:Invent 2025 - Move fast & don't break things: Maintaining software excellence as you adopt AI In this video, Ganesh, CTO at Cortex, discusses maintaining software excellence while adopting ",
+      "url": "https://dev.to/kazuya_dev/aws-reinvent-2025-move-fast-dont-break-things-maintaining-software-excellence-as-you-adopt-ai-2jkc",
+      "source": "Dev.to",
+      "author": "Kazuya",
+      "published": "2025-12-06T03:21:12+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "79a589e96671c193",
+      "title": "The Secret Life of Python: Metaclasses - Classes That Make Classes",
+      "description": "Classes are objects. Their type is their metaclass. And type is the ultimate metaclass—it makes classes, including itself. Timothy had been working with Python classes for years. He understood inheritance, knew about methods and attributes, and could even explain the MRO. But one afternoon, while debugging, he typed something that broke his mental model of Python entirely. class Dog: def __init__(self, name): self.name = name def bark(self): return f\"{self.name} says woof!\" # Create an instance ",
+      "url": "https://dev.to/aaron_rose_0787cc8b4775a0/the-secret-life-of-python-metaclasses-classes-that-make-classes-3lag",
+      "source": "Dev.to",
+      "author": "Aaron Rose",
+      "published": "2025-12-06T03:15:11+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "c8bde03990179716",
+      "title": "AWS re:Invent 2025-AWS Generative AI Innovation Center driving enterprise success with AWS Partners",
+      "description": "🦄 Making great presentations more accessible. This project aims to enhances multilingual accessibility and discoverability while maintaining the integrity of original content. Detailed transcriptions and keyframes preserve the nuances and technical insights that make each session compelling. Overview 📖 AWS re:Invent 2025-AWS Generative AI Innovation Center driving enterprise success with AWS Partners In this video, Jacqueline Krain and Taimur Rashid from AWS discuss moving generative AI from exp",
+      "url": "https://dev.to/kazuya_dev/aws-reinvent-2025-aws-generative-ai-innovation-center-driving-enterprise-success-with-aws-partners-259f",
+      "source": "Dev.to",
+      "author": "Kazuya",
+      "published": "2025-12-06T02:56:14+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "b9f9f6a1fa8fb176",
+      "title": "AWS re:Invent 2025 - Maximizing customer outcomes: AWS Partner Led Customer Success (PEX106)",
+      "description": "🦄 Making great presentations more accessible. This project aims to enhances multilingual accessibility and discoverability while maintaining the integrity of original content. Detailed transcriptions and keyframes preserve the nuances and technical insights that make each session compelling. Overview 📖 AWS re:Invent 2025 - Maximizing customer outcomes: AWS Partner Led Customer Success (PEX106) In this video, AWS addresses how customer success is the solution to closing the AI investment value ga",
+      "url": "https://dev.to/kazuya_dev/aws-reinvent-2025-maximizing-customer-outcomes-aws-partner-led-customer-success-pex106-2jnk",
+      "source": "Dev.to",
+      "author": "Kazuya",
+      "published": "2025-12-06T02:53:43+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "ac1caa19720ce70e",
+      "title": "AWS re:Invent 2025 - Unlocking GenAI potential with automated modernization to AWS (ANT313)",
+      "description": "🦄 Making great presentations more accessible. This project aims to enhances multilingual accessibility and discoverability while maintaining the integrity of original content. Detailed transcriptions and keyframes preserve the nuances and technical insights that make each session compelling. Overview 📖 AWS re:Invent 2025 - Unlocking GenAI potential with automated modernization to AWS (ANT313) In this video, Sachneet Singh Bains from Impetus Technologies explains how their LeapLogic solution acce",
+      "url": "https://dev.to/kazuya_dev/aws-reinvent-2025-unlocking-genai-potential-with-automated-modernization-to-aws-ant313-1gij",
+      "source": "Dev.to",
+      "author": "Kazuya",
+      "published": "2025-12-06T02:51:13+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "7ed6739ddd41eb43",
+      "title": "If You Want Serendipity and Transformation, Embrace \"Newest Literally\"",
+      "description": "Summary It's challenging to obtain genuinely new information Platforms often obstruct this, and we have our own biases Therefore, it's worth intentionally seeking out literal newness This approach can lead to serendipity It's also easier to find hints for transformation Of course, there's a lot of noise, and catching up can be exhausting Engineers are not exempt from this issue, and mastering literal newness can be a strength Background The Impression Competition is Everywhere On every platform,",
+      "url": "https://dev.to/stakiran/if-you-want-serendipity-and-transformation-embrace-newest-literally-10b1",
+      "source": "Dev.to",
+      "author": "sta",
+      "published": "2025-12-06T02:50:34+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "0dd264f5f115f5a6",
       "title": "Learn R Programming from Harvard University",
       "description": "Harvard University creates amazing beginner computer science courses. We just released Harvard CS50’s introduction to programming using a language called R, a popular language for statistical computing and graphics in data science and other domains. ...",
@@ -8072,20 +8093,6 @@
       "keywords": [
         "release",
         "code"
-      ]
-    },
-    {
-      "id": "3bf89efd58955ad6",
-      "title": "The new gold rush is not the next AI productivity app. It's building the critical infrastructure for the startups.",
-      "description": "Why AI Infrastructure Startups Are the Real Gold Rush Jaideep Parashar ・ Nov 29 #ai #buildinpublic #development #webdev",
-      "url": "https://dev.to/jaideepparashar/the-new-gold-rush-is-not-the-next-ai-productivity-app-its-building-the-critical-infrastructure-dbd",
-      "source": "Dev.to",
-      "author": "Jaideep Parashar",
-      "published": "2025-11-29T02:27:43+00:00",
-      "niche": "dev",
-      "score": 48,
-      "keywords": [
-        "development"
       ]
     },
     {
@@ -8492,30 +8499,6 @@
       "keywords": [
         "programming"
       ]
-    },
-    {
-      "id": "e474d6520865cb54",
-      "title": "Server Components aren't SSR!",
-      "description": "React Server Components vs. Server-Side Rendering: what’s really happening under the hood",
-      "url": "https://dev.to/devops-make-it-run/server-components-arent-ssr-4c32",
-      "source": "Dev.to",
-      "author": "Devops Makeit-run",
-      "published": "2025-11-29T02:16:01+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "5c2c6ccd423731d4",
-      "title": "System 7 natively boots on the Mac mini G4",
-      "description": "Comments",
-      "url": "https://macos9lives.com/smforum/index.php?topic=7711.0",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-11-29T03:26:01+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "dd01d24f0279d232",
@@ -10634,6 +10617,42 @@
       "keywords": []
     },
     {
+      "id": "157cafb6eee6d952",
+      "title": "I cracked a $200 software protection with xcopy",
+      "description": "Comments",
+      "url": "https://www.ud2.rip/blog/enigma-protector/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-06T02:37:58+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "0954376642e5f5c0",
+      "title": "YouTube caught making AI-edits to videos and adding misleading AI summaries",
+      "description": "Comments",
+      "url": "https://www.ynetnews.com/tech-and-digital/article/bj1qbwcklg",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-06T01:15:48+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "774149b62ff2aa36",
+      "title": "Albert Michelson's Harmonic Analyzer [pdf]",
+      "description": "Comments",
+      "url": "https://engineerguy.com/fourier/pdfs/albert-michelsons-harmonic-analyzer.pdf",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-06T03:21:46+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "3bea7f8846dcd34d",
       "title": "Color Contrast and Web Accessibility",
       "description": "Understand color contrast for web accessibility. WCAG standards, testing tools, and best practices to make your website inclusive and accessible. Continue reading Color Contrast and Web Accessibility on SitePoint.",
@@ -10684,8 +10703,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "performance",
-        "React 19"
+        "React 19",
+        "performance"
       ]
     },
     {
@@ -10763,10 +10782,10 @@
       "niche": "dev",
       "score": 39,
       "keywords": [
-        "performance",
         "developer",
-        "development",
-        "best practices"
+        "performance",
+        "best practices",
+        "development"
       ]
     },
     {
@@ -10913,8 +10932,8 @@
       "score": 38,
       "keywords": [
         "API",
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10928,8 +10947,8 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "performance",
         "developer",
+        "performance",
         "best practices"
       ]
     },
@@ -11014,8 +11033,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -11138,10 +11157,10 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "release",
-        "performance",
         "code",
+        "performance",
         "API",
+        "release",
         "framework"
       ]
     },
@@ -11206,8 +11225,8 @@
       "keywords": [
         "library",
         "Angular",
-        "framework",
-        "release"
+        "release",
+        "framework"
       ]
     },
     {
@@ -11553,9 +11572,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "performance",
+        "code",
         "developer",
-        "code"
+        "performance"
       ]
     },
     {
@@ -11569,8 +11588,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "development",
-        "framework"
+        "framework",
+        "development"
       ]
     },
     {
@@ -11898,6 +11917,18 @@
       "keywords": []
     },
     {
+      "id": "a4fc305592af0b06",
+      "title": "Self-hosting my photos with Immich",
+      "description": "Comments",
+      "url": "https://michael.stapelberg.ch/posts/2025-11-29-self-hosting-photos-with-immich/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-11-30T09:11:40+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
       "id": "42606fa851c99727",
       "title": "You’re probably underutilizing your GPUs",
       "description": "Ryan is joined by Jared Quincy Davis, CEO and co-founder of Mithril, to explore the importance of efficient resource allocation and GPU utilization in AI, the myth and misconceptions of the GPU shortage, and how the economics of GPU will change with new scheduling and utilization strategies.",
@@ -12068,8 +12099,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "development",
-        "programming"
+        "programming",
+        "development"
       ]
     },
     {
