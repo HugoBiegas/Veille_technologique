@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-09T01:59:00.134565+00:00",
-  "total_articles": 396,
+  "last_updated": "2025-12-09T03:52:53.241248+00:00",
+  "total_articles": 401,
   "articles": [
     {
       "id": "bfd04659c3b851b8",
@@ -2091,6 +2091,23 @@
       "keywords": []
     },
     {
+      "id": "fa5b58676c044b02",
+      "title": "GenAI-Security als Checkliste",
+      "description": "Das Open Web Application Security Project (OWASP) gibt Unternehmen eine Checkliste für (mehr) GenAI-Sicherheit an die Hand. Foto: Gannvector | shutterstock.comWährend Unternehmen wie OpenAI, Anthropic, Google oder Microsoft aber auch Open-Source-Alternativen bei ihren Generative-AI– und Large-Language-Model-Angeboten exponentielle User-Zuwächse verzeichnen, sind IT-Sicherheitsentscheider bemüht, mit der rasanten KI-Entwicklung in ihren Unternehmen Schritt zu halten. Die Non-Profit-Organisation O",
+      "url": "https://www.csoonline.com/article/3493126/genai-security-als-checkliste.html",
+      "source": "CSO Online",
+      "author": "Inconnu",
+      "published": "2025-12-09T03:39:00+00:00",
+      "niche": "security",
+      "score": 68,
+      "keywords": [
+        "RCE",
+        "OWASP",
+        "web application security",
+        "security"
+      ]
+    },
+    {
       "id": "c39945d4aaa4b647",
       "title": "Lepton - Valve veut faire tourner vos jeux Android sous Linux et c'est pas con",
       "description": "Vous vous rappelez de Proton , cette couche de compatibilité magique qui permet de jouer à des jeux Windows sur Linux ? Hé bien Valve récidive avec Lepton, qui fait exactement la même chose&hellip; mais pour Android. Et devinez quoi, c&rsquo;est basé sur Waydroid , ce projet open source qui permet de faire tourner Android dans un conteneur Linux. L&rsquo;idée derrière tout ça, c&rsquo;est le Steam Frame , le fameux casque VR que Valve va sortir début 2026 et contrairement au Steam Deck qui utili",
@@ -2361,6 +2378,23 @@
       "keywords": []
     },
     {
+      "id": "da64ee2a301988f2",
+      "title": "Microsoft Patch Tuesday, November 2025 Edition",
+      "description": "Microsoft this week pushed security updates to fix more than 60 vulnerabilities in its Windows operating systems and supported software, including at least one zero-day bug that is already being exploited. Microsoft also fixed a glitch that prevented some Windows 10 users from taking advantage of an extra year of security updates, which is nice because the zero-day flaw and other critical weaknesses patched today affect all versions of Windows, including Windows 10.",
+      "url": "https://krebsonsecurity.com/2025/11/microsoft-patch-tuesday-november-2025-edition/",
+      "source": "Krebs on Security",
+      "author": "BrianKrebs",
+      "published": "2025-11-16T21:47:14+00:00",
+      "niche": "security",
+      "score": 63,
+      "keywords": [
+        "zero-day",
+        "exploit",
+        "patch",
+        "security"
+      ]
+    },
+    {
       "id": "7182bfac52b8332f",
       "title": "‘Korea’s Amazon’ Coupang discloses a data breach impacting 34M customers",
       "description": "Coupang disclosed a five-month data breach that exposed the personal information of nearly 34 million South Korean customers. South Korean e-commerce giant disclosed a data breach affecting nearly 34 million customers, exposing personal information over a period of more than five months. &#8220;According to the investigation so far, it is believed that unauthorized access to [&#8230;]",
@@ -2481,10 +2515,10 @@
       "niche": "security",
       "score": 61,
       "keywords": [
-        "security",
-        "OWASP",
+        "RCE",
         "secure",
-        "RCE"
+        "OWASP",
+        "security"
       ]
     },
     {
@@ -3326,8 +3360,8 @@
       "niche": "security",
       "score": 51,
       "keywords": [
-        "vulnerability",
         "disclosure",
+        "vulnerability",
         "patch"
       ]
     },
@@ -3342,9 +3376,9 @@
       "niche": "security",
       "score": 51,
       "keywords": [
-        "security",
+        "attack",
         "exploit",
-        "attack"
+        "security"
       ]
     },
     {
@@ -3358,9 +3392,9 @@
       "niche": "security",
       "score": 51,
       "keywords": [
-        "security",
+        "attack",
         "exploit",
-        "attack"
+        "security"
       ]
     },
     {
@@ -3750,6 +3784,21 @@
       ]
     },
     {
+      "id": "eb7482bd5eacf0bc",
+      "title": "Is Your Android TV Streaming Box Part of a Botnet?",
+      "description": "On the surface, the Superbox media streaming devices for sale at retailers like BestBuy and Walmart may seem like a steal: They offer unlimited access to more than 2,200 pay-per-view and streaming services like Netflix, ESPN and Hulu, all for a one-time fee of around $400. But security experts warn these TV boxes require intrusive software that forces the user's network to relay Internet traffic for others, traffic that is often tied to cybercrime activity such as advertising fraud and account t",
+      "url": "https://krebsonsecurity.com/2025/11/is-your-android-tv-streaming-box-part-of-a-botnet/",
+      "source": "Krebs on Security",
+      "author": "BrianKrebs",
+      "published": "2025-11-24T18:44:52+00:00",
+      "niche": "security",
+      "score": 48,
+      "keywords": [
+        "RCE",
+        "security"
+      ]
+    },
+    {
       "id": "e176602525f70707",
       "title": "From Chrome renderer code exec to kernel with MSG_OOB",
       "description": "Posted by Jann Horn, Google Project ZeroIntroduction In early June, I was reviewing a new Linux kernel feature when I learned about the MSG_OOB feature supported by stream-oriented UNIX domain sockets. I reviewed the implementation of MSG_OOB, and discovered a security bug (CVE-2025-38236) affecting Linux >=6.9. I reported the bug to Linux, and it got fixed. Interestingly, while the MSG_OOB feature is not used by Chrome, it was exposed in the Chrome renderer sandbox. (Since then, sending MSG_OOB",
@@ -4098,18 +4147,6 @@
       ]
     },
     {
-      "id": "f88c63785a802c95",
-      "title": "ISC Stormcast For Tuesday, December 2nd, 2025 https://isc.sans.edu/podcastdetail/9720, (Tue, Dec 2nd)",
-      "description": "",
-      "url": "https://isc.sans.edu/diary/rss/32528",
-      "source": "SANS Internet Storm Center",
-      "author": "Inconnu",
-      "published": "2025-12-02T02:05:12+00:00",
-      "niche": "security",
-      "score": 44,
-      "keywords": []
-    },
-    {
       "id": "297a6299d5e9ed30",
       "title": "ISC Stormcast For Wednesday, December 3rd, 2025 https://isc.sans.edu/podcastdetail/9722, (Wed, Dec 3rd)",
       "description": "",
@@ -4167,6 +4204,18 @@
       "source": "SANS Internet Storm Center",
       "author": "Inconnu",
       "published": "2025-12-08T02:00:02+00:00",
+      "niche": "security",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "f093dff4a97788f5",
+      "title": "ISC Stormcast For Tuesday, December 9th, 2025 https://isc.sans.edu/podcastdetail/9730, (Tue, Dec 9th)",
+      "description": "",
+      "url": "https://isc.sans.edu/diary/rss/32548",
+      "source": "SANS Internet Storm Center",
+      "author": "Inconnu",
+      "published": "2025-12-09T02:00:04+00:00",
       "niche": "security",
       "score": 44,
       "keywords": []
@@ -4238,10 +4287,10 @@
       "niche": "security",
       "score": 43,
       "keywords": [
-        "security",
-        "OWASP",
+        "RCE",
         "secure",
-        "RCE"
+        "OWASP",
+        "security"
       ]
     },
     {
@@ -4667,9 +4716,9 @@
       "niche": "security",
       "score": 42,
       "keywords": [
-        "security",
+        "RCE",
         "OWASP",
-        "RCE"
+        "security"
       ]
     },
     {
@@ -4903,8 +4952,8 @@
       "niche": "security",
       "score": 38,
       "keywords": [
-        "OWASP",
-        "RCE"
+        "RCE",
+        "OWASP"
       ]
     },
     {
@@ -4954,10 +5003,24 @@
       "niche": "security",
       "score": 37,
       "keywords": [
-        "web application security",
-        "security",
+        "threat",
         "OWASP",
-        "threat"
+        "web application security",
+        "security"
+      ]
+    },
+    {
+      "id": "466ed86eb766605b",
+      "title": "Google Sues to Disrupt Chinese SMS Phishing Triad",
+      "description": "Google is suing more than two dozen unnamed individuals allegedly involved in peddling a popular China-based mobile phishing service that helps scammers impersonate hundreds of trusted brands, blast out text message lures, and convert phished payment card data into mobile wallets from Apple and Google.",
+      "url": "https://krebsonsecurity.com/2025/11/google-sues-to-disrupt-chinese-sms-phishing-triad/",
+      "source": "Krebs on Security",
+      "author": "BrianKrebs",
+      "published": "2025-11-13T14:47:22+00:00",
+      "niche": "security",
+      "score": 36,
+      "keywords": [
+        "phishing"
       ]
     },
     {
@@ -4997,10 +5060,10 @@
       "niche": "security",
       "score": 34,
       "keywords": [
-        "cybersecurity",
-        "security",
+        "threat",
         "OWASP",
-        "threat"
+        "cybersecurity",
+        "security"
       ]
     },
     {
@@ -5016,6 +5079,22 @@
       "keywords": []
     },
     {
+      "id": "3edf29b1e43e3cb3",
+      "title": "Drilling Down on Uncle Sam’s Proposed TP-Link Ban",
+      "description": "The U.S. government is reportedly preparing to ban the sale of wireless routers and other networking gear from TP-Link Systems, a tech company that currently enjoys an estimated 50% market share among home users and small businesses. Experts say while the proposed ban may have more to do with TP-Link's ties to China than any specific technical threats, much of the rest of the industry serving this market also sources hardware from China and ships products that are insecure fresh out of the box.",
+      "url": "https://krebsonsecurity.com/2025/11/drilling-down-on-uncle-sams-proposed-tp-link-ban/",
+      "source": "Krebs on Security",
+      "author": "BrianKrebs",
+      "published": "2025-11-09T18:14:40+00:00",
+      "niche": "security",
+      "score": 31,
+      "keywords": [
+        "RCE",
+        "secure",
+        "threat"
+      ]
+    },
+    {
       "id": "4e2434df6328df0f",
       "title": "OWASP Certified Secure Software Developer",
       "description": "To develop applications we need code. To write code we need developers. And to develop secure applications, developers need to write code that does not result in or have vulnerabilities. OWASP is about application security - be it web application, mobile application, applications developed with low-code-no-code, infrastructure-as-code, etc. OWASP is currently working on a new initiative to create a certification program for developers. It is named OWASP Certified Secure-Software Developer - OCSD",
@@ -5026,9 +5105,9 @@
       "niche": "security",
       "score": 31,
       "keywords": [
-        "security",
+        "secure",
         "OWASP",
-        "secure"
+        "security"
       ]
     },
     {
@@ -5056,8 +5135,8 @@
       "niche": "security",
       "score": 30,
       "keywords": [
-        "security",
-        "OWASP"
+        "OWASP",
+        "security"
       ]
     },
     {
@@ -5099,8 +5178,8 @@
       "niche": "security",
       "score": 26,
       "keywords": [
-        "injection",
-        "SQL injection"
+        "SQL injection",
+        "injection"
       ]
     },
     {
@@ -5230,40 +5309,6 @@
       ]
     },
     {
-      "id": "1e9e2aaaf95b784f",
-      "title": "Smashing Security podcast #445: The hack that brought back the zombie apocalypse",
-      "description": "America's airwaves are haunted by zombies again, as we dig into a decade of broadcasters leaving their hardware open to attack, giving hackers the chance to hijack TV shows, blast out fake emergency alerts, and even replace religious sermons with explicit furry podcasts. Meanwhile, we look at how a worker at a cybersecurity firm allegedly leaked internal information to a hacking gang - raising big questions about insider threats. Plus: Frankenstein on Netflix, Vine nostalgia, and why Barney the ",
-      "url": "https://grahamcluley.com/smashing-security-podcast-445/",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2025-11-27T00:34:24+00:00",
-      "niche": "security",
-      "score": 25,
-      "keywords": [
-        "cybersecurity",
-        "PoC",
-        "attack",
-        "security",
-        "threat"
-      ]
-    },
-    {
-      "id": "54cdbba572486806",
-      "title": "Shadow AI security breaches will hit 40% of all companies by 2030, warns Gartner",
-      "description": "Shadow AI - the use of artificial intelligence tools by employees without a company's approval and oversight - is becoming a significant cybersecurity risk. Read more in my article on the Fortra blog.",
-      "url": "https://www.fortra.com/blog/shadow-ai-security-breaches-will-hit-40-companies-2030-warns-gartner",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2025-11-26T14:48:30+00:00",
-      "niche": "security",
-      "score": 23,
-      "keywords": [
-        "security",
-        "cybersecurity",
-        "breach"
-      ]
-    },
-    {
       "id": "3e22b016108b657f",
       "title": "La Caisse des Dépôts et la CNIL renforcent leur coopération pour accompagner l’usage responsable des données personnelles et de l’IA",
       "description": "La CNIL et la Caisse des Dépôts ont signé une convention de partenariat destinée à structurer et renforcer leur coopération. Cette collaboration permettra d’accompagner les projets numériques portés par la Caisse des Dépôts dans un cadre sécurisé et conforme aux réglementations en vigueur.",
@@ -5292,19 +5337,33 @@
       ]
     },
     {
-      "id": "9ae892b3a4933580",
-      "title": "State-backed spyware attacks are targeting Signal and WhatsApp users, CISA warns",
-      "description": "CISA, the US Cybersecurity and Infrastructure Security Agency, has issued a new warning that cybercriminals and state-backed hacking groups are using spyware to compromise smartphones belonging to users of popular encrypted messaging apps such as Signal, WhatsApp, and Telegram. Read more in my article on the Hot for Security blog.",
-      "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/state-backed-spyware-attacks-are-targeting-signal-and-whatsapp-users-cisa-warns",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2025-11-27T09:28:35+00:00",
+      "id": "32f4426a5ea2c64a",
+      "title": "The Cloudflare Outage May Be a Security Roadmap",
+      "description": "An intermittent outage at Cloudflare on Tuesday briefly knocked many of the Internet's top destinations offline. Some affected Cloudflare customers were able to pivot away from the platform temporarily so that visitors could still access their websites. But security experts say doing so may have also triggered an impromptu network penetration test for organizations that have come to rely on Cloudflare to block many types of abusive and malicious traffic.",
+      "url": "https://krebsonsecurity.com/2025/11/the-cloudflare-outage-may-be-a-security-roadmap/",
+      "source": "Krebs on Security",
+      "author": "BrianKrebs",
+      "published": "2025-11-19T14:07:03+00:00",
+      "niche": "security",
+      "score": 21,
+      "keywords": [
+        "penetration test",
+        "security"
+      ]
+    },
+    {
+      "id": "3544739788ef4353",
+      "title": "Mozilla Says It’s Finally Done With Two-Faced Onerep",
+      "description": "In March 2024, Mozilla said it was winding down its collaboration with Onerep -- an identity protection service offered with the Firefox web browser that promises to remove users from hundreds of people-search sites -- after KrebsOnSecurity revealed Onerep's founder had created dozens of people-search services and was continuing to operate at least one of them. Sixteen months later, however, Mozilla is still promoting Onerep. This week, Mozilla announced their partnership with Onerep will offici",
+      "url": "https://krebsonsecurity.com/2025/11/mozilla-says-its-finally-done-with-two-faced-onerep/",
+      "source": "Krebs on Security",
+      "author": "BrianKrebs",
+      "published": "2025-11-20T19:06:51+00:00",
       "niche": "security",
       "score": 19,
       "keywords": [
-        "security",
-        "cybersecurity",
-        "attack"
+        "protection",
+        "security"
       ]
     },
     {
@@ -5318,8 +5377,8 @@
       "niche": "security",
       "score": 19,
       "keywords": [
-        "security",
-        "cybersecurity"
+        "cybersecurity",
+        "security"
       ]
     },
     {
@@ -5333,9 +5392,9 @@
       "niche": "security",
       "score": 19,
       "keywords": [
+        "PoC",
         "cybersecurity",
-        "security",
-        "PoC"
+        "security"
       ]
     },
     {
@@ -5349,8 +5408,36 @@
       "niche": "security",
       "score": 19,
       "keywords": [
-        "security",
-        "cybersecurity"
+        "cybersecurity",
+        "security"
+      ]
+    },
+    {
+      "id": "f3d74341ccf7906d",
+      "title": "Meet Rey, the Admin of ‘Scattered Lapsus$ Hunters’",
+      "description": "A prolific cybercriminal group that calls itself \"Scattered LAPSUS$ Hunters\" made headlines regularly this year by stealing data from and publicly mass extorting dozens of major corporations. But the tables seem to have turned somewhat for \"Rey,\" the moniker chosen by the technical operator and public face of the hacker group: Earlier this week, Rey confirmed his real life identity and agreed to an interview after KrebsOnSecurity tracked him down and contacted his father.",
+      "url": "https://krebsonsecurity.com/2025/11/meet-rey-the-admin-of-scattered-lapsus-hunters/",
+      "source": "Krebs on Security",
+      "author": "BrianKrebs",
+      "published": "2025-11-26T17:22:36+00:00",
+      "niche": "security",
+      "score": 18,
+      "keywords": [
+        "security"
+      ]
+    },
+    {
+      "id": "445277d771ab5d5f",
+      "title": "Cloudflare Scrubs Aisuru Botnet from Top Domains List",
+      "description": "For the past week, domains associated with the massive Aisuru botnet have repeatedly usurped Amazon, Apple, Google and Microsoft in Cloudflare's public ranking of the most frequently requested websites. Cloudflare responded by redacting Aisuru domain names from their top websites list. The chief executive at Cloudflare says Aisuru's overlords are using the botnet to boost their malicious domain rankings, while simultaneously attacking the company's domain name system (DNS) service.",
+      "url": "https://krebsonsecurity.com/2025/11/cloudflare-scrubs-aisuru-botnet-from-top-domains-list/",
+      "source": "Krebs on Security",
+      "author": "BrianKrebs",
+      "published": "2025-11-06T02:04:36+00:00",
+      "niche": "security",
+      "score": 18,
+      "keywords": [
+        "attack"
       ]
     },
     {
@@ -5634,18 +5721,6 @@
       "keywords": []
     },
     {
-      "id": "3d48f63928307204",
-      "title": "The AI Fix #78: The big AI bubble, and robot Grandma in the cloud",
-      "description": "In episode 78 of The AI Fix, alien robot spiders invade Antarctica (or Facebook says they do), Mark prepares humanity for AI-powered fighter jets with loyalty issues, and Graham tries to work out why his AI-generated country music career hasn't yet paid for even a Tesco Meal Deal. Anthropic claims it has caught the first autonomous AI cyber-spy... but fails to provide much in the way of evidence, Claude hallucinates its way through espionage, and China allegedly uses American AI for hacking. Mar",
-      "url": "https://grahamcluley.com/the-ai-fix-78/",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2025-11-25T15:30:05+00:00",
-      "niche": "security",
-      "score": 12,
-      "keywords": []
-    },
-    {
       "id": "205d99ffc21383ac",
       "title": "Partage de photos et vidéos de votre enfant sur les réseaux sociaux : quels sont les risques ?",
       "description": "La publication de photos et de vidéos de mineurs sur les réseaux sociaux (ou sharenting) pose la question de la responsabilité des parents. Elle a des incidences sur la vie privée de leurs enfants. Quels sont les risques&nbsp;et quels sont les réflexes à adopter&nbsp;?",
@@ -5742,13 +5817,13 @@
       "keywords": []
     },
     {
-      "id": "731f31f835ab3ae6",
-      "title": "ISC Stormcast For Monday, December 1st, 2025 https://isc.sans.edu/podcastdetail/9718, (Mon, Dec 1st)",
+      "id": "f88c63785a802c95",
+      "title": "ISC Stormcast For Tuesday, December 2nd, 2025 https://isc.sans.edu/podcastdetail/9720, (Tue, Dec 2nd)",
       "description": "",
-      "url": "https://isc.sans.edu/diary/rss/32526",
+      "url": "https://isc.sans.edu/diary/rss/32528",
       "source": "SANS Internet Storm Center",
       "author": "Inconnu",
-      "published": "2025-12-01T02:00:02+00:00",
+      "published": "2025-12-02T02:05:12+00:00",
       "niche": "security",
       "score": 8,
       "keywords": []
