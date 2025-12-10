@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-10T09:30:58.266467+00:00",
+  "last_updated": "2025-12-10T12:56:02.484085+00:00",
   "total_articles": 983,
   "articles": [
     {
@@ -268,16 +268,17 @@
       ]
     },
     {
-      "id": "e7120c983958ec0b",
-      "title": "Build a Chrome Extension with React, TypeScript and Vite",
-      "description": "This article walks through building a Chrome extension from scratch using React, TypeScript and Vite. We'll build a Freelance Rate Calculator that helps developers check their market rate. This article includes: Setup React + Vite + TypeScript project for Chrome Extension Configure manifest.json for Manifest V3 Build calculator UI with Tailwind CSS Load and test extension locally Submit to Chrome Web Store Setup Project Create new Vite project with React and TypeScript: npm create vite@latest ra",
-      "url": "https://dev.to/nefayran/build-a-chrome-extension-with-react-typescript-and-vite-31ho",
+      "id": "d3f87c3496850e6b",
+      "title": "React2Shell: Understanding the Critical RCE Vulnerability in React Server Components (CVE-2025-55182)",
+      "description": "When a vulnerability shakes the entire web ecosystem, it is rarely because of something sophisticated. History shows that the most catastrophic exploits usually come from simple assumptions that developers never questioned. That was the case with React2Shell — a maximum-severity remote code execution flaw that exposed millions of applications built with React Server Components (RSC) and Next.js. The issue wasn’t buried deep in obscure code. It sat in plain sight inside one of the most popular de",
+      "url": "https://dev.to/scofieldidehen/react2shell-understanding-the-critical-rce-vulnerability-in-react-server-components-381p",
       "source": "Dev.to",
-      "author": "Rodion Kazennov",
-      "published": "2025-12-03T12:13:19+00:00",
+      "author": "Scofield Idehen",
+      "published": "2025-12-10T12:28:32+00:00",
       "niche": "dev",
-      "score": 69,
+      "score": 70,
       "keywords": [
+        "code",
         "developer"
       ]
     },
@@ -539,6 +540,18 @@
       "source": "Dev.to",
       "author": "Bharathkumar",
       "published": "2025-12-10T09:06:31+00:00",
+      "niche": "dev",
+      "score": 68,
+      "keywords": []
+    },
+    {
+      "id": "cad51b8d45266ba5",
+      "title": "🚀 New React Challenge: Digital Segment Clock",
+      "description": "Level up your React skills with our latest beginner-friendly challenge! Build a real-time digital clock using seven-segment-style digits. No subscription required, completely free! ✅ Great for practicing state, effects, intervals, and Date object in React. 🔗 https://www.reactchallenges.com/challenges/digital-segment-clock",
+      "url": "https://dev.to/duffmancc/new-react-challenge-digital-segment-clock-2dg0",
+      "source": "Dev.to",
+      "author": "Duffman",
+      "published": "2025-12-10T12:49:39+00:00",
       "niche": "dev",
       "score": 68,
       "keywords": []
@@ -853,6 +866,23 @@
       "keywords": []
     },
     {
+      "id": "37a8fb429e9be6de",
+      "title": "📊 The 2025 Tech Stack Shake-Up: Why Next.js, Python & Postgres Are Taking Over the World 😉",
+      "description": "🚀 Tech Stacks in 2025: The AI-Driven Evolution of Frontend, Backend, Databases & Full-Stack Development 🔑 Key Points Overview Frontend: Research suggests React continues to lead due to its vast ecosystem, but Next.js is gaining rapidly for its full-stack capabilities and performance optimizations—potentially outpacing pure React setups. Vue.js and Svelte follow as lighter alternatives, with Tailwind CSS surging for styling efficiency. Backend: Python-based frameworks like FastAPI and Django appe",
+      "url": "https://dev.to/usman_awan/the-2025-tech-stack-shake-up-why-nextjs-python-postgres-are-taking-over-the-world-4d6p",
+      "source": "Dev.to",
+      "author": "MUHAMMAD USMAN AWAN",
+      "published": "2025-12-10T12:32:02+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": [
+        "framework",
+        "development",
+        "performance",
+        "API"
+      ]
+    },
+    {
       "id": "4c31f1e9460bb126",
       "title": "Quarkus 3 application on AWS Lambda- Part 9 Measuring Lambda cold and warm starts with GraalVM Native Image and REST API",
       "description": "Introduction In the part 8 of this article series, we learned how to develop a pure Quarkus REST application and deploy it on AWS Lambda. We also measure the performance (cold and warm start time times) of Lambda function. In this article series, we'll convert this sample application from part 8 into the GraalVM Native image and deploy it as AWS Lambda Custom Runtime and measure its performance. Quarkus 3 sample REST API application on AWS Lambda with GraalVM Native Image In the part 5 of this a",
@@ -920,23 +950,6 @@
         "performance",
         "programming",
         "API"
-      ]
-    },
-    {
-      "id": "cefb23a04e5c4658",
-      "title": "Make your AI prompts collaborative with VS Code and Promptitude",
-      "description": "A version of this article originally appeared in my personal blog on November 4, 2025 If you're working in a project that is in active development, it's very likely you perform many repetitive tasks that you have done before and will inevitably need to do again in the future. For instance, perhaps you often need to add functionality to your application that calls a given REST API, deserializes its JSON response into a DTO (Data Transfer Object), and then transforms it into a domain object that y",
-      "url": "https://dev.to/onepoint/make-your-ai-prompts-collaborative-with-vs-code-and-promptitude-1f7",
-      "source": "Dev.to",
-      "author": "Lester Botello",
-      "published": "2025-12-03T12:16:56+00:00",
-      "niche": "dev",
-      "score": 60,
-      "keywords": [
-        "API",
-        "code",
-        "REST API",
-        "development"
       ]
     },
     {
@@ -1067,21 +1080,6 @@
         "developer",
         "framework",
         "library"
-      ]
-    },
-    {
-      "id": "c82f7f7b8fad2cd5",
-      "title": "Speeding Laravel Response Times with Nginx FastCGI Cache",
-      "description": "MDX Content: # Achieving Fast Response Times with Laravel and Nginx Achieving very fast response times with a Laravel app behind Nginx is mostly about avoiding bootstrapping PHP/Laravel on every request. You can accomplish this with: variant=\"ordered\" items={[ { content: [\"Full-page caching at the Nginx level\"] }, { content: [\"Laravel response caching for situations where Nginx cannot cache everything\"] }, { content: [\"Static or partial rendering combined with AJAX for dynamic parts\"] } ]} /> Un",
-      "url": "https://dev.to/devops-make-it-run/speeding-laravel-response-times-with-nginx-fastcgi-cache-2029",
-      "source": "Dev.to",
-      "author": "Devops Makeit-run",
-      "published": "2025-12-03T12:36:21+00:00",
-      "niche": "dev",
-      "score": 57,
-      "keywords": [
-        "Laravel",
-        "PHP"
       ]
     },
     {
@@ -1384,6 +1382,22 @@
       "niche": "dev",
       "score": 56,
       "keywords": []
+    },
+    {
+      "id": "ba0892925fa34e3e",
+      "title": "Top 10 API Call Security Mistakes Developers Still Make in 2025",
+      "description": "Introduction Even in 2025, API call security remains one of the biggest weaknesses in modern applications. With more frontend-heavy apps, more third-party integrations, and more public APIs, developers are still repeating the same mistakes—leading to data leaks, token theft, and full application compromise. Here are the top 10 API call security mistakes developers still make in 2025, and how to fix them. 1. Exposing API Keys in Frontend Code Yes, it still happens. Publishing API keys inside: Ang",
+      "url": "https://dev.to/mridudixit15/top-10-api-call-security-mistakes-developers-still-make-in-2025-439p",
+      "source": "Dev.to",
+      "author": "Mridu Dixit",
+      "published": "2025-12-10T12:29:08+00:00",
+      "niche": "dev",
+      "score": 56,
+      "keywords": [
+        "API",
+        "code",
+        "developer"
+      ]
     },
     {
       "id": "b4efab1a08277715",
@@ -1924,20 +1938,6 @@
       "keywords": [
         "framework",
         "tutorial"
-      ]
-    },
-    {
-      "id": "8e193f3efca6cf58",
-      "title": "South Africa vs Nigeria vs Kenya: The Battle to Become Africa's Crypto Capital",
-      "description": "Three nations. One crown. $205 billion at stake. Welcome to Africa's most fascinating economic rivalry where the future of finance is being written not in Silicon Valley, but in Lagos, Johannesburg, and Nairobi. The Unexpected Frontline While Wall Street debates whether crypto is the future or a fad, three African nations have already moved past the conversation. They're not asking IF cryptocurrency matters, they're fighting over WHO will dominate it. South Africa, the sophisticated first mover ",
-      "url": "https://dev.to/dhis_is_jj/south-africa-vs-nigeria-vs-kenya-the-battle-to-become-africas-crypto-capital-11cd",
-      "source": "Dev.to",
-      "author": "Jude⚜",
-      "published": "2025-12-03T12:11:19+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "API"
       ]
     },
     {
@@ -2826,6 +2826,20 @@
       "score": 54,
       "keywords": [
         "API"
+      ]
+    },
+    {
+      "id": "dd6426da478ae861",
+      "title": "Fine-Tuning Llama 3 with PEFT",
+      "description": "Efficient parameter tuning for smarter, faster large language models. Fine-tuning large models like Llama 3 no longer means retraining billions of parameters. Thanks to PEFT (Parameter-Efficient Fine-Tuning), we can adapt models for new tasks with minimal compute — and keep the original weights frozen. Let’s go through the setup, training, and evaluation for fine-tuning a Llama 3 model using Hugging Face’s PEFT library. ⚙️ 1. Environment Setup First, make sure you’re using Python 3.10+ with GPU ",
+      "url": "https://dev.to/richard_abishai/fine-tuning-llama-3-with-peft-l3e",
+      "source": "Dev.to",
+      "author": "Richard Abishai",
+      "published": "2025-12-10T12:30:00+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "library"
       ]
     },
     {
@@ -4789,76 +4803,46 @@
       ]
     },
     {
-      "id": "9d52b2449c509a45",
-      "title": "How I Made an Electron Window Draggable and Kept Mouse Enter/Leave Detection",
-      "description": "(this article requires you have some good understanding of how electron works) Sad story: I wanted my app to be fully draggable and still change its height and width on mouse enter and mouse leave. But you can’t have both out of the box—making a window draggable requires ignoring mouse events in the drag area, and I want almost the entire window to act as the drag space. This means normal enter/leave detection breaks immediately. when mouse is not inside : when mouse is inside : Here is how I co",
-      "url": "https://dev.to/saidfatah/how-i-made-an-electron-window-draggable-and-kept-mouse-enterleave-detection-1c0h",
+      "id": "d6266a7b114e96f2",
+      "title": "Stop Writing a Kafka Consumer for Every Topic – Make It Generic in .NET",
+      "description": "How I Built a Generic Kafka Consumer in .NET with Strategy Pattern Ever found yourself writing a separate Kafka consumer for every single topic? Yeah… me too. 😅 When I started working on our project, we had this pattern: one consumer per topic. Sounds simple? Well, it quickly became a nightmare: Code duplication everywhere Hard to maintain Adding a new topic meant touching multiple files So I decided to tackle this problem and make one consumer to rule them all – generic, modular, and scalable. ",
+      "url": "https://dev.to/__d3ec2d533ada03/stop-writing-a-kafka-consumer-for-every-topic-make-it-generic-in-net-3i26",
       "source": "Dev.to",
-      "author": "ThePainter",
-      "published": "2025-12-03T12:41:33+00:00",
+      "author": "Tehila F.",
+      "published": "2025-12-10T12:41:12+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
-      "id": "fc504f6ea1b34285",
-      "title": "🌐 Setting Up Your Azure Environment: A Step-by-Step Walkthrough",
-      "description": "🔹 Introduction Getting hands-on experience in cloud computing often starts with proper setup — especially when using Azure. Before you deploy virtual machines or manage storage, it’s important to create a clean, organized environment that’s easy to manage and clean up. In this post, I’ll walk you through how to prepare your Azure environment: creating a resource group, virtual network, VM, and storage account — all in a neat project folder. This base setup is ideal if you’re learning Azure, expe",
-      "url": "https://dev.to/adebayo_ganiyatoladunjoy/setting-up-your-azure-environment-a-step-by-step-walkthrough-43dc",
+      "id": "e0ff39cae8e3b21e",
+      "title": "I made a Nuxt 4 complete boilerplate and a few people seem to really like it",
+      "description": "Hey everyone, After rebuilding the same Nuxt setup again and again for different projects, I decided to make a proper starter kit once and for all. I built ShipAhead, a Nuxt 4 SaaS boilerplate that comes with everything I wish I had on day one - auth, payments, dashboard layout, SEO setup, themes, and clean code. A few people have already tried it and seemed to really like it, which was encouraging! Tech stack: Nuxt 4, Vue 3, TailwindCSS 4, daisyUI 5 Vue i18n (lightweight) Analytics: Google Anal",
+      "url": "https://dev.to/tom_han/i-made-a-nuxt-4-complete-boilerplate-and-a-few-people-seem-to-really-like-it-4b3l",
       "source": "Dev.to",
-      "author": "Ganiyat Olagoke Adebayo",
-      "published": "2025-12-03T12:39:30+00:00",
+      "author": "Tom Han",
+      "published": "2025-12-10T12:38:29+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
-      "id": "066a280f9b9f7c3f",
-      "title": "FingerGo Typing Trainer (don't hunt, type!)",
-      "description": "Still Hunting for Keys on Your Keyboard? Real skill acquisition requires practice. And if you work on a computer, your practice almost always involves typing! Believe me — as someone who switched from \"hunt-and-peck\" typing where you're constantly distracted, glancing at the keyboard, with attention continuously fragmenting, and a low typing speed ceiling (which impacts productivity overall)... Our brains naturally take the path of least resistance, leading us to adopt incorrect techniques (whet",
-      "url": "https://dev.to/ashbuk/stop-hunting-start-typing-fingergo-typing-trainer-3ogp",
+      "id": "daead067897ef60a",
+      "title": "Stop Your Dev Environment from Breaking: Docker Done Right",
+      "description": "Stop Your Dev Environment from Breaking: Docker Done Right Most development environments fail for surprisingly simple reasons. A missing dependency, a version mismatch, or a service that wasn’t started — suddenly “it works on my machine” becomes a full-day debugging session. But there’s a much simpler way to build predictable, stable environments: Treat your environment as a declarative system, not a manual setup. 1. Declare Everything in One Place One Docker Compose file should describe all ser",
+      "url": "https://dev.to/tamar_fuks/stop-your-dev-environment-from-breaking-docker-done-right-bo8",
       "source": "Dev.to",
-      "author": "Asher Buk",
-      "published": "2025-12-03T12:39:25+00:00",
+      "author": "Tamar F",
+      "published": "2025-12-10T12:37:46+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "b3114d6c60c713e0",
-      "title": "Beyond Simple Forwarding – Practical Content Safety in AI Gateways",
-      "description": "(This article only discusses content safety for text generation, not multimodal.) Connecting AI inputs/outputs to a content‑safety filtering system is almost a must‑have feature for any AI gateway. For compliance, on the one hand, personal information in the context needs to be desensitized; on the other hand, certain inappropriate statements need to be sanitized. Most content‑safety filtering systems on the market work similarly: they take a piece of text and return processing results (whether ",
-      "url": "https://dev.to/spacewander/beyond-simple-forwarding-practical-content-safety-in-ai-gateways-545a",
-      "source": "Dev.to",
-      "author": "spacewander",
-      "published": "2025-12-03T12:21:25+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "69b10e537d5d69a9",
-      "title": "OTP email verification and password reset",
-      "description": "I recently tried to implement a secure OTP-based email verification and password reset flow - only to realize how little concrete, end-to-end guidance is out there. Most write-ups simply skip the gritty parts because everyone seems to rely on external auth providers. I wanted something I could fully control, so I built a self-hosted solution from scratch while thinking carefully about OTP generation, hashing, crypto, race conditions and a smooth user experience. ⚠️ Disclaimer: These are just my ",
-      "url": "https://dev.to/prudkohliad/otp-email-verification-and-password-reset-20pi",
-      "source": "Dev.to",
-      "author": "Anton Prudkohliad",
-      "published": "2025-12-03T12:19:54+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "39d935c9abf1bea6",
-      "title": "The AI Boom Has a $5 Trillion Problem",
-      "description": "Central banks don't usually sound alarms about specific technologies. When they do, it's worth paying attention. This week, the Bank of England warned that a multi-trillion dollar spending boom in artificial intelligence infrastructure financed by debt risks unraveling given \"materially stretched\" stock market valuations. That's not speculation from a tech blogger or a contrarian fund manager. That's a major central bank saying the financial plumbing underneath the AI revolution might be more fr",
-      "url": "https://dev.to/icybergenome_34/the-ai-boom-has-a-5-trillion-problem-2fcj",
-      "source": "Dev.to",
-      "author": "Bilal Saeed",
-      "published": "2025-12-03T12:12:44+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "development"
+      ]
     },
     {
       "id": "da06a72e6c4d3e02",
@@ -7921,6 +7905,30 @@
       "keywords": []
     },
     {
+      "id": "7f6af733a4ce360d",
+      "title": "Elegant and Meaningful Housewarming Gifts That Add Personality to Every New Home",
+      "description": "When someone steps into a new home for the first time, they’re stepping into a new chapter one defined by comfort, identity, and a sense of belonging. The right gift should go beyond aesthetics; it should help shape their environment with warmth, meaning, and function. This is where the charm of thoughtful gifting truly shines, especially when people are searching for housewarming gifts personalised to make the new space feel uniquely theirs. For many new homeowners, the ideal balance comes from",
+      "url": "https://dev.to/smithwilliam/elegant-and-meaningful-housewarming-gifts-that-add-personality-to-every-new-home-52g",
+      "source": "Dev.to",
+      "author": "William Smith",
+      "published": "2025-12-10T12:30:22+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "5aa2ac8a4fb6aadf",
+      "title": "Why AI Projects Will Struggle Even More in 2026 (And How Teams Can Get Ahead Now)",
+      "description": "AI is growing fast, and 2026 is set to be an even bigger year for real world AI adoption. But with this growth comes a quiet problem that many teams are not prepared for. It is not model accuracy. It is not GPU access. It is the basic data workflow that keeps everything moving. Most teams feel this pressure already, but the gap will be wider in 2026. More apps, more data, more formats and more AI steps means more points of failure. Even a small delay or mismatch in data will slow down the entire",
+      "url": "https://dev.to/amanda_brooks_62bc9e0d44d/why-ai-projects-will-struggle-even-more-in-2026-and-how-teams-can-get-ahead-now-46nd",
+      "source": "Dev.to",
+      "author": "Amanda Brooks",
+      "published": "2025-12-10T12:29:35+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "9a0795cc1b2dd725",
       "title": "What's the story? JavaScript's 30!",
       "description": "#​764 — December 5, 2025 Read on the Web JavaScript Weekly 🎉 JavaScript Turns 30 Years Old 🎉 Back in May 1995, a 33 year old Brendan Eich built the first prototype of JavaScript in just ten days, originally codenamed Mocha (and then LiveScript). On December 4, 1995, Netscape and Sun Microsystems officially announced 'JavaScript' in a press release as \"an easy-to-use object scripting language designed for creating live online applications that link together objects and resources on both clients a",
@@ -8315,30 +8323,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "307c132f485c8426",
-      "title": "You Can't Fool the Optimizer",
-      "description": "Comments",
-      "url": "https://xania.org/202512/03-more-adding-integers",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-03T12:14:34+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "dec73443fb6cd613",
-      "title": "The \"Mad Men\" in 4K on HBO Max Debacle",
-      "description": "Comments",
-      "url": "http://fxrant.blogspot.com/2025/12/the-mad-men-in-4k-on-hbo-max-debacle.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-03T11:50:00+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "2e117a015618572f",
@@ -10531,8 +10515,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "performance",
-        "React 19"
+        "React 19",
+        "performance"
       ]
     },
     {
@@ -10574,8 +10558,8 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "developer",
         "API",
+        "developer",
         "release"
       ]
     },
@@ -10602,8 +10586,8 @@
       "niche": "dev",
       "score": 39,
       "keywords": [
-        "development",
         "library",
+        "development",
         "developer",
         "code"
       ]
@@ -10849,6 +10833,18 @@
       "keywords": []
     },
     {
+      "id": "e6980a034e2744cd",
+      "title": "Bruno Simon – 3D Portfolio",
+      "description": "Comments",
+      "url": "https://bruno-simon.com/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-09T16:06:58+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
       "id": "4e6d7290f5ff11d8",
       "title": "React Native 0.80 - React 19.1, JS API Changes, Freezing Legacy Arch and much more",
       "description": "Today we are excited to release React Native 0.80!",
@@ -10876,21 +10872,9 @@
       "score": 38,
       "keywords": [
         "performance",
-        "best practices",
-        "developer"
+        "developer",
+        "best practices"
       ]
-    },
-    {
-      "id": "01595522754a09f6",
-      "title": "Zero to Live: The Anima × Codrops Hackathon",
-      "description": "A one-week challenge to design, build, and publish a live prototype using Anima.",
-      "url": "https://tympanus.net/codrops/2025/12/03/zero-to-live-the-anima-x-codrops-hackathon/",
-      "source": "Codrops",
-      "author": "advertiser",
-      "published": "2025-12-03T10:02:18+00:00",
-      "niche": "dev",
-      "score": 37,
-      "keywords": []
     },
     {
       "id": "81a82f970ed9eed1",
@@ -10903,8 +10887,8 @@
       "niche": "dev",
       "score": 37,
       "keywords": [
-        "developer",
-        "API"
+        "API",
+        "developer"
       ]
     },
     {
@@ -10975,8 +10959,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "API",
-        "framework"
+        "framework",
+        "API"
       ]
     },
     {
@@ -11096,11 +11080,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "code",
         "performance",
-        "API",
         "framework",
-        "release"
+        "code",
+        "release",
+        "API"
       ]
     },
     {
@@ -11162,10 +11146,10 @@
       "niche": "dev",
       "score": 28,
       "keywords": [
-        "release",
-        "library",
         "framework",
-        "Angular"
+        "Angular",
+        "library",
+        "release"
       ]
     },
     {
@@ -11451,9 +11435,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
+        "code",
         "performance",
-        "developer",
-        "code"
+        "developer"
       ]
     },
     {
@@ -11467,8 +11451,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "performance",
-        "development"
+        "development",
+        "performance"
       ]
     },
     {
@@ -11539,8 +11523,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "code",
-        "API"
+        "API",
+        "code"
       ]
     },
     {
@@ -11596,8 +11580,8 @@
       "niche": "dev",
       "score": 15,
       "keywords": [
-        "developer",
-        "library"
+        "library",
+        "developer"
       ]
     },
     {
@@ -11771,6 +11755,18 @@
       "keywords": []
     },
     {
+      "id": "7c18892c4ddcdf8d",
+      "title": "Amazon EC2 M9g Instances",
+      "description": "Comments",
+      "url": "https://aws.amazon.com/ec2/instance-types/m9g/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-06T05:36:48+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
       "id": "e566a5e23ea14252",
       "title": "Abstraction, but for robots",
       "description": "Ryan welcomes Simone Kalmakis, VP of Engineering at Viam, to dive into how her team is bridging the gap between software and robotics, the importance of abstraction layers in making robotics more accessible, and the real-world applications of robotics from lobster traps to industrial sanding robots.",
@@ -11901,8 +11897,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "development",
         "API",
+        "development",
         "code"
       ]
     },
@@ -11929,8 +11925,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "programming",
-        "development"
+        "development",
+        "programming"
       ]
     },
     {
@@ -12618,6 +12614,18 @@
       "keywords": [
         "development"
       ]
+    },
+    {
+      "id": "01595522754a09f6",
+      "title": "Zero to Live: The Anima × Codrops Hackathon",
+      "description": "A one-week challenge to design, build, and publish a live prototype using Anima.",
+      "url": "https://tympanus.net/codrops/2025/12/03/zero-to-live-the-anima-x-codrops-hackathon/",
+      "source": "Codrops",
+      "author": "advertiser",
+      "published": "2025-12-03T10:02:18+00:00",
+      "niche": "dev",
+      "score": 7,
+      "keywords": []
     },
     {
       "id": "7620e537736244f2",
