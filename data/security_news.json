@@ -1,78 +1,7 @@
 {
-  "last_updated": "2025-12-10T15:31:27.243163+00:00",
-  "total_articles": 405,
+  "last_updated": "2025-12-10T18:37:30.753361+00:00",
+  "total_articles": 403,
   "articles": [
-    {
-      "id": "cffaa228b6b721b5",
-      "title": "Microsoft Silently Patches Windows LNK Flaw After Years of Active Exploitation",
-      "description": "Microsoft has silently plugged a security flaw that has been exploited by several threat actors since 2017 as part of the company's November 2025 Patch Tuesday updates, according to ACROS Security's 0patch. The vulnerability in question is CVE-2025-9491 (CVSS score: 7.8/7.0), which has been described as a Windows Shortcut (LNK) file UI misinterpretation vulnerability that could lead to remote",
-      "url": "https://thehackernews.com/2025/12/microsoft-silently-patches-windows-lnk.html",
-      "source": "The Hacker News",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2025-12-03T23:16:36+05:30",
-      "niche": "security",
-      "score": 100,
-      "keywords": [
-        "patch",
-        "vulnerability",
-        "threat",
-        "exploit",
-        "security flaw"
-      ]
-    },
-    {
-      "id": "04616199b894b109",
-      "title": "WordPress King Addons Flaw Under Active Attack Lets Hackers Make Admin Accounts",
-      "description": "A critical security flaw impacting a WordPress plugin known as King Addons for Elementor has come under active exploitation in the wild. The vulnerability, CVE-2025-8489 (CVSS score: 9.8), is a case of privilege escalation that allows unauthenticated attackers to grant themselves administrative privileges by simply specifying the administrator user role during registration. It affects versions",
-      "url": "https://thehackernews.com/2025/12/wordpress-king-addons-flaw-under-active.html",
-      "source": "The Hacker News",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2025-12-03T22:38:00+05:30",
-      "niche": "security",
-      "score": 100,
-      "keywords": [
-        "vulnerability",
-        "exploit",
-        "security flaw",
-        "privilege escalation",
-        "security"
-      ]
-    },
-    {
-      "id": "aa49e41394bc9ce3",
-      "title": "Critical RSC Bugs in React and Next.js Allow Unauthenticated Remote Code Execution",
-      "description": "A maximum-severity security flaw has been disclosed in React Server Components (RSC) that, if successfully exploited, could result in remote code execution. The vulnerability, tracked as CVE-2025-55182, carries a CVSS score of 10.0. It allows \"unauthenticated remote code execution by exploiting a flaw in how React decodes payloads sent to React Server Function endpoints,\" the React Team said in",
-      "url": "https://thehackernews.com/2025/12/critical-rsc-bugs-in-react-and-nextjs.html",
-      "source": "The Hacker News",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2025-12-03T23:49:00+05:30",
-      "niche": "security",
-      "score": 100,
-      "keywords": [
-        "security",
-        "remote code execution",
-        "vulnerability",
-        "exploit",
-        "security flaw"
-      ]
-    },
-    {
-      "id": "2c59ec348fa0c983",
-      "title": "Microsoft \"mitigates\" Windows LNK flaw exploited as zero-day",
-      "description": "Microsoft has silently \"mitigated\" a high-severity Windows LNK vulnerability exploited by multiple state-backed and cybercrime hacking groups in zero-day attacks. [...]",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-mitigates-windows-lnk-flaw-exploited-as-zero-day/",
-      "source": "Bleeping Computer",
-      "author": "Sergiu Gatlan",
-      "published": "2025-12-03T11:45:30-05:00",
-      "niche": "security",
-      "score": 100,
-      "keywords": [
-        "zero-day",
-        "vulnerability",
-        "exploit",
-        "attack"
-      ]
-    },
     {
       "id": "e0362e817ea5e81f",
       "title": "Critical flaw in WordPress add-on for Elementor exploited in attacks",
@@ -591,6 +520,24 @@
         "attack",
         "breach",
         "exploit"
+      ]
+    },
+    {
+      "id": "d1fe46c6c7876228",
+      "title": "New EtherRAT backdoor surfaces in React2Shell attacks tied to North Korea",
+      "description": "NK-linked hackers are likely exploiting the React2Shell flaw to deploy a newly discovered remote access trojan, dubbed EtherRAT. North Korea–linked threat actors are likely exploiting the new critical React2Shell flaw (CVE-2025-55182) to deploy a previously unknown remote access trojan called EtherRAT, Sysdig researchers warn. The vulnerability CVE-2025-55182, is a pre-authentication remote code execution issue in React [&#8230;]",
+      "url": "https://securityaffairs.com/185538/apt/new-etherrat-backdoor-surfaces-in-react2shell-attacks-tied-to-north-korea.html",
+      "source": "Security Affairs",
+      "author": "Pierluigi Paganini",
+      "published": "2025-12-10T14:45:46+00:00",
+      "niche": "security",
+      "score": 97,
+      "keywords": [
+        "attack",
+        "remote code execution",
+        "CVE-",
+        "exploit",
+        "vulnerability"
       ]
     },
     {
@@ -1513,6 +1460,24 @@
       ]
     },
     {
+      "id": "f2a48158518114d3",
+      "title": "Hundreds of Ivanti EPM systems exposed online as critical flaw patched",
+      "description": "Ivanti has patched a critical vulnerability in Endpoint Manager that enables attackers to hijack administrator sessions without authentication and potentially control thousands of enterprise devices. The company released EPM version 2024 SU4 SR1 to address four vulnerabilities, including the critical flaw tracked as CVE-2025-10573, which carries a CVSS score of 9.6. Three additional high-severity flaws could also enable code execution but require user interaction, Ivanti said in its December sec",
+      "url": "https://www.csoonline.com/article/4104158/hundreds-of-ivanti-epm-systems-exposed-online-as-critical-flaw-patched.html",
+      "source": "CSO Online",
+      "author": "Inconnu",
+      "published": "2025-12-10T15:35:22+00:00",
+      "niche": "security",
+      "score": 78,
+      "keywords": [
+        "attack",
+        "CVE-",
+        "patch",
+        "critical vulnerability",
+        "vulnerability"
+      ]
+    },
+    {
       "id": "85078a33766b2e3b",
       "title": "Marquis data breach impacts over 74 US banks, credit unions",
       "description": "Financial software provider Marquis Software Solutions is warning that it suffered a data breach that impacted dozens of banks and credit unions across the US. [...]",
@@ -1683,21 +1648,6 @@
         "encryption",
         "attack",
         "security"
-      ]
-    },
-    {
-      "id": "be7476b449e5cb6c",
-      "title": "Brazil Hit by Banking Trojan Spread via WhatsApp Worm and RelayNFC NFC Relay Fraud",
-      "description": "The threat actor known as Water Saci is actively evolving its tactics, switching to a sophisticated, highly layered infection chain that uses HTML Application (HTA) files and PDFs to propagate via WhatsApp a worm that deploys a banking trojan in attacks targeting users in Brazil. The latest wave is characterized by the attackers shifting from PowerShell to a Python-based variant that spreads the",
-      "url": "https://thehackernews.com/2025/12/brazil-hit-by-banking-trojan-spread-via.html",
-      "source": "The Hacker News",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2025-12-03T21:02:00+05:30",
-      "niche": "security",
-      "score": 75,
-      "keywords": [
-        "threat",
-        "attack"
       ]
     },
     {
@@ -2226,18 +2176,6 @@
       ]
     },
     {
-      "id": "bbd35219fce553ff",
-      "title": "Russia blocks Roblox over distribution of LGBT \"propaganda\"",
-      "description": "Roskomnadzor, Russia's telecommunications watchdog, has blocked access to the Roblox online gaming platform for failing to stop the distribution of what it described as LGBT propaganda and extremist materials. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/russia-blocks-roblox-over-distribution-of-lgbt-propaganda/",
-      "source": "Bleeping Computer",
-      "author": "Sergiu Gatlan",
-      "published": "2025-12-03T12:33:57-05:00",
-      "niche": "security",
-      "score": 68,
-      "keywords": []
-    },
-    {
       "id": "ed7cf4543bd7c0e1",
       "title": "Contractors with hacking records accused of wiping 96 govt databases",
       "description": "U.S. prosecutors have charged two Virginia brothers arrested on Wednesday with allegedly conspiring to steal sensitive information and destroy government databases after being fired from their jobs as federal contractors. [...]",
@@ -2351,20 +2289,6 @@
         "breach",
         "security",
         "cybersecurity"
-      ]
-    },
-    {
-      "id": "6a1e1e51e4b2af16",
-      "title": "Google expands Android scam protection feature to Chase, Cash App in U.S.",
-      "description": "Google is expanding support for its Android's in-call scam protection to multiple banks and financial applications in the United States. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/google-expands-android-scam-protection-feature-to-chase-cash-app-in-us/",
-      "source": "Bleeping Computer",
-      "author": "Bill Toulas",
-      "published": "2025-12-03T12:00:00-05:00",
-      "niche": "security",
-      "score": 66,
-      "keywords": [
-        "protection"
       ]
     },
     {
@@ -2542,6 +2466,18 @@
       "keywords": []
     },
     {
+      "id": "5f2ad221bd5677c3",
+      "title": "Over 10,000 Docker Hub images found leaking credentials, auth keys",
+      "description": "More than 10,000 Docker Hub container images expose data that should be protected, including live credentials to production systems, CI/CD databases, or LLM model keys. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/over-10-000-docker-hub-images-found-leaking-credentials-auth-keys/",
+      "source": "Bleeping Computer",
+      "author": "Bill Toulas",
+      "published": "2025-12-10T13:22:25-05:00",
+      "niche": "security",
+      "score": 64,
+      "keywords": []
+    },
+    {
       "id": "da64ee2a301988f2",
       "title": "Microsoft Patch Tuesday, November 2025 Edition",
       "description": "Microsoft this week pushed security updates to fix more than 60 vulnerabilities in its Windows operating systems and supported software, including at least one zero-day bug that is already being exploited. Microsoft also fixed a glitch that prevented some Windows 10 users from taking advantage of an extra year of security updates, which is nice because the zero-day flaw and other critical weaknesses patched today affect all versions of Windows, including Windows 10.",
@@ -2552,10 +2488,10 @@
       "niche": "security",
       "score": 63,
       "keywords": [
-        "zero-day",
         "security",
+        "exploit",
         "patch",
-        "exploit"
+        "zero-day"
       ]
     },
     {
@@ -2682,10 +2618,10 @@
       "niche": "security",
       "score": 61,
       "keywords": [
-        "OWASP",
         "security",
         "secure",
-        "RCE"
+        "RCE",
+        "OWASP"
       ]
     },
     {
@@ -3124,20 +3060,33 @@
       ]
     },
     {
-      "id": "361ba511a32f99a6",
-      "title": "Hybrid 2FA phishing kits are making attacks harder to detect",
-      "description": "Some 2FA-phishing attacks are becoming significantly harder to spot as threat actors blend two previously distinct phishing-as-a-service (PhaaS) kits: Salty2FA and Tycoon2FA, into a single hybrid strain. Researchers at Any.Run warn that the hybrid is already bypassing detection rules tuned to either kit alone. Alerts that once reliably caught Salty2FA or Tycoon2FA activity are now going quiet, leaving security teams blind to MFA-bypass attacks that previously triggered obvious signatures. The re",
-      "url": "https://www.csoonline.com/article/4100393/hybrid-2fa-phishing-kits-are-making-attacks-harder-to-detect.html",
+      "id": "fcdd574a130b7aad",
+      "title": "Israeli Cybersecurity Funding Hits $4.4 Billion Record High",
+      "description": "Over the past decade, overall funding in Israeli cybersecurity companies has increased by more than 500%, according to YL Ventures. The post Israeli Cybersecurity Funding Hits $4.4 Billion Record High appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/israeli-cybersecurity-funding-hits-4-4-billion-record-high/",
+      "source": "SecurityWeek",
+      "author": "Eduard Kovacs",
+      "published": "2025-12-10T15:38:00+00:00",
+      "niche": "security",
+      "score": 55,
+      "keywords": [
+        "security",
+        "cybersecurity"
+      ]
+    },
+    {
+      "id": "740e0d811299c22d",
+      "title": "How can staff+ security engineers force-multiply their impact?",
+      "description": "Staff+ engineers play a critical role in designing, scaling and influencing the security posture of an organization. Their key areas of expertise include developing security strategy and governance, incident response leadership, automation, compliance/risk management and cross-org collaboration to shape security culture. Together, these capabilities are essential to enhance application security and the effectiveness of their organizations. However, in our experience, we have seen that many staff",
+      "url": "https://www.csoonline.com/article/4103311/how-can-staff-security-engineers-force-multiply-their-impact.html",
       "source": "CSO Online",
       "author": "Inconnu",
-      "published": "2025-12-03T16:23:29+00:00",
+      "published": "2025-12-10T16:27:00+00:00",
       "niche": "security",
-      "score": 54,
+      "score": 55,
       "keywords": [
-        "phishing",
         "security",
-        "threat",
-        "attack"
+        "RCE"
       ]
     },
     {
@@ -3516,9 +3465,9 @@
       "niche": "security",
       "score": 51,
       "keywords": [
+        "vulnerability",
         "disclosure",
-        "patch",
-        "vulnerability"
+        "patch"
       ]
     },
     {
@@ -3533,8 +3482,8 @@
       "score": 51,
       "keywords": [
         "security",
-        "attack",
-        "exploit"
+        "exploit",
+        "attack"
       ]
     },
     {
@@ -3549,8 +3498,8 @@
       "score": 51,
       "keywords": [
         "security",
-        "attack",
-        "exploit"
+        "exploit",
+        "attack"
       ]
     },
     {
@@ -3677,18 +3626,17 @@
       "keywords": []
     },
     {
-      "id": "68c9b29f2c5427b6",
-      "title": "[Dark Reading Virtual Event] Cybersecurity Outlook 2026",
-      "description": "",
-      "url": "https://www.darkreading.com/events/dark-reading-virtual-event-cybersecurity-outlook-2026",
+      "id": "5d5928421f3637fd",
+      "title": "Feds: Pro-Russia Hactivists Target US Critical Infrastructure",
+      "description": "So far the attacks, which compromise virtual network computing (VNC) connections in OT systems, have not been particularly destructive, but this could change as they evolve.",
+      "url": "https://www.darkreading.com/threat-intelligence/hactivists-target-critical-infrastructure",
       "source": "Dark Reading",
-      "author": "Inconnu",
-      "published": "2025-12-03T16:00:00+00:00",
+      "author": "Elizabeth Montalbano, Contributing Writer",
+      "published": "2025-12-10T12:56:02+00:00",
       "niche": "security",
-      "score": 49,
+      "score": 50,
       "keywords": [
-        "cybersecurity",
-        "security"
+        "attack"
       ]
     },
     {
@@ -3882,8 +3830,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "CVE-",
-        "security"
+        "security",
+        "CVE-"
       ]
     },
     {
@@ -4309,23 +4257,11 @@
       "niche": "security",
       "score": 43,
       "keywords": [
-        "OWASP",
         "security",
         "secure",
-        "RCE"
+        "RCE",
+        "OWASP"
       ]
-    },
-    {
-      "id": "93eb42d60f5dafb8",
-      "title": "FBI warns of surge in account takeover (ATO) fraud schemes – what you need to know",
-      "description": "The FBI has recently issued a public service announcement that warns that since January 2025 there have been more than 5,100 complaints of account takeover fraud, and total reported losses in excess of US $262 million. Read more in my article on the Fortra blog.",
-      "url": "https://www.fortra.com/blog/fbi-warns-surge-account-takeover-ato-fraud-schemes-need-know",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2025-12-03T15:38:17+00:00",
-      "niche": "security",
-      "score": 42,
-      "keywords": []
     },
     {
       "id": "01ac42474e44953e",
@@ -4626,9 +4562,9 @@
       "niche": "security",
       "score": 42,
       "keywords": [
-        "OWASP",
         "security",
-        "RCE"
+        "RCE",
+        "OWASP"
       ]
     },
     {
@@ -4902,6 +4838,66 @@
       "keywords": []
     },
     {
+      "id": "adc509833b0c298a",
+      "title": "Panne massive de Porsche en Russie et soupçons cyber",
+      "description": "Panne des Porsche en Russie: enquête sur le VTS et les risques cyber des systèmes d'immobilisation de voitures connectées....",
+      "url": "https://www.zataz.com/panne-massive-de-porsche-en-russie-et-soupcons-cyber/",
+      "source": "Zataz",
+      "author": "Damien Bancal",
+      "published": "2025-12-10T17:06:34+00:00",
+      "niche": "security",
+      "score": 39,
+      "keywords": []
+    },
+    {
+      "id": "ff88528fb3682255",
+      "title": "États-Unis : une Ukrainienne jugée pour cyberattaques",
+      "description": "Une Ukrainienne est inculpée pour son rôle au sein des groupes pro-Russie CARR et NoName, accusés d’attaques contre des infrastructures critiques mondiales....",
+      "url": "https://www.zataz.com/etats-unis-une-ukrainienne-jugee-pour-cyberattaques/",
+      "source": "Zataz",
+      "author": "Damien Bancal",
+      "published": "2025-12-10T16:47:34+00:00",
+      "niche": "security",
+      "score": 39,
+      "keywords": []
+    },
+    {
+      "id": "615a8ba7d462d32e",
+      "title": "Sanchar Saathi : l’Inde recule face au tollé",
+      "description": "L’Inde renonce à imposer l’app Sanchar Saathi sur tous les smartphones, révélant les tensions entre cybersécurité d’État, vie privée et puissance des géants du numérique....",
+      "url": "https://www.zataz.com/sanchar-saathi-linde-recule-face-au-tolle/",
+      "source": "Zataz",
+      "author": "Damien Bancal",
+      "published": "2025-12-10T16:39:17+00:00",
+      "niche": "security",
+      "score": 39,
+      "keywords": []
+    },
+    {
+      "id": "1c1d6d7f8efc677f",
+      "title": "Fraude à l’IA : Washington veut frapper plus fort",
+      "description": "Projet de loi américain pour alourdir les peines contre les fraudes et usurpations d’identité commises à l’aide d’outils d’intelligence artificielle....",
+      "url": "https://www.zataz.com/fraude-a-lia-washington-veut-frapper-plus-fort/",
+      "source": "Zataz",
+      "author": "Damien Bancal",
+      "published": "2025-12-10T16:08:25+00:00",
+      "niche": "security",
+      "score": 39,
+      "keywords": []
+    },
+    {
+      "id": "490202119addfcbf",
+      "title": "Retour sur la vague Clop Vs. Oracle EBS",
+      "description": "Retour sur la vague d’attaques Clop sur Oracle EBS : universités, médias et industriels piégés par une même chaîne d’extorsion....",
+      "url": "https://www.zataz.com/oracle-ebs-la-vague-clop-frappe-les-universites-et-dimportantes-entreprises/",
+      "source": "Zataz",
+      "author": "Damien Bancal",
+      "published": "2025-12-10T15:54:01+00:00",
+      "niche": "security",
+      "score": 39,
+      "keywords": []
+    },
+    {
       "id": "d0a81c4b87ad7c8e",
       "title": "Actualités du CEPD : réforme du RGPD, lignes directrices sur la création de comptes en ligne et fonctionnement du Comité",
       "description": "Les 2 et 3&nbsp;décembre 2025, le Comité européen de la protection des données (CEPD) a discuté des modifications du RGPD et de la directive ePrivacy proposées par la Commission européenne. Il a également adopté les lignes directrices sur la création de comptes utilisateurs en ligne ainsi que des bonnes pratiques sur son fonctionnement.",
@@ -4928,23 +4924,6 @@
       "keywords": []
     },
     {
-      "id": "ec23cb48d3fbdb43",
-      "title": "Asahi cyber attack spirals into massive data breach impacting almost 2 million people",
-      "description": "Asahi Group Holdings, the makers of the popular Japanese beer Asahi Super Dry, has confirmed that the ransomware attack that disrupted its operations in late September also saw a significant data breach that affects more than 1.5 million customers and approximately 275,000 current and former employees and their families. Read more in my article on the Hot for Security blog.",
-      "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/asahi-cyber-attack-spirals-into-massive-data-breach-impacting-almost-2-million-people",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2025-12-02T18:45:50+00:00",
-      "niche": "security",
-      "score": 38,
-      "keywords": [
-        "ransomware",
-        "attack",
-        "breach",
-        "security"
-      ]
-    },
-    {
       "id": "642f6e80897c7d83",
       "title": "InfoSecMap x OWASP Collaboration",
       "description": "OWASP Partners with InfoSecMap to Strengthen Global InfoSec Collaboration We’re stronger together. In a move that highlights the power of open collaboration, OWASP is proud to announce a new partnership with InfoSecMap — a community-focused project dedicated to making InfoSec events and resources more accessible, global, and inclusive. At its core, OWASP is a community-driven force building free, open resources for anyone who cares about building safer software. InfoSecMap, meanwhile, has been q",
@@ -4955,8 +4934,8 @@
       "niche": "security",
       "score": 38,
       "keywords": [
-        "OWASP",
-        "RCE"
+        "RCE",
+        "OWASP"
       ]
     },
     {
@@ -4983,9 +4962,9 @@
       "score": 37,
       "keywords": [
         "threat",
+        "security",
         "OWASP",
-        "web application security",
-        "security"
+        "web application security"
       ]
     },
     {
@@ -5052,9 +5031,9 @@
       "score": 34,
       "keywords": [
         "threat",
+        "security",
         "OWASP",
-        "cybersecurity",
-        "security"
+        "cybersecurity"
       ]
     },
     {
@@ -5096,9 +5075,9 @@
       "niche": "security",
       "score": 31,
       "keywords": [
-        "OWASP",
+        "security",
         "secure",
-        "security"
+        "OWASP"
       ]
     },
     {
@@ -5126,8 +5105,8 @@
       "niche": "security",
       "score": 30,
       "keywords": [
-        "OWASP",
-        "security"
+        "security",
+        "OWASP"
       ]
     },
     {
@@ -5169,8 +5148,8 @@
       "niche": "security",
       "score": 26,
       "keywords": [
-        "injection",
-        "SQL injection"
+        "SQL injection",
+        "injection"
       ]
     },
     {
@@ -5310,8 +5289,8 @@
       "niche": "security",
       "score": 24,
       "keywords": [
-        "injection",
-        "SQL injection"
+        "SQL injection",
+        "injection"
       ]
     },
     {
@@ -5325,8 +5304,8 @@
       "niche": "security",
       "score": 24,
       "keywords": [
-        "injection",
-        "SQL injection"
+        "SQL injection",
+        "injection"
       ]
     },
     {
@@ -5354,8 +5333,8 @@
       "niche": "security",
       "score": 21,
       "keywords": [
-        "penetration test",
-        "security"
+        "security",
+        "penetration test"
       ]
     },
     {
@@ -5439,24 +5418,8 @@
       "niche": "security",
       "score": 19,
       "keywords": [
-        "protection",
-        "security"
-      ]
-    },
-    {
-      "id": "9ae892b3a4933580",
-      "title": "State-backed spyware attacks are targeting Signal and WhatsApp users, CISA warns",
-      "description": "CISA, the US Cybersecurity and Infrastructure Security Agency, has issued a new warning that cybercriminals and state-backed hacking groups are using spyware to compromise smartphones belonging to users of popular encrypted messaging apps such as Signal, WhatsApp, and Telegram. Read more in my article on the Hot for Security blog.",
-      "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/state-backed-spyware-attacks-are-targeting-signal-and-whatsapp-users-cisa-warns",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2025-11-27T09:28:35+00:00",
-      "niche": "security",
-      "score": 19,
-      "keywords": [
-        "attack",
-        "cybersecurity",
-        "security"
+        "security",
+        "protection"
       ]
     },
     {
@@ -5470,9 +5433,9 @@
       "niche": "security",
       "score": 19,
       "keywords": [
-        "cybersecurity",
+        "security",
         "PoC",
-        "security"
+        "cybersecurity"
       ]
     },
     {
@@ -5486,8 +5449,8 @@
       "niche": "security",
       "score": 19,
       "keywords": [
-        "cybersecurity",
-        "security"
+        "security",
+        "cybersecurity"
       ]
     },
     {
@@ -5782,18 +5745,6 @@
       "published": "2025-10-08T12:34:44+00:00",
       "niche": "security",
       "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "fb043112f173f3a3",
-      "title": "The AI Fix #79: Gemini 3, poetry jailbreaks, and do we even need safe robots?",
-      "description": "In episode 79 of The AI Fix, Gemini 3 roasts the competition, scares Nvidia, and can’t remember what year it is. Meanwhile, Graham investigates a fight between a fridge and robot, and Mark discovers that poetry could be a universal jailbreak for LLMs. Also in this episode, our hosts ponder whether Mark Zuckerberg’s underground bunker will be keeping robots in or out, Olaf the snowman walks and talks, Disney makes a robot Graham likes, and an AI-powered teddy bear talks to kids about BDSM and ars",
-      "url": "https://grahamcluley.com/the-ai-fix-79/",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2025-12-02T23:42:22+00:00",
-      "niche": "security",
-      "score": 12,
       "keywords": []
     },
     {
