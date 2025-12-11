@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-11T03:58:52.509903+00:00",
-  "total_articles": 981,
+  "last_updated": "2025-12-11T06:41:02.304246+00:00",
+  "total_articles": 982,
   "articles": [
     {
       "id": "42fd8e8bf71ed5fd",
@@ -64,6 +64,22 @@
         "developer",
         "library",
         "code"
+      ]
+    },
+    {
+      "id": "90f5c3e9e5e10ca8",
+      "title": "React Performance Anti-Patterns: 5 Mistakes That Kill Your App's Speed!",
+      "description": "Is your React app dragging its feet, but you can't pinpoint the cause? You might think you're following the best practices, but some common development patterns are actually degrading your app’s performance behind the scenes. In this article, we'll uncover 5 sneaky anti-patterns that are silently killing your React app's speed, and show you how to fix them for a faster, smoother user experience. So let's get started. 1. Context Causing Mass Re-renders The Problem: Adding everything in a single c",
+      "url": "https://dev.to/myogeshchavan97/react-performance-anti-patterns-5-mistakes-that-kill-your-apps-speed-76j",
+      "source": "Dev.to",
+      "author": "Yogesh Chavan",
+      "published": "2025-12-11T06:05:06+00:00",
+      "niche": "dev",
+      "score": 74,
+      "keywords": [
+        "best practices",
+        "development",
+        "performance"
       ]
     },
     {
@@ -890,22 +906,6 @@
       "keywords": []
     },
     {
-      "id": "4c31f1e9460bb126",
-      "title": "Quarkus 3 application on AWS Lambda- Part 9 Measuring Lambda cold and warm starts with GraalVM Native Image and REST API",
-      "description": "Introduction In the part 8 of this article series, we learned how to develop a pure Quarkus REST application and deploy it on AWS Lambda. We also measure the performance (cold and warm start time times) of Lambda function. In this article series, we'll convert this sample application from part 8 into the GraalVM Native image and deploy it as AWS Lambda Custom Runtime and measure its performance. Quarkus 3 sample REST API application on AWS Lambda with GraalVM Native Image In the part 5 of this a",
-      "url": "https://dev.to/vkazulkin/quarkus-3-application-on-aws-lambda-part-9-measuring-lambda-cold-and-warm-starts-with-graalvm-8d3",
-      "source": "Dev.to",
-      "author": "Vadym Kazulkin",
-      "published": "2025-12-04T06:21:22+00:00",
-      "niche": "dev",
-      "score": 61,
-      "keywords": [
-        "performance",
-        "API",
-        "REST API"
-      ]
-    },
-    {
       "id": "e36a48a368e40622",
       "title": "Discordo: A Go Library for Streamlined Discord Bot Development",
       "description": "Discordo: Streamlining Discord Bot Development in Go Building Discord bots can often involve grappling with boilerplate code and complex API interactions. For developers working with Go, the discordo library offers a refreshing solution. It provides a clean, intuitive interface to the Discord API, allowing developers to shift their focus from repetitive setup to the core logic and features of their bots. Why Discordo? Clean Interface: Designed for ease of use and understandability. Focus on Logi",
@@ -1436,18 +1436,19 @@
       ]
     },
     {
-      "id": "0263d5f664054502",
-      "title": "Part 3: Accelerating Calculations using GPU",
-      "description": "The success of the logistic regression gave me a confidence boost, but the program's performance felt like a punch to the gut. The naive matrix multiplication module was taking forever to complete even on a small dataset like (321 * 6). No programmer enjoys staring at the console for the program to finish its execution. I have a CUDA-enabled GPU sitting in my machine gathering dust. I had avoided configuring it for development for two years out of sheer laziness. But, to scale up I had to conque",
-      "url": "https://dev.to/palash90/building-a-ml-library-from-scratch-in-rust-part-3-accelerating-calculations-from-cpu-to-gpu-with-270d",
+      "id": "6edb81c4069e9974",
+      "title": "Custom Email Notifications Using AWS SES and the BoldSign API",
+      "description": "In this blog, we will explore how to send custom email notifications with the BoldSign API using Amazon Web Services (AWS) and ASP.NET Core. We will go through step-by-step instructions and look at code snippets that demonstrate how to use AWS SES (Simple Email Service) to send signature requests with signing order to signers. Prerequisites Basic knowledge of ASP.NET Core and C# programming. An AWS account with SES enabled and access credentials (Access Key ID and Secret Access Key). Visual Stud",
+      "url": "https://dev.to/boldsign/custom-email-notifications-using-aws-ses-and-the-boldsign-api-39jf",
       "source": "Dev.to",
-      "author": "Palash Kanti Kundu",
-      "published": "2025-12-04T06:23:46+00:00",
+      "author": "Vijay Amalan",
+      "published": "2025-12-11T06:07:53+00:00",
       "niche": "dev",
-      "score": 55,
+      "score": 56,
       "keywords": [
-        "performance",
-        "development"
+        "API",
+        "programming",
+        "code"
       ]
     },
     {
@@ -1989,34 +1990,6 @@
       "keywords": [
         "performance",
         "code"
-      ]
-    },
-    {
-      "id": "a1aaca77742d5119",
-      "title": "I Built NimPacket, a Raw Packet Crafting Library in Nim, and It Turned Into One of My Best Cyber Projects",
-      "description": "For my cybersecurity masters work, I wanted to go deeper than running tools and reading packet captures. I wanted to understand what was happening inside the packets themselves. Instead of calling Scapy or hiding behind Python abstractions, I decided to build my own packet manipulation library from scratch in Nim. That became NimPacket, and it turned out to be one of the most useful and eye opening projects I have done. NimPacket gives full control of IPv4, TCP, UDP, and ICMP headers. Everything",
-      "url": "https://dev.to/0x57origin/i-built-nimpacket-a-raw-packet-crafting-library-in-nim-and-it-turned-into-one-of-my-best-cyber-1n0g",
-      "source": "Dev.to",
-      "author": "0x57Origin",
-      "published": "2025-12-04T06:17:12+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "library"
-      ]
-    },
-    {
-      "id": "2e5c3c976e76aed1",
-      "title": "Stop Wasting Time on Nitpicks: Automating PR Reviews",
-      "description": "We've all been there. You open a Pull Request, and it's 50 files deep. You spend the next hour commenting on indentation, variable naming, and missing docstrings. By the time you're done, you're exhausted. And that's exactly when the real bugs slip through. I'm talking about the silent performance killers. The O(n) operation inside a loop. The unconstrained file extraction that becomes a Zip Bomb. The full database reload triggered by a single user action. These aren't style issues. They are arc",
-      "url": "https://dev.to/allenz_1011/stop-wasting-time-on-nitpicks-automating-pr-reviews-4plp",
-      "source": "Dev.to",
-      "author": "allen_z",
-      "published": "2025-12-04T06:03:20+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "performance"
       ]
     },
     {
@@ -2878,6 +2851,20 @@
       ]
     },
     {
+      "id": "0735cc8c6770f8de",
+      "title": "This New AI Agent Can Literally Use a Computer for You",
+      "description": "Old school automation is dying. “Computer-use” AI is taking over. Here's how to adapt before your competitors do ↓ Most teams still think AI can only read the web and draft text. They’re missing the next leap: AI that actually uses a computer like a human. Clicks. Types. Scrolls. Waits. Decides. I recently discovered a model called Lux that does exactly this. Instead of just calling APIs, it lives inside thousands of virtual desktops and practices real workflows. It doesn’t “simulate” work – it ",
+      "url": "https://dev.to/aiwithapex/this-new-ai-agent-can-literally-use-a-computer-for-you-141f",
+      "source": "Dev.to",
+      "author": "Max aka Mosheh",
+      "published": "2025-12-11T05:56:43+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "API"
+      ]
+    },
+    {
       "id": "1d1b5d7304b042b7",
       "title": "Oxide Lab: Private Local AI Chat on Your PC - No Internet, No Subscriptions Required",
       "description": "Hey dev.to community! 👋 In an era where AI tools like ChatGPT and Claude have become essential for developers, privacy concerns are more relevant than ever. What if your AI assistant worked completely offline, without sending your code snippets, architecture diagrams, or sensitive project details to third-party servers? Let me introduce you to my pet project — Oxide Lab. Oxide Lab is a desktop application that lets you chat with AI models entirely locally, with a focus on simplicity, security, a",
@@ -3339,48 +3326,6 @@
       "score": 52,
       "keywords": [
         "code",
-        "developer"
-      ]
-    },
-    {
-      "id": "5152299f9d0e2c6d",
-      "title": "A Single .NET Codebase, Three Platforms, One Stunning UI - Smart Café",
-      "description": "This is a submission for the AI Challenge for Cross-Platform Apps — WOW Factor. 🌟 What I Built I built a cross-platform app called Smart Café, a coffee-shop themed application that mimics the experience of entering a premium café menu on your device. The goal was to create a UI that feels warm, modern and immersive — an app where the user enjoys looking around even before clicking anything. The entire app runs from a single Uno Platform .NET codebase and maintains the same visual quality, animat",
-      "url": "https://dev.to/aditya_kumar_ai00/a-single-net-codebase-three-platforms-one-stunning-ui-smart-cafe-1dhi",
-      "source": "Dev.to",
-      "author": "Aditya Kumar",
-      "published": "2025-12-04T06:25:00+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "903113ff98298c55",
-      "title": "Part 1: Resuming my journey on learning the basics of AI",
-      "description": "I have attempted to learn Rust several times in the past. The journey always looked the same: start learning an area of development, implement a few things, understand the concept; and then leave it after some time. This happened more than once, so I decided to try a different approach this time. I was also curious about how AI works. I don't quite like the \"magic\" of black boxes and machine learning felt like one to me. So, I set out on a new journey: to merge both of my areas of learning in on",
-      "url": "https://dev.to/palash90/resuming-my-journey-on-learning-the-basics-of-ai-50lj",
-      "source": "Dev.to",
-      "author": "Palash Kanti Kundu",
-      "published": "2025-12-04T06:10:52+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "development"
-      ]
-    },
-    {
-      "id": "ec7e1b5ca53ef581",
-      "title": "How AI-Based Automation Reduces Manual Errors by 80% in Operations",
-      "description": "Developers and automation engineers know one constant truth: 👉 Human error is the biggest bottleneck in operational accuracy. RPA handles structured tasks well, but once inputs become unpredictable or unstructured, error rates spike. This is where AI makes a measurable difference. Below is a technical breakdown of how AI reduces manual errors by up to 80% in enterprise operations. Data Extraction Accuracy Improves from ~70% → 95%+ Traditional OCR fails on: • Low-quality scans • Complex tables • ",
-      "url": "https://dev.to/mdmamunkabir/how-ai-based-automation-reduces-manual-errors-by-80-in-operations-17b8",
-      "source": "Dev.to",
-      "author": "Md Mamun Kabir",
-      "published": "2025-12-04T06:06:08+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
         "developer"
       ]
     },
@@ -4939,40 +4884,18 @@
       ]
     },
     {
-      "id": "3d747a6ef40e6ec7",
-      "title": "From Wrappers to Reasoners: Building an Iterative Research Agent",
-      "description": "Submission for the AI Agents Intensive Course Writing Challenge Introduction I'll be honest—before taking the 5-Day AI Agents Intensive Course with Google and Kaggle, I thought I understood agents. Spoiler: I didn't. My mental model was basically wrapping an LLM in a while(true) loop, adding a few if-statements, and calling it \"agentic.\" Embarrassing in hindsight, but we all start somewhere, right? The past five days have completely rewired that thinking. I've gone from building simple, reactive",
-      "url": "https://dev.to/kaustav_chowdhury_f3cdc47/from-wrappers-to-reasoners-building-an-iterative-research-agent-3j7l",
+      "id": "d42fc2bb0db9f4d5",
+      "title": "How git clone Really Works: A Deep Dive into Git’s Object Database",
+      "description": "Most developers use git clone daily, but very few understand what truly happens under the hood. Behind that single command lies a complex process of object negotiation, delta compression, and graph reconstruction that builds a complete local copy of another repository’s content-addressed universe. This article walks through that process step by step, how Git transforms a remote repository into a fully materialized local clone. We’ll explore the object model, packfiles, negotiation protocol, and ",
+      "url": "https://dev.to/zopdev/how-git-clone-really-works-a-deep-dive-into-gits-object-database-24j7",
       "source": "Dev.to",
-      "author": "Kaustav Chowdhury",
-      "published": "2025-12-04T06:14:55+00:00",
+      "author": "Rocktim M",
+      "published": "2025-12-11T06:22:30+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "35e361c73f57cdbd",
-      "title": "[AWS] DevTools Evangelism Kiro's Edition",
-      "description": "This article is a machine translation of the contents of the following URL, which I wrote in Japanese: https://qiita.com/Nana_777/items/d71dacb97e1e99375b36 Introduction This is the fifth post in the Japan AWS Top Engineers Advent Calendar 2025. Today, I'd like to introduce Kiro, a character who frequently appears in my Advent Calendar-related posts. I've written about Kiro in several past articles, so I'll quote those articles and provide an overall overview of Kiro. ↓ Japan AWS Top Engineers A",
-      "url": "https://dev.to/aws-builders/aws-devtools-evangelism-kiros-edition-1jcp",
-      "source": "Dev.to",
-      "author": "Nao San",
-      "published": "2025-12-04T06:06:22+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "9b19dd8e9ffc7b08",
-      "title": "The Mood Mirror App - My Antigravity first experience",
-      "description": "Just a week ago, Google launched Antigravity, and why not give it a try and share my experience? And here I am for this. In this article, I'll talk about my first experience with Antigravity and how I built a small web app called The Mood Mirror. This app emulates an artist who can convert your mood into abstract images or videos. Spoiler: this app uses Gemini 3, Nano Banana Pro and Veo, but I'll talk about them in a future article. Antigravity Intro Let's start with a small presentation about A",
-      "url": "https://dev.to/this-is-learning/the-mood-mirror-app-my-antigravity-first-experience-10a4",
-      "source": "Dev.to",
-      "author": "Luca Del Puppo",
-      "published": "2025-12-04T06:03:00+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
       "id": "05e29233510ae0f7",
@@ -7999,6 +7922,78 @@
       "keywords": []
     },
     {
+      "id": "74c22cd1787cb7c8",
+      "title": "🌩️From Cyber Cafés to Cloud Computing",
+      "description": "Before laptops became common, I used to visit cyber cafés whenever I needed the internet. Those shared machines were my portal to the digital universe. Years later, when I heard about cloud computing, I froze. It sounded complicated and overwhelming. But thanks to the AWS AI for Bharat initiative, I finally stepped into cloud learning — and now it feels much clearer. ☁️ What Is the Cloud? Cloud is basically a rental service where you get: compute storage databases networking You pay only for wha",
+      "url": "https://dev.to/itsmeananyasrivastava/from-cyber-cafes-to-cloud-computing-1ceg",
+      "source": "Dev.to",
+      "author": "Ananya",
+      "published": "2025-12-11T06:23:57+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "0041655324266dad",
+      "title": "Global Server Load Balancing (GSLB): Modern Application Delivery-এর Global Backbone",
+      "description": "আজকের digital world-এ organizations চায় তাদের IT systems 24/7 available থাকুক। এখন applications আর এক জায়গায় host করা হয় না—private datacenter, public cloud আর hybrid cloud মিলিয়ে multi-region architecture খুবই common হয়ে গেছে। AMER, EMEA এবং APAC-এর মতো globally distributed user base support করতে হলে সবচেয়ে গুরুত্বপূর্ণ technology হলো Global Server Load Balancing (GSLB). What is GSLB? Global Server Load Balancing (GSLB) হলো এমন একটি intelligent traffic distribution system, যা globally spread da",
+      "url": "https://dev.to/abusayem/global-server-load-balancing-gslb-modern-application-delivery-er-global-backbone-10l9",
+      "source": "Dev.to",
+      "author": "Md Abu Sayem",
+      "published": "2025-12-11T06:18:22+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "a39fedc90f4730f6",
+      "title": "AI Engineering: Advent of AI with goose Day 8",
+      "description": "Day 8: Vendor Directory Magic – From Unorganized Data to Emerald Glassmorphic Directory Web Application for Organization What if you could take a chaotic, typo‑ridden vendor list and instantly transform it into a polished, emerald‑themed directory app that feels like it was built by a full design team? Day 8 was all about turning raw, unstructured data into a machine‑readable, glassmorphic, festival‑ready experience powered by clean JSON, validation scripts, and a beautifully responsive UI. How ",
+      "url": "https://dev.to/eriperspective/ai-engineering-advent-of-ai-with-goose-day-8-50me",
+      "source": "Dev.to",
+      "author": "Erica",
+      "published": "2025-12-11T06:16:35+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "53cbfafa6778aa1f",
+      "title": "Navigating the Data Compliance Landscape: A Strategic Guide for Modern Organizations",
+      "description": "In today's hyper-connected digital ecosystem, organizations face an unprecedented challenge: navigating an increasingly complex web of data compliance requirements while maintaining operational efficiency and competitive advantage. Data compliance is no longer optional; it's a business imperative that requires a unified, strategic approach. The stakes have never been higher – data breaches can cost millions, regulatory violations can result in severe penalties, and consumer trust, once lost, is ",
+      "url": "https://dev.to/zopdev/navigating-the-data-compliance-landscape-a-strategic-guide-for-modern-organizations-4k2l",
+      "source": "Dev.to",
+      "author": "Rocktim M",
+      "published": "2025-12-11T06:06:54+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "19ab6493652be787",
+      "title": "[Threat Thinker] Trying LLM-Based Threat Modeling",
+      "description": "Introduction Hi, I’m JJ (yuasa), a security engineer. In this post, I’ll try out Threat Thinker, an automated threat modeling tool that uses LLMs, on several different systems. From an AWS-based system to a smart home, we’ll see how an LLM surfaces threats from architecture diagrams. My goal is to give you a feel for what LLM-based threat modeling looks like, with real outputs included. https://github.com/melonattacker/threat-thinker What is Threat Thinker? Threat Thinker is a tool that performs",
+      "url": "https://dev.to/melonattacker/threat-thinker-trying-llm-based-threat-modeling-17o3",
+      "source": "Dev.to",
+      "author": "JJ (yuasa)",
+      "published": "2025-12-11T06:06:45+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "4b985dcad25ef083",
+      "title": "The 5 Risks of Agentic AI Most Organizations Aren’t Ready For",
+      "description": "Every major AI leap brings excitement and anxiety. “What could go wrong?” is the question that often shadows innovation. With agentic AI, that question becomes even more urgent. Unlike traditional AI models that simply respond to user prompts, agentic systems act, decide, and operate autonomously. This autonomy can be a game-changer for scaling operations, reducing costs, and enabling capabilities once thought impossible. But without the right guardrails, the same autonomy can turn from an oppor",
+      "url": "https://dev.to/infutrix/the-5-risks-of-agentic-ai-most-organizations-arent-ready-for-481g",
+      "source": "Dev.to",
+      "author": "Infutrix Technologies",
+      "published": "2025-12-11T06:04:41+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "9a0795cc1b2dd725",
       "title": "What's the story? JavaScript's 30!",
       "description": "#​764 — December 5, 2025 Read on the Web JavaScript Weekly 🎉 JavaScript Turns 30 Years Old 🎉 Back in May 1995, a 33 year old Brendan Eich built the first prototype of JavaScript in just ten days, originally codenamed Mocha (and then LiveScript). On December 4, 1995, Netscape and Sun Microsystems officially announced 'JavaScript' in a press release as \"an easy-to-use object scripting language designed for creating live online applications that link together objects and resources on both clients a",
@@ -8428,18 +8423,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-04T08:38:17+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "8b438571f574683d",
-      "title": "Uncloud - Tool for deploying containerised apps across servers without k8s",
-      "description": "Comments",
-      "url": "https://uncloud.run/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-04T06:02:23+00:00",
       "niche": "dev",
       "score": 44,
       "keywords": []
@@ -10499,6 +10482,18 @@
       "keywords": []
     },
     {
+      "id": "f274c7563e023e82",
+      "title": "Incomplete list of mistakes in the design of CSS",
+      "description": "Comments",
+      "url": "https://wiki.csswg.org/ideas/mistakes",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-11T04:20:52+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "8c9b23857864c20c",
       "title": "From Illusions to Optimization: The Creative WebGL Worlds of Adrián Gubrica",
       "description": "A look at Adrián Gubrica’s journey from design roots to high-performance WebGL, and the creative, technical worlds he’s built along the way.",
@@ -10563,8 +10558,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "performance",
-        "React 19"
+        "React 19",
+        "performance"
       ]
     },
     {
@@ -10606,8 +10601,8 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "API",
         "developer",
+        "API",
         "release"
       ]
     },
@@ -10646,8 +10641,8 @@
       "niche": "dev",
       "score": 39,
       "keywords": [
-        "performance",
-        "release"
+        "release",
+        "performance"
       ]
     },
     {
@@ -10661,10 +10656,10 @@
       "niche": "dev",
       "score": 39,
       "keywords": [
+        "developer",
         "development",
         "library",
-        "code",
-        "developer"
+        "code"
       ]
     },
     {
@@ -10954,8 +10949,8 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "API",
         "React 19",
+        "API",
         "release"
       ]
     },
@@ -10971,8 +10966,8 @@
       "score": 38,
       "keywords": [
         "best practices",
-        "performance",
-        "developer"
+        "developer",
+        "performance"
       ]
     },
     {
@@ -10986,8 +10981,8 @@
       "niche": "dev",
       "score": 37,
       "keywords": [
-        "API",
-        "developer"
+        "developer",
+        "API"
       ]
     },
     {
@@ -11193,11 +11188,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "performance",
-        "framework",
-        "release",
         "code",
-        "API"
+        "release",
+        "API",
+        "framework",
+        "performance"
       ]
     },
     {
@@ -11260,8 +11255,8 @@
       "score": 28,
       "keywords": [
         "Angular",
-        "library",
         "framework",
+        "library",
         "release"
       ]
     },
@@ -11498,9 +11493,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
+        "code",
         "developer",
-        "performance",
-        "code"
+        "performance"
       ]
     },
     {
@@ -11643,8 +11638,8 @@
       "niche": "dev",
       "score": 15,
       "keywords": [
-        "library",
-        "developer"
+        "developer",
+        "library"
       ]
     },
     {
@@ -11924,8 +11919,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "API",
         "development",
+        "API",
         "code"
       ]
     },
@@ -12516,6 +12511,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-02T10:30:46+00:00",
+      "niche": "dev",
+      "score": 8,
+      "keywords": []
+    },
+    {
+      "id": "f91a1c298163d9ca",
+      "title": "3D-printed carotid artery-on-chips for personalized thrombosis investigation",
+      "description": "Comments",
+      "url": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/adma.202508890",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-03T21:40:55+00:00",
       "niche": "dev",
       "score": 8,
       "keywords": []
