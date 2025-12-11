@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-11T15:34:54.816172+00:00",
-  "total_articles": 191,
+  "last_updated": "2025-12-11T18:41:00.477282+00:00",
+  "total_articles": 193,
   "articles": [
     {
       "id": "1fb1ae5826821712",
@@ -99,15 +99,15 @@
       "keywords": []
     },
     {
-      "id": "26b7a1fad5ce689a",
-      "title": "Dealing with UnexpectedRollbackException in Spring",
-      "description": "In Spring applications, managing transactions properly is critical to maintaining data consistency and integrity. Sometimes, developers encounter the UnexpectedRollbackException, which often indicates that an inner transaction marked for rollback causes the outer transaction to fail unexpectedly. Let us delve into understanding the Unexpected Rollback Exception in Spring and how to effectively handle it. 1. Identifying &#8230;",
-      "url": "https://www.javacodegeeks.com/dealing-with-unexpectedrollbackexception-in-spring.html",
-      "source": "Java Code Geeks",
-      "author": "Yatin Batra",
-      "published": "2025-12-04T15:37:00+00:00",
+      "id": "462b34370c6bfbf8",
+      "title": "Spring Framework 7.0.2 Available Now",
+      "description": "On behalf of the team and everyone who has contributed, I am pleased to announce that Spring Framework 7.0.2 is available now. Spring Framework 7.0.2 ships with 74 fixes and documentation improvements. This version will be shipped next week with Spring Boot 4.0.1. Project Page | GitHub | Issues | Documentation",
+      "url": "https://spring.io/blog/2025/12/11/spring-framework-7-0-2-available-now",
+      "source": "Spring Blog (Official)",
+      "author": "bclozel",
+      "published": "2025-12-11T00:00:00+00:00",
       "niche": "spring",
-      "score": 57,
+      "score": 62,
       "keywords": []
     },
     {
@@ -240,18 +240,6 @@
       "published": "2025-12-11T12:01:42+00:00",
       "niche": "spring",
       "score": 46,
-      "keywords": []
-    },
-    {
-      "id": "dcc3688f5d61e9c4",
-      "title": "The TypeScript Revolution: How JavaScript Borrowed Java’s Type Safety Philosophy",
-      "description": "In October 2012, Microsoft released TypeScript to the public after two years of internal development, introducing a superset of JavaScript that would fundamentally change how developers approach web application development. Anders Hejlsberg, lead architect of C# and creator of Delphi and Turbo Pascal, has worked on developing TypeScript, bringing decades of experience with statically typed &#8230;",
-      "url": "https://www.javacodegeeks.com/2025/12/the-typescript-revolution-how-javascript-borrowed-javas-type-safety-philosophy.html",
-      "source": "Java Code Geeks",
-      "author": "Eleftheria Drosopoulou",
-      "published": "2025-12-04T16:52:00+00:00",
-      "niche": "spring",
-      "score": 42,
       "keywords": []
     },
     {
@@ -754,6 +742,54 @@
       "source": "Java Code Geeks",
       "author": "Yatin Batra",
       "published": "2025-12-11T10:45:35+00:00",
+      "niche": "spring",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "471438aeec13b2c9",
+      "title": "The CQRS Pattern: Separating Reads from Writes for Scalable Architectures",
+      "description": "Most systems start simple: one database, one model, straightforward CRUD operations. Then scale hits. Read queries slow down writes. Complex joins bog down simple updates. The team considers sharding, read replicas, caching—band-aids on a fundamentally mismatched architecture. This is where CQRS enters the conversation, not as a silver bullet but as a surgical tool for &#8230;",
+      "url": "https://www.javacodegeeks.com/2025/12/the-cqrs-pattern-separating-reads-from-writes-for-scalable-architectures.html",
+      "source": "Java Code Geeks",
+      "author": "Eleftheria Drosopoulou",
+      "published": "2025-12-11T17:03:00+00:00",
+      "niche": "spring",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "c013be0b311c48bb",
+      "title": "Padovan Sequence Computation Techniques in Java",
+      "description": "The Padovan sequence is a fascinating integer sequence with applications in architecture, art, and computer science. Let us delve into understanding how to compute the Padovan sequence efficiently using various programming approaches. 1. The Padovan Sequence The Padovan sequence P(n) is a well-known integer sequence in mathematics that appears in areas such as geometry, architecture, &#8230;",
+      "url": "https://www.javacodegeeks.com/padovan-sequence-computation-techniques-in-java.html",
+      "source": "Java Code Geeks",
+      "author": "Yatin Batra",
+      "published": "2025-12-11T16:12:00+00:00",
+      "niche": "spring",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "c31e92d74af6b194",
+      "title": "Advanced Docker Security: From Supply Chain Transparency to Network Defense",
+      "description": "Introduction: Why Supply Chain and Network Security Matter Now In 2021, the Log4Shell vulnerability exposed a critical weakness in modern software: we don't know what's inside our containers. A single vulnerable library (log4j) in thousands of applications created a global security crisis that lasted months. Organizations scrambled to answer one simple question: \"Are we affected?\" Most couldn't answer. The same year, the SolarWinds breach demonstrated another critical gap: even with isolated net",
+      "url": "https://feeds.dzone.com/link/18931/17230684/advanced-docker-security-supply-chain-network-defense",
+      "source": "DZone Microservices",
+      "author": "Shamsher Khan",
+      "published": "2025-12-11T15:00:10+00:00",
+      "niche": "spring",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "7e0835475bc66d21",
+      "title": "A Guide for Deploying .NET 10 Applications Using Docker's New Workflow",
+      "description": "Container deployment has become the cornerstone of scalable, repeatable application delivery. .NET 10 represents the latest evolution of Microsoft's cloud-native framework, offering exceptional performance, deep cross-platform support, and tight integration with modern DevOps practices. Developing with .NET 10 offers incredible performance and cross-platform capability. When paired with Docker, .NET 10 applications become truly portable artifacts that run identically across development laptops, ",
+      "url": "https://feeds.dzone.com/link/18931/17230685/guide-deploying-dotnet-apps-with-docker",
+      "source": "DZone Microservices",
+      "author": "Naga Santhosh Reddy Vootukuri",
+      "published": "2025-12-11T15:00:01+00:00",
       "niche": "spring",
       "score": 42,
       "keywords": []
@@ -1786,18 +1822,6 @@
       "source": "InfoQ Java",
       "author": "Michael Redlich",
       "published": "2025-12-01T02:30:00+00:00",
-      "niche": "spring",
-      "score": 12,
-      "keywords": []
-    },
-    {
-      "id": "d2bea4b086172d18",
-      "title": "Architecting Cloud Data Migration From Legacy Warehouses",
-      "description": "The Legacy Challenge in Enterprise Data For decades, enterprise data platforms were built on Teradata, Oracle, and other legacy systems. They were once the backbone of analytics, providing reliability and scale, but over time, they became rigid, costly, and difficult to evolve. Today, many of these platforms hold petabytes of data, support thousands of reports, and sit at the center of hundreds of dependent processes. What was once an enabler has become a bottleneck. The challenge is not just te",
-      "url": "https://feeds.dzone.com/link/18931/17220927/cloud-data-migration-legacy-warehouses",
-      "source": "DZone Microservices",
-      "author": "Swamy Ramajayam",
-      "published": "2025-12-02T17:00:00+00:00",
       "niche": "spring",
       "score": 12,
       "keywords": []
