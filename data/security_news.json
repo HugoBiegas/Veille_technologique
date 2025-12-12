@@ -1,25 +1,7 @@
 {
-  "last_updated": "2025-12-12T03:58:55.710222+00:00",
-  "total_articles": 409,
+  "last_updated": "2025-12-12T06:40:46.251987+00:00",
+  "total_articles": 403,
   "articles": [
-    {
-      "id": "d54b83be5141d8ca",
-      "title": "JPCERT Confirms Active Command Injection Attacks on Array AG Gateways",
-      "description": "A command injection vulnerability in Array Networks AG Series secure access gateways has been exploited in the wild since August 2025, according to an alert issued by JPCERT/CC this week. The vulnerability, which does not have a CVE identifier, was addressed by the company on May 11, 2025. It's rooted in Array's DesktopDirect, a remote desktop access solution that allows users to securely access",
-      "url": "https://thehackernews.com/2025/12/jpcert-confirms-active-command.html",
-      "source": "The Hacker News",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2025-12-05T11:10:00+05:30",
-      "niche": "security",
-      "score": 100,
-      "keywords": [
-        "injection",
-        "secure",
-        "vulnerability",
-        "exploit",
-        "attack"
-      ]
-    },
     {
       "id": "c49068a70f3a6933",
       "title": "Chinese Hackers Exploiting React2Shell Vulnerability",
@@ -520,6 +502,24 @@
         "secure",
         "exploit",
         "attack"
+      ]
+    },
+    {
+      "id": "9820d564981ea8ee",
+      "title": "CISA Flags Actively Exploited GeoServer XXE Flaw in Updated KEV Catalog",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a high-severity security flaw impacting OSGeo GeoServer to its Known Exploited Vulnerabilities (KEV) catalog, based on evidence of active exploitation in the wild. The vulnerability in question is CVE-2025-58360 (CVSS score: 8.2), an unauthenticated XML External Entity (XXE) flaw that affects all versions prior to",
+      "url": "https://thehackernews.com/2025/12/cisa-flags-actively-exploited-geoserver.html",
+      "source": "The Hacker News",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2025-12-12T10:31:00+05:30",
+      "niche": "security",
+      "score": 100,
+      "keywords": [
+        "CVE-",
+        "security flaw",
+        "cybersecurity",
+        "exploit",
+        "security"
       ]
     },
     {
@@ -2605,9 +2605,9 @@
       "score": 63,
       "keywords": [
         "zero-day",
+        "patch",
         "exploit",
-        "security",
-        "patch"
+        "security"
       ]
     },
     {
@@ -2748,10 +2748,10 @@
       "niche": "security",
       "score": 61,
       "keywords": [
-        "OWASP",
         "secure",
         "security",
-        "RCE"
+        "RCE",
+        "OWASP"
       ]
     },
     {
@@ -3672,8 +3672,8 @@
       "score": 51,
       "keywords": [
         "patch",
-        "vulnerability",
-        "disclosure"
+        "disclosure",
+        "vulnerability"
       ]
     },
     {
@@ -3687,9 +3687,9 @@
       "niche": "security",
       "score": 51,
       "keywords": [
+        "security",
         "attack",
-        "exploit",
-        "security"
+        "exploit"
       ]
     },
     {
@@ -3703,9 +3703,9 @@
       "niche": "security",
       "score": 51,
       "keywords": [
+        "security",
         "attack",
-        "exploit",
-        "security"
+        "exploit"
       ]
     },
     {
@@ -3847,6 +3847,18 @@
         "threat",
         "secure"
       ]
+    },
+    {
+      "id": "c7374f500bfe330e",
+      "title": "Abusing DLLs EntryPoint for the Fun, (Fri, Dec 12th)",
+      "description": "In the Microsoft Windows ecosystem, DLLs (Dynamic Load Libraries) are PE files like regular programs. One of the main differences is that they export functions that can be called by programs that load them. By example, to call RegOpenKeyExA(), the program must first load the ADVAPI32.dll. A PE files has a lot of headers (metadata) that contain useful information used by the loader to prepare the execution in memory. One of them is the EntryPoint, it contains the (relative virtual) address where ",
+      "url": "https://isc.sans.edu/diary/rss/32562",
+      "source": "SANS Internet Storm Center",
+      "author": "Inconnu",
+      "published": "2025-12-12T05:08:36+00:00",
+      "niche": "security",
+      "score": 50,
+      "keywords": []
     },
     {
       "id": "559b7874623819f6",
@@ -4022,8 +4034,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "CVE-",
-        "security"
+        "security",
+        "CVE-"
       ]
     },
     {
@@ -4410,23 +4422,11 @@
       "niche": "security",
       "score": 43,
       "keywords": [
-        "OWASP",
         "secure",
         "security",
-        "RCE"
+        "RCE",
+        "OWASP"
       ]
-    },
-    {
-      "id": "ed2d361c0d126d25",
-      "title": "Das CISO-Paradoxon: Innovation ermöglichen und Risiken managen",
-      "description": "CISOs sollten eng mit anderen Teams zusammenarbeiten.eamesBot – shutterstock.com Eine der Hauptaufgaben von CISOs besteht darin, nicht mehr die „Abteilung des Neins“ zu sein. Sie müssen Wege finden, die schnelle Bereitstellung von Produkten und Dienstleistungen für das Unternehmen zu ermöglichen, ohne gleichzeitig neue Risiken einzuführen. Das ist, kurz gesagt, das Paradoxon. In einem Umfeld, in dem Produktteams ständig neue Technologien testen und Updates in Rekordgeschwindigkeit bereitstellen ",
-      "url": "https://www.csoonline.com/article/4099334/das-ciso-paradoxon-innovation-ermoglichen-und-risiken-managen.html",
-      "source": "CSO Online",
-      "author": "Inconnu",
-      "published": "2025-12-05T04:00:00+00:00",
-      "niche": "security",
-      "score": 42,
-      "keywords": []
     },
     {
       "id": "19888879024292dd",
@@ -4436,18 +4436,6 @@
       "source": "CSO Online",
       "author": "Inconnu",
       "published": "2025-12-05T08:14:44+00:00",
-      "niche": "security",
-      "score": 42,
-      "keywords": []
-    },
-    {
-      "id": "5c692ed4083c00fa",
-      "title": "Diese Unternehmen hat es schon erwischt",
-      "description": "Lesen Sie, welche Unternehmen in Deutschland aktuell von Cyberangriffen betroffen sind.Roman Samborskyi | shutterstock.com Sie denken, Ihre Sicherheitsmaßnahmen können Sie langfristig vor Cyberangriffen schützen? Oder dass Ihr Unternehmen zu klein und damit uninteressant für Hacker ist? Egal, ob Sie dem Mittelstand angehören, an der Börse gelistet sind oder zu den kritischen Infrastrukturen gehören: Jedes Unternehmen hat Daten, die Cyberkriminelle stehlen möchten. Im Jahr 2024 wurden viele deuts",
-      "url": "https://www.csoonline.com/article/3577944/diese-unternehmen-hats-schon-erwischt.html",
-      "source": "CSO Online",
-      "author": "Inconnu",
-      "published": "2025-12-05T06:35:00+00:00",
       "niche": "security",
       "score": 42,
       "keywords": []
@@ -4739,9 +4727,9 @@
       "niche": "security",
       "score": 42,
       "keywords": [
-        "OWASP",
         "security",
-        "RCE"
+        "RCE",
+        "OWASP"
       ]
     },
     {
@@ -5111,8 +5099,8 @@
       "niche": "security",
       "score": 38,
       "keywords": [
-        "OWASP",
-        "RCE"
+        "RCE",
+        "OWASP"
       ]
     },
     {
@@ -5138,9 +5126,9 @@
       "niche": "security",
       "score": 37,
       "keywords": [
-        "OWASP",
-        "web application security",
         "security",
+        "web application security",
+        "OWASP",
         "threat"
       ]
     },
@@ -5195,10 +5183,10 @@
       "niche": "security",
       "score": 34,
       "keywords": [
-        "OWASP",
+        "cybersecurity",
         "security",
-        "threat",
-        "cybersecurity"
+        "OWASP",
+        "threat"
       ]
     },
     {
@@ -5254,9 +5242,9 @@
       "niche": "security",
       "score": 31,
       "keywords": [
-        "OWASP",
         "secure",
-        "security"
+        "security",
+        "OWASP"
       ]
     },
     {
@@ -5285,8 +5273,8 @@
       "niche": "security",
       "score": 30,
       "keywords": [
-        "OWASP",
-        "security"
+        "security",
+        "OWASP"
       ]
     },
     {
@@ -5445,21 +5433,6 @@
       ]
     },
     {
-      "id": "55da451330e4d776",
-      "title": "Smashing Security podcast #446: A hacker doxxes himself, and social engineering-as-a-service",
-      "description": "A teenage cybercriminal posts a smug screenshot to mock a sextortion scammer... and accidentally hands over the keys to his real-world identity. Meanwhile, we look into the crystal ball for 2026 and consider how stolen data is now the jet fuel of cybercrime – and how next year could be even nastier than 2025. Plus, Graham rants about recipe sites that won’t shut up, and there's even more love for Lily Allen's album \"West End Girl\" album. All this and more is discussed in episode 446 of the \"Smas",
-      "url": "https://grahamcluley.com/smashing-security-podcast-446/",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2025-12-04T00:30:56+00:00",
-      "niche": "security",
-      "score": 25,
-      "keywords": [
-        "security",
-        "XXE"
-      ]
-    },
-    {
       "id": "23356d1e3a6bdbdf",
       "title": "[webapps] Django 5.1.13 - SQL Injection",
       "description": "Django 5.1.13 - SQL Injection",
@@ -5614,9 +5587,9 @@
       "niche": "security",
       "score": 19,
       "keywords": [
-        "PoC",
+        "cybersecurity",
         "security",
-        "cybersecurity"
+        "PoC"
       ]
     },
     {
@@ -5687,21 +5660,6 @@
       "score": 18,
       "keywords": [
         "attack"
-      ]
-    },
-    {
-      "id": "a04f8bd555756097",
-      "title": "Why the record-breaking 30 Tbps DDoS attack should concern every business",
-      "description": "A new warning about the threat posed by Distributed Denial of Service (DDoS) attacks should make you sit up and listen. Read more in my article on the Fortra blog.",
-      "url": "https://www.fortra.com/blog/why-record-breaking-30-tbps-ddos-attack-concern-business",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2025-12-04T17:41:41+00:00",
-      "niche": "security",
-      "score": 15,
-      "keywords": [
-        "attack",
-        "threat"
       ]
     },
     {
@@ -5845,30 +5803,6 @@
       "keywords": []
     },
     {
-      "id": "93eb42d60f5dafb8",
-      "title": "FBI warns of surge in account takeover (ATO) fraud schemes – what you need to know",
-      "description": "The FBI has recently issued a public service announcement that warns that since January 2025 there have been more than 5,100 complaints of account takeover fraud, and total reported losses in excess of US $262 million. Read more in my article on the Fortra blog.",
-      "url": "https://www.fortra.com/blog/fbi-warns-surge-account-takeover-ato-fraud-schemes-need-know",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2025-12-03T15:38:17+00:00",
-      "niche": "security",
-      "score": 12,
-      "keywords": []
-    },
-    {
-      "id": "fb043112f173f3a3",
-      "title": "The AI Fix #79: Gemini 3, poetry jailbreaks, and do we even need safe robots?",
-      "description": "In episode 79 of The AI Fix, Gemini 3 roasts the competition, scares Nvidia, and can’t remember what year it is. Meanwhile, Graham investigates a fight between a fridge and robot, and Mark discovers that poetry could be a universal jailbreak for LLMs. Also in this episode, our hosts ponder whether Mark Zuckerberg’s underground bunker will be keeping robots in or out, Olaf the snowman walks and talks, Disney makes a robot Graham likes, and an AI-powered teddy bear talks to kids about BDSM and ars",
-      "url": "https://grahamcluley.com/the-ai-fix-79/",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2025-12-02T23:42:22+00:00",
-      "niche": "security",
-      "score": 12,
-      "keywords": []
-    },
-    {
       "id": "ca005d40b9acd885",
       "title": "[webapps] phpIPAM 1.4 - SQL-Injection",
       "description": "phpIPAM 1.4 - SQL-Injection",
@@ -6002,18 +5936,6 @@
       "published": "2025-11-27T13:00:00+01:00",
       "niche": "security",
       "score": 9,
-      "keywords": []
-    },
-    {
-      "id": "d5d10996725659a1",
-      "title": "ISC Stormcast For Friday, December 5th, 2025 https://isc.sans.edu/podcastdetail/9726, (Fri, Dec 5th)",
-      "description": "",
-      "url": "https://isc.sans.edu/diary/rss/32540",
-      "source": "SANS Internet Storm Center",
-      "author": "Inconnu",
-      "published": "2025-12-05T02:05:26+00:00",
-      "niche": "security",
-      "score": 8,
       "keywords": []
     },
     {
