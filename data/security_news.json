@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-13T06:39:13.200394+00:00",
-  "total_articles": 393,
+  "last_updated": "2025-12-13T09:24:48.584640+00:00",
+  "total_articles": 408,
   "articles": [
     {
       "id": "5b8181b770fc9479",
@@ -2684,6 +2684,23 @@
       ]
     },
     {
+      "id": "da64ee2a301988f2",
+      "title": "Microsoft Patch Tuesday, November 2025 Edition",
+      "description": "Microsoft this week pushed security updates to fix more than 60 vulnerabilities in its Windows operating systems and supported software, including at least one zero-day bug that is already being exploited. Microsoft also fixed a glitch that prevented some Windows 10 users from taking advantage of an extra year of security updates, which is nice because the zero-day flaw and other critical weaknesses patched today affect all versions of Windows, including Windows 10.",
+      "url": "https://krebsonsecurity.com/2025/11/microsoft-patch-tuesday-november-2025-edition/",
+      "source": "Krebs on Security",
+      "author": "BrianKrebs",
+      "published": "2025-11-16T21:47:14+00:00",
+      "niche": "security",
+      "score": 63,
+      "keywords": [
+        "exploit",
+        "zero-day",
+        "security",
+        "patch"
+      ]
+    },
+    {
       "id": "de113ffe1de4ae79",
       "title": "Portugal updates cybercrime law to exempt security researchers",
       "description": "Portugal has modified its cybercrime law to establish a legal safe harbor for good-faith security research and to make hacking non-punishable under certain strict conditions. [...]",
@@ -2805,10 +2822,10 @@
       "niche": "security",
       "score": 61,
       "keywords": [
-        "OWASP",
         "security",
-        "secure",
-        "RCE"
+        "RCE",
+        "OWASP",
+        "secure"
       ]
     },
     {
@@ -3087,6 +3104,22 @@
       ]
     },
     {
+      "id": "3983420b7219ff45",
+      "title": "Privacy Firewall - Le garde fou de vos IA",
+      "description": "Vous vous souvenez des histoires d&rsquo;employés Samsung qui ont balancé du code source confidentiel dans ChatGPT en 2023 ? Hé bien ce genre de bourde n&rsquo;a pas disparu, bien au contraire. Un rapport d&rsquo; Harmonic Security sorti en fin d&rsquo;année dernière estimait que près de 80% des données exposées via les IA génératives passent par ChatGPT et plus de 40% des fichiers envoyés contiennent des infos sensibles. Email du boss, clé API, numéro de carte&hellip; on balance tout ça sans ré",
+      "url": "https://korben.info/privacyfirewall-extension-chrome-bloquer-fuites-do.html",
+      "source": "Korben",
+      "author": "Korben",
+      "published": "2025-12-13T04:48:43+01:00",
+      "niche": "security",
+      "score": 56,
+      "keywords": [
+        "firewall",
+        "security",
+        "RCE"
+      ]
+    },
+    {
       "id": "bdd70c9d9134cbd2",
       "title": "Proofpoint Completes $1.8 Billion Acquisition of Hornetsecurity",
       "description": "Enterprise cybersecurity giant Proofpoint has completed the acquisition of Germany-based Microsoft 365 security solutions provider Hornetsecurity. Financial details were not officially disclosed when news of the transaction came to light, but it was reported that Proofpoint would be paying $1 billion for its European competitor. SecurityWeek learned at the time that the deal size well [&#8230;] The post Proofpoint Completes $1.8 Billion Acquisition of Hornetsecurity appeared first on SecurityWee",
@@ -3205,6 +3238,21 @@
         "cybersecurity",
         "security",
         "attack"
+      ]
+    },
+    {
+      "id": "4451a31fee95b04f",
+      "title": "Harden Windows Security - Blindez votre Windows sans installer un seul logiciel tiers !",
+      "description": "Vous vous souvenez de toutes ces fois où je vous ai expliqué comment renforcer la sécurité de Windows avec telle ou telle petite astuce ? Hé bien y&rsquo;a un projet GitHub qui va vous faire plaisir si vous êtes du genre à vouloir blinder votre machine sans installer 50 logiciels tiers. Ça s&rsquo;appelle Harden Windows Security , et c&rsquo;est signé par un dev qui se fait appeler HotCakeX. Son idée c&rsquo;est de sécuriser Windows en utilisant uniquement les méthodes officielles de Microsoft. ",
+      "url": "https://korben.info/harden-windows-security-blindage-windows-officiel.html",
+      "source": "Korben",
+      "author": "Korben",
+      "published": "2025-12-13T05:01:32+01:00",
+      "niche": "security",
+      "score": 55,
+      "keywords": [
+        "security",
+        "RCE"
       ]
     },
     {
@@ -3554,6 +3602,34 @@
       ]
     },
     {
+      "id": "326d1ca01668c38e",
+      "title": "Sim Studio - Créez vos workflows d'agents IA aussi facilement que quand vous dessinez sur Figma",
+      "description": "Vous avez toujours voulu créer des workflows d&rsquo;agents IA mais vous avez la flemme de coder tout ça à la main ? Hé bien y&rsquo;a un projet open source qui va vous faire plaisir. Ça s&rsquo;appelle Sim Studio et c&rsquo;est une plateforme qui permet de construire des workflows d&rsquo;agents IA de manière visuelle, un peu comme sur Figma. Le principe c&rsquo;est d&rsquo;avoir un canvas sur lequel vous glissez-déposez des blocs : des LLMs, des outils, des connexions à des services tiers comm",
+      "url": "https://korben.info/sim-studio-workflows-agents-ia-open-source.html",
+      "source": "Korben",
+      "author": "Korben",
+      "published": "2025-12-13T07:28:50+01:00",
+      "niche": "security",
+      "score": 52,
+      "keywords": [
+        "RCE"
+      ]
+    },
+    {
+      "id": "7c8607f87dc5f83f",
+      "title": "HTTP Breakout Proxy - Le reverse engineering sans prise de tête",
+      "description": "Pendant que Burp Suite avale 500 Mo de RAM au démarrage, HTTP Breakout Proxy lui, tient dans un binaire de quelques Mo qui disparaît dès que vous fermez le terminal. Alors HTTP Breakout Proxy c&rsquo;est quoi ? Hé bien les amis, c&rsquo;est un proxy HTTP/HTTPS écrit en Go qui intercepte le trafic réseau en temps réel et vous propose une interface web pour analyser tout ce qui passe. Requêtes, réponses, headers, body, timing&hellip; Tout est capturé et affiché proprement dans votre navigateur.",
+      "url": "https://korben.info/http-breakout-proxy-retour-outils-jetables.html",
+      "source": "Korben",
+      "author": "Korben",
+      "published": "2025-12-13T05:21:05+01:00",
+      "niche": "security",
+      "score": 52,
+      "keywords": [
+        "RCE"
+      ]
+    },
+    {
       "id": "46e67f8146dcca23",
       "title": "Meet ConsentFix, a new twist on the ClickFix phishing attack",
       "description": "A new variation of the ClickFix scam tries to get around phishing defenses by capturing an employee’s OAuth authentication token for Microsoft logins. Researchers at Push Security this week outlined the tactic, which they call ConsentFix, in a blog, calling it “a dangerous evolution of ClickFix and consent phishing that is incredibly hard for traditional security tools to detect and block.” Generally ClickFix attacks display a fake error or counterfeit CAPTCHA verification to a user to get them ",
@@ -3610,9 +3686,9 @@
       "niche": "security",
       "score": 51,
       "keywords": [
+        "vulnerability",
         "patch",
-        "disclosure",
-        "vulnerability"
+        "disclosure"
       ]
     },
     {
@@ -3626,9 +3702,9 @@
       "niche": "security",
       "score": 51,
       "keywords": [
-        "attack",
+        "exploit",
         "security",
-        "exploit"
+        "attack"
       ]
     },
     {
@@ -3898,6 +3974,21 @@
       "score": 48,
       "keywords": [
         "secure"
+      ]
+    },
+    {
+      "id": "eb7482bd5eacf0bc",
+      "title": "Is Your Android TV Streaming Box Part of a Botnet?",
+      "description": "On the surface, the Superbox media streaming devices for sale at retailers like BestBuy and Walmart may seem like a steal: They offer unlimited access to more than 2,200 pay-per-view and streaming services like Netflix, ESPN and Hulu, all for a one-time fee of around $400. But security experts warn these TV boxes require intrusive software that forces the user's network to relay Internet traffic for others, traffic that is often tied to cybercrime activity such as advertising fraud and account t",
+      "url": "https://krebsonsecurity.com/2025/11/is-your-android-tv-streaming-box-part-of-a-botnet/",
+      "source": "Krebs on Security",
+      "author": "BrianKrebs",
+      "published": "2025-11-24T18:44:52+00:00",
+      "niche": "security",
+      "score": 48,
+      "keywords": [
+        "security",
+        "RCE"
       ]
     },
     {
@@ -4298,10 +4389,10 @@
       "niche": "security",
       "score": 43,
       "keywords": [
-        "OWASP",
         "security",
-        "secure",
-        "RCE"
+        "RCE",
+        "OWASP",
+        "secure"
       ]
     },
     {
@@ -4603,10 +4694,82 @@
       "niche": "security",
       "score": 42,
       "keywords": [
-        "OWASP",
         "security",
-        "RCE"
+        "RCE",
+        "OWASP"
       ]
+    },
+    {
+      "id": "5579ecdc6af036b6",
+      "title": "Kindle balance une IA dans vos livres et les auteurs n'ont pas leur mot à dire",
+      "description": "Amazon vient de lancer une nouvelle fonctionnalité dans son app Kindle iOS qui risque de faire grincer pas mal de dents du côté des auteurs et éditeurs. Ça s&rsquo;appelle &ldquo;Ask this Book&rdquo; et c&rsquo;est un chatbot IA intégré directement dans vos bouquins. Le principe c&rsquo;est de pouvoir poser des questions sur le livre que vous êtes en train de lire. Genre &ldquo;c&rsquo;est qui déjà ce personnage ?&rdquo;, &ldquo;il s&rsquo;est passé quoi dans le chapitre 3 ?&rdquo; ou &ldquo;c&r",
+      "url": "https://korben.info/kindle-ia-ask-book-amazon-auteurs-opt-out.html",
+      "source": "Korben",
+      "author": "Korben",
+      "published": "2025-12-13T07:59:57+01:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "2f45e269d6705be4",
+      "title": "Quand Pékin traque ses dissidents avec de la tech made in Silicon Valley",
+      "description": "Vous pensiez que les technologies de surveillance chinoises étaient 100% chinoises ? Hé bien pas du tout. Une enquête passionnante d&rsquo;AP vient de révéler que le gouvernement chinois utilise massivement des logiciels américains pour traquer ses propres citoyens, y compris ceux qui ont fui aux États-Unis. L&rsquo;histoire de Li Chuanliang est assez flippante. Cet ancien fonctionnaire chinois était en convalescence d&rsquo;un cancer sur une île coréenne quand il a reçu un appel urgent lui disa",
+      "url": "https://korben.info/chine-surveillance-whistleblower-ibm-oracle-micros.html",
+      "source": "Korben",
+      "author": "Korben",
+      "published": "2025-12-13T07:02:58+01:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "8b541ca820c2b398",
+      "title": "GPTPets - Des animaux virtuels pour égayer vos sessions ChatGPT et Claude",
+      "description": "Vous bossez toute la journée sur ChatGPT ou Claude et vous commencez à trouver ça un peu tristounet ? Youpi, y&rsquo;a une extension Chrome qui va égayer tout ça avec des petits animaux virtuels qui se baladent sur votre interface comme quand on était en 1999. Ça s&rsquo;appelle GPTPets et c&rsquo;est le genre de truc complètement inutile donc forcément indispensable comme disait Jérôme Bonaldi. Le principe c&rsquo;est d&rsquo;avoir un petit compagnon animé qui vit sa vie sur la barre de saisie ",
+      "url": "https://korben.info/gptpets-animaux-virtuels-chatgpt-et-claude.html",
+      "source": "Korben",
+      "author": "Korben",
+      "published": "2025-12-13T06:26:16+01:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "df2081af41574eb3",
+      "title": "Suprise ! Un micro caché dans un petit KVM chinois à 30 balles",
+      "description": "Je ne connaissais pas le NanoKVM mais c&rsquo;est un petit boîtier KVM chinois vendu entre 30 et 70€ qui permet de contrôler un PC à distance. Sauf qu&rsquo;un chercheur en sécurité slovène a découvert qu&rsquo;il embarquait un micro planqué capable d&rsquo;enregistrer tout ce qui se dit autour. Ça craint ! En effet, Matej Kovačič a ouvert son NanoKVM et y a trouvé un minuscule composant de 2x1 mm dissimulé sous le connecteur. Un truc tellement petit qu&rsquo;il faut une loupe ou un microscope p",
+      "url": "https://korben.info/nanokvm-micro-cache-failles-securite-sipeed.html",
+      "source": "Korben",
+      "author": "Korben",
+      "published": "2025-12-13T06:09:18+01:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "fec615160511ec7b",
+      "title": "MediaBunny - L'avenir du traitement vidéo dans le navigateur",
+      "description": "Vous avez déjà essayé de faire du traitement vidéo dans le navigateur Bienvenue en enfer ! Et dire que pendant 20 ans, la seule solution viable c&rsquo;était de compiler FFmpeg en WebAssembly, attendre 10 secondes que 40 Mo de code se chargent, puis regarder votre RAM fondre comme neige au soleil. Heureusement, MediaBunny débarque et compte bien changer les choses ! En effet, cette bibliothèque TypeScript vous permet de lire, écrire et convertir des fichiers vidéo et audio directement dans le na",
+      "url": "https://korben.info/vous-avez-deja-essaye-de-faire-du-traitement-video.html",
+      "source": "Korben",
+      "author": "Korben",
+      "published": "2025-12-13T05:35:26+01:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "d113e92c2b4ee379",
+      "title": "Transformez n'importe quel lien en QR code LEGO fonctionnel",
+      "description": "Vous avez des LEGO qui traînent chez vous et vous cherchez un projet un peu original à faire avec ? Hé bien j&rsquo;ai trouvé un truc sympa pour vous occuper ce week-end : Construire un QR code fonctionnel en briques LEGO. Ça s&rsquo;appelle Brick QR Code et c&rsquo;est un générateur en ligne qui transforme n&rsquo;importe quelle URL en instructions de montage LEGO. Vous entrez votre lien, le site génère le pattern, et hop vous avez tout ce qu&rsquo;il faut pour construire un QR code scannable a",
+      "url": "https://korben.info/brickqrcode-qr-lego-fonctionnel.html",
+      "source": "Korben",
+      "author": "Korben",
+      "published": "2025-12-13T05:05:30+01:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": []
     },
     {
       "id": "a7c19cbfec77f1b9",
@@ -4985,8 +5148,8 @@
       "niche": "security",
       "score": 38,
       "keywords": [
-        "OWASP",
-        "RCE"
+        "RCE",
+        "OWASP"
       ]
     },
     {
@@ -5012,10 +5175,24 @@
       "niche": "security",
       "score": 37,
       "keywords": [
-        "OWASP",
+        "web application security",
         "security",
-        "threat",
-        "web application security"
+        "OWASP",
+        "threat"
+      ]
+    },
+    {
+      "id": "466ed86eb766605b",
+      "title": "Google Sues to Disrupt Chinese SMS Phishing Triad",
+      "description": "Google is suing more than two dozen unnamed individuals allegedly involved in peddling a popular China-based mobile phishing service that helps scammers impersonate hundreds of trusted brands, blast out text message lures, and convert phished payment card data into mobile wallets from Apple and Google.",
+      "url": "https://krebsonsecurity.com/2025/11/google-sues-to-disrupt-chinese-sms-phishing-triad/",
+      "source": "Krebs on Security",
+      "author": "BrianKrebs",
+      "published": "2025-11-13T14:47:22+00:00",
+      "niche": "security",
+      "score": 36,
+      "keywords": [
+        "phishing"
       ]
     },
     {
@@ -5067,8 +5244,8 @@
       "niche": "security",
       "score": 34,
       "keywords": [
-        "OWASP",
         "security",
+        "OWASP",
         "threat",
         "cybersecurity"
       ]
@@ -5088,6 +5265,22 @@
       ]
     },
     {
+      "id": "3edf29b1e43e3cb3",
+      "title": "Drilling Down on Uncle Sam’s Proposed TP-Link Ban",
+      "description": "The U.S. government is reportedly preparing to ban the sale of wireless routers and other networking gear from TP-Link Systems, a tech company that currently enjoys an estimated 50% market share among home users and small businesses. Experts say while the proposed ban may have more to do with TP-Link's ties to China than any specific technical threats, much of the rest of the industry serving this market also sources hardware from China and ships products that are insecure fresh out of the box.",
+      "url": "https://krebsonsecurity.com/2025/11/drilling-down-on-uncle-sams-proposed-tp-link-ban/",
+      "source": "Krebs on Security",
+      "author": "BrianKrebs",
+      "published": "2025-11-09T18:14:40+00:00",
+      "niche": "security",
+      "score": 31,
+      "keywords": [
+        "RCE",
+        "threat",
+        "secure"
+      ]
+    },
+    {
       "id": "4e2434df6328df0f",
       "title": "OWASP Certified Secure Software Developer",
       "description": "To develop applications we need code. To write code we need developers. And to develop secure applications, developers need to write code that does not result in or have vulnerabilities. OWASP is about application security - be it web application, mobile application, applications developed with low-code-no-code, infrastructure-as-code, etc. OWASP is currently working on a new initiative to create a certification program for developers. It is named OWASP Certified Secure-Software Developer - OCSD",
@@ -5098,9 +5291,24 @@
       "niche": "security",
       "score": 31,
       "keywords": [
-        "OWASP",
         "security",
+        "OWASP",
         "secure"
+      ]
+    },
+    {
+      "id": "ec0fc13b2d59bbf0",
+      "title": "SMS Phishers Pivot to Points, Taxes, Fake Retailers",
+      "description": "China-based phishing groups blamed for non-stop scam SMS messages about a supposed wayward package or unpaid toll fee are promoting a new offering, just in time for the holiday shopping season: Phishing kits for mass-creating fake but convincing e-commerce websites that convert customer payment card data into mobile wallets from Apple and Google. Experts say these same phishing groups also are now using SMS lures that promise unclaimed tax refunds and mobile rewards points.",
+      "url": "https://krebsonsecurity.com/2025/12/sms-phishers-pivot-to-points-taxes-fake-retailers/",
+      "source": "Krebs on Security",
+      "author": "BrianKrebs",
+      "published": "2025-12-04T23:02:34+00:00",
+      "niche": "security",
+      "score": 30,
+      "keywords": [
+        "RCE",
+        "phishing"
       ]
     },
     {
@@ -5114,8 +5322,8 @@
       "niche": "security",
       "score": 30,
       "keywords": [
-        "OWASP",
-        "security"
+        "security",
+        "OWASP"
       ]
     },
     {
@@ -5274,21 +5482,6 @@
       ]
     },
     {
-      "id": "55da451330e4d776",
-      "title": "Smashing Security podcast #446: A hacker doxxes himself, and social engineering-as-a-service",
-      "description": "A teenage cybercriminal posts a smug screenshot to mock a sextortion scammer... and accidentally hands over the keys to his real-world identity. Meanwhile, we look into the crystal ball for 2026 and consider how stolen data is now the jet fuel of cybercrime – and how next year could be even nastier than 2025. Plus, Graham rants about recipe sites that won’t shut up, and there's even more love for Lily Allen's album \"West End Girl\" album. All this and more is discussed in episode 446 of the \"Smas",
-      "url": "https://grahamcluley.com/smashing-security-podcast-446/",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2025-12-04T00:30:56+00:00",
-      "niche": "security",
-      "score": 25,
-      "keywords": [
-        "XXE",
-        "security"
-      ]
-    },
-    {
       "id": "23356d1e3a6bdbdf",
       "title": "[webapps] Django 5.1.13 - SQL Injection",
       "description": "Django 5.1.13 - SQL Injection",
@@ -5330,6 +5523,21 @@
       "score": 22,
       "keywords": [
         "RCE"
+      ]
+    },
+    {
+      "id": "32f4426a5ea2c64a",
+      "title": "The Cloudflare Outage May Be a Security Roadmap",
+      "description": "An intermittent outage at Cloudflare on Tuesday briefly knocked many of the Internet's top destinations offline. Some affected Cloudflare customers were able to pivot away from the platform temporarily so that visitors could still access their websites. But security experts say doing so may have also triggered an impromptu network penetration test for organizations that have come to rely on Cloudflare to block many types of abusive and malicious traffic.",
+      "url": "https://krebsonsecurity.com/2025/11/the-cloudflare-outage-may-be-a-security-roadmap/",
+      "source": "Krebs on Security",
+      "author": "BrianKrebs",
+      "published": "2025-11-19T14:07:03+00:00",
+      "niche": "security",
+      "score": 21,
+      "keywords": [
+        "security",
+        "penetration test"
       ]
     },
     {
@@ -5418,6 +5626,21 @@
       ]
     },
     {
+      "id": "3544739788ef4353",
+      "title": "Mozilla Says It’s Finally Done With Two-Faced Onerep",
+      "description": "In March 2024, Mozilla said it was winding down its collaboration with Onerep -- an identity protection service offered with the Firefox web browser that promises to remove users from hundreds of people-search sites -- after KrebsOnSecurity revealed Onerep's founder had created dozens of people-search services and was continuing to operate at least one of them. Sixteen months later, however, Mozilla is still promoting Onerep. This week, Mozilla announced their partnership with Onerep will offici",
+      "url": "https://krebsonsecurity.com/2025/11/mozilla-says-its-finally-done-with-two-faced-onerep/",
+      "source": "Krebs on Security",
+      "author": "BrianKrebs",
+      "published": "2025-11-20T19:06:51+00:00",
+      "niche": "security",
+      "score": 19,
+      "keywords": [
+        "security",
+        "protection"
+      ]
+    },
+    {
       "id": "ea3ec18ab9bbd500",
       "title": "Hacking with Burp AI in the Chesspocalypse: API expert Corey Ball showcases how Burp AI can support pentesters.",
       "description": "AI isn’t just reshaping cybersecurity - it’s challenging testers to rethink their entire playbook. In his latest article, “Hacking with Burp AI in the Chesspocalypse”, API expert Corey Ball draws less",
@@ -5429,8 +5652,22 @@
       "score": 19,
       "keywords": [
         "security",
-        "cybersecurity",
-        "PoC"
+        "PoC",
+        "cybersecurity"
+      ]
+    },
+    {
+      "id": "f3d74341ccf7906d",
+      "title": "Meet Rey, the Admin of ‘Scattered Lapsus$ Hunters’",
+      "description": "A prolific cybercriminal group that calls itself \"Scattered LAPSUS$ Hunters\" made headlines regularly this year by stealing data from and publicly mass extorting dozens of major corporations. But the tables seem to have turned somewhat for \"Rey,\" the moniker chosen by the technical operator and public face of the hacker group: Earlier this week, Rey confirmed his real life identity and agreed to an interview after KrebsOnSecurity tracked him down and contacted his father.",
+      "url": "https://krebsonsecurity.com/2025/11/meet-rey-the-admin-of-scattered-lapsus-hunters/",
+      "source": "Krebs on Security",
+      "author": "BrianKrebs",
+      "published": "2025-11-26T17:22:36+00:00",
+      "niche": "security",
+      "score": 18,
+      "keywords": [
+        "security"
       ]
     },
     {
@@ -5473,21 +5710,6 @@
       "score": 18,
       "keywords": [
         "attack"
-      ]
-    },
-    {
-      "id": "a04f8bd555756097",
-      "title": "Why the record-breaking 30 Tbps DDoS attack should concern every business",
-      "description": "A new warning about the threat posed by Distributed Denial of Service (DDoS) attacks should make you sit up and listen. Read more in my article on the Fortra blog.",
-      "url": "https://www.fortra.com/blog/why-record-breaking-30-tbps-ddos-attack-concern-business",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2025-12-04T17:41:41+00:00",
-      "niche": "security",
-      "score": 15,
-      "keywords": [
-        "attack",
-        "threat"
       ]
     },
     {
@@ -5655,18 +5877,6 @@
       "keywords": [
         "protection"
       ]
-    },
-    {
-      "id": "93eb42d60f5dafb8",
-      "title": "FBI warns of surge in account takeover (ATO) fraud schemes – what you need to know",
-      "description": "The FBI has recently issued a public service announcement that warns that since January 2025 there have been more than 5,100 complaints of account takeover fraud, and total reported losses in excess of US $262 million. Read more in my article on the Fortra blog.",
-      "url": "https://www.fortra.com/blog/fbi-warns-surge-account-takeover-ato-fraud-schemes-need-know",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2025-12-03T15:38:17+00:00",
-      "niche": "security",
-      "score": 12,
-      "keywords": []
     },
     {
       "id": "ca005d40b9acd885",

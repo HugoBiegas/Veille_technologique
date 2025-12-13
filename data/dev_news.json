@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-13T06:39:26.625033+00:00",
+  "last_updated": "2025-12-13T09:25:03.065254+00:00",
   "total_articles": 964,
   "articles": [
     {
@@ -724,6 +724,18 @@
       "source": "Dev.to",
       "author": "rogasper",
       "published": "2025-12-13T06:09:24+00:00",
+      "niche": "dev",
+      "score": 68,
+      "keywords": []
+    },
+    {
+      "id": "46f2d6db3cae7b71",
+      "title": "Case Study: How I Reduced React Bundle Size by 68%",
+      "description": "I worked on a B2B application where I faced a common misconception: businesses are more tolerant of poor Google Core Web Vitals and bloated bundle sizes because \"users access from office PCs with fast internet.\" Unfortunately, reality was different. Primary users accessed the application from mobile phones with mobile internet connections. When I discovered this, optimization became critical. Starting Point: The production bundle size was 1,542 KB (gzipped). Target: 500 KB (following industry be",
+      "url": "https://dev.to/fhaponenka/case-study-how-i-reduce-react-bundle-size-by-68-84m",
+      "source": "Dev.to",
+      "author": "Fedar Haponenka",
+      "published": "2025-12-13T08:31:29+00:00",
       "niche": "dev",
       "score": 68,
       "keywords": []
@@ -1531,6 +1543,21 @@
       ]
     },
     {
+      "id": "2f63d7503d5a4883",
+      "title": "🌌 How I Built a GROK-Inspired Starfield & Shooting Stars Using HTML Canvas ✨",
+      "description": "Recreating the GROK Starfield & Shooting Star Effect with HTML Canvas If you've seen the GROK-style starfield animation, you know the vibe: slow, cinematic rotation, subtle flicker, and the occasional shooting star streaking across space. In this post, we’ll break down a pure HTML + CSS + JavaScript implementation that recreates that effect — no libraries, no frameworks, just the Canvas API. This project is lightweight, customizable, and perfect for landing pages, backgrounds, or creative coding",
+      "url": "https://dev.to/usman_awan/how-i-built-a-grok-inspired-starfield-shooting-stars-using-html-canvas-3872",
+      "source": "Dev.to",
+      "author": "MUHAMMAD USMAN AWAN",
+      "published": "2025-12-13T08:35:51+00:00",
+      "niche": "dev",
+      "score": 57,
+      "keywords": [
+        "framework",
+        "API"
+      ]
+    },
+    {
       "id": "abcd001def999dec",
       "title": "Automating 'Smarketing': How to Code Your Way to a Unified Revenue Engine",
       "description": "As developers, we're obsessed with building clean, efficient systems. We despise data silos, brittle integrations, and processes held together by manual effort and duct tape. So why do we tolerate it in the part of the business that literally keeps the lights on: Sales and Marketing? The infamous gap between Sales and Marketing isn't just a culture problem; it's a systems architecture problem. It’s about broken data flows, mismatched APIs, and a lack of a single source of truth. It's a problem t",
@@ -2280,45 +2307,18 @@
       ]
     },
     {
-      "id": "dc44e641b9038c01",
-      "title": "From Performance Engineering to Agentic Intelligence — My Journey Through the AI Agents Intensive",
-      "description": "This is a submission for the Google AI Agents Writing Challenge: Learning Reflections _ How a week with Google & Kaggle reshaped my understanding of autonomous AI systems_ 📘 Introduction The 5-Day AI Agents Intensive Course by Google and Kaggle was an eye‑opening, hands‑on experience that reshaped how I think about agentic AI. Coming from a strong performance engineering background, I found the transition into agent architectures surprisingly natural—especially where automation, orchestration, a",
-      "url": "https://dev.to/ajin_sudhir_243c86142add9/from-performance-engineering-to-agentic-intelligence-my-journey-through-the-ai-agents-intensive-1fn2",
+      "id": "5a8e896ca3350c54",
+      "title": "Redefining My Understanding of AI Agents: A Five-Day Learning Experience",
+      "description": "This is a submission for the Google AI Agents Writing Challenge: Learning Reflections The most important thing I noticed is how rapidly AI technology is evolving. Just a few months ago, during the “5-Day Gen AI Intensive Course with Google,” we were discussing prompt engineering, embeddings, vector databases, Gen AI agents, and domain-specific LLMs. Now, we have moved a step further to address more complex challenges in AI-based web application development. Google ADK has come of age and is well",
+      "url": "https://dev.to/md_kaisar_122cb42ab77b8d5/redefining-my-understanding-of-ai-agents-a-five-day-learning-experience-2g2h",
       "source": "Dev.to",
-      "author": "Ajin Sudhir",
-      "published": "2025-12-06T09:11:34+00:00",
+      "author": "Md Kaisar",
+      "published": "2025-12-13T08:54:19+00:00",
       "niche": "dev",
-      "score": 54,
+      "score": 55,
       "keywords": [
-        "performance"
-      ]
-    },
-    {
-      "id": "f9ad701b9905365e",
-      "title": "可选链操作符 ?.、逻辑空赋值运算符 ??=、performance、void 操作符",
-      "description": "可选链操作符 ?. 这个 ?. 的语法叫做 可选链操作符 (Optional Chaining)。 如果有值就取值，如果是 null 或 undefined 就立即停止并返回 undefined，而不会报错。 逻辑空赋值运算符 ??= x ??= y 是 JavaScript 中的 逻辑空赋值运算符 (Logical Nullish Assignment)。 只有当 x 是 null 或 undefined 时，才把 y 赋值给 x。 如果 x 已经有值（哪怕是 0 或 false），则保持原样，什么都不做。 等价写法 // 写法 A：使用简写 x ??= y; // 写法 B：原本的逻辑 (等价) if (x === null || x === undefined) { x = y; } performance performance 是一个专门用于“精确测量时间”的对象。 它提供比 Date.now() 更高精度（微秒级）的计时能力。 主要用于动画、性能监控、测量时间差。 void 操作符 void 操作符的用途是对一个表达式进行求值，然后丢弃其返回值，最终返回 undefined",
-      "url": "https://dev.to/nikimunger/ke-xuan-lian-cao-zuo-fu-luo-ji-kong-fu-zhi-yun-suan-fu-performance-void-cao-zuo-fu-3a87",
-      "source": "Dev.to",
-      "author": "NikiMunger",
-      "published": "2025-12-06T09:09:05+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "performance"
-      ]
-    },
-    {
-      "id": "454459ca82392852",
-      "title": "AI Takes the Helm: Autonomous Experimentation in Fluid Dynamics",
-      "description": "AI Takes the Helm: Autonomous Experimentation in Fluid Dynamics Imagine you're optimizing the aerodynamic performance of a next-gen drone. You need to meticulously test countless airfoil shapes under varying wind conditions. The process is slow, tedious, and prone to human error. What if an AI could design, execute, analyze, and even write the report for you? That's the promise of AI-driven experimentation in fluid dynamics. We're talking about systems that leverage large language models (LLMs) ",
-      "url": "https://dev.to/arvind_sundararajan/ai-takes-the-helm-autonomous-experimentation-in-fluid-dynamics-3cec",
-      "source": "Dev.to",
-      "author": "Arvind SundaraRajan",
-      "published": "2025-12-06T09:02:07+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "performance"
+        "development",
+        "API"
       ]
     },
     {
@@ -3198,6 +3198,20 @@
       ]
     },
     {
+      "id": "92b7cbc56ad28549",
+      "title": "PS5 Exclusive Saros Delayed, But Pre-Orders Are Live Right Now",
+      "description": "Introduction: PS5 Exclusive Saros Delayed Exciting news for PlayStation fans! The upcoming PS5 exclusive game, Saros, has been delayed. However, the silver lining is that pre-orders for the highly anticipated game are now officially live. Fans who have been eagerly awaiting the chance to experience this new and innovative title can now secure their copy ahead of time. To add to the excitement, a new trailer for Saros has been released, giving players a glimpse of what's in store for them in this",
+      "url": "https://dev.to/aibuddyinc/ps5-exclusive-saros-delayed-but-pre-orders-are-live-right-now-5glg",
+      "source": "Dev.to",
+      "author": "Hire-Programmers Admin",
+      "published": "2025-12-13T09:00:02+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "release"
+      ]
+    },
+    {
       "id": "364501200d5dd407",
       "title": "The Future of Web Development is Not AI",
       "description": "*ChatGPT isn't making you ship code faster. It’s just making your codebase more verbose. * We are obsessed with \"AI-generated apps.\" But we are ignoring the real bottleneck in web development. It isn't writing functions. It’s rebuilding the same 5 features for every single project: ❌ Auth ❌ Billing ❌ Admin Panels ❌ Waitlists ❌ Blogs It gets worse. The waste isn't just in the first build—it's in the lock-in. Current web development is fragile. We are constantly tossing out perfectly good logic ju",
@@ -3735,20 +3749,6 @@
       "keywords": [
         "code",
         "developer"
-      ]
-    },
-    {
-      "id": "33a437c0de98288a",
-      "title": "How to Learn SQL for Data Analysis in 2026: A Free Learning Path",
-      "description": "Here's a structured learning path with entirely free resources, organized by skill level. Foundation Kaggle: Intro to SQL - kaggle.com/learn/intro-to-sql Free interactive course using real-world datasets. Perfect for data analysts, teaches SQL fundamentals through hands-on exercises with actual data. ThoughtSpot (formerly Mode Analytics): SQL Tutorial - thoughtspot.com/sql-tutorial/introduction-to-sql Interactive tutorial, one of the best free resources. Teaches to answer typical data analysis q",
-      "url": "https://dev.to/nldr/how-to-learn-sql-for-data-analysis-in-2026-a-free-learning-path-1l9o",
-      "source": "Dev.to",
-      "author": "Viktorija",
-      "published": "2025-12-06T09:01:37+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "tutorial"
       ]
     },
     {
@@ -5264,64 +5264,32 @@
       ]
     },
     {
-      "id": "742b74b796ad291f",
-      "title": "🟩How to Route DB Connections to Multiple Database Servers Using HAProxy Port Forwarding",
-      "description": "Managing multiple MySQL databases across several servers can be challenging—especially when you want users to connect seamlessly without needing to know which server hosts which database. In this guide, I’ll walk you through a clean, production-friendly setup where: You have 3 MySQL servers (each hosting one database) You have 1 client server You install HAProxy on the client server Users connect to different ports, and HAProxy forwards them to the correct MySQL server This approach is simple, s",
-      "url": "https://dev.to/latchudevops/how-to-route-db-connections-to-multiple-database-servers-using-haproxy-port-forwarding-1332",
+      "id": "04a09f0548b815eb",
+      "title": "AWS for Developers: The Guide",
+      "description": "Cloud is no longer a “nice to have.” If you are building, scaling, shipping, or even experimenting. AWS is where most of the world runs its production workloads. But here’s the problem -> AWS has over 200 services. New developers often feel like they’re entering a jungle with no map. This article is that map. Short. Concise. Practical. Let’s go. Why AWS Still Rules the Cloud Even with big players like Azure and GCP growing fast, AWS dominates because: Most complete ecosystem (Compute, Storage, D",
+      "url": "https://dev.to/kaustubhyerkade/aws-for-developers-the-only-guide-you-actually-need-in-2026-901",
       "source": "Dev.to",
-      "author": "Latchu@DevOps",
-      "published": "2025-12-06T09:16:57+00:00",
+      "author": "kaustubh yerkade",
+      "published": "2025-12-13T08:25:44+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
-      "id": "5e7d2c10e0cfe013",
-      "title": "AWS re:Invent 2025 - Powering your Agentic AI experience with AWS Streaming and Messaging (ANT310)",
-      "description": "🦄 Making great presentations more accessible. This project aims to enhances multilingual accessibility and discoverability while maintaining the integrity of original content. Detailed transcriptions and keyframes preserve the nuances and technical insights that make each session compelling. Overview 📖 AWS re:Invent 2025 - Powering your Agentic AI experience with AWS Streaming and Messaging (ANT310) In this video, Mindy Ferguson and Francisco Morillo from AWS, along with Chris Jackson from Olymp",
-      "url": "https://dev.to/kazuya_dev/aws-reinvent-2025-powering-your-agentic-ai-experience-with-aws-streaming-and-messaging-ant310-3e3p",
+      "id": "8ad0cd66568f25b4",
+      "title": "Linker Scripts Explained: Controlling Memory Layout on Bare Metal",
+      "description": "The Anatomy of a Minimal Linker Script ENTRY Directive MEMORY Block SECTIONS Block The Location Counter: . VMA vs LMA: Virtual and Load Memory Addresses Linker-Defined Symbols The Map File Complete Minimal Example Verification: What the Linker Produced Step 1: Examine Disassembly Step 2: Examine Section Headers Step 3: Examine the Map File Verification: Loading in QEMU and Inspecting with GDB Alignment Directives Conclusion Compilers generate relocatable object code—machine instructions and data",
+      "url": "https://dev.to/ripan030/linker-scripts-explained-controlling-memory-layout-on-bare-metal-3ocb",
       "source": "Dev.to",
-      "author": "Kazuya",
-      "published": "2025-12-06T09:11:07+00:00",
+      "author": "Ripan Deuri",
+      "published": "2025-12-13T08:23:12+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "92488e1d13b71668",
-      "title": "AWS re:Invent 2025 - Autonomous agents powered by streaming data and Retrieval Augmented Generation",
-      "description": "🦄 Making great presentations more accessible. This project aims to enhances multilingual accessibility and discoverability while maintaining the integrity of original content. Detailed transcriptions and keyframes preserve the nuances and technical insights that make each session compelling. Overview 📖 AWS re:Invent 2025 - Autonomous agents powered by streaming data and Retrieval Augmented Generation In this video, Prashant Agrawal and Rahul Sonawane demonstrate how intelligent autonomous agents",
-      "url": "https://dev.to/kazuya_dev/aws-reinvent-2025-autonomous-agents-powered-by-streaming-data-and-retrieval-augmented-generation-2154",
-      "source": "Dev.to",
-      "author": "Kazuya",
-      "published": "2025-12-06T09:05:58+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "f4ceefb9cd57279b",
-      "title": "Mastering Remote Teams: Culture Across Timezones",
-      "description": "Mastering Remote Teams: Culture Across Timezones Managing remote teams across various timezones can feel like conducting a symphony from afar. But with the right strategies, you can create a harmonious virtual environment that thrives on culture and collaboration. Here are some practical tips to help you achieve that. 1. Embrace Flexible Communication: Flexibility is key when operating across timezones. Encourage asynchronous communication to ensure team members can contribute at their peak prod",
-      "url": "https://dev.to/jean_chou_b0a8ad9c32addbd/mastering-remote-teams-culture-across-timezones-2c0a",
-      "source": "Dev.to",
-      "author": "JEAN chou",
-      "published": "2025-12-06T09:05:14+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "199482f84d3e82ec",
-      "title": "🤷🏻‍♀️ Freelance Devs Drop Your Realest Truth Here",
-      "description": "(No flexing. No motivational BS. Just the raw reality people actually need.)😁 If you’ve ever made even $1 from coding outside a 9–5… this thread is your mic. 🎤🔥 Silent juniors who think they’re the only impostors are reading every word you write. 👀💭😂 Reply using this exact template (copy → fill → send): 💰 Platforms that paid me: → (Upwork, Fiverr, Toptal, Arc, Lemon.io, Contra, Twitter/X DMs, cold email, referrals, friend of a friend, etc.) 😶‍🌫️ Imposter syndrome in 2025: → Still hits daily → On",
-      "url": "https://dev.to/vidakhoshpey22/freelance-devs-drop-your-realest-truth-here-2ak9",
-      "source": "Dev.to",
-      "author": "Vida Khoshpey",
-      "published": "2025-12-06T09:00:13+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "9065a0fef4f6de19",
@@ -8192,6 +8160,54 @@
       "keywords": []
     },
     {
+      "id": "122c4ce4a90a2815",
+      "title": "패키지 매니저 파묘🪦",
+      "description": "패키지 매니저의 역사 npm의 문제점 중복되는 의존성 다운로드: 의존성이 의존하는 의존성, 의존성이 의존하는 의존성도 있을 것이다. 그 중에서 패키지명과 버전이 일치하는 경우도 있을 것인데, npm v1, v2에서는 그 경우에도 중복으로 다운로드를 실행하여 의존성을 설치하는 시간이 길었다. 설치 방식에서 초래하는 request waterfall: 의존성을 순차적으로 해석하고 다운로드하여, 병렬적으로 다운로드를 하는 것이 불가능하였다. 의존성 1을 설치가 끝난 뒤에, 의존성 1의 package.json을 확인하고 의존성1의 의존성인 의존성 2를 설치하였다. 의존성 2의 설치가 끝난 뒤에, 의존성 2의 package.json을 확인하고 의존성 2의 의존성인 의존성 3을 설치하였다. 병렬적으로 다운로드를 할 수 없어 의존성 설치 시간이 길었다. 패키지 버전 고정 불가능: lockfile이 없어서, 각자가 의존성의 다른 버전을 사용하고 있었다. package.json에서 패치버전까지 고정하",
+      "url": "https://dev.to/algoorgoal/paekiji-maenijeo-pamyo-gf5",
+      "source": "Dev.to",
+      "author": "Chan",
+      "published": "2025-12-13T09:19:36+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "13ac58fb15d8d14c",
+      "title": "Production Timing and Counting PLC Data Acquisition IoT System Solution",
+      "description": "In modern production lines, each process must adhere strictly to predefined time rhythms to ensure the smoothness and efficiency of the overall production flow, encompassing aspects such as inventory management and quality inspection. The timing and counting PLC system plays a crucial role in this context. WideIOT offers a solution that integrates with PLCs to achieve data acquisition for timing and counting processes, further enhancing production efficiency, reducing costs, strengthening safety",
+      "url": "https://dev.to/wideiot/production-timing-and-counting-plc-data-acquisition-iot-system-solution-18m1",
+      "source": "Dev.to",
+      "author": "Ricardo",
+      "published": "2025-12-13T08:53:02+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "20bb48acf02f6095",
+      "title": "Master Macro: Your Personal Economic Playbook",
+      "description": "Master Macro: Your Personal Economic Playbook The Grand Illusion: Why You Feel Powerless Against the 'Economy' What if I told you the impenetrable, jargon-filled world of 'macroeconomics' isn't some mystical force only understood by ivory tower academics? What if the reason you feel a vague sense of unease or outright panic when you hear about interest rates, inflation, or GDP isn't because you're intellectually incapable, but because the system wants you to believe it's too complex for you? Tha",
+      "url": "https://dev.to/thinkaddict/master-macro-your-personal-economic-playbook-4cbg",
+      "source": "Dev.to",
+      "author": "Think Addict",
+      "published": "2025-12-13T08:27:39+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "6fc184415fb2cf2e",
+      "title": "MINDS EYE FABRIC",
+      "description": "Phase 1 — C++ Sovereign Kernel Skeleton (Daemon-First) Goal: ship a running C++ daemon that can: accept events maintain a capability graph (endpoints + edges) run a minimal state kernel (deterministic transitions) write an append-only ledger (provenance + replay-ready) execute a first “hunt” (graph search over reachability) Non-goals (Phase 1): LLM integration MindScript parsing/compilation distributed multi-node consensus fancy persistence engines (we’ll keep storage clean + swappable) Section ",
+      "url": "https://dev.to/peacebinflow/minds-eye-fabric-p1p",
+      "source": "Dev.to",
+      "author": "PEACEBINFLOW",
+      "published": "2025-12-13T08:26:27+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "e6728b52dfdc09b8",
       "title": "[Boost]",
       "description": "12 Open Source Gems To Become The Ultimate Developer 🔥 Anthony Max ・ Dec 7 #webdev #javascript #programming #opensource",
@@ -8438,42 +8454,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "d48c1436061b4273",
-      "title": "My DEV.TO Blogs List",
-      "description": "",
-      "url": "https://dev.to/thebitforge/my-devto-blogs-list-12aa",
-      "source": "Dev.to",
-      "author": "TheBitForge",
-      "published": "2025-12-06T09:03:19+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "4e0031074001ffe6",
-      "title": "Wolfram Compute Services",
-      "description": "Comments",
-      "url": "https://writings.stephenwolfram.com/2025/12/instant-supercompute-launching-wolfram-compute-services/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-06T07:21:42+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "e137ffd7b9104310",
-      "title": "Schizophrenia sufferer mistakes smart fridge ad for psychotic episode",
-      "description": "Comments",
-      "url": "https://old.reddit.com/r/LegalAdviceUK/comments/1pc7999/my_schizophrenic_sister_hospitalised_herself/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-06T07:31:07+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "ef2971ac5857342a",
@@ -10340,8 +10320,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "performance",
-        "React 19"
+        "React 19",
+        "performance"
       ]
     },
     {
@@ -10453,8 +10433,8 @@
       "niche": "dev",
       "score": 39,
       "keywords": [
-        "performance",
-        "release"
+        "release",
+        "performance"
       ]
     },
     {
@@ -10732,9 +10712,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "API",
         "release",
-        "React 19"
+        "React 19",
+        "API"
       ]
     },
     {
@@ -10763,8 +10743,8 @@
       "niche": "dev",
       "score": 37,
       "keywords": [
-        "API",
-        "developer"
+        "developer",
+        "API"
       ]
     },
     {
@@ -10958,10 +10938,10 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
+        "release",
+        "code",
         "performance",
         "framework",
-        "code",
-        "release",
         "API"
       ]
     },
@@ -11013,9 +10993,9 @@
       "score": 28,
       "keywords": [
         "release",
+        "Angular",
         "framework",
-        "library",
-        "Angular"
+        "library"
       ]
     },
     {
@@ -11279,9 +11259,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "performance",
+        "developer",
         "code",
-        "developer"
+        "performance"
       ]
     },
     {
@@ -11295,8 +11275,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "code",
-        "release"
+        "release",
+        "code"
       ]
     },
     {
@@ -11396,8 +11376,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "code",
-        "API"
+        "API",
+        "code"
       ]
     },
     {
@@ -11439,8 +11419,8 @@
       "niche": "dev",
       "score": 15,
       "keywords": [
-        "library",
-        "developer"
+        "developer",
+        "library"
       ]
     },
     {
@@ -11614,6 +11594,30 @@
       "keywords": []
     },
     {
+      "id": "f11d124f0b3e4416",
+      "title": "Beautiful Abelian Sandpiles",
+      "description": "Comments",
+      "url": "https://eavan.blog/posts/beautiful-sandpiles.html",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-09T20:16:15+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "43697b0e1e45941d",
+      "title": "Photographer Built a Medium-Format Rangefinder, and So Can You",
+      "description": "Comments",
+      "url": "https://petapixel.com/2025/12/06/this-photographer-built-an-awesome-medium-format-rangefinder-and-so-can-you/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-06T22:29:29+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
       "id": "889f4cb23a040ea1",
       "title": "HTML Web Components Proposal From 1998",
       "description": "It's easy to think of HTML Web Components as a recent feature, but it has roots that go all the way back to 1998. HTML Web Components Proposal From 1998 originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
@@ -11745,8 +11749,8 @@
       "score": 14,
       "keywords": [
         "development",
-        "code",
-        "API"
+        "API",
+        "code"
       ]
     },
     {
