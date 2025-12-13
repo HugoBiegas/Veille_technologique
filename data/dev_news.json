@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-12T21:26:50.936020+00:00",
-  "total_articles": 960,
+  "last_updated": "2025-12-13T01:58:32.371959+00:00",
+  "total_articles": 964,
   "articles": [
     {
       "id": "995d0754d2c7be53",
@@ -159,20 +159,6 @@
       ]
     },
     {
-      "id": "3777512587887def",
-      "title": "Cross-Compile Anything to Anywhere with One GitHub Action Why I Ended Up Building This",
-      "description": "I write a fair amount of C and C++, and over time cross-compiling turned into the part of the job I postponed until the end. Different toolchains per platform, half-documented cross-compilers, GLIBC differences between build and runtime, CI jobs that spend more time starting Docker than compiling anything useful. It adds up. Around the same time I kept seeing Zig show up on Reddit. Not big framework posts, just small practical things: “Here is how I built a Linux ARM64 binary from x86_64 with zi",
-      "url": "https://dev.to/rul1an/cross-compile-anything-to-anywhere-with-one-github-actionwhy-i-ended-up-building-this-2b62",
-      "source": "Dev.to",
-      "author": "Rul1an",
-      "published": "2025-12-06T01:14:13+00:00",
-      "niche": "dev",
-      "score": 72,
-      "keywords": [
-        "framework"
-      ]
-    },
-    {
       "id": "dc64b35a9a857b7e",
       "title": "DevPill #2: How to build and push a docker image to google cloud Artifact Registry",
       "description": "Specify Dockerfile. Example: FROM golang:1.25 AS builder WORKDIR /app COPY . . WORKDIR /app/services/api-gateway/cmd RUN CGO_ENABLED=0 GOOS=linux go build -o api-gateway FROM alpine:latest RUN apk --no-cache add ca-certificates WORKDIR /root/ COPY --from=builder /app/services/api-gateway/cmd/api-gateway . CMD [\"./api-gateway\"] Docker \"build\" to create the image locally. Example: docker build -t us-central1-docker.pkg.dev/<project-id>/<repository-name>/api-gateway:latest --platform linux/amd64 -f",
@@ -292,6 +278,20 @@
       "source": "Dev.to",
       "author": "Mollie Pettit",
       "published": "2025-12-12T21:01:49+00:00",
+      "niche": "dev",
+      "score": 72,
+      "keywords": [
+        "API"
+      ]
+    },
+    {
+      "id": "050a326f9dc2cced",
+      "title": "How to Connect VAPI to Google Calendar for Appointment Scheduling",
+      "description": "How to Connect VAPI to Google Calendar for Appointment Scheduling TL;DR Most calendar integrations break when OAuth tokens expire mid-call or timezone mismatches corrupt availability checks. This guide shows you how to build a VAPI assistant that handles Google Calendar OAuth flows, maps tokens to session state, and queries availability without race conditions. You'll configure the assistant tools array with proper CalendarId specification, implement token refresh logic, and handle booking confl",
+      "url": "https://dev.to/callstacktech/how-to-connect-vapi-to-google-calendar-for-appointment-scheduling-kpj",
+      "source": "Dev.to",
+      "author": "CallStack Tech",
+      "published": "2025-12-13T00:46:45+00:00",
       "niche": "dev",
       "score": 72,
       "keywords": [
@@ -427,6 +427,20 @@
       "score": 69,
       "keywords": [
         "developer"
+      ]
+    },
+    {
+      "id": "3f5be40d8ea7ab86",
+      "title": "How I Detected and Stopped a Real-World RCE Attack on My Next.js App (CVE-2025-55182 / React2Shell)",
+      "description": "Last week I experienced one of the most eye-opening security incidents in my time building web apps. My production Next.js application was actively targeted by attackers attempting remote code execution (RCE), and the root cause was a newly disclosed vulnerability in React Server Components. This is a write-up of what happened, how I diagnosed the issue, how I patched it, and what steps I took to harden my infrastructure. 1) The First Signs: Suspicious Logs in My Container Everything began when ",
+      "url": "https://dev.to/jeromedh/how-i-detected-and-stopped-a-real-world-rce-attack-on-my-nextjs-app-cve-2025-55182-react2shell-2pmd",
+      "source": "Dev.to",
+      "author": "Jerome Dh",
+      "published": "2025-12-13T01:00:34+00:00",
+      "niche": "dev",
+      "score": 69,
+      "keywords": [
+        "code"
       ]
     },
     {
@@ -682,6 +696,30 @@
       "keywords": []
     },
     {
+      "id": "0ca44367127d1f19",
+      "title": "Improving navigation in long Google AI Studio chats with a userscript",
+      "description": "Working with long chat sessions in Google AI Studio exposes several usability issues, including inefficient navigation, loss of context, and limited keyboard control. To address this, I wrote a userscript that adds navigation and keyboard-focused controls on top of the existing interface. The goal was to improve day-to-day usability by layering additional controls on top of the existing interface. The script provides: – a navigation bar in the chat footer with buttons to jump to the Previous, Ne",
+      "url": "https://dev.to/axl_43df979e16ffa14c/improving-navigation-in-long-google-ai-studio-chats-with-a-userscript-3pbl",
+      "source": "Dev.to",
+      "author": "Axl",
+      "published": "2025-12-13T00:43:11+00:00",
+      "niche": "dev",
+      "score": 68,
+      "keywords": []
+    },
+    {
+      "id": "86c80c24fc7c12c8",
+      "title": "Learn How to Use Git and GitHub – A Beginner-Friendly Handbook",
+      "description": "In this handbook, you’re going to dive into something really exciting: Git and GitHub. To start, let’s clear one thing up: Git and GitHub are not the same thing. In short, Git is the tool that runs on your own computer and keeps track of changes in y...",
+      "url": "https://www.freecodecamp.org/news/learn-how-to-use-git-and-github-a-beginner-friendly-handbook/",
+      "source": "freeCodeCamp",
+      "author": "Sumit Saha",
+      "published": "2025-12-12T21:14:03+00:00",
+      "niche": "dev",
+      "score": 68,
+      "keywords": []
+    },
+    {
       "id": "e732e0178d7fdb2f",
       "title": "I Built an AI News Agent with LangGraph (Open Source) GitHub: https://github.com/tejiri-code/pulse-ai",
       "description": "GitHub - tejiri-code/pulse-ai Contribute to tejiri-code/pulse-ai development by creating an account on GitHub. github.com",
@@ -754,6 +792,20 @@
       "source": "React Blog",
       "author": "The React Team",
       "published": "2025-12-11T00:00:00+00:00",
+      "niche": "dev",
+      "score": 63,
+      "keywords": [
+        "code"
+      ]
+    },
+    {
+      "id": "92487ff2f6b0e5ad",
+      "title": "OpenAI are quietly adopting skills, now available in ChatGPT and Codex CLI",
+      "description": "Comments",
+      "url": "https://simonwillison.net/2025/Dec/12/openai-skills/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-12T23:30:19+00:00",
       "niche": "dev",
       "score": 63,
       "keywords": [
@@ -1052,22 +1104,16 @@
       ]
     },
     {
-      "id": "e36a48a368e40622",
-      "title": "Discordo: A Go Library for Streamlined Discord Bot Development",
-      "description": "Discordo: Streamlining Discord Bot Development in Go Building Discord bots can often involve grappling with boilerplate code and complex API interactions. For developers working with Go, the discordo library offers a refreshing solution. It provides a clean, intuitive interface to the Discord API, allowing developers to shift their focus from repetitive setup to the core logic and features of their bots. Why Discordo? Clean Interface: Designed for ease of use and understandability. Focus on Logi",
-      "url": "https://dev.to/stelixx-insider/discordo-a-go-library-for-streamlined-discord-bot-development-36e2",
-      "source": "Dev.to",
-      "author": "Stelixx Insider",
-      "published": "2025-12-06T01:17:36+00:00",
+      "id": "76cf84eab49517e6",
+      "title": "Show HN: Tiny VM sandbox in C with apps in Rust, C and Zig",
+      "description": "Comments",
+      "url": "https://github.com/ringtailsoftware/uvm32",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-12T22:02:14+00:00",
       "niche": "dev",
-      "score": 61,
-      "keywords": [
-        "library",
-        "code",
-        "development",
-        "API",
-        "developer"
-      ]
+      "score": 62,
+      "keywords": []
     },
     {
       "id": "6bfcfc689bcd50c5",
@@ -1169,6 +1215,23 @@
         "best practices",
         "API",
         "performance"
+      ]
+    },
+    {
+      "id": "7f5e6da63c11c5d1",
+      "title": "The Anti-Framework Idea that turned into FUBARos - Clippy’s Revenge",
+      "description": "Behind the Code: The Anti-Framework Idea Before we dive into the madness, a word for the developers. FUBARos is built with 0% Frameworks, 0% Tailwind, and 100% Vanilla JavaScript. In an era where \"Hello World\" requires a 2GB node_modules folder and a 15-minute build pipeline, this project is a rebellion. It runs on the browser's native engine—the way the internet intended. No React/Vue/Angular: State management is handled by... variables. No TailwindCSS: Styles are written in CSS. Yes, just CSS ",
+      "url": "https://dev.to/j4s0nc/the-anti-framework-idea-that-turned-into-fubaros-clippys-revenge-5g59",
+      "source": "Dev.to",
+      "author": "Jason C",
+      "published": "2025-12-13T00:44:02+00:00",
+      "niche": "dev",
+      "score": 60,
+      "keywords": [
+        "code",
+        "framework",
+        "developer",
+        "Angular"
       ]
     },
     {
@@ -2181,16 +2244,17 @@
       ]
     },
     {
-      "id": "583b5c684094eaf2",
-      "title": "AWS re:Invent 2025 - Balance cost, performance & reliability for AI at enterprise scale (AIM3304)",
-      "description": "🦄 Making great presentations more accessible. This project aims to enhances multilingual accessibility and discoverability while maintaining the integrity of original content. Detailed transcriptions and keyframes preserve the nuances and technical insights that make each session compelling. Overview 📖 AWS re:Invent 2025 - Balance cost, performance & reliability for AI at enterprise scale (AIM3304) In this video, Jared Dean, Ankur Desai, and Deepen Mehta discuss Amazon Bedrock's inference tier o",
-      "url": "https://dev.to/kazuya_dev/aws-reinvent-2025-balance-cost-performance-reliability-for-ai-at-enterprise-scale-aim3304-jcd",
+      "id": "0d544fe75033c7fd",
+      "title": "Debounce vs Throttle in JavaScript (Explained Simply with Code)",
+      "description": "If you work with JavaScript long enough, you’ll face this problem: Some events fire too frequently. Examples: input → every key press scroll → dozens of times per second resize → continuously while dragging the window If you run expensive logic on every event, performance suffers. That’s where debounce and throttle come in. Let’s understand both with plain JavaScript and simple examples. Debounce — Run after the user stops Debounce delays the execution of a function until the user stops triggeri",
+      "url": "https://dev.to/smrpdl1991/debounce-vs-throttle-in-javascript-explained-simply-with-code-egm",
       "source": "Dev.to",
-      "author": "Kazuya",
-      "published": "2025-12-06T01:14:22+00:00",
+      "author": "smrpdl1991",
+      "published": "2025-12-13T01:08:11+00:00",
       "niche": "dev",
-      "score": 54,
+      "score": 55,
       "keywords": [
+        "code",
         "performance"
       ]
     },
@@ -3623,58 +3687,32 @@
       ]
     },
     {
-      "id": "ca2ebef8b40b2e82",
-      "title": "Secure Your Python App Using Bandit as a SAST Tool",
-      "description": "Static Application Security Testing (SAST) tools help you detect vulnerabilities directly in your source code before the application is executed or deployed. In this article, you will see how to use Bandit, a Python‑focused SAST tool, to scan a Python application and improve its security posture.​ What Is SAST and Why It Matters SAST refers to techniques and tools that analyze source code, bytecode or binaries to find security weaknesses without running the application. These tools search for pa",
-      "url": "https://dev.to/renzo_fernandoloyolavil/secure-your-python-app-using-bandit-as-a-sast-tool-1ofm",
+      "id": "5500182c90ff3880",
+      "title": "The Joy of Code in the Age of Vibe Engineering",
+      "description": "I’ve always liked programming because I could get the machine to bend to my will. Programming has a puzzle-like pleasure to it. Breaking a messy problem down into smaller and smaller pieces. Staring at a system long enough that the shape of the bug finally reveals itself. Digging through hundreds or thousands of files and finding the one thing that’s off. When it works, it gives me a real sense of accomplishment — the same kind some people get from crosswords or jigsaw puzzles. A lot of that joy",
+      "url": "https://dev.to/jjn1056/the-joy-of-code-in-the-age-of-vibe-engineering-49j2",
       "source": "Dev.to",
-      "author": "Renzo Fernando LOYOLA VILCA CHOQUE",
-      "published": "2025-12-06T01:18:08+00:00",
+      "author": "John Napiorkowski",
+      "published": "2025-12-13T01:44:23+00:00",
       "niche": "dev",
-      "score": 51,
+      "score": 52,
       "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "8735b654c4cea288",
-      "title": "AWS re:Invent 2025 - Agents in the enterprise: Best practices with Amazon Bedrock AgentCore(AIM3310)",
-      "description": "🦄 Making great presentations more accessible. This project aims to enhances multilingual accessibility and discoverability while maintaining the integrity of original content. Detailed transcriptions and keyframes preserve the nuances and technical insights that make each session compelling. Overview 📖 AWS re:Invent 2025 - Agents in the enterprise: Best practices with Amazon Bedrock AgentCore(AIM3310) In this video, AWS Principal Product Manager Kosti Vasilakakis and Tech Lead Maira Ladeira Tank",
-      "url": "https://dev.to/kazuya_dev/aws-reinvent-2025-agents-in-the-enterprise-best-practices-with-amazon-bedrock-agentcoreaim3310-2m8a",
-      "source": "Dev.to",
-      "author": "Kazuya",
-      "published": "2025-12-06T01:10:56+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "best practices"
-      ]
-    },
-    {
-      "id": "490881369f93845d",
-      "title": "Stripboard Savior: AI Automates Your Circuit Layouts",
-      "description": "Stripboard Savior: AI Automates Your Circuit Layouts Tired of tangled wires and frustrating stripboard layouts? Wish you could instantly visualize the most efficient way to connect your components? What if AI could handle the tedious parts, freeing you to focus on the fun of building? The core idea is to use a special type of AI programming called Answer Set Programming (ASP) to automatically find the best possible arrangement of electronic components on a stripboard. This means describing the r",
-      "url": "https://dev.to/arvind_sundararajan/stripboard-savior-ai-automates-your-circuit-layouts-4hjo",
-      "source": "Dev.to",
-      "author": "Arvind SundaraRajan",
-      "published": "2025-12-06T01:02:04+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
+        "code",
         "programming"
       ]
     },
     {
-      "id": "26def5c6e1b34446",
-      "title": "Monetzly: The Future of AI Monetization for LLM Apps and Developers",
-      "description": "Why 90% of AI Apps Fail to Monetize Effectively and How to Change That with Monetzly In the bustling world of AI applications, developers face a stark reality: 90% of AI apps fail to monetize effectively. While the potential for innovation is vast, many developers find themselves struggling with sustainable revenue models that don’t disrupt user experience. So, what’s the solution? Enter Monetzly—the Google Ads for AI conversations. The Dilemma of Monetization As developers, we pour our passion ",
-      "url": "https://dev.to/monetzly/monetzly-the-future-of-ai-monetization-for-llm-apps-and-developers-39la",
+      "id": "7572ff356eaad41c",
+      "title": "Making TypeScript Tools Safer and Smarter",
+      "description": "For the past few weeks, my main goal in my open-source contributions was to work on tools that real TypeScript developers use every day, and to challenge myself with issues that were not just styling fixes. I picked two projects. One was typescript-eslint, which is a big set of ESLint rules that help keep TypeScript code safe and consistent. In that project I focused on the no-unsafe-* rules that try to stop the any type from quietly spreading through a codebase. My second project was publicodes",
+      "url": "https://dev.to/oleksandrakordonets/making-typescript-tools-safer-and-smarter-4pgk",
       "source": "Dev.to",
-      "author": "Monetzly",
-      "published": "2025-12-06T00:56:23+00:00",
+      "author": "Oleksandra",
+      "published": "2025-12-13T01:38:25+00:00",
       "niche": "dev",
-      "score": 51,
+      "score": 52,
       "keywords": [
+        "code",
         "developer"
       ]
     },
@@ -5121,40 +5159,32 @@
       ]
     },
     {
-      "id": "24cad9280a67de5f",
-      "title": "AWS re:Invent 2025 - [NEW LAUNCH] Amazon Nova 2 Omni: A new frontier in multimodal AI (AIM3324)",
-      "description": "🦄 Making great presentations more accessible. This project aims to enhances multilingual accessibility and discoverability while maintaining the integrity of original content. Detailed transcriptions and keyframes preserve the nuances and technical insights that make each session compelling. Overview 📖 AWS re:Invent 2025 - [NEW LAUNCH] Amazon Nova 2 Omni: A new frontier in multimodal AI (AIM3324) In this video, AWS introduces Amazon Nova 2 Omni, a unified multimodal AI model that can understand ",
-      "url": "https://dev.to/kazuya_dev/aws-reinvent-2025-new-launch-amazon-nova-2-omni-a-new-frontier-in-multimodal-ai-aim3324-1bnp",
+      "id": "1a705d9146edb825",
+      "title": "Feature Gating: How We Built a Freemium SaaS Without Duplicating Components",
+      "description": "The problem with most feature-gating implementations? They end up scattering billing checks throughout your codebase like landmines. You've got if (user.plan === 'pro') everywhere, making it impossible to test components in isolation or understand what features are actually gated. Here's how we solved it with a FeatureGate component that wraps restricted features instead of modifying them. The Problem We needed to add subscription tiers to our analytics dashboard. Some features should show upgra",
+      "url": "https://dev.to/aniefon_umanah_ac5f21311c/feature-gating-how-we-built-a-freemium-saas-without-duplicating-components-1lo6",
       "source": "Dev.to",
-      "author": "Kazuya",
-      "published": "2025-12-06T01:03:58+00:00",
+      "author": "Aniefon Umanah",
+      "published": "2025-12-13T01:27:52+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
-      "id": "bd014539fc4aa5d5",
-      "title": "AWS re:Invent 2025 - Amazon Nova Forge: Build your own frontier models using Amazon Nova (AIM3325)",
-      "description": "🦄 Making great presentations more accessible. This project aims to enhances multilingual accessibility and discoverability while maintaining the integrity of original content. Detailed transcriptions and keyframes preserve the nuances and technical insights that make each session compelling. Overview 📖 AWS re:Invent 2025 - Amazon Nova Forge: Build your own frontier models using Amazon Nova (AIM3325) In this video, Mark Andrews and Karan Bhandarkar introduce Amazon Nova Forge, a service enabling ",
-      "url": "https://dev.to/kazuya_dev/aws-reinvent-2025-amazon-nova-forge-build-your-own-frontier-models-using-amazon-nova-aim3325-g40",
+      "id": "7876e7fd5f26c6c1",
+      "title": "𝗚𝗿𝗮𝘁𝗲𝗳𝘂𝗹 𝘁𝗼 𝗯𝗲 𝗥𝗮𝗻𝗸𝗲𝗱 𝗔𝗺𝗼𝗻𝗴 𝘁𝗵𝗲 𝗠𝗼𝘀𝘁 𝗔𝗰𝘁𝗶𝘃𝗲 𝗚𝗶𝘁𝗛𝘂𝗯 𝗨𝘀𝗲𝗿𝘀 𝗶𝗻 𝗡𝗶𝗴𝗲𝗿𝗶𝗮 🇳🇬💻",
+      "description": "𝗧𝗼𝗽 𝟴 on the list — proof that consistency beats motivation. Open-source builds real skills. Your growth is your responsibility. Share your work. More building. More learning. More impact. 🚀 GitHub #OpenSource #NigeriaTech #SoftwareEngineering #Developers",
+      "url": "https://dev.to/engripaye/-35da",
       "source": "Dev.to",
-      "author": "Kazuya",
-      "published": "2025-12-06T00:59:41+00:00",
+      "author": "Engr. Ipaye Babatunde",
+      "published": "2025-12-13T00:35:57+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "357e0253d522ab57",
-      "title": "AWS re:Invent 2025 - Beyond web browsers: HITL and tool integration for Nova Agents (AIM3334)",
-      "description": "🦄 Making great presentations more accessible. This project aims to enhances multilingual accessibility and discoverability while maintaining the integrity of original content. Detailed transcriptions and keyframes preserve the nuances and technical insights that make each session compelling. Overview 📖 AWS re:Invent 2025 - Beyond web browsers: HITL and tool integration for Nova Agents (AIM3334) In this video, Amazon's AGI lab introduces Nova Act, a frontier-class AI model for browser automation ",
-      "url": "https://dev.to/kazuya_dev/aws-reinvent-2025-beyond-web-browsers-hitl-and-tool-integration-for-nova-agents-aim3334-18e",
-      "source": "Dev.to",
-      "author": "Kazuya",
-      "published": "2025-12-06T00:57:01+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
       "id": "456f350c1f595085",
@@ -8133,6 +8163,18 @@
       "keywords": []
     },
     {
+      "id": "fea4f7d8ae4a75e2",
+      "title": "Why Your UEBA Isn’t Working (and how to fix it)",
+      "description": "UEBA (User Entity Behavior Analysis) is a security layer that uses machine learning and analytics to detect threats by analyzing patterns in user and entity behavior. Here’s an oversimplified example of UEBA: suppose you live in Chicago. You’ve lived there for several years and rarely travel. But suddenly there’s a charge to your credit card from a restaurant in Italy. Someone is using your card to pay for their lasagna! Luckily, your credit card company recognizes the behavior as suspicious, fl",
+      "url": "https://dev.to/alvinslee/why-your-ueba-isnt-working-and-how-to-fix-it-5b59",
+      "source": "Dev.to",
+      "author": "Alvin Lee",
+      "published": "2025-12-13T00:51:23+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "e6728b52dfdc09b8",
       "title": "[Boost]",
       "description": "12 Open Source Gems To Become The Ultimate Developer 🔥 Anthony Max ・ Dec 7 #webdev #javascript #programming #opensource",
@@ -8160,20 +8202,6 @@
       "keywords": [
         "developer",
         "programming"
-      ]
-    },
-    {
-      "id": "3fc3fbc1ae9a5b6d",
-      "title": "Adenosine on the common path of rapid antidepressant action: The coffee paradox",
-      "description": "Comments",
-      "url": "https://genomicpress.kglmeridian.com/view/journals/brainmed/aop/article-10.61373-bm025c.0134/article-10.61373-bm025c.0134.xml",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-05T22:10:50+00:00",
-      "niche": "dev",
-      "score": 48,
-      "keywords": [
-        "API"
       ]
     },
     {
@@ -8395,30 +8423,6 @@
       ]
     },
     {
-      "id": "da94db15e4b747bb",
-      "title": "Leaving Intel",
-      "description": "Comments",
-      "url": "https://www.brendangregg.com/blog//2025-12-05/leaving-intel.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-05T21:27:04+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "a5e8e5015e1622e7",
-      "title": "Extra Instructions of the 65XX Series CPU",
-      "description": "Comments",
-      "url": "http://www.ffd2.com/fridge/docs/6502-NMOS.extra.opcodes",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-06T00:38:50+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
       "id": "157cafb6eee6d952",
       "title": "I cracked a $200 software protection with xcopy",
       "description": "Comments",
@@ -8426,18 +8430,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-06T02:37:58+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "0954376642e5f5c0",
-      "title": "YouTube caught making AI-edits to videos and adding misleading AI summaries",
-      "description": "Comments",
-      "url": "https://www.ynetnews.com/tech-and-digital/article/bj1qbwcklg",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-06T01:15:48+00:00",
       "niche": "dev",
       "score": 44,
       "keywords": []
@@ -8510,18 +8502,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-06T03:21:46+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "be8a9977a54e9511",
-      "title": "Extra Instructions Of The 65XX Series CPU (1996)",
-      "description": "Comments",
-      "url": "http://www.ffd2.com/fridge/docs/6502-NMOS.extra.opcodes",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-06T00:38:50+00:00",
       "niche": "dev",
       "score": 44,
       "keywords": []
@@ -10293,6 +10273,54 @@
       "keywords": []
     },
     {
+      "id": "8ef6aa42cdba3e2b",
+      "title": "macOS 26.2 enables fast AI clusters with RDMA over Thunderbolt",
+      "description": "Comments",
+      "url": "https://developer.apple.com/documentation/macos-release-notes/macos-26_2-release-notes#RDMA-over-Thunderbolt",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-12T20:41:38+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "dd9fb4cda64812d7",
+      "title": "Show HN: I made a spreadsheet where formulas also update backwards",
+      "description": "Comments",
+      "url": "https://victorpoughon.github.io/bidicalc/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-11T18:00:55+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "e5898fdee6c3d33d",
+      "title": "Rats Play DOOM",
+      "description": "Comments",
+      "url": "https://ratsplaydoom.com/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-12T20:15:58+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "2f3501d8d8842e48",
+      "title": "Capsudo: Rethinking Sudo with Object Capabilities",
+      "description": "Comments",
+      "url": "https://ariadne.space/2025/12/12/rethinking-sudo-with-object-capabilities.html",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-12T21:42:04+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "c389800e559038bb",
       "title": "Building With Perfect Pitch: How Fiddle.Digital Composes High-Performance Digital Experiences",
       "description": "Fiddle.Digital reveals how a trio of specialists and their custom StringTune engine shape fast, immersive, and precisely crafted digital experiences.",
@@ -10331,8 +10359,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "performance",
-        "React 19"
+        "React 19",
+        "performance"
       ]
     },
     {
@@ -10388,9 +10416,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "release",
         "API",
-        "developer"
+        "developer",
+        "release"
       ]
     },
     {
@@ -10444,8 +10472,8 @@
       "niche": "dev",
       "score": 39,
       "keywords": [
-        "performance",
-        "release"
+        "release",
+        "performance"
       ]
     },
     {
@@ -10689,6 +10717,18 @@
       "keywords": []
     },
     {
+      "id": "56612ac74e017d7f",
+      "title": "Freeing a Xiaomi humidifier from the cloud",
+      "description": "Comments",
+      "url": "https://0l.de/blog/2025/11/xiaomi-humidifier/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-12T06:17:28+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
       "id": "4e6d7290f5ff11d8",
       "title": "React Native 0.80 - React 19.1, JS API Changes, Freezing Legacy Arch and much more",
       "description": "Today we are excited to release React Native 0.80!",
@@ -10699,9 +10739,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "release",
         "API",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10715,8 +10755,8 @@
       "niche": "dev",
       "score": 37,
       "keywords": [
-        "release",
-        "developer"
+        "developer",
+        "release"
       ]
     },
     {
@@ -10773,8 +10813,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10859,6 +10899,20 @@
       ]
     },
     {
+      "id": "6bd00f4c64ffae28",
+      "title": "Ensuring a National Policy Framework for Artificial Intelligence",
+      "description": "Comments",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/12/eliminating-state-law-obstruction-of-national-artificial-intelligence-policy/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-11T23:56:10+00:00",
+      "niche": "dev",
+      "score": 30,
+      "keywords": [
+        "framework"
+      ]
+    },
+    {
       "id": "bddf0d98cd9f527b",
       "title": "Announcing Baseline in action",
       "description": "Baseline in action is a new series developed to help developers learn how to use Baseline features together to build better user experiences.",
@@ -10911,11 +10965,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
+        "release",
         "performance",
-        "API",
         "code",
         "framework",
-        "release"
+        "API"
       ]
     },
     {
@@ -10965,10 +11019,10 @@
       "niche": "dev",
       "score": 28,
       "keywords": [
-        "library",
         "release",
+        "framework",
         "Angular",
-        "framework"
+        "library"
       ]
     },
     {
@@ -11202,8 +11256,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "API"
+        "API",
+        "release"
       ]
     },
     {
@@ -11217,8 +11271,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "framework"
+        "framework",
+        "release"
       ]
     },
     {
@@ -11232,9 +11286,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "performance",
         "code",
-        "developer"
+        "developer",
+        "performance"
       ]
     },
     {
@@ -11248,8 +11302,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
-        "code"
+        "code",
+        "release"
       ]
     },
     {
@@ -11263,8 +11317,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
-        "developer"
+        "developer",
+        "release"
       ]
     },
     {
@@ -11349,8 +11403,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "API",
-        "code"
+        "code",
+        "API"
       ]
     },
     {
@@ -11392,8 +11446,8 @@
       "niche": "dev",
       "score": 15,
       "keywords": [
-        "library",
-        "developer"
+        "developer",
+        "library"
       ]
     },
     {
@@ -11531,18 +11585,6 @@
       "keywords": []
     },
     {
-      "id": "0e7ca44a9c24bd69",
-      "title": "Oldest attestation of Austronesian language: Đông Yên Châu inscription",
-      "description": "Comments",
-      "url": "https://en.wikipedia.org/wiki/%C4%90%C3%B4ng_Y%C3%AAn_Ch%C3%A2u_inscription",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-05T23:42:15+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
       "id": "1078c314621b3701",
       "title": "He set out to walk around the world. After 27 years, his quest is nearly over",
       "description": "Comments",
@@ -11550,6 +11592,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-07T16:26:45+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "4205e1f64cd51ec5",
+      "title": "Go is portable, until it isn't",
+      "description": "Comments",
+      "url": "https://simpleobservability.com/blog/go-portable-until-isnt",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-07T11:17:42+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -11686,8 +11740,8 @@
       "score": 14,
       "keywords": [
         "development",
-        "API",
-        "code"
+        "code",
+        "API"
       ]
     },
     {
@@ -11713,8 +11767,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "programming",
-        "development"
+        "development",
+        "programming"
       ]
     },
     {
