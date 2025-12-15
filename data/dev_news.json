@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-15T18:39:53.185249+00:00",
-  "total_articles": 962,
+  "last_updated": "2025-12-15T21:25:50.396866+00:00",
+  "total_articles": 965,
   "articles": [
     {
       "id": "ee7e1d47e6b6f1b4",
@@ -1243,21 +1243,6 @@
       ]
     },
     {
-      "id": "e19cb0f871cc247d",
-      "title": "How We Replaced GraphQL Subgraphs with gRPC for Safer, Faster Federation",
-      "description": "If you've worked with Apollo Federation, you’ve probably used Subgraphs to scale a GraphQL API. But the way entities are resolved between Subgraphs introduces real problems at scale, especially around type safety and correctness. At WunderGraph, we took a different approach. Instead of resolving entities through GraphQL between services, you can now compile Subgraph SDLs directly into gRPC services. This provides strict typing, built-in batching, and a significantly faster execution model, witho",
-      "url": "https://dev.to/slickstef11/how-we-replaced-graphql-subgraphs-with-grpc-for-safer-faster-federation-3fgd",
-      "source": "Dev.to",
-      "author": "Stefan  🚀",
-      "published": "2025-12-08T20:57:11+00:00",
-      "niche": "dev",
-      "score": 57,
-      "keywords": [
-        "API",
-        "GraphQL"
-      ]
-    },
-    {
       "id": "44dad517a75b205c",
       "title": "OptWin 1.1 release announcement - Optimize Windows",
       "description": "I just shipped OptWin 1.1, an updated version of my free and fully open-source web app that generates custom Windows optimization scripts based on user-selected tweaks. What’s new in OptWin 1.1 This release focuses on stability, script clarity, and improved optimization coverage. Key improvements include: • Cleaner and more structured batch output • Expanded performance and privacy tweak set • More reliable power plan switching • Improved DNS & network optimization module • Safer defaults for ne",
@@ -1437,22 +1422,6 @@
       "keywords": [
         "Laravel",
         "API"
-      ]
-    },
-    {
-      "id": "fed46fb61d741aaa",
-      "title": "Code Profiling 101: Tools and Techniques to Boost Performance – Part 1",
-      "description": "There can be situations where you deal with performance issues in your code. So identifying the root cause is essential. For such problems, developers often use a tool called a profiler. Let's see what profilers do and set one up real quick. What is a profiler? A profiler tells you exactly where your program spends its time when it runs. Instead of guessing \"Why is my code slow?\", the profiler records every function and shows you a precise report. How does a profiler work? Every 1 millisecond, t",
-      "url": "https://dev.to/rijultp/code-profiling-101-tools-and-techniques-to-boost-performance-part-1-3o9i",
-      "source": "Dev.to",
-      "author": "Rijul Rajesh",
-      "published": "2025-12-08T20:48:06+00:00",
-      "niche": "dev",
-      "score": 56,
-      "keywords": [
-        "code",
-        "performance",
-        "developer"
       ]
     },
     {
@@ -2280,16 +2249,32 @@
       ]
     },
     {
-      "id": "f426a78f6502f8c0",
-      "title": "How to Integrate n8n Workflow in ASP.NET Core",
-      "description": "Learn how to integrate n8n workflows into ASP.NET Core applications. API integration guide for triggering automations from your C# backend. Introduction Building modern applications means connecting multiple systems and automating workflows. Your ASP.NET Core application handles business logic, but you also need automation capabilities—sending emails, syncing data across platforms, creating notifications, or triggering complex multi-step processes. n8n is a powerful open-source automation platfo",
-      "url": "https://dev.to/flexyadmin/how-to-integrate-n8n-workflow-in-aspnet-core-mne",
+      "id": "71d11a2e4dc4beb5",
+      "title": "Top AI Tools for Documentation | Guide for 2026",
+      "description": "Learn About Top AI Tools for Documentation in 2026 This guide explores the leading AI tools for documentation, focusing on how they streamline processes for B2B SaaS teams. You'll discover how automation, SDK generation, and visual aids can enhance documentation efficiency and onboarding experiences. Introduction In the rapidly evolving tech landscape, effective documentation is crucial for software development. Documentation refers to the written text that explains how software works, including",
+      "url": "https://dev.to/infrasity-learning/top-ai-tools-for-documentation-guide-for-2026-2hhb",
       "source": "Dev.to",
-      "author": "FlexyTasks",
-      "published": "2025-12-08T20:46:00+00:00",
+      "author": "Infrasity Learning",
+      "published": "2025-12-15T20:59:43+00:00",
       "niche": "dev",
-      "score": 54,
+      "score": 55,
       "keywords": [
+        "development",
+        "API"
+      ]
+    },
+    {
+      "id": "dbf7d1cae3437d25",
+      "title": "Why Do Simple Tasks Eat Up Hours of Your Day — And How One Hub Fixes It?",
+      "description": "Lately, I realized that a lot of productivity loss doesn’t come from big projects, but from constantly switching between tiny tasks: Formatting text: Case Converter, Text Trimmer, Text Reverser, Word Counter, Lorem Ipsum Generator Generating passwords or random names: Password Generator, Random Name Generator, Random PIN Generator, UUID Generator Testing APIs or encoding data: API Tester, JSON Formatter, XML/YAML Formatter, URL Encoder, Base64 Tool, Regex Tester, Color Picker, QR Generator Worki",
+      "url": "https://dev.to/muhammad_haris_7828c7aeda/why-do-simple-tasks-eat-up-hours-of-your-day-and-how-one-hub-fixes-it-1p8i",
+      "source": "Dev.to",
+      "author": "Muhammad Haris",
+      "published": "2025-12-15T20:52:48+00:00",
+      "niche": "dev",
+      "score": 55,
+      "keywords": [
+        "code",
         "API"
       ]
     },
@@ -3114,6 +3099,34 @@
       ]
     },
     {
+      "id": "402250eb5f156dfa",
+      "title": "Single State Model Architecture",
+      "description": "1. Problem Statement Modern system architectures often prioritise scale and flexibility at the cost of simplicity and consistency. In the rush to adopt microservices, event-driven patterns, and complex cloud tooling, many systems end up with fragmented state spread across services. Each service might have its own database or cache, leading to multiple sources of truth for the same information. This fragmentation causes inconsistencies – for example, it's not uncommon for a user interface to show",
+      "url": "https://dev.to/adamcerny/single-state-model-architecture-1269",
+      "source": "Dev.to",
+      "author": "Adam Cerny",
+      "published": "2025-12-15T20:58:25+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "microservices"
+      ]
+    },
+    {
+      "id": "6e5f473e215de6ae",
+      "title": "SAT approximately equals IQ: How to estimate your IQ from your SAT score",
+      "description": "I found a study showing a strong correlation (r=0.82) between the SAT and IQ which I will share and provide comments on in this blog post. Defining IQ and the SAT IQ (Intelligence Quotient) is a score that’s derived from standardized tests. It correlates with performance across: Fluid reasoning: novel problem-solving Crystallized intelligence: acquired knowledge Visual processing: thinking with visual/spatial information Working memory: holding and working with information across a short period ",
+      "url": "https://dev.to/isaacaddis/sat-iq-how-to-estimate-your-iq-from-your-sat-score-515f",
+      "source": "Dev.to",
+      "author": "Isaac Addis",
+      "published": "2025-12-15T20:52:30+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "performance"
+      ]
+    },
+    {
       "id": "443efaf40df5cc28",
       "title": "Jupyter Notebook Cheatsheet",
       "description": "Jumpstart the Jupyter Notebook productivity with essential shortcuts, magic commands, and workflow tips that will transform your data science and development experience. Jupyter Notebook has become the de facto standard for interactive computing, data analysis, and machine learning workflows. Whether you're working with Python for data science, experimenting with AI models, or prototyping code, mastering Jupyter's keyboard shortcuts and magic commands can dramatically boost your productivity. Th",
@@ -3516,48 +3529,6 @@
       "keywords": [
         "code",
         "developer"
-      ]
-    },
-    {
-      "id": "a0ea0015454133d4",
-      "title": "AWS re:Invent 2025 - Building software like never before with Agentic AI (DVT220)",
-      "description": "🦄 Making great presentations more accessible. This project aims to enhances multilingual accessibility and discoverability while maintaining the integrity of original content. Detailed transcriptions and keyframes preserve the nuances and technical insights that make each session compelling. Overview 📖 AWS re:Invent 2025 - Building software like never before with Agentic AI (DVT220) In this video, AWS introduces Kiro, an agentic development environment launched November 17th, featuring spec-driv",
-      "url": "https://dev.to/kazuya_dev/aws-reinvent-2025-building-software-like-never-before-with-agentic-ai-dvt220-1g82",
-      "source": "Dev.to",
-      "author": "Kazuya",
-      "published": "2025-12-08T20:45:19+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "development"
-      ]
-    },
-    {
-      "id": "b77216d61135a3cd",
-      "title": "AWS re:Invent 2025 - Accelerate Terraform Provider development workflows with Kiro (DVT216)",
-      "description": "🦄 Making great presentations more accessible. This project aims to enhances multilingual accessibility and discoverability while maintaining the integrity of original content. Detailed transcriptions and keyframes preserve the nuances and technical insights that make each session compelling. Overview 📖 AWS re:Invent 2025 - Accelerate Terraform Provider development workflows with Kiro (DVT216) In this video, two Pauls from AWS and HashiCorp discuss how agentic AI is transforming the software deve",
-      "url": "https://dev.to/kazuya_dev/aws-reinvent-2025-accelerate-terraform-provider-development-workflows-with-kiro-dvt216-4bgp",
-      "source": "Dev.to",
-      "author": "Kazuya",
-      "published": "2025-12-08T20:44:25+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "development"
-      ]
-    },
-    {
-      "id": "a82ed4ac76296a07",
-      "title": "AWS re:Invent 2025-Unlock the power of Kiro steering: Your blueprint for scalable development-DVT340",
-      "description": "🦄 Making great presentations more accessible. This project aims to enhances multilingual accessibility and discoverability while maintaining the integrity of original content. Detailed transcriptions and keyframes preserve the nuances and technical insights that make each session compelling. Overview 📖 AWS re:Invent 2025-Unlock the power of Kiro steering: Your blueprint for scalable development-DVT340 In this video, Allie Fortman and Matt Laver from AWS explain Kiro steering, a critical feature ",
-      "url": "https://dev.to/kazuya_dev/aws-reinvent-2025-unlock-the-power-of-kiro-steering-your-blueprint-for-scalable-development-dvt340-3f1k",
-      "source": "Dev.to",
-      "author": "Kazuya",
-      "published": "2025-12-08T20:44:17+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "development"
       ]
     },
     {
@@ -4989,52 +4960,46 @@
       ]
     },
     {
-      "id": "607ce69501c34779",
-      "title": "The Hidden Cost of Slow Bug Resolution for SaaS Companies",
-      "description": "Software-as-a-Service (SaaS) companies thrive on delivering smooth, reliable experiences to their customers. But when software bugs linger and bug fixes are slow, it can cost more than just technical headaches. Behind every delayed bug resolution lies hidden costs that harm customer trust, revenue, and overall business growth. This article uncovers the hidden costs associated with slow bug resolution in SaaS companies and offers strategies to fix issues faster—helping teams keep customers happy ",
-      "url": "https://dev.to/flexyadmin/the-hidden-cost-of-slow-bug-resolution-for-saas-companies-1ma3",
+      "id": "4700e7a49d50bc21",
+      "title": "Understanding Agentic AI: How Modern Systems Make Autonomous Decisions",
+      "description": "What Is Agentic AI? A Practical, Real‑World Introduction for Developers If you are a developer, DevOps engineer, or cloud professional, chances are you’ve already built systems that behave a little like agents — you just didn’t call them that. Agentic AI is not science fiction, not sentient machines, and not a replacement for engineering discipline. It is simply software that can decide what to do next in order to achieve a goal. In this post, we’ll break down Agentic AI from first principles — ",
+      "url": "https://dev.to/learnwithshruthi/understanding-agentic-ai-how-modern-systems-make-autonomous-decisions-42fa",
       "source": "Dev.to",
-      "author": "FlexyTasks",
-      "published": "2025-12-08T21:02:00+00:00",
+      "author": "Shruthi Chikkela",
+      "published": "2025-12-15T21:05:55+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
-      "id": "23d9263f42872f85",
-      "title": "The cloud lock-in trap and the loss of strategic control",
-      "description": "By investing heavily in training and using only one or a few cloud providers, companies have unwittingly financed their own inability to change providers. This strategic choice has introduced a major risk for their business: technological lock-in. By tying themselves tightly to a single provider, they have lost control of their data, from storage to processing, ceding essential control to specific cloud expertise. This investment, while at first sight sound, has led to a worrying trend: the excl",
-      "url": "https://dev.to/layerops/the-cloud-lock-in-trap-and-the-loss-of-strategic-control-50dd",
+      "id": "b063fd14d6a183f0",
+      "title": "Bad Documentation Examples: Why Developers Drop Off | Fixes",
+      "description": "Bad Documentation Examples: Why Developers Drop Off | Fixes Intro Hook In this article, you'll learn about common pitfalls in product documentation that hinder developer adoption and how to fix them. This is essential reading for product managers, technical writers, and SaaS teams aiming to improve user onboarding and satisfaction. Introduction Bad documentation is a significant barrier to developer adoption, often leading to frustration and abandonment of products. It can manifest as missing in",
+      "url": "https://dev.to/infrasity-learning/bad-documentation-examples-why-developers-drop-off-fixes-5dc9",
       "source": "Dev.to",
-      "author": "LayerOps",
-      "published": "2025-12-08T20:48:11+00:00",
+      "author": "Infrasity Learning",
+      "published": "2025-12-15T20:56:58+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
-      "id": "872d06af5d0e2a52",
-      "title": "AWS re:Invent 2025 - Build generative and agentic AI applications on-premises & at the edge (HMC308)",
-      "description": "🦄 Making great presentations more accessible. This project aims to enhances multilingual accessibility and discoverability while maintaining the integrity of original content. Detailed transcriptions and keyframes preserve the nuances and technical insights that make each session compelling. Overview 📖 AWS re:Invent 2025 - Build generative and agentic AI applications on-premises & at the edge (HMC308) In this video, AWS experts Pranav, Fernando, and Chris present strategies for deploying generat",
-      "url": "https://dev.to/kazuya_dev/aws-reinvent-2025-build-generative-and-agentic-ai-applications-on-premises-at-the-edge-hmc308-1dod",
+      "id": "96839058f0072ac2",
+      "title": "Bad Documentation Examples: Why Developers Drop Off | Fixes",
+      "description": "Bad Documentation Examples: Why Developers Drop Off | Fixes What You'll Learn This article explores common pitfalls in documentation that hinder developer adoption and provides actionable fixes. It is aimed at product heads and technical writers in the B2B SaaS sector. Introduction Bad documentation examples are a significant barrier to developer adoption. When critical guides are missing or outdated, developers struggle to implement products effectively. Documentation is often the first interac",
+      "url": "https://dev.to/parv_mittal_4127fbf643d56/bad-documentation-examples-why-developers-drop-off-fixes-1ln4",
       "source": "Dev.to",
-      "author": "Kazuya",
-      "published": "2025-12-08T20:45:17+00:00",
+      "author": "Parv Mittal",
+      "published": "2025-12-15T20:55:43+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "f2ad248b8838af7e",
-      "title": "AWS re:Invent 2025 -Fidelity Investments: Text-to-SQL for data analytics at enterprise scale-IND3323",
-      "description": "🦄 Making great presentations more accessible. This project aims to enhances multilingual accessibility and discoverability while maintaining the integrity of original content. Detailed transcriptions and keyframes preserve the nuances and technical insights that make each session compelling. Overview 📖 AWS re:Invent 2025 -Fidelity Investments: Text-to-SQL for data analytics at enterprise scale-IND3323 In this video, Fidelity Investments presents their enterprise-scale Text-to-SQL solution that c",
-      "url": "https://dev.to/kazuya_dev/aws-reinvent-2025-fidelity-investments-text-to-sql-for-data-analytics-at-enterprise-scale-ind3323-4hll",
-      "source": "Dev.to",
-      "author": "Kazuya",
-      "published": "2025-12-08T20:44:48+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
       "id": "86bf07ef01a4c270",
@@ -8061,6 +8026,54 @@
       "keywords": []
     },
     {
+      "id": "5a00752e142acd3c",
+      "title": "Managing the Energy of Regional Food Truck Events",
+      "description": "Event days start before most people are awake. I am usually on-site while the sky is still pale, walking the lot with a clipboard and a coffee that is already going cold. Food truck rallies look carefree once they are up and running, but they only feel that way because a lot of moving parts have already been lined up before the first engine idles. My job is to juggle permits, vendor placement, and crowd flow, all while keeping the mood light enough that people actually enjoy being there. That ba",
+      "url": "https://dev.to/marcusdelgado/managing-the-energy-of-regional-food-truck-events-3o3g",
+      "source": "Dev.to",
+      "author": "Marcus Delgado",
+      "published": "2025-12-15T21:08:34+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "de121e91f38a4a80",
+      "title": "ChatGPT 5.2 vs 5.1: Reliability, Instruction Persistence, and What Actually Changed",
+      "description": "TL;DR for Builders & Researchers ChatGPT 5.2 is optimized for reliability and variance reduction, not maximum creative upside. Compared to 5.1, it trades expressive flair for: • stronger instruction persistence • fewer derailments in long conversations • dynamic reasoning depth instead of always “thinking harder” This makes 5.2 better for production workflows, specs, coding, governance, and long-running tasks, but worse for creative drafting and lyrical writing. Test Phase Before joining this de",
+      "url": "https://dev.to/with_attitude/chatgpt-52-vs-51-reliability-instruction-persistence-and-what-actually-changed-1dm9",
+      "source": "Dev.to",
+      "author": "With Attitude",
+      "published": "2025-12-15T20:52:52+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "a9ebe09fa941b54d",
+      "title": "How to Visualise and Control a ROS 2 Robot Remotely",
+      "description": "Background When I was learning ROS a few years ago, I tried to control a mobile robot running the Navigation Stack using RViz. At that time, I installed a remote desktop server on the computer running ROS. The installation was straightforward, but when I tried to launch RViz, it failed to start because 3D acceleration was required. As a result, when developing LGDXRobot2, I explored different approaches to controlling the robot remotely. The use of RViz made tuning much easier, especially when w",
+      "url": "https://dev.to/kaitungyu/how-to-visualise-and-control-a-ros-2-robot-remotely-8ek",
+      "source": "Dev.to",
+      "author": "Kai Tung Yu",
+      "published": "2025-12-15T20:51:58+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "4a2afe4617bf7cd6",
+      "title": "[OCTO] School of Product 2025 - Compte rendu : PM, Designer, Dev : un trio en mutation",
+      "description": "Morgane Peng nous invite à changer notre angle de vue afin d’améliorer la relation entre PM, Designer et Développeur et en même temps améliorer la qualité et le temps de réalisation d’un produit. Pour cela, il faudra se demander comment les objectifs passent d’être assignés à un rôle à être partagés par l’équipe, ce qui change tout.",
+      "url": "https://blog.octo.com/octo-school-of-product-2025-compte-rendu--pm-designer-dev--un-trio-en-mutation",
+      "source": "Blog Technique Octo",
+      "author": "Maria-Dolores Manzanedo",
+      "published": "2025-12-15T19:50:35+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "7c39339674a2fb2c",
       "title": "Monday, December 15, 2025 Security Releases",
       "description": "",
@@ -8381,30 +8394,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "fa391cdefb647b4e",
-      "title": "Jepsen: NATS 2.12.1",
-      "description": "Comments",
-      "url": "https://jepsen.io/analyses/nats-2.12.1",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-08T18:51:03+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "1341cc16e8d0da5c",
-      "title": "Deep dive on Nvidia circular funding",
-      "description": "Comments",
-      "url": "https://philippeoger.com/pages/deep-dive-into-nvidias-virtuous-cycle",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-08T18:48:27+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "210d6e6a87e7cea8",
@@ -10159,6 +10148,66 @@
       "keywords": []
     },
     {
+      "id": "70c3d2dbf853b321",
+      "title": "Upcoming Changes to Let's Encrypt Certificates",
+      "description": "Comments",
+      "url": "https://community.letsencrypt.org/t/upcoming-changes-to-let-s-encrypt-certificates/243873",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-15T19:30:22+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "5443d569836f7418",
+      "title": "Umbrel – Personal Cloud",
+      "description": "Comments",
+      "url": "https://umbrel.com",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-15T19:27:08+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "bc894623a23140eb",
+      "title": "“Super secure” messaging app leaks everyone's phone number",
+      "description": "Comments",
+      "url": "https://ericdaigle.ca/posts/super-secure-maga-messaging-app-leaks-everyones-phone-number/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-15T19:23:51+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "3a93606d7bb84a23",
+      "title": "Chafa: Terminal Graphics for the 21st Century",
+      "description": "Comments",
+      "url": "https://hpjansson.org/chafa/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-15T18:16:34+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "58dcebb54f595e10",
+      "title": "A Kernel Bug Froze My Machine: Debugging an Async-Profiler Deadlock",
+      "description": "Comments",
+      "url": "https://questdb.com/blog/async-profiler-kernel-bug/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-15T20:52:35+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "ddd444673e2f3d09",
       "title": "Mistral releases Devstral2 and Mistral Vibe CLI",
       "description": "Comments",
@@ -10183,8 +10232,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "performance",
-        "React 19"
+        "React 19",
+        "performance"
       ]
     },
     {
@@ -10307,30 +10356,6 @@
         "performance",
         "release"
       ]
-    },
-    {
-      "id": "9b9e0112cb0b6fe4",
-      "title": "Icons in Menus Everywhere – Send Help",
-      "description": "Comments",
-      "url": "https://blog.jim-nielsen.com/2025/icons-in-menus/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-08T19:44:00+00:00",
-      "niche": "dev",
-      "score": 38,
-      "keywords": []
-    },
-    {
-      "id": "27ec93d49fbf7087",
-      "title": "Has the cost of building software dropped 90%?",
-      "description": "Comments",
-      "url": "https://martinalderson.com/posts/has-the-cost-of-software-just-dropped-90-percent/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-08T19:00:48+00:00",
-      "niche": "dev",
-      "score": 38,
-      "keywords": []
     },
     {
       "id": "87b0bbe5776d29a3",
@@ -10549,6 +10574,18 @@
       "keywords": []
     },
     {
+      "id": "e5068c0c6c2d2c5b",
+      "title": "Avoid UUID Version 4 Primary Keys in Postgres",
+      "description": "Comments",
+      "url": "https://andyatkinson.com/avoid-uuid-version-4-primary-keys",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-15T10:08:02+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
       "id": "4e6d7290f5ff11d8",
       "title": "React Native 0.80 - React 19.1, JS API Changes, Freezing Legacy Arch and much more",
       "description": "Today we are excited to release React Native 0.80!",
@@ -10559,9 +10596,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "release",
+        "React 19",
         "API",
-        "React 19"
+        "release"
       ]
     },
     {
@@ -10618,8 +10655,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10786,9 +10823,9 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "framework",
-        "performance",
         "code",
+        "performance",
+        "framework",
         "API",
         "release"
       ]
@@ -10841,8 +10878,8 @@
       "score": 28,
       "keywords": [
         "framework",
-        "Angular",
         "library",
+        "Angular",
         "release"
       ]
     },
@@ -10972,6 +11009,30 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-10T21:08:41+00:00",
+      "niche": "dev",
+      "score": 26,
+      "keywords": []
+    },
+    {
+      "id": "ad0b29546faef1e8",
+      "title": "Essential Semiconductor Physics [pdf]",
+      "description": "Comments",
+      "url": "https://nanohub.org/resources/43623/download/Essential_Semiconductor_Physics.pdf",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-13T18:19:51+00:00",
+      "niche": "dev",
+      "score": 26,
+      "keywords": []
+    },
+    {
+      "id": "1ba3c0960b94334f",
+      "title": "US TikTok investors in limbo as deal set to be delayed again",
+      "description": "Comments",
+      "url": "https://www.bbc.com/news/articles/cp34442z25ko",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-12T23:21:02+00:00",
       "niche": "dev",
       "score": 26,
       "keywords": []
@@ -11186,6 +11247,20 @@
       ]
     },
     {
+      "id": "47ca1092f395d814",
+      "title": "Thursday, December 18, 2025 Security Releases",
+      "description": "",
+      "url": "https://nodejs.org/en/blog/vulnerability/december-2025-security-releases",
+      "source": "Node.js Blog",
+      "author": "Inconnu",
+      "published": "2025-12-08T23:00:00+00:00",
+      "niche": "dev",
+      "score": 18,
+      "keywords": [
+        "release"
+      ]
+    },
+    {
       "id": "d7da2e8b8482c1d0",
       "title": "Announcing Vue 3.5",
       "description": "Today we are excited to announce the release of Vue 3.5 \"Tengen Toppa Gurren Lagann\"! This minor release contains no breaking changes and includes both internal improvements and useful new features. We will cover some highlights in this blog post - for a full list of changes and new features, please consult the full changelog on GitHub.",
@@ -11240,6 +11315,20 @@
       "keywords": [
         "code",
         "API"
+      ]
+    },
+    {
+      "id": "7db63e5fa6611797",
+      "title": "In Defense of Matlab Code",
+      "description": "Comments",
+      "url": "https://runmat.org/blog/in-defense-of-matlab-whiteboard-style-code",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-12T20:13:26+00:00",
+      "niche": "dev",
+      "score": 15,
+      "keywords": [
+        "code"
       ]
     },
     {
@@ -11634,8 +11723,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "development",
         "code",
+        "development",
         "API"
       ]
     },
@@ -12223,42 +12312,6 @@
       "keywords": []
     },
     {
-      "id": "a807f80998f5f2ca",
-      "title": "P-computers can solve spin-glass problems faster than quantum systems",
-      "description": "Comments",
-      "url": "https://news.ucsb.edu/2025/022239/new-ucsb-research-shows-p-computers-can-solve-spin-glass-problems-faster-quantum",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-07T16:38:19+00:00",
-      "niche": "dev",
-      "score": 8,
-      "keywords": []
-    },
-    {
-      "id": "f68236b48aba7a38",
-      "title": "Speech and Language Processing (3rd ed. draft)",
-      "description": "Comments",
-      "url": "https://web.stanford.edu/~jurafsky/slp3/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-08T06:50:59+00:00",
-      "niche": "dev",
-      "score": 8,
-      "keywords": []
-    },
-    {
-      "id": "351e9bd6f5f6cca1",
-      "title": "Finnix",
-      "description": "Comments",
-      "url": "https://en.wikipedia.org/wiki/Finnix",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-08T06:20:42+00:00",
-      "niche": "dev",
-      "score": 8,
-      "keywords": []
-    },
-    {
       "id": "0dc9e40f2cbe6a06",
       "title": "Node.js v20.19.6 (LTS)",
       "description": "",
@@ -12388,18 +12441,6 @@
       "source": "Blog Technique Octo",
       "author": "Anne Mesnil",
       "published": "2025-12-08T09:56:34+00:00",
-      "niche": "dev",
-      "score": 8,
-      "keywords": []
-    },
-    {
-      "id": "ae8f30ca99b22544",
-      "title": "School of Product 2025-Compte rendu du talk: Accélérez la croissance de vos produits par le Content Design",
-      "description": "",
-      "url": "https://blog.octo.com/school-of-product-2025-compte-rendu-du-talk-accelerez-la-croissance-de-vos-produits-par-le-content-design",
-      "source": "Blog Technique Octo",
-      "author": "Sarra Harfouche",
-      "published": "2025-12-05T15:58:10+00:00",
       "niche": "dev",
       "score": 8,
       "keywords": []
