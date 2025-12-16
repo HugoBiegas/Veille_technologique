@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-16T15:30:23.436065+00:00",
-  "total_articles": 972,
+  "last_updated": "2025-12-16T18:39:19.956640+00:00",
+  "total_articles": 969,
   "articles": [
     {
       "id": "ee7e1d47e6b6f1b4",
@@ -160,20 +160,6 @@
       "keywords": [
         "developer",
         "Angular"
-      ]
-    },
-    {
-      "id": "1846e5748390160b",
-      "title": "Fixing \"Network Error\" in React Native When Connecting to QA Servers with HTTPS",
-      "description": "You're developing a React Native app using React Native CLI, testing on a physical device, and trying to connect to your QA server (like https://qa.example.com/api/). You keep getting this frustrating error: Network Error message: \"Network Error\" This happens because your QA server likely uses a self-signed certificate or an untrusted/invalid SSL certificate, and both iOS and Android block these connections by default for security reasons. Understanding Why This Happens Modern mobile operating s",
-      "url": "https://dev.to/iraycd/fixing-network-error-in-react-native-when-connecting-to-qa-servers-with-https-56d6",
-      "source": "Dev.to",
-      "author": "Ray Ch",
-      "published": "2025-12-09T18:14:04+00:00",
-      "niche": "dev",
-      "score": 72,
-      "keywords": [
-        "API"
       ]
     },
     {
@@ -475,6 +461,20 @@
       "score": 69,
       "keywords": [
         "developer"
+      ]
+    },
+    {
+      "id": "d73a9b7fae8b427f",
+      "title": "Stop Paying OpenAI: Free Local AI in .NET with Ollama",
+      "description": "Cut your OpenAI bill by 80%. Run local LLMs in .NET with Microsoft.Extensions.AI and Ollama. Same code works in production. Free, private, fast. Edit (Dec 2025): Updated with GPT-5.2 comparisons, latest Ollama models (Phi4, Llama 3.3, DeepSeek-R1), and fixed the deprecated Microsoft.Extensions.AI.Ollama package references. A few months ago I got my OpenAI bill. $287 For a side project that maybe 50 people use. That's when I took local LLMs for .NET more seriously and my wallet has been thanking ",
+      "url": "https://dev.to/mashrulhaque/stop-paying-openai-free-local-ai-in-net-with-ollama-50k8",
+      "source": "Dev.to",
+      "author": "Mashrul Haque",
+      "published": "2025-12-16T18:03:21+00:00",
+      "niche": "dev",
+      "score": 69,
+      "keywords": [
+        "code"
       ]
     },
     {
@@ -1067,6 +1067,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-16T13:40:02+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": []
+    },
+    {
+      "id": "dcf76eef584c1e72",
+      "title": "Pricing Changes for GitHub Actions",
+      "description": "Comments",
+      "url": "https://resources.github.com/actions/2026-pricing-changes-for-github-actions/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-16T17:12:02+00:00",
       "niche": "dev",
       "score": 62,
       "keywords": []
@@ -2331,31 +2343,18 @@
       ]
     },
     {
-      "id": "e501e2673678d79c",
-      "title": "🚀 Breaking the Blockade: How We Taught Kafka to \"Speak\" Like a Synchronous API",
-      "description": "Imagine the situation: Our system, let's call it \"BSDFlow\", is a modern, impressive Event-Driven monster. Everything happens asynchronously, reliably, and scalably through Kafka. Every entity creation and data update flows through the data pipelines like water. Sounds like an architectural dream, right? Well, there's a catch. And that catch starts when the user at the other end clicks a button. The Dilemma: When the User Doesn't Want to Wait 🐢 We live in a world of instant gratification. When we",
-      "url": "https://dev.to/sara_yona_f2c0fc36f1392c8/breaking-the-blockade-how-we-taught-kafka-to-speak-like-a-synchronous-api-4jho",
+      "id": "edf76baf61b81362",
+      "title": "When to break up a monolith: a guide to adopting microservices",
+      "description": "The conversation about moving from a monolith to microservices usually starts when things get painful. Builds take forever, a small change requires a full redeployment, and multiple teams are constantly blocked by each other in a single codebase. You can't scale the user profiles service without also scaling the rarely-used reporting module it's tied to. The initial simplicity that made the monolith attractive has given way to bottlenecks that slow down product growth. The monolith isn't inheren",
+      "url": "https://dev.to/kodus/when-to-break-up-a-monolith-a-guide-to-adopting-microservices-4an3",
       "source": "Dev.to",
-      "author": "Sara Y",
-      "published": "2025-12-09T18:10:06+00:00",
+      "author": "Edvaldo Freitas",
+      "published": "2025-12-16T17:52:34+00:00",
       "niche": "dev",
-      "score": 54,
+      "score": 55,
       "keywords": [
-        "API"
-      ]
-    },
-    {
-      "id": "64d1487f92a83f0c",
-      "title": "Why I Chose Monorepo: From Copy-Paste Hell to 2.8s Builds",
-      "description": "Why I Chose Monorepo: From Copy-Paste Hell to 2.8s Builds Friday, 11:47 PM. Portfolio site: white screen. Button component broke. I'd updated the variant prop in my UI library repo. Pushed it. Forgot the portfolio had its own copy of Button.tsx—same name, different version, same breaking change. Three repos. Three copies of the same component. Two of them broken. That's when I knew: the copy-paste had to stop. TL;DR What I did: Merged 3 separate repos (portfolio, web app, CLI) into one monorepo ",
-      "url": "https://dev.to/saswatapal/why-i-chose-monorepo-from-copy-paste-hell-to-28s-builds-5b2h",
-      "source": "Dev.to",
-      "author": "Saswata Pal",
-      "published": "2025-12-09T18:09:28+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "library"
+        "microservices",
+        "code"
       ]
     },
     {
@@ -3207,21 +3206,6 @@
       ]
     },
     {
-      "id": "3bcfffd49852d713",
-      "title": "💥 When Your Game Plays YOU: The Algorithm Behind Marvel Rivals",
-      "description": "Gamers… gather around. Because Marvel Rivals has been doing something sus — and no, it’s not another overpowered hero. If you’ve ever won 4 games in a row and then suddenly got slapped harder than a level-1 enemy in Elden Ring… If your win rate magically floats around 50% no matter what… If every losing streak feels too perfectly timed... *Congrats *— you might’ve experienced algorithmic matchmaking with an agenda. 👀 Check out the full deep dive here 👇 👉 Developer's Codex In my latest blog, I br",
-      "url": "https://dev.to/blaze_faisal/when-your-game-plays-you-the-algorithm-behind-marvel-rivals-1efj",
-      "source": "Dev.to",
-      "author": "Faisal Mujahid",
-      "published": "2025-12-09T18:13:50+00:00",
-      "niche": "dev",
-      "score": 52,
-      "keywords": [
-        "code",
-        "developer"
-      ]
-    },
-    {
       "id": "d02db8cbf2d6e4ba",
       "title": "Code Block Click Copy",
       "description": "I'm a back-end leaning full stack developer, so after a whole day of combing through and fixing someone else's JavaScript code all day at work, there was no better way to blow off some steam while I sat waiting for my kid to finish his Taekwondo lesson than to read through and re-write my latest addition to this site. Adding copy to clipboard functionality to code blocks The latest addition I refer to was adding little \"copy to clipboard\" buttons in the corners of my example code blocks througho",
@@ -3654,20 +3638,6 @@
       "keywords": [
         "code",
         "programming"
-      ]
-    },
-    {
-      "id": "af1c19100cf133e1",
-      "title": "What if claude-code lived inside your browser?",
-      "description": "I’ve built a browser extension that allows you to theme your visited websites just by prompting. It takes your request and uses openai’s codex-mini to generate the JS and CSS needed to apply the change. It can do all sorts of things: stop autoplaying videos, replace links with archive.is on newspapers, dim sidebars, or add small QOL features like editing the responses in chatgpt so it’s easier to copy/paste. Earlier today I asked it to add a “cost per 100 requests” column on OpenRouter’s activit",
-      "url": "https://dev.to/alentodorov/what-if-claude-code-lived-inside-your-browser-2e2h",
-      "source": "Dev.to",
-      "author": "Alen-Jelco Todorov",
-      "published": "2025-12-09T17:59:56+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
       ]
     },
     {
@@ -5113,88 +5083,32 @@
       ]
     },
     {
-      "id": "ab6729a3512f9f5a",
-      "title": "Day 13 : Understanding Terraform Data Sources Like a Human, Not a Robot",
-      "description": "Today’s session was one of those “lightbulb days” in Terraform the point where things finally click. Day 13 was all about Terraform Data Sources and honestly, this is one of the core concepts that separates beginners from engineers who actually understand infrastructure workflows. Data Sources: The Missing Puzzle Piece: I’ve been creating resources in Terraform for days EC2 instances, S3 buckets, IAM, and more but today I finally understood why Data Sources matter so much. While resources are th",
-      "url": "https://dev.to/alafiz/day-13-understanding-terraform-data-sources-like-a-human-not-a-robot-4p04",
+      "id": "a3921a77a412d52f",
+      "title": "I Wasted 6 Months Building Products Nobody Wanted. Then I Discovered the Real Problem.",
+      "description": "The Grind (That Led Nowhere) Six months ago, I was in full builder mode. PropTools - A Bootstrap site comparing futures prop firms. Spent months building it. Clean UI. Good data. Launched it. Then discovered PropTraderTools already existed. Exact same concept. Modryn Studio - Weeks building a Next.js marketing site for my web development company. TypeScript. Tailwind. Beautiful animations. Zero clients. Client Portal - Built an entire customer management system. Authentication. Dashboards. The w",
+      "url": "https://dev.to/lukehanner/i-wasted-6-months-building-products-nobody-wanted-then-i-discovered-the-real-problem-4704",
       "source": "Dev.to",
-      "author": "Zakariyau Mukhtar",
-      "published": "2025-12-09T18:25:17+00:00",
+      "author": "Luke Hanner",
+      "published": "2025-12-16T17:56:04+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "development"
+      ]
     },
     {
-      "id": "2e0c6f33fb7985ad",
-      "title": "True Parallelism in R Using the parallel Package",
-      "description": "Modern computers no longer rely on a single processor. Most laptops and servers today ship with multi-core CPUs and large amounts of memory. Yet, many R scripts still run sequentially—using only a fraction of the available hardware power. If a task can be done faster by splitting it across multiple cores, why not do it? Parallel processing allows you to divide large workloads into smaller chunks and execute them simultaneously. This can reduce execution time from hours to minutes, or even second",
-      "url": "https://dev.to/dipti_moryani_08e62702314/true-parallelism-in-r-using-the-parallel-package-1m0i",
+      "id": "137aa6b5ad704682",
+      "title": "How to integrate Lemon Squeezy Payments into a chrome extension with webhooks",
+      "description": "I’ll show how i implement Lemon Squeezy monthly subscription and one-time payment in my browser extension. and how I handle Lemon Squeezy payment webhook events. Quick note: this code comes from my extension boilerplate, extFast. if you wanna skip adding subscriptions, auth, feedback form, landing page & 1 billion other boring stuff, clone it here or let's code it… TL;DR User clicks \"Upgrade to Premium\" in your extension popup Extension calls your serverless function to create a checkout link Se",
+      "url": "https://dev.to/notearthian/how-to-integrate-lemon-squeezy-payments-into-a-chrome-extension-with-webhooks-3ib9",
       "source": "Dev.to",
-      "author": "Dipti Moryani",
-      "published": "2025-12-09T18:23:18+00:00",
+      "author": "Himanshu",
+      "published": "2025-12-16T17:55:07+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "3d35d595f10122e7",
-      "title": "Day 9: Spark SQL Deep Dive - Temp Views, Query Execution & Optimization Tips for Data Engineers",
-      "description": "Welcome to Day 9 of the Spark Mastery Series! Today we explore one of the most widely used features in PySpark — Spark SQL. Even if you're a Python engineer, SQL is STILL the easiest and fastest way to express business logic. Spark SQL allows you to use familiar SQL syntax while leveraging Spark’s distributed execution engine. Let’s dive in. 🌟 1. What is Spark SQL? Spark SQL enables: Writing SQL directly on DataFrames Querying structured + semi-structured data Using SQL to express ETL transforma",
-      "url": "https://dev.to/sandeepk27/day-9-spark-sql-deep-dive-temp-views-query-execution-optimization-tips-for-data-engineers-35gh",
-      "source": "Dev.to",
-      "author": "Sandeep",
-      "published": "2025-12-09T18:18:30+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "f336acc10042f9f7",
-      "title": "I built an AI-powered Portfolio Tracker",
-      "description": "Hello devs! I've been tracking my investments in Excel for years, but manual entry was killing me. So I decided to build my own \"Bloomberg Terminal\" for personal finance. The Problem Most portfolio apps require you to connect your bank account (privacy risk) or enter every trade manually (boring). The Solution: AI Import I built a Smart Import engine using Next.js Server Actions. You can copy-paste ANYTHING into the input field: \"Bought 10 AAPL yesterday\" A messy CSV from your broker A JSON expo",
-      "url": "https://dev.to/julienesn/i-built-an-ai-powered-portfolio-tracker-2oen",
-      "source": "Dev.to",
-      "author": "Julien",
-      "published": "2025-12-09T18:16:43+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "1f35df3b197f8d29",
-      "title": "Boosting Authorization Rates: Partnering Strategies and Intelligent Retries",
-      "description": "By: Adeyinka Adegbenro Authorization rates measure the ratio of successful payments to total attempts. For instance, if a merchant processes one hundred payments and seventy of them are successful, the authorization rate is 70 percent. This metric directly impacts revenue, customer satisfaction, and operational efficiency. High authorization rates mean more revenue captured, while poor rates can signal system issues, like failed authentication, unreliable processors, or friction in the payment f",
-      "url": "https://dev.to/rapyd/boosting-authorization-rates-partnering-strategies-and-intelligent-retries-5all",
-      "source": "Dev.to",
-      "author": "Drew Harris",
-      "published": "2025-12-09T18:13:02+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "7737a5b2db066b63",
-      "title": "CSS Wrapped 2025",
-      "description": "The Chrome Dev Team recaps the new CSS features that shipped in Google Chrome this past year in one amazingly designed webpage. They cover new functionality for creating more customizable components, next-gen interactions, and optimizing ergonomics. We&#8217;ve &#8230; CSS Wrapped 2025 originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-      "url": "https://css-tricks.com/css-wrapped-2025/",
-      "source": "CSS-Tricks",
-      "author": "Ryan Trimble",
-      "published": "2025-12-09T15:52:20+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "fb0c6cc096d76948",
-      "title": "IA : risque d’asservissement et d’érosion des compétences - comment préserver la maîtrise du geste ?",
-      "description": "l’IA n’est qu’un outil, à maîtriser en gardant nos capacités d’apprentissage et nos compétences de pratique. Repassons “en mode manuel” de temps à autre pour rester en alerte et éviter l'asservissement. C’est ce qui permet de garder la maîtrise, la créativité, nos réflexes ainsi que nos motivations. Inspirons nous de l'aviation ou de l'automobile.",
-      "url": "https://blog.octo.com/ia--risque-d'asservissement-et-d'erosion-des-competences-comment-preserver-la-maitrise-du-geste",
-      "source": "Blog Technique Octo",
-      "author": "Sylvain Fagnent",
-      "published": "2025-12-09T17:20:10+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "24c62138f241ccc7",
@@ -5252,18 +5166,6 @@
       "source": "Dev.to",
       "author": "Energy Solutions",
       "published": "2025-12-09T20:33:19+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "3ce55ed718dcc0bd",
-      "title": "Accessible UX Research, eBook Now Available For Download",
-      "description": "eBook versions of “Accessible UX Research,” a new Smashing Book by Michele A. Williams, are now available for download! Which means soon the book will go to the printer. Order the eBook for instant download now or reserve your print copy at the presale price.",
-      "url": "https://smashingmagazine.com/2025/12/accessible-ux-research-ebook-release/",
-      "source": "Smashing Magazine",
-      "author": "hello@smashingmagazine.com (Ari Stiles)",
-      "published": "2025-12-09T16:00:00+00:00",
       "niche": "dev",
       "score": 50,
       "keywords": []
@@ -8137,6 +8039,90 @@
       "keywords": []
     },
     {
+      "id": "c6f3a8af05d485e6",
+      "title": "Kubernetes Spiegato Semplice: 3 Concetti Chiave",
+      "description": "Ci sono parole nel mondo della tecnologia che sembrano muri invalicabili, costruiti con un gergo così fitto da scoraggiare chiunque provi ad avvicinarsi. Per molti, \"Kubernetes\" è una di questi. Suona complesso, astratto e un po' intimidatorio. Se anche tu ti sei sentito così, non sei solo. La cosa è quasi ironica, se pensiamo che Kubernetes è uno dei progetti open source più grandi e influenti al mondo. Ma la chiave per svelare il mistero, come spesso accade, non si trova in una definizione da ",
+      "url": "https://dev.to/scape/kubernetes-spiegato-semplice-3-concetti-chiave-2ifb",
+      "source": "Dev.to",
+      "author": "Mirko Scapellato",
+      "published": "2025-12-16T18:30:00+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "b73bc5b34c11a39b",
+      "title": "The West's Moral High Ground Is Paving China's Digital Highway",
+      "description": "The latest report on China's AI-powered surveillance apparatus reveals something uncomfortable: while Western policymakers condemn Beijing's digital authoritarianism, they're inadvertently helping China dominate the global technology landscape. Our moral outrage without competitive alternatives isn't protecting human rights,it's creating a world where authoritarian tech becomes the only viable option. The Uncomfortable Truth About Tech Hegemony A new report from Freedom House documents how China",
+      "url": "https://dev.to/zeroblind25/the-wests-moral-high-ground-is-paving-chinas-digital-highway-g01",
+      "source": "Dev.to",
+      "author": "ZB25",
+      "published": "2025-12-16T18:17:53+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "9aba7f89b0df353a",
+      "title": "Why Tools Break Agents (And How to Fix Them)",
+      "description": "Multi-step agents don’t fail because the model is unreliable. They fail because tools are poorly defined. In every broken agent system I’ve analyzed, the same root cause appears: Unstructured or incomplete tool contracts cause more failures than prompts. This post breaks down why tool contracts matter, what they must include, and how to design tools that don’t break your agent workflows. 1. What Is a Tool Contract? A tool contract defines: what the tool expects what it guarantees how it signals ",
+      "url": "https://dev.to/dowhatmatters/why-tools-break-agents-and-how-to-fix-them-e28",
+      "source": "Dev.to",
+      "author": "Anindya Obi",
+      "published": "2025-12-16T18:17:40+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "9b97d4bbf8e07799",
+      "title": "Plex Server Status Check",
+      "description": "https://plexstatus.davisson.me/ plexstatus.davisson.me is a small status dashboard for a Plex Media Server, implemented as a Python application running in a Docker container and exposed as a simple web page. It runs a series of connectivity and TLS checks and then renders the results as human‑readable status lines. Purpose and functionality The site functions as an external “heartbeat” page that reports whether the Plex server and its Plex-specific listening port are up or down. It typically exp",
+      "url": "https://dev.to/brian_davisson_8b08281b81/plex-server-status-check-280l",
+      "source": "Dev.to",
+      "author": "Brian Davisson",
+      "published": "2025-12-16T17:53:27+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "962fd3f6d028778f",
+      "title": "How to Prove AI Impact: Metrics That Investors and CTOs Actually Trust",
+      "description": "AI demos are easy to present. Proving real AI impact is harder, especially when investors and CTOs ask three tough questions: What changed? How do you know the model caused it? Will it still work next month? A trustworthy answer needs more than “the model accuracy improved.” It needs a measurement approach that connects ML quality to system reliability and business value (Breck et al., 2017). The metric trap: vanity vs value Some metrics look impressive in engineering meetings but do not convinc",
+      "url": "https://dev.to/mubeen_tahir_e9e12a30b5af/how-to-prove-ai-impact-metrics-that-investors-and-ctos-actually-trust-25fo",
+      "source": "Dev.to",
+      "author": "Mubeen Tahir",
+      "published": "2025-12-16T17:50:02+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "ac5821334cb30622",
+      "title": "This message will self-destruct in 5 seconds...",
+      "description": "You know that scene in Mission Impossible where Ethan Hunt gets his briefing and then—poof—the tape/phone/hologram bursts into flames? Yeah, I wanted that. But for files. On the internet. Without the fire hazard. 🔥 So, I built BAR-Web (Burn After Reading) - a file-sharing app where your secrets actually stay secret and then disappear forever. No \"oops, I can recover that from the recycle bin.\" No \"let me just use this recovery tool.\" Just... gone. The Origin Story (aka \"Why Did I Do This?\") It s",
+      "url": "https://dev.to/rolan_r_n_r/this-message-will-self-destruct-in-5-seconds-505i",
+      "source": "Dev.to",
+      "author": "Rolan Lobo",
+      "published": "2025-12-16T17:44:01+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "b6bfc3ec5d1aad3c",
+      "title": "What’s !important #1: Advent Calendars, CSS Wrapped, Web Platform Updates, and More",
+      "description": "The best CSS news from around the web from the last two weeks. In this edition: advent calendars, CSS Wrapped 2025, and the latest Web Platform Updates. What’s !important #1: Advent Calendars, CSS Wrapped, Web Platform Updates, and More originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
+      "url": "https://css-tricks.com/whats-important-1/",
+      "source": "CSS-Tricks",
+      "author": "Daniel Schwarz",
+      "published": "2025-12-16T17:03:46+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "a91ea635a5e80e60",
       "title": "Tell us what you really, really… do not want to spend time working on",
       "description": "With the promise of AI productivity gains not always coming to fruition, we wondered where developers still get frustrated.",
@@ -8333,20 +8319,6 @@
       "keywords": []
     },
     {
-      "id": "f02dcfb06062a1fb",
-      "title": "If you're going to vibe code, why not do it in C?",
-      "description": "Comments",
-      "url": "https://stephenramsay.net/posts/vibe-coding.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-09T17:11:09+00:00",
-      "niche": "dev",
-      "score": 45,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
       "id": "098792b5e78dce0a",
       "title": "I tried Gleam for Advent of Code",
       "description": "Comments",
@@ -8429,66 +8401,6 @@
       "keywords": [
         "programming"
       ]
-    },
-    {
-      "id": "986b27f16f3da600",
-      "title": "PeerTube is recognized as a digital public good by Digital Public Goods Alliance",
-      "description": "Comments",
-      "url": "https://www.digitalpublicgoods.net/r/peertube",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-09T17:08:37+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "e669475a52724fd5",
-      "title": "Handsdown one of the coolest 3D websites",
-      "description": "Comments",
-      "url": "https://bruno-simon.com/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-09T16:06:58+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "19e09bda0c3908db",
-      "title": "Launch HN: Mentat (YC F24) – Controlling LLMs with Runtime Intervention",
-      "description": "Comments",
-      "url": "https://playground.ctgt.ai",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-09T16:37:55+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "606e9811ff0f989c",
-      "title": "Clearspace (YC W23) Is Hiring a Founding Designer",
-      "description": "Comments",
-      "url": "https://www.ycombinator.com/companies/clearspace/jobs/yamWTLr-founding-designer-at-clearspace",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-09T17:01:11+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "7e40b585b8eef7c9",
-      "title": "AI needs more power than the grid can deliver – supersonic tech can fix that",
-      "description": "Comments",
-      "url": "https://boomsupersonic.com/flyby/ai-needs-more-power-than-the-grid-can-deliver-supersonic-tech-can-fix-that",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-09T15:51:32+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "2ddf664e5f2c9db4",
@@ -8671,18 +8583,6 @@
       "keywords": []
     },
     {
-      "id": "46463f18bdb1ca12",
-      "title": "Australia begins enforcing world-first teen social media ban",
-      "description": "Comments",
-      "url": "https://www.reuters.com/legal/litigation/australia-social-media-ban-takes-effect-world-first-2025-12-09/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-09T18:12:29+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
       "id": "7e9341da7a6db24e",
       "title": "Auto-grading decade-old Hacker News discussions with hindsight",
       "description": "Comments",
@@ -8858,18 +8758,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-11T11:26:45+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "d7f21b3fe94e350e",
-      "title": "Show HN: Local Privacy Firewall-blocks PII and secrets before ChatGPT sees them",
-      "description": "Comments",
-      "url": "https://github.com/privacyshield-ai/privacy-firewall",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-09T16:10:37+00:00",
       "niche": "dev",
       "score": 44,
       "keywords": []
@@ -10291,6 +10179,66 @@
       "keywords": []
     },
     {
+      "id": "c796ce0a3e61cac9",
+      "title": "alpr.watch",
+      "description": "Comments",
+      "url": "https://alpr.watch/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-16T16:54:19+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "0fd85166cf5d5090",
+      "title": "The GitHub Actions control plane is no longer free",
+      "description": "Comments",
+      "url": "https://www.blacksmith.sh/blog/actions-pricing",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-16T17:37:34+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "34f6ab7d73cad191",
+      "title": "FVWM-95",
+      "description": "Comments",
+      "url": "https://fvwm95.sourceforge.net/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-16T17:13:07+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "b2ba2031131669c5",
+      "title": "Mozilla appoints new CEO Anthony Enzor-Demeo",
+      "description": "Comments",
+      "url": "https://blog.mozilla.org/en/mozilla/leadership/mozillas-next-chapter-anthony-enzor-demeo-new-ceo/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-16T13:53:14+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "95916fe21c5db7db",
+      "title": "Artie (YC S23) Is Hiring Senior Enterprise AES",
+      "description": "Comments",
+      "url": "https://www.ycombinator.com/companies/artie/jobs/HyaHWUs-senior-enterprise-ae",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-16T17:00:57+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "f36e13df3098899c",
       "title": "Getting Started with Foundation 6’s CLI Tools",
       "description": "Julian provides an in-depth look at a lesser-known, but no less powerful, feature of the new Foundation 6: the command line tools to ease development. Continue reading Getting Started with Foundation 6’s CLI Tools on SitePoint.",
@@ -10329,8 +10277,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "performance",
-        "React 19"
+        "React 19",
+        "performance"
       ]
     },
     {
@@ -10464,8 +10412,8 @@
       "niche": "dev",
       "score": 39,
       "keywords": [
-        "performance",
-        "release"
+        "release",
+        "performance"
       ]
     },
     {
@@ -10476,18 +10424,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-10T03:15:24+00:00",
-      "niche": "dev",
-      "score": 38,
-      "keywords": []
-    },
-    {
-      "id": "e6980a034e2744cd",
-      "title": "Bruno Simon – 3D Portfolio",
-      "description": "Comments",
-      "url": "https://bruno-simon.com/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-09T16:06:58+00:00",
       "niche": "dev",
       "score": 38,
       "keywords": []
@@ -10695,8 +10631,8 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "API",
         "React 19",
+        "API",
         "release"
       ]
     },
@@ -10808,7 +10744,7 @@
       "description": "Posted by Matthew McCullough – VP of Product Management, Android Developer In October, Samsung launched Galaxy XR - the first device powered by Android XR. And it’s been amazing seeing what some of you have been building! Here’s what some of our developers have been saying about their journey into Android XR.Android XR gave us a whole new world to build our app within. Teams should ask themselves: What is the biggest, boldest version of your experience that you could possibly build? This is your",
       "url": "https://android-developers.googleblog.com/2025/12/build-for-ai-glasses-with-android-xr.html",
       "source": "Android Developers Blog",
-      "author": "Birna (noreply@blogger.com)",
+      "author": "Anonymous (noreply@blogger.com)",
       "published": "2025-12-08T10:00:00.001000-08:00",
       "niche": "dev",
       "score": 33,
@@ -10822,7 +10758,7 @@
       "description": "Posted by Matthew McCullough - VP of Product Management, Android Developer Today, during The Android Show | XR Edition, we shared a look at the expanding Android XR platform, which is fundamentally evolving to bring a unified developer experience to the entire XR ecosystem. The latest announcements, from Developer Preview 3 to exciting new form factors, are designed to give you the tools and platform you need to create the next generation of XR experiences. Let's dive into the details!A spectrum",
       "url": "https://android-developers.googleblog.com/2025/12/start-building-for-glasses-new-devices.html",
       "source": "Android Developers Blog",
-      "author": "Birna (noreply@blogger.com)",
+      "author": "Anonymous (noreply@blogger.com)",
       "published": "2025-12-08T10:00:00-08:00",
       "niche": "dev",
       "score": 33,
@@ -10923,11 +10859,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "performance",
-        "code",
-        "API",
         "framework",
-        "release"
+        "code",
+        "release",
+        "API",
+        "performance"
       ]
     },
     {
@@ -10977,9 +10913,9 @@
       "niche": "dev",
       "score": 28,
       "keywords": [
-        "library",
-        "framework",
         "release",
+        "framework",
+        "library",
         "Angular"
       ]
     },
@@ -11237,8 +11173,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "framework",
-        "release"
+        "release",
+        "framework"
       ]
     },
     {
@@ -11252,9 +11188,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "performance",
+        "code",
         "developer",
-        "code"
+        "performance"
       ]
     },
     {
@@ -11426,8 +11362,8 @@
       "niche": "dev",
       "score": 15,
       "keywords": [
-        "library",
-        "developer"
+        "developer",
+        "library"
       ]
     },
     {
@@ -11673,6 +11609,18 @@
       "keywords": []
     },
     {
+      "id": "7737a5b2db066b63",
+      "title": "CSS Wrapped 2025",
+      "description": "The Chrome Dev Team recaps the new CSS features that shipped in Google Chrome this past year in one amazingly designed webpage. They cover new functionality for creating more customizable components, next-gen interactions, and optimizing ergonomics. We&#8217;ve &#8230; CSS Wrapped 2025 originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
+      "url": "https://css-tricks.com/css-wrapped-2025/",
+      "source": "CSS-Tricks",
+      "author": "Ryan Trimble",
+      "published": "2025-12-09T15:52:20+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
       "id": "2828633faba37862",
       "title": "Fit width text in 1 line of CSS",
       "description": "The Chrome team recently prototyped a working solution for fitting text to the width of a container in CSS using a text-grow property. Fit width text in 1 line of CSS originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
@@ -11721,13 +11669,13 @@
       "keywords": []
     },
     {
-      "id": "c530d9db33b434a3",
-      "title": "Scrollytelling on Steroids With Scroll-State Queries",
-      "description": "Unconvinced of the value of scrollytelling? Alright, skeptic, let’s first warm up with some common use cases for scroll-based styling. Scrollytelling on Steroids With Scroll-State Queries originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-      "url": "https://css-tricks.com/scrollytelling-on-steroids-with-scroll-state-queries/",
-      "source": "CSS-Tricks",
-      "author": "Lee Meyer",
-      "published": "2025-12-02T16:47:14+00:00",
+      "id": "3ce55ed718dcc0bd",
+      "title": "Accessible UX Research, eBook Now Available For Download",
+      "description": "We’ve got exciting news! eBook versions of “Accessible UX Research,” a new Smashing Book by Michele A. Williams, are now available for download! Which means soon the book will go to the printer. Order the eBook for instant download now or reserve your print copy at the presale price.",
+      "url": "https://smashingmagazine.com/2025/12/accessible-ux-research-ebook-release/",
+      "source": "Smashing Magazine",
+      "author": "hello@smashingmagazine.com (Ari Stiles)",
+      "published": "2025-12-09T16:00:00+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -11872,6 +11820,18 @@
         "development",
         "programming"
       ]
+    },
+    {
+      "id": "fb0c6cc096d76948",
+      "title": "IA : risque d’asservissement et d’érosion des compétences - comment préserver la maîtrise du geste ?",
+      "description": "l’IA n’est qu’un outil, à maîtriser en gardant nos capacités d’apprentissage et nos compétences de pratique. Repassons “en mode manuel” de temps à autre pour rester en alerte et éviter l'asservissement. C’est ce qui permet de garder la maîtrise, la créativité, nos réflexes ainsi que nos motivations. Inspirons nous de l'aviation ou de l'automobile.",
+      "url": "https://blog.octo.com/ia--risque-d'asservissement-et-d'erosion-des-competences-comment-preserver-la-maitrise-du-geste",
+      "source": "Blog Technique Octo",
+      "author": "Sylvain Fagnent",
+      "published": "2025-12-09T17:20:10+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
     },
     {
       "id": "4eff3e82b9990adc",
