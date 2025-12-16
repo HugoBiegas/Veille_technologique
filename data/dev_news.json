@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-16T18:39:19.956640+00:00",
-  "total_articles": 969,
+  "last_updated": "2025-12-16T21:26:31.983428+00:00",
+  "total_articles": 971,
   "articles": [
     {
       "id": "ee7e1d47e6b6f1b4",
@@ -1079,6 +1079,30 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-16T17:12:02+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": []
+    },
+    {
+      "id": "e4f3dc23126e8f1b",
+      "title": "GPT Image 1.5",
+      "description": "Comments",
+      "url": "https://openai.com/index/new-chatgpt-images-is-here/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-16T18:07:07+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": []
+    },
+    {
+      "id": "3983d92363450bdc",
+      "title": "GitHub will begin charging for self-hosted action runners on March 2026",
+      "description": "Comments",
+      "url": "https://github.blog/changelog/2025-12-16-coming-soon-simpler-pricing-and-a-better-experience-for-github-actions/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-16T17:32:38+00:00",
       "niche": "dev",
       "score": 62,
       "keywords": []
@@ -2358,6 +2382,21 @@
       ]
     },
     {
+      "id": "2f585536fd0191f7",
+      "title": "Renderizando la cámara con Metal en iOS (AVFoundation + MetalKit)",
+      "description": "En este tutorial vamos a renderizar el video de la cámara directamente en pantalla usando Metal, sin pasar por AVCaptureVideoPreviewLayer. La idea es tomar el CVPixelBuffer que entrega AVFoundation y dibujarlo en un MTKView, controlando todo el pipeline gráfico. Este enfoque es especialmente útil si: Necesitas post‑procesamiento con shaders Estás integrando AR / computer vision / ML Quieres máximo control y performance El proyecto final necesita las siguientes cuatro clases: CameraCapture: captu",
+      "url": "https://dev.to/david_goyes_a488f58a17a53/renderizando-la-camara-con-metal-en-ios-avfoundation-metalkit-mnl",
+      "source": "Dev.to",
+      "author": "David Goyes",
+      "published": "2025-12-16T20:46:09+00:00",
+      "niche": "dev",
+      "score": 55,
+      "keywords": [
+        "performance",
+        "tutorial"
+      ]
+    },
+    {
       "id": "5b5c826360773370",
       "title": "How to Auto-Generate Open Graph Images for Your Blog (No Design Skills Needed)",
       "description": "You know those preview cards that show up when you share a link on Twitter or LinkedIn? Those are Open Graph images, and they can make or break your click-through rate. But making them manually in Figma for every blog post? Pain. I built an API to solve this. Here's how to use it. The Problem Every blog post needs an OG image. Without one, your shared links look like this: ❌ Plain text, no preview, low engagement With a good OG image: ✅ Eye-catching, professional, higher CTR The Solution: Genera",
@@ -3206,33 +3245,17 @@
       ]
     },
     {
-      "id": "d02db8cbf2d6e4ba",
-      "title": "Code Block Click Copy",
-      "description": "I'm a back-end leaning full stack developer, so after a whole day of combing through and fixing someone else's JavaScript code all day at work, there was no better way to blow off some steam while I sat waiting for my kid to finish his Taekwondo lesson than to read through and re-write my latest addition to this site. Adding copy to clipboard functionality to code blocks The latest addition I refer to was adding little \"copy to clipboard\" buttons in the corners of my example code blocks througho",
-      "url": "https://dev.to/mizouzie/code-block-click-copy-1bke",
+      "id": "a0a09ba6c26ea937",
+      "title": "YINI Config Parser v1.3.2-beta Released (Node.js)",
+      "description": "A new beta of the official TypeScript parser for YINI is out! This release focuses on real-world usability, robust file handling, and dependency hygiene. If you're new to YINI: it's a modern, human-friendly configuration format that aims to keep INI-style readability while supporting real structure. What's new in 1.3.2-beta UTF-8 BOM support YINI now correctly handles UTF-8 files with or without a Byte Order Mark (BOM). Safe stripping of a leading BOM (U+FEFF) Identical parsing behavior for: UTF",
+      "url": "https://dev.to/marko_kseppnen_6250a7f/yini-config-parser-v132-beta-released-nodejs-kcg",
       "source": "Dev.to",
-      "author": "Sam",
-      "published": "2025-12-09T20:51:41+00:00",
+      "author": "Mr Smithnen",
+      "published": "2025-12-16T20:46:37+00:00",
       "niche": "dev",
-      "score": 52,
+      "score": 54,
       "keywords": [
-        "developer",
-        "code"
-      ]
-    },
-    {
-      "id": "1bce15ae663a2ea8",
-      "title": "The Fragmentation Dilemma and the Unifying Protocol",
-      "description": "Every senior developer or automation architect recognizes the current friction in the AI workflow landscape. You are context-switching frantically. You have code context in your IDE’s AI assistant, organizational data locked in spreadsheets or databases, and broad reasoning capabilities in desktop LLM clients. These powerful islands of intelligence do not naturally communicate. You find yourself copy-pasting crucial data between interfaces, manually bridging the gap that your tools should be han",
-      "url": "https://dev.to/onlineproxyio/the-fragmentation-dilemma-and-the-unifying-protocol-5841",
-      "source": "Dev.to",
-      "author": "OnlineProxy",
-      "published": "2025-12-09T20:51:20+00:00",
-      "niche": "dev",
-      "score": 52,
-      "keywords": [
-        "developer",
-        "code"
+        "release"
       ]
     },
     {
@@ -3641,45 +3664,18 @@
       ]
     },
     {
-      "id": "fd30aa1ee505f4c8",
-      "title": "Stop Clicking, Start Shipping: A Minimalist Dashboard for Netlify",
-      "description": "We are living in the golden age of \"Vibe Coding.\" With tools like Cursor, V0, and Replit, building apps has never been faster. You have an idea, you prompt it, and you deploy it. But once that app is live on Netlify, the \"vibe\" often comes to a screeching halt. Suddenly, you are navigating complex menus, searching for build logs, and trying to decipher Linux-style terminal errors just to see if your latest update went live. For PMs, Design Engineers, and Vibe Coders, the standard Netlify dashboa",
-      "url": "https://dev.to/vamshi4001/stop-clicking-start-shipping-a-minimalist-dashboard-for-netlify-2ckn",
-      "source": "Dev.to",
-      "author": "Vamshi Vangapally",
-      "published": "2025-12-09T21:12:19+00:00",
+      "id": "be1051b20f683880",
+      "title": "Supabase for Beginners",
+      "description": "Supabase is an open-source Backend-as-a-Service (BaaS) platform that provides developers with a powerful set of tools to build applications quickly. This comprehensive video tutorial introduces you to Supabase by building a real-world React.js Sales ...",
+      "url": "https://www.freecodecamp.org/news/supabase-for-beginners/",
+      "source": "freeCodeCamp",
+      "author": "Beau Carnes",
+      "published": "2025-12-16T16:33:16+00:00",
       "niche": "dev",
-      "score": 51,
+      "score": 52,
       "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "68114ddc80a784f0",
-      "title": "80. Remove Duplicates from Sorted Array II | LeetCode | Top Interview 150 | Coding Questions",
-      "description": "Problem Link https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/ Solution class Solution { public int removeDuplicates(int[] nums) { int n = nums.length; int j = 2; for(int i=2; i<n; i++) { if(nums[i] != nums[j-2]) { nums[j] = nums[i]; j++; } } return j; } }",
-      "url": "https://dev.to/debeshpg90/80-remove-duplicates-from-sorted-array-ii-leetcode-top-interview-150-coding-questions-3cci",
-      "source": "Dev.to",
-      "author": "Debesh P.",
-      "published": "2025-12-09T20:45:24+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "443aa63cfc3ce9e5",
-      "title": "How to safely run cron jobs in Docker (with monitoring)",
-      "description": "Have you encountered the following issues when running tasks using the system cron in Decoder?: Logs disappear into thin air Tasks fail at 3 a.m. Environment variables don't work Container doesn't shut down properly. Problem with system cron The cron daemon was designed for traditional Linux servers, not containers: # ❌ Don't do this FROM ubuntu:22.04 RUN apt-get update && apt-get install -y cron COPY mycron /etc/cron.d/mycron RUN crontab /etc/cron.d/mycron CMD cron -f What goes wrong: No logs -",
-      "url": "https://dev.to/lmadev/how-to-safely-run-cron-jobs-in-docker-with-monitoring-4nkm",
-      "source": "Dev.to",
-      "author": "Łukasz Maśląg",
-      "published": "2025-12-09T20:33:43+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
+        "tutorial",
+        "developer"
       ]
     },
     {
@@ -5111,64 +5107,46 @@
       ]
     },
     {
-      "id": "24c62138f241ccc7",
-      "title": "Shallow Copy vs Deep Copy in JavaScript — Quick and Clear explanation",
-      "description": "Copying objects in JavaScript looks easy… until the original object changes when you didn’t touch it. Congratulations — you’ve encountered shallow copy chaos. Let’s fix that in the simplest, funniest, most precise way possible. 🧍‍♂️ What Is a Shallow Copy? A shallow copy only copies the top-level values. Nested objects? Arrays? JavaScript just hands you the same reference like a lazy coworker. Example const user = { name: \"Shanthi\", address: { city: \"Chennai\" } }; const copy = { ...user }; copy.",
-      "url": "https://dev.to/shantih_palani/shallow-copy-vs-deep-copy-in-javascript-quick-clear-slightly-funny-4d98",
+      "id": "245e9fbfbace7a47",
+      "title": "MEP Estimation Services in Texas - Your Budget Controller",
+      "description": "Texas continues to lead the nation in construction growth, with expanding residential communities, commercial developments, and large-scale industrial projects. In this fast-moving market, MEP estimation services in Texas play a critical role in ensuring accurate budgets, regulatory compliance, and successful project delivery. Mechanical, Electrical, and Plumbing systems account for a significant portion of construction costs, making precise estimation essential. This article explains what MEP e",
+      "url": "https://dev.to/constructioncostesti/mep-estimation-services-in-texas-your-budget-controller-59me",
       "source": "Dev.to",
-      "author": "Shanthi's Dev Diary",
-      "published": "2025-12-09T21:11:07+00:00",
+      "author": "link estimating",
+      "published": "2025-12-16T21:05:57+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "development"
+      ]
     },
     {
-      "id": "a9bdc9774c4684e4",
-      "title": "Project vs Transject",
-      "description": "Summary The \"project\" approach alone cannot cover certain areas We have created a new approach called \"transject\" Projects move \"pro-,\" or forward Transjects move \"trans-,\" or across boundaries Background The Era of Projects Needless to say, we are in a project economy where work ≈ projects. We engineers are no exception, and we almost always join some kind of project. Projects Cannot Transverse Boundaries There are limitations to the project approach. First, you cannot operate transversally. Yo",
-      "url": "https://dev.to/stakiran/project-vs-transject-cpd",
+      "id": "5bab21182fef6a6a",
+      "title": "INFOFISCUS Conversa – Agentic AI Conversational Analytics for Real-Time Enterprise Intelligence",
+      "description": "INFOFISCUS Conversa is a no-code, Agentic AI-powered conversational analytics platform that turns natural language questions into trusted SQL insights, predictive answers, and executive-ready summaries—across all enterprise data and documents.",
+      "url": "https://dev.to/sachin_yadav_663e59160b3f/infofiscus-conversa-agentic-ai-conversational-analytics-for-real-time-enterprise-intelligence-2587",
       "source": "Dev.to",
-      "author": "sta",
-      "published": "2025-12-09T21:06:44+00:00",
+      "author": "Sachin Yadav",
+      "published": "2025-12-16T20:52:36+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
-      "id": "e0d6799d086cdded",
-      "title": "Swift #9: Switch case",
-      "description": "La instrucción switch compara un valor contra una lista de valores y ejecuta el bloque de código del valor que coincida. La lista debe ser exhaustiva, lo que significa que debe haber un case por todo valor posible. Si hace falta algún valor, entonces se debe poner default. let age = Int.random(in: 0..<21) let message: String switch age { case 13: message = \"Aquí las tengo...\" case 15, 16: message = \"Ya estás viejo\" case 17...19: message = \"Estás en el rango\" case 20: message = \"mayor de edad\" de",
-      "url": "https://dev.to/david_goyes_a488f58a17a53/swift-9-switch-case-73p",
-      "source": "Dev.to",
-      "author": "David Goyes",
-      "published": "2025-12-09T21:02:22+00:00",
+      "id": "3577408a25a9a2b9",
+      "title": "How Does an MCP Work Under the Hood? MCP Workflow Explained",
+      "description": "We’ve all faced that awkward limitation with AI: it can write code or explain complex topics in seconds, but the moment you ask it to check a local file or run a quick database query, it hits a wall. It’s like having a genius assistant who is locked ...",
+      "url": "https://www.freecodecamp.org/news/how-does-an-mcp-work-under-the-hood/",
+      "source": "freeCodeCamp",
+      "author": "Ajay Patel",
+      "published": "2025-12-16T18:35:11+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "3d8a3ba6e5a17afb",
-      "title": "Tum | Modo | Postea",
-      "description": "tūm (pronounced /tuːm/) — “then,” “at that moment”; here, a glance back at what once was and the moments that shaped the beginning. mŏdō (pronounced /ˈmɔ.doː/) — “just now,” “only now”; a grounding in the present, the point of clarity from which everything is assessed. postĕā (pronounced /ˈpɔs.tɛ.aː/) — “afterward,” “later on”; a forward-looking view toward what may unfold from this moment onward. Given that I've re-kindled my interest in this little blog of mine, and that it's almost Christmas,",
-      "url": "https://dev.to/mizouzie/tum-modo-postea-5dlo",
-      "source": "Dev.to",
-      "author": "Sam",
-      "published": "2025-12-09T20:38:40+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "1e161547c0149838",
-      "title": "Coding with Rust for \"Rust\": Modeling the 100-Hour Battery Grid",
-      "description": "How Software Engineers Will Manage the Next Generation of Long-Duration Energy Storage The \"Dunkelflaute\" ProblemIn renewable energy engineering, there is a German word that haunts grid operators: Dunkelflaute. It translates to \"dark wind lull\"—periods where the sun doesn't shine and the wind doesn't blow for days or even weeks.Current Lithium-ion batteries are sprinters. They are excellent for 4-hour bursts to cover the evening peak. But they cannot survive a Dunkelflaute. Trying to bridge a 10",
-      "url": "https://dev.to/energy_solutions_2050/coding-with-rust-for-rust-modeling-the-100-hour-battery-grid-1j0i",
-      "source": "Dev.to",
-      "author": "Energy Solutions",
-      "published": "2025-12-09T20:33:19+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "450bf15e56325d31",
@@ -8123,6 +8101,90 @@
       "keywords": []
     },
     {
+      "id": "d093066a155eb4fd",
+      "title": "Knowledge Sharing: Strong Teams Share What They Know",
+      "description": "If only one person knows how something works, your team doesn't really know it yet. After years of working in different teams, I've learned that long-term success doesn't come from individual brilliance. It comes from shared understanding. Teams that rely on a few key people may move fast at first, but they become fragile. One vacation, one sick day, or one resignation is enough to slow everything down. Knowledge sharing isn't just a nice-to-have. It's what turns individual expertise into team s",
+      "url": "https://dev.to/reenanms/knowledge-sharing-strong-teams-share-what-they-know-49n1",
+      "source": "Dev.to",
+      "author": "Renan Martins",
+      "published": "2025-12-16T21:04:37+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "d2b80e70f5c05648",
+      "title": "Communication As A Task: A Mindset for Successful Asynchronous Work",
+      "description": "Background It's Needless to Say Asynchronous Work is Valuable As engineers, we require concentration, but the tools, methods, and procedures needed for that concentration vary from person to person. A single environment like an office has its limitations. Moreover, before being engineers, we are human beings, and as humans, we want to minimize life's burdens. For instance, getting exhausted from commuting is ludicrous. Even if it's a 30-minute one-way commute, with preparation, settling in, and ",
+      "url": "https://dev.to/stakiran/communication-as-a-task-a-mindset-for-successful-asynchronous-work-fj3",
+      "source": "Dev.to",
+      "author": "sta",
+      "published": "2025-12-16T20:57:31+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "cf5b39e065b38d98",
+      "title": "Federated State Done Right: Zustand, TanStack Query, and the Patterns That Actually Work",
+      "description": "We've all been there: you set up Module Federation, split your app into micro-frontends, and suddenly your Zustand store updates in one module but not another. Or worse—your TanStack Query cache fetches the same user profile three times because each remote thinks it's alone in the world. The patterns that work beautifully in monolithic React apps break down in federated architectures. Context providers don't cross module boundaries. Stores instantiate twice. Cache invalidation becomes a distribu",
+      "url": "https://dev.to/martinrojas/federated-state-done-right-zustand-tanstack-query-and-the-patterns-that-actually-work-27c0",
+      "source": "Dev.to",
+      "author": "martin rojas",
+      "published": "2025-12-16T20:53:49+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "199b71b31e72598c",
+      "title": "Building Your First MCP Server in Python",
+      "description": "We have reached a pivotal moment in the evolution of Large Language Models (LLMs). For a long time, we treated them as \"brains in a jar\"—brilliant reasoning engines disconnected from the world, capable only of generating text based on training data. The Model Context Protocol (MCP) changes this paradigm entirely. It provides a standardized interface for these models to perceive (Resources), act (Tools), and function within specific interaction patterns (Prompts). If you are a senior engineer or ",
+      "url": "https://dev.to/onlineproxyio/building-your-first-mcp-server-in-python-23hc",
+      "source": "Dev.to",
+      "author": "OnlineProxy",
+      "published": "2025-12-16T20:48:36+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "cead8aee7c5d2440",
+      "title": "Why Enterprise SaaS Deals Stall and How Revenue Operations Can Fix Them",
+      "description": "Enterprise SaaS companies rarely lose deals because their products fall short. More often, deals stall—or die—because internal systems aren’t designed for the complexity of enterprise buying. Long procurement cycles, inconsistent quoting, unclear approval paths, and misaligned incentives across teams quietly erode momentum long before a contract reaches signature. At the center of this problem is revenue operations (RevOps). When RevOps is built for SMB motion but applied to enterprise sales, fr",
+      "url": "https://dev.to/kapusto/why-enterprise-saas-deals-stall-and-how-revenue-operations-can-fix-them-4068",
+      "source": "Dev.to",
+      "author": "Mikuz",
+      "published": "2025-12-16T20:48:34+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "d0bcce28f141016b",
+      "title": "I Stopped Using Heavy Photo Editing Software — Here’s Why",
+      "description": "For a long time, I believed that good image editing required powerful desktop software. Tools like Photoshop felt mandatory, even for simple tasks like resizing an image or compressing a file for a website. Over time, that belief started to feel unnecessary. Most of the work I do today involves quick image edits — preparing visuals for blog posts, social media, or small web projects. Installing heavy software or logging into paid platforms just to make minor changes became frustrating. That’s wh",
+      "url": "https://dev.to/maher_saqlain_0814c17e6c8/i-stopped-using-heavy-photo-editing-software-heres-why-58pp",
+      "source": "Dev.to",
+      "author": "Maher Saqlain",
+      "published": "2025-12-16T20:44:12+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "03eee802b2a51d5f",
+      "title": "How to Debug Kubernetes Apps When Logs Fail You – An eBPF Tracing Handbook",
+      "description": "Let’s say your Kubernetes pod crashes at 3am and the logs show nothing useful. By the time you SSH into the node, the container is gone, and you're left guessing what happened in those final moments. This is the reality of debugging modern applicatio...",
+      "url": "https://www.freecodecamp.org/news/how-to-debug-kubernetes-apps-when-logs-fail-you-an-ebpf-tracing-handbook/",
+      "source": "freeCodeCamp",
+      "author": "Opaluwa Emidowojo",
+      "published": "2025-12-16T17:03:01+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "a91ea635a5e80e60",
       "title": "Tell us what you really, really… do not want to spend time working on",
       "description": "With the promise of AI productivity gains not always coming to fruition, we wondered where developers still get frustrated.",
@@ -8260,6 +8322,20 @@
       "score": 48,
       "keywords": [
         "performance"
+      ]
+    },
+    {
+      "id": "e5e4b27af24f69a5",
+      "title": "No Graphics API",
+      "description": "Comments",
+      "url": "https://www.sebastianaaltonen.com/blog/no-graphics-api",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-16T19:20:17+00:00",
+      "niche": "dev",
+      "score": 48,
+      "keywords": [
+        "API"
       ]
     },
     {
@@ -8401,66 +8477,6 @@
       "keywords": [
         "programming"
       ]
-    },
-    {
-      "id": "2ddf664e5f2c9db4",
-      "title": "10 Years of Let's Encrypt",
-      "description": "Comments",
-      "url": "https://letsencrypt.org/2025/12/09/10-years",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-09T18:54:55+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "16bb9c94f2bf6393",
-      "title": "Django: what’s new in 6.0",
-      "description": "Comments",
-      "url": "https://adamj.eu/tech/2025/12/03/django-whats-new-6.0/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-09T20:33:14+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "a3c9672e4cef829b",
-      "title": "I misused LLMs to diagnose myself and ended up bedridden for a week",
-      "description": "Comments",
-      "url": "https://blog.shortround.space/blog/how-i-misused-llms-to-diagnose-myself-and-ended-up-bedridden-for-a-week/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-09T21:07:22+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "f95210c8cc728523",
-      "title": "So you want to speak at software conferences?",
-      "description": "Comments",
-      "url": "https://dylanbeattie.net/2025/12/08/so-you-want-to-speak-at-software-conferences.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-09T18:42:27+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "e8baffaf113ab0fa",
-      "title": "Qt, Linux and everything: Debugging Qt WebAssembly",
-      "description": "Comments",
-      "url": "http://qtandeverything.blogspot.com/2025/12/debugging-qt-webassembly-dwarf.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-09T21:19:37+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "4ff8a3257837637c",
@@ -10239,6 +10255,18 @@
       "keywords": []
     },
     {
+      "id": "95ad6d0609f936b4",
+      "title": "Writing a blatant Telegram clone using Qt, QML and Rust. And C++",
+      "description": "Comments",
+      "url": "https://kemble.net/blog/provoke/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-16T15:41:47+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "f36e13df3098899c",
       "title": "Getting Started with Foundation 6’s CLI Tools",
       "description": "Julian provides an in-depth look at a lesser-known, but no less powerful, feature of the new Foundation 6: the command line tools to ease development. Continue reading Getting Started with Foundation 6’s CLI Tools on SitePoint.",
@@ -10277,8 +10305,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "React 19",
-        "performance"
+        "performance",
+        "React 19"
       ]
     },
     {
@@ -10621,6 +10649,30 @@
       "keywords": []
     },
     {
+      "id": "1c9055edfcd84bd4",
+      "title": "The World Happiness Report is beset with methodological problems",
+      "description": "Comments",
+      "url": "https://yaschamounk.substack.com/p/the-world-happiness-report-is-a-sham",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-16T00:06:49+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
+      "id": "5cd69ff78893158f",
+      "title": "Thin desires are eating life",
+      "description": "Comments",
+      "url": "https://www.joanwestenberg.com/thin-desires-are-eating-your-life/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-16T00:50:41+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
       "id": "4e6d7290f5ff11d8",
       "title": "React Native 0.80 - React 19.1, JS API Changes, Freezing Legacy Arch and much more",
       "description": "Today we are excited to release React Native 0.80!",
@@ -10631,8 +10683,8 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "React 19",
         "API",
+        "React 19",
         "release"
       ]
     },
@@ -10705,8 +10757,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -10859,11 +10911,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "framework",
-        "code",
-        "release",
         "API",
-        "performance"
+        "release",
+        "code",
+        "performance",
+        "framework"
       ]
     },
     {
@@ -10914,9 +10966,9 @@
       "score": 28,
       "keywords": [
         "release",
-        "framework",
+        "Angular",
         "library",
-        "Angular"
+        "framework"
       ]
     },
     {
@@ -11188,9 +11240,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "code",
+        "performance",
         "developer",
-        "performance"
+        "code"
       ]
     },
     {
@@ -11204,8 +11256,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "code",
-        "release"
+        "release",
+        "code"
       ]
     },
     {
@@ -11262,8 +11314,8 @@
       "niche": "dev",
       "score": 18,
       "keywords": [
-        "PHP",
-        "Angular"
+        "Angular",
+        "PHP"
       ]
     },
     {
@@ -11319,8 +11371,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "code",
-        "API"
+        "API",
+        "code"
       ]
     },
     {
@@ -11362,8 +11414,8 @@
       "niche": "dev",
       "score": 15,
       "keywords": [
-        "developer",
-        "library"
+        "library",
+        "developer"
       ]
     },
     {
@@ -11463,30 +11515,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "f11d124f0b3e4416",
-      "title": "Beautiful Abelian Sandpiles",
-      "description": "Comments",
-      "url": "https://eavan.blog/posts/beautiful-sandpiles.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-09T20:16:15+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "38150a03ce5fe591",
-      "title": "Go Proposal: Secret Mode",
-      "description": "Comments",
-      "url": "https://antonz.org/accepted/runtime-secret/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-09T21:10:52+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
     },
     {
       "id": "bba7cac1d736a897",
@@ -11789,8 +11817,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "code",
         "API",
+        "code",
         "development"
       ]
     },
@@ -11817,8 +11845,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "development",
-        "programming"
+        "programming",
+        "development"
       ]
     },
     {
