@@ -1,25 +1,7 @@
 {
-  "last_updated": "2025-12-16T21:26:19.036658+00:00",
-  "total_articles": 405,
+  "last_updated": "2025-12-17T01:58:03.398151+00:00",
+  "total_articles": 403,
   "articles": [
-    {
-      "id": "4bb9aff88025a1f1",
-      "title": "Microsoft Patch Tuesday, December 2025 Edition",
-      "description": "Microsoft today pushed updates to fix at least 56 security flaws in its Windows operating systems and supported software. This final Patch Tuesday of 2025 tackles one zero-day bug that is already being exploited, as well as two publicly disclosed vulnerabilities.",
-      "url": "https://krebsonsecurity.com/2025/12/microsoft-patch-tuesday-december-2025-edition/",
-      "source": "Krebs on Security",
-      "author": "BrianKrebs",
-      "published": "2025-12-09T23:18:29+00:00",
-      "niche": "security",
-      "score": 100,
-      "keywords": [
-        "exploit",
-        "zero-day",
-        "patch",
-        "security flaw",
-        "security"
-      ]
-    },
     {
       "id": "bf98cc466785906c",
       "title": "Fortinet, Ivanti, and SAP Issue Urgent Patches for Authentication and Code Execution Flaws",
@@ -1104,24 +1086,6 @@
       ]
     },
     {
-      "id": "1ee697a82e63675b",
-      "title": "Ivanti warns customers of new EPM flaw enabling remote code execution",
-      "description": "Ivanti warns users to address a newly disclosed Endpoint Manager vulnerability that could let attackers execute code remotely. Software firm Ivanti addressed a newly disclosed vulnerability, tracked as CVE-2025-10573 (CVSS score 9.6), in its Endpoint Manager (EPM) solution. The vulnerability is a Stored XSS that could allow a remote unauthenticated attacker to execute arbitrary &#8220;Stored [&#8230;]",
-      "url": "https://securityaffairs.com/185508/hacking/ivanti-warns-customers-of-new-epm-flaw-enabling-remote-code-execution.html",
-      "source": "Security Affairs",
-      "author": "Pierluigi Paganini",
-      "published": "2025-12-09T22:11:33+00:00",
-      "niche": "security",
-      "score": 82,
-      "keywords": [
-        "XSS",
-        "CVE-",
-        "vulnerability",
-        "remote code execution",
-        "attack"
-      ]
-    },
-    {
       "id": "ec0416e2564d397b",
       "title": "Gladinet servers file-sharing servers allow remote code execution",
       "description": "Enterprises relying on Gladinet’s file-sharing services are faced with another round of zero-day patching, this time to block attackers from abusing cryptographic keys directly baked into its CentreStack and Triofox platforms. Cybersecurity firm Huntress warned that attackers are already abusing the hardcoded keys to perform remote code execution (RCE) on the affected servers. “The AES implementation of Gladinet’s CentreStack and Triofox products contains hardcoded cryptographic keys,” Huntress ",
@@ -1223,21 +1187,6 @@
         "exploit",
         "threat",
         "authentication bypass"
-      ]
-    },
-    {
-      "id": "6f762f1c0134b985",
-      "title": "Microsoft Fixes Exploited Zero Day in Light Patch Tuesday",
-      "description": "Proof-of-concept exploit code is publicly available for two other flaws in this month's Patch Tuesday. In total, the company issued patches for more than 1,150 flaws this year.",
-      "url": "https://www.darkreading.com/application-security/microsoft-fixes-exploited-zero-day-light-patch-tuesday",
-      "source": "Dark Reading",
-      "author": "Jai Vijayan, Contributing Writer",
-      "published": "2025-12-09T22:24:18+00:00",
-      "niche": "security",
-      "score": 80,
-      "keywords": [
-        "exploit",
-        "patch"
       ]
     },
     {
@@ -1406,24 +1355,6 @@
       ]
     },
     {
-      "id": "86daf7a19d913711",
-      "title": "December Patch Tuesday: Windows Cloud Files Mini Filter Driver hole already being exploited",
-      "description": "Microsoft is finishing 2025 by issuing only 57 patches for Windows and other products for December Patch Tuesday, but one vulnerability is already being exploited as a zero day and needs to be addressed fast. It’s an escalation of privilege vulnerability in Windows Cloud Files Mini Filter Driver (CVE-2025-62221), described as a use-after-free problem in which a program tries to use a block of memory that has already been returned to system control. The attack complexity is low. The worst case sc",
-      "url": "https://www.csoonline.com/article/4103681/december-patch-tuesday-windows-cloud-files-mini-filter-driver-hole-already-being-exploited.html",
-      "source": "CSO Online",
-      "author": "Inconnu",
-      "published": "2025-12-10T01:19:11+00:00",
-      "niche": "security",
-      "score": 78,
-      "keywords": [
-        "exploit",
-        "patch",
-        "CVE-",
-        "vulnerability",
-        "attack"
-      ]
-    },
-    {
       "id": "f2a48158518114d3",
       "title": "Hundreds of Ivanti EPM systems exposed online as critical flaw patched",
       "description": "Ivanti has patched a critical vulnerability in Endpoint Manager that enables attackers to hijack administrator sessions without authentication and potentially control thousands of enterprise devices. The company released EPM version 2024 SU4 SR1 to address four vulnerabilities, including the critical flaw tracked as CVE-2025-10573, which carries a CVSS score of 9.6. Three additional high-severity flaws could also enable code execution but require user interaction, Ivanti said in its December sec",
@@ -1506,6 +1437,21 @@
         "security",
         "attack",
         "ransomware"
+      ]
+    },
+    {
+      "id": "4f008f67ade56aef",
+      "title": "Windows Exploitation Techniques: Winning Race Conditions with Path Lookups",
+      "description": "This post was originally written in 2016 for the Project Zero blog. However, in the end it was published separately in the journal PoC||GTFO issue #13 as well as in the second volume of the printed version. In honor of our new blog we’re republishing it on this blog and included an updated analysis to see if it still works on a modern Windows 11 system. During my Windows research I tend to find quite a few race condition vulnerabilities. A fairly typical exploitable form look something like this",
+      "url": "https://projectzero.google/2025/12/windows-exploitation-techniques.html",
+      "source": "Google Project Zero",
+      "author": "James Forshaw",
+      "published": "2025-12-16T00:00:00-08:00",
+      "niche": "security",
+      "score": 78,
+      "keywords": [
+        "PoC",
+        "exploit"
       ]
     },
     {
@@ -1787,6 +1733,20 @@
       ]
     },
     {
+      "id": "151fbc8f9113a4e2",
+      "title": "Thinking Outside The Box [dusted off draft from 2017]",
+      "description": "Preface Hello from the future! This is a blogpost I originally drafted in early 2017. I wrote what I intended to be the first half of this post (about escaping from the VM to the VirtualBox host userspace process with CVE-2017-3558), but I never got around to writing the second half (going from the VirtualBox host userspace process to the host kernel), and eventually sorta forgot about this old post draft… But it seems a bit sad to just leave this old draft rotting around forever, so I decided t",
+      "url": "https://projectzero.google/2025/12/thinking-outside-the-box.html",
+      "source": "Google Project Zero",
+      "author": "Jann Horn",
+      "published": "2025-12-16T01:00:00-08:00",
+      "niche": "security",
+      "score": 74,
+      "keywords": [
+        "CVE-"
+      ]
+    },
+    {
       "id": "b442d90f1c136b20",
       "title": "GitHub Action Secrets aren’t secret anymore: exposed PATs now a direct path into cloud environments",
       "description": "Many enterprises use GitHub Action Secrets to store and protect sensitive information such as credentials, API keys, and tokens used in CI/CD workflows. These private repositories are widely assumed to be safe and locked down. But attackers are now exploiting that blind trust, according to new research from the Wiz Customer Incident Response Team. They found that threat actors are using exposed GitHub Personal Access Tokens (PATs) to access GitHub Action Secrets and sneak into cloud environments",
@@ -2038,6 +1998,34 @@
       ]
     },
     {
+      "id": "c329dad5c6602359",
+      "title": "Cellik Android malware builds malicious versions from Google Play apps",
+      "description": "A new Android malware-as-a-service (MaaS) named Cellik is being advertised on underground cybercrime forums offering a robust set of capabilities that include the option to embed it in any app available on the Google Play Store. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/cellik-android-malware-builds-malicious-versions-from-google-play-apps/",
+      "source": "Bleeping Computer",
+      "author": "Bill Toulas",
+      "published": "2025-12-16T17:59:35-05:00",
+      "niche": "security",
+      "score": 72,
+      "keywords": [
+        "malware"
+      ]
+    },
+    {
+      "id": "cad55d1163a77597",
+      "title": "GhostPoster attacks hide malicious JavaScript in Firefox addon logos",
+      "description": "A new campaign dubbed 'GhostPoster' is hiding JavaScript code in the image logo of malicious Firefox extensions counting more than 50,000 downloads, to monitor browser activity and plant a backdoor. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/ghostposter-attacks-hide-malicious-javascript-in-firefox-addon-logos/",
+      "source": "Bleeping Computer",
+      "author": "Bill Toulas",
+      "published": "2025-12-16T17:17:46-05:00",
+      "niche": "security",
+      "score": 72,
+      "keywords": [
+        "attack"
+      ]
+    },
+    {
       "id": "8e25cce2e6a36555",
       "title": "Behind the breaches: Case studies that reveal adversary motives and modus operandi",
       "description": "In today’s threat landscape, it’s no longer enough to focus solely on malware signatures and IP addresses. Defenders must understand how adversaries think, organize and operate, because attacker intent and methodology are now just as critical as technical artifacts. Recent developments have provided rare visibility into the internal processes of modern threat groups, how they coordinate, communicate, exploit vulnerabilities and adapt their tooling in real time. This kind of behind-the-scenes ins",
@@ -2117,20 +2105,6 @@
         "attack",
         "security",
         "vulnerability"
-      ]
-    },
-    {
-      "id": "35d6324c62656e6e",
-      "title": "SAP fixes three critical vulnerabilities across multiple products",
-      "description": "SAP has released its December security updates addressing 14 vulnerabilities across a range of products, including three critical-severity flaws. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/sap-fixes-three-critical-vulnerabilities-across-multiple-products/",
-      "source": "Bleeping Computer",
-      "author": "Bill Toulas",
-      "published": "2025-12-09T17:41:26-05:00",
-      "niche": "security",
-      "score": 68,
-      "keywords": [
-        "security"
       ]
     },
     {
@@ -2573,23 +2547,6 @@
       ]
     },
     {
-      "id": "da64ee2a301988f2",
-      "title": "Microsoft Patch Tuesday, November 2025 Edition",
-      "description": "Microsoft this week pushed security updates to fix more than 60 vulnerabilities in its Windows operating systems and supported software, including at least one zero-day bug that is already being exploited. Microsoft also fixed a glitch that prevented some Windows 10 users from taking advantage of an extra year of security updates, which is nice because the zero-day flaw and other critical weaknesses patched today affect all versions of Windows, including Windows 10.",
-      "url": "https://krebsonsecurity.com/2025/11/microsoft-patch-tuesday-november-2025-edition/",
-      "source": "Krebs on Security",
-      "author": "BrianKrebs",
-      "published": "2025-11-16T21:47:14+00:00",
-      "niche": "security",
-      "score": 63,
-      "keywords": [
-        "patch",
-        "zero-day",
-        "exploit",
-        "security"
-      ]
-    },
-    {
       "id": "c78499d519dad734",
       "title": "Si vous utilisez Gogs, vous avez un gros problème",
       "description": "En 2016, je vous parlais de Gogs , ce petit serveur Git auto-hébergé super léger qui s&rsquo;installe en 10 secondes et c&rsquo;est encore aujourd&rsquo;hui une alternative sympa à GitHub pour ceux qui voulaient garder leur code chez eux. Mais attention, si vous l&rsquo;utilisez, il va falloir agir vite parce que là, c&rsquo;est la catastrophe. Des chercheurs de Wiz viennent de découvrir que plus de 700 instances Gogs exposées sur Internet ont été compromises via une faille zero-day baptisée CVE",
@@ -2652,6 +2609,47 @@
       ]
     },
     {
+      "id": "bb60ff15b01935d0",
+      "title": "Weekly Update 482",
+      "description": "Perhaps it&apos;s just the time of year where we all start to wind down a bit, or maybe I&apos;m just tired after another massive 12 months, but this week&apos;s vid is way late. Ok, going away to the place that had just been breached",
+      "url": "https://www.troyhunt.com/weekly-update-482/",
+      "source": "Troy Hunt",
+      "author": "Troy Hunt",
+      "published": "2025-12-16T22:52:14+00:00",
+      "niche": "security",
+      "score": 62,
+      "keywords": [
+        "breach"
+      ]
+    },
+    {
+      "id": "28a6fb1f0f6f8d31",
+      "title": "Russian APT group pivots to network edge device misconfigurations",
+      "description": "A Russian state-sponsored cyberespionage group has been targeting energy companies and critical infrastructure providers by exploiting misconfigurations in network-edge devices. The group has been operating since at least 2021 and has exploited device misconfigurations before but also known vulnerabilities such as CVE-2022-26318 in WatchGuard Firebox and XTM appliances, CVE-2021-26084 and CVE-2023-22518 in Confluence or CVE-2023-2753 in Veeam Backup. However, according to telemetry collected by ",
+      "url": "https://www.csoonline.com/article/4107406/russian-apt-group-pivots-to-network-edge-device-misconfigurations.html",
+      "source": "CSO Online",
+      "author": "Inconnu",
+      "published": "2025-12-16T23:54:27+00:00",
+      "niche": "security",
+      "score": 62,
+      "keywords": [
+        "CVE-",
+        "exploit"
+      ]
+    },
+    {
+      "id": "20667d7bad834c58",
+      "title": "Welcome to the new Project Zero Blog",
+      "description": "While on Project Zero, we aim for our research to be leading-edge, our blog design was … not so much. We welcome readers to our shiny new blog! For the occasion, we asked members of Project Zero to dust off old blog posts that never quite saw the light of day. And while we wish we could say the techniques they cover are no longer relevant, there is still a lot of work that needs to be done to protect users against zero days. Our new blog will continue to shine a light on the capabilities of atta",
+      "url": "https://projectzero.google/2025/12/welcome.html",
+      "source": "Google Project Zero",
+      "author": "Natalie Silvanovich",
+      "published": "2025-12-16T02:00:00-08:00",
+      "niche": "security",
+      "score": 62,
+      "keywords": []
+    },
+    {
       "id": "bd982e4c66d5dc32",
       "title": "2025 CWE Top 25 Most Dangerous Software Weaknesses",
       "description": "The Cybersecurity and Infrastructure Security Agency (CISA), in collaboration with the Homeland Security Systems Engineering and Development Institute (HSSEDI), operated by the MITRE Corporation, has released the 2025 Common Weakness Enumeration (CWE) Top 25 Most Dangerous Software Weaknesses. This annual list identifies the most critical weaknesses adversaries exploit to compromise systems, steal data, or disrupt services.  Prioritizing the weaknesses outlined in the Top 25 is integral to CISA’",
@@ -2679,8 +2677,8 @@
       "score": 61,
       "keywords": [
         "OWASP",
-        "security",
         "secure",
+        "security",
         "RCE"
       ]
     },
@@ -2760,20 +2758,6 @@
         "threat",
         "breach",
         "security"
-      ]
-    },
-    {
-      "id": "6d9127594172fba9",
-      "title": "Japanese Firms Suffer Long Tail of Ransomware Damage",
-      "description": "Ransomware actors have targeted manufacturers, retailers, and the Japanese government, with many organizations requiring months to recover.",
-      "url": "https://www.darkreading.com/cyberattacks-data-breaches/japanese-firms-suffer-long-tail-ransomware-damage",
-      "source": "Dark Reading",
-      "author": "Robert Lemos, Contributing Writer",
-      "published": "2025-12-10T00:00:00+00:00",
-      "niche": "security",
-      "score": 58,
-      "keywords": [
-        "ransomware"
       ]
     },
     {
@@ -3364,6 +3348,21 @@
       ]
     },
     {
+      "id": "89d62564e7f0a881",
+      "title": "A look at an Android ITW DNG exploit",
+      "description": "Introduction Between July 2024 and February 2025, 6 suspicious image files were uploaded to VirusTotal. Thanks to a lead from Meta, these samples came to the attention of Google Threat Intelligence Group. Investigation of these images showed that these images were DNG files targeting the Quram library, an image parsing library specific to Samsung devices. On November 7, 2025 Unit 42 released a blogpost describing how these exploits were used and the spyware they dropped. In this blogpost, we wou",
+      "url": "https://projectzero.google/2025/12/android-itw-dng.html",
+      "source": "Google Project Zero",
+      "author": "Benoît Sevens, Google Threat Intelligence Group",
+      "published": "2025-12-12T02:00:00-08:00",
+      "niche": "security",
+      "score": 54,
+      "keywords": [
+        "threat",
+        "exploit"
+      ]
+    },
+    {
       "id": "dd7900fcb405bb5a",
       "title": "Pourquoi la Russie ne peut pas bloquer iMessage",
       "description": "Y&rsquo;a un truc que j&rsquo;adore avec Apple, c&rsquo;est quand ils nous font des petits moves de génie en douce, sans que personne s&rsquo;en rende compte. Et en voici un que John Gruber de Daring Fireball vient de débusquer. Vous ne le savez peut-être pas mais la Russie vient de bloquer des tas de services comme Whatsapp, Snapchat ou encore FaceTime sur son territoire. Officiellement, c&rsquo;est parce que le FSB (les services secrets russes) ne peut pas espionner les appels chiffrés de bout",
@@ -3682,35 +3681,35 @@
       ]
     },
     {
-      "id": "e6ba17b22146b61c",
+      "id": "12a0d5d6178ee127",
       "title": "Policy and Disclosure: 2025 Edition",
       "description": "Posted by Tim Willis, Google Project Zero In 2021, we updated our vulnerability disclosure policy to the current \"90+30\" model. Our goals were to drive faster yet thorough patch development, and improve patch adoption. While we&rsquo;ve seen progress, a significant challenge remains: the time it takes for a fix to actually reach an end-user's device.This delay, often called the \"patch gap,\" is a complex problem. Many consider the patch gap to be the time between a fix being released for a securi",
-      "url": "https://googleprojectzero.blogspot.com/2025/07/reporting-transparency.html",
+      "url": "https://projectzero.google/2025/07/reporting-transparency.html",
       "source": "Google Project Zero",
-      "author": "Google Project Zero (noreply@blogger.com)",
-      "published": "2025-07-29T07:54:00-07:00",
+      "author": "Tim Willis",
+      "published": "2025-07-29T00:00:00-07:00",
       "niche": "security",
       "score": 51,
       "keywords": [
-        "vulnerability",
         "disclosure",
-        "patch"
+        "patch",
+        "vulnerability"
       ]
     },
     {
-      "id": "dc055583caed8124",
+      "id": "2f17b400dcf7eb3f",
       "title": "The Windows Registry Adventure #8: Practical exploitation of hive memory corruption",
       "description": "Posted by Mateusz Jurczyk, Google Project Zero In the previous blog post, we focused on the general security analysis of the registry and how to effectively approach finding vulnerabilities in it. Here, we will direct our attention to the exploitation of hive-based memory corruption bugs, i.e., those that allow an attacker to overwrite data within an active hive mapping in memory. This is a class of issues characteristic of the Windows registry, but universal enough that the techniques described",
-      "url": "https://googleprojectzero.blogspot.com/2025/05/the-windows-registry-adventure-8-exploitation.html",
+      "url": "https://projectzero.google/2025/05/the-windows-registry-adventure-8-exploitation.html",
       "source": "Google Project Zero",
-      "author": "Google Project Zero (noreply@blogger.com)",
-      "published": "2025-05-28T11:09:00-07:00",
+      "author": "Mateusz Jurczyk",
+      "published": "2025-05-28T00:00:00-07:00",
       "niche": "security",
       "score": 51,
       "keywords": [
+        "security",
         "attack",
-        "exploit",
-        "security"
+        "exploit"
       ]
     },
     {
@@ -3983,33 +3982,33 @@
       ]
     },
     {
-      "id": "eb7482bd5eacf0bc",
-      "title": "Is Your Android TV Streaming Box Part of a Botnet?",
-      "description": "On the surface, the Superbox media streaming devices for sale at retailers like BestBuy and Walmart may seem like a steal: They offer unlimited access to more than 2,200 pay-per-view and streaming services like Netflix, ESPN and Hulu, all for a one-time fee of around $400. But security experts warn these TV boxes require intrusive software that forces the user's network to relay Internet traffic for others, traffic that is often tied to cybercrime activity such as advertising fraud and account t",
-      "url": "https://krebsonsecurity.com/2025/11/is-your-android-tv-streaming-box-part-of-a-botnet/",
-      "source": "Krebs on Security",
-      "author": "BrianKrebs",
-      "published": "2025-11-24T18:44:52+00:00",
+      "id": "cc4a6ce6bfb71cad",
+      "title": "Pointer leaks through pointer-keyed data structures",
+      "description": "Introduction Some time in 2024, during a Project Zero team discussion, we were talking about how remote ASLR leaks would be helpful or necessary for exploiting some types of memory corruption bugs, specifically in the context of Apple devices. Coming from the angle of “where would be a good first place to look for a remote ASLR leak”, this led to the discovery of a trick that could potentially be used to leak a pointer remotely, without any memory safety violations or timing attacks, in scenario",
+      "url": "https://projectzero.google/2025/09/pointer-leaks-through-pointer-keyed.html",
+      "source": "Google Project Zero",
+      "author": "Jann Horn",
+      "published": "2025-09-26T00:00:00-07:00",
       "niche": "security",
       "score": 48,
       "keywords": [
-        "security",
-        "RCE"
+        "attack",
+        "exploit"
       ]
     },
     {
-      "id": "e176602525f70707",
+      "id": "81393f2de5846262",
       "title": "From Chrome renderer code exec to kernel with MSG_OOB",
-      "description": "Posted by Jann Horn, Google Project ZeroIntroduction In early June, I was reviewing a new Linux kernel feature when I learned about the MSG_OOB feature supported by stream-oriented UNIX domain sockets. I reviewed the implementation of MSG_OOB, and discovered a security bug (CVE-2025-38236) affecting Linux >=6.9. I reported the bug to Linux, and it got fixed. Interestingly, while the MSG_OOB feature is not used by Chrome, it was exposed in the Chrome renderer sandbox. (Since then, sending MSG_OOB",
-      "url": "https://googleprojectzero.blogspot.com/2025/08/from-chrome-renderer-code-exec-to-kernel.html",
+      "description": "Introduction In early June, I was reviewing a new Linux kernel feature when I learned about the MSG_OOB feature supported by stream-oriented UNIX domain sockets. I reviewed the implementation of MSG_OOB, and discovered a security bug (CVE-2025-38236) affecting Linux >=6.9. I reported the bug to Linux, and it got fixed. Interestingly, while the MSG_OOB feature is not used by Chrome, it was exposed in the Chrome renderer sandbox. (Since then, sending MSG_OOB messages has been blocked in Chrome ren",
+      "url": "https://projectzero.google/2025/08/from-chrome-renderer-code-exec-to-kernel.html",
       "source": "Google Project Zero",
-      "author": "Google Project Zero (noreply@blogger.com)",
-      "published": "2025-08-08T03:43:00-07:00",
+      "author": "Jann Horn",
+      "published": "2025-08-08T00:00:00-07:00",
       "niche": "security",
       "score": 48,
       "keywords": [
-        "security",
-        "CVE-"
+        "CVE-",
+        "security"
       ]
     },
     {
@@ -4154,6 +4153,21 @@
       "keywords": []
     },
     {
+      "id": "c2a162e177fbf3bf",
+      "title": "FortiGate firewall credentials being stolen after vulnerabilities discovered",
+      "description": "Threat actors aren’t wasting time taking advantage of newly-revealed vulnerabilities in Fortinet device authentication. Researchers at Arctic Wolf said they are seeing malicious single sign on (SSO) attempts trying to leverage the holes in FortiGate next generation firewalls since Fortinet alerted admins about the vulnerabilities on December 9. “We have seen tens of intrusions since December 12, 2025,” a spokesperson for Arctic Wolf Labs told CSO. “So far, the pattern of activity has appeared to",
+      "url": "https://www.csoonline.com/article/4107440/fortigate-firewall-credentials-being-stolen-after-vulnerabilities-discovered.html",
+      "source": "CSO Online",
+      "author": "Inconnu",
+      "published": "2025-12-17T01:36:01+00:00",
+      "niche": "security",
+      "score": 46,
+      "keywords": [
+        "threat",
+        "firewall"
+      ]
+    },
+    {
       "id": "fbd35c8a802a70da",
       "title": "Fortinet admins urged to update software to close FortiCloud SSO holes",
       "description": "Admins using FortiCloud SSO (single sign on) to authenticate access to Fortinet products are urged to upgrade the software running some of the company’s gateway products as soon as possible, or risk their networks being compromised. “Users of Fortinet appliances should, for now, disable SSO until they are able to patch the devices,” advised Johannes Ullrich, dean of research at the SANS Institute. “However, in the long run, this is not a reason to abandon SSO, and it should be re-enabled after t",
@@ -4295,16 +4309,18 @@
       ]
     },
     {
-      "id": "52c6df2e229b0454",
-      "title": "ISC Stormcast For Wednesday, December 10th, 2025 https://isc.sans.edu/podcastdetail/9732, (Wed, Dec 10th)",
-      "description": "",
-      "url": "https://isc.sans.edu/diary/rss/32552",
-      "source": "SANS Internet Storm Center",
-      "author": "Inconnu",
-      "published": "2025-12-10T00:35:23+00:00",
+      "id": "cf86ffc25ee7b14b",
+      "title": "A cyber attack hit Petróleos de Venezuela (PDVSA) disrupting export operations",
+      "description": "A cyber attack hit Petróleos de Venezuela (PDVSA), Venezuela&#8217;s state-owned oil company, over the weekend, disrupting its export operations. Venezuela’s state oil company PDVSA was hit by a cyberattack over the weekend that disrupted export operations. The company says the incident only affected some administrative systems and did not impact operations. “Thanks to the expertise [&#8230;]",
+      "url": "https://securityaffairs.com/185755/security/a-cyber-attack-hit-petroleos-de-venezuela-pdvsa-disrupting-export-operations.html",
+      "source": "Security Affairs",
+      "author": "Pierluigi Paganini",
+      "published": "2025-12-16T23:48:12+00:00",
       "niche": "security",
-      "score": 44,
-      "keywords": []
+      "score": 45,
+      "keywords": [
+        "attack"
+      ]
     },
     {
       "id": "06b76a38df9bdbaa",
@@ -4367,27 +4383,13 @@
       "keywords": []
     },
     {
-      "id": "054462437f4ac6f7",
+      "id": "05b3fed2988988c2",
       "title": "Defeating KASLR by Doing Nothing at All",
-      "description": "Posted by Seth Jenkins, Project ZeroIntroductionI've recently been researching Pixel kernel exploitation and as part of this research I found myself with an excellent arbitrary write primitive…but without a KASLR leak. As necessity is the mother of all invention, on a hunch, I started researching the Linux kernel linear mapping.The Linux Linear MappingThe linear mapping is a region in the kernel virtual address space that is a direct 1:1 unstructured representation of physical memory. Working wi",
-      "url": "https://googleprojectzero.blogspot.com/2025/11/defeating-kaslr-by-doing-nothing-at-all.html",
+      "description": "Introduction I’ve recently been researching Pixel kernel exploitation and as part of this research I found myself with an excellent arbitrary write primitive…but without a KASLR leak. As necessity is the mother of all invention, on a hunch, I started researching the Linux kernel linear mapping. The Linux Linear Mapping The linear mapping is a region in the kernel virtual address space that is a direct 1:1 unstructured representation of physical memory. Working with Jann, I learned how the kernel",
+      "url": "https://projectzero.google/2025/11/defeating-kaslr-by-doing-nothing-at-all.html",
       "source": "Google Project Zero",
-      "author": "Google Project Zero (noreply@blogger.com)",
-      "published": "2025-11-03T10:09:00-08:00",
-      "niche": "security",
-      "score": 44,
-      "keywords": [
-        "exploit"
-      ]
-    },
-    {
-      "id": "885bd2410101a452",
-      "title": "Pointer leaks through pointer-keyed data structures",
-      "description": "Posted by Jann Horn, Google Project Zero IntroductionSome time in 2024, during a Project Zero team discussion, we were talking about how remote ASLR leaks would be helpful or necessary for exploiting some types of memory corruption bugs, specifically in the context of Apple devices. Coming from the angle of \"where would be a good first place to look for a remote ASLR leak\", this led to the discovery of a trick that could potentially be used to leak a pointer remotely, without any memory safety v",
-      "url": "https://googleprojectzero.blogspot.com/2025/09/pointer-leaks-through-pointer-keyed.html",
-      "source": "Google Project Zero",
-      "author": "Google Project Zero (noreply@blogger.com)",
-      "published": "2025-09-26T10:00:00-07:00",
+      "author": "Seth Jenkins",
+      "published": "2025-11-03T00:00:00-08:00",
       "niche": "security",
       "score": 44,
       "keywords": [
@@ -4405,8 +4407,8 @@
       "niche": "security",
       "score": 44,
       "keywords": [
-        "security",
-        "CVE-"
+        "CVE-",
+        "security"
       ]
     },
     {
@@ -4421,8 +4423,8 @@
       "score": 43,
       "keywords": [
         "OWASP",
-        "security",
         "secure",
+        "security",
         "RCE"
       ]
     },
@@ -5155,33 +5157,19 @@
       "score": 37,
       "keywords": [
         "web application security",
+        "OWASP",
         "threat",
-        "security",
-        "OWASP"
+        "security"
       ]
     },
     {
-      "id": "466ed86eb766605b",
-      "title": "Google Sues to Disrupt Chinese SMS Phishing Triad",
-      "description": "Google is suing more than two dozen unnamed individuals allegedly involved in peddling a popular China-based mobile phishing service that helps scammers impersonate hundreds of trusted brands, blast out text message lures, and convert phished payment card data into mobile wallets from Apple and Google.",
-      "url": "https://krebsonsecurity.com/2025/11/google-sues-to-disrupt-chinese-sms-phishing-triad/",
-      "source": "Krebs on Security",
-      "author": "BrianKrebs",
-      "published": "2025-11-13T14:47:22+00:00",
-      "niche": "security",
-      "score": 36,
-      "keywords": [
-        "phishing"
-      ]
-    },
-    {
-      "id": "0814857b702ff006",
+      "id": "11d19dcee7912d18",
       "title": "The Windows Registry Adventure #7: Attack surface analysis",
       "description": "Posted by Mateusz Jurczyk, Google Project Zero In the first three blog posts of this series, I sought to outline what the Windows Registry actually is, its role, history, and where to find further information about it. In the subsequent three posts, my goal was to describe in detail how this mechanism works internally &ndash; from the perspective of its clients (e.g., user-mode applications running on Windows), the regf format used to encode hives, and finally the kernel itself, which contains i",
-      "url": "https://googleprojectzero.blogspot.com/2025/05/the-windows-registry-adventure-7-attack-surface.html",
+      "url": "https://projectzero.google/2025/05/the-windows-registry-adventure-7-attack-surface.html",
       "source": "Google Project Zero",
-      "author": "Google Project Zero (noreply@blogger.com)",
-      "published": "2025-05-23T02:05:00-07:00",
+      "author": "Mateusz Jurczyk",
+      "published": "2025-05-23T00:00:00-07:00",
       "niche": "security",
       "score": 36,
       "keywords": [
@@ -5211,10 +5199,10 @@
       "niche": "security",
       "score": 34,
       "keywords": [
-        "cybersecurity",
+        "OWASP",
         "threat",
         "security",
-        "OWASP"
+        "cybersecurity"
       ]
     },
     {
@@ -5242,24 +5230,9 @@
       "niche": "security",
       "score": 31,
       "keywords": [
-        "security",
+        "OWASP",
         "secure",
-        "OWASP"
-      ]
-    },
-    {
-      "id": "ec0fc13b2d59bbf0",
-      "title": "SMS Phishers Pivot to Points, Taxes, Fake Retailers",
-      "description": "China-based phishing groups blamed for non-stop scam SMS messages about a supposed wayward package or unpaid toll fee are promoting a new offering, just in time for the holiday shopping season: Phishing kits for mass-creating fake but convincing e-commerce websites that convert customer payment card data into mobile wallets from Apple and Google. Experts say these same phishing groups also are now using SMS lures that promise unclaimed tax refunds and mobile rewards points.",
-      "url": "https://krebsonsecurity.com/2025/12/sms-phishers-pivot-to-points-taxes-fake-retailers/",
-      "source": "Krebs on Security",
-      "author": "BrianKrebs",
-      "published": "2025-12-04T23:02:34+00:00",
-      "niche": "security",
-      "score": 30,
-      "keywords": [
-        "phishing",
-        "RCE"
+        "security"
       ]
     },
     {
@@ -5273,8 +5246,8 @@
       "niche": "security",
       "score": 30,
       "keywords": [
-        "security",
-        "OWASP"
+        "OWASP",
+        "security"
       ]
     },
     {
@@ -5462,21 +5435,6 @@
       ]
     },
     {
-      "id": "32f4426a5ea2c64a",
-      "title": "The Cloudflare Outage May Be a Security Roadmap",
-      "description": "An intermittent outage at Cloudflare on Tuesday briefly knocked many of the Internet's top destinations offline. Some affected Cloudflare customers were able to pivot away from the platform temporarily so that visitors could still access their websites. But security experts say doing so may have also triggered an impromptu network penetration test for organizations that have come to rely on Cloudflare to block many types of abusive and malicious traffic.",
-      "url": "https://krebsonsecurity.com/2025/11/the-cloudflare-outage-may-be-a-security-roadmap/",
-      "source": "Krebs on Security",
-      "author": "BrianKrebs",
-      "published": "2025-11-19T14:07:03+00:00",
-      "niche": "security",
-      "score": 21,
-      "keywords": [
-        "security",
-        "penetration test"
-      ]
-    },
-    {
       "id": "2fe65994d231e419",
       "title": "[webapps] phpMyFAQ 2.9.8 - Cross-Site Request Forgery(CSRF)",
       "description": "phpMyFAQ 2.9.8 - Cross-Site Request Forgery(CSRF)",
@@ -5547,21 +5505,6 @@
       ]
     },
     {
-      "id": "3544739788ef4353",
-      "title": "Mozilla Says It’s Finally Done With Two-Faced Onerep",
-      "description": "In March 2024, Mozilla said it was winding down its collaboration with Onerep -- an identity protection service offered with the Firefox web browser that promises to remove users from hundreds of people-search sites -- after KrebsOnSecurity revealed Onerep's founder had created dozens of people-search services and was continuing to operate at least one of them. Sixteen months later, however, Mozilla is still promoting Onerep. This week, Mozilla announced their partnership with Onerep will offici",
-      "url": "https://krebsonsecurity.com/2025/11/mozilla-says-its-finally-done-with-two-faced-onerep/",
-      "source": "Krebs on Security",
-      "author": "BrianKrebs",
-      "published": "2025-11-20T19:06:51+00:00",
-      "niche": "security",
-      "score": 19,
-      "keywords": [
-        "protection",
-        "security"
-      ]
-    },
-    {
       "id": "ea3ec18ab9bbd500",
       "title": "Hacking with Burp AI in the Chesspocalypse: API expert Corey Ball showcases how Burp AI can support pentesters.",
       "description": "AI isn’t just reshaping cybersecurity - it’s challenging testers to rethink their entire playbook. In his latest article, “Hacking with Burp AI in the Chesspocalypse”, API expert Corey Ball draws less",
@@ -5572,23 +5515,9 @@
       "niche": "security",
       "score": 19,
       "keywords": [
-        "cybersecurity",
+        "PoC",
         "security",
-        "PoC"
-      ]
-    },
-    {
-      "id": "f3d74341ccf7906d",
-      "title": "Meet Rey, the Admin of ‘Scattered Lapsus$ Hunters’",
-      "description": "A prolific cybercriminal group that calls itself \"Scattered LAPSUS$ Hunters\" made headlines regularly this year by stealing data from and publicly mass extorting dozens of major corporations. But the tables seem to have turned somewhat for \"Rey,\" the moniker chosen by the technical operator and public face of the hacker group: Earlier this week, Rey confirmed his real life identity and agreed to an interview after KrebsOnSecurity tracked him down and contacted his father.",
-      "url": "https://krebsonsecurity.com/2025/11/meet-rey-the-admin-of-scattered-lapsus-hunters/",
-      "source": "Krebs on Security",
-      "author": "BrianKrebs",
-      "published": "2025-11-26T17:22:36+00:00",
-      "niche": "security",
-      "score": 18,
-      "keywords": [
-        "security"
+        "cybersecurity"
       ]
     },
     {
@@ -5646,16 +5575,47 @@
       "keywords": []
     },
     {
-      "id": "87dbc9b73ce290e7",
-      "title": "Drones to Diplomas: How Russia’s Largest Private University is Linked to a $25M Essay Mill",
-      "description": "A sprawling academic cheating network turbocharged by Google Ads that has generated nearly $25 million in revenue has curious connections to a Kremlin-connected oligarch whose Russian university builds drones for Russia's war against Ukraine.",
-      "url": "https://krebsonsecurity.com/2025/12/drones-to-diplomas-how-russias-largest-private-university-is-linked-to-a-25m-essay-mill/",
-      "source": "Krebs on Security",
-      "author": "BrianKrebs",
-      "published": "2025-12-06T14:45:03+00:00",
+      "id": "bd943f36ce991930",
+      "title": "California man admits role in $263 million cryptocurrency theft that funded lavish lifestyle",
+      "description": "When you spend half a million dollars in a single night at a nightclub, purchase exotic cars worth millions, and rent mansions under false names, you are risking drawing attention to yourself... Read more in my article on the Hot for Security blog.",
+      "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/california-man-admits-role-in-263-million-cryptocurrency-theft-that-funded-lavish-lifestyle",
+      "source": "Graham Cluley",
+      "author": "Graham Cluley",
+      "published": "2025-12-09T16:13:48+00:00",
       "niche": "security",
-      "score": 14,
-      "keywords": []
+      "score": 15,
+      "keywords": [
+        "security"
+      ]
+    },
+    {
+      "id": "f80af7b359c9369c",
+      "title": "Privacy concerns raised as Grok AI found to be a stalker’s best friend",
+      "description": "Grok, the AI chatbot developed by Elon Musk's xAI, has been found to exhibit more alarming behaviour - this time revealing the home addresses of ordinary people upon request. Read more in my article on the Hot for Security blog.",
+      "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/privacy-concerns-raised-as-grok-ai-found-to-be-a-stalkers-best-friend",
+      "source": "Graham Cluley",
+      "author": "Graham Cluley",
+      "published": "2025-12-08T14:45:48+00:00",
+      "niche": "security",
+      "score": 15,
+      "keywords": [
+        "security"
+      ]
+    },
+    {
+      "id": "a04f8bd555756097",
+      "title": "Why the record-breaking 30 Tbps DDoS attack should concern every business",
+      "description": "A new warning about the threat posed by Distributed Denial of Service (DDoS) attacks should make you sit up and listen. Read more in my article on the Fortra blog.",
+      "url": "https://www.fortra.com/blog/why-record-breaking-30-tbps-ddos-attack-concern-business",
+      "source": "Graham Cluley",
+      "author": "Graham Cluley",
+      "published": "2025-12-04T17:41:41+00:00",
+      "niche": "security",
+      "score": 15,
+      "keywords": [
+        "attack",
+        "threat"
+      ]
     },
     {
       "id": "e423d3f51d837e05",
@@ -5725,18 +5685,6 @@
       "source": "Troy Hunt",
       "author": "Troy Hunt",
       "published": "2025-11-12T12:27:54+00:00",
-      "niche": "security",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "246db8eeacb47a43",
-      "title": "How We (Almost) Found Chromium's Bug via Crash Reports to Report URI",
-      "description": "Tracking down bugs in software is a pain that all of us who write code must bear. When we&apos;re talking about outright errors in a web page, you typically have something to get you started (such as output in the console), but that wasn&apos;t the case",
-      "url": "https://www.troyhunt.com/how-we-almost-found-chromiums-bug-via-crash-reports-to-report-uri/",
-      "source": "Troy Hunt",
-      "author": "Troy Hunt",
-      "published": "2025-10-27T09:09:21+00:00",
       "niche": "security",
       "score": 14,
       "keywords": []
@@ -5836,6 +5784,18 @@
       "keywords": [
         "protection"
       ]
+    },
+    {
+      "id": "b44a4490e1e13962",
+      "title": "The AI Fix #80: DeepSeek’s cheap GPT-5 rival, Antigravity fails, and your LLM likes it when you’re rude",
+      "description": "In episode 80 of The AI Fix, your hosts look at DeepSeek 3.2 “Speciale”, the bargain-basement model that claims GPT-5-level brains at 10% of the price, Jensen Huang’s reassuring vision of a robot fashion industry, and a 75kg T-800 style humanoid that can do flying kicks because robot-marketing departments have clearly learned nothing from Terminator. Meanwhile in Miami, flesh-coloured robot dogs with hyper-realistic billionaire heads wander around pooping NFT “excrement samples” out of their rea",
+      "url": "https://grahamcluley.com/the-ai-fix-80/",
+      "source": "Graham Cluley",
+      "author": "Graham Cluley",
+      "published": "2025-12-09T15:30:17+00:00",
+      "niche": "security",
+      "score": 12,
+      "keywords": []
     },
     {
       "id": "ca005d40b9acd885",
