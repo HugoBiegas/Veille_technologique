@@ -1,41 +1,7 @@
 {
-  "last_updated": "2025-12-17T18:39:52.717548+00:00",
-  "total_articles": 408,
+  "last_updated": "2025-12-17T21:26:12.701935+00:00",
+  "total_articles": 406,
   "articles": [
-    {
-      "id": "a3b301e5720fc3bb",
-      "title": "React2Shell Exploitation Delivers Crypto Miners and New Malware Across Multiple Sectors",
-      "description": "React2Shell continues to witness heavy exploitation, with threat actors leveraging the maximum-severity security flaw in React Server Components (RSC) to deliver cryptocurrency miners and an array of previously undocumented malware families, according to new findings from Huntress. This includes a Linux backdoor called PeerBlight, a reverse proxy tunnel named CowTunnel, and a Go-based",
-      "url": "https://thehackernews.com/2025/12/react2shell-exploitation-delivers.html",
-      "source": "The Hacker News",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2025-12-11T01:49:00+05:30",
-      "niche": "security",
-      "score": 100,
-      "keywords": [
-        "exploit",
-        "threat",
-        "security flaw",
-        "security",
-        "malware"
-      ]
-    },
-    {
-      "id": "b9020b93b7dfd3cb",
-      "title": ".NET SOAPwn Flaw Opens Door for File Writes and Remote Code Execution via Rogue WSDL",
-      "description": "New research has uncovered exploitation primitives in the .NET Framework that could be leveraged against enterprise-grade applications to achieve remote code execution. WatchTowr Labs, which has codenamed the \"invalid cast vulnerability\" SOAPwn, said the issue impacts Barracuda Service Center RMM, Ivanti Endpoint Manager (EPM), and Umbraco 8. But the number of affected vendors is likely to be",
-      "url": "https://thehackernews.com/2025/12/net-soapwn-flaw-opens-door-for-file.html",
-      "source": "The Hacker News",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2025-12-11T00:51:00+05:30",
-      "niche": "security",
-      "score": 100,
-      "keywords": [
-        "exploit",
-        "remote code execution",
-        "vulnerability"
-      ]
-    },
     {
       "id": "914e65e76ac89cd8",
       "title": "Active Attacks Exploit Gladinet's Hard-Coded Keys for Unauthorized Access and Code Execution",
@@ -393,6 +359,42 @@
         "ransomware",
         "exploit",
         "vulnerability"
+      ]
+    },
+    {
+      "id": "3338790e622fa1e9",
+      "title": "SonicWall Fixes Actively Exploited CVE-2025-40602 in SMA 100 Appliances",
+      "description": "SonicWall has rolled out fixes to address a security flaw in Secure Mobile Access (SMA) 100 series appliances that it said has been actively exploited in the wild. The vulnerability, tracked as CVE-2025-40602 (CVSS score: 6.6), concerns a case of local privilege escalation that arises as a result of insufficient authorization in the appliance management console (AMC). It affects the following",
+      "url": "https://thehackernews.com/2025/12/sonicwall-fixes-actively-exploited-cve.html",
+      "source": "The Hacker News",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2025-12-17T23:47:00+05:30",
+      "niche": "security",
+      "score": 100,
+      "keywords": [
+        "CVE-",
+        "secure",
+        "security flaw",
+        "vulnerability",
+        "privilege escalation"
+      ]
+    },
+    {
+      "id": "8f558ef50d36e98d",
+      "title": "Cisco warns of unpatched AsyncOS zero-day exploited in attacks",
+      "description": "​Cisco warned customers today of an unpatched, maximum-severity Cisco AsyncOS zero-day actively exploited in attacks targeting Secure Email Gateway (SEG) and Secure Email and Web Manager (SEWM) appliances. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-unpatched-asyncos-zero-day-exploited-in-attacks/",
+      "source": "Bleeping Computer",
+      "author": "Sergiu Gatlan",
+      "published": "2025-12-17T13:45:36-05:00",
+      "niche": "security",
+      "score": 100,
+      "keywords": [
+        "secure",
+        "attack",
+        "zero-day",
+        "patch",
+        "exploit"
       ]
     },
     {
@@ -930,6 +932,23 @@
       ]
     },
     {
+      "id": "049d3f4717014858",
+      "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+      "description": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2025-20393 Cisco Multiple Products Improper Input Validation Vulnerability CVE-2025-40602 SonicWall SMA1000 Missing Authorization Vulnerability CVE-2025-59374 ASUS Live Update Embedded Malicious Code Vulnerability These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.   Bin",
+      "url": "https://www.cisa.gov/news-events/alerts/2025/12/17/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+      "source": "CISA Cybersecurity Advisories",
+      "author": "CISA",
+      "published": "2025-12-17T12:00:00+00:00",
+      "niche": "security",
+      "score": 84,
+      "keywords": [
+        "CVE-",
+        "vulnerability",
+        "attack",
+        "exploit"
+      ]
+    },
+    {
       "id": "914ea96c03be3eb9",
       "title": "Hidden .NET HTTP proxy behavior can open RCE flaws in apps — a security issue Microsoft won’t fix",
       "description": "Researchers uncovered an unexpected behavior of HTTP client proxies when created in .NET code, potentially allowing attackers to write malicious code to arbitrary files. This in turn can open remote code execution (RCE) attack paths through web shells and malicious PowerShell scripts in many .NET applications, including commercial products. Microsoft does not plan to fix this issue in the .NET Framework itself, saying that application developers are responsible for not passing untrusted and user",
@@ -997,6 +1016,24 @@
         "critical vulnerability",
         "attack",
         "vulnerability"
+      ]
+    },
+    {
+      "id": "23c57800ec3b56d1",
+      "title": "SonicWall warns of actively exploited flaw in SMA 100 AMC",
+      "description": "SonicWall warned users to patch a SMA1000 AMC flaw that was exploited as a zero-day privilege escalation vulnerability in attacks. SonicWall urged customers to address a vulnerability, tracked as CVE-2025-40602, in the SMA1000 Appliance Management Console that was exploited as a zero-day in attacks in the wild. The flaw is a local privilege escalation issue [&#8230;]",
+      "url": "https://securityaffairs.com/185809/hacking/sonicwall-warns-of-actively-exploited-flaw-in-sma-100-amc.html",
+      "source": "Security Affairs",
+      "author": "Pierluigi Paganini",
+      "published": "2025-12-17T19:36:14+00:00",
+      "niche": "security",
+      "score": 82,
+      "keywords": [
+        "CVE-",
+        "vulnerability",
+        "attack",
+        "zero-day",
+        "patch"
       ]
     },
     {
@@ -1643,24 +1680,6 @@
       ]
     },
     {
-      "id": "4bb9aff88025a1f1",
-      "title": "Microsoft Patch Tuesday, December 2025 Edition",
-      "description": "Microsoft today pushed updates to fix at least 56 security flaws in its Windows operating systems and supported software. This final Patch Tuesday of 2025 tackles one zero-day bug that is already being exploited, as well as two publicly disclosed vulnerabilities.",
-      "url": "https://krebsonsecurity.com/2025/12/microsoft-patch-tuesday-december-2025-edition/",
-      "source": "Krebs on Security",
-      "author": "BrianKrebs",
-      "published": "2025-12-09T23:18:29+00:00",
-      "niche": "security",
-      "score": 75,
-      "keywords": [
-        "security flaw",
-        "zero-day",
-        "patch",
-        "exploit",
-        "security"
-      ]
-    },
-    {
       "id": "0afd3449de9a9359",
       "title": "Fieldtex Data Breach Impacts 238,000",
       "description": "The Akira ransomware group took credit for the Fieldtex Products hack in November, claiming to have stolen 14 Gb of data. The post Fieldtex Data Breach Impacts 238,000 appeared first on SecurityWeek.",
@@ -1749,21 +1768,6 @@
       "keywords": [
         "cybersecurity",
         "security"
-      ]
-    },
-    {
-      "id": "027a17db52e50804",
-      "title": "Microsoft Teams to warn of suspicious traffic with external domains",
-      "description": "Microsoft is working on a new Teams security feature that will analyze suspicious traffic with external domains to help IT administrators tackle potential security threats. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/microsoft-teams-to-warn-of-suspicious-traffic-with-external-domains/",
-      "source": "Bleeping Computer",
-      "author": "Sergiu Gatlan",
-      "published": "2025-12-10T14:32:08-05:00",
-      "niche": "security",
-      "score": 72,
-      "keywords": [
-        "security",
-        "threat"
       ]
     },
     {
@@ -1951,6 +1955,35 @@
       "niche": "security",
       "score": 72,
       "keywords": [
+        "attack"
+      ]
+    },
+    {
+      "id": "53cafe965cd99ab5",
+      "title": "Kimwolf Botnet Hijacks 1.8 Million Android TVs, Launches Large-Scale DDoS Attacks",
+      "description": "A new distributed denial-of-service (DDoS) botnet known as Kimwolf has enlisted a massive army of no less than 1.8 million infected devices comprising Android-based TVs, set-top boxes, and tablets, and may be associated with another botnet known as AISURU, according to findings from QiAnXin XLab. \"Kimwolf is a botnet compiled using the NDK [Native Development Kit],\" the company said in a report",
+      "url": "https://thehackernews.com/2025/12/kimwolf-botnet-hijacks-18-million.html",
+      "source": "The Hacker News",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2025-12-17T23:39:00+05:30",
+      "niche": "security",
+      "score": 72,
+      "keywords": [
+        "attack"
+      ]
+    },
+    {
+      "id": "e6932c0fd0668524",
+      "title": "WhatsApp device linking abused in account hijacking attacks",
+      "description": "Threat actors are abusing the legitimate device-linking feature to hijack WhatsApp accounts via pairing codes in a campaign dubbed GhostPairing. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/whatsapp-device-linking-abused-in-account-hijacking-attacks/",
+      "source": "Bleeping Computer",
+      "author": "Bill Toulas",
+      "published": "2025-12-17T14:14:30-05:00",
+      "niche": "security",
+      "score": 72,
+      "keywords": [
+        "threat",
         "attack"
       ]
     },
@@ -2474,23 +2507,6 @@
       ]
     },
     {
-      "id": "da64ee2a301988f2",
-      "title": "Microsoft Patch Tuesday, November 2025 Edition",
-      "description": "Microsoft this week pushed security updates to fix more than 60 vulnerabilities in its Windows operating systems and supported software, including at least one zero-day bug that is already being exploited. Microsoft also fixed a glitch that prevented some Windows 10 users from taking advantage of an extra year of security updates, which is nice because the zero-day flaw and other critical weaknesses patched today affect all versions of Windows, including Windows 10.",
-      "url": "https://krebsonsecurity.com/2025/11/microsoft-patch-tuesday-november-2025-edition/",
-      "source": "Krebs on Security",
-      "author": "BrianKrebs",
-      "published": "2025-11-16T21:47:14+00:00",
-      "niche": "security",
-      "score": 63,
-      "keywords": [
-        "zero-day",
-        "security",
-        "patch",
-        "exploit"
-      ]
-    },
-    {
       "id": "c78499d519dad734",
       "title": "Si vous utilisez Gogs, vous avez un gros problème",
       "description": "En 2016, je vous parlais de Gogs , ce petit serveur Git auto-hébergé super léger qui s&rsquo;installe en 10 secondes et c&rsquo;est encore aujourd&rsquo;hui une alternative sympa à GitHub pour ceux qui voulaient garder leur code chez eux. Mais attention, si vous l&rsquo;utilisez, il va falloir agir vite parce que là, c&rsquo;est la catastrophe. Des chercheurs de Wiz viennent de découvrir que plus de 700 instances Gogs exposées sur Internet ont été compromises via une faille zero-day baptisée CVE",
@@ -2646,9 +2662,9 @@
       "niche": "security",
       "score": 61,
       "keywords": [
+        "OWASP",
         "RCE",
         "security",
-        "OWASP",
         "secure"
       ]
     },
@@ -3108,21 +3124,6 @@
       "keywords": [
         "cybersecurity",
         "security"
-      ]
-    },
-    {
-      "id": "4281c00170e670ef",
-      "title": "ClickFix Style Attack Uses Grok, ChatGPT for Malware Delivery",
-      "description": "A new twist on the social engineering tactic is making waves, combining SEO poisoning and legitimate AI domains to install malware on victims' computers.",
-      "url": "https://www.darkreading.com/vulnerabilities-threats/clickfix-style-attack-grok-chatgpt-malware",
-      "source": "Dark Reading",
-      "author": "Alexander Culafi",
-      "published": "2025-12-10T21:02:30+00:00",
-      "niche": "security",
-      "score": 54,
-      "keywords": [
-        "attack",
-        "malware"
       ]
     },
     {
@@ -3658,9 +3659,9 @@
       "niche": "security",
       "score": 51,
       "keywords": [
-        "disclosure",
+        "patch",
         "vulnerability",
-        "patch"
+        "disclosure"
       ]
     },
     {
@@ -3937,21 +3938,6 @@
       ]
     },
     {
-      "id": "eb7482bd5eacf0bc",
-      "title": "Is Your Android TV Streaming Box Part of a Botnet?",
-      "description": "On the surface, the Superbox media streaming devices for sale at retailers like BestBuy and Walmart may seem like a steal: They offer unlimited access to more than 2,200 pay-per-view and streaming services like Netflix, ESPN and Hulu, all for a one-time fee of around $400. But security experts warn these TV boxes require intrusive software that forces the user's network to relay Internet traffic for others, traffic that is often tied to cybercrime activity such as advertising fraud and account t",
-      "url": "https://krebsonsecurity.com/2025/11/is-your-android-tv-streaming-box-part-of-a-botnet/",
-      "source": "Krebs on Security",
-      "author": "BrianKrebs",
-      "published": "2025-11-24T18:44:52+00:00",
-      "niche": "security",
-      "score": 48,
-      "keywords": [
-        "RCE",
-        "security"
-      ]
-    },
-    {
       "id": "cc4a6ce6bfb71cad",
       "title": "Pointer leaks through pointer-keyed data structures",
       "description": "Introduction Some time in 2024, during a Project Zero team discussion, we were talking about how remote ASLR leaks would be helpful or necessary for exploiting some types of memory corruption bugs, specifically in the context of Apple devices. Coming from the angle of “where would be a good first place to look for a remote ASLR leak”, this led to the discovery of a trick that could potentially be used to leak a pointer remotely, without any memory safety violations or timing attacks, in scenario",
@@ -3977,8 +3963,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "security",
-        "CVE-"
+        "CVE-",
+        "security"
       ]
     },
     {
@@ -4429,8 +4415,8 @@
       "niche": "security",
       "score": 44,
       "keywords": [
-        "security",
-        "CVE-"
+        "CVE-",
+        "security"
       ]
     },
     {
@@ -4444,9 +4430,9 @@
       "niche": "security",
       "score": 43,
       "keywords": [
+        "OWASP",
         "RCE",
         "security",
-        "OWASP",
         "secure"
       ]
     },
@@ -4943,22 +4929,6 @@
       "keywords": []
     },
     {
-      "id": "de39f9e791a6a5b6",
-      "title": "GSoC 2025 Recap",
-      "description": "OWASP at Google Summer of Code 2025 Celebrating real impact, strong mentorship, and a growing community The Google Summer of Code (GSoC) 2025 program has wrapped, and OWASP’s participation once again delivered meaningful improvements across the open-source security ecosystem. This year, 15 contributors worked across multiple OWASP projects, supported by 26 mentors. Of the 15 projects evaluated, 10 reached successful completion, three are still working on the final deliveries with extended deadli",
-      "url": "http://owasp.org/blog/2025/10/01/GSoCRecap.html",
-      "source": "OWASP News",
-      "author": "Fabio Cerullo & Starr Brown",
-      "published": "2025-10-01T07:00:00+00:00",
-      "niche": "security",
-      "score": 42,
-      "keywords": [
-        "RCE",
-        "security",
-        "OWASP"
-      ]
-    },
-    {
       "id": "c69311abdeb071c3",
       "title": "Sega Channel - Le Game Pass de 1994 dont personne ne se souvient",
       "description": "Vous pensez que le streaming de jeux et les abonnements type Game Pass étaient des inventions récentes ? Que nenni mes mais, car en 1994, Sega avait déjà inventé ce concept quasiment tout pareil avec le Sega Channel, un service qui permettait de télécharger des jeux Mega Drive directement via le câble TV. C'était y'a 30 ans quand même et pour en profiter, vous deviez brancher un adaptateur spécial dans le port cartouche de votre Mega Drive, vous le connectiez à votre prise de câble TV coaxial, e",
@@ -4969,6 +4939,22 @@
       "niche": "security",
       "score": 42,
       "keywords": []
+    },
+    {
+      "id": "de39f9e791a6a5b6",
+      "title": "GSoC 2025 Recap",
+      "description": "OWASP at Google Summer of Code 2025 Celebrating real impact, strong mentorship, and a growing community The Google Summer of Code (GSoC) 2025 program has wrapped, and OWASP’s participation once again delivered meaningful improvements across the open-source security ecosystem. This year, 15 contributors worked across multiple OWASP projects, supported by 26 mentors. Of the 15 projects evaluated, 10 reached successful completion, three are still working on the final deliveries with extended deadli",
+      "url": "http://owasp.org/blog/2025/10/01/GSoCRecap.html",
+      "source": "OWASP News",
+      "author": "Fabio Cerullo & Starr Brown",
+      "published": "2025-10-01T07:00:00+00:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": [
+        "OWASP",
+        "RCE",
+        "security"
+      ]
     },
     {
       "id": "600d5f53114d9f2d",
@@ -5101,8 +5087,8 @@
       "niche": "security",
       "score": 38,
       "keywords": [
-        "RCE",
-        "OWASP"
+        "OWASP",
+        "RCE"
       ]
     },
     {
@@ -5116,24 +5102,10 @@
       "niche": "security",
       "score": 37,
       "keywords": [
-        "security",
         "OWASP",
         "threat",
+        "security",
         "web application security"
-      ]
-    },
-    {
-      "id": "466ed86eb766605b",
-      "title": "Google Sues to Disrupt Chinese SMS Phishing Triad",
-      "description": "Google is suing more than two dozen unnamed individuals allegedly involved in peddling a popular China-based mobile phishing service that helps scammers impersonate hundreds of trusted brands, blast out text message lures, and convert phished payment card data into mobile wallets from Apple and Google.",
-      "url": "https://krebsonsecurity.com/2025/11/google-sues-to-disrupt-chinese-sms-phishing-triad/",
-      "source": "Krebs on Security",
-      "author": "BrianKrebs",
-      "published": "2025-11-13T14:47:22+00:00",
-      "niche": "security",
-      "score": 36,
-      "keywords": [
-        "phishing"
       ]
     },
     {
@@ -5147,6 +5119,22 @@
       "niche": "security",
       "score": 36,
       "keywords": [
+        "attack"
+      ]
+    },
+    {
+      "id": "11c6951e0a94b0e6",
+      "title": "Ransomware may have extorted over $2.1 billion between 2022-2024, but it’s not all bad news, claims FinCEN report",
+      "description": "A new report from the United States's Financial Crimes Enforcement Network (FinCEN) has shone a revealing light on the state of the criminal industry of ransomware. The report, which examines ransomware incidents from 2022 to 2024, reveals that attackers extorted more than $2.1 billion over the three-year period. Yes, that number is enormous - but it hides a more interesting story beneath it: that after peaking in 2023, ransomware payments actually started to decline. Read more in my article on ",
+      "url": "https://www.fortra.com/blog/ransomware-may-have-extorted-over-21-billion-between-2022-2024-its-not-all-bad-news-claims",
+      "source": "Graham Cluley",
+      "author": "Graham Cluley",
+      "published": "2025-12-10T16:17:02+00:00",
+      "niche": "security",
+      "score": 35,
+      "keywords": [
+        "ransomware",
+        "RCE",
         "attack"
       ]
     },
@@ -5173,10 +5161,10 @@
       "niche": "security",
       "score": 34,
       "keywords": [
-        "cybersecurity",
-        "security",
         "OWASP",
-        "threat"
+        "threat",
+        "security",
+        "cybersecurity"
       ]
     },
     {
@@ -5190,24 +5178,9 @@
       "niche": "security",
       "score": 31,
       "keywords": [
-        "security",
         "OWASP",
+        "security",
         "secure"
-      ]
-    },
-    {
-      "id": "ec0fc13b2d59bbf0",
-      "title": "SMS Phishers Pivot to Points, Taxes, Fake Retailers",
-      "description": "China-based phishing groups blamed for non-stop scam SMS messages about a supposed wayward package or unpaid toll fee are promoting a new offering, just in time for the holiday shopping season: Phishing kits for mass-creating fake but convincing e-commerce websites that convert customer payment card data into mobile wallets from Apple and Google. Experts say these same phishing groups also are now using SMS lures that promise unclaimed tax refunds and mobile rewards points.",
-      "url": "https://krebsonsecurity.com/2025/12/sms-phishers-pivot-to-points-taxes-fake-retailers/",
-      "source": "Krebs on Security",
-      "author": "BrianKrebs",
-      "published": "2025-12-04T23:02:34+00:00",
-      "niche": "security",
-      "score": 30,
-      "keywords": [
-        "RCE",
-        "phishing"
       ]
     },
     {
@@ -5221,8 +5194,24 @@
       "niche": "security",
       "score": 30,
       "keywords": [
+        "OWASP",
+        "security"
+      ]
+    },
+    {
+      "id": "84ce414813abddf3",
+      "title": "Four years later, Irish health service offers €750 to victims of ransomware attack",
+      "description": "Remember when a notorious ransomware gang hit the Irish Health Service back in May 2021? Four years on, and it seems victims who had their data exposed will finally receive compensation. Read more in my article on the Hot for Security blog.",
+      "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/four-years-later-irish-health-service-offers-eu750-to-victims-of-ransomware-attack",
+      "source": "Graham Cluley",
+      "author": "Graham Cluley",
+      "published": "2025-12-10T12:00:59+00:00",
+      "niche": "security",
+      "score": 28,
+      "keywords": [
+        "ransomware",
         "security",
-        "OWASP"
+        "attack"
       ]
     },
     {
@@ -5264,8 +5253,8 @@
       "niche": "security",
       "score": 26,
       "keywords": [
-        "SQL injection",
-        "injection"
+        "injection",
+        "SQL injection"
       ]
     },
     {
@@ -5391,8 +5380,8 @@
       "niche": "security",
       "score": 24,
       "keywords": [
-        "SQL injection",
-        "injection"
+        "injection",
+        "SQL injection"
       ]
     },
     {
@@ -5407,21 +5396,6 @@
       "score": 22,
       "keywords": [
         "RCE"
-      ]
-    },
-    {
-      "id": "32f4426a5ea2c64a",
-      "title": "The Cloudflare Outage May Be a Security Roadmap",
-      "description": "An intermittent outage at Cloudflare on Tuesday briefly knocked many of the Internet's top destinations offline. Some affected Cloudflare customers were able to pivot away from the platform temporarily so that visitors could still access their websites. But security experts say doing so may have also triggered an impromptu network penetration test for organizations that have come to rely on Cloudflare to block many types of abusive and malicious traffic.",
-      "url": "https://krebsonsecurity.com/2025/11/the-cloudflare-outage-may-be-a-security-roadmap/",
-      "source": "Krebs on Security",
-      "author": "BrianKrebs",
-      "published": "2025-11-19T14:07:03+00:00",
-      "niche": "security",
-      "score": 21,
-      "keywords": [
-        "security",
-        "penetration test"
       ]
     },
     {
@@ -5495,21 +5469,6 @@
       ]
     },
     {
-      "id": "3544739788ef4353",
-      "title": "Mozilla Says It’s Finally Done With Two-Faced Onerep",
-      "description": "In March 2024, Mozilla said it was winding down its collaboration with Onerep -- an identity protection service offered with the Firefox web browser that promises to remove users from hundreds of people-search sites -- after KrebsOnSecurity revealed Onerep's founder had created dozens of people-search services and was continuing to operate at least one of them. Sixteen months later, however, Mozilla is still promoting Onerep. This week, Mozilla announced their partnership with Onerep will offici",
-      "url": "https://krebsonsecurity.com/2025/11/mozilla-says-its-finally-done-with-two-faced-onerep/",
-      "source": "Krebs on Security",
-      "author": "BrianKrebs",
-      "published": "2025-11-20T19:06:51+00:00",
-      "niche": "security",
-      "score": 19,
-      "keywords": [
-        "security",
-        "protection"
-      ]
-    },
-    {
       "id": "ea3ec18ab9bbd500",
       "title": "Hacking with Burp AI in the Chesspocalypse: API expert Corey Ball showcases how Burp AI can support pentesters.",
       "description": "AI isn’t just reshaping cybersecurity - it’s challenging testers to rethink their entire playbook. In his latest article, “Hacking with Burp AI in the Chesspocalypse”, API expert Corey Ball draws less",
@@ -5520,23 +5479,9 @@
       "niche": "security",
       "score": 19,
       "keywords": [
-        "cybersecurity",
         "security",
-        "PoC"
-      ]
-    },
-    {
-      "id": "f3d74341ccf7906d",
-      "title": "Meet Rey, the Admin of ‘Scattered Lapsus$ Hunters’",
-      "description": "A prolific cybercriminal group that calls itself \"Scattered LAPSUS$ Hunters\" made headlines regularly this year by stealing data from and publicly mass extorting dozens of major corporations. But the tables seem to have turned somewhat for \"Rey,\" the moniker chosen by the technical operator and public face of the hacker group: Earlier this week, Rey confirmed his real life identity and agreed to an interview after KrebsOnSecurity tracked him down and contacted his father.",
-      "url": "https://krebsonsecurity.com/2025/11/meet-rey-the-admin-of-scattered-lapsus-hunters/",
-      "source": "Krebs on Security",
-      "author": "BrianKrebs",
-      "published": "2025-11-26T17:22:36+00:00",
-      "niche": "security",
-      "score": 18,
-      "keywords": [
-        "security"
+        "PoC",
+        "cybersecurity"
       ]
     },
     {
@@ -5594,16 +5539,32 @@
       "keywords": []
     },
     {
-      "id": "87dbc9b73ce290e7",
-      "title": "Drones to Diplomas: How Russia’s Largest Private University is Linked to a $25M Essay Mill",
-      "description": "A sprawling academic cheating network turbocharged by Google Ads that has generated nearly $25 million in revenue has curious connections to a Kremlin-connected oligarch whose Russian university builds drones for Russia's war against Ukraine.",
-      "url": "https://krebsonsecurity.com/2025/12/drones-to-diplomas-how-russias-largest-private-university-is-linked-to-a-25m-essay-mill/",
-      "source": "Krebs on Security",
-      "author": "BrianKrebs",
-      "published": "2025-12-06T14:45:03+00:00",
+      "id": "bd943f36ce991930",
+      "title": "California man admits role in $263 million cryptocurrency theft that funded lavish lifestyle",
+      "description": "When you spend half a million dollars in a single night at a nightclub, purchase exotic cars worth millions, and rent mansions under false names, you are risking drawing attention to yourself... Read more in my article on the Hot for Security blog.",
+      "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/california-man-admits-role-in-263-million-cryptocurrency-theft-that-funded-lavish-lifestyle",
+      "source": "Graham Cluley",
+      "author": "Graham Cluley",
+      "published": "2025-12-09T16:13:48+00:00",
       "niche": "security",
-      "score": 14,
-      "keywords": []
+      "score": 15,
+      "keywords": [
+        "security"
+      ]
+    },
+    {
+      "id": "f80af7b359c9369c",
+      "title": "Privacy concerns raised as Grok AI found to be a stalker’s best friend",
+      "description": "Grok, the AI chatbot developed by Elon Musk's xAI, has been found to exhibit more alarming behaviour - this time revealing the home addresses of ordinary people upon request. Read more in my article on the Hot for Security blog.",
+      "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/privacy-concerns-raised-as-grok-ai-found-to-be-a-stalkers-best-friend",
+      "source": "Graham Cluley",
+      "author": "Graham Cluley",
+      "published": "2025-12-08T14:45:48+00:00",
+      "niche": "security",
+      "score": 15,
+      "keywords": [
+        "security"
+      ]
     },
     {
       "id": "e423d3f51d837e05",
@@ -5772,6 +5733,18 @@
       "keywords": [
         "protection"
       ]
+    },
+    {
+      "id": "b44a4490e1e13962",
+      "title": "The AI Fix #80: DeepSeek’s cheap GPT-5 rival, Antigravity fails, and your LLM likes it when you’re rude",
+      "description": "In episode 80 of The AI Fix, your hosts look at DeepSeek 3.2 “Speciale”, the bargain-basement model that claims GPT-5-level brains at 10% of the price, Jensen Huang’s reassuring vision of a robot fashion industry, and a 75kg T-800 style humanoid that can do flying kicks because robot-marketing departments have clearly learned nothing from Terminator. Meanwhile in Miami, flesh-coloured robot dogs with hyper-realistic billionaire heads wander around pooping NFT “excrement samples” out of their rea",
+      "url": "https://grahamcluley.com/the-ai-fix-80/",
+      "source": "Graham Cluley",
+      "author": "Graham Cluley",
+      "published": "2025-12-09T15:30:17+00:00",
+      "niche": "security",
+      "score": 12,
+      "keywords": []
     },
     {
       "id": "ca005d40b9acd885",
