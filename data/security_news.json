@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-17T06:40:47.318305+00:00",
-  "total_articles": 405,
+  "last_updated": "2025-12-17T09:33:44.482829+00:00",
+  "total_articles": 413,
   "articles": [
     {
       "id": "c3dc1b3d6654e8d7",
@@ -18,24 +18,6 @@
         "cybersecurity",
         "threat",
         "CVE-"
-      ]
-    },
-    {
-      "id": "7fadafda1a003927",
-      "title": "Microsoft Issues Security Fixes for 56 Flaws, Including Active Exploit and Two Zero-Days",
-      "description": "Microsoft closed out 2025 with patches for 56 security flaws in various products across the Windows platform, including one vulnerability that has been actively exploited in the wild. Of the 56 flaws, three are rated Critical, and 53 are rated Important in severity. Two other defects are listed as publicly known at the time of the release. These include 29 privilege escalation, 18 remote code",
-      "url": "https://thehackernews.com/2025/12/microsoft-issues-security-fixes-for-56.html",
-      "source": "The Hacker News",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2025-12-10T14:20:00+05:30",
-      "niche": "security",
-      "score": 100,
-      "keywords": [
-        "security flaw",
-        "zero-day",
-        "patch",
-        "privilege escalation",
-        "vulnerability"
       ]
     },
     {
@@ -1017,23 +999,6 @@
       ]
     },
     {
-      "id": "83d8deabcbd6b215",
-      "title": "Microsoft Patch Tuesday security updates for December 2025 fixed an actively exploited zero-day",
-      "description": "Microsoft Patch Tuesday security updates for December 2025 address 57 vulnerabilities, including three critical flaws. Microsoft Patch Tuesday security updates for December 2025 addressed 57 vulnerabilities in Windows and Windows components, Office and Office Components, Microsoft Edge (Chromium-based), Exchange Server, Azure, Copilot, PowerShell, and Windows Defender. Three vulnerabilities are rated Critical, while the rest are [&#8230;]",
-      "url": "https://securityaffairs.com/185515/breaking-news/microsoft-patch-tuesday-security-updates-for-december-2025-fixed-an-actively-exploited-zero-day.html",
-      "source": "Security Affairs",
-      "author": "Pierluigi Paganini",
-      "published": "2025-12-10T08:47:02+00:00",
-      "niche": "security",
-      "score": 83,
-      "keywords": [
-        "zero-day",
-        "patch",
-        "exploit",
-        "security"
-      ]
-    },
-    {
       "id": "914ea96c03be3eb9",
       "title": "Hidden .NET HTTP proxy behavior can open RCE flaws in apps — a security issue Microsoft won’t fix",
       "description": "Researchers uncovered an unexpected behavior of HTTP client proxies when created in .NET code, potentially allowing attackers to write malicious code to arbitrary files. This in turn can open remote code execution (RCE) attack paths through web shells and malicious PowerShell scripts in many .NET applications, including commercial products. Microsoft does not plan to fix this issue in the .NET Framework itself, saying that application developers are responsible for not passing untrusted and user",
@@ -1337,6 +1302,24 @@
       ]
     },
     {
+      "id": "b3a7f14369e2ee7a",
+      "title": "U.S. CISA adds a flaw in multiple Fortinet products to its Known Exploited Vulnerabilities catalog",
+      "description": "U.S. CISA adds a vulnerability impacting multiple products to its Known Exploited Vulnerabilities catalog. The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added Fortinet Multiple Products Improper Verification of Cryptographic Signature Vulnerability, tracked as CVE-2025-59718 (CVSS Score of 9.1), to its Known Exploited Vulnerabilities (KEV) catalog. Threat actors started exploiting two critical flaws, tracked as CVE-2025-59718 and CVE-2025-59719 (CVSS score of 9.1), [&#8230;]",
+      "url": "https://securityaffairs.com/185765/security/u-s-cisa-adds-a-flaw-in-multiple-fortinet-products-to-its-known-exploited-vulnerabilities-catalog.html",
+      "source": "Security Affairs",
+      "author": "Pierluigi Paganini",
+      "published": "2025-12-17T08:17:07+00:00",
+      "niche": "security",
+      "score": 79,
+      "keywords": [
+        "cybersecurity",
+        "vulnerability",
+        "exploit",
+        "threat",
+        "security"
+      ]
+    },
+    {
       "id": "f2a48158518114d3",
       "title": "Hundreds of Ivanti EPM systems exposed online as critical flaw patched",
       "description": "Ivanti has patched a critical vulnerability in Endpoint Manager that enables attackers to hijack administrator sessions without authentication and potentially control thousands of enterprise devices. The company released EPM version 2024 SU4 SR1 to address four vulnerabilities, including the critical flaw tracked as CVE-2025-10573, which carries a CVSS score of 9.6. Three additional high-severity flaws could also enable code execution but require user interaction, Ivanti said in its December sec",
@@ -1434,6 +1417,22 @@
       "keywords": [
         "PoC",
         "exploit"
+      ]
+    },
+    {
+      "id": "3f9de6b8a19a3e50",
+      "title": "Dux Emerges From Stealth Mode With $9 Million in Funding",
+      "description": "The startup takes an agentic approach to preventing vulnerability exploitation by uncovering exposure across assets. The post Dux Emerges From Stealth Mode With $9 Million in Funding appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/dux-emerges-from-stealth-mode-with-9-million-in-funding/",
+      "source": "SecurityWeek",
+      "author": "Ionut Arghire",
+      "published": "2025-12-17T07:17:18+00:00",
+      "niche": "security",
+      "score": 78,
+      "keywords": [
+        "vulnerability",
+        "exploit",
+        "security"
       ]
     },
     {
@@ -1680,11 +1679,11 @@
       "niche": "security",
       "score": 75,
       "keywords": [
-        "security",
+        "zero-day",
+        "security flaw",
         "exploit",
         "patch",
-        "zero-day",
-        "security flaw"
+        "security"
       ]
     },
     {
@@ -2028,22 +2027,6 @@
       ]
     },
     {
-      "id": "2e76a2ee8eb452f4",
-      "title": "Intel, AMD Processors Affected by PCIe Vulnerabilities",
-      "description": "The PCIe flaws, found by Intel employees, can be exploited for information disclosure, escalation of privilege, or DoS. The post Intel, AMD Processors Affected by PCIe Vulnerabilities appeared first on SecurityWeek.",
-      "url": "https://www.securityweek.com/intel-amd-processors-affected-by-pcie-vulnerabilities/",
-      "source": "SecurityWeek",
-      "author": "Eduard Kovacs",
-      "published": "2025-12-10T08:02:00+00:00",
-      "niche": "security",
-      "score": 69,
-      "keywords": [
-        "disclosure",
-        "exploit",
-        "security"
-      ]
-    },
-    {
       "id": "c8f8d190a084f3fa",
       "title": "Fortinet Patches Critical Authentication Bypass Vulnerabilities",
       "description": "The two security defects impact FortiOS, FortiWeb, FortiProxy, and FortiSwitchManager with FortiCloud SSO login authentication enabled. The post Fortinet Patches Critical Authentication Bypass Vulnerabilities appeared first on SecurityWeek.",
@@ -2368,6 +2351,22 @@
       ]
     },
     {
+      "id": "997cc64508b08a98",
+      "title": "Auto Parts Giant LKQ Confirms Oracle EBS Breach",
+      "description": "LKQ said the personal information of thousands of individuals was compromised as a result of the hacker attack. The post Auto Parts Giant LKQ Confirms Oracle EBS Breach appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/auto-parts-giant-lkq-confirms-oracle-ebs-breach/",
+      "source": "SecurityWeek",
+      "author": "Eduard Kovacs",
+      "published": "2025-12-17T09:11:03+00:00",
+      "niche": "security",
+      "score": 66,
+      "keywords": [
+        "attack",
+        "breach",
+        "security"
+      ]
+    },
+    {
       "id": "5f2ad221bd5677c3",
       "title": "Over 10,000 Docker Hub images found leaking credentials, auth keys",
       "description": "More than 10,000 Docker Hub container images expose data that should be protected, including live credentials to production systems, CI/CD databases, or LLM model keys. [...]",
@@ -2541,9 +2540,25 @@
       "niche": "security",
       "score": 63,
       "keywords": [
-        "zero-day",
+        "security",
         "patch",
-        "exploit",
+        "zero-day",
+        "exploit"
+      ]
+    },
+    {
+      "id": "c2be7fc2b4684744",
+      "title": "Afripol Focuses on Regional Cyber Challenges, Deepening Cooperation",
+      "description": "Rapid digitization, uneven cybersecurity know-how, and growing cybercriminal syndicates in the region have challenged law enforcement and prosecutors.",
+      "url": "https://www.darkreading.com/cybersecurity-operations/afripol-focuses-regional-cyber-challenges-deepening-cooperation",
+      "source": "Dark Reading",
+      "author": "Robert Lemos, Contributing Writer",
+      "published": "2025-12-17T07:00:00+00:00",
+      "niche": "security",
+      "score": 63,
+      "keywords": [
+        "RCE",
+        "cybersecurity",
         "security"
       ]
     },
@@ -2677,8 +2692,8 @@
       "niche": "security",
       "score": 61,
       "keywords": [
-        "secure",
         "OWASP",
+        "secure",
         "RCE",
         "security"
       ]
@@ -3143,19 +3158,17 @@
       ]
     },
     {
-      "id": "84cac23110342166",
-      "title": "Polymorphic AI malware exists — but it’s not what you think",
-      "description": "We are either at the dawn of AI-driven malware that rewrites itself on the fly, or we are seeing vendors and threat actors exaggerate its capabilities. Recent Google and MIT Sloan reports reignited claims of autonomous attacks and polymorphic AI malware capable of evading defenders at machine speed. Headlines spread rapidly across security feeds, trade publications, and underground forums as vendors promoted AI-enhanced defenses. Beneath the noise, the reality is far less dramatic. Yes, attacker",
-      "url": "https://www.csoonline.com/article/4101491/polymorphic-ai-malware-exists-but-its-not-what-you-think.html",
+      "id": "373f8b3f0f5a1635",
+      "title": "CASB buyer’s guide: What to know about cloud access security brokers before you buy",
+      "description": "Cloud access security brokers (CASBs) explained As the name suggests, a cloud access security broker (CASB) manages access between enterprise endpoints and cloud resources from a security perspective. CASBs can be deployed on-premises or in the cloud; as a hardware appliance or software-only, as a proxy, reverse proxy, or through specific APIs. Enterprises have untold numbers of endpoints, both managed (corporate-owned devices) and unmanaged (devices owned by employees or third-party contractors",
+      "url": "https://www.csoonline.com/article/557365/cloud-access-security-broker-buyers-guide.html",
       "source": "CSO Online",
       "author": "Inconnu",
-      "published": "2025-12-10T07:00:00+00:00",
+      "published": "2025-12-17T07:00:00+00:00",
       "niche": "security",
-      "score": 54,
+      "score": 55,
       "keywords": [
-        "malware",
-        "attack",
-        "threat",
+        "RCE",
         "security"
       ]
     },
@@ -3677,9 +3690,9 @@
       "niche": "security",
       "score": 51,
       "keywords": [
-        "disclosure",
+        "patch",
         "vulnerability",
-        "patch"
+        "disclosure"
       ]
     },
     {
@@ -3925,6 +3938,22 @@
       ]
     },
     {
+      "id": "406fab39a162e643",
+      "title": "The devil of proposed SEC AI disclosure rule is in the details",
+      "description": "A US Securities and Exchange Commission committee has recommended a new rule that would mandate companies to analyze and report all AI efforts — including decisions to not use AI for some purposes. Attorneys who have studied the proposal note that the AI rule — just like the SEC’s cybersecurity rule from about two years ago — won’t technically require anything to be reported that wouldn’t have already required reporting. The new rule refers only to material AI efforts and ever since the creation",
+      "url": "https://www.csoonline.com/article/4107317/the-devil-of-proposed-sec-ai-disclosure-rule-is-in-the-details.html",
+      "source": "CSO Online",
+      "author": "Inconnu",
+      "published": "2025-12-17T07:00:00+00:00",
+      "niche": "security",
+      "score": 49,
+      "keywords": [
+        "disclosure",
+        "cybersecurity",
+        "security"
+      ]
+    },
+    {
       "id": "a4ecc5bb0f9a18e3",
       "title": "DAST without disruption: Burp Suite DAST winter update 2025",
       "description": "AppSec teams are under constant pressure to secure fast-moving applications without slowing anything down. But scanning windows, fragile authentication, and sprawling API estates often get in the way",
@@ -4009,21 +4038,6 @@
       "score": 48,
       "keywords": [
         "CVE-",
-        "security"
-      ]
-    },
-    {
-      "id": "502ef0b869603190",
-      "title": "Key cybersecurity takeaways from the 2026 NDAA",
-      "description": "On Dec. 7, the House and Senate Homeland Security Committees released their compromise version of the 2026 National Defense and Authorization Act (NDAA), a nearly 3,100-page piece of legislation that contains a host of provisions to fund several Department of Defense cybersecurity efforts in fiscal year 2026. Although cybersecurity is referenced hundreds of times across the NDAA, the legislation contains provisions that, once the law becomes effective, will mark significant shifts in how the US ",
-      "url": "https://www.csoonline.com/article/4103754/key-cybersecurity-takeaways-from-the-2026-ndaa.html",
-      "source": "CSO Online",
-      "author": "Inconnu",
-      "published": "2025-12-10T07:00:00+00:00",
-      "niche": "security",
-      "score": 46,
-      "keywords": [
-        "cybersecurity",
         "security"
       ]
     },
@@ -4449,8 +4463,8 @@
       "niche": "security",
       "score": 43,
       "keywords": [
-        "secure",
         "OWASP",
+        "secure",
         "RCE",
         "security"
       ]
@@ -4900,6 +4914,18 @@
       "keywords": []
     },
     {
+      "id": "7e8e2d2a5ecd69b6",
+      "title": "Telekom startet System gegen Betrugsanrufe",
+      "description": "Der Call Check der Deutschen Telekom soll Smartphone-Kunden künftig vor betrügerischen Anrufen schützen.Sandwish Studio – shutterstock.com Jemand ruft an, die Nummer ist im eigenen Adressbuch nicht eingespeichert. Egal, man geht mal dran – und lässt sich von einem Unbekannten in ein Gespräch verwickeln. Das ist meistens keine gute Idee. Der sogenannte Call Check der Deutschen Telekom soll ab sofort automatisch alle Kundinnen und Kunden vor möglicherweise betrügerischen Anrufen schützen. Wenn jem",
+      "url": "https://www.csoonline.com/article/4107556/telekom-startet-system-gegen-betrugsanrufe.html",
+      "source": "CSO Online",
+      "author": "Inconnu",
+      "published": "2025-12-17T08:28:15+00:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": []
+    },
+    {
       "id": "de39f9e791a6a5b6",
       "title": "GSoC 2025 Recap",
       "description": "OWASP at Google Summer of Code 2025 Celebrating real impact, strong mentorship, and a growing community The Google Summer of Code (GSoC) 2025 program has wrapped, and OWASP’s participation once again delivered meaningful improvements across the open-source security ecosystem. This year, 15 contributors worked across multiple OWASP projects, supported by 26 mentors. Of the 15 projects evaluated, 10 reached successful completion, three are still working on the final deliveries with extended deadli",
@@ -4914,6 +4940,30 @@
         "RCE",
         "security"
       ]
+    },
+    {
+      "id": "0472f336ae89a0fa",
+      "title": "Ces extensions VPN gratuites aspirent toutes vos conversations avec ChatGPT",
+      "description": "Vous utilisez une extension VPN gratuite sous Chrome ou Edge pour \"protéger votre vie privée\" ? Cool story les bro, mais si je vous disais que cette même extension enregistre peut-être toutes vos conversations avec ChatGPT, Claude, Gemini et compagnie pour les revendre à des courtiers en données (les fameux data brokers) ? Hé bien c'est exactement ce que viennent de découvrir les chercheurs en sécurité de Koi qui ont mis le doigt sur 4 extensions très populaires comptabilisant plus de 8 millions",
+      "url": "https://korben.info/urban-vpn-extension-chrome-espionnage-chatgpt-claude-gemini.html",
+      "source": "Korben",
+      "author": "Korben",
+      "published": "2025-12-17T10:27:08+01:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "3489b920180b3f0f",
+      "title": "sqlit - Quand y'en a marre de lancer SQL Server Management Studio pour une requête",
+      "description": "Vous aussi vous avez ce truc où vous devez juste faire un petit SELECT rapide sur votre base de données, et là vous lancez un monstre du genre SQL Server Management Studio ou DBeaver, vous attendez que ça se charge pendant 47 ans, que ça bouffe les 2 Go de RAM qu'il vous reste, et tout ça pour une requête de 3 lignes ? Moi ça m'énerve profondément, j'avoue... Pas le temps, pas la patience !",
+      "url": "https://korben.info/sqlit-tui-sql-terminal-databases.html",
+      "source": "Korben",
+      "author": "Korben",
+      "published": "2025-12-17T10:22:48+01:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": []
     },
     {
       "id": "b700524f74165ea9",
@@ -5159,8 +5209,8 @@
       "niche": "security",
       "score": 37,
       "keywords": [
-        "threat",
         "OWASP",
+        "threat",
         "web application security",
         "security"
       ]
@@ -5216,8 +5266,8 @@
       "niche": "security",
       "score": 34,
       "keywords": [
-        "threat",
         "OWASP",
+        "threat",
         "cybersecurity",
         "security"
       ]
@@ -5247,8 +5297,8 @@
       "niche": "security",
       "score": 31,
       "keywords": [
-        "secure",
         "OWASP",
+        "secure",
         "security"
       ]
     },
@@ -5263,8 +5313,8 @@
       "niche": "security",
       "score": 30,
       "keywords": [
-        "phishing",
-        "RCE"
+        "RCE",
+        "phishing"
       ]
     },
     {
@@ -5321,8 +5371,8 @@
       "niche": "security",
       "score": 26,
       "keywords": [
-        "injection",
-        "SQL injection"
+        "SQL injection",
+        "injection"
       ]
     },
     {
@@ -5448,8 +5498,8 @@
       "niche": "security",
       "score": 24,
       "keywords": [
-        "injection",
-        "SQL injection"
+        "SQL injection",
+        "injection"
       ]
     },
     {
@@ -5577,8 +5627,8 @@
       "niche": "security",
       "score": 19,
       "keywords": [
-        "PoC",
         "cybersecurity",
+        "PoC",
         "security"
       ]
     },
@@ -5649,6 +5699,49 @@
       "niche": "security",
       "score": 16,
       "keywords": []
+    },
+    {
+      "id": "bd943f36ce991930",
+      "title": "California man admits role in $263 million cryptocurrency theft that funded lavish lifestyle",
+      "description": "When you spend half a million dollars in a single night at a nightclub, purchase exotic cars worth millions, and rent mansions under false names, you are risking drawing attention to yourself... Read more in my article on the Hot for Security blog.",
+      "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/california-man-admits-role-in-263-million-cryptocurrency-theft-that-funded-lavish-lifestyle",
+      "source": "Graham Cluley",
+      "author": "Graham Cluley",
+      "published": "2025-12-09T16:13:48+00:00",
+      "niche": "security",
+      "score": 15,
+      "keywords": [
+        "security"
+      ]
+    },
+    {
+      "id": "f80af7b359c9369c",
+      "title": "Privacy concerns raised as Grok AI found to be a stalker’s best friend",
+      "description": "Grok, the AI chatbot developed by Elon Musk's xAI, has been found to exhibit more alarming behaviour - this time revealing the home addresses of ordinary people upon request. Read more in my article on the Hot for Security blog.",
+      "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/privacy-concerns-raised-as-grok-ai-found-to-be-a-stalkers-best-friend",
+      "source": "Graham Cluley",
+      "author": "Graham Cluley",
+      "published": "2025-12-08T14:45:48+00:00",
+      "niche": "security",
+      "score": 15,
+      "keywords": [
+        "security"
+      ]
+    },
+    {
+      "id": "a04f8bd555756097",
+      "title": "Why the record-breaking 30 Tbps DDoS attack should concern every business",
+      "description": "A new warning about the threat posed by Distributed Denial of Service (DDoS) attacks should make you sit up and listen. Read more in my article on the Fortra blog.",
+      "url": "https://www.fortra.com/blog/why-record-breaking-30-tbps-ddos-attack-concern-business",
+      "source": "Graham Cluley",
+      "author": "Graham Cluley",
+      "published": "2025-12-04T17:41:41+00:00",
+      "niche": "security",
+      "score": 15,
+      "keywords": [
+        "attack",
+        "threat"
+      ]
     },
     {
       "id": "87dbc9b73ce290e7",
@@ -5829,6 +5922,18 @@
       "keywords": [
         "protection"
       ]
+    },
+    {
+      "id": "b44a4490e1e13962",
+      "title": "The AI Fix #80: DeepSeek’s cheap GPT-5 rival, Antigravity fails, and your LLM likes it when you’re rude",
+      "description": "In episode 80 of The AI Fix, your hosts look at DeepSeek 3.2 “Speciale”, the bargain-basement model that claims GPT-5-level brains at 10% of the price, Jensen Huang’s reassuring vision of a robot fashion industry, and a 75kg T-800 style humanoid that can do flying kicks because robot-marketing departments have clearly learned nothing from Terminator. Meanwhile in Miami, flesh-coloured robot dogs with hyper-realistic billionaire heads wander around pooping NFT “excrement samples” out of their rea",
+      "url": "https://grahamcluley.com/the-ai-fix-80/",
+      "source": "Graham Cluley",
+      "author": "Graham Cluley",
+      "published": "2025-12-09T15:30:17+00:00",
+      "niche": "security",
+      "score": 12,
+      "keywords": []
     },
     {
       "id": "ca005d40b9acd885",
