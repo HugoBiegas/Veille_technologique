@@ -1,25 +1,7 @@
 {
-  "last_updated": "2025-12-19T03:58:51.240873+00:00",
-  "total_articles": 411,
+  "last_updated": "2025-12-19T06:39:01.535987+00:00",
+  "total_articles": 412,
   "articles": [
-    {
-      "id": "9820d564981ea8ee",
-      "title": "CISA Flags Actively Exploited GeoServer XXE Flaw in Updated KEV Catalog",
-      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a high-severity security flaw impacting OSGeo GeoServer to its Known Exploited Vulnerabilities (KEV) catalog, based on evidence of active exploitation in the wild. The vulnerability in question is CVE-2025-58360 (CVSS score: 8.2), an unauthenticated XML External Entity (XXE) flaw that affects all versions prior to",
-      "url": "https://thehackernews.com/2025/12/cisa-flags-actively-exploited-geoserver.html",
-      "source": "The Hacker News",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2025-12-12T10:31:00+05:30",
-      "niche": "security",
-      "score": 100,
-      "keywords": [
-        "CVE-",
-        "security flaw",
-        "cybersecurity",
-        "exploit",
-        "security"
-      ]
-    },
     {
       "id": "6a058a51d9156cf5",
       "title": "New React RSC Vulnerabilities Enable DoS and Source Code Exposure",
@@ -1633,11 +1615,11 @@
       "niche": "security",
       "score": 75,
       "keywords": [
-        "security flaw",
-        "zero-day",
+        "patch",
         "security",
         "exploit",
-        "patch"
+        "zero-day",
+        "security flaw"
       ]
     },
     {
@@ -2588,10 +2570,10 @@
       "niche": "security",
       "score": 63,
       "keywords": [
+        "exploit",
         "zero-day",
         "security",
-        "patch",
-        "exploit"
+        "patch"
       ]
     },
     {
@@ -3553,6 +3535,34 @@
       ]
     },
     {
+      "id": "39d3fc211983760d",
+      "title": "Commander Keen - Le code source enfin libéré pour les 35 ans du jeu qui a lancé id Software",
+      "description": "Commander Keen, je pense que pas grand monde ne s'en souvient car c'est tellement vieux !! Pour vous rafraichir la mémoire, c'est ce petit gamin au casque de football américain et sa pogo stick qui fait des bonds partout ! Si ça vous parle c'est que vous êtes assez vieux pour avoir connu les débuts d'id Software. Alors vous serez content d'apprendre qu'un passionné du nom de K1n9_Duk3 vient de libérer le code source \"reconstruit\" des épisodes 1 à 3, pile pour les 35 ans de la série.",
+      "url": "https://korben.info/commander-keen-code-source-release-id-software.html",
+      "source": "Korben",
+      "author": "Korben",
+      "published": "2025-12-19T07:00:00+01:00",
+      "niche": "security",
+      "score": 52,
+      "keywords": [
+        "RCE"
+      ]
+    },
+    {
+      "id": "450db2ed24b26b19",
+      "title": "Mistral OCR 3 - L'OCR français qui lit même l'écriture de votre médecin",
+      "description": "Vous avez des tonnes de vieux documents papier qui traînent dans des cartons, des factures scannées à l'arrache, des formulaires remplis à la main, des tableaux Excel imprimés puis re-scannés par quelqu'un qui n'a visiblement jamais entendu parler du concept de \"bien faire son boulot\" ? Considérez que ce problème est réglé puisque Mistral AI vient de sortir OCR 3, un modèle de reconnaissance de documents qui promet de transformer tout ça en données exploitables, et pour pas cher en plus.",
+      "url": "https://korben.info/mistral-ocr-3-api-reconnaissance-documents-pdf.html",
+      "source": "Korben",
+      "author": "Korben",
+      "published": "2025-12-19T06:14:46+01:00",
+      "niche": "security",
+      "score": 52,
+      "keywords": [
+        "exploit"
+      ]
+    },
+    {
       "id": "4105bb2c6cd319de",
       "title": "The CISO-COO Partnership: Protecting Operational Excellence",
       "description": "Digital transformation has made cybersecurity preparation part of operational resilience for most organizations. This calls for a new relationship between CISO and COO.",
@@ -3638,8 +3648,8 @@
       "niche": "security",
       "score": 51,
       "keywords": [
-        "disclosure",
         "vulnerability",
+        "disclosure",
         "patch"
       ]
     },
@@ -3654,22 +3664,10 @@
       "niche": "security",
       "score": 51,
       "keywords": [
-        "attack",
+        "exploit",
         "security",
-        "exploit"
+        "attack"
       ]
-    },
-    {
-      "id": "c7374f500bfe330e",
-      "title": "Abusing DLLs EntryPoint for the Fun, (Fri, Dec 12th)",
-      "description": "In the Microsoft Windows ecosystem, DLLs (Dynamic Load Libraries) are PE files like regular programs. One of the main differences is that they export functions that can be called by programs that load them. By example, to call RegOpenKeyExA(), the program must first load the ADVAPI32.dll. A PE files has a lot of headers (metadata) that contain useful information used by the loader to prepare the execution in memory. One of them is the EntryPoint, it contains the (relative virtual) address where ",
-      "url": "https://isc.sans.edu/diary/rss/32562",
-      "source": "SANS Internet Storm Center",
-      "author": "Inconnu",
-      "published": "2025-12-12T05:08:36+00:00",
-      "niche": "security",
-      "score": 50,
-      "keywords": []
     },
     {
       "id": "6ea54e9b74eb8da7",
@@ -3975,8 +3973,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "attack",
-        "exploit"
+        "exploit",
+        "attack"
       ]
     },
     {
@@ -3990,8 +3988,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "CVE-",
-        "security"
+        "security",
+        "CVE-"
       ]
     },
     {
@@ -4103,6 +4101,21 @@
       "keywords": [
         "threat",
         "firewall"
+      ]
+    },
+    {
+      "id": "55ee17f6a569ba40",
+      "title": "Positiv denken für Sicherheitsentscheider: 6 Mindsets, die Sie sofort ablegen sollten",
+      "description": "In einem falschen Security-Mindset gefangen? Foto: Paul Craft – shutterstock.comDass Jobs im Bereich Cybersecurity ein hohes Burnout-Potenzial aufweisen, ist längst kein Geheimnis mehr: Das Umfeld von Sicherheitsprofis ist vor allem geprägt von dem (gefühlten) Druck, täglich steigenden Anforderungen gerecht werden zu müssen. Dafür sind diverse Gründe ursächlich – in erster Linie aber die Art und Weise, wie über Security gedacht wird. Die gute Nachricht: Wenn Sie ein schädliches Mindset identifiz",
+      "url": "https://www.csoonline.com/article/3493061/positiv-denken-fur-sicherheitsentscheider-6-mindsets-die-sie-sofort-ablegen-sollten.html",
+      "source": "CSO Online",
+      "author": "Inconnu",
+      "published": "2025-12-19T04:17:00+00:00",
+      "niche": "security",
+      "score": 46,
+      "keywords": [
+        "security",
+        "cybersecurity"
       ]
     },
     {
@@ -4386,8 +4399,8 @@
       "niche": "security",
       "score": 44,
       "keywords": [
-        "CVE-",
-        "security"
+        "security",
+        "CVE-"
       ]
     },
     {
@@ -5153,8 +5166,8 @@
       "niche": "security",
       "score": 37,
       "keywords": [
-        "web application security",
         "security",
+        "web application security",
         "OWASP",
         "threat"
       ]
@@ -5198,9 +5211,9 @@
       "niche": "security",
       "score": 35,
       "keywords": [
-        "attack",
+        "RCE",
         "ransomware",
-        "RCE"
+        "attack"
       ]
     },
     {
@@ -5232,8 +5245,8 @@
       "score": 31,
       "keywords": [
         "security",
-        "secure",
-        "OWASP"
+        "OWASP",
+        "secure"
       ]
     },
     {
@@ -5247,8 +5260,8 @@
       "niche": "security",
       "score": 30,
       "keywords": [
-        "phishing",
-        "RCE"
+        "RCE",
+        "phishing"
       ]
     },
     {
@@ -5277,9 +5290,9 @@
       "niche": "security",
       "score": 28,
       "keywords": [
-        "attack",
+        "security",
         "ransomware",
-        "security"
+        "attack"
       ]
     },
     {
@@ -5448,8 +5461,8 @@
       "niche": "security",
       "score": 25,
       "keywords": [
-        "security",
-        "exploit"
+        "exploit",
+        "security"
       ]
     },
     {
@@ -5478,8 +5491,8 @@
       "niche": "security",
       "score": 21,
       "keywords": [
-        "penetration test",
-        "security"
+        "security",
+        "penetration test"
       ]
     },
     {
@@ -5579,8 +5592,8 @@
       "score": 19,
       "keywords": [
         "security",
-        "cybersecurity",
-        "PoC"
+        "PoC",
+        "cybersecurity"
       ]
     },
     {
