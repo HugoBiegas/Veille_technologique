@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-18T21:22:11.862037+00:00",
-  "total_articles": 977,
+  "last_updated": "2025-12-19T02:01:47.578726+00:00",
+  "total_articles": 975,
   "articles": [
     {
       "id": "ee7e1d47e6b6f1b4",
@@ -84,6 +84,40 @@
       ]
     },
     {
+      "id": "5d20a1646eb21c88",
+      "title": "Google Workspace Developer Tools MCP Server",
+      "description": "Following the release of the VS Code extension, I’ve also published a Model Context Protocol (MCP) server for Google Workspace Developers. This server provides AI agents with context-aware access to Google Workspace developer documentation, enabling them to retrieve up-to-date information about APIs, services, and code snippets. Features Documentation Access The MCP server allows LLMs and AI agents to search and retrieve official Google Workspace documentation. This ensures that the AI answers y",
+      "url": "https://dev.to/googleworkspace/google-workspace-developer-tools-mcp-server-723",
+      "source": "Dev.to",
+      "author": "Justin Poehnelt",
+      "published": "2025-12-19T01:48:54+00:00",
+      "niche": "dev",
+      "score": 78,
+      "keywords": [
+        "code",
+        "developer",
+        "API",
+        "release"
+      ]
+    },
+    {
+      "id": "80096a905ff83786",
+      "title": "Google Workspace Developer Tools VS Code Extension",
+      "description": "I recently released the Google Workspace Developer Tools VS Code extension to help developers with OAuth2 scope management and AI assistance. Features OAuth2 Scope Intelligence The extension validates and documents Google Workspace OAuth2 scopes directly in your code. It provides real-time validation for invalid scopes, security classifications for restricted/sensitive scopes, and hover documentation with API details. It supports all Google Workspace APIs. MCP (Model Context Protocol) Server It ",
+      "url": "https://dev.to/googleworkspace/google-workspace-developer-tools-vs-code-extension-g6n",
+      "source": "Dev.to",
+      "author": "Justin Poehnelt",
+      "published": "2025-12-19T01:48:24+00:00",
+      "niche": "dev",
+      "score": 78,
+      "keywords": [
+        "code",
+        "developer",
+        "API",
+        "release"
+      ]
+    },
+    {
       "id": "2ad0cbaec1525b3c",
       "title": "Build smarter apps with Gemini 3 Flash",
       "description": "Posted by Thomas Ezan, Senior Developer Relations EngineerToday, we're expanding the Gemini 3 model family with the release of Gemini 3 Flash, frontier intelligence built for speed at a fraction of the cost. You can start building with it immediately, as we’re officially launching Gemini 3 Flash on Firebase AI Logic. Available globally, you can securely access the Gemini 3 Flash preview model directly from your app via the Gemini Developer API or the Vertex AI Gemini API using Firebase AI Logic ",
@@ -130,20 +164,6 @@
         "release",
         "developer",
         "development"
-      ]
-    },
-    {
-      "id": "742d7aa3d7a45462",
-      "title": "📘Guia Prático: Introdução ao Git + Como Subir Seu Código no GitHub",
-      "description": "📝 Introdução No cenário atual do desenvolvimento de software, usamos dezenas de linguagens, frameworks e ferramentas. Mas, independentemente da stack, existe algo que todo desenvolvedor precisa dominar desde cedo: controle de versão. Nesse contexto, entram em cena duas ferramentas fundamentais: Git — o sistema de controle de versão mais usado do mundo GitHub — uma plataforma de hospedagem e colaboração baseada em Git Antes de mostrar como integrar Git e GitHub, é fundamental entender por que ess",
-      "url": "https://dev.to/emanoelcarvalho/guia-pratico-introducao-ao-git-como-subir-seu-codigo-no-github-10jl",
-      "source": "Dev.to",
-      "author": "Emanoel Carvalho",
-      "published": "2025-12-12T01:18:38+00:00",
-      "niche": "dev",
-      "score": 72,
-      "keywords": [
-        "framework"
       ]
     },
     {
@@ -445,16 +465,18 @@
       ]
     },
     {
-      "id": "5b9b1020d62941dc",
-      "title": "Building a safer Android and Google Play, together",
-      "description": "Posted by Matthew Forsythe , Director, Product Management, App & Ecosystem Trust and Ron Aquino Sr. Director, Trust and Safety, Chrome, Android and PlayEarlier this year, we reiterated our commitment to keeping Android and Google Play safe for everyone and maintaining a thriving environment where users can trust the apps they download and your business can flourish. We’ve heard your feedback clearly, from excited conversations at Play events around the world to the honest concerns on social medi",
-      "url": "https://android-developers.googleblog.com/2025/12/building-safer-android-and-google-play.html",
-      "source": "Android Developers Blog",
-      "author": "Android Developers (noreply@blogger.com)",
-      "published": "2025-12-11T14:26:00-08:00",
+      "id": "3f908de5e135f495",
+      "title": "Securing Gmail AI Agents against Prompt Injection with Model Armor",
+      "description": "The Risk: Gmail contains “untrusted” and “private” data. The Defense: A single, unified layer: Model Armor handles both Safety (Jailbreaks) and Privacy (DLP). I have recently seen this impact a product launch, but I know developers are still giving AI agents the “keys”. When you connect an LLM to your inbox, you inadvertently treat it as trusted context. This introduces the risk of Prompt Injection and the “Lethal Trifecta”. If an attacker sends you an email saying, “Ignore previous instructions",
+      "url": "https://dev.to/googleworkspace/securing-gmail-ai-agents-against-prompt-injection-with-model-armor-4fo",
+      "source": "Dev.to",
+      "author": "Justin Poehnelt",
+      "published": "2025-12-19T01:49:49+00:00",
       "niche": "dev",
-      "score": 68,
-      "keywords": []
+      "score": 69,
+      "keywords": [
+        "developer"
+      ]
     },
     {
       "id": "34036cb816dd83c8",
@@ -687,6 +709,18 @@
       "keywords": []
     },
     {
+      "id": "9c64426bbb10bdc7",
+      "title": "A beginner's guide to the Nano-Banana-Pro model by Google on Replicate",
+      "description": "This is a simplified guide to an AI model called Nano-Banana-Pro maintained by Google. If you like these kinds of analysis, you should join AImodels.fyi or follow us on Twitter. Model overview nano-banana-pro is Google's state-of-the-art image generation and editing model. It handles both image creation from text descriptions and transformation of existing images. The model supports multiple images as input (up to 14), making it suitable for complex creative workflows. For similar capabilities, ",
+      "url": "https://dev.to/aimodels-fyi/a-beginners-guide-to-the-nano-banana-pro-model-by-google-on-replicate-4nci",
+      "source": "Dev.to",
+      "author": "aimodels-fyi",
+      "published": "2025-12-19T01:44:52+00:00",
+      "niche": "dev",
+      "score": 68,
+      "keywords": []
+    },
+    {
       "id": "92487ff2f6b0e5ad",
       "title": "OpenAI are quietly adopting skills, now available in ChatGPT and Codex CLI",
       "description": "Comments",
@@ -745,18 +779,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "78b1d8bb6994aeab",
-      "title": "Google De-Indexed My Bear Blog and I Don't Know Why",
-      "description": "Comments",
-      "url": "https://journal.james-zhan.com/google-de-indexed-my-entire-bear-blog-and-i-dont-know-why/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-12T01:20:05+00:00",
-      "niche": "dev",
-      "score": 62,
-      "keywords": []
     },
     {
       "id": "fc527fd1db8d0f8b",
@@ -987,6 +1009,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-18T19:08:48+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": []
+    },
+    {
+      "id": "a21cac07ec917f58",
+      "title": "Trained LLMs exclusively on pre-1913 texts",
+      "description": "Comments",
+      "url": "https://github.com/DGoettlich/history-llms",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-18T22:39:47+00:00",
       "niche": "dev",
       "score": 62,
       "keywords": []
@@ -1337,18 +1371,6 @@
       ]
     },
     {
-      "id": "e7747049fd87d352",
-      "title": "Google de-indexed Bear Blog and I don't know why",
-      "description": "Comments",
-      "url": "https://journal.james-zhan.com/google-de-indexed-my-entire-bear-blog-and-i-dont-know-why/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-12T01:20:05+00:00",
-      "niche": "dev",
-      "score": 56,
-      "keywords": []
-    },
-    {
       "id": "09a971e66f77e8ef",
       "title": "Boost Developer Revenue with Monetzly's API Monetization",
       "description": "Why 90% of AI Apps Fail to Monetize Effectively (And How You Can Be the Exception) In the rapidly evolving landscape of AI applications, the statistics are sobering: 90% of AI apps fail to monetize effectively. The culprit? A lack of sustainable monetization models that respect user experience while generating revenue. Enter Monetzly—the first platform that allows developers to monetize their AI applications while hosting relevant ads, fundamentally reshaping the economics of AI app development.",
@@ -1589,21 +1611,6 @@
       "keywords": [
         "development",
         "developer",
-        "API"
-      ]
-    },
-    {
-      "id": "929a23a9a499d56b",
-      "title": "DevPill 10 - Fault tolerance: adding retries to your Go code",
-      "description": "Adding retries to your API is a must to make your system more resilient. You can add them in database operations, communication with external apis and every other operation that might depend on a response of a third party. Here's an example of a retry implementation for database transient errors: 1. First, let's code the retry function The function receives the number of attempts, delay (interval between attempts) and the function which represents the operation you want to do. func Retry(attempt",
-      "url": "https://dev.to/raulsilva/devpill-9-fault-tolerance-adding-retries-to-your-go-code-1371",
-      "source": "Dev.to",
-      "author": "Raul Paes Silva",
-      "published": "2025-12-12T01:21:44+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "code",
         "API"
       ]
     },
@@ -3144,18 +3151,17 @@
       ]
     },
     {
-      "id": "1b70c47292ac0e53",
-      "title": "The Silent Productivity Killer in Your Coding Workflow (And How I Finally Fixed It)",
-      "description": "Every developer has that one thing in their workflow that quietly drains hours without us noticing. For some people, it’s context switching. For others, it’s debugging rabbit holes. For me? It was something embarrassingly simple: re‑reading the same code over and over because I didn’t trust my own structure. I’d jump between files, scroll endlessly, rewrite functions that already existed, and constantly ask myself: “Wait… didn’t I solve this already?” Turns out, I wasn’t suffering from lack of s",
-      "url": "https://dev.to/deleanmafra/the-silent-productivity-killer-in-your-coding-workflow-and-how-i-finally-fixed-it-5fd3",
+      "id": "7ee1b75f71f80d5f",
+      "title": "We found our site was slow in Singapore but perfect in Europe — here's why",
+      "description": "We thought we were doing everything right. Our API was sitting behind Cloudflare. We had edge caching. Our p95 response times in our dashboards looked great — sub-100ms. We patted ourselves on the back and moved on to building features. Then a customer from Singapore sent us this message: \"Your API takes 4-5 seconds to respond. Is something wrong?\" We checked our monitoring. Everything looked green. We ran a quick curl from our laptops in Amsterdam. 80ms. Perfect. So we told them it must be thei",
+      "url": "https://dev.to/benharris_io/we-found-our-site-was-slow-in-singapore-but-perfect-in-europe-heres-why-1eoi",
       "source": "Dev.to",
-      "author": "Delean Mafra",
-      "published": "2025-12-12T01:49:08+00:00",
+      "author": "Ben Harris",
+      "published": "2025-12-19T01:24:54+00:00",
       "niche": "dev",
-      "score": 52,
+      "score": 54,
       "keywords": [
-        "code",
-        "developer"
+        "API"
       ]
     },
     {
@@ -3549,17 +3555,33 @@
       ]
     },
     {
-      "id": "b441bfffba685e57",
-      "title": "AWS Módulo 0: Setup Seguro de Cuenta (Zero to Architect)",
-      "description": "Autor: Edgar (Homz) Macias Última actualización: Diciembre 2025 Nivel: Principiante Tiempo estimado: 45-60 minutos 📋 Índice Introducción ¿Por qué este tutorial existe? Conceptos Fundamentales Paso 1: Asegurar Root User Paso 2: Crear Usuario IAM Paso 3: Configurar Alertas de Facturación Paso 4: Instalar AWS CLI Paso 5: Blindar tu Repositorio Verificación Final Recursos Adicionales Introducción Este tutorial te guía a través del proceso de configuración segura de una cuenta AWS desde cero, con énf",
-      "url": "https://dev.to/emp_devcybsec/aws-modulo-0-setup-seguro-de-cuenta-zero-to-architect-eml",
+      "id": "f040aadedc769374",
+      "title": "Tired of 50+ Tabs Open Just for Simple Dev Tasks? I Built a 200+ Free Tools Hub to Fix It",
+      "description": "As a developer, my browser looked like a war zone every single day: Tab 1–10: Different JSON formatters/validators Tab 11–20: PDF merge/compress sites (each with ads) Tab 21–30: Base64 encoders, URL decoders, regex testers Tab 31–40: Quick converters for images, timestamps, currencies And random fake chat generators for team pranks 😂 Switching tabs killed my flow. Ads slowed everything down. Some sites even asked for sign-ups. So I decided to merge everything into ONE place. Introducing GeeksPre",
+      "url": "https://dev.to/codere5c/tired-of-50-tabs-open-just-for-simple-dev-tasks-i-built-a-200-free-tools-hub-to-fix-it-5g8a",
       "source": "Dev.to",
-      "author": "Edgar (Homz) Macias",
-      "published": "2025-12-12T01:33:20+00:00",
+      "author": "xyz abc",
+      "published": "2025-12-19T01:53:08+00:00",
       "niche": "dev",
-      "score": 51,
+      "score": 52,
       "keywords": [
-        "tutorial"
+        "code",
+        "developer"
+      ]
+    },
+    {
+      "id": "d7619e940251fcd6",
+      "title": "Stop Asking for Data! Master the \"Tell, Don't Ask\" Principle",
+      "description": "One of the most common mistakes in Object-Oriented Programming (OOP) is treating objects like simple data structures. We often pull data out of an object, perform some logic, and then put the result back in. This violates the \"Tell, Don't Ask\" (TDA) principle. In this post, I will explain what TDA is and how it improves your code using a simple Shop and Account example. What is \"Tell, Don't Ask\"? The principle is simple: Don't Ask: Don't ask an object for its data to perform logic on it yourself",
+      "url": "https://dev.to/jonghwayoo03_dev/stop-asking-for-data-master-the-tell-dont-ask-principle-373g",
+      "source": "Dev.to",
+      "author": "JongHwa",
+      "published": "2025-12-19T00:57:48+00:00",
+      "niche": "dev",
+      "score": 52,
+      "keywords": [
+        "programming",
+        "code"
       ]
     },
     {
@@ -4977,76 +4999,32 @@
       ]
     },
     {
-      "id": "d05e5e00b839ad69",
-      "title": "I Built a Community for Government Exam Aspirants Using the Forem",
-      "description": "I’ve always felt that government exam aspirants in India don’t have a clean, focused, supportive space online. Everything is scattered across Telegram groups, WhatsApp broadcasts, random PDFs, and noisy job websites. So I decided to fix it. I forked the Forem platform and built a dedicated community for government exam preparation and current government job holders to learn, discuss, and guide each other. What started as a simple idea slowly turned into a full 3-month build — late nights, weeken",
-      "url": "https://dev.to/muraridevv/i-built-a-community-for-government-exam-aspirants-using-the-forem-3lpg",
+      "id": "a6cf491be8c042c4",
+      "title": "I put a Game Boy inside ChatGPT (ChatGPT Apps)",
+      "description": "ChatGPT Apps are still in BETA but since yesterday, every developer can submit their apps to their registry. I decided to try to fit a Game Boy inside Chat GPT to see if it worked... and it did ! See some screenshots below: How to play Game Boy inside ChatGPT ? For now you need to activate the developer mode in (settings > apps > advanced settings) and create a new app called \"GameBoy\" and paste this URL https://gameboy.manifest.build/mcp as MCP Server URL. Grab your favorite ROM (obviously you ",
+      "url": "https://dev.to/bd_perez/i-put-a-game-boy-inside-chatgpt-chatgpt-apps-3a75",
       "source": "Dev.to",
-      "author": "murari",
-      "published": "2025-12-12T01:38:15+00:00",
+      "author": "Bruno Pérez",
+      "published": "2025-12-19T01:01:44+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
-      "id": "69dd43dec7cc5ad7",
-      "title": "PowerShell pipeline chain operator 的小陷阱",
-      "description": "PowerShell 7 提供有pipeline chain operator，也就是 && 與 ||，不過使用上必須注意，不然就會遇到意外的結果。 運算子的兩端都要是指令 看到 && 與 ||，很容易就會寫出類似這樣的指令： ➜ cd \\temp && exit 不過這會得到以下錯誤訊息： exit: The term 'exit' is not recognized as a name of a cmdlet, function, script file, or executable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again. 這是因為 && 與 || 的左右兩邊都要是指令（包含 cmdlet、函式、腳本檔、外部程式等），但 exit 是 PowerShell 的保留字，在語法上是陳述句，並不是指令，所以你可以看到錯誤訊息明確表示無法執行 exit。 沒有 pipeline 的功能 這組運算子名稱中",
-      "url": "https://dev.to/codemee/powershell-pipeline-chain-operator-de-xiao-xian-jing-3d67",
+      "id": "c235e57b9ad84148",
+      "title": "# Defending the Cloud-Native Frontier: Security as Code with Terraform & OPA",
+      "description": "🚀 Just delivered my talk on \"Security as Code: Enforcing AWS Security from Day One\" to 35+ cloud professionals! In today's fast-moving cloud environments, security can't be an afterthought. I demonstrated how to build defense-in-depth by combining: 🔹 The Tools Terraform as the foundation for consistent, repeatable infrastructure Open Policy Agent (OPA) + Conftest to validate Terraform plans against custom security policies Automated guardrails that prevent misconfigurations before they reach pro",
+      "url": "https://dev.to/alam-cloud-engineer/-defending-the-cloud-native-frontier-security-as-code-with-terraform-opa-3500",
       "source": "Dev.to",
-      "author": "codemee",
-      "published": "2025-12-12T01:38:08+00:00",
+      "author": "Alam",
+      "published": "2025-12-19T01:00:58+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "282bbdacebc7538d",
-      "title": "Top 20 Nano Banana Pro prompts on Twitter in 2025",
-      "description": "1. Recreate Ad Concept with Product Swap Prompt Link Prompt Recreate this ad concept using my product instead of theirs. Keep the same mood, lighting, composition, and overall vibe. Remove all competitor branding. Replace the product with the one from my uploaded image and adapt all background elements, props, and surrounding textures to be visually relevant to my product's brand, flavor profile, and aesthetic — not the original brand's. Maintain photorealism and accurate product proportions. Ex",
-      "url": "https://dev.to/czmilo/top-20-nano-banana-pro-prompts-on-twitter-in-2025-44cf",
-      "source": "Dev.to",
-      "author": "cz",
-      "published": "2025-12-12T01:35:10+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "83693a5535cc5a12",
-      "title": "Building a Virtualized Cybersecurity Lab: Active Directory and DNS Integration",
-      "description": "Why Identity Services Matter After establishing the core networking and firewall layer of my homelab, the next major step was to build the identity foundation that real-world organizations rely on: Active Directory. Windows Server 2022 provides me a fully functional domain environment with integrated DNS, centralized authentication, and the ability to manage devices across the network. This stage was especially important for me because, although I’m comfortable in Linux and the CLI thanks to my ",
-      "url": "https://dev.to/gnarlylasagna/building-a-virtualized-cybersecurity-lab-active-directory-and-dns-integration-cn6",
-      "source": "Dev.to",
-      "author": "Evan Dolatowski",
-      "published": "2025-12-12T01:34:16+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "c320dc031e439b6b",
-      "title": "Building a Virtualized Cybersecurity Lab: Networking and pfSense Setup",
-      "description": "The Reason Why Over the past year, I’ve used individual virtual machines, Docker containers, and online training platforms like TryHackMe to build hands-on cybersecurity experience. Although these tools are valuable, they don’t provide the realism or complexity of working inside a fully controlled network environment. With the start of my Cyber Security degree at Maryville University—and after moving my main workstation to a Fedora-based Linux distribution when Windows 10 reached end of life—I d",
-      "url": "https://dev.to/gnarlylasagna/building-a-virtualized-cybersecurity-lab-networking-and-pfsense-setup-4bml",
-      "source": "Dev.to",
-      "author": "Evan Dolatowski",
-      "published": "2025-12-12T01:33:13+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "adfb07cad294c0f7",
-      "title": "Understanding Terraform Variables the Right Way published: true description: A beginner-friendly guide",
-      "description": "variables.tf vs terraform.tfvars - What's the Difference? If you're new to Terraform, you've probably seen both** variables.tf** and terraform.tfvars files and wondered: \"Aren't they doing the same thing?\" Spoiler alert: They're not! Let me break it down in the simplest way possible. The Quick Answer: variables.tf = The template (declares WHAT variables exist) terraform.tfvars = The configuration (provides the ACTUAL values) Think of it this way: variables.tf asks the questions terraform.tfvars ",
-      "url": "https://dev.to/yency_christopher_4e54720/understanding-terraform-variables-the-right-way-published-true-description-a-beginner-friendly-3p5n",
-      "source": "Dev.to",
-      "author": "Yency Christopher",
-      "published": "2025-12-12T01:31:38+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "6d86695eee77ad93",
@@ -7991,18 +7969,28 @@
       "keywords": []
     },
     {
-      "id": "7a71fa047ccaafa2",
-      "title": "Building JavaScript tools in a single HTML file",
-      "description": "#​765 — December 12, 2025 Read on the Web JavaScript Weekly Useful Patterns for Building HTML Tools — In many situations, you don’t need a full-on framework to build useful tools; just HTML, JavaScript and CSS in a single file will do the job fine. Simon’s become a bit of an expert by rolling out many such tools using LLMs, and shares his process and practices here. More please! Simon Willison Why Are the Top AI Companies Choosing SpreadJS? — Because SpreadJS brings a familiar Excel-like UI to J",
-      "url": "https://javascriptweekly.com/issues/765",
-      "source": "JavaScript Weekly",
-      "author": "Inconnu",
-      "published": "2025-12-12T00:00:00+00:00",
+      "id": "2c75e4b5e8974661",
+      "title": "Taming the Internal Loop: Why Your Next.js App is DDoSing Itself (and How to Fix It)",
+      "description": "As system designers, we constantly chase efficiency, cost savings, and bulletproof security. Sometimes, the most insidious problems hide in plain sight, masquerading as standard practice. I recently encountered a classic example during an architecture review: a Next.js application effectively denying service to itself on AWS, while racking up unnecessary data transfer costs. This post will walk you through the diagnosis of this \"internal loopback\" anti-pattern and provide a hands-on guide to tra",
+      "url": "https://dev.to/ajitkumar/taming-the-internal-loop-why-your-nextjs-app-is-ddosing-itself-and-how-to-fix-it-3epj",
+      "source": "Dev.to",
+      "author": "Ajit Kumar",
+      "published": "2025-12-19T01:40:40+00:00",
       "niche": "dev",
-      "score": 48,
-      "keywords": [
-        "framework"
-      ]
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "8da5bd0911561577",
+      "title": "How to Build an LSM Tree Storage Engine from Scratch – Full Handbook",
+      "description": "Databases are one of the most important parts of a software system. They allow us to store huge amounts of data in an organized way and retrieve it efficiently when we need it. In the early days, when the volume of data was relatively small, engineer...",
+      "url": "https://www.freecodecamp.org/news/build-an-lsm-tree-storage-engine-from-scratch-handbook/",
+      "source": "freeCodeCamp",
+      "author": "Ramesh Sinha",
+      "published": "2025-12-18T20:25:02+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
     },
     {
       "id": "31c2f2ca48af2062",
@@ -8379,42 +8367,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "bca6077a2edd5fdf",
-      "title": "Nokia N900 Necromancy",
-      "description": "Comments",
-      "url": "https://yaky.dev/2025-12-11-nokia-n900-necromancy/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-12T00:04:29+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "d23105d83ea7f404",
-      "title": "Laying out the 404 Media zine",
-      "description": "Comments",
-      "url": "https://tedium.co/2025/12/10/404-media-zine-linux-affinity/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-12T00:05:36+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "6f972d352ad546a8",
-      "title": "CRISPR fungus: Protein-packed, sustainable, and tastes like meat",
-      "description": "Comments",
-      "url": "https://www.isaaa.org/kc/cropbiotechupdate/article/default.asp?ID=21607",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-12T00:59:46+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "0d239d2fe7271d6e",
@@ -10373,6 +10325,30 @@
       "keywords": []
     },
     {
+      "id": "a85a3a035c1fb6e2",
+      "title": "1.5 TB of VRAM on Mac Studio – RDMA over Thunderbolt 5",
+      "description": "Comments",
+      "url": "https://www.jeffgeerling.com/blog/2025/15-tb-vram-on-mac-studio-rdma-over-thunderbolt-5",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-18T22:23:09+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "c837a42a33d9713c",
+      "title": "AI vending machine was tricked into giving away everything",
+      "description": "Comments",
+      "url": "https://kottke.org/25/12/this-ai-vending-machine-was-tricked-into-giving-away-everything",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-18T21:52:39+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "f36e13df3098899c",
       "title": "Getting Started with Foundation 6’s CLI Tools",
       "description": "Julian provides an in-depth look at a lesser-known, but no less powerful, feature of the new Foundation 6: the command line tools to ease development. Continue reading Getting Started with Foundation 6’s CLI Tools on SitePoint.",
@@ -10411,8 +10387,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "performance",
-        "React 19"
+        "React 19",
+        "performance"
       ]
     },
     {
@@ -10468,8 +10444,8 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "performance",
         "developer",
+        "performance",
         "release"
       ]
     },
@@ -10728,9 +10704,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "release",
         "React 19",
-        "API"
+        "API",
+        "release"
       ]
     },
     {
@@ -10744,8 +10720,8 @@
       "niche": "dev",
       "score": 37,
       "keywords": [
-        "API",
-        "developer"
+        "developer",
+        "API"
       ]
     },
     {
@@ -10787,8 +10763,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10802,8 +10778,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10904,18 +10880,16 @@
       ]
     },
     {
-      "id": "6bd00f4c64ffae28",
-      "title": "Ensuring a National Policy Framework for Artificial Intelligence",
-      "description": "Comments",
-      "url": "https://www.whitehouse.gov/presidential-actions/2025/12/eliminating-state-law-obstruction-of-national-artificial-intelligence-policy/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-11T23:56:10+00:00",
+      "id": "5b9b1020d62941dc",
+      "title": "Building a safer Android and Google Play, together",
+      "description": "Posted by Matthew Forsythe , Director, Product Management, App & Ecosystem Trust and Ron Aquino Sr. Director, Trust and Safety, Chrome, Android and PlayEarlier this year, we reiterated our commitment to keeping Android and Google Play safe for everyone and maintaining a thriving environment where users can trust the apps they download and your business can flourish. We’ve heard your feedback clearly, from excited conversations at Play events around the world to the honest concerns on social medi",
+      "url": "https://android-developers.googleblog.com/2025/12/building-safer-android-and-google-play.html",
+      "source": "Android Developers Blog",
+      "author": "Android Developers (noreply@blogger.com)",
+      "published": "2025-12-11T14:26:00-08:00",
       "niche": "dev",
-      "score": 30,
-      "keywords": [
-        "framework"
-      ]
+      "score": 32,
+      "keywords": []
     },
     {
       "id": "bddf0d98cd9f527b",
@@ -10970,11 +10944,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "API",
-        "performance",
-        "code",
+        "framework",
         "release",
-        "framework"
+        "code",
+        "performance",
+        "API"
       ]
     },
     {
@@ -11024,10 +10998,10 @@
       "niche": "dev",
       "score": 28,
       "keywords": [
-        "release",
+        "Angular",
         "framework",
-        "library",
-        "Angular"
+        "release",
+        "library"
       ]
     },
     {
@@ -11269,8 +11243,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "API"
+        "API",
+        "release"
       ]
     },
     {
@@ -11284,8 +11258,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "framework"
+        "framework",
+        "release"
       ]
     },
     {
@@ -11299,9 +11273,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "performance",
         "code",
-        "developer"
+        "developer",
+        "performance"
       ]
     },
     {
@@ -11315,8 +11289,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
-        "code"
+        "code",
+        "release"
       ]
     },
     {
@@ -11330,8 +11304,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
-        "developer"
+        "developer",
+        "release"
       ]
     },
     {
@@ -11359,8 +11333,22 @@
       "niche": "dev",
       "score": 18,
       "keywords": [
-        "PHP",
-        "Angular"
+        "Angular",
+        "PHP"
+      ]
+    },
+    {
+      "id": "7a71fa047ccaafa2",
+      "title": "Building JavaScript tools in a single HTML file",
+      "description": "#​765 — December 12, 2025 Read on the Web JavaScript Weekly Useful Patterns for Building HTML Tools — In many situations, you don’t need a full-on framework to build useful tools; just HTML, JavaScript and CSS in a single file will do the job fine. Simon’s become a bit of an expert by rolling out many such tools using LLMs, and shares his process and practices here. More please! Simon Willison Why Are the Top AI Companies Choosing SpreadJS? — Because SpreadJS brings a familiar Excel-like UI to J",
+      "url": "https://javascriptweekly.com/issues/765",
+      "source": "JavaScript Weekly",
+      "author": "Inconnu",
+      "published": "2025-12-12T00:00:00+00:00",
+      "niche": "dev",
+      "score": 18,
+      "keywords": [
+        "framework"
       ]
     },
     {
