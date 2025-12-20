@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-20T15:24:26.523957+00:00",
-  "total_articles": 157,
+  "last_updated": "2025-12-20T18:33:03.778118+00:00",
+  "total_articles": 167,
   "articles": [
     {
       "id": "ce87d9e0a9369a07",
@@ -180,18 +180,6 @@
       "published": "2025-12-16T12:00:00-05:00",
       "niche": "php",
       "score": 46,
-      "keywords": []
-    },
-    {
-      "id": "e0eaf27e75dd33aa",
-      "title": "The Pulse: Could a 5-day RTO be around the corner for Big Tech?",
-      "description": "",
-      "url": "https://stitcher.io/feed/posts/73899",
-      "source": "Aggregate.stitcher.io",
-      "author": "Stitcher Feed",
-      "published": "2025-12-13T15:55:33+00:00",
-      "niche": "php",
-      "score": 44,
       "keywords": []
     },
     {
@@ -696,6 +684,126 @@
       "published": "2025-12-07T18:02:07+01:00",
       "niche": "php",
       "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "036af40cec999938",
+      "title": "IPTC export changed in Photos for macOS 26 Tahoe",
+      "description": "I've recently upgraded my MacBook Air to macOS 26 Tahoe and one thing I noticed was that Rodeo's rules were no longer working. With the help of exiftool, I worked out that when exporting to JPEG from Photos for macOS 26 Tahoe, the Object Name, Caption-Abstract and Keywords IPRC properties were no longer being populated. This is a regression from macOS 15 Sequoia. This is the data from exiftool. Output from macOS 15 Sequoia: $… continue reading.",
+      "url": "https://akrabat.com/iptc-export-changed-in-photos-for-macos-26-tahoe/",
+      "source": "Rob Allen",
+      "author": "Rob",
+      "published": "2025-11-11T11:00:00+00:00",
+      "niche": "php",
+      "score": 12,
+      "keywords": []
+    },
+    {
+      "id": "f5d8b5eb2cd56fe7",
+      "title": "Appending text to Obsidan via Shortcuts",
+      "description": "Sometimes it's helpful to add some text to my current Obsidian daily note without having to switch to Obsidian, find the daily note and then type my text. To do this, we can use the magic of Obsidian's obsidian:// URI schema and automate the text capture in Apple Shortcuts, with an assigned keyboard shortcut to activate it. This is the Shortcut: There's a number of steps in the Shortcut. Firstly we Ask For some text… continue reading.",
+      "url": "https://akrabat.com/appending-text-to-obsidan-via-shortcuts/",
+      "source": "Rob Allen",
+      "author": "Rob",
+      "published": "2025-10-14T10:00:00+00:00",
+      "niche": "php",
+      "score": 12,
+      "keywords": []
+    },
+    {
+      "id": "dbd28265b1385dcf",
+      "title": "mac-volume: A CLI to control device volume",
+      "description": "I've set my Mac up such that video calls such as Zoom use the microphone and earphones attached to my Behringer UMC204HD, which all other audio plays through the my normal speakers which are the default. One issue I have with this is that it's quite hard to change the volume when a call as the volume buttons on the Mac are connected to the default output. This finally annoyed me enough that I looked… continue reading.",
+      "url": "https://akrabat.com/mac-volume-a-cli-to-control-device-volume/",
+      "source": "Rob Allen",
+      "author": "Rob",
+      "published": "2025-10-07T10:00:00+00:00",
+      "niche": "php",
+      "score": 12,
+      "keywords": []
+    },
+    {
+      "id": "0543a287ffcc6941",
+      "title": "Opening Slack Jira Cloud links in the right browser",
+      "description": "I use OpenIn to open links in a given browser when I click on them in other applications. This is really helpful to keep various work related stuff in different browsers or profiles and I find it very helpful. One thing that's bothered me is that links from the Jira Cloud Slack App ignore my OpenIn rules and always open in Safari and I finally sat down to work out why. The investigation I create… continue reading.",
+      "url": "https://akrabat.com/opening-slack-jira-cloud-app-links-in-the-right-browser/",
+      "source": "Rob Allen",
+      "author": "Rob",
+      "published": "2025-09-30T10:00:00+00:00",
+      "niche": "php",
+      "score": 12,
+      "keywords": []
+    },
+    {
+      "id": "3762b0f4078b9205",
+      "title": "Fixing PostgreSQL collation version mismatch",
+      "description": "After pulling a new version of the Docker PostgreSQL container, I started getting this warning: WARNING: database \"dev\" has a collation version mismatch DETAIL: The database was created using collation version 2.36, but the operating system provides version 2.41. HINT: Rebuild all objects in this database that use the default collation and run ALTER DATABASE dev REFRESH COLLATION VERSION, or build PostgreSQL with the right library version. This seems to have occurred because the underlying… cont",
+      "url": "https://akrabat.com/fixing-postgresql-collation-version-mismatch/",
+      "source": "Rob Allen",
+      "author": "Rob",
+      "published": "2025-09-23T10:00:00+00:00",
+      "niche": "php",
+      "score": 12,
+      "keywords": []
+    },
+    {
+      "id": "54ce9e8d2a87424c",
+      "title": "Jumping to the end of bash's history",
+      "description": "I use bash's history all the time, via ctrl+r and also with the up and down keys; it's wonderful. Sometimes, I want to get back to the end of my history and I recently discovered that there's a shortcut for this: meta+&#62;. It doesn't matter where you are in your history, pressing meta+&#62; jumps you to the end and you have a blank prompt again. I use iTerm2 on my Mac and have my right… continue reading.",
+      "url": "https://akrabat.com/jumping-to-the-end-of-bashs-history/",
+      "source": "Rob Allen",
+      "author": "Rob",
+      "published": "2025-09-16T10:00:00+00:00",
+      "niche": "php",
+      "score": 12,
+      "keywords": []
+    },
+    {
+      "id": "c3d49e32776844cc",
+      "title": "Converting JWKS JSON to PEM using Python",
+      "description": "Following on from my earlier exploration of JWKS (RFC7517), I found myself needing to convert the JWKS into PEM format. This time I turned to Python with my preference of using uv with inline script metadata and created jwks-to-pem.py. The really nice thing about inline script metadata is that we can use the cryptography package to do all the hard work with RSA and serialisation. We just have to remember that the base64 encoded values… continue reading.",
+      "url": "https://akrabat.com/converting-jwks-json-to-pem-using-python/",
+      "source": "Rob Allen",
+      "author": "Rob",
+      "published": "2025-09-09T10:00:00+00:00",
+      "niche": "php",
+      "score": 12,
+      "keywords": []
+    },
+    {
+      "id": "128cb8ed760fa92f",
+      "title": "Stop in-place editing of bash history items",
+      "description": "Recently, since getting a new computer, I've noticed that I've been losing bash history items and it took a while to work out what was going on, though I'm still not completely sure as it never seemed to be so much of a problem. I regularly use the up and down keys with context specific history. For example, I will type ma and then press up to search back through all the make commands I've… continue reading.",
+      "url": "https://akrabat.com/stop-in-place-editing-of-bash-history-items/",
+      "source": "Rob Allen",
+      "author": "Rob",
+      "published": "2025-09-02T10:00:00+00:00",
+      "niche": "php",
+      "score": 12,
+      "keywords": []
+    },
+    {
+      "id": "d42787aeaef3bcf7",
+      "title": "Extending an OpenAPI Component Schema",
+      "description": "One project that I'm working on uses RFC 9457 Problem Details for HTTP APIs for its error responses. In the OpenAPI spec, we can define this as a component and use in the relevant paths as appropriate: components: schemas: ProblemDetails: type: object properties: type: type: string format: uri-reference description: A URI reference that identifies the problem type default: about:blank example: https://example.com/probs/out-of-credit title: type: string description: A short, human-readable summar",
+      "url": "https://akrabat.com/extending-an-openapi-component-schema/",
+      "source": "Rob Allen",
+      "author": "Rob",
+      "published": "2025-08-26T10:00:00+00:00",
+      "niche": "php",
+      "score": 12,
+      "keywords": []
+    },
+    {
+      "id": "4b0920d068c91c49",
+      "title": "Saving the current URL to a Note",
+      "description": "Inspired by John Gruber mentioning on the Cortex podcast that he has a shortcut that saves links to a note in Tot, I thought I'd do something similar for saving to a note in Apple Notes. I want to store as a bullet item containing the name of the page, the link and the date. Something like this: (Funny that the spellchecker doesn't know that Thu is the short form for Thursday) The Save Links… continue reading.",
+      "url": "https://akrabat.com/saving-the-current-url-to-a-note/",
+      "source": "Rob Allen",
+      "author": "Rob",
+      "published": "2025-08-19T10:00:00+00:00",
+      "niche": "php",
+      "score": 12,
       "keywords": []
     },
     {
@@ -1582,6 +1690,18 @@
       "source": "Stitcher.io",
       "author": "Brent",
       "published": "2025-09-10T00:00:00+00:00",
+      "niche": "php",
+      "score": 8,
+      "keywords": []
+    },
+    {
+      "id": "e0eaf27e75dd33aa",
+      "title": "The Pulse: Could a 5-day RTO be around the corner for Big Tech?",
+      "description": "",
+      "url": "https://stitcher.io/feed/posts/73899",
+      "source": "Aggregate.stitcher.io",
+      "author": "Stitcher Feed",
+      "published": "2025-12-13T15:55:33+00:00",
       "niche": "php",
       "score": 8,
       "keywords": []

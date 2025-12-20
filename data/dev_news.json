@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-20T15:24:09.438796+00:00",
-  "total_articles": 991,
+  "last_updated": "2025-12-20T18:32:47.996999+00:00",
+  "total_articles": 989,
   "articles": [
     {
       "id": "ee7e1d47e6b6f1b4",
@@ -323,18 +323,17 @@
       ]
     },
     {
-      "id": "6632bcd5693a7e64",
-      "title": "Lessons Learned from the React2Shell Vulnerability (December 3, 2025)",
-      "description": "On December 3, 2025, the React2Shell vulnerability was disclosed, exposing a serious remote code execution risk in certain React and Next.js setups. Unfortunately, this wasn’t just a headline for me—I experienced it firsthand on a client’s production server. This post documents what happened, how the compromise was detected, and the most important lessons I learned as a developer. The Incident One of my client’s servers was running Next.js 16, which was affected by the vulnerability. When I SSH’",
-      "url": "https://dev.to/jojo_kunsang/lessons-learned-from-the-react2shell-vulnerability-december-3-2025-2ieo",
+      "id": "cb0968766284716d",
+      "title": "GitHub Copilot Agent Skills: Teaching AI Your Repository Patterns",
+      "description": "A practical guide to the new GitHub Copilot Agent Skills feature (announced December 18, 2025) Example Repository: SeleniumSelfHealing.Reqnroll Every test automation engineer faces this challenge: you build a sophisticated framework with custom patterns, then AI assistants suggest brittle, outdated approaches that ignore your architecture. On December 18, 2025, GitHub announced Agent Skills — folders containing instructions, scripts, and resources that Copilot automatically loads when relevant t",
+      "url": "https://dev.to/qa-leaders/github-copilot-agent-skills-teaching-ai-your-repository-patterns-1oa8",
       "source": "Dev.to",
-      "author": "Kunsang Moktan",
-      "published": "2025-12-13T18:17:53+00:00",
+      "author": "Let's Automate 🛡️",
+      "published": "2025-12-20T18:06:36+00:00",
       "niche": "dev",
-      "score": 70,
+      "score": 72,
       "keywords": [
-        "developer",
-        "code"
+        "framework"
       ]
     },
     {
@@ -593,6 +592,20 @@
       ]
     },
     {
+      "id": "76b63fa3aca28d2f",
+      "title": "Mastering React.js in 2026: A Comprehensive Guide",
+      "description": "Introduction React.js is one of those libraries that changed how we think about building web applications. If you've been doing web development for a while, you've probably noticed how React became the go-to choice for most modern projects. As we move into 2026, React continues to evolve and remains essential for anyone serious about frontend development. I'm going to walk you through what makes React special, how to use it effectively, and some practical tips I've picked up along the way. 1. Wh",
+      "url": "https://dev.to/panchalmukundak/mastering-reactjs-in-2026-a-comprehensive-guide-3d4n",
+      "source": "Dev.to",
+      "author": "Panchal Mukunda K",
+      "published": "2025-12-20T18:09:31+00:00",
+      "niche": "dev",
+      "score": 69,
+      "keywords": [
+        "development"
+      ]
+    },
+    {
       "id": "388a3deb6ea280e8",
       "title": "From PyTorch to Shipping local AI on Android",
       "description": "On-device AI offers many advantages for Android apps; enabling low-latency interactions, offline functionality and total privacy to name a few. But running AI on local devices is far harder than running it in a Jupyter notebook. In this guide, we’ll break down why it is so hard and walk through how to optimize and run models on Android devices. We’ll also demonstrate how you can test it on different devices without needing physical access to a wide range of hardware. Why run AI locally and why i",
@@ -835,18 +848,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "bf65a5438281a8ce",
-      "title": "Fast, Memory-Efficient Hash Table in Java: Borrowing the Best Ideas",
-      "description": "Comments",
-      "url": "https://bluuewhale.github.io/posts/building-a-fast-and-memory-efficient-hash-table-in-java-by-borrowing-the-best-ideas/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-13T17:41:32+00:00",
-      "niche": "dev",
-      "score": 62,
-      "keywords": []
     },
     {
       "id": "c587c80246c500c0",
@@ -1130,6 +1131,22 @@
       "keywords": []
     },
     {
+      "id": "2020a3914e7bb2ce",
+      "title": "The Laravel 12 Docker Blueprint I Wish I Had: Nginx + PHP-FPM, Small Images, Clean CI/CD, and DigitalOcean Private Registry",
+      "description": "This is the setup that turned my Laravel 12 project from “works on my machine” into “ready anytime”. The goal was simple: smaller builds, cleaner releases, and deployments that don’t need babysitting backed by CI/CD and a DigitalOcean private registry. What you’ll learn In this post, I’ll walk through the blueprint I used to: Run Laravel 12 on PHP 8.2 in containers (the minimum supported version). Serve the app with Nginx + PHP-FPM (clean separation of concerns). Build smaller images and keep re",
+      "url": "https://dev.to/mufthi_ryanda_84ea0d65262/the-laravel-12-docker-blueprint-i-wish-i-had-nginx-php-fpm-small-images-clean-cicd-and-4ai5",
+      "source": "Dev.to",
+      "author": "Mufthi Ryanda",
+      "published": "2025-12-20T18:09:07+00:00",
+      "niche": "dev",
+      "score": 61,
+      "keywords": [
+        "PHP",
+        "Laravel",
+        "release"
+      ]
+    },
+    {
       "id": "53aade033e1f4c43",
       "title": "Optimization of Scikit - learn Algorithm Library Based on Python for High - Dimensional Data Classification",
       "description": "Abstract With the rapid development of big data technology, high - dimensional data classification has become a core issue in the field of machine learning. Python, as a popular programming language, has a wide range of applications in data processing due to its simplicity and flexibility. The Scikit - learn library based on Python provides a wealth of classification algorithms, but it still has problems such as low efficiency and easy overfitting when dealing with high - dimensional data. This ",
@@ -1178,22 +1195,6 @@
         "API",
         "tutorial",
         "developer"
-      ]
-    },
-    {
-      "id": "fea307d9b84a57d3",
-      "title": "How to handle API rate limits and HTTP 429 errors in an easy and reliable way",
-      "description": "API rate limits and HTTP 429 (Too Many Requests) errors are common challenges when building applications that integrate with third-party APIs, as they require multiple requests within a short time window. A typical first approach is to handle 429 responses directly in the application logic by adding custom retry and delay mechanisms; however, this often results in complex, fragile, and difficult-to-maintain code. When integrating APIs using Symfony HTTP Client, there is no need to reinvent the w",
-      "url": "https://dev.to/robertobutti/how-to-handle-api-rate-limits-and-http-429-errors-in-an-easy-and-reliable-way-14e6",
-      "source": "Dev.to",
-      "author": "Roberto B.",
-      "published": "2025-12-13T18:13:54+00:00",
-      "niche": "dev",
-      "score": 58,
-      "keywords": [
-        "Symfony",
-        "API",
-        "code"
       ]
     },
     {
@@ -1524,22 +1525,6 @@
       ]
     },
     {
-      "id": "09a971e66f77e8ef",
-      "title": "Boost Developer Revenue with Monetzly's API Monetization",
-      "description": "Why 90% of AI Apps Fail to Monetize Effectively (And How You Can Be the Exception) In the rapidly evolving landscape of AI applications, the statistics are sobering: 90% of AI apps fail to monetize effectively. The culprit? A lack of sustainable monetization models that respect user experience while generating revenue. Enter Monetzly—the first platform that allows developers to monetize their AI applications while hosting relevant ads, fundamentally reshaping the economics of AI app development.",
-      "url": "https://dev.to/monetzly/boost-developer-revenue-with-monetzlys-api-monetization-3jh3",
-      "source": "Dev.to",
-      "author": "Monetzly",
-      "published": "2025-12-13T18:16:33+00:00",
-      "niche": "dev",
-      "score": 56,
-      "keywords": [
-        "developer",
-        "API",
-        "development"
-      ]
-    },
-    {
       "id": "da6c817054016881",
       "title": "AWS Certified Developer - Associate (DVA-C02) Exam notes",
       "description": "Notes preparation before the exam. AWS X-Ray X-Ray daemonis a software application that listens for traffic on UDP port 2000, gathers raw segment data, and relays it to the AWS X-Ray API. *Note: * End-of-support notice – On February 25th, 2027, AWS X-Ray will discontinue support for AWS X-Ray SDKs and daemon. https://docs.aws.amazon.com/xray/latest/devguide/xray-daemon.html S3 S3 Object Lambda, provide different views of data to multiple applications, allows you to add custom code to process and",
@@ -1812,18 +1797,19 @@
       ]
     },
     {
-      "id": "533995f6010969a9",
-      "title": "Day 24 of improving my Data Science skills",
-      "description": "6 Practical Things I Learned Today Today, my learning sat at the intersection of Web Scraping and Statistics, and surprisingly… both answered the same real-world question: \"How do you make decisions when you don't have all the data?\" Here's how that played out, in ways founders, recruiters, analysts, and builders can relate to. 1️⃣ You don't need permission to access public information With Python Response objects, I learned how websites send back data (HTML, headers, status codes). Real life: T",
-      "url": "https://dev.to/sp_the_data_specialist/day-24-of-improving-my-data-science-skills-2fg2",
+      "id": "00072130239d0b75",
+      "title": "SaaS Trends That Are Reshaping Cloud Software and Modern Development",
+      "description": "The SaaS industry is evolving faster than ever, and it’s no longer just about delivering software through the cloud. Today, SaaS trends are redefining how developers build products, how businesses scale, and how users interact with technology. One of the biggest shifts we’re seeing is the deep integration of AI into SaaS platforms. AI is no longer a “future feature.” It’s now part of everyday tools—helping with automation, analytics, personalization, and smarter decision-making. For developers, ",
+      "url": "https://dev.to/techgenius/saas-trends-that-are-reshaping-cloud-software-and-modern-development-2fgk",
       "source": "Dev.to",
-      "author": "Sylvester Promise",
-      "published": "2025-12-13T18:21:23+00:00",
+      "author": "Muhammad Kazim",
+      "published": "2025-12-20T17:59:14+00:00",
       "niche": "dev",
-      "score": 55,
+      "score": 56,
       "keywords": [
+        "developer",
         "API",
-        "code"
+        "development"
       ]
     },
     {
@@ -2440,6 +2426,36 @@
       "keywords": [
         "development",
         "API"
+      ]
+    },
+    {
+      "id": "4990abaf958c66fd",
+      "title": "**Chunklet-py: One Library to Split Them All - Sentence, Code, Docs**",
+      "description": "I've been working on Chunklet-py - a powerful Python library for intelligent text and document chunking that's perfect for LLM/RAG applications. Here's why you might want to check it out: 🔧 What It Does Chunklet-py is your friendly neighborhood text splitter that takes all kinds of content and breaks it into smart, context-aware chunks. Instead of dumb character-count splitting, it gives you specialized tools for: Sentence Splitter - Multilingual text splitting (50+ languages!) Plain Text Chunke",
+      "url": "https://dev.to/speed_k_7e1b449706e59e433/chunklet-py-one-library-to-split-them-all-sentence-code-docs-2eeg",
+      "source": "Dev.to",
+      "author": "Speedyk-005",
+      "published": "2025-12-20T18:24:05+00:00",
+      "niche": "dev",
+      "score": 55,
+      "keywords": [
+        "library",
+        "code"
+      ]
+    },
+    {
+      "id": "8de2643a684522f4",
+      "title": "Introducing Automatic Security Audits for AI",
+      "description": "AI coding assistants move fast. They can refactor modules, add dependencies, and wire up integrations before you've finished reading the diff. That speed is valuable, but security issues can slip in just as quickly: hardcoded API keys, string-concatenated SQL queries, debug endpoints that never get removed. So we built something to help catch these issues early. What It Does mrq now scans your code changes for common security vulnerabilities automatically. Every snapshot triggers a background an",
+      "url": "https://dev.to/ivandotcodes/introducing-automatic-security-audits-for-ai-45eh",
+      "source": "Dev.to",
+      "author": "Ivan",
+      "published": "2025-12-20T18:09:47+00:00",
+      "niche": "dev",
+      "score": 55,
+      "keywords": [
+        "API",
+        "code"
       ]
     },
     {
@@ -3800,34 +3816,6 @@
       ]
     },
     {
-      "id": "4b3f96589e43afa4",
-      "title": "Docker Explained from Real Project Pain (Not Theory)",
-      "description": "Introduction Docker didn’t click for me because of tutorials or diagrams. It clicked when a real project started breaking in very real ways. I was working on an end-to-end application stack that included: Node.js web server MongoDB database Redis messaging system Ansible for orchestration On paper, it looked manageable. In reality, it was chaos. The Problem We Were Fighting Here’s the thing. Each component worked fine on its own, but getting them to live together was painful. 1. OS and Version C",
-      "url": "https://dev.to/anusha_kuppili/docker-explained-from-real-project-pain-not-theory-4al",
-      "source": "Dev.to",
-      "author": "Anusha Kuppili",
-      "published": "2025-12-13T18:21:45+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "tutorial"
-      ]
-    },
-    {
-      "id": "f636c761ee32097f",
-      "title": "The Hidden Engineering Behind Holiday Invites: Make Your RSVP Page Fast, Safe, and Not Creepy",
-      "description": "Holiday season pushes a deceptively complex workflow into the spotlight: you share a link, people click, they RSVP, and somehow nobody gets phished, doxxed, or spammed. An RSVP page like this Evite preview is the friendly front end of a chain that includes identity, email trust, privacy, and anti-abuse controls. If you’re building invitations for a team, a community event, a developer meetup, or a family gathering that still needs “real” infrastructure, the holiday theme is a great excuse to tig",
-      "url": "https://dev.to/sonia_bobrik_1939cdddd79d/the-hidden-engineering-behind-holiday-invites-make-your-rsvp-page-fast-safe-and-not-creepy-3a2o",
-      "source": "Dev.to",
-      "author": "Sonia Bobrik",
-      "published": "2025-12-13T18:07:27+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "developer"
-      ]
-    },
-    {
       "id": "66d19467c211f82f",
       "title": "I Knew Web Dev, But I Couldn’t Build Anything — Here’s What I Changed",
       "description": "If you’re a fresher or someone who has gone through countless tutorials, courses, and playlists but still hasn’t built a project on your own — this post is for you. I’ve been there. Watching videos, reading docs, understanding things in isolation, but never feeling confident enough to start something independently. The common excuse is always the same: “I don’t know enough yet.” The truth is, you’ll never feel “ready.” What you need is a structured way to learn just enough, apply it, and move fo",
@@ -5172,52 +5160,32 @@
       ]
     },
     {
-      "id": "b7bb4fd4dc9a8ca0",
-      "title": "DB-Toolkit - Database Management Made Simple",
-      "description": "For a long time, I searched for a modern database tool that truly fit the way I work. Not just something that connects to a database, but something that stays out of the way, and feels intuitive to use. I wanted multiple databases open without mental clutter, a workflow that minimizes context switching, an editor that just makes sense, and a tool that feels like it belongs in 2025 — not 2012. I couldn’t find it. So I started building it. That journey became DB Toolkit — a cross-platform desktop ",
-      "url": "https://dev.to/adelodunpeter/db-toolkit-database-management-made-simple-3bdp",
+      "id": "e5d4c737b499a144",
+      "title": "Deeply nested AL code can be a nightmare to review, especially in big files.",
+      "description": "I wrote AL Indent Prism, a small VS Code extension to help. Adds subtle background colors per indent level Works only on AL files Supports light/dark themes Doesn’t touch your code It makes structure easier to see at a glance and speeds up reviews. Open source + free → https://learnbeyondbc.com/blogs/al-indent-prism-code-review Feedback, issues, or pull requests are welcome!",
+      "url": "https://dev.to/jeffreybulanadi/deeply-nested-al-code-can-be-a-nightmare-to-review-especially-in-big-files-79f",
       "source": "Dev.to",
-      "author": "Adelodun Peter",
-      "published": "2025-12-13T18:17:12+00:00",
+      "author": "Jeffrey Bulanadi",
+      "published": "2025-12-20T18:14:47+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
-      "id": "80a605dcb3f9da5d",
-      "title": "Day 3 — Linux Permissions for DevOps (AWS EC2) #40 days",
-      "description": "Today, on Day 3 of my 40-day AWS DevOps challenge, I focused on understanding Linux permissions, which are critical for real-world DevOps work on EC2. What I Learned Today 1️⃣ Linux File Permissions Read (r) Write (w) Execute (x) Permission groups: Owner | Group | Others Example: -rwxr-xr-- chmod — Change Permissions Used to allow or restrict access to files and scripts. Examples: chmod 755 script.sh chmod +x deploy.sh chown — Change Ownership Used when fixing permission issues after deployments",
-      "url": "https://dev.to/sakshi_more_20/day-3-linux-permissions-for-devops-aws-ec2-29m7",
+      "id": "ef11431306024f12",
+      "title": "Phishing-Resistant Sign-In: What Developers Can Do Now (Without Turning UX Into a Nightmare)",
+      "description": "Security advice on the internet is usually either too vague to be useful or so strict it breaks real products. If you want a quick sense of the “build in public” mindset behind this approach, this HackerNoon profile is a decent reference point for how to communicate technical decisions clearly. The goal of this article is simpler: help you protect accounts (yours and your users’) against modern phishing and takeover techniques. And do it in a way that can actually ship. The Threat Model You Actu",
+      "url": "https://dev.to/sonia_bobrik_1939cdddd79d/phishing-resistant-sign-in-what-developers-can-do-now-without-turning-ux-into-a-nightmare-3di6",
       "source": "Dev.to",
-      "author": "Sakshi More",
-      "published": "2025-12-13T18:14:18+00:00",
+      "author": "Sonia Bobrik",
+      "published": "2025-12-20T17:59:35+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "b89de60446f8d2ac",
-      "title": "Ai study buddy",
-      "description": "This is a submission for the Google AI Agents Writing Challenge: Learning Reflections www.kaggle.com/competitions/agents-intensive-capstone-project/overview/citation Here is the link the project i have made with knowledge of this course",
-      "url": "https://dev.to/jalaj_gurjar_123014985861/ai-study-buddy-45m",
-      "source": "Dev.to",
-      "author": "Jalaj Gurjar",
-      "published": "2025-12-13T18:10:41+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "87ccb3a265b765db",
-      "title": "Emergence vs. Engineering: The Industry Just Bet Against the God Model",
-      "description": "Monday, OpenAI, Anthropic, Google, Microsoft, and AWS jointly donated their agent infrastructure to the Linux Foundation. If any of them actually believed a single model would achieve AGI in 2-3 years, this would be the dumbest move in corporate history. You don't standardize the plumbing when you're about to build God. The Agentic AI Foundation launched with three projects: Anthropic's Model Context Protocol (MCP) for connectivity, Block's goose for execution, and OpenAI's AGENTS.md for instruc",
-      "url": "https://dev.to/aronchick/emergence-vs-engineering-the-industry-just-bet-against-the-god-model-1oo9",
-      "source": "Dev.to",
-      "author": "David Aronchick",
-      "published": "2025-12-13T18:09:33+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
       "id": "4ce0861322efc8be",
@@ -8174,6 +8142,30 @@
       "keywords": []
     },
     {
+      "id": "f2eb815c54d783c3",
+      "title": "MindsEye — Turning AI Activity Into Auditable Organizational Memory",
+      "description": "(Submission for: Overall Show & Tell + Best Use of Mux) 🎥 Pitch Video (Mux) Mux Embed: https://player.mux.com/N24z13lmiKdU6XBIvR1ktp8ixukNLb902ADvUEPT006h8 (1 minute · hosted & delivered via Mux) 🧠 What MindsEye Does MindsEye is a ledger-first cognitive architecture that turns AI activity into immutable, queryable organizational memory. Instead of overwriting prompts, logs, or decisions, MindsEye records everything as time-labeled ledger entries: prompts & templates executions & tool calls workf",
+      "url": "https://dev.to/peacebinflow/mindseye-turning-ai-activity-into-auditable-organizational-memory-1ic3",
+      "source": "Dev.to",
+      "author": "PEACEBINFLOW",
+      "published": "2025-12-20T18:20:02+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "b639e8a148a4cc1b",
+      "title": "Building a Page-Level PDF Processing Pipeline for Smarter RAG Systems",
+      "description": "How I solved the granularity problem in document-based AI applications using Wasp, pdf2pic, and smart architecture decisions The Problem: When Your RAG System Can't Point to the Right Page Picture this: You're building an AI-powered document analysis system. Users upload PDFs, ask questions, and expect precise answers with exact references. But there's a frustrating problem—your RAG (Retrieval-Augmented Generation) system can tell users what information exists but not where to find it. ❌ User: \"",
+      "url": "https://dev.to/steravy/building-a-page-level-pdf-processing-pipeline-for-smarter-rag-systems-3bgm",
+      "source": "Dev.to",
+      "author": "Stefan Vitoria",
+      "published": "2025-12-20T17:59:55+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "31c2f2ca48af2062",
       "title": "Ask HN: How do you handle release notes for multiple audiences?",
       "description": "Comments",
@@ -8404,34 +8396,6 @@
       "keywords": []
     },
     {
-      "id": "098792b5e78dce0a",
-      "title": "I tried Gleam for Advent of Code",
-      "description": "Comments",
-      "url": "https://blog.tymscar.com/posts/gleamaoc2025/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-13T17:00:14+00:00",
-      "niche": "dev",
-      "score": 45,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "e415d266d721e9e5",
-      "title": "Ask HN: How can I get better at using AI for programming?",
-      "description": "Comments",
-      "url": "https://news.ycombinator.com/item?id=46255285",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-13T15:37:16+00:00",
-      "niche": "dev",
-      "score": 45,
-      "keywords": [
-        "programming"
-      ]
-    },
-    {
       "id": "412d014111e2471b",
       "title": "Frances Elizabeth Allen: The Woman Who Made Code Run Fast – and Was Forgotten",
       "description": "Comments",
@@ -8471,20 +8435,6 @@
       "score": 45,
       "keywords": [
         "code"
-      ]
-    },
-    {
-      "id": "81a4626f92b07bfc",
-      "title": "Purrtran – ᓚᘏᗢ – A Programming Language for Cat People",
-      "description": "Comments",
-      "url": "https://github.com/cmontella/purrtran",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-13T18:02:46+00:00",
-      "niche": "dev",
-      "score": 45,
-      "keywords": [
-        "programming"
       ]
     },
     {
@@ -8584,30 +8534,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "a90a046b5b88d622",
-      "title": "Analysis finds anytime electricity from solar available as battery costs plummet",
-      "description": "Comments",
-      "url": "https://pv-magazine-usa.com/2025/12/12/analysis-finds-anytime-electricity-from-solar-available-as-battery-costs-plummet/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-13T17:32:21+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "de3603bd6db0dcd9",
-      "title": "EasyPost (YC S13) Is Hiring",
-      "description": "Comments",
-      "url": "https://www.easypost.com/careers",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-13T17:01:25+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "2ed820d6395a9dc1",
@@ -10578,6 +10504,54 @@
       "keywords": []
     },
     {
+      "id": "e8a2af09d00e94a9",
+      "title": "Pure Silicon Demo Coding: No CPU, No Memory, Just 4k Gates",
+      "description": "Comments",
+      "url": "https://www.a1k0n.net/2025/12/19/tiny-tapeout-demo.html",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-20T16:45:48+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "d40ffcef4db3345a",
+      "title": "Go ahead, self-host Postgres",
+      "description": "Comments",
+      "url": "https://pierce.dev/notes/go-ahead-self-host-postgres#user-content-fn-1",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-20T15:43:15+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "da9400208f26383d",
+      "title": "OpenSCAD Is Kinda Neat",
+      "description": "Comments",
+      "url": "https://nuxx.net/blog/2025/12/20/openscad-is-kinda-neat/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-20T17:45:48+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "f098e073e98046cf",
+      "title": "Depot (YC W23) Is Hiring an Enterprise Support Engineer (Remote/US)",
+      "description": "Comments",
+      "url": "https://www.ycombinator.com/companies/depot/jobs/jhGxVjO-enterprise-support-engineer",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-20T18:06:04+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "f36e13df3098899c",
       "title": "Getting Started with Foundation 6’s CLI Tools",
       "description": "Julian provides an in-depth look at a lesser-known, but no less powerful, feature of the new Foundation 6: the command line tools to ease development. Continue reading Getting Started with Foundation 6’s CLI Tools on SitePoint.",
@@ -10628,8 +10602,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "performance",
-        "React 19"
+        "React 19",
+        "performance"
       ]
     },
     {
@@ -10685,9 +10659,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
+        "developer",
         "performance",
-        "release",
-        "developer"
+        "release"
       ]
     },
     {
@@ -10945,9 +10919,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "release",
         "API",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10989,8 +10963,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -11004,8 +10978,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -11047,8 +11021,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "framework",
-        "API"
+        "API",
+        "framework"
       ]
     },
     {
@@ -11192,11 +11166,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "framework",
-        "release",
+        "API",
         "performance",
         "code",
-        "API"
+        "framework",
+        "release"
       ]
     },
     {
@@ -11300,18 +11274,6 @@
       "keywords": [
         "release"
       ]
-    },
-    {
-      "id": "ad0b29546faef1e8",
-      "title": "Essential Semiconductor Physics [pdf]",
-      "description": "Comments",
-      "url": "https://nanohub.org/resources/43623/download/Essential_Semiconductor_Physics.pdf",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-13T18:19:51+00:00",
-      "niche": "dev",
-      "score": 26,
-      "keywords": []
     },
     {
       "id": "8183b6325de05060",
@@ -11502,8 +11464,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "API"
+        "API",
+        "release"
       ]
     },
     {
@@ -11532,9 +11494,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "performance",
+        "developer",
         "code",
-        "developer"
+        "performance"
       ]
     },
     {
@@ -11563,8 +11525,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
-        "developer"
+        "developer",
+        "release"
       ]
     },
     {
@@ -11663,8 +11625,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "code",
-        "API"
+        "API",
+        "code"
       ]
     },
     {
@@ -11706,8 +11668,8 @@
       "niche": "dev",
       "score": 15,
       "keywords": [
-        "library",
-        "developer"
+        "developer",
+        "library"
       ]
     },
     {
@@ -11819,18 +11781,6 @@
       "keywords": []
     },
     {
-      "id": "4c479e844dc8a2eb",
-      "title": "Playing Santa changed Bob Rutan profoundly",
-      "description": "Comments",
-      "url": "https://www.esquire.com/lifestyle/a69597294/santaland-bob-rutan/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-13T16:30:01+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
       "id": "f1618f3196d90207",
       "title": "My payment agent is named George, not stripe-agent",
       "description": "Comments",
@@ -11910,6 +11860,30 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-16T12:48:12+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "b29fc695234dccbd",
+      "title": "Log level 'error' should mean that something needs to be fixed",
+      "description": "Comments",
+      "url": "https://utcc.utoronto.ca/~cks/space/blog/programming/ErrorsShouldRequireFixing",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-17T12:08:21+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "1af846b035d55a60",
+      "title": "Maximizing Compression of Apple II Hi-Res Images",
+      "description": "Comments",
+      "url": "http://deater.net/weave/vmwprod/hgr_compress/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-16T03:55:00+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -12095,8 +12069,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "programming",
-        "development"
+        "development",
+        "programming"
       ]
     },
     {
