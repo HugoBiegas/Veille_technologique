@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-20T01:55:54.557230+00:00",
+  "last_updated": "2025-12-20T03:51:17.013679+00:00",
   "total_articles": 977,
   "articles": [
     {
@@ -576,16 +576,18 @@
       ]
     },
     {
-      "id": "7fdb0553e9bcb1fd",
-      "title": "Building My First AI Cyber Guardian Agent: Reflections from the Google x Kaggle Intensive",
-      "description": "This is a submission for the Google AI Agents Writing Challenge: Learning Reflections Hi, I’m Arulmozhi M, a first-year B.Tech CSE student specializing in Cyber Security at SRM University. I’m deeply interested in cybersecurity, AI, and building practical tools that make the digital world safer for everyone. Participating in the Google AI Agents Intensive with Kaggle has been one of the most transformative learning experiences of my academic journey. I joined the program with curiosity, but I wa",
-      "url": "https://dev.to/arul_mozhi_95db9e19ae530e/building-my-first-ai-cyber-guardian-agent-reflections-from-the-google-x-kaggle-intensive-2f2m",
+      "id": "c32a5e44f0020aca",
+      "title": "AI News Roundup December 2025: OpenAI, Sam Altman, and What's Coming in 2026",
+      "description": "Grab your coffee. Let's talk about what happened in AI this week. The artificial intelligence landscape never stops moving, but you shouldn't need a PhD to keep up with it. Here's your quick morning brief on the biggest AI developments from the past week—perfect for that first cup of coffee before your day really starts. Big Money Is Still Flooding Into AI The AI investment train shows no signs of slowing down. According to TechCrunch, when investors were asked where they're placing their bets n",
+      "url": "https://dev.to/ethan_zhang_e501fea89c25b/ai-news-roundup-december-2025-openai-sam-altman-and-whats-coming-in-2026-54pf",
       "source": "Dev.to",
-      "author": "Arul Mozhi",
-      "published": "2025-12-13T03:27:51+00:00",
+      "author": "Ethan Zhang",
+      "published": "2025-12-20T03:38:48+00:00",
       "niche": "dev",
-      "score": 68,
-      "keywords": []
+      "score": 69,
+      "keywords": [
+        "development"
+      ]
     },
     {
       "id": "9d87bfadb5fce383",
@@ -2443,20 +2445,6 @@
       ]
     },
     {
-      "id": "f19da33c5295eed1",
-      "title": "I tried scraping Reddit in 2025... here's what happens when you fight the API",
-      "description": "Let's be real for a second. Ideally, we'd all just pip install praw, grab an API key, and pull unlimited JSON data for our NLP projects or market research. That used to work. But if you've tried it recently (post-2023 API apocalypse), you know the pain. I spent the last weekend trying to archive some threads from r/wallstreetbets for a sentiment analysis project, and I hit wall after wall. The 429 Errors. So many 429s. The Cost. The commercial tier pricing is... aggressive. The Missing Data. Try",
-      "url": "https://dev.to/short_playskits_ab152535/i-tried-scraping-reddit-in-2025-heres-what-happens-when-you-fight-the-api-57o5",
-      "source": "Dev.to",
-      "author": "Short Play Skits",
-      "published": "2025-12-13T03:14:44+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "API"
-      ]
-    },
-    {
       "id": "9c28ef4cca668c98",
       "title": "Auto-stop EC2 on low CPU, then auto-start on HTTPS request — how to keep a “front door” while the instance is off?",
       "description": "Hi everyone, I’m trying to deploy an application on a single EC2 instance and reduce costs by stopping the instance when it’s idle, then automatically starting it again when someone calls my API over HTTPS. I’ve made some progress, but I’m stuck on the last part and would appreciate advice on the right architecture or patterns. *What I want to achieve * Automatically stop the EC2 instance when it’s idle (for example, CPU utilization < 5%). When an incoming HTTPS request hits my API: The EC2 inst",
@@ -3261,6 +3249,20 @@
       ]
     },
     {
+      "id": "0f4e74b9d08504c5",
+      "title": "AgentCore Explained: AWS’s Serverless Runtime for Production-Grade AI Agents",
+      "description": "What Is AgentCore? AgentCore is the execution layer for running AI agents on AWS without dealing with container infrastructure. It provides a fully serverless runtime, no Docker builds, no ECR pushes, no ECS or Kubernetes setup, so agents can be deployed and scaled with minimal operational overhead. It’s framework-agnostic. You can run agents built with Bedrock Agents, AWS Strands, LangChain/LangGraph, OpenAI's Agent SDK, CrewAI, or any other agent framework. Strands gets first-class integration",
+      "url": "https://dev.to/kishore_karumanchi_acbc18/agentcore-explained-awss-serverless-runtime-for-production-grade-ai-agents-4e04",
+      "source": "Dev.to",
+      "author": "Kishore Karumanchi",
+      "published": "2025-12-20T02:54:59+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "framework"
+      ]
+    },
+    {
       "id": "29ca479e04b714e6",
       "title": "From Film to Code: What Fujifilm Teaches Developers About the AI Age",
       "description": "When digital cameras killed film photography, Kodak went bankrupt. But Fujifilm? They pivoted into skincare and thrived. Here’s why that matters for developers right now. The Pivot That Saved Fujifilm Facing extinction in the early 2000s, Fujifilm did something smart. Instead of panicking, they asked: “What are we actually good at?” Turns out, they’d spent decades perfecting chemicals that protect film from UV damage and oxidation. Their scientists realized those same antioxidants could fight sk",
@@ -3666,17 +3668,33 @@
       ]
     },
     {
-      "id": "382f739a39a53dd3",
-      "title": "Stealth Inline Hook Detection via LR Return Address",
-      "description": "1. Background: Why Traditional Inline Hook Detection Fails Inline hook detection on Android commonly relies on: CRC or code hash verification Comparing function prologue bytes (e.g., detecting LDR/BR trampolines) However, these methods have major weaknesses: They read code pages, which makes them easily traceable with memory breakpoints. Attackers can hook the detection function itself. Their “signatures” are well known and easy to bypass. Thus they are visible and high-risk in real offensive–de",
-      "url": "https://dev.to/jack_sparrow_2386c07e8b94/stealth-inline-hook-detection-via-lr-return-address-52c5",
+      "id": "705579a142b25493",
+      "title": "OpenSkills, adding Claude Skills and Superpowers for any agent or IDE",
+      "description": "Superpowers is a complete software development workflow for your coding agents, built on top of a set of composable \"skills\" and some initial instructions that make sure your agent uses them. I've found this one, and it's pretty nice, it's basically an npm for skills, rules and agents.md cross platform 🤩 PRPM My favourite is: https://prpm.dev/collections/superpowers but Marcos, this is only for claude code 😞 NOPE, you can install it like npm install -g prpm prpm install collections/superpowers T",
+      "url": "https://dev.to/wakeupmh/openskills-adding-claude-skills-and-superpowers-for-any-agent-or-ide-3j35",
       "source": "Dev.to",
-      "author": "Jack Sparrow",
-      "published": "2025-12-13T03:15:49+00:00",
+      "author": "Marcos Henrique",
+      "published": "2025-12-20T03:36:16+00:00",
       "niche": "dev",
-      "score": 51,
+      "score": 52,
       "keywords": [
+        "development",
         "code"
+      ]
+    },
+    {
+      "id": "c437cc8b2b212ae2",
+      "title": "19 Linux Commands Every Developer Should Know",
+      "description": "Linux is the backbone of modern software development. From cloud servers and CI/CD pipelines to containers and embedded systems, Linux is everywhere. If you are a developer, mastering Linux commands is not optional—it is a productivity multiplier. This article covers 20 essential Linux commands every developer should know, with clear explanations and real-world use cases. 1. ls – List Directory Contents Displays files and directories. ls ls -l ls -la Why it matters: You constantly navigate proje",
+      "url": "https://dev.to/farhadrahimiklie/20-linux-commands-every-developer-should-know-4b0o",
+      "source": "Dev.to",
+      "author": "Farhad Rahimi Klie",
+      "published": "2025-12-20T03:18:08+00:00",
+      "niche": "dev",
+      "score": 52,
+      "keywords": [
+        "development",
+        "developer"
       ]
     },
     {
@@ -5066,76 +5084,32 @@
       ]
     },
     {
-      "id": "9995777ffbbdfc7f",
-      "title": "The better way to shorten Linux commands (it's not alias)",
-      "description": "alias apup='sudo apt update' alias apug='sudo apt upgrade' alias apls='apt list' alias apsr='apt search' If you're a new Linux user, you might have a ~/.bash_aliases like this. Aliases are useful when you want to shorten lengthy commands, but aliasing like this isn't the best method for a few reasons. Why not alias? Too many aliases mess with autocompletion In most Linux shells, pressing the tab key when typing out a command shows autocompletion suggestions. However, too many aliases beginning w",
-      "url": "https://dev.to/svhl/the-better-way-to-shorten-linux-commands-its-not-alias-17f6",
+      "id": "82ede746b4081c2e",
+      "title": "Awesome Robots Digest - Issue #15 - December 19, 2025",
+      "description": "🤖 Originally published on Awesome Robots This article is part of our comprehensive coverage of AI robotics developments. Visit awesomerobots.xyz for the latest robot reviews, buying guides, and industry analysis. TL;DR 📋 From Demos to Deployment: Robotics Grows Up Academic consensus forming: Progress depends on grounding learning in physical interaction, not just scaling models 2026 conference priorities: Robustness, generalization, and real-world validation over novelty Industry tooling focus: ",
+      "url": "https://dev.to/bobjiang/awesome-robots-digest-issue-15-december-19-2025-46m7",
       "source": "Dev.to",
-      "author": "svhl",
-      "published": "2025-12-13T03:30:00+00:00",
+      "author": "Bob Jiang | awesomerobots",
+      "published": "2025-12-20T03:37:23+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "development"
+      ]
     },
     {
-      "id": "ef5a333b7417d230",
-      "title": "MindMesh AI - 7 AI Agents Debate Your Decisions in Real-Time",
-      "description": "MindMesh AI - Multi-Agent Decision Intelligence System 🎥 Video Demo ▶️ Watch My 1-Minute Pitch Video 🎯 What Problem Does It Solve? Making complex life decisions is hard. Should you switch careers? Buy a house? Start a business? The problem? Confirmation bias. We naturally seek information that confirms what we already believe. We miss risks, overlook perspectives, and make decisions based on incomplete analysis. MindMesh AI solves this by simulating a team of 7 specialized AI agents that: Analyz",
-      "url": "https://dev.to/simranshaikh20_50/mindmesh-ai-7-ai-agents-debate-your-decisions-in-real-time-2nb2",
+      "id": "66c975e4aaaded0a",
+      "title": "Permutations & Next Permutation",
+      "description": "🔁 Permutations & Next Permutation A Deep Problem-Solving & DSA Guide (With Theory, Intuition & Code) 1️⃣ Introduction Permutations are one of the most fundamental concepts in problem solving and data structures (PS/DSA). They appear in: Recursion & backtracking Combinatorics Graph traversal Interview problems (very frequently) Optimization & state exploration Understanding permutations deeply also makes Next Permutation trivial and intuitive. 2️⃣ What Is a Permutation? A permutation is an ordere",
+      "url": "https://dev.to/zeeshanali0704/permutations-next-permutation-25hg",
       "source": "Dev.to",
-      "author": "Simran Shaikh",
-      "published": "2025-12-13T03:21:50+00:00",
+      "author": "ZeeshanAli-0704",
+      "published": "2025-12-20T02:46:58+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "4dbff4d7ee2698c5",
-      "title": "Building a Virtualized Cybersecurity Lab: Splunk SIEM Setup and Log Forwarding",
-      "description": "In this third part of my virtualized cybersecurity lab series, I move beyond infrastructure and identity to focus on visibility—installing Splunk, configuring log forwarding, and building the monitoring layer required for SOC-style analysis and detection. A Need For Robust Logs With my Active Directory environment fully deployed and all client systems joined to the domain, the next logical step in my homelab journey is establishing visibility. Identity services create the foundation of authentic",
-      "url": "https://dev.to/gnarlylasagna/building-a-virtualized-cybersecurity-lab-splunk-siem-setup-and-log-forwarding-4k14",
-      "source": "Dev.to",
-      "author": "Evan Dolatowski",
-      "published": "2025-12-13T03:20:59+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "2abbd6946c06d613",
-      "title": "If You Could Add ONE Feature to a Design Portfolio, What Would It Be?",
-      "description": "A Conversation Every Designer Should Be Having If you were building your design website or portfolio today, let me ask you one simple question: What’s the one feature you’d add to make it truly stand out? Not ten features. Not “everything.” Just one. Because in design, clarity always beats clutter. Why This Question Matters Most portfolios look… fine. Clean layouts. Nice mockups. A few case studies. But fine doesn’t always get remembered. The portfolios that stand out usually have one strong mom",
-      "url": "https://dev.to/the_duchess_of_hackers/if-you-could-add-one-feature-to-a-design-portfolio-what-would-it-be-1ma9",
-      "source": "Dev.to",
-      "author": "The Duchess of Hackers",
-      "published": "2025-12-13T03:11:50+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "653945f78ebd1cbe",
-      "title": "Building vs. Orchestrating: The New Founder’s Dilemma in the AI Era",
-      "description": "For the past 20 years, founders were trained to believe one core lesson: “Great companies are built by building great products.” But the AI era has quietly rewritten this rule. You can build a product in days. You can launch in a week. You can scale to thousands with almost no team. The real dilemma founders face today is no longer: “How do I build this?” It is: “Should I even build this, or should I orchestrate it?” This is the founder’s new strategic split. And understanding this difference is",
-      "url": "https://dev.to/jaideepparashar/building-vs-orchestrating-the-new-founders-dilemma-in-the-ai-era-i2l",
-      "source": "Dev.to",
-      "author": "Jaideep Parashar",
-      "published": "2025-12-13T02:40:51+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "fe393a894ade2e03",
-      "title": "How a 3-Tier Architecture Achieves High Availability on AWS",
-      "description": "Building reliable applications in AWS starts with a clear architectural foundation. Availability depends on how workloads are structured, how traffic flows between layers, and how failures are isolated. The 3-tier architecture is a widely used pattern for achieving scalability and high availability in cloud environments. In this article, we’ll examine how a 3-tier architecture achieves high availability on AWS, the purpose of each layer, and how AWS networking and services support resilient desi",
-      "url": "https://dev.to/irfansatrio/how-a-3-tier-architecture-achieves-high-availability-on-aws-2901",
-      "source": "Dev.to",
-      "author": "Irfan Satrio",
-      "published": "2025-12-13T02:31:43+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "f6bf969cd554f88b",
@@ -8104,6 +8078,54 @@
       "keywords": []
     },
     {
+      "id": "eec38a30c456274f",
+      "title": "I built an experimental open-source tool to run Node.js and Python without Docker",
+      "description": "I’ve been experimenting with a small open-source project called Abix. The goal is to run Node.js and Python projects in isolated environments, without Docker or system-wide installs. This is an experimental project, built mainly for learning and exploration. Feedback is very welcome 🙂 GitHub: https://github.com/MiguelArturSB/Abix",
+      "url": "https://dev.to/frosty_79b41a081559ee9eb2/i-built-an-experimental-open-source-tool-to-run-nodejs-and-python-without-docker-3i21",
+      "source": "Dev.to",
+      "author": "DinoDev",
+      "published": "2025-12-20T02:56:40+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "397db190808c5978",
+      "title": "2025 Complete Guide: Qwen-Image-Layered - Revolutionary AI Image Layer Decomposition Technology",
+      "description": "🎯 Key Takeaways (TL;DR) Revolutionary Technology: Qwen-Image-Layered can automatically decompose any image into multiple editable RGBA layers, eliminating the need for manual Photoshop work Inherent Editability: Each layer can be independently manipulated (resize, recolor, replace, move) without affecting other content, ensuring high-fidelity editing Flexible Decomposition: Supports variable layer counts (3-8+ layers) and recursive decomposition for infinite refinement Open Source & Accessible: ",
+      "url": "https://dev.to/czmilo/2025-complete-guide-qwen-image-layered-revolutionary-ai-image-layer-decomposition-technology-4mm7",
+      "source": "Dev.to",
+      "author": "cz",
+      "published": "2025-12-20T02:50:00+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "b0bb9b1bcb381858",
+      "title": "Beyond the Stats: How I Built Textideo.com in 6 Months of Silence",
+      "description": "Opening up Dev.to today, my feed is flooded with DEV Wrapped 2025 posts. Commit streaks, reading stats, shiny new badges — all inspiring in their own way. But it hit me: for me, 2025 wasn’t about the numbers. It was about survival. I’m the creator of Textideo. If I had to visualize my year, it wouldn’t be a smooth upward graph — it would look more like a flatline… followed by a heartbeat. This is my unofficial Textideo Wrapped 2025 — the unfiltered reality of building a product from scratch in s",
+      "url": "https://dev.to/duke897/beyond-the-stats-how-i-built-textideocom-in-6-months-of-silence-1c52",
+      "source": "Dev.to",
+      "author": "dukeyige",
+      "published": "2025-12-20T02:46:58+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "340766f55891c7ff",
+      "title": "Your Morning AI Briefing: Major Funding Rounds, Security Concerns, and Industry Predictions for 2026",
+      "description": "Grab your coffee and settle in. The AI world didn't slow down this week, and if you're trying to keep up with the breakneck pace of artificial intelligence news, you're in the right place. From billion-dollar investments to security red flags, here's everything you need to know before your first meeting. The Money Machine: AI Funding Goes Nuclear If you thought AI investment was hot before, buckle up. The money flowing into artificial intelligence right now is absolutely bonkers. Resolve AI just",
+      "url": "https://dev.to/ethan_zhang_e501fea89c25b/your-morning-ai-briefing-major-funding-rounds-security-concerns-and-industry-predictions-for-51j8",
+      "source": "Dev.to",
+      "author": "Ethan Zhang",
+      "published": "2025-12-20T02:42:33+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "31c2f2ca48af2062",
       "title": "Ask HN: How do you handle release notes for multiple audiences?",
       "description": "Comments",
@@ -8516,18 +8538,6 @@
       ]
     },
     {
-      "id": "356827adf3096199",
-      "title": "Anyone here just obsessed with Linux like me ??",
-      "description": "",
-      "url": "https://dev.to/barefootmikeofhorme/anyone-here-just-obsessed-with-linux-like-me--7el",
-      "source": "Dev.to",
-      "author": "Michael Shortland",
-      "published": "2025-12-13T03:24:32+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
       "id": "142c6e14f3778a28",
       "title": "Poor Johnny still won't encrypt",
       "description": "Comments",
@@ -8547,18 +8557,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-13T04:55:59+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "3574bca0bee49bb1",
-      "title": "1300 Still Images from the Animated Films of Hayao Miyazaki's Studio Ghibli (2023)",
-      "description": "Comments",
-      "url": "https://www.ghibli.jp/info/013772/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-13T02:56:49+00:00",
       "niche": "dev",
       "score": 44,
       "keywords": []
@@ -10510,8 +10508,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "performance",
-        "React 19"
+        "React 19",
+        "performance"
       ]
     },
     {
@@ -10567,8 +10565,8 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "performance",
         "release",
+        "performance",
         "developer"
       ]
     },
@@ -10815,8 +10813,8 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "React 19",
         "release",
+        "React 19",
         "API"
       ]
     },
@@ -10859,8 +10857,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -10874,8 +10872,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -10917,8 +10915,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "API",
-        "framework"
+        "framework",
+        "API"
       ]
     },
     {
@@ -11062,11 +11060,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "API",
-        "framework",
-        "performance",
+        "release",
         "code",
-        "release"
+        "API",
+        "performance",
+        "framework"
       ]
     },
     {
@@ -11387,8 +11385,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "framework"
+        "framework",
+        "release"
       ]
     },
     {
@@ -11403,8 +11401,8 @@
       "score": 20,
       "keywords": [
         "performance",
-        "code",
-        "developer"
+        "developer",
+        "code"
       ]
     },
     {
@@ -11418,8 +11416,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "code",
-        "release"
+        "release",
+        "code"
       ]
     },
     {
@@ -11562,8 +11560,8 @@
       "niche": "dev",
       "score": 15,
       "keywords": [
-        "developer",
-        "library"
+        "library",
+        "developer"
       ]
     },
     {
@@ -11718,6 +11716,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-14T22:37:05+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "045120fcee4786b7",
+      "title": "Carolina Cloud – One third the cost of AWS for data science workloads",
+      "description": "Comments",
+      "url": "https://carolinacloud.io/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-14T21:43:35+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
