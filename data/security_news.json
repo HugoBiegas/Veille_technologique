@@ -1,25 +1,7 @@
 {
-  "last_updated": "2025-12-20T03:51:05.476890+00:00",
-  "total_articles": 424,
+  "last_updated": "2025-12-20T06:37:04.755918+00:00",
+  "total_articles": 409,
   "articles": [
-    {
-      "id": "e1446b43ff28271d",
-      "title": "Apple Issues Security Updates After Two WebKit Flaws Found Exploited in the Wild",
-      "description": "Apple on Friday released security updates for iOS, iPadOS, macOS, tvOS, watchOS, visionOS, and its Safari web browser to address two security flaws that it said have been exploited in the wild, one of which is the same flaw that was patched by Google in Chrome earlier this week. The vulnerabilities are listed below - CVE-2025-43529 (CVSS score: N/A) - A use-after-free vulnerability in WebKit",
-      "url": "https://thehackernews.com/2025/12/apple-issues-security-updates-after-two.html",
-      "source": "The Hacker News",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2025-12-13T11:02:00+05:30",
-      "niche": "security",
-      "score": 100,
-      "keywords": [
-        "security",
-        "vulnerability",
-        "exploit",
-        "security flaw",
-        "patch"
-      ]
-    },
     {
       "id": "5a55329c1c4fdc47",
       "title": "CISA Adds Actively Exploited Sierra Wireless Router Flaw Enabling RCE Attacks",
@@ -1479,11 +1461,11 @@
       "niche": "security",
       "score": 75,
       "keywords": [
-        "exploit",
-        "security flaw",
-        "security",
+        "patch",
         "zero-day",
-        "patch"
+        "exploit",
+        "security",
+        "security flaw"
       ]
     },
     {
@@ -2424,8 +2406,8 @@
       "keywords": [
         "patch",
         "zero-day",
-        "exploit",
-        "security"
+        "security",
+        "exploit"
       ]
     },
     {
@@ -2570,9 +2552,9 @@
       "score": 61,
       "keywords": [
         "OWASP",
-        "RCE",
         "secure",
-        "security"
+        "security",
+        "RCE"
       ]
     },
     {
@@ -2917,21 +2899,6 @@
         "vulnerability",
         "attack",
         "protection"
-      ]
-    },
-    {
-      "id": "4451a31fee95b04f",
-      "title": "Harden Windows Security - Blindez votre Windows sans installer un seul logiciel tiers !",
-      "description": "Vous vous souvenez de toutes ces fois où je vous ai expliqué comment renforcer la sécurité de Windows avec telle ou telle petite astuce ? Hé bien y&rsquo;a un projet GitHub qui va vous faire plaisir si vous êtes du genre à vouloir blinder votre machine sans installer 50 logiciels tiers. Ça s&rsquo;appelle Harden Windows Security , et c&rsquo;est signé par un dev qui se fait appeler HotCakeX. Son idée c&rsquo;est de sécuriser Windows en utilisant uniquement les méthodes officielles de Microsoft. ",
-      "url": "https://korben.info/harden-windows-security-blindage-windows-officiel.html",
-      "source": "Korben",
-      "author": "Korben",
-      "published": "2025-12-13T05:01:32+01:00",
-      "niche": "security",
-      "score": 55,
-      "keywords": [
-        "security",
-        "RCE"
       ]
     },
     {
@@ -3334,34 +3301,6 @@
       ]
     },
     {
-      "id": "326d1ca01668c38e",
-      "title": "Sim Studio - Créez vos workflows d'agents IA aussi facilement que quand vous dessinez sur Figma",
-      "description": "Vous avez toujours voulu créer des workflows d&rsquo;agents IA mais vous avez la flemme de coder tout ça à la main ? Hé bien y&rsquo;a un projet open source qui va vous faire plaisir. Ça s&rsquo;appelle Sim Studio et c&rsquo;est une plateforme qui permet de construire des workflows d&rsquo;agents IA de manière visuelle, un peu comme sur Figma. Le principe c&rsquo;est d&rsquo;avoir un canvas sur lequel vous glissez-déposez des blocs : des LLMs, des outils, des connexions à des services tiers comm",
-      "url": "https://korben.info/sim-studio-workflows-agents-ia-open-source.html",
-      "source": "Korben",
-      "author": "Korben",
-      "published": "2025-12-13T07:28:50+01:00",
-      "niche": "security",
-      "score": 52,
-      "keywords": [
-        "RCE"
-      ]
-    },
-    {
-      "id": "7c8607f87dc5f83f",
-      "title": "HTTP Breakout Proxy - Le reverse engineering sans prise de tête",
-      "description": "Pendant que Burp Suite avale 500 Mo de RAM au démarrage, HTTP Breakout Proxy lui, tient dans un binaire de quelques Mo qui disparaît dès que vous fermez le terminal. Alors HTTP Breakout Proxy c&rsquo;est quoi ? Hé bien les amis, c&rsquo;est un proxy HTTP/HTTPS écrit en Go qui intercepte le trafic réseau en temps réel et vous propose une interface web pour analyser tout ce qui passe. Requêtes, réponses, headers, body, timing&hellip; Tout est capturé et affiché proprement dans votre navigateur.",
-      "url": "https://korben.info/http-breakout-proxy-retour-outils-jetables.html",
-      "source": "Korben",
-      "author": "Korben",
-      "published": "2025-12-13T05:21:05+01:00",
-      "niche": "security",
-      "score": 52,
-      "keywords": [
-        "RCE"
-      ]
-    },
-    {
       "id": "a5c31fa9b7543d16",
       "title": "Le fondateur de Boston Dynamics revient en force avec un robot à roues qui fait des backflips",
       "description": "Vous connaissez Marc Raibert ? C&rsquo;est le mec qui a fondé Boston Dynamics, la boîte derrière ces fameux robots qui font flipper tout le monde sur YouTube ( Spot le chien robot , Atlas l&rsquo;humanoïde qui fait du parkour, Wildcat le chat sauvage &hellip;). Et bien le bonhomme a lancé un nouveau projet avec son RAI Institute , et cette fois c&rsquo;est un robot à roues qui fait des acrobaties de malade. Ça s&rsquo;appelle l&rsquo;UMV pour Ultra Mobility Vehicle, et l&rsquo;idée c&rsquo;est d",
@@ -3675,8 +3614,8 @@
       "score": 51,
       "keywords": [
         "vulnerability",
-        "disclosure",
-        "patch"
+        "patch",
+        "disclosure"
       ]
     },
     {
@@ -3690,8 +3629,8 @@
       "niche": "security",
       "score": 51,
       "keywords": [
-        "exploit",
         "attack",
+        "exploit",
         "security"
       ]
     },
@@ -3792,6 +3731,18 @@
       "keywords": [
         "attack"
       ]
+    },
+    {
+      "id": "64e9f20fb4d12776",
+      "title": "Weekly Update 483",
+      "description": "Building out an IoT environment is a little like the old Maslow&apos;s Hierarchy of Needs. All the stuff on the top is only any good if all the stuff on the bottom is good, starting with power. This week, I couldn&apos;t even get that right, but",
+      "url": "https://www.troyhunt.com/weekly-update-483/",
+      "source": "Troy Hunt",
+      "author": "Troy Hunt",
+      "published": "2025-12-20T06:31:41+00:00",
+      "niche": "security",
+      "score": 50,
+      "keywords": []
     },
     {
       "id": "559b7874623819f6",
@@ -3986,8 +3937,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "RCE",
-        "security"
+        "security",
+        "RCE"
       ]
     },
     {
@@ -4016,8 +3967,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "exploit",
-        "attack"
+        "attack",
+        "exploit"
       ]
     },
     {
@@ -4031,8 +3982,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "security",
-        "CVE-"
+        "CVE-",
+        "security"
       ]
     },
     {
@@ -4437,8 +4388,8 @@
       "niche": "security",
       "score": 44,
       "keywords": [
-        "security",
-        "CVE-"
+        "CVE-",
+        "security"
       ]
     },
     {
@@ -4467,9 +4418,9 @@
       "score": 43,
       "keywords": [
         "OWASP",
-        "RCE",
         "secure",
-        "security"
+        "security",
+        "RCE"
       ]
     },
     {
@@ -4480,66 +4431,6 @@
       "source": "Korben",
       "author": "Korben",
       "published": "2025-12-13T07:59:57+01:00",
-      "niche": "security",
-      "score": 42,
-      "keywords": []
-    },
-    {
-      "id": "2f45e269d6705be4",
-      "title": "Quand Pékin traque ses dissidents avec de la tech made in Silicon Valley",
-      "description": "Vous pensiez que les technologies de surveillance chinoises étaient 100% chinoises ? Hé bien pas du tout. Une enquête passionnante d&rsquo;AP vient de révéler que le gouvernement chinois utilise massivement des logiciels américains pour traquer ses propres citoyens, y compris ceux qui ont fui aux États-Unis. L&rsquo;histoire de Li Chuanliang est assez flippante. Cet ancien fonctionnaire chinois était en convalescence d&rsquo;un cancer sur une île coréenne quand il a reçu un appel urgent lui disa",
-      "url": "https://korben.info/chine-surveillance-whistleblower-ibm-oracle-micros.html",
-      "source": "Korben",
-      "author": "Korben",
-      "published": "2025-12-13T07:02:58+01:00",
-      "niche": "security",
-      "score": 42,
-      "keywords": []
-    },
-    {
-      "id": "8b541ca820c2b398",
-      "title": "GPTPets - Des animaux virtuels pour égayer vos sessions ChatGPT et Claude",
-      "description": "Vous bossez toute la journée sur ChatGPT ou Claude et vous commencez à trouver ça un peu tristounet ? Youpi, y&rsquo;a une extension Chrome qui va égayer tout ça avec des petits animaux virtuels qui se baladent sur votre interface comme quand on était en 1999. Ça s&rsquo;appelle GPTPets et c&rsquo;est le genre de truc complètement inutile donc forcément indispensable comme disait Jérôme Bonaldi. Le principe c&rsquo;est d&rsquo;avoir un petit compagnon animé qui vit sa vie sur la barre de saisie ",
-      "url": "https://korben.info/gptpets-animaux-virtuels-chatgpt-et-claude.html",
-      "source": "Korben",
-      "author": "Korben",
-      "published": "2025-12-13T06:26:16+01:00",
-      "niche": "security",
-      "score": 42,
-      "keywords": []
-    },
-    {
-      "id": "df2081af41574eb3",
-      "title": "Suprise ! Un micro caché dans un petit KVM chinois à 30 balles",
-      "description": "Je ne connaissais pas le NanoKVM mais c&rsquo;est un petit boîtier KVM chinois vendu entre 30 et 70€ qui permet de contrôler un PC à distance. Sauf qu&rsquo;un chercheur en sécurité slovène a découvert qu&rsquo;il embarquait un micro planqué capable d&rsquo;enregistrer tout ce qui se dit autour. Ça craint ! En effet, Matej Kovačič a ouvert son NanoKVM et y a trouvé un minuscule composant de 2x1 mm dissimulé sous le connecteur. Un truc tellement petit qu&rsquo;il faut une loupe ou un microscope p",
-      "url": "https://korben.info/nanokvm-micro-cache-failles-securite-sipeed.html",
-      "source": "Korben",
-      "author": "Korben",
-      "published": "2025-12-13T06:09:18+01:00",
-      "niche": "security",
-      "score": 42,
-      "keywords": []
-    },
-    {
-      "id": "fec615160511ec7b",
-      "title": "MediaBunny - L'avenir du traitement vidéo dans le navigateur",
-      "description": "Vous avez déjà essayé de faire du traitement vidéo dans le navigateur Bienvenue en enfer ! Et dire que pendant 20 ans, la seule solution viable c&rsquo;était de compiler FFmpeg en WebAssembly, attendre 10 secondes que 40 Mo de code se chargent, puis regarder votre RAM fondre comme neige au soleil. Heureusement, MediaBunny débarque et compte bien changer les choses ! En effet, cette bibliothèque TypeScript vous permet de lire, écrire et convertir des fichiers vidéo et audio directement dans le na",
-      "url": "https://korben.info/vous-avez-deja-essaye-de-faire-du-traitement-video.html",
-      "source": "Korben",
-      "author": "Korben",
-      "published": "2025-12-13T05:35:26+01:00",
-      "niche": "security",
-      "score": 42,
-      "keywords": []
-    },
-    {
-      "id": "d113e92c2b4ee379",
-      "title": "Transformez n'importe quel lien en QR code LEGO fonctionnel",
-      "description": "Vous avez des LEGO qui traînent chez vous et vous cherchez un projet un peu original à faire avec ? Hé bien j&rsquo;ai trouvé un truc sympa pour vous occuper ce week-end : Construire un QR code fonctionnel en briques LEGO. Ça s&rsquo;appelle Brick QR Code et c&rsquo;est un générateur en ligne qui transforme n&rsquo;importe quelle URL en instructions de montage LEGO. Vous entrez votre lien, le site génère le pattern, et hop vous avez tout ce qu&rsquo;il faut pour construire un QR code scannable a",
-      "url": "https://korben.info/brickqrcode-qr-lego-fonctionnel.html",
-      "source": "Korben",
-      "author": "Korben",
-      "published": "2025-12-13T05:05:30+01:00",
       "niche": "security",
       "score": 42,
       "keywords": []
@@ -5086,8 +4977,8 @@
       "score": 42,
       "keywords": [
         "OWASP",
-        "RCE",
-        "security"
+        "security",
+        "RCE"
       ]
     },
     {
@@ -5301,9 +5192,9 @@
       "score": 37,
       "keywords": [
         "OWASP",
-        "threat",
         "web application security",
-        "security"
+        "security",
+        "threat"
       ]
     },
     {
@@ -5321,22 +5212,6 @@
       ]
     },
     {
-      "id": "11c6951e0a94b0e6",
-      "title": "Ransomware may have extorted over $2.1 billion between 2022-2024, but it’s not all bad news, claims FinCEN report",
-      "description": "A new report from the United States's Financial Crimes Enforcement Network (FinCEN) has shone a revealing light on the state of the criminal industry of ransomware. The report, which examines ransomware incidents from 2022 to 2024, reveals that attackers extorted more than $2.1 billion over the three-year period. Yes, that number is enormous - but it hides a more interesting story beneath it: that after peaking in 2023, ransomware payments actually started to decline. Read more in my article on ",
-      "url": "https://www.fortra.com/blog/ransomware-may-have-extorted-over-21-billion-between-2022-2024-its-not-all-bad-news-claims",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2025-12-10T16:17:02+00:00",
-      "niche": "security",
-      "score": 35,
-      "keywords": [
-        "RCE",
-        "attack",
-        "ransomware"
-      ]
-    },
-    {
       "id": "dba2a0d71b33a03d",
       "title": "The OWASP Foundation appoints Stacey Ebbs as Communications & Marketing Manager",
       "description": "The OWASP Foundation is pleased to announce the appointment of Stacey Ebbs as Communications and Marketing Manager. Stacey brings more than a decade of experience in marketing, events, and community engagement within the cybersecurity and technology sectors. Stacey joins OWASP from IriusRisk, where she served as Field & Partner Marketing Manager for EMEA, leading regional campaigns, managing partner and social strategy, and driving global community engagement through initiatives like the Threat ",
@@ -5348,9 +5223,9 @@
       "score": 34,
       "keywords": [
         "OWASP",
-        "threat",
         "cybersecurity",
-        "security"
+        "security",
+        "threat"
       ]
     },
     {
@@ -5380,8 +5255,8 @@
       "niche": "security",
       "score": 30,
       "keywords": [
-        "RCE",
-        "phishing"
+        "phishing",
+        "RCE"
       ]
     },
     {
@@ -5400,22 +5275,6 @@
       ]
     },
     {
-      "id": "84ce414813abddf3",
-      "title": "Four years later, Irish health service offers €750 to victims of ransomware attack",
-      "description": "Remember when a notorious ransomware gang hit the Irish Health Service back in May 2021? Four years on, and it seems victims who had their data exposed will finally receive compensation. Read more in my article on the Hot for Security blog.",
-      "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/four-years-later-irish-health-service-offers-eu750-to-victims-of-ransomware-attack",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2025-12-10T12:00:59+00:00",
-      "niche": "security",
-      "score": 28,
-      "keywords": [
-        "attack",
-        "ransomware",
-        "security"
-      ]
-    },
-    {
       "id": "19426938b1de2321",
       "title": "2 Billion Email Addresses Were Exposed, and We Indexed Them All in Have I Been Pwned",
       "description": "I hate hyperbolic news headlines about data breaches, but for the \"2 Billion Email Addresses\" headline to be hyperbolic, it&apos;d need to be exaggerated or overstated - and it isn&apos;t. It&apos;s rounded up from the more precise number of 1,957,476,",
@@ -5423,20 +5282,6 @@
       "source": "Troy Hunt",
       "author": "Troy Hunt",
       "published": "2025-11-05T06:41:43+00:00",
-      "niche": "security",
-      "score": 26,
-      "keywords": [
-        "breach"
-      ]
-    },
-    {
-      "id": "86bb08962088335f",
-      "title": "Weekly Update 476",
-      "description": "The 2 billion email address stealer log breach I talk about this week is almost ready to go at the time of writing. It&apos;s been massively time-consuming, massively expensive (we turned the cloud up to 11) and enormously frustrating. I&apos;ve written about why in the draft",
-      "url": "https://www.troyhunt.com/weekly-update-476/",
-      "source": "Troy Hunt",
-      "author": "Troy Hunt",
-      "published": "2025-11-03T08:23:37+00:00",
       "niche": "security",
       "score": 26,
       "keywords": [
@@ -5571,21 +5416,6 @@
       ]
     },
     {
-      "id": "0a06157c56170543",
-      "title": "Smashing Security podcast #447: Grok the stalker, the Louvre heist, and Microsoft 365 mayhem",
-      "description": "On this week's show we learn that AI really can be a stalker’s best friend, as we explore a strange tale that starts with a manatee-shaped mailbox on a millionaire's lawn and ends with Grok happily doxxing real people, mapping out stalking \"strategies,\" and handing out revenge-porn tips. Then we go inside the Louvre heist, where thieves in hi-vis and a hire van waltzed off with the French crown jewels in broad daylight, exploiting our assumptions about what \"looks normal\" - the same kind of bias",
-      "url": "https://grahamcluley.com/smashing-security-podcast-447/",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2025-12-11T00:30:16+00:00",
-      "niche": "security",
-      "score": 25,
-      "keywords": [
-        "exploit",
-        "security"
-      ]
-    },
-    {
       "id": "23356d1e3a6bdbdf",
       "title": "[webapps] Django 5.1.13 - SQL Injection",
       "description": "Django 5.1.13 - SQL Injection",
@@ -5711,9 +5541,9 @@
       "niche": "security",
       "score": 19,
       "keywords": [
-        "cybersecurity",
         "PoC",
-        "security"
+        "security",
+        "cybersecurity"
       ]
     },
     {
@@ -5770,34 +5600,6 @@
       "score": 18,
       "keywords": [
         "attack"
-      ]
-    },
-    {
-      "id": "799d03865a61af49",
-      "title": "Gartner tells businesses to block AI browsers now",
-      "description": "Analyst firm Gartner has issued a blunt warning to organizations: Agentic AI browsers introduce serious new security risks and should be blocked \"for the foreseeable future.\" Read more in my article on the Fortra blog.",
-      "url": "https://www.fortra.com/blog/gartner-tells-businesses-block-ai-browsers-now",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2025-12-12T12:52:38+00:00",
-      "niche": "security",
-      "score": 15,
-      "keywords": [
-        "security"
-      ]
-    },
-    {
-      "id": "bd943f36ce991930",
-      "title": "California man admits role in $263 million cryptocurrency theft that funded lavish lifestyle",
-      "description": "When you spend half a million dollars in a single night at a nightclub, purchase exotic cars worth millions, and rent mansions under false names, you are risking drawing attention to yourself... Read more in my article on the Hot for Security blog.",
-      "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/california-man-admits-role-in-263-million-cryptocurrency-theft-that-funded-lavish-lifestyle",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2025-12-09T16:13:48+00:00",
-      "niche": "security",
-      "score": 15,
-      "keywords": [
-        "security"
       ]
     },
     {
@@ -5977,18 +5779,6 @@
       "keywords": [
         "protection"
       ]
-    },
-    {
-      "id": "b44a4490e1e13962",
-      "title": "The AI Fix #80: DeepSeek’s cheap GPT-5 rival, Antigravity fails, and your LLM likes it when you’re rude",
-      "description": "In episode 80 of The AI Fix, your hosts look at DeepSeek 3.2 “Speciale”, the bargain-basement model that claims GPT-5-level brains at 10% of the price, Jensen Huang’s reassuring vision of a robot fashion industry, and a 75kg T-800 style humanoid that can do flying kicks because robot-marketing departments have clearly learned nothing from Terminator. Meanwhile in Miami, flesh-coloured robot dogs with hyper-realistic billionaire heads wander around pooping NFT “excrement samples” out of their rea",
-      "url": "https://grahamcluley.com/the-ai-fix-80/",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2025-12-09T15:30:17+00:00",
-      "niche": "security",
-      "score": 12,
-      "keywords": []
     },
     {
       "id": "a4ecc5bb0f9a18e3",
