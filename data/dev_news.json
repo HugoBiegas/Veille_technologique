@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-22T04:06:57.722794+00:00",
-  "total_articles": 985,
+  "last_updated": "2025-12-22T06:42:11.222466+00:00",
+  "total_articles": 984,
   "articles": [
     {
       "id": "69d813cf8d6f164c",
@@ -374,20 +374,6 @@
       "score": 70,
       "keywords": [
         "development",
-        "code"
-      ]
-    },
-    {
-      "id": "778580721860e000",
-      "title": "React Container & Presenter Pattern in React (Beginner Guide with Real Example)",
-      "description": "If you are new to React, you may often feel confused when your components start getting too big, hard to read, and difficult to maintain. One common reason is that UI code and business logic are mixed. The Container & Presenter Pattern (also known as Smart and Dumb Components) is a simple yet powerful approach to solving this problem. This article explains the pattern in easy language, with clear examples, specifically for beginner coders. What Problem Does This Pattern Solve? Imagine a React co",
-      "url": "https://dev.to/rayan2228/react-container-presenter-pattern-in-react-beginner-guide-with-real-example-3gi2",
-      "source": "Dev.to",
-      "author": "Rayan Hossain",
-      "published": "2025-12-15T06:05:01+00:00",
-      "niche": "dev",
-      "score": 69,
-      "keywords": [
         "code"
       ]
     },
@@ -854,6 +840,24 @@
       ]
     },
     {
+      "id": "496a712f6fbdc561",
+      "title": "Docker Environment Composer Local Package Development Tips",
+      "description": "When developing Laravel applications in a Docker environment, you often need to simultaneously develop custom Composer packages. This article shares an elegant solution using symbolic links. Problems Docker containers cannot access host machine absolute paths Packages scattered across projects, difficult to manage centrally Package modifications require reinstallation to take effect Solution 1. Create Unified Package Development Directory mkdir -p /home/developer/packages/php mkdir -p /home/deve",
+      "url": "https://dev.to/mesak/docker-environment-composer-local-package-development-tips-13a7",
+      "source": "Dev.to",
+      "author": "Mesak",
+      "published": "2025-12-22T06:27:04+00:00",
+      "niche": "dev",
+      "score": 63,
+      "keywords": [
+        "development",
+        "Laravel",
+        "PHP",
+        "developer",
+        "Composer"
+      ]
+    },
+    {
       "id": "c7513504d1a80b23",
       "title": "SoundCloud confirms breach after member data stolen, VPN access disrupted",
       "description": "Comments",
@@ -1135,6 +1139,18 @@
       "keywords": []
     },
     {
+      "id": "16253ae24bec63cc",
+      "title": "Build Android apps using Rust and Iced",
+      "description": "Comments",
+      "url": "https://github.com/ibaryshnikov/android-iced-example",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-22T02:14:32+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": []
+    },
+    {
       "id": "2020a3914e7bb2ce",
       "title": "The Laravel 12 Docker Blueprint I Wish I Had: Nginx + PHP-FPM, Small Images, Clean CI/CD, and DigitalOcean Private Registry",
       "description": "This is the setup that turned my Laravel 12 project from “works on my machine” into “ready anytime”. The goal was simple: smaller builds, cleaner releases, and deployments that don’t need babysitting backed by CI/CD and a DigitalOcean private registry. What you’ll learn In this post, I’ll walk through the blueprint I used to: Run Laravel 12 on PHP 8.2 in containers (the minimum supported version). Serve the app with Nginx + PHP-FPM (clean separation of concerns). Build smaller images and keep re",
@@ -1148,6 +1164,24 @@
         "PHP",
         "Laravel",
         "release"
+      ]
+    },
+    {
+      "id": "37e498ff4bb9e9c9",
+      "title": "LINQ Performance Optimization: 5 Patterns Every C# Developer Should Know",
+      "description": "This is Part 3 of the \"LINQ Performance & Best Practices\" series. If you haven't read the foundational articles yet: Part 1: Deferred Execution - The Essence of LINQ in C# Part 2: Multiple Enumerations in LINQ Expressions Our encryption service API response time jumped from 200ms to 3 seconds after adding a \"simple\" LINQ query to filter document metadata. The query looked clean, passed code review without comments, and the unit tests ran fine. But production told a different story. The problem w",
+      "url": "https://dev.to/dsikorska/linq-performance-optimization-5-patterns-every-c-developer-should-know-4p6k",
+      "source": "Dev.to",
+      "author": "Dominika Sikorska",
+      "published": "2025-12-22T06:00:00+00:00",
+      "niche": "dev",
+      "score": 61,
+      "keywords": [
+        "API",
+        "developer",
+        "code",
+        "best practices",
+        "performance"
       ]
     },
     {
@@ -1293,21 +1327,6 @@
       "keywords": [
         "code",
         "framework",
-        "API"
-      ]
-    },
-    {
-      "id": "fd4b3f589a8fe342",
-      "title": "Laravel Bastion: Stripe-Style API Authentication for Laravel",
-      "description": "Ever wished Laravel had API tokens as elegant as Stripe's? Meet Laravel Bastion by Steve McDougall. What is Bastion? Bastion brings Stripe-inspired API key management to Laravel with prefixed tokens, environment isolation, and granular permissions. app_test_pk_xxxxxxxxxxxxx app_live_sk_xxxxxxxxxxxxx 🌍 Environment Isolation Separate test and live environments prevent accidental key leaks. 🎯 Granular Scopes ['posts:read', 'posts:write', 'users:*'] 🔐 Three Token Types Public keys (client-side safe)",
-      "url": "https://dev.to/laravel_mastery_ffd9d10ec/laravel-bastion-stripe-style-api-authentication-for-laravel-4554",
-      "source": "Dev.to",
-      "author": "Laravel Mastery",
-      "published": "2025-12-15T06:15:09+00:00",
-      "niche": "dev",
-      "score": 57,
-      "keywords": [
-        "Laravel",
         "API"
       ]
     },
@@ -1786,21 +1805,6 @@
         "library",
         "developer",
         "code"
-      ]
-    },
-    {
-      "id": "9afbba3954b8c869",
-      "title": "Drive API Monetization: How Monetzly Enhances Your AI Conversations",
-      "description": "Monetizing AI Conversations Without Paywalls: Meet Monetzly The biggest challenge in the AI landscape today is clear: how do we monetize AI applications without ruining the user experience? As developers, we pour our hearts into creating intelligent applications, but the moment we introduce paywalls or subscriptions, we risk losing users. Enter Monetzly—the Google Ads for AI conversations. Why Monetization is Crucial for AI Apps With the explosion of AI applications, the question of sustainable ",
-      "url": "https://dev.to/monetzly/drive-api-monetization-how-monetzly-enhances-your-ai-conversations-509h",
-      "source": "Dev.to",
-      "author": "Monetzly",
-      "published": "2025-12-15T06:22:49+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "developer",
-        "API"
       ]
     },
     {
@@ -2357,6 +2361,36 @@
       "keywords": [
         "developer",
         "performance"
+      ]
+    },
+    {
+      "id": "d5a99a4872dad762",
+      "title": "Reflections on building my first LangGraph project",
+      "description": "I recently completed my first LangGraph project that was more than a simple tutorial. It simulates a newspaper editorial workflow where a set of agents turn a story idea into a finished article. The newsroom itself wasn’t the goal, I simply used it to learn LangGraph properly. Learning LangGraph I explored several frameworks, including OpenAI Agents SDK, CrewAI, and AutoGen, but eventually settled on LangGraph. Modeling the application as a graph felt natural, and the level of control appealed t",
+      "url": "https://dev.to/juhapellotsalo/reflections-on-building-my-first-langgraph-project-3b6j",
+      "source": "Dev.to",
+      "author": "Juha Pellotsalo",
+      "published": "2025-12-22T06:30:47+00:00",
+      "niche": "dev",
+      "score": 55,
+      "keywords": [
+        "tutorial",
+        "framework"
+      ]
+    },
+    {
+      "id": "4699e34c0cf128cc",
+      "title": "Why AI Code Suggestions Fail in Multi-File Projects",
+      "description": "If you are building a Todo app in a single index.js file, AI coding assistants feel like magic. They predict the entire function before you finish typing the signature. But if you are working in a production repo with fifty interacting components, a shared types library, and complex state management, the magic dissolves. You type a function call, and the AI suggests an import that looks perfect. The variable names match your conventions. The path looks correct. You hit Tab. Then your build fails",
+      "url": "https://dev.to/leena_malhotra/why-ai-code-suggestions-fail-in-multi-file-projects-49j9",
+      "source": "Dev.to",
+      "author": "Leena Malhotra",
+      "published": "2025-12-22T06:09:28+00:00",
+      "niche": "dev",
+      "score": 55,
+      "keywords": [
+        "code",
+        "library"
       ]
     },
     {
@@ -3310,18 +3344,47 @@
       ]
     },
     {
-      "id": "c58f9f5d1d1003d4",
-      "title": "Stay ahead in web development: latest news, tools, and insights #115",
-      "description": "Signup here for the newsletter to get the weekly digest right into your inbox. weeklyfoo #115 is here: your weekly digest of all webdev news you need to know! This time you'll find 24 valuable links in 6 categories! Enjoy! 🚀 Read it! How I keep up with AI-generated PRs: AI coding assistants have shifted the bottleneck in software development. Writing code is now trivially fast. Reviewing it is not. by Rafael Garcia / ai, reviews, engineering / 6 min read 📰 Good to know Has the cost of building s",
-      "url": "https://dev.to/urbanisierung/stay-ahead-in-web-development-latest-news-tools-and-insights-115-4h31",
+      "id": "50761c7f643d1d00",
+      "title": "Building Multi-Tenant SaaS as a Solo Developer",
+      "description": "This article is part of the Solo SaaS Development Advent Calendar 2025. In the previous article, I covered GA4 and Microsoft Clarity setup. In this article, I'll share how I built a multi-tenant SaaS architecture. :::message The content in this article reflects the design I adopted for my personal project. Rather than best practices, please read this as a record of trial and error from a solo developer. ::: Why Multi-Tenant? When building a SaaS, you need to separate data by user. For team or or",
+      "url": "https://dev.to/pipipi-dev/building-multi-tenant-saas-as-a-solo-developer-1pi9",
       "source": "Dev.to",
-      "author": "Adam",
-      "published": "2025-12-15T06:05:54+00:00",
+      "author": "pipipi-dev",
+      "published": "2025-12-22T06:21:05+00:00",
       "niche": "dev",
-      "score": 52,
+      "score": 54,
       "keywords": [
-        "code",
-        "development"
+        "developer",
+        "development",
+        "best practices"
+      ]
+    },
+    {
+      "id": "68768d9813cc6266",
+      "title": "Building a High-Performance Real-Time Camera Capture System in C++",
+      "description": "Deep dive into building a production-ready camera capture system with zero-copy V4L2, multithreading, and FFmpeg encoding. Ever wondered how professional surveillance systems, dashcams, or robotics vision pipelines capture and process video at real-time speeds? Let me walk you through building a production-ready camera capture system in modern C++ that does exactly that. What We're Building A multithreaded camera capture system that: Captures live video at 30 FPS from USB cameras Processes frame",
+      "url": "https://dev.to/techsorter/building-a-high-performance-real-time-camera-capture-system-in-c-3kad",
+      "source": "Dev.to",
+      "author": "Jyoti Prajapati",
+      "published": "2025-12-22T06:11:18+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "performance"
+      ]
+    },
+    {
+      "id": "15bb44219f22499f",
+      "title": "Telegram Bots Are Useful — But at What Cost to Privacy?",
+      "description": "Rise of Telegram Bots in Private Groups This example is for educational purposes only, to demonstrate how leaked data can be misused. Telegram bots are very popular in Telegram groups because they make life easier by automating tasks, sharing content, and managing groups efficiently. Today’s generation largely depends on Telegram bots for entertainment, such as downloading anime, movies, music, and other digital content. Because of this convenience, Telegram bots are growing rapidly and are beco",
+      "url": "https://dev.to/syed_iqbal_ahammad/telegram-bots-are-useful-but-at-what-cost-to-privacy-3o38",
+      "source": "Dev.to",
+      "author": "Syed Iqbal Ahammad",
+      "published": "2025-12-22T06:04:17+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "API"
       ]
     },
     {
@@ -3835,17 +3898,18 @@
       ]
     },
     {
-      "id": "c7fbf0fe077b43fe",
-      "title": "When a PCB Trace Becomes a Transmission Line (And Why It Broke My Design)",
-      "description": "Digital Signals Are Analog: A Lesson I Learned Too Late Last year, I spent three weeks debugging what I thought was a firmware bug. My SPI interface worked perfectly at 1 MHz but became unreliable at 10 MHz. The logic analyzer showed clean signals. The code was identical. I rewrote my driver twice, added delays everywhere, and even suspected a faulty microcontroller. The problem? A 6-centimeter trace on my PCB had become a transmission line, and nobody told the signal to behave. If you're a soft",
-      "url": "https://dev.to/entela_lleka_c0a20f6760/when-a-pcb-trace-becomes-a-transmission-line-and-why-it-broke-my-design-5c4o",
+      "id": "a9bb7facef85b384",
+      "title": "Amazon RDS (Relational Database Service)",
+      "description": "Introduction In today’s digital world, applications need reliable and scalable databases to store and manage data. Amazon Web Services (AWS) provides Amazon RDS (Relational Database Service) to make database management easier without worrying about infrastructure. RDS helps developers focus on application development instead of database maintenance. What is Amazon RDS? Amazon RDS is a managed relational database service offered by AWS. It allows users to create, operate, and scale relational dat",
+      "url": "https://dev.to/lohita_blue_d6409977eec4c/amazon-rds-relational-database-service-52d9",
       "source": "Dev.to",
-      "author": "entelalleka",
-      "published": "2025-12-15T06:08:56+00:00",
+      "author": "Lohita M",
+      "published": "2025-12-22T05:52:30+00:00",
       "niche": "dev",
-      "score": 51,
+      "score": 52,
       "keywords": [
-        "code"
+        "developer",
+        "development"
       ]
     },
     {
@@ -5149,66 +5213,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "44ed77e166eaa58e",
-      "title": "Slire: A Minimal Repository Layer for Node.js + MongoDB/Firestore",
-      "description": "Over the last few years building Node.js backend services on MongoDB and Firestore, I kept running into the same pattern: Every team rolls their own “repository layer” on top of the database. Everyone re‑implements the same things: multi‑tenancy, soft deletes, timestamps, versioning, audit trails. Business logic ends up littered with { tenantId, _deleted: { $ne: true } } filters and hand‑rolled update operators. At the same time, full‑blown ODMs (like Mongoose and similar libraries) often try to",
-      "url": "https://dev.to/dchowitz/slire-a-minimal-repository-layer-for-nodejs-mongodbfirestore-4ipn",
-      "source": "Dev.to",
-      "author": "Denny Christochowitz",
-      "published": "2025-12-15T06:32:59+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "c48e566539389543",
-      "title": "The Rise of AI-Powered Marketing: What’s Next in 2026",
-      "description": "Artificial Intelligence is no longer an emerging trend in marketing—it’s the foundation. As we move through 2026, AI-powered marketing has evolved from simple automation into an intelligent, emotional, and predictive system that reshapes how brands connect with people. AI now acts as a strategist, creative partner, data analyst, and experience designer. From hyper-personalized content to real-time campaign optimization, marketing is becoming smarter, faster, and more human. So what does AI-power",
-      "url": "https://dev.to/digital_terrene_b369a1c21/the-rise-of-ai-powered-marketing-whats-next-in-2026-4b0g",
-      "source": "Dev.to",
-      "author": "Digital Terrene",
-      "published": "2025-12-15T06:29:44+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "5894fa28eea10269",
-      "title": "Top Benefits of Real Time Analytics for Faster and Smarter Decisions",
-      "description": "Every decision in business has a time limit. Make it too late, and the chance is gone. Make it without the right information, and the risk grows. In today’s fast paced business world, leaders can no longer afford slow data or delayed reports. Customers expect quick responses. Markets change in minutes. Operations face constant pressure. In this environment, real time analytics has become a powerful support system for better decision making. Real time analytics allows businesses to see what is ha",
-      "url": "https://dev.to/ravi_teja_4/top-benefits-of-real-time-analytics-for-faster-and-smarter-decisions-3i1i",
-      "source": "Dev.to",
-      "author": "Ravi Teja",
-      "published": "2025-12-15T06:24:30+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "6ff930f0c6e48088",
-      "title": "Understanding Doppar Queue: A Deep Dive into Job Lifecycle and Why It Matters",
-      "description": "Queue systems are the unsung heroes of modern web applications. They handle everything from sending emails to processing videos, generating reports to dispatching notifications—all without making your users wait. But have you ever wondered what actually happens to a job from the moment you dispatch it until it completes (or fails)? Today, I'm taking you on a journey through Doppar's queue system. We'll explore how jobs move through their lifecycle, what happens when things go wrong, and why Dopp",
-      "url": "https://dev.to/mahedi1501/understanding-doppar-queue-a-deep-dive-into-job-lifecycle-and-why-it-matters-5hjk",
-      "source": "Dev.to",
-      "author": "Francisco Navarro",
-      "published": "2025-12-15T06:17:47+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "ffcfd6b88f52fd82",
-      "title": "Part 01: Building a Sovereign Software Factory: Docker Networking & Persistence",
-      "description": "GitHub: https://github.com/InfiniteConsult/0005_cicd_part01_docker TL;DR: In this first installment, we reject the fragility of default Docker environments. We build a permission-safe \"Control Center\" using Docker-out-of-Docker (DooD), construct a private \"Road Network\" (cicd-net) for internal DNS resolution, and pour the \"Foundations\" using a hybrid persistence strategy (Bind Mounts vs. Named Volumes) to ensure our data survives container restarts. The Sovereign Software Factory Series: Part 01",
-      "url": "https://dev.to/warren_jitsing_dd1c1d6fc6/part-01-building-a-sovereign-software-factory-docker-networking-persistence-31pm",
-      "source": "Dev.to",
-      "author": "Warren Jitsing",
-      "published": "2025-12-15T06:10:40+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
     },
     {
       "id": "792ee7c8edbb5049",
@@ -8045,6 +8049,30 @@
       "keywords": []
     },
     {
+      "id": "64d122daf161d70f",
+      "title": "Código Limpio: 5 principios para dejar de escribir \"código espagueti\"",
+      "description": "Introducción ¿Alguna vez has regresado a un proyecto después de tres meses y no has entendido absolutamente nada de lo que escribiste? No estás solo. A todos nos ha pasado que, por las prisas, terminamos creando funciones gigantes y archivos interminables. Hoy vamos a hablar de los principios SOLID, una guía esencial para cualquier desarrollador que quiera pasar de \"hacer que funcione\" a \"crear software profesional\". ¿Qué es SOLID? SOLID es un acrónimo acuñado por Robert C. Martin (\"Uncle Bob\").",
+      "url": "https://dev.to/oscarolg/codigo-limpio-5-principios-para-dejar-de-escribir-codigo-espagueti-4k4b",
+      "source": "Dev.to",
+      "author": "Oscar olg",
+      "published": "2025-12-22T06:05:12+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "aec586c0361639d4",
+      "title": "Arc-Fault Protection in PV: Practical Notes for 1000V/1500V Strings",
+      "description": "High-voltage PV strings (1000V and 1500V) improve efficiency, but they also make fault management more critical. One issue is arc faults. They can occur at connectors, cable damage points, or degraded terminations. Unlike short circuits, a series arc may persist without a dramatic current increase. That is why arc-fault detection standards and test methods matter. Many engineers reference IEC 63027 when discussing DC arc detection and interruption concepts for PV systems. In practice, you should",
+      "url": "https://dev.to/wxc5937beep/arc-fault-protection-in-pv-practical-notes-for-1000v1500v-strings-9k9",
+      "source": "Dev.to",
+      "author": "wxc5937-beep",
+      "published": "2025-12-22T06:02:11+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "c36b58fb0adeacea",
       "title": "Optery (YC W22) Hiring CISO, Release Manager, Tech Lead (Node), Full Stack Eng",
       "description": "Comments",
@@ -8407,30 +8435,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "9d7acaf53beec943",
-      "title": "The Whole App is a Blob",
-      "description": "Comments",
-      "url": "https://drobinin.com/posts/the-whole-app-is-a-blob/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-15T04:09:51+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "93eeda2c345eccea",
-      "title": "Read Something Wonderful",
-      "description": "Comments",
-      "url": "https://readsomethingwonderful.com/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-15T04:15:21+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "cae064c6cf6de755",
@@ -10580,9 +10584,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "performance",
+        "developer",
         "release",
-        "developer"
+        "performance"
       ]
     },
     {
@@ -10806,6 +10810,18 @@
       "keywords": []
     },
     {
+      "id": "f5592ea05df65624",
+      "title": "CO2 batteries that store grid energy take off globally",
+      "description": "Comments",
+      "url": "https://spectrum.ieee.org/co2-battery-energy-storage",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-21T15:27:36+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
       "id": "4e6d7290f5ff11d8",
       "title": "React Native 0.80 - React 19.1, JS API Changes, Freezing Legacy Arch and much more",
       "description": "Today we are excited to release React Native 0.80!",
@@ -10816,9 +10832,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
+        "API",
         "React 19",
-        "release",
-        "API"
+        "release"
       ]
     },
     {
@@ -10932,8 +10948,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "framework",
-        "API"
+        "API",
+        "framework"
       ]
     },
     {
@@ -11065,11 +11081,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
+        "API",
         "framework",
         "release",
-        "API",
-        "performance",
-        "code"
+        "code",
+        "performance"
       ]
     },
     {
@@ -11175,18 +11191,6 @@
       ]
     },
     {
-      "id": "8183b6325de05060",
-      "title": "Working quickly is more important than it seems (2015)",
-      "description": "Comments",
-      "url": "https://jsomers.net/blog/speed-matters",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-15T05:54:28+00:00",
-      "niche": "dev",
-      "score": 26,
-      "keywords": []
-    },
-    {
       "id": "66eb59d68bc89b96",
       "title": "Don MacKinnon: Why Simplicity Beats Cleverness in Software Design [audio]",
       "description": "Comments",
@@ -11254,6 +11258,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-19T21:42:55+00:00",
+      "niche": "dev",
+      "score": 26,
+      "keywords": []
+    },
+    {
+      "id": "70e200f810400ed0",
+      "title": "Webb observes exoplanet that may have an exotic helium and carbon atmosphere",
+      "description": "Comments",
+      "url": "https://science.nasa.gov/missions/webb/nasas-webb-observes-exoplanet-whose-composition-defies-explanation/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-19T13:16:57+00:00",
       "niche": "dev",
       "score": 26,
       "keywords": []
@@ -11375,8 +11391,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "API"
+        "API",
+        "release"
       ]
     },
     {
@@ -11390,8 +11406,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "framework"
+        "framework",
+        "release"
       ]
     },
     {
@@ -11405,9 +11421,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "performance",
         "code",
-        "developer"
+        "developer",
+        "performance"
       ]
     },
     {
@@ -11421,8 +11437,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
-        "code"
+        "code",
+        "release"
       ]
     },
     {
@@ -11436,8 +11452,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
-        "developer"
+        "developer",
+        "release"
       ]
     },
     {
@@ -11666,18 +11682,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "462df236a87c1e75",
-      "title": "Fuzix on a Raspberry Pi Pico",
-      "description": "Comments",
-      "url": "https://ewpratten.com/blog/fuzix-pi-pico",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-15T06:31:39+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
     },
     {
       "id": "94867d140e431dab",
