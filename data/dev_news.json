@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-23T02:03:27.225602+00:00",
-  "total_articles": 982,
+  "last_updated": "2025-12-23T04:01:58.544087+00:00",
+  "total_articles": 981,
   "articles": [
     {
       "id": "69d813cf8d6f164c",
@@ -385,6 +385,20 @@
       "source": "Dev.to",
       "author": "Thor 雷神 Schaeff",
       "published": "2025-12-23T01:27:22+00:00",
+      "niche": "dev",
+      "score": 72,
+      "keywords": [
+        "API"
+      ]
+    },
+    {
+      "id": "2fae67a7d3f80123",
+      "title": "🚀 Google Auth Website — A Production-Ready Boilerplate with Google SSO & Email Auth",
+      "description": "I’m excited to share my latest open source project — a professional, easy-to-use starter template for modern web apps featuring Google Sign-In (SSO) and traditional Email/Password authentication. 👉 GitHub Repo: https://github.com/mmraja83/google-auth-website 🔍 What This Project Is This repository is a full-stack authentication boilerplate, built using: React (Vite) for the frontend FastAPI (Python) for the backend JWT-based authentication Google OAuth 2.0 Sign-In Clean, minimal UI design 🧠 Why I",
+      "url": "https://dev.to/nithya_gujiluvaravindran/google-auth-website-a-production-ready-boilerplate-with-google-sso-email-auth-338l",
+      "source": "Dev.to",
+      "author": "Nithya Gujiluva Ravindran",
+      "published": "2025-12-23T03:36:46+00:00",
       "niche": "dev",
       "score": 72,
       "keywords": [
@@ -806,6 +820,30 @@
       "keywords": []
     },
     {
+      "id": "dd27062d1daed1a3",
+      "title": "Automatic staging environments for your GitHub PRs",
+      "description": "If you’ve ever wanted to paste a live URL into a GitHub pull request instead of a screenshot, a Loom, or the dreaded \"the Vercel preview environment sort of works but it's missing ten integrations so basically you can't test anything on it\", this is for you. Ho ho ho! This holiday season, if you're indie-hacking, nerdsniped, or just plain bored, you'll probably be working on some sort of app. At some point, you'll want to share it with someone else. That's where Autodock comes in. Autodock adds ",
+      "url": "https://dev.to/mikesol/automatic-staging-environments-for-your-github-prs-4e78",
+      "source": "Dev.to",
+      "author": "Mike Solomon",
+      "published": "2025-12-23T03:41:44+00:00",
+      "niche": "dev",
+      "score": 68,
+      "keywords": []
+    },
+    {
+      "id": "6d7d99d6cc187d92",
+      "title": "Cutting React Bundle Size by 72%: A Deep Dive into main.chunk.js & vendor.chunk.js",
+      "description": "When I ran npm run build on our React production app, the numbers were alarming: main.chunk.js: ~2.27 MB (gzip) vendor.chunk.js: bloated with libraries used only in edge flows Warning: “The bundle size is significantly larger than recommended” This post breaks down how I reduced the frontend bundle size by 72%, focusing specifically on: Component lazy loading Route-based lazy loading Dynamic imports Minification And how these changes directly impacted main.chunk.js and vendor.chunk.js Understand",
+      "url": "https://dev.to/saijamii/cutting-react-bundle-size-by-72-a-deep-dive-into-mainchunkjs-vendorchunkjs-5alj",
+      "source": "Dev.to",
+      "author": "saijami",
+      "published": "2025-12-23T03:38:10+00:00",
+      "niche": "dev",
+      "score": 68,
+      "keywords": []
+    },
+    {
       "id": "d75eb1c70b727d9b",
       "title": "Most developers use generative AI as a faster Google. Developers are applying AI where they're comfortable, now where it's powerful.",
       "description": "The Real Reason Most Developers Are Misusing Generative AI Jaideep Parashar ・ Dec 22 #webdev #ai #developers #devops",
@@ -835,6 +873,23 @@
         "REST API",
         "performance",
         "developer"
+      ]
+    },
+    {
+      "id": "eeb5b1620da32ab1",
+      "title": "What Is the Difference Between @ControllerAdvice and @RestControllerAdvice?",
+      "description": "Learn the difference between @ControllerAdvice and @RestControllerAdvice in Spring Boot with clear explanations and end-to-end Java examples. Introduction Imagine you are building two applications using Spring Boot. One is a traditional web application that shows HTML pages in the browser. The other is a REST API used by a mobile app or frontend framework like React. Now suppose something goes wrong—maybe a user is not found or an invalid request is sent. Do you want to handle errors inside ever",
+      "url": "https://dev.to/realnamehidden1_61/what-is-the-difference-between-controlleradvice-and-restcontrolleradvice-3jf3",
+      "source": "Dev.to",
+      "author": "realNameHidden",
+      "published": "2025-12-23T03:17:15+00:00",
+      "niche": "dev",
+      "score": 64,
+      "keywords": [
+        "framework",
+        "Spring",
+        "API",
+        "REST API"
       ]
     },
     {
@@ -1237,6 +1292,18 @@
       "keywords": []
     },
     {
+      "id": "131f928fd1fb18cb",
+      "title": "Snitch – A friendlier ss/netstat",
+      "description": "Comments",
+      "url": "https://github.com/karol-broda/snitch",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-23T01:03:57+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": []
+    },
+    {
       "id": "2020a3914e7bb2ce",
       "title": "The Laravel 12 Docker Blueprint I Wish I Had: Nginx + PHP-FPM, Small Images, Clean CI/CD, and DigitalOcean Private Registry",
       "description": "This is the setup that turned my Laravel 12 project from “works on my machine” into “ready anytime”. The goal was simple: smaller builds, cleaner releases, and deployments that don’t need babysitting backed by CI/CD and a DigitalOcean private registry. What you’ll learn In this post, I’ll walk through the blueprint I used to: Run Laravel 12 on PHP 8.2 in containers (the minimum supported version). Serve the app with Nginx + PHP-FPM (clean separation of concerns). Build smaller images and keep re",
@@ -1301,6 +1368,23 @@
         "PHP",
         "API",
         "tutorial",
+        "developer"
+      ]
+    },
+    {
+      "id": "0445f2adfe3e6529",
+      "title": "How to use Python's request library to retrieve data from API's",
+      "description": "Introduction: Python’s requests library allows developers send messages from a client, such as a web browser, to a server in order to receive data. These messages are commonly referred to as HTTP requests and are used when interacting with APIs. An API (Application Programming Interface) allows different software applications to communicate with each other without directly accessing each other’s internal systems. Think of an API as a cashier in a fast-food restaurant. The cashier takes in the cu",
+      "url": "https://dev.to/robotwizard/how-to-use-pythons-request-library-to-retrieve-data-from-apis-2c6",
+      "source": "Dev.to",
+      "author": "Matt",
+      "published": "2025-12-23T03:43:59+00:00",
+      "niche": "dev",
+      "score": 60,
+      "keywords": [
+        "programming",
+        "library",
+        "API",
         "developer"
       ]
     },
@@ -1915,36 +1999,6 @@
       ]
     },
     {
-      "id": "75ae73bd28c00a6a",
-      "title": "PNG vs JPG: What’s the Real Difference for Web Use?",
-      "description": "When working on the web, PNG and JPG are probably the two image formats developers encounter most often. They seem simple on the surface, but choosing the wrong format can impact performance, visual quality, and even user experience. So what’s the real difference between PNG and JPG, and when should you use each one? Understanding PNG PNG (Portable Network Graphics) is a lossless image format. This means that when an image is saved as PNG, no visual data is permanently discarded. Key characteris",
-      "url": "https://dev.to/_15dcbc74dac0c5c26421/png-vs-jpg-whats-the-real-difference-for-web-use-34nm",
-      "source": "Dev.to",
-      "author": "eileen-tools",
-      "published": "2025-12-16T03:20:30+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "performance",
-        "developer"
-      ]
-    },
-    {
-      "id": "9ca6a2a93882ae7d",
-      "title": "Low-Code LLM Evaluation Framework with n8n: Automated Testing Guide",
-      "description": "In today’s fast-paced technological landscape, ensuring the quality, accuracy, and consistency of language models is more critical than ever. At the intersection of artificial intelligence (AI) and practical business solutions, a new methodology has emerged: a low-code evaluation framework that leverages automation to streamline the assessment and updating of large language models (LLMs). In this guide, we explore how utilizing a tool like n8n—a flexible workflow automation platform—can empower ",
-      "url": "https://dev.to/omer_dahan_6305e5f4900a75/low-code-llm-evaluation-framework-with-n8n-automated-testing-guide-280f",
-      "source": "Dev.to",
-      "author": "Omer Dahan",
-      "published": "2025-12-16T03:05:25+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "framework",
-        "code"
-      ]
-    },
-    {
       "id": "a33d85a456ae8302",
       "title": "Deepseek 3.2 Speciale vs Claude 4.5 Sonnet for agentic coding",
       "description": "DeepSeek recently released Deep Seek V3.2 Speciale - a reasoning-first model built for agents. As a developer who uses both open- and closed-source models for his builds, I decided to test the new model (Deep Seek V3.2) with my most-used model, Claude Sonnet 4.5. Also, during the building process, I used Rube MCP, a single server that gives you access to apps like GitHub, Linear, Supabase, etc and loads tools dynamically to avoid context bloat. This helps us get a good picture of the tool-callin",
@@ -2467,34 +2521,6 @@
       "keywords": [
         "library",
         "developer"
-      ]
-    },
-    {
-      "id": "083ba83e2c792d09",
-      "title": "Backing Up Nginx Logs the Right Way: From Basics to Automation",
-      "description": "When you run a website or API on a server, logs are your first and last line of truth. Whether you are debugging an issue, estimating traffic costs, or investigating suspicious activity, Nginx logs are critical. This article explains: What Nginx logs are and why they matter The difference between access logs and error logs Why log rotation is essential Different ways to back up logs A practical approach to backing up Nginx logs to Amazon S3 How to automate and verify the entire setup This guide ",
-      "url": "https://dev.to/ajitkumar/backing-up-nginx-logs-the-right-way-from-basics-to-automation-5045",
-      "source": "Dev.to",
-      "author": "Ajit Kumar",
-      "published": "2025-12-16T03:18:33+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "API"
-      ]
-    },
-    {
-      "id": "a61a89ca27eecba2",
-      "title": "Docker Internals Deep Dive: What Really Happens When You Run docker run (2025 Edition)",
-      "description": "Modern container platforms depend on predictable, modular behavior. Docker's architecture is a layered execution pipeline built around standard interfaces: REST, gRPC, OCI Runtime, and Linux kernel primitives. Understanding this flow eliminates ambiguity during debugging, scaling, or integrating with orchestration systems. 1. Core Architecture CLI → dockerd (API + Orchestration) → containerd (Runtime mgmt) → containerd-shim (Process supervisor) → runc (OCI runtime) → Linux Kernel (Namespaces, cg",
-      "url": "https://dev.to/sreekanth_kuruba_91721e5d/docker-internals-deep-dive-what-really-happens-when-you-run-docker-run-2025-edition-2k97",
-      "source": "Dev.to",
-      "author": "Sreekanth Kuruba",
-      "published": "2025-12-16T03:10:57+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "API"
       ]
     },
     {
@@ -3478,6 +3504,34 @@
       ]
     },
     {
+      "id": "3cd1c3da3de73064",
+      "title": "How We Ship Regulated SaaS Monthly Without Burning Out QA",
+      "description": "I lead quality engineering for a large, regulated SaaS platform in life sciences, think global CRM for pharma, with mobile + web, multi-tenant, and customers in the US, EU, and APAC. We ship monthly releases, support multiple major versions, and operate under GxP / 21 CFR Part 11 / GDPR / SOC2 expectations. For years, our default mode was: \"New release? Clear your weekends, QA.\" Today, we still ship monthly in a regulated environment, without burning out QA, and still passing audits. This articl",
+      "url": "https://dev.to/karthik_bodducherla_bc1b9/how-we-ship-regulated-saas-monthly-without-burning-out-qa-3lbi",
+      "source": "Dev.to",
+      "author": "karthik Bodducherla",
+      "published": "2025-12-23T03:21:20+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "release"
+      ]
+    },
+    {
+      "id": "2db2110ad64fe0e4",
+      "title": "GXD v0.0.0a2: Major Updates and New Features",
+      "description": "Release Date: December 2025 Author: @hejhdiss (Muhammed Shafin p) Status: Alpha Release Overview GXD Compression Utility has received significant updates in version 0.0.0a2, introducing intelligent compression, enhanced metadata tracking, and better user experience. This release transforms GXD from a simple block-based compressor into a smart, adaptive archival tool. Note on Versioning: While these are substantial feature additions, the version number remains 0.0.0a2 (same as the earlier version",
+      "url": "https://dev.to/hejhdiss/gxd-v000a2-major-updates-and-new-features-4gk9",
+      "source": "Dev.to",
+      "author": "Muhammed Shafin P",
+      "published": "2025-12-23T03:07:07+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "release"
+      ]
+    },
+    {
       "id": "957d95d5227ec10f",
       "title": "Day 1: Building a Holiday Budget Tracker with Svelte 5 💸",
       "description": "Welcome to Day 1 of the \"12 Days of Svelte Apps\" challenge! 🎄 Over the next 12 days, we're exploring a collection of mini-apps built with Svelte 5 and SvelteKit. Whether you're a seasoned developer or just curious about the new Svelte 5 Runes syntax, this series will showcase practical examples of modern web development. Today, we're tackling a problem we all face in December: Holiday Spending. The App: Budget Tracker The Budget Tracker is a clean, privacy-focused tool designed to help you set l",
@@ -3970,34 +4024,6 @@
       "keywords": [
         "code",
         "developer"
-      ]
-    },
-    {
-      "id": "9ba68a350796964e",
-      "title": "STOP GUESSING: The Observability Stack I Built to Debug My Failing AI Agents",
-      "description": "The RAG pipeline is a black box. I got tired of guessing why my bot retrieved the wrong context, so I built an engine for reliable, observable vector retrieval and semantic content verification. RAG and LLM verification are the new bottlenecks in AI development. I built MemVault (for reliable Hybrid Vector Retrieval) and ContextDiff (for deterministic AI Output Verification). The problem is observability; here are my solutions. STOP GUESSING: The Observability Stack I Built to Debug My Failing A",
-      "url": "https://dev.to/the_nortern_dev/stop-guessing-the-observability-stack-i-built-to-debug-my-failing-ai-agents-4b4o",
-      "source": "Dev.to",
-      "author": "NorthernDev",
-      "published": "2025-12-16T03:44:18+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "development"
-      ]
-    },
-    {
-      "id": "76acff2f60f8ed71",
-      "title": "JavaScript 101: Getting Started with Control Flow",
-      "description": "TL;DR In your applications, the control flow is the one in charge of making sure your code is taking the right path. if, else if, and else help run different code depending on conditions. You’ll usually combine control flow with comparison or logical operators (coming up in the next article!). Good control flow helps avoid messy, repetitive code. Getting started Writing code is basically telling the computer what to do, one step at a time. But what if you have to decide something based on the da",
-      "url": "https://dev.to/joorch/javascript-101-getting-started-with-control-flow-16pk",
-      "source": "Dev.to",
-      "author": "Jorch C.",
-      "published": "2025-12-16T03:33:30+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
       ]
     },
     {
@@ -5261,52 +5287,32 @@
       ]
     },
     {
-      "id": "df2c19943d9db23f",
-      "title": "From FP16 to Q4: Understanding Quantization in Ollama",
-      "description": "If you run your own local models, you might have heard of the term quantization. What is quantization? A normal LLM stores weights as float32 (FP32) and float16 (FP16). Quantization is when we store and compute those weights using fewer bits. For example: FP16 – 16 bits INT8 – 8 bits INT4 – 4 bits INT2 – 2 bits So if we take a number like: 0.12345678 (32-bit float) We can approximate it to: 0.12 (8-bit/4-bit) Ollama quantization formats Now let's understand how to read a model name and understan",
-      "url": "https://dev.to/rijultp/from-fp16-to-q4-understanding-quantization-in-ollama-1j1e",
+      "id": "16ca3ab6b2b3376f",
+      "title": "6 Open-Source No-Code & Low-Code Tools for Software Agencies",
+      "description": "Originally published at https://www.nocobase.com/en/blog/6-open-source-no-code-low-code-tools-for-software-agencies At the start When software agencies take on new client projects, the pressure is almost always the same: clients want results fast, but they also expect stability, flexibility, and long-term maintainability. That is why many agencies turn to no-code and low-code tools to quickly build prototypes or PoCs. However, not every no-code or low-code platform is suitable for long-term clie",
+      "url": "https://dev.to/nocobase/6-open-source-no-code-low-code-tools-for-software-agencies-1pk5",
       "source": "Dev.to",
-      "author": "Rijul Rajesh",
-      "published": "2025-12-16T03:30:57+00:00",
+      "author": "NocoBase",
+      "published": "2025-12-23T03:27:44+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
-      "id": "d9eff47a365a52d7",
-      "title": "Nginx Log Analytics with GoAccess: Local Logs, S3 Backups, and Beyond",
-      "description": "Collecting logs is only half the job. The real value comes from turning logs into insights. If you are running Nginx on a server, you already have everything you need to understand: How many people visit your site Which pages are popular Where traffic comes from How bots and crawlers behave How much bandwidth you consume In this article, we will explore four practical ways to analyze Nginx logs: GoAccess directly on the server GoAccess from S3-backed logs Third-party log analytics services Custo",
-      "url": "https://dev.to/ajitkumar/nginx-log-analytics-with-goaccess-local-logs-s3-backups-and-beyond-181e",
+      "id": "feb9117865ba8c6d",
+      "title": "Failing an Interview Is Not the End",
+      "description": "Failing a technical interview hurts. No matter how much experience you have or how much you studied, when things go wrong your mind starts spiraling. “Maybe I’m not good enough”, “maybe I don’t belong here”, “others know more than me”. Everyone goes through this. But failing an interview does not mean you failed as a developer. It means you discovered a gap in your knowledge. And even if it feels awful in the moment, that is valuable information. Every question you couldn’t answer points directl",
+      "url": "https://dev.to/amoreno/failing-an-interview-is-not-the-end-193o",
       "source": "Dev.to",
-      "author": "Ajit Kumar",
-      "published": "2025-12-16T03:25:03+00:00",
+      "author": "A. Moreno",
+      "published": "2025-12-23T03:19:43+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "3e433224cef5fbc6",
-      "title": "Building Production-Ready Vector Search for the Browser with Rust and WebAssembly",
-      "description": "The Problem: Vector Search at the Edge If you've worked with AI applications, you've probably used vector databases like Pinecone, Weaviate, or Qdrant. They're excellent for server-side deployments, but what happens when you need vector search: In a browser — without sending user data to external servers? Offline — where network connectivity isn't guaranteed? At the edge — where latency to cloud services is unacceptable? This was the problem I set out to solve with EdgeVec. What is EdgeVec? Edge",
-      "url": "https://dev.to/matteo_panzeri_2c5930e196/building-production-ready-vector-search-for-the-browser-with-rust-and-webassembly-2mhi",
-      "source": "Dev.to",
-      "author": "Matteo Panzeri",
-      "published": "2025-12-16T03:22:11+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "c95292e26be89056",
-      "title": "Advanced C Preprocessor Macros for a Type-Safe Varargs Substitute",
-      "description": "Introduction As you may know, variadic functions in C are those that can take a varying number of arguments, the most well-known of which is printf and related functions. As you may also know, variadic functions have a number of caveats as I previously explained. Can type-safe variadic arguments be implemented in standard C? Yes! A Type-Safe Variadic Argument First, we need a type that can store a value for any one of C’s built-in types — a type-safe variadic argument (TSVA): enum tsva_type { TS",
-      "url": "https://dev.to/pauljlucas/advanced-c-preprocessor-macros-for-a-type-safe-varargs-substitute-2aog",
-      "source": "Dev.to",
-      "author": "Paul J. Lucas",
-      "published": "2025-12-16T03:16:30+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
       "id": "8810b91d396958ea",
@@ -8035,6 +8041,18 @@
       "keywords": []
     },
     {
+      "id": "dbd06dfc8b586abb",
+      "title": "Why iPhone HEIC Photos Are Hard to Share (And What I Actually Do)",
+      "description": "Apple’s HEIC format is great — at least in theory. It keeps file sizes small while maintaining high image quality, which is perfect for iPhones. But the first time I tried to upload HEIC photos to a website, send them to a client, or attach them to a form… things got annoying fast. The real problem with HEIC in daily work Here are a few situations where HEIC becomes a headache: Some websites simply don’t accept HEIC uploads Many online forms expect JPG or PNG only Non-Apple users can’t preview H",
+      "url": "https://dev.to/_7bdcbcaa99fbf1c9ea608c/why-iphone-heic-photos-are-hard-to-share-and-what-i-actually-do-1a3h",
+      "source": "Dev.to",
+      "author": "堿地",
+      "published": "2025-12-23T03:41:19+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "e5e4b27af24f69a5",
       "title": "No Graphics API",
       "description": "Comments",
@@ -8371,18 +8389,6 @@
       ]
     },
     {
-      "id": "16a0a5e06152f17c",
-      "title": "8M Users' AI Conversations Sold for Profit by \"Privacy\" Extensions",
-      "description": "Comments",
-      "url": "https://www.koi.ai/blog/urban-vpn-browser-extension-ai-conversations-data-collection",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-16T03:03:49+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
       "id": "17203279e2a283c6",
       "title": "Erdős Problem #1026",
       "description": "Comments",
@@ -8390,18 +8396,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-16T04:49:03+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "b58383355fcb3abd",
-      "title": "8M users' AI conversations sold for profit by \"privacy\" extensions",
-      "description": "Comments",
-      "url": "https://www.koi.ai/blog/urban-vpn-browser-extension-ai-conversations-data-collection",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-16T03:03:49+00:00",
       "niche": "dev",
       "score": 44,
       "keywords": []
@@ -10435,6 +10429,18 @@
       "keywords": []
     },
     {
+      "id": "5995b395ccac8a95",
+      "title": "Laptop Isn't Ready for LLMs. That's About to Change",
+      "description": "Comments",
+      "url": "https://spectrum.ieee.org/ai-models-locally",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-23T00:12:16+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "f36e13df3098899c",
       "title": "Getting Started with Foundation 6’s CLI Tools",
       "description": "Julian provides an in-depth look at a lesser-known, but no less powerful, feature of the new Foundation 6: the command line tools to ease development. Continue reading Getting Started with Foundation 6’s CLI Tools on SitePoint.",
@@ -10485,8 +10491,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "performance",
-        "React 19"
+        "React 19",
+        "performance"
       ]
     },
     {
@@ -10542,8 +10548,8 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "performance",
         "release",
+        "performance",
         "developer"
       ]
     },
@@ -10714,9 +10720,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
+        "release",
         "React 19",
-        "API",
-        "release"
+        "API"
       ]
     },
     {
@@ -10784,8 +10790,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -10799,8 +10805,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -11015,11 +11021,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "performance",
         "release",
         "framework",
-        "code",
-        "API"
+        "API",
+        "performance",
+        "code"
       ]
     },
     {
@@ -11338,8 +11344,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "framework"
+        "framework",
+        "release"
       ]
     },
     {
@@ -11353,8 +11359,8 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "performance",
         "code",
+        "performance",
         "developer"
       ]
     },
@@ -11369,8 +11375,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
-        "code"
+        "code",
+        "release"
       ]
     },
     {
@@ -11441,8 +11447,8 @@
       "niche": "dev",
       "score": 18,
       "keywords": [
-        "PHP",
-        "Angular"
+        "Angular",
+        "PHP"
       ]
     },
     {
@@ -11660,18 +11666,6 @@
       "keywords": []
     },
     {
-      "id": "87b3e2bfd9741929",
-      "title": "New Quantum Antenna Reveals a Hidden Terahertz World",
-      "description": "Comments",
-      "url": "https://www.sciencedaily.com/releases/2025/12/251213032617.htm",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-16T03:43:02+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
       "id": "f1d44f5c9aecc519",
       "title": "Gemini 3 Pro vs. 2.5 Pro in Pokemon Crystal",
       "description": "Comments",
@@ -11691,18 +11685,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-17T12:08:21+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "1af846b035d55a60",
-      "title": "Maximizing Compression of Apple II Hi-Res Images",
-      "description": "Comments",
-      "url": "http://deater.net/weave/vmwprod/hgr_compress/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-16T03:55:00+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -11775,6 +11757,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-19T10:29:33+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "e145ae47205ba80f",
+      "title": "Our New Sam Audio Model Transforms Audio Editing",
+      "description": "Comments",
+      "url": "https://about.fb.com/news/2025/12/our-new-sam-audio-model-transforms-audio-editing/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-16T20:25:04+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -11972,8 +11966,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "development",
-        "programming"
+        "programming",
+        "development"
       ]
     },
     {
