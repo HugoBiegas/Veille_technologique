@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-23T18:38:44.754161+00:00",
+  "last_updated": "2025-12-23T21:24:55.996148+00:00",
   "total_articles": 962,
   "articles": [
     {
@@ -179,6 +179,22 @@
         "performance",
         "code",
         "release"
+      ]
+    },
+    {
+      "id": "12024914678ee2ab",
+      "title": "A React Snowfall Effect with Physics",
+      "description": "I released an open-source library called @hdcodedev/snowfall. It adds a snowfall effect to React applications where the snow interacts with the page content. Most snowfall effects just overlay the screen. This one uses physics so the snowflakes actually land and accumulate on your HTML elements (headers, cards, buttons, etc.). It includes: Physics: Wind, gravity, and collision detection. Accumulation: Snow piles up on elements and eventually melts. Smart Detection: You can use data-snowfall attr",
+      "url": "https://dev.to/hdcodedev/a-react-snowfall-effect-with-physics-1ia7",
+      "source": "Dev.to",
+      "author": "hdcode dev",
+      "published": "2025-12-23T20:52:07+00:00",
+      "niche": "dev",
+      "score": 76,
+      "keywords": [
+        "library",
+        "release",
+        "code"
       ]
     },
     {
@@ -1968,21 +1984,6 @@
       ]
     },
     {
-      "id": "2f585536fd0191f7",
-      "title": "Renderizando la cámara con Metal en iOS (AVFoundation + MetalKit)",
-      "description": "En este tutorial vamos a renderizar el video de la cámara directamente en pantalla usando Metal, sin pasar por AVCaptureVideoPreviewLayer. La idea es tomar el CVPixelBuffer que entrega AVFoundation y dibujarlo en un MTKView, controlando todo el pipeline gráfico. Este enfoque es especialmente útil si: Necesitas post‑procesamiento con shaders Estás integrando AR / computer vision / ML Quieres máximo control y performance El proyecto final necesita las siguientes cuatro clases: CameraCapture: captu",
-      "url": "https://dev.to/david_goyes_a488f58a17a53/renderizando-la-camara-con-metal-en-ios-avfoundation-metalkit-mnl",
-      "source": "Dev.to",
-      "author": "David Goyes",
-      "published": "2025-12-16T20:46:09+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "performance",
-        "tutorial"
-      ]
-    },
-    {
       "id": "e11d53105bc0dea0",
       "title": "Decoding Bitwise’s 2026 Crypto Forecast: Three Key Infrastructure Trends Every Developer Should Watch",
       "description": "When asset management giant Bitwise releases its annual crypto market forecast, most attention naturally goes to the eye-catching price targets. Headlines focus on predictions of all-time highs for Bitcoin, Ethereum, and Solana, but beneath these surface numbers lies deeper technical reasoning. For developers actively building within the ecosystem, the real value of the report lies in sub-chapters on adoption curves, regulatory evolution, and technological maturity. Price predictions are merely ",
@@ -2520,20 +2521,6 @@
       "keywords": [
         "performance",
         "development"
-      ]
-    },
-    {
-      "id": "a0a09ba6c26ea937",
-      "title": "YINI Config Parser v1.3.2-beta Released (Node.js)",
-      "description": "A new beta of the official TypeScript parser for YINI is out! This release focuses on real-world usability, robust file handling, and dependency hygiene. If you're new to YINI: it's a modern, human-friendly configuration format that aims to keep INI-style readability while supporting real structure. What's new in 1.3.2-beta UTF-8 BOM support YINI now correctly handles UTF-8 files with or without a Byte Order Mark (BOM). Safe stripping of a leading BOM (U+FEFF) Identical parsing behavior for: UTF",
-      "url": "https://dev.to/marko_kseppnen_6250a7f/yini-config-parser-v132-beta-released-nodejs-kcg",
-      "source": "Dev.to",
-      "author": "Mr Smithnen",
-      "published": "2025-12-16T20:46:37+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "release"
       ]
     },
     {
@@ -3559,6 +3546,34 @@
       ]
     },
     {
+      "id": "d51e8772bb1630bd",
+      "title": "C# Architecture Mastery — CQRS in ASP.NET Core (When It Helps, When It Hurts) (Part 9)",
+      "description": "C# Architecture Mastery — CQRS in ASP.NET Core (When It Helps, When It Hurts) (Part 9) CQRS is one of the most misunderstood patterns in modern .NET. Some teams adopt it too early. Others avoid it entirely out of fear. Both mistakes come from the same problem: CQRS is treated as a framework choice instead of an architectural strategy. In this Part 9, we’ll explain what CQRS really is, when it brings clarity, and when it actively hurts ASP.NET Core systems. 1. What CQRS Actually Means CQRS stands",
+      "url": "https://dev.to/cristiansifuentes/c-architecture-mastery-cqrs-in-aspnet-core-when-it-helps-when-it-hurts-part-9-2inj",
+      "source": "Dev.to",
+      "author": "Cristian Sifuentes",
+      "published": "2025-12-23T21:03:54+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "framework"
+      ]
+    },
+    {
+      "id": "8e1d70c8bf87267c",
+      "title": "C# Architecture Mastery — EF Core in Clean Architecture (Part 8)",
+      "description": "C# Architecture Mastery — EF Core in Clean Architecture (Part 8) Entity Framework Core is one of the most powerful tools in the .NET ecosystem. It is also one of the most misused. In Clean Architecture, EF Core is neither the hero nor the villain — it is infrastructure, and infrastructure must be controlled. In this Part 8, we’ll clarify where EF Core belongs, where it breaks architecture, and how senior teams use it without letting it dominate the system. 1. The Core Rule: EF Core Is a Detail Y",
+      "url": "https://dev.to/cristiansifuentes/c-architecture-mastery-ef-core-in-clean-architecture-part-8-4pkh",
+      "source": "Dev.to",
+      "author": "Cristian Sifuentes",
+      "published": "2025-12-23T21:01:32+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "framework"
+      ]
+    },
+    {
       "id": "cde1e8862efe490f",
       "title": "AI Is Too Polite",
       "description": "AI speeds up development — no question. The problem? It’s trained to be helpful, and helpful often means agreeable. Confidently show an LLM buggy code and it may validate it instead of questioning it. That’s a problem. In a code review, a yes-person is a liability. We don’t need validation — we need pushback. Edge cases. Logic gaps. Security issues. The fix isn’t better models. It’s better prompts. ❌ “Can you check this code?” ✅ “Act as a strict, security-focused senior engineer. Be brutally hon",
@@ -4069,30 +4084,32 @@
       ]
     },
     {
-      "id": "245e9fbfbace7a47",
-      "title": "MEP Estimation Services in Texas - Your Budget Controller",
-      "description": "Texas continues to lead the nation in construction growth, with expanding residential communities, commercial developments, and large-scale industrial projects. In this fast-moving market, MEP estimation services in Texas play a critical role in ensuring accurate budgets, regulatory compliance, and successful project delivery. Mechanical, Electrical, and Plumbing systems account for a significant portion of construction costs, making precise estimation essential. This article explains what MEP e",
-      "url": "https://dev.to/constructioncostesti/mep-estimation-services-in-texas-your-budget-controller-59me",
+      "id": "f65847d613f5ef80",
+      "title": "Build something vs. add new features and maintaining it",
+      "description": "In my last post I shared my experience with asking AI to help me build a utility that would speed up my game development (at least building scenario and story lines) but for those of you who have been writing code knows that generating something new is relatively easy compared to adding features and maintaining it for very long time. So I asked Chat GPT (who assisted me to generate a prompt that I feed into Antigravity - of course this can be done by Gemini as well) this question: Can I assume t",
+      "url": "https://dev.to/tomokat/build-something-vs-add-new-features-and-maintaining-it-1app",
       "source": "Dev.to",
-      "author": "link estimating",
-      "published": "2025-12-16T21:05:57+00:00",
+      "author": "tomokat",
+      "published": "2025-12-23T21:05:50+00:00",
       "niche": "dev",
-      "score": 51,
+      "score": 52,
       "keywords": [
-        "development"
+        "development",
+        "code"
       ]
     },
     {
-      "id": "5bab21182fef6a6a",
-      "title": "INFOFISCUS Conversa – Agentic AI Conversational Analytics for Real-Time Enterprise Intelligence",
-      "description": "INFOFISCUS Conversa is a no-code, Agentic AI-powered conversational analytics platform that turns natural language questions into trusted SQL insights, predictive answers, and executive-ready summaries—across all enterprise data and documents.",
-      "url": "https://dev.to/sachin_yadav_663e59160b3f/infofiscus-conversa-agentic-ai-conversational-analytics-for-real-time-enterprise-intelligence-2587",
-      "source": "Dev.to",
-      "author": "Sachin Yadav",
-      "published": "2025-12-16T20:52:36+00:00",
+      "id": "e3cfb25c4b89e69b",
+      "title": "How to Use GenUI in Flutter to Build Dynamic, AI-Driven Interfaces",
+      "description": "In standard app development, the User Interface (UI) is static. You write code for a button, compile it, and it remains a button forever. GenUI flips this model on its head. With GenUI, Google’s Generative UI SDK, your application's interface becomes...",
+      "url": "https://www.freecodecamp.org/news/how-to-use-genui-in-flutter-to-build-dynamic-ai-driven-interfaces/",
+      "source": "freeCodeCamp",
+      "author": "Atuoha Anthony",
+      "published": "2025-12-23T16:58:51+00:00",
       "niche": "dev",
-      "score": 51,
+      "score": 52,
       "keywords": [
+        "development",
         "code"
       ]
     },
@@ -5273,76 +5290,46 @@
       ]
     },
     {
-      "id": "d093066a155eb4fd",
-      "title": "Knowledge Sharing: Strong Teams Share What They Know",
-      "description": "If only one person knows how something works, your team doesn't really know it yet. After years of working in different teams, I've learned that long-term success doesn't come from individual brilliance. It comes from shared understanding. Teams that rely on a few key people may move fast at first, but they become fragile. One vacation, one sick day, or one resignation is enough to slow everything down. Knowledge sharing isn't just a nice-to-have. It's what turns individual expertise into team s",
-      "url": "https://dev.to/reenanms/knowledge-sharing-strong-teams-share-what-they-know-49n1",
+      "id": "7a75b1f9189268ce",
+      "title": "C# Architecture Mastery — Scaling Teams with Architecture (Conway’s Law & .NET) (Part 11)",
+      "description": "C# Architecture Mastery — Scaling Teams with Architecture (Conway’s Law & .NET) (Part 11) Most architecture problems are not technical. They are organizational. Systems do not scale because code is elegant. They scale because team structure and architecture evolve together. In this Part 11, we’ll explore Conway’s Law, how it manifests in .NET systems, and how senior engineers intentionally design architecture to scale teams without slowing delivery. 1. Conway’s Law (The Rule You Can’t Escape) “O",
+      "url": "https://dev.to/cristiansifuentes/c-architecture-mastery-scaling-teams-with-architecture-conways-law-net-part-11-24el",
       "source": "Dev.to",
-      "author": "Renan Martins",
-      "published": "2025-12-16T21:04:37+00:00",
+      "author": "Cristian Sifuentes",
+      "published": "2025-12-23T21:08:24+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
-      "id": "d2b80e70f5c05648",
-      "title": "Communication As A Task: A Mindset for Successful Asynchronous Work",
-      "description": "Background It's Needless to Say Asynchronous Work is Valuable As engineers, we require concentration, but the tools, methods, and procedures needed for that concentration vary from person to person. A single environment like an office has its limitations. Moreover, before being engineers, we are human beings, and as humans, we want to minimize life's burdens. For instance, getting exhausted from commuting is ludicrous. Even if it's a 30-minute one-way commute, with preparation, settling in, and ",
-      "url": "https://dev.to/stakiran/communication-as-a-task-a-mindset-for-successful-asynchronous-work-fj3",
+      "id": "ec6ae7bec451d544",
+      "title": "C# Architecture Mastery — Refactoring Legacy ASP.NET Core Apps Toward Clean Architecture (Part 10)",
+      "description": "C# Architecture Mastery — Refactoring Legacy ASP.NET Core Apps Toward Clean Architecture (Part 10) Most ASP.NET Core systems don’t start broken. They become broken. Legacy systems are rarely the result of bad developers — they are the result of good developers under pressure. In this Part 10, we’ll cover how senior teams refactor legacy ASP.NET Core applications toward Clean Architecture incrementally, without rewrites, big-bang refactors, or feature freezes. This is about controlled evolution, ",
+      "url": "https://dev.to/cristiansifuentes/c-architecture-mastery-refactoring-legacy-aspnet-core-apps-toward-clean-architecture-part-10-570g",
       "source": "Dev.to",
-      "author": "sta",
-      "published": "2025-12-16T20:57:31+00:00",
+      "author": "Cristian Sifuentes",
+      "published": "2025-12-23T21:05:22+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
-      "id": "cf5b39e065b38d98",
-      "title": "Federated State Done Right: Zustand, TanStack Query, and the Patterns That Actually Work",
-      "description": "We've all been there: you set up Module Federation, split your app into micro-frontends, and suddenly your Zustand store updates in one module but not another. Or worse—your TanStack Query cache fetches the same user profile three times because each remote thinks it's alone in the world. The patterns that work beautifully in monolithic React apps break down in federated architectures. Context providers don't cross module boundaries. Stores instantiate twice. Cache invalidation becomes a distribu",
-      "url": "https://dev.to/martinrojas/federated-state-done-right-zustand-tanstack-query-and-the-patterns-that-actually-work-27c0",
-      "source": "Dev.to",
-      "author": "martin rojas",
-      "published": "2025-12-16T20:53:49+00:00",
+      "id": "9738e11c82bef041",
+      "title": "Build a Support Agent with Vercel AI SDK",
+      "description": "Vercel AI SDK is a TypeScript-first toolkit for building AI features. It streamlines text generation, embeddings, and structured outputs. We just posted a course on the freeCodeCamp.org YouTube channel that will teach you to use the Vercel AI SDK to ...",
+      "url": "https://www.freecodecamp.org/news/build-a-support-agent-with-vercel-ai-sdk/",
+      "source": "freeCodeCamp",
+      "author": "Beau Carnes",
+      "published": "2025-12-23T16:34:48+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "199b71b31e72598c",
-      "title": "Building Your First MCP Server in Python",
-      "description": "We have reached a pivotal moment in the evolution of Large Language Models (LLMs). For a long time, we treated them as \"brains in a jar\"—brilliant reasoning engines disconnected from the world, capable only of generating text based on training data. The Model Context Protocol (MCP) changes this paradigm entirely. It provides a standardized interface for these models to perceive (Resources), act (Tools), and function within specific interaction patterns (Prompts). If you are a senior engineer or ",
-      "url": "https://dev.to/onlineproxyio/building-your-first-mcp-server-in-python-23hc",
-      "source": "Dev.to",
-      "author": "OnlineProxy",
-      "published": "2025-12-16T20:48:36+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "cead8aee7c5d2440",
-      "title": "Why Enterprise SaaS Deals Stall and How Revenue Operations Can Fix Them",
-      "description": "Enterprise SaaS companies rarely lose deals because their products fall short. More often, deals stall—or die—because internal systems aren’t designed for the complexity of enterprise buying. Long procurement cycles, inconsistent quoting, unclear approval paths, and misaligned incentives across teams quietly erode momentum long before a contract reaches signature. At the center of this problem is revenue operations (RevOps). When RevOps is built for SMB motion but applied to enterprise sales, fr",
-      "url": "https://dev.to/kapusto/why-enterprise-saas-deals-stall-and-how-revenue-operations-can-fix-them-4068",
-      "source": "Dev.to",
-      "author": "Mikuz",
-      "published": "2025-12-16T20:48:34+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "d0bcce28f141016b",
-      "title": "I Stopped Using Heavy Photo Editing Software — Here’s Why",
-      "description": "For a long time, I believed that good image editing required powerful desktop software. Tools like Photoshop felt mandatory, even for simple tasks like resizing an image or compressing a file for a website. Over time, that belief started to feel unnecessary. Most of the work I do today involves quick image edits — preparing visuals for blog posts, social media, or small web projects. Installing heavy software or logging into paid platforms just to make minor changes became frustrating. That’s wh",
-      "url": "https://dev.to/maher_saqlain_0814c17e6c8/i-stopped-using-heavy-photo-editing-software-heres-why-58pp",
-      "source": "Dev.to",
-      "author": "Maher Saqlain",
-      "published": "2025-12-16T20:44:12+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "7f7358219098e119",
@@ -7939,32 +7926,52 @@
       "keywords": []
     },
     {
-      "id": "e5e4b27af24f69a5",
-      "title": "No Graphics API",
-      "description": "Comments",
-      "url": "https://www.sebastianaaltonen.com/blog/no-graphics-api",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-16T19:20:17+00:00",
+      "id": "21314e140ba6387e",
+      "title": "C# Architecture Mastery — Event-Driven Architecture in .NET (Clean Boundaries with Messaging) (Part 12)",
+      "description": "C# Architecture Mastery — Event-Driven Architecture in .NET (Clean Boundaries with Messaging) (Part 12) Event-Driven Architecture (EDA) is often introduced too late or too aggressively. Some teams avoid it because it feels complex. Others jump straight into brokers, sagas, and eventual consistency without boundaries. Both approaches miss the point. In this Part 12, we’ll explain how to use events to reinforce Clean Architecture boundaries in .NET, when messaging is the right tool, and how senior",
+      "url": "https://dev.to/cristiansifuentes/c-architecture-mastery-event-driven-architecture-in-net-clean-boundaries-with-messaging-part-12dl",
+      "source": "Dev.to",
+      "author": "Cristian Sifuentes",
+      "published": "2025-12-23T21:11:30+00:00",
       "niche": "dev",
-      "score": 48,
-      "keywords": [
-        "API"
-      ]
+      "score": 50,
+      "keywords": []
     },
     {
-      "id": "78d429962a20d0d0",
-      "title": "Announcing the Beta release of ty",
-      "description": "Comments",
-      "url": "https://astral.sh/blog/ty",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-16T20:52:45+00:00",
+      "id": "8c7e3615c2cca65e",
+      "title": "C# Architecture Mastery — Testing Strategies in Clean Architecture (.NET) (Part 7)",
+      "description": "C# Architecture Mastery — Testing Strategies in Clean Architecture (.NET) (Part 7) Most teams say they “have tests”. Very few have a testing strategy. In Clean Architecture, testing is not an afterthought — it is a design outcome. If your system is hard to test, your architecture is already telling you something is wrong. In this Part 7, we’ll cover how testing aligns with Clean Architecture in .NET, what to test at each layer, and how senior teams avoid brittle test suites. 1. Clean Architectur",
+      "url": "https://dev.to/cristiansifuentes/c-architecture-mastery-testing-strategies-in-clean-architecture-net-part-7-46oi",
+      "source": "Dev.to",
+      "author": "Cristian Sifuentes",
+      "published": "2025-12-23T20:57:04+00:00",
       "niche": "dev",
-      "score": 48,
-      "keywords": [
-        "release"
-      ]
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "a87b71e30c10588b",
+      "title": "Can tools automate ingestion and chunking steps reliably?",
+      "description": "Most RAG is unreliable problems don’t start at retrieval. They start before retrieval. Right at the beginning: the text comes in messy the same content gets ingested twice headings vanish chunks change every rebuild metadata is missing nobody can trace answers back to source Then we blame the model. But the pipeline is leaking. 🔥 The short answer Yes, tools can automate ingestion + chunking reliably, but only if you treat it like a production pipeline, not a one-time script. Reliable means: the ",
+      "url": "https://dev.to/dowhatmatters/can-tools-automate-ingestion-and-chunking-steps-reliably-311n",
+      "source": "Dev.to",
+      "author": "Anindya Obi",
+      "published": "2025-12-23T20:53:14+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "dd35a0e41968864a",
+      "title": "C# Architecture Mastery — Clean Architecture vs Vertical Slice Architecture (Part 6)",
+      "description": "C# Architecture Mastery — Clean Architecture vs Vertical Slice Architecture (Part 6) Most architecture debates fail because they ask the wrong question. ❌ Which architecture is better? ✅ Which architecture optimizes for my problem and team? In this Part 6, we’ll compare Clean Architecture and Vertical Slice Architecture (VSA) as they are actually used in modern ASP.NET Core systems — not as dogma, but as engineering trade-offs. 1. What Clean Architecture Optimizes For Clean Architecture is optim",
+      "url": "https://dev.to/cristiansifuentes/c-architecture-mastery-clean-architecture-vs-vertical-slice-architecture-part-6-48oi",
+      "source": "Dev.to",
+      "author": "Cristian Sifuentes",
+      "published": "2025-12-23T20:53:11+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
     },
     {
       "id": "ad3a7e1fb587a9a1",
@@ -8020,6 +8027,22 @@
       "score": 48,
       "keywords": [
         "framework"
+      ]
+    },
+    {
+      "id": "5a4f708a8d28b200",
+      "title": "Yearly Recap of SitePoint's Dev Newsletter",
+      "description": "Discover SitePoint's top 20 developer newsletter articles of 2025, featuring insights on React, AI, SQL, CSS, APIs, and modern web development trends. Continue reading Yearly Recap of SitePoint's Dev Newsletter on SitePoint.",
+      "url": "https://www.sitepoint.com/yearly-recap-of-dev-newsletter/?utm_source=rss",
+      "source": "SitePoint",
+      "author": "Zain Zaidi",
+      "published": "2025-12-23T19:37:13+00:00",
+      "niche": "dev",
+      "score": 47,
+      "keywords": [
+        "developer",
+        "API",
+        "development"
       ]
     },
     {
@@ -8311,18 +8334,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "c85d0994b2d23171",
-      "title": "AI will make formal verification go mainstream",
-      "description": "Comments",
-      "url": "https://martin.kleppmann.com/2025/12/08/ai-formal-verification.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-16T21:14:49+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "0b7931f773550d48",
@@ -10257,6 +10268,30 @@
       "keywords": []
     },
     {
+      "id": "7d3e85872637066d",
+      "title": "Terrence Malick's Disciples",
+      "description": "Comments",
+      "url": "https://yalereview.org/article/bilge-ebiri-terrence-malick",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-23T19:35:20+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "56cef1f45ee04046",
+      "title": "Help My c64 caught on fire",
+      "description": "Comments",
+      "url": "https://c0de517e.com/026_c64fire.htm",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-23T19:09:45+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "c098b044990870c9",
       "title": "Why a product-first approach can put security and reliability at risk",
       "description": "Discover why technical maintenance and security matter as much as features. How to prioritize technical debt and build reliable products customers trust. Continue reading Why a product-first approach can put security and reliability at risk on SitePoint.",
@@ -10293,8 +10328,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "React 19",
-        "performance"
+        "performance",
+        "React 19"
       ]
     },
     {
@@ -10350,8 +10385,8 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "performance",
         "developer",
+        "performance",
         "release"
       ]
     },
@@ -10822,8 +10857,8 @@
       "score": 30,
       "keywords": [
         "framework",
-        "API",
         "performance",
+        "API",
         "release",
         "code"
       ]
@@ -10957,18 +10992,6 @@
       ]
     },
     {
-      "id": "2fdda2c522ad0f7b",
-      "title": "Texas is suing all of the big TV makers for spying on what you watch",
-      "description": "Comments",
-      "url": "https://www.theverge.com/news/845400/texas-tv-makers-lawsuit-samsung-sony-lg-hisense-tcl-spying",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-16T21:04:54+00:00",
-      "niche": "dev",
-      "score": 26,
-      "keywords": []
-    },
-    {
       "id": "a368751731bcb615",
       "title": "How did IRC ping timeouts end up in a lawsuit?",
       "description": "Comments",
@@ -11024,6 +11047,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-19T21:50:52+00:00",
+      "niche": "dev",
+      "score": 26,
+      "keywords": []
+    },
+    {
+      "id": "a444032d9e1449fd",
+      "title": "Lua 5.5",
+      "description": "Comments",
+      "url": "https://lua.org/versions.html#5.5",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-22T15:06:13+00:00",
       "niche": "dev",
       "score": 26,
       "keywords": []
@@ -11159,9 +11194,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
+        "developer",
         "performance",
-        "code",
-        "developer"
+        "code"
       ]
     },
     {
@@ -11175,8 +11210,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "code",
-        "release"
+        "release",
+        "code"
       ]
     },
     {
@@ -11205,8 +11240,8 @@
       "niche": "dev",
       "score": 18,
       "keywords": [
-        "Angular",
-        "PHP"
+        "PHP",
+        "Angular"
       ]
     },
     {
@@ -11262,8 +11297,8 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "tutorial",
         "PHP",
+        "tutorial",
         "development"
       ]
     },
@@ -11278,8 +11313,8 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "tutorial",
         "PHP",
+        "tutorial",
         "development"
       ]
     },
@@ -11294,8 +11329,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "code",
-        "API"
+        "API",
+        "code"
       ]
     },
     {
@@ -11351,8 +11386,8 @@
       "niche": "dev",
       "score": 15,
       "keywords": [
-        "library",
-        "developer"
+        "developer",
+        "library"
       ]
     },
     {
@@ -11476,18 +11511,6 @@
       "keywords": []
     },
     {
-      "id": "fe0016eef8f8e2e6",
-      "title": "I Program on the Subway",
-      "description": "Comments",
-      "url": "https://www.scd31.com/posts/programming-on-the-subway",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-16T21:23:18+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
       "id": "651ab3dab2d6a741",
       "title": "Deliberate Internet Shutdowns",
       "description": "Comments",
@@ -11512,18 +11535,6 @@
       "keywords": []
     },
     {
-      "id": "e145ae47205ba80f",
-      "title": "Our New Sam Audio Model Transforms Audio Editing",
-      "description": "Comments",
-      "url": "https://about.fb.com/news/2025/12/our-new-sam-audio-model-transforms-audio-editing/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-16T20:25:04+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
       "id": "fb60615b7fd97620",
       "title": "The Polyglot NixOS",
       "description": "Comments",
@@ -11543,6 +11554,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-19T19:44:41+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "10aac6be55c73f32",
+      "title": "Perfect Software – Software for an Audience of One",
+      "description": "Comments",
+      "url": "https://outofdesk.netlify.app/blog/perfect-software",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-20T07:14:53+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -12056,18 +12079,6 @@
       "source": "SitePoint",
       "author": "Nikolay Gushchin",
       "published": "2025-11-28T16:22:48+00:00",
-      "niche": "dev",
-      "score": 12,
-      "keywords": []
-    },
-    {
-      "id": "fc5213daca7c9526",
-      "title": "Importance of CRMs for Business Growth",
-      "description": "CRM software streamlines sales tracking, enables personalized support, and automates workflows. Explore how smart CRM platforms boost business growth. Continue reading Importance of CRMs for Business Growth on SitePoint.",
-      "url": "https://www.sitepoint.com/crms-for-business-growth/?utm_source=rss",
-      "source": "SitePoint",
-      "author": "SitePoint Sponsors",
-      "published": "2025-11-27T14:58:35+00:00",
       "niche": "dev",
       "score": 12,
       "keywords": []
