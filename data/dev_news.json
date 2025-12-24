@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-24T06:41:25.269020+00:00",
+  "last_updated": "2025-12-24T09:29:55.829712+00:00",
   "total_articles": 969,
   "articles": [
     {
@@ -245,6 +245,21 @@
       "keywords": [
         "PHP",
         "framework"
+      ]
+    },
+    {
+      "id": "8edfe1d389cbd41a",
+      "title": "How Do You Handle Validation Errors Globally in Spring Boot?",
+      "description": "\"Learn how to handle validation errors globally in Spring Boot using @ControllerAdvice and exception handlers. Beginner-friendly guide with Java 21 examples.\" Introduction Imagine filling out an online form to apply for a credit card. You click Submit, and suddenly you see five different error messages scattered across the page—some in red, some as pop-ups, and some not even readable. Frustrating, right? The same thing happens to API consumers when validation errors are handled inconsistently. I",
+      "url": "https://dev.to/realnamehidden1_61/how-do-you-handle-validation-errors-globally-in-spring-boot-1mg2",
+      "source": "Dev.to",
+      "author": "realNameHidden",
+      "published": "2025-12-24T09:08:00+00:00",
+      "niche": "dev",
+      "score": 75,
+      "keywords": [
+        "API",
+        "Spring"
       ]
     },
     {
@@ -1467,6 +1482,38 @@
       ]
     },
     {
+      "id": "0c17a874152b1291",
+      "title": "How I built a CI/CD pipeline with E2E tests via TestPyPI",
+      "description": "When building an open-source library that integrates with multiple LLM providers (OpenAI, Anthropic, Google), reliability matters. Users expect upgrades to be safe and predictable. This post describes the CI/CD setup I use for llm-api-adapter. The key idea is simple: test not only the code, but the actual published package. The Strategy: two pipelines, three stages I use a dual-pipeline setup aligned with GitHub Flow: Dev pipeline — runs on every push to dev. Its job is early feedback and valida",
+      "url": "https://dev.to/inozem/how-i-built-a-cicd-pipeline-with-e2e-tests-via-testpypi-107k",
+      "source": "Dev.to",
+      "author": "Sergey Inozemtsev",
+      "published": "2025-12-24T09:20:35+00:00",
+      "niche": "dev",
+      "score": 58,
+      "keywords": [
+        "library",
+        "API",
+        "code"
+      ]
+    },
+    {
+      "id": "12a38acf3df44f91",
+      "title": "How to Send Email in FastAPI (+Code Snippets)",
+      "description": "Are you building a web application and need to send emails through your FastAPI backend server? Email notifications are among the most crucial aspects of building a web application. Whether it's for user registration emails, password resets, or a simple contact form, email sending functionality is a must-have for any FastAPI web application. In this post, I'll show you how to build an email API to send emails with the FastAPI framework. Table of Contents How to Send Emails in FastAPI Method 1: S",
+      "url": "https://dev.to/sendlayer/how-to-send-email-in-fastapi-code-snippets-1ecd",
+      "source": "Dev.to",
+      "author": "David Ozokoye",
+      "published": "2025-12-24T09:09:24+00:00",
+      "niche": "dev",
+      "score": 58,
+      "keywords": [
+        "API",
+        "framework",
+        "code"
+      ]
+    },
+    {
       "id": "e0aa233f2c134fe5",
       "title": "Load Balancer vs API Gateway (can one replace other)",
       "description": "Load Balancer vs. API Gateway: When One Isn't the Other, And Why It Matters Ever launched an application, seen it gain traction, and then found yourself scratching your head as you tried to scale? You add more servers, maybe even a basic load balancer, but things still feel… brittle. Or perhaps you’re moving to microservices, and suddenly, that single, simple entry point you once had is now a chaotic tangle of direct service calls. This is a scenario I've lived through, and it’s often where the ",
@@ -1665,22 +1712,6 @@
       "keywords": [
         "API",
         "REST API"
-      ]
-    },
-    {
-      "id": "cc70ba9751c58b8e",
-      "title": "API integration tutorial - Mastering API Connection: A Practical...",
-      "description": "Mastering API Connection: A Practical Tutorial for Devs Ever felt stuck trying to make two different software systems talk to each other? You’re not alone. In today's interconnected digital world, APIs (App Programming Interfaces) are everywhere. They are the backbone of modern apps. Learning to integrate them well is a big improvement for any dev. This API connection tutorial shares my real-world steps and insights. I've built many systems, from large enterprise e-commerce platforms to my own S",
-      "url": "https://dev.to/ash_dubai/api-integration-tutorial-mastering-api-connection-a-practical-1bdg",
-      "source": "Dev.to",
-      "author": "Mohamed Ashraf",
-      "published": "2025-12-17T09:13:53+00:00",
-      "niche": "dev",
-      "score": 56,
-      "keywords": [
-        "programming",
-        "API",
-        "tutorial"
       ]
     },
     {
@@ -1949,21 +1980,6 @@
         "library",
         "development",
         "code"
-      ]
-    },
-    {
-      "id": "e78d224bbdfa7d9c",
-      "title": "How We Built an LLM Gateway Processing Millions of Requests (And Why We Pivoted)",
-      "description": "The Problem: API Fragmentation When we started MegaLLM, the goal was simple: developer experience. If you wanted to build an AI app in 2024/2025, you had to manage five different API keys (OpenAI, Anthropic, Google, Mistral, Meta). We built a unified gateway to aggregate 70+ models under one standard OpenAI-compatible API. The idea exploded. In November alone, our infrastructure served massive traffic spikes, leading to a cloud bill exceeding $1,000,000 USD. Scaling that fast broke things. We fa",
-      "url": "https://dev.to/tamishmhatre/how-we-built-an-llm-gateway-processing-millions-of-requests-and-why-we-pivoted-585j",
-      "source": "Dev.to",
-      "author": "Tamish",
-      "published": "2025-12-17T09:18:21+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "API",
-        "developer"
       ]
     },
     {
@@ -2462,30 +2478,17 @@
       ]
     },
     {
-      "id": "19bd853dbaca7667",
-      "title": "Performance Testing Tools in Software Testing: JMeter, K6, Gatling & More",
-      "description": "Ever opened a website that took forever to load and immediately hit the back button? Yeah… your users do that too. In today’s digital world, performance is not a “nice to have” — it’s a deal breaker. Whether it’s an e-commerce app during a sale, a fintech platform on payday, or a SaaS product onboarding new users, slow performance can cost you revenue, trust, and brand value. That’s where **performance testing tools **come into play. In this guide, we’ll break down the most popular performance t",
-      "url": "https://dev.to/emilyjackson/performance-testing-tools-in-software-testing-jmeter-k6-gatling-more-3dbd",
+      "id": "170421e08a3bf819",
+      "title": "PLC Elevator Data Acquisition and Remote Monitoring System Solution",
+      "description": "Industry Background Elevators, as crucial vertical transportation equipment in construction projects, play a significant role in ensuring project progress and quality. With the development of IoT technologies, applying IoT to elevator monitoring, operation, and maintenance management systems has become a trend. Real-time monitoring and data analysis can enhance elevator safety performance, reduce accident risks, and improve project efficiency. Industry Pain Points Frequent Safety Incidents: Safe",
+      "url": "https://dev.to/wideiot/plc-elevator-data-acquisition-and-remote-monitoring-system-solution-e61",
       "source": "Dev.to",
-      "author": "Emily Jackson",
-      "published": "2025-12-17T09:18:21+00:00",
+      "author": "Ricardo",
+      "published": "2025-12-24T09:17:04+00:00",
       "niche": "dev",
-      "score": 54,
+      "score": 55,
       "keywords": [
-        "performance"
-      ]
-    },
-    {
-      "id": "4b067512b148bb9a",
-      "title": "Why Mental Health Issues Are Rising (And What Modern Life Is Doing to Our Brains)",
-      "description": "Debugging the growing mental health crisis through lifestyle, biology, and systems thinking We spend hours debugging systems, optimizing performance, and fixing bottlenecks — yet many of us ignore the most complex system we run every day: the human brain. Over the last few years, mental health issues like anxiety, depression, ADHD, burnout, and PTSD have surged across all age groups. This isn’t just better diagnosis — it’s a signal that modern life is pushing human cognition beyond sustainable l",
-      "url": "https://dev.to/nvelup_e92618d5196e8d9f43/why-mental-health-issues-are-rising-and-what-modern-life-is-doing-to-our-brains-34oj",
-      "source": "Dev.to",
-      "author": "NVelUp",
-      "published": "2025-12-17T09:13:23+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
+        "development",
         "performance"
       ]
     },
@@ -3568,6 +3571,20 @@
       ]
     },
     {
+      "id": "b207a94e67561184",
+      "title": "Safeguarding Distributed Data: The Power of Cloud Security Services",
+      "description": "Data spreads across vast networks in today's digital landscape, where businesses rely on distributed platforms to handle massive volumes of information. These platforms, spanning multiple clouds, on-premises systems, and edge devices, enable seamless operations but introduce significant vulnerabilities. Cyber threats evolve rapidly, targeting weak points in data flows and storage, which can lead to breaches that compromise sensitive information and disrupt services. Cloud data security services ",
+      "url": "https://dev.to/anujrawat/safeguarding-distributed-data-the-power-of-cloud-security-services-4poa",
+      "source": "Dev.to",
+      "author": "anuj rawat",
+      "published": "2025-12-24T09:14:38+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "API"
+      ]
+    },
+    {
       "id": "2e927db089964f82",
       "title": "How I directed 3 AI Agents to build a Kakeibo App (No-Code Journey)",
       "description": "Hello World! My name is Miki, and I’m a developer from Japan. I’m currently learning English, so please forgive any mistakes. I don’t write code manually, and I don’t have deep knowledge of Python or JavaScript. Still, today I want to share how I built a fully functional Kakeibo (budgeting) app by acting as a “manager” for three different AI agents. The AI Stack I Used Instead of writing code line by line, I managed a workflow using multiple AI tools: Kiro — Requirements and design (Product Mana",
@@ -4105,34 +4122,6 @@
       "keywords": [
         "code",
         "programming"
-      ]
-    },
-    {
-      "id": "b564565d3b07a906",
-      "title": "How we made email authentication actually usable inside editors and AI agents",
-      "description": "Email authentication is a hidden pain point for developers. You spend days configuring SPF and DMARC only to find emails land in spam or break after adding a new provider. Most tools treat this as a UI problem. That misses the point. Developers don’t live in dashboards. We live in editors, CI logs, AI workflows, and automation pipelines. We needed a better way to get email auth data where it actually gets used. That’s why we built a Model Context Protocol (MCP) server for email authentication, D",
-      "url": "https://dev.to/annika_grunewaldt_dd31030/how-we-made-email-authentication-actually-usable-inside-editors-and-ai-agents-i08",
-      "source": "Dev.to",
-      "author": "Annika Grunewaldt",
-      "published": "2025-12-17T09:24:58+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "developer"
-      ]
-    },
-    {
-      "id": "2f372d3ffe501756",
-      "title": "I Built a Local-First Git Analytics Tool (Without AI) — Here’s Why",
-      "description": "Exploring what Git history can tell us about how we work — without uploading data, dashboards, or black boxes. For most of my career, Git history was something I used, not something I analyzed. I’d inspect logs when debugging, skim commits when reviewing PRs, or glance at contribution graphs occasionally — but I never treated Git history as a meaningful signal about how I actually work over time. That changed when I started feeling increasingly uncomfortable with modern developer analytics tools",
-      "url": "https://dev.to/stoyan_korudzhiev_51f6add/i-built-a-local-first-git-analytics-tool-without-ai-heres-why-1dmm",
-      "source": "Dev.to",
-      "author": "Stoyan Korudzhiev",
-      "published": "2025-12-17T09:18:41+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "developer"
       ]
     },
     {
@@ -5312,28 +5301,32 @@
       ]
     },
     {
-      "id": "96726bb0d2917dbc",
-      "title": "AI Tools Directory for Small Businesses",
-      "description": "Your company has 15 people. You don't have 200. You're not ready for enterprise pricing, but you're too big for \"whatever the founder thinks is cool.\" This is the middle ground where most small businesses get stuck. You're between \"indie\" and \"enterprise.\" You need tools that work for you specifically. The AI tools directory for small businesses has to be different from what works for startups or freelancers. You have teams. You have departments that hate each other. You have compliance concerns",
-      "url": "https://dev.to/_fde76ff2d01974642930b/ai-tools-directory-for-small-businesses-413g",
+      "id": "b321be7751f78829",
+      "title": "Integrate SDKs Seamlessly with Monetzly for Effective AI Monetization",
+      "description": "Why 90% of AI Apps Fail to Monetize Effectively—and How You Can Succeed The explosion of AI applications has opened up vast opportunities, yet a staggering 90% of these apps fail to find sustainable monetization strategies. As a developer, you might be wondering why this is the case and how you can avoid falling into the same trap. The truth is, many AI apps struggle to monetize without disrupting the user experience. Enter Monetzly—dubbed the \"Google Ads for AI Conversations.\" This innovative p",
+      "url": "https://dev.to/monetzly/integrate-sdks-seamlessly-with-monetzly-for-effective-ai-monetization-4a5n",
       "source": "Dev.to",
-      "author": "ayi",
-      "published": "2025-12-17T09:19:40+00:00",
+      "author": "Monetzly",
+      "published": "2025-12-24T09:17:27+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
-      "id": "c02e2202efe8d9c4",
-      "title": "Binary Search Overflow: The Bug That Fails Hidden Tests",
-      "description": "Originally published on LeetCopilot Blog Mid-point overflow and off-by-one loops are the two fastest ways to fail hidden tests. Here's the safe formula. Binary search sounds simple until boundary bugs derail your run. For beginners, mid-point overflow and off-by-one loops are the two fastest ways to fail hidden tests. This article gives you a repeatable binary search recipe for arrays so your pointers converge without surprises. TL;DR Overflow happens when mid = (l + r) / 2 with large indices; u",
-      "url": "https://dev.to/alex_hunter_44f4c9ed6671e/binary-search-overflow-the-bug-that-fails-hidden-tests-1n7p",
+      "id": "fcd285558677328a",
+      "title": "Troubleshooting Ruby on Rails Database Migrations: Common Issues and Real Fixes",
+      "description": "Every Rails application carries its history inside the database. Tables evolve, columns change, and assumptions made two years ago suddenly don’t hold anymore. That’s why database migrations in Ruby on Rails deserve more than a quick rails db:migrate and crossed fingers. If you’ve worked with Ruby on Rails long enough, you already know the truth: database migrations will indeed go wrong at some point. You can plan carefully, follow best practices, and test everything in staging and still hit a s",
+      "url": "https://dev.to/railsfactory_sedin/troubleshooting-ruby-on-rails-database-migrations-common-issues-and-real-fixes-1941",
       "source": "Dev.to",
-      "author": "Alex Hunter",
-      "published": "2025-12-17T09:17:03+00:00",
+      "author": "Pichandal",
+      "published": "2025-12-24T09:08:28+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "best practices"
+      ]
     },
     {
       "id": "68c8827799e62b06",
@@ -7990,6 +7983,42 @@
       "keywords": []
     },
     {
+      "id": "d28215546477d2f8",
+      "title": "Building a Scalable Edge AI System for Perpetual Inventory in Retail",
+      "description": "Large retail environments face a persistent challenge. Inventory systems know what should be on the shelf, but not what is actually there. Sales data, replenishment events, and periodic audits provide indirect signals, yet physical shelves change continuously throughout the day. This gap leads to out of stock events, phantom inventory, and heavy reliance on manual audits. To address this, a large retail organization successfully deployed an edge AI driven perpetual inventory system that combines",
+      "url": "https://dev.to/danielak/building-a-scalable-edge-ai-system-for-perpetual-inventory-in-retail-1d3j",
+      "source": "Dev.to",
+      "author": "Daniela Kuznetsova",
+      "published": "2025-12-24T09:23:36+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "a60c98dd9f56ad3a",
+      "title": "Would You Trust Your Website’s Security Without Ever Checking It? 🔐",
+      "description": "Let me ask you an honest question 🤔 If someone told you “your website is secure” — would you trust that without ever checking? Most people do. And that’s where the risk begins ⚠️ “My website is small, who would attack it?” 🧠 This is one of the most common thoughts. Many site owners believe: “I’m not a big company” “I don’t store credit cards” “There’s nothing valuable here” But attackers don’t think like humans. They think like automation 🤖. Bots scan thousands of websites every day. They don’t ",
+      "url": "https://dev.to/yurie_scanner_1337/would-you-trust-your-websites-security-without-ever-checking-it-1bc2",
+      "source": "Dev.to",
+      "author": "Ali Smaili",
+      "published": "2025-12-24T09:19:49+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "d729b751c5d6dbe5",
+      "title": "How I Built a Free YouTube Thumbnail Prompt Generator (and Why Most Thumbnails Fail)",
+      "description": "How I Built a Free YouTube Thumbnail Prompt Generator (and Why Most Thumbnails Fail) YouTube thumbnails fail for one simple reason — not because of bad design, but because of bad prompts. Most creators jump straight into design tools or AI image generators without clearly defining what the thumbnail should communicate. The result is a visually decent image that does not attract clicks. This article explains the real problem behind low-CTR thumbnails, the logic I followed while building a solutio",
+      "url": "https://dev.to/vision_ias_4131cb4811fb9f/how-i-built-a-free-youtube-thumbnail-prompt-generator-and-why-most-thumbnails-fail-2d2n",
+      "source": "Dev.to",
+      "author": "vision ias",
+      "published": "2025-12-24T09:09:59+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "ad3a7e1fb587a9a1",
       "title": "Show HN: High-Performance Wavelet Matrix for Python, Implemented in Rust",
       "description": "Comments",
@@ -8310,42 +8339,6 @@
       ]
     },
     {
-      "id": "c0d1220152666abe",
-      "title": "Girasol",
-      "description": "Check out this Pen I made!",
-      "url": "https://dev.to/preetha_vaishnavi_2b82358/girasol-2abc",
-      "source": "Dev.to",
-      "author": "preetha vaishnavi",
-      "published": "2025-12-17T09:17:01+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "1af4a3fc2c576eed",
-      "title": "Animated flower input",
-      "description": "Check out this Pen I made!",
-      "url": "https://dev.to/preetha_vaishnavi_2b82358/animated-flower-input-1ho",
-      "source": "Dev.to",
-      "author": "preetha vaishnavi",
-      "published": "2025-12-17T09:15:26+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "b6058d41bda5307f",
-      "title": "TLA+ Modeling Tips",
-      "description": "Comments",
-      "url": "http://muratbuffalo.blogspot.com/2025/12/tla-modeling-tips.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-17T08:05:30+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
       "id": "eb68a9ae77939242",
       "title": "Project-Libra: Your Complete Cybersecurity Tools Hub",
       "description": "",
@@ -8365,18 +8358,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-17T09:37:24+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "da45af3989d6da29",
-      "title": "AI's real superpower: consuming, not creating",
-      "description": "Comments",
-      "url": "https://msanroman.io/blog/ai-consumption-paradigm",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-17T08:34:00+00:00",
       "niche": "dev",
       "score": 44,
       "keywords": []
@@ -8821,18 +8802,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-18T10:44:29+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "cd46e0b1413a2532",
-      "title": "LCP and INP are now Baseline Newly available",
-      "description": "LCP and INP are now Baseline Newly available as of December 12, 2025.",
-      "url": "https://web.dev/blog/lcp-and-inp-are-now-baseline-newly-available?hl=en",
-      "source": "Web.dev (Google)",
-      "author": "Inconnu",
-      "published": "2025-12-17T08:00:00+00:00",
       "niche": "dev",
       "score": 44,
       "keywords": []
@@ -10338,6 +10307,18 @@
       "keywords": []
     },
     {
+      "id": "5c2a59fb34cdbf36",
+      "title": "Don't Become the Machine",
+      "description": "Comments",
+      "url": "https://armeet.bearblog.dev/becoming-the-machine/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-24T03:34:31+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "c098b044990870c9",
       "title": "Why a product-first approach can put security and reliability at risk",
       "description": "Discover why technical maintenance and security matter as much as features. How to prioritize technical debt and build reliable products customers trust. Continue reading Why a product-first approach can put security and reliability at risk on SitePoint.",
@@ -10431,9 +10412,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "performance",
+        "release",
         "developer",
-        "release"
+        "performance"
       ]
     },
     {
@@ -10615,9 +10596,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
+        "release",
         "API",
-        "React 19",
-        "release"
+        "React 19"
       ]
     },
     {
@@ -10671,8 +10652,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -10686,8 +10667,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -10838,6 +10819,18 @@
       "keywords": []
     },
     {
+      "id": "7d6b6aceb7365562",
+      "title": "Show HN: Tonbo – an embedded database for serverless and edge runtimes",
+      "description": "Comments",
+      "url": "https://github.com/tonbo-io/tonbo",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-17T18:41:40+00:00",
+      "niche": "dev",
+      "score": 32,
+      "keywords": []
+    },
+    {
       "id": "1b2a7c177ebb44d3",
       "title": "WebGPU is now supported in major browsers",
       "description": "Read about the biggest web graphics launch since WebGL. WebGPU is supported across major browsers, bringing unparalleled performance to the web.",
@@ -10916,11 +10909,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "framework",
-        "performance",
         "release",
+        "framework",
         "API",
-        "code"
+        "code",
+        "performance"
       ]
     },
     {
@@ -11124,6 +11117,18 @@
       "keywords": []
     },
     {
+      "id": "cd46e0b1413a2532",
+      "title": "LCP and INP are now Baseline Newly available",
+      "description": "LCP and INP are now Baseline Newly available as of December 12, 2025.",
+      "url": "https://web.dev/blog/lcp-and-inp-are-now-baseline-newly-available?hl=en",
+      "source": "Web.dev (Google)",
+      "author": "Inconnu",
+      "published": "2025-12-17T08:00:00+00:00",
+      "niche": "dev",
+      "score": 26,
+      "keywords": []
+    },
+    {
       "id": "25b6a47e449b3772",
       "title": "November 2025 Baseline monthly digest",
       "description": "Read about various happenings with Baseline during November 2025.",
@@ -11224,8 +11229,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "API",
-        "release"
+        "release",
+        "API"
       ]
     },
     {
@@ -11254,9 +11259,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "performance",
+        "developer",
         "code",
-        "developer"
+        "performance"
       ]
     },
     {
@@ -11270,8 +11275,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "code",
-        "release"
+        "release",
+        "code"
       ]
     },
     {
@@ -11285,8 +11290,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -11357,9 +11362,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "development",
         "tutorial",
-        "PHP"
+        "PHP",
+        "development"
       ]
     },
     {
@@ -11373,9 +11378,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "development",
         "tutorial",
-        "PHP"
+        "PHP",
+        "development"
       ]
     },
     {
@@ -11389,8 +11394,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "code",
-        "API"
+        "API",
+        "code"
       ]
     },
     {
@@ -11849,8 +11854,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "development",
-        "programming"
+        "programming",
+        "development"
       ]
     },
     {
