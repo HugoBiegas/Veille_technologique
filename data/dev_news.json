@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-23T21:24:55.996148+00:00",
-  "total_articles": 962,
+  "last_updated": "2025-12-24T02:01:15.374284+00:00",
+  "total_articles": 964,
   "articles": [
     {
       "id": "69d813cf8d6f164c",
@@ -35,20 +35,6 @@
         "tutorial",
         "Symfony",
         "PHP 8.3"
-      ]
-    },
-    {
-      "id": "4eff26450d3ce103",
-      "title": "Building a Style-Aware AI Image Generator with Nano Bana, React, and Hono.",
-      "description": "Out of sheer curiosity to test the limits of the new Google Gemini models, I built Amaris—a full-stack SaaS application that lets you generate images with specific artistic styles using a simple chat interface. No complex workflows, just upload a reference image, type a prompt, and let the AI do the heavy lifting! It's built with the \"Better-T-Stack\" (Bun, Hono, React 19) and uses Google's Gemini 2.5 Flash Image model via the Vercel AI Gateway. If you're interested in building modern AI apps, le",
-      "url": "https://dev.to/magicnull/building-a-style-aware-ai-image-generator-with-nano-bana-react-and-hono-1a8d",
-      "source": "Dev.to",
-      "author": "Magic.rb",
-      "published": "2025-12-17T00:38:42+00:00",
-      "niche": "dev",
-      "score": 80,
-      "keywords": [
-        "React 19"
       ]
     },
     {
@@ -607,18 +593,6 @@
       ]
     },
     {
-      "id": "b32349b0977b49db",
-      "title": "How to Create a React App Using Vite (Step-by-Step Guide for Beginners)",
-      "description": "If you’re a beginner looking forward to diving into learning React. But you don’t know how to create the first React App. If you are starting to learn React, then you would be wondering how to create your first React app. Then, you are at the right place. In this blog, you will learn how to create React app and run your React app. There are many different ways of creating a React App. But we will be discussing the official suggested method to create first React app (i.e., Using Vite). Here’s the",
-      "url": "https://dev.to/ahmad_mahboob/how-to-create-a-react-app-using-vite-step-by-step-guide-for-beginners-5eif",
-      "source": "Dev.to",
-      "author": "Ahmad Mahboob",
-      "published": "2025-12-17T00:34:35+00:00",
-      "niche": "dev",
-      "score": 68,
-      "keywords": []
-    },
-    {
       "id": "87a0554cb104b31e",
       "title": "How to scrape Google AI Mode: Detailed Guide in 2025",
       "description": "Introduction Google AI Mode has emerged as one of the fastest and most comprehensive AI search experiences available. Unlike standalone chatbots like ChatGPT and Claude that rely on their training data, AI Mode uses live Google Search results and a \"query fan-out\" technique to simultaneously search multiple data sources in real-time. Because both the Gemini AI model and the search infrastructure are developed by Google, the system seamlessly integrates capabilities from Google Search, Lens, and ",
@@ -914,6 +888,20 @@
       "score": 66,
       "keywords": [
         "release"
+      ]
+    },
+    {
+      "id": "090cc400f56a4a63",
+      "title": "X-ray: a Python library for finding bad redactions in PDF documents",
+      "description": "Comments",
+      "url": "https://github.com/freelawproject/x-ray",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-23T21:54:30+00:00",
+      "niche": "dev",
+      "score": 66,
+      "keywords": [
+        "library"
       ]
     },
     {
@@ -1700,19 +1688,18 @@
       ]
     },
     {
-      "id": "35dc6ae89abc6458",
-      "title": "GoGPU: From Idea to 100K Lines in Two Weeks — Building Go's GPU Ecosystem",
-      "description": "For years I couldn't understand why Go — a language loved for its simplicity and performance — still doesn't have a professional GUI ecosystem. Every time I needed graphics in Go, I hit the same walls: CGO requirements, abandoned projects, incomplete solutions. It was frustrating. Six months ago, I started preparing. Reading WebGPU specs, studying wgpu and naga source code, designing architecture. I was waiting for the right moment. Then I saw this Reddit thread. Hundreds of developers sharing t",
-      "url": "https://dev.to/kolkov/gogpu-from-idea-to-100k-lines-in-two-weeks-building-gos-gpu-ecosystem-3b2",
+      "id": "538dafdc64d35fc6",
+      "title": "Configure Envoy Without Writing Protobuf — Meet Flowplane",
+      "description": "Envoy is powerful, but configuring it can be painful. If you've ever tried to set up a dynamic Envoy control plane, you know the drill: write protobuf definitions, implement xDS protocols, figure out why your CDS response isn't being picked up. It's a lot of ceremony just to route traffic to a backend. I built Flowplane to skip all that. What is Flowplane? Flowplane is an open source control plane that exposes REST APIs for managing Envoy configuration. Instead of writing raw protobuf, you POST ",
+      "url": "https://dev.to/rajeevramani/configure-envoy-without-writing-protobuf-meet-flowplane-e3",
       "source": "Dev.to",
-      "author": "Andrey Kolkov",
-      "published": "2025-12-17T00:57:58+00:00",
+      "author": "Rajeev Ramani",
+      "published": "2025-12-24T01:35:44+00:00",
       "niche": "dev",
-      "score": 56,
+      "score": 57,
       "keywords": [
-        "code",
-        "performance",
-        "developer"
+        "API",
+        "REST API"
       ]
     },
     {
@@ -2521,20 +2508,6 @@
       "keywords": [
         "performance",
         "development"
-      ]
-    },
-    {
-      "id": "d31f5f2718027a30",
-      "title": "From a Pyodide Wrapper to an Edge AI Engine",
-      "description": "A few months ago, I shipped v1 of a React library that let you run Python ML models directly in the browser. It worked — but the feedback was blunt and fair: “This is basically just a wrapper around Pyodide.” That line mattered, because it exposed the real problem. What v1 got right (and wrong) v1 proved feasibility Python + WASM + React can work client-side. But it also broke down fast in real apps: Inference froze the UI Workers outlived React components → memory leaks WASM OOMs caused silent ",
-      "url": "https://dev.to/s_b_yrrah/from-a-pyodide-wrapper-to-an-edge-ai-engine-1ejl",
-      "source": "Dev.to",
-      "author": "Siddharth",
-      "published": "2025-12-17T01:00:51+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "library"
       ]
     },
     {
@@ -3574,18 +3547,59 @@
       ]
     },
     {
-      "id": "cde1e8862efe490f",
-      "title": "AI Is Too Polite",
-      "description": "AI speeds up development — no question. The problem? It’s trained to be helpful, and helpful often means agreeable. Confidently show an LLM buggy code and it may validate it instead of questioning it. That’s a problem. In a code review, a yes-person is a liability. We don’t need validation — we need pushback. Edge cases. Logic gaps. Security issues. The fix isn’t better models. It’s better prompts. ❌ “Can you check this code?” ✅ “Act as a strict, security-focused senior engineer. Be brutally hon",
-      "url": "https://dev.to/evanmorris/ai-is-too-polite-248",
+      "id": "8fe819cbb45991bf",
+      "title": "I built JSON Buddy — a privacy-first JSON formatter + CSV/Excel JSON converter that works offline",
+      "description": "Hey everyone — I made a little web tool called JSON Buddy and figured I’d share it here in case it helps someone (and to get some honest feedback). I do a lot of quick JSON work for APIs/logs/configs, and I kept running into two annoyances: 1) I don’t love pasting sensitive-ish JSON into random sites. 2) I also constantly need to turn CSV/Excel stuff into JSON for testing. So this is my attempt at a “no drama” tool that just works. What it does: Format / prettify JSON Validate JSON (spot errors ",
+      "url": "https://dev.to/longmon_work_6d47b218674b/i-built-json-buddy-a-privacy-first-json-formatter-csvexcel-json-converter-that-works-offline-2e3k",
       "source": "Dev.to",
-      "author": "Evan Morris",
-      "published": "2025-12-17T01:27:52+00:00",
+      "author": "longmon work",
+      "published": "2025-12-24T01:48:30+00:00",
       "niche": "dev",
-      "score": 52,
+      "score": 54,
       "keywords": [
-        "development",
-        "code"
+        "API"
+      ]
+    },
+    {
+      "id": "89049b2679fba89f",
+      "title": "Day 5 of building ScrapeForge 🛠️",
+      "description": "Day 5 was a big learning milestone. While working on ScrapeForge, I explored backend APIs and learned how data can be accessed before it is rendered on the frontend. This made scraping significantly more straightforward at a technical level. What surprised me was how many applications expose backend APIs without strong safeguards or request monitoring. Key takeaway from today: APIs must be treated as first class security surfaces and monitored continuously. Day 6 will build on this.",
+      "url": "https://dev.to/vishwas-batra/day-5-of-building-scrapeforge-3nef",
+      "source": "Dev.to",
+      "author": "Vishwas Batra",
+      "published": "2025-12-24T01:37:32+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "API"
+      ]
+    },
+    {
+      "id": "8967fa5fb5b55358",
+      "title": "SwiftUI View Diffing & Reconciliation",
+      "description": "SwiftUI doesn’t “redraw the screen”. It diffs view trees. If you don’t understand how SwiftUI decides what changed vs what stayed the same, you’ll see: unnecessary re-renders list animations breaking views flashing or resetting state jumping between rows performance degrading over time This post explains how SwiftUI reconciles view trees, how diffing works, and how to write SwiftUI that updates only what needs to change. 🧠 The Core Idea: SwiftUI Is a Tree Diff Engine Every time state changes, Sw",
+      "url": "https://dev.to/sebastienlato/swiftui-view-diffing-reconciliation-4hh4",
+      "source": "Dev.to",
+      "author": "Sebastien Lato",
+      "published": "2025-12-24T01:28:26+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "performance"
+      ]
+    },
+    {
+      "id": "2e75c6ba71580fb4",
+      "title": "Mastering interrupt handling in your kernel",
+      "description": "Building a kernel from scratch is one thing. Mastering its interrupt system is another. In this article, We'll talk about how I designed, implemented, and fine-tuned a full-featured interrupt handling system in my custom kernel, complete with queues, priorities, and statistics collection, all without relying on external multitasking frameworks. The primary goals for the new interrupt handling system were: Immediate execution of critical ISRs for devices that just can not wait (for example PIT) F",
+      "url": "https://dev.to/vhajsman/mastering-interrupt-handling-in-your-kernel-b5",
+      "source": "Dev.to",
+      "author": "Václav Hajšman",
+      "published": "2025-12-24T01:02:14+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "framework"
       ]
     },
     {
@@ -4114,17 +4128,18 @@
       ]
     },
     {
-      "id": "fdb413259f6575f5",
-      "title": "Kavia v1.0.9: Interactive agents, SCM onboarding, and persistent code context",
-      "description": "AI coding is fast, but breaks down when teams need review, context, and control - especially on large, long-lived codebases. With Kavia v1.0.9, we focused on tightening the core workflow so teams can move faster without losing context or governance. What’s new Interactive Agent Mode Code generation is now fully conversational, with a proper review loop. Teams can generate changes, inspect diffs before anything is applied, refine iteratively, and approve with confidence—no blind edits. Simpler SC",
-      "url": "https://dev.to/kavita_kavia/kavia-v109-interactive-agents-scm-onboarding-and-persistent-code-context-3g92",
+      "id": "f842213ab36e82d2",
+      "title": "Developer Communities (JavaScript, TypeScript)",
+      "description": "## Unraveling the JavaScript Ecosystem: Navigating Organizations, Chats, and Forums for Backend Success In the dynamic world of backend development, especially with JavaScript and Node.js, knowledge and collaboration are golden currencies. Staying updated with the latest trends, solving complex problems, and building a network can seem like a Herculean task. Fortunately, the JavaScript ecosystem is rich with resources, from influential organizations to vibrant communication channels and problem-",
+      "url": "https://dev.to/lucaspereiradesouzat/developer-communities-javascript-typescript-2fk7",
       "source": "Dev.to",
-      "author": "Kavita",
-      "published": "2025-12-17T00:36:21+00:00",
+      "author": "Lucas Pereira de Souza",
+      "published": "2025-12-24T01:33:55+00:00",
       "niche": "dev",
-      "score": 51,
+      "score": 52,
       "keywords": [
-        "code"
+        "developer",
+        "development"
       ]
     },
     {
@@ -5332,52 +5347,32 @@
       ]
     },
     {
-      "id": "7f7358219098e119",
-      "title": "Why Event-Driven Systems Fail in Production",
-      "description": "Event-driven architecture looks simple on whiteboards, but in production, it can fail quietly and expensively. At one fintech company, a misconfigured event topic caused thousands of duplicate transactions to be recorded. The issue went unnoticed until customers began reporting incorrect balances, triggering a week-long investigation. The root cause wasn’t the technology itself—it was an assumption about how events behave in the real world. Most teams don’t lose systems because they chose events",
-      "url": "https://dev.to/deejaycodes/why-event-driven-systems-fail-in-production-2ieg",
+      "id": "c9355ca0f617262f",
+      "title": "Getting Started with 2D Games Using Tkinter (Part 1): What Are We Going to Build?",
+      "description": "What Are We Going to Build? First, let me introduce the game we are going to create in this series. Tag Game with an Oni In this series, we will build a simple “Tag Game” that anyone can create quickly and easily. It’s a simple (and cute) game where you chase and catch an oni running around in hell. This game is designed to give you that exciting moment: “So this is what it means to make a game move with programming!!” I hope you enjoy that experience through this project. What Is Python? Next, ",
+      "url": "https://dev.to/sdkfz181tiger/getting-started-with-2d-games-using-tkinter-part-1-what-are-we-going-to-build-9b0",
       "source": "Dev.to",
-      "author": "Deji Odetayo",
-      "published": "2025-12-17T01:50:51+00:00",
+      "author": "Kajiru",
+      "published": "2025-12-24T01:14:29+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "programming"
+      ]
     },
     {
-      "id": "203dd73414e9c2c5",
-      "title": "🔒 Beginner’s Guide to AWS IAM Hardening",
-      "description": "⭐ Why I Built This Project (Part 1 — IAM Hardening) Instead of studying cloud security concepts in isolation, I’m using real job descriptions as a roadmap and building hands-on projects that map directly to what employers expect in day-to-day cloud security roles. When reviewing cloud security, cloud operations, and security engineering job postings, the same foundational skills appear repeatedly. This 6-part project series is designed to build those skills progressively through practical, portf",
-      "url": "https://dev.to/ldwit/beginners-guide-to-aws-iam-hardening-5ag2",
-      "source": "Dev.to",
-      "author": "LaTerral Williams",
-      "published": "2025-12-17T01:49:32+00:00",
+      "id": "6c308972be5b0a1b",
+      "title": "Christmas gifts for you from the freeCodeCamp community: Learn Python, SQL, Spanish, and more",
+      "description": "2025 has been an amazing year for the global freeCodeCamp community. And we’re thrilled to cap it off with the launch of several Christmas Gifts for you: freeCodeCamp's Python certification freeCodeCamp's JavaScript certification (Version 10) free...",
+      "url": "https://www.freecodecamp.org/news/christmas-gifts-freecodecamp-community-2025/",
+      "source": "freeCodeCamp",
+      "author": "Quincy Larson",
+      "published": "2025-12-23T22:46:00+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "f16d53a1da3a3cd3",
-      "title": "Your First AWS WAF Setup",
-      "description": "Your first successful project on the AWS Cloud, perhaps a cloud résumé or a static website, marks a significant milestone. Yet, deployment is only half the battle. To fortify this new public endpoint, integrating a Web Application Firewall (WAF) isn't just an option; it is the standard best practice for maintaining a defensible security posture from day one. WAF is an AWS security tool that helps protect your endpoints from web attacks. Through Web ACLs(Access Control List)/Protection packs, you",
-      "url": "https://dev.to/secesther/your-first-aws-waf-setup-54h1",
-      "source": "Dev.to",
-      "author": "Esther Awudu",
-      "published": "2025-12-17T01:33:12+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "6e183f14ab99d613",
-      "title": "Notes from Building My Second AI Video Site",
-      "description": "Soraviz is my second AI video project. When I started it, I thought I had learned enough from my first AI product to move faster and avoid obvious mistakes. In some ways, that’s true. In other ways, building the second one just reveals a different set of problems. Right now, I’m in a phase where I’m not adding much. Instead, I’m reviewing what already exists. Some features work, but feel rough. Some ideas sounded good early on, but don’t hold up in real use. And some issues aren’t about features",
-      "url": "https://dev.to/lynn123456/notes-from-building-my-second-ai-video-site-44nl",
-      "source": "Dev.to",
-      "author": "Lynn",
-      "published": "2025-12-17T01:10:18+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "49ba99dcb70a36df",
@@ -7974,6 +7969,42 @@
       "keywords": []
     },
     {
+      "id": "587333898b732b29",
+      "title": "Comunidades de desenvolvedores (JavaScript,TypeScript)",
+      "description": "## Desvendando o Ecossistema JavaScript: Navegando em Organizações, Chats e Fóruns para o Sucesso do Backend No dinâmico mundo do desenvolvimento backend, especialmente com JavaScript e Node.js, o conhecimento e a colaboração são moedas de ouro. Manter-se atualizado com as últimas tendências, resolver problemas complexos e construir redes de contatos pode parecer uma tarefa hercúlea. Felizmente, o ecossistema JavaScript é rico em recursos, desde organizações influentes até canais de comunicação ",
+      "url": "https://dev.to/lucaspereiradesouzat/comunidades-de-desenvolvedores-javascripttypescript-43l6",
+      "source": "Dev.to",
+      "author": "Lucas Pereira de Souza",
+      "published": "2025-12-24T01:33:39+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "83fb1ee9c5609407",
+      "title": "# The Counter-Intuitive Reddit Marketing Hack That Changed My Approach",
+      "description": "I spent three months commenting on the wrong Reddit threads before I figured this out. The biggest problem? Finding the right conversations. I was wasting 2+ hours daily scrolling through Reddit, and most threads I commented on went nowhere. Eventually I built Wappkit Reddit to solve this - filters posts by comment count and keywords so I can find high-intent threads in minutes. Nothing fancy, but it cut my discovery time from 2 hours to 15 minutes. But the tool isn't the breakthrough. The real ",
+      "url": "https://dev.to/short_playskits_ab152535/-the-counter-intuitive-reddit-marketing-hack-that-changed-my-approach-25il",
+      "source": "Dev.to",
+      "author": "Short Play Skits",
+      "published": "2025-12-24T01:27:04+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "b6e7c413180af0df",
+      "title": "Terraform Module Troubleshooting Guide",
+      "description": "Common Error: \"Unsupported argument\" or \"Unsupported attribute.\" Symptoms Error: An argument named \"variable_name\" is not expected here Error: This object does not have an attribute named \"output_name\" These errors occur even when variables/outputs appear to be correctly defined Root Causes & Solutions 1. Stale Terraform Module Cache (Most Common) When you modify module variables or outputs, Terraform may use cached information. Solution: When to use: After ANY changes to: Module variables (vari",
+      "url": "https://dev.to/yency_christopher_ca4647b/terraform-module-troubleshooting-guide-2h51",
+      "source": "Dev.to",
+      "author": "Yency Christopher",
+      "published": "2025-12-24T01:14:54+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "ad3a7e1fb587a9a1",
       "title": "Show HN: High-Performance Wavelet Matrix for Python, Implemented in Rust",
       "description": "Comments",
@@ -8154,48 +8185,6 @@
       "keywords": []
     },
     {
-      "id": "1c9a53d521ca4078",
-      "title": "I ported JustHTML from Python to JavaScript with Codex CLI and GPT-5.2 in hours",
-      "description": "Comments",
-      "url": "https://simonwillison.net/2025/Dec/15/porting-justhtml/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-16T22:48:56+00:00",
-      "niche": "dev",
-      "score": 45,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "ec5602a1a020bb17",
-      "title": "CS 4973: Introduction to Software Development Tooling – Northeastern Univ (2024)",
-      "description": "Comments",
-      "url": "https://bernsteinbear.com/isdt/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-17T01:26:14+00:00",
-      "niche": "dev",
-      "score": 45,
-      "keywords": [
-        "development"
-      ]
-    },
-    {
-      "id": "c66393ef2e7482f7",
-      "title": "Introduction to Software Development Tooling (2024)",
-      "description": "Comments",
-      "url": "https://bernsteinbear.com/isdt/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-17T01:26:14+00:00",
-      "niche": "dev",
-      "score": 45,
-      "keywords": [
-        "development"
-      ]
-    },
-    {
       "id": "62fa2039f0fdaeae",
       "title": "Learning the oldest programming language (2024)",
       "description": "Comments",
@@ -8334,18 +8323,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "0b7931f773550d48",
-      "title": "No AI* Here – A Response to Mozilla's Next Chapter",
-      "description": "Comments",
-      "url": "https://www.waterfox.com/blog/no-ai-here-response-to-mozilla/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-16T22:07:49+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "03699f07ed4db251",
@@ -10292,6 +10269,54 @@
       "keywords": []
     },
     {
+      "id": "d6a329c1499aa899",
+      "title": "Is Northern Virginia still the least reliable AWS region?",
+      "description": "Comments",
+      "url": "https://statusgator.com/blog/aws-least-reliable-region-in-2025/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-23T23:12:03+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "bc37121da296b619",
+      "title": "Unifi Travel Router",
+      "description": "Comments",
+      "url": "https://blog.ui.com/article/travel-in-style-unifi-style-unifi-travel-router",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-24T00:30:18+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "a524b217147d2b1b",
+      "title": "Texas app store age verification law blocked by federal judge",
+      "description": "Comments",
+      "url": "https://www.macrumors.com/2025/12/23/texas-app-store-law-blocked/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-23T22:03:46+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "7682e68c37576ca6",
+      "title": "Some Epstein file redactions are being undone with hacks",
+      "description": "Comments",
+      "url": "https://www.theguardian.com/us-news/2025/dec/23/epstein-unredacted-files-social-media",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-23T20:10:30+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "c098b044990870c9",
       "title": "Why a product-first approach can put security and reliability at risk",
       "description": "Discover why technical maintenance and security matter as much as features. How to prioritize technical debt and build reliable products customers trust. Continue reading Why a product-first approach can put security and reliability at risk on SitePoint.",
@@ -10328,8 +10353,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "performance",
-        "React 19"
+        "React 19",
+        "performance"
       ]
     },
     {
@@ -10385,9 +10410,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
+        "release",
         "developer",
-        "performance",
-        "release"
+        "performance"
       ]
     },
     {
@@ -10645,6 +10670,20 @@
       ]
     },
     {
+      "id": "9aa0f6ee93a86ef2",
+      "title": "Learn Lisp/Fennel Programming Against Neovim",
+      "description": "Comments",
+      "url": "https://github.com/humorless/fennel-fp-neovim",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-17T20:09:17+00:00",
+      "niche": "dev",
+      "score": 33,
+      "keywords": [
+        "programming"
+      ]
+    },
+    {
       "id": "4d46fecaea7102dd",
       "title": "Denial of Service and Source Code Exposure in React Server Components",
       "description": "Security researchers have found and disclosed two additional vulnerabilities in React Server Components while attempting to exploit the patches in last week’s critical vulnerability. High vulnerability Denial of Service (CVE-2025-55184), and medium vulnerability Source Code Exposure (CVE-2025-55183)",
@@ -10856,9 +10895,9 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
+        "API",
         "framework",
         "performance",
-        "API",
         "release",
         "code"
       ]
@@ -11225,8 +11264,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -11240,8 +11279,8 @@
       "niche": "dev",
       "score": 18,
       "keywords": [
-        "PHP",
-        "Angular"
+        "Angular",
+        "PHP"
       ]
     },
     {
@@ -11482,18 +11521,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-17T12:08:21+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "0db279846b447222",
-      "title": "Luigi Pirandello's Broken Men",
-      "description": "Comments",
-      "url": "https://www.thenation.com/article/culture/luigi-pirandello-one-none-grand-review/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-16T23:57:12+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
