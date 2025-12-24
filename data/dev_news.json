@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-24T12:53:30.107670+00:00",
-  "total_articles": 970,
+  "last_updated": "2025-12-24T15:27:12.780997+00:00",
+  "total_articles": 973,
   "articles": [
     {
       "id": "69d813cf8d6f164c",
@@ -590,18 +590,6 @@
       ]
     },
     {
-      "id": "d6e5c34a4aec1ce9",
-      "title": "Auth.js v5 + Google OAuth: How to Create Users With the Correct Role (The Right Way)",
-      "description": "If you are using Auth.js v5 (NextAuth) with Google OAuth and role-based onboarding, you will likely hit this issue: No matter what role the user selects, new users created via Google login always get the same role. This article explains why this happens and shows a clean, reliable, production-safe solution that actually works. No hacks. No guessing. No fragile behavior. The Real Problem In many applications, users choose a role during signup, for example: Student Teacher Then they click Continue",
-      "url": "https://dev.to/0xtanzim/authjs-v5-google-oauth-how-to-create-users-with-the-correct-role-the-right-way-k81",
-      "source": "Dev.to",
-      "author": "Tanzim Hossain",
-      "published": "2025-12-17T15:14:56+00:00",
-      "niche": "dev",
-      "score": 68,
-      "keywords": []
-    },
-    {
       "id": "620071284b2c34bf",
       "title": "Alternatives to GitHub Actions for self-hosted runners",
       "description": "With GitHub introducing charges for self-hosted runners, let's break down the other options GitHub's announcement this week that they intend to introduce a charge for self-hosted CI/CD runners has sparked understandable backlash from devs who had built their workflows around GitHub Actions in an assumption bringing their own runners would and should remain free. While GitHub have now said they're \"postponing\" the introduction of these charges, which at $0.002 per minute would represent the same ",
@@ -905,6 +893,18 @@
         "API",
         "REST API"
       ]
+    },
+    {
+      "id": "3c50fabfb8ca3141",
+      "title": "Breaking News: Grok’s Military Adoption, Google’s AI Pro Discounts, and Instacart's Pricing Scrutiny",
+      "description": "Grok Goes to War: The Department of War has officially chosen xAI's Grok models for its military program! Millions of defense employees will gain access to advanced AI tools for classified operations.",
+      "url": "https://dev.to/ayodele_jolayemi_a4bcec81/breaking-news-groks-military-adoption-googles-ai-pro-discounts-and-instacarts-pricing-scrutiny-4jdk",
+      "source": "Dev.to",
+      "author": "Ayodele Jolayemi",
+      "published": "2025-12-24T14:51:52+00:00",
+      "niche": "dev",
+      "score": 64,
+      "keywords": []
     },
     {
       "id": "41a01fbf88e6b872",
@@ -1686,19 +1686,18 @@
       ]
     },
     {
-      "id": "631b56b21801e3c6",
-      "title": "6 Must-Read Microservices and Design Patterns Books for Senior Developers",
-      "description": "Disclosure: This post includes affiliate links; I may receive compensation if you purchase products or services from the different links provided in this article. Hello devs, Design patterns are an essential topic for object-oriented programmers, like Java and C++ developers. It becomes even more important as your experience grows because everybody starts expecting a lot more from you in terms of writing quality code. I often receive emails from intermediate and senior Java developers seeking gu",
-      "url": "https://dev.to/somadevtoo/6-must-read-microservices-and-design-patterns-books-for-senior-developers-2dd0",
+      "id": "dd79c7d06fb26bb9",
+      "title": "Day 74: Python Validate IPv4 Address – String Parsing Mastery for Perfect IP Check (No Libraries Needed)",
+      "description": "Welcome to Day 74 of the #80DaysOfChallenges journey! This intermediate challenge focuses on validating an IPv4 address string with strict rules, checking for exactly four parts, digit-only segments, no leading zeros, and values between 0-255, using split and manual checks for a robust, library-free solution. It's a practical exercise in string parsing, numeric validation, and edge handling, essential for networking, input sanitization, or backend APIs. If you're building secure systems or pract",
+      "url": "https://dev.to/shahrouzlogs/day-74-python-validate-ipv4-address-string-parsing-mastery-for-perfect-ip-check-no-libraries-4opb",
       "source": "Dev.to",
-      "author": "Soma",
-      "published": "2025-12-17T15:15:58+00:00",
+      "author": "Shahrouz Nikseresht",
+      "published": "2025-12-24T14:57:16+00:00",
       "niche": "dev",
-      "score": 56,
+      "score": 57,
       "keywords": [
-        "microservices",
-        "developer",
-        "code"
+        "library",
+        "API"
       ]
     },
     {
@@ -2461,20 +2460,6 @@
       "keywords": [
         "performance",
         "code"
-      ]
-    },
-    {
-      "id": "64c9342b0737b239",
-      "title": "Building Daily Stand-Up Generator using Pieces API - Part 1: The SDK overview",
-      "description": "- written by Bishoy Hany The Monday Morning Problem Imagine the following scenario: Monday, 9 AM. You grab your coffee, join the stand-up call, and suddenly realise: you have absolutely no idea what you did last week. The weekend wiped your mental cache clean. Was it the React component refactor? Or was that two weeks ago? You vaguely remember fighting with TypeScript errors on Thursday, but what was the actual solution? Your Git commits say 'fix: update logic'—thanks, past you, very helpful. He",
-      "url": "https://dev.to/get_pieces/building-daily-stand-up-generator-using-pieces-api-part-1-the-sdk-overview-83k",
-      "source": "Dev.to",
-      "author": "Pieces 🌟",
-      "published": "2025-12-17T15:22:08+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "API"
       ]
     },
     {
@@ -3570,6 +3555,48 @@
       ]
     },
     {
+      "id": "17b8329682363987",
+      "title": "AWS App Runner vs ECS Express Mode: Git, ECR, Scaling, and Security Explained",
+      "description": "Introduction AWS provides modern ways to run containerized applications without managing servers. Two popular options are AWS App Runner and Amazon ECS Express Mode. Both simplify container deployments, but they target different levels of control and use cases. This blog compares these services and provides guidance on which to use for different workloads, based on AWS documentation. Service Overview AWS App Runner App Runner is a fully managed service for running web apps and APIs: Git Integrat",
+      "url": "https://dev.to/aws-builders/aws-app-runner-vs-ecs-express-mode-git-ecr-scaling-and-security-explained-5673",
+      "source": "Dev.to",
+      "author": "Venkata Pavan Vishnu Rachapudi",
+      "published": "2025-12-24T15:13:28+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "API"
+      ]
+    },
+    {
+      "id": "af74619803ecd17d",
+      "title": "How to Test Healthcare APIs End-to-End Without Manual Test Scripts",
+      "description": "From the moment a patient books an appointment or medical records are updated, every step in a healthcare workflow depends on multiple backend systems working together. When APIs fail during patient onboarding, clinical data exchange, billing, or insurance processing, it can directly impact patient safety, compliance, and operational efficiency. That’s why reliable API testing is a non-negotiable part of building and scaling healthcare platforms. In this guide, I’ll show you how to test healthca",
+      "url": "https://dev.to/engroso/how-to-test-healthcare-apis-end-to-end-without-manual-test-scripts-5bp",
+      "source": "Dev.to",
+      "author": "Engroso",
+      "published": "2025-12-24T15:02:29+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "API"
+      ]
+    },
+    {
+      "id": "3fd460aec2f4e868",
+      "title": "Choosing the Right C++ Containers for Performance",
+      "description": "I wrote a short article on choosing C++ containers, focusing on memory layout and performance trade-offs in real systems. https://techfortalk.co.uk/2025/12/24/optimal-c-containers-for-performance-efficiency/",
+      "url": "https://dev.to/vivekbhadra/choosing-the-right-c-containers-for-performance-3a20",
+      "source": "Dev.to",
+      "author": "Vievk Bhadra",
+      "published": "2025-12-24T14:53:17+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "performance"
+      ]
+    },
+    {
       "id": "2e927db089964f82",
       "title": "How I directed 3 AI Agents to build a Kakeibo App (No-Code Journey)",
       "description": "Hello World! My name is Miki, and I’m a developer from Japan. I’m currently learning English, so please forgive any mistakes. I don’t write code manually, and I don’t have deep knowledge of Python or JavaScript. Still, today I want to share how I built a fully functional Kakeibo (budgeting) app by acting as a “manager” for three different AI agents. The AI Stack I Used Instead of writing code line by line, I managed a workflow using multiple AI tools: Kiro — Requirements and design (Product Mana",
@@ -4136,20 +4163,6 @@
       "score": 52,
       "keywords": [
         "code",
-        "developer"
-      ]
-    },
-    {
-      "id": "2b20c4c54778fb34",
-      "title": "Transform Your Developer Revenue with Monetzly’s AI Conversations",
-      "description": "Monetization Without Paywalls: The Future of AI Apps The biggest challenge in the AI landscape today? Finding effective ways to monetize applications without disrupting user experience. As the AI app market explodes, many developers are grappling with the question: How can we generate sustainable revenue without sacrificing what makes our apps valuable? Enter Monetzly—the first platform designed specifically for developers to monetize their AI applications while keeping them free for users. Thin",
-      "url": "https://dev.to/monetzly/transform-your-developer-revenue-with-monetzlys-ai-conversations-4d6m",
-      "source": "Dev.to",
-      "author": "Monetzly",
-      "published": "2025-12-17T15:15:07+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
         "developer"
       ]
     },
@@ -5316,88 +5329,18 @@
       ]
     },
     {
-      "id": "8c222f5d27244e22",
-      "title": "My Dev Multirepo Setup for JS projects with dependencies",
-      "description": "Suppose that you work for a company that has 2 JS apps: AppX, and AppY. These apps have common dependencies: DepZ, DepW. In this article we'll review how to work in parallel features at the same time involving all these dependencies using the following tools: git worktrees zoxide: https://github.com/ajeetdsouza/zoxide ln (to create symbolic links) zellij: https://zellij.dev/ Cloning the original repos We create a root folder where all the projects will live: mkdir ~/multirepo Then inside this fo",
-      "url": "https://dev.to/jeremies/my-dev-multirepo-setup-for-js-projects-with-dependencies-2a4f",
+      "id": "3099b8fd07e801a5",
+      "title": "AWS CDK 100 Drill Exercises #004: NAT Instance V2 — Cost-Effective NAT with Automated Scheduling and Patch Management",
+      "description": "Introduction This is the fourth installment of \"AWS CDK 100 Drill Exercises.\" For more information about AWS CDK 100 Drill Exercises, please refer to this article. In the previous article, we learned VPC basics and introduced a method to reduce NAT Gateways to a single instance for cost optimization in development environments. This time, we'll explain how to replace NAT Gateway with an EC2-based NAT instance for even greater cost savings. Why NAT Instance? Development and test environments ofte",
+      "url": "https://dev.to/issy929/aws-cdk-100-drill-exercises-004-nat-instance-v2-cost-effective-nat-with-automated-scheduling-49li",
       "source": "Dev.to",
-      "author": "Joaquim Monserrat Companys",
-      "published": "2025-12-17T15:20:45+00:00",
+      "author": "TOMOAKI ishihara",
+      "published": "2025-12-24T15:24:21+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "ae03878f8b57ee6a",
-      "title": "Simple BOT blocker with Caddy and Django",
-      "description": "Tired of seeing this in your Django logs? They do no harm because Django handles them properly based on allowed hosts env, but those bot requests pass the reverse-proxy and end up in the Python application - which is not as fast as a reverse proxy built in Go, C, C++, Zig or something else. Here is how to stop those bot requests using just a django command which generates the Caddyfile template. The generated Caddyfile will just block by default all routes that are not registered by Django and w",
-      "url": "https://dev.to/climentea/simple-bot-blocker-with-caddy-and-django-3j40",
-      "source": "Dev.to",
-      "author": "Alin Climente",
-      "published": "2025-12-17T15:18:05+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "4e67178aa42fc2dc",
-      "title": "Prompt Engineering na Prática: Um Guia para Devs",
-      "description": "Prompt Engineering na Prática: Um Guia para Devs Engenharia de prompt é um subcampo de estudo de machine learning e do processamento da linguagem natural que estuda como capacitar computadores a compreender e interpretar a linguagem humana. O objetivo principal é descobrir como interagir com LLMs e gerar respostas em linguagem semelhante à humana. Em suma, se você precisa de resultados claros, bons conselhos e respostas assertivas, independentemente da fonte, você também necessita formular sua p",
-      "url": "https://dev.to/heltonss/prompt-engineering-na-pratica-um-guia-para-devs-3oh2",
-      "source": "Dev.to",
-      "author": "Helton",
-      "published": "2025-12-17T15:17:24+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "f441faf56ec62a3d",
-      "title": "Built an AI Terminal Assistant Because I Got Tired of Googling \"Tar\" Flags",
-      "description": "The Problem: Context Switching Kills Flow We've all been there. You're deep in a server debugging session, checking logs, and suddenly you need to construct a complex sed command to filter a specific pattern. Or maybe you need to compress a directory but can't remember if it's -czvf or -xzvf. So you Alt-Tab, open a browser, Google it, copy the command, tab back, and paste it. This micro-context switch happens dozens of times a day. It breaks your flow. It's concise, but it adds up. The Solution:",
-      "url": "https://dev.to/pedro_dias_cd600b928787a6/built-an-ai-terminal-assistant-because-i-got-tired-of-googling-tar-flags-dk8",
-      "source": "Dev.to",
-      "author": "Pedro Dias",
-      "published": "2025-12-17T15:17:01+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "de5b1906ae86b1bd",
-      "title": "ElevenLabs & Deepgram Aura: Text-to-Speech Implementation Guide in .NET 8",
-      "description": "Introduction This guide shows you how to implement Text-to-Speech using ElevenLabs and Deepgram Aura in a .NET 8 application, with support for streaming audio and voice customization. Interface Definition public interface ITTSProvider { Task<byte[]> SynthesizeAsync(string text, VoiceOptions? options = null); IAsyncEnumerable<byte[]> StreamSynthesizeAsync(string text, VoiceOptions? options = null); Task<List<Voice>> GetAvailableVoicesAsync(); } public record VoiceOptions( string? VoiceId = null, ",
-      "url": "https://dev.to/gaatif/elevenlabs-deepgram-aura-text-to-speech-implementation-guide-in-net-8-15ji",
-      "source": "Dev.to",
-      "author": "Aatif G.",
-      "published": "2025-12-17T15:16:22+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "ac3ae9c840c91b89",
-      "title": "Why Your Business Needs a Professional Website",
-      "description": "In the modern digital landscape, a business website is no longer just an online brochure—it is the foundation of your brand’s online presence. Whether you run a startup, a service-based company, or an established organization, a professional website plays a crucial role in how customers perceive and interact with your business. This article explains why having a professional website is essential and how it directly contributes to credibility, visibility, and long-term growth. Your Website Is You",
-      "url": "https://dev.to/sophia_williams_8a6bb3098/why-your-business-needs-a-professional-website-2ec9",
-      "source": "Dev.to",
-      "author": "Sophia Williams",
-      "published": "2025-12-17T15:15:36+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "e9ebbf89f8c41675",
-      "title": "Responsive List of Avatars Using Modern CSS (Part 2)",
-      "description": "In this article, we follow up the work we did to create responsive rows of circular images in a previous article by arranging the images around a circle with a clean hover effect. Responsive List of Avatars Using Modern CSS (Part 2) originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-      "url": "https://css-tricks.com/responsive-list-of-avatars-using-modern-css-part-2/",
-      "source": "CSS-Tricks",
-      "author": "Temani Afif",
-      "published": "2025-12-17T15:21:34+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "development"
+      ]
     },
     {
       "id": "0b501939b6273943",
@@ -8042,6 +7985,42 @@
       "keywords": []
     },
     {
+      "id": "4d862115a978d59f",
+      "title": "Observability for Resilience on Amazon EKS with OpenTelemetry + Datadog (Free Tier)",
+      "description": "Building Dashboards That Truly Matter Resilience in cloud-native applications is not just about restarting pods or running across multiple Availability Zones. Without deep observability, you don’t know: where latency increases which service degrades first whether autoscaling actually works how long the system takes to recover In other words: without observability, you test resilience in the dark. In this article, you will learn how to build a complete observability platform for resilience on Ama",
+      "url": "https://dev.to/aws-builders/observability-for-resilience-on-amazon-eks-with-opentelemetry-datadog-free-tier-4a6c",
+      "source": "Dev.to",
+      "author": "Rodrigo Fernandes",
+      "published": "2025-12-24T15:21:31+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "df144445b8e8e9a6",
+      "title": "Revolutionizing Language Learning for Kids: The Dex Camera",
+      "description": "Are we still stuck in the screen-centric approach to kids' language learning? Introducing the Dex Camera—a cutting-edge learning device that reimagines how children can engage with language in real-world contexts. In today’s digital age, children often learn languages through apps and screens, but this method can lack the interactivity and engagement needed for genuine learning. The Dex Camera addresses this gap by transforming everyday moments into valuable opportunities for language acquisitio",
+      "url": "https://dev.to/ayodele_jolayemi_a4bcec81/revolutionizing-language-learning-for-kids-the-dex-camera-4k5k",
+      "source": "Dev.to",
+      "author": "Ayodele Jolayemi",
+      "published": "2025-12-24T14:58:19+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "8c86afa30233ec0c",
+      "title": "FinOps 101: What It Is and Why Cloud Teams Can’t Ignore It",
+      "description": "Cloud promised flexibility and speed. What it delivered was also complexity and unpredictable bills. As cloud spending grows into one of the largest IT cost centers, organizations are realizing that traditional budgeting no longer works. That is why Technology Radius highlights FinOps as a critical operating model for modern cloud teams (Technology Radius). FinOps is not about cutting costs blindly. It is about spending with intent. What Is FinOps? FinOps stands for Financial Operations for the ",
+      "url": "https://dev.to/rushikesh_langale_42ac365/finops-101-what-it-is-and-why-cloud-teams-cant-ignore-it-1h3g",
+      "source": "Dev.to",
+      "author": "Rushikesh Langale",
+      "published": "2025-12-24T14:49:48+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "ad3a7e1fb587a9a1",
       "title": "Show HN: High-Performance Wavelet Matrix for Python, Implemented in Rust",
       "description": "Comments",
@@ -8236,20 +8215,6 @@
       "keywords": []
     },
     {
-      "id": "62fa2039f0fdaeae",
-      "title": "Learning the oldest programming language (2024)",
-      "description": "Comments",
-      "url": "https://uncenter.dev/posts/learning-fortran/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-17T13:25:06+00:00",
-      "niche": "dev",
-      "score": 45,
-      "keywords": [
-        "programming"
-      ]
-    },
-    {
       "id": "9600fcc4d0a9f371",
       "title": "Judge hints Vizio TV buyers may have rights to source code licensed under GPL",
       "description": "Comments",
@@ -8376,6 +8341,20 @@
       ]
     },
     {
+      "id": "81777afaacca4fd9",
+      "title": "[Boost]",
+      "description": "Semantic Typing We Ignore Vadym Yaroshchuk ・ Dec 24 #kotlin #architecture #programming",
+      "url": "https://dev.to/muhamadsyafii/-1124",
+      "source": "Dev.to",
+      "author": "Muhamad Syafii",
+      "published": "2025-12-24T14:49:24+00:00",
+      "niche": "dev",
+      "score": 45,
+      "keywords": [
+        "programming"
+      ]
+    },
+    {
       "id": "e9853bd70bc58c53",
       "title": "AWS CEO says replacing junior devs with AI is 'one of the dumbest ideas'",
       "description": "Comments",
@@ -8407,18 +8386,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-17T17:13:03+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "5d1843c30b45810b",
-      "title": "Yep, Passkeys Still Have Problems",
-      "description": "Comments",
-      "url": "https://fy.blackhats.net.au/blog/2025-12-17-yep-passkeys-still-have-problems/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-17T13:12:49+00:00",
       "niche": "dev",
       "score": 44,
       "keywords": []
@@ -9187,18 +9154,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-20T06:21:05+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "1c95e9b1398dd307",
-      "title": "A terminal emulator that runs in your terminal. Powered by Turbo Vision",
-      "description": "Comments",
-      "url": "https://github.com/magiblot/tvterm",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-17T13:41:53+00:00",
       "niche": "dev",
       "score": 44,
       "keywords": []
@@ -10332,6 +10287,42 @@
       "keywords": []
     },
     {
+      "id": "ab98dcc37befae92",
+      "title": "When Compilers Surprise You",
+      "description": "Comments",
+      "url": "https://xania.org/202512/24-cunning-clang",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-24T13:27:50+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "1a558b6350d7a18a",
+      "title": "Super Mario Bros. and Yoshi Games (Yields) Reduced Burnout Risk",
+      "description": "Comments",
+      "url": "https://games.jmir.org/2025/1/e84219/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-24T13:43:46+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "07fdcd95fa091487",
+      "title": "The Great Unracking: Saying goodbye to the servers at our physical datacenter",
+      "description": "So long and thanks for all the bits!",
+      "url": "https://stackoverflow.blog/2025/12/24/the-great-unracking-saying-goodbye-to-the-servers-at-our-physical-datacenter/",
+      "source": "Stack Overflow Blog",
+      "author": "Ryan Donovan",
+      "published": "2025-12-24T14:03:52+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "c098b044990870c9",
       "title": "Why a product-first approach can put security and reliability at risk",
       "description": "Discover why technical maintenance and security matter as much as features. How to prioritize technical debt and build reliable products customers trust. Continue reading Why a product-first approach can put security and reliability at risk on SitePoint.",
@@ -10373,20 +10364,6 @@
       ]
     },
     {
-      "id": "a25bba6f18d1455c",
-      "title": "Building Responsive, Scroll-Triggered Curved Path Animations with GSAP",
-      "description": "Smooth curved animations look simple, but building them responsively takes careful control. This tutorial shows how to approach it in practice.",
-      "url": "https://tympanus.net/codrops/2025/12/17/building-responsive-scroll-triggered-curved-path-animations-with-gsap/",
-      "source": "Codrops",
-      "author": "Ross Anderson",
-      "published": "2025-12-17T13:52:47+00:00",
-      "niche": "dev",
-      "score": 40,
-      "keywords": [
-        "tutorial"
-      ]
-    },
-    {
       "id": "148e86a114c8fbdb",
       "title": "Write for SitePoint",
       "description": "We're looking for developers and designers to write about web technologies. Find out how to pitch us and what we're looking for. Continue reading Write for SitePoint on SitePoint.",
@@ -10425,8 +10402,8 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "performance",
         "developer",
+        "performance",
         "release"
       ]
     },
@@ -10599,6 +10576,18 @@
       "keywords": []
     },
     {
+      "id": "e9334feda9dee9c6",
+      "title": "The e-scooter isn't new – London was zooming around on Autopeds a century ago",
+      "description": "Comments",
+      "url": "https://www.ianvisits.co.uk/articles/the-e-scooter-isnt-new-london-was-zooming-around-on-autopeds-a-century-ago-86263/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-24T08:32:27+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
       "id": "4e6d7290f5ff11d8",
       "title": "React Native 0.80 - React 19.1, JS API Changes, Freezing Legacy Arch and much more",
       "description": "Today we are excited to release React Native 0.80!",
@@ -10737,8 +10726,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "API",
-        "framework"
+        "framework",
+        "API"
       ]
     },
     {
@@ -10934,11 +10923,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "API",
-        "code",
-        "performance",
         "framework",
-        "release"
+        "performance",
+        "release",
+        "code",
+        "API"
       ]
     },
     {
@@ -11142,6 +11131,18 @@
       "keywords": []
     },
     {
+      "id": "8be2a2b6c4caa199",
+      "title": "Your Inbox Is a Bandit",
+      "description": "Comments",
+      "url": "https://parentheticallyspeaking.org/articles/bandit-inbox/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-22T04:04:04+00:00",
+      "niche": "dev",
+      "score": 26,
+      "keywords": []
+    },
+    {
       "id": "cd46e0b1413a2532",
       "title": "LCP and INP are now Baseline Newly available",
       "description": "LCP and INP are now Baseline Newly available as of December 12, 2025.",
@@ -11254,8 +11255,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "API",
-        "release"
+        "release",
+        "API"
       ]
     },
     {
@@ -11284,9 +11285,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "performance",
+        "developer",
         "code",
-        "developer"
+        "performance"
       ]
     },
     {
@@ -11433,8 +11434,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "API",
-        "code"
+        "code",
+        "API"
       ]
     },
     {
@@ -11480,17 +11481,17 @@
       ]
     },
     {
-      "id": "2f3bab8651d84e84",
-      "title": "How Stack Overflow’s MCP Server is helping HP modernize the software development lifecycle",
-      "description": "HP&#x27;s Distinguished Technologist Evan Scheessele shares how better knowledge access is allowing HP to experiment and modernize their software development lifecycle with the help of the Stack Internal MCP Server.",
-      "url": "https://stackoverflow.blog/2025/12/12/how-stack-overflow-s-mcp-server-is-helping-hp-modernize-the-software-development-lifecycle/",
-      "source": "Stack Overflow Blog",
-      "author": "Phoebe Sajor",
-      "published": "2025-12-12T18:00:00+00:00",
+      "id": "4c76624e1d636026",
+      "title": "Making a game on a custom bytecode VM in 7 days and 3kB",
+      "description": "Comments",
+      "url": "https://laurent.le-brun.eu/blog/making-a-game-on-a-custom-bytecode-vm-in-7-days-and-3kb",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-19T13:00:47+00:00",
       "niche": "dev",
       "score": 15,
       "keywords": [
-        "development"
+        "code"
       ]
     },
     {
@@ -11504,8 +11505,8 @@
       "niche": "dev",
       "score": 15,
       "keywords": [
-        "library",
-        "developer"
+        "developer",
+        "library"
       ]
     },
     {
@@ -11665,6 +11666,18 @@
       "keywords": []
     },
     {
+      "id": "3371ba4117dd7dbc",
+      "title": "The Port I couldn't Ship",
+      "description": "Comments",
+      "url": "https://ammil.industries/the-port-i-couldnt-ship/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-18T20:17:37+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
       "id": "c0b924e376503d6a",
       "title": "Your 2025 Stacked: A year of knowledge, community, and impact",
       "description": "From tough questions to standout answers, your team built a lot in 2025. Your 2025 Stacked brings those contributions together in one shareable snapshot—celebrating the people, posts, and topics that defined your year in Stack Internal.",
@@ -11684,6 +11697,18 @@
       "source": "Stack Overflow Blog",
       "author": "Phoebe Sajor",
       "published": "2025-12-16T08:40:00+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "e9ebbf89f8c41675",
+      "title": "Responsive List of Avatars Using Modern CSS (Part 2)",
+      "description": "In this article, we follow up the work we did to create responsive rows of circular images in a previous article by arranging the images around a circle with a clean hover effect. Responsive List of Avatars Using Modern CSS (Part 2) originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
+      "url": "https://css-tricks.com/responsive-list-of-avatars-using-modern-css-part-2/",
+      "source": "CSS-Tricks",
+      "author": "Temani Afif",
+      "published": "2025-12-17T15:21:34+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -12364,6 +12389,20 @@
       "niche": "dev",
       "score": 10,
       "keywords": []
+    },
+    {
+      "id": "a25bba6f18d1455c",
+      "title": "Building Responsive, Scroll-Triggered Curved Path Animations with GSAP",
+      "description": "Smooth curved animations look simple, but building them responsively takes careful control. This tutorial shows how to approach it in practice.",
+      "url": "https://tympanus.net/codrops/2025/12/17/building-responsive-scroll-triggered-curved-path-animations-with-gsap/",
+      "source": "Codrops",
+      "author": "Ross Anderson",
+      "published": "2025-12-17T13:52:47+00:00",
+      "niche": "dev",
+      "score": 10,
+      "keywords": [
+        "tutorial"
+      ]
     },
     {
       "id": "da2ca0fd18b87951",
