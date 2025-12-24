@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-24T03:59:30.606432+00:00",
-  "total_articles": 966,
+  "last_updated": "2025-12-24T06:41:25.269020+00:00",
+  "total_articles": 969,
   "articles": [
     {
       "id": "69d813cf8d6f164c",
@@ -293,6 +293,21 @@
       ]
     },
     {
+      "id": "2508ddcf6fc2e360",
+      "title": "The Proxy Paradox: Why Spring @Transactional Vanishes",
+      "description": "We've all been there. You annotate @Transactional on a critical method in your Spring application, run mvn test, watch the green checkmarks fly by, and feel good about yourself. Everything's going swell innit? But then you open the transaction log and find... nothing. Where did your transaction go? No connection enlisted. No timeout. No rollback on error. The code did execute, but a transaction was not created. Congratulations, you've just met the Proxy Paradox. The coding equivalent to plugging",
+      "url": "https://dev.to/rajatarora/the-proxy-paradox-why-spring-transactional-vanishes-4758",
+      "source": "Dev.to",
+      "author": "Rajat Arora",
+      "published": "2025-12-24T06:30:02+00:00",
+      "niche": "dev",
+      "score": 73,
+      "keywords": [
+        "Spring",
+        "code"
+      ]
+    },
+    {
       "id": "3b6c9394b5895bca",
       "title": "Building a Thinking Photo Editor: Migrate to Gemini 3 Pro Image with Angular and Firebase",
       "description": "This technical deep dive explains the migration of a photo editing application from Gemini 2.5 Flash Image model (a.k.a Nano Banana) to Gemini 3 Pro Image (a.k.a Nano Banana Pro). The upgrade focuses on a secure architecture using Firebase and unlocks advanced new capabilities of Gemini 3 Pro Image, for example, thinking process and the built-in Google Search Tool for grounding. I migrated from Gemini 2.5 Flash Image to Gemini 3 Pro Image because the new model renders images better, is able to d",
@@ -557,6 +572,20 @@
       "score": 69,
       "keywords": [
         "tutorial"
+      ]
+    },
+    {
+      "id": "06ac1bbe2250da37",
+      "title": "Stop Pushing Work Code with Your Personal Email: The Ultimate Guide to Multiple GitHub Accounts on Windows",
+      "description": "If you are like me, you probably have a personal GitHub account for your side projects and a separate professional account for your company. And if you’re working on a Windows machine using VS Code, you’ve likely hit the wall where Git doesn't know who you are. I recently spent hours struggling with this. I tried running Linux commands like eval $(ssh-agent -s) in PowerShell (which didn't work), got \"Permission Denied\" errors, and even accidentally pushed work code using my personal email. 🤦‍♂️ ",
+      "url": "https://dev.to/rahulkbharti/stop-pushing-work-code-with-your-personal-email-the-ultimate-guide-to-multiple-github-accounts-on-39bg",
+      "source": "Dev.to",
+      "author": "Rahul Kumar Bharti",
+      "published": "2025-12-24T06:24:53+00:00",
+      "niche": "dev",
+      "score": 69,
+      "keywords": [
+        "code"
       ]
     },
     {
@@ -1639,38 +1668,6 @@
       ]
     },
     {
-      "id": "0333fda82080b9d5",
-      "title": "Docker Compose How to Set Environment Variables",
-      "description": "Configuration is messy Working on a project with multiple environments and keeping track of all the configuration values is definitely not a simple task! Today, we need different settings for development, staging, and production. We might have API keys, database credentials, feature flags, and service URLs. Hardcoding these values is a nightmare, and sharing sensitive information in our codebase is a security risk. The Original Story was published here, and it needs your support please: Docker C",
-      "url": "https://dev.to/web_dev-usman/docker-compose-how-to-set-environment-variables-1ca7",
-      "source": "Dev.to",
-      "author": "Muhammad Usman",
-      "published": "2025-12-17T06:28:53+00:00",
-      "niche": "dev",
-      "score": 56,
-      "keywords": [
-        "development",
-        "code",
-        "API"
-      ]
-    },
-    {
-      "id": "096a46847833c3ec",
-      "title": "🚀Node.js Microservices: Zero to Cloud (Complete Hands-on Series)",
-      "description": "👋 Hello Dev.to Community! I’m building a complete, real‑world Node.js Microservices series where we go from absolute zero to cloud deployment — step by step, no shortcuts, no magic. This series is designed for developers who are tired of scattered tutorials and want to understand how microservices actually work in production. 🎯 What This Series Is About In this ongoing series, we will: Design real microservice architectures Build services using Node.js + Express Use Prisma ORM with PostgreSQL Im",
-      "url": "https://dev.to/shafqat_awan_79b9dbd88cda/nodejs-microservices-zero-to-cloud-complete-hands-on-series-15oh",
-      "source": "Dev.to",
-      "author": "Shafqat Awan",
-      "published": "2025-12-17T05:57:47+00:00",
-      "niche": "dev",
-      "score": 56,
-      "keywords": [
-        "tutorial",
-        "developer",
-        "microservices"
-      ]
-    },
-    {
       "id": "cc70ba9751c58b8e",
       "title": "API integration tutorial - Mastering API Connection: A Practical...",
       "description": "Mastering API Connection: A Practical Tutorial for Devs Ever felt stuck trying to make two different software systems talk to each other? You’re not alone. In today's interconnected digital world, APIs (App Programming Interfaces) are everywhere. They are the backbone of modern apps. Learning to integrate them well is a big improvement for any dev. This API connection tutorial shares my real-world steps and insights. I've built many systems, from large enterprise e-commerce platforms to my own S",
@@ -1936,6 +1933,22 @@
         "framework",
         "developer",
         "programming"
+      ]
+    },
+    {
+      "id": "bc47cc6f8dd92ae9",
+      "title": "Writing JS FFI in MoonBit",
+      "description": "I think MoonBit is a wonderful language, but it's still in early stages and lacks libraries. For AltJS and new languages to gain traction, I believe increasing wrapper libraries and type definitions is important. This article walks through writing FFI for the MoonBit JS backend, with the hope of learning MoonBit and encouraging more library development. While MoonBit can generate code for native, wasm, and js, I think targeting JS - which has broad application across web, browser, and server-sid",
+      "url": "https://dev.to/mizchi/writing-js-ffi-in-moonbit-jgn",
+      "source": "Dev.to",
+      "author": "mizchi (Kotaro Chikuba)",
+      "published": "2025-12-24T06:19:39+00:00",
+      "niche": "dev",
+      "score": 56,
+      "keywords": [
+        "library",
+        "development",
+        "code"
       ]
     },
     {
@@ -2446,34 +2459,6 @@
       "keywords": [
         "performance",
         "development"
-      ]
-    },
-    {
-      "id": "9a45b72a45497a09",
-      "title": "15 AWS EMR Cost Optimization Tips to Slash Your EMR Spending (2025)",
-      "description": "AWS EMR (Elastic MapReduce) is a fully managed big data platform. It manages the setup, configuration, and tuning of open source frameworks like Apache Hadoop, Apache Spark, Apache Hive, Presto, and more at scale on AWS infrastructure. EMR handles cluster scaling, resource allocation, and lifecycle management. This allows you to work with large datasets for various use cases, from ETL pipelines to ML workloads. EMR uses a pay-as-you-go pricing model. Costs for compute, storage, and other AWS ser",
-      "url": "https://dev.to/chaos-genius/15-aws-emr-cost-optimization-tips-to-slash-your-emr-spending-2025-47g4",
-      "source": "Dev.to",
-      "author": "Pramit Marattha",
-      "published": "2025-12-17T06:15:34+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "framework"
-      ]
-    },
-    {
-      "id": "1d46a6d1340f17b2",
-      "title": "What `apt upgrade` Actually Does",
-      "description": "apt upgrade does not update the system version. It only upgrades minor versions of already installed packages and will not change the Debian release (e.g., from bookworm to trixie). apt upgrade: Only updates existing package versions - bash 5.2.15 → bash 5.2.21 (bug fixes, security patches) - btop 1.3.2 → btop 1.3.3 (new features) - Will NOT: bookworm → Debian 13 Safety Limits: No new packages installed No old packages removed No dependency changes System Version Upgrade Commands Command Purpose",
-      "url": "https://dev.to/kingyou/what-apt-upgrade-actually-does-35i0",
-      "source": "Dev.to",
-      "author": "kingyou",
-      "published": "2025-12-17T06:11:47+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "release"
       ]
     },
     {
@@ -3555,18 +3540,31 @@
       ]
     },
     {
-      "id": "e5ee071d191156ec",
-      "title": "The ONE Skill I'm Choosing Over LeetCode Grinding in 2025",
-      "description": "It’s late 2025. and if your LinkedIn feed is anything like mine, it’s a chaotic mix of two things: People panicking that AI agents are about to replace all junior developers. 🤖 People advising juniors to grind 500+ LeetCode problems to pass an interview. 💻 This advice feels… outdated. It feels like preparing for a 2020 job market in a 2026 world. I’m not saying algorithms don’t matter. But the ability to invert a binary tree on a whiteboard isn't what stops production from crashing at 3 AM. I’ve",
-      "url": "https://dev.to/maame-codes/the-one-skill-im-choosing-over-leetcode-grinding-in-2025-41o1",
+      "id": "8f16fb86331fbffe",
+      "title": "How a Growing E-Commerce Startup Secured Its Web Apps with SafeLine WAF",
+      "description": "In the fast-paced world of e-commerce, even a small vulnerability can cost thousands of dollars in lost revenue, damage user trust, and trigger compliance issues. One startup, operating a popular online marketplace, recently shared how SafeLine WAF became a key part of their security strategy — without slowing down their applications or increasing operational overhead. The Challenge: Protecting a Complex Web Infrastructure The startup runs a modern stack consisting of Node.js APIs, React front-e",
+      "url": "https://dev.to/arina_cholee/how-a-growing-e-commerce-startup-secured-its-web-apps-with-safeline-waf-32c7",
       "source": "Dev.to",
-      "author": "Maame Afua A. P. Fordjour",
-      "published": "2025-12-17T05:51:37+00:00",
+      "author": "Arina Cholee",
+      "published": "2025-12-24T06:16:40+00:00",
       "niche": "dev",
-      "score": 52,
+      "score": 54,
       "keywords": [
-        "developer",
-        "code"
+        "API"
+      ]
+    },
+    {
+      "id": "4e6ec49847f9e080",
+      "title": "OpenAPI schema validation using a offline free API Client",
+      "description": "Voiden's latest beta includes detailed OpenAPI schema validation, helping you catch issues like: Value types (string, integer, etc.) Required vs optional fields Min/max values and lengths Pattern (regex) and format (email, date) checks Array and object property validations Complex rules like oneOf, anyOf, allOf, and not Nullable field support These validations aim to make your API testing more precise and reliable right inside your file-centric, Git-native workflow. But we want to hear from you ",
+      "url": "https://dev.to/dhruba_patra_160fd3a4046b/openapi-schema-validation-using-a-offline-free-api-client-4oo9",
+      "source": "Dev.to",
+      "author": "Dhruba Patra",
+      "published": "2025-12-24T06:15:57+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "API"
       ]
     },
     {
@@ -4095,44 +4093,17 @@
       ]
     },
     {
-      "id": "99795c23f872dc72",
-      "title": "Export Your Brain: A Simple Way To Make Any AI “Know You” From Day One",
-      "description": "Every new AI tool treats you like a stranger. New chat. New model. New product. Same ritual: “I’m a dev, I use React/TS/Tailwind.” “Keep it short, show code first.” “Don’t give me motivational quotes.” You’ve already trained one AI on all of this. It knows your stack, your tone, your quirks, your life context. The question is: how do you steal that “you” and carry it anywhere? That’s what this article is about: Not “exporting ChatGPT data”, but exporting your persona so any AI, any agent, any sy",
-      "url": "https://dev.to/onlyoneaman/export-your-brain-a-simple-way-to-make-any-ai-know-you-from-day-one-2bnd",
+      "id": "150014d632cb3679",
+      "title": "MoonBit: A Modern Language for WebAssembly/JS/Native",
+      "description": "Are you frustrated with TypeScript inheriting JavaScript's quirks - no integer types, type erasure at runtime, no pattern matching? Or that Rust is too low-level for writing application-layer code? MoonBit is a language that addresses these frustrations. It's a statically-typed programming language designed for WebAssembly, with multiple backend targets including wasm-gc, JavaScript, and native. Think of it as Rust with garbage collection - you get Rust-like syntax and safety without the complex",
+      "url": "https://dev.to/mizchi/moonbit-a-modern-language-for-webassemblyjsnative-4p71",
       "source": "Dev.to",
-      "author": "Aman",
-      "published": "2025-12-17T06:24:56+00:00",
+      "author": "mizchi (Kotaro Chikuba)",
+      "published": "2025-12-24T06:19:37+00:00",
       "niche": "dev",
-      "score": 51,
+      "score": 52,
       "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "0b4a1f9cd94aacc3",
-      "title": "Advent of AI - Day 12: MCP Sampling",
-      "description": "I've edited this post, but AI helped. These are meant to be quick posts for the Advent of AI. If I'm doing one of these each day, I don't have time to spend a couple hours on each post. The advent of AI series leverages Goose, an open source AI agent. If you've never heard of it, check it out! block / goose an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM goose a local, extensible, open source AI agent that automates engineerin",
-      "url": "https://dev.to/nickytonline/advent-of-ai-day-12-mcp-sampling-29b4",
-      "source": "Dev.to",
-      "author": "Nick Taylor",
-      "published": "2025-12-17T06:01:21+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "cfc548137c99b7c9",
-      "title": "I Completed 45 Lambda Function Exercises (And I'm Still a Beginner!)",
-      "description": "My Functional Programming Learning Journey I recently completed a comprehensive workbook with 45 exercises to learn about lambda functions and functional programming in Python. I want to share my experience with fellow beginners who are on the same learning path. What I Worked Through This wasn't just about lambda functions - it was a deep dive into functional programming concepts in pure Python. The workbook covered: 📚 The 7 Main Topics: Lambda Functions - Anonymous functions with map, filter, ",
-      "url": "https://dev.to/hejhdiss/i-completed-45-lambda-function-exercises-and-im-still-a-beginner-2m40",
-      "source": "Dev.to",
-      "author": "Muhammed Shafin P",
-      "published": "2025-12-17T06:00:15+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
+        "code",
         "programming"
       ]
     },
@@ -5339,30 +5310,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "ecd5fef6cb1fb7a4",
-      "title": "The YouTube Social Paradox: A Manifesto",
-      "description": "Google is one of the most technologically powerful companies in human history. YouTube is one of the most successful digital products ever created. Which makes the current state of YouTube's social layer look less like strategy and more like a decade-long refusal to acknowledge the obvious. 1. YouTube Is Already a Social Platform YouTube comments aren't just a feature beneath videos. They are: sustained conversations repeated interactions between the same people conflicts and communities accumul",
-      "url": "https://dev.to/mike_art_0d853def820658a0/the-youtube-social-paradox-a-manifesto-2mfb",
-      "source": "Dev.to",
-      "author": "Mike Art",
-      "published": "2025-12-17T06:29:25+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "3b6af45aeeb55302",
-      "title": "Display Rupiah Values Beautifully with formatCompact()",
-      "description": "Ever noticed how Instagram shows \"1.2M likes\" instead of \"1,200,000 likes\"? That's compact formatting - and your Indonesian apps need it too. Large numbers like Rp 1.500.000.000 take up too much space and are hard to read at a glance. That's why I built formatCompact() in @indodev/toolkit - it formats Rupiah using Indonesian units: ribu, juta, miliar, triliun. Installation npm install @indodev/toolkit Basic Usage import { formatCompact } from '@indodev/toolkit'; formatCompact(1500000); // → 'Rp ",
-      "url": "https://dev.to/choiruladamm/display-rupiah-values-beautifully-with-formatcompact-3pgc",
-      "source": "Dev.to",
-      "author": "Adamm",
-      "published": "2025-12-17T06:21:53+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
     },
     {
       "id": "96726bb0d2917dbc",
@@ -7995,6 +7942,54 @@
       "keywords": []
     },
     {
+      "id": "3886daff779dd2ca",
+      "title": "Dark vs Bright Website Design: The Real Difference (and How to Choose the Right One)",
+      "description": "The dark background feels calm, your eyes relax, and every image seems to glow a little brighter. Now picture that same site in the middle of the day. Suddenly, a light background feels cleaner, easier to read, and perfectly suited for the sunlight spilling across your screen. That quiet contrast between dark and bright design is more than just an aesthetic choice. It changes how people feel, focus, and connect with a brand online. Choosing between them isn’t only about preference; it influences",
+      "url": "https://dev.to/per-starke-642/dark-vs-bright-website-design-the-real-difference-and-how-to-choose-the-right-one-5b5j",
+      "source": "Dev.to",
+      "author": "Per Starke",
+      "published": "2025-12-24T06:24:29+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "d26a3e8ced5180f9",
+      "title": "User Connectivity: Two Years in Production — Lessons Learned and New Patterns",
+      "description": "Introduction This is a follow-up to my previous post on User Connectivity: A Real-time Web Solution for Online and Offline User Status. It has been almost two years since I first deployed my user connectivity solution to production. What started as an experiment has become a cornerstone of my architecture. Could I make it simpler? Yes. However, the time and effort for an upgrade is not worth it given other priorities. The system has been rock solid, and I have expanded its use to solve other cha",
+      "url": "https://dev.to/anoushnet/user-connectivity-two-years-in-production-lessons-learned-and-new-patterns-3fpf",
+      "source": "Dev.to",
+      "author": "Anoush",
+      "published": "2025-12-24T06:23:54+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "5e516b08c1e399b5",
+      "title": "AI Agent-Level Attacks & Autonomous Exploit Generation: Can AI Hack Itself?",
+      "description": "The Rise of Autonomous Vulnerability Discovery For decades, penetration testing and vulnerability discovery have been the domain of skilled security professionals. These experts spend years developing intuition about how systems fail, learning common vulnerability patterns, and building deep technical knowledge across multiple domains. The process has been inherently limited by human cognitive bandwidth and the relatively small number of experts in the field. This landscape is changing fundament",
+      "url": "https://dev.to/zapisec/ai-agent-level-attacks-autonomous-exploit-generation-can-ai-hack-itself-4h72",
+      "source": "Dev.to",
+      "author": "CyberUltron Consulting Pvt Ltd",
+      "published": "2025-12-24T06:17:10+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "07e9a1f8ba21cf49",
+      "title": "The Power of Personality on Your Website, Even for Big Businesses and Non-Personal Brands - Why and How",
+      "description": "We all know first impressions matter, and today, that first impression often happens online. Your website isn’t just a digital storefront; it’s the handshake, the smile, and the welcome your brand extends to the world. For many visitors, it’s the deciding factor in whether they explore further, reach out, or move on. The challenge is that even the largest, most established companies can come across as distant or impersonal on their websites. For this, a polished design alone isn’t enough if the ",
+      "url": "https://dev.to/per-starke-642/the-power-of-personality-on-your-website-even-for-big-businesses-and-non-personal-brands-why-and-1e5m",
+      "source": "Dev.to",
+      "author": "Per Starke",
+      "published": "2025-12-24T06:16:29+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "ad3a7e1fb587a9a1",
       "title": "Show HN: High-Performance Wavelet Matrix for Python, Implemented in Rust",
       "description": "Comments",
@@ -10319,6 +10314,30 @@
       "keywords": []
     },
     {
+      "id": "356dc3cc68ab2b4d",
+      "title": "Autonomously navigating the real world: lessons from the PG&E outage",
+      "description": "Comments",
+      "url": "https://waymo.com/blog/2025/12/autonomously-navigating-the-real-world",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-24T02:16:01+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "0988735b27feff61",
+      "title": "Show HN: Turn raw HTML into production-ready images for free",
+      "description": "Comments",
+      "url": "https://html2png.dev",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-24T02:18:38+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "c098b044990870c9",
       "title": "Why a product-first approach can put security and reliability at risk",
       "description": "Discover why technical maintenance and security matter as much as features. How to prioritize technical debt and build reliable products customers trust. Continue reading Why a product-first approach can put security and reliability at risk on SitePoint.",
@@ -10412,8 +10431,8 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "developer",
         "performance",
+        "developer",
         "release"
       ]
     },
@@ -10897,10 +10916,10 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "API",
-        "performance",
         "framework",
+        "performance",
         "release",
+        "API",
         "code"
       ]
     },
@@ -11220,8 +11239,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "framework",
-        "release"
+        "release",
+        "framework"
       ]
     },
     {
@@ -11236,8 +11255,8 @@
       "score": 20,
       "keywords": [
         "performance",
-        "developer",
-        "code"
+        "code",
+        "developer"
       ]
     },
     {
@@ -11251,8 +11270,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
-        "code"
+        "code",
+        "release"
       ]
     },
     {
@@ -11281,8 +11300,8 @@
       "niche": "dev",
       "score": 18,
       "keywords": [
-        "PHP",
-        "Angular"
+        "Angular",
+        "PHP"
       ]
     },
     {
@@ -11338,9 +11357,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
+        "development",
         "tutorial",
-        "PHP",
-        "development"
+        "PHP"
       ]
     },
     {
@@ -11354,9 +11373,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
+        "development",
         "tutorial",
-        "PHP",
-        "development"
+        "PHP"
       ]
     },
     {
@@ -11370,8 +11389,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "API",
-        "code"
+        "code",
+        "API"
       ]
     },
     {
@@ -11441,8 +11460,8 @@
       "niche": "dev",
       "score": 15,
       "keywords": [
-        "developer",
-        "library"
+        "library",
+        "developer"
       ]
     },
     {
@@ -11609,6 +11628,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-20T07:14:53+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "ad1a76f1b1750067",
+      "title": "Proving Bounds for the Randomized MaxCut Approximation Algorithm in Lean4",
+      "description": "Comments",
+      "url": "https://abhamra.com/blog/randomized-maxcut/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-20T13:16:21+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
