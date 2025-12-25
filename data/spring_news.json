@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-25T06:43:51.785936+00:00",
-  "total_articles": 187,
+  "last_updated": "2025-12-25T09:31:55.116420+00:00",
+  "total_articles": 188,
   "articles": [
     {
       "id": "ce87d9e0a9369a07",
@@ -87,27 +87,15 @@
       "keywords": []
     },
     {
-      "id": "751b28d619bb0615",
-      "title": "Spring Boot @EnableEurekaClient vs @EnableDiscoveryClient",
-      "description": "In a microservices architecture, service discovery is critical for communication between services. Let us delve into understanding the difference between @EnableEurekaClient and @EnableDiscoveryClient in Spring Boot in our Spring Boot @EnableEurekaClient vs @EnableDiscoveryClient showdown! 1. What is a Service Registry in Microservices? A Service Registry is a central server where microservices register themselves so that &#8230;",
-      "url": "https://www.javacodegeeks.com/spring-boot-enableeurekaclient-vs-enablediscoveryclient.html",
-      "source": "Java Code Geeks",
-      "author": "Yatin Batra",
-      "published": "2025-12-18T09:20:00+00:00",
+      "id": "8411e0572a2e1f90",
+      "title": "A Bootiful Podcast: Nate Schutta the fundamentals of software engineering",
+      "description": "Hi Spring fans, and happy holidays! I'm delighted to be joined again on this episode by my friend and fellow harbinger of doom (in the best possible way), Nate Schutta — co-author of the wonderful book Foundations of Software Engineering!",
+      "url": "https://spring.io/blog/2025/12/25/a-bootiful-podcast-nate-schutta",
+      "source": "Spring Blog (Official)",
+      "author": "joshlong",
+      "published": "2025-12-25T00:00:00+00:00",
       "niche": "spring",
-      "score": 57,
-      "keywords": []
-    },
-    {
-      "id": "cf94ac53646ec95d",
-      "title": "Posting XML Data with Spring RestTemplate",
-      "description": "In modern microservice architectures, applications frequently communicate with external systems using REST APIs. While JSON is the most commonly used communication format, many enterprise systems such as banking, aviation, telecom, and legacy SOAP-based services still expect data in XML. Spring Boot provides a convenient way to send XML data using RestTemplate, allowing developers to serialize &#8230;",
-      "url": "https://www.javacodegeeks.com/posting-xml-data-with-spring-resttemplate.html",
-      "source": "Java Code Geeks",
-      "author": "Yatin Batra",
-      "published": "2025-12-18T08:15:00+00:00",
-      "niche": "spring",
-      "score": 57,
+      "score": 62,
       "keywords": []
     },
     {
@@ -603,6 +591,42 @@
       "keywords": []
     },
     {
+      "id": "b8a8550f0e16531d",
+      "title": "Proper Jakarta EE Library Setup in Maven for Tomcat",
+      "description": "With the transition from Java EE to Jakarta EE, many enterprise Java developers face runtime issues when deploying applications on Apache Tomcat. These problems usually arise due to incorrect Maven dependency scopes, mismatched Jakarta versions, or misunderstanding what Tomcat actually provides at runtime. Let us delve into understanding how to configure Java Jakarta libraries for &#8230;",
+      "url": "https://www.javacodegeeks.com/proper-jakarta-ee-library-setup-in-maven-for-tomcat.html",
+      "source": "Java Code Geeks",
+      "author": "Yatin Batra",
+      "published": "2025-12-25T08:41:00+00:00",
+      "niche": "spring",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "2f3ea71f4f15800e",
+      "title": "Modern Java Language Features: Records, Sealed Classes, Pattern Matching",
+      "description": "Java&#8217;s evolution over the past few years represents the most significant transformation in how we write code since the introduction of generics in Java 5. The addition of records, sealed classes, and pattern matching doesn&#8217;t just provide syntactic sugar—these features fundamentally change how we model data, express domain concepts, and handle control flow. They bring &#8230;",
+      "url": "https://www.javacodegeeks.com/2025/12/modern-java-language-features-records-sealed-classes-pattern-matching.html",
+      "source": "Java Code Geeks",
+      "author": "Eleftheria Drosopoulou",
+      "published": "2025-12-25T06:56:00+00:00",
+      "niche": "spring",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "aefb2621b1747314",
+      "title": "A SQL query to re-create your PostgreSQL database tables' DDL",
+      "description": "Hi! It's Christmas as I write this and in many parts of the world and to those of you who celebrate, let me wish you a very merry Christmas indeed!",
+      "url": "https://joshlong.com/jl/blogpost/a-useful-postgresql-query-to-rebuild-all-your-tables-ddl.html",
+      "source": "Josh Long",
+      "author": "Inconnu",
+      "published": "2025-12-25T00:00:00+00:00",
+      "niche": "spring",
+      "score": 40,
+      "keywords": []
+    },
+    {
       "id": "56d135186f4d31da",
       "title": "Virtual Threads in the Real World: Fast, Robust Java Microservices with Helidon",
       "description": "In 2022, our project made a significant decision: re-write our Netty-based Helidon Web Server to be fully implemented using virtual threads. The result is Helidon 4: the first microservices framework designed from the ground up for virtual threads. We are thrilled with the results, and have learned a few things along the way. Come join us as we introduce you to the benefits of virtual threads, share our lessons learned, give a few tips-and-tricks, and highlight what to look forward to in Java 24",
@@ -1078,18 +1102,6 @@
       "source": "Josh Long",
       "author": "Inconnu",
       "published": "2025-03-04T00:00:00+00:00",
-      "niche": "spring",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "492fc6332ef8720b",
-      "title": "Weird Error When Installing the Synology Drive Client App on macOS Sequoia 15.3.1",
-      "description": "I use the Synology NAS. It's an appliance that gives you a push-button simple RAID experience with a dedicated web-based console to administer the NAS. I love my Synology. Indeed, just a few weeks ago, I migrated the four-disk RAID 10 array from 5 TB disks to 18 TB disks. Now I have nearly 40 TB of space, striped and redundant. Dope. (Thanks, Synology!)",
-      "url": "https://joshlong.com/jl/blogpost/macos-synology-drive-permissions-error.html",
-      "source": "Josh Long",
-      "author": "Inconnu",
-      "published": "2025-03-01T00:00:00+00:00",
       "niche": "spring",
       "score": 14,
       "keywords": []
