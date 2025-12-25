@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-25T09:29:04.272039+00:00",
-  "total_articles": 969,
+  "last_updated": "2025-12-25T12:52:53.003086+00:00",
+  "total_articles": 966,
   "articles": [
     {
       "id": "69d813cf8d6f164c",
@@ -419,6 +419,20 @@
       ]
     },
     {
+      "id": "0e640c3e48a12e61",
+      "title": "Runtime Environment Variables for React Apps with Nginx and Docker",
+      "description": "React environment variables are normally injected at build time. Once the app is built, changing API URLs, feature flags, or monitoring config requires rebuilding the image. This becomes a problem when the same Docker image needs to run in staging, production, or other environments. This setup allows runtime configuration for React apps served by Nginx in Docker. The image is built once and configured when the container starts. How it works Add public/runtime-env.template.js window.RUNTIME_ENV =",
+      "url": "https://dev.to/imzihad21/runtime-environment-variables-for-react-apps-with-nginx-and-docker-3p62",
+      "source": "Dev.to",
+      "author": "ZèD",
+      "published": "2025-12-25T12:38:37+00:00",
+      "niche": "dev",
+      "score": 72,
+      "keywords": [
+        "API"
+      ]
+    },
+    {
       "id": "cdd55ae95fa48e78",
       "title": "Building a Meta-Logger: Tracking My Work Across GitHub, Codeberg, and Bitbucket Using Go",
       "description": "Modern development isn’t just fragmented across repositories — it’s fragmented across platforms. On any given week, I might: Fix a production bug in a Bitbucket repo at work Push an open-source contribution to Codeberg Ship a side-project feature on GitHub Each platform has its own dashboards, contribution graphs, and activity feeds. None of them talk to each other. After a while, I noticed a real problem: I had no reliable way to answer “What have I actually contributed, where, and how much?” N",
@@ -554,6 +568,20 @@
       "source": "Dev.to",
       "author": "Rahul Kumar Bharti",
       "published": "2025-12-24T06:24:53+00:00",
+      "niche": "dev",
+      "score": 69,
+      "keywords": [
+        "code"
+      ]
+    },
+    {
+      "id": "9fbda2f7cb5bc5ec",
+      "title": "Critical Security Vulnerability in React Server Components",
+      "description": "A critical Remote Code Execution (RCE) vulnerability has been disclosed in React Server Components (RSC). This vulnerability allows an unauthenticated attacker to execute arbitrary code on your server by sending a single, maliciously crafted HTTP request. This is a severity 10.0 (Critical) issue. If you are running Next.js, React Router (RSC), or using react-server-dom-* packages directly, your application is likely vulnerable by default. Why This Is Critical Most RCE vulnerabilities require an ",
+      "url": "https://dev.to/codedthemes/critical-security-vulnerability-in-react-server-components-1l9m",
+      "source": "Dev.to",
+      "author": "Brijesh Dobariya",
+      "published": "2025-12-25T12:29:03+00:00",
       "niche": "dev",
       "score": 69,
       "keywords": [
@@ -1224,6 +1252,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-24T23:25:37+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": []
+    },
+    {
+      "id": "4f1f6a1828e91518",
+      "title": "Mattermost restricted access to old messages after 10000 limit is reached",
+      "description": "Comments",
+      "url": "https://github.com/mattermost/mattermost/issues/34271",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-25T11:03:59+00:00",
       "niche": "dev",
       "score": 62,
       "keywords": []
@@ -1973,36 +2013,6 @@
       ]
     },
     {
-      "id": "2c03f98d68a61c11",
-      "title": "Shopify Frontend Development & Custom Storefronts: The Complete 2026 Guide",
-      "description": "Introduction Hi, I’m Puneet Jassal, an eCommerce expert with over 5 years of hands-on experience building, optimizing, and scaling Shopify stores for DTC and growth-focused brands. My work centers on improving storefront performance, increasing conversion rates, and helping businesses turn traffic into real, measurable revenue through smart strategy and data-driven optimization. Over the years, I’ve worked with everything from early-stage Shopify launches to high-traffic stores preparing for sca",
-      "url": "https://dev.to/puneetjassal/shopify-frontend-development-custom-storefronts-the-complete-2026-guide-6d4",
-      "source": "Dev.to",
-      "author": "Puneet",
-      "published": "2025-12-18T12:39:11+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "performance",
-        "development"
-      ]
-    },
-    {
-      "id": "19182f270d75d8f6",
-      "title": "Week 1: Dockerised URL Shortener with Redis Caching & CI/CD – Live Demo",
-      "description": "As an ex-Uber driver grinding 1.5-hour mornings and full Thursdays, I’m on a 20-week mission to land a £100k+ AWS role. I wanted to move beyond \"Hello World\" tutorials and build something that felt production-ready. Week 1–2 of my \"AWS Portfolio Battle Plan\" is officially complete: Docker Fundamentals & Deep Dive, capped off with a live, high-performance URL shortener. I built LukestAWS URL Shortener, a service that doesn't just shorten links, it handles them with a performance-first mindset usi",
-      "url": "https://dev.to/lukestaws/week-1-dockerised-url-shortener-with-redis-caching-cicd-live-demo-33nd",
-      "source": "Dev.to",
-      "author": "Lukest Mensah",
-      "published": "2025-12-18T12:32:11+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "performance",
-        "tutorial"
-      ]
-    },
-    {
       "id": "33c8261f33f9970d",
       "title": "Understanding Threads in Computing: A Practical Guide for Developers",
       "description": "Introduction In modern software systems, performance and responsiveness are no longer optional—they are core requirements. Whether you are building a web server, a desktop application, a game engine, or a data-processing pipeline, you will eventually encounter the concept of threads. Threads are a foundational abstraction for concurrent execution, and understanding them deeply is essential for any serious developer. This article provides a clear, end‑to‑end explanation of threads in computing. W",
@@ -2408,17 +2418,18 @@
       ]
     },
     {
-      "id": "0f8a924a15c5fb01",
-      "title": "Part 1: Why Transformers Still Forget",
-      "description": "This is Part 1 of a three-part series examining why long context is not equivalent to long-term memory in modern language models. Here, we focus on why attention-based systems forget even when context windows grow dramatically. The next parts will introduce a memory-first framework and analyse how the Titans architecture approaches long-term memory explicitly. Long-context models are everywhere now. The marketing message is simple: if a model can read more tokens, it can “remember” more. That so",
-      "url": "https://dev.to/harvesh_kumar/part-1-long-context-memory-on-why-transformers-still-forget-1am0",
+      "id": "201af6ab09735813",
+      "title": "Web Bluetooth Guide: How to Build a Real-Time Heart Rate Dashboard",
+      "description": "The Internet of Things (IoT) is moving from science fiction directly into our web browsers. For developers and health enthusiasts, the ability to read biometric data through a web app is a massive breakthrough. Whether you are monitoring fitness stats or exploring environmental sensors, the Web Bluetooth API makes direct hardware interaction possible. If you are ready to see how this technology functions, this understanding your results walkthrough provides the perfect starting point. Understand",
+      "url": "https://dev.to/wellallytech/web-bluetooth-guide-how-to-build-a-real-time-heart-rate-dashboard-nj7",
       "source": "Dev.to",
-      "author": "Pranava Kailash Subramaniam Prema",
-      "published": "2025-12-18T12:37:51+00:00",
+      "author": "wellallyTech",
+      "published": "2025-12-25T12:40:00+00:00",
       "niche": "dev",
-      "score": 54,
+      "score": 55,
       "keywords": [
-        "framework"
+        "developer",
+        "API"
       ]
     },
     {
@@ -3626,6 +3637,34 @@
       ]
     },
     {
+      "id": "e6ec3e0fa1a7489a",
+      "title": "2025 in Review: The Adventures of Blink",
+      "description": "Hey friends! As we wrap up 2025, I wanted to take a moment and express my heartfelt gratitude to all of you adventurers. Your readership and companionship... and even your feedback... warm my ❤️ and keep me excited to be out here writing and filming. I'm glad that we can adventure together... thank you very much, I appreciate you! (By the way... If you haven't yet dropped by the Youtube Channel, come subscribe and join me in the Spring and Fall each year as we build something together!) I though",
+      "url": "https://dev.to/linkbenjamin/2025-in-review-the-adventures-of-blink-37jp",
+      "source": "Dev.to",
+      "author": "Ben Link",
+      "published": "2025-12-25T12:45:00+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "Spring"
+      ]
+    },
+    {
+      "id": "8451c6ebf28f23d1",
+      "title": "How Electrical Muscle Stimulation Is Changing Modern Fitness",
+      "description": "Fitness has never been a fixed concept. It evolves alongside lifestyle shifts, scientific understanding, and technology. From free weights to smart wearables, each era brings tools that reflect how people actually live and train. One of the most noticeable shifts in recent years is the rise of Electrical Muscle Stimulation (EMS), a method that is quietly reshaping how workouts are designed, delivered, and experienced. Unlike trends built on hype, EMS has roots in medical and sports science. What",
+      "url": "https://dev.to/emsproone/how-electrical-muscle-stimulation-is-changing-modern-fitness-1ign",
+      "source": "Dev.to",
+      "author": "EMS PRO ONE",
+      "published": "2025-12-25T12:31:24+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "API"
+      ]
+    },
+    {
       "id": "aa27169e2ef81ab0",
       "title": "Built an MCP server for .NET developers working with AI",
       "description": "If you're building AI applications with .NET or constantly learning, you've noticed LLMs confidently give you code that doesn't compile or completely wrong explanations about how things work. I got tired of it, so I built DotNet AI MCP Server. ** What it does: ** Connects your favorite client to two sources: Live GitHub repos - Semantic Kernel, OpenAI .NET SDK, MCP C# SDK, AutoGen, and more. Real code and documentation from the actual repos. Microsoft Learn - I proxied the official Microsoft Lea",
@@ -4178,6 +4217,21 @@
       "keywords": [
         "programming",
         "code"
+      ]
+    },
+    {
+      "id": "0a70a54598a1ebd1",
+      "title": "The Future of Developer Revenue: Monetizing AI Conversations Effectively",
+      "description": "Monetization Without Paywalls: Unlocking Revenue in AI Conversations with Monetzly The biggest challenge in AI development isn't just creating groundbreaking applications—it's how to monetize them without disrupting the user experience. As AI apps continue to explode in popularity, many developers are left scratching their heads, wondering how to make their innovations financially viable. Enter Monetzly: the Google Ads for AI conversations. The Dual-Earning Revolution Imagine a platform where yo",
+      "url": "https://dev.to/monetzly/the-future-of-developer-revenue-monetizing-ai-conversations-effectively-27c5",
+      "source": "Dev.to",
+      "author": "Monetzly",
+      "published": "2025-12-25T12:25:12+00:00",
+      "niche": "dev",
+      "score": 52,
+      "keywords": [
+        "developer",
+        "development"
       ]
     },
     {
@@ -5413,88 +5467,18 @@
       ]
     },
     {
-      "id": "ba21cd50bd4f0b7c",
-      "title": "Scaling Databases with TiDB: AWS Community Day Bangalore 2025",
-      "description": "One session at AWS Community Day Bangalore 2025 in May fundamentally altered my perspective on database scalability. Senior Solution Architect Ankit Kapoor of TiDB gave a very enlightening session titled \"From Startup to Scale-up: Your Database's Growth Journey.\" This is for you if you've ever had trouble with database scaling. The Problem We All Face To be honest, conventional relational databases function flawlessly until they break down. Ankit outlined the difficulties faced by the majority o",
-      "url": "https://dev.to/chandureddy/scaling-databases-with-tidb-aws-community-day-bangalore-2025-56nb",
+      "id": "e3f8481f541ccd58",
+      "title": "Homelabing - Local to online setup suppressing CGNAT",
+      "description": "In the journey of creating a Hub before we start programming or building website lets setup Pi in a way where we can access it on mobile internet. For that we can use Cloudflare Tunnel or Tail Scale, but the problem is both are overpowered for this setup I don't want to use Cloudflare as an intercept between Me and my data. I can't trust any 3rd Party. So, not going to use that. I will not use Tail Scale because some features are awesome. But, it to use it I need to make accounts and every new p",
+      "url": "https://dev.to/priyanshuverma/homelabing-local-to-online-setup-suppressing-cgnat-mpd",
       "source": "Dev.to",
-      "author": "N Chandra Prakash Reddy",
-      "published": "2025-12-18T12:45:42+00:00",
+      "author": "Priyanshu Verma",
+      "published": "2025-12-25T12:44:45+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "e4a99d4185dd99ab",
-      "title": "How to Easily Develop Amazon Integration for Your eCommerce SaaS",
-      "description": "Amazon is one of the most popular marketplaces worldwide, with strong market presence in the United States, Canada, the United Kingdom, Germany, France, Italy, Spain, Japan, Australia, and India. Its global reach and massive seller ecosystem make it a critical sales channel for online businesses. As a result, eCommerce software vendors increasingly need to support Amazon integration to stay relevant and competitive. For SaaS products such as order management systems, shipping software, multi-cha",
-      "url": "https://dev.to/oliinyk/how-to-easily-develop-amazon-integration-for-your-ecommerce-saas-3dkc",
-      "source": "Dev.to",
-      "author": "Khrystyna",
-      "published": "2025-12-18T12:44:55+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "0dd43e54029e2443",
-      "title": "Enable HTTPS for Jenkins on SUSE by using Apache httpd Reverse Proxy with Existing SSL Certificate",
-      "description": "1. Prerequisites SUSE Linux server with Jenkins already installed and running on port 8080. A domain name pointing to your server (e.g., abc.com). An SSL certificate (Company certificate) has already been issued (e.g., .crt + .key files, and possibly a CA bundle). Root or sudo privileges. 2. Install Apache httpd sudo zypper refresh sudo zypper install apache2 apache2-utils Enable and start Apache: sudo systemctl enable apache2 sudo systemctl start apache2 Check status: systemctl status apache2 3",
-      "url": "https://dev.to/andylovecloud/enable-https-for-jenkins-on-suse-by-using-apache-httpd-reverse-proxy-with-existing-ssl-certificate-3hgm",
-      "source": "Dev.to",
-      "author": "Tran Huynh An Duy (Andy)",
-      "published": "2025-12-18T12:39:02+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "cdc5cf415fe770da",
-      "title": "Mobile App Security Testing Explained: Tools, Techniques, and Real-World Insights",
-      "description": "Think of your smartphone as a vault, keeping your secrets, finances, and your digital life, all within the confines of the app. A simple vulnerability within the app can allow hackers to dance right into your life. Mobile apps are being attacked with threats that are as frequent as the taps, taps, swipes, and updates, making the security of mobile apps a game of high stakes that you cannot lose. The difficulty is that threats develop at an average speed much faster than you can say “app update,”",
-      "url": "https://dev.to/jignect-technologies/mobile-app-security-testing-explained-tools-techniques-and-real-world-insights-3h76",
-      "source": "Dev.to",
-      "author": "JigNect Technologies",
-      "published": "2025-12-18T12:32:49+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "87ac4f4741428eb7",
-      "title": "Why \"Are you busy?\" Is The Wrong Question",
-      "description": "Hey Friends! This will be my last post of 2025 - I'm taking the next two weeks off to enjoy the holidays with family and friends. Thanks for adventuring with me this year; I'm looking forward to picking up after a refreshing break! I arrived at my weekly 1:1. \"How's your workload, Blink? Are you staying busy?\" Of course I was. Our team's sprint backlog was full, yesterday was the start of the new sprint so there was a lot of stuff on the board. What kind of a question was that? Digging into the ",
-      "url": "https://dev.to/linkbenjamin/why-are-you-busy-is-the-wrong-question-3109",
-      "source": "Dev.to",
-      "author": "Ben Link",
-      "published": "2025-12-18T12:30:00+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "38eaeff3d924f550",
-      "title": "Design systems that scale: the case for composability",
-      "description": "Many design systems eventually hit the same wall: By growing to accommodate every variation teams need, they become gruelling to maintain. A designer needs a button with an icon on the right, not the left, for example. Or an engineer needs a modal that can nest inside another modal. And so on. Soon enough, the system bends under the weight of prop after prop until it becomes harder to use than to work around. We see this pattern repeatedly on large-scale UI systems. There is a solution: composab",
-      "url": "https://dev.to/measuredco/design-systems-that-scale-the-case-for-composability-2npn",
-      "source": "Dev.to",
-      "author": "Paul Love",
-      "published": "2025-12-18T12:27:16+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "ba00c481a4d1a1c5",
-      "title": "Demonstrating Bias and Mitigation in a Simple Clinical ML Pipeline",
-      "description": "A Minimal Case Study of Bias in Clinical Machine Learning Repository: https://github.com/lemind/clinical-ml-bias-demo Background This project was done as part of a university course on machine learning in clinical settings. The course focused on bias and fairness in ML, clinical risk, interpretability, and the limits of technical mitigation in real-world systems. One of the key inspirations was Ntoutsi et al. (2020), “Bias in Data-Driven AI Systems”, which emphasizes that bias can appear at all ",
-      "url": "https://dev.to/lemind/demonstrating-bias-and-mitigation-in-a-simple-clinical-ml-pipeline-3pc3",
-      "source": "Dev.to",
-      "author": "Dimitrii Lyomin",
-      "published": "2025-12-18T12:26:53+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "programming"
+      ]
     },
     {
       "id": "909ed27a64a21d55",
@@ -8043,6 +8027,30 @@
       "keywords": []
     },
     {
+      "id": "cf2bc14e609e519c",
+      "title": "Living WBS: Turning Dead Documents into Active Tools",
+      "description": "\"I made a WBS but no one looks at it.\" A common complaint from many PMs. A WBS that took days to make at project start is collecting dust within 2 weeks. Why does a WBS made with effort die? The answer is simple. Because WBS was made as a \"document\". It needs to be made as a living \"tool\". Dead WBS vs Living WBS Life of a Dead WBS Day 1: \"Perfect WBS complete!\" 🎉 Day 7: \"Hmm... it's a bit different from reality\" Day 14: \"WBS? Where was that?\" Day 21: \"Let's just go by feel\" Day 30: \"Where did th",
+      "url": "https://dev.to/_jeongyuhyeon_03de1/living-wbs-turning-dead-documents-into-active-tools-59j0",
+      "source": "Dev.to",
+      "author": "전규현 (Jeon gyuhyeon)",
+      "published": "2025-12-25T12:31:00+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "1c1c0bb12c06c502",
+      "title": "White Label SEO Report: Ultimate Guide for Beginners",
+      "description": "I remember the first time a client asked me why their SEO report had \"SEMrush\" plastered across the header. They paid my agency. They trusted my team. But the report looked like it came from a software company they had never heard of. That moment taught me something I wish I had learned earlier: professional presentation matters more than most agencies realize. Client reporting is one of the biggest headaches for SEO agencies. You are juggling multiple clients, each with different goals, differe",
+      "url": "https://dev.to/aboah-okyere/white-label-seo-report-ultimate-guide-for-beginners-3n0e",
+      "source": "Dev.to",
+      "author": "Aboah Okyere",
+      "published": "2025-12-25T12:25:01+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "e18f7d1903a5ac30",
       "title": "Some people are becoming exceptional tool users. Others are becoming system builders. Over time, the second group will quietly replace the first, and that’s not a threat. It’s a natural evolution.",
       "description": "System Builders Will Replace Tool Users: And That’s a Good Thing Jaideep Parashar ・ Dec 25 #webdev #ai #developers #programming",
@@ -8366,78 +8374,6 @@
       ]
     },
     {
-      "id": "9cacc32fdaa73f8b",
-      "title": "After Ruining a Treasured Water Resource, Iran Is Drying Up",
-      "description": "Comments",
-      "url": "https://e360.yale.edu/features/iran-water-drought-dams-qanats",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-18T10:27:05+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "0161e90a16dee461",
-      "title": "Slowness Is a Virtue",
-      "description": "Comments",
-      "url": "https://blog.jakobschwichtenberg.com/p/slowness-is-a-virtue",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-18T10:44:29+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "ce0c367bfede8d67",
-      "title": "It's all about momentum",
-      "description": "Comments",
-      "url": "https://combo.cc/posts/its-all-about-momentum-innit/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-18T10:09:10+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "6345b6412f607a98",
-      "title": "How getting richer made teenagers less free",
-      "description": "Comments",
-      "url": "https://www.theargumentmag.com/p/how-getting-richer-made-teenagers",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-18T10:03:42+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "764557ca1667b876",
-      "title": "Online Textbook for Braid groups and knots and tangles",
-      "description": "Comments",
-      "url": "https://matthematics.com/redoak/redoak.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-18T09:40:07+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "68ba8e3d1119bb21",
-      "title": "Classical statues were not painted horribly",
-      "description": "Comments",
-      "url": "https://worksinprogress.co/issue/were-classical-statues-painted-horribly/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-18T12:28:45+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
       "id": "c57f615cb2924c03",
       "title": "Please Just Try Htmx",
       "description": "Comments",
@@ -8493,18 +8429,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-18T14:49:24+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "9a94495dcf680a64",
-      "title": "Slowness is a virtue",
-      "description": "Comments",
-      "url": "https://blog.jakobschwichtenberg.com/p/slowness-is-a-virtue",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-18T10:44:29+00:00",
       "niche": "dev",
       "score": 44,
       "keywords": []
@@ -10202,6 +10126,54 @@
       "keywords": []
     },
     {
+      "id": "90295529a6997c28",
+      "title": "Cafes",
+      "description": "Check out this Pen I made!",
+      "url": "https://dev.to/jan_martinezteixido_a818/cafes-29jk",
+      "source": "Dev.to",
+      "author": "Jan Martinez Teixido",
+      "published": "2025-12-25T12:32:44+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "5ef269af9721d86b",
+      "title": "We invited a man into our home at Christmas and he stayed with us for 45 years",
+      "description": "Comments",
+      "url": "https://www.bbc.co.uk/news/articles/cdxwllqz1l0o",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-25T10:35:34+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "6d63c1bbf197068c",
+      "title": "Self-referencing Page Tables for the x86-Architecture",
+      "description": "Comments",
+      "url": "https://0l.de/blog/2015/01/bachelor-thesis-abstract/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-25T08:58:23+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "165cbfe8ccef1347",
+      "title": "Quantum Error Correction Goes FOOM",
+      "description": "Comments",
+      "url": "https://algassert.com/post/2503",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-25T09:18:15+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "c098b044990870c9",
       "title": "Why a product-first approach can put security and reliability at risk",
       "description": "Discover why technical maintenance and security matter as much as features. How to prioritize technical debt and build reliable products customers trust. Continue reading Why a product-first approach can put security and reliability at risk on SitePoint.",
@@ -10298,8 +10270,8 @@
       "score": 40,
       "keywords": [
         "release",
-        "performance",
-        "developer"
+        "developer",
+        "performance"
       ]
     },
     {
@@ -10506,8 +10478,8 @@
       "score": 38,
       "keywords": [
         "release",
-        "React 19",
-        "API"
+        "API",
+        "React 19"
       ]
     },
     {
@@ -10795,10 +10767,10 @@
       "score": 30,
       "keywords": [
         "code",
-        "API",
-        "framework",
         "release",
-        "performance"
+        "performance",
+        "API",
+        "framework"
       ]
     },
     {
@@ -11156,9 +11128,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "performance",
+        "developer",
         "code",
-        "developer"
+        "performance"
       ]
     },
     {
@@ -11172,8 +11144,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
-        "code"
+        "code",
+        "release"
       ]
     },
     {
@@ -11187,8 +11159,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
-        "developer"
+        "developer",
+        "release"
       ]
     },
     {
@@ -11216,8 +11188,8 @@
       "niche": "dev",
       "score": 18,
       "keywords": [
-        "PHP",
-        "Angular"
+        "Angular",
+        "PHP"
       ]
     },
     {
@@ -11274,8 +11246,8 @@
       "score": 17,
       "keywords": [
         "PHP",
-        "development",
-        "tutorial"
+        "tutorial",
+        "development"
       ]
     },
     {
@@ -11290,8 +11262,8 @@
       "score": 17,
       "keywords": [
         "PHP",
-        "development",
-        "tutorial"
+        "tutorial",
+        "development"
       ]
     },
     {
