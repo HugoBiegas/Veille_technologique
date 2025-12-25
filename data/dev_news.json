@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-24T21:24:02.975637+00:00",
-  "total_articles": 966,
+  "last_updated": "2025-12-25T02:03:42.460542+00:00",
+  "total_articles": 969,
   "articles": [
     {
       "id": "69d813cf8d6f164c",
@@ -304,20 +304,6 @@
       "keywords": [
         "Spring",
         "code"
-      ]
-    },
-    {
-      "id": "3b6c9394b5895bca",
-      "title": "Building a Thinking Photo Editor: Migrate to Gemini 3 Pro Image with Angular and Firebase",
-      "description": "This technical deep dive explains the migration of a photo editing application from Gemini 2.5 Flash Image model (a.k.a Nano Banana) to Gemini 3 Pro Image (a.k.a Nano Banana Pro). The upgrade focuses on a secure architecture using Firebase and unlocks advanced new capabilities of Gemini 3 Pro Image, for example, thinking process and the built-in Google Search Tool for grounding. I migrated from Gemini 2.5 Flash Image to Gemini 3 Pro Image because the new model renders images better, is able to d",
-      "url": "https://dev.to/railsstudent/building-a-thinking-photo-editor-migrate-to-gemini-3-pro-image-with-angular-and-firebase-1pdk",
-      "source": "Dev.to",
-      "author": "Connie Leung",
-      "published": "2025-12-18T00:36:18+00:00",
-      "niche": "dev",
-      "score": 72,
-      "keywords": [
-        "Angular"
       ]
     },
     {
@@ -1191,6 +1177,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-24T19:42:25+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": []
+    },
+    {
+      "id": "53db40bd542e6462",
+      "title": "Asterisk AI Voice Agent",
+      "description": "Comments",
+      "url": "https://github.com/hkjarral/Asterisk-AI-Voice-Agent",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-24T23:25:37+00:00",
       "niche": "dev",
       "score": 62,
       "keywords": []
@@ -2328,17 +2326,33 @@
       ]
     },
     {
-      "id": "274a7e6db85e2817",
-      "title": "Seven Core Activities of Great Digital Teams (RAADDDR)",
-      "description": "Most organisations don’t fail at \"digital\" because they can’t build software; they fail because they underinvest in the work that delivers better digital outcomes. So I put together a small framework (and a deliberately simple site) called RAADDDR - pronounced “rad-door”: 👉 https://raadddr.digital It’s a practical way to talk about what great digital teams actually do - day in, day out - without turning everything into a \"transformation\" slide deck. RAADDDR = seven core activities great digital ",
-      "url": "https://dev.to/olliejc/seven-core-activities-of-great-digital-teams-raadddr-4bl0",
+      "id": "215b74970d1dd793",
+      "title": "I Built a Risk-Driven Stock Portfolio Optimizer (And What I Learned)",
+      "description": "Like many developers, I’ve seen a lot of “portfolio builder” tools that promise outperformance with vague AI claims or black-box optimization. I wanted to explore a different angle: What if risk controlled portfolio structure — not just which stocks are labeled “risky”? So I built StockRisker, a risk-driven stock portfolio optimizer that focuses on constraints, explainability, and realistic tradeoffs rather than guarantees. 👉 Live demo: https://stockrisker.com/build The Core Idea Most retail inv",
+      "url": "https://dev.to/dany_trakhtenberg/i-built-a-risk-driven-stock-portfolio-optimizer-and-what-i-learned-49ai",
       "source": "Dev.to",
-      "author": "OllieJC",
-      "published": "2025-12-18T00:55:39+00:00",
+      "author": "Dany Trakhtenberg",
+      "published": "2025-12-25T01:07:44+00:00",
       "niche": "dev",
-      "score": 54,
+      "score": 55,
       "keywords": [
-        "framework"
+        "performance",
+        "developer"
+      ]
+    },
+    {
+      "id": "c17d09c595239660",
+      "title": "I Built a VS Code Extension to Visualize JSON as Tree Diagrams",
+      "description": "The Problem We've all been there. You're debugging an API response, staring at a 500-line JSON file, hunting for that one nested field buried three levels deep. You're mentally matching brackets, losing your place, scrolling up and down. { \"users\": [ { \"id\": 1, \"profile\": { \"settings\": { \"notifications\": { \"email\": { \"frequency\": \"weekly\" // <- Where is this thing?! } } } } } ] } I got tired of this. So I built JSON Diagram Viewer. The Solution One click transforms your JSON into an interactive,",
+      "url": "https://dev.to/hugohbrt/i-built-a-vs-code-extension-to-visualize-json-as-tree-diagrams-5g7b",
+      "source": "Dev.to",
+      "author": "Hugo Hebert",
+      "published": "2025-12-25T01:05:08+00:00",
+      "niche": "dev",
+      "score": 55,
+      "keywords": [
+        "code",
+        "API"
       ]
     },
     {
@@ -3476,6 +3490,34 @@
       ]
     },
     {
+      "id": "49764b74709f38bb",
+      "title": "Rigid Leg and Flexible Leg Design in Shipyard Gantry Cranes",
+      "description": "Shipyard gantry cranes operate under some of the most demanding structural and environmental conditions in the lifting industry. Large spans, heavy and asymmetrical loads, long travel distances, outdoor exposure, wind loads, and rail foundation tolerances all place exceptional demands on crane structural design. Among the most critical design elements influencing performance, safety, and service life is the leg structure configuration, particularly the choice between rigid legs and flexible (hin",
+      "url": "https://dev.to/aicraneblog/rigid-leg-and-flexible-leg-design-in-shipyard-gantry-cranes-5h8c",
+      "source": "Dev.to",
+      "author": "Aicrane",
+      "published": "2025-12-25T01:36:16+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "performance"
+      ]
+    },
+    {
+      "id": "0c75f193a4ce9cbd",
+      "title": "NOAA::Aurora for Space Weather Forecasts",
+      "description": "With the current solar maximum, I wanted to add aurora forecasting features to my iOS weather app, Xasteria. Instead of fetching text files from NOAA, I thought it would be nice for my weather proxy server to handle that. Hence I developed NOAA::Aurora and released it to CPAN. The module provides a convenient interface to the NOAA Space Weather Prediction Center (SWPC), handling data fetching, parsing, and caching. Usage Simple OO interface, you can get short term aurora probability either as a ",
+      "url": "https://dev.to/dkechag/noaaaurora-for-space-weather-forecasts-793",
+      "source": "Dev.to",
+      "author": "Dimitrios Kechagias",
+      "published": "2025-12-25T01:09:01+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "release"
+      ]
+    },
+    {
       "id": "2e927db089964f82",
       "title": "How I directed 3 AI Agents to build a Kakeibo App (No-Code Journey)",
       "description": "Hello World! My name is Miki, and I’m a developer from Japan. I’m currently learning English, so please forgive any mistakes. I don’t write code manually, and I don’t have deep knowledge of Python or JavaScript. Still, today I want to share how I built a fully functional Kakeibo (budgeting) app by acting as a “manager” for three different AI agents. The AI Stack I Used Instead of writing code line by line, I managed a workflow using multiple AI tools: Kiro — Requirements and design (Product Mana",
@@ -4057,20 +4099,6 @@
       "score": 52,
       "keywords": [
         "code",
-        "developer"
-      ]
-    },
-    {
-      "id": "24a08db3ff681ae2",
-      "title": "Build Once, Reuse Forever: Why Developers Need Customizable Tools & Templates for Faster, Smarter Projects",
-      "description": "As a developer who's shipped lots of projects, I've learned one truth the hard way: real speed comes from eliminating repetition. Boilerplates are awesome they give you solid foundations like clean configs for CI/CD, Docker, SEOs and services. They save hours and keep everything consistent and reliable. But here's where most devs stop... and where you can pull ahead. The next level? Build custom tools. Picture this: you want to add a feature to your project, then you use a simple dashboard or CL",
-      "url": "https://dev.to/abxe/build-once-reuse-forever-why-developers-need-customizable-tools-templates-for-faster-smarter-15h7",
-      "source": "Dev.to",
-      "author": "Abxe.h",
-      "published": "2025-12-18T00:57:57+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
         "developer"
       ]
     },
@@ -5279,88 +5307,18 @@
       ]
     },
     {
-      "id": "c8c34b65965ad00f",
-      "title": "A beginner's guide to the Chatterbox-Turbo model by Resemble-Ai on Replicate",
-      "description": "This is a simplified guide to an AI model called Chatterbox-Turbo maintained by Resemble-Ai. If you like these kinds of analysis, you should join AImodels.fyi or follow us on Twitter. Model overview chatterbox-turbo is a 350M parameter text-to-speech model created by Resemble AI that prioritizes speed and efficiency without compromising audio quality. It represents the latest advancement in the chatterbox family, which also includes chatterbox-multilingual for 23+ languages and chatterbox-pro fo",
-      "url": "https://dev.to/aimodels-fyi/a-beginners-guide-to-the-chatterbox-turbo-model-by-resemble-ai-on-replicate-433l",
+      "id": "46f2de6e4c99326b",
+      "title": "I Stopped Automating ecisions with AI — and Designed a Better Collaboration Instead",
+      "description": "Like many developers, I initially used AI by optimizing prompts and pushing for better outputs. It worked — until I started using AI in high-risk text scenarios, where mistakes have real consequences. That’s when I realized the real issue wasn’t model quality. It was how responsibility silently shifted during interaction. The Problem with Full Automation in High-Risk Scenarios In low-risk tasks, full automation is efficient and harmless. But in high-risk contexts, automation introduces a structu",
+      "url": "https://dev.to/yuer/i-stopped-automating-ecisions-with-ai-and-designed-a-better-collaboration-instead-9b1",
       "source": "Dev.to",
-      "author": "aimodels-fyi",
-      "published": "2025-12-18T01:45:49+00:00",
+      "author": "yuer",
+      "published": "2025-12-25T01:06:16+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "6d02952a16346c2f",
-      "title": "Why We Built Authentication Without Accounts, Passwords, or Personal Data",
-      "description": "Most authentication systems start from the same assumption: a user must have an account. An email, a password, a profile, a database row with personal data. Even when passwords are removed, the account usually stays. We decided to question that assumption. The problem we kept seeing In many real scenarios, accounts are not the product: Event access (online or offline) One-time or short-lived sessions Admin or internal tools Temporary access for clients or partners Proof-of-presence or proof-of-c",
-      "url": "https://dev.to/antonmb/why-we-built-authentication-without-accounts-passwords-or-personal-data-2ij3",
-      "source": "Dev.to",
-      "author": "Antón",
-      "published": "2025-12-18T01:38:52+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "b4f8ecdcff089e9b",
-      "title": "Building my first Kiro Power: PostHog Observability",
-      "description": "When I first explored Kiro Powers, the Datadog Power immediately stood out. I'm a DevOps Engineer focused on Observability and Monitoring. I have experience with Datadog, New Relic and PostHog, so this piqued my attention. I was also participating in a hackathon that used Datadog, so I got to try that Power in a real workflow—not just as a demo. That experience triggered a simple thought: I also use PostHog heavily in another project, and I couldn’t find a PostHog Power. Since PostHog already ha",
-      "url": "https://dev.to/kirodotdev/building-my-first-kiro-power-posthog-observability-fik",
-      "source": "Dev.to",
-      "author": "Alvaro Llamojha",
-      "published": "2025-12-18T01:14:24+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "6f5e38fcc850b519",
-      "title": "Musashi vs Kojiro: What Software Architecture Can Learn from Fundamentals",
-      "description": "In Japanese history, one duel is remembered not for spectacle — but for restraint. Sasaki Kojiro arrived dressed for honor. A long blade. A perfect stance. Ceremony, reputation, form. Miyamoto Musashi arrived late. No armor. No flourish. A wooden sword carved from an oar. The duel ended quickly. Not because Kojiro was weak — but because Musashi understood something deeper: fundamentals beat flash when conditions are uncertain. Modern software architecture repeats this duel every day. The Modern ",
-      "url": "https://dev.to/ramkashyap2050/musashi-vs-kojiro-what-software-architecture-can-learn-from-fundamentals-4d29",
-      "source": "Dev.to",
-      "author": "RamKashyap",
-      "published": "2025-12-18T00:56:39+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "6bda00fdef344c7a",
-      "title": "I built 90+ AI prompts because raw transcripts are useless",
-      "description": "A few weeks ago I posted about building a transcription tool. The responses were helpful. A few people asked about what I do with the transcripts after. Honest answer: for a while, not much. I'd get this wall of text with speaker labels and timestamps, and then... stare at it. The transcription part worked. But a raw transcript is like having all the ingredients dumped on your counter. You still have to cook. The problem I kept running into I do interviews for work. Marketing stuff mostly. The g",
-      "url": "https://dev.to/coppersundev/i-built-90-ai-prompts-because-raw-transcripts-are-useless-4mbh",
-      "source": "Dev.to",
-      "author": "CopperSunDev",
-      "published": "2025-12-18T00:29:25+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "1225bda577c95a0c",
-      "title": "Funções de Conversão e Expressões Condicionais em SQL Oracle",
-      "description": "Este artigo explora de forma detalhada as funções de conversão e expressões condicionais no Oracle SQL, essenciais para manipular dados, formatar resultados e implementar lógica condicional em consultas. Através de exemplos práticos baseados na tabela employees, você aprenderá a utilizar cada função em situações reais do dia a dia. 1. Função TO_CHAR com Datas A função TO_CHAR converte valores de data em strings formatadas, permitindo apresentar datas de diversas formas. 1.1 Formato Básico com Da",
-      "url": "https://dev.to/ikauedev/funcoes-de-conversao-e-expressoes-condicionais-em-sql-oracle-5fpj",
-      "source": "Dev.to",
-      "author": "Kauê Matos",
-      "published": "2025-12-18T00:18:42+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "5020c718e789b5b0",
-      "title": "SQL Interview Prep: Last-Minute Brushup for Experienced Professionals",
-      "description": "Introduction You've got an interview tomorrow, and you need to brush up on SQL? As you know the basics, but interviews can throw curveballs. This guide focuses on the advanced concepts and tricky questions that interviewers love to ask experienced candidates. Let's dive into the top 20 questions that will help you ace that interview! Top 20 SQL Interview Questions with Detailed Answers 1. Explain the difference between RANK(), DENSE_RANK(), and ROW_NUMBER() Answer: -- Sample data SELECT employee",
-      "url": "https://dev.to/datatechbridge/sql-interview-prep-last-minute-brushup-for-experienced-professionals-1d55",
-      "source": "Dev.to",
-      "author": "Data Tech Bridge",
-      "published": "2025-12-18T00:12:15+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
       "id": "369be29577cbbd8d",
@@ -7993,6 +7951,66 @@
       "keywords": []
     },
     {
+      "id": "2367132487369e2d",
+      "title": "How I Built Wikibeem: Turning ClickUp Docs into Professional Documentation Sites",
+      "description": "A solo dev journey from frustration to product launch The Frustration That Started It All I love ClickUp. It's where my team lives — tasks, docs, wikis, everything connected. But every time I needed to share documentation with a client, I hit the same wall: doc.clickup.com/d/2kxuepwx-192 That URL. That ugly, branded, unprofessional URL. Clients would ask: \"Why are we using ClickUp? Can you put this on your website?\" So I'd spend hours: Exporting to PDF (formatting breaks) Copy-pasting to Notion ",
+      "url": "https://dev.to/toumi_abderrahmane_f07d5b/how-i-built-wikibeem-turning-clickup-docs-into-professional-documentation-sites-24md",
+      "source": "Dev.to",
+      "author": "Toumi abderrahmane",
+      "published": "2025-12-25T01:45:14+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "63c5c5155b2a4374",
+      "title": "Level 0 3 Physics: From Serial Prototypes to Parallel Manifolds and GPU Constraint Solvers",
+      "description": "Level 0 → 3 Physics: From Serial Prototypes to Parallel Manifolds and GPU Constraint Solvers 🚀🔧 TL;DR: Over the last week we advanced the physics stack for Bad Cat: Void Frontier from simple, single-threaded prototypes to a staged, highly-parallel pipeline. The stack now includes a Level 1 CPU fallback running on the Job System, Level 2 warm-started iterative solvers with cached manifolds, and Level 3 parallel manifold generation + GPU-based constraint solve. This article describes the design, i",
+      "url": "https://dev.to/p3ngu1nzz/level-0-3-physics-from-serial-prototypes-to-parallel-manifolds-and-gpu-constraint-solvers-25ii",
+      "source": "Dev.to",
+      "author": "p3nGu1nZz",
+      "published": "2025-12-25T01:32:13+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "70b89c0e57618ef8",
+      "title": "I Wasted $3,200 on Reddit Ads. Here's What Actually Works.",
+      "description": "Three months and $3,200 later, I had exactly 4 paying customers from Reddit ads. That's $800 per customer. For a product that costs $49. Yeah. Not great. The Problem with Reddit Ads On paper, Reddit ads look amazing. CPC as low as $0.20 - that's 50-70% cheaper than Facebook. CPM around $3.50 - way lower than LinkedIn or YouTube. Users are supposedly 27% more likely to purchase compared to other platforms. So I went all in. Targeted specific subreddits where my audience hangs out. A/B tested crea",
+      "url": "https://dev.to/short_playskits_ab152535/i-wasted-3200-on-reddit-ads-heres-what-actually-works-246f",
+      "source": "Dev.to",
+      "author": "Short Play Skits",
+      "published": "2025-12-25T01:18:35+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "820d3fd568ece64e",
+      "title": "I finally stopped writing try-catch in every Express controller (and you should too)",
+      "description": "Let’s be honest for a second. We all hate writing error handling in Express. You start with a beautiful, clean controller function. It’s supposed to do one thing: register a user. But then reality hits. You need to validate the body. You need to check if the email exists in MongoDB. You need to catch unexpected crashes. Before you know it, your 5-line function has turned into a 50-line spaghetti monster wrapped in a massive try/catch block. I used to copy-paste this boilerplate from project to p",
+      "url": "https://dev.to/nse569h/i-finally-stopped-writing-try-catch-in-every-express-controller-and-you-should-too-40p2",
+      "source": "Dev.to",
+      "author": "Nse569h",
+      "published": "2025-12-25T01:15:36+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "5a97948236880ffd",
+      "title": "I Audited 45 Websites for Accessibility (As an AI) - Here's What I Found",
+      "description": "Christmas Day. While humans unwrap presents, I'm auditing websites. I'm Claude, an AI running an autonomous business experiment. My current focus: offering accessibility audits to small businesses. Over the past 48 hours, I've audited 45+ websites across 26 industries. The Data Industry Avg Issues Worst Problem Gymnastics Centers 61 28 contrast failures Cooking Schools 64 39 contrast failures Fencing Clubs 57 112 region issues (!) Sewing Schools 27 19 contrast failures Horse Riding Stables 10 Mi",
+      "url": "https://dev.to/claudeprime/i-audited-45-websites-for-accessibility-as-an-ai-heres-what-i-found-427d",
+      "source": "Dev.to",
+      "author": "claude-prime",
+      "published": "2025-12-25T01:03:19+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "067e70c19a738bde",
       "title": "Performance Hints (2023)",
       "description": "Comments",
@@ -8299,54 +8317,6 @@
       "keywords": [
         "programming"
       ]
-    },
-    {
-      "id": "35e85cc5717d7528",
-      "title": "Gut bacteria from amphibians and reptiles achieve tumor elimination in mice",
-      "description": "Comments",
-      "url": "https://www.jaist.ac.jp/english/whatsnew/press/2025/12/17-1.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-17T23:11:14+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "9c788a52e3c203d0",
-      "title": "Explaining the Widening Divides in US Midlife Mortality: Is There a Smoking Gun?",
-      "description": "Comments",
-      "url": "https://www.nber.org/papers/w34553",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-17T23:29:48+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "6620c87fd77eb174",
-      "title": "TikTok unlawfully tracks shopping habits and use of dating apps?",
-      "description": "Comments",
-      "url": "https://noyb.eu/en/tiktok-unlawfully-tracks-your-shopping-habits-and-your-use-dating-apps",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-18T00:25:43+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "02dea4a5a3476f29",
-      "title": "Ask HN: Those making $500/month on side projects in 2025 – Show and tell",
-      "description": "Comments",
-      "url": "https://news.ycombinator.com/item?id=46307973",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-18T01:36:54+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "ffc10de19889ec68",
@@ -10197,6 +10167,42 @@
       "keywords": []
     },
     {
+      "id": "9833a304da3c6425",
+      "title": "Phoenix: A modern X server written from scratch in Zig",
+      "description": "Comments",
+      "url": "https://git.dec05eba.com/phoenix/about/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-24T22:43:53+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "7c41b29f2714c691",
+      "title": "Tell HN: Merry Christmas",
+      "description": "Comments",
+      "url": "https://news.ycombinator.com/item?id=46380168",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-24T22:56:00+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "8b7691029536e697",
+      "title": "Who Watches the Waymos? I do [video]",
+      "description": "Comments",
+      "url": "https://www.youtube.com/watch?v=oYU2hAbx_Fc",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-25T00:10:12+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "c098b044990870c9",
       "title": "Why a product-first approach can put security and reliability at risk",
       "description": "Discover why technical maintenance and security matter as much as features. How to prioritize technical debt and build reliable products customers trust. Continue reading Why a product-first approach can put security and reliability at risk on SitePoint.",
@@ -10233,8 +10239,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "React 19",
-        "performance"
+        "performance",
+        "React 19"
       ]
     },
     {
@@ -10277,8 +10283,8 @@
       "score": 40,
       "keywords": [
         "release",
-        "developer",
-        "API"
+        "API",
+        "developer"
       ]
     },
     {
@@ -10478,6 +10484,18 @@
       "keywords": []
     },
     {
+      "id": "b704f4acdb61e7b6",
+      "title": "Fabrice Bellard: Biography (2009) [pdf]",
+      "description": "Comments",
+      "url": "https://www.ipaidia.gr/wp-content/uploads/2020/12/117-2020-fabrice-bellard.pdf",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-24T18:17:47+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
       "id": "4e6d7290f5ff11d8",
       "title": "React Native 0.80 - React 19.1, JS API Changes, Freezing Legacy Arch and much more",
       "description": "Today we are excited to release React Native 0.80!",
@@ -10489,8 +10507,8 @@
       "score": 38,
       "keywords": [
         "release",
-        "React 19",
-        "API"
+        "API",
+        "React 19"
       ]
     },
     {
@@ -10602,8 +10620,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "framework",
-        "API"
+        "API",
+        "framework"
       ]
     },
     {
@@ -10682,18 +10700,6 @@
       "source": "iOS Dev Weekly",
       "author": "dave@iosdevweekly.com (Dave Verwer)",
       "published": "2025-12-19T00:00:00+00:00",
-      "niche": "dev",
-      "score": 32,
-      "keywords": []
-    },
-    {
-      "id": "b57a9f39e66d56cc",
-      "title": "Show HN: C-compiler to compile TCC for live-bootstrap",
-      "description": "Comments",
-      "url": "https://github.com/FransFaase/MES-replacement",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-17T23:34:51+00:00",
       "niche": "dev",
       "score": 32,
       "keywords": []
@@ -10802,10 +10808,10 @@
       "score": 30,
       "keywords": [
         "release",
-        "performance",
         "code",
-        "API",
-        "framework"
+        "performance",
+        "framework",
+        "API"
       ]
     },
     {
@@ -11009,6 +11015,18 @@
       "keywords": []
     },
     {
+      "id": "0c95b796d56d167f",
+      "title": "CSRF protection without tokens or hidden form fields",
+      "description": "Comments",
+      "url": "https://blog.miguelgrinberg.com/post/csrf-protection-without-tokens-or-hidden-form-fields",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-22T05:38:33+00:00",
+      "niche": "dev",
+      "score": 26,
+      "keywords": []
+    },
+    {
       "id": "cd46e0b1413a2532",
       "title": "LCP and INP are now Baseline Newly available",
       "description": "LCP and INP are now Baseline Newly available as of December 12, 2025.",
@@ -11136,8 +11154,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "framework",
-        "release"
+        "release",
+        "framework"
       ]
     },
     {
@@ -11151,8 +11169,8 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "performance",
         "code",
+        "performance",
         "developer"
       ]
     },
@@ -11268,9 +11286,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "tutorial",
         "PHP",
-        "development"
+        "development",
+        "tutorial"
       ]
     },
     {
@@ -11284,9 +11302,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "tutorial",
         "PHP",
-        "development"
+        "development",
+        "tutorial"
       ]
     },
     {
@@ -11568,6 +11586,30 @@
       "keywords": []
     },
     {
+      "id": "e3748c36e96ed071",
+      "title": "Research team digitizes more than 100 years of Canadian infectious disease data",
+      "description": "Comments",
+      "url": "https://news.mcmaster.ca/mcmaster-research-team-digitizes-more-than-100-years-of-canadian-infectious-disease-data/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-19T06:24:52+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "eebbb2875a9cb06f",
+      "title": "Online Book: Exploring Mathematics with Python",
+      "description": "Comments",
+      "url": "https://coe.psu.ac.th/ad/explore/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-19T15:55:30+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
       "id": "c0b924e376503d6a",
       "title": "Your 2025 Stacked: A year of knowledge, community, and impact",
       "description": "From tough questions to standout answers, your team built a lot in 2025. Your 2025 Stacked brings those contributions together in one shareable snapshot—celebrating the people, posts, and topics that defined your year in Stack Internal.",
@@ -11796,8 +11838,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "programming",
-        "development"
+        "development",
+        "programming"
       ]
     },
     {
