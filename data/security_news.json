@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-26T06:39:50.621729+00:00",
-  "total_articles": 311,
+  "last_updated": "2025-12-26T09:28:23.101743+00:00",
+  "total_articles": 317,
   "articles": [
     {
       "id": "c5dc48e965e9cc93",
@@ -177,23 +177,6 @@
         "security flaw",
         "exploit",
         "security"
-      ]
-    },
-    {
-      "id": "9b93745f95c1cc2f",
-      "title": "New UEFI Flaw Enables Early-Boot DMA Attacks on ASRock, ASUS, GIGABYTE, MSI Motherboards",
-      "description": "Certain motherboard models from vendors like ASRock, ASUSTeK Computer, GIGABYTE, and MSI are affected by a security vulnerability that leaves them susceptible to early-boot direct memory access (DMA) attacks across architectures that implement a Unified Extensible Firmware Interface (UEFI) and input–output memory management unit (IOMMU). UEFI and IOMMU are designed to enforce a security",
-      "url": "https://thehackernews.com/2025/12/new-uefi-flaw-enables-early-boot-dma.html",
-      "source": "The Hacker News",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2025-12-19T13:55:00+05:30",
-      "niche": "security",
-      "score": 99,
-      "keywords": [
-        "security",
-        "attack",
-        "vulnerability",
-        "RCE"
       ]
     },
     {
@@ -717,24 +700,6 @@
       ]
     },
     {
-      "id": "341867ac9a88b871",
-      "title": "China-linked APT UAT-9686 is targeting Cisco Secure Email Gateway and Secure Email and Web Manager",
-      "description": "Cisco disclosed a critical zero-day (CVE-2025-20393) in Secure Email Gateway and Secure Email and Web Manager, actively exploited by a China-linked group. Cisco disclosed a critical zero-day, tracked as CVE-2025-20393, in Secure Email Gateway and Secure Email/Web Manager, which is actively exploited by a China-linked threat group. Cisco reported a December 10 campaign targeting certain [&#8230;]",
-      "url": "https://securityaffairs.com/185861/apt/china-linked-apt-uat-9686-is-targeting-cisco-secure-email-gateway-and-secure-email-and-web-manager.html",
-      "source": "Security Affairs",
-      "author": "Pierluigi Paganini",
-      "published": "2025-12-19T08:53:41+00:00",
-      "niche": "security",
-      "score": 76,
-      "keywords": [
-        "threat",
-        "zero-day",
-        "CVE-",
-        "secure",
-        "exploit"
-      ]
-    },
-    {
       "id": "561aecfbba0d7f8b",
       "title": "U.S. CISA adds a flaw in WatchGuard Fireware OS to its Known Exploited Vulnerabilities catalog",
       "description": "U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds a WatchGuard Fireware OS flaw to its Known Exploited Vulnerabilities catalog. The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added a WatchGuard Firebox OS vulnerability, tracked as CVE-2025-14733 (CVSS Score of 9.3), to its Known Exploited Vulnerabilities (KEV) catalog. This flaw is a critical out-of-bounds write vulnerability in WatchGuard Fireware [&#8230;]",
@@ -875,11 +840,11 @@
       "niche": "security",
       "score": 75,
       "keywords": [
+        "zero-day",
         "security",
-        "patch",
         "exploit",
         "security flaw",
-        "zero-day"
+        "patch"
       ]
     },
     {
@@ -1322,18 +1287,6 @@
       ]
     },
     {
-      "id": "d3a80863bd187d7f",
-      "title": "FTC: Instacart to refund $60M over deceptive subscription tactics",
-      "description": "Grocery delivery service Instacart will refund $60 million to settle FTC claims that it misled customers with false advertising and unlawfully enrolled them in paid subscriptions. [...]",
-      "url": "https://www.bleepingcomputer.com/news/legal/instacart-to-refund-60m-over-deceptive-subscription-tactics/",
-      "source": "Bleeping Computer",
-      "author": "Sergiu Gatlan",
-      "published": "2025-12-19T04:19:40-05:00",
-      "niche": "security",
-      "score": 64,
-      "keywords": []
-    },
-    {
       "id": "2231f0aa286ff5e6",
       "title": "Microsoft confirms Teams is down and messages are delayed",
       "description": "Microsoft Teams is experiencing issues, with thousands reporting problems sending messages, including delays. [...]",
@@ -1432,10 +1385,28 @@
       "niche": "security",
       "score": 63,
       "keywords": [
-        "zero-day",
         "security",
+        "exploit",
         "patch",
-        "exploit"
+        "zero-day"
+      ]
+    },
+    {
+      "id": "aaf41de66de47f6f",
+      "title": "7 SASE certifications to validate converged network and security skills",
+      "description": "As cyberattacks grow more sophisticated and AI-powered threats escalate, enterprises are under pressure to evolve beyond traditional perimeter-based network security. Many are turning to Secure Access Service Edge (SASE), a cloud-native framework that converges network and security functions to protect distributed workforces, optimize network performance, and simplify management across multiple tools. SASE platforms typically include SD-WAN, secure web gateway (SWG), firewall as a service (FWaaS",
+      "url": "https://www.csoonline.com/article/4108280/7-sase-certifications-to-validate-converged-network-and-security-skills-2.html",
+      "source": "CSO Online",
+      "author": "Inconnu",
+      "published": "2025-12-26T07:00:00+00:00",
+      "niche": "security",
+      "score": 63,
+      "keywords": [
+        "secure",
+        "attack",
+        "security",
+        "threat",
+        "RCE"
       ]
     },
     {
@@ -1524,8 +1495,8 @@
       "score": 61,
       "keywords": [
         "OWASP",
-        "RCE",
         "security",
+        "RCE",
         "secure"
       ]
     },
@@ -1556,38 +1527,6 @@
       "keywords": [
         "security",
         "exploit"
-      ]
-    },
-    {
-      "id": "33c96529e7afd9f8",
-      "title": "Managing agentic AI risk: Lessons from the OWASP Top 10",
-      "description": "LLM-powered chatbots have risks that we see playing out in the headlines on a nearly daily basis. But chatbots are limited to answering questions. AI agents, however, access data and tools and carry out tasks, making them infinitely more capable – and more dangerous to enterprises. The OWASP Top 10 for Agentic Applications can help CISOs explain what the issues are to their business counterparts. It can also help CISOs to directly improve agentic AI security, because it comes with threats taxono",
-      "url": "https://www.csoonline.com/article/4109123/managing-agentic-ai-risk-lessons-from-the-owasp-top-10.html",
-      "source": "CSO Online",
-      "author": "Inconnu",
-      "published": "2025-12-19T07:00:00+00:00",
-      "niche": "security",
-      "score": 58,
-      "keywords": [
-        "security",
-        "threat",
-        "OWASP"
-      ]
-    },
-    {
-      "id": "af52bcb075f1566d",
-      "title": "Ce mec a entraîné une IA avec 4000 rapports de bug bounty pour chasser les failles automatiquement",
-      "description": "Voilà un outil qui va plaire à ceux qui chassent les failles de sécurité... Ce projet s'appelle Security Skills et c'est un système de compétences pour agents IA (genre Claude Code ou Gemini CLI) qui transforme votre proxy mitmproxy en chasseur de failles automatisé. Vous lui dites \"trouve-moi des problèmes de sécurité sur example.com\" et l'IA se met à analyser le trafic HTTP intercepté en appliquant des patterns qu'elle a appris de vrais bugs rémunérés.",
-      "url": "https://korben.info/instavm-security-agent-ia-bug-bounty-mitmproxy.html",
-      "source": "Korben",
-      "author": "Korben",
-      "published": "2025-12-19T08:00:00+01:00",
-      "niche": "security",
-      "score": 58,
-      "keywords": [
-        "security",
-        "bug bounty",
-        "RCE"
       ]
     },
     {
@@ -1637,18 +1576,6 @@
         "ransomware",
         "attack"
       ]
-    },
-    {
-      "id": "7c0ffebd2e1f38de",
-      "title": "Quand une IA se fait arnaquer de 1000$ en gérant un distributeur automatique",
-      "description": "Vous pensez que les IA vont nous remplacer et dominer le monde ? Ahaha, bah y'a encore un peu de boulot... car laissez-moi vous raconter l'histoire de Claude, l'IA d'Anthropic, qui s'est fait rouler comme un bleu par une bande de journalistes et a perdu plus de 1000 dollars en gérant... un distributeur automatique. L'histoire se passe dans les locaux du Wall Street Journal où Anthropic a eu la brillante idée de tester son IA en situation réelle. Le projet s'appelle \"Project Vend\" et il s'agit po",
-      "url": "https://korben.info/claude-ia-distributeur-automatique-manipulation-anthropic.html",
-      "source": "Korben",
-      "author": "Korben",
-      "published": "2025-12-19T09:00:00+01:00",
-      "niche": "security",
-      "score": 57,
-      "keywords": []
     },
     {
       "id": "b3f335bbc471024e",
@@ -2079,8 +2006,8 @@
       "score": 54,
       "keywords": [
         "attack",
-        "vulnerability",
         "exploit",
+        "vulnerability",
         "CVE-"
       ]
     },
@@ -2284,6 +2211,20 @@
       ]
     },
     {
+      "id": "18d421ac9fd3b321",
+      "title": "Quand l'IA vous aider à hacker la mémoire des jeux",
+      "description": "Les vieux de la vieille connaissent forcement Cheat Engine puisque c'est LE logiciel culte pour tripatouiller la mémoire des jeux , trouver l'adresse où est stockée votre santé, votre or, vos munitions, et la modifier à la volée. Sauf que manuellement, c'est un travail de fourmi... Trouver un pointeur stable qui ne change pas à chaque redémarrage du jeu, ça peut prendre des jours, voire des semaines de bidouillage. Hé bien quelqu'un a eu l'idée un peu folle de brancher Claude directement sur Che",
+      "url": "https://korben.info/cheat-engine-mcp-bridge-claude-ia-memoire.html",
+      "source": "Korben",
+      "author": "Korben",
+      "published": "2025-12-26T07:42:33+01:00",
+      "niche": "security",
+      "score": 52,
+      "keywords": [
+        "RCE"
+      ]
+    },
+    {
       "id": "1ba8de02ba007e98",
       "title": "ServiceNow Buys Armis for $7.75B, Gets 'AI Control Tower'",
       "description": "Its latest cybersecurity acquisition will help further ServiceNow's plans for autonomous cybersecurity, and building a security stack to proactively manage AI.",
@@ -2325,8 +2266,8 @@
       "score": 51,
       "keywords": [
         "disclosure",
-        "vulnerability",
-        "patch"
+        "patch",
+        "vulnerability"
       ]
     },
     {
@@ -2340,8 +2281,8 @@
       "niche": "security",
       "score": 51,
       "keywords": [
-        "attack",
         "security",
+        "attack",
         "exploit"
       ]
     },
@@ -2441,8 +2382,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "RCE",
-        "security"
+        "security",
+        "RCE"
       ]
     },
     {
@@ -2846,8 +2787,8 @@
       "score": 43,
       "keywords": [
         "OWASP",
-        "RCE",
         "security",
+        "RCE",
         "secure"
       ]
     },
@@ -2859,18 +2800,6 @@
       "source": "CNIL Actualités",
       "author": "CNIL",
       "published": "2025-12-19T13:00:00+01:00",
-      "niche": "security",
-      "score": 42,
-      "keywords": []
-    },
-    {
-      "id": "482287f069395b47",
-      "title": "Firefox ajoute un bouton pour désactiver toute l'IA - On peut se détendre... ^^",
-      "description": "Bon bah voilà, tout le monde peut redescendre en pression après cette polémique quand Mozilla a annoncé qu'il allait intégrer des fonctionnalités IA dans Firefox. C'est vrai que les forums Reddit sont entrés en fusion, les puristes du logiciel libre en mode révolution, et je ne vous parle pas des menaces de migration vers je ne sais quel fork obscur... Hé bien Mozilla vient de calmer le jeu un bon coup en annonçant un \"kill switch\" capable de désactiver complètement toutes les fonctionnalités IA",
-      "url": "https://korben.info/firefox-kill-switch-ia-desactiver-fonctionnalites.html",
-      "source": "Korben",
-      "author": "Korben",
-      "published": "2025-12-19T10:00:00+01:00",
       "niche": "security",
       "score": 42,
       "keywords": []
@@ -3307,8 +3236,8 @@
       "score": 42,
       "keywords": [
         "attack",
-        "vulnerability",
-        "RCE"
+        "RCE",
+        "vulnerability"
       ]
     },
     {
@@ -3355,9 +3284,33 @@
       "score": 42,
       "keywords": [
         "OWASP",
-        "RCE",
-        "security"
+        "security",
+        "RCE"
       ]
+    },
+    {
+      "id": "d092cc13e687bbf8",
+      "title": "Quand X récompense ceux qui propagent de fausses infos après un attentat",
+      "description": "Pour ceux qui auraient raté l'info, deux terroristes ont ouvert le feu le 14 décembre dernier, lors d'une célébration de Hanoukka à Bondi Beach (Sydney en Australie), tuant 15 personnes. Et dans les minutes qui ont suivi, X s'est transformé, comme à son habitude, en machine à désinformation... Un homme d'affaires pakistanais portant le même nom que l'un des tireurs (Naveed Akram) s'est alors retrouvé accusé d'être l'auteur de l'attentat. Sa photo a été partagée des milliers de fois, il a reçu de",
+      "url": "https://korben.info/x-twitter-monetisation-desinformation-bondi-beach.html",
+      "source": "Korben",
+      "author": "Korben",
+      "published": "2025-12-26T09:20:30+01:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "1974506f275816d5",
+      "title": "ddrescue + Raspberry Pi Imager - Le combo pour cloner vos cartes SD sans vous arracher les cheveux",
+      "description": "Vous avez un parc de Raspberry Pi à déployer et vous en avez marre de refaire la config à chaque fois ? Ou pire, votre carte SD commence à faire des siennes et vous voulez la sauver avant qu'elle rende l'âme ? Hé bien j'ai le combo parfait pour vous les amis ! Je vais vous parler en réalité de deux outils complémentaires que vous connaissez déjà je pense : ddrescue pour le clonage/sauvetage de cartes SD, et Raspberry Pi Imager pour créer des images préconfigurées. Ensemble, ils forment une chaîn",
+      "url": "https://korben.info/ddrescue-raspberry-pi-imager-clonage-carte-sd.html",
+      "source": "Korben",
+      "author": "Korben",
+      "published": "2025-12-26T09:00:00+01:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": []
     },
     {
       "id": "31aa909a911cd1f2",
@@ -3419,6 +3372,23 @@
       "score": 39,
       "keywords": [
         "secure"
+      ]
+    },
+    {
+      "id": "a97b8cc4c8bfd938",
+      "title": "Smashing Security podcast #448: The Kindle that got pwned",
+      "description": "Think your Kindle is harmless? Think again! In this episode, we unpack a Black Hat Europe talk revealing how a boobytrapped audiobook could exploit the Amazon eBook reader - potentially letting an attacker break into your account and seize control of your credit card. Plus a blast from 2021's \"summer of ransomware\" returns to haunt Ireland's Health Service Executive, as victims are offered €750 each. And because it's the last show before the Christmas break, there's also a Pick of the Week that ",
+      "url": "https://grahamcluley.com/smashing-security-podcast-448/",
+      "source": "Graham Cluley",
+      "author": "Graham Cluley",
+      "published": "2025-12-18T00:30:44+00:00",
+      "niche": "security",
+      "score": 38,
+      "keywords": [
+        "ransomware",
+        "attack",
+        "security",
+        "exploit"
       ]
     },
     {
@@ -3535,9 +3505,9 @@
       "score": 37,
       "keywords": [
         "OWASP",
+        "security",
         "web application security",
-        "threat",
-        "security"
+        "threat"
       ]
     },
     {
@@ -3555,6 +3525,22 @@
       ]
     },
     {
+      "id": "11c6951e0a94b0e6",
+      "title": "Ransomware may have extorted over $2.1 billion between 2022-2024, but it’s not all bad news, claims FinCEN report",
+      "description": "A new report from the United States's Financial Crimes Enforcement Network (FinCEN) has shone a revealing light on the state of the criminal industry of ransomware. The report, which examines ransomware incidents from 2022 to 2024, reveals that attackers extorted more than $2.1 billion over the three-year period. Yes, that number is enormous - but it hides a more interesting story beneath it: that after peaking in 2023, ransomware payments actually started to decline. Read more in my article on ",
+      "url": "https://www.fortra.com/blog/ransomware-may-have-extorted-over-21-billion-between-2022-2024-its-not-all-bad-news-claims",
+      "source": "Graham Cluley",
+      "author": "Graham Cluley",
+      "published": "2025-12-10T16:17:02+00:00",
+      "niche": "security",
+      "score": 35,
+      "keywords": [
+        "ransomware",
+        "attack",
+        "RCE"
+      ]
+    },
+    {
       "id": "dba2a0d71b33a03d",
       "title": "The OWASP Foundation appoints Stacey Ebbs as Communications & Marketing Manager",
       "description": "The OWASP Foundation is pleased to announce the appointment of Stacey Ebbs as Communications and Marketing Manager. Stacey brings more than a decade of experience in marketing, events, and community engagement within the cybersecurity and technology sectors. Stacey joins OWASP from IriusRisk, where she served as Field & Partner Marketing Manager for EMEA, leading regional campaigns, managing partner and social strategy, and driving global community engagement through initiatives like the Threat ",
@@ -3566,9 +3552,9 @@
       "score": 34,
       "keywords": [
         "OWASP",
-        "threat",
         "security",
-        "cybersecurity"
+        "cybersecurity",
+        "threat"
       ]
     },
     {
@@ -3642,6 +3628,22 @@
       "keywords": []
     },
     {
+      "id": "84ce414813abddf3",
+      "title": "Four years later, Irish health service offers €750 to victims of ransomware attack",
+      "description": "Remember when a notorious ransomware gang hit the Irish Health Service back in May 2021? Four years on, and it seems victims who had their data exposed will finally receive compensation. Read more in my article on the Hot for Security blog.",
+      "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/four-years-later-irish-health-service-offers-eu750-to-victims-of-ransomware-attack",
+      "source": "Graham Cluley",
+      "author": "Graham Cluley",
+      "published": "2025-12-10T12:00:59+00:00",
+      "niche": "security",
+      "score": 28,
+      "keywords": [
+        "ransomware",
+        "attack",
+        "security"
+      ]
+    },
+    {
       "id": "bb60ff15b01935d0",
       "title": "Weekly Update 482",
       "description": "Perhaps it&apos;s just the time of year where we all start to wind down a bit, or maybe I&apos;m just tired after another massive 12 months, but this week&apos;s vid is way late. Ok, going away to the place that had just been breached",
@@ -3708,8 +3710,8 @@
       "niche": "security",
       "score": 26,
       "keywords": [
-        "injection",
-        "SQL injection"
+        "SQL injection",
+        "injection"
       ]
     },
     {
@@ -3825,6 +3827,21 @@
       ]
     },
     {
+      "id": "0a06157c56170543",
+      "title": "Smashing Security podcast #447: Grok the stalker, the Louvre heist, and Microsoft 365 mayhem",
+      "description": "On this week's show we learn that AI really can be a stalker’s best friend, as we explore a strange tale that starts with a manatee-shaped mailbox on a millionaire's lawn and ends with Grok happily doxxing real people, mapping out stalking \"strategies,\" and handing out revenge-porn tips. Then we go inside the Louvre heist, where thieves in hi-vis and a hire van waltzed off with the French crown jewels in broad daylight, exploiting our assumptions about what \"looks normal\" - the same kind of bias",
+      "url": "https://grahamcluley.com/smashing-security-podcast-447/",
+      "source": "Graham Cluley",
+      "author": "Graham Cluley",
+      "published": "2025-12-11T00:30:16+00:00",
+      "niche": "security",
+      "score": 25,
+      "keywords": [
+        "security",
+        "exploit"
+      ]
+    },
+    {
       "id": "554b17a6486d4a54",
       "title": "[webapps] Summar Employee Portal 3.98.0 - Authenticated SQL Injection",
       "description": "Summar Employee Portal 3.98.0 - Authenticated SQL Injection",
@@ -3835,8 +3852,8 @@
       "niche": "security",
       "score": 24,
       "keywords": [
-        "injection",
-        "SQL injection"
+        "SQL injection",
+        "injection"
       ]
     },
     {
@@ -3850,8 +3867,8 @@
       "niche": "security",
       "score": 24,
       "keywords": [
-        "injection",
-        "SQL injection"
+        "SQL injection",
+        "injection"
       ]
     },
     {
@@ -3865,8 +3882,8 @@
       "niche": "security",
       "score": 23,
       "keywords": [
-        "RCE",
-        "protection"
+        "protection",
+        "RCE"
       ]
     },
     {
@@ -3966,9 +3983,9 @@
       "niche": "security",
       "score": 19,
       "keywords": [
-        "PoC",
         "security",
-        "cybersecurity"
+        "cybersecurity",
+        "PoC"
       ]
     },
     {
@@ -3997,6 +4014,21 @@
       "score": 18,
       "keywords": [
         "security"
+      ]
+    },
+    {
+      "id": "da113beca8f3ef32",
+      "title": "Man jailed for teaching criminals how to use malware",
+      "description": "A 49-year-old man has received a five-and-a-half year jail sentence after admitting to creating detailed video tutorials that showed members of a criminal gang how to infect Android phones with spyware and drain their bank accounts. Read more in my article on the Hot for Security blog.",
+      "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/man-jailed-for-teaching-criminals-how-to-use-malware",
+      "source": "Graham Cluley",
+      "author": "Graham Cluley",
+      "published": "2025-12-15T10:25:46+00:00",
+      "niche": "security",
+      "score": 18,
+      "keywords": [
+        "security",
+        "malware"
       ]
     },
     {
@@ -4053,6 +4085,48 @@
       "score": 18,
       "keywords": [
         "attack"
+      ]
+    },
+    {
+      "id": "7a513582fdfec53a",
+      "title": "Surveillance at sea: Cruise firm bans smart glasses to curb covert recording",
+      "description": "If you're planning a cruise for your holidays, and cannot bear the idea of being parted from your Ray-Ban Meta smart glasses, you may want to avoid sailing with MSC Cruises. The cruise line has updated its list of prohibited items, specifically banning smart glasses and similar wearable devices from public areas. Read more in my article on the Hot for Security blog.",
+      "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/surveillance-at-sea-cruise-firm-bans-smart-glasses-to-curb-covert-recording",
+      "source": "Graham Cluley",
+      "author": "Graham Cluley",
+      "published": "2025-12-17T09:33:42+00:00",
+      "niche": "security",
+      "score": 15,
+      "keywords": [
+        "security"
+      ]
+    },
+    {
+      "id": "799d03865a61af49",
+      "title": "Gartner tells businesses to block AI browsers now",
+      "description": "Analyst firm Gartner has issued a blunt warning to organizations: Agentic AI browsers introduce serious new security risks and should be blocked \"for the foreseeable future.\" Read more in my article on the Fortra blog.",
+      "url": "https://www.fortra.com/blog/gartner-tells-businesses-block-ai-browsers-now",
+      "source": "Graham Cluley",
+      "author": "Graham Cluley",
+      "published": "2025-12-12T12:52:38+00:00",
+      "niche": "security",
+      "score": 15,
+      "keywords": [
+        "security"
+      ]
+    },
+    {
+      "id": "bd943f36ce991930",
+      "title": "California man admits role in $263 million cryptocurrency theft that funded lavish lifestyle",
+      "description": "When you spend half a million dollars in a single night at a nightclub, purchase exotic cars worth millions, and rent mansions under false names, you are risking drawing attention to yourself... Read more in my article on the Hot for Security blog.",
+      "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/california-man-admits-role-in-263-million-cryptocurrency-theft-that-funded-lavish-lifestyle",
+      "source": "Graham Cluley",
+      "author": "Graham Cluley",
+      "published": "2025-12-09T16:13:48+00:00",
+      "niche": "security",
+      "score": 15,
+      "keywords": [
+        "security"
       ]
     },
     {
@@ -4232,6 +4306,18 @@
       "keywords": [
         "protection"
       ]
+    },
+    {
+      "id": "f0161c2f7583d2eb",
+      "title": "The AI Fix #81: ChatGPT is the last AI you’ll understand, and your teacher is a deepfake",
+      "description": "In episode 81 of The AI Fix, Graham discovers that deepfakes are already marking your kids' homework, while Mark glimpses the future when he discovers AI agents that can communicate by reading each other's minds. Also in this episode, a Chinese robot called Miro U proves six arms are better than two; Mark discovers a well known prompting technique doesn't work unless you want to make your AI dumber; Network Rail delays 32 trains because of an AI photo of a wonky bridge; and our hosts ponder the ",
+      "url": "https://grahamcluley.com/the-ai-fix-81/",
+      "source": "Graham Cluley",
+      "author": "Graham Cluley",
+      "published": "2025-12-16T15:30:03+00:00",
+      "niche": "security",
+      "score": 12,
+      "keywords": []
     },
     {
       "id": "a4ecc5bb0f9a18e3",
