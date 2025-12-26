@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-26T18:39:32.176469+00:00",
+  "last_updated": "2025-12-26T21:26:27.315879+00:00",
   "total_articles": 189,
   "articles": [
     {
@@ -216,18 +216,6 @@
       "published": "2025-12-22T05:01:58+00:00",
       "niche": "spring",
       "score": 46,
-      "keywords": []
-    },
-    {
-      "id": "d51a2d020cbefc33",
-      "title": "Cloud Migration of Microservices: Strategy, Risks, and Best Practices",
-      "description": "The article discusses the principles of microservice architecture and its comparison with monolithic systems. It also covers migration strategies based on the 6R/7R model, as well as analysis of key risks, including budget overruns and security breaches.  Special attention is given to migration planning, monitoring, and automation methods, such as the use of Kubernetes, CI/CD (continuous integration/continuous delivery), DevSecOps (development, security, operations), and the Twelve-Factor App pr",
-      "url": "https://feeds.dzone.com/link/18931/17238116/cloud-migration-of-microservices",
-      "source": "DZone Microservices",
-      "author": "Olha Krasnozhon",
-      "published": "2025-12-19T20:00:00+00:00",
-      "niche": "spring",
-      "score": 42,
       "keywords": []
     },
     {
@@ -562,6 +550,30 @@
       "source": "DZone Microservices",
       "author": "Atish Kumar Dash",
       "published": "2025-12-26T18:00:00+00:00",
+      "niche": "spring",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "0fa3837ac9238de5",
+      "title": "Optimizing Java Applications for Arm64 in the Cloud",
+      "description": "Java remains one of the most popular languages for enterprise applications running on the cloud. While languages like Go, Rust, JavaScript, and Python have a high profile for cloud application developers, the RedMonk language rankings have ranked Java in the top three most popular languages throughout the history of the ranking. When deploying applications to the cloud, there are a few key differences between deployment environments and development environments. Whether you’re spinning up a micr",
+      "url": "https://feeds.dzone.com/link/18931/17242215/optimizing-java-arm64-cloud-applications",
+      "source": "DZone Microservices",
+      "author": "Dave Neary",
+      "published": "2025-12-26T21:00:00+00:00",
+      "niche": "spring",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "d3b27f53b339c0d4",
+      "title": "The Architecture of Prompts: Designing Reliable, Deterministic AI Systems",
+      "description": "If 2025 was the year organizations discovered prompt engineering as a discipline, 2026 will be when we establish it as standard practice. Prompts aren't clever text tricks—they're software components with architectures, failure modes, and lifecycle requirements. As production LLM deployments multiply, consequences escalate from \"weird response\" to \"compliance violation\" or \"incorrect customer data.\" This demands a fundamental shift: we must think about prompts like APIs or microservices. A promp",
+      "url": "https://feeds.dzone.com/link/18931/17242195/architecture-of-prompts-ai-systems",
+      "source": "DZone Microservices",
+      "author": "Mohan Sankaran",
+      "published": "2025-12-26T20:00:00+00:00",
       "niche": "spring",
       "score": 42,
       "keywords": []
@@ -1479,6 +1491,18 @@
       "keywords": []
     },
     {
+      "id": "d51a2d020cbefc33",
+      "title": "Cloud Migration of Microservices: Strategy, Risks, and Best Practices",
+      "description": "The article discusses the principles of microservice architecture and its comparison with monolithic systems. It also covers migration strategies based on the 6R/7R model, as well as analysis of key risks, including budget overruns and security breaches.  Special attention is given to migration planning, monitoring, and automation methods, such as the use of Kubernetes, CI/CD (continuous integration/continuous delivery), DevSecOps (development, security, operations), and the Twelve-Factor App pr",
+      "url": "https://feeds.dzone.com/link/18931/17238116/cloud-migration-of-microservices",
+      "source": "DZone Microservices",
+      "author": "Olha Krasnozhon",
+      "published": "2025-12-19T20:00:00+00:00",
+      "niche": "spring",
+      "score": 12,
+      "keywords": []
+    },
+    {
       "id": "879ad2a1997e84ef",
       "title": "Kubernetes 101: Understanding the Foundation and Getting Started",
       "description": "About This Series This is part 1 of a 5-part series on Kubernetes implementation. These posts cut through the hype to focus on practical decisions: what Kubernetes actually does, when you need it, and how to implement it effectively. Series Outline Kubernetes 101 – What it is, when you need it, and hands-on setup (this post) Networking – Service discovery, ingress, and how pods actually talk Deployment strategies – Rolling updates, blue-green, canary releases Storage – Persistent volumes and run",
@@ -1522,30 +1546,6 @@
       "source": "DZone Microservices",
       "author": "Dinesh Elumalai",
       "published": "2025-12-16T19:00:00+00:00",
-      "niche": "spring",
-      "score": 12,
-      "keywords": []
-    },
-    {
-      "id": "b7471a5e74ba9549",
-      "title": "Beyond Containers: Docker-First Mobile Build Pipelines (Android and iOS) — End-to-End from Code to Artifact",
-      "description": "Introduction In many mobile app shops, builds are still done locally (on dev laptops) or through fragile CI scripts. This leads to inconsistent builds, wasted hours onboarding developers, or debugging “but it worked on my machine” issues. Using Docker — already popular for backend and microservices — mobile teams can also build a reproducible, scalable, and version-controlled pipeline for both Android and iOS (to the extent possible), which speeds up development, reduces “works on my machine” is",
-      "url": "https://feeds.dzone.com/link/18931/17234343/beyond-containers-docker-first-mobile-build-pipeli",
-      "source": "DZone Microservices",
-      "author": "Swapnil Patil",
-      "published": "2025-12-15T15:00:00+00:00",
-      "niche": "spring",
-      "score": 12,
-      "keywords": []
-    },
-    {
-      "id": "9e3ff2ddf21c1ecb",
-      "title": "Secrets in Code: Understanding Secret Detection and Its Blind Spots",
-      "description": "In a world where attackers routinely scan public repositories for leaked credentials, secrets in source code represent a high-value target. But even with the growth of secret detection tools, many valid secrets still go unnoticed. It’s not because the secrets are hidden, but because the detection rules are too narrow or overcorrect in an attempt to avoid false positives. This creates a trade-off between wasting development time investigating false signals and risking a compromised account. This ",
-      "url": "https://feeds.dzone.com/link/18931/17231543/secrets-in-code-detection-and-its-blind-spots",
-      "source": "DZone Microservices",
-      "author": "Jayson DeLancey",
-      "published": "2025-12-12T18:30:00+00:00",
       "niche": "spring",
       "score": 12,
       "keywords": []

@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-26T18:36:43.966855+00:00",
-  "total_articles": 946,
+  "last_updated": "2025-12-26T21:23:29.597610+00:00",
+  "total_articles": 951,
   "articles": [
     {
       "id": "69d813cf8d6f164c",
@@ -1058,6 +1058,30 @@
       "keywords": []
     },
     {
+      "id": "1d4357ec46ccf91c",
+      "title": "Gaussian Splatting 3 Ways",
+      "description": "Comments",
+      "url": "https://github.com/NullandKale/NullSplats",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-26T19:23:28+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": []
+    },
+    {
+      "id": "bf4214e84a569b21",
+      "title": "MongoBleed",
+      "description": "Comments",
+      "url": "https://github.com/joe-desimone/mongobleed/blob/main/mongobleed.py",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-26T18:17:00+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": []
+    },
+    {
       "id": "2020a3914e7bb2ce",
       "title": "The Laravel 12 Docker Blueprint I Wish I Had: Nginx + PHP-FPM, Small Images, Clean CI/CD, and DigitalOcean Private Registry",
       "description": "This is the setup that turned my Laravel 12 project from “works on my machine” into “ready anytime”. The goal was simple: smaller builds, cleaner releases, and deployments that don’t need babysitting backed by CI/CD and a DigitalOcean private registry. What you’ll learn In this post, I’ll walk through the blueprint I used to: Run Laravel 12 on PHP 8.2 in containers (the minimum supported version). Serve the app with Nginx + PHP-FPM (clean separation of concerns). Build smaller images and keep re",
@@ -1122,6 +1146,23 @@
         "library",
         "API",
         "developer"
+      ]
+    },
+    {
+      "id": "0bf2c0d90de9f4cf",
+      "title": "Using CodeIgniter in 2025: Pros and Cons",
+      "description": "CodeIgniter has been part of the PHP ecosystem for many years, known for its simplicity, speed, and minimal configuration. In 2025, when modern frameworks and full-stack solutions dominate the market, CodeIgniter still maintains a niche audience. Whether it remains a good choice depends largely on the project requirements and developer expectations. Overview of CodeIgniter in 2025 CodeIgniter is a lightweight PHP framework based on the MVC (Model–View–Controller) pattern. Its latest versions foc",
+      "url": "https://dev.to/guswoltmann84/using-codeigniter-in-2025-pros-and-cons-hk5",
+      "source": "Dev.to",
+      "author": "Gus Woltmann",
+      "published": "2025-12-26T21:16:57+00:00",
+      "niche": "dev",
+      "score": 60,
+      "keywords": [
+        "PHP",
+        "developer",
+        "framework",
+        "code"
       ]
     },
     {
@@ -2158,34 +2199,6 @@
       "keywords": [
         "API",
         "developer"
-      ]
-    },
-    {
-      "id": "47e3d2cbba22b6d3",
-      "title": "Why “99.9% uptime” doesn’t mean your users are fine",
-      "description": "For years, uptime has been treated as the ultimate signal of reliability. If a dashboard shows 99.9% uptime, everything must be fine. Servers respond. Checks are green. Alerts are silent. And yet, users complain. Pages load but don’t render correctly. Critical actions fail. Performance is inconsistent depending on where users are located. From a monitoring perspective, everything looks “up”. From a user’s perspective, the product feels broken. This disconnect is more common than most teams reali",
-      "url": "https://dev.to/lideroocom/why-999-uptime-doesnt-mean-your-users-are-fine-3bf7",
-      "source": "Dev.to",
-      "author": "Luke · Software Developer",
-      "published": "2025-12-19T21:05:59+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "performance"
-      ]
-    },
-    {
-      "id": "33d76bf120ddd669",
-      "title": "Day 28 of improving my Data Science skills",
-      "description": "Today, I switched things up. Instead of just talking about it, I recorded a short video showing how I solved a real Web Scraping exercise using Scrapy. https://www.loom.com/share/c70bb3df17ba4e34b0db37a794d401cc Specifically,I used response.follow() to navigate through the links I scraped. Alongside this, I also worked through several exercises in Introduction to Statistics in Python, focusing on: Using scatterplots to see relationships Computing correlation coefficients Knowing when to use corr",
-      "url": "https://dev.to/sp_the_data_specialist/day-28-of-improving-my-data-science-skills-15dg",
-      "source": "Dev.to",
-      "author": "Sylvester Promise",
-      "published": "2025-12-19T20:34:04+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "API"
       ]
     },
     {
@@ -3376,6 +3389,34 @@
       ]
     },
     {
+      "id": "051da9f5454bd042",
+      "title": "When \"Good Enough\" isn't enough: Why Netflix moved to Amazon Aurora. 🎬☁️",
+      "description": "I just finished reading the AWS deep dive on how Netflix consolidated their relational database infrastructure on Amazon Aurora. While the headline is the massive 75% improvement in performance, the real architectural takeaway for me was the strategy of Consolidation. Netflix didn't just migrate; they simplified. By moving from a fragmented landscape of self-managed and legacy databases to a unified Aurora ecosystem, they achieved: Reduced Operational Toil: Less time patching and managing varied",
+      "url": "https://dev.to/morekiranp/when-good-enough-isnt-enough-why-netflix-moved-to-amazon-aurora-16m8",
+      "source": "Dev.to",
+      "author": "Kiran More",
+      "published": "2025-12-26T21:05:32+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "performance"
+      ]
+    },
+    {
+      "id": "bf1a3983b23d119c",
+      "title": "🚀 Build a Todo App API with FastAPI + uv (The Cleanest Way!)",
+      "description": "🚀 Build a FastAPI Todo App the Right Way (Using uv) Want to build a lightning-fast API without the Python packaging mess? Let’s build a Todo API using FastAPI — but with a twist: we’ll use uv, the next-gen Python package manager that automates virtual environments, handles dependency resolution, and gets out of your way. 🧩 What is uv? uv is a modern Python package manager that replaces pip and virtualenv with: 🚀 Ultra-fast dependency installation 📦 Automatic virtual environment creation 🧼 Cleane",
+      "url": "https://dev.to/cmanish049/build-a-todo-app-api-with-fastapi-uv-the-cleanest-way-3g6p",
+      "source": "Dev.to",
+      "author": "Manish Chaudhary",
+      "published": "2025-12-26T21:04:54+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "API"
+      ]
+    },
+    {
       "id": "705579a142b25493",
       "title": "OpenSkills, adding Claude Skills and Superpowers for any agent or IDE",
       "description": "Superpowers is a complete software development workflow for your coding agents, built on top of a set of composable \"skills\" and some initial instructions that make sure your agent uses them. I've found this one, and it's pretty nice, it's basically an npm for skills, rules and agents.md cross platform 🤩 PRPM My favourite is: https://prpm.dev/collections/superpowers but Marcos, this is only for claude code 😞 NOPE, you can install it like npm install -g prpm prpm install collections/superpowers T",
@@ -3897,6 +3938,21 @@
       "score": 52,
       "keywords": [
         "code",
+        "developer"
+      ]
+    },
+    {
+      "id": "fdd2ee326e29a740",
+      "title": "Transform Your SDK Integration with Monetzly's AI Monetization",
+      "description": "Why 90% of AI Apps Fail to Monetize Effectively and How Monetzly Can Change That Did you know that a staggering 90% of AI applications struggle to find a sustainable monetization strategy? The explosive growth of AI apps has been both exciting and overwhelming, but too many developers are left scratching their heads when it comes to generating revenue. If you’re one of them, you’re not alone. The Math Behind Sustainable AI App Development Many AI applications rely on traditional monetization mod",
+      "url": "https://dev.to/monetzly/transform-your-sdk-integration-with-monetzlys-ai-monetization-24j1",
+      "source": "Dev.to",
+      "author": "Monetzly",
+      "published": "2025-12-26T21:12:03+00:00",
+      "niche": "dev",
+      "score": 52,
+      "keywords": [
+        "development",
         "developer"
       ]
     },
@@ -5217,100 +5273,46 @@
       ]
     },
     {
-      "id": "4d857f85f07a1a08",
-      "title": "I Built a $29/mo Alternative to $800 Enterprise Social Listening Tools",
-      "description": "Enterprise social listening tools are absurdly expensive. Brandwatch: $800-3,000/month (annual contract required) Meltwater: $7,000-40,000/year Sprinklr: Custom enterprise pricing And the buying process? Fill out a form, wait for a sales call, sit through a demo, negotiate annual contracts. For indie hackers and startups, that's not an option. The Problem with Alternatives Raw scrapers give you tweets but no analysis. You still need to build sentiment detection, intent classification, everything",
-      "url": "https://dev.to/constantquadruped/i-built-a-29mo-alternative-to-800-enterprise-social-listening-tools-19e4",
+      "id": "f3d4e839314c5b37",
+      "title": "Beyond the Shell: A Developer’s Guide to Rescuing Linux from Initramfs Corruption ✴️",
+      "description": "🛠️ From Panic to Power-On: Solving the Initramfs Error in Linux Mint & Ubuntu If you’ve been using Linux Mint or Ubuntu for a while, you might eventually hit a wall: a black screen with a prompt that simply says (initramfs). No desktop, no mouse—just a blinking cursor staring back at you. I recently went through this nerve-wracking experience myself and decided to document the whole journey — the cause, the panic, the fix — so others in the Linux community can get back up and running quickly. 1.",
+      "url": "https://dev.to/kiran_ravi_092a2cfcf60389/beyond-the-shell-a-developers-guide-to-rescuing-linux-from-initramfs-corruption-32l9",
       "source": "Dev.to",
-      "author": "constantquadruped",
-      "published": "2025-12-19T21:01:03+00:00",
+      "author": "kiran ravi",
+      "published": "2025-12-26T21:12:02+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
-      "id": "a3822073cfe2ad29",
-      "title": "Streamlining Payroll Management for Federal Contractors",
-      "description": "Managing payroll on federally funded construction projects can be complicated. Beyond base wages, contractors must navigate strict compliance rules, detailed reporting, and benefit tracking. Mistakes can lead to audits, fines, or delayed payments, making proper payroll management critical for both project success and employee satisfaction. Understanding Federal Wage Requirements Each federal project comes with a prevailing wage determination from the Department of Labor. This document specifies:",
-      "url": "https://dev.to/kapusto/streamlining-payroll-management-for-federal-contractors-3gan",
+      "id": "c6248a1dfabc3bac",
+      "title": "Solved: CodeVisualizer: Instantly Map Your Entire Codebase in VS Code",
+      "description": "Navigating complex codebases is challenging; discover how specialized VS Code extensions like CodeVisualizer provide instant visual insights into architecture and function logic, significantly improving comprehension and onboarding for IT professionals. The Unseen Labyrinth: Overcoming Codebase Complexity Symptoms: When Code Becomes a Puzzle As IT professionals, we constantly interact with code – whether developing new features, debugging critical issues, or integrating legacy systems. However, ",
+      "url": "https://dev.to/techresolve/solved-codevisualizer-instantly-map-your-entire-codebase-in-vs-code-2cog",
       "source": "Dev.to",
-      "author": "Mikuz",
-      "published": "2025-12-19T20:58:41+00:00",
+      "author": "Darian Vance",
+      "published": "2025-12-26T21:05:04+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
-      "id": "a467158babd5e12c",
-      "title": "Skip the Boilerplate: Build Vue 3 SaaS Apps with Ready-Made Clerk Authentication",
-      "description": "#vue #webdev #vite #clerk #shadcn From Next.js to Vue: The Journey Continues After the launch of next-shadcn-clerk-starter, I received numerous requests for a similar solution in the Vue ecosystem. So here it is! 🎉 Introducing vue-clerk-saas-starter bringing the same comprehensive SaaS starter experience to the Vue.js ecosystem. Custom Auth + Ready-Made Dashboard Just like its Next.js counterpart, this isn't just another authentication template. It's a complete starting point with: Custom-styled",
-      "url": "https://dev.to/ayoub_fedil/skip-the-boilerplate-build-vue-3-saas-apps-with-ready-made-clerk-authentication-3ll6",
+      "id": "c012c6cbaa1f1a50",
+      "title": "The Multiplier Is the Job Now: Why Agentic AI Changes Everything",
+      "description": "I spent ten minutes with Claude Code one evening this week. Not ten minutes prompting, or tweaking, or trying to discover the right incantation. Ten minutes actually working. In that time, it produced roughly forty-eight thousand lines of code. That number is absurd enough that it immediately invites skepticism, including my own. So I measured it. I tracked what was happening, how much time I was actually involved, and what the output looked like when translated into the units we normally use to",
+      "url": "https://dev.to/mikelane/the-multiplier-is-the-job-now-why-agentic-ai-changes-everything-4n3c",
       "source": "Dev.to",
-      "author": "Ayoub Fedil",
-      "published": "2025-12-19T20:52:27+00:00",
+      "author": "Mike Lane",
+      "published": "2025-12-26T20:59:06+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "e887a8a97a07c9a6",
-      "title": "Stop Writing Terrible Prompts: How Marketers Can Actually Get Good Content from AI",
-      "description": "I've watched marketers spend $20 on ChatGPT Plus, type \"write me a blog post about SEO,\" get 500 words of generic fluff, then declare AI \"doesn't work for content.\" The problem isn't the AI. It's the prompt. After a year of testing every major AI platform for content creation, here's what I've learned: the difference between garbage output and genuinely useful content briefs comes down to how you talk to these systems. And most marketers are doing it wrong. Why Your Current Prompts Are Failing L",
-      "url": "https://dev.to/synergistdigitalmedia/stop-writing-terrible-prompts-how-marketers-can-actually-get-good-content-from-ai-1h7o",
-      "source": "Dev.to",
-      "author": "Drew Madore",
-      "published": "2025-12-19T20:46:44+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "1bd2a01fdae63632",
-      "title": "How to Create Hollywood Shots with AI using Higgsfield Cinema Studio",
-      "description": "Most AI video tools feel like lotteries: you type a prompt, hit generate, and hope for the best. Higgsfield Cinema Studio flips that script by giving you real filmmaking controls, so you can design cinematic intent instead of accepting random luck. In this post, you will learn: How the unified Text-to-Image → Image-to-Video flow works. How to lock in a cinematic look using real camera and lens profiles. How to use Start & End Frame to control motion and continuity. Why this workflow is effective",
-      "url": "https://dev.to/aniruddhaadak/how-to-create-hollywood-shots-with-ai-using-higgsfield-cinema-studio-3lp8",
-      "source": "Dev.to",
-      "author": "ANIRUDDHA  ADAK",
-      "published": "2025-12-19T20:46:27+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "e351c25bc89b977a",
-      "title": "Security news weekly round-up - 19th December 2025",
-      "description": "Malicious content exists online. It's one thing to recognize them and steer clear, and it's another thing not to know them at all. Malware still exists; no one can deny it. Add that to the number of vulnerabilities that we learn about almost all the time, and then you can conclude that cyber defenders deserve all the credit that might go their way. While you were reading the last paragraph, you should already have a good idea of what we are about to discuss. Let's begin. Most Parked Domains Now ",
-      "url": "https://dev.to/ziizium/security-news-weekly-round-up-19th-december-2025-31hd",
-      "source": "Dev.to",
-      "author": "Habdul Hazeez",
-      "published": "2025-12-19T20:44:48+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "a4d7500e7ec4868f",
-      "title": "Momen Ghazouani Perspective on AI Evolving from Question to Answer",
-      "description": "Original source When AI Stops Being a Question Mark and Becomes Part of the Answer When artificial intelligence stops being a question mark and becomes part of the answer we are not just witnessing a technological evolution we are experiencing a paradigm shift in how we conceptualize intelligence machines and human collaboration In recent months debates have intensified about whether AI should be viewed purely as a tool or recognised as an organic component of organisational decision-making This",
-      "url": "https://dev.to/michael-officiel/momen-ghazouani-perspective-on-ai-evolving-from-question-to-answer-23dk",
-      "source": "Dev.to",
-      "author": "Michael",
-      "published": "2025-12-19T20:40:31+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "df5f4db95ef57a7b",
-      "title": "Generating Sequences With Recurrent Neural Networks",
-      "description": "How Computers Learn to Write Like Real People Imagine a small computer brain that watches one dot at a time and slowly figures out how words and handwriting flow. This system studies patterns in text and in the movements of a pen to make new lines that look natural. It doesn't need rules, it just predicts the next little stroke or letter, again and again, until a full sentence or a full signature appears. The result can be very realistic — from typed words to flowing handwriting, in many differe",
-      "url": "https://dev.to/paperium/generating-sequences-with-recurrent-neural-networks-4j0d",
-      "source": "Dev.to",
-      "author": "Paperium",
-      "published": "2025-12-19T20:30:51+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "5a6b1013c647300a",
@@ -7761,6 +7763,42 @@
       "keywords": []
     },
     {
+      "id": "4561869cd6dff309",
+      "title": "Docling + Go + Bob: The Modern Document Stack",
+      "description": "Last Bob project of 2025: Docling document processing in Go! This is the latest project I’ve developed in collaboration with IBM Bob. My goal was to architect a comprehensive document processing ecosystem that leverages the advanced parsing intelligence of Docling. By utilizing Bob’s capabilities, I was able to transition from a conceptual idea to a secure, fully scalable application prototype that bridges the gap between raw unstructured data and machine-ready insights. Streamlining Document In",
+      "url": "https://dev.to/aairom/docling-go-bob-the-modern-document-stack-37b",
+      "source": "Dev.to",
+      "author": "Alain Airom",
+      "published": "2025-12-26T21:16:03+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "e5cde19888e2b929",
+      "title": "Understanding Gradients: The Engine Behind Neural Network Learning",
+      "description": "In the previous article, we explored activation functions and visualized them using Python. Now, let’s see what gradients are. Neural networks use activation functions to transform inputs inside them. But if a neural network gives a wrong output, how does it know what to fix? This is where gradients come in. What is a gradient? Imagine you are walking on a hill. If the ground is steep, you can feel which direction goes up or down. If the ground is almost flat, it is hard to tell where to go. A g",
+      "url": "https://dev.to/rijultp/understanding-gradients-the-engine-behind-neural-network-learning-3om0",
+      "source": "Dev.to",
+      "author": "Rijul Rajesh",
+      "published": "2025-12-26T21:08:06+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "427c5af2d09fa4a9",
+      "title": "The 2025 Dental SEO Reality: Why 97% of Dentists Are Wasting Money on Marketing Agencies (And How Mangools Fixes It)",
+      "description": "The Hidden Pain Points Dentists Don't Talk About (But Should) In 2025, the dental market isn't just competitive—it's saturated with noise. Your real pain points aren't \"getting more patients\" (that's the symptom). They're deeper: the invisibility of your niche expertise (e.g., sleep apnea dentistry, pediatric sedation), the commoditization of basic services (e.g., cleanings, fillings) by corporate chains, and the algorithmic black box of Google's local search updates. You're not just competing w",
+      "url": "https://dev.to/alan_luu/the-2025-dental-seo-reality-why-97-of-dentists-are-wasting-money-on-marketing-agencies-and-how-45id",
+      "source": "Dev.to",
+      "author": "alan",
+      "published": "2025-12-26T21:01:08+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "e18f7d1903a5ac30",
       "title": "Some people are becoming exceptional tool users. Others are becoming system builders. Over time, the second group will quietly replace the first, and that’s not a threat. It’s a natural evolution.",
       "description": "System Builders Will Replace Tool Users: And That’s a Good Thing Jaideep Parashar ・ Dec 25 #webdev #ai #developers #programming",
@@ -8058,18 +8096,6 @@
       "keywords": [
         "programming"
       ]
-    },
-    {
-      "id": "c6264f5837ae3d92",
-      "title": "Show HN: Stickerbox, a kid-safe, AI-powered voice to sticker printer",
-      "description": "Comments",
-      "url": "https://stickerbox.com/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-19T19:44:48+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "2b9471f7fe060216",
@@ -9752,6 +9778,78 @@
       "keywords": []
     },
     {
+      "id": "dbe9b21552ad7bfc",
+      "title": "How uv got so fast",
+      "description": "Comments",
+      "url": "https://nesbitt.io/2025/12/26/how-uv-got-so-fast.html",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-26T17:13:07+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "9d21ae2a186e09ac",
+      "title": "How Lewis Carroll computed determinants",
+      "description": "Comments",
+      "url": "https://www.johndcook.com/blog/2023/07/10/lewis-carroll-determinants/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-26T19:03:32+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "a7a7f59e0bc5bd94",
+      "title": "Experts explore new mushroom which causes fairytale-like hallucinations",
+      "description": "Comments",
+      "url": "https://nhmu.utah.edu/articles/experts-explore-new-mushroom-which-causes-fairytale-hallucinations",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-26T17:07:53+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "2bc9b1c12ab9b1c9",
+      "title": "I Think about Kubernetes",
+      "description": "Comments",
+      "url": "https://garnaudov.com/writings/how-i-think-about-kubernetes/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-26T20:44:28+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "284ebc9c94c2cdaa",
+      "title": "My insulin pump controller uses the Linux kernel. It also violates the GPL",
+      "description": "Comments",
+      "url": "https://old.reddit.com/r/linux/comments/1puojsr/the_device_that_controls_my_insulin_pump_uses_the/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-26T19:13:22+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "ca3f5500f873821b",
+      "title": "FFmpeg has issued a DMCA takedown on GitHub",
+      "description": "Comments",
+      "url": "https://twitter.com/FFmpeg/status/2004599109559496984",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-26T17:48:25+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "26dbca142972a14e",
       "title": "Building a Nostalgic 8-bit Universe with Modern Tech: A Vibe Coding Journey",
       "description": "A nostalgic 8-bit portfolio experiment built with modern AI workflows and performance-first web tech.",
@@ -9781,20 +9879,6 @@
       ]
     },
     {
-      "id": "148e86a114c8fbdb",
-      "title": "Write for SitePoint",
-      "description": "We're looking for developers and designers to write about web technologies. Find out how to pitch us and what we're looking for. Continue reading Write for SitePoint on SitePoint.",
-      "url": "https://www.sitepoint.com/write-for-us/?utm_source=rss",
-      "source": "SitePoint",
-      "author": "Zain Zaidi",
-      "published": "2025-12-19T19:15:26+00:00",
-      "niche": "dev",
-      "score": 40,
-      "keywords": [
-        "developer"
-      ]
-    },
-    {
       "id": "aff60a574a418e3f",
       "title": "React v19",
       "description": "React 19 is now available on npm! In this post, we'll give an overview of the new features in React 19, and how you can adopt them.",
@@ -9819,9 +9903,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "API",
+        "developer",
         "release",
-        "developer"
+        "API"
       ]
     },
     {
@@ -9835,8 +9919,8 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "release",
         "developer",
+        "release",
         "performance"
       ]
     },
@@ -10057,9 +10141,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "API",
+        "React 19",
         "release",
-        "React 19"
+        "API"
       ]
     },
     {
@@ -10125,8 +10209,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10140,8 +10224,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10183,8 +10267,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "API",
-        "framework"
+        "framework",
+        "API"
       ]
     },
     {
@@ -10270,18 +10354,6 @@
       "keywords": [
         "developer"
       ]
-    },
-    {
-      "id": "ad54e1086d642bfa",
-      "title": "CUDA Tile Open Sourced",
-      "description": "Comments",
-      "url": "https://github.com/NVIDIA/cuda-tile",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-19T20:49:54+00:00",
-      "niche": "dev",
-      "score": 32,
-      "keywords": []
     },
     {
       "id": "da117e4690464938",
@@ -10374,11 +10446,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
+        "code",
+        "performance",
         "API",
         "framework",
-        "code",
-        "release",
-        "performance"
+        "release"
       ]
     },
     {
@@ -10706,8 +10778,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "API",
-        "release"
+        "release",
+        "API"
       ]
     },
     {
@@ -10721,8 +10793,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "framework"
+        "framework",
+        "release"
       ]
     },
     {
@@ -10736,8 +10808,8 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "code",
         "developer",
+        "code",
         "performance"
       ]
     },
@@ -10782,8 +10854,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
-        "developer"
+        "developer",
+        "release"
       ]
     },
     {
@@ -10868,9 +10940,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
+        "PHP",
         "development",
-        "tutorial",
-        "PHP"
+        "tutorial"
       ]
     },
     {
@@ -10884,9 +10956,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
+        "PHP",
         "development",
-        "tutorial",
-        "PHP"
+        "tutorial"
       ]
     },
     {
@@ -10900,8 +10972,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "API",
-        "code"
+        "code",
+        "API"
       ]
     },
     {
@@ -10929,8 +11001,8 @@
       "niche": "dev",
       "score": 15,
       "keywords": [
-        "developer",
-        "library"
+        "library",
+        "developer"
       ]
     },
     {
@@ -11039,18 +11111,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-20T07:39:00+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "196bde31a16a4e4e",
-      "title": "Astrophotography Target Planner: Discover Hidden Nebulas",
-      "description": "Comments",
-      "url": "https://astroimagery.com/techniques/imaging/astrophotography-target-planner/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-19T19:44:41+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -12029,6 +12089,20 @@
       "niche": "dev",
       "score": 10,
       "keywords": []
+    },
+    {
+      "id": "148e86a114c8fbdb",
+      "title": "Write for SitePoint",
+      "description": "We're looking for developers and designers to write about web technologies. Find out how to pitch us and what we're looking for. Continue reading Write for SitePoint on SitePoint.",
+      "url": "https://www.sitepoint.com/write-for-us/?utm_source=rss",
+      "source": "SitePoint",
+      "author": "Zain Zaidi",
+      "published": "2025-12-19T19:15:26+00:00",
+      "niche": "dev",
+      "score": 10,
+      "keywords": [
+        "developer"
+      ]
     },
     {
       "id": "a25bba6f18d1455c",
