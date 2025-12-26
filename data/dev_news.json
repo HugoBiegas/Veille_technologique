@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-25T21:23:56.918802+00:00",
+  "last_updated": "2025-12-26T02:02:38.818243+00:00",
   "total_articles": 955,
   "articles": [
     {
@@ -51,40 +51,6 @@
         "API",
         "Angular",
         "library"
-      ]
-    },
-    {
-      "id": "5d20a1646eb21c88",
-      "title": "Google Workspace Developer Tools MCP Server",
-      "description": "Following the release of the VS Code extension, I’ve also published a Model Context Protocol (MCP) server for Google Workspace Developers. This server provides AI agents with context-aware access to Google Workspace developer documentation, enabling them to retrieve up-to-date information about APIs, services, and code snippets. Features Documentation Access The MCP server allows LLMs and AI agents to search and retrieve official Google Workspace documentation. This ensures that the AI answers y",
-      "url": "https://dev.to/googleworkspace/google-workspace-developer-tools-mcp-server-723",
-      "source": "Dev.to",
-      "author": "Justin Poehnelt",
-      "published": "2025-12-19T01:48:54+00:00",
-      "niche": "dev",
-      "score": 78,
-      "keywords": [
-        "code",
-        "developer",
-        "API",
-        "release"
-      ]
-    },
-    {
-      "id": "80096a905ff83786",
-      "title": "Google Workspace Developer Tools VS Code Extension",
-      "description": "I recently released the Google Workspace Developer Tools VS Code extension to help developers with OAuth2 scope management and AI assistance. Features OAuth2 Scope Intelligence The extension validates and documents Google Workspace OAuth2 scopes directly in your code. It provides real-time validation for invalid scopes, security classifications for restricted/sensitive scopes, and hover documentation with API details. It supports all Google Workspace APIs. MCP (Model Context Protocol) Server It ",
-      "url": "https://dev.to/googleworkspace/google-workspace-developer-tools-vs-code-extension-g6n",
-      "source": "Dev.to",
-      "author": "Justin Poehnelt",
-      "published": "2025-12-19T01:48:24+00:00",
-      "niche": "dev",
-      "score": 78,
-      "keywords": [
-        "code",
-        "developer",
-        "API",
-        "release"
       ]
     },
     {
@@ -163,6 +129,22 @@
       "score": 76,
       "keywords": [
         "library",
+        "release",
+        "code"
+      ]
+    },
+    {
+      "id": "e247af4ab82bba7a",
+      "title": "Pinning GitHub Actions for Reproducibility and Security",
+      "description": "Version tags like actions/checkout@v5 are mutable - maintainers can move them, re-release them, or force-push. Your workflow could run different code tomorrow without you changing anything. Pin to commit SHAs instead. One command to get the SHA: gh api repos/actions/checkout/commits/v5.0.1 --jq '.sha' Then use it: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5.0.1 Full article: https://cloudnativeengineer.substack.com/p/github-actions-reproducibility-security",
+      "url": "https://dev.to/cloudnative_eng/pinning-github-actions-for-reproducibility-and-security-2ihh",
+      "source": "Dev.to",
+      "author": "Cloud Native Engineer",
+      "published": "2025-12-26T01:07:12+00:00",
+      "niche": "dev",
+      "score": 76,
+      "keywords": [
+        "API",
         "release",
         "code"
       ]
@@ -448,20 +430,6 @@
       ]
     },
     {
-      "id": "3f908de5e135f495",
-      "title": "Securing Gmail AI Agents against Prompt Injection with Model Armor",
-      "description": "The Risk: Gmail contains “untrusted” and “private” data. The Defense: A single, unified layer: Model Armor handles both Safety (Jailbreaks) and Privacy (DLP). I have recently seen this impact a product launch, but I know developers are still giving AI agents the “keys”. When you connect an LLM to your inbox, you inadvertently treat it as trusted context. This introduces the risk of Prompt Injection and the “Lethal Trifecta”. If an attacker sends you an email saying, “Ignore previous instructions",
-      "url": "https://dev.to/googleworkspace/securing-gmail-ai-agents-against-prompt-injection-with-model-armor-4fo",
-      "source": "Dev.to",
-      "author": "Justin Poehnelt",
-      "published": "2025-12-19T01:49:49+00:00",
-      "niche": "dev",
-      "score": 69,
-      "keywords": [
-        "developer"
-      ]
-    },
-    {
       "id": "1894951ad52e831c",
       "title": "Goodbye Mobile Only, Hello Adaptive: Three essential updates from 2025 for building adaptive apps",
       "description": "Posted by Fahd Imtiaz – Product Manager, Android DeveloperGoodbye Mobile Only, Hello Adaptive: Three essential updates from 2025 for building adaptive appsIn 2025 the Android ecosystem has grown far beyond the phone. Today, developers have the opportunity to reach over 500 million active devices, including foldables, tablets, XR, Chromebooks, and compatible cars.These aren't just additional screens; they represent a higher-value audience. We’ve seen that users who own both a phone and a tablet s",
@@ -558,18 +526,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "9c64426bbb10bdc7",
-      "title": "A beginner's guide to the Nano-Banana-Pro model by Google on Replicate",
-      "description": "This is a simplified guide to an AI model called Nano-Banana-Pro maintained by Google. If you like these kinds of analysis, you should join AImodels.fyi or follow us on Twitter. Model overview nano-banana-pro is Google's state-of-the-art image generation and editing model. It handles both image creation from text descriptions and transformation of existing images. The model supports multiple images as input (up to 14), making it suitable for complex creative workflows. For similar capabilities, ",
-      "url": "https://dev.to/aimodels-fyi/a-beginners-guide-to-the-nano-banana-pro-model-by-google-on-replicate-4nci",
-      "source": "Dev.to",
-      "author": "aimodels-fyi",
-      "published": "2025-12-19T01:44:52+00:00",
-      "niche": "dev",
-      "score": 68,
-      "keywords": []
     },
     {
       "id": "8183556c9be4dfa4",
@@ -941,18 +897,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "a21cac07ec917f58",
-      "title": "Trained LLMs exclusively on pre-1913 texts",
-      "description": "Comments",
-      "url": "https://github.com/DGoettlich/history-llms",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-18T22:39:47+00:00",
-      "niche": "dev",
-      "score": 62,
-      "keywords": []
     },
     {
       "id": "5e8b77031e4e2e19",
@@ -1504,6 +1448,22 @@
       ]
     },
     {
+      "id": "20ca1ec4f12348d2",
+      "title": "Mastering HTTP/2 in Go: A Practical Guide for Building Faster Web Servers",
+      "description": "Hey, Go developers! 🚀 If you’re building web servers and want to supercharge their performance, HTTP/2 is your ticket to the fast lane. Compared to HTTP/1.1’s single-lane road, HTTP/2 is like a multi-lane highway, slashing latency and handling concurrency like a dream. Pair it with Go’s lightweight goroutines, and you’ve got a recipe for blazing-fast APIs and apps. This guide is for developers with 1-2 years of Go experience who know the basics of net/http. We’ll walk through HTTP/2’s core featu",
+      "url": "https://dev.to/jones_charles_ad50858dbc0/mastering-http2-in-go-a-practical-guide-for-building-faster-web-servers-4hbo",
+      "source": "Dev.to",
+      "author": "Jones Charles",
+      "published": "2025-12-26T01:07:45+00:00",
+      "niche": "dev",
+      "score": 58,
+      "keywords": [
+        "API",
+        "developer",
+        "performance"
+      ]
+    },
+    {
       "id": "44d2e837025af6e4",
       "title": "Commercn: A UI Component library that speeds up eCommerce Development",
       "description": "Commercn: a React component library that adds 12+ pre-built e-commerce UI blocks to shadcn/ui. Key features: Shopping carts, checkout forms, and product cards Install via shadcn CLI with one command Full source code control after installation Built with React, Tailwind CSS, and shadcn/ui No runtime dependencies or vendor lock-in Perfect for developers who want to ship e-commerce interfaces fast. 👉 Blog Post 👉 GitHub Repo 👉 Live Demo",
@@ -1720,16 +1680,19 @@
       ]
     },
     {
-      "id": "c39540c9a313f971",
-      "title": "History LLMs: Models trained exclusively on pre-1913 texts",
-      "description": "Comments",
-      "url": "https://github.com/DGoettlich/history-llms",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-18T22:39:47+00:00",
+      "id": "51745beb94372510",
+      "title": "PPanel 完整安装指南：从零开始部署代理面板",
+      "description": "本文原载于 PayIn Blog，转载请注明出处。 前言：本文基于 PPanel 1.2.2 版本编写。由于 PPanel 项目持续更新，官方文档 https://ppanel.dev/ 可能存在滞后，本文记录了我在实际安装过程中遇到的问题和解决方案，希望能帮助到同样踩坑的朋友。 目录 PPanel 架构概述 第一步：下载并解压 Server 第二步：使用 Docker 安装 MySQL 和 Redis 第三步：配置 ppanel.yaml 第四步：启动 Server 第五步：构建并部署前端 第六步：Nginx 反向代理与 Cloudflare HTTPS 配置 第七步：部署 PPanel Node 总结 PPanel 架构概述 PPanel 由以下四个独立组件组成，可以部署在同一台服务器，也可以分布式部署： 组件 说明 Server 核心后端服务，提供所有 API 接口 Admin Frontend 管理员后台界面 User Frontend 用户前台界面 PPanel Node 边缘节点代理服务 第一步：下载并解压 Server 从 GitHub Releases 页面下载对应系统",
+      "url": "https://dev.to/jimquote/ppanel-122-wan-zheng-an-zhuang-zhi-nan-cong-ling-kai-shi-bu-shu-dai-li-mian-ban-ip6",
+      "source": "Dev.to",
+      "author": "jimquote",
+      "published": "2025-12-26T01:46:19+00:00",
       "niche": "dev",
-      "score": 56,
-      "keywords": []
+      "score": 57,
+      "keywords": [
+        "API",
+        "release"
+      ]
     },
     {
       "id": "b4dddf385df6bdb4",
@@ -2403,20 +2366,6 @@
       "keywords": [
         "development",
         "release"
-      ]
-    },
-    {
-      "id": "7ee1b75f71f80d5f",
-      "title": "We found our site was slow in Singapore but perfect in Europe — here's why",
-      "description": "We thought we were doing everything right. Our API was sitting behind Cloudflare. We had edge caching. Our p95 response times in our dashboards looked great — sub-100ms. We patted ourselves on the back and moved on to building features. Then a customer from Singapore sent us this message: \"Your API takes 4-5 seconds to respond. Is something wrong?\" We checked our monitoring. Everything looked green. We ran a quick curl from our laptops in Amsterdam. 80ms. Perfect. So we told them it must be thei",
-      "url": "https://dev.to/benharris_io/we-found-our-site-was-slow-in-singapore-but-perfect-in-europe-heres-why-1eoi",
-      "source": "Dev.to",
-      "author": "Ben Harris",
-      "published": "2025-12-19T01:24:54+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "API"
       ]
     },
     {
@@ -3608,33 +3557,17 @@
       ]
     },
     {
-      "id": "f040aadedc769374",
-      "title": "Tired of 50+ Tabs Open Just for Simple Dev Tasks? I Built a 200+ Free Tools Hub to Fix It",
-      "description": "As a developer, my browser looked like a war zone every single day: Tab 1–10: Different JSON formatters/validators Tab 11–20: PDF merge/compress sites (each with ads) Tab 21–30: Base64 encoders, URL decoders, regex testers Tab 31–40: Quick converters for images, timestamps, currencies And random fake chat generators for team pranks 😂 Switching tabs killed my flow. Ads slowed everything down. Some sites even asked for sign-ups. So I decided to merge everything into ONE place. Introducing GeeksPre",
-      "url": "https://dev.to/codere5c/tired-of-50-tabs-open-just-for-simple-dev-tasks-i-built-a-200-free-tools-hub-to-fix-it-5g8a",
+      "id": "fe9cd3747909bb0f",
+      "title": "How Amazon Sponsored Ad Placement Scraper Achieves 96% Success Rate",
+      "description": "Understanding why SP ad scraping success rates vary from 30% to 96%+ and how to choose the right solution for your business. 🚨 The Problem: Incomplete Data Leads to Flawed Decisions Last year, while analyzing competitor advertising strategies, our team discovered something puzzling: scraping the same keyword \"wireless earbuds\" with different tools yielded vastly different numbers of Sponsored Products ads—sometimes double the difference. Initially, we thought it was a timing issue. But the reali",
+      "url": "https://dev.to/loopsthings/how-amazon-sponsored-ad-placement-scraper-achieves-96-success-rate-ghf",
       "source": "Dev.to",
-      "author": "xyz abc",
-      "published": "2025-12-19T01:53:08+00:00",
+      "author": "Mox Loop",
+      "published": "2025-12-26T01:35:52+00:00",
       "niche": "dev",
-      "score": 52,
+      "score": 54,
       "keywords": [
-        "code",
-        "developer"
-      ]
-    },
-    {
-      "id": "d7619e940251fcd6",
-      "title": "Stop Asking for Data! Master the \"Tell, Don't Ask\" Principle",
-      "description": "One of the most common mistakes in Object-Oriented Programming (OOP) is treating objects like simple data structures. We often pull data out of an object, perform some logic, and then put the result back in. This violates the \"Tell, Don't Ask\" (TDA) principle. In this post, I will explain what TDA is and how it improves your code using a simple Shop and Account example. What is \"Tell, Don't Ask\"? The principle is simple: Don't Ask: Don't ask an object for its data to perform logic on it yourself",
-      "url": "https://dev.to/jonghwayoo03_dev/stop-asking-for-data-master-the-tell-dont-ask-principle-373g",
-      "source": "Dev.to",
-      "author": "JongHwa",
-      "published": "2025-12-19T00:57:48+00:00",
-      "niche": "dev",
-      "score": 52,
-      "keywords": [
-        "programming",
-        "code"
+        "API"
       ]
     },
     {
@@ -4163,59 +4096,18 @@
       ]
     },
     {
-      "id": "a6cf491be8c042c4",
-      "title": "I put a Game Boy inside ChatGPT (ChatGPT Apps)",
-      "description": "ChatGPT Apps are still in BETA but since yesterday, every developer can submit their apps to their registry. I decided to try to fit a Game Boy inside Chat GPT to see if it worked... and it did ! See some screenshots below: How to play Game Boy inside ChatGPT ? For now you need to activate the developer mode in (settings > apps > advanced settings) and create a new app called \"GameBoy\" and paste this URL https://gameboy.manifest.build/mcp as MCP Server URL. Grab your favorite ROM (obviously you ",
-      "url": "https://dev.to/bd_perez/i-put-a-game-boy-inside-chatgpt-chatgpt-apps-3a75",
+      "id": "9f653eda84f6c9af",
+      "title": "AI integration, semiconductor advancements, and strategic tech shifts dominate year-end tech news.",
+      "description": "Year-End Tech Deep Dive: AI, Security, and Infrastructure Shifts This post will explore the latest developments across the tech landscape, focusing on how AI is being integrated, secured, and deployed. We'll cover: AI Accessibility & Integration: Google's aggressive pricing on AI Pro, and Waymo's testing of Gemini as an in-car assistant in robotaxis. Software Security & Modernization: Microsoft's ambitious plan to migrate its C/C++ codebase to Rust by 2030, leveraging AI for security enhancement",
+      "url": "https://dev.to/stelixx-insights/ai-integration-semiconductor-advancements-and-strategic-tech-shifts-dominate-year-end-tech-news-53kg",
       "source": "Dev.to",
-      "author": "Bruno Pérez",
-      "published": "2025-12-19T01:01:44+00:00",
+      "author": "Stelixx Insights",
+      "published": "2025-12-26T01:35:27+00:00",
       "niche": "dev",
-      "score": 51,
+      "score": 52,
       "keywords": [
-        "developer"
-      ]
-    },
-    {
-      "id": "c235e57b9ad84148",
-      "title": "# Defending the Cloud-Native Frontier: Security as Code with Terraform & OPA",
-      "description": "🚀 Just delivered my talk on \"Security as Code: Enforcing AWS Security from Day One\" to 35+ cloud professionals! In today's fast-moving cloud environments, security can't be an afterthought. I demonstrated how to build defense-in-depth by combining: 🔹 The Tools Terraform as the foundation for consistent, repeatable infrastructure Open Policy Agent (OPA) + Conftest to validate Terraform plans against custom security policies Automated guardrails that prevent misconfigurations before they reach pro",
-      "url": "https://dev.to/alam-cloud-engineer/-defending-the-cloud-native-frontier-security-as-code-with-terraform-opa-3500",
-      "source": "Dev.to",
-      "author": "Alam",
-      "published": "2025-12-19T01:00:58+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "8d954880a0b20f1f",
-      "title": "How to Build a Smart HomeKit Virtual Light in Go",
-      "description": "Recently, I wanted to understand how smart home devices actually work. When you scan a QR code and a light appears in your Home app, what's really happening? When you tap \"on\", what bytes travel across your network? The best way I know to understand...",
-      "url": "https://www.freecodecamp.org/news/how-to-build-a-smart-homekit-virtual-light-in-go/",
-      "source": "freeCodeCamp",
-      "author": "Rez Moss",
-      "published": "2025-12-19T00:41:41+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "34aa8b4c1d362b66",
-      "title": "How to Build an AI Agent with LangChain and LangGraph: Build an Autonomous Starbucks Agent",
-      "description": "Back in 2023, when I started using ChatGPT, it was just another chatbot that I could ask complex questions to and it would identify errors in my code snippets. Everything was fine. The application had no memory of previous states or what was said the...",
-      "url": "https://www.freecodecamp.org/news/how-to-build-a-starbucks-ai-agent-with-langchain/",
-      "source": "freeCodeCamp",
-      "author": "Djibril-M🍀",
-      "published": "2025-12-19T00:21:01+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
+        "code",
+        "development"
       ]
     },
     {
@@ -5423,16 +5315,32 @@
       ]
     },
     {
-      "id": "2c75e4b5e8974661",
-      "title": "Taming the Internal Loop: Why Your Next.js App is DDoSing Itself (and How to Fix It)",
-      "description": "As system designers, we constantly chase efficiency, cost savings, and bulletproof security. Sometimes, the most insidious problems hide in plain sight, masquerading as standard practice. I recently encountered a classic example during an architecture review: a Next.js application effectively denying service to itself on AWS, while racking up unnecessary data transfer costs. This post will walk you through the diagnosis of this \"internal loopback\" anti-pattern and provide a hands-on guide to tra",
-      "url": "https://dev.to/ajitkumar/taming-the-internal-loop-why-your-nextjs-app-is-ddosing-itself-and-how-to-fix-it-3epj",
+      "id": "20f6f0e5d4a72a60",
+      "title": "365 Days - Full Stack journey !",
+      "description": "Hi, everyone... it's Munin here... Taking a 365 Days challenge. goal : learn full stack (Build cool real world ai based project that solves real world problems ) as, I am going to share on weekly, and daily basis.. I am going to share all of my losses, win , etc.. Nothings fancy, just a 18 years old boy who want's to learn to code.... just sharing all of his learning and the experiences in blog.... and, if anyone.. who is in the same boat as me.. and just starting to learn coding.. then why not!",
+      "url": "https://dev.to/munin_borah/365-days-full-stack-journey--3l9n",
       "source": "Dev.to",
-      "author": "Ajit Kumar",
-      "published": "2025-12-19T01:40:40+00:00",
+      "author": "Munin 🌝",
+      "published": "2025-12-26T01:26:53+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
+    },
+    {
+      "id": "7873acba442c073d",
+      "title": "🚀 Stop Killing Your Bundle Size",
+      "description": "Automatically Remove Barrel Files in TypeScript We all love Barrel Files (index.ts files that export everything from a directory). They make our imports look clean and organized: // 😍 Looks clean... import { Button, Header, Footer } from './components'; But what if I told you that this single line of code is likely slowing down your CI/CD, bloating your bundle size, and causing those nightmare \"Module is undefined\" circular dependency errors? I built a tool to fix this automatically, and today I",
+      "url": "https://dev.to/chintan121/stop-killing-your-bundle-size-nnd",
+      "source": "Dev.to",
+      "author": "Chintan prajapati",
+      "published": "2025-12-26T01:11:26+00:00",
+      "niche": "dev",
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "4f47af8912ec24aa",
@@ -7967,6 +7875,42 @@
       "keywords": []
     },
     {
+      "id": "ca067b7db62bef43",
+      "title": "[Smart Watch] [Stage] Single shelf compilation error: hvigor ERROR: Unexpected string in JSON at position 1877",
+      "description": "Read the original article：[Smart Watch] [Stage] Single shelf compilation error: hvigor ERROR: Unexpected string in JSON at position 1877 [Smart Watch] [Stage] Single shelf compilation error: hvigor ERROR: Unexpected string in JSON at position 1877 Problem: Watch frame compilation error: > hvigor ERROR: Failed :entry: default@CompileArkTS... > hvigor ERROR: Unexpected string in JSON at position 1877 COMPILE RESULT:FAIL {ERROR:1} Solution: Check if the system capability field added in wearable hmo",
+      "url": "https://dev.to/harmonyos/smart-watch-stage-single-shelf-compilation-error-hvigor-error-unexpected-string-in-json-at-2h06",
+      "source": "Dev.to",
+      "author": "HarmonyOS",
+      "published": "2025-12-26T01:48:35+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "cfea1064f84dcb22",
+      "title": "Day 25 / 365 - Full Stack journey",
+      "description": "wait...wait... you may wonder how, I reach to Day 25, instead of Day 1 or 2.... Because.. I had not posted about the past 25 days... I was learning alone.. not sharing, but now onwards... It's different.. I will be going to Build Network while I am learning.. so, today is Day 26 by the way and I am here to share all of my wins and losses of this past 25 days.. so, During this past 25 Days.. I had learned a lot.. I had learned about html and CSS.. (only that much which is needed) what is html and",
+      "url": "https://dev.to/munin_borah/day-25-365-full-stack-journey-95i",
+      "source": "Dev.to",
+      "author": "Munin 🌝",
+      "published": "2025-12-26T01:45:42+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "dd4465424c069bb8",
+      "title": "AI Voice Generator Alternatives in 2025: How to Choose the Right Option",
+      "description": "People search for AI voice generator alternatives for very different reasons. Some feel that synthetic voices sound unnatural. Others want to use their own voice. And in many cases, people realize that what they actually need is not just audio, but voice as part of a larger content experience. In 2025, “alternatives” no longer means finding another tool that produces similar text-to-speech output. Instead, it refers to different ways of creating, controlling, and using AI-generated voice, depend",
+      "url": "https://dev.to/herman99630/ai-voice-generator-alternatives-in-2025-how-to-choose-the-right-option-5cho",
+      "source": "Dev.to",
+      "author": "Herman_Sun",
+      "published": "2025-12-26T01:25:27+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "e18f7d1903a5ac30",
       "title": "Some people are becoming exceptional tool users. Others are becoming system builders. Over time, the second group will quietly replace the first, and that’s not a threat. It’s a natural evolution.",
       "description": "System Builders Will Replace Tool Users: And That’s a Good Thing Jaideep Parashar ・ Dec 25 #webdev #ai #developers #programming",
@@ -8276,28 +8220,18 @@
       ]
     },
     {
-      "id": "a85a3a035c1fb6e2",
-      "title": "1.5 TB of VRAM on Mac Studio – RDMA over Thunderbolt 5",
+      "id": "72e27555768cffdb",
+      "title": "MiniMax M2.1: Built for Real-World Complex Tasks, Multi-Language Programming",
       "description": "Comments",
-      "url": "https://www.jeffgeerling.com/blog/2025/15-tb-vram-on-mac-studio-rdma-over-thunderbolt-5",
+      "url": "https://www.minimaxi.com/news/minimax-m21",
       "source": "Hacker News",
       "author": "Inconnu",
-      "published": "2025-12-18T22:23:09+00:00",
+      "published": "2025-12-26T01:02:53+00:00",
       "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "c837a42a33d9713c",
-      "title": "AI vending machine was tricked into giving away everything",
-      "description": "Comments",
-      "url": "https://kottke.org/25/12/this-ai-vending-machine-was-tricked-into-giving-away-everything",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-18T21:52:39+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
+      "score": 45,
+      "keywords": [
+        "programming"
+      ]
     },
     {
       "id": "209273d31dd18cb8",
@@ -8379,18 +8313,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-19T10:03:38+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "9f71ec73b14c8543",
-      "title": "The JavaScript Bundler Grand Prix",
-      "description": "#​766 — December 19, 2025 Read on the Web 🗓️ As it's the last issue of 2025, a reminder that JavaScript Weekly moves to Tuesdays in January. See you again on January 6, 2026!__Your editor, Peter Cooper JavaScript Weekly It's the final issue of the year, so we're going to cover a few new items, then look back at the top links of 2025 (based on reader engagement) and recap what happened in the ecosystem month-by-month this year. The JavaScript Bundler Grand Prix — Bundlers now sit at the heart of ",
-      "url": "https://javascriptweekly.com/issues/766",
-      "source": "JavaScript Weekly",
-      "author": "Inconnu",
-      "published": "2025-12-19T00:00:00+00:00",
       "niche": "dev",
       "score": 44,
       "keywords": []
@@ -10016,6 +9938,18 @@
       "keywords": []
     },
     {
+      "id": "494b990330b81741",
+      "title": "Maybe the default settings are too high",
+      "description": "Comments",
+      "url": "https://www.raptitude.com/2025/12/maybe-the-default-settings-are-too-high/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-25T23:13:21+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "c098b044990870c9",
       "title": "Why a product-first approach can put security and reliability at risk",
       "description": "Discover why technical maintenance and security matter as much as features. How to prioritize technical debt and build reliable products customers trust. Continue reading Why a product-first approach can put security and reliability at risk on SitePoint.",
@@ -10095,9 +10029,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
+        "API",
         "release",
-        "developer",
-        "API"
+        "developer"
       ]
     },
     {
@@ -10321,6 +10255,30 @@
       "keywords": []
     },
     {
+      "id": "116b7282d73eb61c",
+      "title": "Fahrplan – 39C3",
+      "description": "Comments",
+      "url": "https://fahrplan.events.ccc.de/congress/2025/fahrplan/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-25T18:40:14+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
+      "id": "5e957a42631a6b9c",
+      "title": "Asahi Linux with Sway on the MacBook Air M2 (2024)",
+      "description": "Comments",
+      "url": "https://daniel.lawrence.lu/blog/2024-12-01-asahi-linux-with-sway-on-the-macbook-air-m2/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-25T14:20:29+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
       "id": "4e6d7290f5ff11d8",
       "title": "React Native 0.80 - React 19.1, JS API Changes, Freezing Legacy Arch and much more",
       "description": "Today we are excited to release React Native 0.80!",
@@ -10331,9 +10289,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
+        "API",
         "release",
-        "React 19",
-        "API"
+        "React 19"
       ]
     },
     {
@@ -10445,8 +10403,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "framework",
-        "API"
+        "API",
+        "framework"
       ]
     },
     {
@@ -10518,18 +10476,6 @@
       "keywords": [
         "developer"
       ]
-    },
-    {
-      "id": "fbc846a6177c629f",
-      "title": "Issue 737",
-      "description": "Last issue of the year, and it’s time for the App Store Awards. 🎉",
-      "url": "https://iosdevweekly.com/issues/737/",
-      "source": "iOS Dev Weekly",
-      "author": "dave@iosdevweekly.com (Dave Verwer)",
-      "published": "2025-12-19T00:00:00+00:00",
-      "niche": "dev",
-      "score": 32,
-      "keywords": []
     },
     {
       "id": "aa4e4e6cc9f98830",
@@ -10634,11 +10580,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
+        "API",
         "framework",
         "release",
-        "performance",
-        "API",
-        "code"
+        "code",
+        "performance"
       ]
     },
     {
@@ -10966,8 +10912,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "API"
+        "API",
+        "release"
       ]
     },
     {
@@ -11012,8 +10958,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "code",
-        "release"
+        "release",
+        "code"
       ]
     },
     {
@@ -11056,8 +11002,8 @@
       "niche": "dev",
       "score": 18,
       "keywords": [
-        "Angular",
-        "PHP"
+        "PHP",
+        "Angular"
       ]
     },
     {
@@ -11113,9 +11059,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "development",
         "PHP",
-        "tutorial"
+        "tutorial",
+        "development"
       ]
     },
     {
@@ -11129,9 +11075,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "development",
         "PHP",
-        "tutorial"
+        "tutorial",
+        "development"
       ]
     },
     {
@@ -11145,8 +11091,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "code",
-        "API"
+        "API",
+        "code"
       ]
     },
     {
@@ -11397,18 +11343,6 @@
       "keywords": []
     },
     {
-      "id": "b1660d3bee6df4a8",
-      "title": "The First Photographs of Snowflakes Discover the Groundbreaking Microphotography",
-      "description": "Comments",
-      "url": "https://www.openculture.com/2017/12/the-first-photographs-of-snowflakes.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-18T21:58:50+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
       "id": "2e68d39324e2b93c",
       "title": "The entire New Yorker archive is now digitized",
       "description": "Comments",
@@ -11428,6 +11362,42 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-22T18:52:50+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "374e9e04f585c96b",
+      "title": "Paperbacks and TikTok",
+      "description": "Comments",
+      "url": "https://calnewport.com/on-paperbacks-and-tiktok/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-22T19:55:31+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "a6ad0eed0a0909e9",
+      "title": "Archiving Git branches as tags",
+      "description": "Comments",
+      "url": "https://etc.octavore.com/2025/12/archiving-git-branches-as-tags/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-22T18:52:50+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "f4744566c2f1bfcd",
+      "title": "The Program 2025 annual review: How much money does an audio drama podcast make?",
+      "description": "Comments",
+      "url": "https://programaudioseries.com/the-program-results-7/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-22T19:52:10+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -11646,6 +11616,18 @@
       "source": "MDN Blog (Mozilla)",
       "author": "brian-smith",
       "published": "2025-01-24T00:00:00+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "9f71ec73b14c8543",
+      "title": "The JavaScript Bundler Grand Prix",
+      "description": "#​766 — December 19, 2025 Read on the Web 🗓️ As it's the last issue of 2025, a reminder that JavaScript Weekly moves to Tuesdays in January. See you again on January 6, 2026!__Your editor, Peter Cooper JavaScript Weekly It's the final issue of the year, so we're going to cover a few new items, then look back at the top links of 2025 (based on reader engagement) and recap what happened in the ecosystem month-by-month this year. The JavaScript Bundler Grand Prix — Bundlers now sit at the heart of ",
+      "url": "https://javascriptweekly.com/issues/766",
+      "source": "JavaScript Weekly",
+      "author": "Inconnu",
+      "published": "2025-12-19T00:00:00+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -12453,6 +12435,18 @@
       "source": "2ality",
       "author": "Inconnu",
       "published": "2025-09-23T00:00:00+00:00",
+      "niche": "dev",
+      "score": 7,
+      "keywords": []
+    },
+    {
+      "id": "fbc846a6177c629f",
+      "title": "Issue 737",
+      "description": "Last issue of the year, and it’s time for the App Store Awards. 🎉",
+      "url": "https://iosdevweekly.com/issues/737/",
+      "source": "iOS Dev Weekly",
+      "author": "dave@iosdevweekly.com (Dave Verwer)",
+      "published": "2025-12-19T00:00:00+00:00",
       "niche": "dev",
       "score": 7,
       "keywords": []
