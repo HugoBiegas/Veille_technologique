@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-27T18:35:05.367366+00:00",
-  "total_articles": 295,
+  "last_updated": "2025-12-27T21:22:34.443724+00:00",
+  "total_articles": 286,
   "articles": [
     {
       "id": "6a6d5d4dda82a04f",
@@ -616,6 +616,24 @@
       ]
     },
     {
+      "id": "9c0a8861bad7d282",
+      "title": "LangChain core vulnerability allows prompt injection and data exposure",
+      "description": "A critical flaw in LangChain Core could allow attackers to steal sensitive secrets and manipulate LLM responses via prompt injection. LangChain Core (langchain-core) is a key Python package in the LangChain ecosystem that provides core interfaces and model-agnostic tools for building LLM-based applications. A critical vulnerability, tracked as CVE-2025-68664 (CVSS score of 9.3), affects the [&#8230;]",
+      "url": "https://securityaffairs.com/186185/hacking/langchain-core-vulnerability-allows-prompt-injection-and-data-exposure.html",
+      "source": "Security Affairs",
+      "author": "Pierluigi Paganini",
+      "published": "2025-12-27T18:20:16+00:00",
+      "niche": "security",
+      "score": 78,
+      "keywords": [
+        "attack",
+        "vulnerability",
+        "injection",
+        "critical vulnerability",
+        "CVE-"
+      ]
+    },
+    {
       "id": "abda314d1e9859de",
       "title": "Nissan says thousands of customers exposed in Red Hat breach",
       "description": "Nissan Motor Co. Ltd. (Nissan) has confirmed that information of thousands of its customers has been compromised after the data breach at Red Hat in September. [...]",
@@ -692,9 +710,9 @@
       "niche": "security",
       "score": 75,
       "keywords": [
-        "exploit",
-        "patch",
         "zero-day",
+        "patch",
+        "exploit",
         "security",
         "security flaw"
       ]
@@ -1172,10 +1190,10 @@
       "niche": "security",
       "score": 63,
       "keywords": [
-        "zero-day",
         "exploit",
         "security",
-        "patch"
+        "patch",
+        "zero-day"
       ]
     },
     {
@@ -1263,8 +1281,8 @@
       "niche": "security",
       "score": 61,
       "keywords": [
-        "secure",
         "security",
+        "secure",
         "RCE",
         "OWASP"
       ]
@@ -1635,10 +1653,10 @@
       "niche": "security",
       "score": 54,
       "keywords": [
-        "exploit",
-        "vulnerability",
         "attack",
-        "CVE-"
+        "exploit",
+        "CVE-",
+        "vulnerability"
       ]
     },
     {
@@ -1652,10 +1670,10 @@
       "niche": "security",
       "score": 54,
       "keywords": [
-        "exploit",
-        "vulnerability",
         "attack",
-        "CVE-"
+        "exploit",
+        "CVE-",
+        "vulnerability"
       ]
     },
     {
@@ -1911,8 +1929,8 @@
       "niche": "security",
       "score": 51,
       "keywords": [
-        "vulnerability",
         "disclosure",
+        "vulnerability",
         "patch"
       ]
     },
@@ -1927,9 +1945,9 @@
       "niche": "security",
       "score": 51,
       "keywords": [
+        "attack",
         "exploit",
-        "security",
-        "attack"
+        "security"
       ]
     },
     {
@@ -2045,8 +2063,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "PoC",
-        "exploit"
+        "exploit",
+        "PoC"
       ]
     },
     {
@@ -2075,8 +2093,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "exploit",
-        "attack"
+        "attack",
+        "exploit"
       ]
     },
     {
@@ -2149,20 +2167,6 @@
       "niche": "security",
       "score": 46,
       "keywords": []
-    },
-    {
-      "id": "185889fc13ee6596",
-      "title": "ATM Jackpotting ring busted: 54 indicted by DoJ",
-      "description": "The U.S. Department of Justice has indicted 54 individuals over a multi-million-dollar ATM jackpotting fraud scheme. U.S. DoJ indicted 54 people for a nationwide ATM jackpotting scheme that stole millions via malware. The case links the crimes to the cybercrime group Tren de Aragua, including charges of fraud, money laundering, and material support to a [&#8230;]",
-      "url": "https://securityaffairs.com/185908/cyber-crime/atm-jackpotting-ring-busted-54-indicted-by-doj.html",
-      "source": "Security Affairs",
-      "author": "Pierluigi Paganini",
-      "published": "2025-12-20T21:07:39+00:00",
-      "niche": "security",
-      "score": 45,
-      "keywords": [
-        "malware"
-      ]
     },
     {
       "id": "4183c7970778465c",
@@ -2440,8 +2444,8 @@
       "niche": "security",
       "score": 43,
       "keywords": [
-        "secure",
         "security",
+        "secure",
         "RCE",
         "OWASP"
       ]
@@ -2807,70 +2811,6 @@
       "keywords": []
     },
     {
-      "id": "5ffb1c80ee2be174",
-      "title": "Siemens Interniche IP-Stack",
-      "description": "View CSAF Summary Multiple Industrial products are affected by a vulnerability in the Interniche IP-Stack. The affected products do not properly enforce TCP sequence number validation in specific scenarios but accept values within a broad range. This could allow an unauthenticated remote attacker e.g. to interfere with connection setup, potentially leading to a denial of service. The attack succeeds only if an attacker can inject IP packets with spoofed addresses at precisely timed moments, and ",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-25-352-05",
-      "source": "CISA Cybersecurity Advisories",
-      "author": "CISA",
-      "published": "2025-12-18T12:00:00+00:00",
-      "niche": "security",
-      "score": 42,
-      "keywords": [
-        "vulnerability",
-        "attack",
-        "RCE"
-      ]
-    },
-    {
-      "id": "c30ce873d31500be",
-      "title": "Advantech WebAccess/SCADA",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an authenticated attacker to read or modify a remote database. The following versions of Advantech WebAccess/SCADA are affected: WebAccess/SCADA (CVE-2025-14850, CVE-2025-14849, CVE-2025-14848, CVE-2025-46268, CVE-2025-67653) CVSS Vendor Equipment Vulnerabilities v3 8.8 Advantech Advantech WebAccess/SCADA Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'), Unrestricted Upload of File with D",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-25-352-06",
-      "source": "CISA Cybersecurity Advisories",
-      "author": "CISA",
-      "published": "2025-12-18T12:00:00+00:00",
-      "niche": "security",
-      "score": 42,
-      "keywords": [
-        "exploit",
-        "attack",
-        "CVE-"
-      ]
-    },
-    {
-      "id": "5e469859cc599748",
-      "title": "National Instruments LabView",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to disclose information and execute arbitrary code. The following versions of National Instruments LabView are affected: LabVIEW (CVE-2025-64461, CVE-2025-64462, CVE-2025-64463, CVE-2025-64464, CVE-2025-64465, CVE-2025-64466, CVE-2025-64467, CVE-2025-64468, CVE-2025-64469) LabVIEW (CVE-2025-64461, CVE-2025-64462, CVE-2025-64463, CVE-2025-64464, CVE-2025-64465, CVE-2025-64466, CVE-2025-64467, CVE-2025-64468",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-25-352-03",
-      "source": "CISA Cybersecurity Advisories",
-      "author": "CISA",
-      "published": "2025-12-18T12:00:00+00:00",
-      "niche": "security",
-      "score": 42,
-      "keywords": [
-        "exploit",
-        "attack",
-        "CVE-"
-      ]
-    },
-    {
-      "id": "de39f9e791a6a5b6",
-      "title": "GSoC 2025 Recap",
-      "description": "OWASP at Google Summer of Code 2025 Celebrating real impact, strong mentorship, and a growing community The Google Summer of Code (GSoC) 2025 program has wrapped, and OWASP’s participation once again delivered meaningful improvements across the open-source security ecosystem. This year, 15 contributors worked across multiple OWASP projects, supported by 26 mentors. Of the 15 projects evaluated, 10 reached successful completion, three are still working on the final deliveries with extended deadli",
-      "url": "http://owasp.org/blog/2025/10/01/GSoCRecap.html",
-      "source": "OWASP News",
-      "author": "Fabio Cerullo & Starr Brown",
-      "published": "2025-10-01T07:00:00+00:00",
-      "niche": "security",
-      "score": 42,
-      "keywords": [
-        "security",
-        "RCE",
-        "OWASP"
-      ]
-    },
-    {
       "id": "3d356879677fffbc",
       "title": "À Taïwan, on peut maintenant payer avec une disquette (mais faut pas l'insérer dans un lecteur !)",
       "description": "Vous vous souvenez des disquettes 3,5 pouces ? Ces petits carrés en plastique qu'on utilisait pour stocker nos 1,44 Mo de données précieuses ? Hé bien à Taïwan, elles font leur grand retour... mais pas pour sauvegarder vos fichiers. La société iPASS, qui gère un système de cartes de transport et de paiement sans contact dans le pays, vient de lancer une carte prépayée NFC en forme de disquette. Taille réelle, proportions parfaites, disponible en noir ou en jaune. C'est sorti pour Noël et les gee",
@@ -2893,6 +2833,70 @@
       "niche": "security",
       "score": 42,
       "keywords": []
+    },
+    {
+      "id": "5ffb1c80ee2be174",
+      "title": "Siemens Interniche IP-Stack",
+      "description": "View CSAF Summary Multiple Industrial products are affected by a vulnerability in the Interniche IP-Stack. The affected products do not properly enforce TCP sequence number validation in specific scenarios but accept values within a broad range. This could allow an unauthenticated remote attacker e.g. to interfere with connection setup, potentially leading to a denial of service. The attack succeeds only if an attacker can inject IP packets with spoofed addresses at precisely timed moments, and ",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-25-352-05",
+      "source": "CISA Cybersecurity Advisories",
+      "author": "CISA",
+      "published": "2025-12-18T12:00:00+00:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": [
+        "attack",
+        "RCE",
+        "vulnerability"
+      ]
+    },
+    {
+      "id": "c30ce873d31500be",
+      "title": "Advantech WebAccess/SCADA",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an authenticated attacker to read or modify a remote database. The following versions of Advantech WebAccess/SCADA are affected: WebAccess/SCADA (CVE-2025-14850, CVE-2025-14849, CVE-2025-14848, CVE-2025-46268, CVE-2025-67653) CVSS Vendor Equipment Vulnerabilities v3 8.8 Advantech Advantech WebAccess/SCADA Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'), Unrestricted Upload of File with D",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-25-352-06",
+      "source": "CISA Cybersecurity Advisories",
+      "author": "CISA",
+      "published": "2025-12-18T12:00:00+00:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": [
+        "attack",
+        "exploit",
+        "CVE-"
+      ]
+    },
+    {
+      "id": "5e469859cc599748",
+      "title": "National Instruments LabView",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to disclose information and execute arbitrary code. The following versions of National Instruments LabView are affected: LabVIEW (CVE-2025-64461, CVE-2025-64462, CVE-2025-64463, CVE-2025-64464, CVE-2025-64465, CVE-2025-64466, CVE-2025-64467, CVE-2025-64468, CVE-2025-64469) LabVIEW (CVE-2025-64461, CVE-2025-64462, CVE-2025-64463, CVE-2025-64464, CVE-2025-64465, CVE-2025-64466, CVE-2025-64467, CVE-2025-64468",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-25-352-03",
+      "source": "CISA Cybersecurity Advisories",
+      "author": "CISA",
+      "published": "2025-12-18T12:00:00+00:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": [
+        "attack",
+        "exploit",
+        "CVE-"
+      ]
+    },
+    {
+      "id": "de39f9e791a6a5b6",
+      "title": "GSoC 2025 Recap",
+      "description": "OWASP at Google Summer of Code 2025 Celebrating real impact, strong mentorship, and a growing community The Google Summer of Code (GSoC) 2025 program has wrapped, and OWASP’s participation once again delivered meaningful improvements across the open-source security ecosystem. This year, 15 contributors worked across multiple OWASP projects, supported by 26 mentors. Of the 15 projects evaluated, 10 reached successful completion, three are still working on the final deliveries with extended deadli",
+      "url": "http://owasp.org/blog/2025/10/01/GSoCRecap.html",
+      "source": "OWASP News",
+      "author": "Fabio Cerullo & Starr Brown",
+      "published": "2025-10-01T07:00:00+00:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": [
+        "security",
+        "RCE",
+        "OWASP"
+      ]
     },
     {
       "id": "147af07cd27fbdbe",
@@ -2979,23 +2983,6 @@
       "niche": "security",
       "score": 39,
       "keywords": []
-    },
-    {
-      "id": "a97b8cc4c8bfd938",
-      "title": "Smashing Security podcast #448: The Kindle that got pwned",
-      "description": "Think your Kindle is harmless? Think again! In this episode, we unpack a Black Hat Europe talk revealing how a boobytrapped audiobook could exploit the Amazon eBook reader - potentially letting an attacker break into your account and seize control of your credit card. Plus a blast from 2021's \"summer of ransomware\" returns to haunt Ireland's Health Service Executive, as victims are offered €750 each. And because it's the last show before the Christmas break, there's also a Pick of the Week that ",
-      "url": "https://grahamcluley.com/smashing-security-podcast-448/",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2025-12-18T00:30:44+00:00",
-      "niche": "security",
-      "score": 38,
-      "keywords": [
-        "exploit",
-        "ransomware",
-        "security",
-        "attack"
-      ]
     },
     {
       "id": "95e702f96438b05e",
@@ -3124,9 +3111,9 @@
       "niche": "security",
       "score": 37,
       "keywords": [
+        "web application security",
         "threat",
         "security",
-        "web application security",
         "OWASP"
       ]
     },
@@ -3141,22 +3128,6 @@
       "niche": "security",
       "score": 36,
       "keywords": [
-        "attack"
-      ]
-    },
-    {
-      "id": "11c6951e0a94b0e6",
-      "title": "Ransomware may have extorted over $2.1 billion between 2022-2024, but it’s not all bad news, claims FinCEN report",
-      "description": "A new report from the United States's Financial Crimes Enforcement Network (FinCEN) has shone a revealing light on the state of the criminal industry of ransomware. The report, which examines ransomware incidents from 2022 to 2024, reveals that attackers extorted more than $2.1 billion over the three-year period. Yes, that number is enormous - but it hides a more interesting story beneath it: that after peaking in 2023, ransomware payments actually started to decline. Read more in my article on ",
-      "url": "https://www.fortra.com/blog/ransomware-may-have-extorted-over-21-billion-between-2022-2024-its-not-all-bad-news-claims",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2025-12-10T16:17:02+00:00",
-      "niche": "security",
-      "score": 35,
-      "keywords": [
-        "ransomware",
-        "RCE",
         "attack"
       ]
     },
@@ -3200,8 +3171,8 @@
       "niche": "security",
       "score": 31,
       "keywords": [
-        "security",
         "secure",
+        "security",
         "OWASP"
       ]
     },
@@ -3233,22 +3204,6 @@
       "keywords": [
         "security",
         "OWASP"
-      ]
-    },
-    {
-      "id": "84ce414813abddf3",
-      "title": "Four years later, Irish health service offers €750 to victims of ransomware attack",
-      "description": "Remember when a notorious ransomware gang hit the Irish Health Service back in May 2021? Four years on, and it seems victims who had their data exposed will finally receive compensation. Read more in my article on the Hot for Security blog.",
-      "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/four-years-later-irish-health-service-offers-eu750-to-victims-of-ransomware-attack",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2025-12-10T12:00:59+00:00",
-      "niche": "security",
-      "score": 28,
-      "keywords": [
-        "ransomware",
-        "security",
-        "attack"
       ]
     },
     {
@@ -3435,21 +3390,6 @@
       ]
     },
     {
-      "id": "0a06157c56170543",
-      "title": "Smashing Security podcast #447: Grok the stalker, the Louvre heist, and Microsoft 365 mayhem",
-      "description": "On this week's show we learn that AI really can be a stalker’s best friend, as we explore a strange tale that starts with a manatee-shaped mailbox on a millionaire's lawn and ends with Grok happily doxxing real people, mapping out stalking \"strategies,\" and handing out revenge-porn tips. Then we go inside the Louvre heist, where thieves in hi-vis and a hire van waltzed off with the French crown jewels in broad daylight, exploiting our assumptions about what \"looks normal\" - the same kind of bias",
-      "url": "https://grahamcluley.com/smashing-security-podcast-447/",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2025-12-11T00:30:16+00:00",
-      "niche": "security",
-      "score": 25,
-      "keywords": [
-        "exploit",
-        "security"
-      ]
-    },
-    {
       "id": "554b17a6486d4a54",
       "title": "[webapps] Summar Employee Portal 3.98.0 - Authenticated SQL Injection",
       "description": "Summar Employee Portal 3.98.0 - Authenticated SQL Injection",
@@ -3490,8 +3430,8 @@
       "niche": "security",
       "score": 23,
       "keywords": [
-        "RCE",
-        "protection"
+        "protection",
+        "RCE"
       ]
     },
     {
@@ -3505,9 +3445,9 @@
       "niche": "security",
       "score": 22,
       "keywords": [
-        "threat",
+        "cybersecurity",
         "security",
-        "cybersecurity"
+        "threat"
       ]
     },
     {
@@ -3521,8 +3461,8 @@
       "niche": "security",
       "score": 22,
       "keywords": [
-        "malware",
         "security",
+        "malware",
         "cybersecurity"
       ]
     },
@@ -3608,8 +3548,8 @@
       "niche": "security",
       "score": 19,
       "keywords": [
-        "security",
-        "protection"
+        "protection",
+        "security"
       ]
     },
     {
@@ -3667,23 +3607,8 @@
       "niche": "security",
       "score": 18,
       "keywords": [
-        "threat",
-        "attack"
-      ]
-    },
-    {
-      "id": "da113beca8f3ef32",
-      "title": "Man jailed for teaching criminals how to use malware",
-      "description": "A 49-year-old man has received a five-and-a-half year jail sentence after admitting to creating detailed video tutorials that showed members of a criminal gang how to infect Android phones with spyware and drain their bank accounts. Read more in my article on the Hot for Security blog.",
-      "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/man-jailed-for-teaching-criminals-how-to-use-malware",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2025-12-15T10:25:46+00:00",
-      "niche": "security",
-      "score": 18,
-      "keywords": [
-        "malware",
-        "security"
+        "attack",
+        "threat"
       ]
     },
     {
@@ -3740,48 +3665,6 @@
       "score": 18,
       "keywords": [
         "attack"
-      ]
-    },
-    {
-      "id": "7a513582fdfec53a",
-      "title": "Surveillance at sea: Cruise firm bans smart glasses to curb covert recording",
-      "description": "If you're planning a cruise for your holidays, and cannot bear the idea of being parted from your Ray-Ban Meta smart glasses, you may want to avoid sailing with MSC Cruises. The cruise line has updated its list of prohibited items, specifically banning smart glasses and similar wearable devices from public areas. Read more in my article on the Hot for Security blog.",
-      "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/surveillance-at-sea-cruise-firm-bans-smart-glasses-to-curb-covert-recording",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2025-12-17T09:33:42+00:00",
-      "niche": "security",
-      "score": 15,
-      "keywords": [
-        "security"
-      ]
-    },
-    {
-      "id": "799d03865a61af49",
-      "title": "Gartner tells businesses to block AI browsers now",
-      "description": "Analyst firm Gartner has issued a blunt warning to organizations: Agentic AI browsers introduce serious new security risks and should be blocked \"for the foreseeable future.\" Read more in my article on the Fortra blog.",
-      "url": "https://www.fortra.com/blog/gartner-tells-businesses-block-ai-browsers-now",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2025-12-12T12:52:38+00:00",
-      "niche": "security",
-      "score": 15,
-      "keywords": [
-        "security"
-      ]
-    },
-    {
-      "id": "bd943f36ce991930",
-      "title": "California man admits role in $263 million cryptocurrency theft that funded lavish lifestyle",
-      "description": "When you spend half a million dollars in a single night at a nightclub, purchase exotic cars worth millions, and rent mansions under false names, you are risking drawing attention to yourself... Read more in my article on the Hot for Security blog.",
-      "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/california-man-admits-role-in-263-million-cryptocurrency-theft-that-funded-lavish-lifestyle",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2025-12-09T16:13:48+00:00",
-      "niche": "security",
-      "score": 15,
-      "keywords": [
-        "security"
       ]
     },
     {
@@ -3973,18 +3856,6 @@
       "keywords": [
         "protection"
       ]
-    },
-    {
-      "id": "f0161c2f7583d2eb",
-      "title": "The AI Fix #81: ChatGPT is the last AI you’ll understand, and your teacher is a deepfake",
-      "description": "In episode 81 of The AI Fix, Graham discovers that deepfakes are already marking your kids' homework, while Mark glimpses the future when he discovers AI agents that can communicate by reading each other's minds. Also in this episode, a Chinese robot called Miro U proves six arms are better than two; Mark discovers a well known prompting technique doesn't work unless you want to make your AI dumber; Network Rail delays 32 trains because of an AI photo of a wonky bridge; and our hosts ponder the ",
-      "url": "https://grahamcluley.com/the-ai-fix-81/",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2025-12-16T15:30:03+00:00",
-      "niche": "security",
-      "score": 12,
-      "keywords": []
     },
     {
       "id": "a4ecc5bb0f9a18e3",
