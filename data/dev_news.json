@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-28T15:25:44.757949+00:00",
-  "total_articles": 947,
+  "last_updated": "2025-12-28T18:36:29.031838+00:00",
+  "total_articles": 943,
   "articles": [
     {
       "id": "f8dc954cb8ca9308",
@@ -1068,6 +1068,18 @@
       "keywords": []
     },
     {
+      "id": "2b29dcc0b5d4f19c",
+      "title": "A \"Prime\" View of HN",
+      "description": "Comments",
+      "url": "https://dosaygo-studio.github.io/prime-news/index.html",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-28T17:12:14+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": []
+    },
+    {
       "id": "37e498ff4bb9e9c9",
       "title": "LINQ Performance Optimization: 5 Patterns Every C# Developer Should Know",
       "description": "This is Part 3 of the \"LINQ Performance & Best Practices\" series. If you haven't read the foundational articles yet: Part 1: Deferred Execution - The Essence of LINQ in C# Part 2: Multiple Enumerations in LINQ Expressions Our encryption service API response time jumped from 200ms to 3 seconds after adding a \"simple\" LINQ query to filter document metadata. The query looked clean, passed code review without comments, and the unit tests ran fine. But production told a different story. The problem w",
@@ -1393,18 +1405,19 @@
       ]
     },
     {
-      "id": "2199f4b42cbda4bc",
-      "title": "Why Scrapy Gets Blocked But Python Requests Works (And How to Fix It)",
-      "description": "You're scraping a website with Scrapy. You've set everything up perfectly. User agent? Check. Headers? Check. Cookies? Check. But you keep getting 403 errors. Or blank pages. Or weird responses that make no sense. Frustrated, you decide to test the same URL with Python's requests library. Just to see if the site is even working. And it works perfectly. First try. What the hell? Same URL. Same headers. Same user agent. How is requests working when Scrapy isn't? I've been there. I've lost hours de",
-      "url": "https://dev.to/ikram_khan/why-scrapy-gets-blocked-but-python-requests-works-and-how-to-fix-it-1jhj",
+      "id": "1df18c944077f2fa",
+      "title": "I Got Roasted on Reddit for My AI-Built CMS So I Built a Full PHP Framework Instead",
+      "description": "Hey DEV community 👋 My name is Aamir, English isn’t my first language, and I’m not a PHP expert. In fact, I know jack shit about PHP. A few weeks ago, I posted my homemade CMS (Zed) on r/PHP. I used AI to help write the code and even to clean up my Reddit replies (because writing perfect English is hard when it’s not your native tongue). The response? Nuclear. “AI slop” “Vibe-coded garbage” “No tests, no structure” Someone literally asked the mods to ban “AI vibe-coding” posts Got flamed for usi",
+      "url": "https://dev.to/aamirali51/i-got-roasted-on-reddit-for-my-ai-built-cms-so-i-built-a-full-php-framework-instead-14j5",
       "source": "Dev.to",
-      "author": "Muhammad Ikramullah Khan",
-      "published": "2025-12-21T18:14:37+00:00",
+      "author": "aamirali51",
+      "published": "2025-12-28T18:16:58+00:00",
       "niche": "dev",
-      "score": 57,
+      "score": 58,
       "keywords": [
-        "API",
-        "library"
+        "PHP",
+        "code",
+        "framework"
       ]
     },
     {
@@ -1542,6 +1555,21 @@
       "keywords": [
         "framework",
         "library"
+      ]
+    },
+    {
+      "id": "31ab38b14bae989b",
+      "title": "Lessons Learned Building a Microservices Expense Tracker",
+      "description": "Have you ever taken a small idea and deliberately made it more complex, not to overengineer it, but to understand how real systems actually work? That’s exactly what I did when I built an Expense Tracker. Instead of going with a single monolithic backend, I chose to split it into multiple microservices that communicate with each other through APIs. What started as a curiosity-driven experiment quickly turned into a practical lesson in system design, data flow, authentication, and thinking beyond",
+      "url": "https://dev.to/abdullah_softeng/lessons-learned-building-a-microservices-expense-tracker-4aji",
+      "source": "Dev.to",
+      "author": "Abdullah Kashif",
+      "published": "2025-12-28T17:45:33+00:00",
+      "niche": "dev",
+      "score": 57,
+      "keywords": [
+        "microservices",
+        "API"
       ]
     },
     {
@@ -1771,6 +1799,22 @@
       "niche": "dev",
       "score": 56,
       "keywords": []
+    },
+    {
+      "id": "08e6c26a48026c1c",
+      "title": "Why \"Just Coding\" Won't Save You in 2026 (My Take on Akshay Saini's Advice)",
+      "description": "I recently watched a video by Akshay Saini titled \"The Software Engineer Who Will WIN in 2026,\" and honestly, it hit home. As developers, we often get stuck in the loop of learning the \"next new framework,\" but Akshay points out a hard truth: Coding itself is no longer the differentiator. With AI models writing cleaner, faster code every day, the bar has shifted. If you haven't watched the video yet, I highly recommend it (linked below), but here are my top takeaways and why I think he’s 100% ri",
+      "url": "https://dev.to/ashwinhegde19/why-just-coding-wont-save-you-in-2026-my-take-on-akshay-sainis-advice-5bp7",
+      "source": "Dev.to",
+      "author": "Ashwinhegde19",
+      "published": "2025-12-28T17:57:50+00:00",
+      "niche": "dev",
+      "score": 56,
+      "keywords": [
+        "code",
+        "developer",
+        "framework"
+      ]
     },
     {
       "id": "7ad2a4f05303f897",
@@ -2280,6 +2324,21 @@
       "keywords": [
         "performance",
         "developer"
+      ]
+    },
+    {
+      "id": "b4341d908939c80b",
+      "title": "10 JSON Mistakes That Will Break Your API (And How to Fix Them)",
+      "description": "You paste JSON into your code. Everything looks fine. Then: SyntaxError: Unexpected token Here are the 10 most common JSON mistakes I see (and how to fix them in seconds).\" Mistake #1: Trailing Commas json// ❌ Wrong { \"name\": \"John\", \"age\": 25, ← trailing comma breaks JSON } // ✅ Correct { \"name\": \"John\", \"age\": 25 } Why it breaks: JSON spec doesn't allow trailing commas How to fix: Remove the last comma Pro tip: Use a JSON validator to catch this Mistake #2: Single Quotes Instead of Double Quot",
+      "url": "https://dev.to/jsontoall_tools/10-json-mistakes-that-will-break-your-api-and-how-to-fix-them-1o44",
+      "source": "Dev.to",
+      "author": "Jsontoall tools",
+      "published": "2025-12-28T17:52:58+00:00",
+      "niche": "dev",
+      "score": 55,
+      "keywords": [
+        "code",
+        "API"
       ]
     },
     {
@@ -3975,20 +4034,6 @@
       ]
     },
     {
-      "id": "3dcf140d24940ddc",
-      "title": "The Future of AI Monetization: Exploring Monetzly for Developers",
-      "description": "Traditional Ads Don't Work in AI Conversations. Here's What Does. As developers building the next wave of LLM-powered applications, you're likely feeling the pressure to not only innovate but also find sustainable monetization strategies. The challenge? Most monetization models disrupt user experience, making it difficult to balance revenue generation with user satisfaction. Enter Monetzly—the Google Ads for AI Conversations. The Monetization Dilemma AI apps are booming, but many lack clear mone",
-      "url": "https://dev.to/monetzly/the-future-of-ai-monetization-exploring-monetzly-for-developers-21p7",
-      "source": "Dev.to",
-      "author": "Monetzly",
-      "published": "2025-12-21T18:17:54+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "developer"
-      ]
-    },
-    {
       "id": "9e3dc58abdd0a04d",
       "title": "When Ai Learns to Admit Its Mistakes Trust Becomes a Real Responsibility",
       "description": "OpenAI’s latest research direction marks a significant evolution in how advanced AI systems are trained and evaluated and it raises fundamental questions about transparency responsibility and future expectations of artificial intelligence The initiative described as a confession mechanism shifts AI development from obscuring internal processes to making certain behaviors visible and accountable This piece examines why this matters what it means for the AI industry and how stakeholders should int",
@@ -5389,28 +5434,46 @@
       ]
     },
     {
-      "id": "888a015982867bb9",
-      "title": "Building an Intentionally Vulnerable AWS Lab to Teach Cloud Security",
-      "description": "Introduction Most cloud engineers learn AWS by building functional infrastructure deploying EC2 instances, configuring S3 buckets, setting up VPCs. They pass certification exams that test theoretical knowledge of IAM policies and security groups. But they rarely see how attackers actually exploit cloud environments. This gap is dangerous. Real-world cloud breaches don't happen because engineers forget to enable encryption. They happen because of subtle misconfigurations in IAM policies, overly p",
-      "url": "https://dev.to/karanvaghela/building-an-intentionally-vulnerable-aws-lab-to-teach-cloud-security-77f",
+      "id": "b63923341816a2fc",
+      "title": "Building Secure Session-Based Authentication in NestJS - Part 1",
+      "description": "Introduction Session-based authentication is everywhere — yet many developers rely on it daily without fully understanding how it actually works under the hood. In this series, we will build a real, production-style session-based authentication system using NestJS, Passport, Redis, and HTTP cookies. Along the way, we will demystify what happens on every request: How sessions are created Where they are stored How they are validated How session rotation works How sessions are revoked No magic. No ",
+      "url": "https://dev.to/juanpeyrot/building-secure-session-based-authentication-in-nestjs-3o1p",
       "source": "Dev.to",
-      "author": "Karan Vaghela",
-      "published": "2025-12-21T18:09:28+00:00",
+      "author": "juanpeyrot",
+      "published": "2025-12-28T18:10:26+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
-      "id": "ddf9c0314e5e704a",
-      "title": "Stop Shipping Broken Strings: Placeholder-Safe i18n in Node.js + Express",
-      "description": "Stop Shipping Broken Strings: Placeholder-Safe i18n in Node.js + Express One missing {{name}} can crash an email template, break a UI render, or—worse—silently corrupt analytics payloads. The scary part is that placeholder bugs often don’t show up in the language you test (usually English). They wait until a specific locale hits production and then fail in the most inconvenient place: a password reset email, a checkout confirmation, a PDF invoice, or an event pipeline you only notice weeks later",
-      "url": "https://dev.to/shipi18n/stop-shipping-broken-strings-placeholder-safe-i18n-in-nodejs-express-5hhm",
+      "id": "16f0603d0babe7d5",
+      "title": "🧰 I Built a Free Online Toolbox with 80+ Tools (TXToolbox) webdev productivity tools sideproject",
+      "description": "When working as a developer or content creator, I often found myself jumping between dozens of small online tools: word counters, formatters, converters, validators, and calculators. Most of them had annoying ads, required sign-ups, or focused on just one tiny task. So I decided to build TXToolbox. 🚀 What is TXToolbox? TXToolbox is a free online toolbox that brings together 80+ productivity tools in one place. It’s designed for: Developers Designers Content creators Freelancers Students 👉 Websit",
+      "url": "https://dev.to/txtoolbox/i-built-a-free-online-toolbox-with-80-tools-txtoolboxwebdevproductivitytoolssideproject-42eg",
       "source": "Dev.to",
-      "author": "shipi18n",
-      "published": "2025-12-21T18:03:37+00:00",
+      "author": "Tx ToolBox",
+      "published": "2025-12-28T18:08:43+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
+    },
+    {
+      "id": "e28e33a2d752ac99",
+      "title": "Ethereum-Solidity Quiz Q7: What is the \"solc optimizer\" in Solidity?",
+      "description": "The solc optimizer is built in the Solidity compiler and is used to reduce gas costs by optimizing the compiled bytecode. It analyzes code and makes optimizations like removing dead code, simplifying expressions, and reorganizing operations to use less gas. Used across multiple tools, like Foundry, Hardhat, Truffle, Remix. The optimizer has a parameter called optimizer runs that is configurable. This number represents roughly how many times you expect the contract to be called. Higher values[ex.",
+      "url": "https://dev.to/mihaihng/ethereum-solidity-quiz-q7-what-is-the-solc-optimizer-in-solidity-11ja",
+      "source": "Dev.to",
+      "author": "MihaiHng",
+      "published": "2025-12-28T17:53:47+00:00",
+      "niche": "dev",
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "95414ec3d90af7a0",
@@ -7861,6 +7924,42 @@
       "keywords": []
     },
     {
+      "id": "82558ab8b33a5279",
+      "title": "How to use Amazon ECR Public over IPv6",
+      "description": "So you want to pull your Docker images from Amazon ECR Public over IPv6? You are probably looking to remove your public IPv4 addresses in order to save on your AWS bill. But the fact that ECR Public doesn't seem to support IPv6 may be holding you back. Fortunately, the fix is easy. Simply use ecr-public.aws.com instead of public.ecr.aws. Example: # Use this when pulling over IPv4 or IPv6: ecr-public.aws.com/ubuntu/ubuntu:latest # The old URIs only work with IPv4: public.ecr.aws/ubuntu/ubuntu:lat",
+      "url": "https://dev.to/aws-builders/how-to-use-amazon-ecr-public-over-ipv6-ki9",
+      "source": "Dev.to",
+      "author": "Stefan Sundin",
+      "published": "2025-12-28T18:30:07+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "8593aa9e06f25450",
+      "title": "SecureAI Note Assistant",
+      "description": "<iframe src=\"https://player.mux.com/9k896R7y70101H600Xjtea3rg85rP1BlwdrvxJtjgpSZsg?metadata-video-title=12261820_01&video-title=12261820_01\" style=\"width: 100%; border: none; aspect-ratio: 4/3;\" allow=\"accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;\" allowfullscreen \"The pitch video is hosted on Mux to ensure reliable playback and a smooth reviewing experience.\" SecureAI Note Assistant - A Privacy-First AI Note & Analytics Platform SecureAI Note Assistant is a full-stack",
+      "url": "https://dev.to/osazuwa_john_1580bf90e07f/secureai-note-assistant-3mdn",
+      "source": "Dev.to",
+      "author": "Osazuwa John",
+      "published": "2025-12-28T18:19:03+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "20ab75419126e794",
+      "title": "Why Universities Should Encourage Students to Build Digital Portfolios",
+      "description": "I still remember my final year at university. Grades? Fine. Attendance? Mostly okay. But when graduation came closer, a scary thought hit me—how do I actually show what I can do? A transcript doesn’t tell the whole story. It never did. That’s exactly why universities need to seriously encourage students to build digital portfolios. Not as an optional “nice-to-have,” but as a core part of modern education. Let me explain why this matters more than most institutions realize. Degrees Tell What You ",
+      "url": "https://dev.to/imtaslim/why-universities-should-encourage-students-to-build-digital-portfolios-4khd",
+      "source": "Dev.to",
+      "author": "Shaikh Taslim Ahmed",
+      "published": "2025-12-28T17:57:31+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "e18f7d1903a5ac30",
       "title": "Some people are becoming exceptional tool users. Others are becoming system builders. Over time, the second group will quietly replace the first, and that’s not a threat. It’s a natural evolution.",
       "description": "System Builders Will Replace Tool Users: And That’s a Good Thing Jaideep Parashar ・ Dec 25 #webdev #ai #developers #programming",
@@ -8022,20 +8121,6 @@
       "keywords": []
     },
     {
-      "id": "e2ae6bc5a2286ba4",
-      "title": "Get an AI code review in 10 seconds",
-      "description": "Comments",
-      "url": "https://oldmanrahul.com/2025/12/19/ai-code-review-trick/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-21T17:21:05+00:00",
-      "niche": "dev",
-      "score": 45,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
       "id": "3e691d9294a0147e",
       "title": "Matrix rain code JS",
       "description": "Check out this Pen I made!",
@@ -8160,138 +8245,6 @@
       "keywords": [
         "programming"
       ]
-    },
-    {
-      "id": "6d563bd97e19aa73",
-      "title": "Happy New Year",
-      "description": "Check out this Pen I made!",
-      "url": "https://dev.to/preetha_vaishnavi_2b82358/happy-new-year-jha",
-      "source": "Dev.to",
-      "author": "preetha vaishnavi",
-      "published": "2025-12-21T18:19:08+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "8c99f8ad32629e1d",
-      "title": "Gold Rates",
-      "description": "Check out this Pen I made!",
-      "url": "https://dev.to/preetha_vaishnavi_2b82358/gold-rates-2f7j",
-      "source": "Dev.to",
-      "author": "preetha vaishnavi",
-      "published": "2025-12-21T18:14:45+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "10a98607d5920658",
-      "title": "Winner",
-      "description": "Check out this Pen I made!",
-      "url": "https://dev.to/preetha_vaishnavi_2b82358/winner-3872",
-      "source": "Dev.to",
-      "author": "preetha vaishnavi",
-      "published": "2025-12-21T18:10:00+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "d3c64f5e91811983",
-      "title": "Car ride",
-      "description": "Check out this Pen I made!",
-      "url": "https://dev.to/preetha_vaishnavi_2b82358/car-ride-5eie",
-      "source": "Dev.to",
-      "author": "preetha vaishnavi",
-      "published": "2025-12-21T18:07:54+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "e1c05a1285df8031",
-      "title": "Train ride",
-      "description": "Check out this Pen I made!",
-      "url": "https://dev.to/preetha_vaishnavi_2b82358/train-ride-2k41",
-      "source": "Dev.to",
-      "author": "preetha vaishnavi",
-      "published": "2025-12-21T18:06:56+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "389d9477c9449f3d",
-      "title": "Calculator w/ Rolling Counter",
-      "description": "Check out this Pen I made!",
-      "url": "https://dev.to/preetha_vaishnavi_2b82358/calculator-w-rolling-counter-5a48",
-      "source": "Dev.to",
-      "author": "preetha vaishnavi",
-      "published": "2025-12-21T18:03:29+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "e12d455812a0397b",
-      "title": "Show HN: Books mentioned on Hacker News in 2025",
-      "description": "Comments",
-      "url": "https://hackernews-readings-613604506318.us-west1.run.app",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-21T16:21:04+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "084e83d3201211d0",
-      "title": "E.W.Dijkstra Archive",
-      "description": "Comments",
-      "url": "https://www.cs.utexas.edu/~EWD/welcome.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-21T15:29:31+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "0e891799107adb83",
-      "title": "ELF Crimes: Program Interpreter Fun",
-      "description": "Comments",
-      "url": "https://nytpu.com/gemlog/2025-12-21",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-21T16:30:09+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "97cf3b790c80961c",
-      "title": "Show HN: WalletWallet – create Apple passes from anything",
-      "description": "Comments",
-      "url": "https://walletwallet.alen.ro/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-21T16:04:05+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "bf85f2bf4492cf6a",
-      "title": "Logging Sucks",
-      "description": "Comments",
-      "url": "https://loggingsucks.com/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-21T18:09:52+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "e923a9873c7fa919",
@@ -9686,6 +9639,30 @@
       "keywords": []
     },
     {
+      "id": "9139b86bf93943d8",
+      "title": "tc-ematch(8) extended matches for use with \"basic\", \"cgroup\" or \"flow\" filters",
+      "description": "Comments",
+      "url": "https://man7.org/linux/man-pages/man8/tc-ematch.8.html",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-28T16:43:14+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "5b719352dafbe513",
+      "title": "Designing Predictable LLM-Verifier Systems for Formal Method Guarantee",
+      "description": "Comments",
+      "url": "https://arxiv.org/abs/2512.02080",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-28T15:02:07+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "26dbca142972a14e",
       "title": "Building a Nostalgic 8-bit Universe with Modern Tech: A Vibe Coding Journey",
       "description": "A nostalgic 8-bit portfolio experiment built with modern AI workflows and performance-first web tech.",
@@ -9710,8 +9687,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "React 19",
-        "performance"
+        "performance",
+        "React 19"
       ]
     },
     {
@@ -9740,8 +9717,8 @@
       "score": 40,
       "keywords": [
         "code",
-        "release",
-        "performance"
+        "performance",
+        "release"
       ]
     },
     {
@@ -9755,9 +9732,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "release",
+        "developer",
         "API",
-        "developer"
+        "release"
       ]
     },
     {
@@ -9771,9 +9748,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "release",
+        "performance",
         "developer",
-        "performance"
+        "release"
       ]
     },
     {
@@ -9798,18 +9775,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-21T18:39:46+00:00",
-      "niche": "dev",
-      "score": 38,
-      "keywords": []
-    },
-    {
-      "id": "f5592ea05df65624",
-      "title": "CO2 batteries that store grid energy take off globally",
-      "description": "Comments",
-      "url": "https://spectrum.ieee.org/co2-battery-energy-storage",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-21T15:27:36+00:00",
       "niche": "dev",
       "score": 38,
       "keywords": []
@@ -9983,6 +9948,18 @@
       "keywords": []
     },
     {
+      "id": "168e7723daf77647",
+      "title": "Learn computer graphics from scratch and for free",
+      "description": "Comments",
+      "url": "https://www.scratchapixel.com",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-28T11:08:22+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
       "id": "4e6d7290f5ff11d8",
       "title": "React Native 0.80 - React 19.1, JS API Changes, Freezing Legacy Arch and much more",
       "description": "Today we are excited to release React Native 0.80!",
@@ -9993,9 +9970,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "React 19",
         "API",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -10075,8 +10052,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -10090,8 +10067,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -10375,10 +10352,10 @@
       "score": 30,
       "keywords": [
         "code",
-        "framework",
-        "release",
+        "performance",
         "API",
-        "performance"
+        "release",
+        "framework"
       ]
     },
     {
@@ -10680,8 +10657,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "API"
+        "API",
+        "release"
       ]
     },
     {
@@ -10711,8 +10688,8 @@
       "score": 20,
       "keywords": [
         "code",
-        "developer",
-        "performance"
+        "performance",
+        "developer"
       ]
     },
     {
@@ -10756,8 +10733,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
-        "developer"
+        "developer",
+        "release"
       ]
     },
     {
@@ -10771,8 +10748,8 @@
       "niche": "dev",
       "score": 18,
       "keywords": [
-        "Angular",
-        "PHP"
+        "PHP",
+        "Angular"
       ]
     },
     {
@@ -10828,9 +10805,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "tutorial",
         "PHP",
-        "development"
+        "development",
+        "tutorial"
       ]
     },
     {
@@ -10844,9 +10821,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "tutorial",
         "PHP",
-        "development"
+        "development",
+        "tutorial"
       ]
     },
     {
@@ -11143,30 +11120,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-23T14:51:33+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "eaabc8afefd7b827",
-      "title": "Intertapes – collection of found cassette tapes from different locations",
-      "description": "Comments",
-      "url": "https://intertapes.net/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-21T15:29:59+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "46ccccdfcf2c8451",
-      "title": "Ask HN: Resources to get better at outbound sales?",
-      "description": "Comments",
-      "url": "https://news.ycombinator.com/item?id=46346648",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-21T17:49:36+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -11520,8 +11473,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "programming",
-        "development"
+        "development",
+        "programming"
       ]
     },
     {
@@ -12204,6 +12157,18 @@
       "published": "2025-09-26T00:00:00+00:00",
       "niche": "dev",
       "score": 9,
+      "keywords": []
+    },
+    {
+      "id": "a377ac8a02197e80",
+      "title": "Never Use Pixelation to Hide Sensitive Text (2014)",
+      "description": "Comments",
+      "url": "https://dheera.net/posts/20140725-why-you-should-never-use-pixelation/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-21T15:15:41+00:00",
+      "niche": "dev",
+      "score": 8,
       "keywords": []
     },
     {
