@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-28T12:51:33.477025+00:00",
-  "total_articles": 949,
+  "last_updated": "2025-12-28T15:25:44.757949+00:00",
+  "total_articles": 947,
   "articles": [
     {
       "id": "f8dc954cb8ca9308",
@@ -192,6 +192,21 @@
         "developer",
         "performance",
         "development"
+      ]
+    },
+    {
+      "id": "05677e2d43d677f4",
+      "title": "How We Reduced Payment API Latency by 60% Using ExecutorService in Spring Boot",
+      "description": "🏦 Business Scenario (Very Common in FinTech) Imagine a payment processing service. Before processing a payment, the system must validate: Account Status (active / blocked) Balance Check Fraud Risk Check Each validation: Calls a different internal service Takes 300–800 ms Is independent ❌ Bad approach (sequential): Total time ≈ 2 seconds High latency → SLA breach ✅ Good approach (parallel using ExecutorService): All checks run in parallel Total time ≈ max(800 ms) 🧠 Why ExecutorService Here? Contr",
+      "url": "https://dev.to/realnamehidden1_61/spring-boot-executorservice-parallel-payment-validation-using-executorservice-1ie2",
+      "source": "Dev.to",
+      "author": "realNameHidden",
+      "published": "2025-12-28T15:02:58+00:00",
+      "niche": "dev",
+      "score": 75,
+      "keywords": [
+        "Spring",
+        "API"
       ]
     },
     {
@@ -1362,6 +1377,22 @@
       ]
     },
     {
+      "id": "fb821bcb82055a11",
+      "title": "Building Telegram Bots in Ruby Just Got Easier with Telegem v2",
+      "description": "If you're building Telegram bots in Ruby, you've probably faced: Complex API patterns that don't feel like Ruby Session management headaches Deployment confusion Outdated documentation I was there too. After building several production bots, I extracted the patterns into Telegem - a framework that makes bot development actually enjoyable in Ruby. The \"Aha!\" Moment The breakthrough came when I realized most bot frameworks are ports from other languages. Ruby deserves better. So I built something ",
+      "url": "https://dev.to/slick_phantom/building-telegram-bots-in-ruby-just-got-easier-with-telegem-v2-2m78",
+      "source": "Dev.to",
+      "author": "phåńtøm šłîçk",
+      "published": "2025-12-28T15:02:10+00:00",
+      "niche": "dev",
+      "score": 58,
+      "keywords": [
+        "development",
+        "API",
+        "framework"
+      ]
+    },
+    {
       "id": "2199f4b42cbda4bc",
       "title": "Why Scrapy Gets Blocked But Python Requests Works (And How to Fix It)",
       "description": "You're scraping a website with Scrapy. You've set everything up perfectly. User agent? Check. Headers? Check. Cookies? Check. But you keep getting 403 errors. Or blank pages. Or weird responses that make no sense. Frustrated, you decide to test the same URL with Python's requests library. Just to see if the site is even working. And it works perfectly. First try. What the hell? Same URL. Same headers. Same user agent. How is requests working when Scrapy isn't? I've been there. I've lost hours de",
@@ -1730,34 +1761,16 @@
       "keywords": []
     },
     {
-      "id": "facb62beda5cc08b",
-      "title": "Leafwiki v0.5.2 - is out - dark mode and Markdown improvements",
-      "description": "I'm happy to announce that Leafwiki v0.5.2 is out. This release introduces dark mode support. With support for Mermaid diagrams, images, and HTML inside Markdown, Leafwiki can be used for project documentation, technical notes, and internal documentation for personal use and small dev teams. What is Leafwiki Leafwiki is a lightweight, self-hosted wiki engine built for developers who want a simple and reliable way to manage documentation. It is a markdown-powered wiki: content is stored as plain ",
-      "url": "https://dev.to/perber/leafwiki-v052-is-out-dark-mode-and-markdown-improvements-2l87",
-      "source": "Dev.to",
-      "author": "perber",
-      "published": "2025-12-21T14:48:36+00:00",
+      "id": "8f81db87f687f2ef",
+      "title": "C++ says “We have try. . . finally at home”",
+      "description": "Comments",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20251222-00/?p=111890",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-28T06:42:53+00:00",
       "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "developer",
-        "release"
-      ]
-    },
-    {
-      "id": "02a13ff78de5a1d1",
-      "title": "Building an A/B Testing System with CloudFront Functions using AWS CDK",
-      "description": "Prerequisites Why This is Needed Amazon CloudFront + Amazon S3 is an essential configuration for delivering frontend content on AWS. Additionally, A/B testing is an indispensable method for improving web services. However, implementing A/B testing with traditional configurations requires implementation in frontend code or APIs. This adds complexity to application logic since it requires modifications to the application layer. In April 2025, there was an update that enabled origin switching with ",
-      "url": "https://dev.to/aws-builders/building-an-ab-testing-system-with-cloudfront-functions-using-aws-cdk-omo",
-      "source": "Dev.to",
-      "author": "Kihara, Takuya",
-      "published": "2025-12-21T14:46:04+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "code",
-        "API"
-      ]
+      "score": 56,
+      "keywords": []
     },
     {
       "id": "7ad2a4f05303f897",
@@ -3453,33 +3466,17 @@
       ]
     },
     {
-      "id": "067137fb66391b68",
-      "title": "“Vibe Coding — The Future of AI-Driven Development”",
-      "description": "Vibe Coding — The Future of AI-Driven Development (And Why Developers Still Matter) If you’ve been on Twitter, Dev.to, or GitHub discussions lately, you’ve probably seen the term “vibe coding” floating around. At first glance, it sounds like another buzzword. But if you look closely, vibe coding actually represents a fundamental shift in how we build software — especially with AI becoming deeply integrated into our workflows. In this post, I want to break down: What vibe coding really means Why ",
-      "url": "https://dev.to/isocyanideisgood/vibe-coding-the-future-of-ai-driven-development-502f",
+      "id": "5550beb868d53ece",
+      "title": "Unauthenticated APIs Report",
+      "description": "Unauthenticated APIs Report A security automation tool that scans API endpoints to identify unauthenticated access vulnerabilities. This tool tests various HTTP methods and authentication schemes to detect APIs that may be exposing data without proper authentication. Overview This solution automatically tests API endpoints for authentication bypass vulnerabilities by: Testing multiple HTTP methods (GET, POST, PUT, DELETE) Attempting access without authentication headers Testing with invalid auth",
+      "url": "https://dev.to/prashantgupta123/unauthenticated-apis-report-177f",
       "source": "Dev.to",
-      "author": "Abhijeet Bhale",
-      "published": "2025-12-21T15:04:00+00:00",
+      "author": "Prashant Gupta",
+      "published": "2025-12-28T14:58:24+00:00",
       "niche": "dev",
-      "score": 52,
+      "score": 54,
       "keywords": [
-        "development",
-        "developer"
-      ]
-    },
-    {
-      "id": "ed1c237470782bb3",
-      "title": "Writing AI-Friendly Specs: A Developer's Practical Guide",
-      "description": "\"How should I write specs for AI to get proper code?\" This is the question I get most often lately. ChatGPT, Claude, Copilot... Everyone's using them, but not getting the results they want. I'll tell you a secret: Think of AI like a compiler. Give a compiler code with wrong syntax? You get errors. AI is the same. Ambiguous specs produce ambiguous results. Specs for Humans vs Specs for AI Let's see the difference between 10 years ago and now. 10 Years Ago: Specs for Humans Login Feature - Login w",
-      "url": "https://dev.to/_jeongyuhyeon_03de1/writing-ai-friendly-specs-a-developers-practical-guide-3334",
-      "source": "Dev.to",
-      "author": "전규현 (Jeon gyuhyeon)",
-      "published": "2025-12-21T14:50:00+00:00",
-      "niche": "dev",
-      "score": 52,
-      "keywords": [
-        "code",
-        "developer"
+        "API"
       ]
     },
     {
@@ -3975,20 +3972,6 @@
       "keywords": [
         "developer",
         "code"
-      ]
-    },
-    {
-      "id": "cc00fbf5b4efdeac",
-      "title": "From Idea to Launch: How Developers Can Build Successful Startups",
-      "description": "I remember the exact moment I realized that being a great developer and building a successful startup were two completely different skill sets. It was 2 AM on a Tuesday, I was three months into my first serious venture, and I had just spent six hours perfecting a caching layer that would save users approximately 0.3 seconds of load time. Meanwhile, I hadn't talked to a single potential customer in two weeks, our runway was evaporating, and I had no idea if anyone actually wanted what we were bui",
-      "url": "https://dev.to/thebitforge/from-idea-to-launch-how-developers-can-build-successful-startups-50dk",
-      "source": "Dev.to",
-      "author": "TheBitForge",
-      "published": "2025-12-21T14:47:50+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "developer"
       ]
     },
     {
@@ -5404,30 +5387,6 @@
       "keywords": [
         "developer"
       ]
-    },
-    {
-      "id": "e9c9a5bf39b2904c",
-      "title": "Your Career, Onchain: Building a Resume Protocol with Purpose and Trust",
-      "description": "Imagine if your professional skills weren't just claims on a PDF, but verifiable facts backed by the people you've worked with. In the traditional world, anyone can write \"Expert in Solidity\" on a resume. But how do you verify it? You have to trust them, or spend hours calling references. I wanted to solve this by building the Resume Protocol: a decentralized registry for peer-to-peer professional endorsements. In this article, I want to take you through the journey of building this project. We'",
-      "url": "https://dev.to/binnadev/your-career-onchain-building-a-resume-protocol-with-purpose-and-trust-3p67",
-      "source": "Dev.to",
-      "author": "Obinna Duru",
-      "published": "2025-12-21T14:57:58+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "610a648f61d827fd",
-      "title": "Launching Online Tools X: 100+ Privacy-First Browser Tools (Your Digital Swiss Army Knife)",
-      "description": "Finding the right digital tools should be easy, not a chore. Most people today struggle with two major problems: the clutter of downloading too many apps and \"hidden\" privacy risks. Online Tools X is built to fix these challenges. The \"Data Stays Local\" Rule The greatest risk with traditional online tools is the need to upload personal files/data to a remote server. Our architecture eliminates this vulnerability by ensuring all data remains on your device. By processing files/data locally within",
-      "url": "https://dev.to/techno_kraft_in/launching-online-tools-x-100-privacy-first-browser-tools-your-digital-swiss-army-knife-37o7",
-      "source": "Dev.to",
-      "author": "techno kraft",
-      "published": "2025-12-21T14:51:12+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
     },
     {
       "id": "888a015982867bb9",
@@ -7818,6 +7777,90 @@
       "keywords": []
     },
     {
+      "id": "7a57be15c546a057",
+      "title": "Building Claritools with Next.js: A Fast, No-Friction Tools Platform",
+      "description": "Hey devs 👋 I recently launched Claritools, a side project where I’m building free, fast calculators and practical guides for everyday use — finance, career, and tech. The goal was simple: remove friction and focus on clarity. That meant: No logins No paywalls Clean UI Fast results Why I built it I kept running into calculator and utility websites that were cluttered, slow, or locked behind sign-ups. I wanted a place where you could just open a page, do the task, and move on. Claritools is my att",
+      "url": "https://dev.to/harsh_yaduvanshi_74957b8b/building-claritools-with-nextjs-a-fast-no-friction-tools-platform-2cpa",
+      "source": "Dev.to",
+      "author": "Harsh Yaduvanshi",
+      "published": "2025-12-28T15:18:48+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "56523bbd09892618",
+      "title": "TypeScript 6.0 Deep Dive: Why the 2025 Evolution Changes Everything",
+      "description": "The using Keyword in TypeScript 6.0: Syntactic Sugar or Real Cleanup?\\n\\nTypeScript 6.0 introduces the using keyword, a direct nod to ECMAScript's explicit resource management proposal. The idea is simple: provide a language-level construct for deterministic cleanup of resources, similar to IDisposable in C# or try-with-resources in Java. You declare a variable with using, and when the enclosing scope exits (normally or via an exception), its [Symbol.dispose] method is automatically called.\\n\\n ",
+      "url": "https://dev.to/dataformathub/typescript-60-deep-dive-why-the-2025-evolution-changes-everything-58gl",
+      "source": "Dev.to",
+      "author": "DataFormatHub",
+      "published": "2025-12-28T15:14:05+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "4fbf01dea778b8ad",
+      "title": "Interview puzzle: \"2 users buy last item, who win?\"",
+      "description": "Last week, a friend of mine asking me a classic question: \"Imagine a flash sale where only one item is left. If two customers try to buy it at the exact same time, how does the system decide which customer gets the item?\" That question ignited a discussion in our group chat. There were many ideas, potential solutions, and even disagreements. That debate is the reason I did my own research about popular problems of concurrency systems: Lost Update and False Conflict. Lost Update: Who got the last",
+      "url": "https://dev.to/mnhnam1301/concurrency-lost-updates-false-conflicts-29i4",
+      "source": "Dev.to",
+      "author": "Nam Mai",
+      "published": "2025-12-28T15:13:53+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "b6d1d4ef112b5953",
+      "title": "Amazon Nova 2: AWS's Reasoning Models That Actually Get Production Needs!",
+      "description": "🚀 Amazon Nova 2: AWS's Reasoning Models That Actually Get Production Needs! Hey devs! 😎 Ever built an AI agent that overthinks pizza orders but chokes on complex workflows? Amazon Nova 2 fixes that with adaptive reasoning—think more on hard problems, less on easy ones. Launched Dec 2025, these Bedrock models bring 1M-token context, multimodal magic (text+images+video+speech), and thinking budgets you control. 🔥 Why Nova 2 Feels Like Cheating Nova 2 Lite & Pro solve the classic AI tradeoff: speed",
+      "url": "https://dev.to/ahmedadel/amazon-nova-2-awss-reasoning-models-that-actually-get-production-needs-2ad0",
+      "source": "Dev.to",
+      "author": "Ahmed Adel",
+      "published": "2025-12-28T15:13:11+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "00d042bb9d475752",
+      "title": "Why Most \"Free\" Background Removers Aren't Actually Free and the Best Alternative for 2025",
+      "description": "We’ve all been there. You find a \"free background remover,\" upload your perfect photo, and just as you click download, a popup appears: \"Pay $1.99 for HD\" or \"Enter your email to continue.\" The Problem with \"Freemium\" Tools: Most popular tools like Remove.bg or Canva are businesses with massive server costs. To stay profitable, they limit your \"free\" downloads to low-resolution thumbnails or hide the best features behind a paywall. The 100% Free Solution: nobg.space I built nobg.space to solve t",
+      "url": "https://dev.to/vyshnav_tr_5efa111383bbd1/why-most-free-background-removers-arent-actually-free-and-the-best-alternative-for-2025-599l",
+      "source": "Dev.to",
+      "author": "Vyshnav TR",
+      "published": "2025-12-28T15:07:07+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "1d9d8010c01ec9e6",
+      "title": "Renewable Energy Projects and India’s Climate Goals",
+      "description": "India is at a critical point in its energy journey, where rising demand and environmental responsibility must move together. Green energy solutions have emerged as the most reliable path to balance economic growth with sustainability. Among all clean energy options, solar energy stands out as the most accessible and scalable solution for the country. Green energy solar technology is transforming how electricity is generated across urban and rural India. With abundant sunlight available throughou",
+      "url": "https://dev.to/surbhi_survase_89d4e35b2e/renewable-energy-projects-and-indias-climate-goals-4o1g",
+      "source": "Dev.to",
+      "author": "Surbhi Survase",
+      "published": "2025-12-28T15:06:45+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "fa559b5d91ce3478",
+      "title": "DevOps Future Task Reminders",
+      "description": "Future Task Reminders Node.js/Express dashboard to create and manage task reminders, store them in a MySQL database, and send reminder emails via SMTP when their trigger date/time is reached. Features Dashboard summary: See all tasks with counts of high, medium, and low priority. Task form: Create a task with name, description, priority, trigger date/time, type, execution protection, and email recipients. Execution Protection: Control how reminders are sent: None (default): Reminder is sent once",
+      "url": "https://dev.to/prashantgupta123/devops-future-task-reminders-3m47",
+      "source": "Dev.to",
+      "author": "Prashant Gupta",
+      "published": "2025-12-28T15:04:48+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "e18f7d1903a5ac30",
       "title": "Some people are becoming exceptional tool users. Others are becoming system builders. Over time, the second group will quietly replace the first, and that’s not a threat. It’s a natural evolution.",
       "description": "System Builders Will Replace Tool Users: And That’s a Good Thing Jaideep Parashar ・ Dec 25 #webdev #ai #developers #programming",
@@ -7917,18 +7960,6 @@
         "API",
         "development"
       ]
-    },
-    {
-      "id": "4e8cacaaa587b78e",
-      "title": "Launch: Interactive 3D Product Configurator",
-      "description": "Interactive 3D Product Configurator Agencies need speed. We built Interactive 3D Product Configurator to help you scale. Features Automated Workflow Dark Mode UI PDF Export Get it here for $149",
-      "url": "https://dev.to/rajatdatta099/launch-interactive-3d-product-configurator-n3d",
-      "source": "Dev.to",
-      "author": "Rajat Datta",
-      "published": "2025-12-21T14:49:46+00:00",
-      "niche": "dev",
-      "score": 46,
-      "keywords": []
     },
     {
       "id": "8db4645e1c5fd794",
@@ -8131,54 +8162,6 @@
       ]
     },
     {
-      "id": "5e2f8682e4faf4ba",
-      "title": "Weekly Salary Calculator -In line JavaScript",
-      "description": "Check out this Pen I made!",
-      "url": "https://dev.to/preetha_vaishnavi_2b82358/weekly-salary-calculator-in-line-javascript-fjl",
-      "source": "Dev.to",
-      "author": "preetha vaishnavi",
-      "published": "2025-12-21T15:08:49+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "33bbc27edb22599d",
-      "title": "For my love",
-      "description": "Check out this Pen I made!",
-      "url": "https://dev.to/ariel_sanchez_86fa0ce586b/for-my-love-15l3",
-      "source": "Dev.to",
-      "author": "Ariel Sanchez",
-      "published": "2025-12-21T15:07:47+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "ccfba4778a88eaf2",
-      "title": "Coarse Is Better",
-      "description": "Comments",
-      "url": "https://borretti.me/article/coarse-is-better",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-21T12:57:44+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "aa3f1628de069c11",
-      "title": "Three Ways to Solve Problems",
-      "description": "Comments",
-      "url": "https://andreasfragner.com/writing/three-ways-to-solve-problems",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-21T14:35:29+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
       "id": "6d563bd97e19aa73",
       "title": "Happy New Year",
       "description": "Check out this Pen I made!",
@@ -8275,18 +8258,6 @@
       "keywords": []
     },
     {
-      "id": "cd74007eb8a4e9b0",
-      "title": "ARIN Public Incident Report – 4.10 Misissuance Error",
-      "description": "Comments",
-      "url": "https://www.arin.net/announcements/20251212/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-21T15:19:41+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
       "id": "0e891799107adb83",
       "title": "ELF Crimes: Program Interpreter Fun",
       "description": "Comments",
@@ -8294,18 +8265,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-21T16:30:09+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "f3aca6317619ee55",
-      "title": "Reasons Not to Become Famous (2020)",
-      "description": "Comments",
-      "url": "https://tim.blog/2020/02/02/reasons-to-not-become-famous/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-21T15:07:18+00:00",
       "niche": "dev",
       "score": 44,
       "keywords": []
@@ -9703,6 +9662,30 @@
       "keywords": []
     },
     {
+      "id": "a03ee9ace2b9184e",
+      "title": "Building a macOS app to know when my Mac is thermal throttling",
+      "description": "Comments",
+      "url": "https://stanislas.blog/2025/12/macos-thermal-throttling-app/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-28T11:51:42+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "316e06dacdc4ebf9",
+      "title": "Hungry Fat Cells Could Someday Starve Cancer to Death",
+      "description": "Comments",
+      "url": "https://www.ucsf.edu/news/2025/01/429411/how-hungry-fat-cells-could-someday-starve-cancer-death",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-28T10:04:42+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "26dbca142972a14e",
       "title": "Building a Nostalgic 8-bit Universe with Modern Tech: A Vibe Coding Journey",
       "description": "A nostalgic 8-bit portfolio experiment built with modern AI workflows and performance-first web tech.",
@@ -9727,8 +9710,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "performance",
-        "React 19"
+        "React 19",
+        "performance"
       ]
     },
     {
@@ -9756,9 +9739,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "performance",
+        "code",
         "release",
-        "code"
+        "performance"
       ]
     },
     {
@@ -9772,9 +9755,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "developer",
+        "release",
         "API",
-        "release"
+        "developer"
       ]
     },
     {
@@ -9788,9 +9771,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "performance",
+        "release",
         "developer",
-        "release"
+        "performance"
       ]
     },
     {
@@ -9827,18 +9810,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-21T15:27:36+00:00",
-      "niche": "dev",
-      "score": 38,
-      "keywords": []
-    },
-    {
-      "id": "8de63205e338b44e",
-      "title": "How I protect my Forgejo instance from AI web crawlers",
-      "description": "Comments",
-      "url": "https://her.esy.fun/posts/0031-how-i-protect-my-forgejo-instance-from-ai-web-crawlers/index.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-21T14:46:53+00:00",
       "niche": "dev",
       "score": 38,
       "keywords": []
@@ -10176,8 +10147,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "framework",
-        "API"
+        "API",
+        "framework"
       ]
     },
     {
@@ -10403,11 +10374,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
+        "code",
         "framework",
         "release",
-        "code",
-        "performance",
-        "API"
+        "API",
+        "performance"
       ]
     },
     {
@@ -10709,8 +10680,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "API",
-        "release"
+        "release",
+        "API"
       ]
     },
     {
@@ -10724,8 +10695,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "framework",
-        "release"
+        "release",
+        "framework"
       ]
     },
     {
@@ -10739,9 +10710,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "performance",
+        "code",
         "developer",
-        "code"
+        "performance"
       ]
     },
     {
@@ -10755,8 +10726,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "performance",
-        "code"
+        "code",
+        "performance"
       ]
     },
     {
@@ -10770,8 +10741,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
-        "code"
+        "code",
+        "release"
       ]
     },
     {
@@ -10785,8 +10756,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -10800,8 +10771,8 @@
       "niche": "dev",
       "score": 18,
       "keywords": [
-        "PHP",
-        "Angular"
+        "Angular",
+        "PHP"
       ]
     },
     {
@@ -10857,9 +10828,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
+        "tutorial",
         "PHP",
-        "development",
-        "tutorial"
+        "development"
       ]
     },
     {
@@ -10873,9 +10844,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
+        "tutorial",
         "PHP",
-        "development",
-        "tutorial"
+        "development"
       ]
     },
     {
@@ -10889,8 +10860,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "API",
-        "code"
+        "code",
+        "API"
       ]
     },
     {
@@ -10918,8 +10889,8 @@
       "niche": "dev",
       "score": 15,
       "keywords": [
-        "library",
-        "developer"
+        "developer",
+        "library"
       ]
     },
     {
@@ -11064,18 +11035,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-22T19:52:10+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "6bc6031cbfe09aee",
-      "title": "Show HN: Gaming Couch – a local multiplayer party game platform for 8 players",
-      "description": "Comments",
-      "url": "https://gamingcouch.com",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-21T13:08:36+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -11280,6 +11239,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-22T19:14:29+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "aded21aa35396aeb",
+      "title": "One year of keeping a tada list",
+      "description": "Comments",
+      "url": "https://www.ducktyped.org/p/one-year-of-keeping-a-tada-list",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-22T14:16:40+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
