@@ -1,7 +1,23 @@
 {
-  "last_updated": "2025-12-28T06:39:01.058494+00:00",
+  "last_updated": "2025-12-28T09:26:16.373216+00:00",
   "total_articles": 950,
   "articles": [
+    {
+      "id": "f8dc954cb8ca9308",
+      "title": "Why Wazuh Missed React2Shell",
+      "description": "Introduction The security community was recently shaken by React2Shell, a critical unauthenticated Remote Code Execution (RCE) vulnerability. It was initially tracked under two CVEs: CVE-2025-55182 – React CVE-2025-66478 – Next.js With a CVSS score of 10.0, this vulnerability impacts Next.js 15/16 (App Router) and any framework relying on React 19’s RSC implementation. Wazuh published a great blog explaining how to detect this vulnerability: 👉 https://wazuh.com/blog/detecting-next-js-cve-2025-66",
+      "url": "https://dev.to/0xdolan/why-wazuh-missed-react2shell-59jm",
+      "source": "Dev.to",
+      "author": "Dolan",
+      "published": "2025-12-28T08:36:59+00:00",
+      "niche": "dev",
+      "score": 85,
+      "keywords": [
+        "code",
+        "framework",
+        "React 19"
+      ]
+    },
     {
       "id": "7bf5728400625f31",
       "title": "Angular Resource API Pattern for Scalable Applications",
@@ -179,21 +195,6 @@
       ]
     },
     {
-      "id": "1528b3ff989b74c2",
-      "title": "Setting Up Java & Maven for Spring Boot – Step-by-Step Guide",
-      "description": "Introduction Before starting with Maven or Spring Boot, we need to set up the basic development environment. This includes installing Java (JDK) and Apache Maven. Canonical Link Original Hashnode Post ☕ Step 1: Install Java (JDK) Java is required to compile and run Java applications. Download Java Install Java 17 (LTS) (recommended). You can choose OpenJDK / Temurin or Oracle JDK. Java JDK 17 download link: Sign in to Oracle India and download it. Windows Installation Download the .exe installer",
-      "url": "https://dev.to/tejas_agravat_1a781f196b0/setting-up-java-maven-for-spring-boot-step-by-step-guide-5dn",
-      "source": "Dev.to",
-      "author": "Tejas Agravat",
-      "published": "2025-12-21T09:07:09+00:00",
-      "niche": "dev",
-      "score": 73,
-      "keywords": [
-        "development",
-        "Spring"
-      ]
-    },
-    {
       "id": "ad1004197539debe",
       "title": "Ng-News 25/50: Auto-Destroy for Router Providers, Signal Forms",
       "description": "Angular will bring auto-destroy for router providers and more updates around Signal Forms. The community shares new articles, talks, and practical examples. Auto-Destroy for Router Providers A new feature for the router will land in Angular 21.1. This might surprise some developers, because many assumed this behavior was already standard. If a service is provided only at component level, so not in root, the service gets destroyed together with the component. This does not happen when a service i",
@@ -339,6 +340,20 @@
       ]
     },
     {
+      "id": "64d9f05716ffa6c2",
+      "title": "Supercharge Your React Page Speed: How @opensite/hooks Reduces Bundle Size and API Calls by 95%",
+      "description": "Every millisecond matters. When your React application loads slowly or feels sluggish to interact with, users bounce—and Google penalizes you in search rankings. According to recent data, the average website takes 1.9 seconds to load main content on mobile, but users expect sub-second responsiveness. If your page takes longer than 2.5 seconds to display meaningful content, you're already losing conversions. The culprit? Excessive re-renders, bloated bundle sizes, layout thrashing from unoptimize",
+      "url": "https://dev.to/opensite/supercharge-your-react-page-speed-how-opensitehooks-reduces-bundle-size-and-api-calls-by-95-4n41",
+      "source": "Dev.to",
+      "author": "Jordan Hudgens",
+      "published": "2025-12-28T09:06:16+00:00",
+      "niche": "dev",
+      "score": 72,
+      "keywords": [
+        "API"
+      ]
+    },
+    {
       "id": "bc77235f1b7ff353",
       "title": "GitHub Actions: From Zero to Production(EP1)🚀",
       "description": "Episode 1 – What is CI/CD & Why GitHub Actions Matter? When I started hearing terms like CI, CD, and GitHub Actions, everything felt abstract. Workflows, runners, jobs, secrets… too many buzzwords. This post is the first episode in a series where I break down GitHub Actions from absolute basics to real production pipelines, especially from a frontend developer’s perspective. Let’s start with the foundation. What is CI/CD (in simple terms)? 🔵 CI — Continuous Integration CI is about checking code ",
@@ -422,18 +437,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "e4b3db20c64bc5ad",
-      "title": "Boosting Data Science Velocity with Google AI Studio: 4 Essential Tips",
-      "description": "Supercharge Your Data Science Workflow with Google AI Studio As data science continues to evolve, the need for efficient and effective workflows has never been more pressing. With the constant influx of data from various sources, data scientists are looking for ways to streamline their processes and get insights faster. This is where Google AI Studio comes in – a powerful platform that enables data scientists to accelerate their workflow and unlock new possibilities. What is Google AI Studio? Go",
-      "url": "https://dev.to/mabualzait/boosting-data-science-velocity-with-google-ai-studio-4-essential-tips-2de0",
-      "source": "Dev.to",
-      "author": "Malik Abualzait",
-      "published": "2025-12-21T09:02:04+00:00",
-      "niche": "dev",
-      "score": 68,
-      "keywords": []
     },
     {
       "id": "74f8c6ed8532bca8",
@@ -2253,62 +2256,6 @@
       ]
     },
     {
-      "id": "5c32b05cbccd96c4",
-      "title": "Ubuntu 26.04 LTS Plans Confirmed For Linux 6.20 / Linux 7.0",
-      "description": "Canonical confirmed their Linux kernel plans today for the Ubuntu 26.04 Long Term Support (LTS) release due out in April. The update was shared on Phoronix, a leading source of Linux hardware reviews, open-source news, and much more. The announcement has generated significant buzz within the Linux community, as users eagerly anticipate the new features and improvements that will be included in this upcoming release. Linux 6.20 and Linux 7.0 With the forthcoming Ubuntu 26.04 LTS release, Canonica",
-      "url": "https://dev.to/aibuddyinc/ubuntu-2604-lts-plans-confirmed-for-linux-620-linux-70-4hga",
-      "source": "Dev.to",
-      "author": "Hire-Programmers Admin",
-      "published": "2025-12-21T09:00:03+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "release"
-      ]
-    },
-    {
-      "id": "ce5522a8d7ec126a",
-      "title": "MEXQuick Transparency Overview on Corporate Structure & Public Records",
-      "description": "When users research a digital trading platform, one of the most important steps is understanding how the company identifies itself in official public records. While this information does not predict platform performance or guarantee outcomes, it helps users form a clearer picture of the corporate structure behind the service. This MEXQuick Review offers an overview of what public filings reveal and how transparency supports user awareness. Why Corporate Transparency Matters Corporate transparenc",
-      "url": "https://dev.to/markvills/mexquick-transparency-overview-on-corporate-structure-public-records-268d",
-      "source": "Dev.to",
-      "author": "Mark Villanueva",
-      "published": "2025-12-21T08:55:15+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "performance"
-      ]
-    },
-    {
-      "id": "cf80de80bfbc9417",
-      "title": "Strapi v4 v5 Overview: What Changed and Why It Matters",
-      "description": "Overview Upgrading from Strapi v4 to v5 is a major step—not a routine dependency update. Strapi v5 introduces a more modern, production-oriented architecture with improvements such as a Vite-powered Admin UI, first-class TypeScript support, and clearer build workflows. At the same time, it brings significant breaking changes that directly impact how Strapi projects are built, configured, and deployed. This first article focuses on understanding the differences between Strapi v4 and v5. Rather th",
-      "url": "https://dev.to/tuner9696_len/strapi-v4-v5-overview-what-changed-and-why-it-matters-58k1",
-      "source": "Dev.to",
-      "author": "Tuner9696",
-      "published": "2025-12-21T08:46:04+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "API"
-      ]
-    },
-    {
-      "id": "bdfd82c3952a49a3",
-      "title": "A vs. Dijkstra: Choosing the Right Pathfinding Algorithm for a Browser-Based Tactics Game*",
-      "description": "Hey dev.to community, If you're building a grid-based game, sooner or later you have to tackle the \"pathfinding problem.\" How does a unit get from tile A to tile B around obstacles efficiently? While developing browser-based tactical puzzle games, I ran into performance bottlenecks with AI movement. In a turn-based game, the player expects the AI to move instantly. A 500ms lag while the enemy calculates a route feels like an eternity. I had to choose between two classic graph traversal algorithm",
-      "url": "https://dev.to/ffteamnames/a-vs-dijkstra-choosing-the-right-pathfinding-algorithm-for-a-browser-based-tactics-game-3837",
-      "source": "Dev.to",
-      "author": "wwx516",
-      "published": "2025-12-21T08:42:01+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "performance"
-      ]
-    },
-    {
       "id": "c1505ff3942fb69e",
       "title": "#1 Cloud & Coffee - AWS UG Medan",
       "description": "Cloud & Coffee adalah meetup format baru yang kita mulai coba di AWS User Group Medan. Meetup ini dibuat dengan konsep yang lebih casual dan nyaman: ngobrol santai, sharing, dan real conversation. Jumlah pesertanya juga dibatasi, sekitar 5–20 orang, supaya semua orang punya ruang buat ikut terlibat. Di sini, semua peserta bebas share pengalaman mereka seputar teknologi dan AWS. Mulai dari apa yang lagi dipelajari minggu ini, challenge yang lagi dihadapi (atau sudah berhasil di-solve) di tempat k",
@@ -3506,6 +3453,20 @@
       ]
     },
     {
+      "id": "66750cb0570c295d",
+      "title": "How to Turn Cloud \"Trash\" into a Golden 100GB Encrypted Vault (LVM + rclone)",
+      "description": "We’ve all been there: a dozen free cloud accounts, each offering a measly 2GB to 10GB. Individually, they are useless — just a digital \"flash drive\" from a bargain bin. But together? They can become a high-performance, encrypted, unified storage system. Today, I’ll show you how to legally use cloud providers as raw block devices to build a Unified Encrypted Monster on Debian/Ubuntu. The Architecture We aren't just syncing files. We are building a layered sandwich: Physical Layer: Multiple free c",
+      "url": "https://dev.to/lag_lagendary/how-to-turn-cloud-trash-into-a-golden-100gb-encrypted-vault-lvm-rclone-1lc5",
+      "source": "Dev.to",
+      "author": "Lag Lagendary",
+      "published": "2025-12-28T09:01:46+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "performance"
+      ]
+    },
+    {
       "id": "ae1f94eefb95e5d3",
       "title": "Launcher3 Modularization-Componentization",
       "description": "Table of Contents 1. Background 2. Development Environment 3. Launcher3 Review 3.1 UI Architecture 3.2 Data Architecture 4. Structural Decomposition 4.1 Functional Transformation 4.1.1 Data Persistence 4.1.2 Widget Trimming 4.1.3 Folders 4.1.4 Shortcuts 4.1.5 Application Status 4.1.6 Application Icons 5. What Can Be Done 6. How to Use 7. Features to be Improved 8. Others 1. Background Smart cockpit desktop systems are typically customized based on Android AOSP Launcher3 source code. However, Lau",
@@ -4028,20 +3989,6 @@
       "keywords": [
         "code",
         "developer"
-      ]
-    },
-    {
-      "id": "cd7cd36cf16b8e39",
-      "title": "Custom Claude Code Skill: Auto-Generating / Updating Architecture Diagrams with Excalidraw",
-      "description": "I maintain several GCP infrastructure projects with Terraform. Every time I onboard someone or need to explain the architecture, I face the same problem: my diagrams are either outdated or does not even exist. The Problem If you use any coding agent you can generally ask Claude or Gemini to scan your codecase and generate architecture diagram anytime. I tried different approaches: Mermaid diagrams - Great for code-based diagrams, but they get cluttered fast. A Terraform stack with 15+ resources ",
-      "url": "https://dev.to/yooi/custom-claude-code-skill-auto-generating-updating-architecture-diagrams-with-excalidraw-227k",
-      "source": "Dev.to",
-      "author": "Ooi Yee Fei",
-      "published": "2025-12-21T08:34:33+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
       ]
     },
     {
@@ -5459,40 +5406,18 @@
       ]
     },
     {
-      "id": "fed4991a69040ca8",
-      "title": "Outil de Cybersécurité du Jour - Dec 21, 2025",
-      "description": "Titre : Découverte de l'outil de cybersécurité : Wireshark Introduction : L'importance cruciale de la cybersécurité La cybersécurité est devenue un enjeu majeur pour les entreprises et les particuliers dans un monde de plus en plus connecté. Les cyberattaques sont de plus en plus sophistiquées et dangereuses, mettant en péril la confidentialité, l'intégrité et la disponibilité des données sensibles. Afin de protéger efficacement les systèmes informatiques, il est essentiel d'utiliser des outils ",
-      "url": "https://dev.to/cybermatrise_cybermatri/outil-de-cybersecurite-du-jour-dec-21-2025-55je",
+      "id": "9e7abbd80bc8adf4",
+      "title": "OpenTofu ORAS Backend: Store State in GitHub Container Registry (GHCR)",
+      "description": "When OpenTofu 1.10 announced OCI support for providers, many thought: \"What about state?\" Until now, nothing. So I created a fork that solves this gap. The Problem 153 MB of tfstate in S3 + DynamoDB for locking = overkill for many projects. If your team already has: OCI registry used (such as GHCR) GitHub Actions to deploy terraform code Why add S3 + DynamoDB complexity and cost? The Solution: ORAS Backend My fork adds a native oras backend: terraform { backend \"oras\" { repository = \"ghcr.io/org",
+      "url": "https://dev.to/victor_mvarela_0e25679d/opentofu-oras-backend-store-state-in-ghcrdocker-hub-77f",
       "source": "Dev.to",
-      "author": "CyberMaîtrise CyberMaîtrise",
-      "published": "2025-12-21T09:00:56+00:00",
+      "author": "Victor M. Varela",
+      "published": "2025-12-28T08:52:17+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "9490c1198562f7d9",
-      "title": "Digital Identity Verification for Banks & NBFCs",
-      "description": "The 2025-2026 landscape for banks and NBFCs is defined by advanced financial crimes like the \"Digital Arrest Scam,\" where deepfakes and synthetic identities create \"mule accounts.\" Anil's bank facilitated a fraud because their verification tools were outdated. The mandate is now survival, requiring upgraded online KYC verification to combat sophisticated fraud without hindering customer experience. The critical threat is \"mule account detection\" from criminal networks exploiting onboarding weakn",
-      "url": "https://dev.to/verify_ekyc_cb7c756bbe01/digital-identity-verification-for-banks-nbfcs-3kc7",
-      "source": "Dev.to",
-      "author": "Verify E kyc",
-      "published": "2025-12-21T09:00:51+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "a31a4650cd18441b",
-      "title": "WTF is Data Lakehouse Architecture?",
-      "description": "WTF is this: Data Lakehouse Architecture Imagine you're at a party, and someone mentions \"Data Lakehouse Architecture.\" You nod along, pretending to know what they're talking about, but secretly, you're thinking, \"Uh, is that a new type of sustainable housing?\" Don't worry, friend, you're not alone. In this post, we'll dive into the world of data management and explore what this term really means. What is Data Lakehouse Architecture? In simple terms, Data Lakehouse Architecture is a way to store",
-      "url": "https://dev.to/dailybugle33/wtf-is-data-lakehouse-architecture-4ff7",
-      "source": "Dev.to",
-      "author": "Daily Bugle",
-      "published": "2025-12-21T08:44:41+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "1fc49fc8828095e0",
@@ -7835,6 +7760,78 @@
       "keywords": []
     },
     {
+      "id": "759b5e1c74bddf26",
+      "title": "Solved: Error when updating PowerShell",
+      "description": "🚀 Executive Summary TL;DR: PowerShell updates often fail due to insufficient administrative permissions, corrupted installers, or missing .NET runtime dependencies. The solution involves ensuring elevated privileges, utilizing alternative installation methods like package managers or ZIP files, and verifying .NET runtime and OS compatibility. 🎯 Key Takeaways Always run PowerShell installers with elevated privileges and close all existing PowerShell sessions to prevent ‘Access Denied’ errors and ",
+      "url": "https://dev.to/techresolve/solved-error-when-updating-powershell-dk6",
+      "source": "Dev.to",
+      "author": "Darian Vance",
+      "published": "2025-12-28T09:05:49+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "de4ee33489e422df",
+      "title": "Solved: PoE+++?! WHEN WILL THE MADNESS END?",
+      "description": "🚀 Executive Summary TL;DR: The increasing demands of Power over Ethernet (PoE) lead to ‘PoE madness’ characterized by insufficient power budgets, cabling issues, and thermal concerns. Solutions involve strategically upgrading to 802.3bt-capable infrastructure with Cat6A cabling, implementing intelligent power management via LLDP-MED and scheduling, and leveraging hybrid approaches like midspan injectors for specific high-draw devices. 🎯 Key Takeaways Upgrading to IEEE 802.3bt (PoE++ / PoE+++) an",
+      "url": "https://dev.to/techresolve/solved-poe-when-will-the-madness-end-3ki",
+      "source": "Dev.to",
+      "author": "Darian Vance",
+      "published": "2025-12-28T09:03:39+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "c197835bacf942a6",
+      "title": "Outil de Cybersécurité du Jour - Dec 28, 2025",
+      "description": "Cybersécurité : Découvrez l'outil Wireshark pour une analyse approfondie du trafic réseau Introduction Dans un monde de plus en plus interconnecté, la cybersécurité est devenue une préoccupation majeure pour les entreprises et les particuliers. Les attaques informatiques sont de plus en plus sophistiquées, ce qui souligne l'importance de disposer d'outils efficaces pour protéger les données sensibles. Parmi les outils de cybersécurité les plus utilisés se trouve Wireshark, un logiciel open-sourc",
+      "url": "https://dev.to/cybermatrise_cybermatri/outil-de-cybersecurite-du-jour-dec-28-2025-5ec8",
+      "source": "Dev.to",
+      "author": "CyberMaîtrise CyberMaîtrise",
+      "published": "2025-12-28T09:01:00+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "049d39dea9f1fc81",
+      "title": "WTF is Bio-Inspired Computing?",
+      "description": "WTF is this: Bio-Inspired Computing Imagine if your computer could think like a human, or better yet, like a super-smart, ultra-efficient animal. Sounds like science fiction, right? Well, welcome to the fascinating world of Bio-Inspired Computing, where tech meets nature. In this blog post, we'll dive into the what, why, and wow of this emerging field, and explore how it's changing the way we approach computing. What is Bio-Inspired Computing? Bio-Inspired Computing, also known as biomimicry or ",
+      "url": "https://dev.to/dailybugle33/wtf-is-bio-inspired-computing-3gg2",
+      "source": "Dev.to",
+      "author": "Daily Bugle",
+      "published": "2025-12-28T08:45:49+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "ba24e27ac13d8119",
+      "title": "Prompt Engineering From First Principles: The Mechanics They Don't Teach You part-1",
+      "description": "This is my new series on Prompt Engineering and it's different from everything else out there. Most blogs give you templates: \"Try this prompt!\" or \"Use these 10 techniques!\" That's not what we're doing here. We're going deep: How do LLMs actually process your prompts? What makes a prompt effective at the mechanical level? Where do LLMs fail and why? This series will give you the mental models to engineer prompts yourself, not just copy someone else's examples. Let's dive in. We going to have 5 ",
+      "url": "https://dev.to/programmerraja/prompt-engineering-from-first-principles-the-mechanics-they-dont-teach-you-part-1-12nb",
+      "source": "Dev.to",
+      "author": "Boopathi",
+      "published": "2025-12-28T08:42:21+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "eba57620c557a66e",
+      "title": "I Built an AI Image Upscaler SaaS (4K / 16K) — What I Learned Shipping It",
+      "description": "I recently launched a small SaaS product called Upscale Image: 👉 https://upscale-image.org/ It’s an AI-powered image upscaler that enhances low-resolution images and can export results in 4K and even 16K. I also included a few extra utilities like resizing, compression, and background tools so users can finish common image tasks in one place. This post is a quick breakdown of: why I built it, what the product does, some UX + conversion decisions that mattered, and what I learned shipping an AI t",
+      "url": "https://dev.to/yifeng_jiang_6391a61fd8ff/i-built-an-ai-image-upscaler-saas-4k-16k-what-i-learned-shipping-it-36j9",
+      "source": "Dev.to",
+      "author": "yifeng jiang",
+      "published": "2025-12-28T08:33:00+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "e18f7d1903a5ac30",
       "title": "Some people are becoming exceptional tool users. Others are becoming system builders. Over time, the second group will quietly replace the first, and that’s not a threat. It’s a natural evolution.",
       "description": "System Builders Will Replace Tool Users: And That’s a Good Thing Jaideep Parashar ・ Dec 25 #webdev #ai #developers #programming",
@@ -8148,42 +8145,6 @@
       "keywords": [
         "programming"
       ]
-    },
-    {
-      "id": "bbfe4b184650c231",
-      "title": "Ruby's Website Got an Overhaul",
-      "description": "Comments",
-      "url": "https://www.ruby-lang.org/en/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-21T07:06:48+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "88f363d1809970e9",
-      "title": "Inca Stone Masonry",
-      "description": "Comments",
-      "url": "https://www.earthasweknowit.com/pages/inca_construction",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-21T07:26:39+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "830abfaf7bf9786a",
-      "title": "Ruby website redesigned",
-      "description": "Comments",
-      "url": "https://www.ruby-lang.org/en/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-21T07:06:48+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "5e2f8682e4faf4ba",
@@ -9734,6 +9695,30 @@
       "keywords": []
     },
     {
+      "id": "14192f97acd06bbd",
+      "title": "Manus AI 100M USD ARR",
+      "description": "Comments",
+      "url": "https://manus.im/blog/manus-100m-arr",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-28T07:45:16+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "722be80902ff9883",
+      "title": "A new research shows that 21-33% of YouTube's feed may consist of AI slop",
+      "description": "Comments",
+      "url": "https://www.kapwing.com/blog/ai-slop-report-the-global-rise-of-low-quality-ai-videos/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-28T07:14:43+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "26dbca142972a14e",
       "title": "Building a Nostalgic 8-bit Universe with Modern Tech: A Vibe Coding Journey",
       "description": "A nostalgic 8-bit portfolio experiment built with modern AI workflows and performance-first web tech.",
@@ -10041,8 +10026,8 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "React 19",
         "API",
+        "React 19",
         "release"
       ]
     },
@@ -10423,10 +10408,10 @@
       "score": 30,
       "keywords": [
         "API",
+        "framework",
         "release",
-        "performance",
         "code",
-        "framework"
+        "performance"
       ]
     },
     {
@@ -10743,8 +10728,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "framework"
+        "framework",
+        "release"
       ]
     },
     {
@@ -10833,8 +10818,8 @@
       "niche": "dev",
       "score": 18,
       "keywords": [
-        "Angular",
-        "PHP"
+        "PHP",
+        "Angular"
       ]
     },
     {
@@ -10890,9 +10875,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
+        "development",
         "PHP",
-        "tutorial",
-        "development"
+        "tutorial"
       ]
     },
     {
@@ -10906,9 +10891,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
+        "development",
         "PHP",
-        "tutorial",
-        "development"
+        "tutorial"
       ]
     },
     {
@@ -10922,8 +10907,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "code",
-        "API"
+        "API",
+        "code"
       ]
     },
     {
@@ -11301,6 +11286,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-22T00:14:43+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "c2728d0f258f34b2",
+      "title": "The Origins of APL (1974) [video]",
+      "description": "Comments",
+      "url": "https://www.youtube.com/watch?v=8kUQWuK1L4w",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-22T01:43:29+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
