@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-27T21:22:34.443724+00:00",
-  "total_articles": 286,
+  "last_updated": "2025-12-28T02:20:45.172336+00:00",
+  "total_articles": 287,
   "articles": [
     {
       "id": "6a6d5d4dda82a04f",
@@ -711,10 +711,10 @@
       "score": 75,
       "keywords": [
         "zero-day",
-        "patch",
         "exploit",
+        "security flaw",
         "security",
-        "security flaw"
+        "patch"
       ]
     },
     {
@@ -1190,10 +1190,10 @@
       "niche": "security",
       "score": 63,
       "keywords": [
-        "exploit",
+        "zero-day",
         "security",
         "patch",
-        "zero-day"
+        "exploit"
       ]
     },
     {
@@ -1281,10 +1281,10 @@
       "niche": "security",
       "score": 61,
       "keywords": [
+        "OWASP",
         "security",
-        "secure",
         "RCE",
-        "OWASP"
+        "secure"
       ]
     },
     {
@@ -1653,10 +1653,10 @@
       "niche": "security",
       "score": 54,
       "keywords": [
-        "attack",
-        "exploit",
         "CVE-",
-        "vulnerability"
+        "attack",
+        "vulnerability",
+        "exploit"
       ]
     },
     {
@@ -1670,10 +1670,10 @@
       "niche": "security",
       "score": 54,
       "keywords": [
-        "attack",
-        "exploit",
         "CVE-",
-        "vulnerability"
+        "attack",
+        "vulnerability",
+        "exploit"
       ]
     },
     {
@@ -1946,8 +1946,8 @@
       "score": 51,
       "keywords": [
         "attack",
-        "exploit",
-        "security"
+        "security",
+        "exploit"
       ]
     },
     {
@@ -2063,8 +2063,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "exploit",
-        "PoC"
+        "PoC",
+        "exploit"
       ]
     },
     {
@@ -2078,8 +2078,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "exploit",
-        "threat"
+        "threat",
+        "exploit"
       ]
     },
     {
@@ -2108,8 +2108,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "security",
-        "CVE-"
+        "CVE-",
+        "security"
       ]
     },
     {
@@ -2349,6 +2349,18 @@
       "keywords": []
     },
     {
+      "id": "f71b7f70e0005db6",
+      "title": "ISC Stormcast For Sunday, December 28th, 2025 https://isc.sans.edu/podcastdetail/9750, (Sun, Dec 28th)",
+      "description": "",
+      "url": "https://isc.sans.edu/diary/rss/32590",
+      "source": "SANS Internet Storm Center",
+      "author": "Inconnu",
+      "published": "2025-12-28T02:00:03+00:00",
+      "niche": "security",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "151fbc8f9113a4e2",
       "title": "Thinking Outside The Box [dusted off draft from 2017]",
       "description": "Preface Hello from the future! This is a blogpost I originally drafted in early 2017. I wrote what I intended to be the first half of this post (about escaping from the VM to the VirtualBox host userspace process with CVE-2017-3558), but I never got around to writing the second half (going from the VirtualBox host userspace process to the host kernel), and eventually sorta forgot about this old post draft… But it seems a bit sad to just leave this old draft rotting around forever, so I decided t",
@@ -2387,8 +2399,8 @@
       "niche": "security",
       "score": 44,
       "keywords": [
-        "security",
-        "CVE-"
+        "CVE-",
+        "security"
       ]
     },
     {
@@ -2444,10 +2456,10 @@
       "niche": "security",
       "score": 43,
       "keywords": [
+        "OWASP",
         "security",
-        "secure",
         "RCE",
-        "OWASP"
+        "secure"
       ]
     },
     {
@@ -2846,8 +2858,8 @@
       "score": 42,
       "keywords": [
         "attack",
-        "RCE",
-        "vulnerability"
+        "vulnerability",
+        "RCE"
       ]
     },
     {
@@ -2861,9 +2873,9 @@
       "niche": "security",
       "score": 42,
       "keywords": [
+        "CVE-",
         "attack",
-        "exploit",
-        "CVE-"
+        "exploit"
       ]
     },
     {
@@ -2877,9 +2889,9 @@
       "niche": "security",
       "score": 42,
       "keywords": [
+        "CVE-",
         "attack",
-        "exploit",
-        "CVE-"
+        "exploit"
       ]
     },
     {
@@ -2893,10 +2905,22 @@
       "niche": "security",
       "score": 42,
       "keywords": [
+        "OWASP",
         "security",
-        "RCE",
-        "OWASP"
+        "RCE"
       ]
+    },
+    {
+      "id": "778f36128893b9ea",
+      "title": "Quand NVIDIA largue les GTX 1000 sur Linux et que ça part en cacahuète sur Arch",
+      "description": "Vous avez une vieille GTX 1060 qui tourne nickel sous Arch Linux ? C'est con, NVIDIA vient de vous mettre un beau coup de pied aux fesses car la boîte au caméléon vert a décidé d'abandonner le support des GPU Pascal (les GTX 10xx) dans son dernier driver 590 et ça crée un joyeux bordel, notamment sur Arch. Le problème, c'est que quand vous faites une mise à jour système sur Arch avec une vieille carte Pascal ou Maxwell, le nouveau driver refuse de charger. Résultat, vous vous retrouvez éjecté ve",
+      "url": "https://korben.info/nvidia-pascal-driver-565-590-arch-linux-legacy.html",
+      "source": "Korben",
+      "author": "Korben",
+      "published": "2025-12-28T00:00:45+01:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": []
     },
     {
       "id": "147af07cd27fbdbe",
@@ -2995,8 +3019,8 @@
       "niche": "security",
       "score": 38,
       "keywords": [
-        "exploit",
-        "CVE-"
+        "CVE-",
+        "exploit"
       ]
     },
     {
@@ -3010,8 +3034,8 @@
       "niche": "security",
       "score": 38,
       "keywords": [
-        "RCE",
-        "OWASP"
+        "OWASP",
+        "RCE"
       ]
     },
     {
@@ -3111,10 +3135,10 @@
       "niche": "security",
       "score": 37,
       "keywords": [
-        "web application security",
-        "threat",
         "security",
-        "OWASP"
+        "web application security",
+        "OWASP",
+        "threat"
       ]
     },
     {
@@ -3142,10 +3166,10 @@
       "niche": "security",
       "score": 34,
       "keywords": [
-        "threat",
         "security",
-        "cybersecurity",
-        "OWASP"
+        "OWASP",
+        "threat",
+        "cybersecurity"
       ]
     },
     {
@@ -3171,9 +3195,9 @@
       "niche": "security",
       "score": 31,
       "keywords": [
-        "secure",
         "security",
-        "OWASP"
+        "OWASP",
+        "secure"
       ]
     },
     {
@@ -3187,8 +3211,8 @@
       "niche": "security",
       "score": 30,
       "keywords": [
-        "RCE",
-        "phishing"
+        "phishing",
+        "RCE"
       ]
     },
     {
@@ -3445,9 +3469,9 @@
       "niche": "security",
       "score": 22,
       "keywords": [
-        "cybersecurity",
         "security",
-        "threat"
+        "threat",
+        "cybersecurity"
       ]
     },
     {
@@ -3462,8 +3486,8 @@
       "score": 22,
       "keywords": [
         "security",
-        "malware",
-        "cybersecurity"
+        "cybersecurity",
+        "malware"
       ]
     },
     {
@@ -3563,8 +3587,8 @@
       "niche": "security",
       "score": 19,
       "keywords": [
-        "PoC",
         "security",
+        "PoC",
         "cybersecurity"
       ]
     },
@@ -4023,18 +4047,6 @@
       "source": "SANS Internet Storm Center",
       "author": "Inconnu",
       "published": "2025-12-16T02:00:02+00:00",
-      "niche": "security",
-      "score": 8,
-      "keywords": []
-    },
-    {
-      "id": "50d1ceae7f201765",
-      "title": "ISC Stormcast For Monday, December 15th, 2025 https://isc.sans.edu/podcastdetail/9738, (Mon, Dec 15th)",
-      "description": "",
-      "url": "https://isc.sans.edu/diary/rss/32570",
-      "source": "SANS Internet Storm Center",
-      "author": "Inconnu",
-      "published": "2025-12-15T02:00:02+00:00",
       "niche": "security",
       "score": 8,
       "keywords": []
