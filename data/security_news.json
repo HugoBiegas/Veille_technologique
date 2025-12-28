@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-28T18:36:16.684549+00:00",
-  "total_articles": 284,
+  "last_updated": "2025-12-28T21:23:53.450501+00:00",
+  "total_articles": 286,
   "articles": [
     {
       "id": "6a6d5d4dda82a04f",
@@ -177,6 +177,22 @@
         "security flaw",
         "attack",
         "security"
+      ]
+    },
+    {
+      "id": "6545231abefbb7b8",
+      "title": "Exploited MongoBleed flaw leaks MongoDB secrets, 87K servers exposed",
+      "description": "A severe vulnerability affecting multiple MongoDB versions, dubbed MongoBleed (CVE-2025-14847), is being actively exploited in the wild, with over 80,000 potentially vulnerable servers exposed on the public web. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/exploited-mongobleed-flaw-leaks-mongodb-secrets-87k-servers-exposed/",
+      "source": "Bleeping Computer",
+      "author": "Ionut Ilascu",
+      "published": "2025-12-28T15:38:15-05:00",
+      "niche": "security",
+      "score": 100,
+      "keywords": [
+        "CVE-",
+        "vulnerability",
+        "exploit"
       ]
     },
     {
@@ -721,11 +737,11 @@
       "niche": "security",
       "score": 75,
       "keywords": [
-        "security",
         "exploit",
+        "patch",
         "security flaw",
         "zero-day",
-        "patch"
+        "security"
       ]
     },
     {
@@ -830,6 +846,21 @@
       "score": 72,
       "keywords": [
         "phishing"
+      ]
+    },
+    {
+      "id": "30840453b0977315",
+      "title": "Condé Nast faces major data breach: 2.3M WIRED records leaked, 40M more at risk",
+      "description": "Hacker claims Condé Nast breach, leaking 2.3M WIRED subscriber records and threatening to expose up to 40M more from other brands. A hacker known as “Lovely” claims to have leaked personal data of over 2.3 million Wired.com users. The data was allegedly posted on December 20, 2025, on the new Breach Stars hacking forum, with [&#8230;]",
+      "url": "https://securityaffairs.com/186224/data-breach/conde-nast-faces-major-data-breach-2-3m-wired-records-leaked-40m-more-at-risk.html",
+      "source": "Security Affairs",
+      "author": "Pierluigi Paganini",
+      "published": "2025-12-28T19:43:55+00:00",
+      "niche": "security",
+      "score": 70,
+      "keywords": [
+        "threat",
+        "breach"
       ]
     },
     {
@@ -1173,10 +1204,10 @@
       "niche": "security",
       "score": 63,
       "keywords": [
-        "exploit",
-        "security",
+        "patch",
         "zero-day",
-        "patch"
+        "exploit",
+        "security"
       ]
     },
     {
@@ -1247,10 +1278,10 @@
       "niche": "security",
       "score": 61,
       "keywords": [
-        "security",
         "secure",
-        "OWASP",
-        "RCE"
+        "RCE",
+        "security",
+        "OWASP"
       ]
     },
     {
@@ -1636,10 +1667,10 @@
       "niche": "security",
       "score": 54,
       "keywords": [
-        "exploit",
         "CVE-",
         "attack",
-        "vulnerability"
+        "vulnerability",
+        "exploit"
       ]
     },
     {
@@ -1653,10 +1684,10 @@
       "niche": "security",
       "score": 54,
       "keywords": [
-        "exploit",
         "CVE-",
         "attack",
-        "vulnerability"
+        "vulnerability",
+        "exploit"
       ]
     },
     {
@@ -1883,9 +1914,9 @@
       "niche": "security",
       "score": 51,
       "keywords": [
-        "disclosure",
+        "vulnerability",
         "patch",
-        "vulnerability"
+        "disclosure"
       ]
     },
     {
@@ -2030,8 +2061,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "security",
-        "RCE"
+        "RCE",
+        "security"
       ]
     },
     {
@@ -2045,8 +2076,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "exploit",
-        "PoC"
+        "PoC",
+        "exploit"
       ]
     },
     {
@@ -2060,8 +2091,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "exploit",
-        "threat"
+        "threat",
+        "exploit"
       ]
     },
     {
@@ -2424,10 +2455,10 @@
       "niche": "security",
       "score": 43,
       "keywords": [
-        "security",
         "secure",
-        "OWASP",
-        "RCE"
+        "RCE",
+        "security",
+        "OWASP"
       ]
     },
     {
@@ -2791,70 +2822,6 @@
       "keywords": []
     },
     {
-      "id": "5ffb1c80ee2be174",
-      "title": "Siemens Interniche IP-Stack",
-      "description": "View CSAF Summary Multiple Industrial products are affected by a vulnerability in the Interniche IP-Stack. The affected products do not properly enforce TCP sequence number validation in specific scenarios but accept values within a broad range. This could allow an unauthenticated remote attacker e.g. to interfere with connection setup, potentially leading to a denial of service. The attack succeeds only if an attacker can inject IP packets with spoofed addresses at precisely timed moments, and ",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-25-352-05",
-      "source": "CISA Cybersecurity Advisories",
-      "author": "CISA",
-      "published": "2025-12-18T12:00:00+00:00",
-      "niche": "security",
-      "score": 42,
-      "keywords": [
-        "RCE",
-        "attack",
-        "vulnerability"
-      ]
-    },
-    {
-      "id": "c30ce873d31500be",
-      "title": "Advantech WebAccess/SCADA",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an authenticated attacker to read or modify a remote database. The following versions of Advantech WebAccess/SCADA are affected: WebAccess/SCADA (CVE-2025-14850, CVE-2025-14849, CVE-2025-14848, CVE-2025-46268, CVE-2025-67653) CVSS Vendor Equipment Vulnerabilities v3 8.8 Advantech Advantech WebAccess/SCADA Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'), Unrestricted Upload of File with D",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-25-352-06",
-      "source": "CISA Cybersecurity Advisories",
-      "author": "CISA",
-      "published": "2025-12-18T12:00:00+00:00",
-      "niche": "security",
-      "score": 42,
-      "keywords": [
-        "exploit",
-        "CVE-",
-        "attack"
-      ]
-    },
-    {
-      "id": "5e469859cc599748",
-      "title": "National Instruments LabView",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to disclose information and execute arbitrary code. The following versions of National Instruments LabView are affected: LabVIEW (CVE-2025-64461, CVE-2025-64462, CVE-2025-64463, CVE-2025-64464, CVE-2025-64465, CVE-2025-64466, CVE-2025-64467, CVE-2025-64468, CVE-2025-64469) LabVIEW (CVE-2025-64461, CVE-2025-64462, CVE-2025-64463, CVE-2025-64464, CVE-2025-64465, CVE-2025-64466, CVE-2025-64467, CVE-2025-64468",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-25-352-03",
-      "source": "CISA Cybersecurity Advisories",
-      "author": "CISA",
-      "published": "2025-12-18T12:00:00+00:00",
-      "niche": "security",
-      "score": 42,
-      "keywords": [
-        "exploit",
-        "CVE-",
-        "attack"
-      ]
-    },
-    {
-      "id": "de39f9e791a6a5b6",
-      "title": "GSoC 2025 Recap",
-      "description": "OWASP at Google Summer of Code 2025 Celebrating real impact, strong mentorship, and a growing community The Google Summer of Code (GSoC) 2025 program has wrapped, and OWASP’s participation once again delivered meaningful improvements across the open-source security ecosystem. This year, 15 contributors worked across multiple OWASP projects, supported by 26 mentors. Of the 15 projects evaluated, 10 reached successful completion, three are still working on the final deliveries with extended deadli",
-      "url": "http://owasp.org/blog/2025/10/01/GSoCRecap.html",
-      "source": "OWASP News",
-      "author": "Fabio Cerullo & Starr Brown",
-      "published": "2025-10-01T07:00:00+00:00",
-      "niche": "security",
-      "score": 42,
-      "keywords": [
-        "security",
-        "OWASP",
-        "RCE"
-      ]
-    },
-    {
       "id": "06f3af7364a671de",
       "title": "Blinko - Prenez des notes et laissez l'IA retrouver ce que vous avez oublié",
       "description": "Vous aussi vous avez un dossier « Notes » qui ressemble à un cimetière d'idées ? Des fichiers texte avec des noms genre « truc_important.txt » ou « a_voir_plus_tard.md » que vous n'avez jamais revus depuis 2019 ? Hé bien j'ai ce qu'il vous faut pour enfin donner un sens à tout ce bordel ! Blinko c'est une app de prise de notes qui utilise l'IA pour vous aider à retrouver ce que vous avez noté, même quand vous avez complètement oublié les mots exacts que vous aviez utilisés. Le principe c'est du ",
@@ -2877,6 +2844,70 @@
       "niche": "security",
       "score": 42,
       "keywords": []
+    },
+    {
+      "id": "5ffb1c80ee2be174",
+      "title": "Siemens Interniche IP-Stack",
+      "description": "View CSAF Summary Multiple Industrial products are affected by a vulnerability in the Interniche IP-Stack. The affected products do not properly enforce TCP sequence number validation in specific scenarios but accept values within a broad range. This could allow an unauthenticated remote attacker e.g. to interfere with connection setup, potentially leading to a denial of service. The attack succeeds only if an attacker can inject IP packets with spoofed addresses at precisely timed moments, and ",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-25-352-05",
+      "source": "CISA Cybersecurity Advisories",
+      "author": "CISA",
+      "published": "2025-12-18T12:00:00+00:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": [
+        "vulnerability",
+        "RCE",
+        "attack"
+      ]
+    },
+    {
+      "id": "c30ce873d31500be",
+      "title": "Advantech WebAccess/SCADA",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an authenticated attacker to read or modify a remote database. The following versions of Advantech WebAccess/SCADA are affected: WebAccess/SCADA (CVE-2025-14850, CVE-2025-14849, CVE-2025-14848, CVE-2025-46268, CVE-2025-67653) CVSS Vendor Equipment Vulnerabilities v3 8.8 Advantech Advantech WebAccess/SCADA Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'), Unrestricted Upload of File with D",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-25-352-06",
+      "source": "CISA Cybersecurity Advisories",
+      "author": "CISA",
+      "published": "2025-12-18T12:00:00+00:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": [
+        "CVE-",
+        "exploit",
+        "attack"
+      ]
+    },
+    {
+      "id": "5e469859cc599748",
+      "title": "National Instruments LabView",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to disclose information and execute arbitrary code. The following versions of National Instruments LabView are affected: LabVIEW (CVE-2025-64461, CVE-2025-64462, CVE-2025-64463, CVE-2025-64464, CVE-2025-64465, CVE-2025-64466, CVE-2025-64467, CVE-2025-64468, CVE-2025-64469) LabVIEW (CVE-2025-64461, CVE-2025-64462, CVE-2025-64463, CVE-2025-64464, CVE-2025-64465, CVE-2025-64466, CVE-2025-64467, CVE-2025-64468",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-25-352-03",
+      "source": "CISA Cybersecurity Advisories",
+      "author": "CISA",
+      "published": "2025-12-18T12:00:00+00:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": [
+        "CVE-",
+        "exploit",
+        "attack"
+      ]
+    },
+    {
+      "id": "de39f9e791a6a5b6",
+      "title": "GSoC 2025 Recap",
+      "description": "OWASP at Google Summer of Code 2025 Celebrating real impact, strong mentorship, and a growing community The Google Summer of Code (GSoC) 2025 program has wrapped, and OWASP’s participation once again delivered meaningful improvements across the open-source security ecosystem. This year, 15 contributors worked across multiple OWASP projects, supported by 26 mentors. Of the 15 projects evaluated, 10 reached successful completion, three are still working on the final deliveries with extended deadli",
+      "url": "http://owasp.org/blog/2025/10/01/GSoCRecap.html",
+      "source": "OWASP News",
+      "author": "Fabio Cerullo & Starr Brown",
+      "published": "2025-10-01T07:00:00+00:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": [
+        "RCE",
+        "security",
+        "OWASP"
+      ]
     },
     {
       "id": "02011c0ae8062c50",
@@ -2963,8 +2994,8 @@
       "niche": "security",
       "score": 38,
       "keywords": [
-        "exploit",
-        "CVE-"
+        "CVE-",
+        "exploit"
       ]
     },
     {
@@ -2978,8 +3009,8 @@
       "niche": "security",
       "score": 38,
       "keywords": [
-        "OWASP",
-        "RCE"
+        "RCE",
+        "OWASP"
       ]
     },
     {
@@ -3079,9 +3110,9 @@
       "niche": "security",
       "score": 37,
       "keywords": [
+        "threat",
         "web application security",
         "security",
-        "threat",
         "OWASP"
       ]
     },
@@ -3110,9 +3141,9 @@
       "niche": "security",
       "score": 34,
       "keywords": [
+        "threat",
         "cybersecurity",
         "security",
-        "threat",
         "OWASP"
       ]
     },
@@ -3139,8 +3170,8 @@
       "niche": "security",
       "score": 31,
       "keywords": [
-        "security",
         "secure",
+        "security",
         "OWASP"
       ]
     },
@@ -3384,8 +3415,8 @@
       "niche": "security",
       "score": 23,
       "keywords": [
-        "RCE",
-        "protection"
+        "protection",
+        "RCE"
       ]
     },
     {
@@ -3399,9 +3430,9 @@
       "niche": "security",
       "score": 22,
       "keywords": [
+        "threat",
         "cybersecurity",
-        "security",
-        "threat"
+        "security"
       ]
     },
     {
@@ -3415,9 +3446,9 @@
       "niche": "security",
       "score": 22,
       "keywords": [
-        "cybersecurity",
+        "malware",
         "security",
-        "malware"
+        "cybersecurity"
       ]
     },
     {
@@ -3502,8 +3533,8 @@
       "niche": "security",
       "score": 19,
       "keywords": [
-        "security",
-        "protection"
+        "protection",
+        "security"
       ]
     },
     {
@@ -3518,8 +3549,8 @@
       "score": 19,
       "keywords": [
         "PoC",
-        "security",
-        "cybersecurity"
+        "cybersecurity",
+        "security"
       ]
     },
     {
