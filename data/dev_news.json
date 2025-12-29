@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-29T04:13:23.562210+00:00",
+  "last_updated": "2025-12-29T06:43:24.371889+00:00",
   "total_articles": 944,
   "articles": [
     {
@@ -753,24 +753,6 @@
       ]
     },
     {
-      "id": "496a712f6fbdc561",
-      "title": "Docker Environment Composer Local Package Development Tips",
-      "description": "When developing Laravel applications in a Docker environment, you often need to simultaneously develop custom Composer packages. This article shares an elegant solution using symbolic links. Problems Docker containers cannot access host machine absolute paths Packages scattered across projects, difficult to manage centrally Package modifications require reinstallation to take effect Solution 1. Create Unified Package Development Directory mkdir -p /home/developer/packages/php mkdir -p /home/deve",
-      "url": "https://dev.to/mesak/docker-environment-composer-local-package-development-tips-13a7",
-      "source": "Dev.to",
-      "author": "Mesak",
-      "published": "2025-12-22T06:27:04+00:00",
-      "niche": "dev",
-      "score": 63,
-      "keywords": [
-        "development",
-        "Laravel",
-        "PHP",
-        "developer",
-        "Composer"
-      ]
-    },
-    {
       "id": "5ce75213dd3c099e",
       "title": "Claude Code gets native LSP support",
       "description": "Comments",
@@ -1047,24 +1029,6 @@
       "niche": "dev",
       "score": 62,
       "keywords": []
-    },
-    {
-      "id": "37e498ff4bb9e9c9",
-      "title": "LINQ Performance Optimization: 5 Patterns Every C# Developer Should Know",
-      "description": "This is Part 3 of the \"LINQ Performance & Best Practices\" series. If you haven't read the foundational articles yet: Part 1: Deferred Execution - The Essence of LINQ in C# Part 2: Multiple Enumerations in LINQ Expressions Our encryption service API response time jumped from 200ms to 3 seconds after adding a \"simple\" LINQ query to filter document metadata. The query looked clean, passed code review without comments, and the unit tests ran fine. But production told a different story. The problem w",
-      "url": "https://dev.to/dsikorska/linq-performance-optimization-5-patterns-every-c-developer-should-know-4p6k",
-      "source": "Dev.to",
-      "author": "Dominika Sikorska",
-      "published": "2025-12-22T06:00:00+00:00",
-      "niche": "dev",
-      "score": 61,
-      "keywords": [
-        "API",
-        "developer",
-        "code",
-        "best practices",
-        "performance"
-      ]
     },
     {
       "id": "c8188ae387cb1b77",
@@ -1787,36 +1751,6 @@
       ]
     },
     {
-      "id": "d5a99a4872dad762",
-      "title": "Reflections on building my first LangGraph project",
-      "description": "I recently completed my first LangGraph project that was more than a simple tutorial. It simulates a newspaper editorial workflow where a set of agents turn a story idea into a finished article. The newsroom itself wasn’t the goal, I simply used it to learn LangGraph properly. Learning LangGraph I explored several frameworks, including OpenAI Agents SDK, CrewAI, and AutoGen, but eventually settled on LangGraph. Modeling the application as a graph felt natural, and the level of control appealed t",
-      "url": "https://dev.to/juhapellotsalo/reflections-on-building-my-first-langgraph-project-3b6j",
-      "source": "Dev.to",
-      "author": "Juha Pellotsalo",
-      "published": "2025-12-22T06:30:47+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "tutorial",
-        "framework"
-      ]
-    },
-    {
-      "id": "4699e34c0cf128cc",
-      "title": "Why AI Code Suggestions Fail in Multi-File Projects",
-      "description": "If you are building a Todo app in a single index.js file, AI coding assistants feel like magic. They predict the entire function before you finish typing the signature. But if you are working in a production repo with fifty interacting components, a shared types library, and complex state management, the magic dissolves. You type a function call, and the AI suggests an import that looks perfect. The variable names match your conventions. The path looks correct. You hit Tab. Then your build fails",
-      "url": "https://dev.to/leena_malhotra/why-ai-code-suggestions-fail-in-multi-file-projects-49j9",
-      "source": "Dev.to",
-      "author": "Leena Malhotra",
-      "published": "2025-12-22T06:09:28+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "code",
-        "library"
-      ]
-    },
-    {
       "id": "41d0bf7ce953ca20",
       "title": "5 APIs for Developers to Integrate In-App Content Creation Functionality",
       "description": "These days, app users expect dynamic, creative tools baked into the platforms they use daily. For developers, building these capabilities from scratch is resource-intensive and time-consuming. Fortunately, specialized in-app content creation APIs for developers have emerged to bridge this gap. These APIs unlock advanced video, image, text, and publishing capabilities directly inside applications, eliminating the need for external tools. The best part? By integrating them, developers can offer se",
@@ -2324,50 +2258,6 @@
       "keywords": [
         "API",
         "developer"
-      ]
-    },
-    {
-      "id": "50761c7f643d1d00",
-      "title": "Building Multi-Tenant SaaS as a Solo Developer",
-      "description": "This article is part of the Solo SaaS Development Advent Calendar 2025. In the previous article, I covered GA4 and Microsoft Clarity setup. In this article, I'll share how I built a multi-tenant SaaS architecture. :::message The content in this article reflects the design I adopted for my personal project. Rather than best practices, please read this as a record of trial and error from a solo developer. ::: Why Multi-Tenant? When building a SaaS, you need to separate data by user. For team or or",
-      "url": "https://dev.to/pipipi-dev/building-multi-tenant-saas-as-a-solo-developer-1pi9",
-      "source": "Dev.to",
-      "author": "pipipi-dev",
-      "published": "2025-12-22T06:21:05+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "developer",
-        "development",
-        "best practices"
-      ]
-    },
-    {
-      "id": "68768d9813cc6266",
-      "title": "Building a High-Performance Real-Time Camera Capture System in C++",
-      "description": "Deep dive into building a production-ready camera capture system with zero-copy V4L2, multithreading, and FFmpeg encoding. Ever wondered how professional surveillance systems, dashcams, or robotics vision pipelines capture and process video at real-time speeds? Let me walk you through building a production-ready camera capture system in modern C++ that does exactly that. What We're Building A multithreaded camera capture system that: Captures live video at 30 FPS from USB cameras Processes frame",
-      "url": "https://dev.to/techsorter/building-a-high-performance-real-time-camera-capture-system-in-c-3kad",
-      "source": "Dev.to",
-      "author": "Jyoti Prajapati",
-      "published": "2025-12-22T06:11:18+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "performance"
-      ]
-    },
-    {
-      "id": "15bb44219f22499f",
-      "title": "Telegram Bots Are Useful — But at What Cost to Privacy?",
-      "description": "Rise of Telegram Bots in Private Groups This example is for educational purposes only, to demonstrate how leaked data can be misused. Telegram bots are very popular in Telegram groups because they make life easier by automating tasks, sharing content, and managing groups efficiently. Today’s generation largely depends on Telegram bots for entertainment, such as downloading anime, movies, music, and other digital content. Because of this convenience, Telegram bots are growing rapidly and are beco",
-      "url": "https://dev.to/syed_iqbal_ahammad/telegram-bots-are-useful-but-at-what-cost-to-privacy-3o38",
-      "source": "Dev.to",
-      "author": "Syed Iqbal Ahammad",
-      "published": "2025-12-22T06:04:17+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "API"
       ]
     },
     {
@@ -3510,18 +3400,45 @@
       ]
     },
     {
-      "id": "a9bb7facef85b384",
-      "title": "Amazon RDS (Relational Database Service)",
-      "description": "Introduction In today’s digital world, applications need reliable and scalable databases to store and manage data. Amazon Web Services (AWS) provides Amazon RDS (Relational Database Service) to make database management easier without worrying about infrastructure. RDS helps developers focus on application development instead of database maintenance. What is Amazon RDS? Amazon RDS is a managed relational database service offered by AWS. It allows users to create, operate, and scale relational dat",
-      "url": "https://dev.to/lohita_blue_d6409977eec4c/amazon-rds-relational-database-service-52d9",
+      "id": "709f9997d9ed365e",
+      "title": "How to Use Regex for Data Validation in the BoldSign API",
+      "description": "Ensuring data is accurate and formatted correctly is essential in any application or context. BoldSign provides an easy way to validate data when you create a document by integrating text box fields and regex validation. This blog will demonstrate how regex validation is applied to text box files using the BoldSign API. Regex validation Imagine expecting an email address but receiving a jumble of letters instead. Regex validation ensures that only correctly formatted data, such as email addresse",
+      "url": "https://dev.to/boldsign/how-to-use-regex-for-data-validation-in-the-boldsign-api-2j35",
       "source": "Dev.to",
-      "author": "Lohita M",
-      "published": "2025-12-22T05:52:30+00:00",
+      "author": "Vijay Amalan",
+      "published": "2025-12-29T06:16:21+00:00",
       "niche": "dev",
-      "score": 52,
+      "score": 54,
       "keywords": [
-        "developer",
-        "development"
+        "API"
+      ]
+    },
+    {
+      "id": "adb39b1308f17b1a",
+      "title": "Accidental Research Before 20s: How It Started",
+      "description": "In 2023, it was my college vacation. Me and my friend planned to make a platform for graphics designers so that they could show their portfolios. We were coding; we were too young, with no sense of enterprise software, frameworks, or software methodologies. We chose Django for the backend and Django templates for the frontend. Django templates possess almost the same syntax as Jinja. My partner had difficulty with the syntax; he was not familiar with it. I suggested we could use Chameleon or som",
+      "url": "https://dev.to/devamanali/accidental-research-at-15-how-it-started-2iii",
+      "source": "Dev.to",
+      "author": "AMAN ALI",
+      "published": "2025-12-29T06:14:13+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "framework"
+      ]
+    },
+    {
+      "id": "aede60ff7f9d4a0f",
+      "title": "Hexagonal Architecture: A Complete Guide to Building Flexible and Testable Applications",
+      "description": "Hexagonal Architecture, also known as Ports and Adapters pattern, is a software design approach that creates loosely coupled, testable, and maintainable applications. If you've ever struggled with tangled dependencies or found it difficult to swap out frameworks, this architecture might be your solution. What is Hexagonal Architecture? Hexagonal Architecture separates your application into distinct layers, with your business logic at the center, completely isolated from external concerns like da",
+      "url": "https://dev.to/sizan_mahmud0_e7c3fd0cb68/hexagonal-architecture-a-complete-guide-to-building-flexible-and-testable-applications-k1l",
+      "source": "Dev.to",
+      "author": "sizan mahmud0",
+      "published": "2025-12-29T06:08:51+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "framework"
       ]
     },
     {
@@ -5475,28 +5392,32 @@
       ]
     },
     {
-      "id": "64d122daf161d70f",
-      "title": "Código Limpio: 5 principios para dejar de escribir \"código espagueti\"",
-      "description": "Introducción ¿Alguna vez has regresado a un proyecto después de tres meses y no has entendido absolutamente nada de lo que escribiste? No estás solo. A todos nos ha pasado que, por las prisas, terminamos creando funciones gigantes y archivos interminables. Hoy vamos a hablar de los principios SOLID, una guía esencial para cualquier desarrollador que quiera pasar de \"hacer que funcione\" a \"crear software profesional\". ¿Qué es SOLID? SOLID es un acrónimo acuñado por Robert C. Martin (\"Uncle Bob\").",
-      "url": "https://dev.to/oscarolg/codigo-limpio-5-principios-para-dejar-de-escribir-codigo-espagueti-4k4b",
+      "id": "00f9afaa408090c5",
+      "title": "The LeetCode Amnesia Problem (And How I Fixed It)",
+      "description": "Three months into my interview prep, I had a realization that hurt: I couldn’t solve problems I’d already solved. I’d look at a medium-difficulty sliding window problem and think, “I know I’ve done this before.” I’d check my LeetCode history. Yep, solved it two months ago. But I couldn’t remember the approach. The insight that made it click the first time? Gone. So I’d solve it again. And probably forget it again in another two months. This is the dirty secret of LeetCode grinding: solving probl",
+      "url": "https://dev.to/neelbansal/the-leetcode-amnesia-problem-and-how-i-fixed-it-4i7n",
       "source": "Dev.to",
-      "author": "Oscar olg",
-      "published": "2025-12-22T06:05:12+00:00",
+      "author": "Neel Bansal",
+      "published": "2025-12-29T06:10:39+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
-      "id": "aec586c0361639d4",
-      "title": "Arc-Fault Protection in PV: Practical Notes for 1000V/1500V Strings",
-      "description": "High-voltage PV strings (1000V and 1500V) improve efficiency, but they also make fault management more critical. One issue is arc faults. They can occur at connectors, cable damage points, or degraded terminations. Unlike short circuits, a series arc may persist without a dramatic current increase. That is why arc-fault detection standards and test methods matter. Many engineers reference IEC 63027 when discussing DC arc detection and interruption concepts for PV systems. In practice, you should",
-      "url": "https://dev.to/wxc5937beep/arc-fault-protection-in-pv-practical-notes-for-1000v1500v-strings-9k9",
+      "id": "29f36e685f320787",
+      "title": "How I Built a Zero-Registration Free Invoice Maker for Freelancers",
+      "description": "As a developer and freelancer, I’ve always found it annoying to sign up for a complex accounting tool just to send a simple invoice. Most \"free\" tools have hidden limits or watermarks that ruin the professional look. To solve this for myself and the community, I built FreeOnlineInvoiceMaker.com. Why did I build this? The goal was simple: Speed and Privacy. No Sign-up: You don't need to give your email or create an account. Privacy First: Your data stays in your browser session while you generate",
+      "url": "https://dev.to/tushar-imran/how-i-built-a-zero-registration-free-invoice-maker-for-freelancers-1j0m",
       "source": "Dev.to",
-      "author": "wxc5937-beep",
-      "published": "2025-12-22T06:02:11+00:00",
+      "author": "Tushar Imran",
+      "published": "2025-12-29T06:07:27+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
       "id": "c3c63d2ab8b65588",
@@ -7959,6 +7880,66 @@
       "keywords": []
     },
     {
+      "id": "abd4bb4beb2acf98",
+      "title": "Native Amazon EKS Backups with AWS Backup",
+      "description": "TL;DR: AWS Backup now protects Amazon EKS. It backs up your cluster state and persistent data (EBS, EFS, S3) using one policy-driven workflow. You can restore a full cluster, a namespace, or specific volumes even into a brand-new EKS cluster. It’s been available since Nov 2025, and it’s now a dependable option for production teams. Why this matters: Before this, many teams used scripts or tools like Velero to back up Kubernetes. It worked, but it was hard to run at scale. Now you get: One place ",
+      "url": "https://dev.to/aws-builders/native-amazon-eks-backups-with-aws-backup-2kkd",
+      "source": "Dev.to",
+      "author": "saifeddine Rajhi",
+      "published": "2025-12-29T06:30:20+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "ae835247c8acf90d",
+      "title": "Choosing Rowstore or Columnstore? How to Pick the Right Engine for Your Workload",
+      "description": "Modern day workloads must balance the conflicting demands of the application. The applications are required to have milliseconds of latency in transactional operations, efficient analytical workloads across massive data, and the data flexibility demanded by AI/ML workloads. Traditional architectures force a binary choice between rowstore and columnstore storage formats, each optimized for fundamentally different access patterns. This guide explores the architectural characteristics of each engin",
+      "url": "https://dev.to/singlestore-developer/choosing-rowstore-or-columnstore-how-to-pick-the-right-engine-for-your-workload-b4d",
+      "source": "Dev.to",
+      "author": "Aasawari Sahasrabuddhe",
+      "published": "2025-12-29T06:30:00+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "30ef1a29f25a449c",
+      "title": "Building a Mobile Tool After Facing Media Quality Issues as a Content Creator",
+      "description": "As a content creator, I regularly share moments, updates, and short-form videos through WhatsApp Status. These are usually personal recordings—captured with modern smartphones and saved in high resolution. Over time, I noticed a consistent issue: videos and images that looked sharp and clean locally would lose clarity once uploaded. Fine details softened, colors shifted slightly, and compression artifacts became noticeable. This wasn’t about reposting others’ content or experimenting with random",
+      "url": "https://dev.to/abdul_wahab_fe886de9acd8a/building-a-mobile-tool-after-facing-media-quality-issues-as-a-content-creator-3bo3",
+      "source": "Dev.to",
+      "author": "Abdul Wahab",
+      "published": "2025-12-29T06:25:03+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "f34954f2a01bb655",
+      "title": "A Paper-Style Online Reader: No App, No Login, No Cloud",
+      "description": "Read Like It’s Paper: A Private, Browser-Based Reading Tool The Problem with Modern Reading Tools Many digital reading tools add friction where none is needed: Mandatory signups and user accounts Cloud syncing and data tracking App installations and frequent updates Distracting UI elements and notifications For readers who prefer focus and simplicity, these features often reduce the quality of the reading experience rather than improving it. A Paper-Like Reading Experience in the Browser This br",
+      "url": "https://dev.to/techno_kraft_in/a-paper-style-online-reader-no-app-no-login-no-cloud-dkd",
+      "source": "Dev.to",
+      "author": "techno kraft",
+      "published": "2025-12-29T06:14:05+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "0075e2c96bb294e0",
+      "title": "📜 AWS 118: Setting the Rules - Creating a Custom IAM Policy",
+      "description": "🛡️ IAM Policies: The Fine Art of Access Control Hey Cloud Gatekeepers! 👋 Welcome to Day 18 of the #100DaysOfCloud Challenge: Create IAM Policy! We are diving deeper into the Identity and Access Management service with KodeKloud Engineer. In previous tasks, we created users and groups. But a group or user without a Policy is like a person with a key but no map they can get into the building, but they don't know which doors they are allowed to open. Our mission today: Create a custom IAM policy na",
+      "url": "https://dev.to/hritikraj8804/aws-118-setting-the-rules-creating-a-custom-iam-policy-5694",
+      "source": "Dev.to",
+      "author": "Hritik Raj",
+      "published": "2025-12-29T06:04:43+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "e18f7d1903a5ac30",
       "title": "Some people are becoming exceptional tool users. Others are becoming system builders. Over time, the second group will quietly replace the first, and that’s not a threat. It’s a natural evolution.",
       "description": "System Builders Will Replace Tool Users: And That’s a Good Thing Jaideep Parashar ・ Dec 25 #webdev #ai #developers #programming",
@@ -9734,6 +9715,30 @@
       "keywords": []
     },
     {
+      "id": "d4c7e69c20e84090",
+      "title": "Staying ahead of censors in 2025",
+      "description": "Comments",
+      "url": "https://forum.torproject.org/t/staying-ahead-of-censors-in-2025-what-weve-learned-from-fighting-censorship-in-iran-and-russia/20898",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-29T05:47:40+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "2225dffa8da27fd0",
+      "title": "Why I think Valve’s retiring the Steam Deck LCD",
+      "description": "Comments",
+      "url": "https://gardinerbryant.com/why-valves-retiring-the-steam-deck-lcd/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-29T03:44:12+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "26dbca142972a14e",
       "title": "Building a Nostalgic 8-bit Universe with Modern Tech: A Vibe Coding Journey",
       "description": "A nostalgic 8-bit portfolio experiment built with modern AI workflows and performance-first web tech.",
@@ -9787,8 +9792,8 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "code",
         "performance",
+        "code",
         "release"
       ]
     },
@@ -9803,9 +9808,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "release",
+        "developer",
         "API",
-        "developer"
+        "release"
       ]
     },
     {
@@ -9819,9 +9824,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
+        "developer",
         "performance",
-        "release",
-        "developer"
+        "release"
       ]
     },
     {
@@ -10219,8 +10224,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "API",
-        "framework"
+        "framework",
+        "API"
       ]
     },
     {
@@ -10315,18 +10320,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-22T19:25:29+00:00",
-      "niche": "dev",
-      "score": 32,
-      "keywords": []
-    },
-    {
-      "id": "9be3585c07fe8cd1",
-      "title": "Mruby: Ruby for Embedded Systems",
-      "description": "Comments",
-      "url": "https://github.com/mruby/mruby",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-22T05:00:14+00:00",
       "niche": "dev",
       "score": 32,
       "keywords": []
@@ -10435,10 +10428,10 @@
       "score": 30,
       "keywords": [
         "performance",
-        "code",
-        "release",
+        "framework",
         "API",
-        "framework"
+        "release",
+        "code"
       ]
     },
     {
@@ -10563,18 +10556,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-22T15:06:13+00:00",
-      "niche": "dev",
-      "score": 26,
-      "keywords": []
-    },
-    {
-      "id": "0c95b796d56d167f",
-      "title": "CSRF protection without tokens or hidden form fields",
-      "description": "Comments",
-      "url": "https://blog.miguelgrinberg.com/post/csrf-protection-without-tokens-or-hidden-form-fields",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-22T05:38:33+00:00",
       "niche": "dev",
       "score": 26,
       "keywords": []
@@ -10728,8 +10709,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "API"
+        "API",
+        "release"
       ]
     },
     {
@@ -10743,8 +10724,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "framework"
+        "framework",
+        "release"
       ]
     },
     {
@@ -10758,9 +10739,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "code",
+        "developer",
         "performance",
-        "developer"
+        "code"
       ]
     },
     {
@@ -10774,8 +10755,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "code",
-        "performance"
+        "performance",
+        "code"
       ]
     },
     {
@@ -10804,8 +10785,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
-        "developer"
+        "developer",
+        "release"
       ]
     },
     {
@@ -11112,18 +11093,6 @@
       "keywords": []
     },
     {
-      "id": "560a24e91ed48671",
-      "title": "Joan Didion and Kurt Vonnegut had something to say. We have it on tape",
-      "description": "Comments",
-      "url": "https://www.nytimes.com/2025/12/19/books/james-baldwin-joan-didion-92ny-recordings.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-22T06:17:32+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
       "id": "be67513f5124d406",
       "title": "What happened to all the gold Spain got from the New World? (1985)",
       "description": "Comments",
@@ -11239,6 +11208,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-22T14:16:40+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "9f769942cd6111e7",
+      "title": "Line scan camera image processing",
+      "description": "Comments",
+      "url": "https://daniel.lawrence.lu/blog/2025-09-21-line-scan-camera-image-processing/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-25T10:42:46+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -11508,8 +11489,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "development",
-        "programming"
+        "programming",
+        "development"
       ]
     },
     {
