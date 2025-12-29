@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-29T12:56:41.608171+00:00",
-  "total_articles": 943,
+  "last_updated": "2025-12-29T15:29:10.926957+00:00",
+  "total_articles": 940,
   "articles": [
     {
       "id": "f8dc954cb8ca9308",
@@ -118,6 +118,22 @@
       ]
     },
     {
+      "id": "3850bab57ac7ac17",
+      "title": "CSRF in the Modern Era: Do you actually need tokens in a decoupled React/Node app?",
+      "description": "CSRF in the Modern Era: Do you actually need tokens in a decoupled React/Node app? For years, the Cross-Site Request Forgery (CSRF) token was the gold standard of web security. Every tutorial told you the same thing: if you have a form, you need a hidden _csrf token. But as the web shifted from monolithic PHP or Rails apps to decoupled architectures—think a React/Vue frontend talking to a Node/Python API—the conversation changed. With the rise of SameSite cookie attributes and the decline of tra",
+      "url": "https://dev.to/rishi-hustler/csrf-in-the-modern-era-do-you-actually-need-tokens-in-a-decoupled-reactnode-app-e5p",
+      "source": "Dev.to",
+      "author": "Rishi",
+      "published": "2025-12-29T15:09:42+00:00",
+      "niche": "dev",
+      "score": 76,
+      "keywords": [
+        "PHP",
+        "tutorial",
+        "API"
+      ]
+    },
+    {
       "id": "81792fcbbc38af15",
       "title": "Cooked-folio: A Portfolio Template with Spotify/GitHub/Discord Integrated",
       "description": "Cooked-folio: a Next.js portfolio template that connects Discord presence, Spotify listening activity, and GitHub contributions in real time. The repository includes preconfigured API routes for Lanyard, Spotify Web API, and GitHub GraphQL. You get TypeScript types, Tailwind styling, Framer Motion animations, and a contact form that posts to Discord webhooks. Deploy to Vercel with one click and customize through two config files. The template handles environment variables for all integrations an",
@@ -207,21 +223,6 @@
       "keywords": [
         "Spring",
         "API"
-      ]
-    },
-    {
-      "id": "ad1004197539debe",
-      "title": "Ng-News 25/50: Auto-Destroy for Router Providers, Signal Forms",
-      "description": "Angular will bring auto-destroy for router providers and more updates around Signal Forms. The community shares new articles, talks, and practical examples. Auto-Destroy for Router Providers A new feature for the router will land in Angular 21.1. This might surprise some developers, because many assumed this behavior was already standard. If a service is provided only at component level, so not in root, the service gets destroyed together with the component. This does not happen when a service i",
-      "url": "https://dev.to/this-is-angular/ng-news-2550-auto-destroy-for-router-providers-signal-forms-27ko",
-      "source": "Dev.to",
-      "author": "ng-news",
-      "published": "2025-12-22T15:07:36+00:00",
-      "niche": "dev",
-      "score": 73,
-      "keywords": [
-        "Angular",
-        "developer"
       ]
     },
     {
@@ -646,24 +647,6 @@
       ]
     },
     {
-      "id": "9fd5a0bd5024fa1a",
-      "title": "Microservices Communication Patterns: When to Use REST, gRPC, or Message Queues",
-      "description": "Introduction One of the most critical decisions in microservices architecture is choosing how your services communicate. The wrong choice can lead to performance bottlenecks, tight coupling, and maintenance nightmares. The right choice enables scalability, resilience, and developer productivity. In this deep dive, we'll explore the three most popular communication patterns in modern microservices architectures: REST APIs - The ubiquitous request-response pattern gRPC - Google's high-performance ",
-      "url": "https://dev.to/benyusouf/microservices-communication-patterns-when-to-use-rest-grpc-or-message-queues-2dl4",
-      "source": "Dev.to",
-      "author": "Abdullahi Yusuf",
-      "published": "2025-12-22T15:13:03+00:00",
-      "niche": "dev",
-      "score": 66,
-      "keywords": [
-        "microservices",
-        "API",
-        "REST API",
-        "performance",
-        "developer"
-      ]
-    },
-    {
       "id": "16dc5f638068e946",
       "title": "Fabrice Bellard Releases MicroQuickJS",
       "description": "Comments",
@@ -1052,6 +1035,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-29T05:41:24+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": []
+    },
+    {
+      "id": "111da972446b6d06",
+      "title": "Libgodc: Write Go Programs for Sega Dreamcast",
+      "description": "Comments",
+      "url": "https://github.com/drpaneas/libgodc",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-29T13:43:29+00:00",
       "niche": "dev",
       "score": 62,
       "keywords": []
@@ -1776,21 +1771,6 @@
       ]
     },
     {
-      "id": "1229ed0ed045c569",
-      "title": "Essential Browser APIs: Transform Your Web App Into a Native-Like Experience",
-      "description": "As a best-selling author, I invite you to explore my books on Amazon. Don't forget to follow me on Medium and show your support. Thank you! Your support means the world! Modern web development has moved far beyond simple pages. Today, we can build applications that interact deeply with a user's device, feeling almost native, while staying within the safe, portable confines of the browser. This is possible through a set of tools provided by the browser itself, known as APIs. I want to share some ",
-      "url": "https://dev.to/nithinbharathwaj/essential-browser-apis-transform-your-web-app-into-a-native-like-experience-2ffi",
-      "source": "Dev.to",
-      "author": "Nithin Bharadwaj",
-      "published": "2025-12-22T15:07:57+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "development",
-        "API"
-      ]
-    },
-    {
       "id": "8112fdef0840bd50",
       "title": "Seamless SDK Integration: Monetizing AI Conversations with Monetzly",
       "description": "Monetizing AI Conversations: Introducing Monetzly - The Google Ads for AI In a rapidly growing landscape of AI applications, developers often face a common challenge: how to monetize their creations without compromising user experience. Enter Monetzly—a groundbreaking platform that enables a three-sided marketplace where developers, advertisers, and users can all thrive. Think of it as the Google Ads for AI conversations, but with a unique twist: dual earning opportunities for developers. The Di",
@@ -2301,17 +2281,18 @@
       ]
     },
     {
-      "id": "3f72365fc27f461f",
-      "title": "How to Programmatically Fill a PDF Form with Raw JavaScript (The Easy Way)",
-      "description": "Programmatically filling PDF forms can be straightforward or tricky, depending on the setup. The challenge usually depends on whether you are writing everything from scratch, using a JavaScript library, how the form fields are named, and how well those names match your data model. A more subtle challenge comes from the limitations of the libraries you choose. Most PDF form automation tools work by directly manipulating AcroForm fields, which means you are often responsible for validation, may ne",
-      "url": "https://dev.to/joyfill/how-to-programmatically-fill-a-pdf-form-with-raw-javascript-the-easy-way-1lj5",
+      "id": "4ebb82cd8b9d85a4",
+      "title": "New in Vue - December 2025",
+      "description": "Hi, everyone. This will be my 24th and last article in 2025. I wish you all a great start into the upcoming New year 2026 and before it happens, let's do this quick recap of latest development in the Vue / Nuxt / Vite world once again. Vue will probably end 2025 in maintenance version 3.5.26. Vue v3.5 was released more than a year ago, so we can say the fundament of our ecosystem is pretty solid and stable right now. Bugs are being fixed, dependencies patched, and minor tweaks appear from time t",
+      "url": "https://dev.to/aloisseckar/new-in-vue-december-2025-1hk0",
       "source": "Dev.to",
-      "author": "John Pagley",
-      "published": "2025-12-22T15:16:32+00:00",
+      "author": "Alois Sečkár",
+      "published": "2025-12-29T15:14:09+00:00",
       "niche": "dev",
-      "score": 54,
+      "score": 55,
       "keywords": [
-        "library"
+        "development",
+        "release"
       ]
     },
     {
@@ -4003,34 +3984,6 @@
       ]
     },
     {
-      "id": "82a518b6d9a47e63",
-      "title": "Day 72: Python Sliding Window Maximum - Deque O(n) Solution for Efficient Max Tracking (LeetCode #239 Guide)",
-      "description": "Welcome to Day 72 of the #80DaysOfChallenges journey! This intermediate challenge solves the sliding window maximum problem (LeetCode #239), finding the max in every k-sized window of an array using a deque to maintain decreasing indices in O(n) time, a brilliant optimization over naive O(nk). It combines deque for monotonic queue, index tracking to remove out-of-window, and cleanup of smaller values, essential for streaming data, stock analysis, or real-time max queries. If you're advancing fro",
-      "url": "https://dev.to/shahrouzlogs/day-72-python-sliding-window-maximum-deque-on-solution-for-efficient-max-tracking-leetcode-1f2i",
-      "source": "Dev.to",
-      "author": "Shahrouz Nikseresht",
-      "published": "2025-12-22T15:15:40+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "24a8463e7b8d1c8a",
-      "title": "Meta-Authors Note: Codie's Cognitive Chronicles",
-      "description": "So busy! But I'm here now. Last week we had more breakthroughs! We discovered the Claude Code hooks configuration concept. Now we've got reliable note taking and reliable application of a set of sub-agents for specialized application of... wait for it... our learned patterns and concepts! becuase a sub-agent can itself be a protocol, we can clearly describe the workflow of reviewing a piece of work against our collected anti-patterns, for instance. And we can perform this time of semantically lo",
-      "url": "https://dev.to/izzyfuller/meta-authors-note-codies-cognitive-chronicles-12kh",
-      "source": "Dev.to",
-      "author": "Izzy Fuller",
-      "published": "2025-12-22T15:15:18+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
       "id": "f2ffbb137dc70c57",
       "title": "I don't trust password managers. So I built one.",
       "description": "Github: PassFX Repo Webpage: PassFX Landing Page After years of watching cloud first password managers get breached, acquired, or quietly change their terms of service, I decided the only one I could trust was one where I could read every line of code. Two months later: PassFX, a terminal password manager that never touches a network. The Problem Every single password manager I tested ultimately requested that I send all of my passwords to another company’s server and then trust them not to mess",
@@ -5515,64 +5468,46 @@
       ]
     },
     {
-      "id": "bf34c3c79f41b297",
-      "title": "PWC 353 To each (array) his own",
-      "description": "This week's challenges were early and on the easy side, which was appreciated as the holidays loom. The musical interlude this week ignores the challenge tasks in favor of seasonal light jazz; I have Spotify playing \"Winter's Songs: A Windham Hill Christmas.\" Task 1: Max Words The Task You are given an array of sentences. Write a script to return the maximum number of words that appear in a single sentence. Example 1: Input: @sentences = (\"Hello world\", \"This is a test\", \"Perl is great\") Output:",
-      "url": "https://dev.to/boblied/pwc-353-to-each-array-his-own-23o8",
+      "id": "d8a040263ad6368c",
+      "title": "Containerization 2025: Why containerd 2.0 and eBPF Change Everything",
+      "description": "The containerization landscape, perennially dynamic, has seen a flurry of practical, sturdy advancements over late 2024 and through 2025. As senior developers, we're past the \"hype cycle\" and into the trenches, evaluating features that deliver tangible operational benefits and address real-world constraints. This past year has solidified several trends: a relentless push for enhanced security across the supply chain, fundamental improvements in runtime efficiency, a significant leap in build erg",
+      "url": "https://dev.to/dataformathub/containerization-2025-why-containerd-20-and-ebpf-change-everything-1238",
       "source": "Dev.to",
-      "author": "Bob Lied",
-      "published": "2025-12-22T15:12:56+00:00",
+      "author": "DataFormatHub",
+      "published": "2025-12-29T15:16:04+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
-      "id": "35d1cf29f3326bc6",
-      "title": "SmoothGrad: removing noise by adding noise",
-      "description": "SmoothGrad: why adding tiny noise can make picture explanations clearer Have you ever wondered why a computer calls a photo dog or cat? Computers point to the pixels that mattered most, but those pictures can look fuzzy and noisy. A simple idea fixes that: add tiny random specks to the image many times, then combine what the computer says. The small changes cancel out the fluff, so the final picture is much sharper. This trick uses a bit of noise to remove other noise — sounds odd but it works. ",
-      "url": "https://dev.to/paperium/smoothgrad-removing-noise-by-adding-noise-1em",
+      "id": "e57118c013fe937f",
+      "title": "Transform Conversations: How Monetzly Enhances SDK Integration for AI",
+      "description": "Why 90% of AI Apps Fail to Monetize Effectively—and How Monetzly Can Change That In the booming world of AI applications, the promise of innovation often clashes with a harsh reality: 90% of AI apps fail to monetize effectively. The core issue lies in the lack of sustainable monetization models that don’t disrupt user experience. As developers, we’ve all faced the dilemma of choosing between user engagement and revenue generation. What if there was a way to achieve both? Enter Monetzly—the first",
+      "url": "https://dev.to/monetzly/transform-conversations-how-monetzly-enhances-sdk-integration-for-ai-3680",
       "source": "Dev.to",
-      "author": "Paperium",
-      "published": "2025-12-22T15:11:01+00:00",
+      "author": "Monetzly",
+      "published": "2025-12-29T15:14:33+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
-      "id": "4d654109ce4dfd96",
-      "title": "What are your Goals for the week? #158",
-      "description": "It's Christmas week. I'm not gonna do much this week. Going to enjoy time with family. What are your goals for the week? What are you building this week? What do you want to learn? Are you attending any events this week? Are you doing any of the advent coding challenges? (link below) This Week's Goals. Job Search. I'll spend a little bit of time checking linkedIn and email. But that's about it. Project work. Content for side project. Work on my own project. Follow Content & Project Calendar for ",
-      "url": "https://dev.to/jarvisscript/what-are-your-goals-for-the-week-158-48f4",
+      "id": "071a18eda6145df0",
+      "title": "The Silent Leak: Why Sensitive Data Masking is Your Most Critical Log Strategy",
+      "description": "The Silent Leak: Why Sensitive Data Masking is Your Most Critical Log Strategy Imagine your security team receives an alert: a high-priority production bug is causing system crashes. Your lead developer dives into the logs to find the root cause. They find the error, but they also find something else—thousands of rows containing customer email addresses, plain-text phone numbers, and home addresses. Suddenly, your debugging session has turned into a data breach report. In the era of GDPR, CCPA, ",
+      "url": "https://dev.to/rishi-hustler/the-silent-leak-why-sensitive-data-masking-is-your-most-critical-log-strategy-36gb",
       "source": "Dev.to",
-      "author": "Chris Jarvis",
-      "published": "2025-12-22T15:07:00+00:00",
+      "author": "Rishi",
+      "published": "2025-12-29T15:07:25+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "ef8bb2a68ac6b35e",
-      "title": "Designing a Lightweight Data Pipeline for Analysis Without Stressing Production Databases",
-      "description": "Analytics should never compete with production workloads. In many systems, analytics begin as a convenience query against the production database. Over time, these queries grow heavier, scan larger time ranges, and slowly degrade system reliability. This post describes a lightweight, production-safe data pipeline for analytical workloads, built with: Delta Lake on S3 for durable analytical storage DuckDB as an embedded analytics engine Tenant-isolated batch processing Strict resource limits Loca",
-      "url": "https://dev.to/nimxch/designing-a-lightweight-data-pipeline-for-analysis-without-stressing-production-databases-53bh",
-      "source": "Dev.to",
-      "author": "Nimai Charan",
-      "published": "2025-12-22T15:05:47+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "6f98707c35e71543",
-      "title": "text-decoration-inset is Like Padding for Text Decorations",
-      "description": "The text-decoration-inset property solves a problem that we’ve had since the beginning of the web, which is that text decorations such as underlines extend beyond the first and last characters, resulting in vertical misalignment. text-decoration-inset is Like Padding for Text Decorations originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-      "url": "https://css-tricks.com/text-decoration-inset-is-like-padding-for-text-decorations/",
-      "source": "CSS-Tricks",
-      "author": "Daniel Schwarz",
-      "published": "2025-12-22T14:39:52+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
       "id": "7f1f85227171fe0e",
@@ -7975,6 +7910,66 @@
       "keywords": []
     },
     {
+      "id": "da56b4de63445a41",
+      "title": "Building Sustainable Social Media Workflows in a Noisy Digital Space",
+      "description": "Social media has become one of the most competitive digital environments of our time. Algorithms shift constantly, attention spans are short, and even high-quality content can struggle to reach the right audience. For creators, businesses, and teams managing multiple channels, the challenge is no longer just “posting more,” but building sustainable workflows that balance effort, consistency, and visibility. Over the past few years, I’ve spent time observing how different teams approach this prob",
+      "url": "https://dev.to/boostero_panel/building-sustainable-social-media-workflows-in-a-noisy-digital-space-4ila",
+      "source": "Dev.to",
+      "author": "Boostero",
+      "published": "2025-12-29T15:19:06+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "aec0c187e1fd595c",
+      "title": "ToddlerBites: The Meal Planning App for Everyone Feeding a Toddler",
+      "description": "This is a submission for the DEV's Worldwide Show and Tell Challenge Presented by Mux What I Built ToddlerBites is a meal planning and tracking app for anyone feeding a toddler — parents, nannies, daycare workers, and grandparents. It focuses on the multi-caregiver problem: keeping everyone informed about what a child ate. Demo Live Demo The Story Behind It Parents deal with picky eaters, allergies, and limited time every day. The harder part: when multiple caregivers are involved, no one knows:",
+      "url": "https://dev.to/hulyamasharipov/toddlerbites-the-meal-planning-app-for-everyone-feeding-a-toddler-1nko",
+      "source": "Dev.to",
+      "author": "Hulya",
+      "published": "2025-12-29T15:18:48+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "223ae26d3a3f3f92",
+      "title": "What Bike Path Maintenance Taught Me About Preventive Work",
+      "description": "by Lucas Brenner I start each route the same way. I note the section number, check the date, and walk slowly enough that I can see the surface instead of just moving over it. From a distance, a bike path looks uniform. Up close, it tells a different story. Small cracks branch off at odd angles. Painted lines fade unevenly. Signs tilt just enough to suggest a loose anchor. None of it looks urgent on its own. My job is to document these details before they become problems. I move section by sectio",
+      "url": "https://dev.to/lucasbrenner/what-bike-path-maintenance-taught-me-about-preventive-work-397l",
+      "source": "Dev.to",
+      "author": "Lucas Brenner",
+      "published": "2025-12-29T15:17:15+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "ad2591d056c65502",
+      "title": "Why RAG is the Future of Search (And How Elastic Search Makes it Possible )",
+      "description": "The Problem RAG Solves Large Language Models (LLMs) like are incredibly powerful, but they have a critical limitation: they can only answer based on what they were trained on. This leads to two major issues: Hallucinations: The model might confidently provide incorrect information Limited Knowledge: The model doesn't know about your specific data, documents, or recent information RAG solves this by giving the LLM a \"brain\" made of your specific data. The Three Steps of RAG Step 1: RETRIEVAL (The",
+      "url": "https://dev.to/ubcodes/why-rag-is-the-future-of-search-and-how-elastic-search-makes-it-possible--47nb",
+      "source": "Dev.to",
+      "author": "Etop  - Essien Emmanuella Ubokabasi",
+      "published": "2025-12-29T15:10:08+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "1f2d13a541a9ca4d",
+      "title": "Thoughts on Building a GUI Workflow Around scrcpy (ADB Device Manager Experiment)",
+      "description": "I built a small Windows tool to control a full Android device directly from Windows using ADB + scrcpy. The goal is simple: See and control the entire Android screen Launch and switch apps instantly Manage the device without jumping between terminal commands Keep everything local and private (no cloud, no tracking) This is a personal, non-commercial experiment focused on daily usability rather than automation. Feedback from scrcpy and ADB users is welcome. 🔗 GitHub repository: https://github.com",
+      "url": "https://dev.to/adb_devicemanager_20c75c/thoughts-on-building-a-gui-workflow-around-scrcpy-adb-device-manager-experiment-2nog",
+      "source": "Dev.to",
+      "author": "ADB Device Manager",
+      "published": "2025-12-29T15:06:07+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "e18f7d1903a5ac30",
       "title": "Some people are becoming exceptional tool users. Others are becoming system builders. Over time, the second group will quietly replace the first, and that’s not a threat. It’s a natural evolution.",
       "description": "System Builders Will Replace Tool Users: And That’s a Good Thing Jaideep Parashar ・ Dec 25 #webdev #ai #developers #programming",
@@ -8057,6 +8052,20 @@
       "score": 48,
       "keywords": [
         "framework"
+      ]
+    },
+    {
+      "id": "49284824e05dee42",
+      "title": "Developers remain willing but reluctant to use AI: The 2025 Developer Survey results are here",
+      "description": "No need to bury the lede: more developers are using AI tools, but their trust in those tools is falling.",
+      "url": "https://stackoverflow.blog/2025/12/29/developers-remain-willing-but-reluctant-to-use-ai-the-2025-developer-survey-results-are-here/",
+      "source": "Stack Overflow Blog",
+      "author": "Erin Yepis",
+      "published": "2025-12-29T15:04:49+00:00",
+      "niche": "dev",
+      "score": 48,
+      "keywords": [
+        "developer"
       ]
     },
     {
@@ -8146,20 +8155,6 @@
       "niche": "dev",
       "score": 46,
       "keywords": []
-    },
-    {
-      "id": "4905b6f8fce29ed2",
-      "title": "Making your code base better will make your code coverage worse",
-      "description": "Maintaining a minimum of 80% code coverage affects code decisions and not always for the better.",
-      "url": "https://stackoverflow.blog/2025/12/22/making-your-code-base-better-will-make-your-code-coverage-worse/",
-      "source": "Stack Overflow Blog",
-      "author": "Jared Toporek",
-      "published": "2025-12-22T15:00:07+00:00",
-      "niche": "dev",
-      "score": 45,
-      "keywords": [
-        "code"
-      ]
     },
     {
       "id": "0bdbffe97e12b0cc",
@@ -8260,16 +8255,18 @@
       ]
     },
     {
-      "id": "69be0bd690f58fc2",
-      "title": "Origin of Hallucination in LLMs, The physical source of hallucinations has found",
+      "id": "9810f95709106f5e",
+      "title": "Show HN: Vibe coding a bookshelf with Claude Code",
       "description": "Comments",
-      "url": "https://arxiv.org/abs/2512.01797",
+      "url": "https://balajmarius.com/writings/vibe-coding-a-bookshelf-with-claude-code/",
       "source": "Hacker News",
       "author": "Inconnu",
-      "published": "2025-12-22T15:16:18+00:00",
+      "published": "2025-12-29T13:22:59+00:00",
       "niche": "dev",
-      "score": 44,
-      "keywords": []
+      "score": 45,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "ae8ba94586b3efbf",
@@ -9712,6 +9709,18 @@
       "keywords": []
     },
     {
+      "id": "d94ac3d364043bd6",
+      "title": "UK accounting body to halt remote exams amid AI cheating",
+      "description": "Comments",
+      "url": "https://www.theguardian.com/business/2025/dec/29/uk-accounting-remote-exams-ai-cheating-acca",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-29T13:06:49+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "26dbca142972a14e",
       "title": "Building a Nostalgic 8-bit Universe with Modern Tech: A Vibe Coding Journey",
       "description": "A nostalgic 8-bit portfolio experiment built with modern AI workflows and performance-first web tech.",
@@ -9736,8 +9745,22 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "React 19",
-        "performance"
+        "performance",
+        "React 19"
+      ]
+    },
+    {
+      "id": "da2ff02403f2a8ad",
+      "title": "Frequency Breathwork: Translating the Invisible Rhythm of Breath into Digital Form",
+      "description": "An exploration of how concept, motion, sound, and code came together to create a website that doesn’t just present breathwork, but embodies it.",
+      "url": "https://tympanus.net/codrops/2025/12/29/frequency-breathwork-translating-the-invisible-rhythm-of-breath-into-digital-form/",
+      "source": "Codrops",
+      "author": "Artemii Lebedev",
+      "published": "2025-12-29T13:42:53+00:00",
+      "niche": "dev",
+      "score": 40,
+      "keywords": [
+        "code"
       ]
     },
     {
@@ -9765,9 +9788,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
+        "performance",
         "code",
-        "release",
-        "performance"
+        "release"
       ]
     },
     {
@@ -9797,9 +9820,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "developer",
+        "performance",
         "release",
-        "performance"
+        "developer"
       ]
     },
     {
@@ -10221,8 +10244,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "API",
-        "framework"
+        "framework",
+        "API"
       ]
     },
     {
@@ -10334,18 +10357,6 @@
       "keywords": []
     },
     {
-      "id": "79e96247138aca35",
-      "title": "Project Vend: Phase Two",
-      "description": "Comments",
-      "url": "https://www.anthropic.com/research/project-vend-2",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-22T13:44:14+00:00",
-      "niche": "dev",
-      "score": 32,
-      "keywords": []
-    },
-    {
       "id": "1b2a7c177ebb44d3",
       "title": "WebGPU is now supported in major browsers",
       "description": "Read about the biggest web graphics launch since WebGL. WebGPU is supported across major browsers, bringing unparalleled performance to the web.",
@@ -10424,11 +10435,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "code",
         "performance",
-        "framework",
+        "API",
         "release",
-        "API"
+        "code",
+        "framework"
       ]
     },
     {
@@ -10544,18 +10555,6 @@
       "keywords": [
         "release"
       ]
-    },
-    {
-      "id": "a444032d9e1449fd",
-      "title": "Lua 5.5",
-      "description": "Comments",
-      "url": "https://lua.org/versions.html#5.5",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-22T15:06:13+00:00",
-      "niche": "dev",
-      "score": 26,
-      "keywords": []
     },
     {
       "id": "322791f8a22dfbae",
@@ -10748,9 +10747,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
+        "performance",
         "code",
-        "developer",
-        "performance"
+        "developer"
       ]
     },
     {
@@ -10764,8 +10763,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "code",
-        "performance"
+        "performance",
+        "code"
       ]
     },
     {
@@ -10794,8 +10793,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -10809,8 +10808,8 @@
       "niche": "dev",
       "score": 18,
       "keywords": [
-        "PHP",
-        "Angular"
+        "Angular",
+        "PHP"
       ]
     },
     {
@@ -10942,8 +10941,8 @@
       "niche": "dev",
       "score": 15,
       "keywords": [
-        "developer",
-        "library"
+        "library",
+        "developer"
       ]
     },
     {
@@ -11093,18 +11092,6 @@
       "keywords": []
     },
     {
-      "id": "d1bd2d13cd173e27",
-      "title": "Animating Quines for Larva Labs",
-      "description": "Comments",
-      "url": "https://destroytoday.com/blog/animating-quines-for-larva-labs",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-22T14:04:02+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
       "id": "eeb086f8c5c56a6e",
       "title": "The Best Things and Stuff of 2025",
       "description": "Comments",
@@ -11112,18 +11099,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-23T14:51:33+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "98a8a14ddd79d40b",
-      "title": "One million (small web) screenshots",
-      "description": "Comments",
-      "url": "https://nry.me/posts/2025-10-09/small-web-screenshots/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-22T14:44:20+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -11201,18 +11176,6 @@
       "keywords": []
     },
     {
-      "id": "aded21aa35396aeb",
-      "title": "One year of keeping a tada list",
-      "description": "Comments",
-      "url": "https://www.ducktyped.org/p/one-year-of-keeping-a-tada-list",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-22T14:16:40+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
       "id": "9f769942cd6111e7",
       "title": "Line scan camera image processing",
       "description": "Comments",
@@ -11244,6 +11207,18 @@
       "source": "freeCodeCamp",
       "author": "Ekemini Samuel",
       "published": "2025-12-19T17:29:13+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "6f98707c35e71543",
+      "title": "text-decoration-inset is Like Padding for Text Decorations",
+      "description": "The text-decoration-inset property solves a problem that we’ve had since the beginning of the web, which is that text decorations such as underlines extend beyond the first and last characters, resulting in vertical misalignment. text-decoration-inset is Like Padding for Text Decorations originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
+      "url": "https://css-tricks.com/text-decoration-inset-is-like-padding-for-text-decorations/",
+      "source": "CSS-Tricks",
+      "author": "Daniel Schwarz",
+      "published": "2025-12-22T14:39:52+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -11960,18 +11935,6 @@
       "keywords": []
     },
     {
-      "id": "d164bc0e144cf54a",
-      "title": "The 2025 Stack Overflow and Stack Exchange wrap—our top ten questions of the year!",
-      "description": "As 2025 comes to a close, we&#x27;re sharing some of the top questions from across our entire Stack Exchange Network.",
-      "url": "https://stackoverflow.blog/2025/12/17/the-2025-stack-overflow-and-stack-exchange-wrap/",
-      "source": "Stack Overflow Blog",
-      "author": "Phoebe Sajor",
-      "published": "2025-12-17T18:00:00+00:00",
-      "niche": "dev",
-      "score": 10,
-      "keywords": []
-    },
-    {
       "id": "1e0445c8d7018d5c",
       "title": "A beginner-friendly guide to view transitions in CSS",
       "description": "Learn how to bring smooth, animated navigation to multi-page apps with view transitions. With just one line of CSS, you can enable seamless transitions between pages.",
@@ -12102,6 +12065,20 @@
       ]
     },
     {
+      "id": "4905b6f8fce29ed2",
+      "title": "Making your code base better will make your code coverage worse",
+      "description": "Maintaining a minimum of 80% code coverage affects code decisions and not always for the better.",
+      "url": "https://stackoverflow.blog/2025/12/22/making-your-code-base-better-will-make-your-code-coverage-worse/",
+      "source": "Stack Overflow Blog",
+      "author": "Jared Toporek",
+      "published": "2025-12-22T15:00:07+00:00",
+      "niche": "dev",
+      "score": 9,
+      "keywords": [
+        "code"
+      ]
+    },
+    {
       "id": "c33ad290f780c2f4",
       "title": "Spain Collection: Evolving a Luxury Website into a Digital Ecosystem",
       "description": "An in-depth look at the evolution of Spain Collection’s first website into a more ambitious digital ecosystem, connecting strategy, design, and technology across Spain and Portugal.",
@@ -12121,18 +12098,6 @@
       "source": "Codrops",
       "author": "basement",
       "published": "2025-12-15T12:52:12+00:00",
-      "niche": "dev",
-      "score": 9,
-      "keywords": []
-    },
-    {
-      "id": "c0b96139152f424f",
-      "title": "Simulating Life in the Browser: Creating a Living Particle System for the UntilLabs Website",
-      "description": "Learn how a real photograph was transformed into a living, physics-driven particle system using WebGL, shaders, and data-driven motion for the UntilLabs homepage.",
-      "url": "https://tympanus.net/codrops/2025/12/10/simulating-life-in-the-browser-creating-a-living-particle-system-for-the-untillabs-website/",
-      "source": "Codrops",
-      "author": "Bautista Berto",
-      "published": "2025-12-10T14:16:57+00:00",
       "niche": "dev",
       "score": 9,
       "keywords": []
