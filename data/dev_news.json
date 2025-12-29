@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-29T06:43:24.371889+00:00",
-  "total_articles": 944,
+  "last_updated": "2025-12-29T09:36:25.435566+00:00",
+  "total_articles": 945,
   "articles": [
     {
       "id": "f8dc954cb8ca9308",
@@ -482,16 +482,18 @@
       ]
     },
     {
-      "id": "0c86c18b8f3a9aeb",
-      "title": "Animated Dark/Light Mode in React Native: The iPhone Way",
-      "description": "After implementing dark mode in 50+ React Native apps, I've learned that users expect iPhone-level smooth transitions. Here's how to build it. The reality: Most apps just flip colors instantly. iPhone animates beautifully. Your app should too. Why Animated Theme Switching Matters Bad dark mode (what 90% of apps do): // Instant jarring switch setTheme(theme === 'light' ? 'dark' : 'light'); Result: Flash of wrong colors, harsh transition, feels cheap. Good dark mode (iPhone way): Smooth color tran",
-      "url": "https://dev.to/noman_akram_6c329a67f88ca/animated-darklight-mode-in-react-native-the-iphone-way-1j17",
+      "id": "2955ed0d85432424",
+      "title": "How to Create Pixel-Perfect UI Components in Figma (Then Build Them in React)",
+      "description": "Designing something that looks perfect in Figma but breaks in code usually comes down to one thing: inconsistent spacing, sizes, and styles. Here’s the fast path to staying pixel-perfect from design → code. Set Up Figma for Precision ✔ Turn on Pixel Grid View → Pixel Grid ✔ Use Frames (not Groups) Frames give you constraints, grids, and auto-layout support. ✔ Enable Layout Grid Use an 8-pt spacing system (8, 16, 24, 32…). ✔ Use Auto-Layout Let Figma manage spacing instead of dragging things arou",
+      "url": "https://dev.to/pixel_mosaic/how-to-create-pixel-perfect-ui-components-in-figma-then-build-them-in-react-27gp",
       "source": "Dev.to",
-      "author": "noman akram",
-      "published": "2025-12-22T09:19:07+00:00",
+      "author": "Pixel Mosaic",
+      "published": "2025-12-29T08:59:25+00:00",
       "niche": "dev",
-      "score": 68,
-      "keywords": []
+      "score": 69,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "7c1b5ba0b0b83567",
@@ -1031,6 +1033,18 @@
       "keywords": []
     },
     {
+      "id": "8811092e96c885bd",
+      "title": "Show HN: Z80-μLM, a 'Conversational AI' That Fits in 40KB",
+      "description": "Comments",
+      "url": "https://github.com/HarryR/z80ai",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-29T05:41:24+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": []
+    },
+    {
       "id": "c8188ae387cb1b77",
       "title": "How do you handle optional fields in request body in Spring Boot?",
       "description": "Introduction Think about filling out a signup form online. Some fields like username and password are mandatory, while others like profile description or preferences are optional. You wouldn’t expect the form to fail just because you skipped an optional field—right? The same idea applies to REST APIs. When a client sends a request body, not every field should be required. Knowing how to handle optional fields in request body in Spring Boot is essential for building flexible, backward-compatible,",
@@ -1504,6 +1518,21 @@
       "keywords": [
         "performance",
         "microservices"
+      ]
+    },
+    {
+      "id": "b4d1cb9b697d7e7f",
+      "title": "UnrealDev.nvim Update: Switching to SQLite for Blazing Fast Performance",
+      "description": "Just in time for the end of the year, I've released a major update for UnrealDev.nvim! Previously, UnrealDev.nvim (and its core, UEP.nvim) used JSON files to cache project information. However, for large Unreal Engine projects, the file I/O overhead for reading and writing massive JSON files became a noticeable bottleneck. To solve this, I have completely migrated the caching backend to SQLite. This change significantly improves performance, making file navigation and project analysis faster tha",
+      "url": "https://dev.to/taku25/unrealdevnvim-update-switching-to-sqlite-for-blazing-fast-performance-42jb",
+      "source": "Dev.to",
+      "author": "taku25",
+      "published": "2025-12-29T08:54:58+00:00",
+      "niche": "dev",
+      "score": 57,
+      "keywords": [
+        "release",
+        "performance"
       ]
     },
     {
@@ -2261,31 +2290,18 @@
       ]
     },
     {
-      "id": "f81901ff40d378b2",
-      "title": "Optimizing Space Ground Systems: Strategies for Reliability",
-      "description": "The defense and space ecosystem is undergoing a transformation marked by rapid technological innovation, heightened operational complexity, and accelerated mission timelines. Whether supporting national security operations, advancing commercial capabilities, or enabling next-generation science missions, the backbone of success lies in the reliability of space-ground systems — the connective tissue between orbital assets and terrestrial infrastructure. At BrightPath Associates LLC, we specialize ",
-      "url": "https://dev.to/alyssa-miller/optimizing-space-ground-systems-strategies-for-reliability-l6f",
+      "id": "acf218e7bc665fd1",
+      "title": "LLM Deep Dive 2025: Why Claude 4 and GPT-5.1 Change Everything",
+      "description": "The LLM landscape in late 2025 is a dynamic ecosystem, far removed from the nascent days of early generative AI. We're seeing a relentless push towards greater autonomy, deeper contextual understanding, and increasingly sophisticated multimodal capabilities. As developers, we're no longer just chaining API calls; we're architecting intricate systems that leverage advanced tool use, manage gargantuan context windows, and orchestrate complex agentic workflows. Having just put the latest iterations",
+      "url": "https://dev.to/dataformathub/llm-deep-dive-2025-why-claude-4-and-gpt-51-change-everything-4c26",
       "source": "Dev.to",
-      "author": "Alyssa Miller",
-      "published": "2025-12-22T09:12:56+00:00",
+      "author": "DataFormatHub",
+      "published": "2025-12-29T08:59:28+00:00",
       "niche": "dev",
-      "score": 54,
+      "score": 55,
       "keywords": [
+        "developer",
         "API"
-      ]
-    },
-    {
-      "id": "9d7393fe70581e63",
-      "title": "MEXQuick Legit Analysis: What Corporate Documents Confirm",
-      "description": "When evaluating a digital trading platform, many users begin by reviewing the corporate documents available through public records. These filings offer insight into the platform’s registered identity, structure, and presence, without suggesting performance or guaranteeing outcomes. This MEXQuick Legit analysis explains what corporate documents typically confirm and how they support user awareness. Why Corporate Documents Matter Corporate records provide verifiable information that helps users un",
-      "url": "https://dev.to/andreamoralestrades/mexquick-legit-analysis-what-corporate-documents-confirm-1bm9",
-      "source": "Dev.to",
-      "author": "Andrea Morales",
-      "published": "2025-12-22T09:12:29+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "performance"
       ]
     },
     {
@@ -3442,6 +3458,62 @@
       ]
     },
     {
+      "id": "7df98288d6979bce",
+      "title": "How Rapido Drivers Earn 80,000 Per Month in India",
+      "description": "Rapido sirf side income ke liye nahi hai Rapido sirf side income ke liye nahi hai. India ke kuch drivers smart planning, right timing aur consistent effort ke saath ₹80,000 tak monthly income bana rahe hain. Jaise online platforms par log structured strategy follow karte hain (jaise structured earning ecosystem ke users), waise hi Rapido drivers bhi system ko samajhkar kaam karte hain. Is blog me hum simple language me samjhenge ki Rapido drivers step-by-step income kaise badhate hain aur kaun s",
+      "url": "https://dev.to/vandna_yadav_e81f937bbf9d/how-rapido-drivers-earn-80000-per-month-in-india-18o8",
+      "source": "Dev.to",
+      "author": "Vandna Yadav",
+      "published": "2025-12-29T09:27:26+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "API"
+      ]
+    },
+    {
+      "id": "84e77c79131c1186",
+      "title": "The Ultimate LLM Inference Battle: vLLM vs. Ollama vs. ZML",
+      "description": "A structured, data-driven comparison of today's leading open-source engines for serving AI models. The \"Runtime Wars\" The open-source AI community has achieved an incredible milestone: models like Meta's Llama 3 and Mistral AI's Mixtral now rival proprietary giants like GPT-4. But having the weights is only half the battle. To actually use these models—to build a chatbot, an agent, or an API—you need an inference engine. The landscape of inference servers is exploding. A year ago, options were s",
+      "url": "https://dev.to/worldlinetech/the-ultimate-llm-inference-battle-vllm-vs-ollama-vs-zml-m97",
+      "source": "Dev.to",
+      "author": "raphiki",
+      "published": "2025-12-29T09:12:46+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "API"
+      ]
+    },
+    {
+      "id": "9a7e222aae991937",
+      "title": "Kubernetes In-Place Pod Resize",
+      "description": "About six years ago, while operating a large Java-based platform in Kubernetes, I noticed a recurring problem: our services required significantly higher CPU and memory during application startup. Heavy use of Spring Beans and AutoConfiguration forced us to set inflated resource requests and limits just to survive bootstrap, even though those resources were mostly unused afterwards. This workaround never felt right. As an engineer, I wanted a solution that reflected the actual lifecycle of an ap",
+      "url": "https://dev.to/alikhil/kubernetes-in-place-pod-resize-454i",
+      "source": "Dev.to",
+      "author": "Alik Khilazhev",
+      "published": "2025-12-29T09:00:00+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "Spring"
+      ]
+    },
+    {
+      "id": "787f1371477a85c6",
+      "title": "Regression testing workflow: the risk first checks that keep releases stable",
+      "description": "Portfolio version (canonical, with full context and styling): https://kelinacowellqa.github.io/Manual-QA-Portfolio-Kelina-Cowell/articles/regression-testing.html TL;DR Workflow shown: risk first regression scoping → golden path baseline → targeted probes → evidence backed results. Example context: Sworn on PC Game Pass (Windows) used only as a real world backing example. Build context: tested on the PC Game Pass build 1.01.0.1039. Scope driver: public SteamDB patch notes used as an external chan",
+      "url": "https://dev.to/kelina_cowell_qa/regression-testing-workflow-the-risk-first-checks-that-keep-releases-stable-3ed1",
+      "source": "Dev.to",
+      "author": "Kelina Cowell",
+      "published": "2025-12-29T09:00:00+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "release"
+      ]
+    },
+    {
       "id": "5ca7777a23f4d5e6",
       "title": "How to Test and Improve AI Applications with an Evaluation Flywheel",
       "description": "In traditional programming, developers rely on unit tests to catch mistakes in applications. But when building AI products, that safety net doesn't exist. Responses can shift with model updates, data changes, and subtle fluctuations in prompts or ret...",
@@ -3919,34 +3991,6 @@
       "keywords": [
         "development",
         "code"
-      ]
-    },
-    {
-      "id": "4344f7f6f1801c6c",
-      "title": "Umbraco vs WordPress: Which CMS Should You Use in 2026?",
-      "description": "canonical_url:https://www.addact.net/blogs/umbraco-vs-wordpress-which-cms-is-better Choosing the right Content Management System (CMS) can make or break your next web project — whether it’s a blog, a corporate platform, or an enterprise portal. Two of the most widely discussed options are WordPress and Umbraco, but they serve distinctly different needs. In this post, we’ll break down their differences, strengths, and use cases so you can decide which one fits your project from a developer’s pers",
-      "url": "https://dev.to/addact_technologies_3322b/umbraco-vs-wordpress-which-cms-should-you-use-in-2026-23i5",
-      "source": "Dev.to",
-      "author": "Addact Technologies",
-      "published": "2025-12-22T09:19:07+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "developer"
-      ]
-    },
-    {
-      "id": "158ef87561edfa62",
-      "title": "Building an AI-Powered Resume Analyzer: My Journey with Resume Analiser",
-      "description": "Hey dev.to community! 👋 I'm Mahmud Rahman Farhan, a full-stack JavaScript developer from Bangladesh. Over the past few months, I've been working on a project that's close to my heart (and super useful in today's job market): an AI-powered resume optimizer called Resume Analiser. In a world where ATS (Applicant Tracking Systems) reject 75% of resumes before a human even sees them, tailoring your resume to each job description is crucial. That's why I built this tool – to help job seekers like you",
-      "url": "https://dev.to/mahmud-r-farhan/building-an-ai-powered-resume-analyzer-my-journey-with-resume-analiser-3lbf",
-      "source": "Dev.to",
-      "author": "Mahmud Rahman",
-      "published": "2025-12-22T09:18:46+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "developer"
       ]
     },
     {
@@ -5420,40 +5464,32 @@
       ]
     },
     {
-      "id": "c3c63d2ab8b65588",
-      "title": "Day 12: When Motivation Shifts",
-      "description": "Something Changed Day 12 and I'm not gonna pretend this sounds like my usual posts. Something shifted and I need to write about it even if it comes out of nowhere. Got new motivation to work. Like actually work hard, not just show up and do the minimum. Different kind of drive than I've had before. The Startup Path I think the only real way forward is the startup route. Building something that actually matters, that can scale, that can create the kind of life I want to build. So I'm getting back",
-      "url": "https://dev.to/casperday11/day-12-when-motivation-shifts-381f",
+      "id": "cafa96e7dfcc3377",
+      "title": "🎮 Day 3 – Understanding GDD (Game Design Document)",
+      "description": "This post is part of my daily learning journey in game design and game development. I’m sharing what I learn each day — the basics, the mistakes, and the real progress. 🎮 Learning Game Development – Day 3 Before jumping into design or development, there’s one thing every game needs: a Game Design Document (GDD). Today, I learned why GDD is considered the backbone of a game. A GDD is not just a document — it’s a boundary. Once you complete it, you gain clarity on: What your game is What your game",
+      "url": "https://dev.to/dinesh_04/day-3-understanding-gdd-game-design-document-ddm",
       "source": "Dev.to",
-      "author": "Somay",
-      "published": "2025-12-22T09:17:37+00:00",
+      "author": "Dinesh",
+      "published": "2025-12-29T09:18:26+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "development"
+      ]
     },
     {
-      "id": "345547392972384c",
-      "title": "Billing Automation Isn’t Optional Once Telecom Systems Grow",
-      "description": "If you’ve worked on telecom systems long enough, you know this already: Billing is never “just billing”. It’s where: product logic gets messy edge cases pile up and money quietly disappears Most billing systems don’t fail dramatically. They rot. The Hidden Cost of Manual Billing Logic On paper, legacy billing flows look fine: mediation job runs rating happens invoices go out In reality: CDRs arrive late or malformed rating rules drift from product intent “temporary” overrides become permanent re",
-      "url": "https://dev.to/hasshamalam/billing-automation-isnt-optional-once-telecom-systems-grow-gpn",
+      "id": "201ea5ec3e54c34a",
+      "title": "The Best Developer AI Tools of 2025 — What Actually Worked in Real Projects",
+      "description": "2025 was the year AI tools stopped being “nice to have” and became part of the default developer workflow. Not because they’re perfect. Not because they replaced thinking. But because — when used intentionally — they genuinely save time and mental energy. This is not a hype list. No affiliate links. No “Top 50 tools you’ll never use.” These are AI tools I actually used in real projects, under real deadlines, with real consequences. Some helped a lot. Some surprised me. Some almost caused problem",
+      "url": "https://dev.to/marxon/the-best-developer-ai-tools-of-2025-what-actually-worked-in-real-projects-397d",
       "source": "Dev.to",
-      "author": "hassham 1",
-      "published": "2025-12-22T09:13:47+00:00",
+      "author": "Marxon",
+      "published": "2025-12-29T08:57:43+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "fa43151bcae99dc7",
-      "title": "Interactive Data Visualization Using Plotly",
-      "description": "In today’s digital world, data is generated at an unprecedented scale. Every online transaction, sensor reading, social media interaction, and business process contributes to massive volumes of structured and unstructured data. However, raw data alone has little value unless it can be interpreted effectively. This is where data visualization plays a critical role—transforming complex datasets into intuitive visual formats that enable faster understanding and better decision-making. Traditional v",
-      "url": "https://dev.to/dipti26810/interactive-data-visualization-using-plotly-26lp",
-      "source": "Dev.to",
-      "author": "Dipti",
-      "published": "2025-12-22T09:13:35+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
       "id": "2f6167292015f2b3",
@@ -7940,6 +7976,18 @@
       "keywords": []
     },
     {
+      "id": "4f73a0d374b329fd",
+      "title": "Building an AI-Powered (SaaS, App, etc) Idea Validation System",
+      "description": "What This Is Idea Sieve automates the boring part of validating startup ideas - the market research, competitor analysis, and honest assessment that you know you should do but usually skip. Give it an idea, and in 5-10 minutes you get a comprehensive validation report with real competitors, market data, and specific next steps. Repository: github.com/kzeitar/idea-sieve The interesting technical challenge here isn't the CRUD operations - it's getting an LLM to do reliable research and give you ho",
+      "url": "https://dev.to/kzeitar/building-an-ai-powered-saas-app-etc-idea-validation-system-bpg",
+      "source": "Dev.to",
+      "author": "Khaled Zeitar",
+      "published": "2025-12-29T09:00:00+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "e18f7d1903a5ac30",
       "title": "Some people are becoming exceptional tool users. Others are becoming system builders. Over time, the second group will quietly replace the first, and that’s not a threat. It’s a natural evolution.",
       "description": "System Builders Will Replace Tool Users: And That’s a Good Thing Jaideep Parashar ・ Dec 25 #webdev #ai #developers #programming",
@@ -8113,20 +8161,6 @@
       "keywords": []
     },
     {
-      "id": "c5fbe0eaee51f928",
-      "title": "Checkout this article on Interactive Data Visualization Using Plotly",
-      "description": "Interactive Data Visualization Using Plotly Dipti ・ Dec 22 #webdev #programming #ai #javascript",
-      "url": "https://dev.to/dipti26810/checkout-this-article-on-interactive-data-visualization-using-plotly-5b2j",
-      "source": "Dev.to",
-      "author": "Dipti",
-      "published": "2025-12-22T09:14:01+00:00",
-      "niche": "dev",
-      "score": 45,
-      "keywords": [
-        "programming"
-      ]
-    },
-    {
       "id": "4905b6f8fce29ed2",
       "title": "Making your code base better will make your code coverage worse",
       "description": "Maintaining a minimum of 80% code coverage affects code decisions and not always for the better.",
@@ -8239,30 +8273,6 @@
       ]
     },
     {
-      "id": "d8d1ddcf523bf765",
-      "title": "hello",
-      "description": "test 2",
-      "url": "https://dev.to/shawmeer22/hello-2dj6",
-      "source": "Dev.to",
-      "author": "Sameer Khanal",
-      "published": "2025-12-22T09:13:59+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "fcf6fa589eed4d39",
-      "title": "Inverse Parentheses",
-      "description": "Comments",
-      "url": "https://kellett.im/a/inverse-parentheses",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-22T08:29:03+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
       "id": "8298520120c74129",
       "title": "If You Don't Design Your Career, Someone Else Will",
       "description": "Comments",
@@ -8270,18 +8280,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-22T10:27:52+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "98677d3419e21c21",
-      "title": "The ancient monuments saluting the winter solstice",
-      "description": "Comments",
-      "url": "https://www.bbc.com/culture/article/20251219-the-ancient-monuments-saluting-the-winter-solstice",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-22T09:30:58+00:00",
       "niche": "dev",
       "score": 44,
       "keywords": []
@@ -9739,6 +9737,42 @@
       "keywords": []
     },
     {
+      "id": "edb408fd6eaea521",
+      "title": "Show HN: My not-for-profit search engine with no ads, no AI, & all DDG bangs",
+      "description": "Comments",
+      "url": "https://nilch.org",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-29T05:25:25+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "09a00d75302c7d85",
+      "title": "Binaries",
+      "description": "Comments",
+      "url": "https://fzakaria.com/2025/12/28/huge-binaries",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-29T05:35:17+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "60946e271e987ec4",
+      "title": "My First Meshtastic Network",
+      "description": "Comments",
+      "url": "https://rickcarlino.com/notes/electronics/my-first-meshtastic-network.html",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-29T05:12:58+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "26dbca142972a14e",
       "title": "Building a Nostalgic 8-bit Universe with Modern Tech: A Vibe Coding Journey",
       "description": "A nostalgic 8-bit portfolio experiment built with modern AI workflows and performance-first web tech.",
@@ -9792,9 +9826,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "performance",
         "code",
-        "release"
+        "release",
+        "performance"
       ]
     },
     {
@@ -9808,9 +9842,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
+        "release",
         "developer",
-        "API",
-        "release"
+        "API"
       ]
     },
     {
@@ -9824,9 +9858,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
+        "release",
         "developer",
-        "performance",
-        "release"
+        "performance"
       ]
     },
     {
@@ -10070,22 +10104,10 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "React 19",
+        "release",
         "API",
-        "release"
+        "React 19"
       ]
-    },
-    {
-      "id": "4a804c62dff68c6d",
-      "title": "How to Create Interactive and Animated WordPress Websites in 2026 And Why It Matters",
-      "description": "The new standard for WordPress design is interactive, animated, and intentional.",
-      "url": "https://tympanus.net/codrops/2025/12/22/how-to-create-interactive-and-animated-wordpress-websites-in-2026-and-why-it-matters/",
-      "source": "Codrops",
-      "author": "Droip",
-      "published": "2025-12-22T07:48:40+00:00",
-      "niche": "dev",
-      "score": 37,
-      "keywords": []
     },
     {
       "id": "041a2198eb3b1d00",
@@ -10095,6 +10117,18 @@
       "source": "Codrops",
       "author": "Manoela Ilic",
       "published": "2025-12-26T09:35:02+00:00",
+      "niche": "dev",
+      "score": 37,
+      "keywords": []
+    },
+    {
+      "id": "92e9718d3460474d",
+      "title": "2025: A Very Special Year in Review",
+      "description": "A look back at the ideas, experiments, and people that shaped a remarkable year at Codrops.",
+      "url": "https://tympanus.net/codrops/2025/12/29/2025-a-very-special-year-in-review/",
+      "source": "Codrops",
+      "author": "Manoela Ilic",
+      "published": "2025-12-29T08:39:11+00:00",
       "niche": "dev",
       "score": 37,
       "keywords": []
@@ -10152,8 +10186,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -10167,8 +10201,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -10224,8 +10258,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "framework",
-        "API"
+        "API",
+        "framework"
       ]
     },
     {
@@ -10427,11 +10461,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "performance",
         "framework",
         "API",
-        "release",
-        "code"
+        "code",
+        "performance",
+        "release"
       ]
     },
     {
@@ -10597,6 +10631,18 @@
       "keywords": []
     },
     {
+      "id": "941e377a574ccbdd",
+      "title": "Developing a Beautiful and Performant Block Editor in Qt C++ and QML",
+      "description": "Comments",
+      "url": "https://rubymamistvalove.com/block-editor",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-26T22:06:15+00:00",
+      "niche": "dev",
+      "score": 26,
+      "keywords": []
+    },
+    {
       "id": "cd46e0b1413a2532",
       "title": "LCP and INP are now Baseline Newly available",
       "description": "LCP and INP are now Baseline Newly available as of December 12, 2025.",
@@ -10709,8 +10755,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "API",
-        "release"
+        "release",
+        "API"
       ]
     },
     {
@@ -10724,8 +10770,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "framework",
-        "release"
+        "release",
+        "framework"
       ]
     },
     {
@@ -10739,9 +10785,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
+        "code",
         "developer",
-        "performance",
-        "code"
+        "performance"
       ]
     },
     {
@@ -10755,8 +10801,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "performance",
-        "code"
+        "code",
+        "performance"
       ]
     },
     {
@@ -10800,8 +10846,8 @@
       "niche": "dev",
       "score": 18,
       "keywords": [
-        "PHP",
-        "Angular"
+        "Angular",
+        "PHP"
       ]
     },
     {
@@ -10857,9 +10903,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "PHP",
+        "development",
         "tutorial",
-        "development"
+        "PHP"
       ]
     },
     {
@@ -10873,9 +10919,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "PHP",
+        "development",
         "tutorial",
-        "development"
+        "PHP"
       ]
     },
     {
@@ -11076,30 +11122,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-22T14:04:02+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "2cc01be0b6ed6647",
-      "title": "Hardware Touch, Stronger SSH",
-      "description": "Comments",
-      "url": "https://www.ubicloud.com/blog/hardware-touch-stronger-ssh",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-22T08:23:48+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "be67513f5124d406",
-      "title": "What happened to all the gold Spain got from the New World? (1985)",
-      "description": "Comments",
-      "url": "https://www.straightdope.com/21341789/what-happened-to-all-the-gold-spain-got-from-the-new-world",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-22T07:18:08+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -11489,8 +11511,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "programming",
-        "development"
+        "development",
+        "programming"
       ]
     },
     {
@@ -12062,20 +12084,6 @@
       ]
     },
     {
-      "id": "3c61262c5ca73bc5",
-      "title": "Supercharge Your Design System with LLMs and Storybook MCP",
-      "description": "A guide to combining LLM coding agents with Storybook MCP for higher-quality, lower-cost frontend development.",
-      "url": "https://tympanus.net/codrops/2025/12/09/supercharge-your-design-system-with-llms-and-storybook-mcp/",
-      "source": "Codrops",
-      "author": "Varun Vachhar",
-      "published": "2025-12-09T11:11:39+00:00",
-      "niche": "dev",
-      "score": 10,
-      "keywords": [
-        "development"
-      ]
-    },
-    {
       "id": "3ff71df839112e96",
       "title": "2022 Year In Review",
       "description": "Happy new year, Vue community! With 2023 upon us, we would like to take this opportunity to recap what happened in 2022, and discuss what to expect in 2023.",
@@ -12296,6 +12304,18 @@
       "keywords": [
         "development"
       ]
+    },
+    {
+      "id": "4a804c62dff68c6d",
+      "title": "How to Create Interactive and Animated WordPress Websites in 2026 And Why It Matters",
+      "description": "The new standard for WordPress design is interactive, animated, and intentional.",
+      "url": "https://tympanus.net/codrops/2025/12/22/how-to-create-interactive-and-animated-wordpress-websites-in-2026-and-why-it-matters/",
+      "source": "Codrops",
+      "author": "Droip",
+      "published": "2025-12-22T07:48:40+00:00",
+      "niche": "dev",
+      "score": 7,
+      "keywords": []
     },
     {
       "id": "4bd6a6ce7d39a562",
