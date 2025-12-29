@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-29T18:38:09.154514+00:00",
-  "total_articles": 935,
+  "last_updated": "2025-12-29T21:24:21.289492+00:00",
+  "total_articles": 931,
   "articles": [
     {
       "id": "f8dc954cb8ca9308",
@@ -483,16 +483,18 @@
       ]
     },
     {
-      "id": "7c1b5ba0b0b83567",
-      "title": "Construcción de Agentes con Microsoft Foundry",
-      "description": "La inteligencia artificial está evolucionando rápidamente desde simples modelos de lenguaje hacia agentes inteligentes: sistemas capaces de razonar, ejecutar acciones, usar herramientas y colaborar entre sí. Microsoft Foundry surge como una plataforma clave para que podamos construir, gestionar y escalar agentes de IA de según el escenario o la solución que necesitemos implementar. ¿Qué es Microsoft Foundry? Microsoft Foundry es una plataforma dentro del ecosistema de Azure AI que nos será de ut",
-      "url": "https://dev.to/esdanielgomez/construccion-de-agentes-con-microsoft-foundry-54h5",
+      "id": "13795e2cfd5c1d42",
+      "title": "MindsDB Supercharges Google's MCP Toolbox with Unstructured Data Support",
+      "description": "Written by Erik Bovee, Head of Business Development at MindsDB We’re happy to announce that we’ve integrated MindsDB with Google's open-source project, MCP (Model Context Protocol) Toolbox. This will make your AI applications very, very smart. This enhancement expands the Toolbox's reach, especially for organizations grappling with lots of siloed data. The MindsDB integration at a glance At its core, MindsDB is a federated query engine designed specifically for AI applications, that acts as a un",
+      "url": "https://dev.to/mindsdb/mindsdb-supercharges-googles-mcp-toolbox-with-unstructured-data-support-4cch",
       "source": "Dev.to",
-      "author": "Daniel Gomez",
-      "published": "2025-12-22T20:35:20+00:00",
+      "author": "MindsDB Team",
+      "published": "2025-12-29T20:46:39+00:00",
       "niche": "dev",
-      "score": 68,
-      "keywords": []
+      "score": 69,
+      "keywords": [
+        "development"
+      ]
     },
     {
       "id": "dd27062d1daed1a3",
@@ -734,18 +736,6 @@
         "Symfony",
         "framework"
       ]
-    },
-    {
-      "id": "2fee70b086811493",
-      "title": "The Illustrated Transformer",
-      "description": "Comments",
-      "url": "https://jalammar.github.io/illustrated-transformer/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-22T19:15:56+00:00",
-      "niche": "dev",
-      "score": 62,
-      "keywords": []
     },
     {
       "id": "131f928fd1fb18cb",
@@ -1036,6 +1026,44 @@
       "keywords": []
     },
     {
+      "id": "2af6fa25aa214be7",
+      "title": "Next.js 16 Yayınlandı: Yenilikler, Değişiklikler ve Geliştiriciler İçin Derinlemesine İnceleme",
+      "description": "Next.js 16 ile gelen performans artışları, Cache Components, Turbopack, yeni proxy.ts yapısı ve güncellenmiş React entegrasyonunun detaylı incelemesi. Next.js 16’ya Genel Bakış Next.js 16 resmi olarak yayınlandı ve modern web geliştirme ekosisteminde önemli yenilikler sunuyor. Bu sürüm, performans, önbellekleme modeli, yönlendirme davranışları ve geliştirme deneyimi gibi temel alanlarda ciddi geliştirmeler içeriyor. Özellikle Cache Components, yeni proxy sistemi, React 19 ile daha uyumlu yapı ve",
+      "url": "https://dev.to/erhanaky/nextjs-16-yayinlandi-yenilikler-degisiklikler-ve-gelistiriciler-icin-derinlemesine-inceleme-30la",
+      "source": "Dev.to",
+      "author": "Erhan AKKAYA",
+      "published": "2025-12-29T20:42:25+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": [
+        "React 19"
+      ]
+    },
+    {
+      "id": "7addffd4563da37c",
+      "title": "Google is dead. Where do we go now?",
+      "description": "Comments",
+      "url": "https://www.circusscientist.com/2025/12/29/google-is-dead-where-do-we-go-now/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-29T20:29:26+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": []
+    },
+    {
+      "id": "0af17ea79a4a22ce",
+      "title": "The production bug that made me care about undefined behavior",
+      "description": "Comments",
+      "url": "https://gaultier.github.io/blog/the_production_bug_that_made_me_care_about_undefined_behavior.html",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-29T18:17:29+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": []
+    },
+    {
       "id": "c8188ae387cb1b77",
       "title": "How do you handle optional fields in request body in Spring Boot?",
       "description": "Introduction Think about filling out a signup form online. Some fields like username and password are mandatory, while others like profile description or preferences are optional. You wouldn’t expect the form to fail just because you skipped an optional field—right? The same idea applies to REST APIs. When a client sends a request body, not every field should be required. Knowing how to handle optional fields in request body in Spring Boot is essential for building flexible, backward-compatible,",
@@ -1100,22 +1128,6 @@
         "API",
         "framework",
         "development"
-      ]
-    },
-    {
-      "id": "1afc4c735f44f5a8",
-      "title": "The \"Cache Handshake\": How Laravel Events Control Next.js 16 ISR",
-      "description": "As a Tech Lead building my own platform, I live by an old craftsman proverb: \"Measure twice, cut once.\" We spend weeks architecting client systems with precision, yet when it came to my own portfolio at Yabasha.dev, I was brute-forcing cache invalidation like a junior developer deploying php artisan cache:clear on a cron job. The irony wasn't lost on me. I built Yabasha.dev as a living showcase — not just static pages, but a dynamic playground where I could demonstrate real full-stack architectu",
-      "url": "https://dev.to/yabasha/the-cache-handshake-how-laravel-events-control-nextjs-16-isr-3n6b",
-      "source": "Dev.to",
-      "author": "Bashar Ayyash",
-      "published": "2025-12-22T20:54:15+00:00",
-      "niche": "dev",
-      "score": 58,
-      "keywords": [
-        "Laravel",
-        "developer",
-        "PHP"
       ]
     },
     {
@@ -1722,21 +1734,6 @@
       ]
     },
     {
-      "id": "8d99abb311a68443",
-      "title": "Vibe Coding: Does Coding Feel Different to You Now?",
-      "description": "Do you remember opening a project and already feeling tired? Not because the problem was hard, but because you knew what was coming. A missing character. A library that almost works. An error message that helps everyone except you. You open Stack Overflow. The accepted answer is from 2016. It doesn’t apply anymore. You scroll. You try again. At some point, you close the editor — not because you solved it, but because you ran out of patience. Lately, many developers describe a shift toward vibe c",
-      "url": "https://dev.to/ai_miracle_ai/vibe-coding-does-coding-feel-different-to-you-now-3l3g",
-      "source": "Dev.to",
-      "author": "AI Miracle",
-      "published": "2025-12-22T20:55:29+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "library",
-        "developer"
-      ]
-    },
-    {
       "id": "7afa978c432b4cc5",
       "title": "Speed Up Syncthing File Sync Discovery (From 11 Seconds to 2)",
       "description": "New files were taking 11 seconds to sync from my Linux box to my Mac. That's an eternity when you're iterating on code or config. The fix took 30 seconds. The Problem Syncthing uses filesystem watchers to detect changes. When a file changes, the watcher notices, Syncthing scans it, and sync begins. But there's a built-in delay before Syncthing acts on watcher events. The default fsWatcherDelayS is 10 seconds. This batches multiple rapid changes into one scan, which makes sense for large codebase",
@@ -2244,34 +2241,6 @@
       "keywords": [
         "API",
         "code"
-      ]
-    },
-    {
-      "id": "40c3cfe7b2bdc097",
-      "title": "Next.js 16 Type Safety: Async PageProps & Typed Routes",
-      "description": "Next.js has quietly become one of the most type-safe full-stack frameworks out there — yet many teams still use only a fraction of what it offers. In this post, I’ll walk through practical, production-ready type safety features in modern Next.js (App Router), including: Next.js TypeScript plugin Statically Typed Links Route-aware type helpers Auto complete environment variables Typed NextRequest and NextResponse This is not a beginner guide — it focuses on features that actually prevent bugs in ",
-      "url": "https://dev.to/bharathkumar28/nextjs-16-type-safety-async-pageprops-typed-routes-3ilc",
-      "source": "Dev.to",
-      "author": "Bharath Kumar S",
-      "published": "2025-12-22T20:57:49+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "framework"
-      ]
-    },
-    {
-      "id": "c69b2b7794316b78",
-      "title": "AI Engineering: Advent of AI with goose Day 12",
-      "description": "Day 12: The Festival Mascot Crisis This was the perfect use case for the Council of Mine MCP extension. Nine AI personas, each with a distinct reasoning style, debating and voting democratically. This challenge focused on using MCP sampling to orchestrate intelligent multi‑agent reasoning inside goose. What MCP: MCP, the Model Context Protocol, is a framework that allows tools and extensions to communicate with AI models in a structured, reliable way. Instead of returning static data, an MCP ext",
-      "url": "https://dev.to/eriperspective/ai-engineering-advent-of-ai-with-goose-day-12-25cf",
-      "source": "Dev.to",
-      "author": "Erica",
-      "published": "2025-12-22T20:53:22+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "framework"
       ]
     },
     {
@@ -3484,6 +3453,36 @@
       ]
     },
     {
+      "id": "fa51511bc43a2009",
+      "title": "Building Your Career in AI: Real Talk from the Trenches",
+      "description": "Inspired by insights from Andrew Ng and Lawrence Moroney's career advice talk Look, the AI space is absolutely wild right now. As someone who's been deep in developer advocacy, cross-platform development and best practices in software engineering, I'm watching this transformation happen in real-time, and honestly? It's pretty exciting, but also chaotic as hell. We're Living in the Future (Kind of) 💡 Inspired by Andrew Ng's \"This is the golden age to be building\" Here's what's changed just in the",
+      "url": "https://dev.to/giolaq/building-your-career-in-ai-real-talk-from-the-trenches-40p",
+      "source": "Dev.to",
+      "author": "Giovanni Laquidara",
+      "published": "2025-12-29T21:06:23+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "development",
+        "developer",
+        "best practices"
+      ]
+    },
+    {
+      "id": "0550c60504d55bd9",
+      "title": "⚡_Real_Time_System_Performance_Optimization[20251229205319]",
+      "description": "As an engineer focused on real-time system performance optimization, I have accumulated rich experience in low-latency optimization through various projects. Real-time systems have extremely strict performance requirements, and any minor delay can affect system correctness and user experience. Today I want to share practical experience in achieving performance breakthroughs from millisecond to microsecond levels in real-time systems. 💡 Performance Requirements of Real-Time Systems Real-time syst",
+      "url": "https://dev.to/member_6331818c/realtimesystemperformanceoptimization20251229205319-5g35",
+      "source": "Dev.to",
+      "author": "member_6331818c",
+      "published": "2025-12-29T20:53:21+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "performance"
+      ]
+    },
+    {
       "id": "71e49de2063efb62",
       "title": "Cursor — My Year in Code 2025",
       "description": "It’s been over a year I’ve been using Cursor after switching from Github Copilot which at the pre-GPT time did feel absolutely amazing. Let’s reflect back on the past year, the heavy conversations we as developers were having with our colleagues and with ourselves, and what next year can bring. 1.2B tokens later I’m thinking should I be amazed? Is it a good thing? Is this a bit scary? Probably yes to all. One thing that this year has been is full of emotions for me as software engineer. Thinking",
@@ -3946,20 +3945,6 @@
       "keywords": [
         "development",
         "code"
-      ]
-    },
-    {
-      "id": "6c179f0e0c1ede24",
-      "title": "What Engineering Leaders Ask That Others Don't",
-      "description": "I've worked with engineers who had senior titles but didn't lead anyone. I've also worked with junior engineers who mentored half the team. The difference wasn't in their resume or their technical depth; it was in how they approached their work, their growth, and their responsibility to others. Leadership and mentorship in software development aren't granted by org charts. They emerge from patterns of behavior that compound over time. Here are the questions that reveal those characteristics. 1. ",
-      "url": "https://dev.to/stevenstuartm/what-engineering-leaders-ask-that-others-dont-35jo",
-      "source": "Dev.to",
-      "author": "Steven Stuart",
-      "published": "2025-12-22T21:15:15+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "development"
       ]
     },
     {
@@ -5503,52 +5488,18 @@
       ]
     },
     {
-      "id": "73447169556c21c3",
-      "title": "Designing a YouTube Digest for Signal Over Noise",
-      "description": "Why I Built This I follow a lot of YouTube channels around data, analytics, and AI. Over time, it became overwhelming. New videos every day, long talks, podcasts, webinars. Though all were useful, watching them still demanded time and focus. I tried the usual things, and none of it really solved the problem: saving videos for later creating playlists watching at higher speed (watching at 1.5x or 2x) asking an LLM to “summarize this video” one by one At some point, I realized the issue wasn’t You",
-      "url": "https://dev.to/ssilambarasan/designing-a-youtube-digest-for-signal-over-noise-9c6",
+      "id": "682ca94b03b508b9",
+      "title": "Building Your First MCP Server with Python and Vibe Coding",
+      "description": "We have reached a plateau in how we interact with Large Language Models (LLMs). Most developers are still treating AI like a very smart librarian—asking questions and waiting for text-based answers. But the paradigm is shifting. We are moving from Retrieval (RAG) to Agency (Action). This shift is powered by the Model Context Protocol (MCP). If you are relying solely on pasting context into a chat window or dealing with static RAG pipelines, you are working with one hand tied behind your back. An",
+      "url": "https://dev.to/onlineproxyio/building-your-first-mcp-server-with-python-and-vibe-coding-pk",
       "source": "Dev.to",
-      "author": "Silambarasan Subramanian",
-      "published": "2025-12-22T20:51:51+00:00",
+      "author": "OnlineProxy",
+      "published": "2025-12-29T20:51:51+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "31ea90dc10419fa7",
-      "title": "Managing Multiple Brands in Rails: Multi-Tenant Patterns from RobinReach",
-      "description": "Scaling a SaaS application is one thing; letting a single user manage multiple brands, each with its own isolated data, is another. At RobinReach, we faced this challenge head-on: users needed to handle multiple workspaces, each with its own social profiles, posts, and team members, all while switching seamlessly between them. Here’s how we built it in Rails, and the lessons learned along the way. The Challenge: Multi-Brand Management Imagine a user managing three different companies on your pla",
-      "url": "https://dev.to/shahershamroukh/managing-multiple-brands-in-rails-multi-tenant-patterns-from-robinreach-10ln",
-      "source": "Dev.to",
-      "author": "Shaher Shamroukh",
-      "published": "2025-12-22T20:47:02+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "e4738ae5a98821e5",
-      "title": "If You Want to Embrace Asynchronous Work, Shift from Meeting-Driven to Task-Driven",
-      "description": "Summary Traditional work is meeting-driven It involves holding discussions and reaching conclusions in a \"spontaneous\" manner during meetings It's easy because you just follow the schedule (even a child can do it) Meeting-driven approaches don't allow for asynchronous work, necessitating a new model Adopt a task-driven approach View all work and actions as tasks, manage them through a system, and update the task pages You might already be familiar with this format through GitHub Issues Backgroun",
-      "url": "https://dev.to/stakiran/if-you-want-to-embrace-asynchronous-work-shift-from-meeting-driven-to-task-driven-5fpp",
-      "source": "Dev.to",
-      "author": "sta",
-      "published": "2025-12-22T20:45:54+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "91424d142e8da17d",
-      "title": "I Thought I Was Slacking Off",
-      "description": "I thought I was slacking off, I felt like I wasn't making any significant progress, I felt lost and to be honest most times I thought to myself \"What's the point of even trying?\", I was drowning myself In self-doubt almost everyday-all because I couldn't get myself to finish a course on HTML, CSS, and JavaScript. There was no one to hold me accountable ( I tried getting an accountability partner, but that didn't go as planned ). I eventually mustered up the motivation to continue where I had lef",
-      "url": "https://dev.to/leo_codes07/i-thought-i-was-slacking-off-l5",
-      "source": "Dev.to",
-      "author": "Leonard Nwagu",
-      "published": "2025-12-22T20:45:40+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
       "id": "3fb5038eed01dd55",
@@ -7963,6 +7914,66 @@
       "keywords": []
     },
     {
+      "id": "d8b626c8ee6ec3f8",
+      "title": "Open, vendor-neutral authoritative domain data consumed by AI systems, search, and other automated agents",
+      "description": "AI systems don’t know who your domain represents AI assistants are increasingly the first layer between users and websites. People ask chatbots what a site is, who runs it, how to contact it, or whether it’s the “official” source for something. Today, AI systems infer that information indirectly, from: • partial crawls • inconsistent metadata • third-party aggregators • heuristics that usually work, until they don’t This leads to common failure modes: • misattribution (the wrong org, product, or",
+      "url": "https://dev.to/ai-domain-data/open-vendor-neutral-authoritative-domain-data-consumed-by-ai-systems-search-and-other-automated-3a2a",
+      "source": "Dev.to",
+      "author": "AI Domain Data Standard",
+      "published": "2025-12-29T21:03:46+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "939c938972f1dc4c",
+      "title": "The standup isn’t 15 minutes. Here’s the math.",
+      "description": "Every time someone questions the daily standup, the same answer comes back: “It’s just fifteen minutes.” I’ve heard it from managers, from engineers, from myself. And I get why it sounds reasonable. Fifteen minutes feels harmless. It feels too small to fight over. But that sentence hides a trick. It compresses a real cost into a number that feels emotionally negligible. Let’s slow it down. Not philosophically. Just numerically. Say you have eight engineers in a standup. Nothing exotic. Pretty no",
+      "url": "https://dev.to/ghostinit0x/the-standup-isnt-15-minutes-heres-the-math-h1e",
+      "source": "Dev.to",
+      "author": "Ghostinit0x",
+      "published": "2025-12-29T20:53:24+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "9caa3cbec4ed20b9",
+      "title": "**How to Build Interactive Python Dashboards That Transform Data Into Clear Visual Stories**",
+      "description": "As a best-selling author, I invite you to explore my books on Amazon. Don't forget to follow me on Medium and show your support. Thank you! Your support means the world! Building interactive dashboards with Python can turn complex numbers and scientific results into clear, engaging stories. I've spent a lot of time turning data into visuals that people can actually click, filter, and explore. It makes the work accessible. I want to show you some of the most useful methods I use. Let's start with",
+      "url": "https://dev.to/nithinbharathwaj/how-to-build-interactive-python-dashboards-that-transform-data-into-clear-visual-stories-5emc",
+      "source": "Dev.to",
+      "author": "Nithin Bharadwaj",
+      "published": "2025-12-29T20:52:09+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "c1dc2fa911d14a97",
+      "title": "Swift #23: Objetos",
+      "description": "Un objeto es un tipo de dato que encapsula datos y funcionalidad en la forma de propiedades y métodos, respectivamente. A diferencia de las estructuras, se almacenan por referencian, lo que significa que más de una variable puede referenciar al mismo objeto en memoria. Definición de un objeto Los objetos son definidos en \"Clases\", con la palabra clave class, y luego se crean instancias a partir de su definición. class Person { var name = \"David\" var age = 10 func rename(_ newName: String) { self",
+      "url": "https://dev.to/david_goyes_a488f58a17a53/swift-23-objetos-46l4",
+      "source": "Dev.to",
+      "author": "David Goyes",
+      "published": "2025-12-29T20:51:19+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "540b4c690487af93",
+      "title": "AWS Organizations: The Easy Way",
+      "description": "As you grow in AWS, you quickly learn that putting everything in one account is a recipe for disaster. You want a \"Sandbox\" for testing, a \"Prod\" for the real deal, and maybe a \"Security\" account. But there’s a catch: AWS requires a unique email address for every single account. Who wants to manage five different email inboxes just to run a few Organization units(OUs)? The Solution: Gmail Aliases + AWS Organizations You can actually manage an entire AWS Organization using one Gmail inbox. Here i",
+      "url": "https://dev.to/adehorizon/aws-organizations-the-easy-way-54pd",
+      "source": "Dev.to",
+      "author": "Adedoyin",
+      "published": "2025-12-29T20:47:01+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "e18f7d1903a5ac30",
       "title": "Some people are becoming exceptional tool users. Others are becoming system builders. Over time, the second group will quietly replace the first, and that’s not a threat. It’s a natural evolution.",
       "description": "System Builders Will Replace Tool Users: And That’s a Good Thing Jaideep Parashar ・ Dec 25 #webdev #ai #developers #programming",
@@ -8246,78 +8257,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "57c21ef9566f908f",
-      "title": "Ultrasound Cancer Treatment: Sound Waves Fight Tumors",
-      "description": "Comments",
-      "url": "https://spectrum.ieee.org/ultrasound-cancer-treatment",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-22T19:37:34+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "197ce092d46829a2",
-      "title": "GLM-4.7: Advancing the Coding Capability",
-      "description": "Comments",
-      "url": "https://z.ai/blog/glm-4.7",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-22T18:46:32+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "514deea04ec08af3",
-      "title": "Vince Zampella has died",
-      "description": "Comments",
-      "url": "https://comicbook.com/gaming/news/vince-zampella-developer-of-call-of-duty-and-battlefield-dead-at-55/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-22T20:12:20+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "c43b7877045b3094",
-      "title": "The Garbage Collection Handbook",
-      "description": "Comments",
-      "url": "https://gchandbook.org/index.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-22T19:30:18+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "03d911563879d594",
-      "title": "US blocks all offshore wind construction, says reason is classified",
-      "description": "Comments",
-      "url": "https://arstechnica.com/science/2025/12/us-government-finds-new-excuse-to-stop-construction-of-offshore-wind/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-22T19:31:11+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "492ddc7075224923",
-      "title": "It's Always TCP_NODELAY",
-      "description": "Comments",
-      "url": "https://brooker.co.za/blog/2024/05/09/nagle.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-22T21:09:59+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "5995b395ccac8a95",
@@ -9664,6 +9603,54 @@
       "keywords": []
     },
     {
+      "id": "07ce71020fbb1a38",
+      "title": "All Delisted Steam Games",
+      "description": "Comments",
+      "url": "https://delistedgames.com/all-delisted-steam-games/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-29T19:16:32+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "058c3fb55be9d1cd",
+      "title": "List of domains censored by German ISPs",
+      "description": "Comments",
+      "url": "https://cuiiliste.de/domains",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-29T18:21:30+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "249d78435380855d",
+      "title": "Which Humans?",
+      "description": "Comments",
+      "url": "https://osf.io/preprints/psyarxiv/5b26t_v1",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-29T19:57:47+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "13826c25a90d7303",
+      "title": "GOG is getting acquired by its original co-founder",
+      "description": "Comments",
+      "url": "https://www.gog.com/blog/gog-is-getting-acquired-by-its-original-co-founder-what-it-means-for-you/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-29T16:43:14+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "26dbca142972a14e",
       "title": "Building a Nostalgic 8-bit Universe with Modern Tech: A Vibe Coding Journey",
       "description": "A nostalgic 8-bit portfolio experiment built with modern AI workflows and performance-first web tech.",
@@ -9764,8 +9751,8 @@
       "score": 40,
       "keywords": [
         "release",
-        "developer",
-        "performance"
+        "performance",
+        "developer"
       ]
     },
     {
@@ -10065,6 +10052,20 @@
       ]
     },
     {
+      "id": "2e4da998c2fcb30d",
+      "title": "High-performance C++ hash table using grouped SIMD metadata scanning",
+      "description": "Comments",
+      "url": "https://github.com/Cranot/grouped-simd-hashtable",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-24T00:27:27+00:00",
+      "niche": "dev",
+      "score": 36,
+      "keywords": [
+        "performance"
+      ]
+    },
+    {
       "id": "2cce629bf82b86cd",
       "title": "Sunsetting Create React App",
       "description": "Today, we’re deprecating Create React App for new apps, and encouraging existing apps to migrate to a framework, or to migrate to a build tool like Vite, Parcel, or RSBuild. We’re also providing docs for when a framework isn’t a good fit for your project, you want to build your own framework, or you just want to learn how React works by building a React app from scratch.",
@@ -10175,8 +10176,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "API",
-        "framework"
+        "framework",
+        "API"
       ]
     },
     {
@@ -10264,18 +10265,6 @@
       ]
     },
     {
-      "id": "da117e4690464938",
-      "title": "The Algebra of Loans in Rust",
-      "description": "Comments",
-      "url": "https://nadrieril.github.io/blog/2025/12/21/the-algebra-of-loans-in-rust.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-22T19:25:29+00:00",
-      "niche": "dev",
-      "score": 32,
-      "keywords": []
-    },
-    {
       "id": "0ad335686ce9158b",
       "title": "Some Junk Theorems in Lean",
       "description": "Comments",
@@ -10283,6 +10272,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-23T11:53:19+00:00",
+      "niche": "dev",
+      "score": 32,
+      "keywords": []
+    },
+    {
+      "id": "b9cc9bb8ea049ad9",
+      "title": "Show HN: Aroma: Every TCP Proxy Is Detectable with RTT Fingerprinting",
+      "description": "Comments",
+      "url": "https://github.com/Sakura-sx/Aroma",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-25T20:34:59+00:00",
       "niche": "dev",
       "score": 32,
       "keywords": []
@@ -10366,11 +10367,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
+        "API",
+        "framework",
         "release",
         "performance",
-        "API",
-        "code",
-        "framework"
+        "code"
       ]
     },
     {
@@ -10536,6 +10537,18 @@
       "keywords": []
     },
     {
+      "id": "b4bbf45cf1d98d73",
+      "title": "Flame Graphs vs. Tree Maps vs. Sunburst (2017)",
+      "description": "Comments",
+      "url": "https://www.brendangregg.com/blog/2017-02-06/flamegraphs-vs-treemaps-vs-sunburst.html",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-27T11:30:40+00:00",
+      "niche": "dev",
+      "score": 26,
+      "keywords": []
+    },
+    {
       "id": "cd46e0b1413a2532",
       "title": "LCP and INP are now Baseline Newly available",
       "description": "LCP and INP are now Baseline Newly available as of December 12, 2025.",
@@ -10663,8 +10676,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "framework"
+        "framework",
+        "release"
       ]
     },
     {
@@ -10679,8 +10692,8 @@
       "score": 20,
       "keywords": [
         "code",
-        "developer",
-        "performance"
+        "performance",
+        "developer"
       ]
     },
     {
@@ -10796,8 +10809,8 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "PHP",
         "development",
+        "PHP",
         "tutorial"
       ]
     },
@@ -10812,8 +10825,8 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "PHP",
         "development",
+        "PHP",
         "tutorial"
       ]
     },
@@ -10886,8 +10899,8 @@
       "niche": "dev",
       "score": 15,
       "keywords": [
-        "library",
-        "developer"
+        "developer",
+        "library"
       ]
     },
     {
@@ -10989,54 +11002,6 @@
       ]
     },
     {
-      "id": "702fb1d4913fbcd4",
-      "title": "Archiving Git Branches as Tags",
-      "description": "Comments",
-      "url": "https://etc.octavore.com/2025/12/archiving-git-branches-as-tags/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-22T18:52:50+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "374e9e04f585c96b",
-      "title": "Paperbacks and TikTok",
-      "description": "Comments",
-      "url": "https://calnewport.com/on-paperbacks-and-tiktok/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-22T19:55:31+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "a6ad0eed0a0909e9",
-      "title": "Archiving Git branches as tags",
-      "description": "Comments",
-      "url": "https://etc.octavore.com/2025/12/archiving-git-branches-as-tags/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-22T18:52:50+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "f4744566c2f1bfcd",
-      "title": "The Program 2025 annual review: How much money does an audio drama podcast make?",
-      "description": "Comments",
-      "url": "https://programaudioseries.com/the-program-results-7/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-22T19:52:10+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
       "id": "eeb086f8c5c56a6e",
       "title": "The Best Things and Stuff of 2025",
       "description": "Comments",
@@ -11104,18 +11069,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-23T22:38:30+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "17bad610f8028fee",
-      "title": "I stayed in a $40 capsule hotel (London)",
-      "description": "Comments",
-      "url": "https://www.cnbc.com/2025/12/20/zedwell-capsule-hotel-i-stayed-in-a-40-dollar-capsule-hotel-in-london.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-22T19:14:29+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
