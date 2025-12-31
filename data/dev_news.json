@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-30T21:25:12.138558+00:00",
-  "total_articles": 946,
+  "last_updated": "2025-12-31T02:04:44.318940+00:00",
+  "total_articles": 942,
   "articles": [
     {
       "id": "f8dc954cb8ca9308",
@@ -33,6 +33,23 @@
         "Angular",
         "developer",
         "framework"
+      ]
+    },
+    {
+      "id": "324ec890a84738b4",
+      "title": "Jules Mobile Client - React Native App for Google's Jules AI Assistant",
+      "description": "Introduction I built a mobile app to use Google's Jules AI Assistant on smartphones! Jules is an AI coding assistant that helps with code reviews, bug fixes, and feature implementations. Why I Built This Google recently released the Jules API, allowing third-party apps to integrate with Jules. However, using Jules through a mobile browser is quite sluggish. I wanted a native mobile experience with better performance. Features 📱 Cross-platform (iOS & Android) with Expo 🌙 Dark mode support 🌐 i18n ",
+      "url": "https://dev.to/linkalls/jules-mobile-client-react-native-app-for-googles-jules-ai-assistant-g8k",
+      "source": "Dev.to",
+      "author": "linkalls",
+      "published": "2025-12-31T01:58:18+00:00",
+      "niche": "dev",
+      "score": 80,
+      "keywords": [
+        "code",
+        "release",
+        "performance",
+        "API"
       ]
     },
     {
@@ -591,6 +608,18 @@
       "keywords": []
     },
     {
+      "id": "c9c3b204acf935a2",
+      "title": "How a simple Google Sheets system slowly turned into my own app",
+      "description": "Over the last month, I’ve been working on a small personal project called OWOLIN. It didn’t start as a startup idea. It started as a simple system I built for myself. For a long time, I tracked my habits, tasks, finances, and short notes using Google Sheets. Nothing fancy. Just a few tabs, some basic logic, and it took maybe 1–2 minutes per day. That low effort is what helped me stay consistent. At some point, I realized that instead of constantly tweaking spreadsheets, I could try turning this ",
+      "url": "https://dev.to/dovydas_d136754ea9838f9d/how-a-simple-google-sheets-system-slowly-turned-into-my-own-app-47g8",
+      "source": "Dev.to",
+      "author": "Dovydas.",
+      "published": "2025-12-31T01:18:25+00:00",
+      "niche": "dev",
+      "score": 68,
+      "keywords": []
+    },
+    {
       "id": "c877e1a779cf6ae1",
       "title": "Introduction to GraphQL and How to Use It in Your Projects",
       "description": "In modern web and mobile development, APIs are the backbone that connects clients and servers. Traditionally, REST APIs have dominated this space, but as applications grow in complexity, developers have started looking for more efficient alternatives. One technology that has gained significant popularity in recent years is GraphQL. Developed by Facebook in 2012 and publicly released in 2015, GraphQL offers a flexible, efficient, and powerful approach to building APIs. This article provides an in",
@@ -606,20 +635,6 @@
         "REST API",
         "API",
         "developer"
-      ]
-    },
-    {
-      "id": "090cc400f56a4a63",
-      "title": "X-ray: a Python library for finding bad redactions in PDF documents",
-      "description": "Comments",
-      "url": "https://github.com/freelawproject/x-ray",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-23T21:54:30+00:00",
-      "niche": "dev",
-      "score": 66,
-      "keywords": [
-        "library"
       ]
     },
     {
@@ -1033,6 +1048,18 @@
       "keywords": []
     },
     {
+      "id": "d049ba291f116144",
+      "title": "OpenAI's cash burn will be one of the big bubble questions of 2026",
+      "description": "Comments",
+      "url": "https://www.economist.com/leaders/2025/12/30/openais-cash-burn-will-be-one-of-the-big-bubble-questions-of-2026",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-30T21:44:07+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": []
+    },
+    {
       "id": "c8188ae387cb1b77",
       "title": "How do you handle optional fields in request body in Spring Boot?",
       "description": "Introduction Think about filling out a signup form online. Some fields like username and password are mandatory, while others like profile description or preferences are optional. You wouldn’t expect the form to fail just because you skipped an optional field—right? The same idea applies to REST APIs. When a client sends a request body, not every field should be required. Knowing how to handle optional fields in request body in Spring Boot is essential for building flexible, backward-compatible,",
@@ -1096,6 +1123,23 @@
         "development",
         "API",
         "developer",
+        "framework"
+      ]
+    },
+    {
+      "id": "a6baa5138c02a414",
+      "title": "Building Self-Referential Agents with .NET 10 & Aspire (Part 1)",
+      "description": "Series: PMCR-O Framework Tutorial Canonical URL: https://shawndelainebellazan.com/article-building-self-referential-agents-part1 TL;DR Learn to build autonomous AI agents using .NET 10, Ollama, and Aspire. This tutorial covers: Production-ready infrastructure setup Native JSON structured output (no regex parsing!) \"I AM\" identity pattern for better agent behavior GPU-accelerated local LLM inference Code: GitHub - PMCR-O Framework Why Local AI Agents Matter Most AI tutorials rely on OpenAI's API.",
+      "url": "https://dev.to/shawn_bellazan_843158cdd4/building-self-referential-agents-with-net-10-aspire-part-1-5dam",
+      "source": "Dev.to",
+      "author": "Shawn Bellazan",
+      "published": "2025-12-31T01:43:06+00:00",
+      "niche": "dev",
+      "score": 60,
+      "keywords": [
+        "tutorial",
+        "code",
+        "API",
         "framework"
       ]
     },
@@ -1273,21 +1317,6 @@
         "library",
         "code",
         "API"
-      ]
-    },
-    {
-      "id": "538dafdc64d35fc6",
-      "title": "Configure Envoy Without Writing Protobuf — Meet Flowplane",
-      "description": "Envoy is powerful, but configuring it can be painful. If you've ever tried to set up a dynamic Envoy control plane, you know the drill: write protobuf definitions, implement xDS protocols, figure out why your CDS response isn't being picked up. It's a lot of ceremony just to route traffic to a backend. I built Flowplane to skip all that. What is Flowplane? Flowplane is an open source control plane that exposes REST APIs for managing Envoy configuration. Instead of writing raw protobuf, you POST ",
-      "url": "https://dev.to/rajeevramani/configure-envoy-without-writing-protobuf-meet-flowplane-e3",
-      "source": "Dev.to",
-      "author": "Rajeev Ramani",
-      "published": "2025-12-24T01:35:44+00:00",
-      "niche": "dev",
-      "score": 57,
-      "keywords": [
-        "API",
-        "REST API"
       ]
     },
     {
@@ -2298,59 +2327,18 @@
       ]
     },
     {
-      "id": "8fe819cbb45991bf",
-      "title": "I built JSON Buddy — a privacy-first JSON formatter + CSV/Excel JSON converter that works offline",
-      "description": "Hey everyone — I made a little web tool called JSON Buddy and figured I’d share it here in case it helps someone (and to get some honest feedback). I do a lot of quick JSON work for APIs/logs/configs, and I kept running into two annoyances: 1) I don’t love pasting sensitive-ish JSON into random sites. 2) I also constantly need to turn CSV/Excel stuff into JSON for testing. So this is my attempt at a “no drama” tool that just works. What it does: Format / prettify JSON Validate JSON (spot errors ",
-      "url": "https://dev.to/longmon_work_6d47b218674b/i-built-json-buddy-a-privacy-first-json-formatter-csvexcel-json-converter-that-works-offline-2e3k",
+      "id": "c3c619a0366bb98a",
+      "title": "From Idea to Validation: A Complete Guide to Rapidly Validating Quantitative Factors with AI",
+      "description": "Opening: Let's Talk About the Hassles of Validating Trading Ideas Hey, I wonder if anyone else has had this experience: you're watching the market at night and suddenly come up with a trading idea, like noticing certain common characteristics before some coins pump. Then you want to verify whether this idea actually works, but you find out you need to write code, deal with data, and all that stuff - it's such a hassle. By the time you actually get around to doing it, either you've forgotten what",
+      "url": "https://dev.to/chronosquant/from-idea-to-validation-a-complete-guide-to-rapidly-validating-quantitative-factors-with-ai-3fak",
       "source": "Dev.to",
-      "author": "longmon work",
-      "published": "2025-12-24T01:48:30+00:00",
+      "author": "fmzquant",
+      "published": "2025-12-31T01:56:19+00:00",
       "niche": "dev",
-      "score": 54,
+      "score": 55,
       "keywords": [
+        "code",
         "API"
-      ]
-    },
-    {
-      "id": "89049b2679fba89f",
-      "title": "Day 5 of building ScrapeForge 🛠️",
-      "description": "Day 5 was a big learning milestone. While working on ScrapeForge, I explored backend APIs and learned how data can be accessed before it is rendered on the frontend. This made scraping significantly more straightforward at a technical level. What surprised me was how many applications expose backend APIs without strong safeguards or request monitoring. Key takeaway from today: APIs must be treated as first class security surfaces and monitored continuously. Day 6 will build on this.",
-      "url": "https://dev.to/vishwas-batra/day-5-of-building-scrapeforge-3nef",
-      "source": "Dev.to",
-      "author": "Vishwas Batra",
-      "published": "2025-12-24T01:37:32+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "API"
-      ]
-    },
-    {
-      "id": "8967fa5fb5b55358",
-      "title": "SwiftUI View Diffing & Reconciliation",
-      "description": "SwiftUI doesn’t “redraw the screen”. It diffs view trees. If you don’t understand how SwiftUI decides what changed vs what stayed the same, you’ll see: unnecessary re-renders list animations breaking views flashing or resetting state jumping between rows performance degrading over time This post explains how SwiftUI reconciles view trees, how diffing works, and how to write SwiftUI that updates only what needs to change. 🧠 The Core Idea: SwiftUI Is a Tree Diff Engine Every time state changes, Sw",
-      "url": "https://dev.to/sebastienlato/swiftui-view-diffing-reconciliation-4hh4",
-      "source": "Dev.to",
-      "author": "Sebastien Lato",
-      "published": "2025-12-24T01:28:26+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "performance"
-      ]
-    },
-    {
-      "id": "2e75c6ba71580fb4",
-      "title": "Mastering interrupt handling in your kernel",
-      "description": "Building a kernel from scratch is one thing. Mastering its interrupt system is another. In this article, We'll talk about how I designed, implemented, and fine-tuned a full-featured interrupt handling system in my custom kernel, complete with queues, priorities, and statistics collection, all without relying on external multitasking frameworks. The primary goals for the new interrupt handling system were: Immediate execution of critical ISRs for devices that just can not wait (for example PIT) F",
-      "url": "https://dev.to/vhajsman/mastering-interrupt-handling-in-your-kernel-b5",
-      "source": "Dev.to",
-      "author": "Václav Hajšman",
-      "published": "2025-12-24T01:02:14+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "framework"
       ]
     },
     {
@@ -3469,18 +3457,31 @@
       ]
     },
     {
-      "id": "f842213ab36e82d2",
-      "title": "Developer Communities (JavaScript, TypeScript)",
-      "description": "## Unraveling the JavaScript Ecosystem: Navigating Organizations, Chats, and Forums for Backend Success In the dynamic world of backend development, especially with JavaScript and Node.js, knowledge and collaboration are golden currencies. Staying updated with the latest trends, solving complex problems, and building a network can seem like a Herculean task. Fortunately, the JavaScript ecosystem is rich with resources, from influential organizations to vibrant communication channels and problem-",
-      "url": "https://dev.to/lucaspereiradesouzat/developer-communities-javascript-typescript-2fk7",
+      "id": "4d23bc593aca0227",
+      "title": "Part 9: GitOps with Argo CD - When Git Deploys Your App",
+      "description": "Series: From \"Just Put It on a Server\" to Production DevOps Reading time: 18 minutes Level: Intermediate The kubectl Apply Problem Your Kubernetes cluster is running. You update an API deployment: vim infrastructure/k8s/api.yaml # Change replicas from 3 to 5 kubectl apply -f infrastructure/k8s/api.yaml Two weeks later, a teammate asks: \"Hey, why do we have 5 API replicas?\" You: \"I changed it two weeks ago.\" \"Where's the change tracked?\" You: \"Uh... it's not. I ran kubectl apply locally.\" \"What i",
+      "url": "https://dev.to/daviesbrown/part-9-gitops-with-argo-cd-when-git-deploys-your-app-1pcn",
       "source": "Dev.to",
-      "author": "Lucas Pereira de Souza",
-      "published": "2025-12-24T01:33:55+00:00",
+      "author": "David Nwosu",
+      "published": "2025-12-31T01:21:45+00:00",
       "niche": "dev",
-      "score": 52,
+      "score": 54,
       "keywords": [
-        "developer",
-        "development"
+        "API"
+      ]
+    },
+    {
+      "id": "a655d3b0242fab97",
+      "title": "Part 8: Helm - Packaging Kubernetes Applications",
+      "description": "Series: From \"Just Put It on a Server\" to Production DevOps Reading time: 15 minutes Level: Intermediate The YAML Duplication Problem In Part 6, we deployed our SSPP platform to Kubernetes. It works! But look at your k8s/ directory: k8s/ ├── api-deployment.yaml ├── api-service.yaml ├── api-configmap.yaml ├── worker-deployment.yaml ├── worker-configmap.yaml ├── redis-deployment.yaml ├── redis-service.yaml ├── postgres-statefulset.yaml ├── postgres-service.yaml └── ... Now your manager says: \"We n",
+      "url": "https://dev.to/daviesbrown/part-8-helm-packaging-kubernetes-applications-15jf",
+      "source": "Dev.to",
+      "author": "David Nwosu",
+      "published": "2025-12-31T01:20:12+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "API"
       ]
     },
     {
@@ -3916,34 +3917,6 @@
       "keywords": [
         "programming",
         "developer"
-      ]
-    },
-    {
-      "id": "c9355ca0f617262f",
-      "title": "Getting Started with 2D Games Using Tkinter (Part 1): What Are We Going to Build?",
-      "description": "What Are We Going to Build? First, let me introduce the game we are going to create in this series. Tag Game with an Oni In this series, we will build a simple “Tag Game” that anyone can create quickly and easily. It’s a simple (and cute) game where you chase and catch an oni running around in hell. This game is designed to give you that exciting moment: “So this is what it means to make a game move with programming!!” I hope you enjoy that experience through this project. What Is Python? Next, ",
-      "url": "https://dev.to/sdkfz181tiger/getting-started-with-2d-games-using-tkinter-part-1-what-are-we-going-to-build-9b0",
-      "source": "Dev.to",
-      "author": "Kajiru",
-      "published": "2025-12-24T01:14:29+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "programming"
-      ]
-    },
-    {
-      "id": "6c308972be5b0a1b",
-      "title": "Christmas gifts for you from the freeCodeCamp community: Learn Python, SQL, Spanish, and more",
-      "description": "2025 has been an amazing year for the global freeCodeCamp community. And we’re thrilled to cap it off with the launch of several Christmas Gifts for you: freeCodeCamp's Python certification freeCodeCamp's JavaScript certification (Version 10) free...",
-      "url": "https://www.freecodecamp.org/news/christmas-gifts-freecodecamp-community-2025/",
-      "source": "freeCodeCamp",
-      "author": "Quincy Larson",
-      "published": "2025-12-23T22:46:00+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
       ]
     },
     {
@@ -5599,40 +5572,18 @@
       ]
     },
     {
-      "id": "587333898b732b29",
-      "title": "Comunidades de desenvolvedores (JavaScript,TypeScript)",
-      "description": "## Desvendando o Ecossistema JavaScript: Navegando em Organizações, Chats e Fóruns para o Sucesso do Backend No dinâmico mundo do desenvolvimento backend, especialmente com JavaScript e Node.js, o conhecimento e a colaboração são moedas de ouro. Manter-se atualizado com as últimas tendências, resolver problemas complexos e construir redes de contatos pode parecer uma tarefa hercúlea. Felizmente, o ecossistema JavaScript é rico em recursos, desde organizações influentes até canais de comunicação ",
-      "url": "https://dev.to/lucaspereiradesouzat/comunidades-de-desenvolvedores-javascripttypescript-43l6",
+      "id": "d42d7a86c1ec259f",
+      "title": "My Predictions for MCP and AI-Assisted Coding in 2026",
+      "description": "I'm writing this fully aware that predictions about AI often age badly. I don't want to sound like those CEOs who confidently announce that AI will replace engineers in six months, only to quietly move the timeline when nothing happens. Instead, this is a personal thought experiment. I've been experimenting with AI-assisted coding since it was still taboo to admit you were doing it. I started in 2021 while working at GitHub, helping developers understand the value of well-written prompts through",
+      "url": "https://dev.to/blackgirlbytes/my-predictions-for-mcp-and-ai-assisted-coding-in-2026-16bm",
       "source": "Dev.to",
-      "author": "Lucas Pereira de Souza",
-      "published": "2025-12-24T01:33:39+00:00",
+      "author": "Rizèl Scarlett",
+      "published": "2025-12-31T01:36:04+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "83fb1ee9c5609407",
-      "title": "# The Counter-Intuitive Reddit Marketing Hack That Changed My Approach",
-      "description": "I spent three months commenting on the wrong Reddit threads before I figured this out. The biggest problem? Finding the right conversations. I was wasting 2+ hours daily scrolling through Reddit, and most threads I commented on went nowhere. Eventually I built Wappkit Reddit to solve this - filters posts by comment count and keywords so I can find high-intent threads in minutes. Nothing fancy, but it cut my discovery time from 2 hours to 15 minutes. But the tool isn't the breakthrough. The real ",
-      "url": "https://dev.to/short_playskits_ab152535/-the-counter-intuitive-reddit-marketing-hack-that-changed-my-approach-25il",
-      "source": "Dev.to",
-      "author": "Short Play Skits",
-      "published": "2025-12-24T01:27:04+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "b6e7c413180af0df",
-      "title": "Terraform Module Troubleshooting Guide",
-      "description": "Common Error: \"Unsupported argument\" or \"Unsupported attribute.\" Symptoms Error: An argument named \"variable_name\" is not expected here Error: This object does not have an attribute named \"output_name\" These errors occur even when variables/outputs appear to be correctly defined Root Causes & Solutions 1. Stale Terraform Module Cache (Most Common) When you modify module variables or outputs, Terraform may use cached information. Solution: When to use: After ANY changes to: Module variables (vari",
-      "url": "https://dev.to/yency_christopher_ca4647b/terraform-module-troubleshooting-guide-2h51",
-      "source": "Dev.to",
-      "author": "Yency Christopher",
-      "published": "2025-12-24T01:14:54+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
       "id": "c95358509f1ccee9",
@@ -7975,6 +7926,42 @@
       "keywords": []
     },
     {
+      "id": "44f86976edf1bf26",
+      "title": "Understanding How Signals Work",
+      "description": "Introduction With the previous articles covering the foundations of Signals and fine-grained reactivity, you should now have a basic idea of what Signals are and why they exist. In this article, we return to the core topic: how Signals actually work, including the roles of Effect, Computed, and the Scheduler. The Core Pipeline: Data → Derivation → Side Effects UI = f(state) becomes literally true in a fine-grained model: state is decomposed into many tiny, indivisible Signals. Anything derived f",
+      "url": "https://dev.to/luciano0322/understanding-how-signals-work-e7e",
+      "source": "Dev.to",
+      "author": "Luciano0322",
+      "published": "2025-12-31T01:47:08+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "462b422678c2ac57",
+      "title": "Alpha Arena AI Trading System 2.0: The Optimization Journey from Ideal to Reality",
+      "description": "Opening: The Gap Between Ideal and Reality Hello everyone. Recently, the Alpha Arena AI trading system has caused quite a stir across various platforms. Initially, there were quite a few friends in the group sharing their profit screenshots from using AI for crypto trading, and everyone was pretty excited. But with the crypto market crash over the past couple of days, the problems with large language models have been exposed. Take DeepSeek for example - it has retraced all the way from its peak ",
+      "url": "https://dev.to/chronosquant/alpha-arena-ai-trading-system-20-the-optimization-journey-from-ideal-to-reality-5c85",
+      "source": "Dev.to",
+      "author": "fmzquant",
+      "published": "2025-12-31T01:38:25+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "41411afc9c6bade3",
+      "title": "Part 10: Scaling, Failure & Operating Like a Real Company",
+      "description": "Series: From \"Just Put It on a Server\" to Production DevOps Reading time: 20 minutes Level: Intermediate to Advanced The Journey So Far We've come a long way: Part 1: Deployed manually (SSH + npm start) Part 2: Added process management (PM2) Part 3: Containerized with Docker Part 4: Orchestrated locally (Docker Compose) Part 5: Broke things to feel the pain Part 6: Moved to Kubernetes Part 7: Automated infrastructure (Terraform) Part 8: Packaged apps (Helm) Part 9: Automated deployments (Argo CD",
+      "url": "https://dev.to/daviesbrown/part-10-scaling-failure-operating-like-a-real-company-2h3e",
+      "source": "Dev.to",
+      "author": "David Nwosu",
+      "published": "2025-12-31T01:25:12+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "e18f7d1903a5ac30",
       "title": "Some people are becoming exceptional tool users. Others are becoming system builders. Over time, the second group will quietly replace the first, and that’s not a threat. It’s a natural evolution.",
       "description": "System Builders Will Replace Tool Users: And That’s a Good Thing Jaideep Parashar ・ Dec 25 #webdev #ai #developers #programming",
@@ -8248,40 +8235,18 @@
       ]
     },
     {
-      "id": "d6a329c1499aa899",
-      "title": "Is Northern Virginia still the least reliable AWS region?",
+      "id": "5c2e8c1a9636939e",
+      "title": "Project ideas to appreciate the art of programming",
       "description": "Comments",
-      "url": "https://statusgator.com/blog/aws-least-reliable-region-in-2025/",
+      "url": "https://codecrafters.io/blog/programming-project-ideas",
       "source": "Hacker News",
       "author": "Inconnu",
-      "published": "2025-12-23T23:12:03+00:00",
+      "published": "2025-12-30T22:47:36+00:00",
       "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "bc37121da296b619",
-      "title": "Unifi Travel Router",
-      "description": "Comments",
-      "url": "https://blog.ui.com/article/travel-in-style-unifi-style-unifi-travel-router",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-24T00:30:18+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "a524b217147d2b1b",
-      "title": "Texas app store age verification law blocked by federal judge",
-      "description": "Comments",
-      "url": "https://www.macrumors.com/2025/12/23/texas-app-store-law-blocked/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-23T22:03:46+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
+      "score": 45,
+      "keywords": [
+        "programming"
+      ]
     },
     {
       "id": "919687edcfb371c5",
@@ -8291,18 +8256,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-24T02:21:42+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "aa7f9651d03338e6",
-      "title": "Nabokov's guide to foreigners learning Russian",
-      "description": "Comments",
-      "url": "https://twitter.com/haravayin_hogh/status/2003299405907247502",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-24T01:20:39+00:00",
       "niche": "dev",
       "score": 44,
       "keywords": []
@@ -9784,6 +9737,18 @@
       "keywords": []
     },
     {
+      "id": "5e0853b47a9a9ecc",
+      "title": "Quality of drinking water varies significantly by airline",
+      "description": "Comments",
+      "url": "https://foodmedcenter.org/2026-center-for-food-as-medicine-longevity-airline-water-study/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-31T00:03:50+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "cecd3da845538339",
       "title": "React 19.2",
       "description": "React 19.2 adds new features like Activity, React Performance Tracks, useEffectEvent, and more.",
@@ -9794,8 +9759,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "React 19",
-        "performance"
+        "performance",
+        "React 19"
       ]
     },
     {
@@ -9852,9 +9817,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "performance",
+        "release",
         "code",
-        "release"
+        "performance"
       ]
     },
     {
@@ -9868,9 +9833,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "developer",
+        "release",
         "API",
-        "release"
+        "developer"
       ]
     },
     {
@@ -9884,9 +9849,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "developer",
+        "release",
         "performance",
-        "release"
+        "developer"
       ]
     },
     {
@@ -10190,9 +10155,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "React 19",
+        "release",
         "API",
-        "release"
+        "React 19"
       ]
     },
     {
@@ -10218,20 +10183,6 @@
       "niche": "dev",
       "score": 37,
       "keywords": []
-    },
-    {
-      "id": "2e4da998c2fcb30d",
-      "title": "High-performance C++ hash table using grouped SIMD metadata scanning",
-      "description": "Comments",
-      "url": "https://github.com/Cranot/grouped-simd-hashtable",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-24T00:27:27+00:00",
-      "niche": "dev",
-      "score": 36,
-      "keywords": [
-        "performance"
-      ]
     },
     {
       "id": "2cce629bf82b86cd",
@@ -10272,8 +10223,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -10287,8 +10238,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -10344,8 +10295,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "framework",
-        "API"
+        "API",
+        "framework"
       ]
     },
     {
@@ -10523,11 +10474,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "API",
-        "framework",
         "code",
         "release",
-        "performance"
+        "performance",
+        "API",
+        "framework"
       ]
     },
     {
@@ -10693,6 +10644,18 @@
       "keywords": []
     },
     {
+      "id": "fad21934163dc42e",
+      "title": "Mitsubishi Diatone D-160 (1985)",
+      "description": "Comments",
+      "url": "https://audio-database.com/MITSUBISHI-DIATONE/diatonesp/d-160-e.html",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-29T02:08:08+00:00",
+      "niche": "dev",
+      "score": 26,
+      "keywords": []
+    },
+    {
       "id": "cd46e0b1413a2532",
       "title": "LCP and INP are now Baseline Newly available",
       "description": "LCP and INP are now Baseline Newly available as of December 12, 2025.",
@@ -10805,8 +10768,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "API",
-        "release"
+        "release",
+        "API"
       ]
     },
     {
@@ -10820,8 +10783,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "framework",
-        "release"
+        "release",
+        "framework"
       ]
     },
     {
@@ -10835,9 +10798,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "developer",
+        "code",
         "performance",
-        "code"
+        "developer"
       ]
     },
     {
@@ -10851,8 +10814,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "performance",
-        "code"
+        "code",
+        "performance"
       ]
     },
     {
@@ -10866,8 +10829,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "code",
-        "release"
+        "release",
+        "code"
       ]
     },
     {
@@ -10881,8 +10844,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -10953,9 +10916,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "developer",
         "development",
-        "API"
+        "API",
+        "developer"
       ]
     },
     {
@@ -11031,8 +10994,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "programming",
-        "developer"
+        "developer",
+        "programming"
       ]
     },
     {
@@ -11062,6 +11025,20 @@
       "score": 15,
       "keywords": [
         "developer"
+      ]
+    },
+    {
+      "id": "6c308972be5b0a1b",
+      "title": "Christmas gifts for you from the freeCodeCamp community: Learn Python, SQL, Spanish, and more",
+      "description": "2025 has been an amazing year for the global freeCodeCamp community. And we’re thrilled to cap it off with the launch of several Christmas Gifts for you: freeCodeCamp's Python certification freeCodeCamp's JavaScript certification (Version 10) free...",
+      "url": "https://www.freecodecamp.org/news/christmas-gifts-freecodecamp-community-2025/",
+      "source": "freeCodeCamp",
+      "author": "Quincy Larson",
+      "published": "2025-12-23T22:46:00+00:00",
+      "niche": "dev",
+      "score": 15,
+      "keywords": [
+        "code"
       ]
     },
     {
@@ -11117,8 +11094,8 @@
       "niche": "dev",
       "score": 15,
       "keywords": [
-        "developer",
-        "library"
+        "library",
+        "developer"
       ]
     },
     {
@@ -11218,30 +11195,6 @@
       "keywords": [
         "development"
       ]
-    },
-    {
-      "id": "7ba9ed238b2f1560",
-      "title": "Researchers develop a camera that can focus on different distances at once",
-      "description": "Comments",
-      "url": "https://engineering.cmu.edu/news-events/news/2025/12/19-perfect-shot.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-23T21:42:36+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "b76e5d46ebffe6e2",
-      "title": "They made me an offer I couldn't refuse (1997)",
-      "description": "Comments",
-      "url": "https://jens.mooseyard.com/1997/04/13/they-made-me-an-offer-i-couldnt-refuse/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-23T22:38:30+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
     },
     {
       "id": "9f769942cd6111e7",
@@ -11556,8 +11509,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "programming",
-        "development"
+        "development",
+        "programming"
       ]
     },
     {
