@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-31T15:27:00.727858+00:00",
-  "total_articles": 953,
+  "last_updated": "2025-12-31T18:37:21.410710+00:00",
+  "total_articles": 945,
   "articles": [
     {
       "id": "f8dc954cb8ca9308",
@@ -682,18 +682,6 @@
       ]
     },
     {
-      "id": "15bdf494c8cd230d",
-      "title": "Show HN: Vibium – Browser automation for AI and humans, by Selenium's creator",
-      "description": "Comments",
-      "url": "https://github.com/VibiumDev/vibium",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-24T17:49:02+00:00",
-      "niche": "dev",
-      "score": 62,
-      "keywords": []
-    },
-    {
       "id": "d937ddb916f0f1c5",
       "title": "Show HN: Minimalist editor that lives in browser, stores everything in the URL",
       "description": "Comments",
@@ -1027,6 +1015,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-31T03:49:58+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": []
+    },
+    {
+      "id": "d269ccca3f13105b",
+      "title": "Scaffolding to Superhuman: How Curriculum Learning Solved 2048 and Tetris",
+      "description": "Comments",
+      "url": "https://kywch.github.io/blog/2025/12/curriculum-learning-2048-tetris/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-31T15:52:51+00:00",
       "niche": "dev",
       "score": 62,
       "keywords": []
@@ -2294,17 +2294,18 @@
       ]
     },
     {
-      "id": "2470796a8d39dd36",
-      "title": "Swift On Server's",
-      "description": "Vapor Drawing Backend - Project Overview A collaborative note-taking backend built with Vapor (Swift) that supports real-time collaboration, authentication, and drawing strokes persistence. Tech Stack Framework: Vapor 4.115.0 Database: MongoDB with Fluent ORM Authentication: JWT (JSON Web Tokens) Real-time: WebSockets Language: Swift 6.0 Features Implemented 1. Authentication System JWT-based authentication with user registration and login functionality. // User model with email and password fin",
-      "url": "https://dev.to/amritesh240304/swift-on-servers-m46",
+      "id": "88b35cc099431abe",
+      "title": "Building a Matrix Digital Rain Screensaver for Windows 10/11",
+      "description": "Remember the iconic cascading green code from The Matrix? That hypnotic digital rain has been a staple of hacker aesthetics for decades. I wanted to bring that experience to modern Windows, so I built a premium screensaver that does justice to the original while adding powerful customization options. 🎯 What I Built A high-performance Matrix-style digital rain screensaver featuring: ✨ Buttery Smooth Animation 60fps performance optimized for modern displays GPU-accelerated rendering Adaptive perfo",
+      "url": "https://dev.to/miztizm/building-a-matrix-digital-rain-screensaver-for-windows-1011-2feb",
       "source": "Dev.to",
-      "author": "Amritesh Kumar",
-      "published": "2025-12-24T17:47:51+00:00",
+      "author": "Digital Alchemyst",
+      "published": "2025-12-31T18:15:16+00:00",
       "niche": "dev",
-      "score": 54,
+      "score": 55,
       "keywords": [
-        "framework"
+        "performance",
+        "code"
       ]
     },
     {
@@ -3409,6 +3410,22 @@
       ]
     },
     {
+      "id": "3f8c63c6ce724534",
+      "title": "Machine Learning - Model Deployment - Complete Tutorial",
+      "description": "Machine Learning - Model Deployment - Complete Tutorial Introduction Deploying machine learning models is a crucial step in the machine learning lifecycle. It's not just about building models; it's about making them accessible and usable in real-world applications. This tutorial aims to guide intermediate developers through the process of deploying a machine learning model. Prerequisites Basic understanding of machine learning concepts Familiarity with Python programming Basic knowledge of web f",
+      "url": "https://dev.to/hkj13/machine-learning-model-deployment-complete-tutorial-3b78",
+      "source": "Dev.to",
+      "author": "Hemanath Kumar J",
+      "published": "2025-12-31T18:00:55+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "programming",
+        "developer",
+        "tutorial"
+      ]
+    },
+    {
       "id": "61636289ddfc4f9a",
       "title": "Cursor + MCP: A Senior Developer’s Guide to \"Vibe Coding\" and Tool Integration",
       "description": "We are witnessing a shift in how software is built. It’s no longer just about the syntax you memorize or the libraries you know; it’s about how effectively you can orchestrate AI to do the heavy lifting. This new paradigm—often playfully dubbed \"vibe coding\"—is less about writing every character and more about guiding intent. But intent requires tools. And for AI to properly execute intent, it needs context. This article provides a deep dive into using Cursor (a fork of VS Code) paired with the ",
@@ -3829,45 +3846,18 @@
       ]
     },
     {
-      "id": "63df31055f3d4ec9",
-      "title": "How is Column Store fetch faster than Row Store?",
-      "description": "Consider a table called ORDERS that has 100,000,000 rows having columns: Amount (8 bytes decimal), OrderDate (8 bytes), Country (dictionary-encoded; code 1 byte), OrderID (4 bytes int), CustomerID (4 bytes int), and five additional miscellaneous columns with an average of 8 bytes each. In a row store, the approximate row width is ≈ 4+4+1+8+8 + (5×8) = 69 bytes, which rounds up to 72 bytes. Ex: SELECT SUM(Amount) FROM ORDERS WHERE Country = 'IN'. If the executable query is 'IN' = 5% of rows (sele",
-      "url": "https://dev.to/truptiraikar8/how-is-column-store-fetch-faster-than-row-store-2n04",
+      "id": "c8dc8f3e034ff0c7",
+      "title": "An Algebraic View of Databases",
+      "description": "Hello, I'm Maneshwar. I'm working on FreeDevTools online currently building **one place for all dev tools, cheat codes, and TLDRs* — a free, open-source hub where developers can quickly find and use tools without any hassle of searching all over the internet.* Yesterday, we closed the gap between relations and files, showing how an RDBMS hides physical storage behind a logical relational view. Today, we move one level deeper, not into files yet, but into how relations themselves are manipulated.",
+      "url": "https://dev.to/lovestaco/an-algebraic-view-of-databases-36p8",
       "source": "Dev.to",
-      "author": "Trupti Raikar",
-      "published": "2025-12-24T18:06:53+00:00",
+      "author": "Athreya aka Maneshwar",
+      "published": "2025-12-31T18:13:02+00:00",
       "niche": "dev",
-      "score": 51,
+      "score": 52,
       "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "939782fcf520adcf",
-      "title": "A Practical Guide to Troubleshooting Git Push Errors in Terraform Projects",
-      "description": "While working on a Terraform project, I ran into several Git push errors that initially felt confusing and frustrating. However, each error turned out to be a valuable learning moment. This article documents those issues step by step, explains why they happen, and shows how to fix them correctly. If you’re learning Terraform, DevOps, or Infrastructure as Code, chances are you’ll encounter these same problems. 1️⃣GitHub Rejects Large Files (>100 MB) Error: File .terraform/...terraform-provider-aw",
-      "url": "https://dev.to/awais_684/a-practical-guide-to-troubleshooting-git-push-errors-in-terraform-projects-371p",
-      "source": "Dev.to",
-      "author": "Muhammad Awais Zahid",
-      "published": "2025-12-24T17:46:53+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "f20c6f501cd3356d",
-      "title": "Building Production RAG Systems: From Zero to Hero",
-      "description": "What I learned building RAG systems from scratch—and how you can too The Journey That Changed How I Think About AI Recently, I finished a comprehensive RAG course from DeepLearning.AI and instructor was Zain Hasan. Before that, I'd been learning from scattered tutorials and blog posts—completely unstructured. I thought I understood retrieval-augmented generation. I knew the theory: embeddings, vector databases, semantic search. But like most things in engineering, theory and practice are worlds ",
-      "url": "https://dev.to/gautamvhavle/building-production-rag-systems-from-zero-to-hero-2f1i",
-      "source": "Dev.to",
-      "author": "Gautam Vhavle",
-      "published": "2025-12-24T17:45:50+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "tutorial"
+        "code",
+        "developer"
       ]
     },
     {
@@ -3924,20 +3914,6 @@
       "score": 51,
       "keywords": [
         "code"
-      ]
-    },
-    {
-      "id": "dbd49fed54ba2216",
-      "title": "How to Prepare for Technical Job Interviews – Based on My Experience Landing a Job",
-      "description": "Hi, I’m Ilyas. I’m a web developer, and this is my story about how I struggled with interviews for a long time and what finally helped me break through. I’ll talk about what failing basic interview questions taught me about recall, preparation, and s...",
-      "url": "https://www.freecodecamp.org/news/how-to-prepare-for-technical-job-interviews-based-on-my-experience-landing-a-job/",
-      "source": "freeCodeCamp",
-      "author": "Ilyas Seisov",
-      "published": "2025-12-24T17:33:14+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "developer"
       ]
     },
     {
@@ -5565,76 +5541,32 @@
       ]
     },
     {
-      "id": "02a9ceaf96ebeb99",
-      "title": "Interfacing an SD Card with Raspberry Pi Pico",
-      "description": "External storage is one of those features that instantly upgrades a microcontroller project from demo to useful. Whether you’re logging sensor data, saving configuration files, or storing timestamps, an SD card gives you gigabytes of non-volatile storage with very little effort. In this guide, we’ll build a Raspberry Pi Pico sd card Module, and go one step further by making it interactive through the Serial Monitor. You’ll be able to create files, write custom text, read data back, and delete fi",
-      "url": "https://dev.to/david_thomas/interfacing-an-sd-card-with-raspberry-pi-pico-33kp",
+      "id": "d988c830d9c5b9d1",
+      "title": "Mapping Your Codebase to OWASP Top 10 with 247 ESLint Rules",
+      "description": "Your security audit asks: \"How do you address OWASP Top 10?\" Here's how to answer with automated evidence using 247 rules across 10 specialized ESLint plugins. The Multi-Plugin Approach One plugin can't cover everything. SQL injection needs database-aware rules. JWT attacks need token-specific detection. Here's the complete mapping: OWASP Top 10 2021 → Plugin Coverage # Category Risk Plugins Key Rules A01 Broken Access Control High secure-coding, nestjs-security, lambda-security no-privilege-esc",
+      "url": "https://dev.to/ofri-peretz/mapping-your-codebase-to-owasp-top-10-with-247-eslint-rules-25f0",
       "source": "Dev.to",
-      "author": "David Thomas",
-      "published": "2025-12-24T18:30:00+00:00",
+      "author": "Ofri Peretz",
+      "published": "2025-12-31T18:15:25+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
-      "id": "2e5fdbf8ca99c349",
-      "title": "RCU (Read, Copy, Update) in the Linux Kernel",
-      "description": "RCU (Read, Copy, Update) in the Linux Kernel RCU is a mechanism to synchronize between readers and writers and it is very efficient when there are many readers or the data to read is large. It is a lock free synchronization mechanism. Topics Covered Why do we need a synchronization mechanism? Mutex to synchronize Reader‑mostly workloads Introducing RCU RCU with Linked List A little about how RCU works General guidelines to using RCU Why do we need a synchronization mechanism? Let's consider this",
-      "url": "https://dev.to/sauravshah31/rcu-read-copy-update-in-the-linux-kernel-18di",
+      "id": "6709e92fe2298906",
+      "title": "The four principles of object-oriented programming",
+      "description": "The four principles of object-oriented programming are encapsulation, abstraction, inheritance, and polymorphism. 1. Encapsulation Encapsulation is the mechanism of binding the data together and hiding it from the outside world. Encapsulation is achieved when each object keeps its state private so that other objects don’t have direct access to its state. Instead, they can access this state only through a set of public functions. 2. Abstraction Abstraction can be thought of as the natural extensi",
+      "url": "https://dev.to/obrutus/the-four-principles-of-object-oriented-programming-mcc",
       "source": "Dev.to",
-      "author": "Saurav Shah",
-      "published": "2025-12-24T18:24:10+00:00",
+      "author": "Aniket Vaishnav",
+      "published": "2025-12-31T18:03:52+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "9b77a877d39bd78c",
-      "title": "Everyone Is Talking About an AI Bubble. Salesforce Just Added 6,000 Enterprise Customers.",
-      "description": "Every tech cycle has a moment when the noise gets louder than the facts. Right now, artificial intelligence is that moment. Investors argue about bubbles, founders warn of overhype, and skeptics question whether AI will ever justify the billions being spent on it. Meanwhile, Salesforce quietly added 6,000 enterprise customers in just three months. No hype. No viral demos. Just adoption. The Gap Between AI Talk and AI Reality While much of Silicon Valley debates whether AI enthusiasm has outpaced",
-      "url": "https://dev.to/pratik_12b3f8bf3b50e48bae/everyone-is-talking-about-an-ai-bubble-salesforce-just-added-6000-enterprise-customers-29jl",
-      "source": "Dev.to",
-      "author": "Pratik",
-      "published": "2025-12-24T18:15:10+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "8ef0c3dab3510174",
-      "title": "Scaling E-commerce: A Database Optimization Case Study",
-      "description": "Scaling E-commerce: A Database Optimization Case Study The Problem In the fiercely competitive e-commerce sector, the speed and reliability of database systems are non-negotiable. Our client, a burgeoning online retailer, faced crippling website slowdowns during peak traffic periods. Analysis revealed that the existing database structure was the bottleneck, struggling with read-write operations and unable to scale effectively with demand spikes. Our Approach We proposed a comprehensive optimizat",
-      "url": "https://dev.to/hkj13/scaling-e-commerce-a-database-optimization-case-study-bn7",
-      "source": "Dev.to",
-      "author": "Hemanath Kumar J",
-      "published": "2025-12-24T18:00:59+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "b069fe065f6ec423",
-      "title": "Headless Raspberry Pi Homelab – Part 1: OS Configuration & Remote Access",
-      "description": "Project Overview This project documents the process of imaging and configuring a Raspberry Pi to function as a headless database server on a local network, with a focus on OS deployment, remote access, and preparing the system for headless database hosting and homelab expansion. Hardware Used Raspberry Pi 4 Kit Uni SD Card Reader Samsung 32GB EVO Plus microSD card Installing the OS & Writing to the microSD card For the official step-by-step process, the Raspberry Pi Foundation provides documenta",
-      "url": "https://dev.to/astromodem/headless-raspberry-pi-homelab-part-1-os-configuration-remote-access-4ibb",
-      "source": "Dev.to",
-      "author": "astromodem",
-      "published": "2025-12-24T17:54:52+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "3cbce3fdc9e91965",
-      "title": "A Guide to HITL, HOTL, and HOOTL Workflows",
-      "description": "In the rush to automate everything with Large Language Models (LLMs), many make a critical mistake they treat AI as a binary choice either a human does the work, or the machine does. In reality, the most successful AI implementations exist on a spectrum of human intervention. We call these HITL (Human-in-the-Loop), HOTL (Human-on-the-Loop), and HOOTL (Human-out-of-the-Loop). Choosing the wrong workflow can lead to either a \"bottleneck\" (too much human interference) or \"hallucination disasters\" (",
-      "url": "https://dev.to/exson_joseph/a-guide-to-hitl-hotl-and-hootl-workflows-4p4n",
-      "source": "Dev.to",
-      "author": "Exson Joseph",
-      "published": "2025-12-24T17:54:11+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "programming"
+      ]
     },
     {
       "id": "a27e35b70d8425b8",
@@ -7929,6 +7861,66 @@
       "keywords": []
     },
     {
+      "id": "49a7727e4ce7dcd6",
+      "title": "FRD Orchestration with MCP: Deterministic Context Control for Agents (No Drift)",
+      "description": "`Some time ago, I wrote this article, explaining the value of orchestrating multiple Feature Requirement Documents (FRDs) to keep full control over building a NestJS boilerplate from scratch, step by step. FRD-00: orchestration FRD-01: skeleton FRD-02: ORM + migrations FRD-03: auth + JWT FRD-04: unit testing It worked, but a classic problem showed up: when FRDs live as “loose” files in the workspace, the agent can read the wrong .md, mix phases, or cache the wrong context. Before: FRDs as files ",
+      "url": "https://dev.to/jorge6242/frd-orchestration-with-mcp-deterministic-context-control-for-agents-no-drift-266k",
+      "source": "Dev.to",
+      "author": "Jorge Gomez",
+      "published": "2025-12-31T18:34:57+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "906db5493ff0930f",
+      "title": "Create MinIO Bucket using Express.js",
+      "description": "1️⃣ Install Dependencies npm init -y npm install express minio dotenv 2️⃣ Project Structure (Recommended) minio-service/ ├── src/ │ ├── app.js │ ├── minio/ │ │ └── minioClient.js │ ├── routes/ │ │ └── bucket.routes.js │ └── services/ │ └── bucket.service.js ├── .env └── package.json 3️⃣ .env Configuration PORT=3000 MINIO_ENDPOINT=localhost MINIO_PORT=9000 MINIO_USE_SSL=false MINIO_ACCESS_KEY=minioadmin MINIO_SECRET_KEY=minioadmin 4️⃣ MinIO Client (src/minio/minioClient.js) import { Client } from",
+      "url": "https://dev.to/codefalconx/create-minio-bucket-using-expressjs-21k2",
+      "source": "Dev.to",
+      "author": "CodeFalconX",
+      "published": "2025-12-31T18:32:32+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "bbb9eb7790039c5f",
+      "title": "تکنیک‌های افزایش فروش دوره در اینستاگرام (از جذب تا ثبت‌نام)",
+      "description": "مقدمه اینستاگرام برای فروش دوره، فقط یک ویترین نیست؛ یک قیف فروش کامله: جذب مخاطب، اعتمادسازی، اثبات تخصص، پاسخ به اعتراض‌ها، و در نهایت تبدیل به ثبت‌نام. اما چون رقابت بالاست و الگوریتم مدام تغییر می‌کند، «گاهی پست گذاشتن» جواب نمی‌دهد؛ باید با تکنیک‌های درست، مسیر خرید دوره را ساده و قانع‌کننده طراحی کنی. راهکارها و تکنیک‌های افزایش فروش دوره در اینستاگرام 1) پیجت را از «پیج محتوا» به «پیج ثبت‌نام» تبدیل کن برای فروش دوره باید از همان نگاه اول مشخص باشد: اینجا دقیقاً چه چیزی یاد می‌دهی؟ خروجی ",
+      "url": "https://dev.to/dorify/tkhnykhhy-fzysh-frwsh-dwrh-dr-ynstgrm-z-jdhb-t-thbtnm-3465",
+      "source": "Dev.to",
+      "author": "Dorify",
+      "published": "2025-12-31T18:26:52+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "c609ec36f7dff078",
+      "title": "Protecting a document is not the same as proving it exists",
+      "description": "Protecting a document is not the same as proving it exists When people talk about “protecting” a document, they usually mean one thing: preventing others from accessing it. Encryption, passwords, access control, secure storage — all of these are about confidentiality. But there is another dimension that is often overlooked. Protection is not only about access You can encrypt a file perfectly and still be unable to prove that it existed at a specific point in time. If someone challenges your auth",
+      "url": "https://dev.to/jeason/protecting-a-document-is-not-the-same-as-proving-it-exists-549k",
+      "source": "Dev.to",
+      "author": "BACOUL",
+      "published": "2025-12-31T18:03:06+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "bc6c51853fd440b6",
+      "title": "Cloud Computing: Powering the Digital World from Anywhere",
+      "description": "Cloud computing has quietly become the backbone of modern technology. From streaming movies to running business apps, it allows users to access data and services over the internet instead of relying on physical hardware. One of the biggest advantages of cloud computing is scalability. Businesses can increase or decrease resources based on demand, paying only for what they use. This makes it cost-effective and ideal for startups as well as large enterprises. Cloud platforms also improve accessibi",
+      "url": "https://dev.to/ravish2403/cloud-computing-powering-the-digital-world-from-anywhere-4in6",
+      "source": "Dev.to",
+      "author": "Ravish Kumar",
+      "published": "2025-12-31T18:01:03+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "e18f7d1903a5ac30",
       "title": "Some people are becoming exceptional tool users. Others are becoming system builders. Over time, the second group will quietly replace the first, and that’s not a threat. It’s a natural evolution.",
       "description": "System Builders Will Replace Tool Users: And That’s a Good Thing Jaideep Parashar ・ Dec 25 #webdev #ai #developers #programming",
@@ -7956,6 +7948,21 @@
       "keywords": [
         "developer",
         "code"
+      ]
+    },
+    {
+      "id": "fa2e065c99b6ea35",
+      "title": "Stardew Valley developer made a $125k donation to the FOSS C# framework MonoGame",
+      "description": "Comments",
+      "url": "https://monogame.net/blog/2025-12-30-385-new-sponsor-announcement/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-31T15:39:58+00:00",
+      "niche": "dev",
+      "score": 49,
+      "keywords": [
+        "developer",
+        "framework"
       ]
     },
     {
@@ -8255,30 +8262,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "d2eef2a875f3e14e",
-      "title": "My 2026 Open Social Web Predictions",
-      "description": "Comments",
-      "url": "https://www.timothychambers.net/2025/12/23/my-open-social-web-predictions.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-24T15:59:23+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "337a53e45f261c4a",
-      "title": "Fabrice Bellard: Biography [pdf]",
-      "description": "Comments",
-      "url": "https://www.ipaidia.gr/wp-content/uploads/2020/12/117-2020-fabrice-bellard.pdf",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-24T18:17:47+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "9aee54172372d767",
@@ -9781,6 +9764,56 @@
       "keywords": []
     },
     {
+      "id": "7538732efa93b7e5",
+      "title": "The compiler is your best friend",
+      "description": "Comments",
+      "url": "https://blog.daniel-beskin.com/2025-12-22-the-compiler-is-your-best-friend-stop-lying-to-it",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-31T15:46:34+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "509512f507daf1bb",
+      "title": "2026: The Year of Java in the Terminal?",
+      "description": "Comments",
+      "url": "https://xam.dk/blog/lets-make-2026-the-year-of-java-in-the-terminal/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-31T15:55:14+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "41e7eb0b4f9e4f90",
+      "title": "SigNoz (YC W21, open source observability platform) Is Hiring across roles",
+      "description": "Comments",
+      "url": "https://signoz.io/careers",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-31T17:00:40+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "aac61a613c7849e9",
+      "title": "Touch Targets and Web Accessibility",
+      "description": "Learn about touch target accessibility standards and WCAG guidelines. Discover why 24x24px or 44x44px targets improve usability for all users with code examples. Continue reading Touch Targets and Web Accessibility on SitePoint.",
+      "url": "https://www.sitepoint.com/touch-targets-and-web-accessibility/?utm_source=rss",
+      "source": "SitePoint",
+      "author": "Ilknur Eren",
+      "published": "2025-12-31T16:35:22+00:00",
+      "niche": "dev",
+      "score": 43,
+      "keywords": [
+        "code"
+      ]
+    },
+    {
       "id": "cecd3da845538339",
       "title": "React 19.2",
       "description": "React 19.2 adds new features like Activity, React Performance Tracks, useEffectEvent, and more.",
@@ -9849,9 +9882,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "release",
+        "code",
         "performance",
-        "code"
+        "release"
       ]
     },
     {
@@ -9866,8 +9899,8 @@
       "score": 40,
       "keywords": [
         "release",
-        "developer",
-        "API"
+        "API",
+        "developer"
       ]
     },
     {
@@ -9881,8 +9914,8 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "release",
         "performance",
+        "release",
         "developer"
       ]
     },
@@ -9910,18 +9943,6 @@
       "published": "2025-12-30T13:01:03+00:00",
       "niche": "dev",
       "score": 39,
-      "keywords": []
-    },
-    {
-      "id": "b704f4acdb61e7b6",
-      "title": "Fabrice Bellard: Biography (2009) [pdf]",
-      "description": "Comments",
-      "url": "https://www.ipaidia.gr/wp-content/uploads/2020/12/117-2020-fabrice-bellard.pdf",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-24T18:17:47+00:00",
-      "niche": "dev",
-      "score": 38,
       "keywords": []
     },
     {
@@ -10199,8 +10220,8 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "release",
         "React 19",
+        "release",
         "API"
       ]
     },
@@ -10267,8 +10288,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10282,8 +10303,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10339,8 +10360,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "framework",
-        "API"
+        "API",
+        "framework"
       ]
     },
     {
@@ -10459,6 +10480,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-26T18:20:10+00:00",
+      "niche": "dev",
+      "score": 32,
+      "keywords": []
+    },
+    {
+      "id": "f63a82fb5e9f6dcb",
+      "title": "Microtonal Spiral Piano",
+      "description": "Comments",
+      "url": "https://shih1.github.io/spiral/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-26T08:30:36+00:00",
       "niche": "dev",
       "score": 32,
       "keywords": []
@@ -10676,18 +10709,6 @@
       "keywords": []
     },
     {
-      "id": "6e970e0b2f5da2cc",
-      "title": "Detect memory leaks of C extensions with psutil and psleak",
-      "description": "Comments",
-      "url": "https://gmpy.dev/blog/2025/psutil-heap-introspection-apis",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-24T15:53:41+00:00",
-      "niche": "dev",
-      "score": 26,
-      "keywords": []
-    },
-    {
       "id": "941e377a574ccbdd",
       "title": "Developing a Beautiful and Performant Block Editor in Qt C++ and QML",
       "description": "Comments",
@@ -10867,8 +10888,8 @@
       "score": 20,
       "keywords": [
         "performance",
-        "developer",
-        "code"
+        "code",
+        "developer"
       ]
     },
     {
@@ -10897,8 +10918,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
-        "code"
+        "code",
+        "release"
       ]
     },
     {
@@ -10927,8 +10948,8 @@
       "niche": "dev",
       "score": 18,
       "keywords": [
-        "PHP",
-        "Angular"
+        "Angular",
+        "PHP"
       ]
     },
     {
@@ -10984,9 +11005,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "development",
+        "API",
         "developer",
-        "API"
+        "development"
       ]
     },
     {
@@ -11000,9 +11021,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "development",
+        "tutorial",
         "PHP",
-        "tutorial"
+        "development"
       ]
     },
     {
@@ -11016,9 +11037,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "development",
+        "tutorial",
         "PHP",
-        "tutorial"
+        "development"
       ]
     },
     {
@@ -11047,8 +11068,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "development",
-        "code"
+        "code",
+        "development"
       ]
     },
     {
@@ -11079,6 +11100,20 @@
       "keywords": [
         "code",
         "API"
+      ]
+    },
+    {
+      "id": "dbd49fed54ba2216",
+      "title": "How to Prepare for Technical Job Interviews – Based on My Experience Landing a Job",
+      "description": "Hi, I’m Ilyas. I’m a web developer, and this is my story about how I struggled with interviews for a long time and what finally helped me break through. I’ll talk about what failing basic interview questions taught me about recall, preparation, and s...",
+      "url": "https://www.freecodecamp.org/news/how-to-prepare-for-technical-job-interviews-based-on-my-experience-landing-a-job/",
+      "source": "freeCodeCamp",
+      "author": "Ilyas Seisov",
+      "published": "2025-12-24T17:33:14+00:00",
+      "niche": "dev",
+      "score": 15,
+      "keywords": [
+        "developer"
       ]
     },
     {
@@ -11335,6 +11370,18 @@
       "keywords": []
     },
     {
+      "id": "32c9be908867d12f",
+      "title": "Back to the future: the story of Squeak, a practical Smalltalk written in itself [pdf] (1997)",
+      "description": "Comments",
+      "url": "http://www.vpri.org/pdf/tr1997001_backto.pdf",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-24T21:42:07+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
       "id": "b173439f0ed4fb4a",
       "title": "What Firewalls Really Do and Why Every Network (Still) Needs Them",
       "description": "Firewalls are one of the oldest tools in network security. Many people think they are outdated or replaced by newer tools like endpoint security or cloud security platforms, but that’s not the case. Firewalls still play a critical role in protecting...",
@@ -11354,126 +11401,6 @@
       "source": "freeCodeCamp",
       "author": "Ekemini Samuel",
       "published": "2025-12-19T17:29:13+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "81fb23eaaaaa63b7",
-      "title": "Thank You (2025 Edition)",
-      "description": "This is the best job I've had in my life and it's only possible because you keep showing up each day to read, learn, share, and discuss all-things-front-end (and a little CSS, of course) with us. Thank You (2025 Edition) originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-      "url": "https://css-tricks.com/thank-you-2025-edition/",
-      "source": "CSS-Tricks",
-      "author": "Geoff Graham",
-      "published": "2025-12-23T15:52:53+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "6f98707c35e71543",
-      "title": "text-decoration-inset is Like Padding for Text Decorations",
-      "description": "The text-decoration-inset property solves a problem that we’ve had since the beginning of the web, which is that text decorations such as underlines extend beyond the first and last characters, resulting in vertical misalignment. text-decoration-inset is Like Padding for Text Decorations originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-      "url": "https://css-tricks.com/text-decoration-inset-is-like-padding-for-text-decorations/",
-      "source": "CSS-Tricks",
-      "author": "Daniel Schwarz",
-      "published": "2025-12-22T14:39:52+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "14d8e61c01a16cde",
-      "title": "Masonry Layout is Now grid-lanes",
-      "description": "It's settled! A new CSS display property keyword called grid-lanes will trigger a masonry layout mode. Masonry Layout is Now grid-lanes originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-      "url": "https://css-tricks.com/masonry-layout-is-now-grid-lanes/",
-      "source": "CSS-Tricks",
-      "author": "Sunkanmi Fafowora",
-      "published": "2025-12-19T16:08:28+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "06480e87708d924c",
-      "title": "Search CSS-Tricks Raycast Extension",
-      "description": "Jelte Lagendijk built a Raycast extension for searching CSS-Tricks articles where you simply type and a get a solid set of real-time results. Search CSS-Tricks Raycast Extension originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-      "url": "https://css-tricks.com/search-css-tricks-raycast-extension/",
-      "source": "CSS-Tricks",
-      "author": "Geoff Graham",
-      "published": "2025-12-18T15:34:23+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "e9ebbf89f8c41675",
-      "title": "Responsive List of Avatars Using Modern CSS (Part 2)",
-      "description": "In this article, we follow up the work we did to create responsive rows of circular images in a previous article by arranging the images around a circle with a clean hover effect. Responsive List of Avatars Using Modern CSS (Part 2) originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-      "url": "https://css-tricks.com/responsive-list-of-avatars-using-modern-css-part-2/",
-      "source": "CSS-Tricks",
-      "author": "Temani Afif",
-      "published": "2025-12-17T15:21:34+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "b6bfc3ec5d1aad3c",
-      "title": "What’s !important #1: Advent Calendars, CSS Wrapped, Web Platform Updates, and More",
-      "description": "The best CSS news from around the web from the last two weeks. In this edition: advent calendars, CSS Wrapped 2025, and the latest Web Platform Updates. What’s !important #1: Advent Calendars, CSS Wrapped, Web Platform Updates, and More originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-      "url": "https://css-tricks.com/whats-important-1/",
-      "source": "CSS-Tricks",
-      "author": "Daniel Schwarz",
-      "published": "2025-12-16T17:03:46+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "6c6bd03b06a60db3",
-      "title": "Toon Title Text Generator",
-      "description": "Andy Clarke with a brand-new resource. It generates the sort of fun typography that Andy commonly uses in his own work that's geared towards cartoon headings. Toon Title Text Generator originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-      "url": "https://css-tricks.com/toon-title-text-generator/",
-      "source": "CSS-Tricks",
-      "author": "Geoff Graham",
-      "published": "2025-12-15T17:55:55+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "d2a937687e2e6b62",
-      "title": "Responsive List of Avatars Using Modern CSS (Part 1)",
-      "description": "A list of rounded images that slightly overlap each other is a classic web design pattern. The main idea is not complex, but the new thing is the responsive part. that dynamically adjusts the overlap between the images so they fit inside the container. Responsive List of Avatars Using Modern CSS (Part 1) originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-      "url": "https://css-tricks.com/responsive-list-of-avatars-using-modern-css-part-1/",
-      "source": "CSS-Tricks",
-      "author": "Temani Afif",
-      "published": "2025-12-15T16:19:23+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "3077de4b993f5414",
-      "title": "What Else Could Container Queries… Query?",
-      "description": "How far can we really go with container queries? There are dozens of media queries now, so what if there were dozens of container queries as well? What could we use them for? What Else Could Container Queries&#8230; Query? originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-      "url": "https://css-tricks.com/what-else-could-container-queries-query/",
-      "source": "CSS-Tricks",
-      "author": "Daniel Schwarz",
-      "published": "2025-12-12T14:38:18+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "6f8660e3f3db9801",
-      "title": "Creating Scroll-Based Animations in Full view()",
-      "description": "It’s not that hard to do! Preethi shows you how it's really the same old animation you’re used to writing in CSS, only applied on a view timeline instead of a normal timeline. Creating Scroll-Based Animations in Full view() originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-      "url": "https://css-tricks.com/creating-scroll-based-animations-in-full-view/",
-      "source": "CSS-Tricks",
-      "author": "Preethi",
-      "published": "2025-12-10T15:04:08+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -11611,8 +11538,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "development",
-        "programming"
+        "programming",
+        "development"
       ]
     },
     {
@@ -11939,18 +11866,6 @@
       "source": "SitePoint",
       "author": "SitePoint Sponsors",
       "published": "2025-12-05T13:23:11+00:00",
-      "niche": "dev",
-      "score": 12,
-      "keywords": []
-    },
-    {
-      "id": "056235095ed615a7",
-      "title": "How Microfrontends Work: 3 Integration Strategies",
-      "description": "What's the best way to build microfrontends? Compare route segmentation, iframes, and JavaScript composition approaches with real trade-offs and use cases. Continue reading How Microfrontends Work: 3 Integration Strategies on SitePoint.",
-      "url": "https://www.sitepoint.com/microfrontends-integration/?utm_source=rss",
-      "source": "SitePoint",
-      "author": "Nikolay Gushchin",
-      "published": "2025-11-28T16:22:48+00:00",
       "niche": "dev",
       "score": 12,
       "keywords": []
