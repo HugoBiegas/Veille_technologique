@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-12-31T12:53:50.125910+00:00",
-  "total_articles": 950,
+  "last_updated": "2025-12-31T15:27:00.727858+00:00",
+  "total_articles": 953,
   "articles": [
     {
       "id": "f8dc954cb8ca9308",
@@ -357,6 +357,20 @@
       ]
     },
     {
+      "id": "e2f82ffadcc9523d",
+      "title": "The useMemo react hook: Optimizing Expensive Calculations with useMemo",
+      "description": "In React, useMemo is a hook used to memoize a value, which means it remembers the result of a computation so it doesn’t have to be recalculated unless necessary. This is useful for optimizing performance, especially when you have expensive calculations that don’t change often. How useMemo Works: useMemo takes two arguments: A function that returns the value you want to memoize. A dependency array that tells React when to recalculate the value. If the values in this array haven't changed, React w",
+      "url": "https://dev.to/edriso/the-usememo-react-hook-optimizing-expensive-calculations-with-usememo-2j84",
+      "source": "Dev.to",
+      "author": "Mohamed Idris",
+      "published": "2025-12-31T15:10:59+00:00",
+      "niche": "dev",
+      "score": 72,
+      "keywords": [
+        "performance"
+      ]
+    },
+    {
       "id": "bc77235f1b7ff353",
       "title": "GitHub Actions: From Zero to Production(EP1)🚀",
       "description": "Episode 1 – What is CI/CD & Why GitHub Actions Matter? When I started hearing terms like CI, CD, and GitHub Actions, everything felt abstract. Workflows, runners, jobs, secrets… too many buzzwords. This post is the first episode in a series where I break down GitHub Actions from absolute basics to real production pipelines, especially from a frontend developer’s perspective. Let’s start with the foundation. What is CI/CD (in simple terms)? 🔵 CI — Continuous Integration CI is about checking code ",
@@ -635,18 +649,6 @@
       "keywords": [
         "release"
       ]
-    },
-    {
-      "id": "3c50fabfb8ca3141",
-      "title": "Breaking News: Grok’s Military Adoption, Google’s AI Pro Discounts, and Instacart's Pricing Scrutiny",
-      "description": "Grok Goes to War: The Department of War has officially chosen xAI's Grok models for its military program! Millions of defense employees will gain access to advanced AI tools for classified operations.",
-      "url": "https://dev.to/ayodele_jolayemi_a4bcec81/breaking-news-groks-military-adoption-googles-ai-pro-discounts-and-instacarts-pricing-scrutiny-4jdk",
-      "source": "Dev.to",
-      "author": "Ayodele Jolayemi",
-      "published": "2025-12-24T14:51:52+00:00",
-      "niche": "dev",
-      "score": 64,
-      "keywords": []
     },
     {
       "id": "d502e9ce2fa1ed24",
@@ -1242,21 +1244,6 @@
       ]
     },
     {
-      "id": "dd79c7d06fb26bb9",
-      "title": "Day 74: Python Validate IPv4 Address – String Parsing Mastery for Perfect IP Check (No Libraries Needed)",
-      "description": "Welcome to Day 74 of the #80DaysOfChallenges journey! This intermediate challenge focuses on validating an IPv4 address string with strict rules, checking for exactly four parts, digit-only segments, no leading zeros, and values between 0-255, using split and manual checks for a robust, library-free solution. It's a practical exercise in string parsing, numeric validation, and edge handling, essential for networking, input sanitization, or backend APIs. If you're building secure systems or pract",
-      "url": "https://dev.to/shahrouzlogs/day-74-python-validate-ipv4-address-string-parsing-mastery-for-perfect-ip-check-no-libraries-4opb",
-      "source": "Dev.to",
-      "author": "Shahrouz Nikseresht",
-      "published": "2025-12-24T14:57:16+00:00",
-      "niche": "dev",
-      "score": 57,
-      "keywords": [
-        "library",
-        "API"
-      ]
-    },
-    {
       "id": "01c846cf906108f2",
       "title": "Nvidia Acquires Groq Assets in Record-Breaking $20B AI Chip Deal",
       "description": "Nvidia Acquires Groq's Assets for $20 Billion in Largest Deal on Record A Landmark Acquisition in the AI Chip Market Nvidia has made a massive splash in the tech industry by announcing its acquisition of AI chip startup Groq's assets for approximately $20 billion. This deal is not only the largest in Nvidia's history but also marks a significant milestone in the rapidly evolving landscape of artificial intelligence (AI) and high-performance computing. What does this acquisition mean? Enhanced AI",
@@ -1643,6 +1630,22 @@
         "development",
         "developer",
         "API"
+      ]
+    },
+    {
+      "id": "126f9b1456ded64b",
+      "title": "npx tagliatelle init : The code you will see is not JSX frontend , it’s pure Backend !!",
+      "description": "I’ve been watching the frontend world lean harder and harder into Server Actions, and you know ! Some of those fall into Spaghetti sauce. I realized that if those Jr devs are this afraid of writing \"real\" backend code, we should at least make the backend look familiar (and spicy 🌶️ ) to them. Tagliatelle.js It’s a backend framework that makes developers happy by solving a problem that absolutely never existed. 🙄😅 The Philosophy: • Pure Backend: No JSX here, just pure server-side logic. • Familia",
+      "url": "https://dev.to/malekabdelkader/npx-tagliatelle-init-the-code-you-will-see-is-not-jsx-frontend-its-pure-backend--2gpm",
+      "source": "Dev.to",
+      "author": "Malek",
+      "published": "2025-12-31T15:07:50+00:00",
+      "niche": "dev",
+      "score": 56,
+      "keywords": [
+        "framework",
+        "developer",
+        "code"
       ]
     },
     {
@@ -2288,48 +2291,6 @@
       "keywords": [
         "performance",
         "development"
-      ]
-    },
-    {
-      "id": "17b8329682363987",
-      "title": "AWS App Runner vs ECS Express Mode: Git, ECR, Scaling, and Security Explained",
-      "description": "Introduction AWS provides modern ways to run containerized applications without managing servers. Two popular options are AWS App Runner and Amazon ECS Express Mode. Both simplify container deployments, but they target different levels of control and use cases. This blog compares these services and provides guidance on which to use for different workloads, based on AWS documentation. Service Overview AWS App Runner App Runner is a fully managed service for running web apps and APIs: Git Integrat",
-      "url": "https://dev.to/aws-builders/aws-app-runner-vs-ecs-express-mode-git-ecr-scaling-and-security-explained-5673",
-      "source": "Dev.to",
-      "author": "Venkata Pavan Vishnu Rachapudi",
-      "published": "2025-12-24T15:13:28+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "API"
-      ]
-    },
-    {
-      "id": "af74619803ecd17d",
-      "title": "How to Test Healthcare APIs End-to-End Without Manual Test Scripts",
-      "description": "From the moment a patient books an appointment or medical records are updated, every step in a healthcare workflow depends on multiple backend systems working together. When APIs fail during patient onboarding, clinical data exchange, billing, or insurance processing, it can directly impact patient safety, compliance, and operational efficiency. That’s why reliable API testing is a non-negotiable part of building and scaling healthcare platforms. In this guide, I’ll show you how to test healthca",
-      "url": "https://dev.to/engroso/how-to-test-healthcare-apis-end-to-end-without-manual-test-scripts-5bp",
-      "source": "Dev.to",
-      "author": "Engroso",
-      "published": "2025-12-24T15:02:29+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "API"
-      ]
-    },
-    {
-      "id": "3fd460aec2f4e868",
-      "title": "Choosing the Right C++ Containers for Performance",
-      "description": "I wrote a short article on choosing C++ containers, focusing on memory layout and performance trade-offs in real systems. https://techfortalk.co.uk/2025/12/24/optimal-c-containers-for-performance-efficiency/",
-      "url": "https://dev.to/vivekbhadra/choosing-the-right-c-containers-for-performance-3a20",
-      "source": "Dev.to",
-      "author": "Vievk Bhadra",
-      "published": "2025-12-24T14:53:17+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "performance"
       ]
     },
     {
@@ -3853,17 +3814,18 @@
       ]
     },
     {
-      "id": "3099b8fd07e801a5",
-      "title": "AWS CDK 100 Drill Exercises #004: NAT Instance V2 — Cost-Effective NAT with Automated Scheduling and Patch Management",
-      "description": "Introduction This is the fourth installment of \"AWS CDK 100 Drill Exercises.\" For more information about AWS CDK 100 Drill Exercises, please refer to this article. In the previous article, we learned VPC basics and introduced a method to reduce NAT Gateways to a single instance for cost optimization in development environments. This time, we'll explain how to replace NAT Gateway with an EC2-based NAT instance for even greater cost savings. Why NAT Instance? Development and test environments ofte",
-      "url": "https://dev.to/issy929/aws-cdk-100-drill-exercises-004-nat-instance-v2-cost-effective-nat-with-automated-scheduling-49li",
+      "id": "edbf9312321ee021",
+      "title": "Java's Concurrency Revolution: How Immutability and Virtual Threads Changed Everything!",
+      "description": "Explore how Java 25's virtual threads, Scoped Values, and the shift toward immutability are transforming concurrent programming. Learn what changed, what broke, and how to write modern, thread-safe Java code. TL;DR - Java 25 Concurrency in 60 Seconds Don't have time to read the full article? Here's what you need to know: What The Guidance Virtual Threads Use for I/O-bound work. One virtual thread per task—don't pool them. synchronized ✅ Works fine now! Pinning fixed in Java 24 (carries to Java 2",
+      "url": "https://dev.to/dbc2201/javas-concurrency-revolution-how-immutability-and-virtual-threads-changed-everything-36kg",
       "source": "Dev.to",
-      "author": "TOMOAKI ishihara",
-      "published": "2025-12-24T15:24:21+00:00",
+      "author": "dbc2201",
+      "published": "2025-12-31T15:08:32+00:00",
       "niche": "dev",
-      "score": 51,
+      "score": 52,
       "keywords": [
-        "development"
+        "programming",
+        "code"
       ]
     },
     {
@@ -5561,40 +5523,46 @@
       ]
     },
     {
-      "id": "4d862115a978d59f",
-      "title": "Observability for Resilience on Amazon EKS with OpenTelemetry + Datadog (Free Tier)",
-      "description": "Building Dashboards That Truly Matter Resilience in cloud-native applications is not just about restarting pods or running across multiple Availability Zones. Without deep observability, you don’t know: where latency increases which service degrades first whether autoscaling actually works how long the system takes to recover In other words: without observability, you test resilience in the dark. In this article, you will learn how to build a complete observability platform for resilience on Ama",
-      "url": "https://dev.to/aws-builders/observability-for-resilience-on-amazon-eks-with-opentelemetry-datadog-free-tier-4a6c",
+      "id": "d811073385719af2",
+      "title": "🚀 Introducing Trace Dev — A New Platform Built for Developers",
+      "description": "I’m excited to share Trace Dev, a new web platform I’ve recently launched and deployed on Vercel (https://trace-dev.vercel.app/ ). This project is in its early stage and designed to evolve based on real developer feedback, contributions, and collaboration. Trace Dev aims to be a workspace where developers, makers, and side-project builders can explore, test workflows, and help shape a tool that fits real needs. 🧠 What Trace Dev Is (and What It Isn’t Yet) At launch, Trace Dev focuses on core util",
+      "url": "https://dev.to/rushikesh_bodakhe_db28644/introducing-trace-dev-a-new-platform-built-for-developers-19eg",
       "source": "Dev.to",
-      "author": "Rodrigo Fernandes",
-      "published": "2025-12-24T15:21:31+00:00",
+      "author": "Rushikesh Bodakhe",
+      "published": "2025-12-31T15:20:11+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
-      "id": "df144445b8e8e9a6",
-      "title": "Revolutionizing Language Learning for Kids: The Dex Camera",
-      "description": "Are we still stuck in the screen-centric approach to kids' language learning? Introducing the Dex Camera—a cutting-edge learning device that reimagines how children can engage with language in real-world contexts. In today’s digital age, children often learn languages through apps and screens, but this method can lack the interactivity and engagement needed for genuine learning. The Dex Camera addresses this gap by transforming everyday moments into valuable opportunities for language acquisitio",
-      "url": "https://dev.to/ayodele_jolayemi_a4bcec81/revolutionizing-language-learning-for-kids-the-dex-camera-4k5k",
+      "id": "d04f33dda348adbd",
+      "title": "2025: The Year AI Became My Coding Partner",
+      "description": "Looking back at 2025, the shift is unmistakable. This wasn't the year AI learned to write code it already could. This was the year AI learned to understand my codebase, my patterns, my workflows. The difference between 2024 and 2025 is the difference between a translator and a collaborator. My terminal became a conversation. My commits got better. My refactoring sessions that once took days now take hours. Here's what changed and why it matters. From Autocomplete to Autonomous The AI coding tool",
+      "url": "https://dev.to/mikulg/2025-the-year-ai-became-my-coding-partner-30ek",
       "source": "Dev.to",
-      "author": "Ayodele Jolayemi",
-      "published": "2025-12-24T14:58:19+00:00",
+      "author": "Mikul Gohil",
+      "published": "2025-12-31T15:17:11+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
-      "id": "8c86afa30233ec0c",
-      "title": "FinOps 101: What It Is and Why Cloud Teams Can’t Ignore It",
-      "description": "Cloud promised flexibility and speed. What it delivered was also complexity and unpredictable bills. As cloud spending grows into one of the largest IT cost centers, organizations are realizing that traditional budgeting no longer works. That is why Technology Radius highlights FinOps as a critical operating model for modern cloud teams (Technology Radius). FinOps is not about cutting costs blindly. It is about spending with intent. What Is FinOps? FinOps stands for Financial Operations for the ",
-      "url": "https://dev.to/rushikesh_langale_42ac365/finops-101-what-it-is-and-why-cloud-teams-cant-ignore-it-1h3g",
+      "id": "adeed1ad91b94ce7",
+      "title": "Deployment Types in Amazon ECS (Elastic Container Service)",
+      "description": "Introduction Amazon Elastic Container Service (Amazon ECS) is a completely managed container orchestration solution that simplifies the deployment, management, and scaling of containerized applications on AWS. A key factor in operating applications on ECS is the method of deploying new versions of your application. This blog will explore the deployment types in Amazon ECS, detail how each operates, identify when to utilize them, and discuss best practices. This blog is particularly beneficial fo",
+      "url": "https://dev.to/oncloud7/deployment-types-in-amazon-ecs-elastic-container-service-4c1c",
       "source": "Dev.to",
-      "author": "Rushikesh Langale",
-      "published": "2025-12-24T14:49:48+00:00",
+      "author": "On-cloud7",
+      "published": "2025-12-31T15:05:48+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "best practices"
+      ]
     },
     {
       "id": "02a9ceaf96ebeb99",
@@ -7913,6 +7881,54 @@
       "keywords": []
     },
     {
+      "id": "cc5d47a03740fcd6",
+      "title": "My 2025 wrap",
+      "description": "2025 was a rollercoaster for me. Looking back, I can clearly divide it into two distinct halves. One that tested me, and another that transformed me. The First Half: Climbing the Corporate Ladder January started strong. I got promoted at work, which was amazing! Though it was mostly a position bump, I was actually leading a project as an Associate Engineer. The best part? We went from 5 days in the office to just 2 days a week. But honestly, I still chose to work from the office most days becaus",
+      "url": "https://dev.to/varshithvhegde/my-2025-wrap-ek0",
+      "source": "Dev.to",
+      "author": "Varshith V Hegde",
+      "published": "2025-12-31T15:16:32+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "75068ad538dc44ce",
+      "title": "Skyflo: AI agent for Cloud & DevOps",
+      "description": "Cloud and DevOps work is not hard because the commands are hard. It is hard because your context is fragmented. Terminals, dashboards, logs, CI, rollouts Different auth models per system Different failure modes per workflow No shared audit trail of what happened and why Skyflo.ai is my attempt to reduce that fragmentation. Skyflo is an open-source AI agent for Cloud and DevOps. It unifies Kubernetes operations and CI/CD behind a natural language interface, with approvals built in. The important ",
+      "url": "https://dev.to/karanjagtiani/skyflo-ai-agent-for-cloud-devops-3a7f",
+      "source": "Dev.to",
+      "author": "Karan Jagtiani",
+      "published": "2025-12-31T15:13:44+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "b47543a129e6dcaa",
+      "title": "Kuinka rakensin käyttäjälähtöisen verkkotyökalun pörssisähkön hinnan seuraamiseen",
+      "description": "Pörssisähkö on monelle suomalaiselle arkipäivää, mutta sen ymmärtäminen ei ole aina helppoa. Sähkön hinta vaihtelee tunneittain, ja pienikin ero oikeassa ajoituksessa voi näkyä sähkölaskussa. Tästä huolimatta moni kokee, että hinnan seuraamiseen tarkoitetut verkkosivut ovat joko liian monimutkaisia tai keskittyvät liikaa muuhun kuin itse olennaiseen tietoon. Tässä artikkelissa käyn yksityiskohtaisesti läpi, miten rakensin yksinkertaisen mutta toimivan verkkotyökalun pörssisähkön hinnan seuraamis",
+      "url": "https://dev.to/sofiamayer_dev/kuinka-rakensin-kayttajalahtoisen-verkkotyokalun-porssisahkon-hinnan-seuraamiseen-3gge",
+      "source": "Dev.to",
+      "author": "Sofia Mayer",
+      "published": "2025-12-31T15:10:27+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "d5af8dfec02bd1d3",
+      "title": "Neuromorphic Computing in 2025: The Brain-Inspired Revolution Transforming AI",
+      "description": "[[Neuromorphic Computing in 2025: The Brain-Inspired Revolution Transforming AI As we close out 2025, the AI world is buzzing with energy-hungry data centers and massive GPUs powering large language models. But a quieter revolution is underway: neuromorphic computing. This brain-inspired approach promises to make AI dramatically more efficient, sustainable, and capable—especially for real-time, edge applications.](https://gadgethive24.blogspot.com/2025/12/neuromorphic-computing-in-2025-intel.htm",
+      "url": "https://dev.to/mehedi_gamerid_985e3f80d/neuromorphic-computing-in-2025-the-brain-inspired-revolution-transforming-ai-4hd5",
+      "source": "Dev.to",
+      "author": "Mehedi Gamer id",
+      "published": "2025-12-31T15:04:40+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "e18f7d1903a5ac30",
       "title": "Some people are becoming exceptional tool users. Others are becoming system builders. Over time, the second group will quietly replace the first, and that’s not a threat. It’s a natural evolution.",
       "description": "System Builders Will Replace Tool Users: And That’s a Good Thing Jaideep Parashar ・ Dec 25 #webdev #ai #developers #programming",
@@ -8013,6 +8029,20 @@
       ]
     },
     {
+      "id": "5849b10d31e63b90",
+      "title": "Claude wrote a functional NES emulator using my engine's API",
+      "description": "Comments",
+      "url": "https://carimbo.games/games/nintendo/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-31T13:07:22+00:00",
+      "niche": "dev",
+      "score": 48,
+      "keywords": [
+        "API"
+      ]
+    },
+    {
       "id": "664ed4333578557a",
       "title": "[Boost]",
       "description": "Todo lo nuevo de FinOps en AWS re:Invent 2025 Barbara Gaspar ・ Dec 27 #awsreinvent2025 #finops #aws #finopsfoundation",
@@ -8061,18 +8091,16 @@
       "keywords": []
     },
     {
-      "id": "81777afaacca4fd9",
-      "title": "[Boost]",
-      "description": "Semantic Typing We Ignore Vadym Yaroshchuk ・ Dec 24 #kotlin #architecture #programming",
-      "url": "https://dev.to/muhamadsyafii/-1124",
-      "source": "Dev.to",
-      "author": "Muhamad Syafii",
-      "published": "2025-12-24T14:49:24+00:00",
+      "id": "6b5380c7376d8e8c",
+      "title": "A look under the hood: How (and why) we built Question Assistant",
+      "description": "Evaluating question quality and determining the appropriate feedback required some classic ML techniques in addition to our GenAI solution.",
+      "url": "https://stackoverflow.blog/2025/12/31/a-look-under-the-hood-how-and-why-we-built-question-assistant/",
+      "source": "Stack Overflow Blog",
+      "author": "Derek Cheng, Caroline Thomas, Ryan Donovan",
+      "published": "2025-12-31T15:07:27+00:00",
       "niche": "dev",
-      "score": 45,
-      "keywords": [
-        "programming"
-      ]
+      "score": 46,
+      "keywords": []
     },
     {
       "id": "72e27555768cffdb",
@@ -8215,52 +8243,18 @@
       ]
     },
     {
-      "id": "ab98dcc37befae92",
-      "title": "When Compilers Surprise You",
+      "id": "ff3aa2bcc6aab863",
+      "title": "Zero-Code Instrumentation of an Envoy TCP Proxy Using eBPF",
       "description": "Comments",
-      "url": "https://xania.org/202512/24-cunning-clang",
+      "url": "https://sergiocipriano.com/beyla-envoy.html",
       "source": "Hacker News",
       "author": "Inconnu",
-      "published": "2025-12-24T13:27:50+00:00",
+      "published": "2025-12-31T14:43:38+00:00",
       "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "1a558b6350d7a18a",
-      "title": "Super Mario Bros. and Yoshi Games (Yields) Reduced Burnout Risk",
-      "description": "Comments",
-      "url": "https://games.jmir.org/2025/1/e84219/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-24T13:43:46+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "07fdcd95fa091487",
-      "title": "The Great Unracking: Saying goodbye to the servers at our physical datacenter",
-      "description": "So long and thanks for all the bits!",
-      "url": "https://stackoverflow.blog/2025/12/24/the-great-unracking-saying-goodbye-to-the-servers-at-our-physical-datacenter/",
-      "source": "Stack Overflow Blog",
-      "author": "Ryan Donovan",
-      "published": "2025-12-24T14:03:52+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "9adbda29ba719cf4",
-      "title": "We Abandoned Matrix: The Dark Truth About User Security and Safety (2024)",
-      "description": "Comments",
-      "url": "https://forum.hackliberty.org/t/why-we-abandoned-matrix-the-dark-truth-about-user-security-and-safety/224",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-24T15:06:26+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
+      "score": 45,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "d2eef2a875f3e14e",
@@ -9739,6 +9733,54 @@
       "keywords": []
     },
     {
+      "id": "d5e75b07ecce6dce",
+      "title": "Efficient method to capture CO2 from the atmosphere / Univ of Helsinki",
+      "description": "Comments",
+      "url": "https://www.helsinki.fi/en/news/innovations/efficient-method-capture-carbon-dioxide-atmosphere-developed-university-helsinki",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-31T13:59:09+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "92dae5e5b19cd667",
+      "title": "Fifteen Most Famous Transcendental Numbers",
+      "description": "Comments",
+      "url": "https://sprott.physics.wisc.edu/pickover/trans.html",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-31T12:32:27+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "370bbc0754aafbd3",
+      "title": "When square pixels aren't square",
+      "description": "Comments",
+      "url": "https://alexwlchan.net/2025/square-pixels/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-31T13:44:41+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "8fffb92622eb6c79",
+      "title": "Tell HN: Happy New Year",
+      "description": "Comments",
+      "url": "https://news.ycombinator.com/item?id=46443744",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-31T13:02:48+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "cecd3da845538339",
       "title": "React 19.2",
       "description": "React 19.2 adds new features like Activity, React Performance Tracks, useEffectEvent, and more.",
@@ -9749,8 +9791,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "performance",
-        "React 19"
+        "React 19",
+        "performance"
       ]
     },
     {
@@ -9840,8 +9882,8 @@
       "score": 40,
       "keywords": [
         "release",
-        "developer",
-        "performance"
+        "performance",
+        "developer"
       ]
     },
     {
@@ -10158,8 +10200,8 @@
       "score": 38,
       "keywords": [
         "release",
-        "API",
-        "React 19"
+        "React 19",
+        "API"
       ]
     },
     {
@@ -10501,10 +10543,10 @@
       "score": 30,
       "keywords": [
         "release",
-        "API",
         "code",
-        "framework",
-        "performance"
+        "performance",
+        "API",
+        "framework"
       ]
     },
     {
@@ -10809,8 +10851,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "framework",
-        "release"
+        "release",
+        "framework"
       ]
     },
     {
@@ -10824,8 +10866,8 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "developer",
         "performance",
+        "developer",
         "code"
       ]
     },
@@ -10870,8 +10912,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -10885,8 +10927,8 @@
       "niche": "dev",
       "score": 18,
       "keywords": [
-        "Angular",
-        "PHP"
+        "PHP",
+        "Angular"
       ]
     },
     {
@@ -10942,9 +10984,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
+        "development",
         "developer",
-        "API",
-        "development"
+        "API"
       ]
     },
     {
@@ -10958,9 +11000,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "tutorial",
+        "development",
         "PHP",
-        "development"
+        "tutorial"
       ]
     },
     {
@@ -10974,9 +11016,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "tutorial",
+        "development",
         "PHP",
-        "development"
+        "tutorial"
       ]
     },
     {
@@ -11005,8 +11047,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "code",
-        "development"
+        "development",
+        "code"
       ]
     },
     {
@@ -11035,22 +11077,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "API",
-        "code"
-      ]
-    },
-    {
-      "id": "22cc1eee369d54d9",
-      "title": "Settle down, nerds. AI is a normal technology",
-      "description": "Ryan welcomes Anil Dash, writer and former Stack Overflow board member, back to the show to discuss how AI is not a magical technology, but rather the normal next step in computing’s evolution. They explore the importance of democratizing access to technology, the unique challenges that LLMs’ non-determinism poses, and how developers can keep Stack Overflow’s ethos of community alive in a world of AI.",
-      "url": "https://stackoverflow.blog/2025/12/23/settle-down-nerds-ai-is-a-normal-technology/",
-      "source": "Stack Overflow Blog",
-      "author": "Phoebe Sajor",
-      "published": "2025-12-23T08:40:00+00:00",
-      "niche": "dev",
-      "score": 15,
-      "keywords": [
-        "developer"
+        "code",
+        "API"
       ]
     },
     {
@@ -11120,8 +11148,8 @@
       "niche": "dev",
       "score": 15,
       "keywords": [
-        "developer",
-        "library"
+        "library",
+        "developer"
       ]
     },
     {
@@ -11283,18 +11311,6 @@
       "keywords": []
     },
     {
-      "id": "07d341acf2c33072",
-      "title": "'Three norths' alignment about to end",
-      "description": "Comments",
-      "url": "https://www.spatialsource.com.au/three-norths-alignment-about-to-end/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-24T15:17:48+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
       "id": "5ffd1069025813cc",
       "title": "Doom in Django: testing the limits of LiveView at 600.000 divs/segundo",
       "description": "Comments",
@@ -11302,6 +11318,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-28T08:10:01+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "658a2c12f6309da3",
+      "title": "Winnie-the-Pooh brings 100 years of fame to forest",
+      "description": "Comments",
+      "url": "https://www.bbc.com/news/articles/c4g9dzj1xj3o",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-25T03:49:33+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -11583,8 +11611,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "programming",
-        "development"
+        "development",
+        "programming"
       ]
     },
     {
@@ -12253,6 +12281,18 @@
       "published": "2025-09-26T00:00:00+00:00",
       "niche": "dev",
       "score": 9,
+      "keywords": []
+    },
+    {
+      "id": "07fdcd95fa091487",
+      "title": "The Great Unracking: Saying goodbye to the servers at our physical datacenter",
+      "description": "So long and thanks for all the bits!",
+      "url": "https://stackoverflow.blog/2025/12/24/the-great-unracking-saying-goodbye-to-the-servers-at-our-physical-datacenter/",
+      "source": "Stack Overflow Blog",
+      "author": "Ryan Donovan",
+      "published": "2025-12-24T14:03:52+00:00",
+      "niche": "dev",
+      "score": 8,
       "keywords": []
     },
     {
