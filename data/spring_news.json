@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-01T15:32:18.508413+00:00",
-  "total_articles": 188,
+  "last_updated": "2026-01-01T18:40:31.997901+00:00",
+  "total_articles": 187,
   "articles": [
     {
       "id": "61cf2080d5ddc29a",
@@ -94,6 +94,18 @@
       "source": "Java Code Geeks",
       "author": "Yatin Batra",
       "published": "2025-12-31T15:46:00+00:00",
+      "niche": "spring",
+      "score": 57,
+      "keywords": []
+    },
+    {
+      "id": "2986d9f604f2cf84",
+      "title": "Building AI-Powered Applications with Spring AI and LangChain4j",
+      "description": "1. Introduction: Java Enters the AI Arena For years, Python dominated AI development while Java—the backbone of enterprise systems—remained on the sidelines. That changed dramatically in 2023-2024 with the emergence of Spring AI and LangChain4j, two frameworks purpose-built for integrating LLMs into Java applications. By 2025, both have matured into production-ready platforms powering enterprise AI &#8230;",
+      "url": "https://www.javacodegeeks.com/2026/01/building-ai-powered-applications-with-spring-ai-and-langchain4j.html",
+      "source": "Java Code Geeks",
+      "author": "Eleftheria Drosopoulou",
+      "published": "2026-01-01T17:16:00+00:00",
       "niche": "spring",
       "score": 57,
       "keywords": []
@@ -204,42 +216,6 @@
       "published": "2025-12-30T12:00:11+00:00",
       "niche": "spring",
       "score": 46,
-      "keywords": []
-    },
-    {
-      "id": "f342d5d14f417575",
-      "title": "Serverless Java in 2026: AWS Lambda, Azure Functions, and Beyond",
-      "description": "For years, Java and serverless computing seemed fundamentally incompatible. The JVM&#8217;s startup characteristics—loading classes, initializing the runtime, warming up JIT compilation—made Java functions painfully slow to start. While Python and Node.js functions would initialize in tens of milliseconds, Java functions routinely took 5-10 seconds for cold starts. This made Java impractical for serverless workloads where &#8230;",
-      "url": "https://www.javacodegeeks.com/2025/12/serverless-java-in-2026-aws-lambda-azure-functions-and-beyond.html",
-      "source": "Java Code Geeks",
-      "author": "Eleftheria Drosopoulou",
-      "published": "2025-12-25T18:31:00+00:00",
-      "niche": "spring",
-      "score": 42,
-      "keywords": []
-    },
-    {
-      "id": "4fb223c073666761",
-      "title": "How to Manage Python Packages with uv",
-      "description": "Python package managers allow you to install and manage dependencies like Flask, Requests, and Matplotlib directly from your terminal. In this article, we will explore how to use uv, a modern and high-speed Python package manager that simplifies environment and dependency management for your projects. 1. What is uv? uv is a modern, high-performance Python &#8230;",
-      "url": "https://www.javacodegeeks.com/using-sftp-with-jsch.html-2",
-      "source": "Java Code Geeks",
-      "author": "Omozegie Aziegbe",
-      "published": "2025-12-25T16:18:00+00:00",
-      "niche": "spring",
-      "score": 42,
-      "keywords": []
-    },
-    {
-      "id": "ff1e47c46207ff64",
-      "title": "Using SFTP with JSch",
-      "description": "Secure File Transfer Protocol (SFTP) is a network protocol that provides secure file transfer capabilities over SSH (Secure Shell). It is widely used for securely uploading and downloading files to and from remote servers. In Java applications, JSch (Java Secure Channel) is a popular library that allows developers to connect to an SSH server and &#8230;",
-      "url": "https://www.javacodegeeks.com/using-sftp-with-jsch.html",
-      "source": "Java Code Geeks",
-      "author": "Yatin Batra",
-      "published": "2025-12-25T16:16:00+00:00",
-      "niche": "spring",
-      "score": 42,
       "keywords": []
     },
     {
@@ -562,6 +538,30 @@
       "source": "Java Code Geeks",
       "author": "Java Code Geeks",
       "published": "2026-01-01T11:30:30+00:00",
+      "niche": "spring",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "d605ea2bcffe1cd7",
+      "title": "Using the Engine Test Kit in JUnit 5",
+      "description": "The JUnit 5 Engine Test Kit provides a way to programmatically run test plans and collect detailed insights about their execution. It lets us see summary statistics, such as how many tests succeeded, failed, or were skipped. Additionally, we can inspect individual test results to verify whether each outcome matches our expectations. In this article, &#8230;",
+      "url": "https://www.javacodegeeks.com/using-the-engine-test-kit-in-junit-5.html",
+      "source": "Java Code Geeks",
+      "author": "Omozegie Aziegbe",
+      "published": "2026-01-01T16:02:00+00:00",
+      "niche": "spring",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "553cfff5ab08a52b",
+      "title": "Turning Architectural Assumptions into Enforceable Code",
+      "description": "When Everything Works But Nothing Aligns There is a moment in every large AI initiative when the system behaves correctly, the model behaves correctly, and yet the entire pipeline enters a state where nothing aligns with what was promised. The logs look fine. Dashboards look clean. Latency spikes are non-critical. But a design boundary that was agreed upon months earlier no longer maps to the reality the system is operating in. The failure does not originate in code. It originates in the assumpt",
+      "url": "https://feeds.dzone.com/link/18931/17245100/enforce-architectural-assumptions-with-code",
+      "source": "DZone Microservices",
+      "author": "Anurag Jindal",
+      "published": "2026-01-01T16:00:00+00:00",
       "niche": "spring",
       "score": 42,
       "keywords": []
@@ -1486,18 +1486,6 @@
       "source": "DZone Microservices",
       "author": "Sylvain Kalache",
       "published": "2025-12-16T20:00:00+00:00",
-      "niche": "spring",
-      "score": 12,
-      "keywords": []
-    },
-    {
-      "id": "e1583a529b45c29c",
-      "title": "Event-Driven Architecture's Dark Secret: Why 80% of Event Streams Are Wasted Resources",
-      "description": "Event-driven architecture has become the darling of modern software engineering. Walk into any tech conference, and you'll hear evangelists preaching about decoupling, scalability, and real-time processing. What they don't tell you is the dirty secret hiding behind all those beautiful architecture diagrams: most of what we're streaming is waste. After analyzing production deployments across 15 different applications over the past 18 months, I've uncovered a pattern that should make every archite",
-      "url": "https://feeds.dzone.com/link/18931/17235775/event-driven-architecture-why-80-percent-of-event-streams-wasted",
-      "source": "DZone Microservices",
-      "author": "Dinesh Elumalai",
-      "published": "2025-12-16T19:00:00+00:00",
       "niche": "spring",
       "score": 12,
       "keywords": []
