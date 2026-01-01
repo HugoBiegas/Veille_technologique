@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-01T18:37:39.765300+00:00",
-  "total_articles": 960,
+  "last_updated": "2026-01-01T21:25:31.544874+00:00",
+  "total_articles": 966,
   "articles": [
     {
       "id": "f8dc954cb8ca9308",
@@ -2313,34 +2313,6 @@
       ]
     },
     {
-      "id": "6e8e3c7e0fcf0dce",
-      "title": "Building a Blazing Fast CI Engine in Rust (That Dogfoods Itself!) 🦀⚡",
-      "description": "Why Another CI? 🤔 Let's face it: CI/CD can be painful. Slow feedback loops, \"works on my machine\" but fails on CI, and opaque YAML configurations are the industry standard. I wanted something different. I wanted a CI system that: Runs Locally exactly like it runs remotely. Is Fast. (Written in Rust + Tokio). Is Extensible. (Wasm + Native Plugins). Looks Epic. (Because DX matters!). So, I built Oxide CI. 🚀 Meet Oxide CI Oxide CI is a high-performance, distributed CI/CD engine designed to solve th",
-      "url": "https://dev.to/copyleftdev/building-a-blazing-fast-ci-engine-in-rust-that-dogfoods-itself-458l",
-      "source": "Dev.to",
-      "author": "Mr. 0x1",
-      "published": "2025-12-25T20:50:31+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "performance"
-      ]
-    },
-    {
-      "id": "596c990efb30fc77",
-      "title": "Oracle AI Database 26ai — Dictionary Protection",
-      "description": "When we grant a system ANY privilege such as SELECT ANY TABLE, DROP ANY TABLE, and so on to a user, that user still cannot access objects in the SYS schema or Data Dictionary tables: SQL*Plus: Release 10.1.0.4.2 - Production on Tue Jan 9 10:38:31 2024 SQL> show user USER is \"SYS\" SQL> create table sys.tb as select * from dual; Table created. SQL> create user vahid identified by a; User created. SQL> grant create session,select any table to vahid; Grant succeeded. SQL> conn vahid/a Connected. SQL",
-      "url": "https://dev.to/vahidusefzadeh/oracle-ai-database-26ai-dictionary-protection-3m91",
-      "source": "Dev.to",
-      "author": "Vahid Yousefzadeh",
-      "published": "2025-12-25T20:46:45+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "release"
-      ]
-    },
-    {
       "id": "fe9cd3747909bb0f",
       "title": "How Amazon Sponsored Ad Placement Scraper Achieves 96% Success Rate",
       "description": "Understanding why SP ad scraping success rates vary from 30% to 96%+ and how to choose the right solution for your business. 🚨 The Problem: Incomplete Data Leads to Flawed Decisions Last year, while analyzing competitor advertising strategies, our team discovered something puzzling: scraping the same keyword \"wireless earbuds\" with different tools yielded vastly different numbers of Sponsored Products ads—sometimes double the difference. Initially, we thought it was a timing issue. But the reali",
@@ -3376,6 +3348,20 @@
       ]
     },
     {
+      "id": "db4611b44b2794f1",
+      "title": "🧠_Deep_Dive_Memory_Management_Performance[20260101204922]",
+      "description": "As an engineer who has experienced countless performance tuning cases, I deeply understand how much memory management affects web application performance. In a recent project, we encountered a tricky performance issue: the system would experience periodic latency spikes under high concurrency. After in-depth analysis, we found that the root cause was the garbage collection mechanism. Today I want to share a deep dive into memory management and how to avoid performance traps caused by GC. 💡 Core ",
+      "url": "https://dev.to/member_8659c28a/deepdivememorymanagementperformance20260101204922-14h7",
+      "source": "Dev.to",
+      "author": "member_8659c28a",
+      "published": "2026-01-01T20:49:23+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "performance"
+      ]
+    },
+    {
       "id": "9f653eda84f6c9af",
       "title": "AI integration, semiconductor advancements, and strategic tech shifts dominate year-end tech news.",
       "description": "Year-End Tech Deep Dive: AI, Security, and Infrastructure Shifts This post will explore the latest developments across the tech landscape, focusing on how AI is being integrated, secured, and deployed. We'll cover: AI Accessibility & Integration: Google's aggressive pricing on AI Pro, and Waymo's testing of Gemini as an in-car assistant in robotaxis. Software Security & Modernization: Microsoft's ambitious plan to migrate its C/C++ codebase to Rust by 2030, leveraging AI for security enhancement",
@@ -3748,48 +3734,6 @@
       "keywords": [
         "programming",
         "code"
-      ]
-    },
-    {
-      "id": "c71526221e1d0a7d",
-      "title": "Maximize Developer Revenue with Monetzly's AI Monetization Strategies",
-      "description": "Advertising is Evolving: Here's Where It's Heading in the AI Era As the landscape of AI applications continues to flourish, developers are increasingly faced with a pressing challenge: How do you monetize an AI app without sacrificing user experience? Enter Monetzly, a game-changing platform that’s redefining the way we think about conversation commerce. Imagine a world where you can monetize your AI application without imposing subscriptions or paywalls, while simultaneously earning revenue thr",
-      "url": "https://dev.to/monetzly/maximize-developer-revenue-with-monetzlys-ai-monetization-strategies-3jb1",
-      "source": "Dev.to",
-      "author": "Monetzly",
-      "published": "2025-12-25T21:12:13+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "developer"
-      ]
-    },
-    {
-      "id": "943e952077406be9",
-      "title": "8 Tools Developers Reach For After Their SaaS Stops Being Fun",
-      "description": "How to stop firefighting, regain control, and make building enjoyable again — a practical, opinionated guide for indie hackers, founders, and dev teams “You start a SaaS for the thrill of building. Then you get paged at 2 AM, billed for a data spike, and spend more time on refunds and cron jobs than features. That’s when the real tools show up.” 🔥 If you’re reading this, you’ve hit that moment: your toy product turned into a product that runs you. Bugs, scaling shocks, confusing billing, user ch",
-      "url": "https://dev.to/dev_resources/8-tools-developers-reach-for-after-their-saas-stops-being-fun-424a",
-      "source": "Dev.to",
-      "author": "Dev. Resources",
-      "published": "2025-12-25T21:02:30+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "developer"
-      ]
-    },
-    {
-      "id": "9c2e745e84c8ef9c",
-      "title": "Merry Christmas… in Your Linux Terminal 🎄",
-      "description": "And a Gentle Introduction to the Python CLI Ecosystem Introduction Today is Christmas — and if you’re reading this, I hope you’re doing well. After a long year, our minds often try to create a false sense of urgency. Sometimes, the best thing we can do is pause, breathe, and say: “Not now.” With that in mind, this article brings a simple, fun, and educational tutorial, perfect for the holiday season. The goal is straightforward: 👉 run a Christmas tree animation directly in your Linux terminal. Y",
-      "url": "https://dev.to/igorgbr/merry-christmas-in-your-linux-terminal-5ei2",
-      "source": "Dev.to",
-      "author": "Igor Giamoniano",
-      "published": "2025-12-25T20:59:36+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "tutorial"
       ]
     },
     {
@@ -5387,66 +5331,6 @@
       "keywords": [
         "development"
       ]
-    },
-    {
-      "id": "744d1c35f93ef368",
-      "title": "Screen Sharing for Hyprland on Fedora 43",
-      "description": "I've already published a clean Hyprland build for Fedora 43 — now I've added xdg-desktop-portal-hyprland to the same COPR repository. The Solution xdg-desktop-portal-hyprland with proper RUNPATH pointing to the vendored libraries. Install sudo dnf copr enable ashbuk/Hyprland-Fedora sudo dnf install hyprland xdg-desktop-portal-hyprland Screen sharing tested in Discord, Google Meet, and other WebRTC apps via Firefox and Chrome. Links COPR repository: https://copr.fedorainfracloud.org/coprs/ashbuk/",
-      "url": "https://dev.to/ashbuk/screen-sharing-for-hyprland-on-fedora-43-1di",
-      "source": "Dev.to",
-      "author": "Asher Buk",
-      "published": "2025-12-25T21:02:45+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "3918bfbda7bd9ef0",
-      "title": "🎄 Christmas is the perfect excuse to explain real Agent design 😉😁",
-      "description": "People build “Christmas AI assistants.” Most of them are cute. So I used Christmas as a design probe to walk through how I’d design a real agent system, one that can handle messy intent, constraints, and confidence. Because if your agent can’t survive gift planning under budget + deadlines, it won’t survive production either. Why this use case is a great stress test Christmas planning is deceptively hard: The intent is vague: “I want to get Christmas sorted.” Constraints are real: budget, shippi",
-      "url": "https://dev.to/dowhatmatters/christmas-is-the-perfect-excuse-to-explain-real-agent-design-l7g",
-      "source": "Dev.to",
-      "author": "Anindya Obi",
-      "published": "2025-12-25T21:02:04+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "f8ea564ff5498e58",
-      "title": "The Lawyer's SEO Paradox: Why Mangools Is the Only Tool That Solves Your Real Problem (It's Not Keywords)",
-      "description": "Your Law Firm's Website Is a Liability, Not an Asset You bill $500/hour for your expertise, yet your website—the digital front door to your practice—operates at a loss. It's not just about \"getting more clients.\" The real, unspoken pain point for lawyers in 2025 is opportunity cost. Every hour spent fumbling with generic SEO advice or chasing vanity metrics is an hour not spent on billable work, case strategy, or client relationships. Most articles tell you to \"target local keywords\" or \"write b",
-      "url": "https://dev.to/alan_luu/the-lawyers-seo-paradox-why-mangools-is-the-only-tool-that-solves-your-real-problem-its-not-5e85",
-      "source": "Dev.to",
-      "author": "alan",
-      "published": "2025-12-25T21:01:11+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "f47a4db5a2e72029",
-      "title": "Week 2 Scripting Challenge: Caesarian Cipher",
-      "description": "Week 2 Security Challenge: Caesar Cipher 💡 Following along? All exercises are open source! Star the AppSec-Exercises repo to track my 48-week journey from Intel Security to AppSec Engineer. \"Why would a security engineer need to know a cipher that's been broken for 2,000 years?\" Because Grace Nolan's security interview list explicitly includes \"Caesar cipher and basic crypto\" as a common coding challenge. Here's why it matters. Why Caesar Cipher in Security Interviews? 1. Tests String Manipulati",
-      "url": "https://dev.to/fosres/week-2-scripting-challenge-caesarian-cipher-5916",
-      "source": "Dev.to",
-      "author": "fosres",
-      "published": "2025-12-25T20:59:23+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "d568d487fd7694f4",
-      "title": "Oracle AI Database 26ai— Automatic Transaction Rollback (Priority Transactions with high, medium and low priority)",
-      "description": "**If two users attempt to modify the same record, the user who issues the UPDATE statement later will be blocked and will remain in a blocked state until the first user (the one who acquired the record earlier) ends their transaction. — session 1: SQL> select sid from v$mystat where rownum=1; SID ---------- 2190 SQL> update USEF.TBL1 set id=1; 1 row updated — session 2: SQL> select sid from v$mystat where rownum=1; SID ---------- 944 SQL> update USEF.TBL1 set id=1; Executing… We can see the bloc",
-      "url": "https://dev.to/vahidusefzadeh/oracle-ai-database-26ai-automatic-transaction-rollback-priority-transactions-with-high-medium-dm1",
-      "source": "Dev.to",
-      "author": "Vahid Yousefzadeh",
-      "published": "2025-12-25T20:52:49+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
     },
     {
       "id": "ca067b7db62bef43",
@@ -7829,6 +7713,102 @@
       ]
     },
     {
+      "id": "04e4e478df15fa5e",
+      "title": "The strange comfort of vibe coding (and when it backfires)",
+      "description": "The birth of vibe coding We probably all know this by now, but let’s set some ground rules anyway so we’re on the same page moving forward: \"Vibe coding\" is a term crafted by Andrey Karpathy, who describes a phenomenon where someone would just take the LLM and go through the entire process of creating a piece of software (may it be a landing page, a web app or a mobile app) while relying entirely on AI. You describe the expected outcome and, from that point on, you mostly just hit Accept as if y",
+      "url": "https://dev.to/dominik_niewiadomski/the-strange-comfort-of-vibe-coding-and-when-it-backfires-c38",
+      "source": "Dev.to",
+      "author": "Dominik Niewiadomski",
+      "published": "2026-01-01T21:01:54+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "b84f3f069eb86b3c",
+      "title": "On the (Statistical) Detection of Adversarial Examples",
+      "description": "How AI spots sneaky “adversarial” inputs Some AI systems get tricked by tiny changes to images or files, those are called adversarial inputs and they can make a model give a wrong answer. We found these sneaky examples look different from normal data if you check them the right way, so you can detect when a set of inputs is suspicious. By adding one extra output to a model, the system learns to flag such odd items as outliers, instead of quietly giving the wrong result. Simple statistical checks",
+      "url": "https://dev.to/paperium/on-the-statistical-detection-of-adversarial-examples-5cij",
+      "source": "Dev.to",
+      "author": "Paperium",
+      "published": "2026-01-01T21:00:10+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "36e1657a16e4e772",
+      "title": "How I handled real-time notifications in a MERN stack using a Socket.io Singleton",
+      "description": "Hi Dev Community! 👋 I recently built Peekr, an anonymous social network, and I wanted to share a quick tip on handling WebSockets in React. The Problem: My notification bell was re-rendering and creating multiple socket connections, leading to memory leaks and ghost notifications. The Fix: I implemented a Singleton pattern for the socket instance. By centralizing the connection in one file, I ensure that the app uses only one socket across the entire lifecycle. The Stack: MongoDB, Express, React",
+      "url": "https://dev.to/geoffreyg81/how-i-handled-real-time-notifications-in-a-mern-stack-using-a-socketio-singleton-701",
+      "source": "Dev.to",
+      "author": "geoffreyg81",
+      "published": "2026-01-01T20:59:05+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "2cfd12be80f1a3df",
+      "title": "Class Diagram",
+      "description": "Class diagram is the backbone of object-oriented modeling - it shows how different entities (people, things, and data) relate to each other. In other words, it shows the static structures of the system. A class diagram describes the attributes and operations of a class and also the constraints imposed on the system. Class diagrams are widely used in the modeling of object-oriented systems because they are the only UML diagrams that can be mapped directly to object-oriented languages. The purpose",
+      "url": "https://dev.to/obrutus/class-diagram-cmg",
+      "source": "Dev.to",
+      "author": "Aniket Vaishnav",
+      "published": "2026-01-01T20:57:30+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "19e258d1e3f33842",
+      "title": "Why High-Cardinality Metrics Break Everything",
+      "description": "High-cardinality metrics are one of those ideas that sound obviously right—until you try to use them in production. In theory, they promise precision. Instead of averages and rollups, you get specificity: per-request, per-user ID, per-container, per-feature insights. The kind of detail engineers instinctively want when something is on fire. And then things start breaking. Not immediately. Not loudly. But quietly—often in ways that feel like mysterious bugs until you realize the system itself was",
+      "url": "https://dev.to/last9/why-high-cardinality-metrics-break-everything-36d",
+      "source": "Dev.to",
+      "author": "Nishant Modak",
+      "published": "2026-01-01T20:56:38+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "2179986eefa278af",
+      "title": "Activity Diagram",
+      "description": "We use Activity Diagrams to illustrate the flow of control in a system. An activity diagram shows the flow of control for a system functionality; it emphasizes the condition of flow and the sequence in which it happens. We can also use an activity diagram to refer to the steps involved in the execution of a use case. Activity diagrams illustrate the dynamic nature of a system by modeling the flow of control from activity to activity. An activity represents an operation on some class in the syste",
+      "url": "https://dev.to/obrutus/activity-diagram-1obc",
+      "source": "Dev.to",
+      "author": "Aniket Vaishnav",
+      "published": "2026-01-01T20:56:37+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "c6e70308b3682731",
+      "title": "Question: How do you Handle unary operators (specifically right-associative ones)?",
+      "description": "I made my own parser, but I keep going to this same bump: chained unary subtraction and inversion/negation (- and !) are REALLY, REALLY hard to implement. Something like ---2 is lexed as -u -u -u 2, but the problem is; how do you negate a negation? I've made a pseudo-answer by marking their indexes in a dictionary and optimizing it so that -u -u -u becomes just -u, but thats more of a short-cut and also it still doesn't really solve the problem. Even if I optimized it, I would get 2 for the numb",
+      "url": "https://dev.to/ryan_bae_5bd7d40241e52c14/question-how-do-you-handle-unary-operators-specifically-right-associative-ones-46a0",
+      "source": "Dev.to",
+      "author": "Ryan Bae",
+      "published": "2026-01-01T20:56:21+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "30aa716f31b6df61",
+      "title": "Introducing AdCraft AI: Generate High-Converting Ad Creatives with AI",
+      "description": "What is AdCraft AI? AdCraft AI is an AI-powered ad creative generator that helps marketers create high-converting ad copy in seconds. Key Features Smart AI Copy Generation: Powered by advanced language models Multi-Platform Support: Optimized for Meta, Google, TikTok, and LinkedIn Transparent Pricing: Starting at /usr/bin/bash/month for the free tier Try It Now Check out AdCraft AI: https://adcraft-ai-genesis.netlify.app Built with Next.js 14, Groq AI, and deployed on Netlify",
+      "url": "https://dev.to/ben_stone_5608b8e2d9f8973/introducing-adcraft-ai-generate-high-converting-ad-creatives-with-ai-4bf",
+      "source": "Dev.to",
+      "author": "Ben Stone",
+      "published": "2026-01-01T20:50:22+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "012e1fffb290f33c",
       "title": "[Boost]",
       "description": "The Quiet Revolution in Developer Workflows: Why Static Code Is Dying Jaideep Parashar ・ Dec 24 #webdev #ai #devops #discuss",
@@ -9833,6 +9813,66 @@
       "keywords": []
     },
     {
+      "id": "a3f1e56fcb7e3c82",
+      "title": "Anyone else noticing how fast hiring is changing? Remote interviews, AI-based screening, automated assessments — it’s wild. I’ve been exploring AI For Interview solutions to stay competitive, and it honestly makes a difference",
+      "description": "",
+      "url": "https://dev.to/jeenifer_beezer/anyone-else-noticing-how-fast-hiring-is-changing-remote-interviews-ai-based-screening-automated-pj9",
+      "source": "Dev.to",
+      "author": "Jeenifer Beezer",
+      "published": "2026-01-01T21:09:58+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "5d50f62c319e9005",
+      "title": "Linux is good now; to feel like you actually own your PC, put Linux on it",
+      "description": "Comments",
+      "url": "https://www.pcgamer.com/software/linux/im-brave-enough-to-say-it-linux-is-good-now-and-if-you-want-to-feel-like-you-actually-own-your-pc-make-2026-the-year-of-linux-on-your-desktop/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-01T20:35:11+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "664052adb62b4365",
+      "title": "Dell's version of the DGX Spark fixes pain points",
+      "description": "Comments",
+      "url": "https://www.jeffgeerling.com/blog/2025/dells-version-dgx-spark-fixes-pain-points",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-01T19:11:53+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "abacc92e73525522",
+      "title": "A website to destroy all websites",
+      "description": "Comments",
+      "url": "https://henry.codes/writing/a-website-to-destroy-all-websites/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-01T20:36:46+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "c89b3143fcfe0dd0",
+      "title": "Cycling Game (Mini Neural Net Demo)",
+      "description": "Comments",
+      "url": "https://www.doc.ic.ac.uk/~ajd/Cycling/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-01T21:10:31+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "aac61a613c7849e9",
       "title": "Touch Targets and Web Accessibility",
       "description": "Learn about touch target accessibility standards and WCAG guidelines. Discover why 24x24px or 44x44px targets improve usability for all users with code examples. Continue reading Touch Targets and Web Accessibility on SitePoint.",
@@ -9857,8 +9897,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "React 19",
-        "performance"
+        "performance",
+        "React 19"
       ]
     },
     {
@@ -9915,9 +9955,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "code",
         "release",
-        "performance"
+        "performance",
+        "code"
       ]
     },
     {
@@ -9931,9 +9971,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "API",
         "release",
-        "developer"
+        "developer",
+        "API"
       ]
     },
     {
@@ -9976,18 +10016,6 @@
       "published": "2025-12-30T13:01:03+00:00",
       "niche": "dev",
       "score": 39,
-      "keywords": []
-    },
-    {
-      "id": "116b7282d73eb61c",
-      "title": "Fahrplan – 39C3",
-      "description": "Comments",
-      "url": "https://fahrplan.events.ccc.de/congress/2025/fahrplan/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-25T18:40:14+00:00",
-      "niche": "dev",
-      "score": 38,
       "keywords": []
     },
     {
@@ -10231,6 +10259,42 @@
       "keywords": []
     },
     {
+      "id": "0a341f72bc7cf977",
+      "title": "Show HN: OpenWorkers – Self-hosted Cloudflare workers in Rust",
+      "description": "Comments",
+      "url": "https://openworkers.com/introducing-openworkers",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-01T15:09:06+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
+      "id": "3f8e82b2d7e67148",
+      "title": "Python numbers every programmer should know",
+      "description": "Comments",
+      "url": "https://mkennedy.codes/posts/python-numbers-every-programmer-should-know/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-01T14:39:23+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
+      "id": "ea291183e66a5200",
+      "title": "2025 Letter",
+      "description": "Comments",
+      "url": "https://danwang.co/2025-letter/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-01T14:32:12+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
       "id": "4e6d7290f5ff11d8",
       "title": "React Native 0.80 - React 19.1, JS API Changes, Freezing Legacy Arch and much more",
       "description": "Today we are excited to release React Native 0.80!",
@@ -10241,8 +10305,8 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "React 19",
         "release",
+        "React 19",
         "API"
       ]
     },
@@ -10309,8 +10373,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -10324,8 +10388,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -10381,8 +10445,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "API",
-        "framework"
+        "framework",
+        "API"
       ]
     },
     {
@@ -10470,18 +10534,6 @@
       ]
     },
     {
-      "id": "b9cc9bb8ea049ad9",
-      "title": "Show HN: Aroma: Every TCP Proxy Is Detectable with RTT Fingerprinting",
-      "description": "Comments",
-      "url": "https://github.com/Sakura-sx/Aroma",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-25T20:34:59+00:00",
-      "niche": "dev",
-      "score": 32,
-      "keywords": []
-    },
-    {
       "id": "bf2881baf2818aa9",
       "title": "Animated AI",
       "description": "Comments",
@@ -10525,6 +10577,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-27T00:03:56+00:00",
+      "niche": "dev",
+      "score": 32,
+      "keywords": []
+    },
+    {
+      "id": "8d892efa19c42696",
+      "title": "C-events, yet another event loop, simpler, smaller, faster, safer",
+      "description": "Comments",
+      "url": "https://zelang-dev.github.io/c-events/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-26T14:06:47+00:00",
       "niche": "dev",
       "score": 32,
       "keywords": []
@@ -10608,11 +10672,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "API",
         "framework",
-        "performance",
         "release",
-        "code"
+        "performance",
+        "code",
+        "API"
       ]
     },
     {
@@ -10890,8 +10954,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "API",
-        "release"
+        "release",
+        "API"
       ]
     },
     {
@@ -10920,8 +10984,8 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "code",
         "performance",
+        "code",
         "developer"
       ]
     },
@@ -10936,8 +11000,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "code",
-        "performance"
+        "performance",
+        "code"
       ]
     },
     {
@@ -11038,8 +11102,8 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "API",
         "development",
+        "API",
         "developer"
       ]
     },
@@ -11054,8 +11118,8 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "tutorial",
         "development",
+        "tutorial",
         "PHP"
       ]
     },
@@ -11070,8 +11134,8 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "tutorial",
         "development",
+        "tutorial",
         "PHP"
       ]
     },
@@ -11116,8 +11180,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "API",
-        "code"
+        "code",
+        "API"
       ]
     },
     {
@@ -11201,8 +11265,8 @@
       "niche": "dev",
       "score": 15,
       "keywords": [
-        "library",
-        "developer"
+        "developer",
+        "library"
       ]
     },
     {
