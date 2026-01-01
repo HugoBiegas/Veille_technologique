@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-01T04:12:47.233096+00:00",
-  "total_articles": 956,
+  "last_updated": "2026-01-01T06:40:53.292662+00:00",
+  "total_articles": 957,
   "articles": [
     {
       "id": "f8dc954cb8ca9308",
@@ -357,21 +357,6 @@
       ]
     },
     {
-      "id": "bc77235f1b7ff353",
-      "title": "GitHub Actions: From Zero to Production(EP1)🚀",
-      "description": "Episode 1 – What is CI/CD & Why GitHub Actions Matter? When I started hearing terms like CI, CD, and GitHub Actions, everything felt abstract. Workflows, runners, jobs, secrets… too many buzzwords. This post is the first episode in a series where I break down GitHub Actions from absolute basics to real production pipelines, especially from a frontend developer’s perspective. Let’s start with the foundation. What is CI/CD (in simple terms)? 🔵 CI — Continuous Integration CI is about checking code ",
-      "url": "https://dev.to/vishwark/github-actions-from-zero-to-production-kmb",
-      "source": "Dev.to",
-      "author": "Vishwark",
-      "published": "2025-12-25T06:15:33+00:00",
-      "niche": "dev",
-      "score": 70,
-      "keywords": [
-        "code",
-        "developer"
-      ]
-    },
-    {
       "id": "9fbda2f7cb5bc5ec",
       "title": "Critical Security Vulnerability in React Server Components",
       "description": "A critical Remote Code Execution (RCE) vulnerability has been disclosed in React Server Components (RSC). This vulnerability allows an unauthenticated attacker to execute arbitrary code on your server by sending a single, maliciously crafted HTTP request. This is a severity 10.0 (Critical) issue. If you are running Next.js, React Router (RSC), or using react-server-dom-* packages directly, your application is likely vulnerable by default. Why This Is Critical Most RCE vulnerabilities require an ",
@@ -467,6 +452,20 @@
       "score": 69,
       "keywords": [
         "developer"
+      ]
+    },
+    {
+      "id": "93e2abc3e07feda0",
+      "title": "React Flow: adding Controls to example hides nodes and edges",
+      "description": "I'm new to React and I'm trying to learn React Flow. I've been following examples on reactflow.dev, as well as tutorials that leverage same documentation on YouTube. My problem is that I am not managing the color rendering and I would appreciate some help. I've pasted one of the basic examples from the tutorial below. First off, first time I ran the example, as provided in the tutorial, without the import \"./index.css\" ; line added, only the node boxes showed - no text visible. Is there a settin",
+      "url": "https://dev.to/timbopoise/react-flow-adding-controls-to-example-hides-nodes-and-edges-1d49",
+      "source": "Dev.to",
+      "author": "Tim Coddington",
+      "published": "2026-01-01T06:10:17+00:00",
+      "niche": "dev",
+      "score": 69,
+      "keywords": [
+        "tutorial"
       ]
     },
     {
@@ -609,6 +608,18 @@
       "source": "Dev.to",
       "author": "Reactjs Guru",
       "published": "2026-01-01T03:30:00+00:00",
+      "niche": "dev",
+      "score": 68,
+      "keywords": []
+    },
+    {
+      "id": "ff77e1a265446261",
+      "title": "Google Cloud: la Gerarchia delle Risorse",
+      "description": "TL;DR Se hai poco tempo, ecco ciò che devi ricordare sulla struttura di Google Cloud: Esiste una gerarchia a 4 livelli: tutto in Google Cloud è organizzato in modo gerarchico: Organizzazione --> Cartelle --> Progetti --> Risorse. Le policy vengono ereditate: permessi e regole definite a un livello superiore si applicano automaticamente a tutti i livelli sottostanti. Questo è il meccanismo chiave per una gestione semplice e coerente. Un progetto non è solo un nome: ogni progetto ha tre identifica",
+      "url": "https://dev.to/scape/google-cloud-la-gerarchia-delle-risorse-3l77",
+      "source": "Dev.to",
+      "author": "Mirko Scapellato",
+      "published": "2026-01-01T06:30:00+00:00",
       "niche": "dev",
       "score": 68,
       "keywords": []
@@ -1531,22 +1542,6 @@
       ]
     },
     {
-      "id": "7834d4262e09e528",
-      "title": "Leaflet Address Autocomplete with Geoapify (Companion to MapLibre Example)",
-      "description": "This is the Leaflet version of our Address Autocomplete example. If you've seen the MapLibre GL tutorial, this follows the same UX pattern: users can search for an address and see it on an interactive map with a marker. Try the live demo: ➡️ View on CodePen APIs used: Address Autocomplete API - real-time suggestions as users type Map Tiles - raster map tiles for Leaflet Map Marker Icon API - custom marker icons 🧭 Table of Contents Set Up a Leaflet Map Add the Address Autocomplete Field Sync Sele",
-      "url": "https://dev.to/geoapify-maps-api/leaflet-address-autocomplete-with-geoapify-companion-to-maplibre-example-35p2",
-      "source": "Dev.to",
-      "author": "Casey Rivers",
-      "published": "2025-12-25T05:58:47+00:00",
-      "niche": "dev",
-      "score": 56,
-      "keywords": [
-        "API",
-        "tutorial",
-        "code"
-      ]
-    },
-    {
       "id": "7202b1029cdfaea1",
       "title": "Secure ML on AWS : Building Production Data Pipelines with S3 and Lambda",
       "description": "Reading time: ~15-20 minutes Level: Intermediate Prerequisites: Basic AWS knowledge, familiarity with S3 and Lambda Series: Part 2 of 4 - Read Part 1 Objective: This blog focuses on teaching core concepts and best practices for building data pipelines on AWS. While the code is functional, it's designed for learning and experimentation. For production deployments, additional hardening and testing would be needed. Welcome Back! In Part 1, we explored the AIDLC framework and AWS architecture for se",
@@ -2306,48 +2301,6 @@
       "keywords": [
         "performance",
         "development"
-      ]
-    },
-    {
-      "id": "7feccd99c9e75598",
-      "title": "I Protocolli di Rete Essenziali da Capire",
-      "description": "TL;DR HTTP/HTTPS: Il protocollo fondamentale per navigare sul web, con HTTPS che aggiunge un livello di sicurezza essenziale. WebSocket: Permette una comunicazione in tempo reale, essenziale per chat, giochi online e feed di dati dal vivo. TCP/UDP: I due protocolli di trasporto principali; TCP è affidabile e ordinato, mentre UDP è veloce e diretto. SMTP/FTP: I protocolli classici e specializzati per inviare email (SMTP) e trasferire file (FTP). 1. Le Fondamenta del Web: HTTP e la sua Evoluzione ",
-      "url": "https://dev.to/scape/i-protocolli-di-rete-essenziali-da-capire-fmm",
-      "source": "Dev.to",
-      "author": "Mirko Scapellato",
-      "published": "2025-12-25T06:30:00+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "API"
-      ]
-    },
-    {
-      "id": "4048b94c3fdf17b5",
-      "title": "Cross Platform Application",
-      "description": "Cross Platform application Membangunkan aplikasi merentas beberapa platform seperti Linux dan Windows agak mencabor jugok lah, ia bukan dalam bentuk native, tapi dalam bentuk web apps. Image Optimizer Aku ada bangunkan satu aplikasi menggunakan golang yang boleh dijalankan dalam linux dan windows, cabaran dia adalah, bila run dalam Linux, semua fungsi ok, tapi bila run di dalam windows. ada beberapa fungsi tidak jalan Path Ia berkait dengan path , dalam linux , semua program disimpan dalam /usr/",
-      "url": "https://dev.to/hardyweb/cross-platform-application-493n",
-      "source": "Dev.to",
-      "author": "hardyweb",
-      "published": "2025-12-25T06:09:30+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "API"
-      ]
-    },
-    {
-      "id": "281c70a25dd1cfcc",
-      "title": "Ruby::Box Digest Introduction (Ruby 4.0.0 New Feature)",
-      "description": "(This article is AI translation version of https://product.st.inc/entry/2025/12/25/134453 from Japanese to English. The author is not Koichi, but Endoh-san) Hello, this is Yusuke Endoh (@mametter). Ruby::Box was introduced in Ruby 4.0.0 ([Feature #21311]). Ruby::Box was called Namespace when it was proposed. Matz even declared at RubyKaigi and elsewhere that if Namespace or ZJIT landed, the next release would be Ruby 4.0.0, so it is a key feature. So some people may only know the vibe of \"some a",
-      "url": "https://dev.to/ko1/rubybox-digest-introduction-ruby-400-new-feature-3bch",
-      "source": "Dev.to",
-      "author": "Koichi Sasada",
-      "published": "2025-12-25T06:07:44+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "release"
       ]
     },
     {
@@ -3440,6 +3393,36 @@
       ]
     },
     {
+      "id": "73e2ac68efb61178",
+      "title": "Practical Next.js Caching: Routes, Data, Revalidation, and Tags",
+      "description": "A concise, practical guide to Next.js caching: how route and data caches differ, when to revalidate, and how tag-based invalidation reduces rebuild cost. Includes patterns, anti-patterns, and debugging tips. Quick summary Understand route (HTML) cache vs data (API) cache and when to prefer each. Learn time-based, event-driven, and tag-based revalidation patterns. See common anti-patterns and a checklist for production readiness. Find debugging tips and operational commands to verify cache behavi",
+      "url": "https://dev.to/sumeet_shrofffreelancer_/practical-nextjs-caching-routes-data-revalidation-and-tags-24d1",
+      "source": "Dev.to",
+      "author": "Sumeet Shroff Freelancer",
+      "published": "2026-01-01T06:26:33+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "API"
+      ]
+    },
+    {
+      "id": "40632739de06b92d",
+      "title": "The 150-Day Challenge: Building 4 Full-Stack Apps from Scratch",
+      "description": "The 150-Day Challenge: Building 4 Full-Stack Apps from Scratch Today is Day 1. I’ve spent enough time reading documentation and watching others build. It’s time to stop \"preparing\" and start shipping. I am officially committing to a 150-day marathon where I will build and deploy four full-stack applications from the ground up. No more tutorial hell. No more half-finished repositories. Just code, and live URLs. Why 150 Days? Consistency is the hardest part of software development. By setting a ha",
+      "url": "https://dev.to/termuze/the-150-day-challenge-building-4-full-stack-apps-from-scratch-53a8",
+      "source": "Dev.to",
+      "author": "Termuze",
+      "published": "2026-01-01T06:14:49+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "code",
+        "development",
+        "tutorial"
+      ]
+    },
+    {
       "id": "56d366869dd2f33f",
       "title": "Do you remember what a Function is?",
       "description": "When one learns their first programming language and reaches a chapter titled functions, quite scary (or not so much) images from math classes may pop up in one's head in a form of curves on graphs or f(x)-notation expressions. By the end on the chapter none of those things are encountered (phew) and the knowledge remained afterwards basically is: if you have a bunch of lines of code in your program which you predict to call more than once - consider wrapping it into a function and reuse. Seems ",
@@ -3857,20 +3840,6 @@
       "keywords": [
         "code",
         "developer"
-      ]
-    },
-    {
-      "id": "c94dec1cb0451c99",
-      "title": "iTerm2 + tmux -CC: The Remote Development Setup Nobody Talks About",
-      "description": "Every few months, someone announces a new terminal emulator that will revolutionize remote development. AI-powered this, cloud-native that. Meanwhile, iTerm2 has had a feature since 2012 that solves remote development better than most alternatives - and almost nobody uses it. The Problem with SSH If you do remote development, you know the pain: SSH session dies, your work context vanishes Scrollback is whatever fits in the terminal buffer Copy/paste requires mental gymnastics (was that Cmd+C or ",
-      "url": "https://dev.to/evoleinik/iterm2-tmux-cc-the-remote-development-setup-nobody-talks-about-4p89",
-      "source": "Dev.to",
-      "author": "Eugene Oleinik",
-      "published": "2025-12-25T06:00:02+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "development"
       ]
     },
     {
@@ -5526,40 +5495,32 @@
       ]
     },
     {
-      "id": "e2eb28d83c1243fa",
-      "title": "System Builders Will Replace Tool Users: And That’s a Good Thing",
-      "description": "There’s a quiet divide forming in tech teams right now. On the surface, everyone appears productive. Tools are everywhere. Dashboards are full. Automation is running. But underneath, two very different mindsets are emerging. Some people are becoming exceptional tool users. Others are becoming system builders. Over time, the second group will quietly replace the first, and that’s not a threat. It’s a natural evolution. Tools Were Designed to Be Used. Systems Were Designed to Scale. Tool users foc",
-      "url": "https://dev.to/jaideepparashar/system-builders-will-replace-tool-users-and-thats-a-good-thing-4dj6",
+      "id": "6cbf5cec0d90dd7d",
+      "title": "Computer Vision Services: Building Intelligent Visual Systems with Oodles",
+      "description": "Images and videos contain massive amounts of data—but extracting meaningful insights from them requires advanced AI systems. Computer Vision Services enable machines to interpret visual data, automate analysis, and support smarter decision-making across industries. At Oodles, we help businesses and development teams build scalable, production-ready computer vision solutions that turn visual data into actionable intelligence. What Is Computer Vision? Computer vision is a field of artificial intel",
+      "url": "https://dev.to/oodlesplatform/computer-vision-services-building-intelligent-visual-systems-with-oodles-3pi0",
       "source": "Dev.to",
-      "author": "Jaideep Parashar",
-      "published": "2025-12-25T06:20:54+00:00",
+      "author": "Oodles Platform",
+      "published": "2026-01-01T06:26:39+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "development"
+      ]
     },
     {
-      "id": "41b64d3c51798513",
-      "title": "Stop Sending Boring Texts! Try This Secret \"Locked Message\" Generator",
-      "description": "Why send a plain text message when you can send a locked digital treasure chest? If you are planning a digital treasure hunt, an escape room, or just want to prank your friends with a password-protected secret, you need to see how this works. This tool lets you turn any message into a standalone, encrypted HTML file that only unlocks with your secret key. Try it out right now! Experience the mystery for yourself by using the live tool here: 👉 Treasure Hunt Clue Creator How it Works: The \"Zero-Se",
-      "url": "https://dev.to/techno_kraft_in/stop-sending-boring-texts-try-this-secret-locked-message-generator-pjl",
+      "id": "8b67cadd04174350",
+      "title": "Shopify Scripts Functions: A Practical Migration Playbook",
+      "description": "A concise, developer-focused playbook to move Script Editor logic into Shopify Functions: audit, prototype, test, and stage rollouts with QA, monitoring, and rollback steps. Quick summary Audit active scripts, map business intent, and prioritize by impact. Prototype a single high-value Function, validate parity, then iterate. Use staged rollouts, robust QA, and observability to reduce launch risk. Introduction Shopify is standardizing customization around Shopify Functions. If your store still r",
+      "url": "https://dev.to/sumeet_shrofffreelancer_/shopify-scripts-functions-a-practical-migration-playbook-2pih",
       "source": "Dev.to",
-      "author": "techno kraft",
-      "published": "2025-12-25T06:04:02+00:00",
+      "author": "Sumeet Shroff Freelancer",
+      "published": "2026-01-01T06:20:47+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "3a40a4e3c42677e9",
-      "title": "I’m building a deterministic policy firewall for AI systems — looking for technical feedback",
-      "description": "I’ve been working on a small but opinionated system and would love technical feedback from people who’ve dealt with AI in regulated or high-risk environments. The core idea is simple: AI systems can propose actions. Something else must decide whether those actions are allowed to execute. This project is not about “understanding intent” perfectly. Intent normalization is deliberately lossy (regex / LLM / upstream systems). The invariant is a deterministic policy layer that: blocks unsafe or illeg",
-      "url": "https://dev.to/lola0786/im-building-a-deterministic-policy-firewall-for-ai-systems-looking-for-technical-feedback-2n71",
-      "source": "Dev.to",
-      "author": "Chandan Galani",
-      "published": "2025-12-25T05:58:27+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
       "id": "fc7018699d3544b0",
@@ -7890,19 +7851,52 @@
       "keywords": []
     },
     {
-      "id": "e18f7d1903a5ac30",
-      "title": "Some people are becoming exceptional tool users. Others are becoming system builders. Over time, the second group will quietly replace the first, and that’s not a threat. It’s a natural evolution.",
-      "description": "System Builders Will Replace Tool Users: And That’s a Good Thing Jaideep Parashar ・ Dec 25 #webdev #ai #developers #programming",
-      "url": "https://dev.to/jaideepparashar/some-people-are-becoming-exceptional-tool-users-others-are-becoming-system-builders-over-time-49cp",
+      "id": "56af5ee057c1d0b5",
+      "title": "GO-QUEUE@v1.1.1: 基于優先級的並發排程，自動提升優先權",
+      "description": "REFACTOR 將 PresetConfig.Priority 從 string 改為 Priority 型別，移除字串解析邏輯 將 WithRetry 參數從 *int 改為變長參數 ...int，支援無參數調用 UPDATE 改進 timeout 計算邏輯，直接使用 time.Duration 運算 更新優先級升級邏輯，使用新的優先級常數替代字串 PERF 新增 taskHeap cap 縮減機制，當使用量低於容量 1/4 時自動縮減至一半（最小保留 16） REMOVE 移除 getPresetPriority 函式 在 Pop() 中設置 old[n-1] = nil 避免記憶體洩漏 ©️ 2025 邱敬幃 Pardn Chiu",
+      "url": "https://dev.to/pardnchiu/go-queuev111-ji-yu-you-xian-ji-pai-xu-de-bing-fa-dui-lie-3ebe",
       "source": "Dev.to",
-      "author": "Jaideep Parashar",
-      "published": "2025-12-25T06:22:12+00:00",
+      "author": "邱敬幃 Pardn Chiu",
+      "published": "2026-01-01T06:18:38+00:00",
       "niche": "dev",
-      "score": 49,
-      "keywords": [
-        "developer",
-        "programming"
-      ]
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "62ec248eee215866",
+      "title": "GO-QUEUE@v1.1.1: Priority-based task queue with automatic timeout promotion",
+      "description": "REFACTOR Changed PresetConfig.Priority from string to Priority type Changed WithRetry parameter from *int to variadic ...int, supports invocation without arguments UPDATE Improved timeout calculation logic, now directly uses time.Duration operations Updated priority upgrade logic to use new priority constants instead of strings PERF Added taskHeap capacity reduction mechanism: when usage drops below 1/4 of capacity, automatically shrinks to half (minimum retained is 16) REMOVE Removed getPresetP",
+      "url": "https://dev.to/pardnchiu/go-queuev112-priority-based-task-queue-with-automatic-timeout-promotion-3kgj",
+      "source": "Dev.to",
+      "author": "邱敬幃 Pardn Chiu",
+      "published": "2026-01-01T06:15:23+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "6e4caa9fecef1b68",
+      "title": "EP 6.3: Master-Slave Architecture",
+      "description": "In system design, the Master-Slave (or Leader-Follower) architecture is one of the most fundamental patterns used to achieve scalability and high availability, particularly in database systems. :) Consider it like a leader asking its followers to do something and the followers comply with it. At its core, it is a model of communication where one device or process (the Master) has unidirectional control over one or more other devices or processes (the Slaves). MASTER -> SLAVE 1. HOW IT WORKS? In ",
+      "url": "https://dev.to/hrishikesh_dalal_ced8f95e/ep-63-master-slave-architecture-15pf",
+      "source": "Dev.to",
+      "author": "Hrishikesh Dalal",
+      "published": "2026-01-01T06:10:48+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "62d34d3a9678c2e6",
+      "title": "Foundations for 2026 – Forget Goals, Build Systems.",
+      "description": "Foundations for 2026 – Forget Goals, Build Systems. Unpopular opinion: New Year’s resolutions are overrated. By a lot. Yes, there’s huge value in setting goals, chasing big things, and working towards a clear line to reach. But especially classic year-long goals are almost always meaningless. They’re forgotten most of the time anyway, and they sit too far in the future to drive real action now. So if you want to set goals, make them short-term and action-based instead of outcome-based. (By the w",
+      "url": "https://dev.to/per-starke-642/foundations-for-2026-forget-goals-build-systems-4cmp",
+      "source": "Dev.to",
+      "author": "Per Starke",
+      "published": "2026-01-01T06:10:40+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
     },
     {
       "id": "012e1fffb290f33c",
@@ -7932,20 +7926,6 @@
       "keywords": [
         "developer",
         "framework"
-      ]
-    },
-    {
-      "id": "bc1fb03dd59809f6",
-      "title": "Ruby 4.0.0 Released",
-      "description": "Comments",
-      "url": "https://www.ruby-lang.org/en/news/2025/12/25/ruby-4-0-0-released/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-25T04:13:00+00:00",
-      "niche": "dev",
-      "score": 48,
-      "keywords": [
-        "release"
       ]
     },
     {
@@ -8016,6 +7996,20 @@
       "score": 48,
       "keywords": [
         "API"
+      ]
+    },
+    {
+      "id": "df8a5d26293b0ff8",
+      "title": "Flow5 released to open source",
+      "description": "Comments",
+      "url": "https://flow5.tech/docs/releasenotes.html",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-01T03:47:20+00:00",
+      "niche": "dev",
+      "score": 48,
+      "keywords": [
+        "release"
       ]
     },
     {
@@ -8231,18 +8225,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "e4a9ff98d565c435",
-      "title": "Ruby 4.0.0",
-      "description": "Comments",
-      "url": "https://www.ruby-lang.org/en/news/2025/12/25/ruby-4-0-0-released/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-25T04:13:00+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "90295529a6997c28",
@@ -9805,6 +9787,18 @@
       "keywords": []
     },
     {
+      "id": "ef14dfdf0072ea9b",
+      "title": "Pixar's True Story",
+      "description": "Comments",
+      "url": "https://computerhistory.org/blog/pixars-true-story/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-01T02:35:40+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "aac61a613c7849e9",
       "title": "Touch Targets and Web Accessibility",
       "description": "Learn about touch target accessibility standards and WCAG guidelines. Discover why 24x24px or 44x44px targets improve usability for all users with code examples. Continue reading Touch Targets and Web Accessibility on SitePoint.",
@@ -9888,8 +9882,8 @@
       "score": 40,
       "keywords": [
         "performance",
-        "code",
-        "release"
+        "release",
+        "code"
       ]
     },
     {
@@ -10210,6 +10204,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-31T10:12:51+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
+      "id": "b07f28b0c2a18286",
+      "title": "Web Browsers have stopped blocking pop-ups",
+      "description": "Comments",
+      "url": "https://www.smokingonabike.com/2025/12/31/web-browsers-have-stopped-blocking-pop-ups/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-31T17:42:20+00:00",
       "niche": "dev",
       "score": 38,
       "keywords": []
@@ -10592,10 +10598,10 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
+        "API",
         "performance",
         "code",
         "release",
-        "API",
         "framework"
       ]
     },
@@ -10889,8 +10895,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "framework",
-        "release"
+        "release",
+        "framework"
       ]
     },
     {
@@ -10950,8 +10956,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -10965,8 +10971,8 @@
       "niche": "dev",
       "score": 18,
       "keywords": [
-        "Angular",
-        "PHP"
+        "PHP",
+        "Angular"
       ]
     },
     {
@@ -11023,8 +11029,8 @@
       "score": 17,
       "keywords": [
         "API",
-        "developer",
-        "development"
+        "development",
+        "developer"
       ]
     },
     {
@@ -11039,8 +11045,8 @@
       "score": 17,
       "keywords": [
         "PHP",
-        "tutorial",
-        "development"
+        "development",
+        "tutorial"
       ]
     },
     {
@@ -11055,8 +11061,8 @@
       "score": 17,
       "keywords": [
         "PHP",
-        "tutorial",
-        "development"
+        "development",
+        "tutorial"
       ]
     },
     {
@@ -11100,8 +11106,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "developer",
-        "programming"
+        "programming",
+        "developer"
       ]
     },
     {
@@ -11200,8 +11206,8 @@
       "niche": "dev",
       "score": 15,
       "keywords": [
-        "developer",
-        "library"
+        "library",
+        "developer"
       ]
     },
     {
