@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-01T09:31:08.422578+00:00",
-  "total_articles": 956,
+  "last_updated": "2026-01-01T12:54:04.655637+00:00",
+  "total_articles": 958,
   "articles": [
     {
       "id": "f8dc954cb8ca9308",
@@ -259,20 +259,6 @@
       ]
     },
     {
-      "id": "0e640c3e48a12e61",
-      "title": "Runtime Environment Variables for React Apps with Nginx and Docker",
-      "description": "React environment variables are normally injected at build time. Once the app is built, changing API URLs, feature flags, or monitoring config requires rebuilding the image. This becomes a problem when the same Docker image needs to run in staging, production, or other environments. This setup allows runtime configuration for React apps served by Nginx in Docker. The image is built once and configured when the container starts. How it works Add public/runtime-env.template.js window.RUNTIME_ENV =",
-      "url": "https://dev.to/imzihad21/runtime-environment-variables-for-react-apps-with-nginx-and-docker-3p62",
-      "source": "Dev.to",
-      "author": "ZèD",
-      "published": "2025-12-25T12:38:37+00:00",
-      "niche": "dev",
-      "score": 72,
-      "keywords": [
-        "API"
-      ]
-    },
-    {
       "id": "64d9f05716ffa6c2",
       "title": "Supercharge Your React Page Speed: How @opensite/hooks Reduces Bundle Size and API Calls by 95%",
       "description": "Every millisecond matters. When your React application loads slowly or feels sluggish to interact with, users bounce—and Google penalizes you in search rankings. According to recent data, the average website takes 1.9 seconds to load main content on mobile, but users expect sub-second responsiveness. If your page takes longer than 2.5 seconds to display meaningful content, you're already losing conversions. The culprit? Excessive re-renders, bloated bundle sizes, layout thrashing from unoptimize",
@@ -354,20 +340,6 @@
       "score": 72,
       "keywords": [
         "performance"
-      ]
-    },
-    {
-      "id": "9fbda2f7cb5bc5ec",
-      "title": "Critical Security Vulnerability in React Server Components",
-      "description": "A critical Remote Code Execution (RCE) vulnerability has been disclosed in React Server Components (RSC). This vulnerability allows an unauthenticated attacker to execute arbitrary code on your server by sending a single, maliciously crafted HTTP request. This is a severity 10.0 (Critical) issue. If you are running Next.js, React Router (RSC), or using react-server-dom-* packages directly, your application is likely vulnerable by default. Why This Is Critical Most RCE vulnerabilities require an ",
-      "url": "https://dev.to/codedthemes/critical-security-vulnerability-in-react-server-components-1l9m",
-      "source": "Dev.to",
-      "author": "Brijesh Dobariya",
-      "published": "2025-12-25T12:29:03+00:00",
-      "niche": "dev",
-      "score": 69,
-      "keywords": [
-        "code"
       ]
     },
     {
@@ -625,6 +597,18 @@
       "keywords": []
     },
     {
+      "id": "f1a668545ab7c602",
+      "title": "The useTransition react hook",
+      "description": "The useTransition hook in React 18 is designed to help optimize the user experience by treating certain tasks as less urgent, allowing the app to stay responsive even during heavy computations. Here’s how it works and how it can be applied: Problem: Imagine you have a scenario where a user input triggers some heavy computation—like filtering or generating a large list based on the input. For instance, typing into an input might trigger the app to process thousands of items. While this happens, t",
+      "url": "https://dev.to/edriso/the-usetransition-react-hook-2ek0",
+      "source": "Dev.to",
+      "author": "Mohamed Idris",
+      "published": "2026-01-01T12:38:16+00:00",
+      "niche": "dev",
+      "score": 68,
+      "keywords": []
+    },
+    {
       "id": "45cd04ac14fe9229",
       "title": "I built a quiz game to tell Pokémon from prescription drugs",
       "description": "I built a small web game that asks players to guess whether a name is a Pokémon or a real prescription drug. Play here: https://pokepill.net 🎮 How it works: A name appears (e.g. “Zyrtec”, “Garchomp”, “Xeljanz”) You guess Pokémon or Pill Faster answers earn more points Build streaks, unlock harder difficulties, and climb the leaderboard 🛠 Tech stack: React 19 + Vite Framer Motion for animations PokeAPI for Pokémon data Drugs.com for medication info Google Sheets API as a lightweight leaderboard b",
@@ -683,18 +667,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "4f1f6a1828e91518",
-      "title": "Mattermost restricted access to old messages after 10000 limit is reached",
-      "description": "Comments",
-      "url": "https://github.com/mattermost/mattermost/issues/34271",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-25T11:03:59+00:00",
-      "niche": "dev",
-      "score": 62,
-      "keywords": []
     },
     {
       "id": "25a4a33c917eb5b2",
@@ -1018,6 +990,18 @@
       "source": "Dev.to",
       "author": "Ethan Zhang",
       "published": "2026-01-01T09:11:54+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": []
+    },
+    {
+      "id": "5187115521fe217a",
+      "title": "Rust–: Rust without the borrow checker",
+      "description": "Comments",
+      "url": "https://github.com/buyukakyuz/rustmm",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-01T10:53:12+00:00",
       "niche": "dev",
       "score": 62,
       "keywords": []
@@ -1650,21 +1634,6 @@
         "framework",
         "developer",
         "code"
-      ]
-    },
-    {
-      "id": "201af6ab09735813",
-      "title": "Web Bluetooth Guide: How to Build a Real-Time Heart Rate Dashboard",
-      "description": "The Internet of Things (IoT) is moving from science fiction directly into our web browsers. For developers and health enthusiasts, the ability to read biometric data through a web app is a massive breakthrough. Whether you are monitoring fitness stats or exploring environmental sensors, the Web Bluetooth API makes direct hardware interaction possible. If you are ready to see how this technology functions, this understanding your results walkthrough provides the perfect starting point. Understand",
-      "url": "https://dev.to/wellallytech/web-bluetooth-guide-how-to-build-a-real-time-heart-rate-dashboard-nj7",
-      "source": "Dev.to",
-      "author": "wellallyTech",
-      "published": "2025-12-25T12:40:00+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "developer",
-        "API"
       ]
     },
     {
@@ -2313,31 +2282,18 @@
       ]
     },
     {
-      "id": "e6ec3e0fa1a7489a",
-      "title": "2025 in Review: The Adventures of Blink",
-      "description": "Hey friends! As we wrap up 2025, I wanted to take a moment and express my heartfelt gratitude to all of you adventurers. Your readership and companionship... and even your feedback... warm my ❤️ and keep me excited to be out here writing and filming. I'm glad that we can adventure together... thank you very much, I appreciate you! (By the way... If you haven't yet dropped by the Youtube Channel, come subscribe and join me in the Spring and Fall each year as we build something together!) I though",
-      "url": "https://dev.to/linkbenjamin/2025-in-review-the-adventures-of-blink-37jp",
+      "id": "b8ab9a7c2db25786",
+      "title": "pydynox: A fast DynamoDB ORM for Python with a Rust core.",
+      "description": "I've been building serverless apps for years. Lambda, DynamoDB, API Gateway - the usual stack. It's fast, it scales, and once you understand the access patterns, it's a great database. But I always felt like the Python libraries could be better. The problem If you use Python with DynamoDB, you have a few options: boto3 - Works great, but you write a lot of code for simple things PynamoDB - Nice ORM, though it can be slow with big datasets Other libraries - Each has its own trade-offs I wanted so",
+      "url": "https://dev.to/leandrodamascena/pydynox-a-fast-dynamodb-orm-for-python-with-a-rust-core-5hnh",
       "source": "Dev.to",
-      "author": "Ben Link",
-      "published": "2025-12-25T12:45:00+00:00",
+      "author": "Leandro Damascena",
+      "published": "2026-01-01T12:28:45+00:00",
       "niche": "dev",
-      "score": 54,
+      "score": 55,
       "keywords": [
-        "Spring"
-      ]
-    },
-    {
-      "id": "8451c6ebf28f23d1",
-      "title": "How Electrical Muscle Stimulation Is Changing Modern Fitness",
-      "description": "Fitness has never been a fixed concept. It evolves alongside lifestyle shifts, scientific understanding, and technology. From free weights to smart wearables, each era brings tools that reflect how people actually live and train. One of the most noticeable shifts in recent years is the rise of Electrical Muscle Stimulation (EMS), a method that is quietly reshaping how workouts are designed, delivered, and experienced. Unlike trends built on hype, EMS has roots in medical and sports science. What",
-      "url": "https://dev.to/emsproone/how-electrical-muscle-stimulation-is-changing-modern-fitness-1ign",
-      "source": "Dev.to",
-      "author": "EMS PRO ONE",
-      "published": "2025-12-25T12:31:24+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "API"
+        "API",
+        "code"
       ]
     },
     {
@@ -3404,18 +3360,31 @@
       ]
     },
     {
-      "id": "0a70a54598a1ebd1",
-      "title": "The Future of Developer Revenue: Monetizing AI Conversations Effectively",
-      "description": "Monetization Without Paywalls: Unlocking Revenue in AI Conversations with Monetzly The biggest challenge in AI development isn't just creating groundbreaking applications—it's how to monetize them without disrupting the user experience. As AI apps continue to explode in popularity, many developers are left scratching their heads, wondering how to make their innovations financially viable. Enter Monetzly: the Google Ads for AI conversations. The Dual-Earning Revolution Imagine a platform where yo",
-      "url": "https://dev.to/monetzly/the-future-of-developer-revenue-monetizing-ai-conversations-effectively-27c5",
+      "id": "79250e81cdbff011",
+      "title": "DELTΔX: A non-decision AI governance framework with explicit stop conditions",
+      "description": "This work proposes DELTΔX, a non-decision AI governance framework where AI is strictly limited to measurement, verification, and conformity checks. Core principle: Any AI-assisted interaction must produce a measurable positive delta (ΔX > 0). If no positive delta can be demonstrated, the system must stop or remain silent. The framework explicitly forbids delegation of intent, judgment, or decision-making to AI systems. Human responsibility remains invariant at all times. DELTΔX is documented as ",
+      "url": "https://dev.to/deltax/deltdx-a-non-decision-ai-governance-framework-with-explicit-stop-conditions-1c41",
       "source": "Dev.to",
-      "author": "Monetzly",
-      "published": "2025-12-25T12:25:12+00:00",
+      "author": "deltax",
+      "published": "2026-01-01T12:33:45+00:00",
       "niche": "dev",
-      "score": 52,
+      "score": 54,
       "keywords": [
-        "developer",
-        "development"
+        "framework"
+      ]
+    },
+    {
+      "id": "39f5eb9bcfdfd823",
+      "title": "🧠_Deep_Dive_Memory_Management_Performance[20260101122800]",
+      "description": "As an engineer who has experienced countless performance tuning cases, I deeply understand how much memory management affects web application performance. In a recent project, we encountered a tricky performance issue: the system would experience periodic latency spikes under high concurrency. After in-depth analysis, we found that the root cause was the garbage collection mechanism. Today I want to share a deep dive into memory management and how to avoid performance traps caused by GC. 💡 Core ",
+      "url": "https://dev.to/member_6331818c/deepdivememorymanagementperformance20260101122800-2b9p",
+      "source": "Dev.to",
+      "author": "member_6331818c",
+      "published": "2026-01-01T12:28:01+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "performance"
       ]
     },
     {
@@ -3806,20 +3775,6 @@
       "keywords": [
         "code",
         "developer"
-      ]
-    },
-    {
-      "id": "e3f8481f541ccd58",
-      "title": "Homelabing - Local to online setup suppressing CGNAT",
-      "description": "In the journey of creating a Hub before we start programming or building website lets setup Pi in a way where we can access it on mobile internet. For that we can use Cloudflare Tunnel or Tail Scale, but the problem is both are overpowered for this setup I don't want to use Cloudflare as an intercept between Me and my data. I can't trust any 3rd Party. So, not going to use that. I will not use Tail Scale because some features are awesome. But, it to use it I need to make accounts and every new p",
-      "url": "https://dev.to/priyanshuverma/homelabing-local-to-online-setup-suppressing-cgnat-mpd",
-      "source": "Dev.to",
-      "author": "Priyanshu Verma",
-      "published": "2025-12-25T12:44:45+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "programming"
       ]
     },
     {
@@ -5461,28 +5416,18 @@
       ]
     },
     {
-      "id": "cf2bc14e609e519c",
-      "title": "Living WBS: Turning Dead Documents into Active Tools",
-      "description": "\"I made a WBS but no one looks at it.\" A common complaint from many PMs. A WBS that took days to make at project start is collecting dust within 2 weeks. Why does a WBS made with effort die? The answer is simple. Because WBS was made as a \"document\". It needs to be made as a living \"tool\". Dead WBS vs Living WBS Life of a Dead WBS Day 1: \"Perfect WBS complete!\" 🎉 Day 7: \"Hmm... it's a bit different from reality\" Day 14: \"WBS? Where was that?\" Day 21: \"Let's just go by feel\" Day 30: \"Where did th",
-      "url": "https://dev.to/_jeongyuhyeon_03de1/living-wbs-turning-dead-documents-into-active-tools-59j0",
+      "id": "7026764d3d4366b9",
+      "title": "Salesforce No-Code Automation: What’s Next in 2026",
+      "description": "Salesforce is progressively advancing towards a comprehensive no-code environment, and by 2026, this goal takes on unprecedented strength. No-code automation transcends mere workflow simplification; it empowers administrators, business professionals, and teams to create smart, scalable processes without coding. Enhanced Flow Automation In 2026, Salesforce Flow continues to serve as the core of no-code automation, but it has evolved to be significantly more advanced. With increased AI support, Fl",
+      "url": "https://dev.to/itechcloud_solution_d0e2c/salesforce-no-code-automation-whats-next-in-2026-67d",
       "source": "Dev.to",
-      "author": "전규현 (Jeon gyuhyeon)",
-      "published": "2025-12-25T12:31:00+00:00",
+      "author": "itechcloud solution",
+      "published": "2026-01-01T12:39:26+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "1c1c0bb12c06c502",
-      "title": "White Label SEO Report: Ultimate Guide for Beginners",
-      "description": "I remember the first time a client asked me why their SEO report had \"SEMrush\" plastered across the header. They paid my agency. They trusted my team. But the report looked like it came from a software company they had never heard of. That moment taught me something I wish I had learned earlier: professional presentation matters more than most agencies realize. Client reporting is one of the biggest headaches for SEO agencies. You are juggling multiple clients, each with different goals, differe",
-      "url": "https://dev.to/aboah-okyere/white-label-seo-report-ultimate-guide-for-beginners-3n0e",
-      "source": "Dev.to",
-      "author": "Aboah Okyere",
-      "published": "2025-12-25T12:25:01+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "38fde64edf5928fb",
@@ -7861,6 +7806,42 @@
       "keywords": []
     },
     {
+      "id": "43c0700101d13983",
+      "title": "Cutting My Self-Hosted Analytics Stack Memory by 45%",
+      "description": "260MB for a personal analytics dashboard. Just tracking 4,000 events across 21 websites over 5 days. Barely any data, but my Bun server was eating 150MB and TimescaleDB was claiming 120MB like it was serving a production SaaS. On Railway's usage-based $5 plan, every MB counts. Time to optimize. The Stack Server: Bun + Hono + Drizzle ORM + Better-Auth Database: TimescaleDB (PostgreSQL for time-series data) Cache: Redis Frontend + Proxy: Nginx serving Vite/React SPA with reverse proxy to backend S",
+      "url": "https://dev.to/sivarampg/cutting-my-self-hosted-analytics-stack-memory-by-45-2o9g",
+      "source": "Dev.to",
+      "author": "Sivaram",
+      "published": "2026-01-01T12:41:55+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "def20aa40f840bf5",
+      "title": "Deploying a Highly Available AWS Architecture with Terraform",
+      "description": "High availability is one of those concepts everyone mentions, but far fewer people actually implement correctly. In many demo projects, availability stops at launching an EC2 instance and exposing it to the internet. That works until something breaks, and in production something always breaks. In this post, I walk through a Terraform project where the primary goal is resilience. The architecture is designed to keep serving traffic even when individual instances or an entire Availability Zone fai",
+      "url": "https://dev.to/copubah/deploying-a-highly-available-aws-architecture-with-terraform-39pb",
+      "source": "Dev.to",
+      "author": "Cloudev",
+      "published": "2026-01-01T12:40:49+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "47ca02d29ef141e5",
+      "title": "What Is Artificial Intelligence and How Is It Used Today?",
+      "description": "Have you ever thought about how your phone unlocks using your face or how apps seem to understand what you want to say before you type it? These everyday experiences are powered by Artificial Intelligence, a technology that is quietly changing modern life. It is becoming more and more important in how people work and make decisions, from personal devices to big companies all over the world. Today, this technology is not just for science fiction or advanced research labs. It is used every day, in",
+      "url": "https://dev.to/elara1/what-is-artificial-intelligence-and-how-is-it-used-today-36co",
+      "source": "Dev.to",
+      "author": "Elara",
+      "published": "2026-01-01T12:33:03+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "012e1fffb290f33c",
       "title": "[Boost]",
       "description": "The Quiet Revolution in Developer Workflows: Why Static Code Is Dying Jaideep Parashar ・ Dec 24 #webdev #ai #devops #discuss",
@@ -8201,30 +8182,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "90295529a6997c28",
-      "title": "Cafes",
-      "description": "Check out this Pen I made!",
-      "url": "https://dev.to/jan_martinezteixido_a818/cafes-29jk",
-      "source": "Dev.to",
-      "author": "Jan Martinez Teixido",
-      "published": "2025-12-25T12:32:44+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "5ef269af9721d86b",
-      "title": "We invited a man into our home at Christmas and he stayed with us for 45 years",
-      "description": "Comments",
-      "url": "https://www.bbc.co.uk/news/articles/cdxwllqz1l0o",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-25T10:35:34+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "60fc29a22966ebbb",
@@ -9763,6 +9720,66 @@
       "keywords": []
     },
     {
+      "id": "9832f32d2dbc940a",
+      "title": "Elzero Web School CSS All-Assignment 14",
+      "description": "Check out this Pen I made!",
+      "url": "https://dev.to/preetha_vaishnavi_2b82358/elzero-web-school-css-all-assignment-14-2no3",
+      "source": "Dev.to",
+      "author": "preetha vaishnavi",
+      "published": "2026-01-01T12:38:31+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "a87ef4d1ad0273ad",
+      "title": "Happy New Year! 🎉",
+      "description": "Fast, scalable interfaces and frictionless UX in 2026. Let's build something that matters. 🚀",
+      "url": "https://dev.to/daisy_jones_21bdcc6b40f9d/happy-new-year-1243",
+      "source": "Dev.to",
+      "author": "Hashbyt",
+      "published": "2026-01-01T12:27:13+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "8e5c81691f7045d7",
+      "title": "Bluetooth Headphone Jacking: A Key to Your Phone [video]",
+      "description": "Comments",
+      "url": "https://media.ccc.de/v/39c3-bluetooth-headphone-jacking-a-key-to-your-phone",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-01T11:17:18+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "94918f8fbb499ce1",
+      "title": "Windows 11 Outperforming Linux on an Intel Arrow Lake H Laptop",
+      "description": "Comments",
+      "url": "https://www.phoronix.com/review/windows-beats-linux-arl-h",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-01T11:20:13+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "76bef1fc808b7f17",
+      "title": "Worlds largest electric ship launched by Tasmanian boatbuilder",
+      "description": "Comments",
+      "url": "https://www.theguardian.com/australia-news/2025/may/02/hull-096-worlds-largest-electric-ship-battery-power-launched",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-01T10:29:54+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "aac61a613c7849e9",
       "title": "Touch Targets and Web Accessibility",
       "description": "Learn about touch target accessibility standards and WCAG guidelines. Discover why 24x24px or 44x44px targets improve usability for all users with code examples. Continue reading Touch Targets and Web Accessibility on SitePoint.",
@@ -9845,9 +9862,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "code",
         "release",
-        "performance"
+        "performance",
+        "code"
       ]
     },
     {
@@ -10195,9 +10212,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "API",
+        "React 19",
         "release",
-        "React 19"
+        "API"
       ]
     },
     {
@@ -10263,8 +10280,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10278,8 +10295,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10335,8 +10352,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "API",
-        "framework"
+        "framework",
+        "API"
       ]
     },
     {
@@ -10562,11 +10579,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "API",
         "framework",
         "release",
+        "performance",
         "code",
-        "performance"
+        "API"
       ]
     },
     {
@@ -10874,9 +10891,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "code",
         "developer",
-        "performance"
+        "performance",
+        "code"
       ]
     },
     {
@@ -10890,8 +10907,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "code",
-        "performance"
+        "performance",
+        "code"
       ]
     },
     {
@@ -10905,8 +10922,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "code",
-        "release"
+        "release",
+        "code"
       ]
     },
     {
@@ -10935,8 +10952,8 @@
       "niche": "dev",
       "score": 18,
       "keywords": [
-        "PHP",
-        "Angular"
+        "Angular",
+        "PHP"
       ]
     },
     {
@@ -10993,8 +11010,8 @@
       "score": 17,
       "keywords": [
         "API",
-        "development",
-        "developer"
+        "developer",
+        "development"
       ]
     },
     {
@@ -11008,8 +11025,8 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "PHP",
         "tutorial",
+        "PHP",
         "development"
       ]
     },
@@ -11024,8 +11041,8 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "PHP",
         "tutorial",
+        "PHP",
         "development"
       ]
     },
@@ -11170,8 +11187,8 @@
       "niche": "dev",
       "score": 15,
       "keywords": [
-        "developer",
-        "library"
+        "library",
+        "developer"
       ]
     },
     {
@@ -11273,18 +11290,6 @@
       ]
     },
     {
-      "id": "9f769942cd6111e7",
-      "title": "Line scan camera image processing",
-      "description": "Comments",
-      "url": "https://daniel.lawrence.lu/blog/2025-09-21-line-scan-camera-image-processing/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-25T10:42:46+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
       "id": "e3a941d17a0786f7",
       "title": "Incremental Backups of Gmail Takeouts",
       "description": "Comments",
@@ -11364,6 +11369,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-27T13:38:01+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "878b12400111db19",
+      "title": "Easel Turns One One year of building my own IDE in Clojure",
+      "description": "Comments",
+      "url": "https://blog.phronemophobic.com/easel-one-year.html",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-27T14:46:16+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -11645,8 +11662,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "development",
-        "programming"
+        "programming",
+        "development"
       ]
     },
     {
