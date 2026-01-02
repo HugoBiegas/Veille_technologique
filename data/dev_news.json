@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-01T21:25:31.544874+00:00",
-  "total_articles": 966,
+  "last_updated": "2026-01-02T02:06:15.121313+00:00",
+  "total_articles": 967,
   "articles": [
     {
       "id": "f8dc954cb8ca9308",
@@ -100,22 +100,6 @@
         "microservices",
         "Spring",
         "library"
-      ]
-    },
-    {
-      "id": "e247af4ab82bba7a",
-      "title": "Pinning GitHub Actions for Reproducibility and Security",
-      "description": "Version tags like actions/checkout@v5 are mutable - maintainers can move them, re-release them, or force-push. Your workflow could run different code tomorrow without you changing anything. Pin to commit SHAs instead. One command to get the SHA: gh api repos/actions/checkout/commits/v5.0.1 --jq '.sha' Then use it: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5.0.1 Full article: https://cloudnativeengineer.substack.com/p/github-actions-reproducibility-security",
-      "url": "https://dev.to/cloudnative_eng/pinning-github-actions-for-reproducibility-and-security-2ihh",
-      "source": "Dev.to",
-      "author": "Cloud Native Engineer",
-      "published": "2025-12-26T01:07:12+00:00",
-      "niche": "dev",
-      "score": 76,
-      "keywords": [
-        "API",
-        "release",
-        "code"
       ]
     },
     {
@@ -1093,22 +1077,6 @@
       ]
     },
     {
-      "id": "20ca1ec4f12348d2",
-      "title": "Mastering HTTP/2 in Go: A Practical Guide for Building Faster Web Servers",
-      "description": "Hey, Go developers! 🚀 If you’re building web servers and want to supercharge their performance, HTTP/2 is your ticket to the fast lane. Compared to HTTP/1.1’s single-lane road, HTTP/2 is like a multi-lane highway, slashing latency and handling concurrency like a dream. Pair it with Go’s lightweight goroutines, and you’ve got a recipe for blazing-fast APIs and apps. This guide is for developers with 1-2 years of Go experience who know the basics of net/http. We’ll walk through HTTP/2’s core featu",
-      "url": "https://dev.to/jones_charles_ad50858dbc0/mastering-http2-in-go-a-practical-guide-for-building-faster-web-servers-4hbo",
-      "source": "Dev.to",
-      "author": "Jones Charles",
-      "published": "2025-12-26T01:07:45+00:00",
-      "niche": "dev",
-      "score": 58,
-      "keywords": [
-        "API",
-        "developer",
-        "performance"
-      ]
-    },
-    {
       "id": "f4071a281cb07443",
       "title": "Keywords are not enough: Why Your Next.js App Needs Vector Search",
       "description": "What You’ll Learn in This Post BM25 fundamentals and limitations Semantic search with ELSER Code examples for keyword and semantic search Hybrid search implementation Performance considerations Real-world comparisons When to use each approach When I built my YouTube Search Library, I started with traditional keyword search using Elasticsearch's BM25 algorithm. It worked well—handling typos, highlighting matches, and delivering fast results. But as I tested it with real queries, I noticed a funda",
@@ -1186,21 +1154,6 @@
         "library",
         "code",
         "API"
-      ]
-    },
-    {
-      "id": "51745beb94372510",
-      "title": "PPanel 完整安装指南：从零开始部署代理面板",
-      "description": "本文原载于 PayIn Blog，转载请注明出处。 前言：本文基于 PPanel 1.2.2 版本编写。由于 PPanel 项目持续更新，官方文档 https://ppanel.dev/ 可能存在滞后，本文记录了我在实际安装过程中遇到的问题和解决方案，希望能帮助到同样踩坑的朋友。 目录 PPanel 架构概述 第一步：下载并解压 Server 第二步：使用 Docker 安装 MySQL 和 Redis 第三步：配置 ppanel.yaml 第四步：启动 Server 第五步：构建并部署前端 第六步：Nginx 反向代理与 Cloudflare HTTPS 配置 第七步：部署 PPanel Node 总结 PPanel 架构概述 PPanel 由以下四个独立组件组成，可以部署在同一台服务器，也可以分布式部署： 组件 说明 Server 核心后端服务，提供所有 API 接口 Admin Frontend 管理员后台界面 User Frontend 用户前台界面 PPanel Node 边缘节点代理服务 第一步：下载并解压 Server 从 GitHub Releases 页面下载对应系统",
-      "url": "https://dev.to/jimquote/ppanel-122-wan-zheng-an-zhuang-zhi-nan-cong-ling-kai-shi-bu-shu-dai-li-mian-ban-ip6",
-      "source": "Dev.to",
-      "author": "jimquote",
-      "published": "2025-12-26T01:46:19+00:00",
-      "niche": "dev",
-      "score": 57,
-      "keywords": [
-        "API",
-        "release"
       ]
     },
     {
@@ -1491,6 +1444,21 @@
       ]
     },
     {
+      "id": "a125ee8abf56f19d",
+      "title": "🚀 NestJS + RedisOM: Taking State Management to the Next Level",
+      "description": "If you come from the NestJS world, you love decorators, dependency injection, and strong typing. But when it comes to integrating Redis, it often feels like we're stepping back 10 years: magic strings, manual JSON parsers, and low-level commands that clutter our business logic. Today I want to introduce nestjs-redisom, an open-source library designed to bridge that gap and treat Redis with the respect it deserves in a modern enterprise architecture. 🤔 Why did I create this? Redis has evolved. It",
+      "url": "https://dev.to/alpha018/nestjs-redisom-taking-state-management-to-the-next-level-5gli",
+      "source": "Dev.to",
+      "author": "Tomás Alegre Sepúlveda",
+      "published": "2026-01-02T01:39:59+00:00",
+      "niche": "dev",
+      "score": 57,
+      "keywords": [
+        "library",
+        "dependency injection"
+      ]
+    },
+    {
       "id": "7202b1029cdfaea1",
       "title": "Secure ML on AWS : Building Production Data Pipelines with S3 and Lambda",
       "description": "Reading time: ~15-20 minutes Level: Intermediate Prerequisites: Basic AWS knowledge, familiarity with S3 and Lambda Series: Part 2 of 4 - Read Part 1 Objective: This blog focuses on teaching core concepts and best practices for building data pipelines on AWS. While the code is functional, it's designed for learning and experimentation. For production deployments, additional hardening and testing would be needed. Welcome Back! In Part 1, we explored the AIDLC framework and AWS architecture for se",
@@ -1621,6 +1589,18 @@
         "developer",
         "code"
       ]
+    },
+    {
+      "id": "1a646c57d6d27169",
+      "title": "BYD Sells 4.6M Vehicles in 2025, Meets Revised Sales Goal",
+      "description": "Comments",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-01/byd-sells-4-6-million-vehicles-in-2025-meets-revised-sales-goal",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-01T15:49:42+00:00",
+      "niche": "dev",
+      "score": 56,
+      "keywords": []
     },
     {
       "id": "edb64cce899b5ff6",
@@ -2313,17 +2293,18 @@
       ]
     },
     {
-      "id": "fe9cd3747909bb0f",
-      "title": "How Amazon Sponsored Ad Placement Scraper Achieves 96% Success Rate",
-      "description": "Understanding why SP ad scraping success rates vary from 30% to 96%+ and how to choose the right solution for your business. 🚨 The Problem: Incomplete Data Leads to Flawed Decisions Last year, while analyzing competitor advertising strategies, our team discovered something puzzling: scraping the same keyword \"wireless earbuds\" with different tools yielded vastly different numbers of Sponsored Products ads—sometimes double the difference. Initially, we thought it was a timing issue. But the reali",
-      "url": "https://dev.to/loopsthings/how-amazon-sponsored-ad-placement-scraper-achieves-96-success-rate-ghf",
+      "id": "cdab2ac116f1a682",
+      "title": "I’m Not Technical But I’m Rebuilding Random Video Chat by Fixing the Parts Code Never Touched",
+      "description": "Confession: I can’t code. I don’t argue about frameworks. I don’t optimize databases. I don’t say things like “just refactor it” with confidence. But I do spend an unhealthy amount of time thinking about why products feel the way they feel when you use them. That’s how I ended up building What’s The Vibe and why I think random video chat has been quietly broken for years, even though it technically works just fine. Random Video Chat Is a Speedrun to “Skip” You know the loop. You load in. A stran",
+      "url": "https://dev.to/mark_gjura/im-not-technical-but-im-rebuilding-random-video-chat-by-fixing-the-parts-code-never-touched-3ic0",
       "source": "Dev.to",
-      "author": "Mox Loop",
-      "published": "2025-12-26T01:35:52+00:00",
+      "author": "mark gjura",
+      "published": "2026-01-02T01:58:34+00:00",
       "niche": "dev",
-      "score": 54,
+      "score": 55,
       "keywords": [
-        "API"
+        "framework",
+        "code"
       ]
     },
     {
@@ -3362,18 +3343,17 @@
       ]
     },
     {
-      "id": "9f653eda84f6c9af",
-      "title": "AI integration, semiconductor advancements, and strategic tech shifts dominate year-end tech news.",
-      "description": "Year-End Tech Deep Dive: AI, Security, and Infrastructure Shifts This post will explore the latest developments across the tech landscape, focusing on how AI is being integrated, secured, and deployed. We'll cover: AI Accessibility & Integration: Google's aggressive pricing on AI Pro, and Waymo's testing of Gemini as an in-car assistant in robotaxis. Software Security & Modernization: Microsoft's ambitious plan to migrate its C/C++ codebase to Rust by 2030, leveraging AI for security enhancement",
-      "url": "https://dev.to/stelixx-insights/ai-integration-semiconductor-advancements-and-strategic-tech-shifts-dominate-year-end-tech-news-53kg",
+      "id": "94b2c0e9eb106157",
+      "title": "The Power of Compliance: How Kalshi Turned Prediction Markets into a $11 Billion Legitimate Business",
+      "description": "In November 2025, prediction market platform Kalshi completed a $1 billion funding round at a $11 billion valuation, led by Sequoia Capital and Alphabet’s CapitalG. Once regarded by regulators as a “disguised gambling” business, how did Kalshi gain legal status in six years and become a capital favorite? The answer lies in compliance-driven innovation. Kalshi’s story demonstrates that in fintech, the greatest moat may be the ability to turn regulatory requirements into a competitive advantage. T",
+      "url": "https://dev.to/apnews/the-power-of-compliance-how-kalshi-turned-prediction-markets-into-a-11-billion-legitimate-business-3l48",
       "source": "Dev.to",
-      "author": "Stelixx Insights",
-      "published": "2025-12-26T01:35:27+00:00",
+      "author": "Apnews",
+      "published": "2026-01-02T01:47:46+00:00",
       "niche": "dev",
-      "score": 52,
+      "score": 54,
       "keywords": [
-        "code",
-        "development"
+        "API"
       ]
     },
     {
@@ -3733,34 +3713,6 @@
       "score": 52,
       "keywords": [
         "programming",
-        "code"
-      ]
-    },
-    {
-      "id": "20f6f0e5d4a72a60",
-      "title": "365 Days - Full Stack journey !",
-      "description": "Hi, everyone... it's Munin here... Taking a 365 Days challenge. goal : learn full stack (Build cool real world ai based project that solves real world problems ) as, I am going to share on weekly, and daily basis.. I am going to share all of my losses, win , etc.. Nothings fancy, just a 18 years old boy who want's to learn to code.... just sharing all of his learning and the experiences in blog.... and, if anyone.. who is in the same boat as me.. and just starting to learn coding.. then why not!",
-      "url": "https://dev.to/munin_borah/365-days-full-stack-journey--3l9n",
-      "source": "Dev.to",
-      "author": "Munin 🌝",
-      "published": "2025-12-26T01:26:53+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "7873acba442c073d",
-      "title": "🚀 Stop Killing Your Bundle Size",
-      "description": "Automatically Remove Barrel Files in TypeScript We all love Barrel Files (index.ts files that export everything from a directory). They make our imports look clean and organized: // 😍 Looks clean... import { Button, Header, Footer } from './components'; But what if I told you that this single line of code is likely slowing down your CI/CD, bloating your bundle size, and causing those nightmare \"Module is undefined\" circular dependency errors? I built a tool to fix this automatically, and today I",
-      "url": "https://dev.to/chintan121/stop-killing-your-bundle-size-nnd",
-      "source": "Dev.to",
-      "author": "Chintan prajapati",
-      "published": "2025-12-26T01:11:26+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
         "code"
       ]
     },
@@ -5333,40 +5285,32 @@
       ]
     },
     {
-      "id": "ca067b7db62bef43",
-      "title": "[Smart Watch] [Stage] Single shelf compilation error: hvigor ERROR: Unexpected string in JSON at position 1877",
-      "description": "Read the original article：[Smart Watch] [Stage] Single shelf compilation error: hvigor ERROR: Unexpected string in JSON at position 1877 [Smart Watch] [Stage] Single shelf compilation error: hvigor ERROR: Unexpected string in JSON at position 1877 Problem: Watch frame compilation error: > hvigor ERROR: Failed :entry: default@CompileArkTS... > hvigor ERROR: Unexpected string in JSON at position 1877 COMPILE RESULT:FAIL {ERROR:1} Solution: Check if the system capability field added in wearable hmo",
-      "url": "https://dev.to/harmonyos/smart-watch-stage-single-shelf-compilation-error-hvigor-error-unexpected-string-in-json-at-2h06",
+      "id": "b762c8da2e6680a9",
+      "title": "C# Smart Enums: escape magic number hell",
+      "description": "The Problem: Magic Number Hell We've all seen code like this: if (product.StatusId == 2) { // What is 2? Pending? Deleted? Available? product.StatusName = \"?\"; } This is Magic Number Hell. It’s hard to read, impossible to maintain, and a magnet for bugs. You have to search the codebase and figure out the meaning: This code has several issues: The number 2 has no meaning without context The description will likely be duplicated string everywhere It leads to errors when setting id or description R",
+      "url": "https://dev.to/helder_sousa_d5a9854fcde0/c-smart-enums-escape-magic-number-hell-3knn",
       "source": "Dev.to",
-      "author": "HarmonyOS",
-      "published": "2025-12-26T01:48:35+00:00",
+      "author": "helder sousa",
+      "published": "2026-01-02T01:54:44+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
-      "id": "cfea1064f84dcb22",
-      "title": "Day 25 / 365 - Full Stack journey",
-      "description": "wait...wait... you may wonder how, I reach to Day 25, instead of Day 1 or 2.... Because.. I had not posted about the past 25 days... I was learning alone.. not sharing, but now onwards... It's different.. I will be going to Build Network while I am learning.. so, today is Day 26 by the way and I am here to share all of my wins and losses of this past 25 days.. so, During this past 25 Days.. I had learned a lot.. I had learned about html and CSS.. (only that much which is needed) what is html and",
-      "url": "https://dev.to/munin_borah/day-25-365-full-stack-journey-95i",
+      "id": "eac8763d49896a58",
+      "title": "Tech Horror Codex: Technical Debt",
+      "description": "The patch is a prayer. The backlog is a tomb. Every system begins with good intentions. You make a tradeoff. You skip a refactor. You hardcode a value. You promise to “circle back.” And then you don’t. Not because you’re lazy. Not because you’re careless. But because the system kept moving—and you had to keep up. This is the horror of Technical Debt: It doesn’t scream. It whispers. Until it becomes ritual pain. The Horror of Compounding Technical debt is not a bug. It’s a curse—one that compound",
+      "url": "https://dev.to/narnaiezzsshaa/tech-horror-codex-technical-debt-o16",
       "source": "Dev.to",
-      "author": "Munin 🌝",
-      "published": "2025-12-26T01:45:42+00:00",
+      "author": "Narnaiezzsshaa Truong",
+      "published": "2026-01-02T01:41:39+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "dd4465424c069bb8",
-      "title": "AI Voice Generator Alternatives in 2025: How to Choose the Right Option",
-      "description": "People search for AI voice generator alternatives for very different reasons. Some feel that synthetic voices sound unnatural. Others want to use their own voice. And in many cases, people realize that what they actually need is not just audio, but voice as part of a larger content experience. In 2025, “alternatives” no longer means finding another tool that produces similar text-to-speech output. Instead, it refers to different ways of creating, controlling, and using AI-generated voice, depend",
-      "url": "https://dev.to/herman99630/ai-voice-generator-alternatives-in-2025-how-to-choose-the-right-option-5cho",
-      "source": "Dev.to",
-      "author": "Herman_Sun",
-      "published": "2025-12-26T01:25:27+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "fa906938a1ad6bbb",
@@ -7809,6 +7753,54 @@
       "keywords": []
     },
     {
+      "id": "8681ec55207e4446",
+      "title": "How to Design AI Inputs So Output Quality Becomes Predictable",
+      "description": "As the Founder of ReThynk AI, I’ve learned a simple rule: If AI output feels random, the inputs are random. Most people blame the model. But the real issue is usually that the AI is operating without a clear “definition of good.” How to Design AI Inputs So Output Quality Becomes Predictable AI is not a mind reader. It’s an amplifier. So when I give vague inputs, AI amplifies vagueness into “fine-looking” output that fails later. Predictable output starts with one shift: I stop prompting for answ",
+      "url": "https://dev.to/jaideepparashar/how-to-design-ai-inputs-so-output-quality-becomes-predictable-29ij",
+      "source": "Dev.to",
+      "author": "Jaideep Parashar",
+      "published": "2026-01-02T01:59:13+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "2844420904f65f8f",
+      "title": "Roulette-wheel selection via stochastic acceptance",
+      "description": "Pick winners fast: how a roulette wheel uses stochastic acceptance Imagine a spinning wheel that pick a name, where bigger slices have higher chance to win. Instead of searching through every option, this trick uses stochastic acceptance — try one at random, accept it with a probability tied to its weights, if rejected try again. That makes the process much fast in most cases, not slowing down as choices grow. It’s simple to understand and easy to try, so you can use it in games, simulations, or",
+      "url": "https://dev.to/paperium/roulette-wheel-selection-via-stochastic-acceptance-3kci",
+      "source": "Dev.to",
+      "author": "Paperium",
+      "published": "2026-01-02T01:40:09+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "e37b8cefb9108742",
+      "title": "I Went From $47 to Paying Rent - Here's What Actually Works for Student Income",
+      "description": "I had $47 in my checking account. Rent was $600. Due in 9 days. That was sophomore year. Classic broke college student scenario. I was scrolling through \"ways to earn money from home\" at 1am instead of sleeping. Every search result was the same unhelpful stuff. \"Start a dropshipping empire!\" \"Become a millionaire blogger!\" Great. Except I needed $553 in 9 days from my dorm room. Not life advice for 2030. So I tried everything. Surveys, tutoring, random gigs from Reddit. Some worked. Most didn't.",
+      "url": "https://dev.to/short_playskits_ab152535/i-went-from-47-to-paying-rent-heres-what-actually-works-for-student-income-594b",
+      "source": "Dev.to",
+      "author": "Short Play Skits",
+      "published": "2026-01-02T01:37:15+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "c23ca5bcb5084271",
+      "title": "CYPRESS-FLAKY-TESTAUDIT: thriving in the Cypress 'Dual-Verse' for once!",
+      "description": "When flaky tests stop being \"random\" and start being a pattern, it is time to stop guessing and start auditing. This is the story of how to make peace with Cypress’ Dual-Verse... and actually win. ACT 1: EXPOSITION At some point in every Cypress project, a test fails. You re-run it. It passes. You shrug, blame CI, and move on with your life. Then it happens again. And again. And somehow only on Tuesdays, only in CI, or only when Mercury is in retrograde. Welcome back to the Cypress Dual-Verse: t",
+      "url": "https://dev.to/sebastianclavijo/cypress-flaky-testaudit-thriving-in-the-cypress-dual-verse-for-once-l4o",
+      "source": "Dev.to",
+      "author": "Sebastian Clavijo Suero",
+      "published": "2026-01-02T01:37:00+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "012e1fffb290f33c",
       "title": "[Boost]",
       "description": "The Quiet Revolution in Developer Workflows: Why Static Code Is Dying Jaideep Parashar ・ Dec 24 #webdev #ai #devops #discuss",
@@ -7965,6 +7957,20 @@
       ]
     },
     {
+      "id": "a596107cb7ff1150",
+      "title": "Most developers blame the model. But the real issue is usually that most developers operate without a clear “definition of good.”",
+      "description": "How to Design AI Inputs So Output Quality Becomes Predictable Jaideep Parashar ・ Jan 2 #webdev #ai #beginners #productivity",
+      "url": "https://dev.to/jaideepparashar/most-developers-blame-the-model-but-the-real-issue-is-usually-that-most-developers-operate-without-2nbh",
+      "source": "Dev.to",
+      "author": "Jaideep Parashar",
+      "published": "2026-01-02T02:01:06+00:00",
+      "niche": "dev",
+      "score": 48,
+      "keywords": [
+        "developer"
+      ]
+    },
+    {
       "id": "664ed4333578557a",
       "title": "[Boost]",
       "description": "Todo lo nuevo de FinOps en AWS re:Invent 2025 Barbara Gaspar ・ Dec 27 #awsreinvent2025 #finops #aws #finopsfoundation",
@@ -8023,20 +8029,6 @@
       "niche": "dev",
       "score": 46,
       "keywords": []
-    },
-    {
-      "id": "72e27555768cffdb",
-      "title": "MiniMax M2.1: Built for Real-World Complex Tasks, Multi-Language Programming",
-      "description": "Comments",
-      "url": "https://www.minimaxi.com/news/minimax-m21",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-26T01:02:53+00:00",
-      "niche": "dev",
-      "score": 45,
-      "keywords": [
-        "programming"
-      ]
     },
     {
       "id": "91292518aacd66a4",
@@ -8191,42 +8183,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "494b990330b81741",
-      "title": "Maybe the default settings are too high",
-      "description": "Comments",
-      "url": "https://www.raptitude.com/2025/12/maybe-the-default-settings-are-too-high/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-25T23:13:21+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "137d784ad45bdbd5",
-      "title": "When a driver challenges the kernel's assumptions",
-      "description": "Comments",
-      "url": "http://miod.online.fr/software/openbsd/stories/udl.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-26T00:32:15+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "8014f94f747a4606",
-      "title": "Seven Diabetes Patients Die Due to Undisclosed Bug in Abbott's Glucose Monitors",
-      "description": "Comments",
-      "url": "https://sfconservancy.org/blog/2025/dec/23/seven-abbott-freestyle-libre-cgm-patients-dead/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-26T00:29:40+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "779b239b54652c24",
@@ -9873,6 +9829,42 @@
       "keywords": []
     },
     {
+      "id": "d9cae84c22dd02dc",
+      "title": "Can Bundler be as fast as uv?",
+      "description": "Comments",
+      "url": "https://tenderlovemaking.com/2025/12/29/can-bundler-be-as-fast-as-uv/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-01T21:37:10+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "fe3a517bd187b5a6",
+      "title": "Linux is good now",
+      "description": "Comments",
+      "url": "https://www.pcgamer.com/software/linux/im-brave-enough-to-say-it-linux-is-good-now-and-if-you-want-to-feel-like-you-actually-own-your-pc-make-2026-the-year-of-linux-on-your-desktop/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-01T20:35:11+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "3b361f5db9d1b242",
+      "title": "WebAssembly as a Python Extension Platform",
+      "description": "Comments",
+      "url": "https://nullprogram.com/blog/2026/01/01/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-01T22:09:16+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "aac61a613c7849e9",
       "title": "Touch Targets and Web Accessibility",
       "description": "Learn about touch target accessibility standards and WCAG guidelines. Discover why 24x24px or 44x44px targets improve usability for all users with code examples. Continue reading Touch Targets and Web Accessibility on SitePoint.",
@@ -9897,8 +9889,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "performance",
-        "React 19"
+        "React 19",
+        "performance"
       ]
     },
     {
@@ -9955,9 +9947,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
+        "code",
         "release",
-        "performance",
-        "code"
+        "performance"
       ]
     },
     {
@@ -9971,8 +9963,8 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "release",
         "developer",
+        "release",
         "API"
       ]
     },
@@ -9987,9 +9979,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
+        "developer",
         "release",
-        "performance",
-        "developer"
+        "performance"
       ]
     },
     {
@@ -10295,6 +10287,18 @@
       "keywords": []
     },
     {
+      "id": "8af4dd4327c3aef7",
+      "title": "Finland detains ship and its crew after critical undersea cable damaged",
+      "description": "Comments",
+      "url": "https://www.cnn.com/2025/12/31/europe/finland-estonia-undersea-cable-ship-detained-intl",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-01T18:46:07+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
       "id": "4e6d7290f5ff11d8",
       "title": "React Native 0.80 - React 19.1, JS API Changes, Freezing Legacy Arch and much more",
       "description": "Today we are excited to release React Native 0.80!",
@@ -10305,8 +10309,8 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "release",
         "React 19",
+        "release",
         "API"
       ]
     },
@@ -10373,8 +10377,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10388,8 +10392,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10672,9 +10676,9 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "framework",
         "release",
         "performance",
+        "framework",
         "code",
         "API"
       ]
@@ -10842,6 +10846,18 @@
       "keywords": []
     },
     {
+      "id": "4363c2006ae64d22",
+      "title": "Show HN: Enroll, a tool to reverse-engineer servers into Ansible config mgmt",
+      "description": "Comments",
+      "url": "https://enroll.sh",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-01T00:23:54+00:00",
+      "niche": "dev",
+      "score": 26,
+      "keywords": []
+    },
+    {
       "id": "cd46e0b1413a2532",
       "title": "LCP and INP are now Baseline Newly available",
       "description": "LCP and INP are now Baseline Newly available as of December 12, 2025.",
@@ -10969,8 +10985,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "framework"
+        "framework",
+        "release"
       ]
     },
     {
@@ -10984,9 +11000,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "performance",
+        "developer",
         "code",
-        "developer"
+        "performance"
       ]
     },
     {
@@ -11000,8 +11016,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "performance",
-        "code"
+        "code",
+        "performance"
       ]
     },
     {
@@ -11015,8 +11031,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
-        "code"
+        "code",
+        "release"
       ]
     },
     {
@@ -11030,8 +11046,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
-        "developer"
+        "developer",
+        "release"
       ]
     },
     {
@@ -11102,9 +11118,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
+        "developer",
         "development",
-        "API",
-        "developer"
+        "API"
       ]
     },
     {
@@ -11118,9 +11134,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "development",
         "tutorial",
-        "PHP"
+        "PHP",
+        "development"
       ]
     },
     {
@@ -11134,9 +11150,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "development",
         "tutorial",
-        "PHP"
+        "PHP",
+        "development"
       ]
     },
     {
@@ -11165,8 +11181,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "programming",
-        "developer"
+        "developer",
+        "programming"
       ]
     },
     {
@@ -11387,18 +11403,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-26T07:10:12+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "7f5e795471777b50",
-      "title": "What If Heavy Files Felt Heavy?",
-      "description": "Comments",
-      "url": "https://www.shiveesh.com/thoughts-and-ideas/what-if-heavy-files-actually-felt-heavy",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-26T01:44:00+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
