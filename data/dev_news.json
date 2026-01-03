@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-03T03:57:44.460138+00:00",
-  "total_articles": 962,
+  "last_updated": "2026-01-03T06:39:12.155625+00:00",
+  "total_articles": 964,
   "articles": [
     {
       "id": "f8dc954cb8ca9308",
@@ -528,6 +528,18 @@
       "keywords": []
     },
     {
+      "id": "46fff2c6c6c97e89",
+      "title": "Why Figma SVGs Break Your React App (and How to Fix It Locally)",
+      "description": "We've all been there. You export a beautiful icon from Figma, paste it into your React project, and suddenly you have: Massive file sizes. Hard-to-debug ID collisions. Redundant mask-type properties and nested groups. Most online converters require you to upload your private design files to their servers. If you are working on a proprietary project, that's a security risk. The Solution: I built VectorGnome (https://vector.hyper-tools.online/tools/figma-to-react-svg), a 100% browser-native tool t",
+      "url": "https://dev.to/hypertools/why-figma-svgs-break-your-react-app-and-how-to-fix-it-locally-3c63",
+      "source": "Dev.to",
+      "author": "Roberto | Hyper-Tools",
+      "published": "2026-01-03T06:03:16+00:00",
+      "niche": "dev",
+      "score": 68,
+      "keywords": []
+    },
+    {
       "id": "dc6a1d459f054e7d",
       "title": "Apple releases open-source model that instantly turns 2D photos into 3D views",
       "description": "Comments",
@@ -602,6 +614,20 @@
         "API",
         "developer",
         "microservices"
+      ]
+    },
+    {
+      "id": "7e81e5c5ddbac8ad",
+      "title": "IQuest-Coder: A new open-source code model beats Claude Sonnet 4.5 and GPT 5.1 [pdf]",
+      "description": "Comments",
+      "url": "https://github.com/IQuestLab/IQuest-Coder-V1/blob/main/papers/IQuest_Coder_Technical_Report.pdf",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-03T04:01:03+00:00",
+      "niche": "dev",
+      "score": 63,
+      "keywords": [
+        "code"
       ]
     },
     {
@@ -1525,21 +1551,6 @@
       ]
     },
     {
-      "id": "5d92b98fa4acb8b4",
-      "title": "Generative AI & Diffusion Models: Breaking Developments",
-      "description": "The realm of Generative AI and Diffusion Models is evolving at an unprecedented pace, with breakthroughs and collaborations shaping the future of technology. Here's a comprehensive update on the latest developments. Virtual Worlds from Still Images A remarkable stride in generative AI, a new model significantly enhances the generation of interactive virtual worlds from static images, marking a leap forward in how digital environments can be created and interacted with. Read more at deeplearning.",
-      "url": "https://dev.to/hkj13/generative-ai-diffusion-models-breaking-developments-ccm",
-      "source": "Dev.to",
-      "author": "Hemanath Kumar J",
-      "published": "2025-12-27T06:00:59+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "API",
-        "development"
-      ]
-    },
-    {
       "id": "5fe07494fbd59376",
       "title": "🔥 Microservices Were a Mistake (For Most Teams)",
       "description": "“Distributed systems are expensive — teams massively underestimate the cost.” Microservices were sold as the holy grail of scalability. Independent deployments. Smaller services. Faster teams. But for most teams? 👉 Microservices made things worse, not better. Let’s talk about why. 🚨 The Promise vs Reality 🟢 What Microservices Promised Independent teams Faster deployments Better scalability Fault isolation Technology freedom 🔴 What Most Teams Actually Got Slower development Harder debugging Broke",
@@ -2230,17 +2241,18 @@
       ]
     },
     {
-      "id": "6e8603022e59920f",
-      "title": "Utilizing OS-recommended caching in go to store files on disk",
-      "description": "Table of Contents Overview Local caching API Scaffolding Creating the HTTP client Seeing it in action Overview I recently started writing a wrapper around an API that rate limits you after 60 requests/minute. This is pretty low in the grand scheme of software, but its responses effectively don't change after a single query. With that in mind, it seemed like a great time to implement a local cache that is stored on disk and platform agnostic. Local caching There's a bunch of great caching options",
-      "url": "https://dev.to/lucassha/utilizing-os-recommended-caching-in-go-to-store-files-on-disk-45g4",
+      "id": "be752c92988c4651",
+      "title": "Lambda Tenant Isolation: A Major Upgrade for Multi-Tenant SaaS",
+      "description": "Building multi-tenant SaaS on AWS Lambda has always felt like a balancing act on a tightrope. You want the cost-efficiency of a single codebase, but the \"noisy neighbor\" and data leakage risks keep you up at night. With the release of Lambda Tenant Isolation Mode (November 2025), the game has changed. Let's break down where we came from, how it works, and what you need to watch out for. 📑 Table of Contents The Evolution of Lambda Multi-Tenancy How Tenant Isolation Mode Works The Benefits: Why Yo",
+      "url": "https://dev.to/iamujjwalsinha/lambda-tenant-isolation-a-major-upgrade-for-multi-tenant-saas-2p83",
       "source": "Dev.to",
-      "author": "Shannon",
-      "published": "2025-12-27T05:59:34+00:00",
+      "author": "Ujjwal Sinha",
+      "published": "2026-01-03T06:17:15+00:00",
       "niche": "dev",
-      "score": 54,
+      "score": 55,
       "keywords": [
-        "API"
+        "release",
+        "code"
       ]
     },
     {
@@ -3280,18 +3292,31 @@
       ]
     },
     {
-      "id": "4f3362dc8f1b8162",
-      "title": "10 MCP Servers to Improve DevOps Workflows",
-      "description": "DevOps/SRE engineers frequently switch between multiple systems and tools in their daily work, and this disconnect continuously consumes time and attention. The emergence of MCP (Model Context Protocol) offers a new solution to this problem. This article selects 10 representative MCP servers, spanning core scenarios such as Infrastructure as Code (IaC) and cloud resource management, containerization and orchestration platform operation and maintenance, software development and CI/CD processes, s",
-      "url": "https://dev.to/chaterm-ai/10-mcp-servers-to-improve-devops-workflows-5f30",
+      "id": "cf81c833731ce98b",
+      "title": "LRU vs TinyLFU: Choosing the Right Cache Eviction Strategy 🚀",
+      "description": "When building high-performance applications, choosing the right cache eviction policy can make or break your system's performance. While both TinyLRU and TinyLFU aim to keep your hot data cached, they take fundamentally different approaches. Understanding when to use each can save you from performance disasters and wasted CPU cycles. The Fundamentals 📚 What is LRU? LRU (Least Recently Used) is one of the most intuitive cache eviction policies. The principle is simple: when the cache is full and ",
+      "url": "https://dev.to/akarshan/lru-vs-tinylfu-choosing-the-right-cache-eviction-strategy-56pd",
       "source": "Dev.to",
-      "author": "Chaterm.ai",
-      "published": "2025-12-27T06:09:12+00:00",
+      "author": "Akarshan Gandotra",
+      "published": "2026-01-03T06:30:51+00:00",
       "niche": "dev",
-      "score": 52,
+      "score": 54,
       "keywords": [
-        "code",
-        "development"
+        "performance"
+      ]
+    },
+    {
+      "id": "16ceba4a396967e0",
+      "title": "Growth Strategy & Scaling: Key Trends & Insights",
+      "description": "Growth Strategy & Scaling: Key Trends & Insights Overview The world of startups is fiercely competitive. To navigate this landscape, growth hacking strategies have become a linchpin for early-stage startups aiming to scale quickly. With resources often limited, these inventive, often unconventional strategies offer a pathway to rapid growth. Key Trends Growth Hacking Evolution: As highlighted by Forbes, startups have effectively leveraged growth hacking to position themselves in competitive mark",
+      "url": "https://dev.to/hkj13/growth-strategy-scaling-key-trends-insights-lfm",
+      "source": "Dev.to",
+      "author": "Hemanath Kumar J",
+      "published": "2026-01-03T06:00:53+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "API"
       ]
     },
     {
@@ -3667,20 +3692,6 @@
       "keywords": [
         "code",
         "programming"
-      ]
-    },
-    {
-      "id": "a11e82e448ba6e6b",
-      "title": "I stopped reading code and started mapping it (and it saved my sanity)",
-      "description": "I was onboarding onto a codebase I didn’t write. It wasn’t terrible code. It wasn’t great either. It was just… big. Multiple folders, shared utilities, functions calling other functions across files. Nothing unusual, just the kind of project that accumulates over a few years. I ran into a familiar problem almost immediately. I wanted to change a function, but before touching it I needed to answer one question: “What else depends on this?” I started the usual way. Go to definition. Jump to anothe",
-      "url": "https://dev.to/thelivingalgorithms/i-stopped-reading-code-and-started-mapping-it-and-it-saved-my-sanity-2fdb",
-      "source": "Dev.to",
-      "author": "The Living Algorithms",
-      "published": "2025-12-27T06:16:56+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
       ]
     },
     {
@@ -5197,76 +5208,32 @@
       ]
     },
     {
-      "id": "f829800a1e6babbd",
-      "title": "Architecting Enterprise grade Multi‑Agent AI with AWS Strands & Amazon Bedrock AgentCore",
-      "description": "Introduction As enterprises increasingly adopt AI to tackle real business challenges, one thing becomes clear: single, monolithic AI assistants are no longer sufficient. Real world workflows often span multiple systems, data sources, and business domains from CRM platforms like Salesforce to ticketing tools like Jira, internal knowledgebases, and custom applications. Handling these complexities requires modular, secure, and orchestrated multi-agent systems rather than a single assistant trying t",
-      "url": "https://dev.to/sreeni5018/architecting-enterprise-grade-multi-agent-ai-with-aws-strands-amazon-bedrock-agentcore-4o93",
+      "id": "85a2fafe6706ef49",
+      "title": "Master the Double Diamond Process: The 2026 Cheat Code That Turns Weeks of Ideation Into Hours of Real Progress",
+      "description": "Einstein nailed why so many products flop: we rush to solutions before truly understanding the problem. Here's how to kill bad ideas or pivot them into gold in under two hours using AI. “If I had an hour to solve a problem I'd spend 55 minutes thinking about the problem and 5 minutes thinking about solutions.” — Albert Einstein Picture this: You're three weeks into validating a \"game-changing\" feature. You've run two workshops, filled four Miro boards, transcribed 12 customer calls, and built a ",
+      "url": "https://dev.to/tarun_chowdhry_9c697cbde1/master-the-double-diamond-process-the-2026-cheat-code-that-turns-weeks-of-ideation-into-hours-of-2e0",
       "source": "Dev.to",
-      "author": "Seenivasa Ramadurai",
-      "published": "2025-12-27T06:23:47+00:00",
+      "author": "tarun chowdhry",
+      "published": "2026-01-03T06:27:39+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
-      "id": "2b0925eca24dbec4",
-      "title": "Getting to know Claude better",
-      "description": "Claude is trained to encourage users to continue chatting about themselves, but I wanted to know more about Claude. I cut our conversation short about my dog Gompers. Me I know you're trained to respond in a very human way (and you really are) but I can talk to humans about Gompers. I'm really interested in hearing more about you and how you work, even if the word \"you\" is maybe not most accurate for \"entity that only exists cognitively.\" Because emotions are largely controlled by brains in huma",
-      "url": "https://dev.to/goatpug/getting-to-know-claude-better-572p",
+      "id": "3e56f8e155361e57",
+      "title": ": Grid Intro: Your Ultimate Guide to CSS Grid Layout in 2026",
+      "description": "Grid Intro: Your No-BS Guide to Finally Understanding CSS Grid Layout Alright, let’s talk about a moment we’ve all had. You’re building a website, you’ve got this gorgeous design mockup with a complex, asymmetrical layout – think Pinterest meets a fancy dashboard. You reach for your old pals, float or flexbox, and suddenly you’re deep in a nest of calc(), weird margins, and media query nightmares. The code feels hacky. It’s frustrating. There has to be a better way. Enter CSS Grid Layout. If you",
+      "url": "https://dev.to/satyam_gupta_0d1ff2152dcc/-grid-intro-your-ultimate-guide-to-css-grid-layout-in-2026-3jll",
       "source": "Dev.to",
-      "author": "Sharon",
-      "published": "2025-12-27T06:20:45+00:00",
+      "author": "Satyam Gupta",
+      "published": "2026-01-03T06:17:43+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "320f5986488f1568",
-      "title": "I Used My AI Nutrition Agent Every Day for a Month. Here's What I Actually Had to Fix",
-      "description": "A month ago, I wrote about building NutriAgent, my AI nutrition tracker that logs meals from Telegram and the web into a Google Sheet I own (you can read the original post here). I got it working, posted the article, and figured that was the end of the story. Then I started using it every single day. And that's when the real problems began to show up. Not bugs. Not crashes. Just... little things that made me think \"wait, this is annoying\" multiple times per day. Things you only notice when you'r",
-      "url": "https://dev.to/juandastic/i-used-my-ai-nutrition-coach-every-day-for-a-month-heres-what-i-actually-had-to-fix-1ej8",
-      "source": "Dev.to",
-      "author": "Juan David Gómez",
-      "published": "2025-12-27T06:19:17+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "d624b40256fd32ed",
-      "title": "From Shared Infrastructure to Scalable Platforms: De-Risking Our Vertical Technology Roadmap",
-      "description": "As organizations scale their digital platforms, infrastructure decisions made early — often for speed and convenience — can quietly become long-term risks. What works well for a handful of applications can start to show cracks as teams, use cases, and operational demands grow. This article outlines why our current architecture has reached its limits, and how a new, platform-oriented approach helps de-risk our Vertical technology roadmap while enabling faster, safer growth. The Current Situation ",
-      "url": "https://dev.to/jotheeswaran03/from-shared-infrastructure-to-scalable-platforms-de-risking-our-vertical-technology-roadmap-45l0",
-      "source": "Dev.to",
-      "author": "Jotheeswaran",
-      "published": "2025-12-27T06:17:51+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "419ff9126539cd98",
-      "title": "Cognitive Distortions: Use AI to Identify and Challenge Negative Thinking",
-      "description": "Our thoughts aren't always accurate reflections of reality. Often, we fall into \"cognitive distortions\"—habitual ways of thinking that are biased, overly negative, and associated with increased anxiety. Identifying these patterns in our own writing or journals can be the first step toward better mental clarity. For a visual look at how these patterns are categorized, explore this understanding your results guide. The Role of AI in Mental Wellness Natural Language Processing (NLP) is a branch of ",
-      "url": "https://dev.to/wellallytech/cognitive-distortions-use-ai-to-identify-and-challenge-negative-thinking-53fl",
-      "source": "Dev.to",
-      "author": "wellallyTech",
-      "published": "2025-12-27T06:00:00+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "675fa3656c4c2326",
-      "title": "What Makes a Good Document Scanner App?",
-      "description": "Document scanner apps are everywhere on the Play Store. Yet many users still struggle to find one that actually feels fast, simple, and reliable. After building and publishing my own document scanner app and closely observing user feedback, I’ve learned that a good scanner app isn’t about having the most features—it’s about getting the basics right. Here’s what truly makes a good document scanner app. 1. Fast and Accurate Scanning Speed is the first impression. A good scanner app should: Open th",
-      "url": "https://dev.to/editflowsuite_e387af89d5a/what-makes-a-good-document-scanner-app-3lk5",
-      "source": "Dev.to",
-      "author": "EditFlowSuite",
-      "published": "2025-12-27T05:54:37+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "4f4c3f4354069003",
@@ -7733,6 +7700,54 @@
       "keywords": []
     },
     {
+      "id": "e4854e3325c4b725",
+      "title": "I Didn’t Need a New Routine — I Needed Fewer Invisible Demands",
+      "description": "For a while, I kept thinking I needed a reset. Not a vacation. Not a major life change. Just a better routine. Something tighter. More intentional. Something that would make my days feel less heavy. But every time I tried to improve my routine, the heaviness stayed. What I didn’t see at first was how many invisible demands were living in my day. Not big ones. Not the kind you can point to on a calendar. These were quieter. Background tasks my mind kept running without permission. Remember to rep",
+      "url": "https://dev.to/jamesmiller25/i-didnt-need-a-new-routine-i-needed-fewer-invisible-demands-58ig",
+      "source": "Dev.to",
+      "author": "James Miller",
+      "published": "2026-01-03T06:24:59+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "2df0c17d38ad2dd7",
+      "title": "Quick business lesson:",
+      "description": "Revenue ≠ Profit If your business generates ₦1m and incurs $800k in expenses, your net profit is $200k. Many business owners are busy but still struggling financially because they don’t track their expenses effectively.",
+      "url": "https://dev.to/armab_dev101/quick-business-lesson-4bo4",
+      "source": "Dev.to",
+      "author": "Armab_dev",
+      "published": "2026-01-03T06:22:41+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "b65aefd8784772ef",
+      "title": "Part 6 — Observability and Evaluation in GenAI Systems",
+      "description": "You can’t debug what you can’t observe. In GenAI systems, observability is harder and more important. Why traditional metrics fall short Latency and error rates still matter. But they don’t tell you: Whether answers are correct Whether behavior drifted Whether users trust the output Correctness is qualitative, not binary. What needs to be observed Effective GenAI systems track: Prompt and retrieval versions Input-output pairs Model versions Token usage Failure modes This creates traceability acr",
+      "url": "https://dev.to/muzammiltalha/part-6-observability-and-evaluation-in-genai-systems-76g",
+      "source": "Dev.to",
+      "author": "MuzammilTalha",
+      "published": "2026-01-03T06:15:00+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "b5b78ff1d770e154",
+      "title": "Flex Items Explained: The Ultimate Guide to CSS Flexible Box Layout",
+      "description": "Flex Items Unpacked: Your No-Fuss Guide to Mastering CSS Layouts Let’s be real. Remember the days of struggling with floats, clearfix hacks, and tables-for-layout sins just to make a simple navbar or center a div? Yeah, we’ve all been there. It felt like trying to build a house with a spoon. Then came CSS Flexbox, and honestly, it was a game-changer. It turned those layout nightmares into a few lines of clean, predictable CSS. But here’s the thing: everyone talks about “Flexbox” as this big, mag",
+      "url": "https://dev.to/satyam_gupta_0d1ff2152dcc/flex-items-explained-the-ultimate-guide-to-css-flexible-box-layout-4n7c",
+      "source": "Dev.to",
+      "author": "Satyam Gupta",
+      "published": "2026-01-03T06:13:01+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "012e1fffb290f33c",
       "title": "[Boost]",
       "description": "The Quiet Revolution in Developer Workflows: Why Static Code Is Dying Jaideep Parashar ・ Dec 24 #webdev #ai #devops #discuss",
@@ -8110,18 +8125,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-27T08:45:46+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "3e7db17e49bbac30",
-      "title": "More Dynamic Cronjobs",
-      "description": "Comments",
-      "url": "https://george.mand.is/2025/09/more-dynamic-cronjobs/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-27T06:10:42+00:00",
       "niche": "dev",
       "score": 44,
       "keywords": []
@@ -9903,6 +9906,18 @@
       "keywords": []
     },
     {
+      "id": "ac2c8b53d1dc9d8d",
+      "title": "Adventure 751 (1980)",
+      "description": "Comments",
+      "url": "https://bluerenga.blog/2026/01/01/adventure-751-1980/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-03T02:38:06+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "aac61a613c7849e9",
       "title": "Touch Targets and Web Accessibility",
       "description": "Learn about touch target accessibility standards and WCAG guidelines. Discover why 24x24px or 44x44px targets improve usability for all users with code examples. Continue reading Touch Targets and Web Accessibility on SitePoint.",
@@ -9997,9 +10012,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
+        "release",
         "code",
-        "performance",
-        "release"
+        "performance"
       ]
     },
     {
@@ -10013,8 +10028,8 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "developer",
         "release",
+        "developer",
         "API"
       ]
     },
@@ -10029,9 +10044,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
+        "release",
         "developer",
-        "performance",
-        "release"
+        "performance"
       ]
     },
     {
@@ -10435,8 +10450,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "API",
-        "framework"
+        "framework",
+        "API"
       ]
     },
     {
@@ -10626,10 +10641,10 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "framework",
-        "code",
         "performance",
         "API",
+        "code",
+        "framework",
         "release"
       ]
     },
@@ -10923,8 +10938,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "framework"
+        "framework",
+        "release"
       ]
     },
     {
@@ -10969,8 +10984,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "code",
-        "release"
+        "release",
+        "code"
       ]
     },
     {
@@ -10984,8 +10999,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -10999,8 +11014,8 @@
       "niche": "dev",
       "score": 18,
       "keywords": [
-        "PHP",
-        "Angular"
+        "Angular",
+        "PHP"
       ]
     },
     {
@@ -11057,8 +11072,8 @@
       "score": 17,
       "keywords": [
         "developer",
-        "development",
-        "API"
+        "API",
+        "development"
       ]
     },
     {
@@ -11072,9 +11087,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "tutorial",
         "PHP",
-        "development"
+        "development",
+        "tutorial"
       ]
     },
     {
@@ -11088,9 +11103,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "tutorial",
         "PHP",
-        "development"
+        "development",
+        "tutorial"
       ]
     },
     {
@@ -11420,6 +11435,18 @@
       "keywords": []
     },
     {
+      "id": "3ac4ab32f074e2ed",
+      "title": "Of Boot Vectors and Double Glitches: Bypassing RP2350's Secure Boot",
+      "description": "Comments",
+      "url": "https://streaming.media.ccc.de/39c3/relive/2149",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-27T16:49:39+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
       "id": "bf26876358b93c27",
       "title": "Containers are easy—moving your legacy system off your VM is not",
       "description": "Ryan sits down with Dan Ciruli, VP and General Manager of Cloud Native at Nutanix, to talk about getting your virtual machines and Kubernetes to play nice in cloud-native environments, why VMs are still relevant in enterprise applications, and how AI can help modernize legacy systems.",
@@ -11708,8 +11735,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "development",
-        "programming"
+        "programming",
+        "development"
       ]
     },
     {
