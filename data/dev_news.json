@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-03T09:26:49.727246+00:00",
-  "total_articles": 965,
+  "last_updated": "2026-01-03T12:51:18.732842+00:00",
+  "total_articles": 958,
   "articles": [
     {
       "id": "f8dc954cb8ca9308",
@@ -260,6 +260,48 @@
       ]
     },
     {
+      "id": "b134c70c8385178a",
+      "title": "streamix: Generators + Operators - React Community Feedback = ?",
+      "description": "I’d like to introduce streamix, a small (~9KB) open-source library that adds Rx-style operator pipelines to native async generators. This post is not a React integration announcement. It’s an invitation to the React community to review the idea and share professional feedback. The core idea Async generators already model async data flows well: async function* numbers() { for (let i = 0; i < 10; i++) yield i; } for await (const n of numbers()) { console.log(n); } streamix keeps this model but add",
+      "url": "https://dev.to/oleksii_shepel_3f635cea4d/streamix-generators-operators-react-community-feedback--1ckl",
+      "source": "Dev.to",
+      "author": "OLEKSII SHEPEL",
+      "published": "2026-01-03T12:34:14+00:00",
+      "niche": "dev",
+      "score": 72,
+      "keywords": [
+        "library"
+      ]
+    },
+    {
+      "id": "25cbbff86d3f600d",
+      "title": "Demystifying ReAct: Why Reasoning and Acting is the Standard for LLM Agents",
+      "description": "The ReAct (Reasoning and Acting) framework has become the de facto standard for building LLM agents in recent years. ReAct: Synergizing Reasoning and Acting in Language Models Shunyu Yao, Jeffrey Zhao, Dian Yu, Nan Du, Izhak Shafran, Karthik Narasimhan, Yuan Cao Since the paper was published in 2022, it has been abstracted by libraries like LangChain and is increasingly used as a black box. This is a summary I put together as part of my LangChain studies. Rough Summary of the Paper Abstract Prop",
+      "url": "https://dev.to/4484ho/demystifying-react-why-reasoning-and-acting-is-the-standard-for-llm-agents-1ii6",
+      "source": "Dev.to",
+      "author": "4484-ho",
+      "published": "2026-01-03T12:19:24+00:00",
+      "niche": "dev",
+      "score": 72,
+      "keywords": [
+        "framework"
+      ]
+    },
+    {
+      "id": "ac78915d95d05da8",
+      "title": "Stop Building Backends for Simple Data Handoffs: Meet React State Warp",
+      "description": "The \"Cross-Device\" Problem Have you ever been building a web application—maybe a registration form or an admin panel—and hit this specific roadblock? The user needs to upload a photo, scan a document, or sign a canvas using their phone, but they are currently working on their desktop. Usually, the \"engineering\" solution to this is surprisingly heavy: Build an API endpoint to receive the file. Set up a database or S3 bucket to store it temporarily. Force the user to log in on their mobile device.",
+      "url": "https://dev.to/rezakh80/stop-building-backends-for-simple-data-handoffs-meet-react-state-warp-4724",
+      "source": "Dev.to",
+      "author": "Reza Kheradmandi",
+      "published": "2026-01-03T12:12:01+00:00",
+      "niche": "dev",
+      "score": 72,
+      "keywords": [
+        "API"
+      ]
+    },
+    {
       "id": "89cbec035b9b5f95",
       "title": "Building a Retro CRT Terminal Website with WebGL and GitHub Copilot (Claude Opus 4.5)",
       "description": "During the holidays, I was browsing the internet when I came across cool-retro-term, an open-source terminal that mimics the visuals of old cathode ray tube (CRT) displays. I loved the look of it—it has an awesome retro sci-fi atmosphere that reminds me of the Alien and Fallout fictional universes. I thought it would be amazing if I could make my personal website look like that. I took a look at the source code and quickly realized that it's implemented using QML and C++. I'm not experienced wit",
@@ -370,18 +412,6 @@
       "keywords": [
         "developer"
       ]
-    },
-    {
-      "id": "386618c86794f70e",
-      "title": "📊 Visualize Your Coding Journey: Check Your GitHub Stats",
-      "description": "Have you ever wondered what your coding timeline really looks like beyond the standard green contribution squares on GitHub? We all love seeing those green squares light up, but sometimes they don't tell the whole story. They don't tell you which languages dominate your repos, how your tech stack has evolved over the years, or which specific repositories earn the most stars. I recently stumbled upon a tool that turns your GitHub profile into a beautiful visual report, and I had to share it. 🚀 Me",
-      "url": "https://dev.to/ibrahimsezer/visualize-your-coding-journey-check-your-github-stats-2cdo",
-      "source": "Dev.to",
-      "author": "İbrahim SEZER",
-      "published": "2025-12-27T12:09:59+00:00",
-      "niche": "dev",
-      "score": 68,
-      "keywords": []
     },
     {
       "id": "f439094e57f842ff",
@@ -629,18 +659,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "349d71cdb41e7613",
-      "title": "Splice a Fibre",
-      "description": "Comments",
-      "url": "https://react-networks-lib.rackout.net/fibre",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-27T11:57:17+00:00",
-      "niche": "dev",
-      "score": 62,
-      "keywords": []
     },
     {
       "id": "408ed76525ff495a",
@@ -1566,6 +1584,18 @@
       ]
     },
     {
+      "id": "06661b3678d28f9f",
+      "title": "Trump says Venezuela's Maduro captured after strikes",
+      "description": "Comments",
+      "url": "https://www.reuters.com/world/americas/loud-noises-heard-venezuela-capital-southern-area-without-electricity-2026-01-03/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-03T06:35:21+00:00",
+      "niche": "dev",
+      "score": 56,
+      "keywords": []
+    },
+    {
       "id": "538543153667b647",
       "title": "I Built a Tiny Function Profiler That Changed How I Debug JavaScript",
       "description": "Have you ever wondered: \"Why is this function so slow?\" \"How many times is this being called?\" \"Where exactly is my code failing?\" I was asking myself these questions every single day. So I built a tool to answer them. Introducing function-trace — a tiny, zero-dependency function profiler for JavaScript and TypeScript. 🤯 The Problem Last month, I was debugging a production issue. An API endpoint was randomly slow, but I couldn't figure out which function was the culprit. My debugging process loo",
@@ -2286,31 +2316,33 @@
       ]
     },
     {
-      "id": "78c8f7534c36c64e",
-      "title": "How APIs Actually Travel Between Systems",
-      "description": "So far, we’ve talked about APIs as a way for systems to communicate. But here’s an important clarification. An API defines what systems say to each other. Network protocols define how those messages travel. Let's discuss about some of the most common ways messages move across the network. Think of APIs as the language. Think of protocols as the roads, vehicles, and traffic rules. Let’s walk through the important ones in simple terms. HTTP – the basic conversation HTTP is the most common way appl",
-      "url": "https://dev.to/surhidamatya/how-apis-actually-travel-between-systems-5adj",
+      "id": "23041ce69e479442",
+      "title": "Best LEED Consultants in Singapore",
+      "description": "Singapore is one of Asia’s most mature and highly regulated construction markets, with strong national frameworks such as BCA Green Mark, strict energy codes, and a well-developed sustainability ecosystem. Despite this, LEED (Leadership in Energy and Environmental Design) remains highly relevant for multinational headquarters, international investors, data centres, life-science facilities, and global real estate portfolios operating in Singapore. In practice, LEED projects in Singapore are rarel",
+      "url": "https://dev.to/vietleed/best-leed-consultants-in-singapore-2m0f",
       "source": "Dev.to",
-      "author": "Surhid Amatya",
-      "published": "2025-12-27T12:37:52+00:00",
+      "author": "Viet LEED",
+      "published": "2026-01-03T12:17:50+00:00",
       "niche": "dev",
-      "score": 54,
+      "score": 55,
       "keywords": [
-        "API"
+        "framework",
+        "code"
       ]
     },
     {
-      "id": "840e6bd9a354595b",
-      "title": "Lessons from the Coursera–Udemy Merger Deal",
-      "description": "Mergers have long been a defining strategy in technology and education. They allow companies to combine strengths, achieve scale, and navigate rapidly changing markets. In the context of education technology (edtech),and electronic learning (e-learning) consolidation can unlock value that individual platforms struggle to deliver alone. In December 2025, the online learning landscape took a major turn as Coursera agreed to acquire Udemy in an all-stock deal valued at roughly $2.5 billion. This mo",
-      "url": "https://dev.to/rubansi/lessons-from-the-coursera-udemy-merger-deal-g7e",
+      "id": "1f902ab06273e8ce",
+      "title": "I \"Vibe Coded\" a real-time meme coins tracker with Antigravity",
+      "description": "I’ve been a software engineer for 9 years, and usually, when I want to build a side project, I overthink the architecture. But for my crypto trading, I didn't need a complex engine with WebSockets and heavy dashboards. I just needed a simple way to track prices and handle my buys/sells via APIs. I decided to try Google Antigravity to see if I could build a \"lite\" tool purely by focusing on the workflow. Since it was just for me, I didn't want a login system or a database. I just wanted to \"vibe\"",
+      "url": "https://dev.to/frodoe7/i-vibe-coded-a-real-time-meme-coins-tracker-with-antigravity-okg",
       "source": "Dev.to",
-      "author": "Rubansi Vincent",
-      "published": "2025-12-27T12:06:18+00:00",
+      "author": "Ahmed Mohsen",
+      "published": "2026-01-03T12:17:07+00:00",
       "niche": "dev",
-      "score": 54,
+      "score": 55,
       "keywords": [
-        "API"
+        "API",
+        "code"
       ]
     },
     {
@@ -3683,45 +3715,18 @@
       ]
     },
     {
-      "id": "e0ad50c8755dc455",
-      "title": "From ClickOps to DevOps: My First Infrastructure as Code Project with Terraform",
-      "description": "Introduction Like many cloud enthusiasts, I started my AWS journey using the Management Console—clicking through wizards, manually selecting subnets, and hoping I didn't forget a configuration step. It works, but it’s prone to human error and hard to replicate. This week, I decided to level up. I started learning Terraform to embrace Infrastructure as Code (IaC). In this post, I’ll walk you through my very first hands-on task: provisioning a custom network stack and launching an EC2 instance ent",
-      "url": "https://dev.to/rohanan07/from-clickops-to-devops-my-first-infrastructure-as-code-project-with-terraform-3fcn",
+      "id": "6e1a410e429f5dae",
+      "title": "5 Critical Lessons from 3.5 Years of Odoo",
+      "description": "I've learned that successful ERP implementation is way more than just writing code. It's about understanding business, managing expectations, and building systems that people actually want to use. Here are the lessons that shaped my approach to Odoo development: Understand the Business First, Code Later This was my biggest realization early on. I used to jump straight into customization—building modules before really understanding what the client actually needed. What changed: Before touching co",
+      "url": "https://dev.to/zdev_/5-critical-lessons-from-35-years-of-odoo-implementation-16j5",
       "source": "Dev.to",
-      "author": "Rohan Nalawade",
-      "published": "2025-12-27T12:37:26+00:00",
+      "author": "Deva ZIkrullah",
+      "published": "2026-01-03T12:43:25+00:00",
       "niche": "dev",
-      "score": 51,
+      "score": 52,
       "keywords": [
+        "development",
         "code"
-      ]
-    },
-    {
-      "id": "b5624f71a3a189cc",
-      "title": "I built a free tool to convert ASCII folder trees into ZIP files",
-      "description": "When writing documentation, tutorials, or READMEs, I often describe folder structures like this: project/ ├── src/ │ ├── app.py │ └── utils.py ├── README.md └── requirements.txt At some point, I wondered: Why can’t I just turn this into a real folder structure instantly? Surprisingly, there wasn’t a simple tool that did exactly this — so I built one. The problem ASCII folder trees are great for: Documentation Tutorials Teaching projects Explaining structure in chats or blogs But when you want to",
-      "url": "https://dev.to/tancannon2003/i-built-a-free-tool-to-convert-ascii-folder-trees-into-zip-files-5aop",
-      "source": "Dev.to",
-      "author": "Tanmaya Naik",
-      "published": "2025-12-27T12:01:09+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "tutorial"
-      ]
-    },
-    {
-      "id": "f2ba06c4df1ae888",
-      "title": "I built my Portfolio as a Computer Engineer. Roast my design! 🚀",
-      "description": "A look into my personal portfolio hosted on GitHub Pages, showcasing my work in AI, Flutter, and Web Development. Hi everyone! 👋 I'm Ibrahim Sezer, a Computer Engineering graduate and entrepreneur passionate about Generative AI, Mobile Development (Flutter), and Web Technologies. After working on various projects ranging from chess visualization tools to file transfer interfaces, I decided to develop my portfolio to showcase my journey. I wanted something fast, clean, and easy to maintain withou",
-      "url": "https://dev.to/ibrahimsezer/i-built-my-portfolio-as-a-computer-engineer-roast-my-design-1d36",
-      "source": "Dev.to",
-      "author": "İbrahim SEZER",
-      "published": "2025-12-27T12:00:29+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "development"
       ]
     },
     {
@@ -5266,52 +5271,32 @@
       ]
     },
     {
-      "id": "782162f3cc88213a",
-      "title": "When Teams Go Quiet, It's Dangerous: Reading Project Crisis Signals",
-      "description": "The Slack channel is quiet. In standup meetings, everyone just says \"Nothing special.\" Looks peaceful, right? No. It's likely the calm before the storm. After watching numerous projects, I realized something. When teams suddenly go quiet, it's a signal that something is seriously wrong. The Truth Communication Graphs Tell Results from analyzing actual project communication patterns: Messages/Day 200 | 🔥 150 |**** 100 | **** 50 | **** 0 |____________****____ W1 W2 W3 W4 W5 W6 W7 W1-2: Active Disc",
-      "url": "https://dev.to/_jeongyuhyeon_03de1/when-teams-go-quiet-its-dangerous-reading-project-crisis-signals-5ca2",
-      "source": "Dev.to",
-      "author": "전규현 (Jeon gyuhyeon)",
-      "published": "2025-12-27T12:33:00+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "44813cf03ef1026a",
-      "title": "Quark's Outlines: Emulating Sequence and Mapping Types in Python",
-      "description": "Quark’s Outlines: Emulating Sequence and Mapping Types in Python Overview, Historical Timeline, Problems & Solutions An Overview of Emulating Sequence and Mapping Types in Python What does it mean to emulate sequences and mappings in Python? When you create your own class in Python, you may want it to act like a list or a dictionary. You can do this by emulating the behavior of Python’s built-in sequence and mapping types. This means your object will respond to the same operations as a list or a",
-      "url": "https://dev.to/mike-vincent/quarks-outlines-emulating-sequence-and-mapping-types-in-python-498m",
+      "id": "0ab371260a9fb8fe",
+      "title": "Quark's Outlines: Python Files",
+      "description": "Quark's Outlines: Python Files Overview, Historical Timeline, Problems & Solutions An Overview of Python Files What is a Python file? You use Python files to read, write, or process data stored on disk. A Python file object connects your code to an open file. This object wraps a system file handle and gives you a way to work with text or binary data. When you open a file, Python gives you a file object. You can use that object to read contents, write new data, or move through the file. When you ",
+      "url": "https://dev.to/mike-vincent/quarks-outlines-python-files-2nlm",
       "source": "Dev.to",
       "author": "Mike Vincent",
-      "published": "2025-12-27T12:11:39+00:00",
+      "published": "2026-01-03T12:11:44+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
-      "id": "7d4e512d96dbf9c9",
-      "title": "The Forty Percent Problem",
-      "description": "In a nondescript conference room at the World Economic Forum's headquarters in Geneva, economists and education researchers pore over data that should terrify anyone with a mortgage and a LinkedIn profile. Their latest Future of Jobs Report contains a number that reads like a countdown timer: 39 percent of the core skills workers need today will fundamentally change or vanish by 2030. That's not some distant dystopian projection. That's five years from now, roughly the time it takes to complete ",
-      "url": "https://dev.to/rawveg/the-forty-percent-problem-5bk0",
+      "id": "f46e5ae5ba27ee06",
+      "title": "How to Prevent AI Agents from Draining Crypto Wallets",
+      "description": "Autonomous AI agents need wallet access to make payments, but unrestricted signing power creates catastrophic risk. A single bug, prompt injection, or malicious code change can drain entire treasuries in seconds. This guide covers the security architecture needed to safely give AI agents payment capabilities without unlimited access to funds. The Problem: Unrestricted Agent Wallet Access When you give an AI agent direct access to a crypto wallet, you're handing over complete signing authority. T",
+      "url": "https://dev.to/l_x_1/how-to-prevent-ai-agents-from-draining-crypto-wallets-3cci",
       "source": "Dev.to",
-      "author": "Tim Green",
-      "published": "2025-12-27T12:00:00+00:00",
+      "author": "L_X_1",
+      "published": "2026-01-03T12:10:44+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "30a64a20630d05f8",
-      "title": "Rural - X Smart Farmer Assistance & Government Connected AgriTech Platform",
-      "description": "Agriculture is not just an occupation in India—it’s a lifeline. Yet farmers continue to struggle with fake fertilizers, unpredictable weather, crop diseases, lack of guidance, and slow government communication. What farmers need today is not just another app… They need a digital companion. A protector. A guide. A community. That’s exactly what we’re building. Presenting ― RuralX. 🚀 What is RuralX? RuralX is a multilingual, AI-powered smart agriculture ecosystem built to support farmers, enhance ",
-      "url": "https://dev.to/shiga2006/rural-x-smart-farmer-assistance-government-connected-agritech-platform-hlo",
-      "source": "Dev.to",
-      "author": "SHIVASHIGA A.M",
-      "published": "2025-12-27T11:51:51+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "a1bcb3d9dc5e3c89",
@@ -7754,6 +7739,30 @@
       "keywords": []
     },
     {
+      "id": "c6cb62068a80c8e2",
+      "title": "Stop Writing Shell Scripts for Container Health Checks",
+      "description": "It started as one of those “this will take 30 seconds” moments. We ship a container that includes a tiny helper binary — something we compile in a builder stage and COPY into the runtime image. Think: config-render, migrate-db, probe, whatever your service depends on at startup. I just wanted to make sure the image really contained the helper I thought it contained, so I added: RUN config-render --version Green build. Ship it. Done. ..until a pipeline failed later with an error that told me basi",
+      "url": "https://dev.to/v3rtti/stop-writing-shell-scripts-for-container-health-checks-4pif",
+      "source": "Dev.to",
+      "author": "Janne Sinivirta",
+      "published": "2026-01-03T12:16:02+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "62a0c9a9945f48fb",
+      "title": "DevOps Tooling Masterclass: Why It’s Not Optional to Learn YAML? 🤔",
+      "description": "(And yes! This is part of the \"DevOps Tooling Masterclass\" series. If you're new here, go check out the previous blog in the series first) Hey Dev Community! Welcome! Part 1 — Executive summary YAML is the de facto configuration language across modern DevOps and cloud-native tooling: Kubernetes manifests, Helm charts, GitHub Actions, GitLab CI, Ansible playbooks, Docker Compose, and many operator/CRD definitions. This masterclass explains why YAML matters, common pitfalls, practical tooling, val",
+      "url": "https://dev.to/javadinteger/devops-tooling-masterclass-why-its-not-optional-to-learn-yaml-57ag",
+      "source": "Dev.to",
+      "author": "Javad",
+      "published": "2026-01-03T12:13:49+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "012e1fffb290f33c",
       "title": "[Boost]",
       "description": "The Quiet Revolution in Developer Workflows: Why Static Code Is Dying Jaideep Parashar ・ Dec 24 #webdev #ai #devops #discuss",
@@ -8136,18 +8145,6 @@
       "keywords": [
         "developer"
       ]
-    },
-    {
-      "id": "663086fbded03856",
-      "title": "Cursed Bundler: Using go get to install Ruby Gems",
-      "description": "Comments",
-      "url": "https://nesbitt.io/2025/12/25/cursed-bundler-using-go-get-to-install-ruby-gems.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-27T11:05:46+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "996366879c5612fa",
@@ -9926,6 +9923,30 @@
       "keywords": []
     },
     {
+      "id": "41e6cbe789317409",
+      "title": "Tally – A tool to help agents classify your bank transactions",
+      "description": "Comments",
+      "url": "https://tallyai.money/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-03T11:02:33+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "0fb47a737d54e438",
+      "title": "Not for Human Consumption",
+      "description": "Comments",
+      "url": "https://vectorculture.substack.com/p/not-for-human-consumption",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-03T11:26:59+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "aac61a613c7849e9",
       "title": "Touch Targets and Web Accessibility",
       "description": "Learn about touch target accessibility standards and WCAG guidelines. Discover why 24x24px or 44x44px targets improve usability for all users with code examples. Continue reading Touch Targets and Web Accessibility on SitePoint.",
@@ -10020,8 +10041,8 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "release",
         "performance",
+        "release",
         "code"
       ]
     },
@@ -10052,8 +10073,8 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "release",
         "performance",
+        "release",
         "developer"
       ]
     },
@@ -10345,8 +10366,8 @@
       "score": 38,
       "keywords": [
         "release",
-        "API",
-        "React 19"
+        "React 19",
+        "API"
       ]
     },
     {
@@ -10458,8 +10479,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "API",
-        "framework"
+        "framework",
+        "API"
       ]
     },
     {
@@ -10571,6 +10592,18 @@
       "keywords": []
     },
     {
+      "id": "400212cae631a563",
+      "title": "GitHub – tomasf/Cadova: Swift DSL for parametric 3D modeling",
+      "description": "Comments",
+      "url": "https://github.com/tomasf/Cadova",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-31T09:16:58+00:00",
+      "niche": "dev",
+      "score": 32,
+      "keywords": []
+    },
+    {
       "id": "1b2a7c177ebb44d3",
       "title": "WebGPU is now supported in major browsers",
       "description": "Read about the biggest web graphics launch since WebGL. WebGPU is supported across major browsers, bringing unparalleled performance to the web.",
@@ -10649,11 +10682,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "release",
-        "code",
         "performance",
-        "API",
-        "framework"
+        "code",
+        "framework",
+        "release",
+        "API"
       ]
     },
     {
@@ -10771,18 +10804,6 @@
       ]
     },
     {
-      "id": "b4bbf45cf1d98d73",
-      "title": "Flame Graphs vs. Tree Maps vs. Sunburst (2017)",
-      "description": "Comments",
-      "url": "https://www.brendangregg.com/blog/2017-02-06/flamegraphs-vs-treemaps-vs-sunburst.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-27T11:30:40+00:00",
-      "niche": "dev",
-      "score": 26,
-      "keywords": []
-    },
-    {
       "id": "fad21934163dc42e",
       "title": "Mitsubishi Diatone D-160 (1985)",
       "description": "Comments",
@@ -10814,6 +10835,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2026-01-01T00:23:54+00:00",
+      "niche": "dev",
+      "score": 26,
+      "keywords": []
+    },
+    {
+      "id": "f3acd57d49d51eba",
+      "title": "A Beginner's Two-Component Crystal-Style Wi-Fi Detector",
+      "description": "Comments",
+      "url": "https://siliconjunction.wordpress.com/2025/12/12/a-beginners-two-component-crystal-style-wi-fi-detector/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-31T13:00:42+00:00",
       "niche": "dev",
       "score": 26,
       "keywords": []
@@ -10961,8 +10994,8 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "code",
         "performance",
+        "code",
         "developer"
       ]
     },
@@ -10977,8 +11010,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "code",
-        "performance"
+        "performance",
+        "code"
       ]
     },
     {
@@ -11079,8 +11112,8 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "API",
         "development",
+        "API",
         "developer"
       ]
     },
@@ -11096,8 +11129,8 @@
       "score": 17,
       "keywords": [
         "development",
-        "PHP",
-        "tutorial"
+        "tutorial",
+        "PHP"
       ]
     },
     {
@@ -11112,8 +11145,8 @@
       "score": 17,
       "keywords": [
         "development",
-        "PHP",
-        "tutorial"
+        "tutorial",
+        "PHP"
       ]
     },
     {
@@ -11127,8 +11160,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "code",
-        "development"
+        "development",
+        "code"
       ]
     },
     {
@@ -11157,8 +11190,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "code",
-        "API"
+        "API",
+        "code"
       ]
     },
     {
@@ -11510,114 +11543,6 @@
       "source": "freeCodeCamp",
       "author": "Ekemini Samuel",
       "published": "2025-12-19T17:29:13+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "81fb23eaaaaa63b7",
-      "title": "Thank You (2025 Edition)",
-      "description": "This is the best job I've had in my life and it's only possible because you keep showing up each day to read, learn, share, and discuss all-things-front-end (and a little CSS, of course) with us. Thank You (2025 Edition) originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-      "url": "https://css-tricks.com/thank-you-2025-edition/",
-      "source": "CSS-Tricks",
-      "author": "Geoff Graham",
-      "published": "2025-12-23T15:52:53+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "6f98707c35e71543",
-      "title": "text-decoration-inset is Like Padding for Text Decorations",
-      "description": "The text-decoration-inset property solves a problem that we’ve had since the beginning of the web, which is that text decorations such as underlines extend beyond the first and last characters, resulting in vertical misalignment. text-decoration-inset is Like Padding for Text Decorations originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-      "url": "https://css-tricks.com/text-decoration-inset-is-like-padding-for-text-decorations/",
-      "source": "CSS-Tricks",
-      "author": "Daniel Schwarz",
-      "published": "2025-12-22T14:39:52+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "14d8e61c01a16cde",
-      "title": "Masonry Layout is Now grid-lanes",
-      "description": "It's settled! A new CSS display property keyword called grid-lanes will trigger a masonry layout mode. Masonry Layout is Now grid-lanes originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-      "url": "https://css-tricks.com/masonry-layout-is-now-grid-lanes/",
-      "source": "CSS-Tricks",
-      "author": "Sunkanmi Fafowora",
-      "published": "2025-12-19T16:08:28+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "06480e87708d924c",
-      "title": "Search CSS-Tricks Raycast Extension",
-      "description": "Jelte Lagendijk built a Raycast extension for searching CSS-Tricks articles where you simply type and a get a solid set of real-time results. Search CSS-Tricks Raycast Extension originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-      "url": "https://css-tricks.com/search-css-tricks-raycast-extension/",
-      "source": "CSS-Tricks",
-      "author": "Geoff Graham",
-      "published": "2025-12-18T15:34:23+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "e9ebbf89f8c41675",
-      "title": "Responsive List of Avatars Using Modern CSS (Part 2)",
-      "description": "In this article, we follow up the work we did to create responsive rows of circular images in a previous article by arranging the images around a circle with a clean hover effect. Responsive List of Avatars Using Modern CSS (Part 2) originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-      "url": "https://css-tricks.com/responsive-list-of-avatars-using-modern-css-part-2/",
-      "source": "CSS-Tricks",
-      "author": "Temani Afif",
-      "published": "2025-12-17T15:21:34+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "b6bfc3ec5d1aad3c",
-      "title": "What’s !important #1: Advent Calendars, CSS Wrapped, Web Platform Updates, and More",
-      "description": "The best CSS news from around the web from the last two weeks. In this edition: advent calendars, CSS Wrapped 2025, and the latest Web Platform Updates. What’s !important #1: Advent Calendars, CSS Wrapped, Web Platform Updates, and More originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-      "url": "https://css-tricks.com/whats-important-1/",
-      "source": "CSS-Tricks",
-      "author": "Daniel Schwarz",
-      "published": "2025-12-16T17:03:46+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "6c6bd03b06a60db3",
-      "title": "Toon Title Text Generator",
-      "description": "Andy Clarke with a brand-new resource. It generates the sort of fun typography that Andy commonly uses in his own work that's geared towards cartoon headings. Toon Title Text Generator originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-      "url": "https://css-tricks.com/toon-title-text-generator/",
-      "source": "CSS-Tricks",
-      "author": "Geoff Graham",
-      "published": "2025-12-15T17:55:55+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "d2a937687e2e6b62",
-      "title": "Responsive List of Avatars Using Modern CSS (Part 1)",
-      "description": "A list of rounded images that slightly overlap each other is a classic web design pattern. The main idea is not complex, but the new thing is the responsive part. that dynamically adjusts the overlap between the images so they fit inside the container. Responsive List of Avatars Using Modern CSS (Part 1) originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-      "url": "https://css-tricks.com/responsive-list-of-avatars-using-modern-css-part-1/",
-      "source": "CSS-Tricks",
-      "author": "Temani Afif",
-      "published": "2025-12-15T16:19:23+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "3077de4b993f5414",
-      "title": "What Else Could Container Queries… Query?",
-      "description": "How far can we really go with container queries? There are dozens of media queries now, so what if there were dozens of container queries as well? What could we use them for? What Else Could Container Queries&#8230; Query? originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-      "url": "https://css-tricks.com/what-else-could-container-queries-query/",
-      "source": "CSS-Tricks",
-      "author": "Daniel Schwarz",
-      "published": "2025-12-12T14:38:18+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
