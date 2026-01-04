@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-04T12:51:34.121497+00:00",
-  "total_articles": 972,
+  "last_updated": "2026-01-04T15:25:13.197535+00:00",
+  "total_articles": 978,
   "articles": [
     {
       "id": "040ccdff916ce4f6",
@@ -80,21 +80,6 @@
         "Angular",
         "API",
         "developer"
-      ]
-    },
-    {
-      "id": "05677e2d43d677f4",
-      "title": "How We Reduced Payment API Latency by 60% Using ExecutorService in Spring Boot",
-      "description": "🏦 Business Scenario (Very Common in FinTech) Imagine a payment processing service. Before processing a payment, the system must validate: Account Status (active / blocked) Balance Check Fraud Risk Check Each validation: Calls a different internal service Takes 300–800 ms Is independent ❌ Bad approach (sequential): Total time ≈ 2 seconds High latency → SLA breach ✅ Good approach (parallel using ExecutorService): All checks run in parallel Total time ≈ max(800 ms) 🧠 Why ExecutorService Here? Contr",
-      "url": "https://dev.to/realnamehidden1_61/spring-boot-executorservice-parallel-payment-validation-using-executorservice-1ie2",
-      "source": "Dev.to",
-      "author": "realNameHidden",
-      "published": "2025-12-28T15:02:58+00:00",
-      "niche": "dev",
-      "score": 75,
-      "keywords": [
-        "Spring",
-        "API"
       ]
     },
     {
@@ -347,6 +332,20 @@
       "source": "Dev.to",
       "author": "Monetzly",
       "published": "2026-01-02T18:19:18+00:00",
+      "niche": "dev",
+      "score": 69,
+      "keywords": [
+        "developer"
+      ]
+    },
+    {
+      "id": "3e08c8e7f4daad83",
+      "title": "5 Reasons to Avoid useEffect in React",
+      "description": "When working with React, useEffect is often the first tool developers reach for when they need to handle side effects. However, relying on it too heavily can lead to significant issues in your application's lifecycle. Here is why you should reconsider reaching for useEffect as your default solution. It executes after the render One of the fundamental mechanics of useEffect is that it runs after the component has already rendered. Unlike logic that runs during the render phase, an effect is a del",
+      "url": "https://dev.to/therohitmahar/5-reasons-to-avoid-useeffect-in-react-1jg7",
+      "source": "Dev.to",
+      "author": "Rohit Mahar",
+      "published": "2026-01-04T15:00:06+00:00",
       "niche": "dev",
       "score": 69,
       "keywords": [
@@ -928,22 +927,6 @@
       "keywords": [
         "tutorial",
         "code",
-        "API",
-        "framework"
-      ]
-    },
-    {
-      "id": "fb821bcb82055a11",
-      "title": "Building Telegram Bots in Ruby Just Got Easier with Telegem v2",
-      "description": "If you're building Telegram bots in Ruby, you've probably faced: Complex API patterns that don't feel like Ruby Session management headaches Deployment confusion Outdated documentation I was there too. After building several production bots, I extracted the patterns into Telegem - a framework that makes bot development actually enjoyable in Ruby. The \"Aha!\" Moment The breakthrough came when I realized most bot frameworks are ports from other languages. Ruby deserves better. So I built something ",
-      "url": "https://dev.to/slick_phantom/building-telegram-bots-in-ruby-just-got-easier-with-telegem-v2-2m78",
-      "source": "Dev.to",
-      "author": "phåńtøm šłîçk",
-      "published": "2025-12-28T15:02:10+00:00",
-      "niche": "dev",
-      "score": 58,
-      "keywords": [
-        "development",
         "API",
         "framework"
       ]
@@ -2291,17 +2274,33 @@
       ]
     },
     {
-      "id": "5550beb868d53ece",
-      "title": "Unauthenticated APIs Report",
-      "description": "Unauthenticated APIs Report A security automation tool that scans API endpoints to identify unauthenticated access vulnerabilities. This tool tests various HTTP methods and authentication schemes to detect APIs that may be exposing data without proper authentication. Overview This solution automatically tests API endpoints for authentication bypass vulnerabilities by: Testing multiple HTTP methods (GET, POST, PUT, DELETE) Attempting access without authentication headers Testing with invalid auth",
-      "url": "https://dev.to/prashantgupta123/unauthenticated-apis-report-177f",
+      "id": "9ec8151961995276",
+      "title": "A real-world story: Why we even need npm",
+      "description": "Arjun was a junior developer who had just joined a small startup in Bangalore. On his first day, his lead told him: “You’ll build a Task Dashboard for the team – a small Node.js app that tracks tasks, prints useful logs in the terminal, and later exposes APIs for a React frontend.” By the end of that week, Arjun would discover npm – and realize it’s basically the nervous system of a modern JavaScript project.​ The day Arjun met npm Arjun started with a plain folder: mkdir team-task-dashboard cd ",
+      "url": "https://dev.to/karthikkorrayi/a-real-world-story-why-we-even-need-npm-h86",
       "source": "Dev.to",
-      "author": "Prashant Gupta",
-      "published": "2025-12-28T14:58:24+00:00",
+      "author": "Karthik Korrayi",
+      "published": "2026-01-04T15:11:56+00:00",
       "niche": "dev",
-      "score": 54,
+      "score": 55,
       "keywords": [
-        "API"
+        "API",
+        "developer"
+      ]
+    },
+    {
+      "id": "497cb0f4fbf4b8d9",
+      "title": "JIT-Picking: Exploiting the Logic Gap in Modern JavaScript Engines",
+      "description": "Introduction JavaScript has evolved from a simple scripting language into the backbone of the modern web. Today’s browsers rely on massive, hyper-optimized engines such as V8 (Chrome), SpiderMonkey (Firefox), and JavaScriptCore (Safari). To achieve native-like performance, these engines employ Just-In-Time (JIT) compilers, transforming hot code paths into optimized machine code. However, this relentless pursuit of speed has created a vast attack surface. Beyond traditional memory-safety bugs lie",
+      "url": "https://dev.to/azterix101/jit-picking-exploiting-the-logic-gap-in-modern-javascript-engines-o9k",
+      "source": "Dev.to",
+      "author": "Neo",
+      "published": "2026-01-04T15:11:00+00:00",
+      "niche": "dev",
+      "score": 55,
+      "keywords": [
+        "performance",
+        "code"
       ]
     },
     {
@@ -3671,6 +3670,21 @@
       "keywords": [
         "developer",
         "code"
+      ]
+    },
+    {
+      "id": "fbb121743a0b1859",
+      "title": "Insights from Real-World Projects — Tech + Strategy Combined",
+      "description": "Exploring how technology and strategic thinking come together in real-world projects can be incredibly inspiring for developers. At JamshaidGoraya.com, diverse ventures showcase how innovation, sustainability, and digital solutions support long-term success across industries. Combining tech skills with business insight helps us build smarter, more impactful solutions that go beyond code and solve real problems.",
+      "url": "https://dev.to/maryam_ayesha_36524f1f6ab/insights-from-real-world-projects-tech-strategy-combined-4oem",
+      "source": "Dev.to",
+      "author": "maryam ayesha",
+      "published": "2026-01-04T15:01:51+00:00",
+      "niche": "dev",
+      "score": 52,
+      "keywords": [
+        "code",
+        "developer"
       ]
     },
     {
@@ -5383,88 +5397,32 @@
       ]
     },
     {
-      "id": "7a57be15c546a057",
-      "title": "Building Claritools with Next.js: A Fast, No-Friction Tools Platform",
-      "description": "Hey devs 👋 I recently launched Claritools, a side project where I’m building free, fast calculators and practical guides for everyday use — finance, career, and tech. The goal was simple: remove friction and focus on clarity. That meant: No logins No paywalls Clean UI Fast results Why I built it I kept running into calculator and utility websites that were cluttered, slow, or locked behind sign-ups. I wanted a place where you could just open a page, do the task, and move on. Claritools is my att",
-      "url": "https://dev.to/harsh_yaduvanshi_74957b8b/building-claritools-with-nextjs-a-fast-no-friction-tools-platform-2cpa",
+      "id": "01b10e808957c692",
+      "title": "Monetzly: Boost Developer Revenue with AI Conversation Ads",
+      "description": "When Ads Become Helpful Suggestions Instead of Interruptions Imagine a world where advertising isn’t an unwelcome interruption, but a helpful guide that enhances your conversations. This is the vision behind Monetzly, the first dual-earning platform tailored for AI developers. With AI applications booming, the challenge of monetization without sacrificing user experience has never been more pressing. Monetzly offers a groundbreaking solution that transforms how developers and advertisers interac",
+      "url": "https://dev.to/monetzly/monetzly-boost-developer-revenue-with-ai-conversation-ads-2pmm",
       "source": "Dev.to",
-      "author": "Harsh Yaduvanshi",
-      "published": "2025-12-28T15:18:48+00:00",
+      "author": "Monetzly",
+      "published": "2026-01-04T15:12:34+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
-      "id": "56523bbd09892618",
-      "title": "TypeScript 6.0 Deep Dive: Why the 2025 Evolution Changes Everything",
-      "description": "The using Keyword in TypeScript 6.0: Syntactic Sugar or Real Cleanup?\\n\\nTypeScript 6.0 introduces the using keyword, a direct nod to ECMAScript's explicit resource management proposal. The idea is simple: provide a language-level construct for deterministic cleanup of resources, similar to IDisposable in C# or try-with-resources in Java. You declare a variable with using, and when the enclosing scope exits (normally or via an exception), its [Symbol.dispose] method is automatically called.\\n\\n ",
-      "url": "https://dev.to/dataformathub/typescript-60-deep-dive-why-the-2025-evolution-changes-everything-58gl",
+      "id": "ebc2b94abc25843f",
+      "title": "The Open Source Paradox: Decoding the Economics of Distributed Innovation",
+      "description": "Introduction To the traditional economist, the open-source process of production appears paradoxical. In a world where firms protect intellectual property and compensate workers to direct effort, open-source projects thrive on unpaid labor and publicly shared code. Yet the dominance of Apache in web servers and Linux in embedded systems demonstrates that this “unconventional” model has consistently outperformed commercial giants. Open source is not an economic anomaly—it is a sophisticated syste",
+      "url": "https://dev.to/azterix101/the-open-source-paradox-decoding-the-economics-of-distributed-innovation-2ppk",
       "source": "Dev.to",
-      "author": "DataFormatHub",
-      "published": "2025-12-28T15:14:05+00:00",
+      "author": "Neo",
+      "published": "2026-01-04T15:00:00+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "4fbf01dea778b8ad",
-      "title": "Interview puzzle: \"2 users buy last item, who win?\"",
-      "description": "Last week, a friend of mine asking me a classic question: \"Imagine a flash sale where only one item is left. If two customers try to buy it at the exact same time, how does the system decide which customer gets the item?\" That question ignited a discussion in our group chat. There were many ideas, potential solutions, and even disagreements. That debate is the reason I did my own research about popular problems of concurrency systems: Lost Update and False Conflict. Lost Update: Who got the last",
-      "url": "https://dev.to/mnhnam1301/concurrency-lost-updates-false-conflicts-29i4",
-      "source": "Dev.to",
-      "author": "Nam Mai",
-      "published": "2025-12-28T15:13:53+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "b6d1d4ef112b5953",
-      "title": "Amazon Nova 2: AWS's Reasoning Models That Actually Get Production Needs!",
-      "description": "🚀 Amazon Nova 2: AWS's Reasoning Models That Actually Get Production Needs! Hey devs! 😎 Ever built an AI agent that overthinks pizza orders but chokes on complex workflows? Amazon Nova 2 fixes that with adaptive reasoning—think more on hard problems, less on easy ones. Launched Dec 2025, these Bedrock models bring 1M-token context, multimodal magic (text+images+video+speech), and thinking budgets you control. 🔥 Why Nova 2 Feels Like Cheating Nova 2 Lite & Pro solve the classic AI tradeoff: speed",
-      "url": "https://dev.to/ahmedadel/amazon-nova-2-awss-reasoning-models-that-actually-get-production-needs-2ad0",
-      "source": "Dev.to",
-      "author": "Ahmed Adel",
-      "published": "2025-12-28T15:13:11+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "00d042bb9d475752",
-      "title": "Why Most \"Free\" Background Removers Aren't Actually Free and the Best Alternative for 2025",
-      "description": "We’ve all been there. You find a \"free background remover,\" upload your perfect photo, and just as you click download, a popup appears: \"Pay $1.99 for HD\" or \"Enter your email to continue.\" The Problem with \"Freemium\" Tools: Most popular tools like Remove.bg or Canva are businesses with massive server costs. To stay profitable, they limit your \"free\" downloads to low-resolution thumbnails or hide the best features behind a paywall. The 100% Free Solution: nobg.space I built nobg.space to solve t",
-      "url": "https://dev.to/vyshnav_tr_5efa111383bbd1/why-most-free-background-removers-arent-actually-free-and-the-best-alternative-for-2025-599l",
-      "source": "Dev.to",
-      "author": "Vyshnav TR",
-      "published": "2025-12-28T15:07:07+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "1d9d8010c01ec9e6",
-      "title": "Renewable Energy Projects and India’s Climate Goals",
-      "description": "India is at a critical point in its energy journey, where rising demand and environmental responsibility must move together. Green energy solutions have emerged as the most reliable path to balance economic growth with sustainability. Among all clean energy options, solar energy stands out as the most accessible and scalable solution for the country. Green energy solar technology is transforming how electricity is generated across urban and rural India. With abundant sunlight available throughou",
-      "url": "https://dev.to/surbhi_survase_89d4e35b2e/renewable-energy-projects-and-indias-climate-goals-4o1g",
-      "source": "Dev.to",
-      "author": "Surbhi Survase",
-      "published": "2025-12-28T15:06:45+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "fa559b5d91ce3478",
-      "title": "DevOps Future Task Reminders",
-      "description": "Future Task Reminders Node.js/Express dashboard to create and manage task reminders, store them in a MySQL database, and send reminder emails via SMTP when their trigger date/time is reached. Features Dashboard summary: See all tasks with counts of high, medium, and low priority. Task form: Create a task with name, description, priority, trigger date/time, type, execution protection, and email recipients. Execution Protection: Control how reminders are sent: None (default): Reminder is sent once",
-      "url": "https://dev.to/prashantgupta123/devops-future-task-reminders-3m47",
-      "source": "Dev.to",
-      "author": "Prashant Gupta",
-      "published": "2025-12-28T15:04:48+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "82558ab8b33a5279",
@@ -7811,6 +7769,42 @@
       "keywords": []
     },
     {
+      "id": "1c1bfdeadffb7cbc",
+      "title": "Profit Like a Supermarket Boss: Demystifying Bitcoin High-Frequency Grid Trading",
+      "description": "Many people feel overwhelmed by terms like \"Finance,\" \"Futures,\" and \"High-Frequency Trading.\" In reality, the core logic behind these concepts is no different from buying groceries at a market or running a small convenience store. Today, we will explain in the simplest terms how we steadily make money in the Bitcoin world using \"High-Frequency Grid Trading.\" 1. Spot vs. Futures: Buying a House vs. Signing a \"Purchase Contract\"? First, let's clarify two fundamental concepts: Spot and Futures. Sp",
+      "url": "https://dev.to/ghostsworm/profit-like-a-supermarket-boss-demystifying-bitcoin-high-frequency-grid-trading-1dpn",
+      "source": "Dev.to",
+      "author": "ghostsworm",
+      "published": "2026-01-04T15:11:56+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "a22c6af1de9c4d33",
+      "title": "Securing and Safely Using an Unsupported Computer",
+      "description": "Unsupported computers do not suddenly stop working when updates end. The real problem is that silent security gaps accumulate and turn routine use into real exposure. The thesis is simple: containment and discipline let you keep usefulness while limiting damage. Containment Over Comfort Unsupported systems should be treated as untrusted tools, not general-purpose machines. The risks of an unsupported computer increase over time because every unpatched flaw becomes permanent. The stakes include d",
+      "url": "https://dev.to/gw-jeni-systems/securing-and-safely-using-an-unsupported-computer-2pif",
+      "source": "Dev.to",
+      "author": "Geoffrey Wenger",
+      "published": "2026-01-04T15:08:09+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "4b51cc2326b1662c",
+      "title": "Questions to ask to find which linear pattern is needed",
+      "description": "Below is a pattern–selection cheat sheet. For each pattern, ask yourself these questions while reading the problem. If you answer YES, that pattern is likely the correct approach. 1. Sliding Window (Fixed Size) Ask these questions: Is the problem asking about subarrays/substrings of exact length k? Do I need to compute something (sum, max, count) for every window of size k? Does brute force give O(n·k) and I need O(n)? Trigger words: “window of size k”, “consecutive k elements”, “substring lengt",
+      "url": "https://dev.to/jayaprasanna_roddam/questions-to-ask-to-find-which-linear-pattern-is-needed-3f3a",
+      "source": "Dev.to",
+      "author": "Jayaprasanna Roddam",
+      "published": "2026-01-04T15:02:09+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "012e1fffb290f33c",
       "title": "[Boost]",
       "description": "The Quiet Revolution in Developer Workflows: Why Static Code Is Dying Jaideep Parashar ・ Dec 24 #webdev #ai #devops #discuss",
@@ -8178,18 +8172,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-28T16:43:14+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "5b719352dafbe513",
-      "title": "Designing Predictable LLM-Verifier Systems for Formal Method Guarantee",
-      "description": "Comments",
-      "url": "https://arxiv.org/abs/2512.02080",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-28T15:02:07+00:00",
       "niche": "dev",
       "score": 44,
       "keywords": []
@@ -10031,6 +10013,90 @@
       "keywords": []
     },
     {
+      "id": "e7a2ae2a7325e464",
+      "title": "KAFKA",
+      "description": "",
+      "url": "https://dev.to/bhu_kalki/kafka-26d6",
+      "source": "Dev.to",
+      "author": "Er. Bhupendra",
+      "published": "2026-01-04T15:08:51+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "3652fce35f32e62c",
+      "title": "Street Fighter II, the World Warrier (2021)",
+      "description": "Comments",
+      "url": "https://fabiensanglard.net/sf2_warrier/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-04T14:30:29+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "714b46947554d628",
+      "title": "Nike's Crisis and the Economics of Brand Decay",
+      "description": "Comments",
+      "url": "https://philippdubach.com/posts/nikes-crisis-and-the-economics-of-brand-decay/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-04T13:45:42+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "94551d4b7906fe11",
+      "title": "Maybe comments should explain 'what' (2017)",
+      "description": "Comments",
+      "url": "https://www.hillelwayne.com/post/what-comments/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-04T10:43:38+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "359b471d84c6282a",
+      "title": "Cold-Blooded Software (2023)",
+      "description": "Comments",
+      "url": "https://dubroy.com/blog/cold-blooded-software/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-04T14:28:56+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "1d35c4420c415463",
+      "title": "Jeffgeerling.com has been Migrated to Hugo",
+      "description": "Comments",
+      "url": "https://www.jeffgeerling.com/blog/2026/migrated-to-hugo/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-04T12:57:40+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "760e87f81762d765",
+      "title": "How I archived 10 years of memories using Spotify",
+      "description": "Comments",
+      "url": "https://notes.xdavidhu.me/notes/how-i-archived-10-years-of-memories-using-spotify",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-04T15:11:19+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "aac61a613c7849e9",
       "title": "Touch Targets and Web Accessibility",
       "description": "Learn about touch target accessibility standards and WCAG guidelines. Discover why 24x24px or 44x44px targets improve usability for all users with code examples. Continue reading Touch Targets and Web Accessibility on SitePoint.",
@@ -10125,9 +10191,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "release",
         "code",
-        "performance"
+        "performance",
+        "release"
       ]
     },
     {
@@ -10141,8 +10207,8 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "release",
         "API",
+        "release",
         "developer"
       ]
     },
@@ -10157,9 +10223,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
+        "performance",
         "release",
-        "developer",
-        "performance"
+        "developer"
       ]
     },
     {
@@ -10170,6 +10236,18 @@
       "source": "Codrops",
       "author": "Andrew Woan",
       "published": "2025-12-30T13:01:03+00:00",
+      "niche": "dev",
+      "score": 39,
+      "keywords": []
+    },
+    {
+      "id": "6fd31c226ffb610e",
+      "title": "Efecto: Building Real-Time ASCII and Dithering Effects with WebGL Shaders",
+      "description": "An exploration of how classic image algorithms and CRT-era visuals come alive through real-time shaders on the web.",
+      "url": "https://tympanus.net/codrops/2026/01/04/efecto-building-real-time-ascii-and-dithering-effects-with-webgl-shaders/",
+      "source": "Codrops",
+      "author": "Pablo Stanley",
+      "published": "2026-01-04T14:13:36+00:00",
       "niche": "dev",
       "score": 39,
       "keywords": []
@@ -10413,9 +10491,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
+        "React 19",
         "API",
-        "release",
-        "React 19"
+        "release"
       ]
     },
     {
@@ -10469,8 +10547,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10484,8 +10562,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10730,11 +10808,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
+        "API",
         "code",
         "performance",
-        "framework",
         "release",
-        "API"
+        "framework"
       ]
     },
     {
@@ -11012,8 +11090,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "API"
+        "API",
+        "release"
       ]
     },
     {
@@ -11042,9 +11120,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "developer",
+        "performance",
         "code",
-        "performance"
+        "developer"
       ]
     },
     {
@@ -11058,8 +11136,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "code",
-        "performance"
+        "performance",
+        "code"
       ]
     },
     {
@@ -11073,8 +11151,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
-        "code"
+        "code",
+        "release"
       ]
     },
     {
@@ -11103,8 +11181,8 @@
       "niche": "dev",
       "score": 18,
       "keywords": [
-        "Angular",
-        "PHP"
+        "PHP",
+        "Angular"
       ]
     },
     {
@@ -11160,8 +11238,8 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "API",
         "developer",
+        "API",
         "development"
       ]
     },
@@ -11176,9 +11254,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "development",
         "tutorial",
-        "PHP"
+        "PHP",
+        "development"
       ]
     },
     {
@@ -11192,9 +11270,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "development",
         "tutorial",
-        "PHP"
+        "PHP",
+        "development"
       ]
     },
     {
@@ -11208,8 +11286,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "development",
-        "code"
+        "code",
+        "development"
       ]
     },
     {
@@ -11223,8 +11301,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "developer",
-        "programming"
+        "programming",
+        "developer"
       ]
     },
     {
@@ -11337,8 +11415,8 @@
       "niche": "dev",
       "score": 15,
       "keywords": [
-        "developer",
-        "library"
+        "library",
+        "developer"
       ]
     },
     {
@@ -11567,6 +11645,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-30T21:31:31+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "9e563118ddd4c4f0",
+      "title": "Attention Is Bayesian Inference",
+      "description": "Comments",
+      "url": "https://medium.com/@vishalmisra/attention-is-bayesian-inference-578c25db4501",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2025-12-30T22:51:18+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -11860,8 +11950,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "development",
-        "programming"
+        "programming",
+        "development"
       ]
     },
     {
@@ -12442,18 +12532,6 @@
       "source": "Codrops",
       "author": "Dgrees",
       "published": "2025-12-18T13:30:40+00:00",
-      "niche": "dev",
-      "score": 9,
-      "keywords": []
-    },
-    {
-      "id": "ae3a81e0aad0bd77",
-      "title": "From Basement to Breakthroughs: Inside the Studio Powering the Internet’s Boldest Brands",
-      "description": "A look at the studio where branding, engineering, and experimentation collide to shape the web’s next chapter.",
-      "url": "https://tympanus.net/codrops/2025/12/15/from-basement-to-breakthroughs-inside-the-studio-powering-the-internets-boldest-brands/",
-      "source": "Codrops",
-      "author": "basement",
-      "published": "2025-12-15T12:52:12+00:00",
       "niche": "dev",
       "score": 9,
       "keywords": []
