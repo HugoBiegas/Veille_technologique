@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-05T06:52:48.303532+00:00",
+  "last_updated": "2026-01-05T09:44:11.393854+00:00",
   "total_articles": 186,
   "articles": [
     {
@@ -82,6 +82,18 @@
       "source": "Java Code Geeks",
       "author": "Yatin Batra",
       "published": "2026-01-02T08:09:00+00:00",
+      "niche": "spring",
+      "score": 57,
+      "keywords": []
+    },
+    {
+      "id": "4a358c04f277bdd3",
+      "title": "Temporal Workflow Engine with Spring Boot",
+      "description": "Temporal is a durable workflow engine designed for building reliable, fault-tolerant, and scalable distributed systems. Instead of managing complex business processes with fragile state machines or message queues, Temporal allows you to model long-running processes as code while automatically handling retries, state persistence, and failure recovery. When combined with Spring Boot, Temporal integrates seamlessly into &#8230;",
+      "url": "https://www.javacodegeeks.com/temporal-workflow-engine-with-spring-boot.html",
+      "source": "Java Code Geeks",
+      "author": "Omozegie Aziegbe",
+      "published": "2026-01-05T08:59:00+00:00",
       "niche": "spring",
       "score": 57,
       "keywords": []
@@ -192,30 +204,6 @@
       "published": "2026-01-02T11:04:06+00:00",
       "niche": "spring",
       "score": 46,
-      "keywords": []
-    },
-    {
-      "id": "f47f003dab9da9dd",
-      "title": "How to Use Term Queries in Elasticsearch",
-      "description": "Term queries are one of the most precise and performant query types in Elasticsearch. They are designed for exact-value matching and are commonly used on structured fields such as IDs, keywords, status flags, or enums. Unlike full-text queries, term queries do not analyze the input text, which makes them ideal when we need strict equality &#8230;",
-      "url": "https://www.javacodegeeks.com/how-to-use-term-queries-in-elasticsearch.html",
-      "source": "Java Code Geeks",
-      "author": "Omozegie Aziegbe",
-      "published": "2025-12-29T09:31:02+00:00",
-      "niche": "spring",
-      "score": 42,
-      "keywords": []
-    },
-    {
-      "id": "96315de5793f7695",
-      "title": "Java Memory Management: Understanding Heap, Stack, and Beyond",
-      "description": "Memory management remains one of Java&#8217;s most powerful yet misunderstood features. While garbage collection frees developers from manual memory allocation nightmares that plague C and C++ programmers, this abstraction creates a dangerous illusion—that memory &#8220;just works.&#8221; In reality, Java applications can leak memory, exhaust resources, and suffer catastrophic performance degradation when developers fail to understand &#8230;",
-      "url": "https://www.javacodegeeks.com/2025/12/java-memory-management-understanding-heap-stack-and-beyond.html",
-      "source": "Java Code Geeks",
-      "author": "Eleftheria Drosopoulou",
-      "published": "2025-12-29T06:53:00+00:00",
-      "niche": "spring",
-      "score": 42,
       "keywords": []
     },
     {
@@ -531,6 +519,18 @@
       "keywords": []
     },
     {
+      "id": "17848a4435295c9d",
+      "title": "Java and Event‑Driven Architectures: Kafka, Pulsar, and the Modern Streaming Landscape",
+      "description": "Event‑driven architectures have become a defining approach for building systems that react in real time, scale horizontally, and remain resilient under unpredictable workloads. Java, with its mature ecosystem and long history in enterprise environments, continues to be one of the strongest foundations for these architectures. Whether you’re working with Apache Kafka, Apache Pulsar, or stream‑processing &#8230;",
+      "url": "https://www.javacodegeeks.com/2026/01/java-and-event-driven-architectures-kafka-pulsar-and-the-modern-streaming-landscape.html",
+      "source": "Java Code Geeks",
+      "author": "Eleftheria Drosopoulou",
+      "published": "2026-01-05T07:08:00+00:00",
+      "niche": "spring",
+      "score": 42,
+      "keywords": []
+    },
+    {
       "id": "886ec539b0088799",
       "title": "Presentation: Fix SLO Breaches before They Repeat: an SRE AI Agent for Application Workloads",
       "description": "Bruno Borges discusses a paradigm shift in performance management: moving from manual tuning to automated SRE agents. He explains how to leverage the USE and jPDM methodologies alongside LLMs to reduce MTTR from hours to seconds. By utilizing MCP tools for real-time diagnostics and memory dump analysis, he shares how engineering leaders can scale systems while meeting strict objectives. By Bruno Borges",
@@ -538,6 +538,18 @@
       "source": "InfoQ Java",
       "author": "Bruno Borges",
       "published": "2025-12-29T15:09:00+00:00",
+      "niche": "spring",
+      "score": 37,
+      "keywords": []
+    },
+    {
+      "id": "aa143c2e3da43a6d",
+      "title": "The Inside Java Newsletter: JavaOne Sessions and Keynotes!",
+      "description": "The Inside Java Newsletter for December 2025 includes a warm year-end message from Sharat Chander to the Java community, plus a special limited-time discount code for JavaOne 2026 registration. The JavaOne 2026 keynotes and technical sessions are now announced, so check them out and register soon. This issue also highlights the latest Java content from the Java Platform Group teams. Visit learn.java, dev.java, and inside.java for videos, articles, and other resources for developers, learners, ed",
+      "url": "https://inside.java/2026/01/05/inside-java-newsletter/",
+      "source": "Inside.java (Oracle)",
+      "author": "[\"JimGrisanzio\"]",
+      "published": "2026-01-05T00:00:00+00:00",
       "niche": "spring",
       "score": 37,
       "keywords": []
@@ -1942,18 +1954,6 @@
       "source": "Inside.java (Oracle)",
       "author": "",
       "published": "2025-12-07T00:00:00+00:00",
-      "niche": "spring",
-      "score": 9,
-      "keywords": []
-    },
-    {
-      "id": "3bd7113ffce2617e",
-      "title": "JEP targeted to JDK 26: 530: Primitive Types in Patterns, instanceof, and switch (4th Preview)",
-      "description": "The following JEP is targeted to JDK 26: 530: Primitive Types in Patterns, instanceof, and switch (4th Preview)",
-      "url": "https://inside.java/2025/12/06/jep530-target-jdk26/",
-      "source": "Inside.java (Oracle)",
-      "author": "[\"AngelosBimpoudis\"]",
-      "published": "2025-12-06T00:00:00+00:00",
       "niche": "spring",
       "score": 9,
       "keywords": []
