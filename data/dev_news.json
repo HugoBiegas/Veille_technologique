@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-06T12:55:53.947708+00:00",
-  "total_articles": 986,
+  "last_updated": "2026-01-06T15:29:28.981932+00:00",
+  "total_articles": 972,
   "articles": [
     {
       "id": "3edc46ac3aa3698f",
@@ -115,21 +115,6 @@
       ]
     },
     {
-      "id": "fb6602b8ae8d0a4b",
-      "title": "Android Session Tracking — A Senior Engineer’s Perspective: When the OS Promises You Nothing",
-      "description": "Android makes no promise about telling you when a user leaves your app. Yet analytics, ads, and business logic are forced to assume such a thing exists. This article is not about tricks. It is about thinking correctly about session tracking on Android — at production and SDK level. 1. The real problem is not APIs — it’s illusion Most Android developers have believed at least one of these at some point: onStop() means the user left onDestroy() means the app ended Swiping from Recents ends a sessi",
-      "url": "https://dev.to/vio_di_code/android-session-tracking-a-senior-engineers-perspective-when-the-os-promises-you-nothing-43g8",
-      "source": "Dev.to",
-      "author": "ViO Tech",
-      "published": "2025-12-30T15:09:40+00:00",
-      "niche": "dev",
-      "score": 73,
-      "keywords": [
-        "API",
-        "developer"
-      ]
-    },
-    {
       "id": "521880a025b23955",
       "title": "Why I’m Betting on React Native in 2026 After 13 Years of Mobile Development",
       "description": "⚠️ Note This article is a translated and adapted version of an original post written in Japanese. Some parts—especially my career history—have been condensed and restructured to make them easier to understand for an international audience. Why I’m Betting on React Native in 2026 TL;DR I’ve been building mobile apps for over 13 years, across native iOS/Android, Web, and multiple cross-platform frameworks. After experimenting with Flash/AIR, native apps, Flutter, and Web React, React Native now of",
@@ -157,20 +142,6 @@
       "keywords": [
         "developer",
         "API"
-      ]
-    },
-    {
-      "id": "2b7f97264a292467",
-      "title": "Optimizing Re-Renders Using React.memo()",
-      "description": "In React, unnecessary re-renders can occur when the parent component re-renders, even if the child component's props haven't changed. This can lead to performance issues, especially in complex applications. One way to prevent this is by using React.memo(), which helps memoize a component. This means React will only re-render the component if its props have changed. In this example, let’s assume we can't move the count state to a separate component because it's needed in the parent App component.",
-      "url": "https://dev.to/edriso/optimizing-re-renders-using-reactmemo-26on",
-      "source": "Dev.to",
-      "author": "Mohamed Idris",
-      "published": "2025-12-30T15:01:46+00:00",
-      "niche": "dev",
-      "score": 72,
-      "keywords": [
-        "performance"
       ]
     },
     {
@@ -432,18 +403,6 @@
       ]
     },
     {
-      "id": "4b84f5839034ca92",
-      "title": "What I Learned Trying to Write Better GitHub Issues for Open-Source Contributors",
-      "description": "Maintaining an open-source project taught me something I didn’t expect: writing good GitHub issues is a skill of its own. Early on, I assumed that if an issue made sense to me, it would make sense to contributors. In practice, that’s rarely true. Contributors see issues with fresh eyes, limited context, and very little patience for ambiguity. Recently, I started deliberately improving how I write issues and asking myself a simple question: If I were a contributor seeing this issue for the first ",
-      "url": "https://dev.to/georgetoloraia/what-i-learned-trying-to-write-better-github-issues-for-open-source-contributors-47d8",
-      "source": "Dev.to",
-      "author": "georgetoloraia",
-      "published": "2025-12-30T15:03:27+00:00",
-      "niche": "dev",
-      "score": 68,
-      "keywords": []
-    },
-    {
       "id": "c9c3b204acf935a2",
       "title": "How a simple Google Sheets system slowly turned into my own app",
       "description": "Over the last month, I’ve been working on a small personal project called OWOLIN. It didn’t start as a startup idea. It started as a simple system I built for myself. For a long time, I tracked my habits, tasks, finances, and short notes using Google Sheets. Nothing fancy. Just a few tabs, some basic logic, and it took maybe 1–2 minutes per day. That low effort is what helped me stay consistent. At some point, I realized that instead of constantly tweaking spreadsheets, I could try turning this ",
@@ -552,6 +511,18 @@
       "keywords": []
     },
     {
+      "id": "f2a4048c2291e7e3",
+      "title": "How the Android Boot Process Works on Embedded SBCs",
+      "description": "When Android runs on an embedded Single Board Computer (SBC), the boot process looks familiar on the surface but behaves quite differently from a smartphone or tablet. There is no fixed hardware reference design, no locked boot chain, and often no battery-backed environment. Instead, the boot flow is shaped by the SoC vendor, the board design, and the product’s long-term maintenance requirements. Understanding this process is essential for engineers working on custom Android SBCs, especially whe",
+      "url": "https://dev.to/jasonliu112/how-the-android-boot-process-works-on-embedded-sbcs-24c2",
+      "source": "Dev.to",
+      "author": "jasonliu112",
+      "published": "2026-01-06T15:16:09+00:00",
+      "niche": "dev",
+      "score": 68,
+      "keywords": []
+    },
+    {
       "id": "541bec4a0263df52",
       "title": "Common Lisp SDK for the Datastar Hypermedia Framework",
       "description": "Comments",
@@ -595,6 +566,20 @@
       "score": 63,
       "keywords": [
         "code"
+      ]
+    },
+    {
+      "id": "0c140e6c5e8cf093",
+      "title": "Show HN: Prism.Tools – Free and privacy-focused developer utilities",
+      "description": "Comments",
+      "url": "https://blgardner.github.io/prism.tools/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-06T12:33:49+00:00",
+      "niche": "dev",
+      "score": 63,
+      "keywords": [
+        "developer"
       ]
     },
     {
@@ -1480,36 +1465,6 @@
       ]
     },
     {
-      "id": "a8e6347ec57a39b2",
-      "title": "Web Development Is Meant to Be Built, Not Watched",
-      "description": "Web development isn’t theory-heavy like math or law. It’s interactive by nature. You change a line. You refresh the page. Something breaks, or works. That instant cause-and-effect loop is powerful. It’s also addictive. The moment learning becomes fun is the moment you stop treating it like school and start treating it like building. Instead of saying: “I’m going to master React, Kubernetes, and Spring Boot” You say: “I’m going to make something exist by the end of today.” Even if that thing is u",
-      "url": "https://dev.to/web_dev-usman/web-development-is-meant-to-be-built-not-watched-2em7",
-      "source": "Dev.to",
-      "author": "Muhammad Usman",
-      "published": "2025-12-30T15:16:04+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "Spring",
-        "development"
-      ]
-    },
-    {
-      "id": "7c6ca7dee04fa175",
-      "title": "Critical SmarterMail flaw allows unauthenticated remote code execution",
-      "description": "Summary SmarterTools released a critical update for SmarterMail to fix CVE-2025-52691 that allows unauthenticated remote code execution. Attackers can exploit this flaw to upload malicious files and gain full control over email servers. Take Action: If you are using SmarterMail update ASAP. There is a trivial flaw to upload files and take over your system. You can't hide this behind a firewall, it's designed to be exposed to the internet. After patching, check your server logs for any new or str",
-      "url": "https://dev.to/beyondmachines/critical-smartermail-flaw-allows-unauthenticated-remote-code-execution-596a",
-      "source": "Dev.to",
-      "author": "BeyondMachines",
-      "published": "2025-12-30T15:01:40+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "code",
-        "release"
-      ]
-    },
-    {
       "id": "d894093d6a39a07d",
       "title": "Frontend Fears: A Backend Python Dev's Struggle with UI",
       "description": "I live in the terminal. Give me a complex Python backend, an API gateway, or an ML model optimization task, and I’m happy. That's my comfort zone. But recently, while prototyping ideas for the Scaler YIIC challenge, I ran into a major roadblock that has nothing to do with Python: The User Interface. You can build the most incredible \"Emergent AI\" logic in the backend, but if the user interface looks like a Windows 98 error screen, nobody will care. As a student developer focusing intensely on fu",
@@ -2227,22 +2182,6 @@
       "keywords": [
         "developer",
         "API"
-      ]
-    },
-    {
-      "id": "5fa025c7818e2d0f",
-      "title": "MiniScript Road Map for 2026",
-      "description": "With 2025 coming to a close, it's time to look ahead to 2026! MiniScript is now eight years old. Many programming languages really come into their own when they're about 10 years old. It looks like this will apply to MiniScript too — just wait till you see all the cool developments coming in the next two years! MiniScript 2.0 The big push for next year will be version 2.0 of MiniScript itself. This is a complete rewrite of the compiler, bytecode, and virtual machine (VM) underlying the language.",
-      "url": "https://dev.to/joestrout/miniscript-road-map-for-2026-17mh",
-      "source": "Dev.to",
-      "author": "JoeStrout",
-      "published": "2025-12-30T15:02:13+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "development",
-        "programming",
-        "code"
       ]
     },
     {
@@ -3514,20 +3453,6 @@
       "keywords": [
         "development",
         "code"
-      ]
-    },
-    {
-      "id": "72c573372d56e173",
-      "title": "What Happens When You Kill the Kotlin Daemon Before R8?",
-      "description": "Every Android build spins up more JVM processes than most developers realize. Beyond the Gradle wrapper, there’s the main Gradle process orchestrating the build and several child processes created for specific tasks. These include test processes that execute in isolation, optional separate JVMs for tools like Lint or R8 when configured to run out of process, individual Java tasks that may also run in their own JVM, and the Kotlin compiler process, which delegates all Kotlin compilation units to ",
-      "url": "https://dev.to/cdsap/what-happens-when-you-kill-the-kotlin-daemon-before-r8-el7",
-      "source": "Dev.to",
-      "author": "Iñaki Villar",
-      "published": "2025-12-30T15:15:04+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "developer"
       ]
     },
     {
@@ -5058,40 +4983,60 @@
       ]
     },
     {
-      "id": "a9f3fd99e9ab29c6",
-      "title": "Descriptive Analysis",
-      "description": "As a starting point in data analysis, it is necessary to know some mathematical and statistical foundations in order to work with the information to be analyzed. Thus, we will start learning some basic concepts: Population, Samples, Individuals and Variables: Population: The set of all the elements under study Sample: A subset of elements of the population (it should be representative of the population) Individuals: Every individual element in the popularion Variables: Characteristics of the ind",
-      "url": "https://dev.to/datalaria/descriptive-analysis-39a",
+      "id": "d52a314dc84ad37d",
+      "title": "Day 10: Storing Financial Data in DynamoDB with Python (Boto3).",
+      "description": "Welcome to Day 10. The \"pipes\" are connected. Now we need a bucket to catch the water. Today, I designed the storage layer for my AI Financial Agent. I chose Amazon DynamoDB because it fits perfectly with the Serverless ethos (Lambda + EventBridge). The Database Design (Single Table Concept) Designing for NoSQL is different from SQL. You don't think about \"joins\", you think about \"access patterns\". Query: \"Give me all transactions for User Eric sorted by date.\" PK: user_id SK: timestamp The Code",
+      "url": "https://dev.to/ericrodriguez10/day-10-storing-financial-data-in-dynamodb-with-python-boto3-5bgg",
       "source": "Dev.to",
-      "author": "Daniel",
-      "published": "2025-12-30T15:10:05+00:00",
+      "author": "Eric Rodríguez",
+      "published": "2026-01-06T15:16:32+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
-      "id": "263e79cdc80c3691",
-      "title": "Top 7 HubSpot Alternatives for 2025 (Including AI-Powered Options)",
-      "description": "Hello Dev.to community! 👋 Are you navigating the CRM landscape and finding that HubSpot doesn't quite fit your needs or budget? Whether you're looking for more AI capabilities, better pricing, or simpler interfaces, I've got you covered. Let's explore some top-notch alternatives that could be a better fit for your tech team in 2025. Why Consider HubSpot Alternatives? HubSpot is a powerhouse in the CRM world but isn't without its drawbacks: High Costs: HubSpot's AI features require the Profession",
-      "url": "https://dev.to/shabe_ai/top-7-hubspot-alternatives-for-2025-including-ai-powered-options-2bh3",
+      "id": "89eb1100cd7ee607",
+      "title": "Monetzly: The Future of AI Monetization for LLM Apps",
+      "description": "What If Your AI App Could Generate Revenue in Two Ways Simultaneously? The AI app landscape is booming, but many developers are grappling with a pressing question: How do I monetize my innovative creation without compromising user experience? The answer lies in an exciting new paradigm that we’re calling the Dual Revenue Revolution—and it’s spearheaded by Monetzly, the first platform that allows you to earn from your app while also hosting relevant ads. A Groundbreaking Approach to Monetization ",
+      "url": "https://dev.to/monetzly/monetzly-the-future-of-ai-monetization-for-llm-apps-4k93",
       "source": "Dev.to",
-      "author": "Shabe Ai",
-      "published": "2025-12-30T15:06:17+00:00",
+      "author": "Monetzly",
+      "published": "2026-01-06T15:15:09+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
-      "id": "0ba45fd8d73a82a3",
-      "title": "Estadística Descriptiva",
-      "description": "Como punto de partida en el análisis de datos, es necesario conocer unas nociones matemáticas y estadísticas para poder trabajar con la información a analizar. Para ello, vamos a comenzar viendo unos conceptos básicos: Población, Muestras, Individuos y Variables Población: Total de elementos bajo estudio Muestra: Subconjunto de elementos de la población (debería ser representativo de la población) Individuos: Elementos individuales de la población Variables: Características de los individuos Eje",
-      "url": "https://dev.to/datalaria/estadistica-descriptiva-3k7k",
+      "id": "e7688b1eaf410d17",
+      "title": "Terraform Workflow Explained with a Real AWS Example (Beginner Friendly)",
+      "description": "Why Terraform Infrastructure as Code (IaC) tools like Terraform make it possible to define your cloud resources in simple text files and recreate them anytime with a few commands. As a beginner, a great first project is to use Terraform to launch a single EC2 instance on AWS and walk through the full workflow from setup to clean-up.​ This post is a hands-on log of that exact journey: one configuration file and five core Terraform commands Terraform workflow in plain English Terraform follows a p",
+      "url": "https://dev.to/megha_shivhare_5038dc1047/terraform-workflow-explained-with-a-real-aws-example-beginner-friendly-4lgj",
       "source": "Dev.to",
-      "author": "Daniel",
-      "published": "2025-12-30T15:03:19+00:00",
+      "author": "Megha Shivhare",
+      "published": "2026-01-06T15:08:17+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
+    },
+    {
+      "id": "b99345a7609ed551",
+      "title": "Tstebike Discount Code \"ASHISHKUMAR\" Get 10% Off On All Products!",
+      "description": "Are you passionate about cycling or looking to upgrade your bike and accessories? Tstebike is your ultimate online destination for high-quality bicycles, electric bikes, and cycling accessories. And here’s the exciting part – by using the Tstebike discount code “ASHISHKUMAR”, you can get an instant 10% off on all products, making your purchase more affordable while you enhance your cycling experience. In this comprehensive guide, we’ll explore Tstebike, the benefits of using the discount code, h",
+      "url": "https://dev.to/referralcode244/tstebike-discount-code-ashishkumar-get-10-off-on-all-products-51f4",
+      "source": "Dev.to",
+      "author": "ReferralCode244",
+      "published": "2026-01-06T15:07:07+00:00",
+      "niche": "dev",
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "880c531f852c0418",
@@ -7704,6 +7649,66 @@
       "keywords": []
     },
     {
+      "id": "7e98ee1de227ef65",
+      "title": "Building AI That Doesn't Lose Its Mind: A Universal Architecture for Stable Memory Systems",
+      "description": "From Problem to Concept This article continues the discussion of memory recursion in AI systems, as described in The Day My AI Started Talking to Itself. If you haven't read it yet, we recommend starting there — it covers the problem itself and its mathematical inevitability. Once it became clear that memory recursion isn't a specific bug but a fundamental architectural problem, the question arose: how do we actually solve it? Simple solutions like \"just apply decay\" or \"lower the weight of AI o",
+      "url": "https://dev.to/aleksandr_kossarev_e23623/building-ai-that-doesnt-lose-its-mind-a-universal-architecture-for-stable-memory-systems-3naf",
+      "source": "Dev.to",
+      "author": "Aleksandr Kossarev",
+      "published": "2026-01-06T15:21:13+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "db3aeeaa3e62bc84",
+      "title": "AI Democratization Killing Strategic Advantage: Fix It Now",
+      "description": "The uncomfortable truth: That proprietary feature you're planning to launch next quarter? The one your engineering team has been building for 18 months? Someone in a spare bedroom can replicate it this weekend—and probably ship it faster than you will. This isn't theoretical. It's happening right now. The Strategic Blindspot Most Executives Miss For decades, you could build a competitive advantage through: Proprietary technology that took years to develop Technical expertise that required expens",
+      "url": "https://dev.to/dr_hernani_costa/ai-democratization-killing-strategic-advantage-fix-it-now-4b81",
+      "source": "Dev.to",
+      "author": "Dr. Hernani Costa",
+      "published": "2026-01-06T15:15:26+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "dc8b39ad00b5bee6",
+      "title": "6 AI Editing Tools Quietly Powering Social Media Creators",
+      "description": "If you see the same creators posting clean edits, sharp captions, and consistent visuals every single day, chances are they’re not just “working harder.” They’re using quiet AI tools most people haven’t discovered yet. These are under-the-radar AI editing tools that early adopters, niche creators, and growth-focused operators are already using to move faster while everyone else is still editing manually. 1. Choppity What it’s secretly great at: Turning long videos into multiple viral clips Chopp",
+      "url": "https://dev.to/joinwithken/6-ai-editing-tools-quietly-powering-social-media-creators-1clk",
+      "source": "Dev.to",
+      "author": "Kevin",
+      "published": "2026-01-06T15:14:32+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "941edd4901552be6",
+      "title": "Shamim Patel and a Vision for More Compassionate Women’s Healthcare",
+      "description": "A Career Shaped by Empathy and Purpose Women’s healthcare is influenced by more than clinical procedures and medical data. Trust, communication, and access play a defining role in how patients experience care and whether they feel supported throughout their health journey. Despite progress in medicine, many women continue to encounter barriers that make consistent, respectful care difficult to obtain. Addressing these challenges requires physicians who lead with empathy and intention. Throughout",
+      "url": "https://dev.to/shamimpatelmd/shamim-patel-and-a-vision-for-more-compassionate-womens-healthcare-1n77",
+      "source": "Dev.to",
+      "author": "Shamim Patel MD",
+      "published": "2026-01-06T15:07:23+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "e11be8023186f5ec",
+      "title": "META vai ficar para trás em IA até 2026? Um debate necessário SmartSEC",
+      "description": "Nos últimos meses, a corrida global por liderança em Inteligência Artificial deixou de ser apenas uma pauta técnica e passou a ser uma questão estratégica de sobrevivência para grandes empresas de tecnologia. OpenAI, Google e outras big techs avançam de forma acelerada em modelos fundacionais, IA generativa, automação e aplicações corporativas em escala. Nesse cenário, surge uma pergunta inevitável: a META corre o risco de ficar para trás em IA nos próximos anos? Apesar de ser dona de plataforma",
+      "url": "https://dev.to/smartsec/meta-vai-ficar-para-tras-em-ia-ate-2026-um-debate-necessariosmartsec-58mp",
+      "source": "Dev.to",
+      "author": "Fábio Leto SmartSEC",
+      "published": "2026-01-06T15:07:20+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "012e1fffb290f33c",
       "title": "[Boost]",
       "description": "The Quiet Revolution in Developer Workflows: Why Static Code Is Dying Jaideep Parashar ・ Dec 24 #webdev #ai #devops #discuss",
@@ -7731,20 +7736,6 @@
       "keywords": [
         "developer",
         "framework"
-      ]
-    },
-    {
-      "id": "42e251f07f369fda",
-      "title": "A new era of Stack Overflow",
-      "description": "Live from the stage of WeAreDevelopers, we’re unveiling our new vision and mission for the future of Stack Overflow and our community.",
-      "url": "https://stackoverflow.blog/2025/12/30/a-new-era-of-stack-overflow/",
-      "source": "Stack Overflow Blog",
-      "author": "Prashanth Chandrasekar, Jody Bailey",
-      "published": "2025-12-30T14:53:16+00:00",
-      "niche": "dev",
-      "score": 48,
-      "keywords": [
-        "developer"
       ]
     },
     {
@@ -8062,102 +8053,6 @@
       ]
     },
     {
-      "id": "3b7c9e2ac3919769",
-      "title": "Public Sans – A strong, neutral typeface",
-      "description": "Comments",
-      "url": "https://public-sans.digital.gov/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-30T14:23:11+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "489e4c21d5e3084e",
-      "title": "Times New American: A Tale of Two Fonts",
-      "description": "Comments",
-      "url": "https://hsu.cy/2025/12/times-new-american/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-30T12:56:07+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "042da0d4a3672c34",
-      "title": "The British Empire's Resilient Subsea Telegraph Network",
-      "description": "Comments",
-      "url": "https://subseacables.blogspot.com/2025/12/the-british-empires-resilient-subsea.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-30T13:10:56+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "a4c57a7c3b995c23",
-      "title": "The Legacy of Undersea Cables",
-      "description": "Comments",
-      "url": "https://blog.sciencemuseumgroup.org.uk/the-legacy-of-undersea-cables/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-30T14:49:38+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "593a514e9dd2109b",
-      "title": "Hive (YC S14) Is Hiring a Staff Software Engineer (Data Systems)",
-      "description": "Comments",
-      "url": "https://jobs.ashbyhq.com/hive.co/cb0dc490-0e32-4734-8d91-8b56a31ed497",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-30T14:31:34+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "a31f049efef6214d",
-      "title": "Win32 is the stable Linux ABI",
-      "description": "Comments",
-      "url": "https://loss32.org/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-30T13:15:05+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "0d02075c6faf55c2",
-      "title": "Approachable Swift Concurrency",
-      "description": "Comments",
-      "url": "https://fuckingapproachableswiftconcurrency.com/en/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-30T13:01:51+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "bf7fe61a988999ac",
-      "title": "Igniting the GPU: From Kernel Plumbing to 3D Rendering on RISC-V",
-      "description": "Comments",
-      "url": "https://mwilczynski.dev/posts/riscv-gpu-zink/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-30T13:55:59+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
       "id": "dfce1a25a73b192e",
       "title": "Electrolysis can solve one of our biggest contamination problems",
       "description": "Comments",
@@ -8165,30 +8060,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-30T18:08:32+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "f1ad25d065f8be0d",
-      "title": "The British empire's resilient subsea telegraph network",
-      "description": "Comments",
-      "url": "https://subseacables.blogspot.com/2025/12/the-british-empires-resilient-subsea.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-30T13:10:56+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "c81c0e3da04c4b69",
-      "title": "What Happened to Abit Motherboards",
-      "description": "Comments",
-      "url": "https://dfarq.homeip.net/what-happened-to-abit-motherboards/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-30T14:58:18+00:00",
       "niche": "dev",
       "score": 44,
       "keywords": []
@@ -10114,6 +9985,42 @@
       "keywords": []
     },
     {
+      "id": "85f1e417e69cb67f",
+      "title": "65% of Hacker News Posts Have Negative Sentiment, and They Outperform",
+      "description": "Comments",
+      "url": "https://philippdubach.com/standalone/hn-sentiment/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-06T14:45:47+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "6e166d4eb74521ba",
+      "title": "Why German Strings Are Everywhere?",
+      "description": "Comments",
+      "url": "https://cedardb.com/blog/german_strings/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-06T13:30:07+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "f85ef20754190c79",
+      "title": "Show HN: DDL to Data – Generate realistic test data from SQL schemas",
+      "description": "Comments",
+      "url": "https://news.ycombinator.com/item?id=46511578",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-06T12:47:23+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "aac61a613c7849e9",
       "title": "Touch Targets and Web Accessibility",
       "description": "Learn about touch target accessibility standards and WCAG guidelines. Discover why 24x24px or 44x44px targets improve usability for all users with code examples. Continue reading Touch Targets and Web Accessibility on SitePoint.",
@@ -10165,8 +10072,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "React 19",
-        "performance"
+        "performance",
+        "React 19"
       ]
     },
     {
@@ -10194,9 +10101,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "performance",
+        "code",
         "release",
-        "code"
+        "performance"
       ]
     },
     {
@@ -10210,9 +10117,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "developer",
+        "release",
         "API",
-        "release"
+        "developer"
       ]
     },
     {
@@ -10226,22 +10133,10 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "developer",
+        "release",
         "performance",
-        "release"
+        "developer"
       ]
-    },
-    {
-      "id": "eeac187d380f11b0",
-      "title": "The Increasing Importance of Psychological Safety and Self-Awareness for Creative Work",
-      "description": "This article dives into how psychological safety and self awareness help creative people take risks, speak honestly, and learn faster, and why that matters more than ever in modern teams.",
-      "url": "https://tympanus.net/codrops/2025/12/30/the-increasing-importance-of-psychological-safety-and-self-awareness-for-creative-work/",
-      "source": "Codrops",
-      "author": "Andrew Woan",
-      "published": "2025-12-30T13:01:03+00:00",
-      "niche": "dev",
-      "score": 39,
-      "keywords": []
     },
     {
       "id": "6fd31c226ffb610e",
@@ -10446,9 +10341,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "React 19",
         "release",
-        "API"
+        "API",
+        "React 19"
       ]
     },
     {
@@ -10490,8 +10385,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -10505,8 +10400,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -10775,11 +10670,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "release",
-        "code",
-        "framework",
+        "performance",
         "API",
-        "performance"
+        "framework",
+        "code",
+        "release"
       ]
     },
     {
@@ -11093,8 +10988,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "API",
-        "release"
+        "release",
+        "API"
       ]
     },
     {
@@ -11135,9 +11030,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "developer",
+        "code",
         "performance",
-        "code"
+        "developer"
       ]
     },
     {
@@ -11151,8 +11046,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "performance",
-        "code"
+        "code",
+        "performance"
       ]
     },
     {
@@ -11166,8 +11061,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
-        "code"
+        "code",
+        "release"
       ]
     },
     {
@@ -11181,8 +11076,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -11196,8 +11091,8 @@
       "niche": "dev",
       "score": 18,
       "keywords": [
-        "Angular",
-        "PHP"
+        "PHP",
+        "Angular"
       ]
     },
     {
@@ -11254,8 +11149,8 @@
       "score": 17,
       "keywords": [
         "development",
-        "developer",
-        "API"
+        "API",
+        "developer"
       ]
     },
     {
@@ -11269,9 +11164,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "tutorial",
+        "PHP",
         "development",
-        "PHP"
+        "tutorial"
       ]
     },
     {
@@ -11285,9 +11180,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "tutorial",
+        "PHP",
         "development",
-        "PHP"
+        "tutorial"
       ]
     },
     {
@@ -11301,8 +11196,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "development",
-        "code"
+        "code",
+        "development"
       ]
     },
     {
@@ -11331,8 +11226,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "API",
-        "code"
+        "code",
+        "API"
       ]
     },
     {
@@ -11725,6 +11620,18 @@
       "keywords": []
     },
     {
+      "id": "e006e5a90789b7fe",
+      "title": "\"Inspector Dangerfuck\", ANSI art comic from 1994",
+      "description": "Comments",
+      "url": "https://breakintochat.com/blog/2025/12/31/ansi-art-and-webcomics-part-3-eerie-and-inspector-dangerfuck/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-02T21:18:10+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
       "id": "166cea1d4910ee76",
       "title": "How to Run a Docker Container in AWS Lambda",
       "description": "While containers are quite lightweight and provide various benefits, it can be challenging to decide how best to deploy them. There are a number of ways to deploy and run Docker containers. But some are best for orchestrating and managing containers,...",
@@ -11732,114 +11639,6 @@
       "source": "freeCodeCamp",
       "author": "Agnes Olorundare",
       "published": "2025-12-24T23:38:56+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "81fb23eaaaaa63b7",
-      "title": "Thank You (2025 Edition)",
-      "description": "This is the best job I've had in my life and it's only possible because you keep showing up each day to read, learn, share, and discuss all-things-front-end (and a little CSS, of course) with us. Thank You (2025 Edition) originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-      "url": "https://css-tricks.com/thank-you-2025-edition/",
-      "source": "CSS-Tricks",
-      "author": "Geoff Graham",
-      "published": "2025-12-23T15:52:53+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "6f98707c35e71543",
-      "title": "text-decoration-inset is Like Padding for Text Decorations",
-      "description": "The text-decoration-inset property solves a problem that we’ve had since the beginning of the web, which is that text decorations such as underlines extend beyond the first and last characters, resulting in vertical misalignment. text-decoration-inset is Like Padding for Text Decorations originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-      "url": "https://css-tricks.com/text-decoration-inset-is-like-padding-for-text-decorations/",
-      "source": "CSS-Tricks",
-      "author": "Daniel Schwarz",
-      "published": "2025-12-22T14:39:52+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "14d8e61c01a16cde",
-      "title": "Masonry Layout is Now grid-lanes",
-      "description": "It's settled! A new CSS display property keyword called grid-lanes will trigger a masonry layout mode. Masonry Layout is Now grid-lanes originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-      "url": "https://css-tricks.com/masonry-layout-is-now-grid-lanes/",
-      "source": "CSS-Tricks",
-      "author": "Sunkanmi Fafowora",
-      "published": "2025-12-19T16:08:28+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "06480e87708d924c",
-      "title": "Search CSS-Tricks Raycast Extension",
-      "description": "Jelte Lagendijk built a Raycast extension for searching CSS-Tricks articles where you simply type and a get a solid set of real-time results. Search CSS-Tricks Raycast Extension originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-      "url": "https://css-tricks.com/search-css-tricks-raycast-extension/",
-      "source": "CSS-Tricks",
-      "author": "Geoff Graham",
-      "published": "2025-12-18T15:34:23+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "e9ebbf89f8c41675",
-      "title": "Responsive List of Avatars Using Modern CSS (Part 2)",
-      "description": "In this article, we follow up the work we did to create responsive rows of circular images in a previous article by arranging the images around a circle with a clean hover effect. Responsive List of Avatars Using Modern CSS (Part 2) originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-      "url": "https://css-tricks.com/responsive-list-of-avatars-using-modern-css-part-2/",
-      "source": "CSS-Tricks",
-      "author": "Temani Afif",
-      "published": "2025-12-17T15:21:34+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "b6bfc3ec5d1aad3c",
-      "title": "What’s !important #1: Advent Calendars, CSS Wrapped, Web Platform Updates, and More",
-      "description": "The best CSS news from around the web from the last two weeks. In this edition: advent calendars, CSS Wrapped 2025, and the latest Web Platform Updates. What’s !important #1: Advent Calendars, CSS Wrapped, Web Platform Updates, and More originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-      "url": "https://css-tricks.com/whats-important-1/",
-      "source": "CSS-Tricks",
-      "author": "Daniel Schwarz",
-      "published": "2025-12-16T17:03:46+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "6c6bd03b06a60db3",
-      "title": "Toon Title Text Generator",
-      "description": "Andy Clarke with a brand-new resource. It generates the sort of fun typography that Andy commonly uses in his own work that's geared towards cartoon headings. Toon Title Text Generator originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-      "url": "https://css-tricks.com/toon-title-text-generator/",
-      "source": "CSS-Tricks",
-      "author": "Geoff Graham",
-      "published": "2025-12-15T17:55:55+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "d2a937687e2e6b62",
-      "title": "Responsive List of Avatars Using Modern CSS (Part 1)",
-      "description": "A list of rounded images that slightly overlap each other is a classic web design pattern. The main idea is not complex, but the new thing is the responsive part. that dynamically adjusts the overlap between the images so they fit inside the container. Responsive List of Avatars Using Modern CSS (Part 1) originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-      "url": "https://css-tricks.com/responsive-list-of-avatars-using-modern-css-part-1/",
-      "source": "CSS-Tricks",
-      "author": "Temani Afif",
-      "published": "2025-12-15T16:19:23+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "3077de4b993f5414",
-      "title": "What Else Could Container Queries… Query?",
-      "description": "How far can we really go with container queries? There are dozens of media queries now, so what if there were dozens of container queries as well? What could we use them for? What Else Could Container Queries&#8230; Query? originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-      "url": "https://css-tricks.com/what-else-could-container-queries-query/",
-      "source": "CSS-Tricks",
-      "author": "Daniel Schwarz",
-      "published": "2025-12-12T14:38:18+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -12157,6 +11956,20 @@
       "published": "2024-04-15T11:19:02+00:00",
       "niche": "dev",
       "score": 13,
+      "keywords": [
+        "developer"
+      ]
+    },
+    {
+      "id": "42e251f07f369fda",
+      "title": "A new era of Stack Overflow",
+      "description": "Live from the stage of WeAreDevelopers, we’re unveiling our new vision and mission for the future of Stack Overflow and our community.",
+      "url": "https://stackoverflow.blog/2025/12/30/a-new-era-of-stack-overflow/",
+      "source": "Stack Overflow Blog",
+      "author": "Prashanth Chandrasekar, Jody Bailey",
+      "published": "2025-12-30T14:53:16+00:00",
+      "niche": "dev",
+      "score": 12,
       "keywords": [
         "developer"
       ]
@@ -12573,6 +12386,18 @@
       "published": "2025-12-30T09:10:41+00:00",
       "niche": "dev",
       "score": 10,
+      "keywords": []
+    },
+    {
+      "id": "eeac187d380f11b0",
+      "title": "The Increasing Importance of Psychological Safety and Self-Awareness for Creative Work",
+      "description": "This article dives into how psychological safety and self awareness help creative people take risks, speak honestly, and learn faster, and why that matters more than ever in modern teams.",
+      "url": "https://tympanus.net/codrops/2025/12/30/the-increasing-importance-of-psychological-safety-and-self-awareness-for-creative-work/",
+      "source": "Codrops",
+      "author": "Andrew Woan",
+      "published": "2025-12-30T13:01:03+00:00",
+      "niche": "dev",
+      "score": 9,
       "keywords": []
     },
     {
