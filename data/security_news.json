@@ -1,60 +1,7 @@
 {
-  "last_updated": "2026-01-07T12:57:01.778677+00:00",
-  "total_articles": 364,
+  "last_updated": "2026-01-07T15:31:15.826881+00:00",
+  "total_articles": 368,
   "articles": [
-    {
-      "id": "5e7e55a13ef83941",
-      "title": "IBM Warns of Critical API Connect Bug Allowing Remote Authentication Bypass",
-      "description": "IBM has disclosed details of a critical security flaw in API Connect that could allow attackers to gain remote access to the application. The vulnerability, tracked as CVE-2025-13915, is rated 9.8 out of a maximum of 10.0 on the CVSS scoring system. It has been described as an authentication bypass flaw. \"IBM API Connect could allow a remote attacker to bypass authentication mechanisms and gain",
-      "url": "https://thehackernews.com/2025/12/ibm-warns-of-critical-api-connect-bug.html",
-      "source": "The Hacker News",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2025-12-31T19:07:00+05:30",
-      "niche": "security",
-      "score": 100,
-      "keywords": [
-        "attack",
-        "vulnerability",
-        "CVE-",
-        "security",
-        "authentication bypass"
-      ]
-    },
-    {
-      "id": "dc5647c6f8f005ef",
-      "title": "RondoDox botnet exploits React2Shell flaw to breach Next.js servers",
-      "description": "The RondoDox botnet has been observed exploiting the critical React2Shell flaw (CVE-2025-55182) to infect vulnerable Next.js servers with malware and cryptominers. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/rondodox-botnet-exploits-react2shell-flaw-to-breach-nextjs-servers/",
-      "source": "Bleeping Computer",
-      "author": "Bill Toulas",
-      "published": "2025-12-31T09:58:51-05:00",
-      "niche": "security",
-      "score": 100,
-      "keywords": [
-        "exploit",
-        "malware",
-        "breach",
-        "CVE-"
-      ]
-    },
-    {
-      "id": "cb649e6dc7e6f14e",
-      "title": "Critical CVSS 9.8 Flaw Found in IBM API Connect Authentication System",
-      "description": "IBM has disclosed details of a critical security flaw in API Connect that could allow attackers to gain remote access to the application. The vulnerability, tracked as CVE-2025-13915, is rated 9.8 out of a maximum of 10.0 on the CVSS scoring system. It has been described as an authentication bypass flaw. \"IBM API Connect could allow a remote attacker to bypass authentication mechanisms and gain",
-      "url": "https://thehackernews.com/2025/12/ibm-warns-of-critical-api-connect-bug.html",
-      "source": "The Hacker News",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2025-12-31T19:07:00+05:30",
-      "niche": "security",
-      "score": 100,
-      "keywords": [
-        "security",
-        "attack",
-        "vulnerability",
-        "CVE-",
-        "authentication bypass"
-      ]
-    },
     {
       "id": "de55dbdc1ae95aab",
       "title": "The biggest cybersecurity and cyberattack stories of 2025",
@@ -179,6 +126,42 @@
         "patch",
         "remote code execution",
         "CVE-"
+      ]
+    },
+    {
+      "id": "bfc1596b2a91e701",
+      "title": "Critical n8n Vulnerability (CVSS 10.0) Allows Unauthenticated Attackers to Take Full Control",
+      "description": "Cybersecurity researchers have disclosed details of yet another maximum-severity security flaw in n8n, a popular workflow automation platform, that allows an unauthenticated remote attacker to gain complete control over susceptible instances. The vulnerability, tracked as CVE-2026-21858 (CVSS score: 10.0), has been codenamed Ni8mare by Cyera Research Labs. Security researcher Dor Attias has been",
+      "url": "https://thehackernews.com/2026/01/critical-n8n-vulnerability-cvss-100.html",
+      "source": "The Hacker News",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-01-07T19:18:00+05:30",
+      "niche": "security",
+      "score": 100,
+      "keywords": [
+        "CVE-",
+        "security flaw",
+        "vulnerability",
+        "attack",
+        "cybersecurity"
+      ]
+    },
+    {
+      "id": "d2ca737602d1f707",
+      "title": "New Veeam vulnerabilities expose backup servers to RCE attacks",
+      "description": "Veeam released security updates to patch multiple security flaws in its Backup & Replication software, including a critical remote code execution (RCE) vulnerability. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/new-veeam-vulnerabilities-expose-backup-servers-to-rce-attacks/",
+      "source": "Bleeping Computer",
+      "author": "Sergiu Gatlan",
+      "published": "2026-01-07T08:06:11-05:00",
+      "niche": "security",
+      "score": 100,
+      "keywords": [
+        "patch",
+        "security flaw",
+        "vulnerability",
+        "RCE",
+        "remote code execution"
       ]
     },
     {
@@ -544,24 +527,6 @@
         "attack",
         "CVE-",
         "exploit"
-      ]
-    },
-    {
-      "id": "360dc6383a550b26",
-      "title": "Singapore CSA warns of maximun severity SmarterMail RCE flaw",
-      "description": "Singapore’s CSA warns of CVE-2025-52691, a critical SmarterMail flaw enabling unauthenticated remote code execution via arbitrary file upload. Singapore’s Cyber Security Agency of Singapore (CSA) warns of a maximum severity flaw, tracked as CVE-2025-52691 (CVSS score of 10.0), in SmarterMail. The vulnerability enables unauthenticated remote code execution via arbitrary file upload. &#8220;Successful exploitation of the [&#8230;]",
-      "url": "https://securityaffairs.com/186353/security/singapore-csa-warns-of-maximun-severity-smartermail-rce-flaw.html",
-      "source": "Security Affairs",
-      "author": "Pierluigi Paganini",
-      "published": "2025-12-31T14:23:11+00:00",
-      "niche": "security",
-      "score": 82,
-      "keywords": [
-        "exploit",
-        "RCE",
-        "vulnerability",
-        "security",
-        "remote code execution"
       ]
     },
     {
@@ -977,11 +942,11 @@
       "niche": "security",
       "score": 75,
       "keywords": [
-        "security",
+        "patch",
+        "security flaw",
         "zero-day",
         "exploit",
-        "patch",
-        "security flaw"
+        "security"
       ]
     },
     {
@@ -998,21 +963,6 @@
         "attack",
         "exploit",
         "zero-day"
-      ]
-    },
-    {
-      "id": "dcd36c6bdfa0479a",
-      "title": "Researchers Spot Modified Shai-Hulud Worm Testing Payload on npm Registry",
-      "description": "Cybersecurity researchers have disclosed details of what appears to be a new strain of Shai Hulud on the npm registry with slight modifications from the previous wave observed last month. The npm package that embeds the novel Shai Hulud strain is \"@vietmoney/react-big-calendar,\" which was uploaded to npm back in March 2021 by a user named \"hoquocdat.\" It was updated for the first time on",
-      "url": "https://thehackernews.com/2025/12/researchers-spot-modified-shai-hulud.html",
-      "source": "The Hacker News",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2025-12-31T18:59:00+05:30",
-      "niche": "security",
-      "score": 73,
-      "keywords": [
-        "cybersecurity",
-        "security"
       ]
     },
     {
@@ -1295,6 +1245,20 @@
       ]
     },
     {
+      "id": "ed9ace0719c11f9e",
+      "title": "ownCloud urges users to enable MFA after credential theft reports",
+      "description": "File-sharing platform ownCloud warned users today to enable multi-factor authentication (MFA) to block attackers using compromised credentials from stealing their data. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/owncloud-urges-users-to-enable-mfa-after-credential-theft-reports/",
+      "source": "Bleeping Computer",
+      "author": "Sergiu Gatlan",
+      "published": "2026-01-07T09:34:39-05:00",
+      "niche": "security",
+      "score": 68,
+      "keywords": [
+        "attack"
+      ]
+    },
+    {
       "id": "d421a6e47979f09a",
       "title": "Boston Dynamics et Google DeepMind s'allient pour donner un vrai cerveau à Atlas",
       "description": "Vous vous souvenez de mes explications sur comment Boston Dynamics comptait construire un cerveau pour Atlas ? Hé bien, ils viennent de trouver le partenaire parfait pour y arriver. Et pas n'importe lequel ! Annoncé au CES 2026 à Las Vegas lors de la présentation Hyundai, le fabricant de robots s'allie avec Google DeepMind pour intégrer les modèles fondationnels Gemini Robotics directement dans leurs humanoïdes. Du coup, Atlas va pouvoir percevoir son environnement, raisonner, utiliser des outil",
@@ -1367,6 +1331,21 @@
       "keywords": [
         "breach",
         "threat",
+        "security"
+      ]
+    },
+    {
+      "id": "3211bd805c7c4ae0",
+      "title": "Vulnerability in Totolink Range Extender Allows Device Takeover",
+      "description": "An error in the firmware-upload handler leads to devices starting an unauthenticated root-level Telnet service. The post Vulnerability in Totolink Range Extender Allows Device Takeover appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/vulnerability-in-totolink-range-extender-allows-device-takeover/",
+      "source": "SecurityWeek",
+      "author": "Ionut Arghire",
+      "published": "2026-01-07T13:50:36+00:00",
+      "niche": "security",
+      "score": 66,
+      "keywords": [
+        "vulnerability",
         "security"
       ]
     },
@@ -1578,6 +1557,21 @@
       ]
     },
     {
+      "id": "48d386bf13504e4d",
+      "title": "n8n - Une faille RCE critique (CVSS 10.0) qui va vous faire transpirer",
+      "description": "Avis aux utilisateurs de n8n, j'ai une bonne et une mauvaise nouvelle à vous annoncer. Non, je déconne, je n'ai qu'une mauvaise nouvelle à vous annoncer, et malheureusement, elle est du genre à vous faire lâcher votre café direct sur votre clavier mécanique de hipster. Si vous utilisez cet outil génial d'automatisation (et je sais que vous êtes nombreux par ici, surtout depuis que je vous ai partagé cette énorme collection de workflows ), il faut qu'on parle de la CVE-2026-21877. C'est Théo Lela",
+      "url": "https://korben.info/n8n-faille-securite-rce-critique.html",
+      "source": "Korben",
+      "author": "Korben",
+      "published": "2026-01-07T16:23:35+01:00",
+      "niche": "security",
+      "score": 62,
+      "keywords": [
+        "CVE-",
+        "RCE"
+      ]
+    },
+    {
       "id": "1a805c3987de4c6d",
       "title": "Kimwolf botnet leverages residential proxies to hijack 2M+ Android devices",
       "description": "The Kimwolf botnet has infected over 2 million Android devices, spreading mainly through residential proxy networks, researchers say. The Kimwolf botnet has compromised more than 2 million Android devices, spreading primarily via residential proxy networks, according to cybersecurity firm Synthient. Kimwolf is a newly discovered Android botnet linked to the Aisuru botnet that has infected over 1.8 [&#8230;]",
@@ -1603,10 +1597,10 @@
       "niche": "security",
       "score": 61,
       "keywords": [
-        "OWASP",
-        "RCE",
         "secure",
-        "security"
+        "OWASP",
+        "security",
+        "RCE"
       ]
     },
     {
@@ -1623,6 +1617,23 @@
         "security",
         "cybersecurity",
         "ransomware",
+        "attack"
+      ]
+    },
+    {
+      "id": "9e3a38b7a438bc57",
+      "title": "Misconfigured email routing enables internal-spoofed phishing",
+      "description": "Attackers exploit misconfigured email routing to spoof internal emails, using PhaaS platforms like Tycoon2FA to steal credentials. Attackers exploit misconfigured email routing and spoof protections to send phishing emails appearing internal, using PhaaS platforms like Tycoon2FA to steal credentials. &#8220;Phishing actors are exploiting complex routing scenarios and misconfigured spoof protections to effectively spoof organizations’ domains [&#8230;]",
+      "url": "https://securityaffairs.com/186638/uncategorized/misconfigured-email-routing-enables-internal-spoofed-phishing.html",
+      "source": "Security Affairs",
+      "author": "Pierluigi Paganini",
+      "published": "2026-01-07T14:57:52+00:00",
+      "niche": "security",
+      "score": 59,
+      "keywords": [
+        "phishing",
+        "exploit",
+        "protection",
         "attack"
       ]
     },
@@ -1808,6 +1819,21 @@
       ]
     },
     {
+      "id": "133322e57f8208b1",
+      "title": "Several Code Execution Flaws Patched in Veeam Backup & Replication",
+      "description": "Four vulnerabilities have been fixed in the latest release of Veeam Backup &#038; Replication. The post Several Code Execution Flaws Patched in Veeam Backup &#038; Replication appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/several-code-execution-flaws-patched-in-veeam-backup-replication/",
+      "source": "SecurityWeek",
+      "author": "Eduard Kovacs",
+      "published": "2026-01-07T13:27:11+00:00",
+      "niche": "security",
+      "score": 57,
+      "keywords": [
+        "patch",
+        "security"
+      ]
+    },
+    {
       "id": "131d358597b976c1",
       "title": "Cybersecurity skills matter more than headcount in the AI era",
       "description": "Cybersecurity teams are navigating a shift as skills shortages overtake headcount as the primary concern, according to ISC2’s 2025 Cybersecurity Workforce Study. The research, based on responses from some 16,029 cybersecurity professionals globally, reveals that while budget cuts and layoffs have leveled off after last year’s surge, the pressure on security teams has intensified. ISC2, a nonprofit member organization for cybersecurity professionals, found that cybersecurity workforce budget limi",
@@ -1837,6 +1863,22 @@
         "RCE",
         "security",
         "cybersecurity"
+      ]
+    },
+    {
+      "id": "33696f52d96301d8",
+      "title": "Cybersecurity Firms Secured $14 Billion in Funding in 2025: Analysis",
+      "description": "2025 was the strongest year for cybersecurity funding since the 2021 peak, according to Pinpoint Search Group. The post Cybersecurity Firms Secured $14 Billion in Funding in 2025: Analysis appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/cybersecurity-firms-secured-14-billion-in-funding-in-2025/",
+      "source": "SecurityWeek",
+      "author": "Eduard Kovacs",
+      "published": "2026-01-07T13:00:00+00:00",
+      "niche": "security",
+      "score": 56,
+      "keywords": [
+        "secure",
+        "cybersecurity",
+        "security"
       ]
     },
     {
@@ -1912,6 +1954,21 @@
       "keywords": [
         "cybersecurity",
         "security"
+      ]
+    },
+    {
+      "id": "9fad0e8d9418b404",
+      "title": "Neue Ransomware-Bedrohung zielt auf deutsche Unternehmen",
+      "description": "Der Ransomware-Dienst Ransomhouse nutzt jetzt eine komplexe Dual-Schlüssel-Verschlüsselung und automatisierte Angriffe auf VMware ESXi.Suttipun – shutterstock.com Sicherheitsexperten haben kürzlich festgestellt, dass die Ransomware-Gruppe Jolly Scorpius ihren RaaS-(Ransomware as a Service)-Dienst Ransomhouse massiv verbessert hat. Wie das Threat-Intelligence-Team von Palo Alto Networks berichtet, nutzt die Gruppe jetzt ein fortschrittliches duales Verschlüsselungssystem. Die Angriffe basieren au",
+      "url": "https://www.csoonline.com/article/4113847/neue-ransomware-bedrohung-zielt-auf-deutsche-unternehmen.html",
+      "source": "CSO Online",
+      "author": "Inconnu",
+      "published": "2026-01-07T15:07:36+00:00",
+      "niche": "security",
+      "score": 55,
+      "keywords": [
+        "ransomware",
+        "threat"
       ]
     },
     {
@@ -1997,74 +2054,6 @@
       ]
     },
     {
-      "id": "5282270acd26d99c",
-      "title": "WHILL Model C2 Electric Wheelchairs and Model F Power Chairs",
-      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker within Bluetooth range to take control over the product. The following versions of WHILL Model C2 Electric Wheelchairs and Model F Power Chairs are affected: Model C2 Electric WheelChair (CVE-2025-14346) Model F Power Chair (CVE-2025-14346) CVSS Vendor Equipment Vulnerabilities v3 9.8 WHILL Inc. WHILL Model C2 Electric Wheelchairs and Model F Power Chairs Missing Authentication for Critical Function Backgroun",
-      "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-25-364-01",
-      "source": "CISA Cybersecurity Advisories",
-      "author": "CISA",
-      "published": "2025-12-30T12:00:00+00:00",
-      "niche": "security",
-      "score": 54,
-      "keywords": [
-        "exploit",
-        "CVE-",
-        "attack",
-        "vulnerability"
-      ]
-    },
-    {
-      "id": "e4bdecfa25ac3f2c",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2025-14847 MongoDB and MongoDB Server Improper Handling of Length Parameter Inconsistency Vulnerability  This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.    Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities establishe",
-      "url": "https://www.cisa.gov/news-events/alerts/2025/12/29/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "source": "CISA Cybersecurity Advisories",
-      "author": "CISA",
-      "published": "2025-12-29T12:00:00+00:00",
-      "niche": "security",
-      "score": 54,
-      "keywords": [
-        "exploit",
-        "CVE-",
-        "attack",
-        "vulnerability"
-      ]
-    },
-    {
-      "id": "aad5bb79726507c5",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2023-52163 Digiever DS-2105 Pro Missing Authorization Vulnerability  This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.    Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the KEV Catalog as a living list o",
-      "url": "https://www.cisa.gov/news-events/alerts/2025/12/22/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "source": "CISA Cybersecurity Advisories",
-      "author": "CISA",
-      "published": "2025-12-22T12:00:00+00:00",
-      "niche": "security",
-      "score": 54,
-      "keywords": [
-        "exploit",
-        "CVE-",
-        "attack",
-        "vulnerability"
-      ]
-    },
-    {
-      "id": "7921bbcf1c473a6c",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2025-14733 WatchGuard Firebox Out-of-Bounds Write Vulnerability  This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.    Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the KEV Catalog as a living list of kn",
-      "url": "https://www.cisa.gov/news-events/alerts/2025/12/19/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "source": "CISA Cybersecurity Advisories",
-      "author": "CISA",
-      "published": "2025-12-19T12:00:00+00:00",
-      "niche": "security",
-      "score": 54,
-      "keywords": [
-        "exploit",
-        "CVE-",
-        "attack",
-        "vulnerability"
-      ]
-    },
-    {
       "id": "d85f2a320bcc7c9f",
       "title": "A phishing campaign with QR codes rendered using an HTML table, (Wed, Jan 7th)",
       "description": "Malicious use of QR codes has long been ubiquitous, both in the real world as well as in electronic communication. This is hardly surprising given that a scan of a QR code can lead one to a phishing page as easily as clicking a link in an e-mail.&#xd;",
@@ -2079,17 +2068,85 @@
       ]
     },
     {
-      "id": "0c0e2e538160d3d2",
-      "title": "Organic Maps - Le GPS open source qui ne vous flique pas",
-      "description": "Vous utilisez Google Maps pour vos balades ou vos trajets en bagnole, comme tout le monde. Sauf que vous savez aussi bien que moi ce que ça implique... Google qui sait où vous êtes, où vous allez, à quelle heure vous bougez, et combien de temps vous passez chez votre nouvelle voisine (pas assez longtemps à son goût). Mais bonne nouvelle les amis, y'a une alternative qui existe depuis un moment et qui mérite vraiment qu'on s'y intéresse. Ça s'appelle Organic Maps et c'est exactement ce que son no",
-      "url": "https://korben.info/organic-maps-gps-offline-open-source.html",
-      "source": "Korben",
-      "author": "Korben",
-      "published": "2025-12-31T16:08:59+01:00",
+      "id": "309df603e4266ca9",
+      "title": "Chrome Extensions With 900,000 Downloads Caught Stealing AI Chats",
+      "description": "Impersonating a legitimate extension from AITOPIA, the two malicious extensions were also exfiltrating users’ browser activity. The post Chrome Extensions With 900,000 Downloads Caught Stealing AI Chats appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/chrome-extensions-with-900000-downloads-caught-stealing-ai-chats/",
+      "source": "SecurityWeek",
+      "author": "Ionut Arghire",
+      "published": "2026-01-07T15:03:24+00:00",
       "niche": "security",
-      "score": 52,
+      "score": 54,
       "keywords": [
-        "RCE"
+        "security"
+      ]
+    },
+    {
+      "id": "5282270acd26d99c",
+      "title": "WHILL Model C2 Electric Wheelchairs and Model F Power Chairs",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker within Bluetooth range to take control over the product. The following versions of WHILL Model C2 Electric Wheelchairs and Model F Power Chairs are affected: Model C2 Electric WheelChair (CVE-2025-14346) Model F Power Chair (CVE-2025-14346) CVSS Vendor Equipment Vulnerabilities v3 9.8 WHILL Inc. WHILL Model C2 Electric Wheelchairs and Model F Power Chairs Missing Authentication for Critical Function Backgroun",
+      "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-25-364-01",
+      "source": "CISA Cybersecurity Advisories",
+      "author": "CISA",
+      "published": "2025-12-30T12:00:00+00:00",
+      "niche": "security",
+      "score": 54,
+      "keywords": [
+        "CVE-",
+        "exploit",
+        "vulnerability",
+        "attack"
+      ]
+    },
+    {
+      "id": "e4bdecfa25ac3f2c",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2025-14847 MongoDB and MongoDB Server Improper Handling of Length Parameter Inconsistency Vulnerability  This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.    Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities establishe",
+      "url": "https://www.cisa.gov/news-events/alerts/2025/12/29/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "source": "CISA Cybersecurity Advisories",
+      "author": "CISA",
+      "published": "2025-12-29T12:00:00+00:00",
+      "niche": "security",
+      "score": 54,
+      "keywords": [
+        "CVE-",
+        "exploit",
+        "vulnerability",
+        "attack"
+      ]
+    },
+    {
+      "id": "aad5bb79726507c5",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2023-52163 Digiever DS-2105 Pro Missing Authorization Vulnerability  This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.    Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the KEV Catalog as a living list o",
+      "url": "https://www.cisa.gov/news-events/alerts/2025/12/22/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "source": "CISA Cybersecurity Advisories",
+      "author": "CISA",
+      "published": "2025-12-22T12:00:00+00:00",
+      "niche": "security",
+      "score": 54,
+      "keywords": [
+        "CVE-",
+        "exploit",
+        "vulnerability",
+        "attack"
+      ]
+    },
+    {
+      "id": "7921bbcf1c473a6c",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2025-14733 WatchGuard Firebox Out-of-Bounds Write Vulnerability  This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise.    Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the KEV Catalog as a living list of kn",
+      "url": "https://www.cisa.gov/news-events/alerts/2025/12/19/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "source": "CISA Cybersecurity Advisories",
+      "author": "CISA",
+      "published": "2025-12-19T12:00:00+00:00",
+      "niche": "security",
+      "score": 54,
+      "keywords": [
+        "CVE-",
+        "exploit",
+        "vulnerability",
+        "attack"
       ]
     },
     {
@@ -2415,6 +2472,34 @@
       ]
     },
     {
+      "id": "071926123f174cc4",
+      "title": "Bug in Open WebUI macht Kostenlos-Tool zur Backdoor",
+      "description": "Der Schweregrad des Bugs in Open WebUI wird als hoch eingestuft. Wirestock Creators- shutterstock.com Sicherheitsforschende von Cato Networks haben eine Schwachstelle in Open WebUI, einem selbstgehosteten Enterprise Interface für Large Language Models (LLM), entdeckt. Diese soll es externen Modell-Servern, die über das Feature „Direct Connections“ eingebunden sind, ermöglichen, Schadcode einzuschleusen und KI-Workloads zu übernehmen. Das Problem, gekennzeichnet als CVE-2025-64496, beruht auf dem",
+      "url": "https://www.csoonline.com/article/4113834/bug-in-open-webui-macht-kostenlos-tool-zur-backdoor.html",
+      "source": "CSO Online",
+      "author": "Inconnu",
+      "published": "2026-01-07T15:09:04+00:00",
+      "niche": "security",
+      "score": 52,
+      "keywords": [
+        "CVE-"
+      ]
+    },
+    {
+      "id": "c62b8195eaecd6c0",
+      "title": "ContainerNursery - Mettez vos conteneurs Docker en veille et réveillez-les sur demande",
+      "description": "Voilà un outil qui va faire plaisir aux possesseurs de homelabs qui surveillent leur consommation de ressources comme le lait sur le feu ! Car si vous êtes comme moi, vous avez probablement une ribambelle de conteneurs qui tournent H24 sur votre bécane. Et je vous raconte pas tous ceux qui tournent alors que je m'en sers qu'une fois par an... breeeef... Car même si un processus en \"idle\" ne consomme pas forcément grand-chose, c'est quand même un peu moisi de laisser tourner des services pour rie",
+      "url": "https://korben.info/containernursery-mise-veille-conteneurs-docker.html",
+      "source": "Korben",
+      "author": "Korben",
+      "published": "2026-01-07T15:18:53+01:00",
+      "niche": "security",
+      "score": 52,
+      "keywords": [
+        "RCE"
+      ]
+    },
+    {
       "id": "d645d08081ae616c",
       "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 78",
       "description": "Security Affairs Malware newsletter includes a collection of the best articles and research on malware in the international landscape Malware Newsletter Evasive Panda APT poisons DNS requests to deliver MgBot Spearphishing Campaign Abuses npm Registry to Target U.S. and Allied Manufacturing and Healthcare Organizations&#160;&#160; EmEditor Supply Chain Incident Details Disclosed: Distribution of Information-Stealing Malware Sweeps [&#8230;]",
@@ -2441,8 +2526,8 @@
       "niche": "security",
       "score": 51,
       "keywords": [
-        "patch",
         "disclosure",
+        "patch",
         "vulnerability"
       ]
     },
@@ -2459,34 +2544,6 @@
       "keywords": [
         "exploit",
         "attack",
-        "security"
-      ]
-    },
-    {
-      "id": "23eabd1ec02d665e",
-      "title": "Identity Security 2026: Four Predictions and Recommendations",
-      "description": "Agentic AI adoption and identity security risks, IGA expands in mid-market, SOC-identity team collaboration, and identity platform consolidation—this 2026 predictions post previews identity trends.",
-      "url": "https://www.darkreading.com/identity-access-management-security/identity-security-2026-predictions-and-recommendations",
-      "source": "Dark Reading",
-      "author": "Todd Thiemann",
-      "published": "2025-12-31T14:00:58+00:00",
-      "niche": "security",
-      "score": 50,
-      "keywords": [
-        "security"
-      ]
-    },
-    {
-      "id": "f1a2f3b37d43d0e0",
-      "title": "Identity Security 2026: Four Predictions & Recommendations",
-      "description": "Agentic AI adoption and identity security risks, IGA expands in mid-market, SOC-identity team collaboration, and identity platform consolidation—this 2026 predictions post previews identity trends.",
-      "url": "https://www.darkreading.com/identity-access-management-security/identity-security-2026-predictions-and-recommendations",
-      "source": "Dark Reading",
-      "author": "Todd Thiemann",
-      "published": "2025-12-31T14:00:58+00:00",
-      "niche": "security",
-      "score": 50,
-      "keywords": [
         "security"
       ]
     },
@@ -2568,6 +2625,34 @@
       "niche": "security",
       "score": 50,
       "keywords": []
+    },
+    {
+      "id": "b64bc89a74684cfd",
+      "title": "DDoSia Powers Affiliate-Driven Hacktivist Attacks",
+      "description": "Pro-Russian group NoName057(16) uses a custom denial-of-service tool to mobilize volunteers and disrupt government, media, and institutional sites tied to Ukraine and the West.",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/ddosia-powers-volunteer-driven-hacktivist-attacks",
+      "source": "Dark Reading",
+      "author": "Jai Vijayan, Contributing Writer",
+      "published": "2026-01-07T14:00:00+00:00",
+      "niche": "security",
+      "score": 50,
+      "keywords": [
+        "attack"
+      ]
+    },
+    {
+      "id": "47ba55772365eef2",
+      "title": "Cyberattacks Likely Part of Military Operation in Venezuela",
+      "description": "Cyber's role in the US raid on Venezuela remains a question, though President Trump alluded to \"certain expertise\" in shutting down the power grid in Caracas.",
+      "url": "https://www.darkreading.com/cybersecurity-operations/cyberattacks-part-military-operation-venezuela",
+      "source": "Dark Reading",
+      "author": "Robert Lemos, Contributing Writer",
+      "published": "2026-01-07T14:00:00+00:00",
+      "niche": "security",
+      "score": 50,
+      "keywords": [
+        "attack"
+      ]
     },
     {
       "id": "559b7874623819f6",
@@ -2686,8 +2771,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "RCE",
-        "security"
+        "security",
+        "RCE"
       ]
     },
     {
@@ -2701,8 +2786,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "exploit",
-        "PoC"
+        "PoC",
+        "exploit"
       ]
     },
     {
@@ -2749,30 +2834,6 @@
         "CVE-",
         "security"
       ]
-    },
-    {
-      "id": "03bfa311a26ba355",
-      "title": "When the Cloud Rains on Everyone's IoT Parade",
-      "description": "What happens to all of those always-connected devices and Internet of Things when the cloud goes down? Disruptions to sleep, school, and smart homes, just to name a few issues.",
-      "url": "https://www.darkreading.com/iot/when-cloud-rains-on-everyone-iot-parade",
-      "source": "Dark Reading",
-      "author": "Arielle Waldman",
-      "published": "2025-12-31T14:31:37+00:00",
-      "niche": "security",
-      "score": 46,
-      "keywords": []
-    },
-    {
-      "id": "16426ab454619ab7",
-      "title": "Contrarians No More: AI Skepticism Is on the Rise",
-      "description": "Concerns about an economic bubble bursting, along with doubts regarding return on investment, suggest the tide may be turning for the artificial intelligence industry.",
-      "url": "https://www.darkreading.com/cybersecurity-operations/contrarians-no-more-ai-skepticism",
-      "source": "Dark Reading",
-      "author": "Rob Wright",
-      "published": "2025-12-31T14:00:00+00:00",
-      "niche": "security",
-      "score": 46,
-      "keywords": []
     },
     {
       "id": "72189c4ddb874bf9",
@@ -3072,6 +3133,20 @@
       ]
     },
     {
+      "id": "6b92c75a1d7b4b07",
+      "title": "How to eliminate IT blind spots in the modern, AI-driven enterprise",
+      "description": "The more organizations lean on artificial intelligence (AI), spread workloads across different environments, and tie systems together, the harder it becomes for traditional security practices to present a complete picture of what’s going on. The result is a growing number of blind spots – hidden misconfigurations, inconsistent controls, and unpredictable behaviors across systems and AI agents – that can introduce significant risk long before a red flag appears in tooling. How can CSOs and other ",
+      "url": "https://www.csoonline.com/article/4112470/how-to-eliminate-it-blind-spots-in-the-modern-ai-driven-enterprise.html",
+      "source": "CSO Online",
+      "author": "Inconnu",
+      "published": "2026-01-07T14:47:56+00:00",
+      "niche": "security",
+      "score": 45,
+      "keywords": [
+        "security"
+      ]
+    },
+    {
       "id": "bff05366cad3d3c5",
       "title": "Cryptocurrency Scam Emails and Web Pages As We Enter 2026, (Sun, Jan 4th)",
       "description": "Introduction&#xd;",
@@ -3215,23 +3290,11 @@
       "niche": "security",
       "score": 43,
       "keywords": [
-        "OWASP",
-        "RCE",
         "secure",
-        "security"
+        "OWASP",
+        "security",
+        "RCE"
       ]
-    },
-    {
-      "id": "b74bf462ead52450",
-      "title": "HiFidelity - Le lecteur audio macOS pour ceux qui en ont marre de Spotify",
-      "description": "J'arrête pas de lire en ce moment des articles sur des Américains de moins de 25 ans qui découvrent les cassettes audio et qui nous en font des tartines en mode \"c'est trop génial\". Ils sont mignons car biberonnés à Stranger Things, ils deviennent nostalgiques de cette époque des années 80 qu'il n'ont pas connu. Je comprends, c’était cool mais moi j'ai connu et je peux vous dire que la cassette audio, ça vaut pas un bon vieux FLAC en termes de qualité audio.",
-      "url": "https://korben.info/hifidelity-lecteur-audio-macos-audiophile.html",
-      "source": "Korben",
-      "author": "Korben",
-      "published": "2025-12-31T14:01:46+01:00",
-      "niche": "security",
-      "score": 42,
-      "keywords": []
     },
     {
       "id": "97da938f11e22bb5",
@@ -3726,38 +3789,6 @@
       "keywords": []
     },
     {
-      "id": "5ffb1c80ee2be174",
-      "title": "Siemens Interniche IP-Stack",
-      "description": "View CSAF Summary Multiple Industrial products are affected by a vulnerability in the Interniche IP-Stack. The affected products do not properly enforce TCP sequence number validation in specific scenarios but accept values within a broad range. This could allow an unauthenticated remote attacker e.g. to interfere with connection setup, potentially leading to a denial of service. The attack succeeds only if an attacker can inject IP packets with spoofed addresses at precisely timed moments, and ",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-25-352-05",
-      "source": "CISA Cybersecurity Advisories",
-      "author": "CISA",
-      "published": "2025-12-18T12:00:00+00:00",
-      "niche": "security",
-      "score": 42,
-      "keywords": [
-        "RCE",
-        "attack",
-        "vulnerability"
-      ]
-    },
-    {
-      "id": "de39f9e791a6a5b6",
-      "title": "GSoC 2025 Recap",
-      "description": "OWASP at Google Summer of Code 2025 Celebrating real impact, strong mentorship, and a growing community The Google Summer of Code (GSoC) 2025 program has wrapped, and OWASP’s participation once again delivered meaningful improvements across the open-source security ecosystem. This year, 15 contributors worked across multiple OWASP projects, supported by 26 mentors. Of the 15 projects evaluated, 10 reached successful completion, three are still working on the final deliveries with extended deadli",
-      "url": "http://owasp.org/blog/2025/10/01/GSoCRecap.html",
-      "source": "OWASP News",
-      "author": "Fabio Cerullo & Starr Brown",
-      "published": "2025-10-01T07:00:00+00:00",
-      "niche": "security",
-      "score": 42,
-      "keywords": [
-        "OWASP",
-        "RCE",
-        "security"
-      ]
-    },
-    {
       "id": "b4f7357a4a0c99ed",
       "title": "Slope Plus - Le retour du jeu qui va pulvériser votre productivité",
       "description": "Vous vous souvenez de ces après-midi au CDI à essayer de battre le record de votre pote sur des jeux Flash, en priant pour que la documentaliste ne regarde pas votre écran ? Si vous avez connu cette époque bénie (ou si vous cherchez juste un moyen efficace de ruiner votre productivité du jour), j'ai ce qu'il vous faut. Ça s'appelle Slope Plus , et c'est une version modifiée (hackée) du célèbre jeu d'adresse qui a fait suer des générations de lycéens. Développé par un certain coweggs, ce jeu n'es",
@@ -3777,6 +3808,50 @@
       "source": "Korben",
       "author": "Korben",
       "published": "2026-01-07T13:08:30+01:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "5ffb1c80ee2be174",
+      "title": "Siemens Interniche IP-Stack",
+      "description": "View CSAF Summary Multiple Industrial products are affected by a vulnerability in the Interniche IP-Stack. The affected products do not properly enforce TCP sequence number validation in specific scenarios but accept values within a broad range. This could allow an unauthenticated remote attacker e.g. to interfere with connection setup, potentially leading to a denial of service. The attack succeeds only if an attacker can inject IP packets with spoofed addresses at precisely timed moments, and ",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-25-352-05",
+      "source": "CISA Cybersecurity Advisories",
+      "author": "CISA",
+      "published": "2025-12-18T12:00:00+00:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": [
+        "vulnerability",
+        "attack",
+        "RCE"
+      ]
+    },
+    {
+      "id": "de39f9e791a6a5b6",
+      "title": "GSoC 2025 Recap",
+      "description": "OWASP at Google Summer of Code 2025 Celebrating real impact, strong mentorship, and a growing community The Google Summer of Code (GSoC) 2025 program has wrapped, and OWASP’s participation once again delivered meaningful improvements across the open-source security ecosystem. This year, 15 contributors worked across multiple OWASP projects, supported by 26 mentors. Of the 15 projects evaluated, 10 reached successful completion, three are still working on the final deliveries with extended deadli",
+      "url": "http://owasp.org/blog/2025/10/01/GSoCRecap.html",
+      "source": "OWASP News",
+      "author": "Fabio Cerullo & Starr Brown",
+      "published": "2025-10-01T07:00:00+00:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": [
+        "OWASP",
+        "security",
+        "RCE"
+      ]
+    },
+    {
+      "id": "a0c5e49113888797",
+      "title": "Test de l’enceinte Teufel Boomster 4 : grosse autonomie, radio DAB, super son, super prix… et une petite astuce en bonus !",
+      "description": "– Article invité, rédigé par Vincent Lautier, contient des liens affiliés Amazon – Si vous traînez souvent dans l'univers de l'audio nomade, vous savez que Teufel n'est pas là pour faire de la figuration. La marque berlinoise a décidé de remettre au goût du jour un de ses produits classiques avec la Boomster 4 , et je ne pouvais pas passer à côté de l'occasion de tester la bête. Pour ce test, j'ai eu entre les mains la version blanche, qui, je dois l'avouer, est super belle. On s'éloigne du look",
+      "url": "https://korben.info/test-de-lenceinte-teufel-boomster-4-grosse-autonomie-radio-dab-super-son-super-prix-et-une-petite-astuce-en-bonus.html",
+      "source": "Korben",
+      "author": "Korben",
+      "published": "2026-01-07T14:38:48+01:00",
       "niche": "security",
       "score": 42,
       "keywords": []
@@ -4112,10 +4187,10 @@
       "niche": "security",
       "score": 37,
       "keywords": [
-        "OWASP",
         "threat",
-        "security",
-        "web application security"
+        "OWASP",
+        "web application security",
+        "security"
       ]
     },
     {
@@ -4143,9 +4218,9 @@
       "niche": "security",
       "score": 34,
       "keywords": [
+        "threat",
         "OWASP",
         "cybersecurity",
-        "threat",
         "security"
       ]
     },
@@ -4172,8 +4247,8 @@
       "niche": "security",
       "score": 31,
       "keywords": [
-        "OWASP",
         "secure",
+        "OWASP",
         "security"
       ]
     },
@@ -4262,8 +4337,8 @@
       "niche": "security",
       "score": 26,
       "keywords": [
-        "SQL injection",
-        "injection"
+        "injection",
+        "SQL injection"
       ]
     },
     {
@@ -4389,8 +4464,8 @@
       "niche": "security",
       "score": 24,
       "keywords": [
-        "SQL injection",
-        "injection"
+        "injection",
+        "SQL injection"
       ]
     },
     {
@@ -4404,8 +4479,8 @@
       "niche": "security",
       "score": 24,
       "keywords": [
-        "SQL injection",
-        "injection"
+        "injection",
+        "SQL injection"
       ]
     },
     {
@@ -4419,8 +4494,8 @@
       "niche": "security",
       "score": 24,
       "keywords": [
-        "SQL injection",
-        "injection"
+        "injection",
+        "SQL injection"
       ]
     },
     {
@@ -4434,8 +4509,8 @@
       "niche": "security",
       "score": 22,
       "keywords": [
-        "cybersecurity",
         "threat",
+        "cybersecurity",
         "security"
       ]
     },
@@ -4450,8 +4525,8 @@
       "niche": "security",
       "score": 22,
       "keywords": [
-        "malware",
         "cybersecurity",
+        "malware",
         "security"
       ]
     },
@@ -4550,8 +4625,8 @@
       "niche": "security",
       "score": 19,
       "keywords": [
-        "security",
-        "protection"
+        "protection",
+        "security"
       ]
     },
     {
@@ -4580,9 +4655,9 @@
       "niche": "security",
       "score": 19,
       "keywords": [
+        "PoC",
         "cybersecurity",
-        "security",
-        "PoC"
+        "security"
       ]
     },
     {
@@ -4682,18 +4757,6 @@
       "keywords": [
         "attack"
       ]
-    },
-    {
-      "id": "4e503c29e74b636e",
-      "title": "When the Cloud Rains on Everyone's IoT Parade",
-      "description": "What happens to all of those always-connected devices when the cloud goes down? Disruptions to sleep, school, and smart homes, just to name a few issues.",
-      "url": "https://www.darkreading.com/cloud-security/when-cloud-rains-on-everyone-iot-parade",
-      "source": "Dark Reading",
-      "author": "Arielle Waldman",
-      "published": "2025-12-31T14:31:37+00:00",
-      "niche": "security",
-      "score": 16,
-      "keywords": []
     },
     {
       "id": "87dbc9b73ce290e7",
