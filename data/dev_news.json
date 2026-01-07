@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-07T02:06:00.136064+00:00",
-  "total_articles": 983,
+  "last_updated": "2026-01-07T04:04:44.939147+00:00",
+  "total_articles": 984,
   "articles": [
     {
       "id": "3edc46ac3aa3698f",
@@ -398,6 +398,20 @@
       ]
     },
     {
+      "id": "485483aa28a2aa98",
+      "title": "The Complete Guide to A2UI Protocol: Building Agent-Driven UIs with Google's A2UI in 2026",
+      "description": "🎯 Core Takeaways (TL;DR) A2UI protocol is a declarative UI protocol that enables AI agents to generate rich, interactive interfaces that render natively across web, mobile, and desktop platforms A2UI solves the critical challenge of secure, cross-platform UI generation in multi-agent systems without executing arbitrary code Google's adoption of A2UI powers production systems like Opal, Gemini Enterprise, and Flutter GenUI SDK, demonstrating enterprise-grade reliability The A2UI protocol uses JSO",
+      "url": "https://dev.to/czmilo/the-complete-guide-to-a2ui-protocol-building-agent-driven-uis-with-googles-a2ui-in-2026-146p",
+      "source": "Dev.to",
+      "author": "cz",
+      "published": "2026-01-07T03:05:08+00:00",
+      "niche": "dev",
+      "score": 69,
+      "keywords": [
+        "code"
+      ]
+    },
+    {
       "id": "0cd7f5a5e3d3daca",
       "title": "🛠 Fixing a Real UI Bug in PrimeReact: My Open Source Contribution Journey",
       "description": "Recently, I contributed a fix to PrimeReact’s OrganizationChart component, addressing a visual bug that affected real-world use cases. I wanted to share the full journey — from identifying the issue to implementing a maintainable fix and navigating CI/style checks — because this is what real open-source work looks like. 🐞 The Bug The issue occurred in OrganizationChart when a node had a large number of child nodes. What users were seeing: Connector lines between parent and children appeared brok",
@@ -590,18 +604,6 @@
       "keywords": [
         "developer"
       ]
-    },
-    {
-      "id": "01c4d3686734a85c",
-      "title": "Google Opal",
-      "description": "Comments",
-      "url": "https://opal.google/landing/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-31T03:49:58+00:00",
-      "niche": "dev",
-      "score": 62,
-      "keywords": []
     },
     {
       "id": "d269ccca3f13105b",
@@ -866,6 +868,18 @@
       "keywords": []
     },
     {
+      "id": "08b377c5e60646bc",
+      "title": "Microsoft probably killed my Snapdragon Dev Kit",
+      "description": "Comments",
+      "url": "https://jasoneckert.github.io/myblog/how-microsoft-killed-my-snapdragon-devkit/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-07T02:37:09+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": []
+    },
+    {
       "id": "b647de6a55849a53",
       "title": "From Prompt Engineer to AI Partner: A Developer's Guide to AI Fluency",
       "description": "From Prompt Engineer to AI Partner: A Developer's Guide to AI Fluency Remember when \"coding with AI\" just meant copy-pasting Stack Overflow answers? Those days are long gone. Today's AI tools don't just help us write code—they're reshaping how we think about problem-solving, collaboration, and what it means to be a developer. But here's the thing: having access to powerful AI doesn't automatically make you effective with it. Just like learning a new programming language or framework, working wit",
@@ -1027,21 +1041,6 @@
         "library",
         "API",
         "developer"
-      ]
-    },
-    {
-      "id": "5de128f2b1036dea",
-      "title": "Application Performance Management (APM) 완벽 가이드",
-      "description": "APM이란? APM(Application Performance Management)은 애플리케이션의 성능을 모니터링하고 관리하는 도구와 방법론을 말합니다. 어떤 API, 어떤 메서드에서 얼마나 시간이 소요되는지를 측정하여 성능 병목 지점을 파악하고 최적화할 수 있게 도와줍니다. APM의 핵심 기능 트랜잭션 추적: 요청이 들어와서 응답이 나갈 때까지의 전체 과정을 추적 메서드 레벨 프로파일링: 각 메서드의 실행 시간 측정 에러 추적: 예외 발생 위치와 빈도 모니터링 리소스 모니터링: CPU, 메모리, 네트워크 등 시스템 리소스 사용량 추적 분산 추적(Distributed Tracing): MSA 환경에서 서비스 간 호출 추적 JVM APM 도구 JVM 기반 애플리케이션(Java, Kotlin, Scala 등)을 모니터링하는 대표적인 APM 도구들입니다. Whatap Whatap은 국내에서 개발된 APM 솔루션으로, 다음과 같은 특징이 있습니다: 실시간 모니터링: 트랜잭션, JVM 메트",
-      "url": "https://dev.to/dss99911/application-performance-management-apm-wanbyeog-gaideu-imp",
-      "source": "Dev.to",
-      "author": "dss99911",
-      "published": "2025-12-31T03:59:10+00:00",
-      "niche": "dev",
-      "score": 57,
-      "keywords": [
-        "API",
-        "performance"
       ]
     },
     {
@@ -2102,17 +2101,48 @@
       ]
     },
     {
-      "id": "ba358366d779bf4e",
-      "title": "Tor로 각기 다른 proxy 서버에서 api 호출하기",
-      "description": "Tor로 각기 다른 proxy 서버에서 api 호출하기 특정 웹사이트를 스크랩핑할 때, 너무 많은 호출을 하면, block하는 경우가 있다. 이걸 우회하기 위해, 각기 다른 proxy 서버에서 api를 호출하는 방법을 설명. 대규모 api 호출 목적으로 tor proxy 장단점 Tor를 사용하는 이유 무료 작동하는 proxy 서버가 일반 무료 proxy서버보다 상당히 많음 무료 Proxy 서버를 여기저기 찾을 필요 없어서, 초기 가벼운 테스트에 용이 단점 익명성이 주요 목적이라, 여러 노드를 거치면서, 속도가 느림 하나의 tor 서비스 실행 당, 하나의 proxy 서버 밖에 사용 못해서, api를 병렬로 호출하려면, 여러 tor를 돌려야 해서, 대규모 호출에 적절하지 않음 일반 proxy 서버의 특징 공개된 무료 서버는 호출하려는 api서버를 이미 다른 사용자들이 많이 호출해서, block 되거나, 서버 자체가 작동 안하는 경우가 많음. 실제 https://free-proxy-lis",
-      "url": "https://dev.to/dss99911/torro-gaggi-dareun-proxy-seobeoeseo-api-hoculhagi-4919",
+      "id": "d022964bb0276a39",
+      "title": "LeetCode DSA Series #6: 268. Missing Number",
+      "description": "The problem I solved is 268. Missing Number. It is also an easy problem. For this problem, I solved it in three different ways, with one approach yielding a clear performance advantage. Here is the code showing the 3 approaches. class Solution: def missingNumber(self, nums: List[int]) -> int: n = len(nums) # Method 1 # Runtime 8 ms Beats 27.81% | Memory 21.57MB Beats 5.11% #----------------------------------------------- sequence = range(0, n+1) sequence = set(sequence) diff = set(sequence) - se",
+      "url": "https://dev.to/daveson217/leetcode-dsa-series-6-268-missing-number-15g7",
       "source": "Dev.to",
-      "author": "dss99911",
-      "published": "2025-12-31T03:59:41+00:00",
+      "author": "David Babalola",
+      "published": "2026-01-07T03:12:20+00:00",
       "niche": "dev",
-      "score": 54,
+      "score": 55,
       "keywords": [
-        "API"
+        "performance",
+        "code"
+      ]
+    },
+    {
+      "id": "86417d3ac6cb56ff",
+      "title": "Converting RTF to PDF in C#",
+      "description": "RTF (Rich Text Format) is a cross-platform rich text format widely used for document editing and data exchange. PDF, by contrast, is ideal for document distribution and archiving due to its immutable format and robust cross-device compatibility. In .NET development, converting RTF files to PDF is a frequent requirement—this guide walks you through implementing this conversion with Free Spire.Doc for .NET, a free library for document format manipulation (note: it has file size limitations for fre",
+      "url": "https://dev.to/codingco/converting-rtf-to-pdf-in-c-1bd",
+      "source": "Dev.to",
+      "author": "Jeremy K.",
+      "published": "2026-01-07T03:11:56+00:00",
+      "niche": "dev",
+      "score": 55,
+      "keywords": [
+        "library",
+        "development"
+      ]
+    },
+    {
+      "id": "399ae9b160390b59",
+      "title": "GxPDF v0.1.0: 100% Table Extraction Accuracy in Pure Go",
+      "description": "The Problem with PDF Libraries Every Go developer who has worked with PDFs knows the pain: UniPDF: Powerful, but starts at $299/month pdfcpu: Great for manipulation, but no table extraction gofpdf: Creation only, abandoned since 2019 I needed to extract tables from bank statements. 740 transactions across multiple pages. Commercial libraries worked, but the cost was prohibitive for an open-source project. So I built GxPDF. What is GxPDF? GxPDF is a pure Go PDF library that handles both reading a",
+      "url": "https://dev.to/kolkov/gxpdf-v010-100-table-extraction-accuracy-in-pure-go-32h",
+      "source": "Dev.to",
+      "author": "Andrey Kolkov",
+      "published": "2026-01-07T03:03:09+00:00",
+      "niche": "dev",
+      "score": 55,
+      "keywords": [
+        "library",
+        "developer"
       ]
     },
     {
@@ -3042,6 +3072,20 @@
       ]
     },
     {
+      "id": "412b400baf157669",
+      "title": "I built a JSON diff tool in a single HTML file (no build step)",
+      "description": "I built a JSON diff tool in a single HTML file (no build step) I kept needing to compare JSON payloads side-by-side. API response vs expected. Before vs after. Prod vs staging. Every time, I'd paste into some random online tool, squint at it, then do it again five minutes later. So I built fknjsn.com — a local-first JSON comparison tool. The whole thing is one HTML file with no build step. The stack (or lack thereof) Vue 3 via CDN (global build) vue-json-pretty via CDN for the tree rendering loc",
+      "url": "https://dev.to/jon_za/i-built-a-json-diff-tool-in-a-single-html-file-no-build-step-1438",
+      "source": "Dev.to",
+      "author": "Jon Muller",
+      "published": "2026-01-07T03:49:31+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "API"
+      ]
+    },
+    {
       "id": "f6cd75fd9dd35d06",
       "title": "From Prompt to UI: Building Your First Component with Agentforce Vibes",
       "description": "From Prompt to UI: Building Your First Component with Agentforce Vibes Part 2 of 4: Agentforce Vibes Series When you first open Agentforce Vibes and see that empty prompt field, the question isn't \"Can I build something?\" It's \"What happens when I actually try?\" The gap between a text description and working code has always been where developer skills mattered most. Agentforce Vibes promises to narrow that gap, but the only way to understand what that really means is to build something. This art",
@@ -3443,20 +3487,6 @@
       "score": 52,
       "keywords": [
         "developer",
-        "code"
-      ]
-    },
-    {
-      "id": "99720d0cf873081b",
-      "title": "macOS에서 스크립트로 OpenVpn 자동 연결하기",
-      "description": "macOS에서 OATH Toolkit과 Keychain으로 OTP 로그인 설정하기 를 먼저 읽고 진행해주세요. macOS에서 스크립트로 OpenVpn 자동 연결하기 보안을 유지하면서도, openvpn 자동 연결하는 것을 목적으로 함 보안을 위해 비밀번호들은 keychain에 저장하고, openvpn 연결용 xcode 앱을 만들어서, 연결이 끊길 때마다 자동으로 재연결 시킴 xcode 앱은 비밀번호를 항상 읽어올 수 있는 권한을 주어서, 해당 맥북에서는 openvpn이 항상 연결되도록하고, 외부로 비밀번호는 유출되지 않아, 외부에서 openvpn을 연결할 수 없고, xcode 앱이 위변조 된 경우에는 keychain 권한을 얻지 못하므로, 안전함. keychain에서 비밀번호 가져오기 아래와 같은 이유로 Xcode 앱 개발이 필요함 security 쉘 커맨드를 사용해서 vpn에 접속하게 되면, 매번 Mac 패스워드를 입력해줘야 하는 번거로움이 있음. Alway allow를 하게되면, ",
-      "url": "https://dev.to/dss99911/macoseseo-seukeuribteuro-openvpn-jadong-yeongyeolhagi-5375",
-      "source": "Dev.to",
-      "author": "dss99911",
-      "published": "2025-12-31T04:00:12+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
         "code"
       ]
     },
@@ -5016,76 +5046,18 @@
       ]
     },
     {
-      "id": "383a1f9270abf117",
-      "title": "Bash 파일 및 디렉토리 작업",
-      "description": "Bash 파일 및 디렉토리 작업 Bash에서 파일과 디렉토리를 효율적으로 관리하는 방법을 정리했습니다. 현재 위치 확인 pwd echo $PWD 디렉토리 이동 cd ~user_name # 특정 사용자의 홈 디렉토리 cd - # 이전 디렉토리로 이동 ls 명령어 ls -l # 상세 정보 ls ~ / # 여러 위치 동시 조회 ls -t # 수정 시간순 (최신 먼저) ls -R # 하위 디렉토리 포함 ls -d */ # 디렉토리만 ls -p # 디렉토리에 / 표시 ls -d $PWD/* # 전체 경로 ls -lh file # 파일 용량 (human readable) 파일/디렉토리 생성 디렉토리 생성 mkdir -p /path/to/directory # 경로상의 모든 디렉토리 생성 파일 생성 touch filename 파일 내용과 함께 생성 # 덮어쓰기 cat <<END >a.txt aa ab da END # 추가 cat <<END >> a.txt aa ab da END # 한 줄 추가 e",
-      "url": "https://dev.to/dss99911/bash-pail-mic-diregtori-jageob-2ib6",
+      "id": "ea6ae0fe498d32d5",
+      "title": "A Practical Guide to Browser Caching for Web Apps",
+      "description": "Introduction When your app feels snappy, users engage more and your infrastructure costs less. Browser caching is one of the simplest, highest-impact optimizations you can make. The trick is balancing speed with freshness: you want returning users to load instantly, but you also need them to get new code right after you deploy. This guide explains a proven, low-maintenance caching strategy you can adopt for any modern web app. What browser caching is A browser stores copies of files it downloads",
+      "url": "https://dev.to/zeeshanali0704/a-practical-guide-to-browser-caching-for-web-apps-2n5c",
       "source": "Dev.to",
-      "author": "dss99911",
-      "published": "2025-12-31T04:01:17+00:00",
+      "author": "ZeeshanAli-0704",
+      "published": "2026-01-07T02:59:20+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "1083ba5c0ec37291",
-      "title": "Bash 스크립팅 기초 - 변수, 조건문, 반복문",
-      "description": "Bash 스크립팅 기초 Bash 스크립트는 Linux/Unix 시스템에서 자동화를 위해 필수적인 기술입니다. 기본 규칙 대입 연산 시 = 좌우에 공백 없이 작성: VAR=text 상수는 대문자, 변수는 소문자 단어 분리는 _ 사용 변수 변수 선언 VAR=text # 같은 쉘에서만 사용 가능 export (환경 변수) export VAR=text # 같은 프로세스 내에서 사용 가능, 프로세스 종료 시 초기화 변수 사용 echo \"$VAR\" echo \"${VAR}\" mkdir ~/temp/db/$1 # 변수 연결 Command Substitution 명령 실행 결과를 변수에 저장: $(command) `command` # 예시 echo $(ls) ls -l $(which cp) echo `ls` Quoting # 따옴표 안에서 변수, 계산, 명령어 사용 echo \"$USER $((2+2)) $(cal)\" # Double quote - 변수/명령어 확장됨 echo \"text ~/*.txt",
-      "url": "https://dev.to/dss99911/bash-seukeuribting-gico-byeonsu-jogeonmun-banbogmun-jp7",
-      "source": "Dev.to",
-      "author": "dss99911",
-      "published": "2025-12-31T04:01:01+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "995f582efa01b76d",
-      "title": "Bash 시스템 모니터링 및 성능 분석",
-      "description": "Bash 시스템 모니터링 및 성능 분석 Linux 서버의 성능을 모니터링하고 분석하는 방법을 정리했습니다. 실시간 모니터링 top 전체 CPU, 메모리, Swap 사용량을 실시간으로 확인: top 유용한 단축키: Shift + M: 메모리 사용량 순으로 정렬 vmstat 메모리, CPU, I/O 통계: vmstat 1 99999 # 1초 간격, 99999회 vmstat -a 1 999 # active/inactive 메모리 표시 vmstat -a -S M 1 999 # MB 단위로 표시 메모리 확인 전체 메모리 free -m 프로세스별 메모리 ps aux --sort -rss # RSS 기준 정렬 ps -o pid,user,%mem,command ax | sort -b -k3 -r 프로세스 관리 프로세스 확인 # 특정 프로세스 확인 ps -p 18655 -o comm= ps -p $PID -o pid,vsz=MEMORY -o user,group=GROUP -o comm,args=AR",
-      "url": "https://dev.to/dss99911/bash-siseutem-moniteoring-mic-seongneung-bunseog-3358",
-      "source": "Dev.to",
-      "author": "dss99911",
-      "published": "2025-12-31T04:00:45+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "e2e19d14c8c3b800",
-      "title": "Dockerfile 이해하기",
-      "description": "Dockerfile 이해하기 Reference Dockerfile reference CMD vs ENTRYPOINT Command CMD 컨테이너 실행할 때, 호출하는 명령어. 다른 명령어들은 모두 build시에 수행하는 명령어지만, 이건, runtime에 수행함. CMD는 docker run할 때, overrides될 수 있음 sudo docker run [container_name] [command] 로 실행하면, CMD는 호출되지 않고, [command]가 수행 ### ENTRYPOINT CMD와 거의 유사함 run할 때, overrides되냐 안되냐의 차이 실행할 코드는 ENTRYPOINT로 정의하고, 디폴트 argument는 CMD로 정의하는 걸 추천 Dockerfile ENTRYPOINT [\"echo\", \"Hello\"] CMD [\"World\"] run sudo docker run [container_name] Docker result Hello Docker RUN Run ",
-      "url": "https://dev.to/dss99911/dockerfile-ihaehagi-91g",
-      "source": "Dev.to",
-      "author": "dss99911",
-      "published": "2025-12-31T04:00:28+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "60cbc952644947e2",
-      "title": "네트워크 기초: DNS, IP, ARP 이해하기",
-      "description": "DNS (Domain Name System) DNS는 도메인 이름을 IP 주소로 변환하는 시스템입니다. 기본 개념 Forward DNS: 도메인 -> IP 변환 Reverse DNS: IP -> 도메인 변환 DNS 레코드 타입 타입 설명 예시 A IPv4 주소 example.com -> 93.184.216.34 AAAA IPv6 주소 example.com -> 2606:2800:220:1:... CNAME 별칭 www.example.com -> example.com MX 메일 서버 example.com -> mail.example.com NS 네임 서버 example.com -> ns1.example.com TXT 텍스트 정보 SPF, DKIM 등 DNS 서버 체크 # nslookup 사용 nslookup example.com # dig 사용 dig example.com # 특정 DNS 서버 지정 nslookup example.com 8.8.8.8 dig @8.8.8.8 exampl",
-      "url": "https://dev.to/dss99911/neteuweokeu-gico-dns-ip-arp-ihaehagi-54o7",
-      "source": "Dev.to",
-      "author": "dss99911",
-      "published": "2025-12-31T03:59:26+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "8da7539152ebb069",
-      "title": "AWS EC2에 초간단 VPN 구축하기",
-      "description": "배경 해외에 있다보면, 국내에서만 접근 가능한 사이트들이 있는데, VPN서비스들을 이용하자니, 개인 정보가 유출될 염려도 있어서, 가장 간단한 방법으로 VPN 구현 WireGuard 가 보안, 속도, 설치 난이도가 다른 VPN이나 proxy보다 쉬워서, 이걸로 진행 WireGuard 설치 스크립트 curl -O https://raw.githubusercontent.com/angristan/wireguard-install/master/wireguard-install.sh sudo bash ./wireguard-install.sh 위에 실행 했을 때, amazon linux2에서 안되면, wireguard-install.sh 에서 OS=\"${ID}\"를 OS=\"centos\"로 변경 Amazon linux2가 ID_LIKE=\"centos rhel fedora\" 로 centos 명령어도 작동하는 것으로 보임 IPv4 or IPv6 public address: 입력할 때, 서버의 public ",
-      "url": "https://dev.to/dss99911/aws-ec2e-cogandan-vpn-gucughagi-577d",
-      "source": "Dev.to",
-      "author": "dss99911",
-      "published": "2025-12-31T03:58:54+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "9a35419b04a2398c",
@@ -7746,6 +7718,54 @@
       "keywords": []
     },
     {
+      "id": "fafb8ba6b1a0e92d",
+      "title": "I Built an AI Creative Director: Automating FB Ad Gen with GPT-4o Vision & Structured Outputs",
+      "description": "Creating high-converting Facebook ads is a grind. You need to analyze what's working, understand your product's unique selling points, and then churn out dozens of visual variations. \"Prompter's block\" is real. Staring at an empty Midjourney or DALL-E prompt box often leads to generic, unusable results. So, I decided to automate the \"Creative Director\" role. Instead of guessing prompts, I built a workflow in n8n that uses GPT-4o's Vision capabilities to \"see\" successful ads, analyze my product, ",
+      "url": "https://dev.to/iloven8n/i-built-an-ai-creative-director-automating-fb-ad-gen-with-gpt-4o-vision-structured-outputs-4g5c",
+      "source": "Dev.to",
+      "author": "zo Aoo",
+      "published": "2026-01-07T03:40:54+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "1149732c3bc743d4",
+      "title": "How I Finally Learned What Was Inside My Music (Without Re-Recording Everything)",
+      "description": "When you create music long enough, you eventually hit a frustrating wall. You finish a track. It sounds fine. But something feels off. For me, that moment usually comes after publishing. A video underperforms. A remix idea shows up too late. Or I want to reuse a vocal line, but the original project file is gone. This is the story of how I started breaking my own tracks apart—and what I learned along the way. The Problem No One Warns You About I make music mostly for content. Short videos, backgr",
+      "url": "https://dev.to/thi_ngocnguyen_877eb37e4/how-i-finally-learned-what-was-inside-my-music-without-re-recording-everything-3i3k",
+      "source": "Dev.to",
+      "author": "Thi Ngoc Nguyen",
+      "published": "2026-01-07T03:14:38+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "d510ac1c6cd6506b",
+      "title": "Preventable Danger in Plain Sight: Gabriel Jarret Calls for Fire Safety Reform in Southern California Rentals",
+      "description": "Southern California’s rental housing market is often viewed as competitive, expensive, and fast moving. What receives far less attention is the safety reality facing many renters who live in older apartment buildings. While these properties remain legal and widely occupied, a significant number operate with outdated electrical systems and limited fire protection. For residents, this creates an ongoing risk that is rarely discussed until a serious incident occurs. Across the region, thousands of ",
+      "url": "https://dev.to/gabrieljarret/preventable-danger-in-plain-sight-gabriel-jarret-calls-for-fire-safety-reform-in-southern-14ep",
+      "source": "Dev.to",
+      "author": "Gabriel Jarret",
+      "published": "2026-01-07T03:14:06+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "af0f1404a323042f",
+      "title": "Top Fitness App Paywalls (UX Patterns + Pricing Insights)",
+      "description": "Why Fitness App Paywalls Matter Fitness apps sit in a curious position. They promise transformation—better workouts, real results, lasting habit change—but many users download them, try them once, and never return. It's not because the content isn't good. It's because the business model has to survive. That's where paywalls come in. Not as a frustration, but as a conversion problem. How do you get users to pay for something they haven't felt yet? How do you price a product with infinite perceive",
+      "url": "https://dev.to/paywallpro/top-fitness-app-paywalls-ux-patterns-pricing-insights-2868",
+      "source": "Dev.to",
+      "author": "paywallpro",
+      "published": "2026-01-07T03:03:25+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "012e1fffb290f33c",
       "title": "[Boost]",
       "description": "The Quiet Revolution in Developer Workflows: Why Static Code Is Dying Jaideep Parashar ・ Dec 24 #webdev #ai #devops #discuss",
@@ -8074,30 +8094,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "d1c7a2c540721450",
-      "title": "Docker 사용법 정리 - 필수 명령어 가이드",
-      "description": "Liquid syntax error: 'raw' tag was never closed",
-      "url": "https://dev.to/dss99911/docker-sayongbeob-jeongri-pilsu-myeongryeongeo-gaideu-3b8p",
-      "source": "Dev.to",
-      "author": "dss99911",
-      "published": "2025-12-31T03:59:57+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "a1424e995122af06",
-      "title": "LLVM AI tool policy: human in the loop",
-      "description": "Comments",
-      "url": "https://discourse.llvm.org/t/rfc-llvm-ai-tool-policy-human-in-the-loop/89159",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-31T03:06:07+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "ff5d6705d5c54860",
@@ -10140,6 +10136,18 @@
       "keywords": []
     },
     {
+      "id": "e066a2b875201a3c",
+      "title": "On the slow death of scaling",
+      "description": "Comments",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5877662",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-07T03:48:05+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "aac61a613c7849e9",
       "title": "Touch Targets and Web Accessibility",
       "description": "Learn about touch target accessibility standards and WCAG guidelines. Discover why 24x24px or 44x44px targets improve usability for all users with code examples. Continue reading Touch Targets and Web Accessibility on SitePoint.",
@@ -10220,9 +10228,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "release",
+        "performance",
         "code",
-        "performance"
+        "release"
       ]
     },
     {
@@ -10236,9 +10244,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
+        "developer",
         "API",
-        "release",
-        "developer"
+        "release"
       ]
     },
     {
@@ -10252,9 +10260,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "release",
+        "performance",
         "developer",
-        "performance"
+        "release"
       ]
     },
     {
@@ -10426,6 +10434,30 @@
       "keywords": []
     },
     {
+      "id": "913f92b382c7766d",
+      "title": "CES 2026: Taking the Lids Off AMD's Venice and MI400 SoCs",
+      "description": "Comments",
+      "url": "https://chipsandcheese.com/p/ces-2026-taking-the-lids-off-amds",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-06T21:46:04+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
+      "id": "29a41d6f65c518ac",
+      "title": "Vietnam bans unskippable ads",
+      "description": "Comments",
+      "url": "https://saigoneer.com/vietnam-news/28652-vienam-bans-unskippable-ads,-requires-skip-button-to-appear-after-5-seconds",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-06T16:45:42+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
       "id": "4e6d7290f5ff11d8",
       "title": "React Native 0.80 - React 19.1, JS API Changes, Freezing Legacy Arch and much more",
       "description": "Today we are excited to release React Native 0.80!",
@@ -10436,9 +10468,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "release",
+        "React 19",
         "API",
-        "React 19"
+        "release"
       ]
     },
     {
@@ -10480,8 +10512,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10495,8 +10527,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10538,8 +10570,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "API",
-        "framework"
+        "framework",
+        "API"
       ]
     },
     {
@@ -10634,18 +10666,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-31T09:16:58+00:00",
-      "niche": "dev",
-      "score": 32,
-      "keywords": []
-    },
-    {
-      "id": "8cb6bd91ad391cba",
-      "title": "Using AI generated images to get refunds",
-      "description": "Comments",
-      "url": "https://www.wired.com/story/scammers-in-china-are-using-ai-generated-images-to-get-refunds/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-31T02:23:30+00:00",
       "niche": "dev",
       "score": 32,
       "keywords": []
@@ -10753,11 +10773,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "framework",
         "code",
+        "performance",
         "API",
-        "release",
-        "performance"
+        "framework",
+        "release"
       ]
     },
     {
@@ -10959,6 +10979,18 @@
       "keywords": []
     },
     {
+      "id": "28b1d8d3179ea5d3",
+      "title": "Show HN: Make audio loops online",
+      "description": "Comments",
+      "url": "https://makeloops.online/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-05T17:54:03+00:00",
+      "niche": "dev",
+      "score": 26,
+      "keywords": []
+    },
+    {
       "id": "cd46e0b1413a2532",
       "title": "LCP and INP are now Baseline Newly available",
       "description": "LCP and INP are now Baseline Newly available as of December 12, 2025.",
@@ -11086,8 +11118,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "framework"
+        "framework",
+        "release"
       ]
     },
     {
@@ -11113,9 +11145,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "developer",
+        "performance",
         "code",
-        "performance"
+        "developer"
       ]
     },
     {
@@ -11129,8 +11161,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "code",
-        "performance"
+        "performance",
+        "code"
       ]
     },
     {
@@ -11144,8 +11176,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
-        "code"
+        "code",
+        "release"
       ]
     },
     {
@@ -11159,8 +11191,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
-        "developer"
+        "developer",
+        "release"
       ]
     },
     {
@@ -11174,8 +11206,8 @@
       "niche": "dev",
       "score": 18,
       "keywords": [
-        "PHP",
-        "Angular"
+        "Angular",
+        "PHP"
       ]
     },
     {
@@ -11231,8 +11263,8 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "API",
         "developer",
+        "API",
         "development"
       ]
     },
@@ -11247,8 +11279,8 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "PHP",
         "tutorial",
+        "PHP",
         "development"
       ]
     },
@@ -11263,8 +11295,8 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "PHP",
         "tutorial",
+        "PHP",
         "development"
       ]
     },
@@ -11294,8 +11326,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "API",
-        "code"
+        "code",
+        "API"
       ]
     },
     {
@@ -11473,18 +11505,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-31T07:57:53+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "a947a9185e28050b",
-      "title": "The Showa Hundred Year Problem",
-      "description": "Comments",
-      "url": "https://www.dampfkraft.com/showa-100.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-31T03:35:58+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
