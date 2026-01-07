@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-07T09:34:07.735191+00:00",
-  "total_articles": 984,
+  "last_updated": "2026-01-07T12:57:13.562803+00:00",
+  "total_articles": 983,
   "articles": [
     {
       "id": "3edc46ac3aa3698f",
@@ -240,20 +240,6 @@
       ]
     },
     {
-      "id": "ac8520505fc17a51",
-      "title": "Google is dead. Where do we go now?",
-      "description": "The pronouncement \"Google is dead\" hits like a cold splash of water, especially for developers who grew up with Stack Overflow questions inevitably resolved by a Google search. While the tech giant itself isn't collapsing, the utility of Google Search, as we've known it, is profoundly changing. This isn't just a marketing buzzword; it's a paradigm shift that demands our attention as builders and problem-solvers. What happens when the primary conduit for technical knowledge starts faltering? Our ",
-      "url": "https://dev.to/himanshu_7740280bb692b874/google-is-dead-where-do-we-go-now-5d6e",
-      "source": "Dev.to",
-      "author": "Himanshu",
-      "published": "2025-12-31T12:46:49+00:00",
-      "niche": "dev",
-      "score": 69,
-      "keywords": [
-        "developer"
-      ]
-    },
-    {
       "id": "93e2abc3e07feda0",
       "title": "React Flow: adding Controls to example hides nodes and edges",
       "description": "I'm new to React and I'm trying to learn React Flow. I've been following examples on reactflow.dev, as well as tutorials that leverage same documentation on YouTube. My problem is that I am not managing the color rendering and I would appreciate some help. I've pasted one of the basic examples from the tutorial below. First off, first time I ran the example, as provided in the tutorial, without the import \"./index.css\" ; line added, only the node boxes showed - no text visible. Is there a settin",
@@ -423,6 +409,20 @@
       "score": 69,
       "keywords": [
         "programming"
+      ]
+    },
+    {
+      "id": "8b87a6405a971f9e",
+      "title": "10 Best AI Engineering GitHub Repos to Build Real Systems",
+      "description": "You pick up practical AI engineering faster by digging into real code, real notebooks, and real systems. I’ve learned more by breaking stuff and fixing it than by watching one more lecture. These repos are free, well-structured, and focused on what actually works in practice, helping you move from theory to shipped features. Each pick includes hands-on materials and clear guidance. You’ll find lessons, notebooks, examples, and end-to-end projects that run without yak-shaving. Let’s walk through ",
+      "url": "https://dev.to/robort-gabriel/10-best-ai-engineering-github-repos-to-build-real-systems-fpj",
+      "source": "Dev.to",
+      "author": "Robort Gabriel",
+      "published": "2026-01-07T12:13:23+00:00",
+      "niche": "dev",
+      "score": 69,
+      "keywords": [
+        "code"
       ]
     },
     {
@@ -1070,18 +1070,19 @@
       ]
     },
     {
-      "id": "fbe19a28061eb3f5",
-      "title": "How I Built a JSON Repair Library for LLM Streaming (and Made it 1.7x Faster)",
-      "description": "When you stream responses from OpenAI or Anthropic, JSON often arrives incomplete: {\"message\": \"I'm currently generating your resp JSON.parse() throws. Your app crashes. Users see errors. I ran into this problem repeatedly while building AI features, so I wrote a library to fix it: repair-json-stream. The Problem LLM APIs stream tokens one at a time. If you're expecting JSON, you have two choices: Wait until the entire response is complete (slow, defeats the purpose of streaming) Parse increment",
-      "url": "https://dev.to/prxtenses/how-i-built-a-json-repair-library-for-llm-streaming-and-made-it-17x-faster-m7h",
+      "id": "5920f88139aa247f",
+      "title": "Application security: thinking backwards",
+      "description": "📜 Developers often focus on what library or what tool they can use to secure their microservices. Modern tools are powerful nowadays, but you can’t be sure all doors are locked if you have never looked at them from the other side. To truly protect an application, you must first learn how it can be attacked. Thinking like an ethical hacker helps you understand: 🕵️‍♂️ How can your application be invaded? 🕵️‍♂️ Where sensitive data can be leaked? 🕵️‍♂️ What weak points can be exploited? 🕵️‍♂️ How a",
+      "url": "https://dev.to/vardan_matevosian_tech/application-security-thinking-backwards-2756",
       "source": "Dev.to",
-      "author": "sonka",
-      "published": "2025-12-31T12:44:00+00:00",
+      "author": "Vardan Matevosian",
+      "published": "2026-01-07T12:25:24+00:00",
       "niche": "dev",
-      "score": 57,
+      "score": 58,
       "keywords": [
         "library",
-        "API"
+        "microservices",
+        "developer"
       ]
     },
     {
@@ -1477,21 +1478,6 @@
       "niche": "dev",
       "score": 56,
       "keywords": []
-    },
-    {
-      "id": "254a20eae01bd740",
-      "title": "🔒_Security_Performance_Balance[20251231124455]",
-      "description": "As an engineer who has experienced multiple security incidents, I deeply understand how important the balance between security and performance is in web application development. Recently, I participated in the development of a financial-grade application, which made me rethink the impact of security mechanisms on performance. Today I want to share my experience on how to improve web application performance while ensuring security. 💡 Performance Cost of Security Mechanisms In modern web applicati",
-      "url": "https://dev.to/member_6331818c/securityperformancebalance20251231124455-47gm",
-      "source": "Dev.to",
-      "author": "member_6331818c",
-      "published": "2025-12-31T12:44:56+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "performance",
-        "development"
-      ]
     },
     {
       "id": "88b35cc099431abe",
@@ -2154,30 +2140,17 @@
       ]
     },
     {
-      "id": "541233307b6929ec",
-      "title": "Stop Writing Validation Twice: How I Built a \"Shared Brain\" Sync Engine with Go & WASM",
-      "description": "We have all been there. You spend Monday writing complex form validation logic in JavaScript for your frontend. You check for email formats, negative numbers, and required fields. Then, you spend Tuesday writing the exact same logic in Go (or Python/Node) for your backend API. The problem? Six months later, you update the backend rule but forget the frontend. Suddenly, your UI says \"Success!\" but your API throws a 400 Bad Request. Users are confused. You are frustrated. I got tired of this \"Two-",
-      "url": "https://dev.to/harshal_patel_e3124fa33c6/stop-writing-validation-twice-how-i-built-a-shared-brain-sync-engine-with-go-wasm-2hdc",
+      "id": "851a84afa845c404",
+      "title": "When an AI Recommends Deprecated Pandas APIs — a postmortem",
+      "description": "We started using an LLM-powered assistant to speed up routine data-processing scripts: small ETL tasks, grouping and aggregation, and quick exploratory transforms. The assistant was helpful for boiling down multi-line idioms into compact snippets, but after a few sprints we hit a reproducible failure: generated code that relied on deprecated Pandas APIs would run locally but break in CI or on newer worker nodes. The mismatch was subtle and intermittent. Part of the problem was that the model’s t",
+      "url": "https://dev.to/markk40123/when-an-ai-recommends-deprecated-pandas-apis-a-postmortem-3ld2",
       "source": "Dev.to",
-      "author": "Harshal Patel",
-      "published": "2025-12-31T12:47:34+00:00",
+      "author": "Mark k",
+      "published": "2026-01-07T12:06:01+00:00",
       "niche": "dev",
-      "score": 54,
+      "score": 55,
       "keywords": [
-        "API"
-      ]
-    },
-    {
-      "id": "48e9b0bcff1c98f7",
-      "title": "Real-Time Egyptian Sign Language Translator: AI-Powered Solution to Empower the Deaf Community in Egypt",
-      "description": "I recently worked on a project focused on accessibility and AI: a real-time Egyptian Sign Language (ESL) translator designed to help reduce communication barriers for the Deaf and Hard-of-Hearing community in Egypt. The system uses computer vision and deep learning to recognize continuous sign language sequences in real time. Instead of focusing on isolated characters, the model processes temporal gesture sequences, allowing more natural translation. Key components include: **- MediaPipe-based h",
-      "url": "https://dev.to/ahmed_ashraf_e11715dbbf46/real-time-egyptian-sign-language-translator-ai-powered-solution-to-empower-the-deaf-community-14nf",
-      "source": "Dev.to",
-      "author": "Ahmed Ashraf",
-      "published": "2025-12-31T12:41:43+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
+        "code",
         "API"
       ]
     },
@@ -3080,6 +3053,50 @@
       ]
     },
     {
+      "id": "3e36c41f21c2611d",
+      "title": "From Prometheus to ARMS: How We Simplified Observability for a Multi-Tier App on Alibaba Cloud",
+      "description": "If you’ve ever lost sleep debugging a latency spike across microservices, you know observability isn’t just about metrics—it’s about context. For months, my team ran a multi-tier SaaS application on Alibaba Cloud using Prometheus on ACK (Alibaba Cloud Container Service for Kubernetes). It worked—until scaling demands, fragmented tooling, and alert fatigue caught up with us. We recently migrated to Application Real-Time Monitoring Service (ARMS), Alibaba Cloud’s managed observability platform. Th",
+      "url": "https://dev.to/bhavesh_panchal_554670aec/from-prometheus-to-arms-how-we-simplified-observability-for-a-multi-tier-app-on-alibaba-cloud-283d",
+      "source": "Dev.to",
+      "author": "Bhavesh Panchal",
+      "published": "2026-01-07T12:16:07+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "microservices"
+      ]
+    },
+    {
+      "id": "bb7fe9ebd9958224",
+      "title": "Mastering Intermediate JavaScript",
+      "description": "Understanding How JavaScript Really Works This Intermediate JavaScript Tutorial series is designed for developers who already understand JavaScript basics and want to go beyond syntax to understand how JavaScript actually works behind the scenes. If you’re comfortable with variables, loops, and functions, but struggle with asynchronous code, unexpected bugs, or confusing behavior, this series will help you build real JavaScript understanding instead of relying on guesswork. In this Intermediate ",
+      "url": "https://dev.to/shameel/mastering-intermediate-javascript-4ohb",
+      "source": "Dev.to",
+      "author": "Shameel Uddin",
+      "published": "2026-01-07T12:06:36+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "developer",
+        "code",
+        "tutorial"
+      ]
+    },
+    {
+      "id": "0dc685e97315dbce",
+      "title": "A Free Tool to Check VRAM Requirements for Any HuggingFace Model",
+      "description": "TL;DR: I got tired of guessing whether models would fit on my GPU. So I built vramio — a free API that tells you exactly how much VRAM any HuggingFace model needs. One curl command. Instant answer. The Problem Every ML Engineer Knows You're browsing HuggingFace. You find a model that looks perfect for your project. Then the questions start: \"Will this fit on my 24GB RTX 4090?\" \"Do I need to quantize it?\" \"What's the actual memory footprint?\" And the answers? They're nowhere. Some model cards men",
+      "url": "https://dev.to/ksingh7/a-free-tool-to-check-vram-requirements-for-any-huggingface-model-4p7h",
+      "source": "Dev.to",
+      "author": "karan singh",
+      "published": "2026-01-07T12:03:51+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "API"
+      ]
+    },
+    {
       "id": "edbf9312321ee021",
       "title": "Java's Concurrency Revolution: How Immutability and Virtual Threads Changed Everything!",
       "description": "Explore how Java 25's virtual threads, Scoped Values, and the shift toward immutability are transforming concurrent programming. Learn what changed, what broke, and how to write modern, thread-safe Java code. TL;DR - Java 25 Concurrency in 60 Seconds Don't have time to read the full article? Here's what you need to know: What The Guidance Virtual Threads Use for I/O-bound work. One virtual thread per task—don't pool them. synchronized ✅ Works fine now! Pinning fixed in Java 24 (carries to Java 2",
@@ -3482,48 +3499,6 @@
       "keywords": [
         "development",
         "best practices"
-      ]
-    },
-    {
-      "id": "30c202099868a10b",
-      "title": "Simplifying Cloud Messaging with StackVerify",
-      "description": "Modern applications depend heavily on reliable communication. Whether it’s user authentication, transactional alerts, or customer engagement, messaging is a core part of today’s software stack. Managing multiple providers and channels, however, often adds unnecessary complexity. StackVerify is built to solve that problem. What is StackVerify? StackVerify is a cloud-based messaging platform that allows businesses and developers to send SMS and WhatsApp messages from a single, unified system. Inst",
-      "url": "https://dev.to/morgan_miller_1/simplifying-cloud-messaging-with-stackverify-go0",
-      "source": "Dev.to",
-      "author": "Morgan Miller",
-      "published": "2025-12-31T12:49:00+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "developer"
-      ]
-    },
-    {
-      "id": "e02db9c7ed5098e2",
-      "title": "What Is Beta Testing? Process, Types, Benefits, And Best Practices",
-      "description": "Today’s software ecosystem consists of various devices, integrations, and user environments. The same application can have different behaviours in each environment, regardless if it had passed through unit, integration and system testing stages. Therefore, beta-testing is necessary. Beta testing is the bridge between an internal QA team and a company publicly launching its application. It is where real users use an application in a real environment to provide feedback on what issues may be prese",
-      "url": "https://dev.to/keploy/what-is-beta-testing-process-types-benefits-and-best-practices-43m0",
-      "source": "Dev.to",
-      "author": "keploy",
-      "published": "2025-12-31T12:38:15+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "best practices"
-      ]
-    },
-    {
-      "id": "7038d4d16e617fc7",
-      "title": "Why Developers Always Miss Deadlines",
-      "description": "\"How long do you think this will take?\" \"Um... probably 3 days?\" A week later... \"Still not done?\" \"Almost there... just one or two more days...\" Familiar conversation, right? Developers missing deadlines isn't due to lack of ability. It's because the human brain is systematically designed to fail when estimating complex tasks. Shocking Statistics According to Standish Group's CHAOS Report: project_outcomes = { \"On time\": \"29%\", \"Delayed\": \"52%\", \"Failed/Cancelled\": \"19%\" } average_delay = { \"Ex",
-      "url": "https://dev.to/_jeongyuhyeon_03de1/why-developers-always-miss-deadlines-nl6",
-      "source": "Dev.to",
-      "author": "전규현 (Jeon gyuhyeon)",
-      "published": "2025-12-31T12:35:00+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "developer"
       ]
     },
     {
@@ -5096,16 +5071,32 @@
       ]
     },
     {
-      "id": "d5a2fa27cbea7b54",
-      "title": "Building a Robust End of Service (EOS) Valuation System: Lessons from a Real-World Actuarial Project",
-      "description": "In actuarial and financial systems, correctness is necessary — but it is rarely sufficient. I recently completed an End-of-Service (EOS) valuation system used in a regulated accounting environment. While the mathematics behind EOS is well understood, the real challenge lies elsewhere: data inconsistency, year-over-year drift, regulatory edge cases, and minimizing operational risk. This post is a short case study on what actually mattered while building the system. The Core Problem The system nee",
-      "url": "https://dev.to/sajjadali/building-a-robust-end-of-service-eos-valuation-system-lessons-from-a-real-world-actuarial-project-43o9",
+      "id": "509fb5275e4d13f9",
+      "title": "URGENT Survey | $15 + Bonus",
+      "description": "How Developers Prompt LLMs for Coding Hi everyone, I’m conducting an academic research study on how developers naturally interact with open-source Large Language Models (LLMs) while working on real coding tasks. This study is time-sensitive and we are only recruiting 10 participants. Compensation: $15 ++ Bonus Incentive: Among early participants, 2 people will be randomly selected to receive an additional $10 bonus What This Study Is About How developers write prompts for coding tasks How they r",
+      "url": "https://dev.to/_19586fa8d50b6948b7962/urgent-survey-15-bonus-2gek",
       "source": "Dev.to",
-      "author": "Sajjad Ali",
-      "published": "2025-12-31T12:46:07+00:00",
+      "author": "hsjeong",
+      "published": "2026-01-07T12:40:47+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
+    },
+    {
+      "id": "a181c9f8e138572c",
+      "title": "SkyHetu: Designing a Causality-First Programming Language in Rust",
+      "description": "Most bugs I’ve encountered in my career boil down to one question: \"How did this variable get here?\" Modern programming languages are amnesiacs. If user.balance is 0, the application knows it is 0 now, but it has no memory of the sequence of events that led to that state. Was it a logic error? A race condition? A rogue function call? To find out, we add print statements, attach debuggers, and try to replay history in our heads. I decided to build something different. I built SkyHetu, a programmi",
+      "url": "https://dev.to/kargatharaaakash/skyhetu-designing-a-causality-first-programming-language-in-rust-2868",
+      "source": "Dev.to",
+      "author": "kargathara Aakash",
+      "published": "2026-01-07T12:20:35+00:00",
+      "niche": "dev",
+      "score": 51,
+      "keywords": [
+        "programming"
+      ]
     },
     {
       "id": "cc5d47a03740fcd6",
@@ -7778,19 +7769,28 @@
       "keywords": []
     },
     {
-      "id": "012e1fffb290f33c",
-      "title": "[Boost]",
-      "description": "The Quiet Revolution in Developer Workflows: Why Static Code Is Dying Jaideep Parashar ・ Dec 24 #webdev #ai #devops #discuss",
-      "url": "https://dev.to/hadi_mirza/-nhc",
+      "id": "9af991305c32d119",
+      "title": "Puppetlabs Modules Roundup – December 2025",
+      "description": "Happy New Year and welcome back to the Puppetlabs Modules Roundup! This series is all about keeping you in the loop on what’s new and updated in the Perforce Puppet official module ecosystem. This first update of 2026 will look back at the latest updates from December 2025. Whether you are just getting started with Puppet, or managing a long-lived solution with thousands of nodes, or just curious about what has changed in the module ecosystem, this is the place to find out what's new! Highlighte",
+      "url": "https://dev.to/puppet/puppetlabs-modules-roundup-december-2025-4e5h",
       "source": "Dev.to",
-      "author": "hadi baig",
-      "published": "2025-12-31T12:49:22+00:00",
+      "author": "Jason St-Cyr",
+      "published": "2026-01-07T12:50:13+00:00",
       "niche": "dev",
-      "score": 49,
-      "keywords": [
-        "developer",
-        "code"
-      ]
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "0d0b067fadfa362b",
+      "title": "Flat Rate Website Acceleration Tools for Agencies",
+      "description": "The first 10 WordPress sites are easy. The next 20 quietly break your workflow. By site 30 , your tools are running your agency instead of you. Client A needs image optimization. Client B's cache broke. Client C wants faster mobile loading. You're tracking licenses across three tools, each billing per site, and costs keep climbing. Most WordPress agencies hit this wall between 10-20 sites. The tools that worked with your first few clients become expensive and messy at scale. You start compromisi",
+      "url": "https://dev.to/biancarus/flat-rate-website-acceleration-tools-for-agencies-30ii",
+      "source": "Dev.to",
+      "author": "Bianca Rus",
+      "published": "2026-01-07T12:47:13+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
     },
     {
       "id": "fa2e065c99b6ea35",
@@ -7945,6 +7945,20 @@
       "score": 48,
       "keywords": [
         "performance"
+      ]
+    },
+    {
+      "id": "e202c3984befca35",
+      "title": "Optery (YC W22) Hiring a CISO and Web Scraping Engineers (Node) (US and Latam)",
+      "description": "Comments",
+      "url": "https://www.optery.com/careers/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-07T12:00:20+00:00",
+      "niche": "dev",
+      "score": 48,
+      "keywords": [
+        "API"
       ]
     },
     {
@@ -8120,42 +8134,6 @@
       ]
     },
     {
-      "id": "ff5d6705d5c54860",
-      "title": "Akin's Laws of Spacecraft Design [pdf]",
-      "description": "Comments",
-      "url": "https://www.ece.uvic.ca/~elec399/201409/Akin%27s%20Laws%20of%20Spacecraft%20Design.pdf",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-31T10:12:51+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "e166387cbc503ab4",
-      "title": "Activeloop (YC S18) Is Hiring MTS – Back End Engineer",
-      "description": "Comments",
-      "url": "https://careers.activeloop.ai/?ashby_jid=d8c54147-5fc8-48ba-a097-a6ae046c42bd",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-31T12:01:10+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "2795285f966371ad",
-      "title": "Show HN: I built a universal clipboard that syncs realtime on multiple devices",
-      "description": "Comments",
-      "url": "https://www.quickclip.space/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-31T10:48:02+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
       "id": "d5e75b07ecce6dce",
       "title": "Efficient method to capture CO2 from the atmosphere / Univ of Helsinki",
       "description": "Comments",
@@ -8163,18 +8141,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2025-12-31T13:59:09+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "92dae5e5b19cd667",
-      "title": "Fifteen Most Famous Transcendental Numbers",
-      "description": "Comments",
-      "url": "https://sprott.physics.wisc.edu/pickover/trans.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-31T12:32:27+00:00",
       "niche": "dev",
       "score": 44,
       "keywords": []
@@ -10172,6 +10138,30 @@
       "keywords": []
     },
     {
+      "id": "45593a263c929a8e",
+      "title": "Stop Designing Languages. Write Libraries Instead (2016)",
+      "description": "Comments",
+      "url": "https://lbstanza.org/purpose_of_programming_languages.html",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-07T12:29:11+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "e43f3b0631d0f802",
+      "title": "The Eric and Wendy Schmidt Observatory System",
+      "description": "Comments",
+      "url": "https://www.schmidtsciences.org/schmidt-observatory-system/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-07T12:19:01+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "aac61a613c7849e9",
       "title": "Touch Targets and Web Accessibility",
       "description": "Learn about touch target accessibility standards and WCAG guidelines. Discover why 24x24px or 44x44px targets improve usability for all users with code examples. Continue reading Touch Targets and Web Accessibility on SitePoint.",
@@ -10213,6 +10203,20 @@
       "keywords": []
     },
     {
+      "id": "9507e2cf68c6c137",
+      "title": "Infinite Canvas: Building a Seamless, Pan-Anywhere Image Space",
+      "description": "Learn how to build an infinite, pannable image canvas with React Three Fiber. We’ll use chunk-based rendering and performance-first techniques to create a smooth, endlessly explorable image space.",
+      "url": "https://tympanus.net/codrops/2026/01/07/infinite-canvas-building-a-seamless-pan-anywhere-image-space/",
+      "source": "Codrops",
+      "author": "Edoardo Lunardi",
+      "published": "2026-01-07T11:42:54+00:00",
+      "niche": "dev",
+      "score": 42,
+      "keywords": [
+        "performance"
+      ]
+    },
+    {
       "id": "cecd3da845538339",
       "title": "React 19.2",
       "description": "React 19.2 adds new features like Activity, React Performance Tracks, useEffectEvent, and more.",
@@ -10223,8 +10227,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "React 19",
-        "performance"
+        "performance",
+        "React 19"
       ]
     },
     {
@@ -10252,9 +10256,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "performance",
         "release",
-        "code"
+        "code",
+        "performance"
       ]
     },
     {
@@ -10285,8 +10289,8 @@
       "score": 40,
       "keywords": [
         "developer",
-        "performance",
-        "release"
+        "release",
+        "performance"
       ]
     },
     {
@@ -10311,18 +10315,6 @@
       "published": "2026-01-06T11:50:55+00:00",
       "niche": "dev",
       "score": 39,
-      "keywords": []
-    },
-    {
-      "id": "b59afc51bb1ab54a",
-      "title": "Akin's Laws of Spacecraft Design [pdf] (2011)",
-      "description": "Comments",
-      "url": "https://www.ece.uvic.ca/~elec399/201409/Akin%27s%20Laws%20of%20Spacecraft%20Design.pdf",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2025-12-31T10:12:51+00:00",
-      "niche": "dev",
-      "score": 38,
       "keywords": []
     },
     {
@@ -10493,8 +10485,8 @@
       "score": 38,
       "keywords": [
         "release",
-        "React 19",
-        "API"
+        "API",
+        "React 19"
       ]
     },
     {
@@ -10536,8 +10528,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -10551,8 +10543,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -10810,10 +10802,10 @@
       "score": 30,
       "keywords": [
         "API",
-        "performance",
-        "release",
         "framework",
-        "code"
+        "code",
+        "performance",
+        "release"
       ]
     },
     {
@@ -11170,8 +11162,8 @@
       "score": 20,
       "keywords": [
         "developer",
-        "performance",
-        "code"
+        "code",
+        "performance"
       ]
     },
     {
@@ -11185,8 +11177,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "performance",
-        "code"
+        "code",
+        "performance"
       ]
     },
     {
@@ -11287,8 +11279,8 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "development",
         "developer",
+        "development",
         "API"
       ]
     },
@@ -11304,8 +11296,8 @@
       "score": 17,
       "keywords": [
         "development",
-        "PHP",
-        "tutorial"
+        "tutorial",
+        "PHP"
       ]
     },
     {
@@ -11320,8 +11312,8 @@
       "score": 17,
       "keywords": [
         "development",
-        "PHP",
-        "tutorial"
+        "tutorial",
+        "PHP"
       ]
     },
     {
@@ -11335,8 +11327,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "API",
-        "code"
+        "code",
+        "API"
       ]
     },
     {
@@ -11392,8 +11384,8 @@
       "niche": "dev",
       "score": 15,
       "keywords": [
-        "developer",
-        "library"
+        "library",
+        "developer"
       ]
     },
     {
@@ -11632,6 +11624,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2026-01-03T14:15:11+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "a8b1c6729ec8ba28",
+      "title": "Formal methods only solve half my problems",
+      "description": "Comments",
+      "url": "https://brooker.co.za/blog/2022/06/02/formal.html",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-03T06:49:52+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -12521,18 +12525,6 @@
       "source": "Codrops",
       "author": "Andrew Woan",
       "published": "2025-12-30T13:01:03+00:00",
-      "niche": "dev",
-      "score": 9,
-      "keywords": []
-    },
-    {
-      "id": "c33ad290f780c2f4",
-      "title": "Spain Collection: Evolving a Luxury Website into a Digital Ecosystem",
-      "description": "An in-depth look at the evolution of Spain Collection’s first website into a more ambitious digital ecosystem, connecting strategy, design, and technology across Spain and Portugal.",
-      "url": "https://tympanus.net/codrops/2025/12/18/spain-collection-evolving-a-luxury-website-into-a-digital-ecosystem/",
-      "source": "Codrops",
-      "author": "Dgrees",
-      "published": "2025-12-18T13:30:40+00:00",
       "niche": "dev",
       "score": 9,
       "keywords": []
