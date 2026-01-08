@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-08T12:57:43.949438+00:00",
-  "total_articles": 986,
+  "last_updated": "2026-01-08T15:32:24.290624+00:00",
+  "total_articles": 984,
   "articles": [
     {
       "id": "3edc46ac3aa3698f",
@@ -566,6 +566,30 @@
       "keywords": []
     },
     {
+      "id": "54a33664c903434a",
+      "title": "TypeScript Generics in React Components.",
+      "description": "Generics are not something you use in React components every day. However, in certain cases the allow you to write components that are both flexible and type-safe. Let's consider a few common approaches to describe a component with TypeScript // Just FC component with no props const Component = () => (<div>Hey ya!!!</div>) Another one: // FC component with props interface Props{ name: string; } const Component: React.FC<Props> = ({ name })=>(<div>Hey {name} ya!!!</div>) For some time now React.F",
+      "url": "https://dev.to/egorovsa/typescript-generics-in-react-components-5ej",
+      "source": "Dev.to",
+      "author": "Sergey Egorov",
+      "published": "2026-01-08T15:25:27+00:00",
+      "niche": "dev",
+      "score": 68,
+      "keywords": []
+    },
+    {
+      "id": "adbf8281d473e0cf",
+      "title": "How to Create a Simple Carousel/Slider in React",
+      "description": "A carousel (or slider) is a great way to display a series of images or content, one at a time. You can use buttons to navigate through them. Let's take a look at how you can build a simple carousel using React. import { useEffect, useState } from 'react'; import { shortList, list, longList } from '../data'; import { FaQuoteRight } from 'react-icons/fa'; import { FiChevronLeft, FiChevronRight } from 'react-icons/fi'; const Carousel = () => { const [people, setPeople] = useState(longList); const [",
+      "url": "https://dev.to/edriso/how-to-create-a-simple-carouselslider-in-react-h1f",
+      "source": "Dev.to",
+      "author": "Mohamed Idris",
+      "published": "2026-01-08T15:09:45+00:00",
+      "niche": "dev",
+      "score": 68,
+      "keywords": []
+    },
+    {
       "id": "541bec4a0263df52",
       "title": "Common Lisp SDK for the Datastar Hypermedia Framework",
       "description": "Comments",
@@ -911,6 +935,30 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2026-01-08T00:51:20+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": []
+    },
+    {
+      "id": "2d341cd97ccc5045",
+      "title": "The Jeff Dean Facts",
+      "description": "Comments",
+      "url": "https://github.com/LRitzdorf/TheJeffDeanFacts",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-08T13:02:05+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": []
+    },
+    {
+      "id": "1d8e78502ab0e39e",
+      "title": "Show HN: DeepDream for Video with Temporal Consistency",
+      "description": "Comments",
+      "url": "https://github.com/jeremicna/deepdream-video-pytorch",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-08T13:21:59+00:00",
       "niche": "dev",
       "score": 62,
       "keywords": []
@@ -1557,36 +1605,6 @@
       ]
     },
     {
-      "id": "a008f18480a29a09",
-      "title": "CI/CD Deep Dive: Why Jenkins, GitLab, and CircleCI Still Rule in 2026",
-      "description": "Navigating the Evolving CI/CD Landscape: Deep Dives into Jenkins, GitLab, and CircleCI's Latest Arsenal The CI/CD landscape continues its rapid evolution, driven by the relentless pursuit of speed, security, and developer efficiency. As practitioners, we're constantly sifting through new features, grappling with configuration nuances, and optimizing our pipelines to deliver robust software at an ever-increasing pace. This isn't about \"revolutionizing\" the space; it's about practical, sturdy enha",
-      "url": "https://dev.to/dataformathub/cicd-deep-dive-why-jenkins-gitlab-and-circleci-still-rule-in-2026-268c",
-      "source": "Dev.to",
-      "author": "DataFormatHub",
-      "published": "2026-01-01T15:14:09+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "API",
-        "developer"
-      ]
-    },
-    {
-      "id": "4772782c40f5e6a4",
-      "title": "Maximize API Monetization with Monetzly's AI Conversation Tools",
-      "description": "How We Built Ad Injection That Users Actually Appreciate As the landscape of AI applications continues to expand rapidly, developers face a daunting challenge: how to monetize without disrupting the user experience. Enter Monetzly – the first dual-earning platform for AI apps, designed to ensure that both developers and users reap the rewards of innovative monetization strategies. The Core Problem: Monetization Without Disruption Many AI apps struggle with monetization models that either alienat",
-      "url": "https://dev.to/monetzly/maximize-api-monetization-with-monetzlys-ai-conversation-tools-35l0",
-      "source": "Dev.to",
-      "author": "Monetzly",
-      "published": "2026-01-01T15:13:46+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "API",
-        "developer"
-      ]
-    },
-    {
       "id": "445d14cc5d200662",
       "title": "Monetzly: Boost Developer Revenue with AI Conversation Monetization",
       "description": "What if Your AI App Could Generate Revenue in Two Ways Simultaneously? As developers, we’re constantly navigating the exciting yet challenging landscape of AI applications. With the rapid rise of AI tools, one core problem persists: how do we monetize these powerful apps without disrupting user experience? Enter Monetzly—your solution to turning AI conversations into a dual revenue stream. The Dual Revenue Revolution Imagine a world where your AI application not only serves users but also genera",
@@ -2214,6 +2232,21 @@
       "keywords": [
         "performance",
         "best practices"
+      ]
+    },
+    {
+      "id": "3b0d46915574628d",
+      "title": "How do you build serious features using only VS Code’s public APIs?",
+      "description": "I've been writing a series on how we trained our NES model, what that model takes as context to make a prediction, and how these model requests are managed with correct timing under continuous typing. With this, we’ve reached a point where NES can predict what edit should happen and when it should appear in the editor. Now, we'll talk about how there is still one critical decision to make. Once a suggestion arrives, how should that change be presented inside a live editor? Pochi’s NES is built a",
+      "url": "https://dev.to/getpochi/how-do-you-build-serious-features-using-only-vs-codes-public-apis-3d6b",
+      "source": "Dev.to",
+      "author": "GetPochi",
+      "published": "2026-01-08T15:21:16+00:00",
+      "niche": "dev",
+      "score": 55,
+      "keywords": [
+        "code",
+        "API"
       ]
     },
     {
@@ -3113,18 +3146,45 @@
       ]
     },
     {
-      "id": "a296260961014a09",
-      "title": "Cloud Programming Simplified: A Berkeley View on Serverless Computing",
-      "description": "Serverless Cloud Made Simple — Why the Future of Apps Feels Lighter Imagine building apps without worrying about servers, backups or the messy setup, it's getting real. New ways of running software let you just write code while the cloud takes care of the rest, so teams move faster and pay only for what they use. This idea called serverless is not magic, its a shift that makes coding more like writing notes and less like fixing machines. People who made the early cloud bets saw this coming, and ",
-      "url": "https://dev.to/paperium/cloud-programming-simplified-a-berkeley-view-on-serverless-computing-1ikl",
+      "id": "aca416c1c5500348",
+      "title": "How Do You Handle Orchestration in Apigee X Using ServiceCallout & FlowCallout?",
+      "description": "Introduction 🚦 Imagine this situation 👇 A client calls one API, but behind the scenes your backend must: Call Customer Service Then call Order Service Then call Payment Service Combine all responses Finally send one clean response back to the client If your backend handles all this logic, things quickly become slow, tightly coupled, and hard to maintain. This is exactly where Apigee X shines in modern API management. Apigee X sits in front of your backend systems and acts like a smart traffic co",
+      "url": "https://dev.to/realnamehidden1_61/how-do-you-handle-orchestration-in-apigee-x-using-servicecallout-flowcallout-24ff",
       "source": "Dev.to",
-      "author": "Paperium",
-      "published": "2026-01-01T15:10:09+00:00",
+      "author": "realNameHidden",
+      "published": "2026-01-08T15:10:32+00:00",
       "niche": "dev",
-      "score": 52,
+      "score": 54,
       "keywords": [
-        "programming",
-        "code"
+        "API"
+      ]
+    },
+    {
+      "id": "53209bc5cf5a7a62",
+      "title": "Framework de Gobernanza para IA Responsable",
+      "description": "Construí un \"Framework de Gobernanza para IA Responsable\" en junio de 2025, cuando muchas copañías se estaban haciendo la pregunta, ¿como implemento un gobierno para la IA? ¿que herramientas me sirven para esto? en las diferentes nubes del mercado. En linkedin https://www.linkedin.com/posts/nchicaizalizcano_herramientas-clave-en-nube-para-ia-responsable-activity-7337521322257797121-tpu0?utm_source=share&utm_medium=member_desktop&rcm=ACoAAA4haQsBIdcd5Ps4aqgqYPUvS8dmhV85Sz0 lo publiqué, pero tenía",
+      "url": "https://dev.to/nchicaizaliz/framework-de-gobernanza-para-ia-responsable-48ga",
+      "source": "Dev.to",
+      "author": "Nathalie Chicaiza",
+      "published": "2026-01-08T15:09:11+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "framework"
+      ]
+    },
+    {
+      "id": "37ab23939677bfca",
+      "title": "Ethereum in 2025 Becomes Global Infrastructure, Vitalik on Decentralization vs UX, L2BEAT on Trustless EIL, EIP-7702 Adoption",
+      "description": "We are welcoming you to our weekly digest! Here, we discuss the latest trends and advancements in account abstraction, chain abstraction and everything related, as well as bring some insights from Etherspot’s kitchen. The latest news we'll cover: Ethereum in 2025: From Experiment to World Infrastructure Vitalik Buterin on Usability vs Decentralization Tradeoffs L2BEAT - EIL Shows Trustless Ethereum Interoperability Is Possible New Data Shows Rapid Growth in EIP-7702 Accounts Using ERC-4337 Pleas",
+      "url": "https://dev.to/etherspot/ethereum-in-2025-becomes-global-infrastructure-vitalik-on-decentralization-vs-ux-l2beat-on-3ko2",
+      "source": "Dev.to",
+      "author": "Alexandra",
+      "published": "2026-01-08T14:51:43+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "API"
       ]
     },
     {
@@ -3518,17 +3578,18 @@
       ]
     },
     {
-      "id": "7280cc615226ed88",
-      "title": "How I Built a Cyberpunk Portfolio with Tailwind & GSAP (From Scratch)🚀",
-      "description": "By Sarshij Karn — sarshijkarn.com.np When I set out to build my personal portfolio, I didn't just want another \"clean\" template. I wanted something that screamed Cyberpunk, Future-Tech, and Innovation. As an Electronics Engineer who codes, I needed a site that felt like a dashboard from a sci-fi movie but loaded instantly on a 3G mobile connection. Here is the deep dive into how I built sarshijkarn.com.np, achieving a 98/100 Accessibility Score and perfectly utilizing Tailwind CSS + GSAP. 🎨 The ",
-      "url": "https://dev.to/sarshijkarn/how-i-built-a-cyberpunk-portfolio-with-tailwind-gsap-from-scratch-pk4",
+      "id": "14c8512cc678c36c",
+      "title": "CSS Grid + Flexbox Mastery: Build Responsive UIs Faster",
+      "description": "TheBitForge ‒ Full-Stack Web Development, Graphic Design & AI Integration Services Worldwide TheBitForge | The Team Of the Developers, Designers & Writers. Custom web development, graphic design, & AI integration services by TheBitForge. Transforming your vision into digital reality. the-bit-forge.vercel.app I've been building interfaces for the web for over a decade now, and I can tell you without hesitation that mastering CSS Grid and Flexbox changed everything about how I approach layout work",
+      "url": "https://dev.to/thebitforge/css-grid-flexbox-mastery-build-responsive-uis-faster-27kn",
       "source": "Dev.to",
-      "author": "Sarshij Karn",
-      "published": "2026-01-01T15:24:14+00:00",
+      "author": "TheBitForge",
+      "published": "2026-01-08T15:22:19+00:00",
       "niche": "dev",
-      "score": 51,
+      "score": 52,
       "keywords": [
-        "code"
+        "developer",
+        "development"
       ]
     },
     {
@@ -5185,76 +5246,32 @@
       ]
     },
     {
-      "id": "05116365c083be66",
-      "title": "Contoh Isi Catatan Pelaksanaan Ujian Sekolah yang Benar dan Jelas",
-      "description": "Dalam setiap pelaksanaan ujian sekolah, terdapat satu bagian penting yang sering dianggap sepele, yaitu catatan pelaksanaan ujian sekolah. Padahal, catatan ini memiliki fungsi administratif dan dokumentatif yang sangat penting. Melalui catatan tersebut, sekolah mencatat kondisi nyata selama ujian berlangsung, baik yang berjalan lancar maupun yang memerlukan perhatian khusus. Agar tidak keliru dalam pengisian, penting bagi guru atau pengawas memahami seperti apa contoh isi catatan pelaksanaan uji",
-      "url": "https://dev.to/backlink_blog_a0bee06f492/contoh-isi-catatan-pelaksanaan-ujian-sekolah-yang-benar-dan-jelas-1j1k",
+      "id": "c5cca58042d8dbdc",
+      "title": "What Is WordPress? Why It’s Popular and How It Actually Works",
+      "description": "What is WordPress? WordPress is a popular content management system (CMS) that powers over 40% of all websites on the internet. It's an open-source platform that allows users to create, manage, and modify their websites without needing extensive coding knowledge. Whether you're a blogger, business owner, or developer, WordPress offers tools and features to suit your needs. What is a CMS (Content Management System)? A Content Management System (CMS) is a software application or platform that allo",
+      "url": "https://dev.to/kathirvel-s/what-is-wordpress-why-its-popular-and-how-it-actually-works-26f4",
       "source": "Dev.to",
-      "author": "Bang Nabil",
-      "published": "2026-01-01T15:18:42+00:00",
+      "author": "Kathirvel S",
+      "published": "2026-01-08T15:09:34+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
-      "id": "37ccde8acaa126f1",
-      "title": "I Built a Free Sleep Cycle Calculator",
-      "description": "We all sleep every day, but many of us still wake up feeling tired — even after 7 or 8 hours. I used to experience this a lot, which made me curious about sleep cycles and how timing affects sleep quality. While working on a small frontend project, I decided to turn that curiosity into a simple tool. 🛠 What It Does This is a lightweight Sleep Cycle Calculator that helps you find better times to sleep or wake up. You can use it to: Find bedtimes based on when you want to wake up Find wake-up time",
-      "url": "https://dev.to/sunil_chaudhary_3985d071c/i-built-a-free-sleep-cycle-calculator-5ef7",
+      "id": "5f4a181ff0c32815",
+      "title": "Getting Started with 2D Games Using Pyxel (Part 5): Creating Characters with Classes",
+      "description": "Creating Characters with Classes Characters that appear in a game are commonly referred to as sprites. In this chapter, we will use classes to prepare a common base class for sprites. You might feel that “classes sound difficult…” at first, but for now, the goal is simply to treat a character as a single reusable component. If you want to review classes beforehand, checking Chapter 12: Let’s Use Classes will make things smoother. The complete code is shown at the end of this article. 1. Prepare ",
+      "url": "https://dev.to/sdkfz181tiger/getting-started-with-2d-games-using-pyxel-part-5-creating-characters-with-classes-4921",
       "source": "Dev.to",
-      "author": "sunil chaudhary",
-      "published": "2026-01-01T15:18:28+00:00",
+      "author": "Kajiru",
+      "published": "2026-01-08T15:00:00+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "91cc35c5f9a7c5df",
-      "title": "How Modern Websites Work: A Beginner’s Guide to Frontend, Backend, and Browsers",
-      "description": "1. What Happens When a User Enters a URL? When you type a URL like: https://example.com your browser doesn’t magically know where that website lives. Several steps happen behind the scenes. Step 1: Understanding the URL The browser breaks the URL into parts: https → the protocol (rules for communication) example.com → the domain name / → the path (which resource to request) The browser now knows how to communicate and what it’s looking for, but not where the server is. 2. Browser and DNS: Findin",
-      "url": "https://dev.to/mzaheerofficial/how-modern-websites-work-a-beginners-guide-to-frontend-backend-and-browsers-2c6m",
-      "source": "Dev.to",
-      "author": "Muhammad Zaheer",
-      "published": "2026-01-01T15:14:16+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "2710c7bcf08c4f4d",
-      "title": "LangSearch Inside Claude: The Fastest “Search Tool” Setup I’ve Used Lately",
-      "description": "Hook: When Claude’s web search feels nerfed, add a turbocharger I’ve been playing with a bunch of “AI + web” setups lately, and I keep running into the same vibe: the model is smart, but the search layer feels… constrained. You ask for sources, you ask for breadth, you ask for “show me five different angles,” and you get a couple of thin results, slow turnaround, or citations that feel like they were picked by a cautious librarian with a strict budget. I’m not even mad about it, I get why defaul",
-      "url": "https://dev.to/arch4g/langsearch-inside-claude-the-fastest-search-tool-setup-ive-used-lately-5381",
-      "source": "Dev.to",
-      "author": "Dan Gurgui",
-      "published": "2026-01-01T15:13:56+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "be04382e214ab774",
-      "title": "Making Enterprise AI Work: Databricks Discipline That Drives Results",
-      "description": "AI adoption is happening at a breakneck pace. Companies are training models, automating data pipelines, and deploying agents to handle tasks humans used to manage. The potential is enormous, but so is the complexity. Leaders can see progress, yet struggle to understand how all the pieces connect. Scaling AI is not about adding more tools or models. It is about structure. Without it, even the most talented teams can produce inconsistent results, duplicated work, and rising costs. Where AI Often B",
-      "url": "https://dev.to/arbisoftcompany/making-enterprise-ai-work-databricks-discipline-that-drives-results-29a3",
-      "source": "Dev.to",
-      "author": "Arbisoft",
-      "published": "2026-01-01T15:10:31+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "746bee2e97d4bad3",
-      "title": "If AI Doesn’t Improve Anything, It Should Stop Talking",
-      "description": "If AI Doesn’t Improve Anything, It Should Stop Talking Most AI failures don’t come from wrong answers. They come from unnecessary answers. When AI is treated as a decision-maker, humans are forced into: constant review micromanagement responsibility creep The system scales. Human attention doesn’t. A simple rule avoids this trap: If no measurable improvement is produced → the AI must halt or remain silent. No suggestion. No opinion. No output — by design. AI handles: checks validation routine ve",
-      "url": "https://dev.to/deltax/if-ai-doesnt-improve-anything-it-should-stop-talking-3ohi",
-      "source": "Dev.to",
-      "author": "deltax",
-      "published": "2026-01-01T15:10:22+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "582b74fc110d9073",
@@ -7951,6 +7968,30 @@
       "keywords": []
     },
     {
+      "id": "8204bbbfdd5dbf5c",
+      "title": "What makes a good tech Meet-up?",
+      "description": "If you've attended meet-ups in the past, what made the difference for you between a good, welcoming one and one where you'd rather not be coming back? What are you looking for when attending meet-ups? Is it the company, networking and catching up with friends, or is the focus for you more on the talks & content? Or something else entirely? I have to say, I can be very socially awkward and events where I don't know anyone, at it makes a massive difference if people are open and welcoming. This st",
+      "url": "https://dev.to/josefine/what-makes-a-good-tech-meet-up-16k9",
+      "source": "Dev.to",
+      "author": "Josefine Schfr",
+      "published": "2026-01-08T14:53:57+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "976ba4d22adc0a43",
+      "title": "Quand les méthodes classiques ne suffisent plus : réinventer la façon dont les organisations pensent leur futur",
+      "description": "Comment dépasser les silos et construire une vision stratégique partagée à l’échelle d’organisations complexes ? Cet article s’appuie sur les travaux de R and amp;D et les retours terrain d’OCTO pour montrer comment LEGO® Serious Play®, le design et l’IA générative se combinent pour passer de la vision à l’action.",
+      "url": "https://blog.octo.com/quand-les-methodes-classiques-ne-suffisent-plus--reinventer-la-facon-dont-les-organisations-pensent-leur-futur",
+      "source": "Blog Technique Octo",
+      "author": "Laurène Brenaget",
+      "published": "2026-01-08T13:54:10+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "b16a607794b4ce67",
       "title": "Implementing HNSW (Hierarchical Navigable Small World) Vector Search in PHP",
       "description": "Comments",
@@ -7962,20 +8003,6 @@
       "score": 48,
       "keywords": [
         "PHP"
-      ]
-    },
-    {
-      "id": "529999f322096035",
-      "title": "Build a Deep Learning Library",
-      "description": "Comments",
-      "url": "https://zekcrates.quarto.pub/deep-learning-library/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-01T14:53:50+00:00",
-      "niche": "dev",
-      "score": 48,
-      "keywords": [
-        "library"
       ]
     },
     {
@@ -8266,42 +8293,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2026-01-01T17:18:01+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "8928dc7f368c1814",
-      "title": "OpenWorkers: Self-Hosted Cloudflare Workers in Rust",
-      "description": "Comments",
-      "url": "https://openworkers.com/introducing-openworkers",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-01T15:09:06+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "f9579d073acd3460",
-      "title": "iOS allows alternative browser engines in Japan",
-      "description": "Comments",
-      "url": "https://developer.apple.com/support/alternative-browser-engines-jp/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-01T13:30:45+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "0f38ae352fc64374",
-      "title": "Python Numbers Every Programmer Should Know",
-      "description": "Comments",
-      "url": "https://mkennedy.codes/posts/python-numbers-every-programmer-should-know/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-01T14:39:23+00:00",
       "niche": "dev",
       "score": 44,
       "keywords": []
@@ -10251,6 +10242,30 @@
       "keywords": []
     },
     {
+      "id": "4d26adef47141d2c",
+      "title": "Bose is open-sourcing its old smart speakers instead of bricking them",
+      "description": "Comments",
+      "url": "https://www.theverge.com/news/858501/bose-soundtouch-smart-speakers-open-source",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-08T15:07:57+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "bc60b7c18ecc05be",
+      "title": "AI Coding Assistants Are Getting Worse",
+      "description": "Comments",
+      "url": "https://spectrum.ieee.org/ai-coding-degrades",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-08T15:20:15+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "8b5f25c1055ea864",
       "title": "How to Create a Pixel-to-Voxel Video Drop Effect with Three.js and Rapier",
       "description": "A tutorial showing how video pixels are voxelized in 3D and dropped into a physics-driven world using Three.js, shaders, and Rapier.",
@@ -10361,8 +10376,8 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "release",
         "developer",
+        "release",
         "API"
       ]
     },
@@ -10377,8 +10392,8 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "release",
         "developer",
+        "release",
         "performance"
       ]
     },
@@ -10404,42 +10419,6 @@
       "published": "2026-01-06T11:50:55+00:00",
       "niche": "dev",
       "score": 39,
-      "keywords": []
-    },
-    {
-      "id": "0a341f72bc7cf977",
-      "title": "Show HN: OpenWorkers – Self-hosted Cloudflare workers in Rust",
-      "description": "Comments",
-      "url": "https://openworkers.com/introducing-openworkers",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-01T15:09:06+00:00",
-      "niche": "dev",
-      "score": 38,
-      "keywords": []
-    },
-    {
-      "id": "3f8e82b2d7e67148",
-      "title": "Python numbers every programmer should know",
-      "description": "Comments",
-      "url": "https://mkennedy.codes/posts/python-numbers-every-programmer-should-know/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-01T14:39:23+00:00",
-      "niche": "dev",
-      "score": 38,
-      "keywords": []
-    },
-    {
-      "id": "ea291183e66a5200",
-      "title": "2025 Letter",
-      "description": "Comments",
-      "url": "https://danwang.co/2025-letter/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-01T14:32:12+00:00",
-      "niche": "dev",
-      "score": 38,
       "keywords": []
     },
     {
@@ -10573,8 +10552,8 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "release",
         "React 19",
+        "release",
         "API"
       ]
     },
@@ -10617,8 +10596,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10632,8 +10611,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10890,11 +10869,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "code",
         "API",
-        "release",
+        "performance",
         "framework",
-        "performance"
+        "release",
+        "code"
       ]
     },
     {
@@ -11235,8 +11214,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "framework"
+        "framework",
+        "release"
       ]
     },
     {
@@ -11296,8 +11275,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
-        "developer"
+        "developer",
+        "release"
       ]
     },
     {
@@ -11384,9 +11363,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "development",
+        "tutorial",
         "PHP",
-        "tutorial"
+        "development"
       ]
     },
     {
@@ -11400,9 +11379,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "development",
+        "tutorial",
         "PHP",
-        "tutorial"
+        "development"
       ]
     },
     {
@@ -11517,18 +11496,6 @@
       "keywords": [
         "development"
       ]
-    },
-    {
-      "id": "c785f01720538cee",
-      "title": "Logos Language Guide: Compile English to Rust",
-      "description": "Comments",
-      "url": "https://logicaffeine.com/guide",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-01T13:48:27+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
     },
     {
       "id": "6b9967cb3560a8a7",
@@ -11706,6 +11673,30 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2026-01-04T21:23:27+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "4a6cf2ad5d0bf93e",
+      "title": "Lights and Shadows (2020)",
+      "description": "Comments",
+      "url": "https://ciechanow.ski/lights-and-shadows/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-02T19:24:10+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "e6310cc53120da69",
+      "title": "The price of fame? Mortality risk among famous singers",
+      "description": "Comments",
+      "url": "https://jech.bmj.com/content/early/2025/11/30/jech-2025-224589",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-04T12:11:18+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -11951,8 +11942,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "development",
-        "programming"
+        "programming",
+        "development"
       ]
     },
     {
@@ -11987,18 +11978,6 @@
       "source": "Blog Technique Octo",
       "author": "Christophe Durand",
       "published": "2025-12-19T14:13:10+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "976ba4d22adc0a43",
-      "title": "Quand les méthodes classiques ne suffisent plus : réinventer la façon dont les organisations pensent leur futur",
-      "description": "Comment dépasser les silos et construire une vision stratégique partagée à l’échelle d’organisations complexes ? Cet article s’appuie sur les travaux de R and amp;D et les retours terrain d’OCTO pour montrer comment LEGO® Serious Play®, le design et l’IA générative se combinent pour passer de la vision à l’action.",
-      "url": "https://blog.octo.com/quand-les-methodes-classiques-ne-suffisent-plus--reinventer-la-facon-dont-les-organisations-pensent-leur-futur",
-      "source": "Blog Technique Octo",
-      "author": "Laurène Brenaget",
-      "published": "2025-12-18T08:49:49+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
