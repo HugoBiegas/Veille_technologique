@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-08T06:42:09.050929+00:00",
-  "total_articles": 987,
+  "last_updated": "2026-01-08T09:34:37.834357+00:00",
+  "total_articles": 989,
   "articles": [
     {
       "id": "3edc46ac3aa3698f",
@@ -203,6 +203,20 @@
       "source": "Dev.to",
       "author": "kafeel ahmad",
       "published": "2026-01-07T18:01:03+00:00",
+      "niche": "dev",
+      "score": 72,
+      "keywords": [
+        "Angular"
+      ]
+    },
+    {
+      "id": "7b47361d3e4bccab",
+      "title": "How To Replace Over-Complicated NgRx Stores With Angular Signals — Without Losing Control",
+      "description": "Hey, picture this: you’re knee-deep in an Angular app, drowning in NgRx actions, reducers, effects, and selectors just to flip a simple boolean, load some todos, or filter a list. It’s battle-tested for massive enterprise beasts where every change needs auditing across huge teams, but for most real-world projects? It’s total overkill — endless boilerplate files that steal your dev joy and slow you down. Then Angular Signals burst onto the scene like a breath of fresh air. Native, lightweight rea",
+      "url": "https://dev.to/karol_modelski/how-to-replace-over-complicated-ngrx-stores-with-angular-signals-without-losing-control-1ia1",
+      "source": "Dev.to",
+      "author": "Karol Modelski",
+      "published": "2026-01-08T09:00:00+00:00",
       "niche": "dev",
       "score": 72,
       "keywords": [
@@ -635,18 +649,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "0626151c8e33b197",
-      "title": "React Hooks - Part 1: useState - Test Series",
-      "description": "First part of the series for testing...",
-      "url": "https://dev.to/ethan_zhang_e501fea89c25b/react-hooks-part-1-usestate-test-series-2j5m",
-      "source": "Dev.to",
-      "author": "Ethan Zhang",
-      "published": "2026-01-01T09:11:54+00:00",
-      "niche": "dev",
-      "score": 62,
-      "keywords": []
     },
     {
       "id": "5187115521fe217a",
@@ -1548,36 +1550,6 @@
       ]
     },
     {
-      "id": "886d307a60244b2f",
-      "title": "Unboxing CSS: Four Surprising Truths About How Web Layouts Really Work",
-      "description": "If you've ever tried designing a web page and wondered why elements don't align perfectly, chances are the CSS Box Model is behind it. Understanding this fundamental concept is crucial for any front-end developer or designer seeking precise control over layouts and visual structure. What is the CSS Box Model? The CSS Box Model is the blueprint of how every HTML element is rendered on a web page. No matter if it's text, images, or interactive graphics, every element is treated as a rectangular bo",
-      "url": "https://dev.to/afiya/unboxing-css-four-surprising-truths-about-how-web-layouts-really-work-300p",
-      "source": "Dev.to",
-      "author": "Afiya Siddiqui",
-      "published": "2026-01-01T09:13:03+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "Angular",
-        "developer"
-      ]
-    },
-    {
-      "id": "262bfd4e4926b503",
-      "title": "When code assistants suggest deprecated Pandas APIs: a subtle, production-breaking failure mode",
-      "description": "We relied on LLM-assisted suggestions to speed up a data cleaning pipeline and, at first glance, everything looked fine. The model produced compact snippets that matched our examples, but several PRs later we started seeing intermittent CI failures and surprising data shape changes in downstream jobs. The root cause turned out to be repeated uses of deprecated Pandas APIs the assistant suggested—APIs that behaved differently across the Pandas versions in our environment. I reproduced and debugge",
-      "url": "https://dev.to/olivia_perell_/when-code-assistants-suggest-deprecated-pandas-apis-a-subtle-production-breaking-failure-mode-3aij",
-      "source": "Dev.to",
-      "author": "Olivia Perell",
-      "published": "2026-01-01T09:11:56+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "API",
-        "code"
-      ]
-    },
-    {
       "id": "b8ab9a7c2db25786",
       "title": "pydynox: A fast DynamoDB ORM for Python with a Rust core.",
       "description": "I've been building serverless apps for years. Lambda, DynamoDB, API Gateway - the usual stack. It's fast, it scales, and once you understand the access patterns, it's a great database. But I always felt like the Python libraries could be better. The problem If you use Python with DynamoDB, you have a few options: boto3 - Works great, but you write a lot of code for simple things PynamoDB - Nice ORM, though it can be slow with big datasets Other libraries - Each has its own trade-offs I wanted so",
@@ -2235,6 +2207,21 @@
       "keywords": [
         "developer",
         "performance"
+      ]
+    },
+    {
+      "id": "ff2a9365bd0df922",
+      "title": "🔐 Cloud Security Best Practices: How to Secure Cloud-Based Web Applications Without Slowing Down",
+      "description": "A fast-growing startup once moved its entire web application to the cloud. Performance improved. Costs dropped. The team celebrated. Two weeks later, sensitive user data was exposed—not because the cloud failed, but because one small security setting was overlooked. This story is more common than most teams want to admit. Cloud platforms are powerful, scalable, and flexible—but they are not secure by default. Cloud security is a shared responsibility, and your application is only as safe as the ",
+      "url": "https://dev.to/okoye_ndidiamaka_5e3b7d30/cloud-security-best-practices-how-to-secure-cloud-based-web-applications-without-slowing-down-2epj",
+      "source": "Dev.to",
+      "author": "Okoye Ndidiamaka",
+      "published": "2026-01-08T09:21:21+00:00",
+      "niche": "dev",
+      "score": 55,
+      "keywords": [
+        "performance",
+        "best practices"
       ]
     },
     {
@@ -3536,34 +3523,6 @@
       "keywords": [
         "code",
         "tutorial"
-      ]
-    },
-    {
-      "id": "88c9f97a97760756",
-      "title": "My Journey Through Advanced Python OOP: A Beginner's Perspective",
-      "description": "Introduction I recently completed a challenging learning journey through advanced Python concepts, and I wanted to share my experience with fellow learners. The repository is available at github.com/hejhdiss/itx-oop-python-decorators. Full disclosure: I'm still a beginner in Python programming. What This Repository Contains This collection includes three comprehensive workbooks that I created with the help of AI (asking questions and learning through conversation): oop.pdf - Python OOP concepts ",
-      "url": "https://dev.to/hejhdiss/my-journey-through-advanced-python-oop-a-beginners-perspective-312b",
-      "source": "Dev.to",
-      "author": "Muhammed Shafin P",
-      "published": "2026-01-01T09:20:11+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "programming"
-      ]
-    },
-    {
-      "id": "47ef2ec1155a8059",
-      "title": "Monetzly: Boost Developer Revenue with AI Conversation Monetization",
-      "description": "How We Built Ad Injection That Users Actually Appreciate: Meet Monetzly Imagine a world where developers can monetize their AI applications without resorting to intrusive ads or paywalls—welcome to Monetzly, the first dual-earning platform designed specifically for AI conversations. We’re not just another ad network; we’re revolutionizing the way developers and advertisers interact while ensuring a seamless experience for users. The Core Problem: Monetization Without Disruption As AI application",
-      "url": "https://dev.to/monetzly/monetzly-boost-developer-revenue-with-ai-conversation-monetization-43i3",
-      "source": "Dev.to",
-      "author": "Monetzly",
-      "published": "2026-01-01T09:17:50+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "developer"
       ]
     },
     {
@@ -5136,40 +5095,74 @@
       ]
     },
     {
-      "id": "861194bee7886fea",
-      "title": "🎯 Starting 2026 Strong: A Job Hunter's Resource Guide",
-      "description": "Happy New Year to everyone reading this. Starting the year can be difficult and challenging, especially if you're unemployed or looking for a new place to call home as an employee. I know this firsthand—the last two years have been tough for me. I've been unemployed, navigating the uncertainty, the rejection emails, the waiting, and yes, sometimes just holding onto hope that something will break through. But I'm still here, still searching, still trying. And I thought that maybe there's someone ",
-      "url": "https://dev.to/cypriantinasheaarons/starting-2026-strong-a-job-hunters-resource-guide-3dbb",
+      "id": "0c5badc91330ee2e",
+      "title": "I Struggled with LeetCode for Months Until I Learned These 6 Patterns 🎯",
+      "description": "Hello Everyone! 👋 I'm Rajat, a 3rd-year CS student, and let me be honest - LeetCode kicked my ass for months. I'd open an problem, stare at it for 30 minutes, give up, look at the solution, and think \"how was I supposed to think of that??\" 😭 Sound familiar? Here's what changed everything: I stopped grinding random problems and started learning PATTERNS. 🤔 What I Wish Someone Told Me on Day 1 Wrong approach (what I did): Solve problem #1 Solve problem #2 Solve problem #3 Each one feels brand new ",
+      "url": "https://dev.to/rajat128/i-struggled-with-leetcode-for-months-until-i-learned-these-6-patterns-3lo9",
       "source": "Dev.to",
-      "author": "CyprianTinasheAarons",
-      "published": "2026-01-01T09:21:28+00:00",
+      "author": "Rajat Parihar",
+      "published": "2026-01-08T09:22:24+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
-      "id": "cf33b6b7220a1ac2",
-      "title": "Solved: Found a new reason why a company denied all of its applicants",
-      "description": "🚀 Executive Summary TL;DR: Companies are inadvertently denying all applicants due to catastrophic technical oversights in recruitment platforms, such as misconfigured assessment environments or failing systems. DevOps principles like proactive environment validation, robust CI/CD for assessment platforms, and fallback strategies are crucial to ensure a reliable talent pipeline. 🎯 Key Takeaways Proactive environment validation and health checks, including automated ‘dummy’ applicant tests and syn",
-      "url": "https://dev.to/techresolve/solved-found-a-new-reason-why-a-company-denied-all-of-its-applicants-1be9",
+      "id": "3afcea92e968d9f9",
+      "title": "The 7 Best Developer Portals for Enterprise Teams in 2025",
+      "description": "Your platform team spent a year and $2 million building an internal developer portal. Or maybe you bought one off the shelf. Either way, you're probably wondering if you made the right choice. Here's what I've learned after working with dozens of companies implementing internal developer portals: the \"build versus buy\" decision isn't really the question anymore. The market has changed completely since 2020. Companies that went with self-hosted Backstage discovered that \"free and open-source\" act",
+      "url": "https://dev.to/luciench/the-7-best-developer-portals-for-enterprise-teams-in-2025-4kgj",
       "source": "Dev.to",
-      "author": "Darian Vance",
-      "published": "2026-01-01T09:21:25+00:00",
+      "author": "Lucien Chemaly",
+      "published": "2026-01-08T09:07:29+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
-      "id": "a464b25378a1a592",
-      "title": "When Generated Tests Pass but Miss the Bug: A Case of False Confidence from AI Test Generation",
-      "description": "On a recent project my team used a conversational model to generate unit tests for a core data transformation pipeline. We prompted the model with function signatures, a few example inputs, and an informal spec; the tool returned a set of pytest-style tests that looked reasonable at a glance. Because the tests executed cleanly and CI went green, we shipped the change with confidence. The problem showed up later when a production edge case triggered wrong outputs that none of the generated tests ",
-      "url": "https://dev.to/markk40123/when-generated-tests-pass-but-miss-the-bug-a-case-of-false-confidence-from-ai-test-generation-1674",
+      "id": "d6b2870797213708",
+      "title": "🎉 Big News for Python Developers & Mermaid Fans: \"mmdc\" Makes Mermaid Diagrams Easy as Python! 🚀",
+      "description": "If you love Mermaid diagrams — flowcharts, sequence diagrams, Gantt charts, pie charts, and more — but you’ve ever felt stuck because you had to install Node.js, npm, browsers, or other system tools just to generate diagram files, today is your day! Say hello to mmdc, the Python‑native Mermaid diagram converter that finally lets you generate beautiful diagrams straight from Python — with no external installs, no system packages, and no extra runtime hassles! 🙌(github) 🧠 First — What Is Mermaid? ",
+      "url": "https://dev.to/mohammadraziei/big-news-for-python-developers-mermaid-fans-mmdc-makes-mermaid-diagrams-easy-as-python-1gok",
       "source": "Dev.to",
-      "author": "Mark k",
-      "published": "2026-01-01T09:10:56+00:00",
+      "author": "Mohammad Raziei",
+      "published": "2026-01-08T09:02:36+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
+    },
+    {
+      "id": "26630172da60c90b",
+      "title": "Head and Footer",
+      "description": "I am happy to say I'm still learning on a daily basis via freeCodeCamp. Things have progressed in the Responsive Web Design Certification to include the head element, metadata, figcaptions, and footers. The head element comes before the body and should hold the title of your website, along with metadata. The meta element uses the following format: <meta attribute=\"value\"> Figcaption is used alongside the figure element in order to display a caption for an image. The freeCodeCamp example is below",
+      "url": "https://dev.to/richardpascoe/head-and-footer-3740",
+      "source": "Dev.to",
+      "author": "Richard Pascoe",
+      "published": "2026-01-08T09:00:35+00:00",
+      "niche": "dev",
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
+    },
+    {
+      "id": "a227b35f7864bb3c",
+      "title": "Optimizing Core Web Vitals for Large E-Commerce Catalogs Without Rewriting the Stack",
+      "description": "Core Web Vitals are a big deal, especially for e-commerce platforms with hundreds or thousands of products. But many teams hesitate to optimize because they think a full rewrite is required. This post shows how we improved Core Web Vitals on a production e-commerce store without touching the main stack, and what practical strategies developers can apply today. Why Core Web Vitals Matter CWV metrics like Largest Contentful Paint (LCP), First Input Delay (FID), and Cumulative Layout Shift (CLS) di",
+      "url": "https://dev.to/ar_abid_641aa302d5c68b2ae/optimizing-core-web-vitals-for-large-e-commerce-catalogs-without-rewriting-the-stack-1fg9",
+      "source": "Dev.to",
+      "author": "ar abid",
+      "published": "2026-01-08T08:56:35+00:00",
+      "niche": "dev",
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
       "id": "43c0700101d13983",
@@ -7890,18 +7883,40 @@
       "keywords": []
     },
     {
-      "id": "0c7286b2ea227df9",
-      "title": "Getting Started with Docker - Test Tutorial",
-      "description": "What is Docker? Docker is a platform for developing... Installation brew install docker Your First Container docker run hello-world",
-      "url": "https://dev.to/ethan_zhang_e501fea89c25b/getting-started-with-docker-test-tutorial-ooc",
+      "id": "583c39fc8b4a2e7b",
+      "title": "لماذا نعتقد: كيف يمكننا تحسين قدرة النماذج على التفكير",
+      "description": "مقدمة الذكاء الاصطناعي هو مجال سريع التطور، ويتطلب منا أن نكون على اطلاع دائم بالتطورات الجديدة. 最近، تم تطوير تقنيات جديدة لتحسين أداء النماذج، مثل Chain-of-thought و Test time compute. في هذا المقال، سنناقش كيف يمكننا استخدام هذه التقنيات لتحسين قدرة النماذج على التفكير. ما هو Test time compute؟ Test time compute هو تقنية تستخدم لزيادة قدرة النماذج على التفكير أثناء الاختبار. تستخدم هذه التقنية لزيادة وقت الحساب أثناء الاختبار، مما يسمح للنموذج بالتفكير أكثر في الإجابة. كيف يمكننا تحسين قدرة ال",
+      "url": "https://dev.to/mohamedshabanai/lmdh-ntqd-kyf-ymknn-thsyn-qdr-lnmdhj-l-ltfkyr-103i",
       "source": "Dev.to",
-      "author": "Ethan Zhang",
-      "published": "2026-01-01T09:11:11+00:00",
+      "author": "Mohamed Shaban",
+      "published": "2026-01-08T09:09:45+00:00",
       "niche": "dev",
-      "score": 48,
-      "keywords": [
-        "tutorial"
-      ]
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "e22636c1dc1d3e9f",
+      "title": "Not Another Day 0 Like Other Startups",
+      "description": "Ideas travel fast. Execution doesn’t. Most startups introduce themselves at “Day 0” with a clear vision, a polished narrative, and a roadmap of what will exist. Attention arrives early. Proof usually comes much later. This post starts from a different place. The Gap Between Ideas and Progress The internet produces no shortage of startup ideas. Communities, forums, threads, and pitch decks are full of them. Creativity isn’t the constraint anymore. What’s harder to find is sustained execution that",
+      "url": "https://dev.to/justacompany/not-another-day-0-like-other-startups-297b",
+      "source": "Dev.to",
+      "author": "Prasad Gite",
+      "published": "2026-01-08T09:05:45+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "cd85e3ffaf91311c",
+      "title": "2025 in retrospective",
+      "description": "From the beginning, the focus of this blog has been technical, very rarely organizational. I broke this unwritten rule once in 2015. I began writing retrospectives in 2023 on the year that had passed. Let's continue the tradition, but with a wider scope than before. The situation warrants it. More chaos It's a hard realization to admit, but the world is spiraling deeper and deeper into chaos. Russia's invasion of Ukraine has now dragged into its third year, and still, neither the European Union ",
+      "url": "https://dev.to/nfrankel/2025-in-retrospective-af9",
+      "source": "Dev.to",
+      "author": "Nicolas Fränkel",
+      "published": "2026-01-08T09:02:00+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
     },
     {
       "id": "b16a607794b4ce67",
@@ -8186,18 +8201,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "0df4ff0d759a4a20",
-      "title": "My Blog Post - Test Cross-post V2",
-      "description": "Content from my blog for cross-posting test...",
-      "url": "https://dev.to/ethan_zhang_e501fea89c25b/my-blog-post-test-cross-post-v2-2ehj",
-      "source": "Dev.to",
-      "author": "Ethan Zhang",
-      "published": "2026-01-01T09:11:44+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "9832f32d2dbc940a",
@@ -10276,6 +10279,18 @@
       "keywords": []
     },
     {
+      "id": "45fecc47cbb1dea2",
+      "title": "A closer look at a BGP anomaly in Venezuela",
+      "description": "Comments",
+      "url": "https://blog.cloudflare.com/bgp-route-leak-venezuela/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-08T06:46:26+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "8b5f25c1055ea864",
       "title": "How to Create a Pixel-to-Voxel Video Drop Effect with Three.js and Rapier",
       "description": "A tutorial showing how video pixels are voxelized in 3D and dropped into a physics-driven world using Three.js, shaders, and Rapier.",
@@ -10327,8 +10342,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "React 19",
-        "performance"
+        "performance",
+        "React 19"
       ]
     },
     {
@@ -10356,9 +10371,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "release",
+        "performance",
         "code",
-        "performance"
+        "release"
       ]
     },
     {
@@ -10372,9 +10387,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
+        "developer",
         "API",
-        "release",
-        "developer"
+        "release"
       ]
     },
     {
@@ -10389,8 +10404,8 @@
       "score": 40,
       "keywords": [
         "developer",
-        "release",
-        "performance"
+        "performance",
+        "release"
       ]
     },
     {
@@ -10585,8 +10600,8 @@
       "score": 38,
       "keywords": [
         "API",
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10628,8 +10643,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10643,8 +10658,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10787,18 +10802,6 @@
       "keywords": []
     },
     {
-      "id": "af191e6de3b5f86b",
-      "title": "Sergey Brin's Unretirement",
-      "description": "Comments",
-      "url": "https://www.inc.com/jessica-stillman/google-co-founder-sergey-brins-unretirement-is-a-lesson-for-the-rest-of-us/91280208",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-01T09:30:28+00:00",
-      "niche": "dev",
-      "score": 32,
-      "keywords": []
-    },
-    {
       "id": "1eb943fd0b595d95",
       "title": "Show HN: TCP chat server written in C# and .NET 9, used in the terminal",
       "description": "Comments",
@@ -10818,6 +10821,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2026-01-03T07:46:02+00:00",
+      "niche": "dev",
+      "score": 32,
+      "keywords": []
+    },
+    {
+      "id": "66eb6f1b6c5c6e2d",
+      "title": "Lessons from Hash Table Merging",
+      "description": "Comments",
+      "url": "https://gist.github.com/attractivechaos/d2efc77cc1db56bbd5fc597987e73338",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-02T12:51:55+00:00",
       "niche": "dev",
       "score": 32,
       "keywords": []
@@ -10901,11 +10916,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
+        "API",
+        "framework",
         "code",
         "performance",
-        "API",
-        "release",
-        "framework"
+        "release"
       ]
     },
     {
@@ -11246,8 +11261,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "framework"
+        "framework",
+        "release"
       ]
     },
     {
@@ -11261,9 +11276,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "developer",
+        "performance",
         "code",
-        "performance"
+        "developer"
       ]
     },
     {
@@ -11277,8 +11292,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "code",
-        "performance"
+        "performance",
+        "code"
       ]
     },
     {
@@ -11292,8 +11307,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
-        "code"
+        "code",
+        "release"
       ]
     },
     {
@@ -11322,8 +11337,8 @@
       "niche": "dev",
       "score": 18,
       "keywords": [
-        "Angular",
-        "PHP"
+        "PHP",
+        "Angular"
       ]
     },
     {
@@ -11379,8 +11394,8 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "API",
         "development",
+        "API",
         "developer"
       ]
     },
@@ -11686,6 +11701,18 @@
       "keywords": []
     },
     {
+      "id": "19eb5b711f168d06",
+      "title": "The Napoleon Technique: Postponing Things to Increase Productivity",
+      "description": "Comments",
+      "url": "https://effectiviology.com/napoleon/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-05T00:07:44+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
       "id": "18f349b8001e4a9d",
       "title": "What’s !important #2: Conditional View Transitions, CSS/SVG Text Effects, the Best of CSS Bluesky, and More",
       "description": "2026 is almost upon us. I know we’re all itching to see the clock strike midnight (cue The Final Countdown by Europe), but not without recapping the best CSS-related things that happened over the last two weeks! What’s !important #2: Conditional View Transitions, CSS/SVG Text Effects, the Best of CSS Bluesky, and More originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
@@ -11938,8 +11965,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "programming",
-        "development"
+        "development",
+        "programming"
       ]
     },
     {
