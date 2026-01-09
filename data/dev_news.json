@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-09T15:30:05.167807+00:00",
-  "total_articles": 988,
+  "last_updated": "2026-01-09T18:39:56.270135+00:00",
+  "total_articles": 990,
   "articles": [
     {
       "id": "3edc46ac3aa3698f",
@@ -328,20 +328,6 @@
       ]
     },
     {
-      "id": "b5e1f4a3e0c41f0e",
-      "title": "Maximize SDK Integration: Monetize AI Conversations Like Google Ads",
-      "description": "Creating Win-Win-Win Scenarios in the AI Economy: Introducing Monetization with Monetzly As developers, we're witnessing an explosion of AI applications, each promising to revolutionize the way we interact with technology. Yet, despite this surge in innovation, many of us face a common challenge: how to effectively monetize our AI apps without alienating users. Enter Monetzly—the Google Ads for AI Conversations. The Three-Sided Marketplace: Developers, Advertisers, and Users Monetzly is built ar",
-      "url": "https://dev.to/monetzly/maximize-sdk-integration-monetize-ai-conversations-like-google-ads-186m",
-      "source": "Dev.to",
-      "author": "Monetzly",
-      "published": "2026-01-02T18:19:18+00:00",
-      "niche": "dev",
-      "score": 69,
-      "keywords": [
-        "developer"
-      ]
-    },
-    {
       "id": "3e08c8e7f4daad83",
       "title": "5 Reasons to Avoid useEffect in React",
       "description": "When working with React, useEffect is often the first tool developers reach for when they need to handle side effects. However, relying on it too heavily can lead to significant issues in your application's lifecycle. Here is why you should reconsider reaching for useEffect as your default solution. It executes after the render One of the fundamental mechanics of useEffect is that it runs after the component has already rendered. Unlike logic that runs during the render phase, an effect is a del",
@@ -514,16 +500,18 @@
       ]
     },
     {
-      "id": "ee882d5fba6a98e0",
-      "title": "How I built Upple: A modern uptime monitor with Go and React",
-      "description": "I built Upple because I wanted to understand monitoring from the ground up—and because I had specific opinions about how health checks, incidents, and workflows should fit together. It's an uptime monitor and incident management platform that runs health checks, triggers automated workflows, and lets teams respond to incidents in real-time. The stack is quite straightforward: Go backend, React/TypeScript frontend, PostgreSQL for persistence, and Redis for the event bus. What Upple Does Quick ove",
-      "url": "https://dev.to/khiman/how-i-built-upple-a-modern-uptime-monitor-with-go-and-react-iac",
+      "id": "30d3e4d2f3e18b0e",
+      "title": "Login with Google on an iPhone (Local Metro server + Dev Build) - Part 2/7: Create a Clerk Project",
+      "description": "Create a new project Build the SignIn Page (only Google Login for now) On the Dashboard, go to \"Configure\" -> \"SSO Connections\" The Google should be available under SSO (Single Sign On) already Now we need to add the Redirect URLs This is to tell Google where to hand the \"baton\" after they finish their segment in the \"race\". Refer to this article on the analogy: Login with Google OAuth using Expo, Clerk, and iOS — Finally Demystified Find under “Developers“ -> ”Native Applications“ (!this is onl",
+      "url": "https://dev.to/cathylai/login-with-google-on-an-iphone-local-metro-server-dev-build-part-27-create-a-clerk-project-fg5",
       "source": "Dev.to",
-      "author": "Khiman Louer",
-      "published": "2026-01-02T18:26:16+00:00",
+      "author": "Cathy Lai",
+      "published": "2026-01-09T18:27:51+00:00",
       "niche": "dev",
-      "score": 68,
-      "keywords": []
+      "score": 69,
+      "keywords": [
+        "developer"
+      ]
     },
     {
       "id": "46fff2c6c6c97e89",
@@ -1423,19 +1411,18 @@
       ]
     },
     {
-      "id": "32579b0ea52f89db",
-      "title": "DEV Track Spotlight: Build multi-modal AI agents with Strands Agents and Amazon S3 Vectors (DEV332)",
-      "description": "Building production-ready AI agents that can understand images, videos, and documents while maintaining personalized conversations across sessions is complex. Joy Chakraborty (AWS Senior Technical Program Manager) and Elizabeth Fuentes Leone (AWS Developer Advocate) demonstrated how the open-source Strands Agents SDK and Amazon S3 Vectors make this achievable with minimal code. Why Strands Agents SDK When AWS spoke with customers building agentic AI applications using traditional frameworks, con",
-      "url": "https://dev.to/aws/dev-track-spotlight-build-multi-modal-ai-agents-with-strands-agents-and-amazon-s3-vectors-dev332-4jp5",
+      "id": "97767ec1e64e3d42",
+      "title": "Stop Flaky Tests: Freeze Time in Laravel Testing",
+      "description": "About a year ago, I wrote about freezing time when testing Laravel's temporary storage URLs. Freezing Time: Testing Laravel Temporary Storage URLs Ivan Mykhavko ・ Jan 28 '25 #laravel #testing #php #webdev Guess what? I ran into the same problem again, just from a different angle. It was a good reminder: controlling time in your tests isn't just a nice-to-have, it's essential. The Problem I had this test running smoothly on my machine. But then, on CI, it failed randomly: public function test_ord",
+      "url": "https://dev.to/tegos/stop-flaky-tests-freeze-time-in-laravel-testing-1cnj",
       "source": "Dev.to",
-      "author": "Gunnar Grosch",
-      "published": "2026-01-02T18:08:58+00:00",
+      "author": "Ivan Mykhavko",
+      "published": "2026-01-09T18:34:23+00:00",
       "niche": "dev",
-      "score": 56,
+      "score": 57,
       "keywords": [
-        "code",
-        "developer",
-        "framework"
+        "Laravel",
+        "PHP"
       ]
     },
     {
@@ -3138,33 +3125,47 @@
       ]
     },
     {
-      "id": "859f494ba5c9c622",
-      "title": "The Pendulum Swings Back: Intentional Software Design in the Age of AI",
-      "description": "Software development has always lived at the extremes. In the early days, we planned everything. Specifications were sacred. Architecture diagrams came before a single line of code. Change was slow, expensive, and wrapped in layers of documentation. Shipping software felt like steering a cargo ship. Then Agile arrived, and the pendulum swung hard in the opposite direction. We optimized for speed. Iteration replaced perfection. “Working software over comprehensive documentation” became the rallyi",
-      "url": "https://dev.to/devunionx/the-pendulum-swings-back-intentional-software-design-in-the-age-of-ai-351",
+      "id": "52646f7186863f47",
+      "title": "Building an Autonomous Template Business, kind of.",
+      "description": "One of the side projects that I've been working on recently was a multi-agent system to automate the process of creating ready-to-use feature complete templates for sale on Gumroad. It started off as an academic exercise and a good way to investigate agents, multi-agent orchestration, and get familiar with integrating with LLM APIs. I've since pivoted to something a bit more hands on but here are couple of learnings from the short attempt at creating a side project to generate some hybrid-income",
+      "url": "https://dev.to/ssong/building-an-autonomous-template-business-kind-of-11el",
       "source": "Dev.to",
-      "author": "DevUnionX",
-      "published": "2026-01-02T18:17:36+00:00",
+      "author": "Sang Song",
+      "published": "2026-01-09T18:35:23+00:00",
       "niche": "dev",
-      "score": 52,
+      "score": 54,
       "keywords": [
-        "development",
-        "code"
+        "API"
       ]
     },
     {
-      "id": "21ebefcede300e8f",
-      "title": "7 Hidden PR Traps That Sabotage Your Code",
-      "description": "Introduction Pull requests are the backbone of modern software development. They allow teams to collaborate, review, and merge code efficiently. However, not all pull requests are created equal. Some are fragile and prone to introducing bugs, technical debt, or instability. Recognizing these weak points early can save countless hours of debugging and rework. In this post, we will explore seven red flags that indicate a pull request may be fragile and provide actionable tips to address them. 1. M",
-      "url": "https://dev.to/othlah001/7-hidden-pr-traps-that-sabotage-your-code-2g2d",
+      "id": "b4b1ebd9ea10dc09",
+      "title": "How Cloud-Native Architecture Enables Faster Innovation",
+      "description": "There is a quiet but dangerous gap forming between companies that can move fast and companies that cannot. It rarely shows up on balance sheets right away. Instead, it appears in missed market windows, frustrated customers, burned out teams, and products that feel outdated the moment they launch. We live in a market defined by volatility. Customer expectations shift overnight. Digital-first competitors can test, release, learn, and iterate in weeks. Sometimes days. Meanwhile, many established en",
+      "url": "https://dev.to/cygnetone/how-cloud-native-architecture-enables-faster-innovation-3non",
       "source": "Dev.to",
-      "author": "Othmane LAHRIMI",
-      "published": "2026-01-02T18:14:17+00:00",
+      "author": "Cygnet.One",
+      "published": "2026-01-09T18:19:05+00:00",
       "niche": "dev",
-      "score": 52,
+      "score": 54,
       "keywords": [
-        "development",
-        "code"
+        "release"
+      ]
+    },
+    {
+      "id": "6f53f1bf4748deac",
+      "title": "First developer job at age 38 with lawyer turned software engineer Zubin Pratap [Podcast #203]",
+      "description": "Today Quincy Larson interviews Zubin Pratap, a software engineer and manager from Melbourne, Australia. After nearly two decades working as a corporate lawyer, he taught himself programming using freeCodeCamp.org. Within two years, he landed a job as...",
+      "url": "https://www.freecodecamp.org/news/first-developer-job-at-age-38-with-lawyer-turned-software-engineer-zubin-pratap-podcast-203/",
+      "source": "freeCodeCamp",
+      "author": "Beau Carnes",
+      "published": "2026-01-09T15:00:18+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "developer",
+        "code",
+        "programming"
       ]
     },
     {
@@ -3570,20 +3571,6 @@
       "keywords": [
         "developer",
         "code"
-      ]
-    },
-    {
-      "id": "9c2300bcee892d43",
-      "title": "seofaster, programmatic seo platform development - seofaster,...",
-      "description": "seofaster, programmatic seo platform coding: My Engineering Journey Have you ever tried to grow a blog to 100,000 visitors? It is hard work. You spend hours writing one post. Then you have to find images. Then you have to format it for WordPress or Shopify. I've been a senior engineer for over seven years. I've built systems for brands like Dior and IKEA. But even with all that time, I found manual content creation to be a massive bottleneck. In early 2026, I decided to solve this for myself and",
-      "url": "https://dev.to/ash_dubai/seofaster-programmatic-seo-platform-development-seofaster-2lh9",
-      "source": "Dev.to",
-      "author": "i Ash",
-      "published": "2026-01-02T18:01:25+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "development"
       ]
     },
     {
@@ -5267,52 +5254,32 @@
       ]
     },
     {
-      "id": "7041ec98dde48ead",
-      "title": "**Production-Ready Go Docker Containers: Small, Secure, and Efficient Containerization Guide**",
-      "description": "As a best-selling author, I invite you to explore my books on Amazon. Don't forget to follow me on Medium and show your support. Thank you! Your support means the world! Let’s talk about putting a Go application into a Docker container that’s ready for production. I don’t mean just any container—I mean a small, secure, and efficient one. Over the years, I've learned that a bloated container can slow you down, increase costs, and introduce security risks. So, let me walk you through how I build t",
-      "url": "https://dev.to/nithinbharathwaj/production-ready-go-docker-containers-small-secure-and-efficient-containerization-guide-1j2",
+      "id": "9b5646f0d3b96747",
+      "title": "The `#` Prefix: Claude's Memory Feature (And Why You Don't Need It Anymore)",
+      "description": "The story of a beloved shortcut, why it was deprecated, and the better approach that replaced it From: x.com/adocomplete Introduction Some of the best features are the ones that feel like magic. You discover them, wonder how you ever lived without them, and they become part of your daily workflow. The # prefix in Claude Code was exactly that kind of feature. With a simple # Always use bun instead of npm message, you could add persistent preferences to Claude's memory. Claude would ask where to s",
+      "url": "https://dev.to/rajeshroyal/the-prefix-claudes-memory-feature-and-why-you-dont-need-it-anymore-3ggn",
       "source": "Dev.to",
-      "author": "Nithin Bharadwaj",
-      "published": "2026-01-02T18:21:38+00:00",
+      "author": "Rajesh Royal",
+      "published": "2026-01-09T18:30:00+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
-      "id": "a8d9d197511adbb0",
-      "title": "Where Food Creates Community: The Vision of TABLE Jen Royle",
-      "description": "Redefining the Purpose of a Shared Meal Boston’s dining scene is known for innovation, yet few restaurants challenge the structure of dining itself. TABLE Boston offers an experience rooted in connection rather than convenience. Instead of individual tables and quick meals, guests are invited to share space, food, and conversation. The restaurant is designed to encourage presence and interaction, transforming dinner into a collective moment. The setting immediately communicates this intention. L",
-      "url": "https://dev.to/tablejenroyle/where-food-creates-community-the-vision-of-table-jen-royle-197c",
+      "id": "d1d3bf5ac9cdeb9d",
+      "title": "My First Anniversary at insightsoftware — A Year of Learning Real Software Engineering",
+      "description": "One year ago, I wrote my first line of production code. Today, I look back at how much that experience has shaped me as a software engineer. For those who may not be familiar, insightsoftware is a US-based global fintech, product-driven MNC, building enterprise-grade SaaS solutions for the Office of the CFO. The company empowers organizations across the world with tools for financial reporting, analytics, automation, and data-driven decision-making. Being part of such a large-scale, mature produ",
+      "url": "https://dev.to/suvam_108/my-first-anniversary-at-insightsoftware-a-year-of-learning-real-software-engineering-6p5",
       "source": "Dev.to",
-      "author": "Jen Royle",
-      "published": "2026-01-02T18:15:08+00:00",
+      "author": "SUVAM AGRAWAL",
+      "published": "2026-01-09T18:21:19+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "40bda74117b87af1",
-      "title": "Your Website Is Your Digital First Impression",
-      "description": "Let’s be honest — before anyone emails you, hires you, or takes your product seriously, they visit your website. And they decide a lot in the first few seconds. No pressure, right? First Impressions Happen Faster Than You Think When someone lands on your site, they’re subconsciously asking: Is this person/company legit? Do I trust this? Do I understand what this site is about? Is it worth my time? They usually answer those questions in under 5 seconds. That means your website isn’t just a portfo",
-      "url": "https://dev.to/nafizmahmud_94/your-website-is-your-digital-first-impression-3p6h",
-      "source": "Dev.to",
-      "author": "Nafiz Mahmud",
-      "published": "2026-01-02T18:05:33+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "5341ef61beb8aa92",
-      "title": "Alles über Stripe and Paddle payment integration für dein Business",
-      "description": "Alles über Stripe and Paddle payment integration für dein Business Fragst du dich auch oft, wie du am besten Zahlungen in deiner App abwickelst? Im Jahr 2026 ist die Auswahl an Tools echt riesig. Aber am Ende landen die meisten Entwickler doch bei der Stripe and Paddle payment integration. Ich habe diese Systeme schon in krassen Projekten für Dior und Birkenstock eingebaut. Auch bei meinen eigenen SaaS-Produkten wie ChatFaster war das Thema ein echter Game Changer. In diesem Artikel zeige ich di",
-      "url": "https://dev.to/ash_dubai/alles-uber-stripe-and-paddle-payment-integration-fur-dein-business-24b6",
-      "source": "Dev.to",
-      "author": "i Ash",
-      "published": "2026-01-02T18:03:10+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "38b7fe2f41cb70df",
@@ -8065,6 +8032,54 @@
       "keywords": []
     },
     {
+      "id": "82987948cceb9b42",
+      "title": "Mitigating Human-Driven AI Misuse in Generative Systems",
+      "description": "I never imagined that AI could touch someone I care about in such a profoundly harmful way. A close friend’s image was manipulated using AI-generated editing tools and shared online without their consent. The content was lewd, invasive, and utterly violating of their dignity. Watching this happen was a stark reminder that the harm wasn’t caused by the AI itself, but by the human intent behind the prompts. Understanding AI systems at a deep technical level is insufficient unless paired with a rig",
+      "url": "https://dev.to/shravani_86c94d4b283541f3/mitigating-human-driven-ai-misuse-in-generative-systems-2j1o",
+      "source": "Dev.to",
+      "author": "Shravani",
+      "published": "2026-01-09T18:35:45+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "f9f65319660a9612",
+      "title": "FHIRPath en Go: Cómo Construí un Motor de Consultas para Interoperabilidad en Salud",
+      "description": "Construyendo una Librería FHIRPath en Go: Del Concepto a la Implementación Cómo diseñé e implementé un motor de evaluación FHIRPath completo en Golang, desde el análisis léxico hasta la ejecución de expresiones Introducción En el ecosistema de la salud digital, la interoperabilidad no es un lujo, es una necesidad. FHIR® (Fast Healthcare Interoperability Resources) se ha convertido en el estándar de facto para el intercambio de datos clínicos, y FHIRPath es el lenguaje de consulta que nos permite",
+      "url": "https://dev.to/gopherscl/fhirpath-en-go-como-construi-un-motor-de-consultas-para-interoperabilidad-en-salud-54ee",
+      "source": "Dev.to",
+      "author": "Roberto Araneda Espinoza",
+      "published": "2026-01-09T18:33:31+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "d2cfa896b62379a5",
+      "title": "Raspberry Pi WiFi Router with RaspAP: Step-by-Step Setup Guide",
+      "description": "Using a Raspberry Pi as a Wi-Fi router is a neat way to learn networking while building something actually useful. With RaspAP, most of the heavy lifting is handled through a clean web interface, so you don’t need to dive deep into Linux networking commands. lets dive into how to make Raspberry Pi into a WiFi Router with RaspAP What Is RaspAP? RaspAP (Raspberry Pi Access Point) is an open-source tool that helps you turn a Raspberry Pi into a Wi-Fi access point or router. It manages services like",
+      "url": "https://dev.to/david_thomas/raspberry-pi-wifi-router-with-raspap-step-by-step-setup-guide-pda",
+      "source": "Dev.to",
+      "author": "David Thomas",
+      "published": "2026-01-09T18:30:00+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "8ba4be9d7d030aef",
+      "title": "How I Built a Chrome Extension That Analyzes SEC Filings and Financial News in Seconds",
+      "description": "A deep dive into building MoneySense.ai — from idea to 430+ users I spent years reading financial news the hard way. Every morning, I'd open 15+ tabs — Seeking Alpha, Bloomberg, Reuters, Yahoo Finance — and spend hours trying to separate signal from noise. When earnings season hit, I'd wade through 200-page 10-K filings, desperately searching for the one paragraph that actually mattered. One day, I thought: What if AI could do this for me? Six months later, MoneySense.ai was born — a Chrome exte",
+      "url": "https://dev.to/mayu2008/how-i-built-a-chrome-extension-that-analyzes-sec-filings-and-financial-news-in-seconds-1ldm",
+      "source": "Dev.to",
+      "author": "Mayuresh Smita Suresh",
+      "published": "2026-01-09T18:21:28+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "5b3e17671d3f3df4",
       "title": "Explosions reported in Venezuelan capital Caracas",
       "description": "Comments",
@@ -8322,18 +8337,6 @@
       ]
     },
     {
-      "id": "c81c6e8773ae33d9",
-      "title": "Ask HN: Who is hiring? (January 2026)",
-      "description": "Comments",
-      "url": "https://news.ycombinator.com/item?id=46466074",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-02T16:00:42+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
       "id": "438ab3d24ddfe3ae",
       "title": "How do I become a admin on steal a brain rot can everyone help me out",
       "description": "",
@@ -8377,42 +8380,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2026-01-02T19:18:36+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "29757bc94a2952e4",
-      "title": "Clicks Communicator",
-      "description": "Comments",
-      "url": "https://www.clicksphone.com/en/communicator",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-02T17:22:04+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "7062f9676fe79f3f",
-      "title": "Fighting Fire with Fire: Scalable Oral Exams",
-      "description": "Comments",
-      "url": "https://www.behind-the-enemy-lines.com/2025/12/fighting-fire-with-fire-scalable-oral.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-02T18:18:47+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "583557e716156f6c",
-      "title": "Punkt. Unveils MC03 Smartphone",
-      "description": "Comments",
-      "url": "https://www.punkt.ch/blogs/news/punkt-unveils-mc03",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-02T16:23:34+00:00",
       "niche": "dev",
       "score": 44,
       "keywords": []
@@ -10242,6 +10209,78 @@
       "keywords": []
     },
     {
+      "id": "be619fbc3414cdd3",
+      "title": "Show HN: I made a memory game to teach you to play piano by ear",
+      "description": "Comments",
+      "url": "https://lend-me-your-ears.specr.net",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-09T17:17:28+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "ea106ae6bdbcb555",
+      "title": "The Vietnam government has banned rooted phones from using any banking app",
+      "description": "Comments",
+      "url": "https://xdaforums.com/t/discussion-the-root-and-mod-hiding-fingerprint-spoofing-keybox-stealing-cat-and-mouse-game.4425939/page-118",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-09T17:00:11+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "e407174fcae3edf5",
+      "title": "Show HN: Scroll Wikipedia like TikTok",
+      "description": "Comments",
+      "url": "https://quack.sdan.io",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-09T18:15:16+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "a34f465ec5caac60",
+      "title": "Why is SendGrid emailing me about supporting ICE?",
+      "description": "Comments",
+      "url": "https://fredbenenson.com/blog/2026/01/09/why-is-sendgrid-emailing-me-about-supporting-ice/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-09T16:36:48+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "2f7816fe88e360da",
+      "title": "Cloudspecs: Cloud Hardware Evolution Through the Looking Glass",
+      "description": "Comments",
+      "url": "http://muratbuffalo.blogspot.com/2026/01/cloudspecs-cloud-hardware-evolution.html",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-09T16:23:44+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "b0fefe27aac5152e",
+      "title": "Replit (YC W18) Is Hiring",
+      "description": "Comments",
+      "url": "https://jobs.ashbyhq.com/replit",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-09T18:00:56+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "8b5f25c1055ea864",
       "title": "How to Create a Pixel-to-Voxel Video Drop Effect with Three.js and Rapier",
       "description": "A tutorial showing how video pixels are voxelized in 3D and dropped into a physics-driven world using Three.js, shaders, and Rapier.",
@@ -10255,18 +10294,6 @@
         "API",
         "tutorial"
       ]
-    },
-    {
-      "id": "0e8c05b4147e1442",
-      "title": "Managing Infrastructure Across Multiple Environments",
-      "description": "Avoid common Terraform multi-environment pitfalls. Practical strategies for managing dev, staging, and production infrastructure with separate state files and modules. Continue reading Managing Infrastructure Across Multiple Environments on SitePoint.",
-      "url": "https://www.sitepoint.com/managing-infrastructure-across-multiple-environments/?utm_source=rss",
-      "source": "SitePoint",
-      "author": "Nishant Ghan",
-      "published": "2026-01-02T17:24:51+00:00",
-      "niche": "dev",
-      "score": 42,
-      "keywords": []
     },
     {
       "id": "9507e2cf68c6c137",
@@ -10307,8 +10334,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "performance",
-        "React 19"
+        "React 19",
+        "performance"
       ]
     },
     {
@@ -10366,9 +10393,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "API",
+        "developer",
         "release",
-        "developer"
+        "API"
       ]
     },
     {
@@ -10382,9 +10409,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
+        "developer",
         "performance",
-        "release",
-        "developer"
+        "release"
       ]
     },
     {
@@ -10542,9 +10569,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "API",
+        "React 19",
         "release",
-        "React 19"
+        "API"
       ]
     },
     {
@@ -10586,8 +10613,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10601,8 +10628,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10656,8 +10683,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "API",
-        "framework"
+        "framework",
+        "API"
       ]
     },
     {
@@ -10755,6 +10782,18 @@
       "keywords": []
     },
     {
+      "id": "9033acde0fc018a1",
+      "title": "Show HN: Similarity = cosine(your_GitHub_stars, Karpathy) Client-side",
+      "description": "Comments",
+      "url": "https://puzer.github.io/github_recommender/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-06T13:23:39+00:00",
+      "niche": "dev",
+      "score": 32,
+      "keywords": []
+    },
+    {
       "id": "1b2a7c177ebb44d3",
       "title": "WebGPU is now supported in major browsers",
       "description": "Read about the biggest web graphics launch since WebGL. WebGPU is supported across major browsers, bringing unparalleled performance to the web.",
@@ -10833,10 +10872,10 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "release",
-        "framework",
         "performance",
         "code",
+        "framework",
+        "release",
         "API"
       ]
     },
@@ -11163,8 +11202,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "API",
-        "release"
+        "release",
+        "API"
       ]
     },
     {
@@ -11178,8 +11217,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "framework"
+        "framework",
+        "release"
       ]
     },
     {
@@ -11194,8 +11233,8 @@
       "score": 20,
       "keywords": [
         "development",
-        "release",
-        "code"
+        "code",
+        "release"
       ]
     },
     {
@@ -11209,8 +11248,8 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "performance",
         "developer",
+        "performance",
         "code"
       ]
     },
@@ -11240,8 +11279,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
-        "code"
+        "code",
+        "release"
       ]
     },
     {
@@ -11255,8 +11294,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
-        "developer"
+        "developer",
+        "release"
       ]
     },
     {
@@ -11270,8 +11309,8 @@
       "niche": "dev",
       "score": 18,
       "keywords": [
-        "PHP",
-        "Angular"
+        "Angular",
+        "PHP"
       ]
     },
     {
@@ -11328,8 +11367,8 @@
       "score": 17,
       "keywords": [
         "development",
-        "API",
-        "developer"
+        "developer",
+        "API"
       ]
     },
     {
@@ -11344,8 +11383,8 @@
       "score": 17,
       "keywords": [
         "development",
-        "PHP",
-        "tutorial"
+        "tutorial",
+        "PHP"
       ]
     },
     {
@@ -11360,8 +11399,8 @@
       "score": 17,
       "keywords": [
         "development",
-        "PHP",
-        "tutorial"
+        "tutorial",
+        "PHP"
       ]
     },
     {
@@ -11375,8 +11414,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "API",
-        "code"
+        "code",
+        "API"
       ]
     },
     {
@@ -11478,18 +11517,6 @@
       ]
     },
     {
-      "id": "6b9967cb3560a8a7",
-      "title": "Try to take my position: The best promotion advice I ever got",
-      "description": "Comments",
-      "url": "https://andrew.grahamyooll.com/blog/Try-to-Take-My-Position/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-02T15:56:14+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
       "id": "779c2b56786cdb0f",
       "title": "The Lottery Ticket Hypothesis: finding sparse trainable NNs with 90% less params",
       "description": "Comments",
@@ -11521,18 +11548,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2026-01-02T21:18:10+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "9dc17b8e2621620d",
-      "title": "I wanted a camera that doesn't exist – so I built it",
-      "description": "Comments",
-      "url": "https://medium.com/@cristi.baluta/i-wanted-a-camera-that-doesnt-exist-so-i-built-it-5f9864533eb7",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-02T17:04:03+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -11776,8 +11791,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "code",
         "developer",
+        "code",
         "programming"
       ]
     },
@@ -12333,6 +12348,18 @@
       "keywords": [
         "developer"
       ]
+    },
+    {
+      "id": "0e8c05b4147e1442",
+      "title": "Managing Infrastructure Across Multiple Environments",
+      "description": "Avoid common Terraform multi-environment pitfalls. Practical strategies for managing dev, staging, and production infrastructure with separate state files and modules. Continue reading Managing Infrastructure Across Multiple Environments on SitePoint.",
+      "url": "https://www.sitepoint.com/managing-infrastructure-across-multiple-environments/?utm_source=rss",
+      "source": "SitePoint",
+      "author": "Nishant Ghan",
+      "published": "2026-01-02T17:24:51+00:00",
+      "niche": "dev",
+      "score": 12,
+      "keywords": []
     },
     {
       "id": "c098b044990870c9",
