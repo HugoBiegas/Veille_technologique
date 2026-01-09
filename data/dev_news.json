@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-09T18:39:56.270135+00:00",
-  "total_articles": 990,
+  "last_updated": "2026-01-09T21:26:50.121829+00:00",
+  "total_articles": 991,
   "articles": [
     {
       "id": "3edc46ac3aa3698f",
@@ -658,6 +658,18 @@
       "keywords": []
     },
     {
+      "id": "bf6210a32ac86139",
+      "title": "How I Bypassed Google's Broken Python SDK to Build an AI Pipeline in Docker",
+      "description": "I spent the last week building DocuFlow, an event-driven data pipeline that automatically ingests PDF invoices and extracts structured financial data (Vendor, Date, Amount) using AI. The architecture was solid: Watcher Service to detect new files. Redis & Celery for asynchronous task queues. PostgreSQL for storage. Google Gemini 2.5 Flash as the intelligence layer. Everything worked perfectly on my local machine. But the moment I containerized it with Docker, everything crashed. 💥 Here is the st",
+      "url": "https://dev.to/shashank0701byte/how-i-bypassed-googles-broken-python-sdk-to-build-an-ai-pipeline-in-docker-35n5",
+      "source": "Dev.to",
+      "author": "Shashank Chakraborty",
+      "published": "2026-01-09T20:17:35+00:00",
+      "niche": "dev",
+      "score": 68,
+      "keywords": []
+    },
+    {
       "id": "ced6cabe1e976375",
       "title": "Passing of Joe Mancuso author of Masonite (Python web framework)",
       "description": "Comments",
@@ -740,18 +752,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "23329c499181cd17",
-      "title": "TinyTinyTPU: 2×2 systolic-array TPU-style matrix-multiply unit deployed on FPGA",
-      "description": "Comments",
-      "url": "https://github.com/Alanma23/tinytinyTPU-co",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-02T19:13:24+00:00",
-      "niche": "dev",
-      "score": 62,
-      "keywords": []
     },
     {
       "id": "aa926fd7881cc6f5",
@@ -982,6 +982,35 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2026-01-09T07:06:41+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": []
+    },
+    {
+      "id": "46a1bf4ce49ace52",
+      "title": "F1 GraphQL: The Ultimate GraphQL API for Formula 1 Data",
+      "description": "Introduction Formula 1 fans and developers, rejoice! F1 GraphQL is an innovative open-source project that brings the entire history of Formula 1 racing to your fingertips through the power of GraphQL. Whether you're a Formula 1 enthusiast or a developer, this API offers a flexible, efficient, and developer-friendly way to access comprehensive Formula 1 data without the limitations of traditional REST APIs. What is F1 GraphQL? F1 GraphQL is a modern API that provides access to an extensive databa",
+      "url": "https://dev.to/francostino/f1-graphql-the-ultimate-graphql-api-for-formula-1-data-11gl",
+      "source": "Dev.to",
+      "author": "Davide",
+      "published": "2026-01-09T20:16:43+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": [
+        "developer",
+        "API",
+        "GraphQL",
+        "REST API"
+      ]
+    },
+    {
+      "id": "0444fcd2d5c58297",
+      "title": "Show HN: EuConform – Offline-first EU AI Act compliance tool (open source)",
+      "description": "Comments",
+      "url": "https://github.com/Hiepler/EuConform",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-09T19:11:57+00:00",
       "niche": "dev",
       "score": 62,
       "keywords": []
@@ -1614,21 +1643,6 @@
       ]
     },
     {
-      "id": "bf15b03aad0ffba7",
-      "title": "2025 Was the Year of Fast AI, 2026 Will Be the Year of AI Quality",
-      "description": "The AI conversation in 2025 was dominated by one word: speed. Faster models. Faster responses. Faster integrations. Faster releases. Companies raced to ship AI features before competitors did. Developers optimized for latency. Startups marketed “instant” intelligence. The goal was simple: make AI respond faster than humans can think. And it worked up to a point. But as we move into 2026, a clear shift is happening. Speed alone is no longer impressive. Quality is becoming the real differentiator.",
-      "url": "https://dev.to/msnmongare/2025-was-the-year-of-fast-ai-2026-will-be-the-year-of-ai-quality-2197",
-      "source": "Dev.to",
-      "author": "Sospeter Mong'are",
-      "published": "2026-01-02T21:05:51+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "release",
-        "developer"
-      ]
-    },
-    {
       "id": "c063dad92ebae24d",
       "title": "Goofy Platformer 0.3: Available soon?",
       "description": "0.3 was a bigger update than the rest, but not a year big. Development hell and life kinda got in the way, but besides trying to release in December, I should be on track to release by the end of January and then work on World 2 (Currently nothing has been leaked apart from some music demos in small servers for the new world… see if you can find em!) and all of the features I’ll need for it (and port them to the Level Editor… the boss fight in World 1 is still not possible to recreate lol) Anywa",
@@ -2256,6 +2270,21 @@
       "keywords": [
         "code",
         "library"
+      ]
+    },
+    {
+      "id": "22797f71827eea30",
+      "title": "I Lost an Interview So You Don’t Have To: A Lesson in Interview Prep",
+      "description": "My own words re-written with chatGPT help. (my english is not the yellow from the egg ) Recently, I went through an interview process. I aced the coding challenge, my profile was well received, and I even made it to the final team discussion. Still, I was rejected. The problem? I didn’t clarify whether the next round would be framework-agnostic or focused on a specific framework. After reviewing my solution, the feedback was: “We’re happy with your code. Let’s meet the team and discuss it—we’d l",
+      "url": "https://dev.to/konfydev/i-lost-an-interview-so-you-dont-have-to-a-lesson-in-interview-prep-2eg2",
+      "source": "Dev.to",
+      "author": "Konfy",
+      "published": "2026-01-09T20:21:52+00:00",
+      "niche": "dev",
+      "score": 55,
+      "keywords": [
+        "framework",
+        "code"
       ]
     },
     {
@@ -3571,34 +3600,6 @@
       "keywords": [
         "developer",
         "code"
-      ]
-    },
-    {
-      "id": "34609f5664f21012",
-      "title": "3. Longest Substring Without Repeating Characters | LeetCode | Top Interview 150 | Coding Questions",
-      "description": "Problem Link https://leetcode.com/problems/longest-substring-without-repeating-characters/ Detailed Step-by-Step Explanation https://leetcode.com/problems/longest-substring-without-repeating-characters/solutions/7460387/most-optimal-solution-sliding-window-has-qxth Solution class Solution { public int lengthOfLongestSubstring(String s) { Map<Character, Integer> map = new HashMap<>(); int left = 0; int maxLength = 0; for (int right = 0; right < s.length(); right++) { char ch = s.charAt(right); if",
-      "url": "https://dev.to/debeshpg90/3-longest-substring-without-repeating-characters-leetcode-top-interview-150-coding-questions-1jp4",
-      "source": "Dev.to",
-      "author": "Debesh P.",
-      "published": "2026-01-02T20:57:54+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "f07dedbb0556921c",
-      "title": "Technically Approved, Still Rejected: The Feedback Gap in Hiring",
-      "description": "Technically Approved… and Still a “No” Recently I went through a full recruitment process for a .NET Developer role. I passed every stage. The final message sounded like a win: “You have been technically approved… Nevertheless, the team decided to move forward with another candidate…” That sentence is tricky. It’s positioned as encouraging, and maybe it’s meant to soften the disappointment. But as a candidate, it leaves you in a weird place: If I’m approved, what exactly made me not the choice? ",
-      "url": "https://dev.to/mekobgs/technically-approved-still-rejected-the-feedback-gap-in-hiring-hbb",
-      "source": "Dev.to",
-      "author": "Elmer Chacon",
-      "published": "2026-01-02T20:42:20+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "developer"
       ]
     },
     {
@@ -5280,66 +5281,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "38b7fe2f41cb70df",
-      "title": "I built a tiny invoice generator because I didn’t want a SaaS for one invoice",
-      "description": "I ran into this situation more times than I expected. I just needed to send a clean invoice PDF. No onboarding, no accounts, no dashboards. Just create the invoice and move on. Most invoicing tools are solid, but they’re designed as full systems: client management, recurring invoices, integrations, reporting. For occasional invoicing, that felt like unnecessary friction. So I built a very small invoice generator that runs entirely in the browser. No signup, no saved data. You fill in the details",
-      "url": "https://dev.to/block_hacks/i-built-a-tiny-invoice-generator-because-i-didnt-want-a-saas-for-one-invoice-153a",
-      "source": "Dev.to",
-      "author": "block_hacks",
-      "published": "2026-01-02T21:04:14+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "4fe76c54f920c546",
-      "title": "Week 7 from 40 – Making AI Features Feel Real",
-      "description": "Objective of the week Moving from simple coding practices to making first ideas real by creating a page to publish feral cat sightings. I moved from isolated sightings to identity and relationships by introducing a first version of same-cat matching. The goal was not accurate identification, but to learn how to suggest possible matches using simple, explainable logic based on text descriptions and locations. What I built I extended CatAtlas with a “same-cat matching v0” feature. Each cat sightin",
-      "url": "https://dev.to/digeratis/-week-7-from-40-making-ai-features-feel-real-4a2k",
-      "source": "Dev.to",
-      "author": "Florian",
-      "published": "2026-01-02T20:50:15+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "f7dfd8b9fc571a6d",
-      "title": "Swift #28: Foundation",
-      "description": "Algunas funciones de la biblioteca Foundation pow(_:_:): Calcula la operación de potenciación con una base Double y un exponente Double. Retorna Double. sqrt(_:): Calcula la raíz cuadrada del argumento Double. Retorna Double. log(_:): Calcula el algoritmo natural de un valor Double. Hay otras funciones similares como log2(_:) y log10(_:). sin(_:): Retorna el seno de un valor Double. Hay funciones similares: asin(_:), sinh(_:), asinh(_:). cos(_:): Retorna el coseno de un valor Double. Hay funcion",
-      "url": "https://dev.to/david_goyes_a488f58a17a53/swift-28-foundation-4fl7",
-      "source": "Dev.to",
-      "author": "David Goyes",
-      "published": "2026-01-02T20:43:20+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "bcdedce4e02fcef0",
-      "title": "Using Postgres Full-Text Search on a Next.JS Fullstack App",
-      "description": "Although workshops can be both instructive and exhausting, I made certain to complete Brian Holt’s workshop on developing a comprehensive Fullstack Next.js application. You may review it on Frontendmasters. I intend to enhance the application by integrating comprehensive full-text search capabilities. I plan to systematically record the procedure for future reference. Based on this, I assume the: The Next.js full-stack app is completed. It includes a PostgreSQL database. and it contains some dat",
-      "url": "https://dev.to/azeezroheem/using-postgres-full-text-search-on-a-nextjs-fullstack-app-c8g",
-      "source": "Dev.to",
-      "author": "Azeez Roheem",
-      "published": "2026-01-02T20:43:09+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "9957491143aaf25c",
-      "title": "COPY FROM Exploits: When PostgreSQL Reads Your Filesystem",
-      "description": "PostgreSQL's COPY FROM is powerful. It can bulk load data from files. It can also read /etc/passwd. The Attack // ❌ User controls file path const filepath = req.body.filepath; await client.query(`COPY users FROM '${filepath}'`); Attacker input: filepath: /etc/passwd PostgreSQL now reads your system files into the database. Security References This vulnerability is well-documented in industry security standards: Standard Reference Description CWE-73 External Control of File Name or Path Applicati",
-      "url": "https://dev.to/ofri-peretz/copy-from-exploits-when-postgresql-reads-your-filesystem-127a",
-      "source": "Dev.to",
-      "author": "Ofri Peretz",
-      "published": "2026-01-02T20:36:38+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
     },
     {
       "id": "65d065d5c9c78ae7",
@@ -8080,6 +8021,81 @@
       "keywords": []
     },
     {
+      "id": "08a055877b669dd7",
+      "title": "What's Inside the .git Folder?",
+      "description": "In this article, we are going to open the hood and look at the engine. We are going to explore the .git folder. By the end of this article, you’ll understand how Git stores files, tracks history internally, and how commits are built under the hood. Prerequisites Before we dive into the hexadecimal rabbit hole, let’s make sure we are on the same page. You don’t need to be a Git wizard to follow along, but you should be comfortable with: Basic Git Commands: You have used git add, git commit, and g",
+      "url": "https://dev.to/satpalsinhrana/whats-inside-the-git-folder-2obg",
+      "source": "Dev.to",
+      "author": "Satpalsinh Rana",
+      "published": "2026-01-09T20:36:04+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "2b5ccc565d00bc8d",
+      "title": "End-to-End Monitoring Explained for Homelabs: Prometheus, Grafana & Alertmanager",
+      "description": "TL;DR When you’re running a homelab with dozens of containers and services, things will eventually break. The question isn’t if something will fail, but when - and whether you’ll know about it before your users do. This post walks through building a production-grade monitoring stack using Prometheus + Grafana that monitors 37 containers across 2 hosts, with automatic email alerting and comprehensive dashboards. You’ll get visibility into CPU, memory, disk, network, container metrics, and even ZF",
+      "url": "https://dev.to/tsukiyo/end-to-end-monitoring-explained-for-homelabs-prometheus-grafana-alertmanager-2g3k",
+      "source": "Dev.to",
+      "author": "Natsuki",
+      "published": "2026-01-09T20:34:29+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "051372ec31a9c768",
+      "title": "SwiftUI #25: Estado (@State)",
+      "description": "El paradigma declarativo no solo se trata de cómo organizar las vistas, sino de que cada vez que cambia el estado de la aplicación, las vistas deben actualizarse y reflejarlo. @State El \"property-wrapper\" @State envuelve un valor de tipo SomeType en una estructura de tipo State<SomeType> y notifica al sistema cuando ese valor cambia, para que la vista se actualice automáticamente. La propiedad marcada con @State debería ser private puesto que representa el estado de esa vista y no debería ser mo",
+      "url": "https://dev.to/david_goyes_a488f58a17a53/swift-25-estado-state-46h6",
+      "source": "Dev.to",
+      "author": "David Goyes",
+      "published": "2026-01-09T20:18:35+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "3dc3f46b3740d441",
+      "title": "Inherent Logics III.",
+      "description": "The Shape Contains Its Own Rule Declarative vs Imperative as Inherent Logics There’s a design truth I keep coming back to: The form contains its own rule. The structure itself tells you how it must be used. This isn’t opinion. It’s consequence. The structure forces the mindset A simple example: A tree forces you to think in parents/children A list forces you to think in order A graph forces you to think in connections A runtime forces you to think in actions and state This is not philosophy. It’",
+      "url": "https://dev.to/suign/inherent-logics-iii-1fej",
+      "source": "Dev.to",
+      "author": "Sui Gn",
+      "published": "2026-01-09T20:18:07+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "4dbcbdbe94233616",
+      "title": "AI Trading: Lesson Learned #125: Comprehensive Trust Audit (Jan 9, 2026)",
+      "description": "Lesson Learned #125: Comprehensive Trust Audit (Jan 9, 2026) ID: LL-125 Date: January 9, 2026 Severity: CRITICAL Category: Trust, Operations, Strategy Status: Action Required CEO Questions & Honest Answers 1. Are we following Phil Town Rule #1? Answer: PARTIALLY IMPLEMENTED, NOT ENFORCED Evidence: src/strategies/rule_one_options.py - 1,091 lines of Phil Town strategy Big Five, Sticker Price, MOS Price calculations implemented BUT: Stop loss was 200% (effectively no protection) FIXED Jan 9: Now 2",
+      "url": "https://dev.to/igorganapolsky/ai-trading-lesson-learned-125-comprehensive-trust-audit-jan-9-2026-3lk9",
+      "source": "Dev.to",
+      "author": "Igor Ganapolsky",
+      "published": "2026-01-09T20:16:42+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "6b078f8a0818c9b2",
+      "title": "Cool Article on API Tools!! https://medium.com/@somendradev23/10-api-tools-every-full-stack-developer-should-know-6f9af40ae0ec",
+      "description": "medium.com",
+      "url": "https://dev.to/evanlausier/cool-article-on-api-tools-5100",
+      "source": "Dev.to",
+      "author": "Evan Lausier",
+      "published": "2026-01-09T20:27:16+00:00",
+      "niche": "dev",
+      "score": 49,
+      "keywords": [
+        "developer",
+        "API"
+      ]
+    },
+    {
       "id": "5b3e17671d3f3df4",
       "title": "Explosions reported in Venezuelan capital Caracas",
       "description": "Comments",
@@ -8210,6 +8226,18 @@
       "keywords": []
     },
     {
+      "id": "a4074c264f295663",
+      "title": "I'm challenging myself to build 1 tool / mini startup a week this year. 52 tools",
+      "description": "Plan is to learn/fail a lot. Maybe land on a big pain point. Going to document my journey here. List of startups in this thread. Would love to hear thoughts.",
+      "url": "https://dev.to/ido_cohen_ba84f26f76772ca/im-challenging-myself-to-build-1-tool-mini-startup-a-week-this-year-52-tools-5d1f",
+      "source": "Dev.to",
+      "author": "Ido Cohen",
+      "published": "2026-01-09T20:52:58+00:00",
+      "niche": "dev",
+      "score": 46,
+      "keywords": []
+    },
+    {
       "id": "fb3b40a198552f10",
       "title": "The C3 Programming Language",
       "description": "Comments",
@@ -8335,54 +8363,6 @@
       "keywords": [
         "developer"
       ]
-    },
-    {
-      "id": "438ab3d24ddfe3ae",
-      "title": "How do I become a admin on steal a brain rot can everyone help me out",
-      "description": "",
-      "url": "https://dev.to/brettjunior_andrews_435e/how-do-i-become-a-admin-on-steal-a-brain-rot-can-everyone-help-me-out-1ogn",
-      "source": "Dev.to",
-      "author": "Brett-junior Andrews",
-      "published": "2026-01-02T20:46:47+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "a320ccf05e9c002c",
-      "title": "How do I become a admin on steal a brain rot",
-      "description": "",
-      "url": "https://dev.to/brettjunior_andrews_435e/how-do-i-become-a-admin-on-steal-a-brain-rot-j88",
-      "source": "Dev.to",
-      "author": "Brett-junior Andrews",
-      "published": "2026-01-02T20:46:14+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "ba33c5495263a907",
-      "title": "Publish (On Your) Own Site, Syndicate Elsewhere",
-      "description": "Comments",
-      "url": "https://indieweb.org/POSSE",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-02T19:48:25+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "16f686a1c27b2c16",
-      "title": "Unix v4 (1973) – Live Terminal",
-      "description": "Comments",
-      "url": "https://unixv4.dev/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-02T19:18:36+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "50935b736d9a574e",
@@ -10281,6 +10261,66 @@
       "keywords": []
     },
     {
+      "id": "15ec6b844d4e44c2",
+      "title": "JavaScript Demos in 140 Characters",
+      "description": "Comments",
+      "url": "https://beta.dwitter.net",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-09T18:48:30+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "3ccc1482ee1b55c1",
+      "title": "QtNat – Open you port with Qt UPnP",
+      "description": "Comments",
+      "url": "http://renaudguezennec.eu/index.php/2026/01/09/qtnat-open-you-port-with-qt/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-09T20:17:07+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "790386d64a5f46a7",
+      "title": "Show HN: Rocket Launch and Orbit Simulator",
+      "description": "Comments",
+      "url": "https://www.donutthejedi.com/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-09T19:15:21+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "f312c106ef39af13",
+      "title": "RTX 5090 and Raspberry Pi: Can It Game?",
+      "description": "Comments",
+      "url": "https://scottjg.com/posts/2026-01-08-crappy-computer-showdown/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-09T19:33:47+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "287f42c01ca64719",
+      "title": "Exercise can be nearly as effective as therapy for depression",
+      "description": "Comments",
+      "url": "https://www.sciencedaily.com/releases/2026/01/260107225516.htm",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-09T18:29:35+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "8b5f25c1055ea864",
       "title": "How to Create a Pixel-to-Voxel Video Drop Effect with Three.js and Rapier",
       "description": "A tutorial showing how video pixels are voxelized in 3D and dropped into a physics-driven world using Three.js, shaders, and Rapier.",
@@ -10394,8 +10434,8 @@
       "score": 40,
       "keywords": [
         "developer",
-        "release",
-        "API"
+        "API",
+        "release"
       ]
     },
     {
@@ -10436,18 +10476,6 @@
       "published": "2026-01-06T11:50:55+00:00",
       "niche": "dev",
       "score": 39,
-      "keywords": []
-    },
-    {
-      "id": "e24e4001c59cd5a4",
-      "title": "Publish on your own site, syndicate elsewhere",
-      "description": "Comments",
-      "url": "https://indieweb.org/POSSE",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-02T19:48:25+00:00",
-      "niche": "dev",
-      "score": 38,
       "keywords": []
     },
     {
@@ -10554,6 +10582,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2026-01-08T15:20:15+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
+      "id": "7b40b13efcb4c49d",
+      "title": "Scientists discover oldest poison, on 60k-year-old arrows",
+      "description": "Comments",
+      "url": "https://www.nytimes.com/2026/01/07/science/poison-arrows-south-africa.html",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-08T23:24:30+00:00",
       "niche": "dev",
       "score": 38,
       "keywords": []
@@ -10683,8 +10723,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "framework",
-        "API"
+        "API",
+        "framework"
       ]
     },
     {
@@ -10872,11 +10912,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "performance",
-        "code",
         "framework",
         "release",
-        "API"
+        "code",
+        "API",
+        "performance"
       ]
     },
     {
@@ -11202,8 +11242,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "API"
+        "API",
+        "release"
       ]
     },
     {
@@ -11232,9 +11272,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "development",
+        "release",
         "code",
-        "release"
+        "development"
       ]
     },
     {
@@ -11279,8 +11319,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "code",
-        "release"
+        "release",
+        "code"
       ]
     },
     {
@@ -11309,8 +11349,8 @@
       "niche": "dev",
       "score": 18,
       "keywords": [
-        "Angular",
-        "PHP"
+        "PHP",
+        "Angular"
       ]
     },
     {
@@ -11366,9 +11406,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "development",
         "developer",
-        "API"
+        "API",
+        "development"
       ]
     },
     {
@@ -11382,9 +11422,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
+        "PHP",
         "development",
-        "tutorial",
-        "PHP"
+        "tutorial"
       ]
     },
     {
@@ -11398,9 +11438,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
+        "PHP",
         "development",
-        "tutorial",
-        "PHP"
+        "tutorial"
       ]
     },
     {
@@ -11414,8 +11454,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "code",
-        "API"
+        "API",
+        "code"
       ]
     },
     {
@@ -11541,18 +11581,6 @@
       "keywords": []
     },
     {
-      "id": "e006e5a90789b7fe",
-      "title": "\"Inspector Dangerfuck\", ANSI art comic from 1994",
-      "description": "Comments",
-      "url": "https://breakintochat.com/blog/2025/12/31/ansi-art-and-webcomics-part-3-eerie-and-inspector-dangerfuck/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-02T21:18:10+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
       "id": "51635509b310dec1",
       "title": "Vector graphics on GPU",
       "description": "Comments",
@@ -11625,18 +11653,6 @@
       "keywords": []
     },
     {
-      "id": "f3ef16bc9f5f4556",
-      "title": "Lights and Shadows",
-      "description": "Comments",
-      "url": "https://ciechanow.ski/lights-and-shadows/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-02T19:24:10+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
       "id": "247658b4a861884e",
       "title": "Anyone have experiences with Audio Induction Loops?",
       "description": "Comments",
@@ -11644,18 +11660,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2026-01-04T21:23:27+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "4a6cf2ad5d0bf93e",
-      "title": "Lights and Shadows (2020)",
-      "description": "Comments",
-      "url": "https://ciechanow.ski/lights-and-shadows/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-02T19:24:10+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -11776,6 +11780,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2026-01-05T22:41:33+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "322fc5d1a6fde620",
+      "title": "The (likely?) cheapest home-made Michelson interferometer",
+      "description": "Comments",
+      "url": "https://guille.site/posts/3d-printed-michelson/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-04T20:49:19+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
