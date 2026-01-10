@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-10T09:26:29.026923+00:00",
-  "total_articles": 985,
+  "last_updated": "2026-01-10T12:51:16.374207+00:00",
+  "total_articles": 983,
   "articles": [
     {
       "id": "3edc46ac3aa3698f",
@@ -139,48 +139,6 @@
       "score": 73,
       "keywords": [
         "developer",
-        "API"
-      ]
-    },
-    {
-      "id": "b134c70c8385178a",
-      "title": "streamix: Generators + Operators - React Community Feedback = ?",
-      "description": "I’d like to introduce streamix, a small (~9KB) open-source library that adds Rx-style operator pipelines to native async generators. This post is not a React integration announcement. It’s an invitation to the React community to review the idea and share professional feedback. The core idea Async generators already model async data flows well: async function* numbers() { for (let i = 0; i < 10; i++) yield i; } for await (const n of numbers()) { console.log(n); } streamix keeps this model but add",
-      "url": "https://dev.to/oleksii_shepel_3f635cea4d/streamix-generators-operators-react-community-feedback--1ckl",
-      "source": "Dev.to",
-      "author": "OLEKSII SHEPEL",
-      "published": "2026-01-03T12:34:14+00:00",
-      "niche": "dev",
-      "score": 72,
-      "keywords": [
-        "library"
-      ]
-    },
-    {
-      "id": "25cbbff86d3f600d",
-      "title": "Demystifying ReAct: Why Reasoning and Acting is the Standard for LLM Agents",
-      "description": "The ReAct (Reasoning and Acting) framework has become the de facto standard for building LLM agents in recent years. ReAct: Synergizing Reasoning and Acting in Language Models Shunyu Yao, Jeffrey Zhao, Dian Yu, Nan Du, Izhak Shafran, Karthik Narasimhan, Yuan Cao Since the paper was published in 2022, it has been abstracted by libraries like LangChain and is increasingly used as a black box. This is a summary I put together as part of my LangChain studies. Rough Summary of the Paper Abstract Prop",
-      "url": "https://dev.to/4484ho/demystifying-react-why-reasoning-and-acting-is-the-standard-for-llm-agents-1ii6",
-      "source": "Dev.to",
-      "author": "4484-ho",
-      "published": "2026-01-03T12:19:24+00:00",
-      "niche": "dev",
-      "score": 72,
-      "keywords": [
-        "framework"
-      ]
-    },
-    {
-      "id": "ac78915d95d05da8",
-      "title": "Stop Building Backends for Simple Data Handoffs: Meet React State Warp",
-      "description": "The \"Cross-Device\" Problem Have you ever been building a web application—maybe a registration form or an admin panel—and hit this specific roadblock? The user needs to upload a photo, scan a document, or sign a canvas using their phone, but they are currently working on their desktop. Usually, the \"engineering\" solution to this is surprisingly heavy: Build an API endpoint to receive the file. Set up a database or S3 bucket to store it temporarily. Force the user to log in on their mobile device.",
-      "url": "https://dev.to/rezakh80/stop-building-backends-for-simple-data-handoffs-meet-react-state-warp-4724",
-      "source": "Dev.to",
-      "author": "Reza Kheradmandi",
-      "published": "2026-01-03T12:12:01+00:00",
-      "niche": "dev",
-      "score": 72,
-      "keywords": [
         "API"
       ]
     },
@@ -709,6 +667,18 @@
       "source": "Dev.to",
       "author": "Sravesh Nandan",
       "published": "2026-01-10T01:32:37+00:00",
+      "niche": "dev",
+      "score": 68,
+      "keywords": []
+    },
+    {
+      "id": "857b1491ea6f0569",
+      "title": "ReactJS Design Pattern ~Compound Component Pattern~",
+      "description": "・Compound Component pattern allows you to create a set of components that work together but can be composed in different ways. This pattern provides flexibility by letting users arrange sub-components in different orders while maintaining the overall functionality. import { createContext, useContext } from \"react\"; const PostContext = createContext(); const usePost = () => { const post = useContext(PostContext); return post; }; function PostCard({ post, children }) { return <PostContext.Provider",
+      "url": "https://dev.to/kkr0423/reactjs-design-pattern-compound-component-pattern-5220",
+      "source": "Dev.to",
+      "author": "Ogasawara Kakeru",
+      "published": "2026-01-10T12:03:29+00:00",
       "niche": "dev",
       "score": 68,
       "keywords": []
@@ -1660,36 +1630,6 @@
         "developer",
         "code",
         "API"
-      ]
-    },
-    {
-      "id": "23041ce69e479442",
-      "title": "Best LEED Consultants in Singapore",
-      "description": "Singapore is one of Asia’s most mature and highly regulated construction markets, with strong national frameworks such as BCA Green Mark, strict energy codes, and a well-developed sustainability ecosystem. Despite this, LEED (Leadership in Energy and Environmental Design) remains highly relevant for multinational headquarters, international investors, data centres, life-science facilities, and global real estate portfolios operating in Singapore. In practice, LEED projects in Singapore are rarel",
-      "url": "https://dev.to/vietleed/best-leed-consultants-in-singapore-2m0f",
-      "source": "Dev.to",
-      "author": "Viet LEED",
-      "published": "2026-01-03T12:17:50+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "framework",
-        "code"
-      ]
-    },
-    {
-      "id": "1f902ab06273e8ce",
-      "title": "I \"Vibe Coded\" a real-time meme coins tracker with Antigravity",
-      "description": "I’ve been a software engineer for 9 years, and usually, when I want to build a side project, I overthink the architecture. But for my crypto trading, I didn't need a complex engine with WebSockets and heavy dashboards. I just needed a simple way to track prices and handle my buys/sells via APIs. I decided to try Google Antigravity to see if I could build a \"lite\" tool purely by focusing on the workflow. Since it was just for me, I didn't want a login system or a database. I just wanted to \"vibe\"",
-      "url": "https://dev.to/frodoe7/i-vibe-coded-a-real-time-meme-coins-tracker-with-antigravity-okg",
-      "source": "Dev.to",
-      "author": "Ahmed Mohsen",
-      "published": "2026-01-03T12:17:07+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "API",
-        "code"
       ]
     },
     {
@@ -3138,16 +3078,31 @@
       ]
     },
     {
-      "id": "6e1a410e429f5dae",
-      "title": "5 Critical Lessons from 3.5 Years of Odoo",
-      "description": "I've learned that successful ERP implementation is way more than just writing code. It's about understanding business, managing expectations, and building systems that people actually want to use. Here are the lessons that shaped my approach to Odoo development: Understand the Business First, Code Later This was my biggest realization early on. I used to jump straight into customization—building modules before really understanding what the client actually needed. What changed: Before touching co",
-      "url": "https://dev.to/zdev_/5-critical-lessons-from-35-years-of-odoo-implementation-16j5",
+      "id": "db8201d10821774b",
+      "title": "What I Wish I Knew Before Deploying My First Backend Application.",
+      "description": "When I wrote my first backend application, I thought the hard part was over once the API worked locally. The endpoints responded, tests passed, and everything felt done. Deployment proved me wrong. Getting an application to run reliably on a server was a completely different challenge—one that I underestimated at the beginning. Looking back, there are a few lessons I wish I had learned earlier that would have saved me a lot of time and frustration. This post is a reflection on those early mistak",
+      "url": "https://dev.to/juweria_/what-i-wish-i-knew-before-deploying-my-first-backend-application-e07",
       "source": "Dev.to",
-      "author": "Deva ZIkrullah",
-      "published": "2026-01-03T12:43:25+00:00",
+      "author": "juweria mohamood",
+      "published": "2026-01-10T12:02:18+00:00",
       "niche": "dev",
-      "score": 52,
+      "score": 54,
       "keywords": [
+        "API"
+      ]
+    },
+    {
+      "id": "85c056ad83c95747",
+      "title": "# Why Version Control Exists: The Pendrive Problem",
+      "description": "Before Git, GitHub, and modern tools, developers still wrote code — but the way they managed it was painful. This blog explains why version control exists, using a very relatable story: the pendrive problem. If you understand this problem, you’ll instantly understand why version control systems became mandatory in software development. Life Before Version Control Once upon a time (not very long ago), developers managed code using: Pendrives Emails Shared folders File names like: final.zip final_",
+      "url": "https://dev.to/saiyam_gupta_62406f4f4a63/-why-version-control-exists-the-pendrive-problem-34do",
+      "source": "Dev.to",
+      "author": "saiyam gupta",
+      "published": "2026-01-10T12:00:40+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "developer",
         "development",
         "code"
       ]
@@ -3543,31 +3498,18 @@
       ]
     },
     {
-      "id": "0ab371260a9fb8fe",
-      "title": "Quark's Outlines: Python Files",
-      "description": "Quark's Outlines: Python Files Overview, Historical Timeline, Problems & Solutions An Overview of Python Files What is a Python file? You use Python files to read, write, or process data stored on disk. A Python file object connects your code to an open file. This object wraps a system file handle and gives you a way to work with text or binary data. When you open a file, Python gives you a file object. You can use that object to read contents, write new data, or move through the file. When you ",
-      "url": "https://dev.to/mike-vincent/quarks-outlines-python-files-2nlm",
+      "id": "5e16b9e2773a9381",
+      "title": "How to Build an AI Customer Support System with AWS Bedrock Guardrails (Complete Tutorial + Free Code)",
+      "description": "Quick Summary: Built an AI system that sorts 500+ daily support tickets automatically. Went from 4 hours daily sorting to 10 minutes reviewing. 95% accuracy, $9/month cost, protects customer privacy. Full code included. The Problem Monday morning: 347 unread support tickets. Urgent payment issues buried in password reset requests. Spending 3+ hours daily just figuring out priorities. Solution: AI that reads tickets, categorizes them, and protects sensitive data automatically. What I Built Simple",
+      "url": "https://dev.to/awslearnerdaily/how-to-build-an-ai-customer-support-system-with-aws-bedrock-guardrails-complete-tutorial-free-2p5m",
       "source": "Dev.to",
-      "author": "Mike Vincent",
-      "published": "2026-01-03T12:11:44+00:00",
+      "author": "Utkarsh Rastogi",
+      "published": "2026-01-10T12:19:28+00:00",
       "niche": "dev",
-      "score": 51,
+      "score": 52,
       "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "f46e5ae5ba27ee06",
-      "title": "How to Prevent AI Agents from Draining Crypto Wallets",
-      "description": "Autonomous AI agents need wallet access to make payments, but unrestricted signing power creates catastrophic risk. A single bug, prompt injection, or malicious code change can drain entire treasuries in seconds. This guide covers the security architecture needed to safely give AI agents payment capabilities without unlimited access to funds. The Problem: Unrestricted Agent Wallet Access When you give an AI agent direct access to a crypto wallet, you're handing over complete signing authority. T",
-      "url": "https://dev.to/l_x_1/how-to-prevent-ai-agents-from-draining-crypto-wallets-3cci",
-      "source": "Dev.to",
-      "author": "L_X_1",
-      "published": "2026-01-03T12:10:44+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
+        "code",
+        "tutorial"
       ]
     },
     {
@@ -5139,28 +5081,18 @@
       ]
     },
     {
-      "id": "c6cb62068a80c8e2",
-      "title": "Stop Writing Shell Scripts for Container Health Checks",
-      "description": "It started as one of those “this will take 30 seconds” moments. We ship a container that includes a tiny helper binary — something we compile in a builder stage and COPY into the runtime image. Think: config-render, migrate-db, probe, whatever your service depends on at startup. I just wanted to make sure the image really contained the helper I thought it contained, so I added: RUN config-render --version Green build. Ship it. Done. ..until a pipeline failed later with an error that told me basi",
-      "url": "https://dev.to/v3rtti/stop-writing-shell-scripts-for-container-health-checks-4pif",
+      "id": "e668c90a87522e9e",
+      "title": "Today I Truly Understood Custom Hooks (And Built My Own)",
+      "description": "Today felt different. Not because I learned a new React feature, but because I leveled up how I think about code structure. Today, I didn’t just write components. I started building my own hooks. And that changed everything. The Moment I Realized My Components Were Getting Messy While working on my project, I noticed a pattern: Keyboard logic in one component LocalStorage logic in another Movie fetching logic somewhere else Lots of useEffect, lots of repeated patterns Everything worked… But ever",
+      "url": "https://dev.to/usama_dev/today-i-truly-understood-custom-hooks-and-built-my-own-dah",
       "source": "Dev.to",
-      "author": "Janne Sinivirta",
-      "published": "2026-01-03T12:16:02+00:00",
+      "author": "Usama",
+      "published": "2026-01-10T12:43:50+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "62a0c9a9945f48fb",
-      "title": "DevOps Tooling Masterclass: Why It’s Not Optional to Learn YAML? 🤔",
-      "description": "(And yes! This is part of the \"DevOps Tooling Masterclass\" series. If you're new here, go check out the previous blog in the series first) Hey Dev Community! Welcome! Part 1 — Executive summary YAML is the de facto configuration language across modern DevOps and cloud-native tooling: Kubernetes manifests, Helm charts, GitHub Actions, GitLab CI, Ansible playbooks, Docker Compose, and many operator/CRD definitions. This masterclass explains why YAML matters, common pitfalls, practical tooling, val",
-      "url": "https://dev.to/javadinteger/devops-tooling-masterclass-why-its-not-optional-to-learn-yaml-57ag",
-      "source": "Dev.to",
-      "author": "Javad",
-      "published": "2026-01-03T12:13:49+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "59c39a2fc0d54b16",
@@ -8021,6 +7953,66 @@
       "keywords": []
     },
     {
+      "id": "ce22118576e1bb91",
+      "title": "Build Your Own iMessage AI Bot in Minutes with blooio",
+      "description": "Try msg.new - Then Build Your Own Want to see what's possible? Text msg.new right now and chat with an AI via iMessage. It responds like a real person—complete with typing indicators, read receipts, and natural multi-message replies. msg.new is a proof of concept we built to showcase what you can create with Blooio. The entire workflow is open source, running on n8n, so you can deploy your own iMessage bot in minutes. Why Build iMessage Bots with Blooio? Building iMessage bots has traditionally ",
+      "url": "https://dev.to/blooio/build-your-own-imessage-ai-bot-in-minutes-with-msgnew-26b3",
+      "source": "Dev.to",
+      "author": "David Harvey",
+      "published": "2026-01-10T12:30:05+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "48f0d5100f48e96e",
+      "title": "HarisLab Connect: Manage Website Forms, Feedback, Newsletters & Subscribers Effortlessly 🚀",
+      "description": "If you’ve ever struggled with managing contact forms, feedback, or newsletter subscribers on your website, you know it can get messy. You might be juggling multiple plugins, manual email lists, or coding custom solutions — all of which are time-consuming. That’s why I built HarisLab Connect: a simple, unified dashboard to handle all your website communication in one place. What It Does Embed contact forms, feedback forms, and newsletter subscription forms — no coding required. Collect submission",
+      "url": "https://dev.to/haris18/harislab-connect-manage-website-forms-feedback-newsletters-subscribers-effortlessly-4ic9",
+      "source": "Dev.to",
+      "author": "Muhammad Haris",
+      "published": "2026-01-10T12:19:28+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "27e7c0148c629191",
+      "title": "Quark's Outlines: Python Arithmetic Conversions",
+      "description": "Quark's Outlines: Python Arithmetic Conversions Overview, Historical Timeline, Problems & Solutions An Overview of Python Arithmetic Conversions What are Python arithmetic conversions? When you use math symbols like +, -, or * in Python, Python tries to make sure both sides of the math are the same type before it does the work. This is called arithmetic conversion. Python checks the types of your values. If they are not the same type, Python converts them. This helps make sure the math works rig",
+      "url": "https://dev.to/mike-vincent/quarks-outlines-python-arithmetic-conversions-1ce",
+      "source": "Dev.to",
+      "author": "Mike Vincent",
+      "published": "2026-01-10T12:11:31+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "f70119f9bea37ff4",
+      "title": "Building a Production Web Scraper: A Real-World Case Study",
+      "description": "Building a web scraper that works on your laptop is easy. Making it reliable in production is hard. Here's how I used domharvest-playwright to build a scraper that's been running smoothly for months. The Challenge Goal: Scrape product listings from an e-commerce site daily Volume: ~10,000 products Requirements: Run daily at 2 AM UTC Handle pagination (200+ pages) Detect and skip unchanged products Alert on failures Store results in PostgreSQL Why domharvest-playwright? I evaluated several option",
+      "url": "https://dev.to/domharvest/building-a-production-web-scraper-a-real-world-case-study-46jf",
+      "source": "Dev.to",
+      "author": "Max B.",
+      "published": "2026-01-10T12:01:11+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "b9ee2bab6f95ac16",
+      "title": "The Cosmic Junkyard",
+      "description": "Look up at the night sky, and you might spot a satellite streaking across the darkness. What you won't see is the invisible minefield surrounding our planet: more than 28,000 tracked objects hurtling through orbit at speeds exceeding 28,000 kilometres per hour, according to the European Space Agency. This orbital debris population includes defunct satellites, spent rocket stages, fragments from explosions, and the shrapnel from collisions that happened decades ago. They're still up there, circli",
+      "url": "https://dev.to/rawveg/the-cosmic-junkyard-6mo",
+      "source": "Dev.to",
+      "author": "Tim Green",
+      "published": "2026-01-10T12:00:00+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "6b078f8a0818c9b2",
       "title": "Cool Article on API Tools!! https://medium.com/@somendradev23/10-api-tools-every-full-stack-developer-should-know-6f9af40ae0ec",
       "description": "medium.com",
@@ -8303,54 +8295,6 @@
       "keywords": [
         "developer"
       ]
-    },
-    {
-      "id": "41e6cbe789317409",
-      "title": "Tally – A tool to help agents classify your bank transactions",
-      "description": "Comments",
-      "url": "https://tallyai.money/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-03T11:02:33+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "0fb47a737d54e438",
-      "title": "Not for Human Consumption",
-      "description": "Comments",
-      "url": "https://vectorculture.substack.com/p/not-for-human-consumption",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-03T11:26:59+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "ea3ea72a7bd3956b",
-      "title": "X-Clacks-Overhead",
-      "description": "Comments",
-      "url": "https://hleb.dev/post/x-clacks-overhead/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-03T11:37:07+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "7753ea920af192fe",
-      "title": "Profiling with Ctrl-C (2024)",
-      "description": "Comments",
-      "url": "https://yosefk.com/blog/profiling-with-ctrl-c.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-03T11:13:48+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "88b6a9074b01dc8a",
@@ -10249,6 +10193,18 @@
       "keywords": []
     },
     {
+      "id": "276b446c312d4886",
+      "title": "I got paid minimum wage to solve an impossible problem",
+      "description": "Comments",
+      "url": "https://tiespetersen.substack.com/p/i-got-paid-minimum-wage-to-solve",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-10T10:53:28+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "8b5f25c1055ea864",
       "title": "How to Create a Pixel-to-Voxel Video Drop Effect with Three.js and Rapier",
       "description": "A tutorial showing how video pixels are voxelized in 3D and dropped into a physics-driven world using Three.js, shaders, and Rapier.",
@@ -10302,8 +10258,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "performance",
-        "React 19"
+        "React 19",
+        "performance"
       ]
     },
     {
@@ -10345,9 +10301,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "code",
+        "release",
         "performance",
-        "release"
+        "code"
       ]
     },
     {
@@ -10361,9 +10317,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "release",
         "API",
-        "developer"
+        "developer",
+        "release"
       ]
     },
     {
@@ -10377,9 +10333,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "performance",
         "developer",
-        "release"
+        "release",
+        "performance"
       ]
     },
     {
@@ -10419,18 +10375,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "aeaf30e354bc6927",
-      "title": "Recursive Language Models",
-      "description": "Comments",
-      "url": "https://arxiv.org/abs/2512.24601",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-03T11:29:33+00:00",
-      "niche": "dev",
-      "score": 38,
-      "keywords": []
     },
     {
       "id": "069f900706382137",
@@ -10587,9 +10531,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "release",
         "API",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10631,8 +10575,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10646,8 +10590,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10866,11 +10810,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "release",
-        "framework",
-        "API",
         "code",
-        "performance"
+        "API",
+        "release",
+        "performance",
+        "framework"
       ]
     },
     {
@@ -11184,8 +11128,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "API"
+        "API",
+        "release"
       ]
     },
     {
@@ -11214,9 +11158,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "code",
+        "release",
         "development",
-        "release"
+        "code"
       ]
     },
     {
@@ -11230,9 +11174,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
+        "developer",
         "code",
-        "performance",
-        "developer"
+        "performance"
       ]
     },
     {
@@ -11261,8 +11205,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "code",
-        "release"
+        "release",
+        "code"
       ]
     },
     {
@@ -11276,8 +11220,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
-        "developer"
+        "developer",
+        "release"
       ]
     },
     {
@@ -11362,9 +11306,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "development",
         "API",
-        "developer"
+        "developer",
+        "development"
       ]
     },
     {
@@ -11378,8 +11322,8 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "development",
         "PHP",
+        "development",
         "tutorial"
       ]
     },
@@ -11394,8 +11338,8 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "development",
         "PHP",
+        "development",
         "tutorial"
       ]
     },
@@ -11410,8 +11354,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "code",
-        "API"
+        "API",
+        "code"
       ]
     },
     {
@@ -11703,6 +11647,30 @@
       "keywords": []
     },
     {
+      "id": "fa789d70da703fd8",
+      "title": "Diving into Qualcomm's Upcoming Adreno X2 GPU with Eric Demers",
+      "description": "Comments",
+      "url": "https://chipsandcheese.com/p/diving-into-qualcomms-upcoming-adreno",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-05T11:10:08+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "c28f6a3359beb2ee",
+      "title": "Ask HN: What's a standard way for apps to request text completion as a service?",
+      "description": "Comments",
+      "url": "https://news.ycombinator.com/item?id=46506261",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-05T22:51:14+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
       "id": "d6bac23517ce8c3d",
       "title": "Documents: The architect’s programming language",
       "description": "Senior developers know how to deploy code to systems made of code. Architects know how to deploy ideas to systems made of people.",
@@ -11713,8 +11681,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "code",
         "developer",
+        "code",
         "programming"
       ]
     },
