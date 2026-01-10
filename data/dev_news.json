@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-10T12:51:16.374207+00:00",
-  "total_articles": 983,
+  "last_updated": "2026-01-10T15:25:10.589425+00:00",
+  "total_articles": 989,
   "articles": [
     {
       "id": "3edc46ac3aa3698f",
@@ -1028,6 +1028,18 @@
       "keywords": [
         "TypeScript 5"
       ]
+    },
+    {
+      "id": "7a1740d3e1bd9641",
+      "title": "Show HN: Hosting 100 Linux dev environments on one VM using LXC",
+      "description": "Comments",
+      "url": "https://github.com/FootprintAI/Containarium",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-10T14:42:02+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": []
     },
     {
       "id": "b647de6a55849a53",
@@ -2158,34 +2170,6 @@
       ]
     },
     {
-      "id": "9c0bb1f5512e2745",
-      "title": "Deep Dive into QuantMesh Core Implementation: Technical Architecture of a High-Performance Grid Trading System",
-      "description": "This article provides an in-depth exploration of the core technical implementation of QuantMesh grid trading system, covering architecture design, concurrency models, state management, and risk control mechanisms—a comprehensive guide to building a high-performance quantitative trading system. Introduction QuantMesh is a high-performance, low-latency cryptocurrency market-making system built with Go, focused on grid trading strategies for perpetual futures markets. After real-world trading valid",
-      "url": "https://dev.to/ghostsworm/deep-dive-into-quantmesh-core-implementation-technical-architecture-of-a-high-performance-grid-248g",
-      "source": "Dev.to",
-      "author": "ghostsworm",
-      "published": "2026-01-03T14:51:02+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "performance"
-      ]
-    },
-    {
-      "id": "3a94311181d1b2bd",
-      "title": "Install Percona Server for MySQL on Rocky Linux 10",
-      "description": "Percona Percona Server is a drop-in replacement for MySQL that focuses on performance, reliability, and enterprise-grade features. This guide explains how to set up Percona Server on Rocky Linux 10 for a stable database environment. For the full installation and configuration guide: Learn more",
-      "url": "https://dev.to/ramankumar/install-percona-server-for-mysql-on-rocky-linux-10-1fkg",
-      "source": "Dev.to",
-      "author": "Raman Kumar",
-      "published": "2026-01-03T14:43:58+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "performance"
-      ]
-    },
-    {
       "id": "91858f591cefe8bf",
       "title": "Starlight Part 4: Democratizing the Constellation — The Visual Sentinel Editor",
       "description": "In Part 3: The Autonomous Era, we explored how Starlight v3.0 runs hands-free in CI/CD pipelines. But there was still one barrier: creating custom Sentinels required Python programming skills. Not anymore. Starlight v3.0.3 introduces the Visual Sentinel Editor—a no-code UI that lets anyone build a custom Sentinel in under a minute. 🛠️ The Visual Sentinel Editor Imagine you're testing an e-commerce site. Every few months, they change their cookie consent banner. Your tests fail. Your developers g",
@@ -3108,6 +3092,34 @@
       ]
     },
     {
+      "id": "f672c115fa03d481",
+      "title": "I Built a Tool Because I Was Tired of Guessing Database Schemas",
+      "description": "Every time I join a new backend project, the first question is never about APIs. It’s always: “How does the database actually work?” And the answers are usually: “Check the migrations” “Look at the ORM models” “Ask X, they know the schema” Which really means: 👉 Figure it out yourself. The Real Problem With Database Schemas Most databases fail at three things: Understanding relationships quickly Keeping diagrams updated Explaining intent (why tables exist) Even well-written schemas become hard to",
+      "url": "https://dev.to/rushikesh_bodakhe_db28644/i-built-a-tool-because-i-was-tired-of-guessing-database-schemas-25n7",
+      "source": "Dev.to",
+      "author": "Rushikesh Bodakhe",
+      "published": "2026-01-10T15:19:41+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "API"
+      ]
+    },
+    {
+      "id": "541e571f9999f0c7",
+      "title": "Handling PayPal API Authentication the .NET Way",
+      "description": "This is the first post in a two-part series where I share my insights on the PayPal API and C#/.NET: Part I covers proper HTTP request authentication for the PayPal API Part II will demonstrate building ASP.NET Core endpoints that accept PayPal webhooks, verifying their integrity and why that matters Disclaimer AI was used to refine phrasing, correct errors, and structure the content. The technical content and implementation were created entirely by me. Prerequisites This post won't cover settin",
+      "url": "https://dev.to/peterwurzinger/handling-paypal-api-authentication-the-net-way-2f6p",
+      "source": "Dev.to",
+      "author": "Peter Wurzinger",
+      "published": "2026-01-10T15:00:00+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "API"
+      ]
+    },
+    {
       "id": "8fcf4c04b2c1bf10",
       "title": "🍀 Beginner-Friendly Guide 'Four Divisors' – LeetCode 1390 (C++, Python, JavaScript)",
       "description": "Finding the divisors of a number is a classic math problem that pops up frequently in competitive programming. This specific challenge asks us to filter a list of numbers based on a very strict mathematical property: having exactly four divisors. Problem Summary You're given: An array of integers called nums. Your goal: Identify every number in the array that has exactly four divisors. Calculate the sum of all divisors for those specific numbers and return the total sum. Intuition To solve this ",
@@ -3510,48 +3522,6 @@
       "keywords": [
         "code",
         "tutorial"
-      ]
-    },
-    {
-      "id": "ce6f666bdbccd6e0",
-      "title": "Install Typesense on AlmaLinux 10",
-      "description": "Typesense Typesense is an open-source, lightning-fast search engine designed for instant, typo-tolerant search experiences. This guide covers the installation and configuration of Typesense on AlmaLinux 10 for a clean, production-ready setup. For the complete tutorial with full steps, commands, configuration, and screenshots: Learn more",
-      "url": "https://dev.to/ramankumar/install-typesense-on-almalinux-10-5bab",
-      "source": "Dev.to",
-      "author": "Raman Kumar",
-      "published": "2026-01-03T14:51:10+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "tutorial"
-      ]
-    },
-    {
-      "id": "24b35b183879bdd7",
-      "title": "How to Install Umami Analytics on AlmaLinux 10",
-      "description": "Umami Umami Analytics is a lightweight, privacy-friendly, open-source analytics platform that lets you track website traffic without compromising user privacy. This guide walks through installing and configuring Umami Analytics on AlmaLinux 10. For the complete tutorial with full steps, commands, configuration, and screenshots: Learn more",
-      "url": "https://dev.to/ramankumar/how-to-install-umami-analytics-on-almalinux-10-1hn9",
-      "source": "Dev.to",
-      "author": "Raman Kumar",
-      "published": "2026-01-03T14:49:14+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "tutorial"
-      ]
-    },
-    {
-      "id": "4bc14f501c9b41a1",
-      "title": "IQuest-Coder: A new open-source code model beats Claude Sonnet 4.5 and GPT 5.1 [pdf]",
-      "description": "I've been exploring the fascinating world of AI and machine learning for quite some time, and let me tell you, it feels like every week there’s a new player in the field shaking things up. Recently, I stumbled upon a buzz around IQuest-Coder—a new open-source code model that's reportedly outpacing giants like Claude Sonnet 4.5 and GPT 5.1. You can imagine my excitement! I mean, who wouldn’t want to see an underdog taking down the titans of tech? A Quick Dive into IQuest-Coder I first heard about",
-      "url": "https://dev.to/technoblogger14o3/iquest-coder-a-new-open-source-code-model-beats-claude-sonnet-45-and-gpt-51-pdf-4765",
-      "source": "Dev.to",
-      "author": "Aman Shekhar",
-      "published": "2026-01-03T14:42:41+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
       ]
     },
     {
@@ -5095,64 +5065,32 @@
       ]
     },
     {
-      "id": "59c39a2fc0d54b16",
-      "title": "->> Day-14 Host A Static Website in AWS S3 And CloudFront (using terraform)",
-      "description": "Introduction: This mini project demonstrates how to deploy a static website on AWS using Terraform. We'll create a complete static website hosting solution using S3 for storage and CloudFront for global content delivery. The Problem with Public S3 Websites? Hosting a static website directly from S3 by enabling public access has multiple issues: Security risk: Anyone can access your bucket if misconfigured Higher latency: Users far from the bucket region experience slower loads No fine-grained ac",
-      "url": "https://dev.to/amit_kumar_7db8e36a64dd45/-day-14-host-a-static-website-in-aws-s3-and-cloudfront-using-terraform-5ffj",
+      "id": "df994d946b89ab98",
+      "title": "Getting Started with 2D Games Using Pyxel (Part 7): Control the Character",
+      "description": "Control the Character In this chapter, we detect the timing when the Space key is pressed and implement logic to flip the player’s movement direction left and right. This gives a stronger sense that you are directly controlling the player. The complete code is shown at the end of this chapter. 1. Add a Method to Flip Left and Right First, set the player’s initial movement direction. In the constructor of the Game class, make the player move either to the right (0 degrees) or to the left (180 deg",
+      "url": "https://dev.to/sdkfz181tiger/getting-started-with-2d-games-using-pyxel-part-7-control-the-character-3kdj",
       "source": "Dev.to",
-      "author": "Amit Kushwaha",
-      "published": "2026-01-03T14:59:07+00:00",
+      "author": "Kajiru",
+      "published": "2026-01-10T15:00:00+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
-      "id": "c3f5f18bf5c68e1e",
-      "title": "ZoeDepth: Zero-shot Transfer by Combining Relative and Metric Depth",
-      "description": "ZoeDepth: Better Depth from a Single Photo for Any Scene Imagine your phone guessing how far things are in a photo, both near and far, accurately. That's what ZoeDepth does by mixing two ways of learning depth: one that cares about scale and one that cares about relative shape. The system learns from many pictures, then it fine-tunes to keep real-world size, so results look right in both rooms and streets. A smart part inside picks which tiny specialist to use for each image, so every photo gets",
-      "url": "https://dev.to/paperium/zoedepth-zero-shot-transfer-by-combining-relative-and-metric-depth-5e32",
+      "id": "3c3d93a9e0cf3d78",
+      "title": "MySQL backup and restore — Complete guide to MySQL database backup strategies in 2026",
+      "description": "MySQL remains one of the most popular relational databases in the world, powering millions of applications from small websites to enterprise systems. Whether you're running a WordPress blog, an e-commerce platform, or a financial application, protecting your MySQL data is critical. In this comprehensive guide, we'll explore proven backup strategies, restoration techniques and best practices that work in 2026. Why MySQL backup matters Data loss can happen at any moment due to hardware failures, h",
+      "url": "https://dev.to/piteradyson/mysql-backup-and-restore-complete-guide-to-mysql-database-backup-strategies-in-2026-4cdk",
       "source": "Dev.to",
-      "author": "Paperium",
-      "published": "2026-01-03T14:50:11+00:00",
+      "author": "Piter Adyson",
+      "published": "2026-01-10T14:23:13+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "89b0dc00ad393787",
-      "title": "Install and Secure MongoDB on Rocky Linux 10",
-      "description": "MongoDB MongoDB is a widely used document database designed for scalable applications. This guide walks through setting up MongoDB on Rocky Linux 10 and applying essential security measures for a safer deployment. For the full step-by-step installation and security guide: Learn more",
-      "url": "https://dev.to/ramankumar/install-and-secure-mongodb-on-rocky-linux-10-50bb",
-      "source": "Dev.to",
-      "author": "Raman Kumar",
-      "published": "2026-01-03T14:47:12+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "d92fb82b4af1a040",
-      "title": "Install ProFTPD Server on Rocky Linux 10",
-      "description": "ProFTPD ProFTPD provides a powerful and configurable FTP service for managing file transfers on Linux servers. This guide introduces the process of getting ProFTPD running on Rocky Linux 10 for reliable and controlled data exchange. For the full installation and configuration instructions: Learn more",
-      "url": "https://dev.to/ramankumar/install-proftpd-server-on-rocky-linux-10-5h71",
-      "source": "Dev.to",
-      "author": "Raman Kumar",
-      "published": "2026-01-03T14:45:42+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "493e85c72123b0ce",
-      "title": "Day17: The Right Data at the Right Time: Daily and Monthly Reporting in Hybrid Cloud FinOps",
-      "description": "In today’s world of hybrid IT, where cloud-based systems coexist with on-prem systems, knowledge of cost and usage patterns has become imperative, rather than desirable. The biggest issue that I see is that teams struggle with their data, in the sense that they begin to view the same data differently, or view the data at the wrong times. This is where daily reporting, as well as monthly reporting, becomes key in FinOps. Daily Report – (Cloud & On-Prem) Shows what is happening today across cloud ",
-      "url": "https://dev.to/ibbus/day17-the-right-data-at-the-right-time-daily-and-monthly-reporting-in-hybrid-cloud-finops-9k6",
-      "source": "Dev.to",
-      "author": "Ibrahim S",
-      "published": "2026-01-03T14:43:45+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "best practices"
+      ]
     },
     {
       "id": "2692daa69d397045",
@@ -8013,6 +7951,78 @@
       "keywords": []
     },
     {
+      "id": "ab382cba3085892f",
+      "title": "Brass TS — Building an Effect Runtime in TypeScript (Part 4)",
+      "description": "A real HTTP client: retries, cancellation, streams, and pipelines TL;DR brass-http is not a fetch wrapper. It’s an effectful HTTP client built on top of a runtime with fibers, structured concurrency, and cancellation. In the previous parts, we built the foundations of an effect runtime inspired by ZIO: fibers and scheduling structured concurrency integration with the JavaScript ecosystem a ZIO-style HTTP client with real DX In this fourth part, I want to show what changes once HTTP is modeled as",
+      "url": "https://dev.to/baldrvivaldelli/brass-ts-building-an-effect-runtime-in-typescript-part-4-4c3o",
+      "source": "Dev.to",
+      "author": "Augusto Vivaldelli",
+      "published": "2026-01-10T15:23:34+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "291483a801b0f161",
+      "title": "Production-Grade Marketplace Backend",
+      "description": "Why marketplace backends fail after launch (and how to design for correctness) Most marketplace backends don’t fail because of missing features. They fail because inventory, money, and retries collide in production. If you’ve ever run a marketplace (B2B or B2C), some of these probably sound familiar: Inventory goes negative under load Orders get stuck in invalid states Retries silently create duplicates Invoices no longer match what customers paid A “maintenance mode” locks out admins during an ",
+      "url": "https://dev.to/youcef_0f32126ea2c824db1b/production-grade-marketplace-backend-9o7",
+      "source": "Dev.to",
+      "author": "youcef",
+      "published": "2026-01-10T15:22:25+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "ef51ae750a186caf",
+      "title": "Complete ESP32 Security Guide for IoT Devices",
+      "description": "The ESP32 has become one of the most popular microcontrollers for IoT projects. It is powerful, affordable, and packed with features like WiFi, Bluetooth, dual cores, and hardware accelerators. These same features that make ESP32 attractive also make it a common target for attacks. Many IoT devices built on ESP32 end up deployed in homes, offices, factories, and public spaces, often connected to the internet 24/7. Security is not optional anymore. A single vulnerable device can be used to spy on",
+      "url": "https://dev.to/sudoyasir/complete-esp32-security-guide-for-iot-devices-4c1g",
+      "source": "Dev.to",
+      "author": "Yasir Nawaz",
+      "published": "2026-01-10T14:37:49+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "4fbd7cc80c7b5176",
+      "title": "Lower Back Pop Stretch – Benefits, How It Works, and Safety Tips",
+      "description": "Lower back stiffness is a common issue caused by prolonged sitting, poor posture, stress, or lack of movement. One simple technique many people use for relief is the lower back pop stretch, often performed on the floor with knees bent and gentle rocking motions. What Is a Lower Back Pop? A “pop” or “crack” in the lower back usually comes from gas bubbles releasing within the spinal joints, a process called cavitation. This is generally harmless and can feel relieving, though the goal of the stre",
+      "url": "https://dev.to/fitnesshubz/lower-back-pop-stretch-benefits-how-it-works-and-safety-tips-1e5d",
+      "source": "Dev.to",
+      "author": "FitnessHUbz",
+      "published": "2026-01-10T14:35:03+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "f5f60db2d58425bb",
+      "title": "This will be your last resume template",
+      "description": "What to Include in a Resume & What Not to Include – Avoiding Common Mistakes Important Links: Overleaf Link: https://github.com/Beingwizard/Overleaf-resume Overleaf: https://overleaf.com Wonsulting: https://wonsulting.com This topic is usually discussed very specifically for students. I’m doing my research for working professionals, but I’ll still say this format can be replicated — because it brings most of the essential items to the table. Note: I’m a big believer in standing out. So if you’re",
+      "url": "https://dev.to/beingwizard/this-will-be-your-last-resume-template-3ola",
+      "source": "Dev.to",
+      "author": "Lakshit Pant",
+      "published": "2026-01-10T14:29:57+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "fbc26555f53e1841",
+      "title": "Stop Re-running Everything: A Local Incremental Pipeline in DuckDB",
+      "description": "I love local-first data work… until I catch myself doing the same thing for the 12th time: “I changed one model. Better rerun the whole pipeline.” This post is a light walkthrough of a tiny project that fixes that habit using incremental models + cached DAG runs — all on your laptop with DuckDB. The example is a simplified, DuckDB-only version of the existing incremental_demo project. We’ll do three runs: seed v1 → initial build run again unchanged → mostly skipped seed v2 (update + new row) → i",
+      "url": "https://dev.to/markolekic/stop-re-running-everything-a-local-incremental-pipeline-in-duckdb-543p",
+      "source": "Dev.to",
+      "author": "Marko",
+      "published": "2026-01-10T14:26:38+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "6b078f8a0818c9b2",
       "title": "Cool Article on API Tools!! https://medium.com/@somendradev23/10-api-tools-every-full-stack-developer-should-know-6f9af40ae0ec",
       "description": "medium.com",
@@ -8295,18 +8305,6 @@
       "keywords": [
         "developer"
       ]
-    },
-    {
-      "id": "88b6a9074b01dc8a",
-      "title": "ParadeDB (YC S23) Is Hiring Database Engineers",
-      "description": "Comments",
-      "url": "https://paradedb.notion.site/?p=172ea4ce9deb80898ef5d5097bd65544&pm=s",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-03T13:53:34+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "a8d355edbe526609",
@@ -10205,6 +10203,66 @@
       "keywords": []
     },
     {
+      "id": "9fd6f855251e5392",
+      "title": "Allow me to introduce, the Citroen C15",
+      "description": "Comments",
+      "url": "https://eupolicy.social/@jmaris/115860595238097654",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-10T11:12:15+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "f9fba240d87cb096",
+      "title": "A Eulogy for Dark Sky, a Data Visualization Masterpiece (2023)",
+      "description": "Comments",
+      "url": "https://nightingaledvs.com/dark-sky-weather-data-viz/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-10T12:23:20+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "d97179589c4059ee",
+      "title": "New information extracted from Snowden PDFs through metadata version analysis",
+      "description": "Comments",
+      "url": "https://libroot.org/posts/going-through-snowden-documents-part-4/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-10T11:23:59+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "79982c00ef298e10",
+      "title": "UK government exempting itself from cyber law inspires little confidence",
+      "description": "Comments",
+      "url": "https://www.theregister.com/2026/01/10/csr_bill_analysis/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-10T13:51:27+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "cf4a5ba5887fb036",
+      "title": "NASA announces unprecedented return of sick ISS astronaut and crew",
+      "description": "Comments",
+      "url": "https://www.livescience.com/space/space-exploration/nasa-cancels-spacewalk-and-considers-early-crew-return-from-iss-due-to-medical-issues",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-10T13:44:21+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "8b5f25c1055ea864",
       "title": "How to Create a Pixel-to-Voxel Video Drop Effect with Three.js and Rapier",
       "description": "A tutorial showing how video pixels are voxelized in 3D and dropped into a physics-driven world using Three.js, shaders, and Rapier.",
@@ -10258,8 +10316,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "React 19",
-        "performance"
+        "performance",
+        "React 19"
       ]
     },
     {
@@ -10318,8 +10376,8 @@
       "score": 40,
       "keywords": [
         "API",
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -10333,9 +10391,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "developer",
         "release",
-        "performance"
+        "performance",
+        "developer"
       ]
     },
     {
@@ -10521,6 +10579,18 @@
       "keywords": []
     },
     {
+      "id": "43a1499b617a5872",
+      "title": "Org Mode Syntax Is One of the Most Reasonable Markup Languages to Use for Text",
+      "description": "Comments",
+      "url": "https://karl-voit.at/2017/09/23/orgmode-as-markup-only/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-10T09:15:30+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
       "id": "4e6d7290f5ff11d8",
       "title": "React Native 0.80 - React 19.1, JS API Changes, Freezing Legacy Arch and much more",
       "description": "Today we are excited to release React Native 0.80!",
@@ -10532,8 +10602,8 @@
       "score": 38,
       "keywords": [
         "API",
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -10575,8 +10645,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -10590,8 +10660,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -10732,6 +10802,18 @@
       "keywords": []
     },
     {
+      "id": "18edc4e714a11de3",
+      "title": "Httpz – Zero-Allocation HTTP/1.1 Parser for OxCaml",
+      "description": "Comments",
+      "url": "https://github.com/avsm/httpz",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-07T10:02:12+00:00",
+      "niche": "dev",
+      "score": 32,
+      "keywords": []
+    },
+    {
       "id": "1b2a7c177ebb44d3",
       "title": "WebGPU is now supported in major browsers",
       "description": "Read about the biggest web graphics launch since WebGL. WebGPU is supported across major browsers, bringing unparalleled performance to the web.",
@@ -10810,10 +10892,10 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "code",
         "API",
         "release",
         "performance",
+        "code",
         "framework"
       ]
     },
@@ -10956,18 +11038,6 @@
       "keywords": []
     },
     {
-      "id": "a1896084cb1570b7",
-      "title": "JavaScript's For-Of Loops Are Fast",
-      "description": "Comments",
-      "url": "https://waspdev.com/articles/2026-01-01/javascript-for-of-loops-are-actually-fast",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-03T14:51:07+00:00",
-      "niche": "dev",
-      "score": 26,
-      "keywords": []
-    },
-    {
       "id": "28b1d8d3179ea5d3",
       "title": "Show HN: Make audio loops online",
       "description": "Comments",
@@ -11011,6 +11081,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2026-01-08T19:55:27+00:00",
+      "niche": "dev",
+      "score": 26,
+      "keywords": []
+    },
+    {
+      "id": "ccb641762af90a9d",
+      "title": "Reverse Engineering the Epson FilmScan 200 for Classic Mac",
+      "description": "Comments",
+      "url": "https://ronangaillard.github.io/posts/reverse-engineering-epson-filmscan-200/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-03T08:26:52+00:00",
       "niche": "dev",
       "score": 26,
       "keywords": []
@@ -11158,8 +11240,8 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "release",
         "development",
+        "release",
         "code"
       ]
     },
@@ -11174,9 +11256,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "developer",
         "code",
-        "performance"
+        "performance",
+        "developer"
       ]
     },
     {
@@ -11220,8 +11302,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -11307,8 +11389,8 @@
       "score": 17,
       "keywords": [
         "API",
-        "developer",
-        "development"
+        "development",
+        "developer"
       ]
     },
     {
@@ -11322,8 +11404,8 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "PHP",
         "development",
+        "PHP",
         "tutorial"
       ]
     },
@@ -11338,8 +11420,8 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "PHP",
         "development",
+        "PHP",
         "tutorial"
       ]
     },
@@ -11441,18 +11523,6 @@
       "keywords": [
         "development"
       ]
-    },
-    {
-      "id": "c3da11ae8d15cefa",
-      "title": "Rust is beyond object-oriented, part 3: Inheritance (2023)",
-      "description": "Comments",
-      "url": "https://www.thecodedmessage.com/posts/oop-3-inheritance/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-03T14:15:11+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
     },
     {
       "id": "19eb5b711f168d06",
@@ -11681,9 +11751,9 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
+        "programming",
         "developer",
-        "code",
-        "programming"
+        "code"
       ]
     },
     {
