@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-10T15:25:10.589425+00:00",
-  "total_articles": 989,
+  "last_updated": "2026-01-10T18:35:59.821854+00:00",
+  "total_articles": 988,
   "articles": [
     {
       "id": "3edc46ac3aa3698f",
@@ -16,21 +16,6 @@
         "API",
         "Angular 18",
         "Angular"
-      ]
-    },
-    {
-      "id": "040ccdff916ce4f6",
-      "title": "Building a 3D Interactive Portfolio with React 19, Three.js, and a Gemini AI Agent",
-      "description": "About Me I am a Computer Engineering student at the Federal University of Alagoas (UFAL) in Brazil, with a unique background transitioning from Chemical Engineering. This shift gave me a rigorous analytical mindset that I now apply to software development and Data Science. I specialize in Computer Vision and Machine Learning, having recently won 1st place at the Microsoft AI Challenge II (2025). My goal with this portfolio was to move away from static templates and create an immersive experience",
-      "url": "https://dev.to/brieu/building-a-3d-interactive-portfolio-with-react-19-threejs-and-a-gemini-ai-agent-5efj",
-      "source": "Dev.to",
-      "author": "José Gabriel",
-      "published": "2026-01-03T18:05:12+00:00",
-      "niche": "dev",
-      "score": 81,
-      "keywords": [
-        "React 19",
-        "development"
       ]
     },
     {
@@ -2170,33 +2155,33 @@
       ]
     },
     {
-      "id": "91858f591cefe8bf",
-      "title": "Starlight Part 4: Democratizing the Constellation — The Visual Sentinel Editor",
-      "description": "In Part 3: The Autonomous Era, we explored how Starlight v3.0 runs hands-free in CI/CD pipelines. But there was still one barrier: creating custom Sentinels required Python programming skills. Not anymore. Starlight v3.0.3 introduces the Visual Sentinel Editor—a no-code UI that lets anyone build a custom Sentinel in under a minute. 🛠️ The Visual Sentinel Editor Imagine you're testing an e-commerce site. Every few months, they change their cookie consent banner. Your tests fail. Your developers g",
-      "url": "https://dev.to/godhirajcode/starlight-part-4-democratizing-the-constellation-the-visual-sentinel-editor-26j6",
+      "id": "4168f5f64d8ca821",
+      "title": "Designing APIs That Are Hard to Misuse",
+      "description": "Most backend bugs don’t happen because developers are careless. They happen because APIs are easy to misuse. If an API allows the wrong thing, someone will eventually do it — intentionally or not. Senior engineers know this, and they design APIs that guide correct usage and make incorrect usage difficult. This post is about how experienced engineers think when designing APIs that survive real-world use. The Core Principle: Assume Misuse, Not Malice When designing an API, don’t assume: consumers ",
+      "url": "https://dev.to/speaklouder/designing-apis-that-are-hard-to-misuse-5d6b",
       "source": "Dev.to",
-      "author": "Dhiraj Das",
-      "published": "2026-01-03T18:25:57+00:00",
+      "author": "Nilesh Raut",
+      "published": "2026-01-10T18:30:00+00:00",
       "niche": "dev",
-      "score": 54,
+      "score": 55,
       "keywords": [
-        "code",
-        "developer",
-        "programming"
+        "API",
+        "developer"
       ]
     },
     {
-      "id": "1aa7757544d1ea44",
-      "title": "Shopee Data Collection with API: What Data You Can and Cannot Access",
-      "description": "Shopee data collection is an essential process for developing in-depth business operations within the e-commerce industry. This article helps you gain a deeper understanding of the Shopee API (one of the most widely used Shopee data collection methods today), allowing you to identify the right data solution and enhance competitive strength in the e-commerce sector. What Is Shopee Data Collection? Shopee data collection refers to the process of gathering data from the Shopee platform through thre",
-      "url": "https://dev.to/easydata123/shopee-data-collection-with-api-what-data-you-can-and-cannot-access-4b1b",
+      "id": "184a17206f39c15b",
+      "title": "The Death of the Loop: Why Senior Data Scientists Think in Vectors",
+      "description": "In traditional software development, iteration is king. We are taught to think sequentially: take an item, process it, store the result, and move to the next. However, when we step into the realm of Big Data and Machine Learning, this linear approach becomes the bottleneck that kills performance. If you are processing 10 rows in a spreadsheet, a for loop is negligible. If you are training a model with 10 million financial records, a for loop is unacceptable. Today, we explore the concept of Vect",
+      "url": "https://dev.to/python_baires/the-death-of-the-loop-why-senior-data-scientists-think-in-vectors-41ej",
       "source": "Dev.to",
-      "author": "Easy Data",
-      "published": "2026-01-03T18:06:00+00:00",
+      "author": "Python Baires",
+      "published": "2026-01-10T18:25:50+00:00",
       "niche": "dev",
-      "score": 54,
+      "score": 55,
       "keywords": [
-        "API"
+        "development",
+        "performance"
       ]
     },
     {
@@ -3525,45 +3510,18 @@
       ]
     },
     {
-      "id": "28bbb65fb54f8a8b",
-      "title": "Ethereum-Solidity Quiz Q12: What does this sequence of opcodes do? PUSH1 0x80 / PUSH1 0x40 / MSTORE",
-      "description": "This sequence of opcodes initializes the free memory pointer. PUSH1 0x80 — Push the value 0x80 (which is 128 in decimal) onto the stack PUSH1 0x40 — Push the value 0x40 (which is 64 in decimal) onto the stack MSTORE — Store a value in memory MSTORE takes two arguments from the stack: an address and a value It writes the value to the memory location specified by the address Stack order (top to bottom): 0x40 (address), 0x80 (value) It writes 0x80 to memory location 0x40 This opcode sequence is tel",
-      "url": "https://dev.to/mihaihng/ethereum-solidity-quiz-q12-what-does-this-sequence-of-opcodes-dopush1-0x80push1-0x40mstore-1m26",
+      "id": "6aa3d37b0e4b54dc",
+      "title": "Inside the SQLite Frontend: Tokenizer, Parser, and Code Generator",
+      "description": "Hello, I'm Maneshwar. I'm working on FreeDevTools online currently building **one place for all dev tools, cheat codes, and TLDRs* — a free, open-source hub where developers can quickly find and use tools without any hassle of searching all over the internet.* In the previous post, I looked at SQLite’s overall architecture and how the system cleanly separates SQL compilation from execution. That high-level view introduced the frontend as the component responsible for transforming SQL text into e",
+      "url": "https://dev.to/lovestaco/inside-the-sqlite-frontend-tokenizer-parser-and-code-generator-3m4k",
       "source": "Dev.to",
-      "author": "MihaiHng",
-      "published": "2026-01-03T18:04:30+00:00",
+      "author": "Athreya aka Maneshwar",
+      "published": "2026-01-10T18:26:23+00:00",
       "niche": "dev",
-      "score": 51,
+      "score": 52,
       "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "a045f62c011a4a88",
-      "title": "RAG & Vector Databases - Efficient Retrieval Explained",
-      "description": "RAG & Vector Databases - Efficient Retrieval Explained Introduction In today's data-driven world, the ability to quickly and efficiently retrieve relevant information from vast datasets is more important than ever. RAG (Retrieval-Augmented Generation) and vector databases represent a cutting-edge approach to this challenge, leveraging the power of machine learning and similarity search to improve the speed and accuracy of data retrieval. This tutorial will dive deep into how to implement and uti",
-      "url": "https://dev.to/hkj13/rag-vector-databases-efficient-retrieval-explained-2ik9",
-      "source": "Dev.to",
-      "author": "Hemanath Kumar J",
-      "published": "2026-01-03T18:01:00+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "tutorial"
-      ]
-    },
-    {
-      "id": "b1f48f1807f4bf49",
-      "title": "The Fulcrum 02 January, 2026",
-      "description": "Welcome to this week's The Programmer's Fulcrum. FYI, this is our first one of 100% TPF curation. It's your weekly review of the essential news in the Open Media Network and Fediverse development communities with a focus on devastating big tech via Techno Anarchism. We aim to provide actionable content you can use to destroy Techno Feudalism each week. IMHO, the best way to do that is to use tools from the Techno Anarchist Manifesto to build your own site(s) to participate in the Open Media Netw",
-      "url": "https://dev.to/reubenwalker64/the-fulcrum-02-january-2026-4flc",
-      "source": "Dev.to",
-      "author": "Reuben Walker, Jr.",
-      "published": "2026-01-03T18:00:59+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "development"
+        "code",
+        "developer"
       ]
     },
     {
@@ -5093,52 +5051,32 @@
       ]
     },
     {
-      "id": "2692daa69d397045",
-      "title": "Starlight Part 3: The Autonomous Era — Headless CI/CD and Mutation Fingerprinting",
-      "description": "In Part 2: Mission Control, we explored the visual dashboard that lets you monitor the Starlight constellation in real-time. But in practice, most enterprise automation runs in CI/CD pipelines, headless, in the background. This is Starlight v3.0: The Autonomous Era. We've moved beyond visibility. The constellation can now sense its environment and run without human intervention. 🧬 Stability Sensing: Knowing When the Page is Ready The upgraded Starlight Mission Control — Visualizing stability in ",
-      "url": "https://dev.to/godhirajcode/starlight-part-3-the-autonomous-era-headless-cicd-and-mutation-fingerprinting-40ib",
+      "id": "b5e507d2482cf4e2",
+      "title": "Vim Mode: Edit Prompts at the Speed of Thought",
+      "description": "Stop reaching for the mouse. Start coding prompts like a pro with vim keybindings. From: x.com/adocomplete Introduction If you've ever watched a seasoned developer work in Vim, you've witnessed something almost magical. Their fingers dance across the keyboard, text transforms in the blink of an eye, and not once do they reach for the mouse. It's efficient. It's elegant. It's fast. Now imagine bringing that same power to your AI coding workflow. No more arrow-key shuffling to fix a typo in your p",
+      "url": "https://dev.to/rajeshroyal/vim-mode-edit-prompts-at-the-speed-of-thought-3l6c",
       "source": "Dev.to",
-      "author": "Dhiraj Das",
-      "published": "2026-01-03T18:30:05+00:00",
+      "author": "Rajesh Royal",
+      "published": "2026-01-10T18:30:00+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
-      "id": "e542a239e3047437",
-      "title": "Final update - Irish Techie Quiz 2025",
-      "description": "Happy New Year! One final update, and thank you to everyone who donated since the last update. Irish Techie Table Quiz 2025 - Update whykay 👩🏻‍💻🐈🏳️‍🌈 (she/her) ・ Dec 23 '25 #community #news #watercooler 💟 GoFundMe Team also donated €300! 💟 So in total: €2,360 (GoFundMe Fundraiser) + €230 (BoI Cheque) = €2590 Thank you to everyone who donated and supported our annual Irish Techie Quiz, here's to our next one. If you want to get involved email irishgeeks@eventgeek.ie. // Vicky, Declan and Mick",
-      "url": "https://dev.to/whykay/final-update-irish-techie-quiz-e6g",
+      "id": "8dccbde55d5b2a95",
+      "title": "Next.js 15 App Router: Complete Guide to Server and Client Components",
+      "description": "Understanding the Revolutionary Shift in React Architecture The Next.js 15 App Router introduces a paradigm shift in how we build React applications. With React Server Components (RSC) at its core, developers now face a fundamentally different mental model compared to the traditional client-side rendering approach. Many intermediate developers find themselves confused about when to use server components versus client components, how hydration works in this new architecture, and what rendering st",
+      "url": "https://dev.to/devjordan/nextjs-15-app-router-complete-guide-to-server-and-client-components-5h6k",
       "source": "Dev.to",
-      "author": "whykay 👩🏻‍💻🐈🏳️‍🌈 (she/her)",
-      "published": "2026-01-03T18:26:39+00:00",
+      "author": "jordan wilfry",
+      "published": "2026-01-10T18:19:42+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "510c7b577017b5fc",
-      "title": "Local AI Tools: Introducing LocalAI (Tool 3)",
-      "description": "Continuing our exploration of tools for running AI models locally, the next solution to discuss is LocalAI. Unlike some desktop-focused applications, LocalAI is a full-featured AI runtime designed primarily for local and professional usage, with a strong focus on Docker-based deployment. General Overview LocalAI does not provide a native desktop application for Windows or macOS in the traditional sense. Instead, it is designed to be run as a service — most commonly inside a Docker container. For",
-      "url": "https://dev.to/alexlead/local-ai-tools-introducing-localai-tool-3-3h67",
-      "source": "Dev.to",
-      "author": "Alexander Razvodovskii",
-      "published": "2026-01-03T18:12:34+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "50517eab7f295bd8",
-      "title": "How I Built a Flutter + Gemini AI App to \"Hack\" My University Attendance (Open Source)",
-      "description": "The Problem: The \"80% Anxiety\" If you are an engineering student (like me at the University of Moratuwa), you know the terror of the 80% Rule. It’s simple math: Attend 80% of classes or get banned from the exam. But in reality, it’s a nightmare. \"If I skip today's lecture, does my percentage drop to 79.9%?\" \"Did the lecturer count that medical leave?\" \"Can I afford to sleep in tomorrow?\" I found myself doing complex algebra at 2 AM just to decide if I could skip a morning lecture. I needed a too",
-      "url": "https://dev.to/inushathathsara/how-i-built-a-flutter-gemini-ai-app-to-hack-my-university-attendance-open-source-292i",
-      "source": "Dev.to",
-      "author": "Malawige Inusha Thathsara Gunasekara",
-      "published": "2026-01-03T17:59:33+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
       "id": "cdc161bdb229f39b",
@@ -8023,6 +7961,66 @@
       "keywords": []
     },
     {
+      "id": "338a8609c95b6076",
+      "title": "Local networks are fragile. Personal networks are not.",
+      "description": "Most connectivity problems people face are not caused by broken tools or bad configuration. They come from relying on the physical local network as a stable foundation. Home Wi-Fi, LTE, corporate VPNs, hotel networks — all of them are temporary transports. IPs change, DHCP reassigns addresses, routes break, VPN clients override traffic. Yesterday everything worked. Today ping works, but ssh doesn’t. This is not a mistake — it’s how local networks are designed. WireGuard solves a different proble",
+      "url": "https://dev.to/mrmatt/local-networks-are-fragile-personal-networks-are-not-4c70",
+      "source": "Dev.to",
+      "author": "Matt",
+      "published": "2026-01-10T18:32:36+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "0556bf9f689d4f87",
+      "title": "Which Document class is best to use in Java to read MongoDB documents?",
+      "description": "TL;DR: the answer is in the title, use Document. BSON is a serialization format, similar to protobuf, designed for efficient document storage on disk and transfer over the network as a byte stream. Instead of scanning and rewriting the entire byte sequence to access its contents (fields, arrays, subdocuments), you work with an in-memory object that exposes methods to read and write fields efficiently. On MongoDB's server side, that's the mutable BSON object. On the client side, the drivers provi",
+      "url": "https://dev.to/franckpachot/which-document-class-is-best-to-use-in-java-to-read-mongodb-documents-46n7",
+      "source": "Dev.to",
+      "author": "Franck Pachot",
+      "published": "2026-01-10T18:28:11+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "5f00c6002f872533",
+      "title": "How I Cut My Cloud Run Bill by 96% by Stopping a Polish Botnet",
+      "description": "The Initial Shock: When Your Demo Becomes a Target On January 4th, 2026, I deployed my \"Knowledge Graph CV\" app on Cloud Run. Just a small demo for the New Year, New You Portfolio Challenge on Dev.to, which I describe in the article Beyond the Linear CV. Nothing too complicated. A CV transformed into an interactive graph via Gemini AI, some Plotly visualizations, all wrapped in a nice Streamlit interface. I thought: \"Estimated budget: €5-8/month. Should be fine.\" I set the limit at €10 - to have",
+      "url": "https://dev.to/pascal_cescato_692b7a8a20/how-i-cut-my-cloud-run-bill-by-96-by-stopping-a-polish-botnet-5ak",
+      "source": "Dev.to",
+      "author": "Pascal CESCATO",
+      "published": "2026-01-10T18:22:16+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "c659d35b42fb49e5",
+      "title": "Smart Fashion Classifier: Building an AI-Powered Fashion Product Tagging System",
+      "description": "The fashion e-commerce industry moves fast. Every day, thousands of new products are uploaded to online stores, and each item must be correctly tagged — shirts, watches, shoes, handbags, and more. Traditionally, this process is manual, time-consuming, expensive, and prone to human error. The Smart Fashion Classifier solves this problem with deep learning and cloud-native architecture. It is an end-to-end machine learning system that automatically classifies fashion products from images and expos",
+      "url": "https://dev.to/techkene/smart-fashion-classifier-building-an-ai-powered-fashion-product-tagging-system-371n",
+      "source": "Dev.to",
+      "author": "Kenechukwu Anoliefo",
+      "published": "2026-01-10T18:20:53+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "91c7170791ea71c3",
+      "title": "What an AI Engineering Lead Actually Does in 2026 (Beyond Models and Prompts)",
+      "description": "What an AI Engineering Lead Actually Does in 2026 (Beyond Models and Prompts) It’s easy to get mesmerized by the magic show. In the last few years, we’ve watched AI generate breathtaking art, write surprisingly good poetry, and pass the bar exam. The conversation has been dominated by model training, parameter counts, and the new rockstar role: the prompt engineer. We built incredible, powerful engines. But now, the magic show is over, and the industrial age of AI is here. The challenge is no lo",
+      "url": "https://dev.to/aun_aideveloper/what-an-ai-engineering-lead-actually-does-in-2026-beyond-models-and-prompts-2lb6",
+      "source": "Dev.to",
+      "author": "Aun Raza",
+      "published": "2026-01-10T18:15:08+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "6b078f8a0818c9b2",
       "title": "Cool Article on API Tools!! https://medium.com/@somendradev23/10-api-tools-every-full-stack-developer-should-know-6f9af40ae0ec",
       "description": "medium.com",
@@ -8180,20 +8178,6 @@
       "keywords": []
     },
     {
-      "id": "fb3b40a198552f10",
-      "title": "The C3 Programming Language",
-      "description": "Comments",
-      "url": "https://c3-lang.org",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-03T16:41:06+00:00",
-      "niche": "dev",
-      "score": 45,
-      "keywords": [
-        "programming"
-      ]
-    },
-    {
       "id": "a962ec115fc25e68",
       "title": "Swift on Android: Full Native App Development Now Possible",
       "description": "Comments",
@@ -8307,28 +8291,18 @@
       ]
     },
     {
-      "id": "a8d355edbe526609",
-      "title": "The Most Popular Blogs of Hacker News in 2025",
+      "id": "974f3969c911ed13",
+      "title": "UpCodes (YC S17) is hiring PMs, SWEs to automate construction compliance",
       "description": "Comments",
-      "url": "https://refactoringenglish.com/blog/2025-hn-top-5/",
+      "url": "https://up.codes/careers?utm_source=HN",
       "source": "Hacker News",
       "author": "Inconnu",
-      "published": "2026-01-03T16:20:10+00:00",
+      "published": "2026-01-10T17:01:49+00:00",
       "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "e542d8d58a64048c",
-      "title": "Show HN: Offline tiles and routing and geocoding in one Docker Compose stack",
-      "description": "Comments",
-      "url": "https://www.corviont.com/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-03T15:55:16+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
+      "score": 45,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "41100d28d4690119",
@@ -10263,6 +10237,42 @@
       "keywords": []
     },
     {
+      "id": "c0e284d57a1e7f3f",
+      "title": "AI is a business model stress test",
+      "description": "Comments",
+      "url": "https://dri.es/ai-is-a-business-model-stress-test",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-10T16:56:34+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "c7cce487825f9371",
+      "title": "Open Chaos: A self-evolving open-source project",
+      "description": "Comments",
+      "url": "https://www.openchaos.dev/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-10T16:03:55+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "40604a3fcf78bb74",
+      "title": "I replaced Windows with Linux and everything's going great",
+      "description": "Comments",
+      "url": "https://www.theverge.com/tech/858910/linux-diary-gaming-desktop",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-10T15:26:26+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "8b5f25c1055ea864",
       "title": "How to Create a Pixel-to-Voxel Video Drop Effect with Three.js and Rapier",
       "description": "A tutorial showing how video pixels are voxelized in 3D and dropped into a physics-driven world using Three.js, shaders, and Rapier.",
@@ -10316,8 +10326,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "performance",
-        "React 19"
+        "React 19",
+        "performance"
       ]
     },
     {
@@ -10359,9 +10369,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "release",
+        "code",
         "performance",
-        "code"
+        "release"
       ]
     },
     {
@@ -10391,8 +10401,8 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "release",
         "performance",
+        "release",
         "developer"
       ]
     },
@@ -10601,9 +10611,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
+        "React 19",
         "API",
-        "release",
-        "React 19"
+        "release"
       ]
     },
     {
@@ -10645,8 +10655,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10660,8 +10670,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10715,8 +10725,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "API",
-        "framework"
+        "framework",
+        "API"
       ]
     },
     {
@@ -10893,10 +10903,10 @@
       "score": 30,
       "keywords": [
         "API",
-        "release",
-        "performance",
         "code",
-        "framework"
+        "performance",
+        "framework",
+        "release"
       ]
     },
     {
@@ -11086,18 +11096,6 @@
       "keywords": []
     },
     {
-      "id": "ccb641762af90a9d",
-      "title": "Reverse Engineering the Epson FilmScan 200 for Classic Mac",
-      "description": "Comments",
-      "url": "https://ronangaillard.github.io/posts/reverse-engineering-epson-filmscan-200/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-03T08:26:52+00:00",
-      "niche": "dev",
-      "score": 26,
-      "keywords": []
-    },
-    {
       "id": "cd46e0b1413a2532",
       "title": "LCP and INP are now Baseline Newly available",
       "description": "LCP and INP are now Baseline Newly available as of December 12, 2025.",
@@ -11225,8 +11223,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "framework"
+        "framework",
+        "release"
       ]
     },
     {
@@ -11287,8 +11285,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
-        "code"
+        "code",
+        "release"
       ]
     },
     {
@@ -11621,18 +11619,6 @@
       "keywords": []
     },
     {
-      "id": "3edd09380be1d5a4",
-      "title": "Linux Runs on Raspberry Pi RP2350's Hazard3 RISC-V Cores (2024)",
-      "description": "Comments",
-      "url": "https://www.hackster.io/news/jesse-taube-gets-linux-up-and-running-on-the-raspberry-pi-rp2350-s-hazard3-risc-v-cores-19088b87bb2c",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-03T16:34:38+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
       "id": "ad6aaefd30e13b0b",
       "title": "Samba Was Written (2003)",
       "description": "Comments",
@@ -11751,9 +11737,9 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "programming",
+        "code",
         "developer",
-        "code"
+        "programming"
       ]
     },
     {
