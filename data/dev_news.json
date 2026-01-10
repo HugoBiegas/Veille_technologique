@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-10T06:38:01.897386+00:00",
+  "last_updated": "2026-01-10T09:26:29.026923+00:00",
   "total_articles": 985,
   "articles": [
     {
@@ -280,6 +280,20 @@
       "score": 72,
       "keywords": [
         "Angular"
+      ]
+    },
+    {
+      "id": "c8e4a23d638638d3",
+      "title": "Serverless Picture Gallery on Google Cloud - Part 1",
+      "description": "Today, I want to walk you through a simple project I decided to build to better learn and understand Google Cloud while preparing for PCA exam. I wanted to utilize many services that Google offers and let me troubleshoot things, as when you break and fix something, you understand it better. In this project, we will create a picture gallery where the pictures will be labeled by Vision API and augmented using Nano Banana. Other services we will utilize are: CloudRun, CloudRun Functions, Global Loa",
+      "url": "https://dev.to/ppabis/serverless-picture-gallery-on-google-cloud-part-1-5c0n",
+      "source": "Dev.to",
+      "author": "Piotr Pabis",
+      "published": "2026-01-10T08:57:27+00:00",
+      "niche": "dev",
+      "score": 72,
+      "keywords": [
+        "API"
       ]
     },
     {
@@ -1306,21 +1320,6 @@
       ]
     },
     {
-      "id": "8ef3138eeb9114ae",
-      "title": "Test projects at Telegem",
-      "description": "Hey everyone 👋 I’m the creator of Telegem, a modern async first Ruby framework for building and interacting with telegram bot api I’ve been working hard to make it a solid tool for handling conversation,middleware,and clean DSL based logic. I know the best way to improve a tool is for people to use it, break it so I’ve setup some public test projects to make it easy to kick start your telegram bot without any setup hassle Check it out docs test-projects I need your feedback This is a community d",
-      "url": "https://dev.to/slick_phantom/test-projects-at-telegem-4jbg",
-      "source": "Dev.to",
-      "author": "phåńtøm šłîçk",
-      "published": "2026-01-03T09:16:26+00:00",
-      "niche": "dev",
-      "score": 57,
-      "keywords": [
-        "API",
-        "framework"
-      ]
-    },
-    {
       "id": "7c2061c92ecc3718",
       "title": "collections Module Added to Standard Library Learning Path",
       "description": "I've just uploaded the collections module materials to my standardlib-datastruct repository. This one's a bit different from my previous workbooks. What's Inside The collections materials include 24 exercises covering high-performance container datatypes from Python's collections module: Collections Covered Counter - Count hashable objects and perform arithmetic operations defaultdict - Dictionary with default values for missing keys deque - Double-ended queue with fast appends/pops from both en",
@@ -1661,36 +1660,6 @@
         "developer",
         "code",
         "API"
-      ]
-    },
-    {
-      "id": "5c9bb0698f996a62",
-      "title": "Maximize API Monetization: The Game-Changer for AI Developers",
-      "description": "Unlock Dual Revenue Streams with Monetzly: The Google Ads for AI Conversations What if your AI app could generate revenue in two ways simultaneously? Imagine not only earning from your app’s core functionality but also from seamlessly integrating relevant ads that enhance user experience instead of disrupting it. Welcome to Monetzly, the first dual-earning platform in the AI landscape designed specifically for developers. The Problem: Monetization Without Compromise As AI applications continue t",
-      "url": "https://dev.to/monetzly/maximize-api-monetization-the-game-changer-for-ai-developers-1ob5",
-      "source": "Dev.to",
-      "author": "Monetzly",
-      "published": "2026-01-03T09:13:31+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "API",
-        "developer"
-      ]
-    },
-    {
-      "id": "4a4c9c8169c24b67",
-      "title": "Databar AI Promo Code: (ARCH30) Exclusive 10% Off On Subscription Plan",
-      "description": "In today’s data-driven digital landscape, access to accurate, real-time, and well-structured data can be the deciding factor between average results and exceptional performance. Whether you are a marketer, researcher, startup founder, analyst, or business professional, having the right data at the right time empowers better decisions, smarter strategies, and faster growth. Databar AI has emerged as a powerful AI-driven data platform that simplifies data extraction, enrichment, and analysis for m",
-      "url": "https://dev.to/referral_code_ee61ef9548a/databar-ai-promo-code-arch30-exclusive-10-off-on-subscription-plan-1nke",
-      "source": "Dev.to",
-      "author": "Referral Code",
-      "published": "2026-01-03T09:12:29+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "code",
-        "performance"
       ]
     },
     {
@@ -2246,22 +2215,6 @@
       "keywords": [
         "framework",
         "code"
-      ]
-    },
-    {
-      "id": "eb3976c30394115d",
-      "title": "The Secret Artist Behind Your Favorite Apps 🎨",
-      "description": "The Secret Artist Behind Your Favorite Apps 🎨 In this video, I break down a concept most people use every day — but rarely understand: the render file. Think of it as the artist of an app. Understanding rendering is one of those aha moments in programming. It’s especially powerful for beginners, and for anyone learning React or modern app development, because it explains why UIs behave the way they do, not just how to code them. You can find the full more detailed article in my website. Link:",
-      "url": "https://dev.to/hiromis_rosamartinezmar/the-secret-artist-behind-your-favorite-apps-1d15",
-      "source": "Dev.to",
-      "author": "AI-SymDev Girl",
-      "published": "2026-01-03T09:09:31+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "code",
-        "development",
-        "programming"
       ]
     },
     {
@@ -3143,6 +3096,48 @@
       ]
     },
     {
+      "id": "be5c830f721d53a6",
+      "title": "AsyncTasQ: The Type-Safe, Async-First Task Queue That's 2-3x Faster Than Celery",
+      "description": "The Problem: Python's Task Queues Are Stuck in 2009 If you're building async Python applications with FastAPI or aiohttp, you've hit this wall: every major task queue was designed before async/await even existed. Celery? Built in 2009. RQ? 2011. Sure, they've bolted on async support, but that's like putting a Tesla battery in a Model T—the foundation is still synchronous. So you're stuck choosing between: Celery → Fighting async/sync impedance mismatch ARQ → Locked into Redis forever Rolling you",
+      "url": "https://dev.to/adamrefaey/asynctasq-the-type-safe-async-first-task-queue-thats-2-3x-faster-than-celery-585i",
+      "source": "Dev.to",
+      "author": "Adam Refaey",
+      "published": "2026-01-10T09:14:55+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "API"
+      ]
+    },
+    {
+      "id": "76756f8b307676f2",
+      "title": "Build an Offline ESP32 Text-to-Speech System - No Internet Needed!",
+      "description": "Text-to-Speech (TTS) has gone mainstream thanks to smart assistants and AI, but did you know you can run TTS offline on an ESP32? That’s right - you don’t need wifi, cloud servers, or APIs. Using open-source models and audio processing, you can make your ESP32 speak real voices just from text stored on the device. This ESP32 Text to Speech shows how to turn an ESP32 into a standalone text-to-speech machine. Whether you want a talking gadget, an accessibility aid, an alert system, or just a cool ",
+      "url": "https://dev.to/david_thomas/build-an-offline-esp32-text-to-speech-system-no-internet-needed-aj5",
+      "source": "Dev.to",
+      "author": "David Thomas",
+      "published": "2026-01-10T08:49:06+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "API"
+      ]
+    },
+    {
+      "id": "4bfdf2a5ac050df1",
+      "title": "Breaking the Runtime Wall: Universal Frameworks in BEnder 🌍",
+      "description": "The \"Runtime Wall\" is Gone 🧱🔨 When I first built BEnder (my framework-agnostic boilerplate), I made a simple assumption: If you're on Node.js, you use Express, Fastify, or Koa. If you're on Bun, you use Hono or Elysia. I was wrong. The ecosystem has evolved. Bun has excellent Node compatibility (running Express/Fastify effortlessly), and Hono has become a web-standard powerhouse that runs everywhere, including Node.js. The Update: True Agnosticism Today's update to BEnder tears down the arbitrar",
+      "url": "https://dev.to/adamgolan/breaking-the-runtime-wall-universal-frameworks-in-bender-3cpn",
+      "source": "Dev.to",
+      "author": "Adam Golan",
+      "published": "2026-01-10T08:38:58+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "framework"
+      ]
+    },
+    {
       "id": "6e1a410e429f5dae",
       "title": "5 Critical Lessons from 3.5 Years of Odoo",
       "description": "I've learned that successful ERP implementation is way more than just writing code. It's about understanding business, managing expectations, and building systems that people actually want to use. Here are the lessons that shaped my approach to Odoo development: Understand the Business First, Code Later This was my biggest realization early on. I used to jump straight into customization—building modules before really understanding what the client actually needed. What changed: Before touching co",
@@ -3533,59 +3528,18 @@
       ]
     },
     {
-      "id": "2cf4fa3a9a17ee4d",
-      "title": "LeetCode vs AlgoMonster: Which Is Better for Interview Prep in 2025?",
-      "description": "Originally published on LeetCopilot Blog LeetCode has 3,000+ problems. AlgoMonster teaches patterns. Here's how to choose between volume practice and structured learning for your coding interview prep. LeetCode and AlgoMonster take fundamentally different approaches to coding interview preparation. LeetCode is the industry-standard problem bank with 3,000+ coding challenges. It's where you grind, practice, and build speed. AlgoMonster is a structured course that teaches the ~48 core patterns beh",
-      "url": "https://dev.to/alex_hunter_44f4c9ed6671e/leetcode-vs-algomonster-which-is-better-for-interview-prep-in-2025-1pko",
+      "id": "3aa18ca519aa959c",
+      "title": "AI should not be in Code Editors",
+      "description": "AI has become, over the last few years, an impossible technology to ignore. Almost everyone ignored it at some point, and now most developers have adopted it for daily use—both professionally and personally—including myself. However, AI is not meant for code editors. It should stay in the browser. Coding requires deep thinking about every line while maintaining the overall structure and design of the system. The AI we have today cannot do this consistently or deeply (and no, this is not a prompt",
+      "url": "https://dev.to/badrchanaa/ai-should-not-be-in-code-editors-1p02",
       "source": "Dev.to",
-      "author": "Alex Hunter",
-      "published": "2026-01-03T09:21:22+00:00",
+      "author": "Badr chanaa",
+      "published": "2026-01-10T08:39:39+00:00",
       "niche": "dev",
-      "score": 51,
+      "score": 52,
       "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "18f30c7d673ad28d",
-      "title": "Mymemo Ai Promo Code : (ARCHANA) Flat 10% Discount On Subscription Plan",
-      "description": "Artificial intelligence is revolutionizing productivity tools, helping individuals and teams manage tasks, organize information, and make smarter decisions more efficiently. MyMemo AI is a modern AI-powered platform designed to simplify note-taking, memory management, and workflow organization. To make the platform even more accessible, users can now use the MyMemo AI Promo Code (ARCHANA) to enjoy a flat 10% discount on subscription plans. This article provides a complete guide to MyMemo AI, inc",
-      "url": "https://dev.to/referral_code_ee61ef9548a/mymemo-ai-promo-code-archana-flat-10-discount-on-subscription-plan-552d",
-      "source": "Dev.to",
-      "author": "Referral Code",
-      "published": "2026-01-03T09:20:15+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "637d4c29f8192217",
-      "title": "Alphana Ai Promo Code : (ARCH30) Get 20% Off On Subscription Plan",
-      "description": "In today’s fast-paced digital world, artificial intelligence is transforming how businesses, professionals, and creators work. From automating repetitive tasks to generating insights and creative content, AI tools are becoming essential for efficiency and growth. Alphana AI is a leading AI-powered platform designed to help users leverage intelligent solutions across various domains. To make the platform even more accessible, users can now use the Alphana AI Promo Code (ARCH30) to enjoy a 20% dis",
-      "url": "https://dev.to/referral_code_ee61ef9548a/alphana-ai-promo-code-arch30-get-20-off-on-subscription-plan-58f7",
-      "source": "Dev.to",
-      "author": "Referral Code",
-      "published": "2026-01-03T09:17:47+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "52999842d38535d6",
-      "title": "Uvskinz Discount Code : (ARCHANA17010) Exclusive 20% Discount On Purchase",
-      "description": "When it comes to protecting your skin from harmful UV rays, ordinary clothing is often not enough. Prolonged sun exposure can lead to premature aging, sunburn, and long-term skin damage, making sun-protective apparel an essential part of a healthy lifestyle. Uvskinz is a well-known brand dedicated to providing high-quality UV-protective clothing designed for comfort, style, and maximum sun safety. To make these premium products more affordable, you can now use the Uvskinz Discount Code (ARCHANA1",
-      "url": "https://dev.to/referral_code_ee61ef9548a/uvskinz-discount-code-archana17010-exclusive-20-discount-on-purchase-4l29",
-      "source": "Dev.to",
-      "author": "Referral Code",
-      "published": "2026-01-03T09:15:15+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
+        "code",
+        "developer"
       ]
     },
     {
@@ -5171,28 +5125,18 @@
       ]
     },
     {
-      "id": "784055c6ad9ee38a",
-      "title": "What Being “Ready” Means in Web3: A Look at the BUBUVERSE Genesis Phase",
-      "description": "In Web3, “launching” often happens before systems are truly ready. BUBUVERSE is challenging that pattern. The Genesis phase is not just a starting point — it’s a preparation layer. During this stage, mechanics like STC mining, NFT utility, and platform stability are aligned before wider access is enabled. Readiness here means clarity. Clear systems, clear roles for NFTs, and clear expectations for users. Instead of reacting to issues after launch, BUBUVERSE is addressing them before scale. This ",
-      "url": "https://dev.to/bubuverse/what-being-ready-means-in-web3-a-look-at-the-bubuverse-genesis-phase-29b4",
+      "id": "55c2cce8977d47b3",
+      "title": "HTML Fundamentals",
+      "description": "Another day of learning on freeCodeCamp yesterday. This time more theory on HTML Fundamentals, along with a workshop for a Bookstore Page. Again, I really like these theory-based lessons on the latest version of the Responsive Web Design certification, as they help reinforce learning. What are DIV Elements For some reason, I never fully grasped that the Div element is a container used to group other elements. The lesson did help clarify things, explaining the differences between Div and Section ",
+      "url": "https://dev.to/richardpascoe/html-fundamentals-4n3k",
       "source": "Dev.to",
-      "author": "bubuverse",
-      "published": "2026-01-03T09:14:31+00:00",
+      "author": "Richard Pascoe",
+      "published": "2026-01-10T09:00:17+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "639eeaecf215a5ef",
-      "title": "AI-Powered Mock Interview Platform",
-      "description": "This is an AI‑powered interview platform that supports three roles: Company, Candidate, and Candidate Pro. Users can upgrade plans to unlock more features. The system uses DeepFace for face verification, Speech‑to‑Text to transcribe answers, and Gemini AI to analyze responses and give smart feedback. I built custom scoring logic to evaluate each answer clearly and fairly. Companies can create their own questions and rules. The app is hosted on AWS, making it secure, scalable, and ready for real ",
-      "url": "https://dev.to/nguyentandat1302/ai-powered-mock-interview-platform-5hb6",
-      "source": "Dev.to",
-      "author": "Tan Dat",
-      "published": "2026-01-03T09:14:02+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "c6cb62068a80c8e2",
@@ -8029,6 +7973,54 @@
       "keywords": []
     },
     {
+      "id": "3c9ecbf5d37e1eb5",
+      "title": "The Complete Windows to Linux Migration Guide",
+      "description": "Introduction: Your Journey Starts Here So someone handed you their number, told you about Linux, and now you're here wondering if this is worth your time. Maybe you're thinking: \"Why should I leave Windows? Isn't Linux just for hackers and people who love typing commands all day?\" I get it. Change is uncomfortable, especially when it involves your primary work machine. But here's the thing: understanding Linux isn't just about switching operating systems. It's about unlocking a new level of cont",
+      "url": "https://dev.to/md8_habibullah/the-complete-windows-to-linux-migration-guide-2f9m",
+      "source": "Dev.to",
+      "author": "MD. HABIBULLAH SHARIF",
+      "published": "2026-01-10T09:20:44+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "2cd1d789b2d9c741",
+      "title": "Road To Compliance: Will Your Internal Users Hate Your Platform Team?",
+      "description": "Picture this: It's Thursday, 10:20 AM. You're the Engineering Manager of the Platform Team, and you've just called a \"DevOps & Compliance Meeting.\" You announce new mandatory guidelines that must be implemented by next week, deployments will break without them, and no, this wasn't discussed with Product Managers. The room fills with frustrated voices: \"Will this break our deployments?\" \"We already planned our sprint!\" \"Was this discussed with our PMs?!\" Sound familiar? This scenario plays out in",
+      "url": "https://dev.to/dvddpl/road-to-compliance-will-your-internal-users-hate-your-platform-team-1jk5",
+      "source": "Dev.to",
+      "author": "Davide de Paolis",
+      "published": "2026-01-10T09:19:55+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "ce4653e18cf0f818",
+      "title": "I Got Tired of Jira. So I Built an Agentic Project Management Tool — and Open-Sourced It",
+      "description": "I’m open sourcing FortyOne, an agentic project management tool built around a simple idea: Most project tools are great at tracking work. Very few help you move work forward. FortyOne ships with Maya, an AI teammate that’s designed to work alongside you: drafting stories, helping shape sprint scope, connecting OKRs to execution, and surfacing what’s stuck before it becomes a fire drill. If you just want to try it first, the hosted version is here: https://www.fortyone.app Frontend repo: https://",
+      "url": "https://dev.to/josemukorivo/i-got-tired-of-jira-so-i-built-an-agentic-project-management-tool-and-open-sourced-it-3ghp",
+      "source": "Dev.to",
+      "author": "Joseph Mukorivo",
+      "published": "2026-01-10T09:17:19+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "b14cb3603b6bfce8",
+      "title": "J'ai galéré pendant 3 semaines pour monter un cluster Kubernetes (et voilà ce que j'ai appris)",
+      "description": "Le contexte Bon, soyons honnêtes. Au début, j'avais un gros bordel de scripts bash éparpillés partout. Genre 5-6 fichiers avec des noms comme install-docker.sh, setup-k8s-FINAL-v3.sh (oui, le v3...). À chaque fois que je devais recréer mon infra, c'était 45 minutes de galère + 10 minutes à me demander pourquoi ça marchait pas. J'avais besoin de quelque chose de plus propre pour mon projet SAE e-commerce. Ce que je voulais vraiment Pas un truc de démo avec minikube. Non. Je voulais: 3 VMs qui tou",
+      "url": "https://dev.to/loiconlyone/jai-galere-pendant-3-semaines-pour-monter-un-cluster-kubernetes-et-voila-ce-que-jai-appris-30l6",
+      "source": "Dev.to",
+      "author": "BeardDemon",
+      "published": "2026-01-10T09:08:21+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "6b078f8a0818c9b2",
       "title": "Cool Article on API Tools!! https://medium.com/@somendradev23/10-api-tools-every-full-stack-developer-should-know-6f9af40ae0ec",
       "description": "medium.com",
@@ -8040,20 +8032,6 @@
       "score": 49,
       "keywords": [
         "developer",
-        "API"
-      ]
-    },
-    {
-      "id": "5b3e17671d3f3df4",
-      "title": "Explosions reported in Venezuelan capital Caracas",
-      "description": "Comments",
-      "url": "https://www.theguardian.com/world/2026/jan/03/explosions-reported-venezuela-caracas",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-03T07:35:26+00:00",
-      "niche": "dev",
-      "score": 48,
-      "keywords": [
         "API"
       ]
     },
@@ -10247,6 +10225,30 @@
       "keywords": []
     },
     {
+      "id": "c2a7ff8a61f9a253",
+      "title": "How to Run an LLM Locally to Interact with Your Documents",
+      "description": "Most AI tools require you to send your prompts and files to third-party servers. That’s a non-starter if your data includes private journals, research notes, or sensitive business documents (contracts, board decks, HR files, financials). The good new...",
+      "url": "https://www.freecodecamp.org/news/run-an-llm-locally-to-interact-with-your-documents/",
+      "source": "freeCodeCamp",
+      "author": "Zoe Isabel Senón",
+      "published": "2026-01-10T00:38:09+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "7030fe6c11ff54cd",
+      "title": "How to Build a Local-First CLI Financial Tracker with Rust [Full Handbook]",
+      "description": "Most financial apps store your sensitive data on remote servers. This requires you to trust a company with your records and rely on their service staying online. But if you build a local-first application, you can keep your data on your own machine i...",
+      "url": "https://www.freecodecamp.org/news/how-to-build-a-local-first-cli-financial-tracker-with-rust/",
+      "source": "freeCodeCamp",
+      "author": "Stephen Emmanuel",
+      "published": "2026-01-09T22:40:38+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "8b5f25c1055ea864",
       "title": "How to Create a Pixel-to-Voxel Video Drop Effect with Three.js and Rapier",
       "description": "A tutorial showing how video pixels are voxelized in 3D and dropped into a physics-driven world using Three.js, shaders, and Rapier.",
@@ -10343,8 +10345,8 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "performance",
         "code",
+        "performance",
         "release"
       ]
     },
@@ -10376,8 +10378,8 @@
       "score": 40,
       "keywords": [
         "performance",
-        "release",
-        "developer"
+        "developer",
+        "release"
       ]
     },
     {
@@ -10586,8 +10588,8 @@
       "score": 38,
       "keywords": [
         "release",
-        "React 19",
-        "API"
+        "API",
+        "React 19"
       ]
     },
     {
@@ -10629,8 +10631,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -10644,8 +10646,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -10774,18 +10776,6 @@
       ]
     },
     {
-      "id": "ae46d37caad8af28",
-      "title": "Native Amiga Filesystems on macOS / Linux / Windows with FUSE",
-      "description": "Comments",
-      "url": "https://github.com/reinauer/amifuse",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-03T07:46:02+00:00",
-      "niche": "dev",
-      "score": 32,
-      "keywords": []
-    },
-    {
       "id": "9033acde0fc018a1",
       "title": "Show HN: Similarity = cosine(your_GitHub_stars, Karpathy) Client-side",
       "description": "Comments",
@@ -10876,11 +10866,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "performance",
-        "framework",
-        "code",
         "release",
-        "API"
+        "framework",
+        "API",
+        "code",
+        "performance"
       ]
     },
     {
@@ -11240,8 +11230,8 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "performance",
         "code",
+        "performance",
         "developer"
       ]
     },
@@ -11256,8 +11246,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "performance",
-        "code"
+        "code",
+        "performance"
       ]
     },
     {
@@ -11288,6 +11278,20 @@
       "keywords": [
         "release",
         "developer"
+      ]
+    },
+    {
+      "id": "6effab3f31bb91ec",
+      "title": "The Performance Revolution in JavaScript Tooling",
+      "description": "Comments",
+      "url": "https://blog.appsignal.com/2025/12/03/the-performance-revolution-in-javascript-tooling.html",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-03T21:18:42+00:00",
+      "niche": "dev",
+      "score": 18,
+      "keywords": [
+        "performance"
       ]
     },
     {
@@ -11374,9 +11378,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
+        "development",
         "PHP",
-        "tutorial",
-        "development"
+        "tutorial"
       ]
     },
     {
@@ -11390,9 +11394,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
+        "development",
         "PHP",
-        "tutorial",
-        "development"
+        "tutorial"
       ]
     },
     {
@@ -11502,18 +11506,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2026-01-03T14:15:11+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "a8b1c6729ec8ba28",
-      "title": "Formal methods only solve half my problems",
-      "description": "Comments",
-      "url": "https://brooker.co.za/blog/2022/06/02/formal.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-03T06:49:52+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -11722,8 +11714,8 @@
       "score": 14,
       "keywords": [
         "code",
-        "programming",
-        "developer"
+        "developer",
+        "programming"
       ]
     },
     {
