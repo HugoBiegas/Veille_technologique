@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-09T21:26:39.446851+00:00",
-  "total_articles": 419,
+  "last_updated": "2026-01-10T02:03:00.565412+00:00",
+  "total_articles": 415,
   "articles": [
     {
       "id": "99b4141ec9a673ba",
@@ -1327,24 +1327,6 @@
       ]
     },
     {
-      "id": "4bb9aff88025a1f1",
-      "title": "Microsoft Patch Tuesday, December 2025 Edition",
-      "description": "Microsoft today pushed updates to fix at least 56 security flaws in its Windows operating systems and supported software. This final Patch Tuesday of 2025 tackles one zero-day bug that is already being exploited, as well as two publicly disclosed vulnerabilities.",
-      "url": "https://krebsonsecurity.com/2025/12/microsoft-patch-tuesday-december-2025-edition/",
-      "source": "Krebs on Security",
-      "author": "BrianKrebs",
-      "published": "2025-12-09T23:18:29+00:00",
-      "niche": "security",
-      "score": 75,
-      "keywords": [
-        "patch",
-        "security",
-        "zero-day",
-        "exploit",
-        "security flaw"
-      ]
-    },
-    {
       "id": "a2b086142bbc1fa2",
       "title": "Attackers Exploit Zero-Day in End-of-Life D-Link Routers",
       "description": "Hackers are attacking a critical zero-day flaw in unsupported D-Link DSL routers to run arbitrary commands.",
@@ -1540,6 +1522,24 @@
         "PoC",
         "CVE-",
         "remote code execution"
+      ]
+    },
+    {
+      "id": "892053410019132c",
+      "title": "Trend Micro patches critical flaws in its Apex Central software",
+      "description": "Security company Trend Micro has been compelled to issue a patch for its own Apex Central software management tool after vulnerability management platform Tenable identified several security flaws. The bugs affect all versions of Apex Central (on-premises) earlier than build 7190. In a security bulletin, Trend Micro said of the most severe flaw, rated 9.8, “A LoadLibraryEX vulnerability in Trend Micro Apex Central could allow an unauthenticated remote attacker to load an attacker-controlled DLL ",
+      "url": "https://www.csoonline.com/article/4115151/trend-micro-patches-critical-flaws-in-its-apex-central-software.html",
+      "source": "CSO Online",
+      "author": "Inconnu",
+      "published": "2026-01-10T00:46:18+00:00",
+      "niche": "security",
+      "score": 71,
+      "keywords": [
+        "security",
+        "patch",
+        "vulnerability",
+        "security flaw",
+        "attack"
       ]
     },
     {
@@ -1803,6 +1803,18 @@
       "keywords": [
         "threat"
       ]
+    },
+    {
+      "id": "4c537be7696d4c00",
+      "title": "ChatGPT tests a new feature to find jobs, improve your resume, and more",
+      "description": "OpenAI is testing \"Jobs,\" a new feature that could help you explore roles, improve your resume, and plan your career. This feature is being tested after ChatGPT gained support for the Health dashboard. [...]",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-tests-a-new-feature-to-find-jobs-improve-your-resume-and-more/",
+      "source": "Bleeping Computer",
+      "author": "Mayank Parmar",
+      "published": "2026-01-09T18:23:08-05:00",
+      "niche": "security",
+      "score": 68,
+      "keywords": []
     },
     {
       "id": "d421a6e47979f09a",
@@ -2099,6 +2111,18 @@
       "keywords": []
     },
     {
+      "id": "8df715780eb15a44",
+      "title": "Anthropic: Viral Claude “Banned and reported to authorities” message isn’t real",
+      "description": "Anthropic has denied reports of banning legitimate accounts, after a viral post on X claimed the creator of Claude had banned a user. [...]",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-viral-claude-banned-and-reported-to-authorities-message-isnt-real/",
+      "source": "Bleeping Computer",
+      "author": "Mayank Parmar",
+      "published": "2026-01-09T19:06:26-05:00",
+      "niche": "security",
+      "score": 64,
+      "keywords": []
+    },
+    {
       "id": "4e181c3a682f781f",
       "title": "Critical 'MongoBleed' Bug Under Attack, Patch Now",
       "description": "A memory leak security vulnerability allows unauthenticated attackers to extract passwords and tokens from MongoDB servers.",
@@ -2222,6 +2246,23 @@
       ]
     },
     {
+      "id": "988a6fc4e37d0f80",
+      "title": "ZombieAgent ChatGPT attack shows persistent data leak risks of AI agents",
+      "description": "Researchers have found new ways to turn ChatGPT into a data exfiltration tool and even use it as a persistent backdoor. The new ZombieAgent techniques, which have been patched by OpenAI, fed hidden prompts through connected applications such as email and cloud storage to send data back to attackers in ways invisible to users. Giving AI chatbots access to tools and external data sources to turn them into autonomous agents is among the biggest trends in AI right now. But security experts have repe",
+      "url": "https://www.csoonline.com/article/4115110/zombieagent-chatgpt-attack-shows-persistent-data-leak-risks-of-ai-agents.html",
+      "source": "CSO Online",
+      "author": "Inconnu",
+      "published": "2026-01-09T22:40:20+00:00",
+      "niche": "security",
+      "score": 61,
+      "keywords": [
+        "security",
+        "patch",
+        "attack",
+        "RCE"
+      ]
+    },
+    {
       "id": "b8d3a025890603ad",
       "title": "cdxgen and CycloneDX .NET Join GitHub Secure Open Source Fund",
       "description": "cdxgen and CycloneDX .NET participated in the GitHub Secure Open Source Fund Strengthening supply-chain security from the inside out. In the domain of supply-chain security, two distinct aspects exist: security within the supply chain and the security of the supply chain itself. The CycloneDX specification, an OWASP flagship project, is supported by a community that maintains an extensive ecosystem of open-source specifications, libraries, and tools, focusing primarily on enhancing security and ",
@@ -2232,10 +2273,10 @@
       "niche": "security",
       "score": 61,
       "keywords": [
-        "security",
-        "secure",
         "OWASP",
-        "RCE"
+        "secure",
+        "RCE",
+        "security"
       ]
     },
     {
@@ -2284,23 +2325,6 @@
       "keywords": [
         "exploit",
         "injection"
-      ]
-    },
-    {
-      "id": "8dd37fb575095191",
-      "title": "Two U.S. cybersecurity professionals plead guilty in BlackCat/Alphv ransomware case",
-      "description": "Two U.S. cybersecurity professionals pleaded guilty to charges tied to their roles in BlackCat/Alphv ransomware attacks. The U.S. cybersecurity professionals Ryan Goldberg and Kevin Martin pleaded guilty to charges tied to their roles in BlackCat/Alphv ransomware attacks that occurred in 2023. Court records show Ryan Goldberg, Kevin Martin, and a co-conspirator deployed ALPHV BlackCat ransomware [&#8230;]",
-      "url": "https://securityaffairs.com/186446/cyber-crime/two-u-s-cybersecurity-professionals-plead-guilty-in-blackcat-alphv-ransomware-case.html",
-      "source": "Security Affairs",
-      "author": "Pierluigi Paganini",
-      "published": "2026-01-02T22:33:20+00:00",
-      "niche": "security",
-      "score": 59,
-      "keywords": [
-        "security",
-        "cybersecurity",
-        "ransomware",
-        "attack"
       ]
     },
     {
@@ -2856,10 +2880,10 @@
       "niche": "security",
       "score": 54,
       "keywords": [
+        "CVE-",
         "vulnerability",
         "attack",
-        "exploit",
-        "CVE-"
+        "exploit"
       ]
     },
     {
@@ -2873,10 +2897,10 @@
       "niche": "security",
       "score": 54,
       "keywords": [
+        "CVE-",
         "vulnerability",
         "attack",
-        "exploit",
-        "CVE-"
+        "exploit"
       ]
     },
     {
@@ -2890,10 +2914,10 @@
       "niche": "security",
       "score": 54,
       "keywords": [
+        "CVE-",
         "vulnerability",
         "attack",
-        "exploit",
-        "CVE-"
+        "exploit"
       ]
     },
     {
@@ -3177,6 +3201,20 @@
       ]
     },
     {
+      "id": "1b186ed8b2fc5485",
+      "title": "Illinois Department of Human Services (IDHS) suffered a data breach that impacted 700K individuals",
+      "description": "Illinois Department of Human Services (IDHS) exposed personal and health data of nearly 700,000 residents due to incorrect privacy settings. The Illinois Department of Human Services (IDHS ) disclosed a data breach after misconfigured privacy settings exposed personal and health data of nearly 700,000 residents. On September 22, 2025, IDHS discovered that internal maps meant [&#8230;]",
+      "url": "https://securityaffairs.com/186745/data-breach/illinois-department-of-human-services-idhs-suffered-a-data-breach-that-impacted-700k-individuals.html",
+      "source": "Security Affairs",
+      "author": "Pierluigi Paganini",
+      "published": "2026-01-10T00:03:27+00:00",
+      "niche": "security",
+      "score": 52,
+      "keywords": [
+        "breach"
+      ]
+    },
+    {
       "id": "d645d08081ae616c",
       "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 78",
       "description": "Security Affairs Malware newsletter includes a collection of the best articles and research on malware in the international landscape Malware Newsletter Evasive Panda APT poisons DNS requests to deliver MgBot Spearphishing Campaign Abuses npm Registry to Target U.S. and Allied Manufacturing and Healthcare Organizations&#160;&#160; EmEditor Supply Chain Incident Details Disclosed: Distribution of Information-Stealing Malware Sweeps [&#8230;]",
@@ -3235,9 +3273,9 @@
       "niche": "security",
       "score": 51,
       "keywords": [
+        "disclosure",
         "vulnerability",
-        "patch",
-        "disclosure"
+        "patch"
       ]
     },
     {
@@ -3251,9 +3289,9 @@
       "niche": "security",
       "score": 51,
       "keywords": [
+        "security",
         "attack",
-        "exploit",
-        "security"
+        "exploit"
       ]
     },
     {
@@ -3499,24 +3537,6 @@
       ]
     },
     {
-      "id": "80d5b2ee2aa44b41",
-      "title": "The Kimwolf Botnet is Stalking Your Local Network",
-      "description": "The story you are reading is a series of scoops nestled inside a far more urgent Internet-wide security advisory. The vulnerability at issue has been exploited for months already, and it's time for a broader awareness of the threat. The short version is that everything you thought you knew about the security of the internal network behind your Internet router probably is now dangerously out of date.",
-      "url": "https://krebsonsecurity.com/2026/01/the-kimwolf-botnet-is-stalking-your-local-network/",
-      "source": "Krebs on Security",
-      "author": "BrianKrebs",
-      "published": "2026-01-02T14:20:10+00:00",
-      "niche": "security",
-      "score": 49,
-      "keywords": [
-        "threat",
-        "security",
-        "vulnerability",
-        "exploit",
-        "security advisory"
-      ]
-    },
-    {
       "id": "d4644a67e2ae5ef1",
       "title": "Taiwan subjected to 2.6 million Chinese cyberattacks a day in 2025",
       "description": "Taiwan’s National Security Agency states that the number of Chinese cyberattacks against the country’s critical infrastructure increased by 6% in 2025, averaging 2.6 million attacks per day, Reuters reports. The attacks mainly targeted the energy sector, hospitals, banks and emergency services, and many of them were reportedly coordinated with Chinese military exercises and political events. For example, when the President and Vice President of Taiwan were giving speeches or attending internatio",
@@ -3559,21 +3579,6 @@
       "keywords": [
         "threat",
         "phishing"
-      ]
-    },
-    {
-      "id": "eb7482bd5eacf0bc",
-      "title": "Is Your Android TV Streaming Box Part of a Botnet?",
-      "description": "On the surface, the Superbox media streaming devices for sale at retailers like BestBuy and Walmart may seem like a steal: They offer unlimited access to more than 2,200 pay-per-view and streaming services like Netflix, ESPN and Hulu, all for a one-time fee of around $400. But security experts warn these TV boxes require intrusive software that forces the user's network to relay Internet traffic for others, traffic that is often tied to cybercrime activity such as advertising fraud and account t",
-      "url": "https://krebsonsecurity.com/2025/11/is-your-android-tv-streaming-box-part-of-a-botnet/",
-      "source": "Krebs on Security",
-      "author": "BrianKrebs",
-      "published": "2025-11-24T18:44:52+00:00",
-      "niche": "security",
-      "score": 48,
-      "keywords": [
-        "security",
-        "RCE"
       ]
     },
     {
@@ -3632,8 +3637,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "security",
-        "CVE-"
+        "CVE-",
+        "security"
       ]
     },
     {
@@ -3747,6 +3752,18 @@
       "source": "Dark Reading",
       "author": "Robert Lemos, Contributing Writer",
       "published": "2026-01-09T16:56:15+00:00",
+      "niche": "security",
+      "score": 46,
+      "keywords": []
+    },
+    {
+      "id": "95482253576a4206",
+      "title": "Deepfake Fraud Tools Are Lagging Behind Expectations",
+      "description": "Deepfakes are becoming more realistic and more popular. Luckily, defenders are still ahead in the arms race.",
+      "url": "https://www.darkreading.com/remote-workforce/deepfake-fraud-tools-lag-expectations",
+      "source": "Dark Reading",
+      "author": "Nate Nelson, Contributing Writer",
+      "published": "2026-01-09T22:08:25+00:00",
       "niche": "security",
       "score": 46,
       "keywords": []
@@ -4073,8 +4090,8 @@
       "niche": "security",
       "score": 44,
       "keywords": [
-        "security",
-        "CVE-"
+        "CVE-",
+        "security"
       ]
     },
     {
@@ -4130,10 +4147,10 @@
       "niche": "security",
       "score": 43,
       "keywords": [
-        "security",
-        "secure",
         "OWASP",
-        "RCE"
+        "secure",
+        "RCE",
+        "security"
       ]
     },
     {
@@ -4687,9 +4704,9 @@
       "niche": "security",
       "score": 42,
       "keywords": [
-        "security",
         "OWASP",
-        "RCE"
+        "RCE",
+        "security"
       ]
     },
     {
@@ -4903,10 +4920,10 @@
       "niche": "security",
       "score": 38,
       "keywords": [
+        "security",
         "ransomware",
         "attack",
-        "exploit",
-        "security"
+        "exploit"
       ]
     },
     {
@@ -4995,11 +5012,23 @@
       "niche": "security",
       "score": 37,
       "keywords": [
+        "OWASP",
         "threat",
         "web application security",
-        "OWASP",
         "security"
       ]
+    },
+    {
+      "id": "1e1306e7977066b1",
+      "title": "2026-01-09: VIP Recovery infection from email attachment",
+      "description": "",
+      "url": "https://www.malware-traffic-analysis.net/2026/01/09/index.html",
+      "source": "Malware Traffic Analysis",
+      "author": "Inconnu",
+      "published": "2026-01-09T21:32:00+00:00",
+      "niche": "security",
+      "score": 37,
+      "keywords": []
     },
     {
       "id": "11d19dcee7912d18",
@@ -5038,9 +5067,9 @@
       "niche": "security",
       "score": 34,
       "keywords": [
+        "OWASP",
         "threat",
         "cybersecurity",
-        "OWASP",
         "security"
       ]
     },
@@ -5067,24 +5096,9 @@
       "niche": "security",
       "score": 31,
       "keywords": [
-        "secure",
         "OWASP",
+        "secure",
         "security"
-      ]
-    },
-    {
-      "id": "ec0fc13b2d59bbf0",
-      "title": "SMS Phishers Pivot to Points, Taxes, Fake Retailers",
-      "description": "China-based phishing groups blamed for non-stop scam SMS messages about a supposed wayward package or unpaid toll fee are promoting a new offering, just in time for the holiday shopping season: Phishing kits for mass-creating fake but convincing e-commerce websites that convert customer payment card data into mobile wallets from Apple and Google. Experts say these same phishing groups also are now using SMS lures that promise unclaimed tax refunds and mobile rewards points.",
-      "url": "https://krebsonsecurity.com/2025/12/sms-phishers-pivot-to-points-taxes-fake-retailers/",
-      "source": "Krebs on Security",
-      "author": "BrianKrebs",
-      "published": "2025-12-04T23:02:34+00:00",
-      "niche": "security",
-      "score": 30,
-      "keywords": [
-        "phishing",
-        "RCE"
       ]
     },
     {
@@ -5098,8 +5112,8 @@
       "niche": "security",
       "score": 30,
       "keywords": [
-        "exploit",
-        "security"
+        "security",
+        "exploit"
       ]
     },
     {
@@ -5113,8 +5127,8 @@
       "niche": "security",
       "score": 30,
       "keywords": [
-        "exploit",
-        "security"
+        "security",
+        "exploit"
       ]
     },
     {
@@ -5157,8 +5171,8 @@
       "niche": "security",
       "score": 26,
       "keywords": [
-        "injection",
-        "SQL injection"
+        "SQL injection",
+        "injection"
       ]
     },
     {
@@ -5284,8 +5298,8 @@
       "niche": "security",
       "score": 25,
       "keywords": [
-        "exploit",
-        "security"
+        "security",
+        "exploit"
       ]
     },
     {
@@ -5299,8 +5313,8 @@
       "niche": "security",
       "score": 24,
       "keywords": [
-        "injection",
-        "SQL injection"
+        "SQL injection",
+        "injection"
       ]
     },
     {
@@ -5314,8 +5328,8 @@
       "niche": "security",
       "score": 24,
       "keywords": [
-        "injection",
-        "SQL injection"
+        "SQL injection",
+        "injection"
       ]
     },
     {
@@ -5329,24 +5343,8 @@
       "niche": "security",
       "score": 24,
       "keywords": [
-        "injection",
-        "SQL injection"
-      ]
-    },
-    {
-      "id": "cc6226fa85b6afcc",
-      "title": "Dismantling Defenses: Trump 2.0 Cyber Year in Review",
-      "description": "The Trump administration has pursued a staggering range of policy pivots this past year that threaten to weaken the nation’s ability and willingness to address a broad spectrum of technology challenges, from cybersecurity and privacy to countering disinformation, fraud and corruption. These shifts, along with the president’s efforts to restrict free speech and freedom of the press, have come at such a rapid clip that many readers probably aren’t even aware of them all.",
-      "url": "https://krebsonsecurity.com/2025/12/dismantling-defenses-trump-2-0-cyber-year-in-review/",
-      "source": "Krebs on Security",
-      "author": "BrianKrebs",
-      "published": "2025-12-19T15:14:55+00:00",
-      "niche": "security",
-      "score": 22,
-      "keywords": [
-        "threat",
-        "cybersecurity",
-        "security"
+        "SQL injection",
+        "injection"
       ]
     },
     {
@@ -5360,9 +5358,9 @@
       "niche": "security",
       "score": 22,
       "keywords": [
+        "security",
         "cybersecurity",
-        "malware",
-        "security"
+        "malware"
       ]
     },
     {
@@ -5446,8 +5444,8 @@
       "niche": "security",
       "score": 19,
       "keywords": [
-        "cybersecurity",
-        "security"
+        "security",
+        "cybersecurity"
       ]
     },
     {
@@ -5461,51 +5459,9 @@
       "niche": "security",
       "score": 19,
       "keywords": [
-        "cybersecurity",
+        "security",
         "PoC",
-        "security"
-      ]
-    },
-    {
-      "id": "2523054243443639",
-      "title": "Happy 16th Birthday, KrebsOnSecurity.com!",
-      "description": "KrebsOnSecurity.com celebrates its 16th anniversary today! A huge \"thank you\" to all of our readers -- newcomers, long-timers and drive-by critics alike. Your engagement this past year here has been tremendous and truly a salve on a handful of dark days. Happily, comeuppance was a strong theme running through our coverage in 2025, with a primary focus on entities that enabled complex and globally-dispersed cybercrime services.",
-      "url": "https://krebsonsecurity.com/2025/12/happy-16th-birthday-krebsonsecurity-com/",
-      "source": "Krebs on Security",
-      "author": "BrianKrebs",
-      "published": "2025-12-29T20:23:26+00:00",
-      "niche": "security",
-      "score": 18,
-      "keywords": [
-        "security"
-      ]
-    },
-    {
-      "id": "3fe3261ba405144f",
-      "title": "Most Parked Domains Now Serving Malicious Content",
-      "description": "Direct navigation -- the act of visiting a website by manually typing a domain name in a web browser -- has never been riskier: A new study finds the vast majority of \"parked\" domains -- mostly expired or dormant domain names, or common misspellings of popular websites -- are now configured to redirect visitors to sites that foist scams and malware.",
-      "url": "https://krebsonsecurity.com/2025/12/most-parked-domains-now-serving-malicious-content/",
-      "source": "Krebs on Security",
-      "author": "BrianKrebs",
-      "published": "2025-12-16T14:14:48+00:00",
-      "niche": "security",
-      "score": 18,
-      "keywords": [
-        "malware"
-      ]
-    },
-    {
-      "id": "f3d74341ccf7906d",
-      "title": "Meet Rey, the Admin of ‘Scattered Lapsus$ Hunters’",
-      "description": "A prolific cybercriminal group that calls itself \"Scattered LAPSUS$ Hunters\" made headlines regularly this year by stealing data from and publicly mass extorting dozens of major corporations. But the tables seem to have turned somewhat for \"Rey,\" the moniker chosen by the technical operator and public face of the hacker group: Earlier this week, Rey confirmed his real life identity and agreed to an interview after KrebsOnSecurity tracked him down and contacted his father.",
-      "url": "https://krebsonsecurity.com/2025/11/meet-rey-the-admin-of-scattered-lapsus-hunters/",
-      "source": "Krebs on Security",
-      "author": "BrianKrebs",
-      "published": "2025-11-26T17:22:36+00:00",
-      "niche": "security",
-      "score": 18,
-      "keywords": [
-        "security"
+        "cybersecurity"
       ]
     },
     {
@@ -5519,8 +5475,8 @@
       "niche": "security",
       "score": 18,
       "keywords": [
-        "malware",
-        "security"
+        "security",
+        "malware"
       ]
     },
     {
@@ -5592,18 +5548,6 @@
       "keywords": [
         "security"
       ]
-    },
-    {
-      "id": "87dbc9b73ce290e7",
-      "title": "Drones to Diplomas: How Russia’s Largest Private University is Linked to a $25M Essay Mill",
-      "description": "A sprawling academic cheating network turbocharged by Google Ads that has generated nearly $25 million in revenue has curious connections to a Kremlin-connected oligarch whose Russian university builds drones for Russia's war against Ukraine.",
-      "url": "https://krebsonsecurity.com/2025/12/drones-to-diplomas-how-russias-largest-private-university-is-linked-to-a-25m-essay-mill/",
-      "source": "Krebs on Security",
-      "author": "BrianKrebs",
-      "published": "2025-12-06T14:45:03+00:00",
-      "niche": "security",
-      "score": 14,
-      "keywords": []
     },
     {
       "id": "bc74034957f89c9f",
@@ -6017,18 +5961,6 @@
       "source": "Malware Traffic Analysis",
       "author": "Inconnu",
       "published": "2025-12-22T05:51:00+00:00",
-      "niche": "security",
-      "score": 7,
-      "keywords": []
-    },
-    {
-      "id": "3a7a0a38aa778e4b",
-      "title": "2025-12-17: Mirai activity (Linux traffic)",
-      "description": "",
-      "url": "https://www.malware-traffic-analysis.net/2025/12/17/index.html",
-      "source": "Malware Traffic Analysis",
-      "author": "Inconnu",
-      "published": "2025-12-22T05:50:00+00:00",
       "niche": "security",
       "score": 7,
       "keywords": []
