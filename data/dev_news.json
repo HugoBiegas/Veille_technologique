@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-11T02:22:30.403561+00:00",
-  "total_articles": 986,
+  "last_updated": "2026-01-11T04:13:02.017820+00:00",
+  "total_articles": 989,
   "articles": [
     {
       "id": "3edc46ac3aa3698f",
@@ -257,21 +257,6 @@
       ]
     },
     {
-      "id": "582f3eb8aa41c000",
-      "title": "GitHub SEO: 5 lessons learned to promote your project",
-      "description": "Most devs treat GitHub as a code host. That’s a mistake. GitHub is one of the largest distribution platforms for developer tools, whose importance increased wit Google and LLM search. After reverse-engineering dozens of high-performing repos, here are 5 practical lessons that actually move the needle for GitHub SEO. 1. GitHub uses multiple algorithms GitHub doesn’t rank repos the same way everywhere. Search results pages mix relevance, engagement, and freshness Topic pages heavily favor stars Go",
-      "url": "https://dev.to/nakora/github-seo-5-lessons-learned-to-promote-your-project-5g5d",
-      "source": "Dev.to",
-      "author": "Nakora",
-      "published": "2026-01-04T03:37:30+00:00",
-      "niche": "dev",
-      "score": 70,
-      "keywords": [
-        "code",
-        "developer"
-      ]
-    },
-    {
       "id": "3e8a6a3b8aa8e16c",
       "title": "GitHub Outage Tracker: 5 Real-Time Monitoring Methods",
       "description": "TL;DR: GitHub's official status page lags 5-15 minutes behind actual outages. Use a combination of githubstatus.com for component details, crowdsourced tools for early warnings, and a GitHub outage tracker like IsDown for automated alerts across your entire dependency stack. Don't rely on a single monitoring method. When GitHub goes down, everything stops. Your developers can't push code. CI/CD pipelines hang indefinitely. Pull requests pile up. Deployments freeze. And if you're like most engine",
@@ -515,6 +500,20 @@
       "score": 69,
       "keywords": [
         "developer"
+      ]
+    },
+    {
+      "id": "2beafca04eabcc24",
+      "title": "Polyfill - useState (React)",
+      "description": "Below is a very simple useState polyfill that you can execute, with clear comments and a minimal example to demonstrate state persistence and updates. Simple Working JavaScript Code for useState Polyfill // Simple useState polyfill for interview explanation (Fixed Version) function createUseState() { // Array to store state values across multiple \"renders\" of the component. // This simulates React's internal state storage for a component. let stateStore = []; // Variable to track the current ind",
+      "url": "https://dev.to/zeeshanali0704/polyfill-usestate-react-cm8",
+      "source": "Dev.to",
+      "author": "ZeeshanAli-0704",
+      "published": "2026-01-11T03:32:25+00:00",
+      "niche": "dev",
+      "score": 69,
+      "keywords": [
+        "code"
       ]
     },
     {
@@ -1034,6 +1033,30 @@
       "keywords": []
     },
     {
+      "id": "f99b71aa9fb44e16",
+      "title": "Show HN: Ferrite – Markdown editor in Rust with native Mermaid diagram rendering",
+      "description": "Comments",
+      "url": "https://github.com/OlaProeis/Ferrite",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-11T01:50:01+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": []
+    },
+    {
+      "id": "89847571d37b03bd",
+      "title": "Show HN: VAM Seek – 2D video navigation grid, 15KB, zero server load",
+      "description": "Comments",
+      "url": "https://github.com/unhaya/vam-seek",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-11T02:57:34+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": []
+    },
+    {
       "id": "b647de6a55849a53",
       "title": "From Prompt Engineer to AI Partner: A Developer's Guide to AI Fluency",
       "description": "From Prompt Engineer to AI Partner: A Developer's Guide to AI Fluency Remember when \"coding with AI\" just meant copy-pasting Stack Overflow answers? Those days are long gone. Today's AI tools don't just help us write code—they're reshaping how we think about problem-solving, collaboration, and what it means to be a developer. But here's the thing: having access to powerful AI doesn't automatically make you effective with it. Just like learning a new programming language or framework, working wit",
@@ -1147,6 +1170,23 @@
       "score": 60,
       "keywords": [
         "API"
+      ]
+    },
+    {
+      "id": "bbed9018fca3a139",
+      "title": "Bytekit: A Turbocharged TypeScript Toolkit for Modern Development",
+      "description": "Imagine dropping a modern library into your project that handles HTTP, logging, validation, dates, strings, caching, rate limiting, encryption, and even building URLs with a fluent API, without forcing you to drag in half the internet. That’s Bytekit. Bytekit matured into version 1.0.0 in January 2026. I’ve been using it in my own projects and it saved me from copy‑pasting the same utility code over and over. Why Bytekit? Because the JS/TS ecosystem has enough micro‑libraries. Bytekit brings eve",
+      "url": "https://dev.to/sebamar88/bytekit-a-turbocharged-typescript-toolkit-for-modern-development-1m1l",
+      "source": "Dev.to",
+      "author": "Sebastian",
+      "published": "2026-01-11T04:07:24+00:00",
+      "niche": "dev",
+      "score": 60,
+      "keywords": [
+        "API",
+        "development",
+        "code",
+        "library"
       ]
     },
     {
@@ -1605,18 +1645,19 @@
       ]
     },
     {
-      "id": "5af1a6f67c8be8e4",
-      "title": "Glue Spark frequently used code snippets and configuration",
-      "description": "How to enable DEBUG mode in Glue ? sc = SparkContext() sc.setLogLevel(\"DEBUG\") glueContext = GlueContext(sc) How to log statement using Logger in Glue ? logger = glueContext.get_logger() logger.info('starting job') How to access/get the parameter in the Glue job ? https://docs.aws.amazon.com/glue/latest/dg/aws-glue-api-crawler-pyspark-extensions-get-resolved-options.html import sys from awsglue.utils import getResolvedOptions args = getResolvedOptions(sys.argv, ['JOB_NAME', 'day_partition_key', ",
-      "url": "https://dev.to/datatechbridge/glue-spark-frequently-used-code-snippets-and-configuration-260o",
+      "id": "a22db3999c283953",
+      "title": "Why Claude Code Excels at Legacy System Modernization",
+      "description": "Nobody sets out to build a legacy system. They begin as well-designed solutions to real problems. They work so well they become critical infrastructure. Then time passes, requirements accumulate, developers rotate, and one hasty fix at a time the system becomes something nobody fully understands anymore. We (senior developers) all know the story. The outdated library that's too risky to upgrade, the undocumented script discovered on a production server. Bugs that only manifest on Tuesdays for ac",
+      "url": "https://dev.to/juhapellotsalo/why-claude-code-excels-at-legacy-system-modernization-1ll1",
       "source": "Dev.to",
-      "author": "Data Tech Bridge",
-      "published": "2026-01-04T03:40:22+00:00",
+      "author": "Juha Pellotsalo",
+      "published": "2026-01-11T03:56:18+00:00",
       "niche": "dev",
-      "score": 55,
+      "score": 56,
       "keywords": [
-        "API",
-        "code"
+        "code",
+        "developer",
+        "library"
       ]
     },
     {
@@ -2187,20 +2228,6 @@
       "keywords": [
         "programming",
         "framework"
-      ]
-    },
-    {
-      "id": "0b1971e8e166586b",
-      "title": "No more ngrok: a simpler way to tunnel MCP local servers",
-      "description": "I got tired of ngrok just to test MCP tools, so I built this If you've been playing with MCP (Model Context Protocol) to give Claude or other AI agents access to tools, you've probably hit this wall: You write a cool tool that queries your local Postgres, runs a script, or hits an internal API. Works great locally. Then you want to actually use it with Claude... and now you need to figure out how to expose it. ngrok? Sure, but it's another thing to set up. Port forwarding? Pain in the ass, espec",
-      "url": "https://dev.to/huynhphuchuy/no-more-ngrok-a-simpler-way-to-tunnel-mcp-local-servers-1lm",
-      "source": "Dev.to",
-      "author": "Huy Huynh",
-      "published": "2026-01-04T03:47:36+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "API"
       ]
     },
     {
@@ -3054,18 +3081,31 @@
       ]
     },
     {
-      "id": "8fcf4c04b2c1bf10",
-      "title": "🍀 Beginner-Friendly Guide 'Four Divisors' – LeetCode 1390 (C++, Python, JavaScript)",
-      "description": "Finding the divisors of a number is a classic math problem that pops up frequently in competitive programming. This specific challenge asks us to filter a list of numbers based on a very strict mathematical property: having exactly four divisors. Problem Summary You're given: An array of integers called nums. Your goal: Identify every number in the array that has exactly four divisors. Calculate the sum of all divisors for those specific numbers and return the total sum. Intuition To solve this ",
-      "url": "https://dev.to/om_shree_0709/beginner-friendly-guide-four-divisors-leetcode-1390-c-python-javascript-56cf",
+      "id": "061d00e34b3fb602",
+      "title": "Qué es CAI-EXPERT-LAB — y qué no es",
+      "description": "CAI-EXPERT-LAB no es un sistema de IA, no es un producto y no es un framework de cumplimiento normativo. Es una arquitectura de referencia para la gobernanza de la IA y la ciberseguridad, centrada en cómo se preservan la decisión, la autoridad y la responsabilidad en sistemas que incorporan analítica avanzada y automatización. Su alcance no es el rendimiento de modelos ni la optimización algorítmica. Opera a nivel arquitectónico, donde la gobernanza existe por diseño o colapsa bajo presión. CAI-",
+      "url": "https://dev.to/antonio_socorro_95e3ff086/que-es-cai-expert-lab-y-que-no-es-ba0",
       "source": "Dev.to",
-      "author": "Om Shree",
-      "published": "2026-01-04T03:33:43+00:00",
+      "author": "Antonio Jose Socorro Marin",
+      "published": "2026-01-11T03:13:38+00:00",
       "niche": "dev",
-      "score": 52,
+      "score": 54,
       "keywords": [
-        "programming",
-        "code"
+        "framework"
+      ]
+    },
+    {
+      "id": "ad5ed32ae83bae75",
+      "title": "Real-Time is an SLA, Not an Architecture: When You Actually Need Kafka (And When You Don't)",
+      "description": "TL;DR: Inherited a streaming architecture with 47 Kafka topics. Only 3 needed sub-second latency. 38 were batch operations disguised as streaming. $22k/month down to $8k/month. Same business outcomes. The lesson: your SLA should drive your architecture, not your resume. The Problem: Real-Time Cargo Cult The meeting was in a fancy conference room. \"We built a real-time data architecture. 12 engineers. Kafka clusters. Stream processors. Microservices. We're cutting edge.\" They showed me a Grafana ",
+      "url": "https://dev.to/qvfagundes/real-time-is-an-sla-not-an-architecture-when-you-actually-need-kafka-and-when-you-dont-4ecb",
+      "source": "Dev.to",
+      "author": "Vinicius Fagundes",
+      "published": "2026-01-11T03:00:00+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "microservices"
       ]
     },
     {
@@ -3471,48 +3511,6 @@
       "keywords": [
         "code",
         "developer"
-      ]
-    },
-    {
-      "id": "0db92415585ecded",
-      "title": "Confessions of a Totally Average Dev \"Part 2\": How I Accidentally Learned TypeScript and Immediately Regretted It 🌩️😩",
-      "description": "Hey, fellow code gremlins—remember me? The guy who once argued in a team chat that var is still fine because \"it vibes\"? Yeah, that disaster. Last time we talked, I was crowning copy-paste as the eighth wonder of the world. But oh, sweet summer child, that was before the incident. Before TypeScript slithered into my life like a bad Tinder match: promising structure, delivering only pain. It started innocently enough. Q3 2025. Our React app was a Frankenstein's monster of any types and runtime er",
-      "url": "https://dev.to/om_shree_0709/confessions-of-a-totally-average-dev-part-2-how-i-accidentally-learned-typescript-and-5an3",
-      "source": "Dev.to",
-      "author": "Om Shree",
-      "published": "2026-01-04T04:00:37+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "78fa6fa8be353ec3",
-      "title": "The Grand Finale: Image Reconstruction Network from Scratch in Rust",
-      "description": "The next day, I checked things started evolving properly, albeit slowly. There was no improvement in execution time. It got stuck in that 34 - 37 second time frame. My gut feeling told me, the destination was not far. However, when I opened my IDE for debugging, it was not looking so. It was again a mess after all the new code amendments and new experimentation. It was getting tougher to debug without a nice looking code base. So I decided on end to end refactoring and code clean up. Oh boy!!! T",
-      "url": "https://dev.to/palash90/the-grand-finale-image-reconstruction-network-from-scratch-in-rust-3mkb",
-      "source": "Dev.to",
-      "author": "Palash Kanti Kundu",
-      "published": "2026-01-04T03:57:00+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "d83799a4221720fc",
-      "title": "MAWA - A language as simple as Python but as powerful as Assembler, modern ASM but much simpler",
-      "description": "MAWA - A programming language as simple in syntax as Python but as impressive as Assembler, it could be called Modern Assembler. Although I have talked about MAWA before, I haven't gone into much detail. In this post, I will discuss it and explain a MAWA command, how it works, and what it does. For those who did not read the first MAWA post, you can read it at this link: https://dev.to/samuel_leonardo_37aff38b4/mawa-el-lenguaje-de-programacion-del-futuro-2bjh My name is Samuel Leonardo Páez Garz",
-      "url": "https://dev.to/samuel_leonardo_37aff38b4/mawa-a-language-as-simple-as-python-but-as-powerful-as-assembler-modern-asm-but-much-simpler-c9c",
-      "source": "Dev.to",
-      "author": "Samuel Leonardo",
-      "published": "2026-01-04T03:33:10+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "programming"
       ]
     },
     {
@@ -4970,42 +4968,6 @@
       "keywords": [
         "developer"
       ]
-    },
-    {
-      "id": "47014ea8e0f590d9",
-      "title": "Tech Pulse: Wrapping 2025, Igniting 2026",
-      "description": "January 4, 2026 | Welcome to this week's Tech Pulse, your digest of the seismic shifts in technology from December 28, 2025, to January 3, 2026. As the year flipped, the industry didn't pause for New Year's. AI evolved into \"agentic\" systems, quantum leaps accelerated, and investments poured into infrastructure amid growing pains like data center backlash. Here's the rundown on what mattered most. AI: From Tools to Autonomous Agents The week marked a pivot toward AI as proactive organizers, not ",
-      "url": "https://dev.to/om_shree_0709/tech-pulse-wrapping-2025-igniting-2026-5a77",
-      "source": "Dev.to",
-      "author": "Om Shree",
-      "published": "2026-01-04T03:46:35+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "3d5b1f27824c5c8d",
-      "title": "I analyzed 6,000+ n8n Workflows. Here are the top 3 mistakes that break automations.",
-      "description": "The \"Data Dig\" 🔍 Over the past month, I've been building a search engine for n8n workflows. To make it useful, I scraped and indexed over 6,000 public workflow JSON files from various repositories and communities. I thought I would find a goldmine of ready-to-use automation. Instead, I found a lot of... let's call it \"fragile creativity.\" 😅 While there are some brilliant engineers out there, a huge portion of open-source workflows are unusable for the average user. After parsing thousands of nod",
-      "url": "https://dev.to/iloven8n/i-analyzed-6000-n8n-workflows-here-are-the-top-3-mistakes-that-break-automations-1leo",
-      "source": "Dev.to",
-      "author": "zo Aoo",
-      "published": "2026-01-04T03:35:20+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "2809a08c2f54056c",
-      "title": "How I Built a Search Engine for MrBeast Videos using Python & Supabase",
-      "description": "I realized something recently: MrBeast has uploaded over 700 videos, but there is no easy way to search through what he actually says. If you want to find that one specific time Chandler won a challenge, or every time Jimmy mentioned \"Feastables\" in 2019, you have to manually scrub through hours of footage. So, I spent the last weekend building a tool to solve this. The Tech Stack I wanted to keep it free and fast, so I used: Python (Streamlit): For the frontend UI. Supabase: To store the databa",
-      "url": "https://dev.to/patel_rogers_cd316bef25fa/how-i-built-a-search-engine-for-mrbeast-videos-using-python-supabase-5he4",
-      "source": "Dev.to",
-      "author": "Patel Rogers",
-      "published": "2026-01-04T03:32:42+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
     },
     {
       "id": "3087e65e703c0710",
@@ -7974,6 +7936,54 @@
       "keywords": []
     },
     {
+      "id": "d07d868003c5abcd",
+      "title": "Artdots: The benefits of creating a side project",
+      "description": "Three key benefits of creating a side project are giving back to the community, supporting other organizations, and personal growth. Giving back to the community One of the greatest benefits of creating a side project is the contribution to society at large. In this example, the main cause is to support art and empower artists and art-lovers, by shining a spotlight on those behind the scenes, celebrating the collaborative nature of the creative process, emphasizing the importance of mutual inspi",
+      "url": "https://dev.to/veliona/artdots-the-benefits-of-creating-a-side-project-564e",
+      "source": "Dev.to",
+      "author": "Julia Jakubczak",
+      "published": "2026-01-11T03:40:20+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "a171c9ab42b9242d",
+      "title": "3I/ATLAS: Could an Interstellar Object Threaten Earth? Analysis Assisted by ChatGPT",
+      "description": "Abstract: The discovery of interstellar objects such as ʻOumuamua and Borisov has opened new frontiers in planetary science. One such object, provisionally referred to as 3I/ATLAS, has raised questions about its trajectory, structural anomalies, and potential interaction with Earth. This article presents a structured, physics-based analysis of 3I/ATLAS, incorporating gravitational interactions with Jupiter, hypothetical internal activity, and probability estimates for Earth encounters. The analy",
+      "url": "https://dev.to/sharmaricky/the-curious-case-of-3iatlas-could-an-interstellar-object-pose-a-risk-to-earth-11j9",
+      "source": "Dev.to",
+      "author": "VS",
+      "published": "2026-01-11T03:33:48+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "aef16ecec1e4397c",
+      "title": "The minimum ethics checklist for Devs & Small Businesses",
+      "description": "As the Founder of ReThynk AI, I want to say this clearly: Small businesses don’t lose trust because they lack AI. They lose trust when they use AI carelessly. That’s why I treat ethics as a business advantage, not a legal lecture. The Minimum Ethics Checklist for Small Businesses Most small businesses don’t need complex “AI governance.” They need a simple checklist that protects: customers the brand the team and long-term credibility Because in the AI era, trust is fragile. One mistake can cost ",
+      "url": "https://dev.to/jaideepparashar/the-minimum-ethics-checklist-for-small-businesses-12gm",
+      "source": "Dev.to",
+      "author": "Jaideep Parashar",
+      "published": "2026-01-11T03:26:22+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "be6a40828e0f4411",
+      "title": "All you need to know and to get started building your first MCP 🤖",
+      "description": "What is MCP? Definition and basic overview Model Context Protocol (MCP) is a standard method for connecting AI applications with external systems. It can be a database, function, tool (e.g., search the web, create PDFs), or any process that helps AI better understand context and perform tasks. If you haven't realized it, most AI products already have this integration. A great example: when you ask something in ChatGPT or Grok, sometimes you'll see a background process called \"search the web.\" Th",
+      "url": "https://dev.to/wildanzr/all-you-need-to-know-and-to-get-started-building-your-first-mcp-5766",
+      "source": "Dev.to",
+      "author": "Graita Sukma Febriansyah Triwildan Azmi",
+      "published": "2026-01-11T03:10:10+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "6b078f8a0818c9b2",
       "title": "Cool Article on API Tools!! https://medium.com/@somendradev23/10-api-tools-every-full-stack-developer-should-know-6f9af40ae0ec",
       "description": "medium.com",
@@ -8155,6 +8165,18 @@
       "source": "Dev.to",
       "author": "Ido Cohen",
       "published": "2026-01-09T20:52:58+00:00",
+      "niche": "dev",
+      "score": 46,
+      "keywords": []
+    },
+    {
+      "id": "78a401a12f78de6a",
+      "title": "Devs & Small businesses don’t lose trust because they lack AI. They lose trust when they use AI carelessly.",
+      "description": "The minimum ethics checklist for Devs & Small Businesses Jaideep Parashar ・ Jan 11 #webdev #ai #devops #startup",
+      "url": "https://dev.to/jaideepparashar/devs-small-businesses-dont-lose-trust-because-they-lack-ai-they-lose-trust-when-they-use-ai-1nfn",
+      "source": "Dev.to",
+      "author": "Jaideep Parashar",
+      "published": "2026-01-11T03:30:00+00:00",
       "niche": "dev",
       "score": 46,
       "keywords": []
@@ -10183,6 +10205,18 @@
       "keywords": []
     },
     {
+      "id": "1c12fd8d33872697",
+      "title": "A Year of Work on the Arch Linux Package Management (ALPM) Project",
+      "description": "Comments",
+      "url": "https://devblog.archlinux.page/2026/a-year-of-work-on-the-alpm-project/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-11T02:08:14+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "8b5f25c1055ea864",
       "title": "How to Create a Pixel-to-Voxel Video Drop Effect with Three.js and Rapier",
       "description": "A tutorial showing how video pixels are voxelized in 3D and dropped into a physics-driven world using Three.js, shaders, and Rapier.",
@@ -10236,8 +10270,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "performance",
-        "React 19"
+        "React 19",
+        "performance"
       ]
     },
     {
@@ -10279,9 +10313,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "performance",
+        "code",
         "release",
-        "code"
+        "performance"
       ]
     },
     {
@@ -10296,8 +10330,8 @@
       "score": 40,
       "keywords": [
         "API",
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -10311,9 +10345,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "performance",
+        "release",
         "developer",
-        "release"
+        "performance"
       ]
     },
     {
@@ -10530,6 +10564,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2026-01-10T12:23:20+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
+      "id": "72396632bd8186a5",
+      "title": "Show HN: Play poker with LLMs, or watch them play against each other",
+      "description": "Comments",
+      "url": "https://llmholdem.com/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-10T19:27:39+00:00",
       "niche": "dev",
       "score": 38,
       "keywords": []
@@ -10848,11 +10894,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "release",
         "API",
-        "performance",
         "code",
-        "framework"
+        "performance",
+        "framework",
+        "release"
       ]
     },
     {
@@ -11224,9 +11270,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "release",
+        "code",
         "development",
-        "code"
+        "release"
       ]
     },
     {
@@ -11240,9 +11286,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "performance",
+        "code",
         "developer",
-        "code"
+        "performance"
       ]
     },
     {
@@ -11256,8 +11302,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "performance",
-        "code"
+        "code",
+        "performance"
       ]
     },
     {
@@ -11271,8 +11317,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
-        "code"
+        "code",
+        "release"
       ]
     },
     {
@@ -11286,8 +11332,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -11301,8 +11347,8 @@
       "niche": "dev",
       "score": 18,
       "keywords": [
-        "PHP",
-        "Angular"
+        "Angular",
+        "PHP"
       ]
     },
     {
@@ -11359,8 +11405,8 @@
       "score": 17,
       "keywords": [
         "API",
-        "developer",
-        "development"
+        "development",
+        "developer"
       ]
     },
     {
@@ -11374,9 +11420,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "PHP",
         "development",
-        "tutorial"
+        "tutorial",
+        "PHP"
       ]
     },
     {
@@ -11390,9 +11436,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "PHP",
         "development",
-        "tutorial"
+        "tutorial",
+        "PHP"
       ]
     },
     {
@@ -11697,9 +11743,9 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "developer",
         "code",
-        "programming"
+        "programming",
+        "developer"
       ]
     },
     {
@@ -12577,18 +12623,6 @@
       "published": "2025-09-26T00:00:00+00:00",
       "niche": "dev",
       "score": 9,
-      "keywords": []
-    },
-    {
-      "id": "bddca6e055d06941",
-      "title": "1970 Paris, cut into a grid and photographed",
-      "description": "Comments",
-      "url": "https://paris1970.jeantho.eu/index.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-03T20:15:14+00:00",
-      "niche": "dev",
-      "score": 8,
       "keywords": []
     },
     {
