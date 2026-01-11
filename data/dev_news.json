@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-11T04:13:02.017820+00:00",
-  "total_articles": 989,
+  "last_updated": "2026-01-11T06:39:59.069505+00:00",
+  "total_articles": 992,
   "articles": [
     {
       "id": "3edc46ac3aa3698f",
@@ -1057,6 +1057,18 @@
       "keywords": []
     },
     {
+      "id": "8512a87ee9f2a798",
+      "title": "The Concise TypeScript Book",
+      "description": "Comments",
+      "url": "https://github.com/gibbok/typescript-book",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-11T05:42:03+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": []
+    },
+    {
       "id": "b647de6a55849a53",
       "title": "From Prompt Engineer to AI Partner: A Developer's Guide to AI Fluency",
       "description": "From Prompt Engineer to AI Partner: A Developer's Guide to AI Fluency Remember when \"coding with AI\" just meant copy-pasting Stack Overflow answers? Those days are long gone. Today's AI tools don't just help us write code—they're reshaping how we think about problem-solving, collaboration, and what it means to be a developer. But here's the thing: having access to powerful AI doesn't automatically make you effective with it. Just like learning a new programming language or framework, working wit",
@@ -1299,21 +1311,6 @@
         "development",
         "release",
         "API"
-      ]
-    },
-    {
-      "id": "7c2061c92ecc3718",
-      "title": "collections Module Added to Standard Library Learning Path",
-      "description": "I've just uploaded the collections module materials to my standardlib-datastruct repository. This one's a bit different from my previous workbooks. What's Inside The collections materials include 24 exercises covering high-performance container datatypes from Python's collections module: Collections Covered Counter - Count hashable objects and perform arithmetic operations defaultdict - Dictionary with default values for missing keys deque - Double-ended queue with fast appends/pops from both en",
-      "url": "https://dev.to/hejhdiss/collections-module-added-to-standard-library-learning-path-3g8n",
-      "source": "Dev.to",
-      "author": "Muhammed Shafin P",
-      "published": "2026-01-04T06:20:47+00:00",
-      "niche": "dev",
-      "score": 57,
-      "keywords": [
-        "performance",
-        "library"
       ]
     },
     {
@@ -1658,21 +1655,6 @@
         "code",
         "developer",
         "library"
-      ]
-    },
-    {
-      "id": "b4801b8e902dd233",
-      "title": "Fine-tuning & Model Optimization: Key Trends & Insights",
-      "description": "Fine-tuning & Model Optimization: Key Trends & Insights Overview As the field of artificial intelligence (AI) and machine learning (ML) continues to evolve, the fine-tuning and optimization of large language models (LLMs) have become crucial for developers and data scientists. Techniques such as LoRA, QLoRA, and quantization are at the forefront of reducing computational and memory requirements while preserving or even enhancing model performance. Key Trends Quantized Low-Rank Adaptation (QLoRA)",
-      "url": "https://dev.to/hkj13/fine-tuning-model-optimization-key-trends-insights-kh",
-      "source": "Dev.to",
-      "author": "Hemanath Kumar J",
-      "published": "2026-01-04T06:00:50+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "performance",
-        "developer"
       ]
     },
     {
@@ -2228,6 +2210,21 @@
       "keywords": [
         "programming",
         "framework"
+      ]
+    },
+    {
+      "id": "58a95a5677695592",
+      "title": "Automate Website Health: Building a High-Performance Dead Link Checker with Python",
+      "description": "Automate Website Health: Building a High-Performance Dead Link Checker As developers, we know that \"Link Rot\" is an inevitable part of the web. Sites move, pages are deleted, and external resources vanish. But manually clicking through every link on a site to find a 404 is a developer's nightmare. I built Dead Link Checker, a professional desktop tool designed to turn this hours-long chore into a background task that finishes in minutes. Why Another Link Checker? There are many online tools, but",
+      "url": "https://dev.to/arif98741_47/automate-website-health-building-a-high-performance-dead-link-checker-with-python-1f15",
+      "source": "Dev.to",
+      "author": "Ariful Islam",
+      "published": "2026-01-11T06:01:09+00:00",
+      "niche": "dev",
+      "score": 55,
+      "keywords": [
+        "developer",
+        "performance"
       ]
     },
     {
@@ -3109,33 +3106,31 @@
       ]
     },
     {
-      "id": "04be2496a9887cd8",
-      "title": "Textly - 30+ Free Online Text Tools (No Sign Up, Private)",
-      "description": "Hello everyone! I've just launched Textly, a collection of 30+ essential text utility tools designed to make your daily tasks easier. Link: https://textly.unaux.com/ Whether you're a developer, writer, or student, Textly provides a fast and private way to: Convert Text Cases (Upper, Lower, Title, Camel, etc.) Analyze Text (Word count, character count) Clean Data (Remove duplicates, sort lines, trim whitespace) Format Data (JSON formatter, Base64 encoder) Why use Textly? 100% Free: No hidden cost",
-      "url": "https://dev.to/amin_islam_63d8dea17c96ce/textly-30-free-online-text-tools-no-sign-up-private-4mc5",
+      "id": "efe7cc72a54be775",
+      "title": "Synchronizing Recurring Outlook Meetings with EspoCRM: A Production-Grade Solution",
+      "description": "This article was originally published on here TL;DR If you're building Outlook Calendar integration with EspoCRM, recurring meetings will break your standard delta sync logic. This article presents a production-grade solution using: Windowed Expansion: Only sync instances within [Today - 7d, Today + 90d] Series Rebuild: When seriesMaster changes, fetch all instances via the Instances API Bootstrap State Machine: Handle cold-start with explicit initialization scan Critical Warning: Never use iCal",
+      "url": "https://dev.to/yhzhu/synchronizing-recurring-outlook-meetings-with-espocrm-a-production-grade-solution-1e5d",
       "source": "Dev.to",
-      "author": "Amin Islam",
-      "published": "2026-01-04T06:35:02+00:00",
+      "author": "yhzhu",
+      "published": "2026-01-11T06:29:22+00:00",
       "niche": "dev",
-      "score": 52,
+      "score": 54,
       "keywords": [
-        "code",
-        "developer"
+        "API"
       ]
     },
     {
-      "id": "dd6e55712c0742ff",
-      "title": "Is the World Ready for Another Programming Language in 2026, Now That AI Writes Code?",
-      "description": "I am coming up a new Language called Come ;) It’s 2026. Yes, AI writes code now. This is still happening. Come(C Object and Module Extensions) is a systems programming language inspired by C. It preserves C’s mental model while removing common pitfalls. No raw pointers in user code Explicit, hierarchical ownership via arenas Headered dynamic arrays/strings as first-class objects Static typing with local inference (var) Modules as the only compilation unit Minimal syntax drift from C The design c",
-      "url": "https://dev.to/james_d_befc420a49e6a2b5e/is-the-world-ready-for-another-programming-language-in-2026-now-that-ai-writes-code-2el8",
+      "id": "193968d22e7a1f29",
+      "title": "Released Gon v7.0.0",
+      "description": "I am a current maintainer of Gon. We have released Gon v7.0.0. Release v7.0.0 · gazay/gon As you can tell from the major version bump, this release includes breaking changes. These breaking changes were introduced by the following PR created by @krororo: Breaking: Make request_store an optional dependency by krororo · Pull Request #296 · gazay/gon In gon, when you set a value like gon.foo = 'bar', the value used to be stored internally using request_store. In the early days of Rails application ",
+      "url": "https://dev.to/willnet/released-gon-v700-34k6",
       "source": "Dev.to",
-      "author": "James D",
-      "published": "2026-01-04T06:07:36+00:00",
+      "author": "Shinichi Maeshima",
+      "published": "2026-01-11T06:29:04+00:00",
       "niche": "dev",
-      "score": 52,
+      "score": 54,
       "keywords": [
-        "code",
-        "programming"
+        "release"
       ]
     },
     {
@@ -3514,31 +3509,33 @@
       ]
     },
     {
-      "id": "7619c32ed06dfb4c",
-      "title": "Grid Gaps Explained: The Secret to Perfect Web Layouts",
-      "description": "Grid Gaps: Your Secret Weapon for Layouts That Don't Look Like a Hot Mess Let’s be real for a second. How many times have you built a grid—a nice, neat CSS Grid layout—only to spend the next 20 minutes fiddling with margin and padding on the child items, trying to get the spacing just right? You add a little here, subtract a little there, and suddenly your clean code is a nest of overrides and !important declarations. It’s frustrating, right? What if I told you there’s a better way? A single lin",
-      "url": "https://dev.to/satyam_gupta_0d1ff2152dcc/grid-gaps-explained-the-secret-to-perfect-web-layouts-4a48",
+      "id": "4bfb2b7dc828598d",
+      "title": "MCP Token Limits: The Hidden Cost of Tool Overload",
+      "description": "You add a few MCP servers. GitHub for code, Notion for docs, maybe Slack for notifications. Suddenly Claude feels... slower. Less helpful. It misses context you explicitly provided. It gives generic answers to specific questions. The Numbers Behind MCP Token Usage Here's a stat that stopped me cold: the GitHub MCP server alone consumes 55,000 tokens across its 93 tool definitions. That's before you ask Claude anything. Before you paste any code. Before the conversation even starts. Developer Sco",
+      "url": "https://dev.to/piotr_hajdas/mcp-token-limits-the-hidden-cost-of-tool-overload-2d5",
       "source": "Dev.to",
-      "author": "Satyam Gupta",
-      "published": "2026-01-04T06:24:47+00:00",
+      "author": "Piotr Hajdas",
+      "published": "2026-01-11T06:19:27+00:00",
       "niche": "dev",
-      "score": 51,
+      "score": 52,
       "keywords": [
+        "developer",
         "code"
       ]
     },
     {
-      "id": "12f5655a8d711edb",
-      "title": "ReliefLine",
-      "description": "What I Built ReliefLine is a disaster relief planning platform that replaces guesswork with data-driven precision. It bridges the gap between global alerts and local response in the Philippines by providing: Smart Relief Calculator: Instantly generates supply budgets (rice, water, family packs) based on official Department of Social Welfare and Development (DSWD) government standards and census data. Real-Time Monitoring: Aggregates live disaster feeds from global monitoring systems into a singl",
-      "url": "https://dev.to/ctrlvee/reliefline-4fch",
+      "id": "c53ec09ace60c8f1",
+      "title": "I can finally use MCPs without fear",
+      "description": "MCP promised to make agentic coding fast and powerful, instead it overwhelmed the senses of the LLMs that we trusted to write code for us. Even Anthropic took notice that context is the modern day coding juice that we are all dependent on. Their solution farm the whole thing out to typescript and write a bunch of integration code to build the whole infrastructure from scratch. Instead, I had Claude write a custom programming language, the Simple Language for Orchestrating Prompts or SLOP and sho",
+      "url": "https://dev.to/andylbrummer/i-can-finally-use-mcps-without-fear-3pfl",
       "source": "Dev.to",
-      "author": "Ferdinand Virtudes",
-      "published": "2026-01-04T06:09:20+00:00",
+      "author": "Andy Brummer",
+      "published": "2026-01-11T06:03:02+00:00",
       "niche": "dev",
-      "score": 51,
+      "score": 52,
       "keywords": [
-        "development"
+        "programming",
+        "code"
       ]
     },
     {
@@ -4970,52 +4967,18 @@
       ]
     },
     {
-      "id": "3087e65e703c0710",
-      "title": "Grid Align Explained: The Complete Guide to Perfect CSS Layouts (2026)",
-      "description": "Grid Align: Stop Guessing and Start Perfectly Placing Every Element on Your Page Let’s be real. For years, CSS layout was a total headache. We’ve all been there—janking around with floats, clearing fixes, and trying to force display: inline-block to do things it was never meant to do. It felt like building a house with duct tape. Then, Flexbox came along and was a game-changer for one-dimensional layouts (rows OR columns). But for the true, two-dimensional control we all craved—controlling both ",
-      "url": "https://dev.to/satyam_gupta_0d1ff2152dcc/grid-align-explained-the-complete-guide-to-perfect-css-layouts-2026-4hmk",
+      "id": "e2ab7e011b61a227",
+      "title": "Getting Started with AWS in 2026 – A Practical Beginner's Guide 🚀",
+      "description": "Getting Started with AWS in 2026 – The Practical Way for Developers Hey DEV community! 👋 If you're a developer looking to level up in 2026, AWS (Amazon Web Services) is still the #1 cloud platform — powering everything from startups to giants like Netflix, Airbnb, and Spotify. But AWS can feel overwhelming with 200+ services. Where do you even start? This guide is for absolute beginners who want a clear, practical path — not just theory. We'll cover account creation (with security!), the most im",
+      "url": "https://dev.to/sahinur/getting-started-with-aws-in-2026-a-practical-beginners-guide-2i9h",
       "source": "Dev.to",
-      "author": "Satyam Gupta",
-      "published": "2026-01-04T06:27:27+00:00",
+      "author": "Sahinur",
+      "published": "2026-01-11T06:14:20+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "537c139637d865c2",
-      "title": "Master CSS Grid Tracks: Complete Guide to Modern Layouts (2026)",
-      "description": "Mastering CSS Grid Tracks: Your Ultimate Guide to Layout Superpowers Ever stared at a webpage layout and thought, \"How do they get those columns to behave so perfectly?\" Or maybe you've wrestled with floats and flexbox until 2 AM, dreaming of something... better? Welcome to the game-changer: CSS Grid Tracks. This isn't just another CSS feature—it's the layout revolution you've been waiting for. Let's break it down so you can start building magazine-worthy layouts without the headache. What Even ",
-      "url": "https://dev.to/satyam_gupta_0d1ff2152dcc/master-css-grid-tracks-complete-guide-to-modern-layouts-2026-1dao",
-      "source": "Dev.to",
-      "author": "Satyam Gupta",
-      "published": "2026-01-04T06:22:41+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "3cfc16ec9fd0797c",
-      "title": "Define the AWS Global Infrastructure",
-      "description": "🌍Exam Guide: Cloud Practitioner Domain 3: Cloud Technology & Services 📘Task Statement 3.2 🎯What Is This Task Testing? You must be able to explain the building blocks of AWS global infrastructure and how they relate: Regions, Availability Zones (AZs), and Edge Locations How AWS infrastructure supports high availability When to use multiple AZs vs multiple Regions Benefits of edge locations (e.g., CloudFront, Global Accelerator) What AWS Local Zones and AWS Wavelength Zones are used for 1) 🧱 Core ",
-      "url": "https://dev.to/aws-builders/define-the-aws-global-infrastructure-5eje",
-      "source": "Dev.to",
-      "author": "Ntombizakhona Mabaso",
-      "published": "2026-01-04T06:00:18+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "a325eba5e664b2c9",
-      "title": "Why \"Seamless\" AI is a Design Failure: The Judgment Transparency Principle (JTP)",
-      "description": "The \"Seamless\" Problem As AI becomes more integrated, we’re obsessed with making it \"seamless.\" But is total seamlessness always a good thing? When AI hides the boundary between human intent and machine inference, it creates a \"Silent Delegation\" trap. We lose the ability to see where our agency ends and the AI begins. A New Design Philosophy: JTP I want to propose a new standard for AI interaction: the Judgment Transparency Principle (JTP). Instead of hiding the \"seams,\" we should make the dele",
-      "url": "https://dev.to/daiki_kadowaki_jtp/why-seamless-ai-is-a-design-failure-the-judgment-transparency-principle-jtp-k54",
-      "source": "Dev.to",
-      "author": "Daiki Kadowaki",
-      "published": "2026-01-04T05:59:11+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
       "id": "c6e35cf5bf547d16",
@@ -7984,6 +7947,54 @@
       "keywords": []
     },
     {
+      "id": "d4e5b1cd6f45ca11",
+      "title": "Who Owns This? Why Project Ownership Matters More Than Ever",
+      "description": "TL;DR Modern software projects move too fast and change too often for task-based management alone. “Project Owner” reflects a shift from managing timelines to owning outcomes — taking responsibility for decisions, trade-offs, and real-world execution. As AI-driven and complex systems become the norm, clear ownership isn’t optional anymore. It’s essential. For years, software teams have relied on familiar titles like Project Manager, Product Manager, and Tech Lead. But recently, a different term ",
+      "url": "https://dev.to/sela_network/who-owns-this-why-project-ownership-matters-more-than-ever-cpk",
+      "source": "Dev.to",
+      "author": "Sela Network",
+      "published": "2026-01-11T06:24:27+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "174acc9431093115",
+      "title": "Your 2026 Resolution: Add Context to Your Data (Before It Breaks You)",
+      "description": "Last week I sat in an executive review where two teams spent forty minutes arguing about \"active users.\" Not about strategy. Not about growth. About what the number meant. One team counted anyone who logged in. The other excluded users who bounced in under 30 seconds. Neither knew which experiment flags were active when the data was pulled. The dashboard just showed a number. No definition. No lineage. No context. This happens constantly. And it's about to get significantly worse. Gartner predic",
+      "url": "https://dev.to/aronchick/your-2026-resolution-add-context-to-your-data-before-it-breaks-you-2k5n",
+      "source": "Dev.to",
+      "author": "David Aronchick",
+      "published": "2026-01-11T06:11:42+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "826c04b43731ca43",
+      "title": "The Natasha Problem: Why Your Data Pipeline Only Fits One Person",
+      "description": "For most folks, you probably don’t think about clothing sizes. There’s a number, you pick it, you try on the clothes, and if they fit, then congrats, you’re that number. But how’d they pick that number? And why does every style/line/person fit slightly differently? Turns out there's a woman named Natasha in Los Angeles whose body is used to design jeans for seven or eight major clothing brands. She's what the industry calls a \"fit model.\" When Levi's or H&M or whoever designs a new pair of jeans",
+      "url": "https://dev.to/aronchick/the-natasha-problem-why-your-data-pipeline-only-fits-one-person-2gli",
+      "source": "Dev.to",
+      "author": "David Aronchick",
+      "published": "2026-01-11T06:11:42+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "fa7a82520d047498",
+      "title": "SQL INJECTION",
+      "description": "🚨 SQL Injection (Injeção de SQL): o básico que todo dev precisa saber 🔴 O que é? É quando dados do utilizador são inseridos diretamente na query SQL, permitindo ao atacante alterar a lógica da consulta. ❌ Exemplo inseguro: SELECT * FROM users WHERE email = '$email' AND senha = '$senha'; Se o atacante usar: email: ' OR 1=1 -- → faz login sem senha. ⚠️ Como é explorado? • Bypass de autenticação • Leitura de dados sensíveis • Alteração ou eliminação de dados • Em casos graves: execução de comandos ",
+      "url": "https://dev.to/rodrino_adolfokupessala_/sql-injection-hga",
+      "source": "Dev.to",
+      "author": "Rodrino Adolfo Kupessala",
+      "published": "2026-01-11T06:05:00+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "6b078f8a0818c9b2",
       "title": "Cool Article on API Tools!! https://medium.com/@somendradev23/10-api-tools-every-full-stack-developer-should-know-6f9af40ae0ec",
       "description": "medium.com",
@@ -8307,18 +8318,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "70b21fee24b7eaba",
-      "title": "Neural Networks: Zero to Hero",
-      "description": "Comments",
-      "url": "https://karpathy.ai/zero-to-hero.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-04T05:02:16+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "9e7d39b02f462845",
@@ -10217,6 +10216,30 @@
       "keywords": []
     },
     {
+      "id": "3831ce4e15d2de4f",
+      "title": "My Home Fibre Network Disintegrated",
+      "description": "Comments",
+      "url": "https://alienchow.dev/post/fibre_disintegration/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-11T04:19:04+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "f2b53fc8a1ed8fc0",
+      "title": "'The answer cannot be nothing': The battle over Canada's mystery brain disease",
+      "description": "Comments",
+      "url": "https://www.bbc.com/news/articles/c623r47d67lo",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-11T04:45:27+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "8b5f25c1055ea864",
       "title": "How to Create a Pixel-to-Voxel Video Drop Effect with Three.js and Rapier",
       "description": "A tutorial showing how video pixels are voxelized in 3D and dropped into a physics-driven world using Three.js, shaders, and Rapier.",
@@ -10313,8 +10336,8 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "code",
         "release",
+        "code",
         "performance"
       ]
     },
@@ -10329,9 +10352,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "API",
         "release",
-        "developer"
+        "developer",
+        "API"
       ]
     },
     {
@@ -10591,9 +10614,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
+        "release",
         "API",
-        "React 19",
-        "release"
+        "React 19"
       ]
     },
     {
@@ -10635,8 +10658,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -10650,8 +10673,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -10894,11 +10917,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
+        "release",
         "API",
-        "code",
         "performance",
         "framework",
-        "release"
+        "code"
       ]
     },
     {
@@ -11240,8 +11263,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "API",
-        "release"
+        "release",
+        "API"
       ]
     },
     {
@@ -11270,9 +11293,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
+        "release",
         "code",
-        "development",
-        "release"
+        "development"
       ]
     },
     {
@@ -11286,8 +11309,8 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "code",
         "developer",
+        "code",
         "performance"
       ]
     },
@@ -11317,8 +11340,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "code",
-        "release"
+        "release",
+        "code"
       ]
     },
     {
@@ -11404,9 +11427,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
+        "developer",
         "API",
-        "development",
-        "developer"
+        "development"
       ]
     },
     {
@@ -11420,9 +11443,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
+        "PHP",
         "development",
-        "tutorial",
-        "PHP"
+        "tutorial"
       ]
     },
     {
@@ -11436,9 +11459,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
+        "PHP",
         "development",
-        "tutorial",
-        "PHP"
+        "tutorial"
       ]
     },
     {
@@ -11733,6 +11756,18 @@
       "keywords": []
     },
     {
+      "id": "c35d257e85a56639",
+      "title": "CPU Counters on Apple Silicon: article + tool",
+      "description": "Comments",
+      "url": "https://blog.bugsiki.dev/posts/apple-pmu/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-07T11:39:33+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
       "id": "d6bac23517ce8c3d",
       "title": "Documents: The architect’s programming language",
       "description": "Senior developers know how to deploy code to systems made of code. Architects know how to deploy ideas to systems made of people.",
@@ -11743,9 +11778,9 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "code",
+        "developer",
         "programming",
-        "developer"
+        "code"
       ]
     },
     {
@@ -11989,8 +12024,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "development",
-        "programming"
+        "programming",
+        "development"
       ]
     },
     {
