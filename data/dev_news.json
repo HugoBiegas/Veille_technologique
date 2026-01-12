@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-12T09:38:56.684679+00:00",
-  "total_articles": 988,
+  "last_updated": "2026-01-12T12:59:07.941665+00:00",
+  "total_articles": 987,
   "articles": [
     {
       "id": "b8e7c86fc5b22a35",
@@ -126,20 +126,6 @@
       "keywords": [
         "API",
         "developer"
-      ]
-    },
-    {
-      "id": "a9ee84a2416562bd",
-      "title": "(🐱-1-2; Failed, Again) By React Native, Develop Media Preview and Converter (Wewayangan Media Viewer)",
-      "description": "You may actually read my unfinish previous post where I try to learn Kotlin to Develop this app. But, now, I want to do that in React Native. I just thought doing in Kotlin (for native performance) is almost overkill. That's why I flee to React Native. But, why RN? It is simple, it is javascript, and NPM has many libraries for every day. Uuh... I mean I want to end this project as fast as possible. You may met me again for other exploration and journey. Summary. I want to have a battery-ready bo",
-      "url": "https://dev.to/farhanms123/-1-failed-again-by-react-native-develop-media-preview-and-converter-wewayangan-media-viewer-3me5",
-      "source": "Dev.to",
-      "author": "Felis Cato",
-      "published": "2026-01-05T12:18:38+00:00",
-      "niche": "dev",
-      "score": 72,
-      "keywords": [
-        "performance"
       ]
     },
     {
@@ -487,18 +473,6 @@
       ]
     },
     {
-      "id": "f7ce96e3561ee0d7",
-      "title": "ReactJS Design Pattern ~Colocating State~",
-      "description": "・Collocating State is placing a state as close as possible to where it's used. This pattern reduces complexity and makes components easier to understand. Before function App() { const [isVisible, setIsVisible] = useState(false); return ( <div> <h1>Colocating State Example</h1> <ToggleSection isVisible={isVisible} setIsVisible={setIsVisible}/> </div> ); } function ToggleSection({isVisible, setIsVisible}) { return ( <div> <button onClick={() => setIsVisible(!isVisible)}> {isVisible ? \"Hide\" : \"Sho",
-      "url": "https://dev.to/kkr0423/reactjs-design-pattern-colocating-state-3f0p",
-      "source": "Dev.to",
-      "author": "Ogasawara Kakeru",
-      "published": "2026-01-05T12:06:12+00:00",
-      "niche": "dev",
-      "score": 68,
-      "keywords": []
-    },
-    {
       "id": "f2a4048c2291e7e3",
       "title": "How the Android Boot Process Works on Embedded SBCs",
       "description": "When Android runs on an embedded Single Board Computer (SBC), the boot process looks familiar on the surface but behaves quite differently from a smartphone or tablet. There is no fixed hardware reference design, no locked boot chain, and often no battery-backed environment. Instead, the boot flow is shaped by the SoC vendor, the board design, and the product’s long-term maintenance requirements. Understanding this process is essential for engineers working on custom Android SBCs, especially whe",
@@ -731,6 +705,18 @@
       "keywords": [
         "performance"
       ]
+    },
+    {
+      "id": "6a2ae02c8eadb6e2",
+      "title": "Debugging runtime bugs in React/Next.js apps can be frustrating when there's no crash or log to guide you. In this walkthrough, I use theORQL (an AI runtime debugger) to fix 5 common bugs in a weather demo app – from render crashes to silent UI failures.",
+      "description": "Debugging 5 Real-World Bugs: A Practical Walkthrough That Doesn't Include Console.log! Eleftheria Batsou ・ Jan 12 #ai #debug #debugging #frontend",
+      "url": "https://dev.to/eleftheriabatsou/debugging-runtime-bugs-in-reactnextjs-apps-can-be-frustrating-when-theres-no-crash-or-log-to-23be",
+      "source": "Dev.to",
+      "author": "Eleftheria Batsou",
+      "published": "2026-01-12T12:47:18+00:00",
+      "niche": "dev",
+      "score": 64,
+      "keywords": []
     },
     {
       "id": "0c140e6c5e8cf093",
@@ -1084,22 +1070,16 @@
       "keywords": []
     },
     {
-      "id": "b647de6a55849a53",
-      "title": "From Prompt Engineer to AI Partner: A Developer's Guide to AI Fluency",
-      "description": "From Prompt Engineer to AI Partner: A Developer's Guide to AI Fluency Remember when \"coding with AI\" just meant copy-pasting Stack Overflow answers? Those days are long gone. Today's AI tools don't just help us write code—they're reshaping how we think about problem-solving, collaboration, and what it means to be a developer. But here's the thing: having access to powerful AI doesn't automatically make you effective with it. Just like learning a new programming language or framework, working wit",
-      "url": "https://dev.to/hinlocaesar/from-prompt-engineer-to-ai-partner-a-developers-guide-to-ai-fluency-2l11",
-      "source": "Dev.to",
-      "author": "hinlocaesar",
-      "published": "2026-01-05T12:15:26+00:00",
+      "id": "f3bc56f6b81020d9",
+      "title": "How to Build Reactive Declarative UI in Vanilla JavaScript",
+      "description": "Comments",
+      "url": "https://jsdev.space/howto/reactive-vanilla-js/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-12T11:31:56+00:00",
       "niche": "dev",
-      "score": 61,
-      "keywords": [
-        "framework",
-        "programming",
-        "API",
-        "code",
-        "developer"
-      ]
+      "score": 62,
+      "keywords": []
     },
     {
       "id": "c254077d6b21c7ff",
@@ -1115,23 +1095,6 @@
         "API",
         "microservices",
         "framework"
-      ]
-    },
-    {
-      "id": "4f6d142d70dcc406",
-      "title": "Benchmarking EF Core LINQ, Dapper Raw SQL, and Stored Procedures in .NET: A Real-World Performance Comparison (2026)",
-      "description": "In .NET development, selecting the right data access strategy is crucial for balancing performance, maintainability, and developer productivity. Entity Framework Core (EF Core) with LINQ provides a powerful full ORM experience, Dapper offers lightweight micro-ORM speed with raw SQL control, and Stored Procedures deliver database-level optimization and security. This post explores a practical benchmark comparing these approaches on a real-world query: calculating team performance summaries (total",
-      "url": "https://dev.to/mina_golzari_dalir/benchmarking-ef-core-linq-dapper-raw-sql-and-stored-procedures-in-net-a-real-world-performance-54e4",
-      "source": "Dev.to",
-      "author": "Mina Golzari Dalir",
-      "published": "2026-01-05T12:40:37+00:00",
-      "niche": "dev",
-      "score": 60,
-      "keywords": [
-        "framework",
-        "developer",
-        "development",
-        "performance"
       ]
     },
     {
@@ -1734,21 +1697,6 @@
       ]
     },
     {
-      "id": "d62f5dc1895d9f4c",
-      "title": "ESPHome Gerät ständig \"Offline\"? So fixst du API-Errors und Boot-Loops beim ESP32",
-      "description": "Du hast deinen eigenen Sensor mit ESPHome gebaut, geflasht und voller Stolz in Home Assistant integriert. Doch nach ein paar Stunden oder Tagen kommt die Ernüchterung: Der Sensor ist \"Unavailable\". Im Logbuch steht ständig: WARNING Disconnected from API: Timeout while waiting for message response Oder schlimmer: Das Gerät startet alle paar Sekunden neu (Boot Loop). Bevor du deinen Lötkolben aus dem Fenster wirfst: In 90% der Fälle liegt es nicht an deinem Code, sondern an der Physik (Strom) oder",
-      "url": "https://dev.to/tim_alex_ba4bc28e6bdfc168/esphome-gerat-standig-offline-so-fixst-du-api-errors-und-boot-loops-beim-esp32-2dfm",
-      "source": "Dev.to",
-      "author": "Tim Alex",
-      "published": "2026-01-05T12:17:33+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "code",
-        "API"
-      ]
-    },
-    {
       "id": "0b7e99a9b01cc67a",
       "title": "Leaflet Location Picker with Address Autocomplete, Geolocation, and Draggable Pin with Geoapify",
       "description": "Collecting a delivery address is one thing. Getting the exact location is another. Users often know their street but struggle to describe where the entrance is - especially in large buildings, gated communities, or areas with poor address coverage. In this tutorial, we'll build a delivery-friendly location picker that combines address autocomplete with an interactive map. The workflow is simple: users search for their address, then confirm or adjust the location by dragging a pin on the map. Rev",
@@ -2226,20 +2174,6 @@
       "keywords": [
         "developer",
         "framework"
-      ]
-    },
-    {
-      "id": "0f6d2aebaae477b7",
-      "title": "Ai Implementation Analysis for FlashFX",
-      "description": "AI Implementation Analysis - FlashFX Current Implementation Status ✅ Working Features Chat Interface: Fully functional AI chat in Layers Panel Static Element Generation: Creates shapes, buttons, chat bubbles, frames OpenAI API Integration: Complete setup (but using demo mode) Element Placement: Smart positioning and unique ID generation Batch Operations: Multiple elements added efficiently ❌ Missing Animation Features No Animation Generation: AI only creates static elements No Keyframe Creation:",
-      "url": "https://dev.to/therealgabry/ai-implementation-analysis-for-flashfx-5fe7",
-      "source": "Dev.to",
-      "author": "Gabriele B.",
-      "published": "2026-01-05T12:13:25+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "API"
       ]
     },
     {
@@ -3510,20 +3444,6 @@
       "keywords": [
         "code",
         "developer"
-      ]
-    },
-    {
-      "id": "f5774498527e6553",
-      "title": "No-Code Has Not Failed — but it has not proven its success",
-      "description": "No-Code Has Not Failed — But It Has Not Earned Trust Where Failure Is Not an Option No-code and low-code platforms promise speed. What they have not yet proven is reliability under real pressure. This is not a philosophical argument. It’s a technical one. Security Is More Than Authentication Most no-code platforms offer: Login Tokens OAuth Basic access control That is authentication, not security. Real secure systems require a full security lifecycle: Public/private key exchange Client-side encr",
-      "url": "https://dev.to/khaledmsalem/no-code-has-not-failed-but-it-has-not-proven-its-success-3d0b",
-      "source": "Dev.to",
-      "author": "KhaledSalem",
-      "published": "2026-01-05T12:15:38+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
       ]
     },
     {
@@ -4885,40 +4805,74 @@
       ]
     },
     {
-      "id": "21ab2da177495fb0",
-      "title": "Creating a Certificate X.509 expiration Dashboard using Grafana",
-      "description": "At Woovi, we need to manage many X.509 certificates that are not only related to site domains. We have certificates that enable mTLS connections, allow us to sign ISO 20022 XML messages, and provide some A1 and A3 certificates to emit electronic invoices (notas fiscais) and access certain Central Bank and government systems. Current state of certificate expiration tools Most certificate expiration tools are focused on renewing site domain certificates. My problem is just to check the expiration ",
-      "url": "https://dev.to/woovi/creating-a-certificate-x509-expiration-dashboard-using-grafana-211k",
+      "id": "d24b3c13c186d0ee",
+      "title": "When Tests Keep Passing, but Design Stops Moving",
+      "description": "There’s a moment I keep running into when practicing TDD. Tests pass. Coverage improves. Refactoring feels safe. And yet, at some point, the design just… stops moving. Not because the system is finished. Not because the problem is solved. But because the tests no longer seem to challenge anything. They keep confirming decisions that already feel locked in. The Stall Is Quiet This stall is subtle. Nothing is obviously wrong. CI is green. The codebase looks “healthy.” But learning has slowed to a ",
+      "url": "https://dev.to/felix-asher/when-tests-keep-passing-but-design-stops-moving-19ik",
       "source": "Dev.to",
-      "author": "Sibelius Seraphini",
-      "published": "2026-01-05T12:49:08+00:00",
+      "author": "Felix Asher",
+      "published": "2026-01-12T12:48:25+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
-      "id": "2d10158a89fc1753",
-      "title": "Build Your Own Local AI Agent (Part 2): The SQLite Analyst",
-      "description": "In Part 1, we organized files. Now, let's talk to data. SQL is hard. Natural Language is easy. Today, we build a Local SQLite Analyst that lets you ask questions like \"Who are my top users?\" and gets answers from your private database. The Goal An agent that: Takes a question (\"Show me errors from yesterday\"). Inspects your database schema. Writes the correct SQL query. Runs it locally and explains the result. The Architecture This agent needs to use Tools (specifically, the command line). The C",
-      "url": "https://dev.to/harishkotra/build-your-own-local-ai-agent-part-2-the-sqlite-analyst-24oc",
+      "id": "52feb044c639fe41",
+      "title": "Why LLMs Are Bad at \"First Try\" and Great at Verification",
+      "description": "I used to spend hours crafting the perfect prompt. Detailed instructions, examples, constraints—the works. And the AI would still add random features I never asked for. Or refactor code that was perfectly fine. Or skip steps it decided were \"unnecessary.\" Eventually it clicked: I was fighting a losing battle. So I stopped trying to control generation and started focusing on verification. The Failure Patterns You've Probably Seen Before diving into why, these are the common anti-patterns: The Gia",
+      "url": "https://dev.to/shinpr/why-llms-are-bad-at-first-try-and-great-at-verification-4kcf",
       "source": "Dev.to",
-      "author": "Harish Kotra (he/him)",
-      "published": "2026-01-05T12:30:00+00:00",
+      "author": "Shinsuke KAGAWA",
+      "published": "2026-01-12T12:46:19+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
-      "id": "0e7f625a7e5a86ae",
-      "title": "Why MLOps Needs Blockchain for True Data Integrity",
-      "description": "The Production Nightmare Picture this: It’s 3 AM. Your production model, the one that was performing beautifully in staging, just flagged a legitimate high-value transaction as fraud. Or worse, a healthcare algorithm is spitting out recommendations that look weirdly biased. You scramble to check the logs. You look at the S3 buckets. But here’s the problem: Can you actually prove what happened? We spend massive amounts of time obsessing over hyperparameters and model architectures, yet we treat d",
-      "url": "https://dev.to/krunalbhimani/why-mlops-needs-blockchain-for-true-data-integrity-1hbl",
+      "id": "5ceeac4d47421cc1",
+      "title": "Debugging 5 Real-World Bugs: A Practical Walkthrough That Doesn't Include Console.log!",
+      "description": "As a front-end developer, I deal with bugs all the time. Those sneaky ones that pop up in runtime and mess with my flow or those silent ones that I can never understand what's wrong, are my worst nightmare, or to better phrase, it used to be... Today I want to present you with a solution. Recently, I collaborated with theORQL team to try their AI runtime debugger. I met the founder, and we had a lovely chat as well as a practical demo of the product. (More info here.) In the era of AI, how do yo",
+      "url": "https://dev.to/eleftheriabatsou/debugging-5-real-world-bugs-a-practical-walkthrough-that-doesnt-include-consolelog-1jje",
       "source": "Dev.to",
-      "author": "Krunal Bhimani",
-      "published": "2026-01-05T12:15:01+00:00",
+      "author": "Eleftheria Batsou",
+      "published": "2026-01-12T12:45:58+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
+    },
+    {
+      "id": "81a5ea5382567f93",
+      "title": "Engineering Stable Artificial Identity: The AIIM Platform Architecture",
+      "description": "The current landscape of conversational AI is dominated by a paradox: models are becoming smarter, yet they remain remarkably \"hollow.\" While Large Language Models (LLMs) can generate poetry or solve code, they struggle with the most human attribute of all: Identity Stability. A standard AI agent is essentially an actor with amnesia—it plays a role when prompted but lacks a genuine, persistent self. It mimics personality but doesn't possess it. With AIIM (Advanced Identity & Interaction Model), ",
+      "url": "https://dev.to/juliavvrn/engineering-stable-artificial-identity-the-aiim-platform-architecture-15fo",
+      "source": "Dev.to",
+      "author": "Julia",
+      "published": "2026-01-12T12:42:48+00:00",
+      "niche": "dev",
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
+    },
+    {
+      "id": "7be4efe99612b581",
+      "title": "Mastering Database Logic: Handling Partial Payments in an Inventory System",
+      "description": "The Business Logic ​Before writing code, we must understand the requirements. Our system needs to track: ​The Source: Which Agency is supplying the stock? (e.g., \"Fresh Fruits Co.\") ​The Transaction: ​What is the Total Bill Amount? ​How much was paid immediately (Initial Amount)? ​How much is pending (Balance Amount)? ​When was the balance finally cleared (Balance Date)? ​To achieve this, we use a One-to-Many Relationship between the Agency and their Bill Details. ​ The Database Schema ​We need ",
+      "url": "https://dev.to/seenu_seenu_1e97a9dd35e0c/mastering-database-logic-handling-partial-payments-in-an-inventory-system-27gb",
+      "source": "Dev.to",
+      "author": "Seenu Seenu",
+      "published": "2026-01-12T12:38:25+00:00",
+      "niche": "dev",
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "97890aaf515d9e7d",
@@ -4976,18 +4930,6 @@
       "source": "Dev.to",
       "author": "Paperium",
       "published": "2026-01-05T15:10:24+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "31f0ae9f3580d86f",
-      "title": "How to Create Scatterplots and Model Data in R Using ggplot2",
-      "description": "You can use R as a powerful tool for data analysis, data visualization, and statistical modelling. In this guide, you’ll learn how to load real-world data into R, visualize patterns using ggplot2, build simple linear and logistic regression models, a...",
-      "url": "https://www.freecodecamp.org/news/how-to-create-scatterplots-and-model-data-in-r/",
-      "source": "freeCodeCamp",
-      "author": "Tiffany Mojo Omondi",
-      "published": "2026-01-05T12:05:54+00:00",
       "niche": "dev",
       "score": 50,
       "keywords": []
@@ -8031,6 +7973,42 @@
       "keywords": []
     },
     {
+      "id": "a46ce67b3c576f83",
+      "title": "Building PDFMitra: A Free PDF Tool with Next.js 14 (Complete Tech Guide) 🚀",
+      "description": "Building PDFMitra: A Free PDF Tool with Next.js 14 🚀 🎯 What We're Building PDFMitra is a completely free PDF manipulation platform with multi-language support (Hindi, English, Marathi, Tamil). In this guide, I'll show you exactly how I built it. Live Demo: pdfmitra.in 📚 Tech Stack { \"frontend\": \"Next.js 14 (App Router)\", \"language\": \"TypeScript\", \"styling\": \"Tailwind CSS\", \"pdf-processing\": [\"pdf-lib\", \"PDFKit\"], \"i18n\": \"react-i18next\", \"hosting\": \"Vercel (Free)\", \"analytics\": \"Google Analytics",
+      "url": "https://dev.to/praveen_nayak_6a6dd7dab4b/building-pdfmitra-a-free-pdf-tool-with-nextjs-14-complete-tech-guide-35nk",
+      "source": "Dev.to",
+      "author": "Praveen Nayak",
+      "published": "2026-01-12T12:42:25+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "ebab0d1c251d7606",
+      "title": "Cloud Sem Falência: O mínimo que você precisa saber de FinOps",
+      "description": "Imagine a cena: você trabalha em uma empresa consolidada. Vocês têm aquele rack de servidores físicos robusto, piscando luzinhas em uma sala gelada, com piso elevado e controle biométrico (o famoso On-Premise). Tudo funciona. O banco de dados aguenta o tranco, a latência é zero na rede local. Mas a diretoria decide que é hora de \"modernizar\". \"Vamos migrar para a Nuvem!\", dizem eles, com os olhos brilhando. A promessa no PowerPoint é sedutora: flexibilidade infinita, segurança gerenciada e o man",
+      "url": "https://dev.to/ed-wantuil/cloud-sem-falencia-o-minimo-que-voce-precisa-saber-de-finops-8ao",
+      "source": "Dev.to",
+      "author": "Ed Wantuil",
+      "published": "2026-01-12T12:35:44+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "576d8d2d73e85fcb",
+      "title": "[BOJ/C++] 단계별로 풀어보기 - 정렬(2)",
+      "description": "2026.01.12일차입니다. 요즘은 하드 락이나 메탈보다 얼터 락을 좀 더 많이 듣는 거 같아요 오늘은 Boulevard of Broken Dreams 들으면서 코테 풀었어요 노래 자체도 좋긴한데 가사 이입해서 들으면 뭐랄까 머릿속이 정돈된다고 해야하나 아무튼 정렬 풀어보았습니다. 2587번 대표값2 문제 링크 평균과 중앙값을 구하는 문제입니다. 5개의 값을 정렬 후 중앙값인 a[2]를 출력하면 되는 간단한 문제입니다. #include <iostream> #include <algorithm> using namespace std; int main() { int a[5], t = 0; for (int i = 0; i < 5; ++i) { cin >> a[i]; t += a[i]; } sort(a, a + 5); cout << t / 5 << '\\n' << a[2]; } 전 글에서 말했다시피 여러 문제에서 정렬 알고리즘을 구현하긴 귀찮기도 하고 실제 코테에서도 내장 함수를 사용하므로 저",
+      "url": "https://dev.to/dbsans11/bojc-dangyebyeolro-puleobogi-jeongryeol2-3592",
+      "source": "Dev.to",
+      "author": "dbsans",
+      "published": "2026-01-12T12:22:00+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "6b078f8a0818c9b2",
       "title": "Cool Article on API Tools!! https://medium.com/@somendradev23/10-api-tools-every-full-stack-developer-should-know-6f9af40ae0ec",
       "description": "medium.com",
@@ -8156,6 +8134,20 @@
       "score": 48,
       "keywords": [
         "programming"
+      ]
+    },
+    {
+      "id": "12125000cbdbc060",
+      "title": "Looking for comfortable and stylish Women’s Pickleball Clothing for regular play and matches. I explored options from Pickle Ball NVZ that focus on breathability and performance. Any recommendations on what to check before buying?",
+      "description": "",
+      "url": "https://dev.to/jeenifer_beezer/looking-for-comfortable-and-stylish-womens-pickleball-clothing-for-regular-play-and-matches-i-2eo1",
+      "source": "Dev.to",
+      "author": "Jeenifer Beezer",
+      "published": "2026-01-12T12:44:31+00:00",
+      "niche": "dev",
+      "score": 48,
+      "keywords": [
+        "performance"
       ]
     },
     {
@@ -8398,30 +8390,6 @@
       ]
     },
     {
-      "id": "10ec01596c2b98f3",
-      "title": "It's hard to justify Tahoe icons",
-      "description": "Comments",
-      "url": "https://tonsky.me/blog/tahoe-icons/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-05T11:51:42+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "f86b1fb3ade7870d",
-      "title": "Anna's Archive Loses .Org Domain After Surprise Suspension",
-      "description": "Comments",
-      "url": "https://torrentfreak.com/annas-archive-loses-org-domain-after-surprise-suspension/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-05T10:23:32+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
       "id": "27f8058d3511958f",
       "title": "\"use client\" and \"use server\" directive in simple manner",
       "description": "",
@@ -8453,30 +8421,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2026-01-05T15:13:59+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "205749b3a34cc91e",
-      "title": "Cigarette smoke effect using shaders",
-      "description": "Comments",
-      "url": "https://garden.bradwoods.io/notes/javascript/three-js/shaders/shaders-103-smoke",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-05T11:32:58+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "ad131d15048a2d41",
-      "title": "Anna's Archive loses .org domain after surprise suspension",
-      "description": "Comments",
-      "url": "https://torrentfreak.com/annas-archive-loses-org-domain-after-surprise-suspension/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-05T10:23:32+00:00",
       "niche": "dev",
       "score": 44,
       "keywords": []
@@ -10198,19 +10142,40 @@
       "keywords": []
     },
     {
-      "id": "8b5f25c1055ea864",
-      "title": "How to Create a Pixel-to-Voxel Video Drop Effect with Three.js and Rapier",
-      "description": "A tutorial showing how video pixels are voxelized in 3D and dropped into a physics-driven world using Three.js, shaders, and Rapier.",
-      "url": "https://tympanus.net/codrops/2026/01/05/how-to-create-a-pixel-to-voxel-video-drop-effect-with-three-js-and-rapier/",
-      "source": "Codrops",
-      "author": "Junichi Kasahara",
-      "published": "2026-01-05T12:00:49+00:00",
+      "id": "1cddb78eb867a0f2",
+      "title": "Lightpanda migrate DOM implementation to Zig",
+      "description": "Comments",
+      "url": "https://lightpanda.io/blog/posts/migrating-our-dom-to-zig",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-12T09:42:49+00:00",
       "niche": "dev",
-      "score": 43,
-      "keywords": [
-        "API",
-        "tutorial"
-      ]
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "a6047cb64ead19e6",
+      "title": "Ai, Japanese chimpanzee who counted and painted dies at 49",
+      "description": "Comments",
+      "url": "https://www.bbc.com/news/articles/cj9r3zl2ywyo",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-12T09:10:45+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "a4e02d9a4f274b7d",
+      "title": "Launch a Debugging Terminal into GitHub Actions",
+      "description": "Comments",
+      "url": "https://blog.gripdev.xyz/2026/01/10/actions-terminal-on-failure-for-debugging/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-12T12:25:27+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
     },
     {
       "id": "9507e2cf68c6c137",
@@ -10251,8 +10216,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "performance",
-        "React 19"
+        "React 19",
+        "performance"
       ]
     },
     {
@@ -10294,8 +10259,8 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "performance",
         "code",
+        "performance",
         "release"
       ]
     },
@@ -10310,9 +10275,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "API",
+        "developer",
         "release",
-        "developer"
+        "API"
       ]
     },
     {
@@ -10326,9 +10291,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
+        "developer",
         "performance",
-        "release",
-        "developer"
+        "release"
       ]
     },
     {
@@ -10548,9 +10513,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "API",
+        "React 19",
         "release",
-        "React 19"
+        "API"
       ]
     },
     {
@@ -10592,8 +10557,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10607,8 +10572,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10875,11 +10840,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "performance",
-        "API",
         "framework",
-        "release",
-        "code"
+        "code",
+        "API",
+        "performance",
+        "release"
       ]
     },
     {
@@ -11221,8 +11186,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "API",
-        "release"
+        "release",
+        "API"
       ]
     },
     {
@@ -11252,8 +11217,8 @@
       "score": 20,
       "keywords": [
         "development",
-        "code",
-        "release"
+        "release",
+        "code"
       ]
     },
     {
@@ -11267,8 +11232,8 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "performance",
         "code",
+        "performance",
         "developer"
       ]
     },
@@ -11283,8 +11248,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "performance",
-        "code"
+        "code",
+        "performance"
       ]
     },
     {
@@ -11313,8 +11278,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
-        "developer"
+        "developer",
+        "release"
       ]
     },
     {
@@ -11328,8 +11293,8 @@
       "niche": "dev",
       "score": 18,
       "keywords": [
-        "PHP",
-        "Angular"
+        "Angular",
+        "PHP"
       ]
     },
     {
@@ -11385,9 +11350,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
+        "developer",
         "development",
-        "API",
-        "developer"
+        "API"
       ]
     },
     {
@@ -11401,9 +11366,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "development",
+        "tutorial",
         "PHP",
-        "tutorial"
+        "development"
       ]
     },
     {
@@ -11417,9 +11382,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "development",
+        "tutorial",
         "PHP",
-        "tutorial"
+        "development"
       ]
     },
     {
@@ -11433,8 +11398,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "API",
-        "code"
+        "code",
+        "API"
       ]
     },
     {
@@ -11534,18 +11499,6 @@
       "keywords": []
     },
     {
-      "id": "5a0404efe0155a8d",
-      "title": "On Getting Hacked",
-      "description": "Comments",
-      "url": "https://ahmeto.com/post/on-getting-hacked",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-05T12:26:39+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
       "id": "447153b707e43ee7",
       "title": "How wolves became dogs",
       "description": "Comments",
@@ -11577,18 +11530,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2026-01-06T12:44:52+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "fa789d70da703fd8",
-      "title": "Diving into Qualcomm's Upcoming Adreno X2 GPU with Eric Demers",
-      "description": "Comments",
-      "url": "https://chipsandcheese.com/p/diving-into-qualcomms-upcoming-adreno",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-05T11:10:08+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -11685,6 +11626,30 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2026-01-06T22:31:37+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "dd1e92fc2f344c88",
+      "title": "Show HN: DevicePrint – device fingerprinting without cookies",
+      "description": "Comments",
+      "url": "https://news.ycombinator.com/item?id=46517654",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-06T19:51:29+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "833efbb5b3ff5d89",
+      "title": "Travel Is Not Education",
+      "description": "Comments",
+      "url": "https://fi-le.net/travel/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-07T03:43:38+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -12062,6 +12027,21 @@
       "score": 13,
       "keywords": [
         "development"
+      ]
+    },
+    {
+      "id": "8b5f25c1055ea864",
+      "title": "How to Create a Pixel-to-Voxel Video Drop Effect with Three.js and Rapier",
+      "description": "A tutorial showing how video pixels are voxelized in 3D and dropped into a physics-driven world using Three.js, shaders, and Rapier.",
+      "url": "https://tympanus.net/codrops/2026/01/05/how-to-create-a-pixel-to-voxel-video-drop-effect-with-three-js-and-rapier/",
+      "source": "Codrops",
+      "author": "Junichi Kasahara",
+      "published": "2026-01-05T12:00:49+00:00",
+      "niche": "dev",
+      "score": 13,
+      "keywords": [
+        "tutorial",
+        "API"
       ]
     },
     {
