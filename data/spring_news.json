@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-12T15:37:37.989795+00:00",
-  "total_articles": 170,
+  "last_updated": "2026-01-12T18:43:50.468315+00:00",
+  "total_articles": 179,
   "articles": [
     {
       "id": "ff21f1fe6035f996",
@@ -216,42 +216,6 @@
       "published": "2026-01-11T00:00:00+00:00",
       "niche": "spring",
       "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "376fda97a7e502f5",
-      "title": "Mastering Event-Driven Java: Kafka, Pulsar, RabbitMQ, and Beyond",
-      "description": "In today’s software landscape, responsiveness, scalability, and real-time data flow are no longer luxuries—they’re expectations. Event-driven architectures (EDA) offer a powerful way to meet these demands, and Java remains a top-tier language for building such systems. Whether you&#8217;re streaming millions of events per second or coordinating microservices, platforms like Kafka, Pulsar, and RabbitMQ provide the &#8230;",
-      "url": "https://www.javacodegeeks.com/2026/01/mastering-event-driven-java-kafka-pulsar-rabbitmq-and-beyond.html",
-      "source": "Java Code Geeks",
-      "author": "Eleftheria Drosopoulou",
-      "published": "2026-01-05T17:26:00+00:00",
-      "niche": "spring",
-      "score": 42,
-      "keywords": []
-    },
-    {
-      "id": "60f17c0da6c027ed",
-      "title": "Implement Multi-Threading in Node.js With Worker Threads",
-      "description": "Node.js is known for its single-threaded architecture powered by the event loop. While this design is excellent for I/O-driven applications, it struggles whenever CPU-heavy operations block the event loop and degrade performance. To overcome this limitation, Node.js offers the worker_threads module, which enables true parallel execution of computation-heavy tasks. This article provides an explanation of &#8230;",
-      "url": "https://www.javacodegeeks.com/implement-multi-threading-in-node-js-with-worker-threads.html",
-      "source": "Java Code Geeks",
-      "author": "Omozegie Aziegbe",
-      "published": "2026-01-05T16:04:00+00:00",
-      "niche": "spring",
-      "score": 42,
-      "keywords": []
-    },
-    {
-      "id": "16398558c06e9d26",
-      "title": "Beyond Fuzzy Matching: Engineering a Multi-Signal ML Pipeline for CRM Deduplication",
-      "description": "The CRM Problem We All Face Almost every CRM platform struggles with duplicate customer records because  the data is a messy mix flowing in from too many places — web forms, call centers, imports from ERP, partner feeds, and even legacy systems from multiple business units. The exact same company can pop up under slightly different names, with spelling variations, inconsistent addresses, or missing suite numbers. A simple single-rule fuzzy match isn't enough to connect these dots.  To truly fix ",
-      "url": "https://feeds.dzone.com/link/18931/17247488/multi-signal-ml-pipeline-crm-deduplication",
-      "source": "DZone Microservices",
-      "author": "Punitha Ponnuraj",
-      "published": "2026-01-05T17:00:00+00:00",
-      "niche": "spring",
-      "score": 42,
       "keywords": []
     },
     {
@@ -579,6 +543,42 @@
       "keywords": []
     },
     {
+      "id": "be9e166f47a361a0",
+      "title": "The Economics of Technical Debt: Market Theory Applied to Code Quality",
+      "description": "Every software team knows the feeling: a feature that should take two days stretches into two weeks because the codebase is &#8220;a mess.&#8221; Developers spend more time working around problems than solving them. Deadlines slip. Frustration builds. This isn&#8217;t just a technical problem—it&#8217;s an economic one. Technical debt behaves remarkably like financial debt. Both accumulate &#8230;",
+      "url": "https://www.javacodegeeks.com/2026/01/the-economics-of-technical-debt-market-theory-applied-to-code-quality.html",
+      "source": "Java Code Geeks",
+      "author": "Eleftheria Drosopoulou",
+      "published": "2026-01-12T16:53:00+00:00",
+      "niche": "spring",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "89a2782fda18ff28",
+      "title": "EBCDIC to ASCII Conversion in Java",
+      "description": "Many enterprise systems still rely on legacy platforms such as IBM mainframes, where data is commonly stored using EBCDIC (Extended Binary Coded Decimal Interchange Code) encoding. Modern applications, APIs, databases, and web services, however, typically use ASCII or UTF-8. When these systems need to exchange data, character encoding mismatches can occur, leading to unreadable output &#8230;",
+      "url": "https://www.javacodegeeks.com/ebcdic-to-ascii-conversion-in-java.html",
+      "source": "Java Code Geeks",
+      "author": "Omozegie Aziegbe",
+      "published": "2026-01-12T15:43:00+00:00",
+      "niche": "spring",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "69cc2c094fc5a590",
+      "title": "The Night We Split the Brain: A Telling of Control & Data Planes for Cloud Microservices",
+      "description": "You know those pages you receive in the middle of the night? Not a full-blown fire, mind you, but rather a slow-burning panic? Let me tell you one of those stories that changed the way my team built software forever. It was 2 a.m., and the graphs looked bad. Not dead, mind you, but sick. Our microservices were still talking, but P95 latencies were rising high in the sky, like a lazy balloon. And retries were starting to cascade. The whole system felt like it was in a swamp.  So what was the prob",
+      "url": "https://feeds.dzone.com/link/18931/17251859/control-and-data-planes-for-cloud-microservices",
+      "source": "DZone Microservices",
+      "author": "Bharath Kumar Reddy Janumpally",
+      "published": "2026-01-12T17:00:15+00:00",
+      "niche": "spring",
+      "score": 42,
+      "keywords": []
+    },
+    {
       "id": "9d07942ce5df267d",
       "title": "Java’s Plans for 2026 - Inside Java Newscast #104",
       "description": "In 2026, Java keeps evolving: Project Valhalla is gunning for merging its value types preview in the second half of this year; Babylon wants to incubate code reflection; Loom will probably finalize the structured concurrency API; Leyden plans to ship AOT code compilation; and Amber hopes to present JEPs on constant patterns and pattern assignments. And those are just the most progressed features - more are in the pipeline and discussed in this episode of the Inside Java Newscast.",
@@ -694,6 +694,42 @@
       "source": "Vlad Mihalcea",
       "author": "vladmihalcea",
       "published": "2025-11-11T08:05:24+00:00",
+      "niche": "spring",
+      "score": 32,
+      "keywords": []
+    },
+    {
+      "id": "05eb9bbc9d88bf8e",
+      "title": "gRPC in Spring Boot",
+      "description": "This article explains how to use the Spring gRPC project to enable built-in support for gRPC services in a Spring Boot application. The Spring gRPC project has just announced its 1.0 GA release. gRPC is a modern open-source Remote Procedure Call (RPC) framework that runs in any environment. By default, it uses Google’s Protocol Buffer [&#8230;] The post gRPC in Spring Boot appeared first on Piotr&#039;s TechBlog.",
+      "url": "https://piotrminkowski.com/2025/12/15/grpc-spring/",
+      "source": "Piotr's TechBlog",
+      "author": "piotr.minkowski",
+      "published": "2025-12-15T08:28:11+00:00",
+      "niche": "spring",
+      "score": 32,
+      "keywords": []
+    },
+    {
+      "id": "72b78b7bee96ecd6",
+      "title": "Spring Boot Built-in API Versioning",
+      "description": "This article explains how to use Spring Boot built-in API versioning feature to expose different versions of REST endpoints. This is one of the most interesting updates introduced with Spring Boot 4. API versioning can be implemented using Spring Web&#8217;s standard REST API capabilities. If you&#8217;re interested in this approach, check out my somewhat outdated [&#8230;] The post Spring Boot Built-in API Versioning appeared first on Piotr&#039;s TechBlog.",
+      "url": "https://piotrminkowski.com/2025/12/01/spring-boot-built-in-api-versioning/",
+      "source": "Piotr's TechBlog",
+      "author": "piotr.minkowski",
+      "published": "2025-12-01T10:59:38+00:00",
+      "niche": "spring",
+      "score": 32,
+      "keywords": []
+    },
+    {
+      "id": "86a740f98d3c0106",
+      "title": "Arconia for Spring Boot Dev Services and Observability",
+      "description": "This article explains how to use the Arconia framework to enhance the developer experience with Spring Boot. This project is a recent initiative under active development. However, it caught my attention because of one feature I love in Quarkus and found missing in Spring Boot. I am referring to a solution called Dev Services, which [&#8230;] The post Arconia for Spring Boot Dev Services and Observability appeared first on Piotr&#039;s TechBlog.",
+      "url": "https://piotrminkowski.com/2025/11/21/arconia-for-spring-boot-dev-services-and-observability/",
+      "source": "Piotr's TechBlog",
+      "author": "piotr.minkowski",
+      "published": "2025-11-21T09:32:46+00:00",
       "niche": "spring",
       "score": 32,
       "keywords": []
@@ -1095,6 +1131,78 @@
       "keywords": []
     },
     {
+      "id": "479976cbb69445d9",
+      "title": "Startup CPU Boost in Kubernetes with In-Place Pod Resize",
+      "description": "This article explains how to use the In-Place Pod Resize feature in Kubernetes, combined with Kube Startup CPU Boost, to speed up Java application startup. The In-Place Update of Pod Resources feature was initially introduced in Kubernetes 1.27 as an alpha release. With version 1.35, Kubernetes has reached GA stability. One potential use case for [&#8230;] The post Startup CPU Boost in Kubernetes with In-Place Pod Resize appeared first on Piotr&#039;s TechBlog.",
+      "url": "https://piotrminkowski.com/2025/12/22/startup-cpu-boost-in-kubernetes-with-in-place-pod-resize/",
+      "source": "Piotr's TechBlog",
+      "author": "piotr.minkowski",
+      "published": "2025-12-22T08:22:48+00:00",
+      "niche": "spring",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "8596cb63931ed965",
+      "title": "A Book: Hands-On Java with Kubernetes",
+      "description": "My book about Java and Kubernetes has finally been published! The book “Hands-On Java with Kubernetes” is the result of several months of work and, in fact, a summary of my experiences over the last few years of research and development. In this post, I want to share my thoughts on this book, explain why [&#8230;] The post A Book: Hands-On Java with Kubernetes appeared first on Piotr&#039;s TechBlog.",
+      "url": "https://piotrminkowski.com/2025/12/08/a-book-hands-on-java-with-kubernetes/",
+      "source": "Piotr's TechBlog",
+      "author": "piotr.minkowski",
+      "published": "2025-12-08T16:05:58+00:00",
+      "niche": "spring",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "d2aacff00db8c65a",
+      "title": "MCP with Quarkus LangChain4j",
+      "description": "This article shows how to use Quarkus LangChain4j support for MCP (Model Context Protocol) on both the server and client sides. You will learn how to serve tools and prompts on the server side and discover them in the Quarkus MCP client-side application. The Model Context Protocol is a standard for managing contextual interactions with [&#8230;] The post MCP with Quarkus LangChain4j appeared first on Piotr&#039;s TechBlog.",
+      "url": "https://piotrminkowski.com/2025/11/24/mcp-with-quarkus-langchain4j/",
+      "source": "Piotr's TechBlog",
+      "author": "piotr.minkowski",
+      "published": "2025-11-24T07:45:15+00:00",
+      "niche": "spring",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "e9e51b7b8efde1a6",
+      "title": "Quarkus with Buildpacks and OpenShift Builds",
+      "description": "In this article, you will learn how to build Quarkus application images using Cloud Native Buildpacks and OpenShift Builds. Some time ago, I published a blog post about building with OpenShift Builds based on the Shipwright project. At that time, Cloud Native Buildpacks were not supported at the OpenShift Builds level. It was only supported [&#8230;] The post Quarkus with Buildpacks and OpenShift Builds appeared first on Piotr&#039;s TechBlog.",
+      "url": "https://piotrminkowski.com/2025/11/19/quarkus-with-buildpacks-and-openshift-builds/",
+      "source": "Piotr's TechBlog",
+      "author": "piotr.minkowski",
+      "published": "2025-11-19T08:50:04+00:00",
+      "niche": "spring",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "3b617b77083015bb",
+      "title": "Running .NET Apps on OpenShift",
+      "description": "This article will guide you on running a .NET application on OpenShift using the Source-to-Image (S2I) tool. While .NET is not my primary area of expertise, I have been working with it quite extensively lately. In this article, we will examine more complex application cases, which may initially present some challenges. If you are interested [&#8230;] The post Running .NET Apps on OpenShift appeared first on Piotr&#039;s TechBlog.",
+      "url": "https://piotrminkowski.com/2025/11/17/running-net-apps-on-openshift/",
+      "source": "Piotr's TechBlog",
+      "author": "piotr.minkowski",
+      "published": "2025-11-17T09:27:34+00:00",
+      "niche": "spring",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "e019c2da8930a7e1",
+      "title": "AI Tool Calling with Quarkus LangChain4j",
+      "description": "This article will show you how to use Quarkus LangChain4j AI support with the most popular chat models for the &#8220;tool calling&#8221; feature. Tool calling (sometimes referred to as function calling) is a typical pattern in AI applications that enables a model to interact with APIs or tools, extending its capabilities. The most popular AI [&#8230;] The post AI Tool Calling with Quarkus LangChain4j appeared first on Piotr&#039;s TechBlog.",
+      "url": "https://piotrminkowski.com/2025/06/23/ai-tool-calling-with-quarkus-langchain4j/",
+      "source": "Piotr's TechBlog",
+      "author": "piotr.minkowski",
+      "published": "2025-06-23T05:19:14+00:00",
+      "niche": "spring",
+      "score": 14,
+      "keywords": []
+    },
+    {
       "id": "577a5c7ec21c998a",
       "title": "AI Glossary for Java Developers",
       "description": "The post AI Glossary for Java Developers appeared first on Thorben Janssen. AI introduces many new terms, acronyms, and techniques you must understand to build a good AI-based system. That makes it hard for many Java developers to learn how to integrate AI into their applications using SpringAI, Langchain4J, or some other library. I ran into the same issue when I started learning about AI. In this... The post AI Glossary for Java Developers appeared first on Thorben Janssen.",
@@ -1395,13 +1503,13 @@
       "keywords": []
     },
     {
-      "id": "e7e36525f413d793",
-      "title": "Automating Monolith Migration for Resource-Constrained Edge Systems",
-      "description": "We usually design microservices with a cloud-first mindset. If a container needs more RAM, we scale it up. If latency increases, we add a cache or a load balancer. But the world is shifting toward Software-Defined Vehicles (SDVs) and edge computing. In these environments, hardware is fixed, and latency can be a matter of life and death (e.g., autonomous braking systems). Migrating a legacy C/C++ monolith to microservices in this context is dangerous. The overhead of containerization (Docker) and",
-      "url": "https://feeds.dzone.com/link/18931/17245206/automating-monolith-migration-for-resource-constra",
+      "id": "16398558c06e9d26",
+      "title": "Beyond Fuzzy Matching: Engineering a Multi-Signal ML Pipeline for CRM Deduplication",
+      "description": "The CRM Problem We All Face Almost every CRM platform struggles with duplicate customer records because  the data is a messy mix flowing in from too many places — web forms, call centers, imports from ERP, partner feeds, and even legacy systems from multiple business units. The exact same company can pop up under slightly different names, with spelling variations, inconsistent addresses, or missing suite numbers. A simple single-rule fuzzy match isn't enough to connect these dots.  To truly fix ",
+      "url": "https://feeds.dzone.com/link/18931/17247488/multi-signal-ml-pipeline-crm-deduplication",
       "source": "DZone Microservices",
-      "author": "Dippu Kumar Singh",
-      "published": "2026-01-01T20:00:00+00:00",
+      "author": "Punitha Ponnuraj",
+      "published": "2026-01-05T17:00:00+00:00",
       "niche": "spring",
       "score": 12,
       "keywords": []
