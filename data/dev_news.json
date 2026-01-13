@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-13T18:38:23.574305+00:00",
-  "total_articles": 973,
+  "last_updated": "2026-01-13T21:27:51.767444+00:00",
+  "total_articles": 971,
   "articles": [
     {
       "id": "b8e7c86fc5b22a35",
@@ -625,18 +625,6 @@
       ]
     },
     {
-      "id": "23b117cb61d59aa9",
-      "title": "Stop Doom Scrolling, Start Doom Coding: Build via the terminal from your phone",
-      "description": "Comments",
-      "url": "https://github.com/rberg27/doom-coding",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-06T19:38:32+00:00",
-      "niche": "dev",
-      "score": 62,
-      "keywords": []
-    },
-    {
       "id": "08b377c5e60646bc",
       "title": "Microsoft probably killed my Snapdragon Dev Kit",
       "description": "Comments",
@@ -1068,6 +1056,23 @@
       ]
     },
     {
+      "id": "63af0f16f07d3300",
+      "title": "Dart Frog Tutorial Part 2: Building Your First Real REST API (Full CRUD with Todos) 🐸",
+      "description": "Hey guys! Welcome to Part 2 of our Dart Frog series. If you missed Part 1, we set up Dart Frog and built a basic API with hot reload. Watch it now if you’re new! Today, we’re leveling up: Building your first real REST API, a full CRUD Todo endpoint, clean, and production-ready backends in pure Dart. We’ll use dynamic routes, UUIDs, validation, and proper errors. By the end, you’ll have a testable API ready for your Flutter app next video. Let’s jump in! Planning & Best Practices Quick plan: We’l",
+      "url": "https://dev.to/techwithsam/dart-frog-tutorial-part-2-building-your-first-real-rest-api-full-crud-with-todos-14ff",
+      "source": "Dev.to",
+      "author": "Samuel Adekunle",
+      "published": "2026-01-13T21:07:14+00:00",
+      "niche": "dev",
+      "score": 60,
+      "keywords": [
+        "best practices",
+        "REST API",
+        "tutorial",
+        "API"
+      ]
+    },
+    {
       "id": "5920f88139aa247f",
       "title": "Application security: thinking backwards",
       "description": "📜 Developers often focus on what library or what tool they can use to secure their microservices. Modern tools are powerful nowadays, but you can’t be sure all doors are locked if you have never looked at them from the other side. To truly protect an application, you must first learn how it can be attacked. Thinking like an ethical hacker helps you understand: 🕵️‍♂️ How can your application be invaded? 🕵️‍♂️ Where sensitive data can be leaked? 🕵️‍♂️ What weak points can be exploited? 🕵️‍♂️ How a",
@@ -1464,21 +1469,6 @@
       "keywords": [
         "performance",
         "code",
-        "developer"
-      ]
-    },
-    {
-      "id": "3f15c087bb6bb633",
-      "title": "Why Most Telecom APIs Fail Before the First Developer Uses Them",
-      "description": "Telecom APIs have never been more visible. Swagger files are published. Developer portals are live. “Open networks” are on every roadmap. And yet—very few telecom APIs ever make it into real production applications. Not because developers aren’t interested. Not because the technology doesn’t exist. But because most telecom APIs are exposed, not operationalized. There’s a big difference—and developers feel it immediately. Exposure Is Not Adoption From a telecom perspective, exposing an API often ",
-      "url": "https://dev.to/telcoedgeinc/why-most-telecom-apis-fail-before-the-first-developer-uses-them-5634",
-      "source": "Dev.to",
-      "author": "Telco Edge",
-      "published": "2026-01-06T21:12:41+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "API",
         "developer"
       ]
     },
@@ -2080,64 +2070,6 @@
       "keywords": [
         "tutorial",
         "library"
-      ]
-    },
-    {
-      "id": "8b0b906db9b3b2ea",
-      "title": "Stop Pasting Secrets into AI Chat - Use AI-Safe Credentials Instead",
-      "description": "The Awkward Moment Every Developer Knows You're pair programming with Claude Code, and it asks: \"I need your database credentials to run this migration.\" And then you do the thing. You paste your password right into the chat. 🤦 We've all been there. But here's the problem: That secret is now in your conversation history It might end up in logs or training data You can't easily rotate it There's no audit trail What If AI Could Use Secrets Without Seeing Them? This is exactly what I built secretct",
-      "url": "https://dev.to/forest6511_23bcd0a045b1ff/stop-pasting-secrets-into-ai-chat-use-ai-safe-credentials-instead-3h6h",
-      "source": "Dev.to",
-      "author": "forest6511",
-      "published": "2026-01-06T21:22:16+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "developer",
-        "programming",
-        "code"
-      ]
-    },
-    {
-      "id": "6eb99190ae06252c",
-      "title": "Bifrost: The fastest way to build AI applications that never go down",
-      "description": "LLM applications are rapidly becoming a critical part of production today. But behind the scenes, it's almost always the same thing, namely dozens of providers, different SDKs, keys, limits, backups, and more. One failure from the provider means that the entire AI layer is falling. A concrete example, we all start with OpenAI, Anthropic and other providers, but most often several are used on large projects at once, which complicates the routing logic, application monitoring is spread across serv",
-      "url": "https://dev.to/anthonymax/bifrost-the-fastest-way-to-build-ai-applications-that-never-go-down-ak9",
-      "source": "Dev.to",
-      "author": "Anthony Max",
-      "published": "2026-01-06T21:01:44+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "API"
-      ]
-    },
-    {
-      "id": "251cec069f45fbf0",
-      "title": "Message Schema Evolution in RabbitMQ: Using Virtual Hosts as Deployment Boundaries",
-      "description": "This article is a continuation of a previous post in which we focused on deployment safety through cache key versioning. If you haven’t read it yet, we recommend starting there: Versioning Redis Cache Keys to Prevent Stale Data During Spring Boot Application Deployments Message schema evolution is another critical factor that can threaten deployment safety if it is not handled correctly. Changes to message structures, such as adding, removing, or renaming fields, can easily lead to incompatibili",
-      "url": "https://dev.to/ibrahimgunduz34/message-schema-evolution-in-rabbitmq-using-virtual-hosts-as-deployment-boundaries-3fic",
-      "source": "Dev.to",
-      "author": "İbrahim Gündüz",
-      "published": "2026-01-06T20:52:21+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "Spring"
-      ]
-    },
-    {
-      "id": "6a0b7ab00491c301",
-      "title": "How Exactly Are AI Models Deployed?",
-      "description": "In the past few months, we've seen a lot of AI models being released. From Gemini's Nano Banana to OpenAI's ChatGPT 5.2, different kinds of models are out there and available to use. However, not many people know exactly how these models are deployed. If you're also one of these people, don't worry I gotchu. AI model deployment is the process of making AI models work in a production environment. It comprises of different processes that ensures models can perform effectively and efficiently in re",
-      "url": "https://dev.to/cyberlord/how-exactly-are-ai-models-deployed-23an",
-      "source": "Dev.to",
-      "author": "CyberLord",
-      "published": "2026-01-06T20:52:04+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "release"
       ]
     },
     {
@@ -2951,21 +2883,6 @@
       ]
     },
     {
-      "id": "c3dfa918abd4c9b2",
-      "title": "Building a Secure Demo Banking App [Part 1]",
-      "description": "When building software projects or applications, it is important to be aware of how quickly technology evolves over time. For development, it is said that some tools or programming languages get updated at most each six months approximately; so that we need to catch up with newer versions that may introduce new patterns or concepts, otherwise we fall behind. However, no matter how fast technology changes, the foundational core concepts of software development almost always stay the same. Now, wi",
-      "url": "https://dev.to/blad90/building-a-secure-demo-banking-app-part-1-1amj",
-      "source": "Dev.to",
-      "author": "Bladimir",
-      "published": "2026-01-06T21:04:30+00:00",
-      "niche": "dev",
-      "score": 52,
-      "keywords": [
-        "development",
-        "programming"
-      ]
-    },
-    {
       "id": "9c9bf2c66657e61f",
       "title": "The End of the Text Box: Architecting the Universal Signal Bus for AI",
       "description": "We have a problem in the AI industry right now: We are obsessed with the UI, specifically the chat window. If you look at 90% of AI agents today, they sit passively behind a blinking cursor, waiting for a human to type \"Help me.\" But in enterprise software and complex system architecture, problems don’t usually announce themselves in a text box. They announce themselves in log streams (500 errors), file changes (a developer pushing bad code), or audio streams (a frantic Zoom call). If your AI ag",
@@ -3428,6 +3345,36 @@
       "keywords": [
         "code",
         "development"
+      ]
+    },
+    {
+      "id": "fa16545d8eaaf783",
+      "title": "SaaS developer, DevOps engineer, or startup founder Are Bleeding Money on Subscriptions (Here’s How to Fix It)",
+      "description": "If you’re a SaaS developer, DevOps engineer, or startup founder, chances are you’re paying for tools you no longer use. Cloud services, CI/CD tools, monitoring platforms, AI subscriptions — modern development stacks are powerful, but they’re also silently expensive. In this article, we’ll break down: Why developers lose money on subscriptions Why existing tools fail dev teams How SubTrackHub helps track and optimize SaaS + cloud spend 💸 The Hidden Subscription Problem in Modern Dev Teams Today’s",
+      "url": "https://dev.to/rahul_singhshekhawat_943/saas-developer-devops-engineer-or-startup-founder-are-bleeding-money-on-subscriptions-heres-2c5g",
+      "source": "Dev.to",
+      "author": "Rahul singh Shekhawat",
+      "published": "2026-01-13T20:20:30+00:00",
+      "niche": "dev",
+      "score": 52,
+      "keywords": [
+        "development",
+        "developer"
+      ]
+    },
+    {
+      "id": "92f21e77eba303d9",
+      "title": "Trying Out the New Conductor Extension in Gemini CLI — We’re Gonna Add Auth to Our Full Stack",
+      "description": "Picture this: you’re deep in the zone, pair-programming with your AI agent. You ask it to refactor a some code and it cheerfully agrees. Five minutes later? It’s hallucinated a dependency that doesn’t exist, imported some random libraries, ignored your project’s architectural standards, and replaced all your gemini-3-pro-preview references with gemini-1.5-pro. The model means well, but it just doesn’t know your project like you do. It’s transient, forgetful, and a bit of a cowboy. There are ways",
+      "url": "https://dev.to/gde/trying-out-the-new-conductor-extension-in-gemini-cli-were-gonna-add-auth-to-our-full-stack-3lb1",
+      "source": "Dev.to",
+      "author": "Darren \"Dazbo\" Lester",
+      "published": "2026-01-13T20:13:11+00:00",
+      "niche": "dev",
+      "score": 52,
+      "keywords": [
+        "code",
+        "programming"
       ]
     },
     {
@@ -4943,52 +4890,46 @@
       ]
     },
     {
-      "id": "26a7313038767862",
-      "title": "I Tested GLM-4.7 for Two Weeks—Here's What Actually Matters",
-      "description": "Everyone's talking about the new GLM-4.7 benchmarks. 73.8% on SWE-bench. MIT license. 200K context window. But benchmarks don't tell you what it's like to actually use the thing. So I spent two weeks building real projects with it—web apps, debugging sessions, UI generation, the works. Here's what I learned that the spec sheet won't tell you. The Feature That Changes Everything Most AI coding assistants have a fatal flaw: they forget. Ask them to add authentication to an app you discussed three ",
-      "url": "https://dev.to/sohails07/i-tested-glm-47-for-two-weeks-heres-what-actually-matters-37ld",
+      "id": "231c55f91325809e",
+      "title": "Ditch Matplotlib: Create an Interactive Python Chart in 3 Lines of Code",
+      "description": "Tired of exporting static PNGs from Matplotlib? Your users expect more. They want to hover, zoom, and explore your data. Here’s how to give them what they want with Plotly Express without the boilerplate. This is the fastest way to go from a Pandas DataFrame to a fully interactive, browser-based chart. The Code-First Approach No long intros. Here's the code. It creates an interactive bar chart that opens directly in your browser. import pandas as pd import plotly.express as px from plotly.offlin",
+      "url": "https://dev.to/edgarmilvus/ditch-matplotlib-create-an-interactive-python-chart-in-3-lines-of-code-1204",
       "source": "Dev.to",
-      "author": "Sohail Shaikh",
-      "published": "2026-01-06T21:08:14+00:00",
+      "author": "Python Programming Series",
+      "published": "2026-01-13T21:00:00+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
-      "id": "1b0122c9cbdf477a",
-      "title": "SitecoreAI Scheduled Tasks - Getting PowerShell Working Right",
-      "description": "In SitecoreAI CMS (FKA XM Cloud), you have the ability to add PowerShell scripts, which is a great way to enhance functionality and run commands that you might have run in other ways in \"legacy\" Sitecore. You pretty much have the full run of the content and command structures, though you'll have to dig for it sometimes. A good reference can be found at the Sitecore PowerShell site. This also allows you to set up PowerShell scripts that can be run as a scheduled task in Sitecore. For example, I h",
-      "url": "https://dev.to/kmac23va/sitecoreai-scheduled-tasks-getting-powershell-working-right-3lg0",
+      "id": "8c7784fff789f704",
+      "title": "1 year of using AI tools in enterprise apps — here’s what I learned",
+      "description": "I build enterprise POS Android apps — lots of architecture, lots of business rules, and plenty of “this has to be correct.” 🧱 My AI journey started in a pretty normal place: using ChatGPT to reason through tricky architecture decisions and scaffold the boring-but-necessary code. Then it escalated fast. 🚀 Once tools like Cursor made “chat-to-code” feel native inside the editor, I noticed a shift. I stopped creating classes manually and started directing how they should be created. Cursor’s agent-",
+      "url": "https://dev.to/atokarev_9/1-year-of-using-ai-tools-in-enterprise-apps-heres-what-i-learned-2dod",
       "source": "Dev.to",
-      "author": "Kenneth McAndrew",
-      "published": "2026-01-06T21:06:59+00:00",
+      "author": "Oleksandr Tokariev",
+      "published": "2026-01-13T20:52:12+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
-      "id": "85885cf93d80e8d6",
-      "title": "The Vercel \"Silent 500\": How to Actually See Your Production Errors (In Under 2 Minutes)",
-      "description": "You know that feeling. You just pushed to production. Your CI/CD is green. You're feeling like a rockstar. Then you test your live site, click a button, and... \"500: INTERNAL_SERVER_ERROR\" Blank white screen. No stack trace. No clues. Just you, your browser, and a generic Vercel error page that basically says, \"Something broke, but I'm not telling you what.\" The \"Security vs. Sanity\" Tradeoff Vercel is built for security. In production, it intentionally hides error details to prevent leaking sen",
-      "url": "https://dev.to/mark_kaave/the-vercel-silent-500-how-to-actually-see-your-production-errors-in-under-2-minutes-dp3",
+      "id": "1f0e417eedce34db",
+      "title": "I Built a VSCode Extension to Learn How VSCode Extensions Work",
+      "description": "I learn by building. Always have. I also think VSCode is an under-the-radar environment ripe for innovation in coding and beyond. I'd been wanting to understand how VSCode extensions work for years, but the docs felt scattered. So instead of just reading, I built one and documented everything along the way. The extension itself is a bit fun: it generates 5-7-5 haiku commit messages from your staged git changes. Stage your code, press Cmd+Shift+H, and get something like: Config paths diverge Sett",
+      "url": "https://dev.to/aimatey/i-built-a-vscode-extension-to-learn-how-vscode-extensions-work-3197",
       "source": "Dev.to",
-      "author": "Mark Kaave",
-      "published": "2026-01-06T21:01:26+00:00",
+      "author": "Adam Grenier",
+      "published": "2026-01-13T20:24:11+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "20b4828474d0676c",
-      "title": "An open-source, HIPAA-eligible Twilio alternative",
-      "description": "GitHub repo: https://github.com/VectorlyApp/open-telephony-stack For the most up-to-date setup instructions, please refer to open-telephony-stack/README.md. Background Today, we're open-sourcing our telephony stack: production-grade, HIPAA-eligible VoIP infrastructure for AI voice agents. We've since moved on to other projects, but as AI voice agent companies keep multiplying, we think this fills a gap: there's no comprehensive, open-source, self-hostable option for this. Now there is. The only ",
-      "url": "https://dev.to/alxwlcx/an-open-source-hipaa-eligible-twilio-alternative-33mf",
-      "source": "Dev.to",
-      "author": "Alex Wilcox",
-      "published": "2026-01-06T20:46:33+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "4d75b7cbbb20377b",
@@ -7979,6 +7920,54 @@
       "keywords": []
     },
     {
+      "id": "daf4db7ca9c6cccc",
+      "title": "Engineer’s Diary: Leaving Windows Behind and Building the ETL Engine I Always Dreamed Of, PardoX v0.1",
+      "description": "Introduction: The Calm Before the Storm I write these lines as the hum of my laptop fades for the first time in hours. There is a particular silence in the office when the compiler finishes its work and the unit tests turn green; it is a mix of relief, residual adrenaline, and a quiet anxiety. We are just days away from January 19th. That date, which a month ago seemed like a distant point on the calendar, now looms over me like a massive wave about to break. For many, it will be just another Mo",
+      "url": "https://dev.to/betoalien/engineers-diary-leaving-windows-behind-and-building-the-etl-engine-i-always-dreamed-of-pardox-9jp",
+      "source": "Dev.to",
+      "author": "Alberto Cardenas",
+      "published": "2026-01-13T21:11:35+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "9465436a3bfbf572",
+      "title": "My Goals for 2026 in Technology",
+      "description": "Hi everybody, I want to share some of my technology goals for 2026. Over the past years, I’ve learned a lot by practicing, working on real projects, and sharing knowledge with the community. So, I want to share some of my technology goals for 2026 and what I’m planning to focus on this year!! 1) Post more content here on Dev Community I don’t know if you know this, but I started writing here to share the technologies that I was learning and also to practice my English writing. I want to continue",
+      "url": "https://dev.to/cinthiabs/my-goals-for-2026-in-technology-dae",
+      "source": "Dev.to",
+      "author": "Cinthia Barbosa da Silva",
+      "published": "2026-01-13T21:06:05+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "e95ccff6a852be19",
+      "title": "Serverless MCP: Stateless Execution for Enterprise AI Tools",
+      "description": "In the first two posts of this series, we explored why enterprise MCP needs compositional architecture and how to design skills that abstract complexity from the AI agent. But there's a question we haven't addressed: how do those tools actually execute at runtime? The Model Context Protocol defines how AI agents discover and invoke tools. But the protocol says nothing about persistent connections vs. stateless HTTP, session-cached state vs. source-of-truth lookups, or long-running processes vs. ",
+      "url": "https://dev.to/zaynelt/serverless-mcp-stateless-execution-for-enterprise-ai-tools-45cf",
+      "source": "Dev.to",
+      "author": "Zayne Turner",
+      "published": "2026-01-13T20:27:16+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "09934906fa1a3d71",
+      "title": "I’ve SSH’d Into EC2 Dozens of Times. This One Still Took 4 Hours!",
+      "description": "Yesterday, I spent FOUR hours trying to SSH into an EC2 instance. 4 HOURS. I’ve done this dozens of times before, This wasn’t my first time. Tried from both my macOS and windows terminal maybe it was a local system issue. Nothing worked What am I writing about this? I knew the drill. I checked the “obvious” things first I didn’t skip the basics: Security group? ✅ Port 22 open Source IP? ✅ Correct Instance running? ✅ Public IP? ✅ My .pem key and permissions? All In check. On paper everything was ",
+      "url": "https://dev.to/adehorizon/ive-sshd-into-ec2-dozens-of-times-this-one-still-took-4-hours-3jh9",
+      "source": "Dev.to",
+      "author": "Adedoyin",
+      "published": "2026-01-13T20:13:55+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "6b078f8a0818c9b2",
       "title": "Cool Article on API Tools!! https://medium.com/@somendradev23/10-api-tools-every-full-stack-developer-should-know-6f9af40ae0ec",
       "description": "medium.com",
@@ -8021,20 +8010,6 @@
       "keywords": [
         "code",
         "developer"
-      ]
-    },
-    {
-      "id": "b2b29eb8c012bd70",
-      "title": "High-Performance DBMSs with io_uring: When and How to use it",
-      "description": "Comments",
-      "url": "https://arxiv.org/abs/2512.04859",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-06T19:29:15+00:00",
-      "niche": "dev",
-      "score": 48,
-      "keywords": [
-        "performance"
       ]
     },
     {
@@ -8390,18 +8365,6 @@
       ]
     },
     {
-      "id": "d18daeac36834ea1",
-      "title": "Video Game Websites in the early 00s",
-      "description": "Comments",
-      "url": "https://www.webdesignmuseum.org/exhibitions/video-game-websites-in-the-early-00s",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-06T18:39:21+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
       "id": "6f8caf1db4fa0ddc",
       "title": "Hyundai Introduces Its Next-Gen Atlas Robot at CES 2026 [video]",
       "description": "Comments",
@@ -8414,30 +8377,6 @@
       "keywords": []
     },
     {
-      "id": "bc79f8f682f1d9b9",
-      "title": "A 30B Qwen model walks into a Raspberry Pi and runs in real time",
-      "description": "Comments",
-      "url": "https://byteshape.com/blogs/Qwen3-30B-A3B-Instruct-2507/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-06T20:55:01+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "ee7a22b915977ea1",
-      "title": "Oral microbiome sequencing after taking probiotics",
-      "description": "Comments",
-      "url": "https://blog.booleanbiotech.com/oral-microbiome-biogaia",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-06T21:10:47+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
       "id": "5dcfa00b55aaf53e",
       "title": "The data center boom is concentrated in the U.S.",
       "description": "Comments",
@@ -8445,18 +8384,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2026-01-07T01:11:12+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "33ad9cd380fff9a5",
-      "title": "Calling All Hackers: How money works (2024)",
-      "description": "Comments",
-      "url": "https://phrack.org/issues/71/17",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-06T20:24:45+00:00",
       "niche": "dev",
       "score": 44,
       "keywords": []
@@ -10154,6 +10081,66 @@
       "keywords": []
     },
     {
+      "id": "a31d7a02575f7f84",
+      "title": "No management needed: anti-patterns in early-stage engineering teams",
+      "description": "Comments",
+      "url": "https://www.ablg.io/blog/no-management-needed",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-13T18:54:30+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "b03e17000ef9249d",
+      "title": "AI Generated Music Barred from Bandcamp",
+      "description": "Comments",
+      "url": "https://old.reddit.com/r/BandCamp/comments/1qbw8ba/ai_generated_music_on_bandcamp/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-13T18:31:50+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "fe5369a9233ca605",
+      "title": "Games Workshop bans staff from using AI, management not excited about the tech",
+      "description": "Comments",
+      "url": "https://www.ign.com/articles/warhammer-maker-games-workshop-bans-its-staff-from-using-ai-in-its-content-or-designs-says-none-of-its-senior-managers-are-currently-excited-about-the-tech",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-13T20:45:43+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "4025c35d660ddc58",
+      "title": "How to make a damn website (2024)",
+      "description": "Comments",
+      "url": "https://lmnt.me/blog/how-to-make-a-damn-website.html",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-13T17:23:46+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "0c076b9e32c12155",
+      "title": "Are two heads better than one?",
+      "description": "Comments",
+      "url": "https://eieio.games/blog/two-heads-arent-better-than-one/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-13T16:22:59+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "9507e2cf68c6c137",
       "title": "Infinite Canvas: Building a Seamless, Pan-Anywhere Image Space",
       "description": "Learn how to build an infinite, pannable image canvas with React Three Fiber. We’ll use chunk-based rendering and performance-first techniques to create a smooth, endlessly explorable image space.",
@@ -10220,8 +10207,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "React 19",
-        "performance"
+        "performance",
+        "React 19"
       ]
     },
     {
@@ -10277,9 +10264,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
+        "performance",
         "code",
-        "release",
-        "performance"
+        "release"
       ]
     },
     {
@@ -10293,9 +10280,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "API",
         "release",
-        "developer"
+        "developer",
+        "API"
       ]
     },
     {
@@ -10309,9 +10296,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "developer",
+        "performance",
         "release",
-        "performance"
+        "developer"
       ]
     },
     {
@@ -10523,6 +10510,18 @@
       "keywords": []
     },
     {
+      "id": "9d65a44d42d43062",
+      "title": "Scott Adams has died",
+      "description": "Comments",
+      "url": "https://www.youtube.com/watch?v=Rs_JrOIo3SE",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-13T15:18:43+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
       "id": "4e6d7290f5ff11d8",
       "title": "React Native 0.80 - React 19.1, JS API Changes, Freezing Legacy Arch and much more",
       "description": "Today we are excited to release React Native 0.80!",
@@ -10533,9 +10532,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "API",
         "release",
-        "React 19"
+        "React 19",
+        "API"
       ]
     },
     {
@@ -10838,9 +10837,9 @@
       "keywords": [
         "code",
         "release",
-        "API",
         "framework",
-        "performance"
+        "performance",
+        "API"
       ]
     },
     {
@@ -11146,8 +11145,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "API",
-        "release"
+        "release",
+        "API"
       ]
     },
     {
@@ -11177,8 +11176,8 @@
       "score": 20,
       "keywords": [
         "code",
-        "release",
-        "development"
+        "development",
+        "release"
       ]
     },
     {
@@ -11192,9 +11191,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
+        "performance",
         "code",
-        "developer",
-        "performance"
+        "developer"
       ]
     },
     {
@@ -11208,8 +11207,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "code",
-        "performance"
+        "performance",
+        "code"
       ]
     },
     {
@@ -11223,8 +11222,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -11238,8 +11237,8 @@
       "niche": "dev",
       "score": 18,
       "keywords": [
-        "PHP",
-        "Angular"
+        "Angular",
+        "PHP"
       ]
     },
     {
@@ -11295,9 +11294,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "API",
         "development",
-        "developer"
+        "developer",
+        "API"
       ]
     },
     {
@@ -11311,9 +11310,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "PHP",
+        "tutorial",
         "development",
-        "tutorial"
+        "PHP"
       ]
     },
     {
@@ -11327,9 +11326,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "PHP",
+        "tutorial",
         "development",
-        "tutorial"
+        "PHP"
       ]
     },
     {
@@ -11444,18 +11443,6 @@
       "keywords": []
     },
     {
-      "id": "94d6eff61e0d2f54",
-      "title": "\"Food JPEGs\" in Super Smash Bros. & Kirby Air Riders",
-      "description": "Comments",
-      "url": "https://sethmlarson.dev/food-jpegs-in-super-smash-bros-and-kirby-air-riders",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-06T18:57:03+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
       "id": "c512809a7029a438",
       "title": "I Cannot SSH into My Server Anymore (and That's Fine)",
       "description": "Comments",
@@ -11499,18 +11486,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2026-01-06T22:31:37+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "dd1e92fc2f344c88",
-      "title": "Show HN: DevicePrint – device fingerprinting without cookies",
-      "description": "Comments",
-      "url": "https://news.ycombinator.com/item?id=46517654",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-06T19:51:29+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -11866,8 +11841,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "programming",
-        "development"
+        "development",
+        "programming"
       ]
     },
     {

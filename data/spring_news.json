@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-13T18:41:20.162093+00:00",
+  "last_updated": "2026-01-13T21:30:46.373423+00:00",
   "total_articles": 181,
   "articles": [
     {
@@ -142,6 +142,18 @@
       "source": "Baeldung",
       "author": "Burak Gökmen",
       "published": "2026-01-09T03:23:43+00:00",
+      "niche": "spring",
+      "score": 46,
+      "keywords": []
+    },
+    {
+      "id": "6820901b5036aabd",
+      "title": "How to Print JUnit Assertion Results",
+      "description": "Discover a few approaches to printing assertion results into logs with JUnit. The post How to Print JUnit Assertion Results first appeared on Baeldung.&#160;&#160;&#160;&#160;&#160;&#160;&#160;",
+      "url": "https://feeds.feedblitz.com/~/940143272/0/baeldung~How-to-Print-JUnit-Assertion-Results",
+      "source": "Baeldung",
+      "author": "Kostiantyn Ivanov",
+      "published": "2026-01-13T20:40:44+00:00",
       "niche": "spring",
       "score": 46,
       "keywords": []
@@ -531,6 +543,30 @@
       "keywords": []
     },
     {
+      "id": "37bb1d7d639ebbb8",
+      "title": "Architecting a Production-Ready GenAI Service Desk",
+      "description": "Internal IT Service Desks are the nervous system of any enterprise, yet they are often clogged with repetitive queries. Questions like \"How do I reset my VPN?\" or \"What is the expense policy?\" make up the bulk of tickets, distracting engineers from critical infrastructure work. While Generative AI (GenAI) and Large Language Models (LLMs) promise a solution, simply pointing GPT-4 at a PDF repository rarely works in production. The hallucination rate remains high, and specific enterprise context i",
+      "url": "https://feeds.dzone.com/link/18931/17252674/architecting-a-production-ready-genai-service-desk",
+      "source": "DZone Microservices",
+      "author": "Dippu Kumar Singh",
+      "published": "2026-01-13T19:00:00+00:00",
+      "niche": "spring",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "7865545cea09b746",
+      "title": "Architecting Observability in Kubernetes with OpenTelemetry and Fluent Bit",
+      "description": "In the era of monolithic architectures, troubleshooting was relatively straightforward: SSH into the server, grep the log files, and check CPU usage with top. In the cloud-native world — specifically within Kubernetes — this approach is obsolete. Applications are split into dozens of microservices, pods are ephemeral (spinning up and terminating automatically), and a single user request might traverse ten different nodes. When a transaction fails, where do you look?",
+      "url": "https://feeds.dzone.com/link/18931/17252657/architecting-observability-in-kubernetes-with-otel-fluent-bit",
+      "source": "DZone Microservices",
+      "author": "Dippu Kumar Singh",
+      "published": "2026-01-13T18:00:00+00:00",
+      "niche": "spring",
+      "score": 42,
+      "keywords": []
+    },
+    {
       "id": "9d07942ce5df267d",
       "title": "Java’s Plans for 2026 - Inside Java Newscast #104",
       "description": "In 2026, Java keeps evolving: Project Valhalla is gunning for merging its value types preview in the second half of this year; Babylon wants to incubate code reflection; Loom will probably finalize the structured concurrency API; Leyden plans to ship AOT code compilation; and Amber hopes to present JEPs on constant patterns and pattern assignments. And those are just the most progressed features - more are in the pipeline and discussed in this episode of the Inside Java Newscast.",
@@ -879,18 +915,6 @@
       "keywords": []
     },
     {
-      "id": "b7abfcf238a49ae6",
-      "title": "Securing Verifiable Credentials With DPoP: A Spring Boot Implementation",
-      "description": "In my previous article, I demonstrated how to implement OIDC4VCI (credential issuance) and OIDC4VP (credential presentation) using Spring Boot and an Android wallet. This follow-up focuses on a critical security enhancement now mandated by EUDI standards: DPoP (Demonstrating Proof-of-Possession). The Problem With Bearer Tokens Traditional Bearer tokens have an inherent weakness: anyone who obtains the token can use it. If an attacker intercepts or steals a Bearer token, they can impersonate the ",
-      "url": "https://feeds.dzone.com/link/18931/17247556/securing-verifiable-credentials-with-dpop-spring-boot",
-      "source": "DZone Microservices",
-      "author": "Kyriakos Mandalas",
-      "published": "2026-01-05T19:00:00+00:00",
-      "niche": "spring",
-      "score": 27,
-      "keywords": []
-    },
-    {
       "id": "06b145cca57d92f7",
       "title": "Setting Up JUnit with Spring Boot Test",
       "description": "Whether you are building REST APIs, service-layer logic, or data-access layers, Spring Boot offers first-class support for JUnit and provides convenient annotations and utilities for writing clean, maintainable tests. The post Setting Up JUnit with Spring Boot Test appeared first on HowToDoInJava.",
@@ -982,18 +1006,6 @@
       "source": "Baeldung",
       "author": "Umara Mushtaq",
       "published": "2026-01-03T14:47:15+00:00",
-      "niche": "spring",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "4a07baedbcf0ac60",
-      "title": "A Guide to @ConcreteProxy in Hibernate",
-      "description": "Learn how to use Hibernate's @ConcreteProxy annotation to lazy-load polymorphic associations to the correct types in inheritance hierarchies. The post A Guide to @ConcreteProxy in Hibernate first appeared on Baeldung.&#160;&#160;&#160;&#160;&#160;&#160;&#160;",
-      "url": "https://feeds.feedblitz.com/~/939624533/0/baeldung~A-Guide-to-ConcreteProxy-in-Hibernate",
-      "source": "Baeldung",
-      "author": "Hardik Singh Behl",
-      "published": "2026-01-03T14:44:40+00:00",
       "niche": "spring",
       "score": 14,
       "keywords": []
@@ -1510,18 +1522,6 @@
       "source": "InfoQ Java",
       "author": "Michael Redlich",
       "published": "2026-01-05T02:30:00+00:00",
-      "niche": "spring",
-      "score": 12,
-      "keywords": []
-    },
-    {
-      "id": "900c58caa7431d60",
-      "title": "A Practical Guide to Semantic Caching With Redis LangCache",
-      "description": "Semantic cache is an advanced caching mechanism that differs from traditional caching, which relies on exact keyword matching; it stores and retrieves data based on semantic similarity. Redis LangCache is a fully hosted semantic caching service that helps cache LLM prompts and responses semantically, thereby reducing LLM usage costs. In this tutorial, let's learn how to quickly create a simple application and use LangCache for caching LLM queries. Also, see if we can combine fuzzy logic to impro",
-      "url": "https://feeds.dzone.com/link/18931/17247941/semantic-caching-redis-langcache-guide",
-      "source": "DZone Microservices",
-      "author": "Josephine Eskaline Joyce",
-      "published": "2026-01-06T13:00:00+00:00",
       "niche": "spring",
       "score": 12,
       "keywords": []
