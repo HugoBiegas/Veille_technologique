@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-14T09:35:10.015393+00:00",
-  "total_articles": 976,
+  "last_updated": "2026-01-14T12:58:50.350696+00:00",
+  "total_articles": 972,
   "articles": [
     {
       "id": "b8e7c86fc5b22a35",
@@ -236,20 +236,6 @@
       "score": 70,
       "keywords": [
         "developer",
-        "code"
-      ]
-    },
-    {
-      "id": "8b87a6405a971f9e",
-      "title": "10 Best AI Engineering GitHub Repos to Build Real Systems",
-      "description": "You pick up practical AI engineering faster by digging into real code, real notebooks, and real systems. I’ve learned more by breaking stuff and fixing it than by watching one more lecture. These repos are free, well-structured, and focused on what actually works in practice, helping you move from theory to shipped features. Each pick includes hands-on materials and clear guidance. You’ll find lessons, notebooks, examples, and end-to-end projects that run without yak-shaving. Let’s walk through ",
-      "url": "https://dev.to/robort-gabriel/10-best-ai-engineering-github-repos-to-build-real-systems-fpj",
-      "source": "Dev.to",
-      "author": "Robort Gabriel",
-      "published": "2026-01-07T12:13:23+00:00",
-      "niche": "dev",
-      "score": 69,
-      "keywords": [
         "code"
       ]
     },
@@ -965,6 +951,30 @@
       "keywords": []
     },
     {
+      "id": "dd601a6097c1f21d",
+      "title": "I Hate GitHub Actions with Passion",
+      "description": "Comments",
+      "url": "https://xlii.space/eng/i-hate-github-actions-with-passion/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-14T10:53:13+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": []
+    },
+    {
+      "id": "6d16b0bcf9c0fd0d",
+      "title": "Show HN: Tiny FOSS Compass and Navigation App (<2MB)",
+      "description": "Comments",
+      "url": "https://github.com/CompassMB/MBCompass",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-14T11:09:35+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": []
+    },
+    {
       "id": "c254077d6b21c7ff",
       "title": "How to Become a Pro in Node.js ( Roadmap for Serious Devs)",
       "description": "Node.js is more than just JavaScript on the server. It powers everything from real-time apps to APIs, CLI tools, and microservices. But how do you go from \"I use Express\" to \"I own the backend\"? Let's break it down — this is your step-by-step path to mastering Node.js like a pro. No fluff. All action. ⚙️ 📍 Step 1: Master the Core Before You Touch Frameworks Most devs jump straight to Express, but the real power lies in Node core modules. ✅ Understand these first: http — build raw servers fs — ha",
@@ -1080,22 +1090,6 @@
       ]
     },
     {
-      "id": "5920f88139aa247f",
-      "title": "Application security: thinking backwards",
-      "description": "📜 Developers often focus on what library or what tool they can use to secure their microservices. Modern tools are powerful nowadays, but you can’t be sure all doors are locked if you have never looked at them from the other side. To truly protect an application, you must first learn how it can be attacked. Thinking like an ethical hacker helps you understand: 🕵️‍♂️ How can your application be invaded? 🕵️‍♂️ Where sensitive data can be leaked? 🕵️‍♂️ What weak points can be exploited? 🕵️‍♂️ How a",
-      "url": "https://dev.to/vardan_matevosian_tech/application-security-thinking-backwards-2756",
-      "source": "Dev.to",
-      "author": "Vardan Matevosian",
-      "published": "2026-01-07T12:25:24+00:00",
-      "niche": "dev",
-      "score": 58,
-      "keywords": [
-        "library",
-        "microservices",
-        "developer"
-      ]
-    },
-    {
       "id": "f8d3e993fb7d2c2d",
       "title": "REST vs GraphQL: Two Philosophies, Two Eras, One Endless Debate",
       "description": "This post is for you if you can answer \"yes\" to all/most of the questions below: You've built APIs before (or at least consumed them). You've heard the \"REST vs GraphQL\" debate and felt confused about which one is \"better.\" You're tired of surface-level comparisons that just list features. You want to understand why these technologies exist, not just how to use them. You're the kind of developer who asks \"why?\" before \"how?\" If you nodded along, stick around. This isn't another comparison table.",
@@ -1189,6 +1183,22 @@
         "framework",
         "release",
         "development"
+      ]
+    },
+    {
+      "id": "8804c2eccef5116d",
+      "title": "Break Global Barriers: Introducing the Ultimate Translator API for Developers",
+      "description": "In today's hyper-connected digital economy, \"local\" is a word of the past. If your application only speaks one language, you're leaving over 75% of the world’s internet users behind. But as developers, we know the pain: heavy machine learning models, complex cloud provider configurations, and the sticker shock of enterprise translation services. That’s why we’ve built the ImbueData Translator API—a lightweight, high-performance solution designed by developers, for developers. What is the Transla",
+      "url": "https://dev.to/imbuedata/break-global-barriers-introducing-the-ultimate-translator-api-for-developers-3kk9",
+      "source": "Dev.to",
+      "author": "ImbueData",
+      "published": "2026-01-14T12:46:15+00:00",
+      "niche": "dev",
+      "score": 58,
+      "keywords": [
+        "API",
+        "developer",
+        "performance"
       ]
     },
     {
@@ -1556,21 +1566,6 @@
       "niche": "dev",
       "score": 56,
       "keywords": []
-    },
-    {
-      "id": "851a84afa845c404",
-      "title": "When an AI Recommends Deprecated Pandas APIs — a postmortem",
-      "description": "We started using an LLM-powered assistant to speed up routine data-processing scripts: small ETL tasks, grouping and aggregation, and quick exploratory transforms. The assistant was helpful for boiling down multi-line idioms into compact snippets, but after a few sprints we hit a reproducible failure: generated code that relied on deprecated Pandas APIs would run locally but break in CI or on newer worker nodes. The mismatch was subtle and intermittent. Part of the problem was that the model’s t",
-      "url": "https://dev.to/markk40123/when-an-ai-recommends-deprecated-pandas-apis-a-postmortem-3ld2",
-      "source": "Dev.to",
-      "author": "Mark k",
-      "published": "2026-01-07T12:06:01+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "code",
-        "API"
-      ]
     },
     {
       "id": "3d7a264c554a3305",
@@ -2095,50 +2090,6 @@
       "keywords": [
         "framework",
         "developer"
-      ]
-    },
-    {
-      "id": "3e36c41f21c2611d",
-      "title": "From Prometheus to ARMS: How We Simplified Observability for a Multi-Tier App on Alibaba Cloud",
-      "description": "If you’ve ever lost sleep debugging a latency spike across microservices, you know observability isn’t just about metrics—it’s about context. For months, my team ran a multi-tier SaaS application on Alibaba Cloud using Prometheus on ACK (Alibaba Cloud Container Service for Kubernetes). It worked—until scaling demands, fragmented tooling, and alert fatigue caught up with us. We recently migrated to Application Real-Time Monitoring Service (ARMS), Alibaba Cloud’s managed observability platform. Th",
-      "url": "https://dev.to/bhavesh_panchal_554670aec/from-prometheus-to-arms-how-we-simplified-observability-for-a-multi-tier-app-on-alibaba-cloud-283d",
-      "source": "Dev.to",
-      "author": "Bhavesh Panchal",
-      "published": "2026-01-07T12:16:07+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "microservices"
-      ]
-    },
-    {
-      "id": "bb7fe9ebd9958224",
-      "title": "Mastering Intermediate JavaScript",
-      "description": "Understanding How JavaScript Really Works This Intermediate JavaScript Tutorial series is designed for developers who already understand JavaScript basics and want to go beyond syntax to understand how JavaScript actually works behind the scenes. If you’re comfortable with variables, loops, and functions, but struggle with asynchronous code, unexpected bugs, or confusing behavior, this series will help you build real JavaScript understanding instead of relying on guesswork. In this Intermediate ",
-      "url": "https://dev.to/shameel/mastering-intermediate-javascript-4ohb",
-      "source": "Dev.to",
-      "author": "Shameel Uddin",
-      "published": "2026-01-07T12:06:36+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "developer",
-        "code",
-        "tutorial"
-      ]
-    },
-    {
-      "id": "0dc685e97315dbce",
-      "title": "A Free Tool to Check VRAM Requirements for Any HuggingFace Model",
-      "description": "TL;DR: I got tired of guessing whether models would fit on my GPU. So I built vramio — a free API that tells you exactly how much VRAM any HuggingFace model needs. One curl command. Instant answer. The Problem Every ML Engineer Knows You're browsing HuggingFace. You find a model that looks perfect for your project. Then the questions start: \"Will this fit on my 24GB RTX 4090?\" \"Do I need to quantize it?\" \"What's the actual memory footprint?\" And the answers? They're nowhere. Some model cards men",
-      "url": "https://dev.to/ksingh7/a-free-tool-to-check-vram-requirements-for-any-huggingface-model-4p7h",
-      "source": "Dev.to",
-      "author": "karan singh",
-      "published": "2026-01-07T12:03:51+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "API"
       ]
     },
     {
@@ -2866,6 +2817,34 @@
       ]
     },
     {
+      "id": "6fbc9aa8aca563c4",
+      "title": "Demystifying API integration types",
+      "description": "API gateway integrations connect the gateway to various backend services, such as Lambda functions, HTTP/S endpoints, or other cloud services. The specific integration types and configurations depend on the chosen API gateway provider and the target backend. In this article I will explain the integration types and when to use each one. I will divide them by 3 use cases: The \"Builder\" tools (Lambda & Mock integrations) This one focuses on how to connect to serverless functions or create a fake ba",
+      "url": "https://dev.to/aws-builders/demystifying-api-integration-types-2eia",
+      "source": "Dev.to",
+      "author": "Ayman Aly Mahmoud",
+      "published": "2026-01-14T12:25:14+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "API"
+      ]
+    },
+    {
+      "id": "dd404a2053c78a19",
+      "title": "AI as a Game Changer: Business Model Stress Testing",
+      "description": "Introduction In the contemporary business landscape, artificial intelligence (AI) is not just an advanced technology; it's a transformative force reshaping how organizations operate, strategize, and innovate. As companies increasingly integrate AI into their operations, it serves as a powerful stress test for their business models. By assessing how well a business can adapt and thrive under the unique pressures and challenges posed by AI, organizations can identify weaknesses, optimize processes",
+      "url": "https://dev.to/dd8888/ai-as-a-game-changer-business-model-stress-testing-27k1",
+      "source": "Dev.to",
+      "author": "David Díaz",
+      "published": "2026-01-14T12:23:40+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "API"
+      ]
+    },
+    {
       "id": "d4e6cd029311e1e0",
       "title": "Domain-Driven Design (DDD) with Node.js: Best Practices for Large Projects",
       "description": "Endless spaghetti code spread across controllers and services. Business logic mixed with database queries. Every bug fix breaking something completely unrelated. That's where Domain-Driven Design (DDD) comes to the rescue. DDD isn't just a fancy buzzword — it's a mindset and methodology for organizing complex software. In this post, I'll walk you through what DDD is, why it matters in Node.js projects, and how to implement it step by step with examples. What is Domain-Driven Design (DDD)? At its",
@@ -3376,34 +3355,6 @@
       ]
     },
     {
-      "id": "509fb5275e4d13f9",
-      "title": "URGENT Survey | $15 + Bonus",
-      "description": "How Developers Prompt LLMs for Coding Hi everyone, I’m conducting an academic research study on how developers naturally interact with open-source Large Language Models (LLMs) while working on real coding tasks. This study is time-sensitive and we are only recruiting 10 participants. Compensation: $15 ++ Bonus Incentive: Among early participants, 2 people will be randomly selected to receive an additional $10 bonus What This Study Is About How developers write prompts for coding tasks How they r",
-      "url": "https://dev.to/_19586fa8d50b6948b7962/urgent-survey-15-bonus-2gek",
-      "source": "Dev.to",
-      "author": "hsjeong",
-      "published": "2026-01-07T12:40:47+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "developer"
-      ]
-    },
-    {
-      "id": "a181c9f8e138572c",
-      "title": "SkyHetu: Designing a Causality-First Programming Language in Rust",
-      "description": "Most bugs I’ve encountered in my career boil down to one question: \"How did this variable get here?\" Modern programming languages are amnesiacs. If user.balance is 0, the application knows it is 0 now, but it has no memory of the sequence of events that led to that state. Was it a logic error? A race condition? A rogue function call? To find out, we add print statements, attach debuggers, and try to replay history in our heads. I decided to build something different. I built SkyHetu, a programmi",
-      "url": "https://dev.to/kargatharaaakash/skyhetu-designing-a-causality-first-programming-language-in-rust-2868",
-      "source": "Dev.to",
-      "author": "kargathara Aakash",
-      "published": "2026-01-07T12:20:35+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "programming"
-      ]
-    },
-    {
       "id": "d279d33dfeef31df",
       "title": "Building a Privacy-First Video to Audio Converter with FFmpeg.wasm",
       "description": "A few weeks ago, I needed to extract audio from a video file. Simple task, right? But every online tool I found either: Required uploading my file to some unknown server Had annoying file size limits Wanted me to pay or watch ads As a developer, my first thought was: \"Can I just do this in the browser?\" Turns out, you can. And it's pretty cool. Why FFmpeg.wasm? FFmpeg is the Swiss Army knife of video/audio processing. FFmpeg.wasm brings that power to the browser using WebAssembly. The key benefi",
@@ -3429,20 +3380,6 @@
       "score": 51,
       "keywords": [
         "code"
-      ]
-    },
-    {
-      "id": "2275b991cf305698",
-      "title": "Pivoting Your Career Without Starting From Scratch",
-      "description": "Most developers spend their days fixing bugs, shipping features, and jumping into the next sprint without even thinking about it. After a while, you begin to ask yourself, “Is this still what I want to be doing?” This article looks at how you can move into a new direction in your career without starting from scratch, and how the skills you already use, like problem-solving, communication, and empathy, can open new doors.",
-      "url": "https://smashingmagazine.com/2026/01/pivoting-career-without-starting-from-scratch/",
-      "source": "Smashing Magazine",
-      "author": "hello@smashingmagazine.com (Joas Pambou)",
-      "published": "2026-01-07T10:00:00+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "developer"
       ]
     },
     {
@@ -4902,28 +4839,46 @@
       ]
     },
     {
-      "id": "9af991305c32d119",
-      "title": "Puppetlabs Modules Roundup – December 2025",
-      "description": "Happy New Year and welcome back to the Puppetlabs Modules Roundup! This series is all about keeping you in the loop on what’s new and updated in the Perforce Puppet official module ecosystem. This first update of 2026 will look back at the latest updates from December 2025. Whether you are just getting started with Puppet, or managing a long-lived solution with thousands of nodes, or just curious about what has changed in the module ecosystem, this is the place to find out what's new! Highlighte",
-      "url": "https://dev.to/puppet/puppetlabs-modules-roundup-december-2025-4e5h",
+      "id": "514441e2063ab616",
+      "title": "CSS @scope is now Baseline — Supported in All Major Browsers!",
+      "description": "Big news for frontend developers 🎉 With Firefox 146 officially supporting the @scope at-rule, CSS @scope is now available across Chrome, Safari, and Firefox — earning the Baseline: Newly Available status. Why this matters 👇 The @scope at-rule introduces a new way to scope CSS styles to a specific part of the DOM, helping reduce global CSS conflicts and making styles more predictable, modular, and maintainable. What is @scope in CSS? • @scope defines a local styling context • :scope represents th",
+      "url": "https://dev.to/zainmuhammad/css-scope-is-now-baseline-supported-in-all-major-browsers-4oeo",
       "source": "Dev.to",
-      "author": "Jason St-Cyr",
-      "published": "2026-01-07T12:50:13+00:00",
+      "author": "Zain Muhammad",
+      "published": "2026-01-14T12:44:51+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
-      "id": "0d0b067fadfa362b",
-      "title": "Flat Rate Website Acceleration Tools for Agencies",
-      "description": "The first 10 WordPress sites are easy. The next 20 quietly break your workflow. By site 30 , your tools are running your agency instead of you. Client A needs image optimization. Client B's cache broke. Client C wants faster mobile loading. You're tracking licenses across three tools, each billing per site, and costs keep climbing. Most WordPress agencies hit this wall between 10-20 sites. The tools that worked with your first few clients become expensive and messy at scale. You start compromisi",
-      "url": "https://dev.to/biancarus/flat-rate-website-acceleration-tools-for-agencies-30ii",
+      "id": "1116fc69d183da38",
+      "title": "Is it worthwhile to learn Javascript in 2026?",
+      "description": "I'm 16 years old and interested in software development. Last year I learned the basics of Python. But since my interest lies in web and mobile application development, I purchased a \"WEB DEVELOPMENT COURSE (HTML, CSS, Javascript, React)\". Now that AI has advanced so much, I'm worried about whether learning Javascript will be useful in my career! Do you think learning Javascript would be good for my career?",
+      "url": "https://dev.to/burakweb/will-javascript-still-make-sense-in-2026-3hab",
       "source": "Dev.to",
-      "author": "Bianca Rus",
-      "published": "2026-01-07T12:47:13+00:00",
+      "author": "Burak Arslan",
+      "published": "2026-01-14T12:31:10+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "development"
+      ]
+    },
+    {
+      "id": "92e0623d91744faa",
+      "title": "Difference Between Data Type and Data Structure in JavaScript",
+      "description": "In JavaScript, there are many terms that sound very similar to each other. For beginners, this can quickly become confusing. This confusion often happens because definitions sometimes look almost the same, with only small differences in wording. In this post, I will break down the difference between data types and data structures. Understanding this difference is important before learning JavaScript data types and data structures in more detail, because it is a core concept in programming. Defin",
+      "url": "https://dev.to/catherineisonline/difference-between-data-type-and-data-structure-in-javascript-54f2",
+      "source": "Dev.to",
+      "author": "Ekaterine Mitagvaria",
+      "published": "2026-01-14T12:24:05+00:00",
+      "niche": "dev",
+      "score": 51,
+      "keywords": [
+        "programming"
+      ]
     },
     {
       "id": "f28e5f5dc28dfe3b",
@@ -7978,6 +7933,78 @@
       ]
     },
     {
+      "id": "39d76e9328d0dfb6",
+      "title": "Tracking File Upload Progress on AWS S3 – Lessons from Large File Uploads",
+      "description": "Have you ever tried uploading a large file to AWS S3 and wanted to show progress reliably? I recently worked on a feature that involved uploading videos and large files, and I learned a lot about browser limitations, multipart uploads, and UX improvements. Here’s a breakdown of what I discovered. Why onUploadProgress Alone Isn't Enough For small files, Axios gives us a handy onUploadProgress callback: axios.put(uploadUrl, file, { headers: { \"Content-Type\": file.type }, onUploadProgress: (progres",
+      "url": "https://dev.to/f-47/tracking-file-upload-progress-on-aws-s3-lessons-from-large-file-uploads-4imn",
+      "source": "Dev.to",
+      "author": "Fares Galal",
+      "published": "2026-01-14T12:32:33+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "559768a95aa5c305",
+      "title": "Why My Node.js E-commerce App Got Slower Over Time (And It Wasn’t a Memory Leak)",
+      "description": "I recently finished a Node.js e-commerce build for a client. At first, it was perfect. Locally, everything was snappy. With 10 items in the database, the site felt like it was flying. Then we went live. Even with just a few hundred products and a handful of daily customers, that \"new app smell\" started to fade. The site didn't crash, but it felt sluggish. It felt like it was moving through mud. My first instinct was that I had a memory leak. I spent two days staring at Chrome DevTools heap snaps",
+      "url": "https://dev.to/arbythecoder/why-my-nodejs-e-commerce-app-got-slower-over-time-and-it-wasnt-a-memory-leak-49lb",
+      "source": "Dev.to",
+      "author": "Arbythecoder",
+      "published": "2026-01-14T12:26:32+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "96f49db0e08b91d7",
+      "title": "Waiting, With Intent: Designing AI Systems for the Long Game 🧭",
+      "description": "🦄 I’m waiting for AI to mature. Very explicitly—and yes, mostly impatiently. I don’t even think we're close to imagining the future landscape with AI, and honestly pretending otherwise is neither honest or useful to anyone. This post is my attempt to explain how I think about AI from a dev perspective on a longer horizon—five, maybe even ten years down the road. The tools we have right now are still a very long way away from my baseline expectations, which my AI systems remind me of near constan",
+      "url": "https://dev.to/anchildress1/waiting-with-intent-designing-ai-systems-for-the-long-game-1abg",
+      "source": "Dev.to",
+      "author": "Ashley Childress",
+      "published": "2026-01-14T12:22:00+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "d014eeb4fe7ef8d4",
+      "title": "BootStrapping Aurora RDS Databases using Lambda and Terraform (Part 3)",
+      "description": "TL;DR We wrap our bootstrap logic in an AWS Step Functions workflow to transition from a manual script to an automated platform capability. By leveraging EventBridge and CloudTrail, we create an event-driven loop that detects infrastructure changes and reconciles the database state automatically—achieving a production-ready deployment with zero manual intervention. Table of Contents The Architecture Implementation Root Module Child Module Validation Conclusion Orchestrating with AWS Step Functio",
+      "url": "https://dev.to/santanu_das/bootstrapping-aurora-rds-databases-using-lambda-and-terraform-part-3-bif",
+      "source": "Dev.to",
+      "author": "Santanu Das",
+      "published": "2026-01-14T12:20:43+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "e758af719af93b93",
+      "title": "Smashing Animations Part 8: Theming Animations Using CSS Relative Colour",
+      "description": "CSS relative colour values are now widely supported. In this article, pioneering author and web designer [Andy Clarke](https://stuffandnonsense.co.uk/) shares practical techniques for using them to theme and animate SVG graphics.",
+      "url": "https://smashingmagazine.com/2026/01/smashing-animations-part-8-css-relative-colour/",
+      "source": "Smashing Magazine",
+      "author": "hello@smashingmagazine.com (Andy Clarke)",
+      "published": "2026-01-14T10:00:00+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "28397497b2b82366",
+      "title": "Le seuil de délégation",
+      "description": "Avec Blackwell, NVIDIA passe de 8 à 72 GPU par domaine. Ce n'est pas une amélioration de l'inférence, c'est un nouveau mode: la délégation. Vous assignez une tâche, elle tourne des heures. Les modèles open-weights locaux ne pourront jamais y accéder. La qualité est l'échelle. La dépendance est à sens unique.",
+      "url": "https://blog.octo.com/le-seuil-de-delegation",
+      "source": "Blog Technique Octo",
+      "author": "Teilo Millet",
+      "published": "2026-01-14T11:40:10+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "6b078f8a0818c9b2",
       "title": "Cool Article on API Tools!! https://medium.com/@somendradev23/10-api-tools-every-full-stack-developer-should-know-6f9af40ae0ec",
       "description": "medium.com",
@@ -8020,20 +8047,6 @@
       "keywords": [
         "code",
         "developer"
-      ]
-    },
-    {
-      "id": "e202c3984befca35",
-      "title": "Optery (YC W22) Hiring a CISO and Web Scraping Engineers (Node) (US and Latam)",
-      "description": "Comments",
-      "url": "https://www.optery.com/careers/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-07T12:00:20+00:00",
-      "niche": "dev",
-      "score": 48,
-      "keywords": [
-        "API"
       ]
     },
     {
@@ -8405,30 +8418,6 @@
       ]
     },
     {
-      "id": "45593a263c929a8e",
-      "title": "Stop Designing Languages. Write Libraries Instead (2016)",
-      "description": "Comments",
-      "url": "https://lbstanza.org/purpose_of_programming_languages.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-07T12:29:11+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "e43f3b0631d0f802",
-      "title": "The Eric and Wendy Schmidt Observatory System",
-      "description": "Comments",
-      "url": "https://www.schmidtsciences.org/schmidt-observatory-system/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-07T12:19:01+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
       "id": "79fe321993c2f93c",
       "title": "LaTeX Coffee Stains [pdf]",
       "description": "Comments",
@@ -8441,18 +8430,6 @@
       "keywords": []
     },
     {
-      "id": "21eb92c30b4d0938",
-      "title": "“Stop Designing Languages. Write Libraries Instead” (2016)",
-      "description": "Comments",
-      "url": "https://lbstanza.org/purpose_of_programming_languages.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-07T12:29:11+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
       "id": "8bf27143e9c93506",
       "title": "Sugar industry influenced researchers and blamed fat for CVD",
       "description": "Comments",
@@ -8460,18 +8437,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2026-01-07T14:29:25+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "2b609407ed9cd623",
-      "title": "A4 Paper Stories",
-      "description": "Comments",
-      "url": "https://susam.net/a4-paper-stories.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-07T12:54:43+00:00",
       "niche": "dev",
       "score": 44,
       "keywords": []
@@ -9120,18 +9085,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2026-01-10T04:35:32+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "a7e7462d33520881",
-      "title": "Changes to Android Open Source Project",
-      "description": "Comments",
-      "url": "https://source.android.com/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-07T09:35:46+00:00",
       "niche": "dev",
       "score": 44,
       "keywords": []
@@ -10193,18 +10146,52 @@
       "keywords": []
     },
     {
-      "id": "9507e2cf68c6c137",
-      "title": "Infinite Canvas: Building a Seamless, Pan-Anywhere Image Space",
-      "description": "Learn how to build an infinite, pannable image canvas with React Three Fiber. We’ll use chunk-based rendering and performance-first techniques to create a smooth, endlessly explorable image space.",
-      "url": "https://tympanus.net/codrops/2026/01/07/infinite-canvas-building-a-seamless-pan-anywhere-image-space/",
-      "source": "Codrops",
-      "author": "Edoardo Lunardi",
-      "published": "2026-01-07T11:42:54+00:00",
+      "id": "7855419c89e0f844",
+      "title": "Servo 2025 Stats",
+      "description": "Comments",
+      "url": "https://blogs.igalia.com/mrego/servo-2025-stats/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-14T12:14:48+00:00",
       "niche": "dev",
-      "score": 42,
-      "keywords": [
-        "performance"
-      ]
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "31cd61e24a9ba5f2",
+      "title": "I Love You, Redis, but I'm Leaving You for SolidQueue",
+      "description": "Comments",
+      "url": "https://www.simplethread.com/redis-solidqueue/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-14T09:25:58+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "2c2854f3b40c97c6",
+      "title": "Lago (Open-Source Billing) is hiring across teams and geos",
+      "description": "Comments",
+      "url": "https://news.ycombinator.com/item?id=46615235",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-14T12:25:59+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "162409d7cbab0a78",
+      "title": "Systematically generating tests that would have caught Anthropic's top‑K bug",
+      "description": "Comments",
+      "url": "https://theorem.dev/blog/anthropic-bug-test/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-11T20:02:21+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
     },
     {
       "id": "c239d273b61c36f9",
@@ -10259,8 +10246,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "React 19",
-        "performance"
+        "performance",
+        "React 19"
       ]
     },
     {
@@ -10317,8 +10304,8 @@
       "score": 40,
       "keywords": [
         "release",
-        "code",
-        "performance"
+        "performance",
+        "code"
       ]
     },
     {
@@ -10332,9 +10319,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "release",
         "API",
-        "developer"
+        "developer",
+        "release"
       ]
     },
     {
@@ -10348,8 +10335,8 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "release",
         "developer",
+        "release",
         "performance"
       ]
     },
@@ -10380,6 +10367,18 @@
       "keywords": [
         "code"
       ]
+    },
+    {
+      "id": "6a25c25890ee8ebb",
+      "title": "A Site for Sore Eyes: Combining GSAP and Webflow to Showcase Flim",
+      "description": "A deep dive into how Flim was built, breaking down the animations, interactions, and technical decisions behind a GSAP-powered Webflow experience.",
+      "url": "https://tympanus.net/codrops/2026/01/14/a-site-for-sore-eyes-combining-gsap-and-webflow-to-showcase-flim/",
+      "source": "Codrops",
+      "author": "ToyFight®",
+      "published": "2026-01-14T12:38:39+00:00",
+      "niche": "dev",
+      "score": 39,
+      "keywords": []
     },
     {
       "id": "d0034eae7764902f",
@@ -10584,8 +10583,8 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "release",
         "API",
+        "release",
         "React 19"
       ]
     },
@@ -10773,30 +10772,6 @@
       ]
     },
     {
-      "id": "18edc4e714a11de3",
-      "title": "Httpz – Zero-Allocation HTTP/1.1 Parser for OxCaml",
-      "description": "Comments",
-      "url": "https://github.com/avsm/httpz",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-07T10:02:12+00:00",
-      "niche": "dev",
-      "score": 32,
-      "keywords": []
-    },
-    {
-      "id": "deaf7c2e2b44fa82",
-      "title": "Vojtux – Unofficial Linux Distribution Aimed at Visually Impaired Users",
-      "description": "Comments",
-      "url": "https://github.com/vojtapolasek/vojtux",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-07T11:43:26+00:00",
-      "niche": "dev",
-      "score": 32,
-      "keywords": []
-    },
-    {
       "id": "b58e9efbc1e7a235",
       "title": "A set of Idiomatic prod-grade katas for experienced devs transitioning to Go",
       "description": "Comments",
@@ -10901,11 +10876,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "release",
         "framework",
+        "performance",
         "API",
-        "code",
-        "performance"
+        "release",
+        "code"
       ]
     },
     {
@@ -11223,8 +11198,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "API"
+        "API",
+        "release"
       ]
     },
     {
@@ -11254,8 +11229,8 @@
       "score": 20,
       "keywords": [
         "release",
-        "code",
-        "development"
+        "development",
+        "code"
       ]
     },
     {
@@ -11269,9 +11244,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "code",
         "developer",
-        "performance"
+        "performance",
+        "code"
       ]
     },
     {
@@ -11285,8 +11260,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "code",
-        "performance"
+        "performance",
+        "code"
       ]
     },
     {
@@ -11300,8 +11275,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
-        "developer"
+        "developer",
+        "release"
       ]
     },
     {
@@ -11373,8 +11348,8 @@
       "score": 17,
       "keywords": [
         "API",
-        "development",
-        "developer"
+        "developer",
+        "development"
       ]
     },
     {
@@ -11388,9 +11363,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "development",
+        "tutorial",
         "PHP",
-        "tutorial"
+        "development"
       ]
     },
     {
@@ -11404,9 +11379,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "development",
+        "tutorial",
         "PHP",
-        "tutorial"
+        "development"
       ]
     },
     {
@@ -11422,6 +11397,20 @@
       "keywords": [
         "API",
         "code"
+      ]
+    },
+    {
+      "id": "2275b991cf305698",
+      "title": "Pivoting Your Career Without Starting From Scratch",
+      "description": "Most developers spend their days fixing bugs, shipping features, and jumping into the next sprint without even thinking about it. After a while, you begin to ask yourself, “Is this still what I want to be doing?” This article looks at how you can move into a new direction in your career without starting from scratch, and how the skills you already use, like problem-solving, communication, and empathy, can open new doors.",
+      "url": "https://smashingmagazine.com/2026/01/pivoting-career-without-starting-from-scratch/",
+      "source": "Smashing Magazine",
+      "author": "hello@smashingmagazine.com (Joas Pambou)",
+      "published": "2026-01-07T10:00:00+00:00",
+      "niche": "dev",
+      "score": 15,
+      "keywords": [
+        "developer"
       ]
     },
     {
@@ -11507,30 +11496,6 @@
       "keywords": [
         "development"
       ]
-    },
-    {
-      "id": "c35d257e85a56639",
-      "title": "CPU Counters on Apple Silicon: article + tool",
-      "description": "Comments",
-      "url": "https://blog.bugsiki.dev/posts/apple-pmu/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-07T11:39:33+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "c512809a7029a438",
-      "title": "I Cannot SSH into My Server Anymore (and That's Fine)",
-      "description": "Comments",
-      "url": "https://soap.coffee/~lthms/posts/i-cannot-ssh-into-my-server-anymore.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-07T09:37:12+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
     },
     {
       "id": "bdba40b489227cce",
@@ -11675,9 +11640,9 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "code",
+        "developer",
         "programming",
-        "developer"
+        "code"
       ]
     },
     {
@@ -11825,18 +11790,6 @@
       "keywords": []
     },
     {
-      "id": "f1ba19b7b9354ea5",
-      "title": "State, Logic, And Native Power: CSS Wrapped 2025",
-      "description": "CSS Wrapped 2025 is out! We’re entering a world where CSS can increasingly handle logic, state, and complex interactions once reserved for JavaScript. Here is an unpacking of the standout highlights and how they connect to the bigger evolution of modern CSS.",
-      "url": "https://smashingmagazine.com/2025/12/state-logic-native-power-css-wrapped-2025/",
-      "source": "Smashing Magazine",
-      "author": "hello@smashingmagazine.com (Brecht De Ruyte)",
-      "published": "2025-12-09T10:00:00+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
       "id": "765be3c27e734bb8",
       "title": "Default styles for h1 elements are changing",
       "description": "Browsers are starting to roll out changes in default UA styles for nested section headings. This post describes the incoming changes, how to identify if it's an issue on your websites, and hints for conformant and better-structured pages.",
@@ -11907,8 +11860,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "development",
-        "programming"
+        "programming",
+        "development"
       ]
     },
     {
@@ -11955,18 +11908,6 @@
       "source": "Blog Technique Octo",
       "author": "Maria-Dolores Manzanedo",
       "published": "2025-12-15T19:50:35+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "d97c40d4fb6a21ee",
-      "title": "IAs and Personas : vers un nouvel extrême persona ?",
-      "description": "À l’heure où l’IA transforme nos usages, cet article explore son rôle dans nos méthodes de conception, ainsi que son potentiel d’inclusion et d’accessibilité. Il invite à considérer les IA comme de nouveaux utilisateurs dans nos démarches de design et de développement.",
-      "url": "https://blog.octo.com/ias-and-personas--vers-un-nouvel-extreme-persona",
-      "source": "Blog Technique Octo",
-      "author": "Benjamin Honore",
-      "published": "2025-12-11T13:17:10+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -12233,6 +12174,20 @@
       "keywords": []
     },
     {
+      "id": "9507e2cf68c6c137",
+      "title": "Infinite Canvas: Building a Seamless, Pan-Anywhere Image Space",
+      "description": "Learn how to build an infinite, pannable image canvas with React Three Fiber. We’ll use chunk-based rendering and performance-first techniques to create a smooth, endlessly explorable image space.",
+      "url": "https://tympanus.net/codrops/2026/01/07/infinite-canvas-building-a-seamless-pan-anywhere-image-space/",
+      "source": "Codrops",
+      "author": "Edoardo Lunardi",
+      "published": "2026-01-07T11:42:54+00:00",
+      "niche": "dev",
+      "score": 12,
+      "keywords": [
+        "performance"
+      ]
+    },
+    {
       "id": "284ac66b8cca92f0",
       "title": "Fix “This video format is not supported” on YouTube TV",
       "description": "Setting up a new computer is bliss &#8212; no old, unused apps and the machine performs much better than the previous. Unfortunately, you may encounter new problems based on the new hardware. One such issue I encountered with my new MacBook was a &#8220;This video format is not supported&#8221; message when I went to YouTube [&#8230;] The post Fix &#8220;This video format is not supported&#8221; on YouTube TV appeared first on David Walsh Blog.",
@@ -12426,20 +12381,6 @@
       "score": 10,
       "keywords": [
         "developer"
-      ]
-    },
-    {
-      "id": "da2ff02403f2a8ad",
-      "title": "Frequency Breathwork: Translating the Invisible Rhythm of Breath into Digital Form",
-      "description": "An exploration of how concept, motion, sound, and code came together to create a website that doesn’t just present breathwork, but embodies it.",
-      "url": "https://tympanus.net/codrops/2025/12/29/frequency-breathwork-translating-the-invisible-rhythm-of-breath-into-digital-form/",
-      "source": "Codrops",
-      "author": "Artemii Lebedev",
-      "published": "2025-12-29T13:42:53+00:00",
-      "niche": "dev",
-      "score": 10,
-      "keywords": [
-        "code"
       ]
     },
     {

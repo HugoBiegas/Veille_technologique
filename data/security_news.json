@@ -1,43 +1,7 @@
 {
-  "last_updated": "2026-01-14T09:34:57.602149+00:00",
-  "total_articles": 440,
+  "last_updated": "2026-01-14T12:58:38.288168+00:00",
+  "total_articles": 428,
   "articles": [
-    {
-      "id": "d2a422f788eb5709",
-      "title": "n8n Warns of CVSS 10.0 RCE Vulnerability Affecting Self-Hosted and Cloud Versions",
-      "description": "Open-source workflow automation platform n8n has warned of a maximum-severity security flaw that, if successfully exploited, could result in authenticated remote code execution (RCE). The vulnerability, which has been assigned the CVE identifier CVE-2026-21877, is rated 10.0 on the CVSS scoring system. \"Under certain conditions, an authenticated user may be able to cause untrusted code to be",
-      "url": "https://thehackernews.com/2026/01/n8n-warns-of-cvss-100-rce-vulnerability.html",
-      "source": "The Hacker News",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-01-07T16:56:00+05:30",
-      "niche": "security",
-      "score": 100,
-      "keywords": [
-        "security",
-        "vulnerability",
-        "exploit",
-        "remote code execution",
-        "CVE-"
-      ]
-    },
-    {
-      "id": "65bb0455d1eacab3",
-      "title": "Veeam Patches Critical RCE Vulnerability with CVSS 9.0 in Backup & Replication",
-      "description": "Veeam has released security updates to address multiple flaws in its Backup & Replication software, including a \"critical\" issue that could result in remote code execution (RCE). The vulnerability, tracked as CVE-2025-59470, carries a CVSS score of 9.0. \"This vulnerability allows a Backup or Tape Operator to perform remote code execution (RCE) as the postgres user by sending a malicious",
-      "url": "https://thehackernews.com/2026/01/veeam-patches-critical-rce.html",
-      "source": "The Hacker News",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-01-07T16:11:00+05:30",
-      "niche": "security",
-      "score": 100,
-      "keywords": [
-        "security",
-        "vulnerability",
-        "patch",
-        "remote code execution",
-        "CVE-"
-      ]
-    },
     {
       "id": "bfc1596b2a91e701",
       "title": "Critical n8n Vulnerability (CVSS 10.0) Allows Unauthenticated Attackers to Take Full Control",
@@ -234,6 +198,42 @@
         "security flaw",
         "vulnerability",
         "patch"
+      ]
+    },
+    {
+      "id": "dc65d1d5b1405112",
+      "title": "Fortinet Fixes Critical FortiSIEM Flaw Allowing Unauthenticated Remote Code Execution",
+      "description": "Fortinet has released updates to fix a critical security flaw impacting FortiSIEM that could allow an unauthenticated attacker to achieve code execution on susceptible instances. The operating system (OS) injection vulnerability, tracked as CVE-2025-64155, is rated 9.4 out of 10.0 on the CVSS scoring system. \"An improper neutralization of special elements used in an OS command ('OS command",
+      "url": "https://thehackernews.com/2026/01/fortinet-fixes-critical-fortisiem-flaw.html",
+      "source": "The Hacker News",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-01-14T17:23:00+05:30",
+      "niche": "security",
+      "score": 100,
+      "keywords": [
+        "remote code execution",
+        "attack",
+        "security",
+        "injection",
+        "vulnerability"
+      ]
+    },
+    {
+      "id": "a1770eed1483b05c",
+      "title": "Microsoft Fixes 114 Windows Flaws in January 2026 Patch, One Actively Exploited",
+      "description": "Microsoft on Tuesday rolled out its first security update for 2026, addressing 114 security flaws, including one vulnerability that it said has been actively exploited in the wild. Of the 114 flaws, eight are rated Critical, and 106 are rated Important in severity. As many as 58 vulnerabilities have been classified as privilege escalation, followed by 22 information disclosure, 21 remote code",
+      "url": "https://thehackernews.com/2026/01/microsoft-fixes-114-windows-flaws-in.html",
+      "source": "The Hacker News",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-01-14T15:08:00+05:30",
+      "niche": "security",
+      "score": 100,
+      "keywords": [
+        "security",
+        "disclosure",
+        "privilege escalation",
+        "vulnerability",
+        "security flaw"
       ]
     },
     {
@@ -441,21 +441,21 @@
       ]
     },
     {
-      "id": "4c324acb2b4b4ead",
-      "title": "Hackers Exploit Zero-Day in Discontinued D-Link Devices",
-      "description": "The critical-severity vulnerability allows unauthenticated, remote attackers to execute arbitrary shell commands. The post Hackers Exploit Zero-Day in Discontinued D-Link Devices appeared first on SecurityWeek.",
-      "url": "https://www.securityweek.com/hackers-exploit-zero-day-in-discontinued-d-link-devices/",
-      "source": "SecurityWeek",
-      "author": "Ionut Arghire",
-      "published": "2026-01-07T12:33:11+00:00",
+      "id": "d5d847ab7707560b",
+      "title": "U.S. CISA adds a flaw in Microsoft Windows to its Known Exploited Vulnerabilities catalog",
+      "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds a flaw impacting Microsoft Windows to its Known Exploited Vulnerabilities catalog. The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added a Microsoft Windows vulnerability, tracked as CVE-2026-20805 (CVSS Score of 8.7), to its Known Exploited Vulnerabilities (KEV) catalog. This week, Microsoft Patch Tuesday security updates for January 2026 release [&#8230;]",
+      "url": "https://securityaffairs.com/186898/security/u-s-cisa-adds-a-flaw-in-microsoft-windows-to-its-known-exploited-vulnerabilities-catalog.html",
+      "source": "Security Affairs",
+      "author": "Pierluigi Paganini",
+      "published": "2026-01-14T11:45:13+00:00",
       "niche": "security",
-      "score": 93,
+      "score": 94,
       "keywords": [
+        "cybersecurity",
         "security",
         "vulnerability",
-        "zero-day",
         "exploit",
-        "attack"
+        "patch"
       ]
     },
     {
@@ -474,24 +474,6 @@
         "security",
         "exploit",
         "patch"
-      ]
-    },
-    {
-      "id": "16d68b7990a849f6",
-      "title": "Microsoft Warns Misconfigured Email Routing Can Enable Internal Domain Phishing",
-      "description": "Threat actors engaging in phishing attacks are exploiting routing scenarios and misconfigured spoof protections to impersonate organizations' domains and distribute emails that appear as if they have been sent internally. \"Threat actors have leveraged this vector to deliver a wide variety of phishing messages related to various phishing-as-a-service (PhaaS) platforms such as Tycoon 2FA,\" the",
-      "url": "https://thehackernews.com/2026/01/microsoft-warns-misconfigured-email.html",
-      "source": "The Hacker News",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-01-07T15:12:00+05:30",
-      "niche": "security",
-      "score": 92,
-      "keywords": [
-        "protection",
-        "exploit",
-        "attack",
-        "phishing",
-        "threat"
       ]
     },
     {
@@ -595,24 +577,6 @@
         "attack",
         "threat",
         "RCE"
-      ]
-    },
-    {
-      "id": "3dcef518ef4652a2",
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "description": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2009-0556 Microsoft Office PowerPoint Code Injection Vulnerability CVE-2025-37164 HPE OneView Code Injection Vulnerability  These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.  Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vul",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/01/07/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "source": "CISA Cybersecurity Advisories",
-      "author": "CISA",
-      "published": "2026-01-07T12:00:00+00:00",
-      "niche": "security",
-      "score": 87,
-      "keywords": [
-        "CVE-",
-        "attack",
-        "vulnerability",
-        "injection",
-        "exploit"
       ]
     },
     {
@@ -833,42 +797,6 @@
         "attack",
         "threat",
         "breach"
-      ]
-    },
-    {
-      "id": "967bfbcd9f57073c",
-      "title": "Veeam resolves CVSS 9.0 RCE flaw and other security issues",
-      "description": "Veeam patched a critical RCE flaw in Backup &#38; Replication, CVE-2025-59470, rated CVSS 9.0, along with other vulnerabilities. Veeam released patches for multiple Backup &#38; Replication flaws, including a critical RCE vulnerability tracked as CVE-2025-59470 (CVSS score of 9.0). A Backup or Tape Operator can achieve remote code execution as the postgres user by abusing [&#8230;]",
-      "url": "https://securityaffairs.com/186630/security/veeam-resolves-cvss-9-0-rce-flaw-and-other-security-issues.html",
-      "source": "Security Affairs",
-      "author": "Pierluigi Paganini",
-      "published": "2026-01-07T11:31:04+00:00",
-      "niche": "security",
-      "score": 82,
-      "keywords": [
-        "security",
-        "vulnerability",
-        "patch",
-        "remote code execution",
-        "CVE-"
-      ]
-    },
-    {
-      "id": "cb1d1cb1ecc0c325",
-      "title": "Hackers actively exploit critical RCE flaw in legacy D-Link DSL routers",
-      "description": "Attackers are exploiting a critical flaw (CVE-2026-0625) in old D-Link DSL routers that allows remote command execution. Threat actors are actively exploiting a critical RCE flaw, tracked as CVE-2026-0625 (CVSS score of 9.3), in legacy D-Link DSL routers. The vulnerability is an improper neutralization of special elements used in an OS Command (&#8216;OS Command Injection&#8217;), [&#8230;]",
-      "url": "https://securityaffairs.com/186616/hacking/hackers-actively-exploit-critical-rce-flaw-in-legacy-d-link-dsl-routers.html",
-      "source": "Security Affairs",
-      "author": "Pierluigi Paganini",
-      "published": "2026-01-07T09:52:04+00:00",
-      "niche": "security",
-      "score": 82,
-      "keywords": [
-        "vulnerability",
-        "exploit",
-        "attack",
-        "injection",
-        "CVE-"
       ]
     },
     {
@@ -1172,22 +1100,6 @@
       ]
     },
     {
-      "id": "53ca990f48d87cda",
-      "title": "Webinar: Learn How AI-Powered Zero Trust Detects Attacks with No Files or Indicators",
-      "description": "Security teams are still catching malware. The problem is what they're not catching. More attacks today don't arrive as files. They don't drop binaries. They don't trigger classic alerts. Instead, they run quietly through tools that already exist inside the environment — scripts, remote access, browsers, and developer workflows. That shift is creating a blind spot. Join us for a deep-dive",
-      "url": "https://thehackernews.com/2026/01/webinar-learn-how-ai-powered-zero-trust.html",
-      "source": "The Hacker News",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-01-07T17:25:00+05:30",
-      "niche": "security",
-      "score": 79,
-      "keywords": [
-        "malware",
-        "attack",
-        "security"
-      ]
-    },
-    {
       "id": "47c9ae8f9f3c3681",
       "title": "China-Linked UAT-7290 Targets Telecoms with Linux Malware and ORB Nodes",
       "description": "A China-nexus threat actor known as UAT-7290 has been attributed to espionage-focused intrusions against entities in South Asia and Southeastern Europe. The activity cluster, which has been active since at least 2022, primarily focuses on extensive technical reconnaissance of target organizations before initiating attacks, ultimately leading to the deployment of malware families such as RushDrop",
@@ -1249,42 +1161,6 @@
       "score": 78,
       "keywords": [
         "RCE",
-        "threat"
-      ]
-    },
-    {
-      "id": "a5818f293e4d714b",
-      "title": "Microsoft warns of a surge in phishing attacks exploiting email routing gaps",
-      "description": "Microsoft’s Threat Intelligence team has disclosed that threat actors are increasingly exploiting complex email routing and misconfigured domain spoof protection to make phishing messages appear as if they were sent from inside the organizations they’re targeting. These campaigns are relying on configuration gaps, specifically scenarios where mail exchanger (MX) DNS records don’t point directly to Microsoft 365 and where Domain-based Message Authentication, Reporting & Conformance (DMARC) and Se",
-      "url": "https://www.csoonline.com/article/4113746/microsoft-warns-of-a-surge-in-phishing-attacks-exploiting-email-routing-gaps.html",
-      "source": "CSO Online",
-      "author": "Inconnu",
-      "published": "2026-01-07T11:49:15+00:00",
-      "niche": "security",
-      "score": 77,
-      "keywords": [
-        "protection",
-        "exploit",
-        "attack",
-        "phishing",
-        "threat"
-      ]
-    },
-    {
-      "id": "82f0f30e1bb986a5",
-      "title": "Complex Routing, Misconfigurations Exploited for Domain Spoofing in Phishing Attacks",
-      "description": "Threat actors spoof legitimate domains to make their phishing emails appear to have been sent internally. The post Complex Routing, Misconfigurations Exploited for Domain Spoofing in Phishing Attacks appeared first on SecurityWeek.",
-      "url": "https://www.securityweek.com/complex-routing-misconfigurations-exploited-for-domain-spoofing-in-phishing-attacks/",
-      "source": "SecurityWeek",
-      "author": "Ionut Arghire",
-      "published": "2026-01-07T11:29:23+00:00",
-      "niche": "security",
-      "score": 76,
-      "keywords": [
-        "security",
-        "exploit",
-        "attack",
-        "phishing",
         "threat"
       ]
     },
@@ -1497,24 +1373,6 @@
       ]
     },
     {
-      "id": "4bb9aff88025a1f1",
-      "title": "Microsoft Patch Tuesday, December 2025 Edition",
-      "description": "Microsoft today pushed updates to fix at least 56 security flaws in its Windows operating systems and supported software. This final Patch Tuesday of 2025 tackles one zero-day bug that is already being exploited, as well as two publicly disclosed vulnerabilities.",
-      "url": "https://krebsonsecurity.com/2025/12/microsoft-patch-tuesday-december-2025-edition/",
-      "source": "Krebs on Security",
-      "author": "BrianKrebs",
-      "published": "2025-12-09T23:18:29+00:00",
-      "niche": "security",
-      "score": 75,
-      "keywords": [
-        "security flaw",
-        "zero-day",
-        "security",
-        "exploit",
-        "patch"
-      ]
-    },
-    {
       "id": "a2b086142bbc1fa2",
       "title": "Attackers Exploit Zero-Day in End-of-Life D-Link Routers",
       "description": "Hackers are attacking a critical zero-day flaw in unsupported D-Link DSL routers to run arbitrary commands.",
@@ -1528,21 +1386,6 @@
         "attack",
         "exploit",
         "zero-day"
-      ]
-    },
-    {
-      "id": "92300e4923388faf",
-      "title": "The Future of Cybersecurity Includes Non-Human Employees",
-      "description": "Non-human employees are becoming the future of cybersecurity, and enterprises need to prepare accordingly. As organizations scale Artificial Intelligence (AI) and cloud automation, there is exponential growth in Non-Human Identities (NHIs), including bots, AI agents, service accounts and automation scripts. In fact, 51% of respondents in ConductorOne’s 2025 Future of Identity Security Report",
-      "url": "https://thehackernews.com/2026/01/the-future-of-cybersecurity-includes.html",
-      "source": "The Hacker News",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-01-07T16:30:00+05:30",
-      "niche": "security",
-      "score": 73,
-      "keywords": [
-        "cybersecurity",
-        "security"
       ]
     },
     {
@@ -1789,21 +1632,6 @@
       ]
     },
     {
-      "id": "73d9230ea76652b5",
-      "title": "UK announces plan to strengthen public sector cyber defenses",
-      "description": "The United Kingdom has announced a new cybersecurity strategy, backed by more than £210 million ($283 million), to boost cyber defenses across government departments and the wider public sector. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/uk-announces-plan-to-strengthen-public-sector-cyber-defenses/",
-      "source": "Bleeping Computer",
-      "author": "Sergiu Gatlan",
-      "published": "2026-01-07T07:15:01-05:00",
-      "niche": "security",
-      "score": 69,
-      "keywords": [
-        "cybersecurity",
-        "security"
-      ]
-    },
-    {
       "id": "f2da6ae7ceea02de",
       "title": "OpenAI Launches ChatGPT Health with Isolated, Encrypted Health Data Controls",
       "description": "Artificial intelligence (AI) company OpenAI on Wednesday announced the launch of ChatGPT Health, a dedicated space that allows users to have conversations with the chatbot about their health. To that end, the sandboxed experience offers users the optional ability to securely connect medical records and wellness apps, including Apple Health, Function, MyFitnessPal, Weight Watchers, AllTrails,",
@@ -1845,6 +1673,54 @@
         "vulnerability",
         "security",
         "attack"
+      ]
+    },
+    {
+      "id": "4e82d1de9c81b8dc",
+      "title": "Robo-Advisor Betterment Discloses Data Breach",
+      "description": "A threat actor breached Betterment’s systems, accessed customer information, and sent scam crypto-related messages. The post Robo-Advisor Betterment Discloses Data Breach appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/robo-advisor-betterment-discloses-data-breach/",
+      "source": "SecurityWeek",
+      "author": "Ionut Arghire",
+      "published": "2026-01-14T10:50:45+00:00",
+      "niche": "security",
+      "score": 69,
+      "keywords": [
+        "threat",
+        "breach",
+        "security"
+      ]
+    },
+    {
+      "id": "7cc7df211b1a9391",
+      "title": "Fortinet Patches Critical Vulnerabilities in FortiFone, FortiSIEM",
+      "description": "Exploitable without authentication, the two security defects could lead to configuration leak and code execution. The post Fortinet Patches Critical Vulnerabilities in FortiFone, FortiSIEM appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/fortinet-patches-critical-vulnerabilities-in-fortifone-fortisiem/",
+      "source": "SecurityWeek",
+      "author": "Ionut Arghire",
+      "published": "2026-01-14T09:56:38+00:00",
+      "niche": "security",
+      "score": 69,
+      "keywords": [
+        "patch",
+        "security",
+        "exploit"
+      ]
+    },
+    {
+      "id": "cc875c1bb468d320",
+      "title": "Chrome 144, Firefox 147 Patch High-Severity Vulnerabilities",
+      "description": "The two browser updates resolve 26 security defects, including bugs that could be exploited for code execution. The post Chrome 144, Firefox 147 Patch High-Severity Vulnerabilities appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/chrome-144-firefox-147-patch-high-severity-vulnerabilities/",
+      "source": "SecurityWeek",
+      "author": "Ionut Arghire",
+      "published": "2026-01-14T09:50:09+00:00",
+      "niche": "security",
+      "score": 69,
+      "keywords": [
+        "patch",
+        "security",
+        "exploit"
       ]
     },
     {
@@ -2027,17 +1903,41 @@
       ]
     },
     {
-      "id": "2893aba89d9b269e",
-      "title": "Multi Theft Auto ressuscite sur GitHub après l'échec juridique de Take-Two",
-      "description": "Et voici que voilà que voici le grand retour de Multi Theft Auto sur GitHub !!! Vous vous souvenez peut-être de ce mod légendaire qui a permis à des millions de joueurs de transformer GTA San Andreas en véritable MMO de quartier depuis février 2003. C'est quand même, un projet open source qui a survécu à plus de 20 ans de cohabitation plus ou moins paisible avec Rockstar et sa maison mère Take-Two Interactive.",
-      "url": "https://korben.info/multi-theft-auto-github-take-two.html",
-      "source": "Korben",
-      "author": "Korben",
-      "published": "2026-01-07T13:34:38+01:00",
+      "id": "3fc73c8f23047118",
+      "title": "New Research: 64% of 3rd-Party Applications Access Sensitive Data Without Justification",
+      "description": "Research analyzing 4,700 leading websites reveals that 64% of third-party applications now access sensitive data without business justification, up from 51% in 2024.  Government sector malicious activity spiked from 2% to 12.9%, while 1 in 7 Education sites show active compromise. Specific offenders: Google Tag Manager (8% of violations), Shopify (5%), Facebook Pixel (4%). Download the",
+      "url": "https://thehackernews.com/2026/01/new-research-64-of-3rd-party.html",
+      "source": "The Hacker News",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-01-14T16:30:00+05:30",
       "niche": "security",
-      "score": 67,
+      "score": 68,
+      "keywords": []
+    },
+    {
+      "id": "59379d1880febada",
+      "title": "Cloud marketplace Pax8 accidentally exposes data on 1,800 MSP partners",
+      "description": "Cloud marketplace and distributor Pax8 has confirmed that it mistakenly sent an email to fewer than 40 UK-based partners containing a spreadsheet with internal business information, including MSP customer and Microsoft licensing data. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/cloud-marketplace-pax8-accidentally-exposes-data-on-1-800-msp-partners/",
+      "source": "Bleeping Computer",
+      "author": "Ax Sharma",
+      "published": "2026-01-14T07:01:07-05:00",
+      "niche": "security",
+      "score": 68,
+      "keywords": []
+    },
+    {
+      "id": "a7c2722212853672",
+      "title": "Victorian Department of Education says hackers stole students’ data",
+      "description": "The Department of Education in Victoria, Australia, notified parents that attackers gained access to a database containing the personal information of current and former students. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/victorian-department-of-education-notifies-parents-of-data-breach/",
+      "source": "Bleeping Computer",
+      "author": "Sergiu Gatlan",
+      "published": "2026-01-14T06:44:56-05:00",
+      "niche": "security",
+      "score": 68,
       "keywords": [
-        "RCE"
+        "attack"
       ]
     },
     {
@@ -2252,18 +2152,6 @@
       ]
     },
     {
-      "id": "b3c4fe258a2f22eb",
-      "title": "Google Search AI hallucinations push Google to hire \"AI Answers Quality\" engineers",
-      "description": "AI, including AI Overviews on Google Search, can hallucinate and often make up stuff or offer contradicting answers when asked in two different ways. [...]",
-      "url": "https://www.bleepingcomputer.com/news/google/google-search-ai-hallucinations-push-google-to-hire-ai-answers-quality-engineers/",
-      "source": "Bleeping Computer",
-      "author": "Mayank Parmar",
-      "published": "2026-01-07T07:50:38-05:00",
-      "niche": "security",
-      "score": 64,
-      "keywords": []
-    },
-    {
       "id": "2d2641baecf410f3",
       "title": "Logitech Options+, G HUB macOS apps break after certificate expires",
       "description": "Logitech's Options+ and G Hub apps on macOS stopped working after their code-signing certificate expired, leaving users unable to launch them on Apple systems. [...]",
@@ -2444,6 +2332,18 @@
       "keywords": []
     },
     {
+      "id": "52e1f37810253e73",
+      "title": "Microsoft: Windows 365 update blocks access to Cloud PC sessions",
+      "description": "Microsoft confirmed that a recent Windows 365 update is blocking customers from accessing their Microsoft 365 Cloud PC sessions. [...]",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-365-update-blocks-access-to-cloud-pc-sessions/",
+      "source": "Bleeping Computer",
+      "author": "Sergiu Gatlan",
+      "published": "2026-01-14T04:55:06-05:00",
+      "niche": "security",
+      "score": 64,
+      "keywords": []
+    },
+    {
       "id": "02bec2f54f53a6c8",
       "title": "California bans data broker reselling health data of millions",
       "description": "The California Privacy Protection Agency (CalPrivacy) has taken action against the Datamasters marketing firm that sold the health and personal data of millions of users without being registered as a data broker. [...]",
@@ -2601,10 +2501,10 @@
       "niche": "security",
       "score": 61,
       "keywords": [
-        "secure",
+        "RCE",
         "OWASP",
         "security",
-        "RCE"
+        "secure"
       ]
     },
     {
@@ -2881,6 +2781,24 @@
       ]
     },
     {
+      "id": "3dcef518ef4652a2",
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "description": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2009-0556 Microsoft Office PowerPoint Code Injection Vulnerability CVE-2025-37164 HPE OneView Code Injection Vulnerability  These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.  Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vul",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/01/07/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "source": "CISA Cybersecurity Advisories",
+      "author": "CISA",
+      "published": "2026-01-07T12:00:00+00:00",
+      "niche": "security",
+      "score": 57,
+      "keywords": [
+        "attack",
+        "injection",
+        "vulnerability",
+        "exploit",
+        "CVE-"
+      ]
+    },
+    {
       "id": "33696f52d96301d8",
       "title": "Cybersecurity Firms Secured $14 Billion in Funding in 2025: Analysis",
       "description": "2025 was the strongest year for cybersecurity funding since the 2021 peak, according to Pinpoint Search Group. The post Cybersecurity Firms Secured $14 Billion in Funding in 2025: Analysis appeared first on SecurityWeek.",
@@ -2894,21 +2812,6 @@
         "secure",
         "cybersecurity",
         "security"
-      ]
-    },
-    {
-      "id": "b99b697df23cb1b4",
-      "title": "Lack of MFA Is Common Thread in Vast Cloud Credential Heist",
-      "description": "An emerging threat actor that goes by \"Zestix\" used an assortment of infostealers to obtain credentials and breach file-sharing instances of approximately 50 enterprises.",
-      "url": "https://www.darkreading.com/cloud-security/lack-mfa-common-thread-vast-cloud-credential-heist",
-      "source": "Dark Reading",
-      "author": "Elizabeth Montalbano, Contributing Writer",
-      "published": "2026-01-07T12:35:46+00:00",
-      "niche": "security",
-      "score": 56,
-      "keywords": [
-        "breach",
-        "threat"
       ]
     },
     {
@@ -3044,6 +2947,21 @@
       "keywords": [
         "RCE",
         "attack"
+      ]
+    },
+    {
+      "id": "e2285272759348ae",
+      "title": "Mercedes met le holà sur le Niveau 3 - Adieu la sieste au volant !",
+      "description": "Semaine de merde hein ? On nous promettait le futur, les mains dans les poches et le regard dans le vide, et là, patatras ! Mercedes vient de décider de mettre un gros coup de frein sur son fameux \"Drive Pilot\" de niveau 3. Pour ceux qui ne suivent pas tout ce bazar autour de la conduite autonome, sachez que le Niveau 3 (ou \"conduite automatisée conditionnelle\" pour les intimes), c’était la promesse de pouvoir lâcher le volant et SURTOUT de ne plus regarder la route quand on est coincé dans les ",
+      "url": "https://korben.info/mercedes-level-3-scrapped-humour-tesla-trash.html",
+      "source": "Korben",
+      "author": "Korben",
+      "published": "2026-01-14T10:33:25+01:00",
+      "niche": "security",
+      "score": 55,
+      "keywords": [
+        "RCE",
+        "PoC"
       ]
     },
     {
@@ -3226,38 +3144,10 @@
       "niche": "security",
       "score": 54,
       "keywords": [
-        "exploit",
         "vulnerability",
+        "attack",
         "CVE-",
-        "attack"
-      ]
-    },
-    {
-      "id": "1e892873db3a0788",
-      "title": "NotebookLM - Comment discuter avec vos experts préférés sans y passer des heures",
-      "description": "Bon, je ne vais pas vous refaire le topo sur NotebookLM , cet outil de Google qui permet de transformer un tas de sources différentes (PDF, YouTube, sites web, Google Docs...) en un assistant intelligent. Mais je voulais vous partager ma petite routine du moment parce que c'est devenu un game-changer complet dans ma manière d'apprendre des trucs. En gros, quand je tombe sur un expert, un mec qui a pondu des tonnes de contenus passionnants sur un sujet qui me branche, au lieu de me taper des heur",
-      "url": "https://korben.info/notebooklm-web-importer.html",
-      "source": "Korben",
-      "author": "Korben",
-      "published": "2026-01-07T12:55:06+01:00",
-      "niche": "security",
-      "score": 52,
-      "keywords": [
-        "RCE"
-      ]
-    },
-    {
-      "id": "ac3548918e8fd7e4",
-      "title": "HA-Animated-cards – 67 cartes animées pour pimper votre dashboard Home Assistant",
-      "description": "Après les thèmes sombres, après les cartes Mushroom, après les mini-graphs, voici les HA-Animated-cards ! Si vous avez un dashboard Home Assistant, vous connaissez forcement le syndrome du \"c'est fonctionnel mais c'est moche\". Des icônes statiques partout, des boutons qui ressemblent à des boutons de formulaire Windows 95... Bref, pas de quoi frimer devant les copains quand ils passent à la maison. Puis je suis tombé grâce à l'ami G1doot sur ce petit projet qui devrait vous plaire !",
-      "url": "https://korben.info/ha-animated-cards-home-assistant.html",
-      "source": "Korben",
-      "author": "Korben",
-      "published": "2026-01-07T10:42:36+01:00",
-      "niche": "security",
-      "score": 52,
-      "keywords": [
-        "RCE"
+        "exploit"
       ]
     },
     {
@@ -3558,6 +3448,23 @@
       ]
     },
     {
+      "id": "f7e1dfe61f34f965",
+      "title": "CrowdStrike to add browser security to Falcon with Seraphic acquisition",
+      "description": "CrowdStrike has agreed to acquire Israel-based Seraphic Security, a browser runtime security company, to extend its Falcon platform to browser-native enterprise security. Expected to close by April, the acquisition will allow CrowdStrike to integrate Seraphic’s browser-native protection with its Falcon endpoint telemetry and threat intelligence capabilities. The move comes just days after CrowdStrike announced plans to acquire SGNL, a continuous identity authorization company. Browser as attack ",
+      "url": "https://www.csoonline.com/article/4116703/crowdstrike-to-add-browser-security-to-falcon-with-seraphic-acquisition.html",
+      "source": "CSO Online",
+      "author": "Inconnu",
+      "published": "2026-01-14T12:02:13+00:00",
+      "niche": "security",
+      "score": 52,
+      "keywords": [
+        "threat",
+        "attack",
+        "security",
+        "protection"
+      ]
+    },
+    {
       "id": "fed6c49098400fb5",
       "title": "Top cyber threats to your AI systems and infrastructure",
       "description": "Attacks against AI systems and infrastructure are beginning to take shape in real-world instances, and security experts expect the number of these attack types will rise in coming years. In a rush to realize the benefits of AI, most organizations have played it fast and loose on security hardening when rolling out AI tools and use cases. As a result, experts also warn that many organizations aren’t prepared to detect, deflect, or respond to such attacks. “Most are aware of the possibility of suc",
@@ -3615,8 +3522,8 @@
       "niche": "security",
       "score": 51,
       "keywords": [
-        "disclosure",
         "vulnerability",
+        "disclosure",
         "patch"
       ]
     },
@@ -3631,9 +3538,9 @@
       "niche": "security",
       "score": 51,
       "keywords": [
-        "exploit",
+        "attack",
         "security",
-        "attack"
+        "exploit"
       ]
     },
     {
@@ -3775,6 +3682,20 @@
       ]
     },
     {
+      "id": "69b7c5e1b78fa88e",
+      "title": "WitnessAI Raises $58 Million for AI Security Platform",
+      "description": "The company will use the fresh investment to accelerate its global go-to-market and product expansion. The post WitnessAI Raises $58 Million for AI Security Platform appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/witnessai-raises-58-million-for-ai-security-platform/",
+      "source": "SecurityWeek",
+      "author": "Ionut Arghire",
+      "published": "2026-01-14T11:49:40+00:00",
+      "niche": "security",
+      "score": 50,
+      "keywords": [
+        "security"
+      ]
+    },
+    {
       "id": "559b7874623819f6",
       "title": "GISEC GLOBAL 2026 – The Middle East & Africa’s Largest Cybersecurity Event",
       "description": "",
@@ -3907,24 +3828,6 @@
       ]
     },
     {
-      "id": "80d5b2ee2aa44b41",
-      "title": "The Kimwolf Botnet is Stalking Your Local Network",
-      "description": "The story you are reading is a series of scoops nestled inside a far more urgent Internet-wide security advisory. The vulnerability at issue has been exploited for months already, and it's time for a broader awareness of the threat. The short version is that everything you thought you knew about the security of the internal network behind your Internet router probably is now dangerously out of date.",
-      "url": "https://krebsonsecurity.com/2026/01/the-kimwolf-botnet-is-stalking-your-local-network/",
-      "source": "Krebs on Security",
-      "author": "BrianKrebs",
-      "published": "2026-01-02T14:20:10+00:00",
-      "niche": "security",
-      "score": 49,
-      "keywords": [
-        "security",
-        "vulnerability",
-        "security advisory",
-        "threat",
-        "exploit"
-      ]
-    },
-    {
       "id": "821958b1ea96000f",
       "title": "China-linked groups intensify attacks on Taiwan’s critical infrastructure, NSB warns",
       "description": "Taiwan says China-linked cyberattacks on its energy sector rose tenfold in 2025, hitting critical infrastructure across nine sectors, with total incidents up 6%. Taiwan reports China-linked cyberattacks on its energy sector surged tenfold in 2025, targeting critical infrastructure across nine sectors, with total incidents up 6% YoY. Taiwan’s National Security Bureau (NSB) reports China launched [&#8230;]",
@@ -4054,8 +3957,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "exploit",
-        "PoC"
+        "PoC",
+        "exploit"
       ]
     },
     {
@@ -4069,8 +3972,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "exploit",
-        "threat"
+        "threat",
+        "exploit"
       ]
     },
     {
@@ -4084,8 +3987,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "exploit",
-        "attack"
+        "attack",
+        "exploit"
       ]
     },
     {
@@ -4216,17 +4119,18 @@
       ]
     },
     {
-      "id": "224d4d9f2e84668e",
-      "title": "Arbeiter - Le jeu de survie où votre pire ennemi est votre patron (et votre loyer)",
-      "description": "Vous en avez marre d'incarner des héros invincibles qui sauvent la galaxie avant le petit-déj et vous trouvez que votre vie n'est pas assez merdique ? Et bien, j'ai exactement ce qu'il vous faut ! Ça s'appelle Arbeiter , et c'est le genre de jeu qui va vous rappeler pourquoi vous aimez tant le week-end (ou pas). Développé par le studio Umigame Studios, ce petit bijou indé se présente comme un \"jeu de survie et de gestion\". Sauf qu'ici, on ne survit pas à des zombies ou à une apocalypse nucléaire",
-      "url": "https://korben.info/arbeiter-jeu-survie-travail.html",
-      "source": "Korben",
-      "author": "Korben",
-      "published": "2026-01-07T12:34:13+01:00",
+      "id": "8bb98a2c17d0ff7f",
+      "title": "Cybersecurity at the state and local level: Washington has the framework, it’s time to act",
+      "description": "The White House’s March 2025 Executive Order (EO) on “Achieving Efficiency Through State and Local Preparedness” raised an issue of utmost importance for national security and our critical infrastructure. As noted in the order, “federal policy must rightly recognize that preparedness is most effectively owned and managed at the state, local and even individual levels, supported by a competent, accessible and efficient federal government.” Despite claims from various cybersecurity leaders that th",
+      "url": "https://www.csoonline.com/article/4116303/cybersecurity-at-the-state-and-local-level-washington-has-the-framework-its-time-to-act.html",
+      "source": "CSO Online",
+      "author": "Inconnu",
+      "published": "2026-01-14T10:15:00+00:00",
       "niche": "security",
-      "score": 45,
+      "score": 46,
       "keywords": [
-        "PoC"
+        "cybersecurity",
+        "security"
       ]
     },
     {
@@ -4470,35 +4374,39 @@
       "niche": "security",
       "score": 43,
       "keywords": [
-        "secure",
+        "RCE",
         "OWASP",
         "security",
-        "RCE"
+        "secure"
       ]
     },
     {
-      "id": "b4f7357a4a0c99ed",
-      "title": "Slope Plus - Le retour du jeu qui va pulvériser votre productivité",
-      "description": "Vous vous souvenez de ces après-midi au CDI à essayer de battre le record de votre pote sur des jeux Flash, en priant pour que la documentaliste ne regarde pas votre écran ? Si vous avez connu cette époque bénie (ou si vous cherchez juste un moyen efficace de ruiner votre productivité du jour), j'ai ce qu'il vous faut. Ça s'appelle Slope Plus , et c'est une version modifiée (hackée) du célèbre jeu d'adresse qui a fait suer des générations de lycéens. Développé par un certain coweggs, ce jeu n'es",
-      "url": "https://korben.info/slope-plus-jeu-adresse-navigateur.html",
-      "source": "Korben",
-      "author": "Korben",
-      "published": "2026-01-07T13:25:40+01:00",
+      "id": "37bd717190134574",
+      "title": "Certifications et codes de conduite : la CNIL cartographie le déploiement des outils RGPD en Europe",
+      "description": "Pour faciliter l’identification des outils de conformité disponibles, la CNIL met en ligne deux cartes qui recensent les certifications et les codes de conduite approuvés par les autorités nationales ou par le comité européen de la protection des données (CEPD) depuis l’entrée en application du RGPD.",
+      "url": "https://www.cnil.fr/fr/cartes-deploiement-des-outils-rgpd-en-europe",
+      "source": "CNIL Actualités",
+      "author": "CNIL",
+      "published": "2026-01-14T13:00:00+01:00",
       "niche": "security",
-      "score": 42,
-      "keywords": []
+      "score": 43,
+      "keywords": [
+        "protection"
+      ]
     },
     {
-      "id": "3ae2f83e6b976ca4",
-      "title": "Logitech Options+ en vrac sur Mac - La boulette du certificat expiré",
-      "description": "Vous le savez, j'aime bien mon petit matos Logitech, surtout la gamme MX qui sauve pas mal de poignets de développeurs. Mais alors là, ce qui arrive aux utilisateurs de Mac, c'est hyper relou. Si vous avez essayé de lancer Logitech Options+ ce matin sur votre bécane à la pomme, vous avez sûrement eu droit à un message d'erreur bien sec de macOS vous expliquant que l'application ne peut pas être ouverte. Et non, c'est pas votre installation qui a sauté d'un coup sans prévenir.",
-      "url": "https://korben.info/logitech-options-mac-certificat-expire.html",
-      "source": "Korben",
-      "author": "Korben",
-      "published": "2026-01-07T13:08:30+01:00",
+      "id": "eb7cd10f424bfc8c",
+      "title": "Certifications et codes de conduite : la CNIL cartographie le déploiement des outils RGPD en Europe",
+      "description": "Pour faciliter l’identification des outils de conformité disponibles, la CNIL met en ligne deux cartes qui recensent les certifications et les codes de conduite approuvés par les autorités nationales ou par le comité européen de la protection des données (CEPD) depuis l’entrée en application du RGPD.",
+      "url": "https://www.cnil.fr/fr/la-cnil-cartographie-le-deploiement-des-outils-rgpd-en-europe",
+      "source": "CNIL Actualités",
+      "author": "CNIL",
+      "published": "2026-01-14T13:00:00+01:00",
       "niche": "security",
-      "score": 42,
-      "keywords": []
+      "score": 43,
+      "keywords": [
+        "protection"
+      ]
     },
     {
       "id": "a0c5e49113888797",
@@ -4969,38 +4877,6 @@
       "keywords": []
     },
     {
-      "id": "5bc955c52bc2b559",
-      "title": "Columbia Weather Systems MicroServer",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to redirect connections to an attacker controlled device, gain admin access to the web portal, or gain limited shell access. The following versions of Columbia Weather Systems MicroServer are affected: MicroServer firmware (CVE-2025-61939, CVE-2025-64305, CVE-2025-66620) CVSS Vendor Equipment Vulnerabilities v3 8.8 Columbia Weather Systems Columbia Weather Systems MicroServer Improper Restriction of Commun",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-006-01",
-      "source": "CISA Cybersecurity Advisories",
-      "author": "CISA",
-      "published": "2026-01-06T12:00:00+00:00",
-      "niche": "security",
-      "score": 42,
-      "keywords": [
-        "exploit",
-        "CVE-",
-        "attack"
-      ]
-    },
-    {
-      "id": "de39f9e791a6a5b6",
-      "title": "GSoC 2025 Recap",
-      "description": "OWASP at Google Summer of Code 2025 Celebrating real impact, strong mentorship, and a growing community The Google Summer of Code (GSoC) 2025 program has wrapped, and OWASP’s participation once again delivered meaningful improvements across the open-source security ecosystem. This year, 15 contributors worked across multiple OWASP projects, supported by 26 mentors. Of the 15 projects evaluated, 10 reached successful completion, three are still working on the final deliveries with extended deadli",
-      "url": "http://owasp.org/blog/2025/10/01/GSoCRecap.html",
-      "source": "OWASP News",
-      "author": "Fabio Cerullo & Starr Brown",
-      "published": "2025-10-01T07:00:00+00:00",
-      "niche": "security",
-      "score": 42,
-      "keywords": [
-        "OWASP",
-        "security",
-        "RCE"
-      ]
-    },
-    {
       "id": "c2f350f5d3ee6d04",
       "title": "Violation de données : sanction de 42 millions d’euros à l’encontre des sociétés FREE MOBILE et FREE",
       "description": "Le 13 janvier 2026, la CNIL a rendu deux décisions de sanction à l’encontre des sociétés FREE MOBILE et FREE, prononçant respectivement des amendes de 27&nbsp;et 15&nbsp;millions d’euros, compte tenu du caractère inadapté des mesures prises pour assurer la sécurité des données de leurs abonnés.",
@@ -5035,6 +4911,50 @@
       "niche": "security",
       "score": 42,
       "keywords": []
+    },
+    {
+      "id": "6b04e3c8386a1332",
+      "title": "Hackerangriff löst Fehlalarm in Halle aus",
+      "description": "Offenbar haben Cyberkriminelle einen Sirenenalarm in der Stadt Halle ausgelöst.rame435 – shutterstock.com In der Stadt Halle (Saale) ist es am Samstag (10. Januar) zu einem Fehlalarm gekommen. Gegen 22 Uhr heulten alle betriebsfähigen Sirenen auf, begleitet von einer englischsprachigen Durchsage: “Active shooter. Lockdown now” (Bewaffneter Angreifer aktiv. Sofortiger Lockdown). Wie die Stadtverwaltung mitteilte, handelt es sich bei der Ursache nach aktuellen Kenntnissen höchstwahrscheinlich um e",
+      "url": "https://www.csoonline.com/article/4116654/hackerangriff-lost-fehlalarm-in-halle-aus.html",
+      "source": "CSO Online",
+      "author": "Inconnu",
+      "published": "2026-01-14T10:57:30+00:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "5bc955c52bc2b559",
+      "title": "Columbia Weather Systems MicroServer",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to redirect connections to an attacker controlled device, gain admin access to the web portal, or gain limited shell access. The following versions of Columbia Weather Systems MicroServer are affected: MicroServer firmware (CVE-2025-61939, CVE-2025-64305, CVE-2025-66620) CVSS Vendor Equipment Vulnerabilities v3 8.8 Columbia Weather Systems Columbia Weather Systems MicroServer Improper Restriction of Commun",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-006-01",
+      "source": "CISA Cybersecurity Advisories",
+      "author": "CISA",
+      "published": "2026-01-06T12:00:00+00:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": [
+        "attack",
+        "CVE-",
+        "exploit"
+      ]
+    },
+    {
+      "id": "de39f9e791a6a5b6",
+      "title": "GSoC 2025 Recap",
+      "description": "OWASP at Google Summer of Code 2025 Celebrating real impact, strong mentorship, and a growing community The Google Summer of Code (GSoC) 2025 program has wrapped, and OWASP’s participation once again delivered meaningful improvements across the open-source security ecosystem. This year, 15 contributors worked across multiple OWASP projects, supported by 26 mentors. Of the 15 projects evaluated, 10 reached successful completion, three are still working on the final deliveries with extended deadli",
+      "url": "http://owasp.org/blog/2025/10/01/GSoCRecap.html",
+      "source": "OWASP News",
+      "author": "Fabio Cerullo & Starr Brown",
+      "published": "2025-10-01T07:00:00+00:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": [
+        "RCE",
+        "OWASP",
+        "security"
+      ]
     },
     {
       "id": "51966c882a710a3a",
@@ -5220,10 +5140,10 @@
       "niche": "security",
       "score": 38,
       "keywords": [
-        "exploit",
-        "ransomware",
+        "attack",
         "security",
-        "attack"
+        "ransomware",
+        "exploit"
       ]
     },
     {
@@ -5237,8 +5157,8 @@
       "niche": "security",
       "score": 38,
       "keywords": [
-        "OWASP",
-        "RCE"
+        "RCE",
+        "OWASP"
       ]
     },
     {
@@ -5312,10 +5232,10 @@
       "niche": "security",
       "score": 37,
       "keywords": [
-        "web application security",
+        "threat",
         "OWASP",
         "security",
-        "threat"
+        "web application security"
       ]
     },
     {
@@ -5355,10 +5275,10 @@
       "niche": "security",
       "score": 34,
       "keywords": [
-        "cybersecurity",
+        "threat",
         "OWASP",
         "security",
-        "threat"
+        "cybersecurity"
       ]
     },
     {
@@ -5416,21 +5336,6 @@
       ]
     },
     {
-      "id": "ec0fc13b2d59bbf0",
-      "title": "SMS Phishers Pivot to Points, Taxes, Fake Retailers",
-      "description": "China-based phishing groups blamed for non-stop scam SMS messages about a supposed wayward package or unpaid toll fee are promoting a new offering, just in time for the holiday shopping season: Phishing kits for mass-creating fake but convincing e-commerce websites that convert customer payment card data into mobile wallets from Apple and Google. Experts say these same phishing groups also are now using SMS lures that promise unclaimed tax refunds and mobile rewards points.",
-      "url": "https://krebsonsecurity.com/2025/12/sms-phishers-pivot-to-points-taxes-fake-retailers/",
-      "source": "Krebs on Security",
-      "author": "BrianKrebs",
-      "published": "2025-12-04T23:02:34+00:00",
-      "niche": "security",
-      "score": 30,
-      "keywords": [
-        "RCE",
-        "phishing"
-      ]
-    },
-    {
       "id": "e3ba557b7fe40f12",
       "title": "CISA Releases Two Industrial Control Systems Advisories",
       "description": "CISA released two Industrial Control Systems (ICS) Advisories. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS.  ICSA-25-364-01: WHILL C2 Wheelchairs ICSA-25-345-03: AzeoTech DAQFactory (Update A)  CISA encourages users and administrators to review newly released ICS Advisories for technical details and mitigations.",
@@ -5441,8 +5346,8 @@
       "niche": "security",
       "score": 30,
       "keywords": [
-        "exploit",
-        "security"
+        "security",
+        "exploit"
       ]
     },
     {
@@ -5644,22 +5549,6 @@
       ]
     },
     {
-      "id": "cc6226fa85b6afcc",
-      "title": "Dismantling Defenses: Trump 2.0 Cyber Year in Review",
-      "description": "The Trump administration has pursued a staggering range of policy pivots this past year that threaten to weaken the nation’s ability and willingness to address a broad spectrum of technology challenges, from cybersecurity and privacy to countering disinformation, fraud and corruption. These shifts, along with the president’s efforts to restrict free speech and freedom of the press, have come at such a rapid clip that many readers probably aren’t even aware of them all.",
-      "url": "https://krebsonsecurity.com/2025/12/dismantling-defenses-trump-2-0-cyber-year-in-review/",
-      "source": "Krebs on Security",
-      "author": "BrianKrebs",
-      "published": "2025-12-19T15:14:55+00:00",
-      "niche": "security",
-      "score": 22,
-      "keywords": [
-        "cybersecurity",
-        "security",
-        "threat"
-      ]
-    },
-    {
       "id": "c147191fa1994949",
       "title": "Le règlement sur les données (Data Act) : un nouveau cadre européen pour le partage et l’utilisation des données",
       "description": "Le règlement sur les données établit un cadre européen pour organiser le partage et l’utilisation des données des objets connectés. Il renforce les droits des utilisateurs et crée de nouvelles obligations pour les acteurs concernés. La CNIL présente son rôle et les nouvelles règles applicables.",
@@ -5741,50 +5630,8 @@
       "score": 19,
       "keywords": [
         "cybersecurity",
-        "PoC",
-        "security"
-      ]
-    },
-    {
-      "id": "2523054243443639",
-      "title": "Happy 16th Birthday, KrebsOnSecurity.com!",
-      "description": "KrebsOnSecurity.com celebrates its 16th anniversary today! A huge \"thank you\" to all of our readers -- newcomers, long-timers and drive-by critics alike. Your engagement this past year here has been tremendous and truly a salve on a handful of dark days. Happily, comeuppance was a strong theme running through our coverage in 2025, with a primary focus on entities that enabled complex and globally-dispersed cybercrime services.",
-      "url": "https://krebsonsecurity.com/2025/12/happy-16th-birthday-krebsonsecurity-com/",
-      "source": "Krebs on Security",
-      "author": "BrianKrebs",
-      "published": "2025-12-29T20:23:26+00:00",
-      "niche": "security",
-      "score": 18,
-      "keywords": [
-        "security"
-      ]
-    },
-    {
-      "id": "3fe3261ba405144f",
-      "title": "Most Parked Domains Now Serving Malicious Content",
-      "description": "Direct navigation -- the act of visiting a website by manually typing a domain name in a web browser -- has never been riskier: A new study finds the vast majority of \"parked\" domains -- mostly expired or dormant domain names, or common misspellings of popular websites -- are now configured to redirect visitors to sites that foist scams and malware.",
-      "url": "https://krebsonsecurity.com/2025/12/most-parked-domains-now-serving-malicious-content/",
-      "source": "Krebs on Security",
-      "author": "BrianKrebs",
-      "published": "2025-12-16T14:14:48+00:00",
-      "niche": "security",
-      "score": 18,
-      "keywords": [
-        "malware"
-      ]
-    },
-    {
-      "id": "f3d74341ccf7906d",
-      "title": "Meet Rey, the Admin of ‘Scattered Lapsus$ Hunters’",
-      "description": "A prolific cybercriminal group that calls itself \"Scattered LAPSUS$ Hunters\" made headlines regularly this year by stealing data from and publicly mass extorting dozens of major corporations. But the tables seem to have turned somewhat for \"Rey,\" the moniker chosen by the technical operator and public face of the hacker group: Earlier this week, Rey confirmed his real life identity and agreed to an interview after KrebsOnSecurity tracked him down and contacted his father.",
-      "url": "https://krebsonsecurity.com/2025/11/meet-rey-the-admin-of-scattered-lapsus-hunters/",
-      "source": "Krebs on Security",
-      "author": "BrianKrebs",
-      "published": "2025-11-26T17:22:36+00:00",
-      "niche": "security",
-      "score": 18,
-      "keywords": [
-        "security"
+        "security",
+        "PoC"
       ]
     },
     {
@@ -5798,8 +5645,8 @@
       "niche": "security",
       "score": 18,
       "keywords": [
-        "malware",
-        "security"
+        "security",
+        "malware"
       ]
     },
     {
@@ -5885,18 +5732,6 @@
       "keywords": [
         "security"
       ]
-    },
-    {
-      "id": "87dbc9b73ce290e7",
-      "title": "Drones to Diplomas: How Russia’s Largest Private University is Linked to a $25M Essay Mill",
-      "description": "A sprawling academic cheating network turbocharged by Google Ads that has generated nearly $25 million in revenue has curious connections to a Kremlin-connected oligarch whose Russian university builds drones for Russia's war against Ukraine.",
-      "url": "https://krebsonsecurity.com/2025/12/drones-to-diplomas-how-russias-largest-private-university-is-linked-to-a-25m-essay-mill/",
-      "source": "Krebs on Security",
-      "author": "BrianKrebs",
-      "published": "2025-12-06T14:45:03+00:00",
-      "niche": "security",
-      "score": 14,
-      "keywords": []
     },
     {
       "id": "3a267ea188b41a9d",
@@ -6077,20 +5912,6 @@
       ]
     },
     {
-      "id": "663b4912dada86d3",
-      "title": "La CNIL à Nantes pour sensibiliser à la protection des données personnelles",
-      "description": "Les 9, 10 et 12 décembre, dans le cadre de la journée RGPD à Nantes, la CNIL a rencontré des élèves, médiateurs numériques et agents de la métropole. Au programme&nbsp;: des temps d’échange et de sensibilisation sur des pratiques numériques protectrices et responsables.",
-      "url": "https://www.cnil.fr/fr/la-cnil-nantes-pour-sensibiliser-la-protection-des-donnees-personnelles",
-      "source": "CNIL Actualités",
-      "author": "CNIL",
-      "published": "2025-12-22T13:00:00+01:00",
-      "niche": "security",
-      "score": 13,
-      "keywords": [
-        "protection"
-      ]
-    },
-    {
       "id": "87b4e7f40f9aa67b",
       "title": "The AI Fix #82: Santa Claus doesn’t exist (according to AI)",
       "description": "Is Santa Claus real? This Christmas special of The AI Fix podcast sets out to answer that question in the most sensible way possible: by consulting chatbots, Google's festive killjoys, and the laws of relativistic physics. Your hosts unwrap a festive grab-bag of AI absurdity as Waymo self-driving taxis run over a beloved San Francisco cat, then stage several fresh PR disasters by refusing to cross bridges, block holiday parades, and apparently chauffeur a man hiding in the trunk. Meanwhile, Micr",
@@ -6160,18 +5981,6 @@
       "source": "CNIL Actualités",
       "author": "CNIL",
       "published": "2025-12-24T13:00:00+01:00",
-      "niche": "security",
-      "score": 12,
-      "keywords": []
-    },
-    {
-      "id": "9d059ad5424cc0af",
-      "title": "Violation de données : sanction d’un million d’euros à l’encontre de la société MOBIUS SOLUTIONS LTD",
-      "description": "Le 11 décembre 2025, la CNIL a sanctionné MOBIUS SOLUTIONS LTD, sous-traitant à l’origine d’une violation de données des utilisateurs de la société DEEZER. Une amende d’un million d’euros lui est infligée pour non-respect de règles applicables en matière de sous-traitance.",
-      "url": "https://www.cnil.fr/fr/violation-de-donnees-sanction-dun-million-deuros-lencontre-de-la-societe-mobius-solutions-ltd",
-      "source": "CNIL Actualités",
-      "author": "CNIL",
-      "published": "2025-12-19T13:00:00+01:00",
       "niche": "security",
       "score": 12,
       "keywords": []
