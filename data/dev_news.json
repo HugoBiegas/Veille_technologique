@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-14T04:12:11.528519+00:00",
-  "total_articles": 970,
+  "last_updated": "2026-01-14T06:41:48.824909+00:00",
+  "total_articles": 973,
   "articles": [
     {
       "id": "b8e7c86fc5b22a35",
@@ -352,16 +352,19 @@
       ]
     },
     {
-      "id": "840cf067dc659525",
-      "title": "React Native Linking: The Simple Guide to Protocols",
-      "description": "In React Native, the Linking module is the built-in interface used to interact with both incoming and outgoing app links. It allows you to open external URLs (like websites) or trigger system-level actions (like making a phone call or sending an email) using specific URL Schemes. Understanding URL Schemes (Protocols) Every link you interact with has a Scheme (the part before the ://). Your phone’s operating system uses this scheme to decide which app should handle the request. 2.Core Methods: op",
-      "url": "https://dev.to/abdullah_nasir/react-native-linking-the-simple-guide-to-protocols-2lob",
-      "source": "Dev.to",
-      "author": "Abdullah Nasir",
-      "published": "2026-01-07T06:35:53+00:00",
+      "id": "16a4cf6ead77e824",
+      "title": "Show HN: Cachekit – High performance caching policies library in Rust",
+      "description": "Comments",
+      "url": "https://github.com/OxidizeLabs/cachekit",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-14T02:28:52+00:00",
       "niche": "dev",
-      "score": 68,
-      "keywords": []
+      "score": 69,
+      "keywords": [
+        "library",
+        "performance"
+      ]
     },
     {
       "id": "0489325021787e84",
@@ -1159,6 +1162,38 @@
       ]
     },
     {
+      "id": "fa3889f1f59bb8d8",
+      "title": "Building a Type-Safe REST API Client with TypeScript Discriminated Unions",
+      "description": "Building a Type-Safe REST API Client with TypeScript Discriminated Unions The Problem: Type Safety Breaks at API Boundaries If you've worked with TypeScript and REST APIs, you've probably written code like this: async function fetchPosts() { const response = await fetch('/api/posts'); const data = await response.json(); // ❌ Type: any return data; } onst posts = await fetchPosts(); console.log(posts[0].titl); // Typo! Runtime error 💥 The moment you call response.json(), you lose all type safety.",
+      "url": "https://dev.to/abdullah_tariq_02c405b9c5/building-a-type-safe-rest-api-client-with-typescript-discriminated-unions-5098",
+      "source": "Dev.to",
+      "author": "Abdullah Tariq",
+      "published": "2026-01-14T06:32:21+00:00",
+      "niche": "dev",
+      "score": 58,
+      "keywords": [
+        "code",
+        "API",
+        "REST API"
+      ]
+    },
+    {
+      "id": "abf5d8c0152ec6a4",
+      "title": "Headless vs. Real Browser Testing: The Strategic Guide for Modern QA Teams",
+      "description": "In the fast-paced world of software development, the choice between headless and real browser testing is more than a technical decision - it's a strategic one that impacts your release velocity, product quality, and team efficiency. Each method serves a distinct purpose in the testing lifecycle, and understanding their nuanced strengths and limitations is crucial for any QA professional or development lead. Drawing from years of scaling automated testing frameworks, I've seen teams thrive by str",
+      "url": "https://dev.to/matt_calder_e620d84cf0c14/headless-vs-real-browser-testing-the-strategic-guide-for-modern-qa-teams-ea4",
+      "source": "Dev.to",
+      "author": "Matt Calder",
+      "published": "2026-01-14T06:08:33+00:00",
+      "niche": "dev",
+      "score": 58,
+      "keywords": [
+        "framework",
+        "release",
+        "development"
+      ]
+    },
+    {
       "id": "f73b43a697e8c44b",
       "title": "Choisir le bon framework, la bonne librairie JavaScript : un guide pratique pour chaque type de projet",
       "description": "Tu hésites entre React, Vue, Angular ou Remix ? Ne choisis pas à l’aveugle ! Ce guide dévoile le framework JavaScript vraiment adapté à ton projet. Comparatifs explosifs, perfs, sécurité, tests… Spoiler : le meilleur n’est pas toujours celui que tu crois 👀",
@@ -1354,6 +1389,21 @@
       ]
     },
     {
+      "id": "2378b59c9d3e21c5",
+      "title": "Understanding the RAM Model of Computation",
+      "description": "Ever wondered how computer scientists analyze algorithms without worrying about whether you're running on an M1 Mac, an Intel server, or a Raspberry Pi? The answer lies in the Random Access Machine (RAM) model—a theoretical framework that abstracts away hardware details while still giving us accurate predictions about algorithm performance. What is the RAM Model? The Random Access Machine is an idealized model of how computers work. Think of it as a simplified blueprint that captures the essenti",
+      "url": "https://dev.to/ali_algmass/understanding-the-ram-model-of-computation-224p",
+      "source": "Dev.to",
+      "author": "ali ehab algmass",
+      "published": "2026-01-14T06:21:25+00:00",
+      "niche": "dev",
+      "score": 57,
+      "keywords": [
+        "framework",
+        "performance"
+      ]
+    },
+    {
       "id": "e52b8c1593d3ad45",
       "title": "Get Job at Javascript gets harder? You might need to learn the \"Enterprise\" Stack.",
       "description": "so here's the thing..... you've been grinding leetcode, building todo apps, maybe even deployed a full stack project with Node.js and Express. mass applying to jobs. refreshing linkedin every 5 minutes. and then..... nothing. meanwhile, you keep scrolling past those \"Java Spring Boot Developer\" positions thinking \"nah thats boomer tech\" right? yeah... about that. the job market reality check look, i get it. when you started learning to code, everyone told you \"learn javascript, its everywhere\". ",
@@ -1508,36 +1558,6 @@
       "niche": "dev",
       "score": 56,
       "keywords": []
-    },
-    {
-      "id": "992f35c7215fbe03",
-      "title": "Introduction to Agentic Adventures of MoonBit",
-      "description": "Motivation Inspired by Anil Madhavapeddy's Agentic Adventures, this project explores what it's like to build practical libraries in MoonBit with AI assistance. MoonBit is a modern programming language designed for cloud computing and AI coding. Goals Build useful libraries - Each entry will document the creation of a practical MoonBit library. Explore AI-assisted workflows - Document how agentic programming integrates with MoonBit's toolchain. Share learnings - Be transparent about what works, w",
-      "url": "https://dev.to/milky2018/introduction-to-agentic-adventures-of-moonbit-1pgi",
-      "source": "Dev.to",
-      "author": "Milky",
-      "published": "2026-01-07T06:30:49+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "library",
-        "programming"
-      ]
-    },
-    {
-      "id": "5179e98ad5323a5d",
-      "title": "Python Multi-Currency Quantitative Strategy Framework: Design Concepts and Implementation Details",
-      "description": "Introduction Recently, users have left comments in Teacher Xiaocao's article \"How to Quickly Build Universal Multi-Currency Trading Strategies After FMZ Upgrade\" requesting a Python implementation version of that strategy framework. To meet the needs of Python developers, this article will build upon Teacher Xiaocao's original concepts and provide detailed explanations of how to construct a universal multi-currency quantitative trading framework, combined with Binance simulation trading environm",
-      "url": "https://dev.to/chronosquant/python-multi-currency-quantitative-strategy-framework-design-concepts-and-implementation-details-53eo",
-      "source": "Dev.to",
-      "author": "fmzquant",
-      "published": "2026-01-07T06:09:33+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "framework",
-        "developer"
-      ]
     },
     {
       "id": "851a84afa845c404",
@@ -2062,20 +2082,6 @@
       "keywords": [
         "tutorial",
         "library"
-      ]
-    },
-    {
-      "id": "51fece0519715b4c",
-      "title": "Why a Modern Master Test Plan is Your Team’s Secret Weapon",
-      "description": "In my QA experience, I believe what a project should have to succeed is \"alignment.\" When people hear “Master Test Plan,” they often imagine a dry, static and templated document. In reality, a well-written test plan is a living strategy that helps teams move faster, especially during the high-pressure days before release. It’s not about checking a box for compliance; it’s about making sure everyone from the Junior Dev to the Product Manager is looking at the same map. Here is how a senior-level ",
-      "url": "https://dev.to/nishikr/why-a-modern-master-test-plan-is-your-teams-secret-weapon-1noj",
-      "source": "Dev.to",
-      "author": "Nishanth Kr",
-      "published": "2026-01-07T06:12:20+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "release"
       ]
     },
     {
@@ -3396,62 +3402,6 @@
       "score": 52,
       "keywords": [
         "development",
-        "code"
-      ]
-    },
-    {
-      "id": "fcc24f0d9f2a2e19",
-      "title": "AAoM-01: Pug Template Engine",
-      "description": "December 2025 Let's kick off the Agentic Adventures of MoonBit series with a complete Pug template engine. I'm using Claude Code (Opus 4.5) with the MoonBit system prompt and IDE skill. The workflow is simple: I describe what I want, Claude writes the code, and I review and refine. Claude excels at bootstrapping MoonBit projects with moon new, understanding the package structure (moon.mod.json, moon.pkg.json), and generating idiomatic code after a few iterations. Problem HTML is verbose. Writing",
-      "url": "https://dev.to/milky2018/aaom-01-pug-template-engine-11ka",
-      "source": "Dev.to",
-      "author": "Milky",
-      "published": "2026-01-07T06:33:59+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "5ffd83f6ed58be9c",
-      "title": "C# win Tiobe Programming Language of the Year 2025🚀",
-      "description": "C# saw the largest increase in ranking in the index year over year, while Java held steady, C and C++ swapped positions, R and Perl rose, and Go and Ruby faded, Python slipped slightly year over year. For the second time in three years, C# has been named Programming Language of the Year by the TIOBE Index. C# earned this distinction by achieving the largest year-over-year increase in ranking. Over the years, the language has undergone fundamental changes. From a language-design perspective, C# h",
-      "url": "https://dev.to/arashzandi/c-win-tiobe-programming-language-of-the-year-2025-3ppo",
-      "source": "Dev.to",
-      "author": "Arash zandi",
-      "published": "2026-01-07T06:23:59+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "programming"
-      ]
-    },
-    {
-      "id": "9bd69ef6b5d8cc27",
-      "title": "How to Tell If a Video Is AI Generated: A Technical and Practical Guide",
-      "description": "As AI-generated video becomes more realistic, developers, engineers, and technical teams are increasingly asked a difficult question: How can you tell if a video is AI generated? There is no single reliable signal. Modern AI video systems are capable of producing high-resolution footage with convincing facial motion, accurate lip synchronization, and realistic lighting. As a result, detection has shifted from spotting obvious artifacts to analyzing patterns, inconsistencies, and system-level lim",
-      "url": "https://dev.to/herman99630/how-to-tell-if-a-video-is-ai-generated-a-technical-and-practical-guide-34mj",
-      "source": "Dev.to",
-      "author": "Herman_Sun",
-      "published": "2026-01-07T06:23:49+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "developer"
-      ]
-    },
-    {
-      "id": "8a43f9a90052b299",
-      "title": "Day 1: The Array Lie (Arrays vs Pointers in C)",
-      "description": "Today marks Day 1 of my 30-Day Coding Challenge to master C internals, Algorithms, and Database design. Why am I doing this? In a world of AI and high-level abstractions, understanding how memory works under the hood is what separates a coder from an engineer. I want to build that foundational strength. Today's Concept: The Array Lie; We often think of arrays as rigid lists. In C, the variable name of an array is actually just a pointer to the first element. As shown in the snippet, numbers[1] i",
-      "url": "https://dev.to/ujjawal0711/day-1-the-array-lie-arrays-vs-pointers-in-c-1c89",
-      "source": "Dev.to",
-      "author": "Ujjawal Chaudhary",
-      "published": "2026-01-07T06:05:19+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
         "code"
       ]
     },
@@ -4954,28 +4904,46 @@
       ]
     },
     {
-      "id": "0fae794c62d764f0",
-      "title": "AI Cost Management: Turning the Financial Ghost into a Wish-Granting Genie",
-      "description": "AI Cost Management: Is Your AI a Ghost or a Genie? It always begins with good intent. A Founder or CIO decides to test the waters of innovation. “Let’s try AI for this one specific use case,” they say. “Nothing big, just a small experiment to see the ROI.” One team signs up quietly. Then another. Soon, the excitement of generative tools spreads like wildfire. Before you know it, everyone has access—different departments, different third-party tools, and thousands of different prompts. But there ",
-      "url": "https://dev.to/yaseen_tech/ai-cost-management-turning-the-financial-ghost-into-a-wish-granting-genie-gng",
+      "id": "df1a6ce5fa78c235",
+      "title": "Ethical AI Is Not a Feature — It’s an Architectural Decision",
+      "description": "Why trust, safety, and calm systems must be designed at the infrastructure level. Ethical AI Is Not a Feature — It’s an Architectural Decision In software development, we understand one thing very clearly: You can’t patch architecture problems with features. Yet when it comes to AI ethics, we often try to do exactly that. We add policies. We add guidelines. We add disclaimers. And then we’re surprised when trust still collapses. Ethics Fails Where Architecture Fails Most ethical breakdowns in di",
+      "url": "https://dev.to/dhianarinofa/ethical-ai-is-not-a-feature-its-an-architectural-decision-13jm",
       "source": "Dev.to",
-      "author": "Yaseen",
-      "published": "2026-01-07T06:27:37+00:00",
+      "author": "Dhian Arinofa",
+      "published": "2026-01-14T06:29:24+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "development"
+      ]
     },
     {
-      "id": "21a90e7083b97c83",
-      "title": "Claude-Ally-Health: Your Private AI Medical Assistant & Health Data Manager",
-      "description": "In an era where personal health data is often scattered across physical paper reports, various hospital apps, and mental notes, keeping a cohesive medical history is a challenge. Enter Claude-Ally-Health, an open-source project that leverages the power of Claude AI to create a private, intelligent, and file-based Personal Health Information System (PHIS). In this post, we'll explore what makes this tool unique, how it works, and why it might be the perfect solution for privacy-conscious develope",
-      "url": "https://dev.to/beck_moulton/claude-ally-health-your-private-ai-medical-assistant-health-data-manager-17gd",
+      "id": "bc2c21cf681927a6",
+      "title": "Claude Code Plugin CLI: The Missing Manual",
+      "description": "Claude Code for me is like a best friend at work, I use it in my daily coding work, and non coding tasks, like sorting supplier invoices, summarizing account payables, though I always verify its output, the productivity gains are huge. More and more I find myself relying on Claude Code plugins (skills, hooks, commands, etc). Commonly, I would write these myself partly as a learning exercise as it gets you thinking about the underlying mechanics of Claude Code, but also because I have specific ne",
+      "url": "https://dev.to/garyj/claude-code-plugin-cli-the-missing-manual-40nf",
       "source": "Dev.to",
-      "author": "Beck_Moulton",
-      "published": "2026-01-07T06:21:55+00:00",
+      "author": "Gary Jarrel",
+      "published": "2026-01-14T06:25:51+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
+    },
+    {
+      "id": "2cd706b886bded2a",
+      "title": "Inside Git: How It Works and the Role of the .git Folder",
+      "description": "For many developers, Git feels like a magical incantation. We type git add . followed by git commit -m \"fixed stuff\", push it to a remote server, and hope for the best. When it works, it’s fantastic. When it breaks, it feels like trying to defuse a bomb while blindfolded. The key to moving from blind memorization to true mastery lies in understanding what happens beneath the surface. Git isn't just a list of commands; it is a beautifully designed system for managing information. By peeling back ",
+      "url": "https://dev.to/anoop-rajoriya/inside-git-how-it-works-and-the-role-of-the-git-folder-3d2b",
+      "source": "Dev.to",
+      "author": "Anoop Rajoriya",
+      "published": "2026-01-14T06:09:29+00:00",
+      "niche": "dev",
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
       "id": "f366f40d4d5e3bc1",
@@ -7954,6 +7922,54 @@
       "keywords": []
     },
     {
+      "id": "d5f57f717fe63949",
+      "title": "Proyecto Weather Service (Parte 3): Prediciendo el Futuro con IA y OpenWeatherMap",
+      "description": "En la primera parte de esta serie, establecimos la columna vertebral de nuestro servicio meteorológico global, recolectando datos brutos utilizando Python y GitHub Actions. Luego, en la Parte 2, transformamos esos datos en un hermoso dashboard interactivo, aprovechando GitHub Pages/Netlify, JavaScript, PapaParse.js y Chart.js. Ahora, es el momento del gran final: añadir capacidad predictiva a nuestro Weather Service. Exploraremos cómo aumentar nuestra visualización de datos históricos con pronós",
+      "url": "https://dev.to/datalaria/proyecto-weather-service-parte-3-prediciendo-el-futuro-con-ia-y-openweathermap-19kb",
+      "source": "Dev.to",
+      "author": "Daniel",
+      "published": "2026-01-14T06:34:32+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "8fa7a561e87c1af5",
+      "title": "I Open-Sourced a Tool to Detect Weak JWT Secrets 🔐",
+      "description": "JWT (JSON Web Token) is everywhere. And unfortunately, so are weak JWT secrets. During security reviews and side projects, I kept seeing the same pattern: applications using guessable HMAC secrets like secret, password, or environment defaults — especially with HS256. So I built and open-sourced a small CLI tool to help detect this issue. 👉 GitHub Repo: https://github.com/huang-hub/jwt-secret-checker Why Weak JWT Secrets Are Dangerous If a JWT uses an HMAC-based algorithm (HS256, HS384, HS512), ",
+      "url": "https://dev.to/girff/i-open-sourced-a-tool-to-detect-weak-jwt-secrets-4j71",
+      "source": "Dev.to",
+      "author": "Girff",
+      "published": "2026-01-14T06:29:04+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "686d34cd8206f196",
+      "title": "CES 2026: My top 5 picks!",
+      "description": "#ces #ces2026 #techtrends | Jigyasa Grover CES 2026 just wrapped up ... and I can't stop thinking about how the timeline between \"impossible\" →← \"shipping next quarter\" is just collapsing! Here are the top 5 things that caught my fancy 🤩 • the LEGO Group bricks that react to how you play with them. Chips smaller than a stud + built-in sensors. Swing a lightsaber & it hums in real-time. No app, no screen. Just intelligent physical play. • Paper batteries already in production w Logitech & Amazon.",
+      "url": "https://dev.to/jigyasagrover/ces-2026-my-top-5-picks-lf4",
+      "source": "Dev.to",
+      "author": "Jigyasa Grover",
+      "published": "2026-01-14T06:13:02+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "3d2ce99bc5f0bbd3",
+      "title": "The Ultimate Guide to Shopify Cart Debugging: How to Save Hours with Shopify Theme Devtools Cart Panel",
+      "description": "TL;DR: Stop console.logging your cart state. Shopify Theme Devtools gives you a visual cart inspector, history tracking, test automation, and scenario management—all in your browser while developing themes. Introduction: Why Cart Debugging is Painful If you've developed Shopify themes, you know the pain: Manually adding products to test cart states Using console.log({{ cart | json }}) to debug Rebuilding complex carts after every page refresh No way to test edge cases like gift-with-purchase ite",
+      "url": "https://dev.to/yakohere/the-ultimate-guide-to-shopify-cart-debugging-how-to-save-hours-with-shopify-theme-devtools-cart-1f70",
+      "source": "Dev.to",
+      "author": "Yakhyo Ismoildjonov",
+      "published": "2026-01-14T06:12:54+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "6b078f8a0818c9b2",
       "title": "Cool Article on API Tools!! https://medium.com/@somendradev23/10-api-tools-every-full-stack-developer-should-know-6f9af40ae0ec",
       "description": "medium.com",
@@ -8095,18 +8111,6 @@
       "keywords": [
         "performance"
       ]
-    },
-    {
-      "id": "2bdf28c6a50c498f",
-      "title": "You need quality engineers to turn AI into ROI",
-      "description": "Pete Johnson, Field CTO, Artificial Intelligence at MongoDB, joins the podcast to say that looking at AI’s impact as a job killer is a flawed metric.",
-      "url": "https://stackoverflow.blog/2026/01/07/you-need-quality-engineers-to-turn-ai-into-roi/",
-      "source": "Stack Overflow Blog",
-      "author": "Ryan Donovan",
-      "published": "2026-01-07T05:40:00+00:00",
-      "niche": "dev",
-      "score": 46,
-      "keywords": []
     },
     {
       "id": "031fb84d44878e31",
@@ -8358,6 +8362,20 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2026-01-14T00:17:19+00:00",
+      "niche": "dev",
+      "score": 45,
+      "keywords": [
+        "programming"
+      ]
+    },
+    {
+      "id": "a5a592964449b216",
+      "title": "The Gleam Programming Language",
+      "description": "Comments",
+      "url": "https://gleam.run/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-14T02:49:25+00:00",
       "niche": "dev",
       "score": 45,
       "keywords": [
@@ -10129,6 +10147,18 @@
       "keywords": []
     },
     {
+      "id": "6342190a69e8a88f",
+      "title": "1000 Blank White Cards",
+      "description": "Comments",
+      "url": "https://en.wikipedia.org/wiki/1000_Blank_White_Cards",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-14T03:08:37+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "9507e2cf68c6c137",
       "title": "Infinite Canvas: Building a Seamless, Pan-Anywhere Image Space",
       "description": "Learn how to build an infinite, pannable image canvas with React Three Fiber. We’ll use chunk-based rendering and performance-first techniques to create a smooth, endlessly explorable image space.",
@@ -10849,11 +10879,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "API",
-        "release",
-        "framework",
         "code",
-        "performance"
+        "API",
+        "performance",
+        "framework",
+        "release"
       ]
     },
     {
@@ -11186,8 +11216,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "framework"
+        "framework",
+        "release"
       ]
     },
     {
@@ -11201,8 +11231,8 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "development",
         "code",
+        "development",
         "release"
       ]
     },
@@ -11218,8 +11248,8 @@
       "score": 20,
       "keywords": [
         "code",
-        "performance",
-        "developer"
+        "developer",
+        "performance"
       ]
     },
     {
@@ -11320,9 +11350,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
+        "developer",
         "API",
-        "development",
-        "developer"
+        "development"
       ]
     },
     {
@@ -11337,8 +11367,8 @@
       "score": 17,
       "keywords": [
         "tutorial",
-        "development",
-        "PHP"
+        "PHP",
+        "development"
       ]
     },
     {
@@ -11353,8 +11383,8 @@
       "score": 17,
       "keywords": [
         "tutorial",
-        "development",
-        "PHP"
+        "PHP",
+        "development"
       ]
     },
     {
@@ -11368,8 +11398,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "API",
-        "code"
+        "code",
+        "API"
       ]
     },
     {
@@ -11611,8 +11641,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "developer",
         "code",
+        "developer",
         "programming"
       ]
     },
@@ -11960,8 +11990,8 @@
       "niche": "dev",
       "score": 13,
       "keywords": [
-        "API",
-        "tutorial"
+        "tutorial",
+        "API"
       ]
     },
     {
@@ -12252,6 +12282,18 @@
       "published": "2025-10-10T00:00:00+00:00",
       "niche": "dev",
       "score": 12,
+      "keywords": []
+    },
+    {
+      "id": "2bdf28c6a50c498f",
+      "title": "You need quality engineers to turn AI into ROI",
+      "description": "Pete Johnson, Field CTO, Artificial Intelligence at MongoDB, joins the podcast to say that looking at AI’s impact as a job killer is a flawed metric.",
+      "url": "https://stackoverflow.blog/2026/01/07/you-need-quality-engineers-to-turn-ai-into-roi/",
+      "source": "Stack Overflow Blog",
+      "author": "Ryan Donovan",
+      "published": "2026-01-07T05:40:00+00:00",
+      "niche": "dev",
+      "score": 10,
       "keywords": []
     },
     {
