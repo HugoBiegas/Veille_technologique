@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-14T02:11:06.044407+00:00",
-  "total_articles": 968,
+  "last_updated": "2026-01-14T04:12:11.528519+00:00",
+  "total_articles": 970,
   "articles": [
     {
       "id": "b8e7c86fc5b22a35",
@@ -88,6 +88,21 @@
       "source": "Dev.to",
       "author": "Evan Lin",
       "published": "2026-01-11T15:24:55+00:00",
+      "niche": "dev",
+      "score": 73,
+      "keywords": [
+        "API",
+        "developer"
+      ]
+    },
+    {
+      "id": "429764583f2ddec6",
+      "title": "Building an AI Blog Generator with FastAPI, React, and Hugging Face (Pt1)",
+      "description": "How I built a production-ready AI application that generates SEO-optimized blog posts in 30 seconds Why I Built This I'll be honest with you - I've spent countless hours staring at blank screens, struggling to write blog posts. As a developer who loves building things but finds writing challenging, I often thought: \"What if I could generate high-quality blog drafts in seconds?\" That question led me down a rabbit hole that resulted in building a complete AI-powered blog generator from scratch. Th",
+      "url": "https://dev.to/lymah/building-an-ai-blog-generator-with-fastapi-react-and-hugging-face-49m5",
+      "source": "Dev.to",
+      "author": "Lymah",
+      "published": "2026-01-14T04:06:20+00:00",
       "niche": "dev",
       "score": 73,
       "keywords": [
@@ -221,20 +236,6 @@
       "score": 70,
       "keywords": [
         "developer",
-        "code"
-      ]
-    },
-    {
-      "id": "485483aa28a2aa98",
-      "title": "The Complete Guide to A2UI Protocol: Building Agent-Driven UIs with Google's A2UI in 2026",
-      "description": "🎯 Core Takeaways (TL;DR) A2UI protocol is a declarative UI protocol that enables AI agents to generate rich, interactive interfaces that render natively across web, mobile, and desktop platforms A2UI solves the critical challenge of secure, cross-platform UI generation in multi-agent systems without executing arbitrary code Google's adoption of A2UI powers production systems like Opal, Gemini Enterprise, and Flutter GenUI SDK, demonstrating enterprise-grade reliability The A2UI protocol uses JSO",
-      "url": "https://dev.to/czmilo/the-complete-guide-to-a2ui-protocol-building-agent-driven-uis-with-googles-a2ui-in-2026-146p",
-      "source": "Dev.to",
-      "author": "cz",
-      "published": "2026-01-07T03:05:08+00:00",
-      "niche": "dev",
-      "score": 69,
-      "keywords": [
         "code"
       ]
     },
@@ -583,6 +584,23 @@
       "keywords": []
     },
     {
+      "id": "1581238217848933",
+      "title": "Just released podpdf",
+      "description": "Why another PDF library? Most PDF libraries carry features 90% of users never need. podpdf focuses on the essentials: text, tables, shapes, images, and multi-page documents. Key specs: ~9KB minified (13KB for plus version) Zero runtime dependencies Native TypeScript Works in Node.js, Bun, and browsers Fluent chainable API Performance: Benchmarked at 0.033ms per simple document vs 0.271ms for jsPDF — that's 5.5x faster. https://github.com/herolabid/podpdf",
+      "url": "https://dev.to/irfan26_3b01252fda8a2f1bc/just-released-podpdf-5362",
+      "source": "Dev.to",
+      "author": "irfan26",
+      "published": "2026-01-14T03:40:18+00:00",
+      "niche": "dev",
+      "score": 64,
+      "keywords": [
+        "release",
+        "API",
+        "performance",
+        "library"
+      ]
+    },
+    {
       "id": "bf2fc2f1a83eb02c",
       "title": "Claude Code CLI Broken",
       "description": "Comments",
@@ -623,18 +641,6 @@
       "keywords": [
         "programming"
       ]
-    },
-    {
-      "id": "08b377c5e60646bc",
-      "title": "Microsoft probably killed my Snapdragon Dev Kit",
-      "description": "Comments",
-      "url": "https://jasoneckert.github.io/myblog/how-microsoft-killed-my-snapdragon-devkit/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-07T02:37:09+00:00",
-      "niche": "dev",
-      "score": 62,
-      "keywords": []
     },
     {
       "id": "de4f8b9ff03d8374",
@@ -1504,51 +1510,6 @@
       "keywords": []
     },
     {
-      "id": "d022964bb0276a39",
-      "title": "LeetCode DSA Series #6: 268. Missing Number",
-      "description": "The problem I solved is 268. Missing Number. It is also an easy problem. For this problem, I solved it in three different ways, with one approach yielding a clear performance advantage. Here is the code showing the 3 approaches. class Solution: def missingNumber(self, nums: List[int]) -> int: n = len(nums) # Method 1 # Runtime 8 ms Beats 27.81% | Memory 21.57MB Beats 5.11% #----------------------------------------------- sequence = range(0, n+1) sequence = set(sequence) diff = set(sequence) - se",
-      "url": "https://dev.to/daveson217/leetcode-dsa-series-6-268-missing-number-15g7",
-      "source": "Dev.to",
-      "author": "David Babalola",
-      "published": "2026-01-07T03:12:20+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "performance",
-        "code"
-      ]
-    },
-    {
-      "id": "86417d3ac6cb56ff",
-      "title": "Converting RTF to PDF in C#",
-      "description": "RTF (Rich Text Format) is a cross-platform rich text format widely used for document editing and data exchange. PDF, by contrast, is ideal for document distribution and archiving due to its immutable format and robust cross-device compatibility. In .NET development, converting RTF files to PDF is a frequent requirement—this guide walks you through implementing this conversion with Free Spire.Doc for .NET, a free library for document format manipulation (note: it has file size limitations for fre",
-      "url": "https://dev.to/codingco/converting-rtf-to-pdf-in-c-1bd",
-      "source": "Dev.to",
-      "author": "Jeremy K.",
-      "published": "2026-01-07T03:11:56+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "library",
-        "development"
-      ]
-    },
-    {
-      "id": "399ae9b160390b59",
-      "title": "GxPDF v0.1.0: 100% Table Extraction Accuracy in Pure Go",
-      "description": "The Problem with PDF Libraries Every Go developer who has worked with PDFs knows the pain: UniPDF: Powerful, but starts at $299/month pdfcpu: Great for manipulation, but no table extraction gofpdf: Creation only, abandoned since 2019 I needed to extract tables from bank statements. 740 transactions across multiple pages. Commercial libraries worked, but the cost was prohibitive for an open-source project. So I built GxPDF. What is GxPDF? GxPDF is a pure Go PDF library that handles both reading a",
-      "url": "https://dev.to/kolkov/gxpdf-v010-100-table-extraction-accuracy-in-pure-go-32h",
-      "source": "Dev.to",
-      "author": "Andrey Kolkov",
-      "published": "2026-01-07T03:03:09+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "library",
-        "developer"
-      ]
-    },
-    {
       "id": "992f35c7215fbe03",
       "title": "Introduction to Agentic Adventures of MoonBit",
       "description": "Motivation Inspired by Anil Madhavapeddy's Agentic Adventures, this project explores what it's like to build practical libraries in MoonBit with AI assistance. MoonBit is a modern programming language designed for cloud computing and AI coding. Goals Build useful libraries - Each entry will document the creation of a practical MoonBit library. Explore AI-assisted workflows - Document how agentic programming integrates with MoonBit's toolchain. Share learnings - Be transparent about what works, w",
@@ -2101,20 +2062,6 @@
       "keywords": [
         "tutorial",
         "library"
-      ]
-    },
-    {
-      "id": "412b400baf157669",
-      "title": "I built a JSON diff tool in a single HTML file (no build step)",
-      "description": "I built a JSON diff tool in a single HTML file (no build step) I kept needing to compare JSON payloads side-by-side. API response vs expected. Before vs after. Prod vs staging. Every time, I'd paste into some random online tool, squint at it, then do it again five minutes later. So I built fknjsn.com — a local-first JSON comparison tool. The whole thing is one HTML file with no build step. The stack (or lack thereof) Vue 3 via CDN (global build) vue-json-pretty via CDN for the tree rendering loc",
-      "url": "https://dev.to/jon_za/i-built-a-json-diff-tool-in-a-single-html-file-no-build-step-1438",
-      "source": "Dev.to",
-      "author": "Jon Muller",
-      "published": "2026-01-07T03:49:31+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "API"
       ]
     },
     {
@@ -2900,6 +2847,34 @@
       ]
     },
     {
+      "id": "6cd422ac356407ba",
+      "title": "CPU–RAM–OS Synergy: Why Balanced Systems Matter More Than High Specs",
+      "description": "CPU–RAM–OS Synergy: Why Balanced Systems Matter More Than High Specs System performance is not determined by a single high-end component. It is the result of synergy between the processor, memory, storage, and operating system. A balanced system often delivers a better real-world experience than one with extreme but mismatched specifications. Core Idea Performance is a system-level property, not a single-spec metric. Throwing money at one component rarely fixes deeper bottlenecks. 1️⃣ CPU and RA",
+      "url": "https://dev.to/micheal_angelo_41cea4e81a/cpu-ram-os-synergy-why-balanced-systems-matter-more-than-high-specs-526d",
+      "source": "Dev.to",
+      "author": "Micheal Angelo",
+      "published": "2026-01-14T03:56:50+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "performance"
+      ]
+    },
+    {
+      "id": "20fb9ec20f5afd93",
+      "title": "Lab: Accessing private GraphQL posts",
+      "description": "Author: travondatrack Date: 14/01/2026 Category: Pentest | Web | Security Difficulty: Easy Tags: GraphQL Mô tả The blog page for this lab contains a hidden blog post that has a secret password. To solve the lab, find the hidden blog post and enter the password. Link: https://portswigger.net/web-security/graphql/lab-graphql-reading-private-posts Phân tích vấn đề Recon Truy cập blog page → các bài post được load qua POST request tới /graphql/v1 Trong response, các post có ID tuần tự: 1, 2, 4, 5...",
+      "url": "https://dev.to/travondatrack/lab-accessing-private-graphql-posts-21d7",
+      "source": "Dev.to",
+      "author": "tRavOndAtrACk",
+      "published": "2026-01-14T03:36:30+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "GraphQL"
+      ]
+    },
+    {
       "id": "5a73e5b696375b68",
       "title": "Privacy-First AI Development: Federated Learning and Beyond",
       "description": "As AI systems become deeply embedded in products that handle sensitive user data, health records, financial transactions, and personal communications, privacy is no longer a compliance checkbox. It’s a core engineering constraint. Traditional AI development relies on centralizing data: collect everything, store it in one place, then train models on top of it. This approach is becoming increasingly inconsistent with what users and regulators expect, as well as with best practices for protecting d",
@@ -3380,16 +3355,47 @@
       ]
     },
     {
-      "id": "ea6ae0fe498d32d5",
-      "title": "A Practical Guide to Browser Caching for Web Apps",
-      "description": "Introduction When your app feels snappy, users engage more and your infrastructure costs less. Browser caching is one of the simplest, highest-impact optimizations you can make. The trick is balancing speed with freshness: you want returning users to load instantly, but you also need them to get new code right after you deploy. This guide explains a proven, low-maintenance caching strategy you can adopt for any modern web app. What browser caching is A browser stores copies of files it downloads",
-      "url": "https://dev.to/zeeshanali0704/a-practical-guide-to-browser-caching-for-web-apps-2n5c",
+      "id": "78dda2e655f77feb",
+      "title": "When Indicators Are Not Functions: Defining Quant Operators in Rust",
+      "description": "Document Statement This article is not a Rust tutorial, nor a trading strategy guide. It documents an engineering proposal: how a quant operator should be defined and reasoned about in Rust. All code snippets exist solely as reference implementations to validate definitions — not as learning objectives. Author yuer Author of EDCA OS Proposer of controllable AI standards Engineering repository: https://github.com/yuer-dsl Contact: lipxtk@gmail.com Where the problem comes from Most technical indic",
+      "url": "https://dev.to/yuer/when-indicators-are-not-functions-defining-quant-operators-in-rust-73h",
       "source": "Dev.to",
-      "author": "ZeeshanAli-0704",
-      "published": "2026-01-07T02:59:20+00:00",
+      "author": "yuer",
+      "published": "2026-01-14T03:54:02+00:00",
       "niche": "dev",
-      "score": 51,
+      "score": 52,
       "keywords": [
+        "tutorial",
+        "code"
+      ]
+    },
+    {
+      "id": "9cfd084853dadded",
+      "title": "Which Code Editor Is Best for Developers in 2026",
+      "description": "Choosing the right code editor is one of the most important decisions a developer can make. The code editor becomes the constant work companion — it impacts productivity, comfort, learning curve, resource consumption, and even project success. In this article, we will analyze the leading code editors today, compare their strengths and weaknesses, and provide recommendations based on workflow, experience level, and project type. What Makes a Great Code Editor? Before comparing editors, we need a ",
+      "url": "https://dev.to/farhadrahimiklie/which-code-editor-is-best-for-developers-in-2026-2dn7",
+      "source": "Dev.to",
+      "author": "Farhad Rahimi Klie",
+      "published": "2026-01-14T03:45:03+00:00",
+      "niche": "dev",
+      "score": 52,
+      "keywords": [
+        "code",
+        "developer"
+      ]
+    },
+    {
+      "id": "a87ac8468d555933",
+      "title": "Week 4 Challenge: Audit 35 C Code Snippets",
+      "description": "Can You Spot the Security Bugs? 35 C Code Review Challenges 🔍 The $370 Million Bug June 4, 1996. After a decade of development and $7 billion in investment, the Ariane 5 rocket lifted off on its maiden voyage. 37 seconds later, it exploded. The cause? A single line of C code. // Converting 64-bit float to 16-bit signed integer horizontal_bias = (int16_t) horizontal_velocity; The horizontal velocity exceeded the maximum value a 16-bit integer could hold. Integer overflow. The guidance system cras",
+      "url": "https://dev.to/fosres/can-you-spot-the-bugs-35-c-security-code-review-challenges-2ahe",
+      "source": "Dev.to",
+      "author": "fosres",
+      "published": "2026-01-14T03:31:05+00:00",
+      "niche": "dev",
+      "score": 52,
+      "keywords": [
+        "development",
         "code"
       ]
     },
@@ -4934,52 +4940,18 @@
       ]
     },
     {
-      "id": "fafb8ba6b1a0e92d",
-      "title": "I Built an AI Creative Director: Automating FB Ad Gen with GPT-4o Vision & Structured Outputs",
-      "description": "Creating high-converting Facebook ads is a grind. You need to analyze what's working, understand your product's unique selling points, and then churn out dozens of visual variations. \"Prompter's block\" is real. Staring at an empty Midjourney or DALL-E prompt box often leads to generic, unusable results. So, I decided to automate the \"Creative Director\" role. Instead of guessing prompts, I built a workflow in n8n that uses GPT-4o's Vision capabilities to \"see\" successful ads, analyze my product, ",
-      "url": "https://dev.to/iloven8n/i-built-an-ai-creative-director-automating-fb-ad-gen-with-gpt-4o-vision-structured-outputs-4g5c",
+      "id": "f31ae5e1cb49d2d1",
+      "title": "How We Architected Context: The Connect-Link-Query Pattern",
+      "description": "TL;DR Most \"AI search\" tools just keyword-match your documents. To actually understand engineering context, you need a graph. Here is the 3-step pipeline we used to build a RAG-native graph that connects code, meetings, and decisions automatically Building a RAG-Native Knowledge Graph (Without the PhD) We’ve all been there: trying to figure out why a piece of code exists, but the answer is buried in a Zoom transcript from three months ago. Standard RAG (Retrieval-Augmented Generation) often fail",
+      "url": "https://dev.to/whykislay/how-we-architected-context-the-connect-link-query-pattern-124d",
       "source": "Dev.to",
-      "author": "zo Aoo",
-      "published": "2026-01-07T03:40:54+00:00",
+      "author": "Kumar Kislay",
+      "published": "2026-01-14T03:32:43+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "1149732c3bc743d4",
-      "title": "How I Finally Learned What Was Inside My Music (Without Re-Recording Everything)",
-      "description": "When you create music long enough, you eventually hit a frustrating wall. You finish a track. It sounds fine. But something feels off. For me, that moment usually comes after publishing. A video underperforms. A remix idea shows up too late. Or I want to reuse a vocal line, but the original project file is gone. This is the story of how I started breaking my own tracks apart—and what I learned along the way. The Problem No One Warns You About I make music mostly for content. Short videos, backgr",
-      "url": "https://dev.to/thi_ngocnguyen_877eb37e4/how-i-finally-learned-what-was-inside-my-music-without-re-recording-everything-3i3k",
-      "source": "Dev.to",
-      "author": "Thi Ngoc Nguyen",
-      "published": "2026-01-07T03:14:38+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "d510ac1c6cd6506b",
-      "title": "Preventable Danger in Plain Sight: Gabriel Jarret Calls for Fire Safety Reform in Southern California Rentals",
-      "description": "Southern California’s rental housing market is often viewed as competitive, expensive, and fast moving. What receives far less attention is the safety reality facing many renters who live in older apartment buildings. While these properties remain legal and widely occupied, a significant number operate with outdated electrical systems and limited fire protection. For residents, this creates an ongoing risk that is rarely discussed until a serious incident occurs. Across the region, thousands of ",
-      "url": "https://dev.to/gabrieljarret/preventable-danger-in-plain-sight-gabriel-jarret-calls-for-fire-safety-reform-in-southern-14ep",
-      "source": "Dev.to",
-      "author": "Gabriel Jarret",
-      "published": "2026-01-07T03:14:06+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "af0f1404a323042f",
-      "title": "Top Fitness App Paywalls (UX Patterns + Pricing Insights)",
-      "description": "Why Fitness App Paywalls Matter Fitness apps sit in a curious position. They promise transformation—better workouts, real results, lasting habit change—but many users download them, try them once, and never return. It's not because the content isn't good. It's because the business model has to survive. That's where paywalls come in. Not as a frustration, but as a conversion problem. How do you get users to pay for something they haven't felt yet? How do you price a product with infinite perceive",
-      "url": "https://dev.to/paywallpro/top-fitness-app-paywalls-ux-patterns-pricing-insights-2868",
-      "source": "Dev.to",
-      "author": "paywallpro",
-      "published": "2026-01-07T03:03:25+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "0fae794c62d764f0",
@@ -7958,6 +7930,30 @@
       "keywords": []
     },
     {
+      "id": "32f305546ba2da45",
+      "title": "Robotics Hiring Report: January 2026",
+      "description": "Originally published at careersinrobotics.com/hiring-report with interactive charts. Executive Summary Market Snapshot: January 2026 | 2,724 active positions analyzed Key Findings: 2,724 active robotics positions currently available across global markets California dominates US market with 33% of all American positions (544 jobs) Senior-level demand: Senior roles (30%) outnumber entry-level positions (11%) by nearly 3:1 Onsite work requirement: 85.5% of positions require physical presence at fac",
+      "url": "https://dev.to/james_dam/robotics-hiring-report-january-2026-3c76",
+      "source": "Dev.to",
+      "author": "James Dam",
+      "published": "2026-01-14T03:43:53+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "912442c59842cb7a",
+      "title": "Understanding AWS Regions and Availability Zones (Simple Guide)",
+      "description": "When I first started using AWS, I kept seeing options for Region and Availability Zone whenever I tried to create resources. At first, I mostly ignored them and selected the default options Over time, I realized they are not just setup details. They directly affect how fast, reliable, and available your application is. This post explains AWS Regions and Availability Zones in simple terms and why they matter in real projects. What Is an AWS Region? An AWS Region is a physical location where AWS r",
+      "url": "https://dev.to/adedokun_damilare_4f636c0/understanding-aws-regions-and-availability-zones-simple-guide-gae",
+      "source": "Dev.to",
+      "author": "adedokun damilare",
+      "published": "2026-01-14T03:41:00+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "6b078f8a0818c9b2",
       "title": "Cool Article on API Tools!! https://medium.com/@somendradev23/10-api-tools-every-full-stack-developer-should-know-6f9af40ae0ec",
       "description": "medium.com",
@@ -8355,16 +8351,18 @@
       ]
     },
     {
-      "id": "e066a2b875201a3c",
-      "title": "On the slow death of scaling",
+      "id": "fbdf5c11f6eff995",
+      "title": "The $LANG Programming Language",
       "description": "Comments",
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5877662",
+      "url": "https://news.ycombinator.com/item?id=46610557",
       "source": "Hacker News",
       "author": "Inconnu",
-      "published": "2026-01-07T03:48:05+00:00",
+      "published": "2026-01-14T00:17:19+00:00",
       "niche": "dev",
-      "score": 44,
-      "keywords": []
+      "score": 45,
+      "keywords": [
+        "programming"
+      ]
     },
     {
       "id": "45593a263c929a8e",
@@ -10107,6 +10105,30 @@
       "keywords": []
     },
     {
+      "id": "38ead850a1c11341",
+      "title": "ASCII Clouds",
+      "description": "Comments",
+      "url": "https://caidan.dev/portfolio/ascii_clouds/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-14T02:20:42+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "1a9cc6e73e557d84",
+      "title": "Show HN: OSS AI agent that indexes and searches the Epstein files",
+      "description": "Comments",
+      "url": "https://epstein.trynia.ai/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-14T01:56:52+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "9507e2cf68c6c137",
       "title": "Infinite Canvas: Building a Seamless, Pan-Anywhere Image Space",
       "description": "Learn how to build an infinite, pannable image canvas with React Three Fiber. We’ll use chunk-based rendering and performance-first techniques to create a smooth, endlessly explorable image space.",
@@ -10173,8 +10195,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "performance",
-        "React 19"
+        "React 19",
+        "performance"
       ]
     },
     {
@@ -10230,9 +10252,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
+        "code",
         "performance",
-        "release",
-        "code"
+        "release"
       ]
     },
     {
@@ -10246,9 +10268,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "release",
         "developer",
-        "API"
+        "API",
+        "release"
       ]
     },
     {
@@ -10262,9 +10284,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
+        "developer",
         "performance",
-        "release",
-        "developer"
+        "release"
       ]
     },
     {
@@ -10510,9 +10532,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "release",
         "React 19",
-        "API"
+        "API",
+        "release"
       ]
     },
     {
@@ -10554,8 +10576,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10569,8 +10591,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10624,8 +10646,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "framework",
-        "API"
+        "API",
+        "framework"
       ]
     },
     {
@@ -10761,6 +10783,20 @@
       "keywords": []
     },
     {
+      "id": "6526688fe63cc84f",
+      "title": "The Emacs Widget Library: A Critique and Case Study",
+      "description": "Comments",
+      "url": "https://www.d12frosted.io/posts/2025-11-26-emacs-widget-library",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-12T06:37:26+00:00",
+      "niche": "dev",
+      "score": 30,
+      "keywords": [
+        "library"
+      ]
+    },
+    {
       "id": "bddf0d98cd9f527b",
       "title": "Announcing Baseline in action",
       "description": "Baseline in action is a new series developed to help developers learn how to use Baseline features together to build better user experiences.",
@@ -10813,11 +10849,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "release",
         "API",
+        "release",
+        "framework",
         "code",
-        "performance",
-        "framework"
+        "performance"
       ]
     },
     {
@@ -11011,6 +11047,18 @@
       "keywords": []
     },
     {
+      "id": "1fd5cd540157dd6e",
+      "title": "There's a ridiculous amount of tech in a disposable vape",
+      "description": "Comments",
+      "url": "https://blog.jgc.org/2026/01/theres-ridiculous-amount-of-tech-in.html",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-12T17:50:01+00:00",
+      "niche": "dev",
+      "score": 26,
+      "keywords": []
+    },
+    {
       "id": "cd46e0b1413a2532",
       "title": "LCP and INP are now Baseline Newly available",
       "description": "LCP and INP are now Baseline Newly available as of December 12, 2025.",
@@ -11123,8 +11171,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "API"
+        "API",
+        "release"
       ]
     },
     {
@@ -11153,9 +11201,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "release",
         "development",
-        "code"
+        "code",
+        "release"
       ]
     },
     {
@@ -11169,9 +11217,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
+        "code",
         "performance",
-        "developer",
-        "code"
+        "developer"
       ]
     },
     {
@@ -11185,8 +11233,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "performance",
-        "code"
+        "code",
+        "performance"
       ]
     },
     {
@@ -11200,8 +11248,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
-        "developer"
+        "developer",
+        "release"
       ]
     },
     {
@@ -11215,8 +11263,8 @@
       "niche": "dev",
       "score": 18,
       "keywords": [
-        "PHP",
-        "Angular"
+        "Angular",
+        "PHP"
       ]
     },
     {
@@ -11272,9 +11320,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
+        "API",
         "development",
-        "developer",
-        "API"
+        "developer"
       ]
     },
     {
@@ -11289,8 +11337,8 @@
       "score": 17,
       "keywords": [
         "tutorial",
-        "PHP",
-        "development"
+        "development",
+        "PHP"
       ]
     },
     {
@@ -11305,8 +11353,8 @@
       "score": 17,
       "keywords": [
         "tutorial",
-        "PHP",
-        "development"
+        "development",
+        "PHP"
       ]
     },
     {
@@ -11320,8 +11368,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "code",
-        "API"
+        "API",
+        "code"
       ]
     },
     {
@@ -11452,18 +11500,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2026-01-07T14:43:16+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "833efbb5b3ff5d89",
-      "title": "Travel Is Not Education",
-      "description": "Comments",
-      "url": "https://fi-le.net/travel/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-07T03:43:38+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -11924,8 +11960,8 @@
       "niche": "dev",
       "score": 13,
       "keywords": [
-        "tutorial",
-        "API"
+        "API",
+        "tutorial"
       ]
     },
     {
