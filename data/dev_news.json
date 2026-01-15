@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-15T04:06:57.487364+00:00",
-  "total_articles": 980,
+  "last_updated": "2026-01-15T06:41:47.938742+00:00",
+  "total_articles": 982,
   "articles": [
     {
       "id": "b8e7c86fc5b22a35",
@@ -126,6 +126,21 @@
       ]
     },
     {
+      "id": "1035d07bbf59c589",
+      "title": "Seamless Integration of Google Workspace and Gemini API via External URLs",
+      "description": "Abstract The Gemini API now supports external file URLs, allowing developers to process data directly without uploading it first. This article demonstrates how to leverage this update to integrate Google Workspace resources—including Google Sheets, Docs, Slides, and Apps Script—into Gemini’s workflow, covering both public and secure private access methods. Introduction Recently, the limitations regarding inline file data in the Gemini API have been significantly updated Ref. The maximum file siz",
+      "url": "https://dev.to/gde/seamless-integration-of-google-workspace-and-gemini-api-via-external-urls-4he",
+      "source": "Dev.to",
+      "author": "Tanaike",
+      "published": "2026-01-15T05:54:58+00:00",
+      "niche": "dev",
+      "score": 73,
+      "keywords": [
+        "developer",
+        "API"
+      ]
+    },
+    {
       "id": "7b47361d3e4bccab",
       "title": "How To Replace Over-Complicated NgRx Stores With Angular Signals — Without Losing Control",
       "description": "Hey, picture this: you’re knee-deep in an Angular app, drowning in NgRx actions, reducers, effects, and selectors just to flip a simple boolean, load some todos, or filter a list. It’s battle-tested for massive enterprise beasts where every change needs auditing across huge teams, but for most real-world projects? It’s total overkill — endless boilerplate files that steal your dev joy and slow you down. Then Angular Signals burst onto the scene like a breath of fresh air. Native, lightweight rea",
@@ -221,6 +236,20 @@
       "score": 72,
       "keywords": [
         "API"
+      ]
+    },
+    {
+      "id": "83bba053dec19f43",
+      "title": "A Gradual Approach to React Folder Structure: From Package by Feature to Clean Architecture",
+      "description": "This article is based on my personal experience and interpretation. The approach I'm sharing isn't the only correct answer, and my understanding of each architecture pattern may differ from the official definitions. I hope you'll read this as just one perspective among many. Introduction I've struggled with React project folder structure for a long time. React, being a UI library, offers immense flexibility in how we structure our projects. However, this freedom often leads to a common dilemma: ",
+      "url": "https://dev.to/usapopopooon/a-gradual-approach-to-react-folder-structure-from-package-by-feature-to-clean-architecture-e44",
+      "source": "Dev.to",
+      "author": "usapopopooon",
+      "published": "2026-01-15T06:03:30+00:00",
+      "niche": "dev",
+      "score": 72,
+      "keywords": [
+        "library"
       ]
     },
     {
@@ -1425,22 +1454,6 @@
       ]
     },
     {
-      "id": "82f061f362fb007c",
-      "title": "Apache Airflow for Production: Essential Concepts Every Developer Should Know",
-      "description": "From local development to enterprise-scale orchestration 📚 Table of Contents PART 1: FUNDAMENTALS Section 1: Introduction Section 2: Architecture Section 3: DAG & Building Blocks Section 4: TaskFlow API PART 2: ADVANCED CONCEPTS Section 5: Deferrable Operators Section 6: Dependencies & Relationships Section 7: Scheduling Section 8: Failure Handling Section 9: SLA Management Section 10: Catchup Behavior PART 3: OPERATIONS & DEPLOYMENT Section 11: Configuration Section 12: Version Comparison Secti",
-      "url": "https://dev.to/datatechbridge/apache-airflow-for-production-essential-concepts-every-developer-should-know-2n1j",
-      "source": "Dev.to",
-      "author": "Data Tech Bridge",
-      "published": "2026-01-08T06:01:57+00:00",
-      "niche": "dev",
-      "score": 56,
-      "keywords": [
-        "API",
-        "development",
-        "developer"
-      ]
-    },
-    {
       "id": "2af2c7480e999543",
       "title": "Introducing HTTP Tracker Plus: Request Capture form Browser",
       "description": "API inspectors and debuggers are essential tools for web application development. Being able to inspect API requests and responses makes debugging much easier and more effective. I often use Chrome DevTools to check request and response data. I have also been using HTTP Tracker, but one important feature was missing: capturing the response body.Since HTTP Tracker is open source, I spent a long time exploring the codebase and trying to implement this feature, but I was not successful at first. I ",
@@ -1546,21 +1559,6 @@
         "tutorial",
         "release",
         "developer"
-      ]
-    },
-    {
-      "id": "83f78a8f13229b1f",
-      "title": "Top APM Tools in 2026: What Every Developer and Engineering Team Should Know",
-      "description": "Application performance issues directly impact user experience, retention, and revenue. In 2026, modern systems are distributed, cloud-native, and heavily dependent on third-party services. Traditional monitoring is no longer enough. Application Performance Monitoring tools now need to deliver deep transaction visibility, fast root cause analysis, and clear correlation between backend performance and real user impact. This guide covers the top APM tools to watch in 2026, with a practical breakdo",
-      "url": "https://dev.to/olivia_madison_b0ad7090ad/top-apm-tools-in-2026-what-every-developer-and-engineering-team-should-know-1dg0",
-      "source": "Dev.to",
-      "author": "Olivia Madison",
-      "published": "2026-01-08T06:19:56+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "developer",
-        "performance"
       ]
     },
     {
@@ -2071,34 +2069,6 @@
       "keywords": [
         "tutorial",
         "performance"
-      ]
-    },
-    {
-      "id": "9d43e47832ec58bb",
-      "title": "Flutter Dio Interceptor for Caching API Responses",
-      "description": "Flutter Dio Interceptor for Caching API Responses In modern mobile applications, providing a seamless user experience even with poor or no network connectivity is crucial. This article demonstrates how to implement a robust caching mechanism for API responses in Flutter using Dio interceptors, ensuring your app remains functional offline by serving cached data when network requests fail. Mechanism The caching interceptor works with a straightforward yet effective approach: Persists GET responses",
-      "url": "https://dev.to/rshnkunwar/flutter-dio-interceptor-for-caching-api-responses-1db3",
-      "source": "Dev.to",
-      "author": "Roshan Jung Kunwar",
-      "published": "2026-01-08T06:02:11+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "API"
-      ]
-    },
-    {
-      "id": "dc2c041bccd48cb8",
-      "title": "Atomic Transaction Patterns C#",
-      "description": "Pattern Consistency Scale Complexity Suitable For Pessimistic Locking Strong Low Low Monoliths, legacy systems Saga Pattern Eventual High High Microservices CQRS Eventual High High Read-heavy systems, DDD Mediator Depends Med Medium Coordinated command handling Event Sourcing Eventual High High Auditable systems Two-Phase Commit Strong Low High Cross-DB transactional ops Outbox Pattern Eventual High Medium DB + messaging consistency Two powerful transaction patterns for modern applications: Atom",
-      "url": "https://dev.to/akkaraponph/atomic-transaction-patternsc-1a32",
-      "source": "Dev.to",
-      "author": "Akkarapon Phikulsri",
-      "published": "2026-01-08T05:51:39+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "microservices"
       ]
     },
     {
@@ -2868,18 +2838,31 @@
       ]
     },
     {
-      "id": "5529672b79244354",
-      "title": "Vibecoding On‑Chain — Using AI to Prototype Solidity Contracts (Safely)",
-      "description": "I used to open Remix, stare at a blank Solidity file, and freeze. No idea where to start. So I did what everyone says: “just write more code.” I copied patterns from tutorials, tweaked a few lines, hit deploy… And still felt like I wasn’t actually learning how smart contracts worked. The weird part? It wasn’t a lack of practice. It was how I was practicing. One day I tried something different: I stopped starting from scratch — and started “vibecoding” with AI instead. Not to cheat. To see what w",
-      "url": "https://dev.to/ribhavmodi/vibecoding-on-chain-using-ai-to-prototype-solidity-contracts-safely-3n5i",
+      "id": "bc4d584d85abfe93",
+      "title": "เพิ่มประสิทธิภาพการทำงาน ด้วย Agile process",
+      "description": "1. Agile คือ แนวคิด (Mindset) และรูปแบบการทำงานที่เน้น \"ความคล่องตัว\" โดยการแบ่งงานใหญ่ให้เป็นชิ้นเล็กๆ แล้วส่งมอบงานอย่างรวดเร็วเป็นรอบๆ (Iterations) เพื่อรับคำติชม (Feedback) มาปรับปรุงได้ทันที 2. ความแตกต่างระหว่าง Waterfall และ Agile Waterfall ลักษณะการทำงาน Analysis > Design > Implementation > Testing > Deployment (Develop) > Release & Maintenance โดยตัว Product ที่ออกมา ลูกค้าจะได้เจอหลังจากจบ Process ทั้งหมด ซึ่งในบางครั้งอาจจะไม่ตอบโจทย์กับความต้องการของลูกค้าได้ โดยเวลาและต้นทุนไม่ได้ถู",
+      "url": "https://dev.to/__00/ephimprasiththiphaaphkaarthamngaan-dwy-agile-process-307o",
       "source": "Dev.to",
-      "author": "Ribhav",
-      "published": "2026-01-08T06:01:31+00:00",
+      "author": "เชาวรินทร์ ศักดิ์เศรษฐ",
+      "published": "2026-01-15T06:28:07+00:00",
       "niche": "dev",
-      "score": 52,
+      "score": 54,
       "keywords": [
-        "code",
-        "tutorial"
+        "release"
+      ]
+    },
+    {
+      "id": "a58ffc10ad6de4ff",
+      "title": "🚀 BlazorWJb: Integrating Worker Jobs with Blazor Server App",
+      "description": "🚀 BlazorWJb: Integrating Worker Jobs with Blazor Server This article demonstrates how to integrate https://github.com/UkrGuru/WJb (Worker Jobs) with a Blazor Server application. The sample provides a simple UI for managing actions and viewing logs in real time. ✅ Why UkrGuru.WJb? UkrGuru.WJb is a lightweight job scheduling and processing library for .NET. It allows you to: Schedule jobs using CRON expressions Execute custom actions asynchronously Log execution details for monitoring and debuggin",
+      "url": "https://dev.to/ukrguru/blazorwjb-integrating-worker-jobs-with-blazor-server-app-4ebj",
+      "source": "Dev.to",
+      "author": "Oleksandr Viktor",
+      "published": "2026-01-15T06:03:31+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "library"
       ]
     },
     {
@@ -3423,31 +3406,18 @@
       ]
     },
     {
-      "id": "4a1b660d5c349fcf",
-      "title": "How to Crack Any Software Developer Interview in 2026 (Updated for AI & Modern Hiring)",
-      "description": "The software developer interview preparation in 2026 is in a constant state of evolution. What worked just a few years ago (or even in 2025) might not be enough to land you your dream job in 2026. The landscape has shifted, with new technologies, methodologies, and expectations emerging. If you’re preparing for software engineering interviews in 2026, this guide will walk you through: What has actually changed in developer interviews What hiring managers now expect from candidates A clear, pract",
-      "url": "https://dev.to/finalroundai/how-to-crack-any-software-developer-interview-in-2026-updated-for-ai-modern-hiring-4ih8",
+      "id": "807eae95e5188d8e",
+      "title": "The Cloud Exit Strategy: How to Run a Production SaaS for $5/Month",
+      "description": "We have normalized paying $100/month for infrastructure before acquiring a single customer. It is time to return to the $5 VPS. Here is the architecture. We need to talk about the cost of \"Modern Web Development.\" If you follow the standard tutorial for building a SaaS in 2026, your bill looks something like this on Day 1: **Hosting (Vercel/Netlify): $20/month per seat Database (Supabase/Neon): $25/month (once you hit the first limit) Auth (Clerk/Auth0): Free tier, then expensive quickly Redis (",
+      "url": "https://dev.to/the_nortern_dev/the-cloud-exit-strategy-how-to-run-a-production-saas-for-5month-51fi",
       "source": "Dev.to",
-      "author": "Hadil Ben Abdallah",
-      "published": "2026-01-08T06:30:32+00:00",
+      "author": "NorthernDev",
+      "published": "2026-01-15T06:20:54+00:00",
       "niche": "dev",
-      "score": 51,
+      "score": 52,
       "keywords": [
-        "developer"
-      ]
-    },
-    {
-      "id": "57577cd0228bcdd0",
-      "title": "5 Common Server Security Mistakes Developers Still Make",
-      "description": "5 Common Server Security Mistakes Developers Still Make Even in 2025, server security is often treated as an afterthought. Many developers assume cloud providers, hosting panels, or default configs are “secure enough”. They’re not. After managing production servers and hosting environments, I’ve seen the same security mistakes repeated again and again—even by experienced developers. Let’s break down the 5 most common server security mistakes developers still make and how to fix them properly. Le",
-      "url": "https://dev.to/arauly_tech_pvt_ltd/5-common-server-security-mistakes-developers-still-make-45mc",
-      "source": "Dev.to",
-      "author": "Arauly Tech",
-      "published": "2026-01-08T05:46:54+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "developer"
+        "tutorial",
+        "development"
       ]
     },
     {
@@ -4963,40 +4933,18 @@
       ]
     },
     {
-      "id": "45b78fa5706ab60b",
-      "title": "Creando mi 'Navaja Suiza' Digital: Un Conversor de Unidades a Medida con la IA",
-      "description": "En cualquier disciplina técnica o de ingeniería, nuestro día a día está lleno de pequeñas pero constantes tareas de conversión de unidades de medida. Pasamos de Pascales a PSI, de Kilovatios a Caballos de potencia, de Gigabytes a Terabytes o de frecuencias a longitudes de onda.. En mi etapa universitaria disponíamos de las llamadas chuletas o cheatsheets, las cuales solíamos tener a mano ya sea pegadas a las calculadoras, carpetas, cuadernos... para nuestro día a día (no para los exámenes por su",
-      "url": "https://dev.to/datalaria/creando-mi-navaja-suiza-digital-un-conversor-de-unidades-a-medida-con-la-ia-1mb1",
+      "id": "c670ab99e5f3066f",
+      "title": "Make your app crash at startup, not in production",
+      "description": "2am. Slack notification. Production app is down. The error? Cannot read property 'split' of undefined Turns out ALLOWED_ORIGINS wasn't set in production. The app started fine. Health checks passed. Then the first CORS request came in and crashed the server. Or that time STRIPE_SECRET_KEY had a trailing space from copy-paste. App started. First payment request? Failed. Took 30 minutes to figure out. Or when someone set ENABLE_CACHING=false as a string, but the code checked if (config.ENABLE_CACHI",
+      "url": "https://dev.to/chintanshah35/make-your-app-crash-at-startup-not-in-production-45je",
       "source": "Dev.to",
-      "author": "Daniel",
-      "published": "2026-01-08T06:20:57+00:00",
+      "author": "Chintan Shah",
+      "published": "2026-01-15T06:13:30+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "4a1893b8e45919c4",
-      "title": "Solved: Hot take: The outage isn’t the problem everyone going down at once is",
-      "description": "🚀 Executive Summary TL;DR: The article highlights that widespread, correlated outages are more catastrophic than individual component failures in distributed systems, challenging architectural robustness. It proposes tackling these synchronized collapses through infrastructure diversification, implementing proactive resilience patterns, and validating system resilience via chaos engineering and Game Days. 🎯 Key Takeaways Combat synchronized failures by diversifying infrastructure across multi-cl",
-      "url": "https://dev.to/techresolve/solved-hot-take-the-outage-isnt-the-problem-everyone-going-down-at-once-is-2hkp",
-      "source": "Dev.to",
-      "author": "Darian Vance",
-      "published": "2026-01-08T06:10:14+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "0ddb8a76ca0130ae",
-      "title": "Debugging Worldpay Webhooks in ASP.NET Core",
-      "description": "When integrating Worldpay in a production ASP.NET Core application, one of the hardest problems is debugging webhook failures. Events arrive asynchronously, logs are often missing, and issues usually appear only after a payment dispute or customer complaint. In this article, I’ll share practical lessons from a real Worldpay integration and show how proper event logging can save hours of debugging time. Why debugging Worldpay webhooks is hard Webhooks are asynchronous and hard to trace Failures o",
-      "url": "https://dev.to/ramapratheeba/debugging-worldpay-webhooks-in-aspnet-core-a1n",
-      "source": "Dev.to",
-      "author": "Rama Pratheeba",
-      "published": "2026-01-08T05:43:56+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "583c39fc8b4a2e7b",
@@ -8003,6 +7951,54 @@
       "keywords": []
     },
     {
+      "id": "eb45152a8110d43e",
+      "title": "CVE-2026-0621: Event-Loop Denial of Service in the MCP TypeScript SDK",
+      "description": "TL;DR A high-severity Regular Expression Denial of Service (ReDoS) vulnerability in the MCP TypeScript SDK allows a single crafted URI to fully block the Node.js event loop, taking down MCP servers. The issue is fixed in v1.25.2 and should be patched immediately. Summary Identifier: CVE-2026-0621 (GHSA-8r9q-7v3j-jr4g) Severity: 8.7 (High) Affected Component: @modelcontextprotocol/sdk Impact: Total Node.js event-loop blockage (Denial of Service) Status: Patched in v1.25.2 A specifically crafted U",
+      "url": "https://dev.to/om_shree_0709/cve-2026-0621-event-loop-denial-of-service-in-the-mcp-typescript-sdk-1k40",
+      "source": "Dev.to",
+      "author": "Om Shree",
+      "published": "2026-01-15T06:34:12+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "a6da4fb8f4f29a63",
+      "title": "👗 StyleMatch - Your AI Personal Fashion Stylist",
+      "description": "What I Built StyleMatch is an AI-powered personal fashion stylist that transforms how people shop online. Instead of overwhelming users with thousands of products, StyleMatch acts as a knowledgeable fashion consultant—understanding your needs, suggesting complete outfits, and optimizing your budget across multiple events. The Problem It Solves Online fashion shopping is frustrating: 🔍 Too many choices, no guidance 👗 Hard to know what items work together 💰 Difficult to plan within budget 📅 Planni",
+      "url": "https://dev.to/simranshaikh20_50/stylematch-your-ai-personal-fashion-stylist-247m",
+      "source": "Dev.to",
+      "author": "Simran Shaikh",
+      "published": "2026-01-15T06:21:32+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "9d508f5d876a00eb",
+      "title": "Your Cloud Database is a Security Theater",
+      "description": "Multi-tenant SaaS storage is broken. Not \"needs improvement\" broken—fundamentally compromised at the architectural level. The industry sold you row-level security, tenant IDs in every query, and database encryption at rest. Meanwhile, a single SQL injection or privilege escalation exposes EVERYONE's data. One breach, thousands of victims. This isn't security—it's a ticking time bomb with better marketing. BSFS (Block Storage File System) takes a different approach: cryptographic isolation at the",
+      "url": "https://dev.to/ryo_suwito/your-cloud-database-is-a-security-theater-28a5",
+      "source": "Dev.to",
+      "author": "Ryo Suwito",
+      "published": "2026-01-15T06:03:36+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "b5fd6d9162134f72",
+      "title": "When Birthday Photography Becomes a Template — and Why AI Feels Like an Alternative",
+      "description": "In many Chinese shopping malls, birthday photography has quietly become a standardized product. Small studios offer preset birthday shoots at around 300 RMB, usually delivering a single edited image with no raw files. Objectively, the price is not cost-effective — one photo, limited choice, no ownership of the originals — but the amount is just low enough to blur that judgment. It feels affordable, even trivial, which makes people less likely to question the value. What customers end up buying i",
+      "url": "https://dev.to/zoeyy-hu/when-birthday-photography-becomes-a-template-and-why-ai-feels-like-an-alternative-4j2l",
+      "source": "Dev.to",
+      "author": "Zoey",
+      "published": "2026-01-15T05:48:33+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "6b078f8a0818c9b2",
       "title": "Cool Article on API Tools!! https://medium.com/@somendradev23/10-api-tools-every-full-stack-developer-should-know-6f9af40ae0ec",
       "description": "medium.com",
@@ -8416,30 +8412,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "0a56993c7e6fe359",
-      "title": "Project Patchouli: Open-source electromagnetic drawing tablet hardware",
-      "description": "Comments",
-      "url": "https://patchouli.readthedocs.io/en/latest/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-08T05:20:05+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "82311d9927e9400f",
-      "title": "Go.sum is not a lockfile",
-      "description": "Comments",
-      "url": "https://words.filippo.io/gosum/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-08T04:10:34+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "45fecc47cbb1dea2",
@@ -10294,8 +10266,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "performance",
-        "React 19"
+        "React 19",
+        "performance"
       ]
     },
     {
@@ -10351,9 +10323,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
+        "release",
         "code",
-        "performance",
-        "release"
+        "performance"
       ]
     },
     {
@@ -10367,8 +10339,8 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "developer",
         "release",
+        "developer",
         "API"
       ]
     },
@@ -10383,9 +10355,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
+        "release",
         "developer",
-        "performance",
-        "release"
+        "performance"
       ]
     },
     {
@@ -10429,16 +10401,18 @@
       "keywords": []
     },
     {
-      "id": "d0034eae7764902f",
-      "title": "Ushikuvirus: Newly discovered virus may offer clues to the origin of eukaryotes",
+      "id": "7380c6d3bb14bf13",
+      "title": "New Safari developer tools provide insight into CSS Grid Lanes",
       "description": "Comments",
-      "url": "https://www.tus.ac.jp/en/mediarelations/archive/20251219_9539.html",
+      "url": "https://webkit.org/blog/17746/new-safari-developer-tools-provide-insight-into-css-grid-lanes/",
       "source": "Hacker News",
       "author": "Inconnu",
-      "published": "2026-01-08T04:39:55+00:00",
+      "published": "2026-01-15T00:34:59+00:00",
       "niche": "dev",
-      "score": 38,
-      "keywords": []
+      "score": 39,
+      "keywords": [
+        "developer"
+      ]
     },
     {
       "id": "d4c588582a823d8e",
@@ -10633,6 +10607,54 @@
       "keywords": []
     },
     {
+      "id": "753867526cbeede7",
+      "title": "Claude Cowork exfiltrates files",
+      "description": "Comments",
+      "url": "https://www.promptarmor.com/resources/claude-cowork-exfiltrates-files",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-14T20:12:25+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
+      "id": "155a1e19b121ada8",
+      "title": "Show HN: Sparrow-1 – Audio-native model for human-level turn-taking without ASR",
+      "description": "Comments",
+      "url": "https://www.tavus.io/post/sparrow-1-human-level-conversational-timing-in-real-time-voice",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-14T18:01:23+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
+      "id": "a459eb993086b188",
+      "title": "Project SkyWatch (a.k.a. Wescam at Home)",
+      "description": "Comments",
+      "url": "https://ianservin.com/2026/01/13/project-skywatch-aka-wescam-at-home/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-14T16:54:40+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
+      "id": "95293a2d6382707c",
+      "title": "Ask HN: How are you doing RAG locally?",
+      "description": "Comments",
+      "url": "https://news.ycombinator.com/item?id=46616529",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-14T14:38:29+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
       "id": "4e6d7290f5ff11d8",
       "title": "React Native 0.80 - React 19.1, JS API Changes, Freezing Legacy Arch and much more",
       "description": "Today we are excited to release React Native 0.80!",
@@ -10644,8 +10666,8 @@
       "score": 38,
       "keywords": [
         "release",
-        "React 19",
-        "API"
+        "API",
+        "React 19"
       ]
     },
     {
@@ -10687,8 +10709,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -10702,8 +10724,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -10757,8 +10779,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "framework",
-        "API"
+        "API",
+        "framework"
       ]
     },
     {
@@ -10924,11 +10946,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "performance",
-        "code",
-        "framework",
         "release",
-        "API"
+        "code",
+        "performance",
+        "API",
+        "framework"
       ]
     },
     {
@@ -11273,8 +11295,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "framework",
-        "release"
+        "release",
+        "framework"
       ]
     },
     {
@@ -11288,8 +11310,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "framework",
-        "Angular"
+        "Angular",
+        "framework"
       ]
     },
     {
@@ -11303,9 +11325,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
+        "release",
         "code",
-        "development",
-        "release"
+        "development"
       ]
     },
     {
@@ -11319,8 +11341,8 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "code",
         "developer",
+        "code",
         "performance"
       ]
     },
@@ -11350,8 +11372,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -11365,8 +11387,8 @@
       "niche": "dev",
       "score": 18,
       "keywords": [
-        "PHP",
-        "Angular"
+        "Angular",
+        "PHP"
       ]
     },
     {
@@ -11423,8 +11445,8 @@
       "score": 17,
       "keywords": [
         "developer",
-        "development",
-        "API"
+        "API",
+        "development"
       ]
     },
     {
@@ -11438,9 +11460,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "PHP",
+        "development",
         "tutorial",
-        "development"
+        "PHP"
       ]
     },
     {
@@ -11454,9 +11476,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "PHP",
+        "development",
         "tutorial",
-        "development"
+        "PHP"
       ]
     },
     {
