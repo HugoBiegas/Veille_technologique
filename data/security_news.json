@@ -1,43 +1,7 @@
 {
-  "last_updated": "2026-01-15T09:34:01.461673+00:00",
-  "total_articles": 442,
+  "last_updated": "2026-01-15T12:57:19.074622+00:00",
+  "total_articles": 446,
   "articles": [
-    {
-      "id": "5b0cdb3927ee3f9d",
-      "title": "Cisco Patches ISE Security Vulnerability After Public PoC Exploit Release",
-      "description": "Cisco has released updates to address a medium-severity security flaw in Identity Services Engine (ISE) and ISE Passive Identity Connector (ISE-PIC) with a public proof-of-concept (PoC) exploit. The vulnerability, tracked as CVE-2026-20029 (CVSS score: 4.9), resides in the licensing feature and could allow an authenticated, remote attacker with administrative privileges to gain access to",
-      "url": "https://thehackernews.com/2026/01/cisco-patches-ise-security.html",
-      "source": "The Hacker News",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-01-08T16:14:00+05:30",
-      "niche": "security",
-      "score": 100,
-      "keywords": [
-        "CVE-",
-        "security",
-        "patch",
-        "exploit",
-        "PoC"
-      ]
-    },
-    {
-      "id": "be8c95d179395b8a",
-      "title": "Coolify Discloses 11 Critical Flaws Enabling Full Server Compromise on Self-Hosted Instances",
-      "description": "Cybersecurity researchers have disclosed details of multiple critical-severity security flaws affecting Coolify, an open-source, self-hosting platform, that could result in authentication bypass and remote code execution. The list of vulnerabilities is as follows - CVE-2025-66209 (CVSS score: 10.0) - A command injection vulnerability in the database backup functionality allows any authenticated",
-      "url": "https://thehackernews.com/2026/01/coolify-discloses-11-critical-flaws.html",
-      "source": "The Hacker News",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-01-08T15:23:00+05:30",
-      "niche": "security",
-      "score": 100,
-      "keywords": [
-        "authentication bypass",
-        "CVE-",
-        "security",
-        "remote code execution",
-        "cybersecurity"
-      ]
-    },
     {
       "id": "210dd38e090c6795",
       "title": "Trend Micro Apex Central RCE Flaw Scores 9.8 CVSS in On-Prem Windows Versions",
@@ -219,6 +183,24 @@
       ]
     },
     {
+      "id": "0afd05d345c5cd2b",
+      "title": "Palo Alto Fixes GlobalProtect DoS Flaw That Can Crash Firewalls Without Login",
+      "description": "Palo Alto Networks has released security updates for a high-severity security flaw impacting GlobalProtect Gateway and Portal, for which it said there exists a proof-of-concept (PoC) exploit. The vulnerability, tracked as CVE-2026-0227 (CVSS score: 7.7), has been described as a denial-of-service (DoS) condition impacting GlobalProtect PAN-OS software arising as a result of an improper check for",
+      "url": "https://thehackernews.com/2026/01/palo-alto-fixes-globalprotect-dos-flaw.html",
+      "source": "The Hacker News",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-01-15T13:48:00+05:30",
+      "niche": "security",
+      "score": 100,
+      "keywords": [
+        "vulnerability",
+        "exploit",
+        "security flaw",
+        "security",
+        "CVE-"
+      ]
+    },
+    {
       "id": "337f728e9dd8c385",
       "title": "VMware ESXi zero-days likely exploited a year before disclosure",
       "description": "Chinese-speaking threat actors used a compromised SonicWall VPN appliance to deliver a VMware ESXi exploit toolkit that seems to have been developed more than a year before the targeted vulnerabilities became publicly known. [...]",
@@ -284,24 +266,6 @@
         "security",
         "attack",
         "critical vulnerability",
-        "vulnerability"
-      ]
-    },
-    {
-      "id": "49870ac131692382",
-      "title": "Critical HPE OneView Vulnerability Exploited in Attacks",
-      "description": "The maximum-severity code injection flaw can be exploited without authentication for remote code execution. The post Critical HPE OneView Vulnerability Exploited in Attacks appeared first on SecurityWeek.",
-      "url": "https://www.securityweek.com/critical-hpe-oneview-vulnerability-exploited-in-attacks/",
-      "source": "SecurityWeek",
-      "author": "Ionut Arghire",
-      "published": "2026-01-08T11:09:03+00:00",
-      "niche": "security",
-      "score": 97,
-      "keywords": [
-        "security",
-        "remote code execution",
-        "exploit",
-        "attack",
         "vulnerability"
       ]
     },
@@ -426,24 +390,6 @@
       ]
     },
     {
-      "id": "bf2e34960e6658a7",
-      "title": "Hitachi Energy Asset Suite",
-      "description": "View CSAF Summary Hitachi Energy is aware of a Jasper Report vulnerability that affects the Asset Suite product versions mentioned in this document below. This vulnerability can be exploited to carry out remote code execution (RCE) attack on the product. Please refer to the Recommended Immediate Actions for information about the mitigation/remediation. The following versions of Hitachi Energy Asset Suite are affected: Asset Suite (CVE-2025-10492) CVSS Vendor Equipment Vulnerabilities v3 9.8 Hita",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-008-01",
-      "source": "CISA Cybersecurity Advisories",
-      "author": "CISA",
-      "published": "2026-01-08T12:00:00+00:00",
-      "niche": "security",
-      "score": 92,
-      "keywords": [
-        "attack",
-        "remote code execution",
-        "RCE",
-        "vulnerability",
-        "CVE-"
-      ]
-    },
-    {
       "id": "a22a1a500947cf1b",
       "title": "What Should We Learn From How Attackers Leveraged AI in 2025?",
       "description": "Old Playbook, New Scale: While defenders are chasing trends, attackers are optimizing the basics The security industry loves talking about \"new\" threats. AI-powered attacks. Quantum-resistant encryption. Zero-trust architectures. But looking around, it seems like the most effective attacks in 2025 are pretty much the same as they were in 2015. Attackers are exploiting the same entry points that",
@@ -492,23 +438,6 @@
         "patch",
         "zero-day",
         "exploit"
-      ]
-    },
-    {
-      "id": "55d35073a078c508",
-      "title": "ThreatsDay Bulletin: RustFS Flaw, Iranian Ops, WebUI RCE, Cloud Leaks, and 12 More Stories",
-      "description": "The internet never stays quiet. Every week, new hacks, scams, and security problems show up somewhere. This week’s stories show how fast attackers change their tricks, how small mistakes turn into big risks, and how the same old tools keep finding new ways to break in. Read on to catch up before the next wave hits. Honeypot Traps Hackers Hackers Fall for",
-      "url": "https://thehackernews.com/2026/01/threatsday-bulletin-rustfs-flaw-iranian.html",
-      "source": "The Hacker News",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-01-08T18:19:00+05:30",
-      "niche": "security",
-      "score": 91,
-      "keywords": [
-        "security",
-        "attack",
-        "threat",
-        "RCE"
       ]
     },
     {
@@ -834,23 +763,6 @@
       ]
     },
     {
-      "id": "992a5a0f01791dcf",
-      "title": "U.S. CISA adds HPE OneView and Microsoft Office PowerPoint flaws to its Known Exploited Vulnerabilities catalog",
-      "description": "U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds HPE OneView and Microsoft Office PowerPoint flaws to its Known Exploited Vulnerabilities catalog. The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added HPE OneView and Microsoft Office PowerPoint flaws to its Known Exploited Vulnerabilities (KEV) catalog. Below are the flaws added to the catalog: CVE-2009-0556 is a memory corruption flaw [&#8230;]",
-      "url": "https://securityaffairs.com/186672/security/u-s-cisa-adds-hpe-oneview-and-microsoft-office-powerpoint-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
-      "source": "Security Affairs",
-      "author": "Pierluigi Paganini",
-      "published": "2026-01-08T10:41:08+00:00",
-      "niche": "security",
-      "score": 81,
-      "keywords": [
-        "CVE-",
-        "security",
-        "exploit",
-        "cybersecurity"
-      ]
-    },
-    {
       "id": "8bba34db319681a9",
       "title": "377,000 Impacted by Data Breach at Texas Gas Station Firm",
       "description": "Gulshan Management Services has informed authorities about a recent data breach resulting from a ransomware attack. The post 377,000 Impacted by Data Breach at Texas Gas Station Firm appeared first on SecurityWeek.",
@@ -900,20 +812,6 @@
         "security",
         "attack",
         "patch"
-      ]
-    },
-    {
-      "id": "d9bffa5699fb57a3",
-      "title": "The State of Trusted Open Source",
-      "description": "Chainguard, the trusted source for open source, has a unique view into how modern organizations actually consume open source software and where they run into risk and operational burdens. Across a growing customer base and an extensive catalog of over 1800 container image projects, 148,000 versions, 290,000 images, and 100,000 language libraries, and almost half a billion builds, they can see",
-      "url": "https://thehackernews.com/2026/01/the-state-of-trusted-open-source.html",
-      "source": "The Hacker News",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-01-08T17:20:00+05:30",
-      "niche": "security",
-      "score": 80,
-      "keywords": [
-        "RCE"
       ]
     },
     {
@@ -1082,6 +980,20 @@
       ]
     },
     {
+      "id": "196c608c92536128",
+      "title": "Microsoft Legal Action Disrupts RedVDS Cybercrime Infrastructure Used for Online Fraud",
+      "description": "Microsoft on Wednesday announced that it has taken a \"coordinated legal action\" in the U.S. and the U.K. to disrupt a cybercrime subscription service called RedVDS that has allegedly fueled millions in fraud losses. The effort, per the tech giant, is part of a broader law enforcement effort in collaboration with law enforcement authorities that has allowed it to confiscate the malicious",
+      "url": "https://thehackernews.com/2026/01/microsoft-legal-action-disrupts-redvds.html",
+      "source": "The Hacker News",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-01-15T15:07:00+05:30",
+      "niche": "security",
+      "score": 80,
+      "keywords": [
+        "RCE"
+      ]
+    },
+    {
       "id": "47c9ae8f9f3c3681",
       "title": "China-Linked UAT-7290 Targets Telecoms with Linux Malware and ORB Nodes",
       "description": "A China-nexus threat actor known as UAT-7290 has been attributed to espionage-focused intrusions against entities in South Asia and Southeastern Europe. The activity cluster, which has been active since at least 2022, primarily focuses on extensive technical reconnaissance of target organizations before initiating attacks, ultimately leading to the deployment of malware families such as RushDrop",
@@ -1163,33 +1075,21 @@
       ]
     },
     {
-      "id": "32be840247d22eb4",
-      "title": "Researchers Uncover NodeCordRAT Hidden in npm Bitcoin-Themed Packages",
-      "description": "Cybersecurity researchers have discovered three malicious npm packages that are designed to deliver a previously undocumented malware called NodeCordRAT. The names of the packages, all of which were taken down as of November 2025, are listed below. They were uploaded by a user named \"wenmoonx.\" bitcoin-main-lib (2,300 Downloads) bitcoin-lib-js (193 Downloads) bip40 (970 Downloads) \"The",
-      "url": "https://thehackernews.com/2026/01/researchers-uncover-nodecordrat-hidden.html",
-      "source": "The Hacker News",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-01-08T16:01:00+05:30",
+      "id": "4790658284a24aed",
+      "title": "Researchers warn of long‑running FortiSIEM root exploit vector as new CVE emerges",
+      "description": "A critical command injection issue in Fortinet FortiSIEM has been disclosed along with public exploit code, and researchers claim attackers could have been remotely achieving unauthenticated root access to the SIEM platform for nearly three years. The flaw belongs to a class of weakness in FortiSIEM, going back to 2023 and 2024. Tracked as CVE-2025-64155, the vulnerability affects the phMonitor service, an internal FortiSIEM component that runs elevated privileges and plays a central role in sys",
+      "url": "https://www.csoonline.com/article/4117316/researchers-warn-of-long%e2%80%91running-fortisiem-root-exploit-vector-as-new-cve-emerges.html",
+      "source": "CSO Online",
+      "author": "Inconnu",
+      "published": "2026-01-15T11:51:39+00:00",
       "niche": "security",
-      "score": 76,
+      "score": 78,
       "keywords": [
-        "malware",
-        "security",
-        "cybersecurity"
-      ]
-    },
-    {
-      "id": "d41ae9a3166e0d5e",
-      "title": "Microsoft to enforce MFA for Microsoft 365 admin center sign-ins",
-      "description": "Microsoft will start enforcing multi-factor authentication (MFA) for all users accessing the Microsoft 365 admin center starting next month. [...]",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-enforce-mfa-for-microsoft-365-admin-center-sign-ins/",
-      "source": "Bleeping Computer",
-      "author": "Sergiu Gatlan",
-      "published": "2026-01-08T07:10:34-05:00",
-      "niche": "security",
-      "score": 76,
-      "keywords": [
-        "RCE"
+        "vulnerability",
+        "exploit",
+        "attack",
+        "CVE-",
+        "injection"
       ]
     },
     {
@@ -1299,6 +1199,40 @@
       ]
     },
     {
+      "id": "95987ac44810751c",
+      "title": "New ‘Reprompt’ Attack Silently Siphons Microsoft Copilot Data",
+      "description": "The attack bypassed Copilot’s data leak protections and allowed for session exfiltration even after the Copilot chat was closed. The post New &#8216;Reprompt&#8217; Attack Silently Siphons Microsoft Copilot Data appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/new-reprompt-attack-silently-siphons-microsoft-copilot-data/",
+      "source": "SecurityWeek",
+      "author": "Ionut Arghire",
+      "published": "2026-01-15T12:09:29+00:00",
+      "niche": "security",
+      "score": 76,
+      "keywords": [
+        "security",
+        "protection",
+        "attack"
+      ]
+    },
+    {
+      "id": "bc2ac9ecaa6d4a9f",
+      "title": "Palo Alto Networks addressed a GlobalProtect flaw, PoC exists",
+      "description": "Palo Alto Networks addressed a flaw impacting GlobalProtect Gateway and Portal, for which a proof-of-concept (PoC) exploit exists. Palo Alto Networks addressed a high-severity vulnerability, tracked as CVE-2026-0227 (CVSS score: 7.7), affecting GlobalProtect Gateway and Portal, for which a proof-of-concept (PoC) exploit exists. GlobalProtect is Palo Alto Networks’ VPN and secure remote-access solution. It gives users a [&#8230;]",
+      "url": "https://securityaffairs.com/186948/hacking/palo-alto-networks-addressed-a-globalprotect-flaw-poc-exists.html",
+      "source": "Security Affairs",
+      "author": "Pierluigi Paganini",
+      "published": "2026-01-15T11:26:51+00:00",
+      "niche": "security",
+      "score": 76,
+      "keywords": [
+        "vulnerability",
+        "secure",
+        "exploit",
+        "CVE-",
+        "PoC"
+      ]
+    },
+    {
       "id": "09f3dbf17333eab0",
       "title": "FBI Warns North Korean Hackers Using Malicious QR Codes in Spear-Phishing",
       "description": "The U.S. Federal Bureau of Investigation (FBI) on Thursday released an advisory warning of North Korean state-sponsored threat actors leveraging malicious QR codes in spear-phishing campaigns targeting entities in the country. \"As of 2025, Kimsuky actors have targeted think tanks, academic institutions, and both U.S. and foreign government entities with embedded malicious Quick Response (QR)",
@@ -1384,11 +1318,11 @@
       "niche": "security",
       "score": 75,
       "keywords": [
-        "zero-day",
-        "security flaw",
         "patch",
-        "security",
-        "exploit"
+        "exploit",
+        "security flaw",
+        "zero-day",
+        "security"
       ]
     },
     {
@@ -1567,6 +1501,20 @@
       ]
     },
     {
+      "id": "06d52cf2fc6fb00d",
+      "title": "4 Outdated Habits Destroying Your SOC's MTTR in 2026",
+      "description": "It’s 2026, yet many SOCs are still operating the way they did years ago, using tools and processes designed for a very different threat landscape. Given the growth in volumes and complexity of cyber threats, outdated practices no longer fully support analysts’ needs, staggering investigations and incident response. Below are four limiting habits that may be preventing your SOC from evolving at",
+      "url": "https://thehackernews.com/2026/01/4-outdated-habits-destroying-your-socs.html",
+      "source": "The Hacker News",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-01-15T16:30:00+05:30",
+      "niche": "security",
+      "score": 72,
+      "keywords": [
+        "threat"
+      ]
+    },
+    {
       "id": "9b3f36bf53f8effe",
       "title": "Cisco identifies vulnerability in ISE network access control devices",
       "description": "The latest flaw in Cisco Systems Identity Services Engine (ISE), which could expose sensitive information to an attacker, requires rotation of credentials as well as installation of a patch to correct, says an expert. Cisco ISE is a network access control platform that enforces access policy and manages endpoints. There have been more critical holes in Cisco products, acknowledged Paddy Harrington, a senior analyst at Forrester Research, and this one does need a threat actor with administrative ",
@@ -1710,23 +1658,6 @@
         "patch",
         "security",
         "exploit"
-      ]
-    },
-    {
-      "id": "78949a1b2301184c",
-      "title": "Critical jsPDF vulnerability enables arbitrary file read in Node.js deployments",
-      "description": "A now-fixed critical flaw in the jsPDF library could enable attackers to extract sensitive files from enterprise servers and embed them directly into generated PDF documents. Tracked as CVE-2025-68428, the flaw affects unpatched Node.js deployments of jsPDF, where untrusted input is passed to file-handling APIs without proper validation. According to an Endor Labs analysis, the issue enables path traversal and local file inclusion, allowing an attacker to read arbitrary files from the underlying",
-      "url": "https://www.csoonline.com/article/4114360/critical-jspdf-vulnerability-enables-arbitrary-file-read-in-node-js-deployments.html",
-      "source": "CSO Online",
-      "author": "Inconnu",
-      "published": "2026-01-08T11:19:50+00:00",
-      "niche": "security",
-      "score": 68,
-      "keywords": [
-        "CVE-",
-        "patch",
-        "attack",
-        "vulnerability"
       ]
     },
     {
@@ -2150,16 +2081,19 @@
       ]
     },
     {
-      "id": "51e39a04528d4bd7",
-      "title": "Microsoft Exchange Online outage blocks access to mailboxes via IMAP4",
-      "description": "Microsoft is working to fix an Exchange Online service outage that intermittently prevents users from accessing their mailboxes via the Internet Mailbox Access Protocol 4 (IMAP4). [...]",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-online-outage-blocks-access-to-mailboxes-via-imap4/",
-      "source": "Bleeping Computer",
-      "author": "Sergiu Gatlan",
-      "published": "2026-01-08T07:45:35-05:00",
+      "id": "b472ff8888d090b6",
+      "title": "Central Maine Healthcare Data Breach Impacts 145,000 Individuals",
+      "description": "Hackers stole patients’ personal, treatment, and health insurance information from the organization’s IT systems. The post Central Maine Healthcare Data Breach Impacts 145,000 Individuals appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/central-maine-healthcare-data-breach-impacts-145000-individuals/",
+      "source": "SecurityWeek",
+      "author": "Ionut Arghire",
+      "published": "2026-01-15T10:36:46+00:00",
       "niche": "security",
-      "score": 64,
-      "keywords": []
+      "score": 66,
+      "keywords": [
+        "security",
+        "breach"
+      ]
     },
     {
       "id": "db02e86c9d050656",
@@ -2354,6 +2288,18 @@
       "keywords": []
     },
     {
+      "id": "9e7cdc222d917aba",
+      "title": "FTC bans GM from selling drivers' location data for five years",
+      "description": "The FTC has finalized an order with General Motors, settling charges that it collected and sold the location and driving data of millions of drivers without consent. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/ftc-bans-general-motors-from-selling-drivers-location-data-for-five-years/",
+      "source": "Bleeping Computer",
+      "author": "Sergiu Gatlan",
+      "published": "2026-01-15T04:59:30-05:00",
+      "niche": "security",
+      "score": 64,
+      "keywords": []
+    },
+    {
       "id": "02bec2f54f53a6c8",
       "title": "California bans data broker reselling health data of millions",
       "description": "The California Privacy Protection Agency (CalPrivacy) has taken action against the Datamasters marketing firm that sold the health and personal data of millions of users without being registered as a data broker. [...]",
@@ -2420,6 +2366,36 @@
       "score": 62,
       "keywords": [
         "attack"
+      ]
+    },
+    {
+      "id": "5a574d54c5df37f2",
+      "title": "AI Agents Are Becoming Authorization Bypass Paths",
+      "description": "Not long ago, AI agents were harmless. They wrote snippets of code. They answered questions. They helped individuals move a little faster. Then organizations got ambitious. Instead of personal copilots, companies started deploying shared organizational AI agents - agents embedded into HR, IT, engineering, customer support, and operations. Agents that don&rsquo;t just suggest, but act. Agents",
+      "url": "https://thehackernews.com/2026/01/ai-agents-are-becoming-privilege.html",
+      "source": "The Hacker News",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-01-14T20:37:00+05:30",
+      "niche": "security",
+      "score": 62,
+      "keywords": []
+    },
+    {
+      "id": "bf2e34960e6658a7",
+      "title": "Hitachi Energy Asset Suite",
+      "description": "View CSAF Summary Hitachi Energy is aware of a Jasper Report vulnerability that affects the Asset Suite product versions mentioned in this document below. This vulnerability can be exploited to carry out remote code execution (RCE) attack on the product. Please refer to the Recommended Immediate Actions for information about the mitigation/remediation. The following versions of Hitachi Energy Asset Suite are affected: Asset Suite (CVE-2025-10492) CVSS Vendor Equipment Vulnerabilities v3 9.8 Hita",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-008-01",
+      "source": "CISA Cybersecurity Advisories",
+      "author": "CISA",
+      "published": "2026-01-08T12:00:00+00:00",
+      "niche": "security",
+      "score": 62,
+      "keywords": [
+        "vulnerability",
+        "exploit",
+        "attack",
+        "RCE",
+        "remote code execution"
       ]
     },
     {
@@ -2499,10 +2475,10 @@
       "niche": "security",
       "score": 61,
       "keywords": [
-        "OWASP",
+        "RCE",
         "security",
         "secure",
-        "RCE"
+        "OWASP"
       ]
     },
     {
@@ -2758,24 +2734,6 @@
       ]
     },
     {
-      "id": "3dcef518ef4652a2",
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "description": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2009-0556 Microsoft Office PowerPoint Code Injection Vulnerability CVE-2025-37164 HPE OneView Code Injection Vulnerability  These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.  Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vul",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/01/07/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "source": "CISA Cybersecurity Advisories",
-      "author": "CISA",
-      "published": "2026-01-07T12:00:00+00:00",
-      "niche": "security",
-      "score": 57,
-      "keywords": [
-        "CVE-",
-        "injection",
-        "vulnerability",
-        "attack",
-        "exploit"
-      ]
-    },
-    {
       "id": "9d1b0fa1db785be6",
       "title": "Repomance - Le Tinder des dépôts GitHub",
       "description": "Si comme moi, vous êtes du genre à passer des heures sur GitHub pour dénicher la perle rare, genre un nouveau framework à la mode ou l'outil CLI qui va vous sauver la vie, j'ai trouvé un truc qui va soit booster votre productivité, soit ruiner votre temps libre. Ça s'appelle Repomance et c'est une application iOS qui transforme la découverte de dépôts GitHub en une expérience... disons, plus familière. J'vais pas y aller par 4 chemins, en fait c'est le Tinder du code. Vous avez une pile de carte",
@@ -2810,6 +2768,39 @@
       "niche": "security",
       "score": 57,
       "keywords": []
+    },
+    {
+      "id": "c67baaf97f187a1b",
+      "title": "VoidLink Linux Malware Framework Targets Cloud Environments",
+      "description": "Designed for long-term access, the framework targets cloud and container environments with loaders, implants, and rootkits. The post VoidLink Linux Malware Framework Targets Cloud Environments appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/voidlink-linux-malware-framework-targets-cloud-environments/",
+      "source": "SecurityWeek",
+      "author": "Ionut Arghire",
+      "published": "2026-01-15T09:35:19+00:00",
+      "niche": "security",
+      "score": 57,
+      "keywords": [
+        "malware",
+        "security"
+      ]
+    },
+    {
+      "id": "3dcef518ef4652a2",
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "description": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.  CVE-2009-0556 Microsoft Office PowerPoint Code Injection Vulnerability CVE-2025-37164 HPE OneView Code Injection Vulnerability  These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.  Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vul",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/01/07/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "source": "CISA Cybersecurity Advisories",
+      "author": "CISA",
+      "published": "2026-01-07T12:00:00+00:00",
+      "niche": "security",
+      "score": 57,
+      "keywords": [
+        "vulnerability",
+        "exploit",
+        "attack",
+        "CVE-",
+        "injection"
+      ]
     },
     {
       "id": "aa6ec2be32ff2d34",
@@ -3006,20 +2997,6 @@
       "score": 55,
       "keywords": [
         "secure",
-        "security"
-      ]
-    },
-    {
-      "id": "2ca55835b94e42b2",
-      "title": "Researchers Expose WHILL Wheelchair Safety Risks via Remote Hacking",
-      "description": "CISA advisory warns that unauthenticated Bluetooth access in WHILL devices allows for unauthorized movement. The post Researchers Expose WHILL Wheelchair Safety Risks via Remote Hacking appeared first on SecurityWeek.",
-      "url": "https://www.securityweek.com/researchers-expose-whill-wheelchair-safety-risks-via-remote-hacking/",
-      "source": "SecurityWeek",
-      "author": "Eduard Kovacs",
-      "published": "2026-01-08T12:41:07+00:00",
-      "niche": "security",
-      "score": 54,
-      "keywords": [
         "security"
       ]
     },
@@ -3454,6 +3431,20 @@
       ]
     },
     {
+      "id": "23ed0264667c515c",
+      "title": "Faites de 2026 l’année où vos données travaillent enfin pour vous (et plus contre vous)",
+      "description": "-- Article en partenariat avec Incogni -- On parle souvent de “bonnes résolutions” pour le Nouvel An : se remettre au sport, arrêter de scroller la nuit, cuisiner un peu plus… mais jamais d'arrêter de se faire siphonner sa vie par des boîtes dont on n’a jamais entendu parler. 2026 peut être l’année où votre identité numérique arrête de servir de carburant à des data brokers, pour redevenir ce qu’elle aurait toujours dû être : à vous, et à vous seul. Parce qu'il faut savoir être égoiste parfois.",
+      "url": "https://korben.info/vos-donnees-travaillent-enfin-pour-vous.html",
+      "source": "Korben",
+      "author": "Korben",
+      "published": "2026-01-15T12:13:34+01:00",
+      "niche": "security",
+      "score": 52,
+      "keywords": [
+        "RCE"
+      ]
+    },
+    {
       "id": "0d7397b06b6f9440",
       "title": "China-linked UAT-7290 spies on telco in South Asia and Europe using modular malware",
       "description": "China-linked UAT-7290 has targeted South Asia and Southeastern Europe since 2022, conducting espionage and deploying RushDrop, DriveSwitch, and SilentRaid. China-linked threat actor UAT-7290 has conducted espionage attacks since at least 2022, targeting South Asia and Southeastern Europe. UAT-7290 primarily targets telecom providers, it conducts espionage by deeply embedding in victim networks and also operates Operational [&#8230;]",
@@ -3511,9 +3502,9 @@
       "niche": "security",
       "score": 51,
       "keywords": [
-        "vulnerability",
+        "patch",
         "disclosure",
-        "patch"
+        "vulnerability"
       ]
     },
     {
@@ -3842,9 +3833,9 @@
       "score": 49,
       "keywords": [
         "security advisory",
-        "security",
         "vulnerability",
         "exploit",
+        "security",
         "threat"
       ]
     },
@@ -4023,8 +4014,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "CVE-",
-        "security"
+        "security",
+        "CVE-"
       ]
     },
     {
@@ -4170,6 +4161,30 @@
       ]
     },
     {
+      "id": "0cdcba079436eb56",
+      "title": "Trio of Critical Bugs Spotted in Delta Industrial PLCs",
+      "description": "Experts disagree on whether the vulnerabilities in a programmable logic controller from Delta are a five-alarm fire or not much to worry over.",
+      "url": "https://www.darkreading.com/ics-ot-security/critical-bugs-delta-industrial-plcs",
+      "source": "Dark Reading",
+      "author": "Nate Nelson, Contributing Writer",
+      "published": "2026-01-15T11:00:00+00:00",
+      "niche": "security",
+      "score": 46,
+      "keywords": []
+    },
+    {
+      "id": "7305f6c9cefca683",
+      "title": "Battling Cryptojacking, Botnets, and IABs &#x5b;Guest Diary&#x5d;, (Thu, Jan 15th)",
+      "description": "&#x5b;This is a Guest Diary by Matthew Presnal, an ISC intern as part of the SANS.edu BACS program&#x5d;&#xd;",
+      "url": "https://isc.sans.edu/diary/rss/32632",
+      "source": "SANS Internet Storm Center",
+      "author": "Inconnu",
+      "published": "2026-01-15T10:49:10+00:00",
+      "niche": "security",
+      "score": 46,
+      "keywords": []
+    },
+    {
       "id": "0fd10b72dec478f7",
       "title": "Astaroth banking Trojan spreads in Brazil via WhatsApp worm",
       "description": "A WhatsApp worm spread the Astaroth banking trojan across Brazil by automatically sending malicious messages to victims’ contacts. Astaroth, a long-running Brazilian banking malware, has evolved in a new campaign dubbed Boto Cor-de-Rosa by abusing WhatsApp Web for propagation. The malware harvests the victim’s WhatsApp contact list and automatically sends malicious messages to each contact, [&#8230;]",
@@ -4281,6 +4296,20 @@
       "score": 45,
       "keywords": [
         "threat"
+      ]
+    },
+    {
+      "id": "a8df4831a4bc4ba9",
+      "title": "Lumen disrupts AISURU and Kimwolf botnet by blocking over 550 C2 servers",
+      "description": "Lumen’s Black Lotus Labs blocked over 550 C2 servers tied to the AISURU/Kimwolf botnet used for DDoS attacks and proxy abuse. Lumen’s Black Lotus Labs disrupted over 550 command-and-control servers linked to the AISURU and Kimwolf botnet, a major network used for DDoS attacks and proxy abuse. Acting as a DDoS-for-hire service, Aisuru avoids government [&#8230;]",
+      "url": "https://securityaffairs.com/186918/cyber-crime/lumen-disrupts-aisuru-and-kimwolf-botnet-by-blocking-over-550-c2-servers.html",
+      "source": "Security Affairs",
+      "author": "Pierluigi Paganini",
+      "published": "2026-01-15T09:25:16+00:00",
+      "niche": "security",
+      "score": 45,
+      "keywords": [
+        "attack"
       ]
     },
     {
@@ -4422,8 +4451,8 @@
       "niche": "security",
       "score": 44,
       "keywords": [
-        "CVE-",
-        "security"
+        "security",
+        "CVE-"
       ]
     },
     {
@@ -4465,23 +4494,11 @@
       "niche": "security",
       "score": 43,
       "keywords": [
-        "OWASP",
+        "RCE",
         "security",
         "secure",
-        "RCE"
+        "OWASP"
       ]
-    },
-    {
-      "id": "d26a3d528915611e",
-      "title": "NIS2-Umsetzung: Neues BSI-Portal geht an den Start",
-      "description": "srcset=\"https://b2b-contenthub.com/wp-content/uploads/2026/01/shutterstock_2691920437.jpg?quality=50&strip=all 7500w, https://b2b-contenthub.com/wp-content/uploads/2026/01/shutterstock_2691920437.jpg?resize=300%2C168&quality=50&strip=all 300w, https://b2b-contenthub.com/wp-content/uploads/2026/01/shutterstock_2691920437.jpg?resize=768%2C432&quality=50&strip=all 768w, https://b2b-contenthub.com/wp-content/uploads/2026/01/shutterstock_2691920437.jpg?resize=1024%2C576&quality=50&strip=all 1024w, ht",
-      "url": "https://www.csoonline.com/article/4114344/nis2-umsetzung-neues-bsi-portal-geht-an-den-start.html",
-      "source": "CSO Online",
-      "author": "Inconnu",
-      "published": "2026-01-08T11:30:27+00:00",
-      "niche": "security",
-      "score": 42,
-      "keywords": []
     },
     {
       "id": "f5948c55168777cf",
@@ -4940,38 +4957,6 @@
       "keywords": []
     },
     {
-      "id": "5bc955c52bc2b559",
-      "title": "Columbia Weather Systems MicroServer",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to redirect connections to an attacker controlled device, gain admin access to the web portal, or gain limited shell access. The following versions of Columbia Weather Systems MicroServer are affected: MicroServer firmware (CVE-2025-61939, CVE-2025-64305, CVE-2025-66620) CVSS Vendor Equipment Vulnerabilities v3 8.8 Columbia Weather Systems Columbia Weather Systems MicroServer Improper Restriction of Commun",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-006-01",
-      "source": "CISA Cybersecurity Advisories",
-      "author": "CISA",
-      "published": "2026-01-06T12:00:00+00:00",
-      "niche": "security",
-      "score": 42,
-      "keywords": [
-        "CVE-",
-        "exploit",
-        "attack"
-      ]
-    },
-    {
-      "id": "de39f9e791a6a5b6",
-      "title": "GSoC 2025 Recap",
-      "description": "OWASP at Google Summer of Code 2025 Celebrating real impact, strong mentorship, and a growing community The Google Summer of Code (GSoC) 2025 program has wrapped, and OWASP’s participation once again delivered meaningful improvements across the open-source security ecosystem. This year, 15 contributors worked across multiple OWASP projects, supported by 26 mentors. Of the 15 projects evaluated, 10 reached successful completion, three are still working on the final deliveries with extended deadli",
-      "url": "http://owasp.org/blog/2025/10/01/GSoCRecap.html",
-      "source": "OWASP News",
-      "author": "Fabio Cerullo & Starr Brown",
-      "published": "2025-10-01T07:00:00+00:00",
-      "niche": "security",
-      "score": 42,
-      "keywords": [
-        "OWASP",
-        "security",
-        "RCE"
-      ]
-    },
-    {
       "id": "081df54572ab0271",
       "title": "Glide - Le fork Firefox entièrement hackable pour les fans de Vim",
       "description": "Coucou les petits amis, ça roule ? Aujourd'hui on va parler d'un truc qui va plaire aux barbus, aux fans de raccourcis qui font mal aux doigts et à tous ceux qui considèrent que la souris est une invention du démon. Ça s'appelle Glide et l'idée c'est de proposer un fork de Firefox entièrement hackable via du TypeScript et pas juste une extension qui se fait brider par le modèle de sécurité de Mozilla. C'est donc un vrai navigateur où vous avez la main sur tout ce qui touche au logiciel.",
@@ -5003,6 +4988,74 @@
       "source": "Korben",
       "author": "Korben",
       "published": "2026-01-15T08:24:16+01:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "c33d0231670cfc46",
+      "title": "Interrail-Kundendatenbank gehackt",
+      "description": "srcset=\"https://b2b-contenthub.com/wp-content/uploads/2026/01/shutterstock_2121877784.jpg?quality=50&strip=all 2768w, https://b2b-contenthub.com/wp-content/uploads/2026/01/shutterstock_2121877784.jpg?resize=300%2C168&quality=50&strip=all 300w, https://b2b-contenthub.com/wp-content/uploads/2026/01/shutterstock_2121877784.jpg?resize=768%2C432&quality=50&strip=all 768w, https://b2b-contenthub.com/wp-content/uploads/2026/01/shutterstock_2121877784.jpg?resize=1024%2C576&quality=50&strip=all 1024w, ht",
+      "url": "https://www.csoonline.com/article/4117313/interrail-kundendatenbank-gehackt.html",
+      "source": "CSO Online",
+      "author": "Inconnu",
+      "published": "2026-01-15T11:57:14+00:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "5bc955c52bc2b559",
+      "title": "Columbia Weather Systems MicroServer",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to redirect connections to an attacker controlled device, gain admin access to the web portal, or gain limited shell access. The following versions of Columbia Weather Systems MicroServer are affected: MicroServer firmware (CVE-2025-61939, CVE-2025-64305, CVE-2025-66620) CVSS Vendor Equipment Vulnerabilities v3 8.8 Columbia Weather Systems Columbia Weather Systems MicroServer Improper Restriction of Commun",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-006-01",
+      "source": "CISA Cybersecurity Advisories",
+      "author": "CISA",
+      "published": "2026-01-06T12:00:00+00:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": [
+        "attack",
+        "exploit",
+        "CVE-"
+      ]
+    },
+    {
+      "id": "de39f9e791a6a5b6",
+      "title": "GSoC 2025 Recap",
+      "description": "OWASP at Google Summer of Code 2025 Celebrating real impact, strong mentorship, and a growing community The Google Summer of Code (GSoC) 2025 program has wrapped, and OWASP’s participation once again delivered meaningful improvements across the open-source security ecosystem. This year, 15 contributors worked across multiple OWASP projects, supported by 26 mentors. Of the 15 projects evaluated, 10 reached successful completion, three are still working on the final deliveries with extended deadli",
+      "url": "http://owasp.org/blog/2025/10/01/GSoCRecap.html",
+      "source": "OWASP News",
+      "author": "Fabio Cerullo & Starr Brown",
+      "published": "2025-10-01T07:00:00+00:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": [
+        "RCE",
+        "security",
+        "OWASP"
+      ]
+    },
+    {
+      "id": "90883275468c80ee",
+      "title": "La France remet ça et ordonne aux VPNs de bloquer encore plus de sites pirates",
+      "description": "Bon, je vous en parlais déjà en mai dernier , la justice française avait décidé de s'attaquer aux VPN pour lutter contre le piratage des matchs de foot. Et bien devinez quoi ? Ils ont remis le couvert, et cette fois c'est encore plus costaud ! Le 18 décembre dernier, le Tribunal judiciaire de Paris a rendu une nouvelle ordonnance à la demande de la Ligue de Football Professionnel et de sa branche commerciale. Du coup, les gros du secteur des tunnels chiffrés vont devoir obtempérer : CyberGhost, ",
+      "url": "https://korben.info/vpn-blocage-sites-pirates-france-justice-2025.html",
+      "source": "Korben",
+      "author": "Korben",
+      "published": "2026-01-15T12:12:44+01:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "6fe160b2ad1b18ad",
+      "title": "L'IA détruit-elle nos institutions démocratiques ?",
+      "description": "L'IA va-t-elle vraiment détruire nos institutions ? Deux chercheurs de Boston University, Woodrow Hartzog et Jessica Silbey, viennent de publier un papier académique qui affirme que oui, et leur thèse tient en trois mécanismes : l'intelligence artificielle dégrade l'expertise humaine elle court-circuite les processus de décision et elle isole les individus. Autant dire que ça envoie du lourd ! Mais est-ce vraiment le cas ? Je vous propose de regarder un peu ce qui se passe chez nous, en France e",
+      "url": "https://korben.info/ia-detruit-institutions-democratie-europe.html",
+      "source": "Korben",
+      "author": "Korben",
+      "published": "2026-01-15T11:28:09+01:00",
       "niche": "security",
       "score": 42,
       "keywords": []
@@ -5224,10 +5277,10 @@
       "niche": "security",
       "score": 38,
       "keywords": [
-        "attack",
         "security",
+        "ransomware",
         "exploit",
-        "ransomware"
+        "attack"
       ]
     },
     {
@@ -5241,8 +5294,8 @@
       "niche": "security",
       "score": 38,
       "keywords": [
-        "OWASP",
-        "RCE"
+        "RCE",
+        "OWASP"
       ]
     },
     {
@@ -5304,9 +5357,9 @@
       "niche": "security",
       "score": 37,
       "keywords": [
-        "OWASP",
-        "security",
         "web application security",
+        "security",
+        "OWASP",
         "threat"
       ]
     },
@@ -5325,18 +5378,6 @@
       ]
     },
     {
-      "id": "326ae67a9945a180",
-      "title": "Ordre du jour de la séance plénière du 8 janvier 2026",
-      "description": "La Commission nationale de l'informatique et des libertés s’est réunie le jeudi 8 janvier 2026 à 9&nbsp;h&nbsp;30 avec l’ordre du jour suivant&nbsp;:",
-      "url": "https://www.cnil.fr/fr/ordre-du-jour-de-la-seance-pleniere-du-8-janvier-2026",
-      "source": "CNIL Actualités",
-      "author": "CNIL",
-      "published": "2026-01-08T13:00:00+01:00",
-      "niche": "security",
-      "score": 34,
-      "keywords": []
-    },
-    {
       "id": "dba2a0d71b33a03d",
       "title": "The OWASP Foundation appoints Stacey Ebbs as Communications & Marketing Manager",
       "description": "The OWASP Foundation is pleased to announce the appointment of Stacey Ebbs as Communications and Marketing Manager. Stacey brings more than a decade of experience in marketing, events, and community engagement within the cybersecurity and technology sectors. Stacey joins OWASP from IriusRisk, where she served as Field & Partner Marketing Manager for EMEA, leading regional campaigns, managing partner and social strategy, and driving global community engagement through initiatives like the Threat ",
@@ -5347,9 +5388,9 @@
       "niche": "security",
       "score": 34,
       "keywords": [
-        "cybersecurity",
-        "OWASP",
         "security",
+        "OWASP",
+        "cybersecurity",
         "threat"
       ]
     },
@@ -5402,9 +5443,9 @@
       "niche": "security",
       "score": 31,
       "keywords": [
-        "OWASP",
         "security",
-        "secure"
+        "secure",
+        "OWASP"
       ]
     },
     {
@@ -5418,8 +5459,8 @@
       "niche": "security",
       "score": 30,
       "keywords": [
-        "phishing",
-        "RCE"
+        "RCE",
+        "phishing"
       ]
     },
     {
@@ -5474,8 +5515,8 @@
       "niche": "security",
       "score": 26,
       "keywords": [
-        "injection",
-        "SQL injection"
+        "SQL injection",
+        "injection"
       ]
     },
     {
@@ -5601,8 +5642,8 @@
       "niche": "security",
       "score": 24,
       "keywords": [
-        "injection",
-        "SQL injection"
+        "SQL injection",
+        "injection"
       ]
     },
     {
@@ -5616,8 +5657,8 @@
       "niche": "security",
       "score": 24,
       "keywords": [
-        "injection",
-        "SQL injection"
+        "SQL injection",
+        "injection"
       ]
     },
     {
@@ -5631,8 +5672,8 @@
       "niche": "security",
       "score": 24,
       "keywords": [
-        "injection",
-        "SQL injection"
+        "SQL injection",
+        "injection"
       ]
     },
     {
@@ -5646,8 +5687,8 @@
       "niche": "security",
       "score": 22,
       "keywords": [
-        "cybersecurity",
         "security",
+        "cybersecurity",
         "threat"
       ]
     },
@@ -5733,8 +5774,8 @@
       "score": 19,
       "keywords": [
         "security",
-        "cybersecurity",
-        "PoC"
+        "PoC",
+        "cybersecurity"
       ]
     },
     {
@@ -5790,8 +5831,8 @@
       "niche": "security",
       "score": 18,
       "keywords": [
-        "security",
-        "malware"
+        "malware",
+        "security"
       ]
     },
     {
@@ -6210,6 +6251,18 @@
       ]
     },
     {
+      "id": "326ae67a9945a180",
+      "title": "Ordre du jour de la séance plénière du 8 janvier 2026",
+      "description": "La Commission nationale de l'informatique et des libertés s’est réunie le jeudi 8 janvier 2026 à 9&nbsp;h&nbsp;30 avec l’ordre du jour suivant&nbsp;:",
+      "url": "https://www.cnil.fr/fr/ordre-du-jour-de-la-seance-pleniere-du-8-janvier-2026",
+      "source": "CNIL Actualités",
+      "author": "CNIL",
+      "published": "2026-01-08T13:00:00+01:00",
+      "niche": "security",
+      "score": 9,
+      "keywords": []
+    },
+    {
       "id": "d89b0290030349ac",
       "title": "Trophées des classes 2026 - Ensemble, tous protégés sur Internet !",
       "description": "Le ministère de l’Éducation nationale et la CNIL organisent le concours Trophées des classes dont la thématique, pour cette édition, est «&nbsp;Comment je protège ma vie privée en ligne&nbsp;?&nbsp;».",
@@ -6219,18 +6272,6 @@
       "published": "2026-01-05T13:00:00+01:00",
       "niche": "security",
       "score": 9,
-      "keywords": []
-    },
-    {
-      "id": "de5375bd0bbf3e40",
-      "title": "ISC Stormcast For Thursday, January 8th, 2026 https://isc.sans.edu/podcastdetail/9758, (Thu, Jan 8th)",
-      "description": "",
-      "url": "https://isc.sans.edu/diary/rss/32610",
-      "source": "SANS Internet Storm Center",
-      "author": "Inconnu",
-      "published": "2026-01-08T02:00:02+00:00",
-      "niche": "security",
-      "score": 8,
       "keywords": []
     },
     {
