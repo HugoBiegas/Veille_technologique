@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-15T02:05:38.551059+00:00",
-  "total_articles": 978,
+  "last_updated": "2026-01-15T04:06:57.487364+00:00",
+  "total_articles": 980,
   "articles": [
     {
       "id": "b8e7c86fc5b22a35",
@@ -346,6 +346,20 @@
       "source": "Dev.to",
       "author": "Evan Lin",
       "published": "2026-01-15T01:01:46+00:00",
+      "niche": "dev",
+      "score": 69,
+      "keywords": [
+        "developer"
+      ]
+    },
+    {
+      "id": "fd2122917a76f8a4",
+      "title": "My Journey as an Indie Developer: Creating Photos to Google Earth to Bridge Photography and Mapping",
+      "description": "The Spark: Combining Photography and Geography As a passionate photographer and geography enthusiast, I've always been fascinated by the intersection of these two worlds. I love capturing moments through my lens, but I also wanted a way to visualize where those moments were taken— to create a \"geographical story\" of my travels. A few years ago, I tried to manually add my photos to Google Earth. I would extract GPS coordinates from my photos, create placemarks in Google Earth, and attach the phot",
+      "url": "https://dev.to/wtsolutions/my-journey-as-an-indie-developer-creating-photos-to-google-earth-to-bridge-photography-and-mapping-4def",
+      "source": "Dev.to",
+      "author": "WTSolutions",
+      "published": "2026-01-15T03:09:42+00:00",
       "niche": "dev",
       "score": 69,
       "keywords": [
@@ -1535,21 +1549,6 @@
       ]
     },
     {
-      "id": "32c32047d7c4ca39",
-      "title": "Apache Airflow: Complete Guide for Intermediate to Advanced Developers",
-      "description": "The Beginning of Your Airflow Adventure 🚀☸️ 📚 Table of Contents PART 1: FUNDAMENTALS Section 1: Introduction Section 2: Architecture Section 3: DAG & Building Blocks Section 4: Plugins Section 5: TaskFlow API PART 2: ADVANCED CONCEPTS Section 6: Deferrable Operators Section 7: Dependencies & Relationships Section 8: Scheduling Section 9: Failure Handling Section 10: SLA Management PART 3: OPERATIONS & DEPLOYMENT Section 11: Catchup Behavior Section 12: Configuration Section 13: AWS Integration S",
-      "url": "https://dev.to/datatechbridge/apache-airflow-complete-guide-for-intermediate-to-advanced-developers-263p",
-      "source": "Dev.to",
-      "author": "Data Tech Bridge",
-      "published": "2026-01-08T03:28:50+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "developer",
-        "API"
-      ]
-    },
-    {
       "id": "83f78a8f13229b1f",
       "title": "Top APM Tools in 2026: What Every Developer and Engineering Team Should Know",
       "description": "Application performance issues directly impact user experience, retention, and revenue. In 2026, modern systems are distributed, cloud-native, and heavily dependent on third-party services. Traditional monitoring is no longer enough. Application Performance Monitoring tools now need to deliver deep transaction visibility, fast root cause analysis, and clear correlation between backend performance and real user impact. This guide covers the top APM tools to watch in 2026, with a practical breakdo",
@@ -2060,45 +2059,18 @@
       ]
     },
     {
-      "id": "49a9479d015c7681",
-      "title": "Implementing Real-Time Streaming with VAPI: Enhancing Customer Support with Voice AI",
-      "description": "Implementing Real-Time Streaming with VAPI: Enhancing Customer Support with Voice AI TL;DR Most voice AI implementations fail when audio streams stall or responses lag. VAPI's WebSocket streaming eliminates that by processing audio chunks in real-time instead of waiting for full utterances. You'll build a customer support agent that interrupts mid-sentence, handles overlapping speech, and maintains sub-500ms latency. Stack: VAPI for voice orchestration, Twilio for PSTN integration, Node.js for W",
-      "url": "https://dev.to/callstacktech/implementing-real-time-streaming-with-vapi-enhancing-customer-support-with-voice-ai-182l",
+      "id": "1d70e5a9377e3bd2",
+      "title": "How to Secure Docusaurus for Internal Documentation using Vercel Middleware",
+      "description": "When building internal documentation with Docusaurus, standard static hosting exposes your sensitive content to the public internet. This guide provides a complete, step-by-step tutorial on how to secure your Docusaurus site using a serverless approach with Vercel. The Challenge Static site generators like Docusaurus are great for performance, but they produce simple HTML/JS/CSS files. Unlike a dynamic CMS, they don't have a backend to check \"Is this user logged in?\" before serving a page. We ne",
+      "url": "https://dev.to/ahikmah/how-to-secure-docusaurus-for-internal-documentation-using-vercel-middleware-5lk",
       "source": "Dev.to",
-      "author": "CallStack Tech",
-      "published": "2026-01-08T03:36:30+00:00",
+      "author": "Awaliyatul Hikmah",
+      "published": "2026-01-15T03:23:02+00:00",
       "niche": "dev",
-      "score": 54,
+      "score": 55,
       "keywords": [
-        "API"
-      ]
-    },
-    {
-      "id": "7f4b75693d1b2de2",
-      "title": "A file-based agent memory framework",
-      "description": "Hi everyone, we've open-sourced a file-based agent memory framework called memU. If you find it interesting, a GitHub star⭐️ would be much appreciated🙏 : GitHub link Andrej Karpathy, a member of OpenAI’s founding team, expressed agreement with the view that “RAG is dead.” So we built a memory framework that retrieves knowledge through LLM-based file reading. memU's Core ideas: Dual-mode retrieval: embedding + non-embedding search Non-embedding search is designed to compensate for the structural ",
-      "url": "https://dev.to/memu_ai/a-file-based-agent-memory-framework-40fm",
-      "source": "Dev.to",
-      "author": "memU",
-      "published": "2026-01-08T03:28:03+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "framework"
-      ]
-    },
-    {
-      "id": "1e823f94d998e7b5",
-      "title": "The Secret Life of Python: The Dangerous Reflection",
-      "description": "Understanding Python aliasing, references, and the trap of shallow copies. The winter wind rattled the library windows, but inside, Timothy felt secure. He was working on a critical task: the guest list for the annual Founders' Dinner. \"I am taking no chances,\" Timothy announced, tapping his screen. \"I have my master_list of VIPs. But I need to add some tentative guests to see how it looks. So, I made a copy.\" Margaret looked up from her book, her interest piqued. \"A copy, you say?\" \"Exactly,\" T",
-      "url": "https://dev.to/aaron_rose_0787cc8b4775a0/the-secret-life-of-python-the-dangerous-reflection-2oom",
-      "source": "Dev.to",
-      "author": "Aaron Rose",
-      "published": "2026-01-08T03:19:43+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "library"
+        "tutorial",
+        "performance"
       ]
     },
     {
@@ -2868,6 +2840,34 @@
       ]
     },
     {
+      "id": "3634619f0d9069e8",
+      "title": "[AWS] 7. AWS Route 53, DNS (Domain Name System), Routing Policies",
+      "description": "What is DNS? Domain Name System which translates the human friendly hostnames into the machine IP addresses www.google.com → 172.217.18.36 DNS is the backbone of the Internet DNS uses hierarchical naming structure (ex. .com, example.com, www.example.com, api.example.com) DNS Terminologies Domain Registrar: Amazon Route 53, GoDaddy, ... DNS Records: A, AAAA, CNAME, NS, ... Zone File: contains DNS records Name Server: resolves DNS queries (Authoritative or Non-Authoritative) Top Level Domain (TLD)",
+      "url": "https://dev.to/sangwoo_rhie/aws-7-aws-route-53-dns-domain-name-system-routing-policies-lae",
+      "source": "Dev.to",
+      "author": "Sangwoo Lee",
+      "published": "2026-01-15T03:21:04+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "API"
+      ]
+    },
+    {
+      "id": "907b1e457627216c",
+      "title": "Node.js January 2026 DoS Vulnerability in Async Hooks",
+      "description": "If you are running Node.js in production, it’s time to check your version numbers. Earlier today, the Node.js team released a critical security update regarding a Denial of Service (DoS) vulnerability tied to the async_hooksmodule. If you use observability tools, tracing libraries, or AsyncLocalStorageyour application might be at risk. In this post, we’ll break down what happened, why async_hooksis involved, and how to fix it. What is async_hooks anyway? Before we dive into the vulnerability, le",
+      "url": "https://dev.to/chaudharidevam/nodejs-january-2026-dos-vulnerability-in-async-hooks-nic",
+      "source": "Dev.to",
+      "author": "Devam Chaudhari",
+      "published": "2026-01-15T03:02:40+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "release"
+      ]
+    },
+    {
       "id": "5529672b79244354",
       "title": "Vibecoding On‑Chain — Using AI to Prototype Solidity Contracts (Safely)",
       "description": "I used to open Remix, stare at a blank Solidity file, and freeze. No idea where to start. So I did what everyone says: “just write more code.” I copied patterns from tutorials, tweaked a few lines, hit deploy… And still felt like I wasn’t actually learning how smart contracts worked. The weird part? It wasn’t a lack of practice. It was how I was practicing. One day I tried something different: I stopped starting from scratch — and started “vibecoding” with AI instead. Not to cheat. To see what w",
@@ -3420,20 +3420,6 @@
       "keywords": [
         "developer",
         "development"
-      ]
-    },
-    {
-      "id": "b6a35d11c07a1ef0",
-      "title": "🌐 Cisco Packet Tracer Lab Collection",
-      "description": "หมายเหตุ Tutorial นี้จัดทำขึ้นเมื่อปี 2020 และปรับปรุงเมื่อ 2026 คอลเลกชันแล็บ Cisco Packet Tracer สำหรับวิชา Data Communication and Computer Network เรียนรู้การตั้งค่าเครือข่ายตั้งแต่พื้นฐานจนถึงขั้นสูง พร้อมคำสั่งและตัวอย่างที่ใช้งานได้จริง 📖 เกี่ยวกับโปรเจกต์นี้ โปรเจกต์นี้รวบรวมแล็บ Cisco Packet Tracer ที่ครอบคลุมเนื้อหาตั้งแต่พื้นฐานไปจนถึงขั้นสูง เหมาะสำหรับผู้ที่กำลังศึกษาเรื่องเครือข่ายคอมพิวเตอร์และต้องการฝึกปฏิบัติจริง ในแต่ละ Week คุณจะได้เรียนรู้: ✅ การตั้งค่าอุปกรณ์เครือข่าย (Router",
-      "url": "https://dev.to/akkaraponph/cisco-packet-tracer-lab-collection-2m17",
-      "source": "Dev.to",
-      "author": "Akkarapon Phikulsri",
-      "published": "2026-01-08T03:56:39+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "tutorial"
       ]
     },
     {
@@ -4921,64 +4907,60 @@
       ]
     },
     {
-      "id": "d98aea2a8809cfd7",
-      "title": "How My Company Automate Meeting Notes to Jira",
-      "description": "Let's be honest for a second. Most Jira tickets don't reflect how decisions are actually made. They look clean. They look structured. But they're missing the most important thing: real context. The problem we kept ignoring At my company, decisions happened in meetings—technical discussions, trade-offs, architecture concerns, \"this might break X\" moments. Then… none of that ended up in Jira. Our workflow looked like this: We had a meeting Engineers discussed implementation details Product clarifi",
-      "url": "https://dev.to/aatechother/how-my-company-automate-meeting-notes-to-jira-4o6f",
+      "id": "aeafe9a4dd301a16",
+      "title": "Rethinking Learning Dynamics in AI Models: An Early Theory from Experimentation",
+      "description": "Observing Representation Instability During Neural Network Training While experimenting with neural network training behaviors, I started noticing a recurring pattern that does not seem to be explicitly discussed in most mainstream AI literature. This article is not meant to present a finalized solution, but rather a working theory that emerged during development. I am sharing this to ask: does this interpretation make sense, or am I misunderstanding the dynamics at play? Background Assumption M",
+      "url": "https://dev.to/nebuladata/rethinking-learning-dynamics-in-ai-models-an-early-theory-from-experimentation-4dmp",
       "source": "Dev.to",
-      "author": "A.I.",
-      "published": "2026-01-08T03:54:46+00:00",
+      "author": "NEBULA DATA",
+      "published": "2026-01-15T03:39:37+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "development"
+      ]
     },
     {
-      "id": "1565a1ff1e016c0c",
-      "title": "Beyond Manual Audits: Building an Autonomous AI Clinical Compliance Auditor",
-      "description": "Beyond Manual Audits: Building an Autonomous AI Clinical Compliance Auditor A Data-Driven Journey into Regulatory Automation via Personal Experiments TL;DR I experimented with building an autonomous AI agent to solve a massive bottleneck in clinical trials: protocol auditing. Using LangChain, a custom rules engine, and some clever data visualization, I managed to create a PoC that reduces manual review time by over 90% while maintaining higher accuracy than traditional human-only methods. This a",
-      "url": "https://dev.to/exploredataaiml/beyond-manual-audits-building-an-autonomous-ai-clinical-compliance-auditor-2abl",
+      "id": "4d4df8ccd2363785",
+      "title": "How To Solve LeetCode 586",
+      "description": "This problem asks you to find the customer number that has placed the largest quantity of orders. The customer number is the identifier for the customer in the orders table as explained in the problem. My first intuition was to look at the desired output. According to the problem description, the test cases will only produce exactly one customer with the most orders. It is important to note that at the end of the problem there is a follow up question asking what if more than one customer has the",
+      "url": "https://dev.to/cmalaga/how-to-solve-leetcode-586-2k8i",
       "source": "Dev.to",
-      "author": "Aniket Hingane",
-      "published": "2026-01-08T03:40:48+00:00",
+      "author": "Cristian Malaga",
+      "published": "2026-01-15T03:25:22+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
-      "id": "ddd46a4f5da36d3e",
-      "title": "Small Business Server Sizing Guide: CPU, RAM, SSDs",
-      "description": "Sizing a server is not about buying “the biggest box.” It is about matching CPU, RAM, and SSDs to real workloads. Get it right and users stay fast. Get it wrong and every upgrade costs time. This guide gives a simple sizing worksheet and practical rules. You will learn baseline overhead and CPU planning. You can use it for on-prem servers or VM hosts. Use it before you request quotes or renew hardware. The 5-Minute Server Sizing Worksheet Gather inputs first. Otherwise you will guess wrong. List",
-      "url": "https://dev.to/askmianzaheer/small-business-server-sizing-guide-cpu-ram-ssds-3moi",
+      "id": "337c128a17eac31e",
+      "title": "My Journey as an Indie Developer: Creating Sheet-to-Doc to Solve Document Generation Pain Points",
+      "description": "The Problem That Sparked It All It all started in 2024 when I was working as a freelance developer. I had a client who needed to generate hundreds of personalized contracts every month. They were doing this manually—copying data from Excel spreadsheets into Word templates, one by one. It was a tedious, error-prone process that took their team days to complete. As I watched them struggle, I thought, \"There has to be a better way.\" I started researching existing solutions, but I found they all had",
+      "url": "https://dev.to/wtsolutions/my-journey-as-an-indie-developer-creating-sheet-to-doc-to-solve-document-generation-pain-points-2foj",
       "source": "Dev.to",
-      "author": "Mian Zaheer",
-      "published": "2026-01-08T03:36:27+00:00",
+      "author": "WTSolutions",
+      "published": "2026-01-15T03:10:29+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
-      "id": "1a8100fe3086fd34",
-      "title": "From O(n ) to O(n): Building a Streaming Markdown Renderer for the AI Era",
-      "description": "From O(n²) to O(n): Building a Streaming Markdown Renderer for the AI Era If you've built an AI chat application, you've probably noticed something frustrating: the longer the conversation gets, the slower the rendering becomes. The reason is simple — every time the AI outputs a new token, traditional markdown parsers re-parse the entire document from scratch. This is a fundamental architectural problem, and it only gets worse as AI outputs get longer. We built Incremark to fix this. The Uncomfo",
-      "url": "https://dev.to/kingshuaishuai/from-on2-to-on-building-a-streaming-markdown-renderer-for-the-ai-era-3k0f",
+      "id": "3579a2bb156a7cf1",
+      "title": "The Case of the Zombie Code: Why my EC2 refused to update 🕵️‍♂️",
+      "description": "You know that feeling when you push a brilliant bug fix, the CI/CD pipeline gives you a \"thumbs up,\" and you go to grab a celebratory coffee? Then you open your app and realize... nothing changed. The code in your browser is the \"Zombie version\"—the one you thought you killed 10 minutes ago. It’s back from the dead, and it’s haunting your EC2 instance. 🧟‍♂️ The Crime Scene GitHub Actions: Success. AWS ECR: The latest image is sitting there with a fresh timestamp. EC2 Instance: Still running code",
+      "url": "https://dev.to/anandh_a_73d986de2f2e0c58/the-case-of-the-zombie-code-why-my-ec2-refused-to-update-3f1h",
       "source": "Dev.to",
-      "author": "king",
-      "published": "2026-01-08T03:32:35+00:00",
+      "author": "Anandh",
+      "published": "2026-01-15T03:07:39+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "e33890f5071c51ac",
-      "title": "Commit Message Format",
-      "description": "Each commit message consists of a header, a body, and a footer. The header has a special format that includes a type, a scope, and a subject: <type>(<scope>): <subject> <BLANK LINE> <body> <BLANK LINE> <footer> The header is mandatory and the scope of the header is optional. Example — fix: remove unused dependency lodash.camelcase Any line of the commit message cannot be longer than 100 characters. This allows the message to be easier to read on GitHub as well as in various git tools. Type Must ",
-      "url": "https://dev.to/akkaraponph/commit-message-format-5fl5",
-      "source": "Dev.to",
-      "author": "Akkarapon Phikulsri",
-      "published": "2026-01-08T03:16:52+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "45b78fa5706ab60b",
@@ -7985,6 +7967,42 @@
       "keywords": []
     },
     {
+      "id": "7663ab11226b6b3f",
+      "title": "[AWS] 6. AWS Fundamentals: RDS (Relational Database Service) + Amazon Aurora + ElastiCache",
+      "description": "Amazon RDS Overview RDS stands for Relational Database Service It's a managed DB service for DB use SQL as a query language It allows you to create databases in the cloud that are managed by AWS Postgres MySQL MariaDB Oracle Microsoft SQL Server IBM DB2 Aurora (AWS Proprietary database) Advantage over using RDS vs deploying DB on EC2 RDS is a managed service: Automated provisioning, OS patching Continuous backups and restore to specific timestamp (Point in Time Restore)! Monitoring dashboards Re",
+      "url": "https://dev.to/sangwoo_rhie/aws-6-aws-fundamentals-rds-relational-database-service-amazon-aurora-elasticache-4bg3",
+      "source": "Dev.to",
+      "author": "Sangwoo Lee",
+      "published": "2026-01-15T03:20:39+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "7bb0525a17cbc076",
+      "title": "[AWS] 5. High Availability and Scalability, Elastic Load Balancer (ELB), Auto Scaling Groups (ASG)",
+      "description": "Scalability & High Availability Scalability means that an application / system can handle greater loads by adapting There are two kinds of scalability: Vertical Scalability Horizontal Scalability (=elasticity) Scalability is linked but different to High Availability Let's deep dive into the distinction, using a call center as an example (1) Vertical Scalability Vertically scalability means increasing the size of the instance For example, your application runs on a t2.micro Scaling that applicati",
+      "url": "https://dev.to/sangwoo_rhie/aws-5-high-availability-and-scalability-elastic-load-balancer-elb-auto-scaling-groups-asg-fmo",
+      "source": "Dev.to",
+      "author": "Sangwoo Lee",
+      "published": "2026-01-15T03:20:25+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "c4ac96a15299b13a",
+      "title": "How Relational Database Constraints Work and Why They're Important",
+      "description": "Databases are a crucial tool because they store the data that power our day-to-day lives. Databases are designed to match the real world as much as possible, so they store data of different forms, about different things, just as it is in the world. T...",
+      "url": "https://www.freecodecamp.org/news/how-relational-database-constraints-work-and-why-theyre-important/",
+      "source": "freeCodeCamp",
+      "author": "Zubair Idris Aweda",
+      "published": "2026-01-14T22:48:02+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "6b078f8a0818c9b2",
       "title": "Cool Article on API Tools!! https://medium.com/@somendradev23/10-api-tools-every-full-stack-developer-should-know-6f9af40ae0ec",
       "description": "medium.com",
@@ -8400,18 +8418,6 @@
       ]
     },
     {
-      "id": "b110e07d85d6a5b0",
-      "title": "Kernel bugs hide for 2 years on average. Some hide for 20",
-      "description": "Comments",
-      "url": "https://pebblebed.com/blog/kernel-bugs",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-08T02:18:09+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
       "id": "0a56993c7e6fe359",
       "title": "Project Patchouli: Open-source electromagnetic drawing tablet hardware",
       "description": "Comments",
@@ -8419,30 +8425,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2026-01-08T05:20:05+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "0e070116cd67817a",
-      "title": "Chase to become new issuer of Apple Card",
-      "description": "Comments",
-      "url": "https://www.jpmorganchase.com/ir/news/2026/chase-to-become-new-issuer-of-apple-card",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-08T03:29:11+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "71c56e955003331d",
-      "title": "Open Infrastructure Map",
-      "description": "Comments",
-      "url": "https://openinframap.org",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-08T03:31:12+00:00",
       "niche": "dev",
       "score": 44,
       "keywords": []
@@ -10224,6 +10206,42 @@
       "keywords": []
     },
     {
+      "id": "2a21600e21a5f2c4",
+      "title": "The URL shortener that makes your links look as suspicious as possible",
+      "description": "Comments",
+      "url": "https://creepylink.com/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-15T03:28:20+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "ea410ef2b8f4de66",
+      "title": "Bubblewrap: A nimble way to prevent agents from accessing your .env files",
+      "description": "Comments",
+      "url": "https://patrickmccanna.net/a-better-way-to-limit-claude-code-and-other-coding-agents-access-to-secrets/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-15T01:45:22+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "eeb38486d6cb7ae6",
+      "title": "How to Build a Payroll System with Express and Monnify Using Background Jobs",
+      "description": "Processing payroll payments is an important operation for any business. When you need to pay employees simultaneously, you can't afford to have your server hang, get blocking errors, or timeout while waiting for each payment to complete. Building a p...",
+      "url": "https://www.freecodecamp.org/news/build-a-payroll-system-with-express-and-monnify-using-background-jobs/",
+      "source": "freeCodeCamp",
+      "author": "David Aniebo",
+      "published": "2026-01-14T21:41:50+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "c239d273b61c36f9",
       "title": "The Spark: Engineering an Immersive, Story-First Web Experience",
       "description": "An in-depth look at how The Spark was imagined, designed, and engineered as a cinematic, scroll-driven web experience that brings story, motion, sound, and performance together in the browser.",
@@ -10333,9 +10351,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
+        "code",
         "performance",
-        "release",
-        "code"
+        "release"
       ]
     },
     {
@@ -10365,8 +10383,8 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "performance",
         "developer",
+        "performance",
         "release"
       ]
     },
@@ -10669,8 +10687,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10684,8 +10702,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10739,8 +10757,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "API",
-        "framework"
+        "framework",
+        "API"
       ]
     },
     {
@@ -10907,10 +10925,10 @@
       "score": 30,
       "keywords": [
         "performance",
-        "release",
-        "API",
+        "code",
         "framework",
-        "code"
+        "release",
+        "API"
       ]
     },
     {
@@ -11116,6 +11134,18 @@
       "keywords": []
     },
     {
+      "id": "c62053ca05ba0101",
+      "title": "You Need a Kitchen Slide Rule",
+      "description": "Comments",
+      "url": "https://entropicthoughts.com/kitchen-slide-rule",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-13T15:40:55+00:00",
+      "niche": "dev",
+      "score": 26,
+      "keywords": []
+    },
+    {
       "id": "cd46e0b1413a2532",
       "title": "LCP and INP are now Baseline Newly available",
       "description": "LCP and INP are now Baseline Newly available as of December 12, 2025.",
@@ -11243,8 +11273,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "framework"
+        "framework",
+        "release"
       ]
     },
     {
@@ -11258,8 +11288,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "Angular",
-        "framework"
+        "framework",
+        "Angular"
       ]
     },
     {
@@ -11273,9 +11303,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "release",
+        "code",
         "development",
-        "code"
+        "release"
       ]
     },
     {
@@ -11289,9 +11319,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "performance",
+        "code",
         "developer",
-        "code"
+        "performance"
       ]
     },
     {
@@ -11305,8 +11335,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "performance",
-        "code"
+        "code",
+        "performance"
       ]
     },
     {
@@ -11335,8 +11365,8 @@
       "niche": "dev",
       "score": 18,
       "keywords": [
-        "Angular",
-        "PHP"
+        "PHP",
+        "Angular"
       ]
     },
     {
@@ -11392,8 +11422,8 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "development",
         "developer",
+        "development",
         "API"
       ]
     },
@@ -11408,9 +11438,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
+        "PHP",
         "tutorial",
-        "development",
-        "PHP"
+        "development"
       ]
     },
     {
@@ -11424,9 +11454,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
+        "PHP",
         "tutorial",
-        "development",
-        "PHP"
+        "development"
       ]
     },
     {
@@ -11440,8 +11470,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "API",
-        "code"
+        "code",
+        "API"
       ]
     },
     {
@@ -12056,8 +12086,8 @@
       "niche": "dev",
       "score": 13,
       "keywords": [
-        "API",
-        "tutorial"
+        "tutorial",
+        "API"
       ]
     },
     {
