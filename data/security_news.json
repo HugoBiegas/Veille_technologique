@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-15T18:43:53.109899+00:00",
-  "total_articles": 449,
+  "last_updated": "2026-01-15T21:27:24.881963+00:00",
+  "total_articles": 448,
   "articles": [
     {
       "id": "210dd38e090c6795",
@@ -234,6 +234,24 @@
         "privilege escalation",
         "exploit",
         "security flaw"
+      ]
+    },
+    {
+      "id": "9d2c4fe134537d39",
+      "title": "AWS CodeBuild Misconfiguration Exposed GitHub Repos to Potential Supply Chain Attacks",
+      "description": "A critical misconfiguration in Amazon Web Services (AWS) CodeBuild could have allowed complete takeover of the cloud service provider's own GitHub repositories, including its AWS JavaScript SDK, putting every AWS environment at risk. The vulnerability has been codenamed CodeBreach by cloud security company Wiz. The issue was fixed by AWS in September 2025 following responsible disclosure on",
+      "url": "https://thehackernews.com/2026/01/aws-codebuild-misconfiguration-exposed.html",
+      "source": "The Hacker News",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-01-16T01:01:00+05:30",
+      "niche": "security",
+      "score": 100,
+      "keywords": [
+        "disclosure",
+        "breach",
+        "vulnerability",
+        "security",
+        "attack"
       ]
     },
     {
@@ -993,6 +1011,20 @@
       ]
     },
     {
+      "id": "c0ce78e732729386",
+      "title": "Hackers exploit Modular DS WordPress plugin flaw for admin access",
+      "description": "Hackers are actively exploiting a maximum severity flaw in the Modular DS WordPress plugin that allows them to bypass authentication remotely and access the vulnerable sites with admin-level privileges. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-modular-ds-wordpress-plugin-flaw-for-admin-access/",
+      "source": "Bleeping Computer",
+      "author": "Bill Toulas",
+      "published": "2026-01-15T15:49:50-05:00",
+      "niche": "security",
+      "score": 80,
+      "keywords": [
+        "exploit"
+      ]
+    },
+    {
       "id": "07c24d65b301f45f",
       "title": "Email security needs more seatbelts: Why click rate is the wrong metric",
       "description": "Click rate misses the real email security risk: what attackers can do after they access a mailbox. Material Security explains why containment and post-compromise impact matter more than phishing metrics. [...]",
@@ -1289,24 +1321,6 @@
       ]
     },
     {
-      "id": "4bb9aff88025a1f1",
-      "title": "Microsoft Patch Tuesday, December 2025 Edition",
-      "description": "Microsoft today pushed updates to fix at least 56 security flaws in its Windows operating systems and supported software. This final Patch Tuesday of 2025 tackles one zero-day bug that is already being exploited, as well as two publicly disclosed vulnerabilities.",
-      "url": "https://krebsonsecurity.com/2025/12/microsoft-patch-tuesday-december-2025-edition/",
-      "source": "Krebs on Security",
-      "author": "BrianKrebs",
-      "published": "2025-12-09T23:18:29+00:00",
-      "niche": "security",
-      "score": 75,
-      "keywords": [
-        "zero-day",
-        "exploit",
-        "security flaw",
-        "patch",
-        "security"
-      ]
-    },
-    {
       "id": "ee26d0f5e267a117",
       "title": "A 0-click exploit chain for the Pixel 9 Part 2: Cracking the Sandbox with a Big Wave",
       "description": "With the advent of a potential Dolby Unified Decoder RCE exploit, it seemed prudent to see what kind of Linux kernel drivers might be accessible from the resulting userland context, the mediacodec context. As per the AOSP documentation, the mediacodec SELinux context is intended to be a constrained (a.k.a sandboxed) context where non-secure software decoders are utilized. Nevertheless, using my DriverCartographer tool, I discovered an interesting device driver, /dev/bigwave that was accessible f",
@@ -1320,6 +1334,24 @@
         "secure",
         "exploit",
         "RCE"
+      ]
+    },
+    {
+      "id": "4bb9aff88025a1f1",
+      "title": "Microsoft Patch Tuesday, December 2025 Edition",
+      "description": "Microsoft today pushed updates to fix at least 56 security flaws in its Windows operating systems and supported software. This final Patch Tuesday of 2025 tackles one zero-day bug that is already being exploited, as well as two publicly disclosed vulnerabilities.",
+      "url": "https://krebsonsecurity.com/2025/12/microsoft-patch-tuesday-december-2025-edition/",
+      "source": "Krebs on Security",
+      "author": "BrianKrebs",
+      "published": "2025-12-09T23:18:29+00:00",
+      "niche": "security",
+      "score": 75,
+      "keywords": [
+        "zero-day",
+        "exploit",
+        "patch",
+        "security",
+        "security flaw"
       ]
     },
     {
@@ -1428,6 +1460,23 @@
         "security",
         "attack",
         "remote code execution"
+      ]
+    },
+    {
+      "id": "33f2052fe10cfadf",
+      "title": "New ‘StackWarp’ Attack Threatens Confidential VMs on AMD Processors",
+      "description": "Researchers have disclosed technical details on a new AMD processor attack that allows remote code execution inside confidential VMs. The post New &#8216;StackWarp&#8217; Attack Threatens Confidential VMs on AMD Processors appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/new-stackwarp-attack-threatens-confidential-vms-on-amd-processors/",
+      "source": "SecurityWeek",
+      "author": "Eduard Kovacs",
+      "published": "2026-01-15T18:00:00+00:00",
+      "niche": "security",
+      "score": 73,
+      "keywords": [
+        "remote code execution",
+        "threat",
+        "security",
+        "attack"
       ]
     },
     {
@@ -2177,18 +2226,6 @@
       ]
     },
     {
-      "id": "db02e86c9d050656",
-      "title": "Cisco switches hit by reboot loops due to DNS client bug",
-      "description": "Multiple Cisco switch models are suddenly experiencing reboot loops after logging fatal DNS client errors, according to reports seen by BleepingComputer. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/cisco-switches-hit-by-reboot-loops-due-to-dns-client-bug/",
-      "source": "Bleeping Computer",
-      "author": "Lawrence Abrams",
-      "published": "2026-01-08T15:40:26-05:00",
-      "niche": "security",
-      "score": 64,
-      "keywords": []
-    },
-    {
       "id": "5c570ed6422bab9b",
       "title": "Gmail's new AI Inbox uses Gemini, but Google says it won’t train AI on user emails",
       "description": "Google says it's rolling out a new feature called 'AI Inbox,' which summarizes all your emails, but the company promises it won't train its models on your emails. [...]",
@@ -2381,6 +2418,30 @@
       "keywords": []
     },
     {
+      "id": "33dd1948f8c9e669",
+      "title": "Verizon blames nationwide outage on a \"software issue\"",
+      "description": "Verizon has confirmed that yesterday's nationwide wireless outage was caused by a software issue, though the company has not shared additional details about what went wrong. [...]",
+      "url": "https://www.bleepingcomputer.com/news/mobile/verizon-blames-nationwide-outage-on-a-software-issue/",
+      "source": "Bleeping Computer",
+      "author": "Lawrence Abrams",
+      "published": "2026-01-15T15:13:54-05:00",
+      "niche": "security",
+      "score": 64,
+      "keywords": []
+    },
+    {
+      "id": "52856314ec61df67",
+      "title": "Microsoft Copilot Studio extension for VS Code now publicly available",
+      "description": "Microsoft announced that the Copilot Studio extension for the Visual Studio Code (VS Code) integrated development environment is now available to all users. [...]",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-copilot-studio-extension-for-vs-code-now-publicly-available/",
+      "source": "Bleeping Computer",
+      "author": "Bill Toulas",
+      "published": "2026-01-15T14:08:13-05:00",
+      "niche": "security",
+      "score": 64,
+      "keywords": []
+    },
+    {
       "id": "02bec2f54f53a6c8",
       "title": "California bans data broker reselling health data of millions",
       "description": "The California Privacy Protection Agency (CalPrivacy) has taken action against the Datamasters marketing firm that sold the health and personal data of millions of users without being registered as a data broker. [...]",
@@ -2538,25 +2599,10 @@
       "niche": "security",
       "score": 61,
       "keywords": [
-        "secure",
+        "RCE",
         "OWASP",
-        "security",
-        "RCE"
-      ]
-    },
-    {
-      "id": "50557bb49a02a49c",
-      "title": "ChatGPT's Memory Feature Supercharges Prompt Injection",
-      "description": "The \"ZombieAgent\" exploit makes use of ChatGPT's long-term memory and advanced capabilities.",
-      "url": "https://www.darkreading.com/endpoint-security/chatgpt-memory-feature-prompt-injection",
-      "source": "Dark Reading",
-      "author": "Nate Nelson, Contributing Writer",
-      "published": "2026-01-08T20:23:34+00:00",
-      "niche": "security",
-      "score": 60,
-      "keywords": [
-        "exploit",
-        "injection"
+        "secure",
+        "security"
       ]
     },
     {
@@ -2861,6 +2907,18 @@
         "malware",
         "security"
       ]
+    },
+    {
+      "id": "e5b3d5aa0eba169b",
+      "title": "TranslateGemma - La traduction locale haute qualité par Google",
+      "description": "Vous connaissez Gemma ? Bon, hé bien Google vient de remettre une pièce dans la machine avec TranslateGemma , une nouvelle collection de modèles ouverts dédiés exclusivement à la traduction. Si vous utilisez Google Translate ou DeepL au quotidien, c'est super, ça marche bien, mais ça demande quand même une connexion internet et vos données partent dans le cloud. Donc pour ceux qui veulent garder leurs petits secrets de fabrication (ou juste les lettres d'amour de leur vieille prof de théâtre) en",
+      "url": "https://korben.info/google-translategemma.html",
+      "source": "Korben",
+      "author": "Korben",
+      "published": "2026-01-15T21:33:09+01:00",
+      "niche": "security",
+      "score": 57,
+      "keywords": []
     },
     {
       "id": "4dfe1737060e064b",
@@ -3763,6 +3821,20 @@
       ]
     },
     {
+      "id": "e6696707265c14b9",
+      "title": "Winter Olympics Could Share Podium With Cyberattackers",
+      "description": "The upcoming Winter Games in the Italian Alps are attracting both hacktivists looking to reach billions of people and state-sponsored cyber-spies targeting the attending glitterati.",
+      "url": "https://www.darkreading.com/remote-workforce/winter-olympics-podium-cyberattackers",
+      "source": "Dark Reading",
+      "author": "Jai Vijayan, Contributing Writer",
+      "published": "2026-01-15T19:10:05+00:00",
+      "niche": "security",
+      "score": 50,
+      "keywords": [
+        "attack"
+      ]
+    },
+    {
       "id": "559b7874623819f6",
       "title": "GISEC GLOBAL 2026 – The Middle East & Africa’s Largest Cybersecurity Event",
       "description": "",
@@ -3905,11 +3977,11 @@
       "niche": "security",
       "score": 49,
       "keywords": [
-        "vulnerability",
         "exploit",
+        "vulnerability",
         "threat",
-        "security advisory",
-        "security"
+        "security",
+        "security advisory"
       ]
     },
     {
@@ -4057,8 +4129,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "PoC",
-        "exploit"
+        "exploit",
+        "PoC"
       ]
     },
     {
@@ -4072,8 +4144,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "threat",
-        "exploit"
+        "exploit",
+        "threat"
       ]
     },
     {
@@ -4087,8 +4159,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "attack",
-        "exploit"
+        "exploit",
+        "attack"
       ]
     },
     {
@@ -4102,8 +4174,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "security",
-        "CVE-"
+        "CVE-",
+        "security"
       ]
     },
     {
@@ -4267,20 +4339,6 @@
       "niche": "security",
       "score": 46,
       "keywords": []
-    },
-    {
-      "id": "0fd10b72dec478f7",
-      "title": "Astaroth banking Trojan spreads in Brazil via WhatsApp worm",
-      "description": "A WhatsApp worm spread the Astaroth banking trojan across Brazil by automatically sending malicious messages to victims’ contacts. Astaroth, a long-running Brazilian banking malware, has evolved in a new campaign dubbed Boto Cor-de-Rosa by abusing WhatsApp Web for propagation. The malware harvests the victim’s WhatsApp contact list and automatically sends malicious messages to each contact, [&#8230;]",
-      "url": "https://securityaffairs.com/186685/malware/astaroth-banking-trojan-spreads-in-brazil-via-whatsapp-worm.html",
-      "source": "Security Affairs",
-      "author": "Pierluigi Paganini",
-      "published": "2026-01-08T19:00:20+00:00",
-      "niche": "security",
-      "score": 45,
-      "keywords": [
-        "malware"
-      ]
     },
     {
       "id": "55f2e69970bea76d",
@@ -4563,8 +4621,8 @@
       "niche": "security",
       "score": 44,
       "keywords": [
-        "security",
-        "CVE-"
+        "CVE-",
+        "security"
       ]
     },
     {
@@ -4606,10 +4664,10 @@
       "niche": "security",
       "score": 43,
       "keywords": [
-        "secure",
+        "RCE",
         "OWASP",
-        "security",
-        "RCE"
+        "secure",
+        "security"
       ]
     },
     {
@@ -5117,22 +5175,6 @@
       "keywords": []
     },
     {
-      "id": "de39f9e791a6a5b6",
-      "title": "GSoC 2025 Recap",
-      "description": "OWASP at Google Summer of Code 2025 Celebrating real impact, strong mentorship, and a growing community The Google Summer of Code (GSoC) 2025 program has wrapped, and OWASP’s participation once again delivered meaningful improvements across the open-source security ecosystem. This year, 15 contributors worked across multiple OWASP projects, supported by 26 mentors. Of the 15 projects evaluated, 10 reached successful completion, three are still working on the final deliveries with extended deadli",
-      "url": "http://owasp.org/blog/2025/10/01/GSoCRecap.html",
-      "source": "OWASP News",
-      "author": "Fabio Cerullo & Starr Brown",
-      "published": "2025-10-01T07:00:00+00:00",
-      "niche": "security",
-      "score": 42,
-      "keywords": [
-        "OWASP",
-        "security",
-        "RCE"
-      ]
-    },
-    {
       "id": "f3a1ad8680563802",
       "title": "WhisperPair - Vos écouteurs Bluetooth sont des traitres",
       "description": "Si vous pensiez que vos écouteurs sans fil étaient capables de garder vos secrets, j'ai une mauvaise nouvelle pour vous ! Des chercheurs du groupe COSIC de la KU Leuven (les mêmes génies qui avaient déjà hacké des Tesla il y a quelques années) viennent de dévoiler WhisperPair. C'est le petit nom d'une série de vulnérabilités qui touchent le protocole Google Fast Pair, et vous allez voir, ça craint. Le protocole Fast Pair, censé nous faciliter la vie en appairant nos gadgets en un clic, oublie en",
@@ -5155,6 +5197,22 @@
       "niche": "security",
       "score": 42,
       "keywords": []
+    },
+    {
+      "id": "de39f9e791a6a5b6",
+      "title": "GSoC 2025 Recap",
+      "description": "OWASP at Google Summer of Code 2025 Celebrating real impact, strong mentorship, and a growing community The Google Summer of Code (GSoC) 2025 program has wrapped, and OWASP’s participation once again delivered meaningful improvements across the open-source security ecosystem. This year, 15 contributors worked across multiple OWASP projects, supported by 26 mentors. Of the 15 projects evaluated, 10 reached successful completion, three are still working on the final deliveries with extended deadli",
+      "url": "http://owasp.org/blog/2025/10/01/GSoCRecap.html",
+      "source": "OWASP News",
+      "author": "Fabio Cerullo & Starr Brown",
+      "published": "2025-10-01T07:00:00+00:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": [
+        "RCE",
+        "OWASP",
+        "security"
+      ]
     },
     {
       "id": "63073500453a1c30",
@@ -5363,23 +5421,6 @@
       "keywords": []
     },
     {
-      "id": "a97b8cc4c8bfd938",
-      "title": "Smashing Security podcast #448: The Kindle that got pwned",
-      "description": "Think your Kindle is harmless? Think again! In this episode, we unpack a Black Hat Europe talk revealing how a boobytrapped audiobook could exploit the Amazon eBook reader - potentially letting an attacker break into your account and seize control of your credit card. Plus a blast from 2021's \"summer of ransomware\" returns to haunt Ireland's Health Service Executive, as victims are offered €750 each. And because it's the last show before the Christmas break, there's also a Pick of the Week that ",
-      "url": "https://grahamcluley.com/smashing-security-podcast-448/",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2025-12-18T00:30:44+00:00",
-      "niche": "security",
-      "score": 38,
-      "keywords": [
-        "ransomware",
-        "attack",
-        "exploit",
-        "security"
-      ]
-    },
-    {
       "id": "642f6e80897c7d83",
       "title": "InfoSecMap x OWASP Collaboration",
       "description": "OWASP Partners with InfoSecMap to Strengthen Global InfoSec Collaboration We’re stronger together. In a move that highlights the power of open collaboration, OWASP is proud to announce a new partnership with InfoSecMap — a community-focused project dedicated to making InfoSec events and resources more accessible, global, and inclusive. At its core, OWASP is a community-driven force building free, open resources for anyone who cares about building safer software. InfoSecMap, meanwhile, has been q",
@@ -5390,21 +5431,9 @@
       "niche": "security",
       "score": 38,
       "keywords": [
-        "OWASP",
-        "RCE"
+        "RCE",
+        "OWASP"
       ]
-    },
-    {
-      "id": "2c21f396fb6a6cc6",
-      "title": "2026-01-08: KongTuke ClickFix activity",
-      "description": "",
-      "url": "https://www.malware-traffic-analysis.net/2026/01/08/index.html",
-      "source": "Malware Traffic Analysis",
-      "author": "Inconnu",
-      "published": "2026-01-08T20:29:00+00:00",
-      "niche": "security",
-      "score": 37,
-      "keywords": []
     },
     {
       "id": "1e1306e7977066b1",
@@ -5453,9 +5482,9 @@
       "niche": "security",
       "score": 37,
       "keywords": [
-        "threat",
         "web application security",
         "OWASP",
+        "threat",
         "security"
       ]
     },
@@ -5470,9 +5499,9 @@
       "niche": "security",
       "score": 34,
       "keywords": [
-        "threat",
-        "OWASP",
         "cybersecurity",
+        "OWASP",
+        "threat",
         "security"
       ]
     },
@@ -5525,8 +5554,8 @@
       "niche": "security",
       "score": 31,
       "keywords": [
-        "secure",
         "OWASP",
+        "secure",
         "security"
       ]
     },
@@ -5754,8 +5783,8 @@
       "niche": "security",
       "score": 22,
       "keywords": [
-        "threat",
         "cybersecurity",
+        "threat",
         "security"
       ]
     },
@@ -5840,8 +5869,8 @@
       "niche": "security",
       "score": 19,
       "keywords": [
-        "PoC",
         "cybersecurity",
+        "PoC",
         "security"
       ]
     },
@@ -5927,49 +5956,6 @@
       "score": 18,
       "keywords": [
         "attack"
-      ]
-    },
-    {
-      "id": "51966c882a710a3a",
-      "title": "Smashing Security podcast #449: How to scam someone in seven days",
-      "description": "Romance scammers have apparently discovered astrology... and Taurus is their secret weapon. In episode 449 of \"Smashing Security\", we take a look inside an actual romance-fraud handbook - complete with scripts, personality “types”, corporate jargon, and a seven-day plan to get victims from hello to hand over the crypto. Then Lesley \"hacks4pancakes\" Carhart delivers a reality check on the dire cybersecurity jobs market for juniors: why entry-level roles are evaporating, how automated CV screening",
-      "url": "https://grahamcluley.com/smashing-security-podcast-449/",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2026-01-08T00:31:41+00:00",
-      "niche": "security",
-      "score": 16,
-      "keywords": [
-        "cybersecurity",
-        "security"
-      ]
-    },
-    {
-      "id": "3c27aca2dac10572",
-      "title": "Coinbase insider who sold customer data to criminals arrested in India",
-      "description": "Police in India have arrested a former Coinbase customer service agent who is believed to have been bribed by cybercriminal gangs to access sensitive customer information. Read more in my article on the Hot for Security blog.",
-      "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/coinbase-insider-who-sold-customer-data-to-criminals-arrested-in-india",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2026-01-06T08:38:25+00:00",
-      "niche": "security",
-      "score": 15,
-      "keywords": [
-        "security"
-      ]
-    },
-    {
-      "id": "7a513582fdfec53a",
-      "title": "Surveillance at sea: Cruise firm bans smart glasses to curb covert recording",
-      "description": "If you're planning a cruise for your holidays, and cannot bear the idea of being parted from your Ray-Ban Meta smart glasses, you may want to avoid sailing with MSC Cruises. The cruise line has updated its list of prohibited items, specifically banning smart glasses and similar wearable devices from public areas. Read more in my article on the Hot for Security blog.",
-      "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/surveillance-at-sea-cruise-firm-bans-smart-glasses-to-curb-covert-recording",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2025-12-17T09:33:42+00:00",
-      "niche": "security",
-      "score": 15,
-      "keywords": [
-        "security"
       ]
     },
     {
@@ -6163,18 +6149,6 @@
       ]
     },
     {
-      "id": "87b4e7f40f9aa67b",
-      "title": "The AI Fix #82: Santa Claus doesn’t exist (according to AI)",
-      "description": "Is Santa Claus real? This Christmas special of The AI Fix podcast sets out to answer that question in the most sensible way possible: by consulting chatbots, Google's festive killjoys, and the laws of relativistic physics. Your hosts unwrap a festive grab-bag of AI absurdity as Waymo self-driving taxis run over a beloved San Francisco cat, then stage several fresh PR disasters by refusing to cross bridges, block holiday parades, and apparently chauffeur a man hiding in the trunk. Meanwhile, Micr",
-      "url": "https://grahamcluley.com/the-ai-fix-82-santa-claus-doesnt-exist-according-to-ai/",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2025-12-23T15:30:44+00:00",
-      "niche": "security",
-      "score": 12,
-      "keywords": []
-    },
-    {
       "id": "a4ecc5bb0f9a18e3",
       "title": "DAST without disruption: Burp Suite DAST winter update 2025",
       "description": "AppSec teams are under constant pressure to secure fast-moving applications without slowing anything down. But scanning windows, fragile authentication, and sprawling API estates often get in the way",
@@ -6336,6 +6310,18 @@
       "published": "2025-12-08T00:00:00+00:00",
       "niche": "security",
       "score": 8,
+      "keywords": []
+    },
+    {
+      "id": "2c21f396fb6a6cc6",
+      "title": "2026-01-08: KongTuke ClickFix activity",
+      "description": "",
+      "url": "https://www.malware-traffic-analysis.net/2026/01/08/index.html",
+      "source": "Malware Traffic Analysis",
+      "author": "Inconnu",
+      "published": "2026-01-08T20:29:00+00:00",
+      "niche": "security",
+      "score": 7,
       "keywords": []
     },
     {
