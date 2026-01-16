@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-16T04:04:47.404493+00:00",
-  "total_articles": 452,
+  "last_updated": "2026-01-16T06:41:30.605626+00:00",
+  "total_articles": 455,
   "articles": [
     {
       "id": "210dd38e090c6795",
@@ -255,6 +255,24 @@
       ]
     },
     {
+      "id": "7e43a8deaad986f3",
+      "title": "Cisco Patches Zero-Day RCE Exploited by China-Linked APT in Secure Email Gateways",
+      "description": "Cisco on Thursday released security updates for a maximum-severity security flaw impacting Cisco AsyncOS Software for Cisco Secure Email Gateway and Cisco Secure Email and Web Manager, nearly a month after the company disclosed that it had been exploited as a zero-day by a China-nexus advanced persistent threat (APT) actor codenamed UAT-9686. The vulnerability, tracked as CVE-2025-20393 (CVSS",
+      "url": "https://thehackernews.com/2026/01/cisco-patches-zero-day-rce-exploited-by.html",
+      "source": "The Hacker News",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-01-16T11:08:00+05:30",
+      "niche": "security",
+      "score": 100,
+      "keywords": [
+        "patch",
+        "security",
+        "secure",
+        "zero-day",
+        "vulnerability"
+      ]
+    },
+    {
       "id": "59c2b38b191d04a3",
       "title": "University of Hawaii Cancer Center hit by ransomware attack",
       "description": "​University of Hawaii says a ransomware gang breached its Cancer Center in August 2025, stealing data of study participants, including documents from the 1990s containing Social Security numbers. [...]",
@@ -489,6 +507,22 @@
         "attack",
         "threat",
         "RCE"
+      ]
+    },
+    {
+      "id": "7b573193f5902796",
+      "title": "Critical flaw lets hackers track, eavesdrop via Bluetooth audio devices",
+      "description": "A critical vulnerability in Google's Fast Pair protocol can allow attackers to hijack Bluetooth audio accessories like wireless headphones and earbuds, track users, and eavesdrop on their conversations. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-whisperpair-flaw-lets-hackers-track-eavesdrop-via-bluetooth-audio-devices/",
+      "source": "Bleeping Computer",
+      "author": "Sergiu Gatlan",
+      "published": "2026-01-15T11:13:54-05:00",
+      "niche": "security",
+      "score": 90,
+      "keywords": [
+        "critical vulnerability",
+        "attack",
+        "vulnerability"
       ]
     },
     {
@@ -1230,21 +1264,6 @@
       ]
     },
     {
-      "id": "09f3dbf17333eab0",
-      "title": "FBI Warns North Korean Hackers Using Malicious QR Codes in Spear-Phishing",
-      "description": "The U.S. Federal Bureau of Investigation (FBI) on Thursday released an advisory warning of North Korean state-sponsored threat actors leveraging malicious QR codes in spear-phishing campaigns targeting entities in the country. \"As of 2025, Kimsuky actors have targeted think tanks, academic institutions, and both U.S. and foreign government entities with embedded malicious Quick Response (QR)",
-      "url": "https://thehackernews.com/2026/01/fbi-warns-north-korean-hackers-using.html",
-      "source": "The Hacker News",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-01-09T11:16:00+05:30",
-      "niche": "security",
-      "score": 75,
-      "keywords": [
-        "phishing",
-        "threat"
-      ]
-    },
-    {
       "id": "20693a9b5b30b1e7",
       "title": "Russian APT28 Runs Credential-Stealing Campaign Targeting Energy and Policy Organizations",
       "description": "Russian state-sponsored threat actors have been linked to a fresh set of credential harvesting attacks targeting individuals associated with a Turkish energy and nuclear research agency, as well as staff affiliated with a European think tank and organizations in North Macedonia and Uzbekistan. The activity has been attributed to APT28 (aka BlueDelta), which was attributed to a \"sustained\"",
@@ -1332,10 +1351,10 @@
       "score": 75,
       "keywords": [
         "patch",
-        "exploit",
-        "security flaw",
         "security",
-        "zero-day"
+        "zero-day",
+        "exploit",
+        "security flaw"
       ]
     },
     {
@@ -2549,10 +2568,10 @@
       "niche": "security",
       "score": 61,
       "keywords": [
-        "OWASP",
+        "secure",
         "RCE",
-        "security",
-        "secure"
+        "OWASP",
+        "security"
       ]
     },
     {
@@ -3586,6 +3605,34 @@
       ]
     },
     {
+      "id": "b5a9c63f40927068",
+      "title": "Pourquoi votre vieux serveur Windows est une bombe à retardement, et comment la désamorcer",
+      "description": "Les amis, si vous administrez encore des serveurs Windows avec des configurations \"d'époque\" (qui sentent la naphtaline quoi...), il faut qu'on parle. Google Cloud (via son équipe Mandiant) vient de sortir un papier assez creepy sur Net-NTLMv1, ce vieux protocole d'authentification qu'on croyait enterré mais qui survit encore dans pas mal d'infrastructures. Verdict implacable : c'est une véritable bombe à retardement !! BOOM 💥 ! En gros, si vous avez encore du NTLMv1 activé quelque part sur votr",
+      "url": "https://korben.info/net-ntlmv1-danger-windows-server-rainbow-tables.html",
+      "source": "Korben",
+      "author": "Korben",
+      "published": "2026-01-16T06:52:11+01:00",
+      "niche": "security",
+      "score": 52,
+      "keywords": [
+        "RCE"
+      ]
+    },
+    {
+      "id": "780f95df83263800",
+      "title": "WinBoat - Une faille critique découverte dans l'outil de virtualisation",
+      "description": "Si vous faites partie des curieux qui testent WinBoat (le projet open source de TibixDev pour lancer des applis Windows sous Linux via Docker), sachez qu'une vulnérabilité critique a été identifiée dans l'outil, et le scénario d'attaque est plutôt créatif. Pour ceux qui ne connaissent pas, WinBoat est une appli Electron qui orchestre tout un petit monde (Docker / Podman, FreeRDP) pour rendre l'expérience Windows \"seamless\" sur votre bureau Linux. C'est ambitieux, c'est en beta, et forcément, il ",
+      "url": "https://korben.info/winboat-guest-service-host-rce.html",
+      "source": "Korben",
+      "author": "Korben",
+      "published": "2026-01-16T06:38:55+01:00",
+      "niche": "security",
+      "score": 52,
+      "keywords": [
+        "RCE"
+      ]
+    },
+    {
       "id": "0d7397b06b6f9440",
       "title": "China-linked UAT-7290 spies on telco in South Asia and Europe using modular malware",
       "description": "China-linked UAT-7290 has targeted South Asia and Southeastern Europe since 2022, conducting espionage and deploying RushDrop, DriveSwitch, and SilentRaid. China-linked threat actor UAT-7290 has conducted espionage attacks since at least 2022, targeting South Asia and Southeastern Europe. UAT-7290 primarily targets telecom providers, it conducts espionage by deeply embedding in victim networks and also operates Operational [&#8230;]",
@@ -3803,6 +3850,18 @@
       ]
     },
     {
+      "id": "9b549c46fea8ab72",
+      "title": "Weekly Update 486",
+      "description": "I&#x2019;m in Oslo! Flighty is telling me I&#x2019;ve flown in or out of here 43 times since a visit in 2014 set me on a new path professionally and, many years later, personally. It&#x2019;s special here, like a second home that just feels&#x2026;",
+      "url": "https://www.troyhunt.com/weekly-update-486/",
+      "source": "Troy Hunt",
+      "author": "Troy Hunt",
+      "published": "2026-01-16T06:39:10+00:00",
+      "niche": "security",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "559b7874623819f6",
       "title": "GISEC GLOBAL 2026 – The Middle East & Africa’s Largest Cybersecurity Event",
       "description": "",
@@ -3813,22 +3872,6 @@
       "niche": "security",
       "score": 49,
       "keywords": [
-        "security",
-        "cybersecurity"
-      ]
-    },
-    {
-      "id": "dd5a8320a2ccfc1c",
-      "title": "Enterprises still aren’t getting IAM right",
-      "description": "Despite all the warnings, and constant news of devastating cyberattacks, enterprise users are still cutting corners when it comes to identity and access management (IAM). Nearly two-thirds (63%) of cybersecurity leaders admit their employees continue to bypass security controls so they can work faster, according to new research by security company CyberArk. Furthermore, enterprises are struggling to establish access policies for emerging AI agents and other agentic tools. This seems to strongly ",
-      "url": "https://www.csoonline.com/article/4114758/enterprises-still-arent-getting-iam-right-2.html",
-      "source": "CSO Online",
-      "author": "Inconnu",
-      "published": "2026-01-09T04:22:37+00:00",
-      "niche": "security",
-      "score": 49,
-      "keywords": [
-        "attack",
         "security",
         "cybersecurity"
       ]
@@ -3945,11 +3988,11 @@
       "niche": "security",
       "score": 49,
       "keywords": [
-        "security advisory",
-        "threat",
-        "exploit",
         "security",
-        "vulnerability"
+        "vulnerability",
+        "threat",
+        "security advisory",
+        "exploit"
       ]
     },
     {
@@ -4112,8 +4155,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "exploit",
-        "threat"
+        "threat",
+        "exploit"
       ]
     },
     {
@@ -4631,10 +4674,10 @@
       "niche": "security",
       "score": 43,
       "keywords": [
-        "OWASP",
+        "secure",
         "RCE",
-        "security",
-        "secure"
+        "OWASP",
+        "security"
       ]
     },
     {
@@ -5176,10 +5219,22 @@
       "niche": "security",
       "score": 42,
       "keywords": [
-        "OWASP",
         "RCE",
+        "OWASP",
         "security"
       ]
+    },
+    {
+      "id": "c7b2699225e60bba",
+      "title": "Plus de son sur Plex ? Pas de panique, voici le fix !",
+      "description": "Si vous avez récemment fait une mise à jour vers Windows 11 24H2 et que vous êtes un utilisateur assidu de Plex, vous avez peut-être remarqué un truc étrange. L'image est nickel, tout se lance parfaitement, mais niveau son... c'est le silence radio absolu. En particulier si vous tentez de lire des médias avec une piste audio EAC3 (Dolby Digital Plus) en 5.1. Vous avez beau monter le volume, vérifier vos câbles ou insulter votre carte son, rien n'y fait. Y'a que dalle...",
+      "url": "https://korben.info/reparer-son-plex-windows-11-eac3.html",
+      "source": "Korben",
+      "author": "Korben",
+      "published": "2026-01-16T06:22:19+01:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": []
     },
     {
       "id": "63073500453a1c30",
@@ -5398,10 +5453,10 @@
       "niche": "security",
       "score": 38,
       "keywords": [
-        "exploit",
-        "attack",
         "ransomware",
-        "security"
+        "exploit",
+        "security",
+        "attack"
       ]
     },
     {
@@ -5415,8 +5470,8 @@
       "niche": "security",
       "score": 38,
       "keywords": [
-        "OWASP",
-        "RCE"
+        "RCE",
+        "OWASP"
       ]
     },
     {
@@ -5466,8 +5521,8 @@
       "niche": "security",
       "score": 37,
       "keywords": [
-        "OWASP",
         "threat",
+        "OWASP",
         "web application security",
         "security"
       ]
@@ -5483,9 +5538,9 @@
       "niche": "security",
       "score": 34,
       "keywords": [
-        "OWASP",
-        "threat",
         "cybersecurity",
+        "threat",
+        "OWASP",
         "security"
       ]
     },
@@ -5538,9 +5593,9 @@
       "niche": "security",
       "score": 31,
       "keywords": [
+        "secure",
         "OWASP",
-        "security",
-        "secure"
+        "security"
       ]
     },
     {
@@ -6089,18 +6144,6 @@
       "source": "Troy Hunt",
       "author": "Troy Hunt",
       "published": "2025-12-01T06:11:03+00:00",
-      "niche": "security",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "71cf36ad49650b98",
-      "title": "Weekly Update 479",
-      "description": "I gave up on the IoT water meter reader. Being technical and thinking you can solve everything with technology is both a blessing and a curse; dogged persistence has given me the life I have today, but it has also burned serious amounts of time because I never want to",
-      "url": "https://www.troyhunt.com/weekly-update-479/",
-      "source": "Troy Hunt",
-      "author": "Troy Hunt",
-      "published": "2025-11-23T04:44:21+00:00",
       "niche": "security",
       "score": 14,
       "keywords": []
