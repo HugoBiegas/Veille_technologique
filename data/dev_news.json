@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-16T02:07:41.452216+00:00",
-  "total_articles": 992,
+  "last_updated": "2026-01-16T04:04:59.029188+00:00",
+  "total_articles": 991,
   "articles": [
     {
       "id": "b8e7c86fc5b22a35",
@@ -366,18 +366,6 @@
       ]
     },
     {
-      "id": "18e7476187effab7",
-      "title": "🩺 Move Over, Dr. Google: OpenAI Just Dropped \"ChatGPT Health\" and It’s a Privacy Nightmare (Or a Miracle?)",
-      "description": "The days of frantic 2 a.m. WebMD searches are officially numbered. But are we ready to hand over our medical records to an LLM? If you’ve been following the AI news cycle this week, you know the big drop: OpenAI has officially launched ChatGPT Health. For years, \"AI in Healthcare\" was a buzzword reserved for radiology labs and obscure backend billing systems. But as of January 2026, it just landed in your pocket. This isn't just a custom instruction or a wrapper; it's a dedicated, encrypted, and",
-      "url": "https://dev.to/siddhesh_surve/move-over-dr-google-openai-just-dropped-chatgpt-health-and-its-a-privacy-nightmare-or-a-5ah0",
-      "source": "Dev.to",
-      "author": "Siddhesh Surve",
-      "published": "2026-01-09T03:34:35+00:00",
-      "niche": "dev",
-      "score": 68,
-      "keywords": []
-    },
-    {
       "id": "bf6210a32ac86139",
       "title": "How I Bypassed Google's Broken Python SDK to Build an AI Pipeline in Docker",
       "description": "I spent the last week building DocuFlow, an event-driven data pipeline that automatically ingests PDF invoices and extracts structured financial data (Vendor, Date, Amount) using AI. The architecture was solid: Watcher Service to detect new files. Redis & Celery for asynchronous task queues. PostgreSQL for storage. Google Gemini 2.5 Flash as the intelligence layer. Everything worked perfectly on my local machine. But the moment I containerized it with Docker, everything crashed. 💥 Here is the st",
@@ -586,20 +574,6 @@
         "API",
         "performance",
         "library"
-      ]
-    },
-    {
-      "id": "483554d5f3acc6c1",
-      "title": "Anthropic blocks third-party use of Claude Code subscriptions",
-      "description": "Comments",
-      "url": "https://github.com/anomalyco/opencode/issues/7410",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-09T03:44:35+00:00",
-      "niche": "dev",
-      "score": 63,
-      "keywords": [
-        "code"
       ]
     },
     {
@@ -1188,21 +1162,6 @@
         "API",
         "code",
         "PHP"
-      ]
-    },
-    {
-      "id": "72e3a52bc7ad7536",
-      "title": "The Backtesting Nightmare: When Data Size Kills Agility",
-      "description": "Disclaimer: The analytics and data lakehouse ecosystem is evolving rapidly, with tools like Apache Iceberg, Spark, and Trino continuously introducing optimizations to address performance and scalability challenges. There are often multiple valid approaches to solving these problems, each with its own trade-offs. What's essential to understand is that storage infrastructure plays a critical role in the overall data ecosystem, and the solutions presented here represent one proven approach to addre",
-      "url": "https://dev.to/iseecodepeople/the-backtesting-nightmare-when-data-size-kills-agility-5cfo",
-      "source": "Dev.to",
-      "author": "Varun S",
-      "published": "2026-01-09T03:41:48+00:00",
-      "niche": "dev",
-      "score": 57,
-      "keywords": [
-        "performance",
-        "API"
       ]
     },
     {
@@ -1972,20 +1931,6 @@
       "keywords": [
         "API",
         "developer"
-      ]
-    },
-    {
-      "id": "6ec61c700f4c328b",
-      "title": "Deploying Custom Voice Models in VAPI for E-commerce: Key Insights",
-      "description": "Deploying Custom Voice Models in VAPI for E-commerce: Key Insights TL;DR Most e-commerce voice bots fail because they use generic voices that kill conversion. Custom voice models in VAPI let you match brand personality and reduce cart abandonment by 15-20%. You'll configure a custom voice provider, wire it into your assistant config, and handle real-time synthesis failures. Stack: VAPI for orchestration, Twilio for fallback PSTN routing, your TTS provider for branded audio. Result: voice interac",
-      "url": "https://dev.to/callstacktech/deploying-custom-voice-models-in-vapi-for-e-commerce-key-insights-4g",
-      "source": "Dev.to",
-      "author": "CallStack Tech",
-      "published": "2026-01-09T03:39:23+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "API"
       ]
     },
     {
@@ -2801,6 +2746,34 @@
       ]
     },
     {
+      "id": "d2ae2aca9b019ff2",
+      "title": "The Secret Life of JavaScript: The Blueprint",
+      "description": "Why ES6 classes are just \"syntactic sugar\" for prototypes Timothy stood at the chalkboard, admiring his work. He had drawn a perfect, rectangular box. \"Finally,\" he said, dusting his hands. \"Civilization.\" Inside the box, he had written a Class. class Book { constructor(title, author) { this.title = title; this.author = author; } read() { console.log(\"Reading \" + this.title); } } const myBook = new Book(\"The Hobbit\", \"Tolkien\"); \"Look at it, Margaret,\" Timothy beamed. \"It is clean. It is structu",
+      "url": "https://dev.to/aaron_rose_0787cc8b4775a0/the-secret-life-of-javascript-the-blueprint-55o4",
+      "source": "Dev.to",
+      "author": "Aaron Rose",
+      "published": "2026-01-16T03:25:10+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "Angular"
+      ]
+    },
+    {
+      "id": "348ce573a1b9adef",
+      "title": "Agent Calculus: A Unified Framework for AI Agent Design",
+      "description": "Abstract This document presents a unified formal framework for understanding AI agents through a calculus-like model. We introduce the concept of entities as the fundamental unit of agent computation, and define a harness that manages the flow of entities between the LLM's context and the external world. This framework elegantly unifies disparate concepts such as skills, tools, memory, subagents, and dynamic context loading under a single coherent model. 1. Introduction & Motivation The Problem ",
+      "url": "https://dev.to/herrington_darkholme/agent-calculus-a-unified-framework-for-ai-agent-design-32d8",
+      "source": "Dev.to",
+      "author": "Herrington Darkholme",
+      "published": "2026-01-16T03:11:38+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "framework"
+      ]
+    },
+    {
       "id": "fb0c9d4202838188",
       "title": "Docker Kanvas Challenges Helm and Kustomize for Kubernetes Dominance",
       "description": "🚀 What Is Docker Kanvas and Why Does It Matter for Kubernetes? Docker recently introduced Docker Kanvas, a new platform aimed at simplifying one of the hardest problems in cloud-native development: Moving from local development to production Kubernetes — without drowning in YAML. This move signals a strategic shift for Docker: from being just a container runtime to becoming a deployment and platform orchestration layer. Let’s break it down. 🧩 The Problem Docker Kanvas Is Solving Most developers ",
@@ -3453,6 +3426,21 @@
       "source": "Dev.to",
       "author": "Mark",
       "published": "2026-01-16T01:02:21+00:00",
+      "niche": "dev",
+      "score": 52,
+      "keywords": [
+        "code",
+        "developer"
+      ]
+    },
+    {
+      "id": "2e0c55e99d4a4a89",
+      "title": "Why You Should Stop Using console.log for Debugging (And What to Use Instead)",
+      "description": "Debugging is twice as hard as writing the code in the first place. — Debugging is an art that deserves better tools than console.log. Why console.log Will Slow You Down Most developers start with console.log() for debugging. But this primitive approach has hidden costs: Clutters production logs Masks real errors Breaks execution flow Let's explore better alternatives for frontend and backend debugging. Key Takeaways Understand why console.log causes problems in production Learn to use the debugg",
+      "url": "https://dev.to/mrakdon/why-you-should-stop-using-consolelog-for-debugging-and-what-to-use-instead-1ahg",
+      "source": "Dev.to",
+      "author": "Mrakdon",
+      "published": "2026-01-16T03:13:35+00:00",
       "niche": "dev",
       "score": 52,
       "keywords": [
@@ -5015,88 +5003,46 @@
       ]
     },
     {
-      "id": "0fd52fc2d06b4c59",
-      "title": "AI Trading: Lesson Learned #121: Investment Strategy Audit - Honest Assessment (Jan 9, 2026)",
-      "description": "Lesson Learned #121: Investment Strategy Audit - Honest Assessment (Jan 9, 2026) Date: January 9, 2026 Severity: CRITICAL Category: Strategy/Operations/Trust Status: Under Remediation Summary CEO requested comprehensive strategy audit after expressing distrust. This lesson documents the honest findings with evidence. Key Findings 1. Phil Town Rule 1 Compliance: PARTIAL What we have: rag_knowledge/books/phil_town_rule_one.md (279 lines of knowledge) 20 YouTube transcripts on Phil Town topics phil",
-      "url": "https://dev.to/igorganapolsky/ai-trading-lesson-learned-121-investment-strategy-audit-honest-assessment-jan-9-2026-4od3",
+      "id": "bfb965e6e0a4d024",
+      "title": "From Ops to Dev: I spent 3 months learning AI to build a free Image Background Remover",
+      "description": "Hi Dev.to community! 👋 I wanted to share a small but meaningful milestone in my journey. The Backstory I am not a professional developer; my background is in Operations. In my daily work, I often need to create simple graphics or social media posts. This frequently involves removing backgrounds from product photos or portraits. I'm a \"casual user\"—I don't need professional design software like Photoshop, I just need something quick and easy. However, I found the existing tools frustrating: They ",
+      "url": "https://dev.to/wo_ytao_734002744cb9586f0/from-ops-to-dev-i-spent-3-months-learning-ai-to-build-a-free-image-background-remover-402c",
       "source": "Dev.to",
-      "author": "Igor Ganapolsky",
-      "published": "2026-01-09T03:50:59+00:00",
+      "author": "wo ytao",
+      "published": "2026-01-16T03:40:39+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
-      "id": "9236159b5d4d0784",
-      "title": "Silent Plumbing Assistant – A Non-Conversational Retail Intelligence Agent",
-      "description": "This is a submission for the Algolia Agent Studio Challenge: Consumer-Facing Non-Conversational Experiences What I Built Silent Plumbing Assistant is a non-conversational, visual-first AI agent designed for small retail environments such as hardware and plumbing stores. In many real-world retail situations, customers cannot describe what they need because they don’t know English or the technical name of a product. They often rely on gestures, partial words, or showing broken parts. Traditional s",
-      "url": "https://dev.to/venkatesh_prasanna_d/silent-plumbing-assistant-a-non-conversational-retail-intelligence-agent-37j0",
+      "id": "bfdcd9dbb0b9188a",
+      "title": "Why I Built an AI Assistant Just to Manage My Dev.to Drafts",
+      "description": "\"The number one reason people don't finish technical blog posts is not lack of knowledge - it's formatting fatigue.\" For over a year, I've had 20 unfinished drafts in my Dev.to dashboard. Not because I lack ideas - I have notebooks full of technical rants and tutorials. The problem? The formatting overhead killed my writing flow. Let's break down my journey from Markdown struggles to building Mrakdon, my AI assistant that handles the boring stuff so I can focus on writing. Key Takeaways Why tech",
+      "url": "https://dev.to/mrakdon/why-i-built-an-ai-assistant-just-to-manage-my-devto-drafts-4lm8",
       "source": "Dev.to",
-      "author": "Venkatesh Prasanna",
-      "published": "2026-01-09T03:40:14+00:00",
+      "author": "Mrakdon",
+      "published": "2026-01-16T03:32:08+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "tutorial"
+      ]
     },
     {
-      "id": "b6f923208503c849",
-      "title": "Vertical AI over generic tools: a quick observation from real estate tech",
-      "description": "Over the past year, I’ve noticed a shift in how AI products are being designed: instead of building broad “do-everything” generators, more teams are focusing on tightly scoped, vertical-specific workflows. A recent example I came across in the real estate space uses AI to turn semi-structured listing data—descriptions, photos, and property attributes—into short-form marketing videos. What’s interesting from an engineering perspective isn’t the video output itself, but the underlying approach: do",
-      "url": "https://dev.to/roy_kim_16d74f851dcb4f676/vertical-ai-over-generic-tools-a-quick-observation-from-real-estate-tech-5agk",
+      "id": "55e7fa296c686f16",
+      "title": "I built a directory for Agent Skills (5k+ indexed) using Vibe Coding",
+      "description": "Hey devs, Just wanted to share a little project I shipped this weekend. I was getting super annoyed trying to find good agent skills for my local agents. They are scattered all over GitHub and it's a mess. So I decided to \"Vibe Code\" a solution. If you haven't tried this workflow yet (basically letting AI handle the heavy lifting while you direct the high-level logic), you need to. I used it to build a recursive crawler that indexed over 5,000+ skills way faster than I could have done manually. ",
+      "url": "https://dev.to/superhuang2/i-built-a-directory-for-agent-skills-5k-indexed-using-vibe-coding-3kn0",
       "source": "Dev.to",
-      "author": "Roy Kim",
-      "published": "2026-01-09T03:21:31+00:00",
+      "author": "SUPERHUANG2",
+      "published": "2026-01-16T03:29:23+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "9c94e896596d6b6a",
-      "title": "CandleView-An AI-driven financial time-series data visualization and rendering engine.",
-      "description": "Project URL: Github CandleView is an AI-powered financial time-series data visualization (candlestick) and graphics rendering engine. Core Features Main-chart indicators (overlayed on candlestick charts): MA, EMA, Bollinger Bands, Ichimoku Cloud, Donchian Channel, Envelope, VWAP, Heat Map, Market Profile Sub-chart indicators: RSI, MACD, Volume, Parabolic SAR, KDJ, ATR, Stochastic, CCI, Bollinger Bands Width, ADX, OBV Supported chart / charting styles (15+ mainstream candlestick types): Candlesti",
-      "url": "https://dev.to/boy_happy_672ac2dd9c29118/candleview-an-ai-driven-financial-time-series-data-visualization-and-rendering-engine-2cj0",
-      "source": "Dev.to",
-      "author": "Boy Happy",
-      "published": "2026-01-09T03:17:20+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "1185851b17723bb1",
-      "title": "Chatbot Sentiment Tracking: Analyze Customer Emotions",
-      "description": "When a customer types \"I've been waiting for THREE DAYS and still no response,\" your chatbot needs to understand more than just the words. It needs to recognize the frustration, urgency, and escalating dissatisfaction behind them. Traditional chatbots excel at parsing intent identifying what a user wants. But intent alone misses half the picture. A customer asking \"Can I cancel my subscription?\" might be calmly exploring options, or they might be moments away from churning after a terrible exper",
-      "url": "https://dev.to/chatboqai/chatbot-sentiment-tracking-analyze-customer-emotions-eji",
-      "source": "Dev.to",
-      "author": "Chatboq",
-      "published": "2026-01-09T03:11:47+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "f000fd5e507ee4f8",
-      "title": "What Creators Need From Real-Time Social Apps in 2026",
-      "description": "The social media landscape in 2026 is more fragmented than ever. Creators aren't just looking for platforms to post—they're seeking solutions to fundamental challenges that legacy social networks haven't solved. Let me share what I've learned while building a real-time social platform and what creators consistently ask for. The Real-Time Demand Real-time engagement has become non-negotiable. Creators need to see conversations, reactions, and responses as they happen, not hours later through a di",
-      "url": "https://dev.to/lukoon_lukoon_688130dadc5/what-creators-need-from-real-time-social-apps-in-2026-3kme",
-      "source": "Dev.to",
-      "author": "Lukoon Lukoon",
-      "published": "2026-01-09T03:11:06+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "ace961b18ae07168",
-      "title": "How I Generated 2,800+ SEO Pages for n8n Workflows using Next.js",
-      "description": "\"If you build it, they will come.\" ...Well, not really. Not if Google doesn't know you exist. I've been building n8nworkflows.world, a search engine for n8n automation templates. My goal was simple: make it easier to find high-quality, verified n8n workflows than the official forums. But I hit a wall. People don't just search for \"n8n workflows\". They search for specific problems: \"How to save Telegram files to Google Drive\" \"Notion to Slack automation\" \"Postgres to Google Sheets sync\" To captur",
-      "url": "https://dev.to/iloven8n/how-i-generated-2800-seo-pages-for-n8n-workflows-using-nextjs-2p5k",
-      "source": "Dev.to",
-      "author": "zo Aoo",
-      "published": "2026-01-09T03:11:06+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "d81df7d3e930a07c",
@@ -8043,6 +7989,54 @@
       "keywords": []
     },
     {
+      "id": "6aeb1ba5a29af5d6",
+      "title": "Planning a Transition to Rust After 6+ Years with C#",
+      "description": "I've spent 6–7 years working with C#, but over time it has started to feel bloated and restrictive. I miss having precise, low-level control over how things actually work. I've begun exploring Rust, and it already feels refreshing. It's still early, but I can see myself gradually transitioning to it over the coming years. Recently, I had to work on streaming in C# for an enterprise application with minimal real constraints; and honestly, the experience was frustrating. The abstractions get in th",
+      "url": "https://dev.to/birajmainali/planning-a-transition-to-rust-after-6-years-with-c-4ke8",
+      "source": "Dev.to",
+      "author": "Biraj Mainali",
+      "published": "2026-01-16T03:28:15+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "10a7391cadb13165",
+      "title": "Why Your Compliance Team Secretly Wants Sentinel: The Database That Audits Itself",
+      "description": "Originally published at Cyberpath The Compliance Nightmare You Didn't Know You Had Your compliance officer just asked a simple question: \"Can you prove that file X hasn't been modified in the last six months?\" What should be a five-minute answer turns into a five-day investigation. You dig through backup logs, check database transaction histories, search for audit entries, and cross-reference three different systems. The answer was probably always yes, but proving it cost you 40 hours of enginee",
+      "url": "https://dev.to/cyberpath/why-your-compliance-team-secretly-wants-sentinel-the-database-that-audits-itself-2ofp",
+      "source": "Dev.to",
+      "author": "Emanuele Balsamo",
+      "published": "2026-01-16T03:27:56+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "b4491b828ae504f8",
+      "title": "CPU cache ဆိုတာ ဘာလဲ။",
+      "description": "Cache ဆိုတာ မြန်မာလို ပြောရရင်တော့ ခေတ္တယာယီနေရာပါ။ CPU မှာ L1, L2 နဲ့ L3 cache တွေရှိပါတယ်။ L1 နဲ့ L2 cache တွေက Core တိုင်းမှာ ပါပြီး L3 ကတော့ shared cache ပါ။ CPU ဟာ instruction တစ်ခုကို ဖတ်ရင် L1(32KB) မှာ အရင်ဖတ်တယ်။ L1 ကို အနီးဆုံး cache လို့ သဘောထားလို့ရပါတယ်။ သူ့ဆီက Data ယူရဖို့ ဆိုရင် CPU က 3-5 cycles လောက်နဲ့ ယူနိုင်ပါတယ်။ အလွန်မြန်တာပါ။ L1 မှာ instruction ကို မတွေ့ရင်တော့ CPU ဟာ L2 cache(256KB) မှာ ထပ်ရှာပါတယ်။ သူကတော့ 10-15 cycles လောက် CPU ကနေသွားရပါတယ်။ နောက်ဆုံး cache က L3 ပါ။ L3 ",
+      "url": "https://dev.to/zawhtutwin/cpu-cache-chiuttaa-bhaalai--1p9c",
+      "source": "Dev.to",
+      "author": "Zaw Htut Win",
+      "published": "2026-01-16T03:24:09+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "d060cc3d09f9ae68",
+      "title": "I Built a Real-Time HackerNews Trend Radar With AI (And It Runs Itself)",
+      "description": "Every day, HackerNews quietly decides what the dev world will care about next. But unless you're doom-scrolling it all day, you're missing the real signal: which topics are actually taking off right now, across threads and deep comment chains. So instead of manually refreshing HN, I built a real-time \"trend radar\" on top of it: Continuously ingests fresh HN stories and comments Uses an LLM to extract structured topics (companies, tools, models, tech terms) Streams everything into Postgres for in",
+      "url": "https://dev.to/badmonster0/i-built-a-real-time-hackernews-trend-radar-with-ai-and-it-runs-itself-1apm",
+      "source": "Dev.to",
+      "author": "Linghua Jin",
+      "published": "2026-01-16T03:11:14+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "6b078f8a0818c9b2",
       "title": "Cool Article on API Tools!! https://medium.com/@somendradev23/10-api-tools-every-full-stack-developer-should-know-6f9af40ae0ec",
       "description": "medium.com",
@@ -8452,18 +8446,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "2ba1a68f7fd588ae",
-      "title": "Show HN: Executable Markdown files with Unix pipes",
-      "description": "Comments",
-      "url": "https://news.ycombinator.com/item?id=46549444",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-09T02:29:12+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "c1acba33a5b31f4a",
@@ -10338,6 +10320,30 @@
       "keywords": []
     },
     {
+      "id": "0666f49f78cbd2e3",
+      "title": "OpenBSD-current now runs as guest under Apple Hypervisor",
+      "description": "Comments",
+      "url": "https://www.undeadly.org/cgi?action=article;sid=20260115203619",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-16T03:10:36+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "c2aacb05f067ec2f",
+      "title": "Cloudflare threatens Italy exit over €14M fine",
+      "description": "Comments",
+      "url": "https://ioplus.nl/en/posts/cloudflare-threatens-italy-exit-over-14m-fine",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-16T02:59:59+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "c239d273b61c36f9",
       "title": "The Spark: Engineering an Immersive, Story-First Web Experience",
       "description": "An in-depth look at how The Spark was imagined, designed, and engineered as a cinematic, scroll-driven web experience that brings story, motion, sound, and performance together in the browser.",
@@ -10390,8 +10396,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "React 19",
-        "performance"
+        "performance",
+        "React 19"
       ]
     },
     {
@@ -10433,9 +10439,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
+        "performance",
         "code",
-        "release",
-        "performance"
+        "release"
       ]
     },
     {
@@ -10771,8 +10777,8 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "React 19",
         "API",
+        "React 19",
         "release"
       ]
     },
@@ -10815,8 +10821,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -10830,8 +10836,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -10902,8 +10908,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "framework",
-        "API"
+        "API",
+        "framework"
       ]
     },
     {
@@ -11082,10 +11088,10 @@
       "score": 30,
       "keywords": [
         "API",
-        "performance",
-        "code",
+        "framework",
         "release",
-        "framework"
+        "code",
+        "performance"
       ]
     },
     {
@@ -11440,8 +11446,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "framework",
-        "release"
+        "release",
+        "framework"
       ]
     },
     {
@@ -11470,9 +11476,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
+        "performance",
         "code",
-        "developer",
-        "performance"
+        "developer"
       ]
     },
     {
@@ -11486,8 +11492,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "code",
-        "performance"
+        "performance",
+        "code"
       ]
     },
     {
@@ -11501,8 +11507,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -11573,8 +11579,8 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "development",
         "API",
+        "development",
         "developer"
       ]
     },
@@ -11589,9 +11595,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "PHP",
+        "development",
         "tutorial",
-        "development"
+        "PHP"
       ]
     },
     {
@@ -11605,9 +11611,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "PHP",
+        "development",
         "tutorial",
-        "development"
+        "PHP"
       ]
     },
     {
@@ -11621,8 +11627,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "code",
-        "API"
+        "API",
+        "code"
       ]
     },
     {
@@ -11759,18 +11765,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2026-01-09T19:05:04+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "1d831d82eb9c1e24",
-      "title": "Implementing a web server in a single printf() call (2014)",
-      "description": "Comments",
-      "url": "https://tinyhack.com/2014/03/12/implementing-a-web-server-in-a-single-printf-call/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-09T03:24:12+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -12122,8 +12116,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "programming",
-        "development"
+        "development",
+        "programming"
       ]
     },
     {
@@ -12227,8 +12221,8 @@
       "niche": "dev",
       "score": 13,
       "keywords": [
-        "tutorial",
-        "API"
+        "API",
+        "tutorial"
       ]
     },
     {
