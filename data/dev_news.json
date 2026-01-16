@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-16T06:41:42.660053+00:00",
-  "total_articles": 994,
+  "last_updated": "2026-01-16T09:33:20.299638+00:00",
+  "total_articles": 991,
   "articles": [
     {
       "id": "b8e7c86fc5b22a35",
@@ -123,6 +123,21 @@
       "keywords": [
         "release",
         "developer"
+      ]
+    },
+    {
+      "id": "e9c801151a62d4a8",
+      "title": "Angular: Stop Overusing ChangeDetectorRef",
+      "description": "In Angular development, we often run into change detection issues, for example when some fields are not updated properly in the template. At that point, we need to investigate where the problem is, and since AI is now part of our day-to-day work, we often use it to help identify the root cause. However, I have observed many times that Copilot suggests using detectChanges() or markForCheck() as a quick fix for various problems. In most cases, these methods do not solve the root cause. The actual ",
+      "url": "https://dev.to/gramli/angular-stop-overusing-changedetectorref-33oa",
+      "source": "Dev.to",
+      "author": "Daniel Balcarek",
+      "published": "2026-01-16T09:18:13+00:00",
+      "niche": "dev",
+      "score": 73,
+      "keywords": [
+        "Angular",
+        "development"
       ]
     },
     {
@@ -366,6 +381,20 @@
       ]
     },
     {
+      "id": "bb83975f65b379fd",
+      "title": "Understanding Git and GitHub: Pushing, Pulling, and Tracking Code (Beginner-Friendly Guide)",
+      "description": "As you grow in your tech journey, one tool you will definitely encounter early is Git. At first, it might feel confusing or even intimidating, but once you understand why it exists and how it works, it becomes one of the most powerful tools in your workflow. In this article, we’ll cover: What Git is and why version control is important How to push code to GitHub How to pull code from GitHub How to track changes using Git Let’s break it down step by step. What Is Git and Why Is Version Control Im",
+      "url": "https://dev.to/k1int/understanding-git-and-github-pushing-pulling-and-tracking-code-beginner-friendly-guide-1bkm",
+      "source": "Dev.to",
+      "author": "ClintWithK",
+      "published": "2026-01-16T09:20:04+00:00",
+      "niche": "dev",
+      "score": 69,
+      "keywords": [
+        "code"
+      ]
+    },
+    {
       "id": "bf6210a32ac86139",
       "title": "How I Bypassed Google's Broken Python SDK to Build an AI Pipeline in Docker",
       "description": "I spent the last week building DocuFlow, an event-driven data pipeline that automatically ingests PDF invoices and extracts structured financial data (Vendor, Date, Amount) using AI. The architecture was solid: Watcher Service to detect new files. Redis & Celery for asynchronous task queues. PostgreSQL for storage. Google Gemini 2.5 Flash as the intelligence layer. Everything worked perfectly on my local machine. But the moment I containerized it with Docker, everything crashed. 💥 Here is the st",
@@ -534,6 +563,18 @@
       "keywords": []
     },
     {
+      "id": "dc673da0c19760c3",
+      "title": "ReactJS Hook Pattern ~Use Hook with Context~",
+      "description": "・In ReactJS 19, the use hook was introduced to provide a more flexible way of reading context values than the 'useContext' hook. The use hook can be called conditionally inside if statements and loops, making it ideal for achieving dynamic behaviour in components. import { createContext, useContext, use } from \"react\"; import \"./app.css\"; const ThemeContext = createContext(null); function Button({ show, children }) { if (show) { const theme = use(ThemeContext); const className = \"button-\" + them",
+      "url": "https://dev.to/kkr0423/reactjs-hook-pattern-use-hook-with-context-595k",
+      "source": "Dev.to",
+      "author": "Ogasawara Kakeru",
+      "published": "2026-01-16T08:56:23+00:00",
+      "niche": "dev",
+      "score": 68,
+      "keywords": []
+    },
+    {
       "id": "6a176575316c23ee",
       "title": "Bichon: A lightweight, high-performance Rust email archiver with WebUI",
       "description": "Comments",
@@ -617,18 +658,6 @@
       "keywords": [
         "programming"
       ]
-    },
-    {
-      "id": "74ce65a12f027bab",
-      "title": "Mathematics for Computer Science (2018) [pdf]",
-      "description": "Comments",
-      "url": "https://courses.csail.mit.edu/6.042/spring18/mcs.pdf",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-09T07:06:41+00:00",
-      "niche": "dev",
-      "score": 62,
-      "keywords": []
     },
     {
       "id": "46a1bf4ce49ace52",
@@ -1912,6 +1941,36 @@
       "keywords": [
         "API",
         "developer"
+      ]
+    },
+    {
+      "id": "7a439a04ff202556",
+      "title": "Best Practices in API Design with Node.js & Express.js",
+      "description": "Introduction: Why Most APIs Fail Before They Scale 🚨 You can build an API that works today… and still be building a broken system tomorrow. Many APIs fail not because of traffic, but because of poor design decisions made early-inconsistent responses, unclear endpoints, missing validations, or tight coupling between logic and routes. If you’re building APIs with Node.js and Express.js, this article will walk you through battle-tested best practices that improve maintainability, scalability, secur",
+      "url": "https://dev.to/msnmongare/best-practices-in-api-design-with-nodejs-expressjs-1bno",
+      "source": "Dev.to",
+      "author": "Sospeter Mong'are",
+      "published": "2026-01-16T09:14:14+00:00",
+      "niche": "dev",
+      "score": 55,
+      "keywords": [
+        "best practices",
+        "API"
+      ]
+    },
+    {
+      "id": "b056ffd984d839db",
+      "title": "From Pixel Smudges to HD: My Battle with Legacy Assets and AI Restoration",
+      "description": "<h1>From Pixel Smudges to HD: My Battle with Legacy Assets and AI Restoration</h1> <p><em>By a Full-Stack Developer who spent too long trying to fix JPEGs with Python scripts.</em></p> <p>It was 2 AM on a Thursday in late 2023 when I hit the wall. I was handling a migration for a client moving their e-commerce catalog from a legacy Magento 1 setup to a modern headless stack. The backend migration was smooth-Postgres was happy, the APIs were responding in sub-50ms. But the frontend looked terribl",
+      "url": "https://dev.to/kaushik_pandav_aiml/from-pixel-smudges-to-hd-my-battle-with-legacy-assets-and-ai-restoration-1a2h",
+      "source": "Dev.to",
+      "author": "Kaushik Pandav",
+      "published": "2026-01-16T08:46:00+00:00",
+      "niche": "dev",
+      "score": 55,
+      "keywords": [
+        "developer",
+        "API"
       ]
     },
     {
@@ -3456,62 +3515,6 @@
       "keywords": [
         "development",
         "developer"
-      ]
-    },
-    {
-      "id": "2b8cf604d626dcbb",
-      "title": "Every ecommerce hero needs a Sidekick",
-      "description": "Ryan is joined by Vanessa Lee, VP of Product at Shopify, to discuss how AI is a tech renaissance and how these new technologies are affecting the ecommerce world. They cover the development of Sidekick, their new tool, along with the general challenges of building AI tools, the importance of maintaining human oversight in AI, and what the future holds for personalized user experiences in ecommerce.",
-      "url": "https://stackoverflow.blog/2026/01/09/every-ecommerce-hero-needs-a-sidekick/",
-      "source": "Stack Overflow Blog",
-      "author": "Phoebe Sajor",
-      "published": "2026-01-09T08:40:00+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "development"
-      ]
-    },
-    {
-      "id": "4dd9c811112097cf",
-      "title": "IAM is Broken for AI Agents: Introducing Dynamic RBAC for Agentic Security",
-      "description": "🤯 Your New AI Employee is Too Fast for Your Old Security The era of the simple, static chatbot is over. We're now building autonomous systems that execute multi-step tasks, make decisions, and take actions in the real world. Imagine an agent that can analyze your inbox, draft replies, send them, and log everything in a CRM, all from a single prompt. Or one that writes, tests, and deploys code to a staging environment. The efficiency is staggering. But this autonomy introduces a massive security ",
-      "url": "https://dev.to/alessandro_pignati/iam-is-broken-for-ai-agents-introducing-dynamic-rbac-for-agentic-security-m96",
-      "source": "Dev.to",
-      "author": "Alessandro Pignati",
-      "published": "2026-01-09T09:06:33+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "014f675edbe7cda6",
-      "title": "How LED Display Control Software Works: A Developer’s Guide",
-      "description": "When people talk about LED displays, they usually focus on hardware specs—pixel pitch, brightness, or cabinet size. But in real-world LED systems, software is what makes everything work together. Modern LED displays behave more like distributed software systems than simple screens. Control software is responsible for signal processing, pixel mapping, color calibration, synchronization, and system stability. This article breaks down how LED display control software works from a developer’s perspe",
-      "url": "https://dev.to/tao_ce1f13b8e68c50d57fc7b_6/how-led-display-control-software-works-a-developers-guide-lii",
-      "source": "Dev.to",
-      "author": "Unit LED",
-      "published": "2026-01-09T08:59:19+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "developer"
-      ]
-    },
-    {
-      "id": "f6f23f283548e49c",
-      "title": "🚀 Migrating a Large-Scale Monorepo from Next.js 14 to 16: A Real-World Journey",
-      "description": "🧭 TL;DR We migrated a large production Next.js monorepo (240+ route files, 3k+ i18n strings) from Next.js 14 → 16 by preparing the codebase first, upgrading dependencies incrementally, and relying heavily on Next.js codemods + AI-assisted refactoring. The biggest breaking change was async route params, but with a phased approach and automation, we completed the migration in ~2 weeks with minimal production risk. Upgrading a large enterprise application with a monorepo structure from Next.js 14 t",
-      "url": "https://dev.to/abhilashlr/migrating-a-large-scale-monorepo-from-nextjs-14-to-16-a-real-world-journey-5383",
-      "source": "Dev.to",
-      "author": "abhilashlr",
-      "published": "2026-01-09T08:55:23+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
       ]
     },
     {
@@ -5069,88 +5072,32 @@
       ]
     },
     {
-      "id": "6eb93310e54cd1c6",
-      "title": "واتساب يطور من تجربة المستخدم: ثلاث ميزات جديدة لتحسين المحادثات الجماعية",
-      "description": "واتساب يطور من تجربة المستخدم: ثلاث ميزات جديدة لتحسين المحادثات الجماعية في إطار جهود واتساب المستمرة لتحسين تجربة المستخدم، تم إضافة ثلاث ميزات جديدة هامة لتنظيم المحادثات الجماعية. هذه الميزات تهدف إلى تسهيل التواصل والتنظيم داخل المجموعات الكبيرة، وستكون مفيدة بشكل خاص للمستخدمين الذين يشاركون في مجموعات كبيرة أو يديرون مجموعات على منصة واتساب. ميزة تحويل الرسائل الصوتية إلى نص يمكن للمستخدمين الآن تحويل الرسائل الصوتية إلى نص بسهولة، مما يسهل قراءة المحادثات ومراجعتها فيما بعد. هذه الميزة م",
-      "url": "https://dev.to/mohamedshabanai/wtsb-ytwr-mn-tjrb-lmstkhdm-thlth-myzt-jdyd-lthsyn-lmhdtht-ljmy-5784",
+      "id": "e62df3f04cb39a0e",
+      "title": "Pilot vs. Engineer: How Flying a UAV Changes the Way I Write Code",
+      "description": "**As an Electrical-Electronics Engineering student and a licensed UAV pilot, I’ve spent countless hours behind two different screens: the IDE where I write flight control logic, and the Ground Control Station (GCS) where I monitor that logic in the sky. Early in my journey, I thought that if the simulation in Gazebo looked perfect, the flight would be perfect. I was wrong. Transitioning from the desk to the field taught me that \"perfect code\" can fail if it doesn't account for the \"chaos\" of rea",
+      "url": "https://dev.to/asikarastallion/pilot-vs-engineer-how-flying-a-uav-changes-the-way-i-write-code-408g",
       "source": "Dev.to",
-      "author": "Mohamed Shaban",
-      "published": "2026-01-09T09:10:49+00:00",
+      "author": "MUSTAFA SERDAR SÖKMEN",
+      "published": "2026-01-16T09:05:00+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
-      "id": "477691472140b5b9",
-      "title": "🚨 How We Rescued a Dead Azure Linux VM After SSH, Agent, and OS Disk All Broke (A Real Production War Story)",
-      "description": "TL;DR: Azure VM became completely inaccessible: SSH hung forever RunCommand was locked VM agent was corrupted OS disk had already been swapped once The fix wasn’t another hack — it was a controlled surgical migration to a fresh VM identity using the same OS disk. This post is the full battle log. 🧩 The Situation We were running a monitoring server on Azure (Ubuntu). One day: SSH stopped responding (connection established → banner timeout) Azure RunCommand extension locked itself permanently VM a",
-      "url": "https://dev.to/starkprince/how-we-rescued-a-dead-azure-linux-vm-after-ssh-agent-and-os-disk-all-broke-a-real-production-4aa1",
+      "id": "c1a6608bc0ae92f5",
+      "title": "I Built the Product. Marketing Is the Part That’s Breaking Me.",
+      "description": "When I started building Web2Phone, I thought the hard part would be technical: infrastructure, edge cases, deliverability, security, GDPR… all the stuff that can quietly ruin your week. Turns out I was wrong. Building the product was the part I understand. Marketing is the part that makes me feel like I’m guessing in public. I’m a solo founder and fullstack developer. I can ship features, fix bugs, and make a system reliable. But the minute I need to explain what I built — clearly, consistently,",
+      "url": "https://dev.to/joe_seabrook_0f1e8fc0b720/i-built-the-product-marketing-is-the-part-thats-breaking-me-jol",
       "source": "Dev.to",
-      "author": "Prince Raj",
-      "published": "2026-01-09T09:10:17+00:00",
+      "author": "Joe Seabrook",
+      "published": "2026-01-16T09:03:56+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "a6eff0e9d24efcce",
-      "title": "Tired of Switching Tools Just to Write Markdown?",
-      "description": "Ever Felt Markdown Writing Should Be Way Easier? Okay, honest question — why does writing Markdown still feel harder than it should? You open one editor to write, another tab to preview, Google to check Mermaid syntax, and then pray your math renders correctly on GitHub. If you’ve felt this pain, congrats — you’re officially part of the club. And that exact frustration is why Markdown Weaver exists. So What Is Markdown Weaver? (Buddy Explanation) Think of Markdown Weaver as that one chill friend",
-      "url": "https://dev.to/vasughanta09/tired-of-switching-tools-just-to-write-markdown-28eb",
-      "source": "Dev.to",
-      "author": "Vasu Ghanta",
-      "published": "2026-01-09T09:08:17+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "20c8d662e1aa08a9",
-      "title": "How to Prepare for a Certification in any Tech Career",
-      "description": "As AI evolves, programmers must understand how to improve themselves and how to raise their values. Certifications are an effective way to acquire new skills while studying and to gain recognition in the job market. While certifications from platform like Udemy are useful for learning new skills, there are many certifications that significantly enhance professional capabilities. In this article, I will outline the most essential certifications and explain how to prepare for them. The Role and Im",
-      "url": "https://dev.to/kwan/how-to-prepare-for-a-certification-in-any-tech-career-21lh",
-      "source": "Dev.to",
-      "author": "KWAN",
-      "published": "2026-01-09T09:04:45+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "bc7920872f2b9146",
-      "title": "Laid Off on the First Workday of the Year—and What Came Next",
-      "description": "How would you feel if you were affected by a layoff on the very first workday of the year due to restructuring? You’d probably feel emotionally drained. And that’s okay; no one wants to lose their job, especially not on the first workday of a new year. This is usually the time when people reflect on the past year—though maybe it’s just me, and not everyone does this before work fully resumes in January, i.e., set goals and make plans for what’s ahead. You’ve already mapped things out, set target",
-      "url": "https://dev.to/miracool/laid-off-on-the-first-workday-of-the-year-and-what-came-next-gii",
-      "source": "Dev.to",
-      "author": "Makanju Oluwafemi",
-      "published": "2026-01-09T08:52:55+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "f956ae229f72e12a",
-      "title": "زمن التفكير: كيف يغير лицо النماذج",
-      "description": "مقدمة زمن التفكير هو مفهوم هام في تحسين أداء النماذج، ولكن ما هو بالضبط؟ وكيف يعمل؟ في هذا المقال، سنقدم نظرة شاملة على زمن التفكير، وكيف يمكن استخدامه لتحسين أداء النماذج. ما هو زمن التفكير؟ زمن التفكير هو الوقت الذي يقضيه النموذج في التفكير في الإجابة، قبل أن يقدمها. هذا الوقت يمكن أن يكون حاسمًا في تحسين أداء النماذج، حيث يمكن للنموذج استخدام هذا الوقت لمراجعة الإجابة، وتحسينها، أو حتى إعادة تقييمها. كيف يعمل زمن التفكير؟ زمن التفكير يعمل عن طريق السماح للنموذج بالتفكير في الإجابة، قبل أن يقد",
-      "url": "https://dev.to/mohamedshabanai/zmn-ltfkyr-kyf-ygyr-litso-lnmdhj-fka",
-      "source": "Dev.to",
-      "author": "Mohamed Shaban",
-      "published": "2026-01-09T08:38:55+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "ef1ad6647a267cd9",
-      "title": "Reclaiming Idle GPUs in Kubernetes: Why We Built a Custom Scheduler Plugin",
-      "description": "The Problem Nobody Talks About GPUs are expensive — and yours are probably sitting idle right now. A single NVIDIA A100 can cost $10,000+, and in a Kubernetes cluster running AI workloads, you might have dozens of them. Here's the uncomfortable truth: most of the time, they're sitting idle. If you're struggling with GPU scheduling in Kubernetes or looking for ways to reclaim idle GPUs, you're not alone. A data scientist spins up a training job, requests 4 GPUs, runs for two hours, then leaves fo",
-      "url": "https://dev.to/lalitlouis/reclaiming-idle-gpus-in-kubernetes-why-we-built-a-custom-scheduler-plugin-34k2",
-      "source": "Dev.to",
-      "author": "Lalit Somavarapha",
-      "published": "2026-01-09T08:38:51+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
       "id": "358429b695d290db",
@@ -8061,6 +8008,42 @@
       "keywords": []
     },
     {
+      "id": "9503ba6b44ef0b10",
+      "title": "AWS SageMaker HyperPod: Distributed Training for Foundation Models at Scale",
+      "description": "The landscape of Artificial Intelligence has undergone a seismic shift with the emergence of Foundation Models (FMs). These models, characterized by billions (and now trillions) of parameters, require unprecedented levels of computational power. Training a model like Llama 3 or Claude is no longer a task for a single machine; it requires a coordinated symphony of hundreds or thousands of GPUs working in unison for weeks or months. However, managing these massive clusters is fraught with technica",
+      "url": "https://dev.to/jubinsoni/aws-sagemaker-hyperpod-distributed-training-for-foundation-models-at-scale-21g5",
+      "source": "Dev.to",
+      "author": "Jubin Soni",
+      "published": "2026-01-16T09:10:36+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "c65de1df0d3c005e",
+      "title": "WTF is Distributed Chaos Engineering?",
+      "description": "WTF is this: the tech term that's been haunting your dreams and making you question your life choices. Today, we're diving into the wonderfully weird world of Distributed Chaos Engineering. Buckle up, folks, it's about to get real. So, what is Distributed Chaos Engineering? In simple terms, it's a way to test how well a complex system (think: a huge network of computers, like a cloud service) can handle unexpected failures or disruptions. Imagine you're at a music festival, and suddenly, the mai",
+      "url": "https://dev.to/dailybugle33/wtf-is-distributed-chaos-engineering-28fh",
+      "source": "Dev.to",
+      "author": "Daily Bugle",
+      "published": "2026-01-16T08:49:43+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "c21dafedb3b2b361",
+      "title": "Why Payment Event Logging Is Critical in Worldpay Integrations",
+      "description": "When working with payment gateways like Worldpay, problems rarely show up as clear errors. Most of the time, things almost work — until someone from support or finance asks a question you can’t answer. The Hidden Complexity of Worldpay Integrations On the surface, Worldpay integration looks simple: Send a payment request Receive a response Handle webhooks In reality, payments go through multiple asynchronous steps: Authorization Capture Settlement Refunds Retries Failures Manual interventions Ea",
+      "url": "https://dev.to/ramapratheeba/why-payment-event-logging-is-critical-in-worldpay-integrations-1b1i",
+      "source": "Dev.to",
+      "author": "Rama Pratheeba",
+      "published": "2026-01-16T08:41:30+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "6b078f8a0818c9b2",
       "title": "Cool Article on API Tools!! https://medium.com/@somendradev23/10-api-tools-every-full-stack-developer-should-know-6f9af40ae0ec",
       "description": "medium.com",
@@ -8470,54 +8453,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "1cd365124de8e51b",
-      "title": "What Happened to WebAssembly",
-      "description": "Comments",
-      "url": "https://emnudge.dev/blog/what-happened-to-webassembly/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-09T07:38:30+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "175fd875c73f7748",
-      "title": "Do not mistake a resilient global economy for populist success",
-      "description": "Comments",
-      "url": "https://www.economist.com/leaders/2026/01/08/do-not-mistake-a-resilient-global-economy-for-populist-success",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-09T06:43:27+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "d3ee8418bb503d48",
-      "title": "European Commission issues call for evidence on open source",
-      "description": "Comments",
-      "url": "https://lwn.net/Articles/1053107/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-09T07:09:39+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "84c76720ce89dfa1",
-      "title": "What happened to WebAssembly",
-      "description": "Comments",
-      "url": "https://emnudge.dev/blog/what-happened-to-webassembly/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-09T07:38:30+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "2f64a7993ae78c23",
@@ -10368,6 +10303,18 @@
       "keywords": []
     },
     {
+      "id": "4455f4e3a60a2d40",
+      "title": "Building a better Bugbot",
+      "description": "Comments",
+      "url": "https://cursor.com/blog/building-bugbot",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-16T06:52:03+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "c239d273b61c36f9",
       "title": "The Spark: Engineering an Immersive, Story-First Web Experience",
       "description": "An in-depth look at how The Spark was imagined, designed, and engineered as a cinematic, scroll-driven web experience that brings story, motion, sound, and performance together in the browser.",
@@ -10420,8 +10367,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "React 19",
-        "performance"
+        "performance",
+        "React 19"
       ]
     },
     {
@@ -10463,9 +10410,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "code",
         "release",
-        "performance"
+        "performance",
+        "code"
       ]
     },
     {
@@ -10479,9 +10426,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "API",
         "release",
-        "developer"
+        "developer",
+        "API"
       ]
     },
     {
@@ -10825,9 +10772,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "API",
         "release",
-        "React 19"
+        "React 19",
+        "API"
       ]
     },
     {
@@ -10899,8 +10846,8 @@
       "niche": "dev",
       "score": 34,
       "keywords": [
-        "development",
-        "developer"
+        "developer",
+        "development"
       ]
     },
     {
@@ -10956,8 +10903,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "API",
-        "framework"
+        "framework",
+        "API"
       ]
     },
     {
@@ -11135,11 +11082,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "code",
-        "release",
-        "framework",
         "API",
-        "performance"
+        "release",
+        "performance",
+        "code",
+        "framework"
       ]
     },
     {
@@ -11271,18 +11218,6 @@
       ]
     },
     {
-      "id": "851723cc9d53f04a",
-      "title": "C++ std::move doesn't move anything: A deep dive into Value Categories",
-      "description": "Comments",
-      "url": "https://0xghost.dev/blog/std-move-deep-dive/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-09T09:01:33+00:00",
-      "niche": "dev",
-      "score": 26,
-      "keywords": []
-    },
-    {
       "id": "49b385b34e313530",
       "title": "39c3: In-house electronics manufacturing from scratch: How hard can it be? [video]",
       "description": "Comments",
@@ -11362,6 +11297,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2026-01-14T16:26:11+00:00",
+      "niche": "dev",
+      "score": 26,
+      "keywords": []
+    },
+    {
+      "id": "6693b7db72ce278a",
+      "title": "Show HN: Timberlogs – Drop-in structured logging for TypeScript",
+      "description": "Comments",
+      "url": "https://news.ycombinator.com/item?id=46605671",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-13T18:43:13+00:00",
       "niche": "dev",
       "score": 26,
       "keywords": []
@@ -11479,8 +11426,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "API",
-        "release"
+        "release",
+        "API"
       ]
     },
     {
@@ -11509,8 +11456,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "framework",
-        "Angular"
+        "Angular",
+        "framework"
       ]
     },
     {
@@ -11524,9 +11471,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "code",
         "performance",
-        "developer"
+        "developer",
+        "code"
       ]
     },
     {
@@ -11540,8 +11487,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "code",
-        "performance"
+        "performance",
+        "code"
       ]
     },
     {
@@ -11570,8 +11517,8 @@
       "niche": "dev",
       "score": 18,
       "keywords": [
-        "Angular",
-        "PHP"
+        "PHP",
+        "Angular"
       ]
     },
     {
@@ -11628,8 +11575,8 @@
       "score": 17,
       "keywords": [
         "development",
-        "API",
-        "developer"
+        "developer",
+        "API"
       ]
     },
     {
@@ -11643,9 +11590,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "development",
+        "PHP",
         "tutorial",
-        "PHP"
+        "development"
       ]
     },
     {
@@ -11659,9 +11606,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
-        "development",
+        "PHP",
         "tutorial",
-        "PHP"
+        "development"
       ]
     },
     {
@@ -11675,8 +11622,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "API",
-        "code"
+        "code",
+        "API"
       ]
     },
     {
@@ -11691,6 +11638,20 @@
       "score": 15,
       "keywords": [
         "code"
+      ]
+    },
+    {
+      "id": "2b8cf604d626dcbb",
+      "title": "Every ecommerce hero needs a Sidekick",
+      "description": "Ryan is joined by Vanessa Lee, VP of Product at Shopify, to discuss how AI is a tech renaissance and how these new technologies are affecting the ecommerce world. They cover the development of Sidekick, along with the general challenges of building AI tools, the importance of maintaining human oversight in AI, and what the future holds for personalized user experiences in ecommerce.",
+      "url": "https://stackoverflow.blog/2026/01/09/every-ecommerce-hero-needs-a-sidekick/",
+      "source": "Stack Overflow Blog",
+      "author": "Phoebe Sajor",
+      "published": "2026-01-09T08:40:00+00:00",
+      "niche": "dev",
+      "score": 15,
+      "keywords": [
+        "development"
       ]
     },
     {
@@ -11950,6 +11911,18 @@
       "keywords": []
     },
     {
+      "id": "03a5f2babaa713ca",
+      "title": "Primecoin and Cunningham Prime Chains",
+      "description": "Comments",
+      "url": "https://www.johndcook.com/blog/2026/01/10/prime-chains/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-11T16:30:32+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
       "id": "613339b7c7e2c5e8",
       "title": "Search engine bots crawled so AI bots could run",
       "description": "Ryan hosts Akamai data scientist Robert Lester on the show to discuss how the growth of AI bots affects internet traffic, the ways these AI bots differ from the original search engine optimization ones, and why you might not want to mitigate AI bots on your websites.",
@@ -12164,8 +12137,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "development",
-        "programming"
+        "programming",
+        "development"
       ]
     },
     {
@@ -12269,8 +12242,8 @@
       "niche": "dev",
       "score": 13,
       "keywords": [
-        "API",
-        "tutorial"
+        "tutorial",
+        "API"
       ]
     },
     {
