@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-17T12:51:13.743660+00:00",
-  "total_articles": 997,
+  "last_updated": "2026-01-17T15:25:47.334028+00:00",
+  "total_articles": 995,
   "articles": [
     {
       "id": "eeadfa3865f38d14",
@@ -224,6 +224,21 @@
       ]
     },
     {
+      "id": "6d8e692914c910c0",
+      "title": "GitHub Copilot Should Use .copilot, Not .github",
+      "description": "GitHub Copilot is a cross-platform tool. It is available in VS Code, JetBrains, and Neovim, and it functions regardless of whether your code is hosted on GitHub, GitLab, or a self-hosted Bitbucket instance. It is a developer tool, not a hosting-specific feature. Yet, the current configuration requirements are tied strictly to a specific hosting provider's directory. At present, the tool expects custom instructions to live within .github: Custom Instructions: .github/copilot-instructions.md Agent",
+      "url": "https://dev.to/innoo/github-copilot-should-use-copilot-not-github-4jdj",
+      "source": "Dev.to",
+      "author": "Tito O",
+      "published": "2026-01-17T15:11:53+00:00",
+      "niche": "dev",
+      "score": 70,
+      "keywords": [
+        "code",
+        "developer"
+      ]
+    },
+    {
       "id": "2beafca04eabcc24",
       "title": "Polyfill - useState (React)",
       "description": "Below is a very simple useState polyfill that you can execute, with clear comments and a minimal example to demonstrate state persistence and updates. Simple Working JavaScript Code for useState Polyfill // Simple useState polyfill for interview explanation (Fixed Version) function createUseState() { // Array to store state values across multiple \"renders\" of the component. // This simulates React's internal state storage for a component. let stateStore = []; // Variable to track the current ind",
@@ -344,6 +359,20 @@
       "source": "Dev.to",
       "author": "Cyrus Ndungu",
       "published": "2026-01-17T08:59:54+00:00",
+      "niche": "dev",
+      "score": 69,
+      "keywords": [
+        "code"
+      ]
+    },
+    {
+      "id": "3f90e47658b2f6de",
+      "title": "Learning Git & GitHub as a Data Engineering Student at LuxDevHQ",
+      "description": "As a student who recently started learning Data Engineering, one of the first tools we were introduced to was Git and GitHub it is one of the most important tools for anyone working with code and data and planning to collaborate with my fellow students at LuxDevHQ This article explains in a simple way: What Git and GitHub are How to set up Git Bash How to connect Git to GitHub How to push and pull code How version control works What is Git? Git is a version control system. It helps you keep trac",
+      "url": "https://dev.to/peter_amoro_fccf1d029a084/learning-git-github-as-a-data-engineering-student-at-luxdevhq-4co2",
+      "source": "Dev.to",
+      "author": "PETER AMORO",
+      "published": "2026-01-17T15:12:26+00:00",
       "niche": "dev",
       "score": 69,
       "keywords": [
@@ -590,18 +619,6 @@
       "keywords": [
         "programming"
       ]
-    },
-    {
-      "id": "7a1740d3e1bd9641",
-      "title": "Show HN: Hosting 100 Linux dev environments on one VM using LXC",
-      "description": "Comments",
-      "url": "https://github.com/FootprintAI/Containarium",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-10T14:42:02+00:00",
-      "niche": "dev",
-      "score": 62,
-      "keywords": []
     },
     {
       "id": "f99b71aa9fb44e16",
@@ -2021,34 +2038,6 @@
       "keywords": [
         "API",
         "code"
-      ]
-    },
-    {
-      "id": "f672c115fa03d481",
-      "title": "I Built a Tool Because I Was Tired of Guessing Database Schemas",
-      "description": "Every time I join a new backend project, the first question is never about APIs. It’s always: “How does the database actually work?” And the answers are usually: “Check the migrations” “Look at the ORM models” “Ask X, they know the schema” Which really means: 👉 Figure it out yourself. The Real Problem With Database Schemas Most databases fail at three things: Understanding relationships quickly Keeping diagrams updated Explaining intent (why tables exist) Even well-written schemas become hard to",
-      "url": "https://dev.to/rushikesh_bodakhe_db28644/i-built-a-tool-because-i-was-tired-of-guessing-database-schemas-25n7",
-      "source": "Dev.to",
-      "author": "Rushikesh Bodakhe",
-      "published": "2026-01-10T15:19:41+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "API"
-      ]
-    },
-    {
-      "id": "541e571f9999f0c7",
-      "title": "Handling PayPal API Authentication the .NET Way",
-      "description": "This is the first post in a two-part series where I share my insights on the PayPal API and C#/.NET: Part I covers proper HTTP request authentication for the PayPal API Part II will demonstrate building ASP.NET Core endpoints that accept PayPal webhooks, verifying their integrity and why that matters Disclaimer AI was used to refine phrasing, correct errors, and structure the content. The technical content and implementation were created entirely by me. Prerequisites This post won't cover settin",
-      "url": "https://dev.to/peterwurzinger/handling-paypal-api-authentication-the-net-way-2f6p",
-      "source": "Dev.to",
-      "author": "Peter Wurzinger",
-      "published": "2026-01-10T15:00:00+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "API"
       ]
     },
     {
@@ -3534,34 +3523,6 @@
       "keywords": [
         "code",
         "development"
-      ]
-    },
-    {
-      "id": "df994d946b89ab98",
-      "title": "Getting Started with 2D Games Using Pyxel (Part 7): Control the Character",
-      "description": "Control the Character In this chapter, we detect the timing when the Space key is pressed and implement logic to flip the player’s movement direction left and right. This gives a stronger sense that you are directly controlling the player. The complete code is shown at the end of this chapter. 1. Add a Method to Flip Left and Right First, set the player’s initial movement direction. In the constructor of the Game class, make the player move either to the right (0 degrees) or to the left (180 deg",
-      "url": "https://dev.to/sdkfz181tiger/getting-started-with-2d-games-using-pyxel-part-7-control-the-character-3kdj",
-      "source": "Dev.to",
-      "author": "Kajiru",
-      "published": "2026-01-10T15:00:00+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "3c3d93a9e0cf3d78",
-      "title": "MySQL backup and restore — Complete guide to MySQL database backup strategies in 2026",
-      "description": "MySQL remains one of the most popular relational databases in the world, powering millions of applications from small websites to enterprise systems. Whether you're running a WordPress blog, an e-commerce platform, or a financial application, protecting your MySQL data is critical. In this comprehensive guide, we'll explore proven backup strategies, restoration techniques and best practices that work in 2026. Why MySQL backup matters Data loss can happen at any moment due to hardware failures, h",
-      "url": "https://dev.to/piteradyson/mysql-backup-and-restore-complete-guide-to-mysql-database-backup-strategies-in-2026-4cdk",
-      "source": "Dev.to",
-      "author": "Piter Adyson",
-      "published": "2026-01-10T14:23:13+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "best practices"
       ]
     },
     {
@@ -5273,76 +5234,88 @@
       ]
     },
     {
-      "id": "ab382cba3085892f",
-      "title": "Brass TS — Building an Effect Runtime in TypeScript (Part 4)",
-      "description": "A real HTTP client: retries, cancellation, streams, and pipelines TL;DR brass-http is not a fetch wrapper. It’s an effectful HTTP client built on top of a runtime with fibers, structured concurrency, and cancellation. In the previous parts, we built the foundations of an effect runtime inspired by ZIO: fibers and scheduling structured concurrency integration with the JavaScript ecosystem a ZIO-style HTTP client with real DX In this fourth part, I want to show what changes once HTTP is modeled as",
-      "url": "https://dev.to/baldrvivaldelli/brass-ts-building-an-effect-runtime-in-typescript-part-4-4c3o",
+      "id": "43a5e5534e339308",
+      "title": "C# Loops (for, foreach, while, do-while)",
+      "description": "Originally published at https://allcoderthings.com/en/article/csharp-loops-for-foreach-while-do-while In C#, loops allow us to execute the same block of code repeatedly as long as a certain condition is true. They save time for the programmer and make it easy to perform repetitive tasks. The most commonly used loops in C# are: for, foreach, while, and do-while. for Loop The for loop is generally used when the number of repetitions is known. It is controlled with a counter variable. Counting Up: ",
+      "url": "https://dev.to/allcoderthings/c-loops-for-foreach-while-do-while-11fo",
       "source": "Dev.to",
-      "author": "Augusto Vivaldelli",
-      "published": "2026-01-10T15:23:34+00:00",
+      "author": "AllCoderThings",
+      "published": "2026-01-17T15:11:03+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
-      "id": "291483a801b0f161",
-      "title": "Production-Grade Marketplace Backend",
-      "description": "Why marketplace backends fail after launch (and how to design for correctness) Most marketplace backends don’t fail because of missing features. They fail because inventory, money, and retries collide in production. If you’ve ever run a marketplace (B2B or B2C), some of these probably sound familiar: Inventory goes negative under load Orders get stuck in invalid states Retries silently create duplicates Invoices no longer match what customers paid A “maintenance mode” locks out admins during an ",
-      "url": "https://dev.to/youcef_0f32126ea2c824db1b/production-grade-marketplace-backend-9o7",
+      "id": "c8ef4c49bcc72a8c",
+      "title": "SC #6: Petición web con async/await",
+      "description": "Considerar el siguiente código para hacer una petición web con async/await: func performPOSTURLRequest() async throws(NetworkingError) -> PostData { do { let request = try buildURLRequest() let (data, response) = try await URLSession.shared.data(for: request) guard let statusCode = (response as? HTTPURLResponse)?.statusCode else { throw NetworkingError.invalidStatusCode(statusCode: -1) } guard (200..<300).contains(statusCode) else { throw NetworkingError.invalidStatusCode(statusCode: statusCode)",
+      "url": "https://dev.to/david_goyes_a488f58a17a53/sc-6-peticion-web-con-asyncawait-56f8",
       "source": "Dev.to",
-      "author": "youcef",
-      "published": "2026-01-10T15:22:25+00:00",
+      "author": "GoyesDev",
+      "published": "2026-01-17T15:05:48+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
-      "id": "ef51ae750a186caf",
-      "title": "Complete ESP32 Security Guide for IoT Devices",
-      "description": "The ESP32 has become one of the most popular microcontrollers for IoT projects. It is powerful, affordable, and packed with features like WiFi, Bluetooth, dual cores, and hardware accelerators. These same features that make ESP32 attractive also make it a common target for attacks. Many IoT devices built on ESP32 end up deployed in homes, offices, factories, and public spaces, often connected to the internet 24/7. Security is not optional anymore. A single vulnerable device can be used to spy on",
-      "url": "https://dev.to/sudoyasir/complete-esp32-security-guide-for-iot-devices-4c1g",
+      "id": "cfb5a831d592b1e0",
+      "title": "📐 Beginner-Friendly Guide 'Find the Largest Square Area' – LeetCode 3047 (C++, Python, JavaScript)",
+      "description": "Geometry problems often look intimidating because of the coordinate math involved. However, this problem is a classic exercise in finding the overlap between shapes, a fundamental skill used in everything from game engines to graphics software. Problem Summary You're given: Two arrays, bottomLeft and topRight, representing the coordinates of rectangles on a 2D plane. Your goal: Find the largest possible area of a square that can fit inside the intersection of any two rectangles. If no rectangles",
+      "url": "https://dev.to/om_shree_0709/beginner-friendly-guide-find-the-largest-square-area-leetcode-3047-c-python-javascript-4ecb",
       "source": "Dev.to",
-      "author": "Yasir Nawaz",
-      "published": "2026-01-10T14:37:49+00:00",
+      "author": "Om Shree",
+      "published": "2026-01-17T15:05:08+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
-      "id": "4fbd7cc80c7b5176",
-      "title": "Lower Back Pop Stretch – Benefits, How It Works, and Safety Tips",
-      "description": "Lower back stiffness is a common issue caused by prolonged sitting, poor posture, stress, or lack of movement. One simple technique many people use for relief is the lower back pop stretch, often performed on the floor with knees bent and gentle rocking motions. What Is a Lower Back Pop? A “pop” or “crack” in the lower back usually comes from gas bubbles releasing within the spinal joints, a process called cavitation. This is generally harmless and can feel relieving, though the goal of the stre",
-      "url": "https://dev.to/fitnesshubz/lower-back-pop-stretch-benefits-how-it-works-and-safety-tips-1e5d",
+      "id": "943f3978ab817c7e",
+      "title": "Getting Started with 2D Games Using Pyxel (Part 15): Tunnel Dodge Game 2 (Sample)",
+      "description": "Tunnel Dodge Game 2 (Sample) In this article, we introduce a sample that displays a background using a tilemap. (This article only introduces the sample code.) 1. Preparing the Assets Create the background assets using the Pyxel Editor. Download the resource file (Click the Download button at the top right to download the file.) Sample Code The complete sample code is shown below. # sprite.py import pyxel import math import random class BaseSprite: def __init__(self, x, y, w=8, h=8): \"\"\" Constru",
+      "url": "https://dev.to/sdkfz181tiger/getting-started-with-2d-games-using-pyxel-part-15-tunnel-dodge-game-2-sample-30ke",
       "source": "Dev.to",
-      "author": "FitnessHUbz",
-      "published": "2026-01-10T14:35:03+00:00",
+      "author": "Kajiru",
+      "published": "2026-01-17T15:00:00+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
-      "id": "f5f60db2d58425bb",
-      "title": "This will be your last resume template",
-      "description": "What to Include in a Resume & What Not to Include – Avoiding Common Mistakes Important Links: Overleaf Link: https://github.com/Beingwizard/Overleaf-resume Overleaf: https://overleaf.com Wonsulting: https://wonsulting.com This topic is usually discussed very specifically for students. I’m doing my research for working professionals, but I’ll still say this format can be replicated — because it brings most of the essential items to the table. Note: I’m a big believer in standing out. So if you’re",
-      "url": "https://dev.to/beingwizard/this-will-be-your-last-resume-template-3ola",
+      "id": "39c0f7eb1e3869a2",
+      "title": "Getting Started with 2D Games Using Pyxel (Part 14): Tunnel Dodge Game 1 (Sample)",
+      "description": "Tunnel Dodge Game 1 (Sample) In this article, we introduce a somewhat nostalgic game where you jump through gaps in tunnels. Here, we only provide sample code. 1. Preparing the Assets Using the Pyxel Editor, draw the assets for the player and the tunnels. Download the resource file (Click the “Download” button in the top-right corner of the page.) Sample Code The sample code for this game is shown below. # sprite.py import pyxel import math import random class BaseSprite: def __init__(self, x, y",
+      "url": "https://dev.to/sdkfz181tiger/getting-started-with-2d-games-using-pyxel-part-14-tunnel-dodge-game-sample-c0",
       "source": "Dev.to",
-      "author": "Lakshit Pant",
-      "published": "2026-01-10T14:29:57+00:00",
+      "author": "Kajiru",
+      "published": "2026-01-17T15:00:00+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
-      "id": "fbc26555f53e1841",
-      "title": "Stop Re-running Everything: A Local Incremental Pipeline in DuckDB",
-      "description": "I love local-first data work… until I catch myself doing the same thing for the 12th time: “I changed one model. Better rerun the whole pipeline.” This post is a light walkthrough of a tiny project that fixes that habit using incremental models + cached DAG runs — all on your laptop with DuckDB. The example is a simplified, DuckDB-only version of the existing incremental_demo project. We’ll do three runs: seed v1 → initial build run again unchanged → mostly skipped seed v2 (update + new row) → i",
-      "url": "https://dev.to/markolekic/stop-re-running-everything-a-local-incremental-pipeline-in-duckdb-543p",
+      "id": "f1c602006196ca4d",
+      "title": "How I Built an ATS-Optimized AI Portfolio with Antigravity: From Nginx Hell to Cloud Run",
+      "description": "This is a submission for the New Year, New You Portfolio Challenge Presented by Google AI About Me I’m Veríssimo Cassange, an AI Software Engineer based in Luanda, Angola 🇦🇴. I’ve always been obsessed with how technical architecture can drive social impact. My day-to-day usually involves Python, Machine Learning, and trying to explain to my family why \"Infrastructure as Code\" is actually exciting. For this challenge, I didn't just want a \"pretty\" site. I wanted a portfolio that acts like a Troja",
+      "url": "https://dev.to/vec21/how-i-built-an-ats-optimized-ai-portfolio-with-antigravity-from-nginx-hell-to-cloud-run-4idk",
       "source": "Dev.to",
-      "author": "Marko",
-      "published": "2026-01-10T14:26:38+00:00",
+      "author": "Veríssimo Cassange",
+      "published": "2026-01-17T14:52:42+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "338a8609c95b6076",
@@ -8169,6 +8142,18 @@
       "keywords": []
     },
     {
+      "id": "614e44bf87b3f2a0",
+      "title": "Messaging & Event Driven design",
+      "description": "Event-driven architecture (EDA) is a modern architecture pattern built from small, decoupled services that publish, consume, or route events. An event represents a change in state, or an update. For example: an item placed in a shopping cart, a file uploaded to a storage system, or an order becoming ready to ship. Events can either carry the state (such as the item name, price, or quantity in an order) or simply contain identifiers (for example, “order #8942 was shipped”) needed to look up relat",
+      "url": "https://dev.to/dipalikulshrestha/messaging-event-driven-design-i8",
+      "source": "Dev.to",
+      "author": "Dipali Kulshrestha",
+      "published": "2026-01-17T15:20:23+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "a1b7aafe4f349b1b",
       "title": "[Boost]",
       "description": "React Native Optimization: Stop Recreating Functions in Large Lists (FlatList, Flashlist, LegendList...) john mbugua ・ Jan 10 #reactnative #react #softwaredevelopment #programming",
@@ -8569,30 +8554,6 @@
       ]
     },
     {
-      "id": "79982c00ef298e10",
-      "title": "UK government exempting itself from cyber law inspires little confidence",
-      "description": "Comments",
-      "url": "https://www.theregister.com/2026/01/10/csr_bill_analysis/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-10T13:51:27+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "cf4a5ba5887fb036",
-      "title": "NASA announces unprecedented return of sick ISS astronaut and crew",
-      "description": "Comments",
-      "url": "https://www.livescience.com/space/space-exploration/nasa-cancels-spacewalk-and-considers-early-crew-return-from-iss-due-to-medical-issues",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-10T13:44:21+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
       "id": "c0e284d57a1e7f3f",
       "title": "AI is a business model stress test",
       "description": "Comments",
@@ -8756,18 +8717,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2026-01-11T11:31:22+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "4ee48aa9e23043f2",
-      "title": "Show HN: Porting xv6 to HiFive Unmatched board",
-      "description": "Comments",
-      "url": "https://github.com/eyengin/xv6-riscv-unmatched",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-10T14:07:02+00:00",
       "niche": "dev",
       "score": 44,
       "keywords": []
@@ -10489,6 +10438,30 @@
       "keywords": []
     },
     {
+      "id": "b2652be006fab180",
+      "title": "Understanding HR Domain",
+      "description": "This is Part 1 of my \"Designing an HR Management System\" series.",
+      "url": "https://dev.to/ijas9118/understanding-hr-domain-5h1n",
+      "source": "Dev.to",
+      "author": "Ijas Ahammed",
+      "published": "2026-01-17T15:00:42+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "b1e8fdf0db58a565",
+      "title": "Architecture for Disposable Systems",
+      "description": "Comments",
+      "url": "https://tuananh.net/2026/01/15/architecture-for-disposable-systems/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-17T11:18:49+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "849a31264602f6cb",
       "title": "8 Best WordPress Themes for Designers (2026): Fast Builds, Clean UI",
       "description": "Compare the 8 best WordPress themes for designers in 2026—fast builds, clean UI, dependable updates, and WooCommerce depth for reliable, high-performance sites.",
@@ -10563,8 +10536,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "React 19",
-        "performance"
+        "performance",
+        "React 19"
       ]
     },
     {
@@ -10606,9 +10579,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "release",
         "performance",
-        "code"
+        "code",
+        "release"
       ]
     },
     {
@@ -10622,9 +10595,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "release",
         "developer",
-        "API"
+        "API",
+        "release"
       ]
     },
     {
@@ -11088,8 +11061,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "framework",
-        "API"
+        "API",
+        "framework"
       ]
     },
     {
@@ -11281,11 +11254,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "framework",
         "API",
+        "release",
         "performance",
         "code",
-        "release"
+        "framework"
       ]
     },
     {
@@ -11635,8 +11608,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "API"
+        "API",
+        "release"
       ]
     },
     {
@@ -11650,8 +11623,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "framework",
-        "release"
+        "release",
+        "framework"
       ]
     },
     {
@@ -11680,9 +11653,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "developer",
         "performance",
-        "code"
+        "code",
+        "developer"
       ]
     },
     {
@@ -11711,8 +11684,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
-        "developer"
+        "developer",
+        "release"
       ]
     },
     {
@@ -11784,8 +11757,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "API",
-        "code"
+        "code",
+        "API"
       ]
     },
     {
@@ -12044,6 +12017,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2026-01-14T05:26:20+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "547f608694792aff",
+      "title": "Sergei Fedorov's Escape from Soviet Union Helped Save Red Wings (2020)",
+      "description": "Comments",
+      "url": "https://www.freep.com/story/sports/nhl/red-wings/2026/01/12/sergei-fedorov-detroit-red-wings-russian-5/88035492007/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-12T20:11:19+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
