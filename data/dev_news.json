@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-17T21:23:16.947725+00:00",
-  "total_articles": 997,
+  "last_updated": "2026-01-18T02:21:23.635972+00:00",
+  "total_articles": 998,
   "articles": [
     {
       "id": "eeadfa3865f38d14",
@@ -606,16 +606,18 @@
       ]
     },
     {
-      "id": "f99b71aa9fb44e16",
-      "title": "Show HN: Ferrite – Markdown editor in Rust with native Mermaid diagram rendering",
+      "id": "f8a720c1209cd438",
+      "title": "Show HN: ChunkHound, a local-first tool for understanding large codebases",
       "description": "Comments",
-      "url": "https://github.com/OlaProeis/Ferrite",
+      "url": "https://github.com/chunkhound/chunkhound",
       "source": "Hacker News",
       "author": "Inconnu",
-      "published": "2026-01-11T01:50:01+00:00",
+      "published": "2026-01-17T21:03:52+00:00",
       "niche": "dev",
-      "score": 62,
-      "keywords": []
+      "score": 63,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "89847571d37b03bd",
@@ -1323,6 +1325,21 @@
       ]
     },
     {
+      "id": "a2057db7a29d537d",
+      "title": "I built the missing UI for Gemini's File Search (managed RAG) API",
+      "description": "Retrieval Augmented Generation (RAG) has become the standard architecture for building AI apps that know about your specific data. Usually, building a RAG pipeline involves a lot of moving parts: spinning up a vector database (like Pinecone or Weaviate), writing Python scripts to chunk your PDFs, generating embeddings, and managing the retrieval logic. Google recently released a feature called Gemini File Search that simplifies this drastically. It is a fully managed RAG pipeline built directly ",
+      "url": "https://dev.to/prashant_rohilla_60997096/i-built-the-missing-ui-for-geminis-file-search-managed-rag-api-ge7",
+      "source": "Dev.to",
+      "author": "Prashant Rohilla",
+      "published": "2026-01-18T01:30:41+00:00",
+      "niche": "dev",
+      "score": 57,
+      "keywords": [
+        "release",
+        "API"
+      ]
+    },
+    {
       "id": "a22db3999c283953",
       "title": "Why Claude Code Excels at Legacy System Modernization",
       "description": "Nobody sets out to build a legacy system. They begin as well-designed solutions to real problems. They work so well they become critical infrastructure. Then time passes, requirements accumulate, developers rotate, and one hasty fix at a time the system becomes something nobody fully understands anymore. We (senior developers) all know the story. The outdated library that's too risky to upgrade, the undocumented script discovered on a production server. Bugs that only manifest on Tuesdays for ac",
@@ -1484,21 +1501,6 @@
         "code",
         "developer",
         "release"
-      ]
-    },
-    {
-      "id": "789804f33f1df60b",
-      "title": "New programming language by me",
-      "description": "A# (A-Sharp) So it's a supposed hobby project developed by me. A# is an open-source modern math-first .NET programming language, aimed to make heavy math on the framework much easier. It's a pretty lightweight compared to Julia or even Python (for now at least). A# is statically typed and converts to CIL (Common Intermediate Language). 2. Why A#? A# removes the verbosity of C#, making it easier to develop and calculate things. C#: double result = Math.Sqrt(Math.Max(a, b)); A#: let result = _(+#(",
-      "url": "https://dev.to/probex/new-programming-language-by-me-hpg",
-      "source": "Dev.to",
-      "author": "Volodymyr Ivanov",
-      "published": "2026-01-11T01:52:32+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "programming",
-        "framework"
       ]
     },
     {
@@ -1967,17 +1969,18 @@
       ]
     },
     {
-      "id": "95de915ecf9d2b19",
-      "title": "The Care and Feeding of Interrupt Handlers",
-      "description": "The Care and Feeding of Interrupt Handlers Dear diary, Today I decided to give my embryonic operating system a voice. Not literally—that would be terrifying—but an interactive shell so it could at least complain about its existence in real time. What started as an innocent afternoon project turned into another reminder that hardware and I have what therapists might call \"trust issues.\" The plan seemed reasonable enough: create a simple command prompt that could poke around the system hardware. Y",
-      "url": "https://dev.to/florent_herisson_691b0bac/the-care-and-feeding-of-interrupt-handlers-4gai",
+      "id": "aee544c76738c7fd",
+      "title": "🤫 The Secret `.md` File That Doubles Your AI Coding Speed",
+      "description": "Stop repeating yourself. If you are typing \"Please use TypeScript and Tailwind\" at the start of every chat, you are doing AI development wrong. We have all been there. You open a fresh chat with Claude 3.5 Sonnet (or ChatGPT). You paste in your error log. The AI confidently suggests a fix... in Python. But your project is in Rust. So you correct it. Then it gives you a fix in Rust, but uses an outdated library you aren't using. So you correct it again. By the time the AI understands what your pr",
+      "url": "https://dev.to/siddhesh_surve/the-secret-md-file-that-doubles-your-ai-coding-speed-cfl",
       "source": "Dev.to",
-      "author": "Florent Herisson",
-      "published": "2026-01-11T01:00:57+00:00",
+      "author": "Siddhesh Surve",
+      "published": "2026-01-18T01:18:03+00:00",
       "niche": "dev",
-      "score": 54,
+      "score": 55,
       "keywords": [
-        "API"
+        "development",
+        "library"
       ]
     },
     {
@@ -2775,6 +2778,34 @@
       ]
     },
     {
+      "id": "9b27d5b9091a0b39",
+      "title": "Smart Hydration Made Simple: How to Build Your Own BLE Water Bottle Tracker",
+      "description": "Dehydration is frequently associated with reduced cognitive focus, fatigue, and metabolic slowdown. While manual logging apps are helpful, they often fail during a busy workday. Automating your hydration through the Internet of Things (IoT) offers a seamless way to maintain peak physical performance. This guide explores the fundamentals of building a smart water bottle and mobile app to ensure you never miss a sip. The Power of Bluetooth Low Energy (BLE) The primary challenge in wearable health ",
+      "url": "https://dev.to/wellallytech/smart-hydration-made-simple-how-to-build-your-own-ble-water-bottle-tracker-1oen",
+      "source": "Dev.to",
+      "author": "wellallyTech",
+      "published": "2026-01-18T01:30:00+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "performance"
+      ]
+    },
+    {
+      "id": "2842946aae97ba2b",
+      "title": "Tube-torial: Mastering the London Underground API",
+      "description": "I've visited London multiple times over the past few years, and every time I return, I’m struck by how deeply integrated the transit data is into the city's pulse. Whether it’s the pinpoint accuracy of apps like Citymapper or finding a custom-built LED arrival board tucked away in a local cafe showing live timings for the nearest station, I started to wonder: How are people building these? Until then, I’d never really looked at or cared much about transport APIs. But seeing those creative builds",
+      "url": "https://dev.to/endpointexplorer/tube-torial-mastering-the-london-underground-api-1k6l",
+      "source": "Dev.to",
+      "author": "Max",
+      "published": "2026-01-18T01:16:34+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "API"
+      ]
+    },
+    {
       "id": "4bfb2b7dc828598d",
       "title": "MCP Token Limits: The Hidden Cost of Tool Overload",
       "description": "You add a few MCP servers. GitHub for code, Notion for docs, maybe Slack for notifications. Suddenly Claude feels... slower. Less helpful. It misses context you explicitly provided. It gives generic answers to specific questions. The Numbers Behind MCP Token Usage Here's a stat that stopped me cold: the GitHub MCP server alone consumes 55,000 tokens across its 93 tool definitions. That's before you ask Claude anything. Before you paste any code. Before the conversation even starts. Developer Sco",
@@ -3465,30 +3496,17 @@
       ]
     },
     {
-      "id": "59e600e162d4bd35",
-      "title": "Vibe coding: Time Zone Clock",
-      "description": "https://github.com/MarcialSegura/Time-Zone-Clock Intro Hi! This would actually be my first blog about anything computer science related since my days in college and this is something I've wanted to do for a while now, so thanks for tuning in! My goal with this blog is to not only document my projects but to remind myself that you can reach the end goal without following the beaded path. My use cases, workflow, code, implementation, etc may not be the best but nothing is truly perfect. I only wan",
-      "url": "https://dev.to/eseguru/vibe-coding-time-zone-clock-5bjc",
+      "id": "3eee7a47b66d2d5a",
+      "title": "# Bridging Code and Impact: Introducing Helpothon, the Platform for Technology f",
+      "description": "Bridging Code and Impact: Introducing Helpothon, the Platform for Technology for Social Good Developers today are increasingly driven by a desire to apply their expertise beyond conventional commercial returns. The challenge often lies in finding vetted, impactful projects that truly require sophisticated technological solutions. Helpothon is the definitive answer to this challenge. It is a centralized platform dedicated to connecting global technologists with critical needs—helping everyone fro",
+      "url": "https://dev.to/helpathon/-bridging-code-and-impact-introducing-helpothon-the-platform-for-technology-f-554c",
       "source": "Dev.to",
-      "author": "Emil S",
-      "published": "2026-01-11T01:15:37+00:00",
+      "author": "Helpothon",
+      "published": "2026-01-18T01:41:42+00:00",
       "niche": "dev",
-      "score": 51,
+      "score": 52,
       "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "6af194dacaedd9d6",
-      "title": "Real-Time Dashboards: Building a Heart Rate Monitor Enhances Remote Health Tracking",
-      "description": "In the world of modern wellness, the demand for live data—from wearable sensors to remote monitoring—has never been higher. For developers and health-tech enthusiasts, the challenge lies in pushing continuous data streams from a server to a client efficiently. Creating a responsive experience suggests a move away from old-school data fetching toward persistent, \"live\" connections. To see how these components look in action, you can explore the real-time data basics. The Shift From Polling to Web",
-      "url": "https://dev.to/wellallytech/real-time-dashboards-building-a-heart-rate-monitor-enhances-remote-health-tracking-5h76",
-      "source": "Dev.to",
-      "author": "wellallyTech",
-      "published": "2026-01-11T01:00:00+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
+        "code",
         "developer"
       ]
     },
@@ -5271,76 +5289,18 @@
       ]
     },
     {
-      "id": "89424bbbe7fc9bab",
-      "title": "Django + Redis Caching: Patterns, Pitfalls, and Real-World Lessons",
-      "description": "Adding Redis caching to a Django application often looks like an easy win: a slow endpoint, a Redis instance, and suddenly response times drop from seconds to milliseconds. Django and django-redis make the mechanics straightforward enough that a junior engineer can ship a working cache in a day. The danger is that caching feels solved once it works. In reality, Redis only accelerates the decisions you’ve already made — good or bad. Correctness, security, invalidation, and concurrency are still y",
-      "url": "https://dev.to/topunix/django-redis-caching-patterns-pitfalls-and-real-world-lessons-m7o",
+      "id": "fd1f902fcd81f460",
+      "title": "Stop Building Features: Start Building Patterns",
+      "description": "You know the feeling; you've integrated three payment providers, and each one has its own special snowflake implementation. Copy-paste, tweak and repeat. After six months, you're debugging the same bug in three different places, which is not funny. This is what happens when you optimize for speed without optimizing for coherence. Now, with AI generating code 10x faster than you, the problem is worse. AI doesn't know your patterns. It just generates what you ask for, three times, three different ",
+      "url": "https://dev.to/edulazaro/stop-building-features-start-building-patterns-2efl",
       "source": "Dev.to",
-      "author": "Mike ☕",
-      "published": "2026-01-11T02:08:11+00:00",
+      "author": "Eduardo Lázaro",
+      "published": "2026-01-18T01:48:44+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "093f10309a2c5230",
-      "title": "Why My Model Wouldn’t Deploy to Hugging Face Spaces (and What Git LFS Actually Does)",
-      "description": "I trained a simple “is cat” image classifier using fastai and wanted to deploy a small demo on Hugging Face Spaces. I already had a working app.py and a trained model.pkl, so my plan felt straightforward: commit everything and push it to the remote Hugging Face repository. At that point, I thought the hard part was already over. The model was trained, the demo worked locally, and deployment felt like it should be a routine step — commit, push, done. That assumption didn’t last long. What I Tried",
-      "url": "https://dev.to/czhoudev/why-my-model-wouldnt-deploy-to-hugging-face-spaces-and-what-git-lfs-actually-does-9kf",
-      "source": "Dev.to",
-      "author": "Chloe Zhou",
-      "published": "2026-01-11T02:02:10+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "bdc4d8f91103c8bc",
-      "title": "Multitasking Me and Claude",
-      "description": "I'm experimenting with a written multitasking heuristic for me, to see if I can restructure myself to take better advantage of multiple Claudes. I've had big highs and lows with arbitrary approaches. But maybe with some gentle discipline I can get to a better place without making me crazy. Any of you feel like you're good at this?",
-      "url": "https://dev.to/chrismo/multitasking-me-and-claude-1h7p",
-      "source": "Dev.to",
-      "author": "chrismo",
-      "published": "2026-01-11T01:49:43+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "fd8a2fa997bcae9d",
-      "title": "The Brain of the Future Agent: Why VL-JEPA Matters for Real-World AI",
-      "description": "The \"Generative\" Trap If you have been following AI recently, you know the drill: Input → Generate. You give ChatGPT, Gemini, or Claude a prompt, it generates words. You give Sora a prompt, it generates pixels. You give Gemini Veo a prompt, it creates a cinematic scene from scratch. This method, known as autoregressive generation, is the engine behind almost every modern AI. It works by predicting the next tiny piece of data (a token) based on the previous ones. But there is a massive inefficien",
-      "url": "https://dev.to/himanjan/the-brain-of-the-future-agent-why-vl-jepa-matters-for-real-world-ai-21no",
-      "source": "Dev.to",
-      "author": "Himanjan",
-      "published": "2026-01-11T01:31:10+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "dea4442424ce899f",
-      "title": "I Exposed My $70 Kubernetes Cluster to the Internet (Without Opening a Single Port)",
-      "description": "In my previous post, I talked about how I built a 3-node Kubernetes cluster for ₹6,000 ($70) to host my AI models and home lab. It worked great, but there was one ugly problem: Networking. The Problem Accessing my services meant one of two things: Locally: Typing http://192.168.0.173:30300 for Grafana. Ugly, but works. Remotely: Setting up WireGuard or Tailscale. Secure, but I can't ask my friends to install a VPN client just to see a dashboard or chat with my LLM. I considered opening ports on ",
-      "url": "https://dev.to/bhargavmantha/i-exposed-my-70-kubernetes-cluster-to-the-internet-without-opening-a-single-port-nkk",
-      "source": "Dev.to",
-      "author": "BhargavMantha",
-      "published": "2026-01-11T01:28:12+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "3f178e74babbc759",
-      "title": "Bug Bounty Hunting Guide 2026: From Zero to Paid Security Researcher",
-      "description": "A complete guide to start earning money through bug bounty hunting. Table of Contents What is Bug Bounty? Prerequisites Setting Up Your Environment Learning Path Choosing a Platform Finding Your First Bug Writing a Good Report Common Vulnerability Types Tools Tips for Success Resources What is Bug Bounty? Bug bounty programs reward security researchers for finding and responsibly reporting vulnerabilities in software, websites, and applications. Companies pay anywhere from $50 to $2,000,000+ dep",
-      "url": "https://dev.to/krlz/bug-bounty-hunting-guide-2026-from-zero-to-paid-security-researcher-5c82",
-      "source": "Dev.to",
-      "author": "krlz",
-      "published": "2026-01-11T01:06:56+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "d07d868003c5abcd",
@@ -8155,6 +8115,54 @@
       "keywords": []
     },
     {
+      "id": "6b0663280ec81aa7",
+      "title": "Found a Really Nice Way to Visualize SQLite Databases",
+      "description": "I was poking around a SQLite database the other day and ran into the usual situation: I have the .sqlite file… but I don’t really understand the schema yet. I didn’t want to install another desktop GUI just to click through tables, so I went looking for something lightweight. That’s how I found this: 👉 https://www.vizsql.io/sqlite/ And honestly — it was way more useful than I expected.",
+      "url": "https://dev.to/damia_ferrer_98cc88ce80e1/found-a-really-nice-way-to-visualize-sqlite-databases-3eda",
+      "source": "Dev.to",
+      "author": "Damia Ferrer",
+      "published": "2026-01-18T02:09:15+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "ec521cc4cd050831",
+      "title": "Use Cursor with Local LLM and LM Studio",
+      "description": "Prerequisites • Cursor installed • LM Studio installed • ngrok installed • A local machine capable of running an LLM For this guide, we’ll use the model: zai-org/glm-4.6v-flash Step 1: Install LM Studio Download and install LM Studio from the official website. Once installed, launch the application. https://lmstudio.ai/ Step 2: Download a Model Inside LM Studio, download the model you want to use. For this article, we use: zai-org/glm-4.6v-flash Make sure the download completes successfully befo",
+      "url": "https://dev.to/0xkoji/use-cursor-with-local-llm-and-lm-studio-i54",
+      "source": "Dev.to",
+      "author": "0xkoji",
+      "published": "2026-01-18T02:07:56+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "22e2c8bdd288c29f",
+      "title": "The \"Virtual Air Gap\": Building Fort Knox in AWS",
+      "description": "Imagine standing in front of your CISO (or a very strict Data Privacy Officer in Germany) and saying: \"We are moving our sensitive patient data to the cloud.\" The reaction? Panic. Hyperventilation. \"Never! That needs to be air-gapped! No internet connection allowed!\" I come from the world of Pharma IT (BioNTech). I know these requirements inside out. And I am here to tell you: Yes, it is possible. But we have to stop treating the Cloud like it is open public WiFi at a coffee shop. Today, we are ",
+      "url": "https://dev.to/alifunk/the-virtual-air-gap-building-fort-knox-in-aws-4ako",
+      "source": "Dev.to",
+      "author": "Ali-Funk",
+      "published": "2026-01-18T01:54:53+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "9d2f38d8a7e06797",
+      "title": "TalentArch-AI: Building an Architectural Talent Matching Agent",
+      "description": "TalentArch-AI: Building an Architectural Talent Matching Agent How I Automated Skill-First Technical Recruitment Using Hybrid-Search RAG and Score Fusion TL;DR I experimented with building an autonomous talent acquisition agent called TalentArch-AI. In my experience, traditional keyword matching fails to capture the \"vibe\" of an architect, while pure semantic search often misses non-negotiable certifications. As per my opinion, the solution lies in a Hybrid-Search RAG pipeline that fuses BM25 ke",
+      "url": "https://dev.to/exploredataaiml/talentarch-ai-building-an-architectural-talent-matching-agent-48fe",
+      "source": "Dev.to",
+      "author": "Aniket Hingane",
+      "published": "2026-01-18T01:45:26+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "8cade6e39976df6d",
       "title": "Vibe code anything in a Hanselminute",
       "description": "Ryan welcomes back the mighty Scott Hanselman, VP of Developer Community at Microsoft, for a crossover episode about all things vibe coding.",
@@ -8167,20 +8175,6 @@
       "keywords": [
         "code",
         "developer"
-      ]
-    },
-    {
-      "id": "fc7586176495075b",
-      "title": "Show HN: Librario, a book metadata API that aggregates G Books, ISBNDB, and more",
-      "description": "Comments",
-      "url": "https://news.ycombinator.com/item?id=46571149",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-10T23:45:25+00:00",
-      "niche": "dev",
-      "score": 48,
-      "keywords": [
-        "API"
       ]
     },
     {
@@ -8510,30 +8504,6 @@
       "keywords": [
         "tutorial"
       ]
-    },
-    {
-      "id": "9d85bf9449fadf7b",
-      "title": "Private equity firms acquired more than 500 autism centers in past decade: study",
-      "description": "Comments",
-      "url": "https://www.brown.edu/news/2026-01-07/private-equity-autism-centers",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-10T23:36:16+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "1c12fd8d33872697",
-      "title": "A Year of Work on the Arch Linux Package Management (ALPM) Project",
-      "description": "Comments",
-      "url": "https://devblog.archlinux.page/2026/a-year-of-work-on-the-alpm-project/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-11T02:08:14+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "3831ce4e15d2de4f",
@@ -10432,6 +10402,42 @@
       "keywords": []
     },
     {
+      "id": "97d1fa14aae563fc",
+      "title": "If you put Apple icons in reverse it looks like someone getting good at design",
+      "description": "Comments",
+      "url": "https://www.threads.com/@heliographe.studio/post/DTeOwAykwQ1",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-17T23:47:16+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "1f3eb27b78b9744c",
+      "title": "MIT's Computer Systems Security (2024)",
+      "description": "Comments",
+      "url": "https://css.csail.mit.edu/6.858/2024/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-18T00:09:43+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "48e61765f7bf9193",
+      "title": "Light Mode InFFFFFFlation",
+      "description": "Comments",
+      "url": "https://willhbr.net/2025/10/20/light-mode-infffffflation/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-17T22:19:25+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "849a31264602f6cb",
       "title": "8 Best WordPress Themes for Designers (2026): Fast Builds, Clean UI",
       "description": "Compare the 8 best WordPress themes for designers in 2026—fast builds, clean UI, dependable updates, and WooCommerce depth for reliable, high-performance sites.",
@@ -10506,8 +10512,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "performance",
-        "React 19"
+        "React 19",
+        "performance"
       ]
     },
     {
@@ -10549,9 +10555,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
+        "release",
         "code",
-        "performance",
-        "release"
+        "performance"
       ]
     },
     {
@@ -10565,9 +10571,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "developer",
+        "release",
         "API",
-        "release"
+        "developer"
       ]
     },
     {
@@ -10887,9 +10893,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "React 19",
+        "release",
         "API",
-        "release"
+        "React 19"
       ]
     },
     {
@@ -10931,8 +10937,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -10946,8 +10952,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -11033,8 +11039,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "framework",
-        "API"
+        "API",
+        "framework"
       ]
     },
     {
@@ -11226,10 +11232,10 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "framework",
-        "performance",
-        "API",
         "release",
+        "framework",
+        "API",
+        "performance",
         "code"
       ]
     },
@@ -11580,8 +11586,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "API",
-        "release"
+        "release",
+        "API"
       ]
     },
     {
@@ -11595,8 +11601,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "framework",
-        "release"
+        "release",
+        "framework"
       ]
     },
     {
@@ -11610,8 +11616,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "Angular",
-        "framework"
+        "framework",
+        "Angular"
       ]
     },
     {
@@ -11625,9 +11631,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
+        "developer",
         "code",
-        "performance",
-        "developer"
+        "performance"
       ]
     },
     {
@@ -11656,8 +11662,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -11714,8 +11720,8 @@
       "score": 17,
       "keywords": [
         "development",
-        "developer",
-        "API"
+        "API",
+        "developer"
       ]
     },
     {
@@ -11729,8 +11735,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "code",
-        "API"
+        "API",
+        "code"
       ]
     },
     {
@@ -11912,18 +11918,6 @@
       "keywords": []
     },
     {
-      "id": "cdc9b769685c7e38",
-      "title": "Ski map artist James Niehues, the 'Monet of the mountains' (2021)",
-      "description": "Comments",
-      "url": "https://adventure.com/ski-map-artist-james-niehues/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-10T22:58:25+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
       "id": "480c03a952082c05",
       "title": "Z80 Mem­ber­ship Card",
       "description": "Comments",
@@ -12039,6 +12033,30 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2026-01-11T18:58:19+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "d76759abd7f5d425",
+      "title": "Xous Operating System",
+      "description": "Comments",
+      "url": "https://xous.dev/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-14T17:29:09+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "7216432261536604",
+      "title": "The Olivetti Company",
+      "description": "Comments",
+      "url": "https://www.abortretry.fail/p/the-olivetti-company",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-11T15:33:04+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -12234,8 +12252,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "programming",
-        "development"
+        "development",
+        "programming"
       ]
     },
     {
@@ -12325,8 +12343,8 @@
       "niche": "dev",
       "score": 13,
       "keywords": [
-        "tutorial",
-        "API"
+        "API",
+        "tutorial"
       ]
     },
     {
