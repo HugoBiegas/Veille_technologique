@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-19T06:51:27.373885+00:00",
-  "total_articles": 185,
+  "last_updated": "2026-01-19T09:46:00.794075+00:00",
+  "total_articles": 186,
   "articles": [
     {
       "id": "edbaeac5a0d402bc",
@@ -543,6 +543,18 @@
       "keywords": []
     },
     {
+      "id": "b110f435ab678823",
+      "title": "Scala’s Implicits: The Feature So Powerful It Had to Be Split in Two",
+      "description": "Few programming language features inspire such polarized reactions as Scala&#8217;s implicits. To advocates, they&#8217;re elegant magic that eliminates boilerplate and enables powerful abstractions. To critics, they&#8217;re spooky action at a distance that makes code impossible to understand. Both sides are right. When Martin Odersky introduced implicits to Scala in 2004, he couldn&#8217;t have predicted how &#8230;",
+      "url": "https://www.javacodegeeks.com/2026/01/scalas-implicits-the-feature-so-powerful-it-had-to-be-split-in-two.html",
+      "source": "Java Code Geeks",
+      "author": "Eleftheria Drosopoulou",
+      "published": "2026-01-19T07:01:00+00:00",
+      "niche": "spring",
+      "score": 42,
+      "keywords": []
+    },
+    {
       "id": "a7f602fe09f51d3a",
       "title": "One Giant Leap: 95% Less Sampling Cost",
       "description": "The public standard in Linux for reading thread CPU time is the computational equivalent of printing a spreadsheet to paper, then scanning it with a camera, only to digitize it back into a spreadsheet just to read a value. It works, but it destroys throughput. I recently integrated a patch into OpenJDK that replaces this legacy logic with direct calls. The result is a 20x speedup for thread monitoring of user CPU time. Here is the story behind the optimization and why \"everything is a file\" isn'",
@@ -562,6 +574,18 @@
       "source": "Inside.java (Oracle)",
       "author": "[\"JosePaumard\"]",
       "published": "2026-01-17T00:00:00+00:00",
+      "niche": "spring",
+      "score": 37,
+      "keywords": []
+    },
+    {
+      "id": "a57aa8f67bf051c8",
+      "title": "Optimizing GPU Programs from Java using Babylon and HAT",
+      "description": "The Heterogeneous Accelerator Toolkit (HAT) is a parallel programming framework that allows Java developers to offload Java code and dispatch the generated code on modern hardware accelerators, such as Graphics Processing Units (GPUs). This article provides an overview of the HAT programming model: using matrix-multiplication as an example, we demonstrate how Java developers can tune GPU workloads from the Java side to achieve performance close to native cuBLAS, scaling from 7 GFLOP/s on CPUs to",
+      "url": "https://inside.java/2026/01/19/hat-matmul-gpu/",
+      "source": "Inside.java (Oracle)",
+      "author": "[\"JuanFumero\"]",
+      "published": "2026-01-19T00:00:00+00:00",
       "niche": "spring",
       "score": 37,
       "keywords": []
@@ -1942,18 +1966,6 @@
       "source": "Inside.java (Oracle)",
       "author": "[\"GeorgesSaab\", \"NicolaiParlog\"]",
       "published": "2025-12-26T00:00:00+00:00",
-      "niche": "spring",
-      "score": 9,
-      "keywords": []
-    },
-    {
-      "id": "2186148a5af86828",
-      "title": "Quality Outreach Heads-up - JDK 26: Jlink Compression Plugin Now Handles -c Option Correctly",
-      "description": "This Heads-Up is part of the regular communication sent to the projects involved; it covers how jlink processes the compression level set through -c option.",
-      "url": "https://inside.java/2025/12/16/quality-heads-up/",
-      "source": "Inside.java (Oracle)",
-      "author": "[\"Ana-MariaMihalceanu\"]",
-      "published": "2025-12-16T00:00:00+00:00",
       "niche": "spring",
       "score": 9,
       "keywords": []
