@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-20T15:42:26.683702+00:00",
-  "total_articles": 187,
+  "last_updated": "2026-01-20T18:51:12.663726+00:00",
+  "total_articles": 188,
   "articles": [
     {
       "id": "edbaeac5a0d402bc",
@@ -75,6 +75,18 @@
       "keywords": []
     },
     {
+      "id": "78b52a7c73b8cf72",
+      "title": "Spring for Apache Pulsar 1.2.14 and 2.0.2 are now available",
+      "description": "On behalf of the team and everyone who has contributed, I’m happy to announce that Spring for Apache Pulsar 1.2.14 and 2.0.2 have been released and are now available from Maven Central. The 1.2.14 release will be included in the upcoming Spring Boot 3.5.10 releases. The 2.0.2 release will be included in the upcoming Spring Boot 4.0.2 release. Please see the release notes (1.2.14 and 2.0.2) for more details.",
+      "url": "https://spring.io/blog/2026/01/20/spring-for-apache-pulsar-1-2-14-and-2-0-2-are-now-available",
+      "source": "Spring Blog (Official)",
+      "author": "onobc",
+      "published": "2026-01-20T00:00:00+00:00",
+      "niche": "spring",
+      "score": 62,
+      "keywords": []
+    },
+    {
       "id": "f53f0f2a64685707",
       "title": "A Bootiful Podcast: Jonatan Ivanov on how to measure all the things with Micrometer",
       "description": "Hi, Spring fans! This week we catch up with the observably awesome Jonatan Ivanov on how to measure all the things with Micrometer",
@@ -118,6 +130,18 @@
       "source": "DZone Microservices",
       "author": "Constantin Kwiatkowski",
       "published": "2026-01-20T14:00:02+00:00",
+      "niche": "spring",
+      "score": 57,
+      "keywords": []
+    },
+    {
+      "id": "5d6c93edc5e09a78",
+      "title": "Inserting BLOB Using Spring JdbcTemplate Example",
+      "description": "1. Introduction BLOB (Binary Large Object) is a large object data type in the database system. BLOB could store documents, images, audio, or video files. For smaller BLOBs, setting a byte array directly in memory is ok. For large BLOBs, streaming is more memory efficient. In this example, I will demonstrate how to use JdbcTemplate &#8230;",
+      "url": "https://www.javacodegeeks.com/inserting-blob-using-spring-jdbctemplate-example.html",
+      "source": "Java Code Geeks",
+      "author": "Mary Zheng",
+      "published": "2026-01-20T15:41:00+00:00",
       "niche": "spring",
       "score": 57,
       "keywords": []
@@ -183,30 +207,6 @@
       "keywords": []
     },
     {
-      "id": "b0b7a9a014683081",
-      "title": "Functional Programming as Stoic Philosophy: Immutability and Accepting What You Cannot Change",
-      "description": "Marcus Aurelius, Roman Emperor and Stoic philosopher, wrote in his Meditations: &#8220;You have power over your mind—not outside events. Realize this, and you will find strength.&#8221; Two thousand years later, functional programmers write: &#8220;You have power over new values—not existing data. Realize this, and you will find clarity.&#8221; The parallel isn&#8217;t coincidental. Functional programming embodies &#8230;",
-      "url": "https://www.javacodegeeks.com/2026/01/functional-programming-as-stoic-philosophy-immutability-and-accepting-what-you-cannot-change.html",
-      "source": "Java Code Geeks",
-      "author": "Eleftheria Drosopoulou",
-      "published": "2026-01-13T17:40:00+00:00",
-      "niche": "spring",
-      "score": 42,
-      "keywords": []
-    },
-    {
-      "id": "09774e9546e8b2f0",
-      "title": "How to Fix Hibernate’s token ‘*’ SyntaxException",
-      "description": "Hibernate’s JPQL (Java Persistence Query Language) provides an object-oriented abstraction over SQL, allowing us to query entities instead of database tables. However, this abstraction also introduces syntax rules that differ significantly from traditional SQL. One common pitfall is attempting to use the wildcard selector (SELECT *), which is not supported in JPQL and results in &#8230;",
-      "url": "https://www.javacodegeeks.com/how-to-fix-hibernates-token-syntaxexception.html",
-      "source": "Java Code Geeks",
-      "author": "Omozegie Aziegbe",
-      "published": "2026-01-13T16:07:00+00:00",
-      "niche": "spring",
-      "score": 42,
-      "keywords": []
-    },
-    {
       "id": "37bb1d7d639ebbb8",
       "title": "Architecting a Production-Ready GenAI Service Desk",
       "description": "Internal IT Service Desks are the nervous system of any enterprise, yet they are often clogged with repetitive queries. Questions like \"How do I reset my VPN?\" or \"What is the expense policy?\" make up the bulk of tickets, distracting engineers from critical infrastructure work. While Generative AI (GenAI) and Large Language Models (LLMs) promise a solution, simply pointing GPT-4 at a PDF repository rarely works in production. The hallucination rate remains high, and specific enterprise context i",
@@ -214,18 +214,6 @@
       "source": "DZone Microservices",
       "author": "Dippu Kumar Singh",
       "published": "2026-01-13T19:00:00+00:00",
-      "niche": "spring",
-      "score": 42,
-      "keywords": []
-    },
-    {
-      "id": "7865545cea09b746",
-      "title": "Architecting Observability in Kubernetes with OpenTelemetry and Fluent Bit",
-      "description": "In the era of monolithic architectures, troubleshooting was relatively straightforward: SSH into the server, grep the log files, and check CPU usage with top. In the cloud-native world — specifically within Kubernetes — this approach is obsolete. Applications are split into dozens of microservices, pods are ephemeral (spinning up and terminating automatically), and a single user request might traverse ten different nodes. When a transaction fails, where do you look?",
-      "url": "https://feeds.dzone.com/link/18931/17252657/architecting-observability-in-kubernetes-with-otel-fluent-bit",
-      "source": "DZone Microservices",
-      "author": "Dippu Kumar Singh",
-      "published": "2026-01-13T18:00:00+00:00",
       "niche": "spring",
       "score": 42,
       "keywords": []
@@ -562,6 +550,18 @@
       "source": "DZone Microservices",
       "author": "Mohan Sankaran",
       "published": "2026-01-20T13:00:10+00:00",
+      "niche": "spring",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "c7cd53d02254d72d",
+      "title": "Haskell’s Lazy Evaluation: Computing Only What You Need (And The Surprises That Brings)",
+      "description": "Imagine walking into a massive library where books magically appear on the shelves only when you reach for them. That&#8217;s essentially how Haskell approaches computation. While most programming languages eagerly compute everything upfront, Haskell takes a remarkably different path: it waits. It delays. It computes only what you actually need, when you need it. This &#8230;",
+      "url": "https://www.javacodegeeks.com/2026/01/haskells-lazy-evaluation-computing-only-what-you-need-and-the-surprises-that-brings.html",
+      "source": "Java Code Geeks",
+      "author": "Eleftheria Drosopoulou",
+      "published": "2026-01-20T17:03:00+00:00",
       "niche": "spring",
       "score": 42,
       "keywords": []
@@ -1582,6 +1582,18 @@
       "source": "InfoQ Java",
       "author": "InfoQ",
       "published": "2026-01-09T11:00:00+00:00",
+      "niche": "spring",
+      "score": 12,
+      "keywords": []
+    },
+    {
+      "id": "7865545cea09b746",
+      "title": "Architecting Observability in Kubernetes with OpenTelemetry and Fluent Bit",
+      "description": "In the era of monolithic architectures, troubleshooting was relatively straightforward: SSH into the server, grep the log files, and check CPU usage with top. In the cloud-native world — specifically within Kubernetes — this approach is obsolete. Applications are split into dozens of microservices, pods are ephemeral (spinning up and terminating automatically), and a single user request might traverse ten different nodes. When a transaction fails, where do you look?",
+      "url": "https://feeds.dzone.com/link/18931/17252657/architecting-observability-in-kubernetes-with-otel-fluent-bit",
+      "source": "DZone Microservices",
+      "author": "Dippu Kumar Singh",
+      "published": "2026-01-13T18:00:00+00:00",
       "niche": "spring",
       "score": 12,
       "keywords": []
