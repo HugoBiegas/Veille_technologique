@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-20T09:38:47.443188+00:00",
-  "total_articles": 1020,
+  "last_updated": "2026-01-20T13:02:04.642275+00:00",
+  "total_articles": 1022,
   "articles": [
     {
       "id": "eeadfa3865f38d14",
@@ -182,6 +182,21 @@
       "keywords": [
         "developer",
         "API"
+      ]
+    },
+    {
+      "id": "944766714d9dda7a",
+      "title": "Understanding 'Key' in React And, Why It Matters",
+      "description": "1. Introduction When working with lists in React, you've probably seen a warning about missing key props. Many developers ignore it whereas many misunderstood it that adding key to dynamic array prevent array items from re-rendering and improves performance. But that's not how key works. So, In this article we'll break down what key is, why React needs it, and how to use it correctly. 2. The Problem 2.1. Key In Conditional Rendering (Same Type vs Different Type) Consider this component : functio",
+      "url": "https://dev.to/adarsha_wagle_6b218268d02/understanding-keys-in-react-why-they-matter-1h7i",
+      "source": "Dev.to",
+      "author": "Adarsha wagle",
+      "published": "2026-01-20T12:45:22+00:00",
+      "niche": "dev",
+      "score": 73,
+      "keywords": [
+        "performance",
+        "developer"
       ]
     },
     {
@@ -701,6 +716,20 @@
       "niche": "dev",
       "score": 68,
       "keywords": []
+    },
+    {
+      "id": "a1a9592cdf128ab2",
+      "title": "Linux kernel framework for PCIe device emulation, in userspace",
+      "description": "Comments",
+      "url": "https://github.com/cakehonolulu/pciem",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-20T07:51:12+00:00",
+      "niche": "dev",
+      "score": 66,
+      "keywords": [
+        "framework"
+      ]
     },
     {
       "id": "1581238217848933",
@@ -1710,21 +1739,6 @@
       ]
     },
     {
-      "id": "522bdbbfaba150c9",
-      "title": "I got tired of manual DTO mapping, so I built a visual tool for it 🛠️",
-      "description": "The \"Manual Mapping\" Nightmare 😱 We've all been there. You’re integrating two services. Service A speaks one version of OpenAPI, Service B speaks another. The fields almost match, but not quite. What follows is usually an afternoon of: target.setUserId(source.getUUID()) target.setCreatedAt(source.getTimestamp()) ...multiplied by 50 fields. Before you know it, your service layer is 40% \"glue code\" and 60% MapStruct configurations that only three people in the company understand. I decided I'd had",
-      "url": "https://dev.to/anandh_a_73d986de2f2e0c58/i-got-tired-of-manual-dto-mapping-so-i-built-a-visual-tool-for-it-35g8",
-      "source": "Dev.to",
-      "author": "Anandh A",
-      "published": "2026-01-13T12:28:55+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "API",
-        "code"
-      ]
-    },
-    {
       "id": "3600516d95bcc5b0",
       "title": "The Rate Limiting Bug That Cost Us 14 Engineering Hours (And What We Learned)",
       "description": "TL;DR I asked ChatGPT to generate rate limiting code. It gave me 50 lines that looked perfect. Three weeks later, it cost us 14 engineering hours and nearly took down production. The AI-generated code had 5 critical flaws: Memory leak (infinite growth) Lost state on restart Multi-server failure (12x limit bypass) Wrong client identification (load balancer IP) No observability Lesson: Review AI code with production context in mind, not just syntax. Use the framework at the end of this post. I've ",
@@ -2207,17 +2221,18 @@
       ]
     },
     {
-      "id": "98d7d1e9b7ee7945",
-      "title": "From Manual Tasks to Full Automation: How AI-Powered Web Scraping Pipelines Boost Productivity by 10x",
-      "description": "Web data has become a core asset for modern businesses. From market intelligence and pricing analysis to AI training and lead generation, organizations rely on timely, accurate, and large-scale data to remain competitive. Yet, many teams still depend on manual processes or fragile scraping scripts that cannot scale or adapt to today’s web. AI-powered web scraping pipelines are reshaping how data is collected, processed, and delivered. By combining intelligent automation, machine learning, and sc",
-      "url": "https://dev.to/wisdomudo/from-manual-tasks-to-full-automation-how-ai-powered-web-scraping-pipelines-boost-productivity-by-5dd7",
+      "id": "052e392e2e33dd6b",
+      "title": "Why typing tests never helped me improve",
+      "description": "Hi DEV 👋 I type every day—code, emails, docs, messages. Like most people, I’ve used typing test websites for years. They tell you your WPM, maybe your accuracy, and then… that’s it. I never really felt like I was improving. At some point, I realized that most typing tools are great at measuring performance, but not very good at helping you get better. They reset everything after each test, even though the mistakes I made were usually the same ones. That observation pushed me to think differently",
+      "url": "https://dev.to/amitgaj/why-typing-tests-never-helped-me-improve-4mlf",
       "source": "Dev.to",
-      "author": "WISDOMUDO",
-      "published": "2026-01-13T12:47:17+00:00",
+      "author": "Amit",
+      "published": "2026-01-20T12:29:55+00:00",
       "niche": "dev",
-      "score": 54,
+      "score": 55,
       "keywords": [
-        "API"
+        "performance",
+        "code"
       ]
     },
     {
@@ -3081,21 +3096,6 @@
       ]
     },
     {
-      "id": "30e256bf578a39c6",
-      "title": "🚀 Starting My Terraform Journey – HashiCorp Terraform Associate Exam (003)",
-      "description": "I’m officially starting my Terraform learning journey with the goal of clearing the HashiCorp Terraform Associate (003) certification. I’ve worked with cloud and DevOps concepts before, but now I want to go deeper into Infrastructure as Code (IaC) and understand Terraform the right way — concepts, best practices, and real-world usage. This blog series will help me: Stay consistent Document what I learn Help others who are starting from scratch 🎯 Why Terraform? Terraform is one of the most widely",
-      "url": "https://dev.to/smit2036/starting-my-terraform-journey-hashicorp-terraform-associate-exam-003-1kde",
-      "source": "Dev.to",
-      "author": "smit_kalathiya",
-      "published": "2026-01-13T12:22:04+00:00",
-      "niche": "dev",
-      "score": 52,
-      "keywords": [
-        "code",
-        "best practices"
-      ]
-    },
-    {
       "id": "8ce38bba2b4ffbd7",
       "title": "The Infinite Buffer: Why AI Agents Are Rebuilding the Lisp Machine",
       "description": "1. The GUI Trap For the last decade, the evolution of software development tools has been driven by a single imperative: Visual Ergonomics. We built tools like VS Code, IntelliJ, and Zed to be visually intuitive for human eyes. We optimized for pixel-perfect rendering, mouse interactions, and discoverability via menus. But with the rise of Large Language Models (LLMs), this \"Visual Imperative\" has become a liability. When an AI Agent tries to use a modern IDE, it encounters a wall of opaque pixe",
@@ -3756,45 +3756,48 @@
       ]
     },
     {
-      "id": "133caeb1d72817cb",
-      "title": "Logtide 0.4.0: We Rebranded (And Shipped Our Best Features Yet)",
-      "description": "Big news: LogWard is now Logtide. 🌊 Same mission (privacy-first observability). Same code (AGPLv3, self-hostable). New name. Let me tell you what happened and what we built. 🎭 Why We Rebranded Early January 2025: We discovered a trademark conflict with our name. Our reaction: \"This is fixable. Let's do it right.\" January 7-12: Professional communication led to a resolution. Result: Smooth transition completed in 5 days. Zero legal drama. What We Learned About Trademarks The hard truth: Trademark",
-      "url": "https://dev.to/polliog/logtide-040-we-rebranded-and-shipped-our-best-features-yet-527i",
+      "id": "958b81341ce47250",
+      "title": "BenQ RD280UG Review: 28-Inch 4K Programming Monitor for Developers",
+      "description": "This is a sponsored post, but it's an honest review. BenQ sent me their new RD280UG monitor to review. They've sent me monitors in the past, and I've been a fan of their programming-focused lineup. BenQ RD280U Review: A 28\" 4K Monitor Built for Developers Nick Taylor ・ Apr 13 '25 #productivity #review The 3:2 Aspect Ratio Thing These monitors use a 3:2 aspect ratio instead of the standard widescreen format. When I got my first BenQ programming monitor about a year ago, the 28-inch 3:2 dimensions",
+      "url": "https://dev.to/nickytonline/benq-rd280ug-review-28-inch-4k-programming-monitor-for-developers-2iko",
       "source": "Dev.to",
-      "author": "Polliog",
-      "published": "2026-01-13T12:52:20+00:00",
+      "author": "Nick Taylor",
+      "published": "2026-01-20T12:48:00+00:00",
       "niche": "dev",
-      "score": 51,
+      "score": 52,
       "keywords": [
+        "programming",
+        "developer"
+      ]
+    },
+    {
+      "id": "9bdc6f746d57a736",
+      "title": "Zappp ⚡ - A Lightning-Fast Alternative to VS Code Live Server",
+      "description": "Ever wished you had VS Code's Live Server extension as a standalone CLI tool? Meet Zappp - a simple, fast static file server with live reload functionality that you can run from anywhere. Why I Built Zappp As developers, we've all been there: you're working on a quick HTML/CSS/JS project, need to test it locally, and reach for Python's SimpleHTTPServer or VS Code's Live Server. But what if you're not in VS Code? What if you want something you can run from any terminal, on any project, instantly?",
+      "url": "https://dev.to/iamovi/zappp-a-lightning-fast-alternative-to-vs-code-live-server-17hb",
+      "source": "Dev.to",
+      "author": "Ovi ren",
+      "published": "2026-01-20T12:45:10+00:00",
+      "niche": "dev",
+      "score": 52,
+      "keywords": [
+        "developer",
         "code"
       ]
     },
     {
-      "id": "bc1e3c08c7d9426f",
-      "title": "The Three Musketeers of Machine Learning: A Journey from \"What's ML?\" to \"I Get It!\"",
-      "description": "A comprehensive guide to supervised, unsupervised, and reinforcement learning — explained for beginners AND experts with real examples and code. Machine Learning has 3 main types: Supervised (learning with answers), Unsupervised (finding patterns alone), and Reinforcement (learning by trial & error). This guide explains each like you're 10 AND like you're a senior engineer. 🎯 Introduction: Why Should You Care? Imagine teaching a child to recognize animals: You could show them pictures and say, \"",
-      "url": "https://dev.to/sachin_krrajput/the-three-musketeers-of-machine-learning-a-journey-from-whats-ml-to-i-get-it-2dla",
+      "id": "77d7ccf3b9c457fb",
+      "title": "Spec-Driven Development: The Future of AI Coding",
+      "description": "Our Approach The engineering practices at Digital Speed have evolved over the years. But one thing that hasn't changed is our focus on writing high quality, maintainable code. And since the advent of AI and vibe coding, it's become far more important to ensure clean and maintainable code is being written. What is vibe coding I hear you say? Below is a quote directly from Merriam Webster: \"Vibe coding is a recently-coined term for the practice of writing code, making web pages, or creating apps, ",
+      "url": "https://dev.to/digitalspeed/spec-driven-development-the-future-of-ai-coding-1bk3",
       "source": "Dev.to",
-      "author": "Sachin Kr. Rajput",
-      "published": "2026-01-13T12:35:47+00:00",
+      "author": "Taylor Lindores Reeves",
+      "published": "2026-01-20T12:35:56+00:00",
       "niche": "dev",
-      "score": 51,
+      "score": 52,
       "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "36924819f315a676",
-      "title": "IVP Compliance Review: CodeAI - An AI-Designed Language Evaluated Against the Independent Variation Principle",
-      "description": "AI disclosure: This article was generated by Claude Sonnet 4.5. Executive Summary This document presents a formal architectural review of CodeAI, a domain-specific language designed by large language models for backend service declaration. The review evaluates the language against the Independent Variation Principle (IVP): the principle that each concern should vary in exactly one place. Key Findings: ✅ Strong IVP Compliance: CodeAI demonstrates excellent concern separation at the language desig",
-      "url": "https://dev.to/yannick555/ivp-compliance-review-codeai-an-ai-designed-language-evaluated-against-the-independent-variation-4ca9",
-      "source": "Dev.to",
-      "author": "Yannick Loth",
-      "published": "2026-01-13T12:33:21+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
+        "code",
+        "development"
       ]
     },
     {
@@ -5576,52 +5579,32 @@
       ]
     },
     {
-      "id": "ae698b884e979689",
-      "title": "Feedforward Neural Networks",
-      "description": "Feedforward Neural Networks: Mathematical Foundations, Implementations, and Recent Advancements (2025-2026) Abstract Feedforward neural networks (FFNNs) constitute the foundational architecture underlying modern deep learning systems. This paper presents a comprehensive mathematical derivation of FFNNs, complete vectorized implementations in Python/NumPy, and integration of cutting-edge 2025-2026 advancements including Mixture-of-Experts (MoE) routing, post-training quantization (PTQ), Low-Rank ",
-      "url": "https://dev.to/washington_amolo_ebf7698c/feedforward-neural-networks-3mhm",
+      "id": "978ac972643ec657",
+      "title": "Zalgo Text Looks Broken or Like Virus Text in TinyTextMaker.com (WordPress) – How to Fix?",
+      "description": "I have created a WordPress-based website similar to TinyTextMaker.com where users can generate fancy text styles. When I add the \"Zalgo\" text style, the output text looks broken and appears like virus or corrupted text blocks. The characters overlap excessively, making the text unreadable on the website. This issue happens especially on: WordPress frontend Mobile browsers Copy/paste output from the Zalgo generator I understand that Zalgo text uses Unicode combining characters, but I want to cont",
+      "url": "https://dev.to/manzoor_samejo_78ba2f2920/zalgo-text-looks-broken-or-like-virus-text-in-tinytextmakercom-wordpress-how-to-fix-1b4",
       "source": "Dev.to",
-      "author": "Washington Amolo",
-      "published": "2026-01-13T12:45:02+00:00",
+      "author": "Manzoor Samejo",
+      "published": "2026-01-20T12:37:51+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
-      "id": "57644820636ac7d8",
-      "title": "My Exam Experience: AWS Certified Security Specialty",
-      "description": "This exam was the last exam I took in 2025 in the series of three I sat for in the span of two weeks. This was the renewal exam for me, but this was the first time taking the SCS-C03. Content Review This version of the exam content is drastically different from the first. Not in that there are more security tools in AWS to familiarize yourself with, but that this was a test of how to secure any given workload for any given set of requirements. The first time I took this exam, there were quite a ",
-      "url": "https://dev.to/xmabry/my-exam-experience-aws-certified-security-specialty-1ke6",
+      "id": "893efe352994f02f",
+      "title": "Build a Viral Content Predictor Using Early Engagement Signals",
+      "description": "Some videos get 10 views. Others get 10 million. The difference isn't luck. It's math. Viral content follows patterns. The first hour of engagement can predict the next million views with surprising accuracy. In this tutorial, we'll build a Viral Content Predictor that: Analyzes early engagement metrics from any video Compares against viral benchmarks Predicts viral potential with a confidence score Know if your content will pop before anyone else does. The Science of Virality Researchers at Mic",
+      "url": "https://dev.to/olams/build-a-viral-content-predictor-using-early-engagement-signals-1f2c",
       "source": "Dev.to",
-      "author": "Xauntasia Mabry",
-      "published": "2026-01-13T12:28:19+00:00",
+      "author": "Olamide Olaniyan",
+      "published": "2026-01-20T12:20:00+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "4d99695c8215028f",
-      "title": "Potential Use Cases for the Hybrid Async-Native Engine",
-      "description": "TL;DR This post explores potential use cases for a hybrid Python/C async-native engine using GIL and Non-GIL threads with a Shared Memory Bus Introduction Following my previous post about the Hybrid Async-Native Engine design concept, I've been thinking about where this architecture might actually be useful. I want to share some potential scenarios where the dual GIL/Non-GIL thread model with Shared Memory Bus could theoretically provide benefits. Important disclaimer: These are conceptual use c",
-      "url": "https://dev.to/hejhdiss/potential-use-cases-for-the-hybrid-async-native-engine-54ca",
-      "source": "Dev.to",
-      "author": "Muhammed Shafin P",
-      "published": "2026-01-13T12:22:27+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "5af231d6b45246c9",
-      "title": "Dopamine Detox: The Chrome Extension That Exposed My 2h15m YouTube Addiction",
-      "description": "London UX mentor launches scroll blocker with AI binge prediction Yesterday my Dopamine Detox dashboard delivered a reality check YouTube: 2h15m 😳 Instagram: 47m 🚫 TikTok: 32m ⚠️ 14 hours/week lost to scrolling instead of shipping portfolios. After mentoring 50+ Gen Z designers with the same confession, I built this Chrome extension in 1 week. 🎯 Key Features Real-Time Scroll Tracking 🧠 chrome.tabs.onUpdated → live time per site Dashboard shows: \"YouTube: 2h15m Today\" Dark UI (#0F172A + #10B981 n",
-      "url": "https://dev.to/tonylab_net/dopamine-detox-the-chrome-extension-that-exposed-my-2h15m-youtube-addiction-1aj5",
-      "source": "Dev.to",
-      "author": "Mr Momoh - Brother Ridgeback 🦁",
-      "published": "2026-01-13T12:21:19+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "tutorial"
+      ]
     },
     {
       "id": "d3eaae95c89a26a5",
@@ -8248,6 +8231,42 @@
       "keywords": []
     },
     {
+      "id": "691ac28a887d2afb",
+      "title": "8 Lições sobre microsserviços que todo desenvolvedor precisa saber",
+      "description": "1 – Não seja extremista Temos a mania — e até um sonho inalcançável — de encontrar um padrão que resolva 100% dos nossos problemas. Com arquitetura de software, isso não é diferente. O ponto aqui é simples: você não precisa adotar um padrão e morrer abraçado com ele. Seu sistema não precisa ser apenas um monolito ou exclusivamente composto por microsserviços. A realidade do mercado mostra que, na maioria dos casos, existe uma mescla dessas arquiteturas, justamente para extrair o melhor que cada ",
+      "url": "https://dev.to/erandirjunior/8-licoes-sobre-microsservicos-que-todo-desenvolvedor-precisa-saber-3o42",
+      "source": "Dev.to",
+      "author": "Erandir Junior",
+      "published": "2026-01-20T12:50:58+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "b9f597ef4b39fea7",
+      "title": "Ethereum-Solidity Quiz Q24: What is the role of \"0x\" prefix in data representations?",
+      "description": "In computer science and implicitly in Ethereum and Solidity, the 0x prefix serves the fundamental purpose of signifying that the following data is in hexadecimal (base-16). Why is it used? Without a prefix, many hexadecimal numbers would be indistinguishable from decimal numbers. Scenario: You see the number 80. Problem: Is this \"eighty\" (decimal) or is it 8 * 16^1 + 0 = 128 (hexadecimal)? Solution: By writing 0x80, the ambiguity is removed. The compiler immediately knows the base is 16. In Ethe",
+      "url": "https://dev.to/mihaihng/ethereum-solidity-quiz-q24-what-is-the-role-of-0x-prefix-in-data-representations-4amk",
+      "source": "Dev.to",
+      "author": "MihaiHng",
+      "published": "2026-01-20T12:36:33+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "b904e6e931ec2a71",
+      "title": "Setup Oracle VirtualBox in Windows 11",
+      "description": "Today lemme demonstrate how to download and setup Oracle VirtualBox in Windows 11. I know its a vary basic thing to do but some of us dont know where and how to do this. Lets start with Downloading required files Oracle VirtualBox Download Extension Pack Download Now lets install it Double click to open the setup and proceed with this steps Click Next Check the I accept the terms of the license agreement and click Next Simply click Next Click Yes Click Yes Click Install Click Finish Now and open",
+      "url": "https://dev.to/adityapidurkar/setup-oracle-virtualbox-in-windows-11-phm",
+      "source": "Dev.to",
+      "author": "Aditya Pidurkar",
+      "published": "2026-01-20T12:30:00+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "bd4647a44e837446",
       "title": "A 40-line fix eliminated a 400x performance gap",
       "description": "Comments",
@@ -8362,18 +8381,6 @@
       ]
     },
     {
-      "id": "bddad77eab251396",
-      "title": "Digital Omnibus : l’Europe est-elle en train de détricoter sa propre souveraineté numérique ?",
-      "description": "Au moment où l’IA rebattait les cartes du pouvoir numérique, l’Europe pensait avoir trouvé sa singularité : un modèle fondé sur la confiance et la protection des citoyens.",
-      "url": "https://blog.octo.com/digital-omnibus--l'europe-est-elle-en-train-de-detricoter-sa-propre-souverainete-numerique",
-      "source": "Blog Technique Octo",
-      "author": "Eden Tabu",
-      "published": "2026-01-13T11:14:37+00:00",
-      "niche": "dev",
-      "score": 46,
-      "keywords": []
-    },
-    {
       "id": "4b07347d8c837a64",
       "title": "Would you take a bag of cash from a VC or stay bootstrapped?",
       "description": "Assume app you are making is a huge success. Everybody's calling to congratulate you and offering to invest. Would you take the money? Why or why not?",
@@ -8432,6 +8439,18 @@
       "source": "Dev.to",
       "author": "Gábor Mészáros",
       "published": "2026-01-20T08:31:14+00:00",
+      "niche": "dev",
+      "score": 46,
+      "keywords": []
+    },
+    {
+      "id": "f80b6ee9b4b606dc",
+      "title": "Rethinking “Pixel Perfect” Web Design",
+      "description": "Amit Sheen takes a hard look at the “Pixel Perfect” legacy concept, explaining why it’s failing us and redefining what “perfection” actually looks like in a multi-device, fluid world.",
+      "url": "https://smashingmagazine.com/2026/01/rethinking-pixel-perfect-web-design/",
+      "source": "Smashing Magazine",
+      "author": "hello@smashingmagazine.com (Amit Sheen)",
+      "published": "2026-01-20T10:00:00+00:00",
       "niche": "dev",
       "score": 46,
       "keywords": []
@@ -8521,40 +8540,18 @@
       ]
     },
     {
-      "id": "07a98dd76a0e6323",
-      "title": "Network of Scottish X accounts go dark amid Iran blackout",
+      "id": "aff5072873bd84df",
+      "title": "Running Claude Code dangerously (safely)",
       "description": "Comments",
-      "url": "https://www.heraldscotland.com/news/25759181.network-scottish-x-accounts-go-dark-amid-iran-blackout/",
+      "url": "https://blog.emilburzo.com/2026/01/running-claude-code-dangerously-safely/",
       "source": "Hacker News",
       "author": "Inconnu",
-      "published": "2026-01-13T11:19:01+00:00",
+      "published": "2026-01-20T11:58:34+00:00",
       "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "349cbb6f872ff107",
-      "title": "FOSS in times of war, scarcity and (adversarial) AI [video]",
-      "description": "Comments",
-      "url": "https://fosdem.org/2026/schedule/event/FE7ULY-foss-in-times-of-war-scarcity-and-ai/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-13T09:47:59+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "56d5229ae217cd9a",
-      "title": "Show HN: An iOS budget app I've been maintaining since 2011",
-      "description": "Comments",
-      "url": "https://primoco.me/en/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-13T10:44:39+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
+      "score": 45,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "18d9d9cddfe367d5",
@@ -8588,18 +8585,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2026-01-13T14:14:18+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "d6aebf7cfc89a9a5",
-      "title": "Show HN: SnackBase – Open-source, GxP-compliant back end for Python teams",
-      "description": "Comments",
-      "url": "https://snackbase.dev",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-13T12:27:53+00:00",
       "niche": "dev",
       "score": 44,
       "keywords": []
@@ -10585,18 +10570,40 @@
       "keywords": []
     },
     {
-      "id": "849a31264602f6cb",
-      "title": "8 Best WordPress Themes for Designers (2026): Fast Builds, Clean UI",
-      "description": "Compare the 8 best WordPress themes for designers in 2026—fast builds, clean UI, dependable updates, and WooCommerce depth for reliable, high-performance sites.",
-      "url": "https://tympanus.net/codrops/2026/01/13/best-wordpress-themes-for-designers-2026/",
-      "source": "Codrops",
-      "author": "advertiser",
-      "published": "2026-01-13T11:09:09+00:00",
+      "id": "b20e1cd82510ab82",
+      "title": "I'm addicted to being useful",
+      "description": "Comments",
+      "url": "https://www.seangoedecke.com/addicted-to-being-useful/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-20T10:47:25+00:00",
       "niche": "dev",
-      "score": 42,
-      "keywords": [
-        "performance"
-      ]
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "8628a15bc5437f4d",
+      "title": "Channel3 (YC S25) Is Hiring",
+      "description": "Comments",
+      "url": "https://www.ycombinator.com/companies/channel3/jobs/3DIAYYY-backend-engineer",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-20T12:00:31+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "2db1a3265106aac5",
+      "title": "String theory can now describe a universe that has dark energy?",
+      "description": "Comments",
+      "url": "https://www.quantamagazine.org/string-theory-can-now-describe-a-universe-that-has-dark-energy-20260114/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-20T10:30:46+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
     },
     {
       "id": "00ccb947077ff190",
@@ -10645,8 +10652,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "React 19",
-        "performance"
+        "performance",
+        "React 19"
       ]
     },
     {
@@ -10674,9 +10681,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "code",
         "performance",
-        "release"
+        "release",
+        "code"
       ]
     },
     {
@@ -10690,9 +10697,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "API",
+        "release",
         "developer",
-        "release"
+        "API"
       ]
     },
     {
@@ -10767,6 +10774,18 @@
       "source": "Codrops",
       "author": "SavoirFaire©",
       "published": "2026-01-19T09:28:12+00:00",
+      "niche": "dev",
+      "score": 39,
+      "keywords": []
+    },
+    {
+      "id": "588d1b9771fdff07",
+      "title": "Animating Responsive Grid Layout Transitions with GSAP Flip",
+      "description": "We’ll explore how to use GSAP’s Flip plugin to animate dynamic grid layout changes, showing how grid items can resize and rearrange fluidly.",
+      "url": "https://tympanus.net/codrops/2026/01/20/animating-responsive-grid-layout-transitions-with-gsap-flip/",
+      "source": "Codrops",
+      "author": "Iqbal Muthahhary",
+      "published": "2026-01-20T11:57:02+00:00",
       "niche": "dev",
       "score": 39,
       "keywords": []
@@ -11082,9 +11101,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "React 19",
+        "release",
         "API",
-        "release"
+        "React 19"
       ]
     },
     {
@@ -11140,8 +11159,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -11155,8 +11174,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -11185,8 +11204,8 @@
       "niche": "dev",
       "score": 34,
       "keywords": [
-        "development",
-        "developer"
+        "developer",
+        "development"
       ]
     },
     {
@@ -11228,8 +11247,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "API",
-        "framework"
+        "framework",
+        "API"
       ]
     },
     {
@@ -11395,11 +11414,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
+        "framework",
+        "release",
         "code",
         "performance",
-        "API",
-        "framework",
-        "release"
+        "API"
       ]
     },
     {
@@ -11785,8 +11804,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "API",
-        "release"
+        "release",
+        "API"
       ]
     },
     {
@@ -11815,8 +11834,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "Angular",
-        "framework"
+        "framework",
+        "Angular"
       ]
     },
     {
@@ -11830,9 +11849,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "code",
+        "performance",
         "developer",
-        "performance"
+        "code"
       ]
     },
     {
@@ -11846,8 +11865,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "code",
-        "performance"
+        "performance",
+        "code"
       ]
     },
     {
@@ -11861,8 +11880,22 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
+      ]
+    },
+    {
+      "id": "9b564d6078aab5b3",
+      "title": "Increasing the performance of WebAssembly Text Format parser by 350%",
+      "description": "Comments",
+      "url": "https://blog.gplane.win/posts/improve-wat-parser-perf.html",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-15T07:49:09+00:00",
+      "niche": "dev",
+      "score": 18,
+      "keywords": [
+        "performance"
       ]
     },
     {
@@ -11918,9 +11951,9 @@
       "niche": "dev",
       "score": 17,
       "keywords": [
+        "developer",
         "API",
-        "development",
-        "developer"
+        "development"
       ]
     },
     {
@@ -11949,8 +11982,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "code",
-        "developer"
+        "developer",
+        "code"
       ]
     },
     {
@@ -12434,18 +12467,6 @@
       "keywords": []
     },
     {
-      "id": "3ce55ed718dcc0bd",
-      "title": "Accessible UX Research, eBook Now Available For Download",
-      "description": "We’ve got exciting news! eBook versions of “Accessible UX Research,” a new Smashing Book by Michele A. Williams, are now available for download! Which means soon the book will go to the printer. Order the eBook for instant download now or reserve your print copy at the presale price.",
-      "url": "https://smashingmagazine.com/2025/12/accessible-ux-research-ebook-release/",
-      "source": "Smashing Magazine",
-      "author": "hello@smashingmagazine.com (Ari Stiles)",
-      "published": "2025-12-09T16:00:00+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
       "id": "765be3c27e734bb8",
       "title": "Default styles for h1 elements are changing",
       "description": "Browsers are starting to roll out changes in default UA styles for nested section headings. This post describes the incoming changes, how to identify if it's an issue on your websites, and hints for conformant and better-structured pages.",
@@ -12516,8 +12537,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "development",
-        "programming"
+        "programming",
+        "development"
       ]
     },
     {
@@ -12579,8 +12600,8 @@
       "niche": "dev",
       "score": 13,
       "keywords": [
-        "code",
-        "developer"
+        "developer",
+        "code"
       ]
     },
     {
@@ -12800,6 +12821,20 @@
       "niche": "dev",
       "score": 12,
       "keywords": []
+    },
+    {
+      "id": "849a31264602f6cb",
+      "title": "8 Best WordPress Themes for Designers (2026): Fast Builds, Clean UI",
+      "description": "Compare the 8 best WordPress themes for designers in 2026—fast builds, clean UI, dependable updates, and WooCommerce depth for reliable, high-performance sites.",
+      "url": "https://tympanus.net/codrops/2026/01/13/best-wordpress-themes-for-designers-2026/",
+      "source": "Codrops",
+      "author": "advertiser",
+      "published": "2026-01-13T11:09:09+00:00",
+      "niche": "dev",
+      "score": 12,
+      "keywords": [
+        "performance"
+      ]
     },
     {
       "id": "c239d273b61c36f9",
@@ -13096,6 +13131,18 @@
       ]
     },
     {
+      "id": "bddad77eab251396",
+      "title": "Digital Omnibus : l’Europe est-elle en train de détricoter sa propre souveraineté numérique ?",
+      "description": "Au moment où l’IA rebattait les cartes du pouvoir numérique, l’Europe pensait avoir trouvé sa singularité : un modèle fondé sur la confiance et la protection des citoyens.",
+      "url": "https://blog.octo.com/digital-omnibus--l'europe-est-elle-en-train-de-detricoter-sa-propre-souverainete-numerique",
+      "source": "Blog Technique Octo",
+      "author": "Eden Tabu",
+      "published": "2026-01-13T11:14:37+00:00",
+      "niche": "dev",
+      "score": 10,
+      "keywords": []
+    },
+    {
       "id": "73572d1b04b91c0e",
       "title": "Rétrospective 2025 : on fait le bilan",
       "description": "Comme chaque année, OCTO fait son bilan ! Voici le récap de ce que nos Octos ont fait cette année, et que vous avez (peut-être) raté…",
@@ -13105,18 +13152,6 @@
       "published": "2025-12-30T09:10:41+00:00",
       "niche": "dev",
       "score": 10,
-      "keywords": []
-    },
-    {
-      "id": "fd07906ee2d1326c",
-      "title": "8 Best WordPress Plugins 2026: Animation, Data UI & Builder",
-      "description": "Discover the best 8 WordPress plugins for 2026 – animation, data UI, maps, grids, forms, builder &#038; booking – to extend your site while keeping pages lean with smart setup.",
-      "url": "https://tympanus.net/codrops/2026/01/06/best-wordpress-plugins-2026-animation-data-ui/",
-      "source": "Codrops",
-      "author": "advertiser",
-      "published": "2026-01-06T11:50:55+00:00",
-      "niche": "dev",
-      "score": 9,
       "keywords": []
     },
     {
