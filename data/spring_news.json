@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-20T13:07:07.957556+00:00",
-  "total_articles": 176,
+  "last_updated": "2026-01-20T15:42:26.683702+00:00",
+  "total_articles": 187,
   "articles": [
     {
       "id": "edbaeac5a0d402bc",
@@ -63,6 +63,18 @@
       "keywords": []
     },
     {
+      "id": "4d455d7d2425ef6c",
+      "title": "Spring AI Agentic Patterns (Part 3): Why Your AI Agent Forgets Tasks (And How to Fix It)",
+      "description": "Have you ever asked an AI agent to perform a complex multi-step task, only to find it skipped a critical step halfway through? You're not alone. Research shows that LLMs struggle with \"lost in the middle\" failures—forgetting tasks buried in long contexts. When your agent juggles file edits, test execution, and documentation updates, important steps can silently disappear. One solution, inspired by Claude Code, is to make planning explicit and observable with the help of a dedicated TodoWrite too",
+      "url": "https://spring.io/blog/2026/01/20/spring-ai-agentic-patterns-3-todowrite",
+      "source": "Spring Blog (Official)",
+      "author": "tzolov",
+      "published": "2026-01-20T00:00:00+00:00",
+      "niche": "spring",
+      "score": 62,
+      "keywords": []
+    },
+    {
       "id": "f53f0f2a64685707",
       "title": "A Bootiful Podcast: Jonatan Ivanov on how to measure all the things with Micrometer",
       "description": "Hi, Spring fans! This week we catch up with the observably awesome Jonatan Ivanov on how to measure all the things with Micrometer",
@@ -94,6 +106,18 @@
       "source": "Java Code Geeks",
       "author": "Java Code Geeks",
       "published": "2026-01-20T11:30:30+00:00",
+      "niche": "spring",
+      "score": 57,
+      "keywords": []
+    },
+    {
+      "id": "a88438612db3bfe6",
+      "title": "Caching Issues With the Spring Expression Language",
+      "description": "Let's imagine a web application where, for each request, it must read configuration data from a database. That data doesn't change usually, but the application, in each request, must connect, execute the correct instructions to read the data, pick it up from the network, etc. Imagine also that the database is very busy or the connection is slow. What would happen? We would have a slow application because it is reading continuously data that hardly changes. A solution to that problem could be usi",
+      "url": "https://feeds.dzone.com/link/18931/17258507/spring-expression-language-caching-issues",
+      "source": "DZone Microservices",
+      "author": "Constantin Kwiatkowski",
+      "published": "2026-01-20T14:00:02+00:00",
       "niche": "spring",
       "score": 57,
       "keywords": []
@@ -178,18 +202,6 @@
       "source": "Java Code Geeks",
       "author": "Omozegie Aziegbe",
       "published": "2026-01-13T16:07:00+00:00",
-      "niche": "spring",
-      "score": 42,
-      "keywords": []
-    },
-    {
-      "id": "fa12aeb0e5dc5877",
-      "title": "The Timeless Architecture: Enterprise Integration Patterns That Exceed Technology Trends",
-      "description": "In today’s rapidly evolving technology landscape, the evolution of enterprise systems also leaves its footprint on frameworks with relatively short lifecycles. While previous technological innovations may become obsolete, some architectural patterns remain unchanged. These patterns were developed to address the challenges of distributed systems and have improved architectural integration across different eras — from centralized message brokers to cloud-based microservices. When these patterns ar",
-      "url": "https://feeds.dzone.com/link/18931/17252521/the-timeless-architecture-enterprise-integration-p",
-      "source": "DZone Microservices",
-      "author": "Anant Wairagade",
-      "published": "2026-01-13T15:00:00+00:00",
       "niche": "spring",
       "score": 42,
       "keywords": []
@@ -543,6 +555,18 @@
       "keywords": []
     },
     {
+      "id": "73379d7556039627",
+      "title": "“Just Don’t Put PII in the Prompt” Is a Trap: A Two-Plane Architecture for Safe LLM Apps",
+      "description": "Why “Just Don’t Put PII in the Prompt” Doesn’t Work Mobile teams typically start with good intentions: redact emails, don’t log raw text, and avoid sending sensitive fields to an LLM provider. Then reality hits: Debug logs capture prompts “temporarily” (and become permanent). RAG pulls in internal documents that contain secrets. Tool calling expands scope: the model can “ask” for more data. Engineers add “one more field” to improve answers. A prompt injection attempt convinces the model to reque",
+      "url": "https://feeds.dzone.com/link/18931/17258382/safe-llm-apps-two-plane-architecture",
+      "source": "DZone Microservices",
+      "author": "Mohan Sankaran",
+      "published": "2026-01-20T13:00:10+00:00",
+      "niche": "spring",
+      "score": 42,
+      "keywords": []
+    },
+    {
       "id": "a7f602fe09f51d3a",
       "title": "One Giant Leap: 95% Less Sampling Cost",
       "description": "The public standard in Linux for reading thread CPU time is the computational equivalent of printing a spreadsheet to paper, then scanning it with a camera, only to digitize it back into a spreadsheet just to read a value. It works, but it destroys throughput. I recently integrated a patch into OpenJDK that replaces this legacy logic with direct calls. The result is a 20x speedup for thread monitoring of user CPU time. Here is the story behind the optimization and why \"everything is a file\" isn'",
@@ -576,18 +600,6 @@
       "published": "2026-01-19T00:00:00+00:00",
       "niche": "spring",
       "score": 37,
-      "keywords": []
-    },
-    {
-      "id": "2666c71bc72b72cc",
-      "title": "How I Used Bugfree.ai and AlgoMonster to Prepare for System Design and Coding Interviews?",
-      "description": "Hello guys, preparing for technical interviews in 2026 is very different from how it was a few years ago. Companies now expect candidates to be strong in data structures and algorithms, system design fundamentals, and real world coding quality. Simply grinding random problems on LeetCode or memorizing solutions is no longer enough. You need structured learning, realistic practice, and fast feedback. Java, Unix, Tibco RV and FIX Protocol Tutorial",
-      "url": "http://javarevisited.blogspot.com/2026/01/how-i-used-bugfreeai-and-algomonster-to.html",
-      "source": "Java Revisited",
-      "author": "javin paul (noreply@blogger.com)",
-      "published": "2026-01-13T05:40:00-08:00",
-      "niche": "spring",
-      "score": 33,
       "keywords": []
     },
     {
@@ -687,6 +699,18 @@
       "keywords": []
     },
     {
+      "id": "ac46d5f57d56b14d",
+      "title": "I Tested 30+ Websites to Learn Java: Here Are My Top 6 Recommendations for 2026",
+      "description": "Hello guys, I’ve spent the last 48 months systematically testing and evaluating 30+ websites, courses, and platforms for learning Java. Not just reviewing them — actually using them, working through lessons, solving problems, and tracking learning outcomes.The question I wanted to answer: Which resources actually teach Java effectively in 2026?Most beginners fail at learning to code because they spend too much time watching and not enough time doing. They don’t write enough programs. They don’t ",
+      "url": "http://javarevisited.blogspot.com/2026/01/i-tested-30-websites-to-learn-java-here.html",
+      "source": "Java Revisited",
+      "author": "javin paul (noreply@blogger.com)",
+      "published": "2026-01-20T06:11:00-08:00",
+      "niche": "spring",
+      "score": 33,
+      "keywords": []
+    },
+    {
       "id": "477735238d986c22",
       "title": "How to Set Content-Length Header in ResponseEntity in Spring MVC",
       "description": "Setting the Content-Length header in Spring MVC's ResponseEntity is straightforward, but it should be done explicitly and only when required. The post How to Set Content-Length Header in ResponseEntity in Spring MVC first appeared on Baeldung.&#160;&#160;&#160;&#160;&#160;&#160;&#160;",
@@ -706,6 +730,54 @@
       "source": "Vlad Mihalcea",
       "author": "vladmihalcea",
       "published": "2025-11-11T08:05:24+00:00",
+      "niche": "spring",
+      "score": 32,
+      "keywords": []
+    },
+    {
+      "id": "28bdac69ae76624d",
+      "title": "Istio Spring Boot Library Released",
+      "description": "This article explains how to use my Spring Boot Istio library to generate and create Istio resources on a Kubernetes cluster during application startup. The library is primarily intended for development purposes. It aims to make it easier for developers to quickly and easily launch their applications within the Istio mesh. Of course, you can [&#8230;] The post Istio Spring Boot Library Released appeared first on Piotr&#039;s TechBlog.",
+      "url": "https://piotrminkowski.com/2026/01/06/istio-spring-boot-library-released/",
+      "source": "Piotr's TechBlog",
+      "author": "piotr.minkowski",
+      "published": "2026-01-06T09:31:45+00:00",
+      "niche": "spring",
+      "score": 32,
+      "keywords": []
+    },
+    {
+      "id": "05eb9bbc9d88bf8e",
+      "title": "gRPC in Spring Boot",
+      "description": "This article explains how to use the Spring gRPC project to enable built-in support for gRPC services in a Spring Boot application. The Spring gRPC project has just announced its 1.0 GA release. gRPC is a modern open-source Remote Procedure Call (RPC) framework that runs in any environment. By default, it uses Google’s Protocol Buffer [&#8230;] The post gRPC in Spring Boot appeared first on Piotr&#039;s TechBlog.",
+      "url": "https://piotrminkowski.com/2025/12/15/grpc-spring/",
+      "source": "Piotr's TechBlog",
+      "author": "piotr.minkowski",
+      "published": "2025-12-15T08:28:11+00:00",
+      "niche": "spring",
+      "score": 32,
+      "keywords": []
+    },
+    {
+      "id": "72b78b7bee96ecd6",
+      "title": "Spring Boot Built-in API Versioning",
+      "description": "This article explains how to use Spring Boot built-in API versioning feature to expose different versions of REST endpoints. This is one of the most interesting updates introduced with Spring Boot 4. API versioning can be implemented using Spring Web&#8217;s standard REST API capabilities. If you&#8217;re interested in this approach, check out my somewhat outdated [&#8230;] The post Spring Boot Built-in API Versioning appeared first on Piotr&#039;s TechBlog.",
+      "url": "https://piotrminkowski.com/2025/12/01/spring-boot-built-in-api-versioning/",
+      "source": "Piotr's TechBlog",
+      "author": "piotr.minkowski",
+      "published": "2025-12-01T10:59:38+00:00",
+      "niche": "spring",
+      "score": 32,
+      "keywords": []
+    },
+    {
+      "id": "86a740f98d3c0106",
+      "title": "Arconia for Spring Boot Dev Services and Observability",
+      "description": "This article explains how to use the Arconia framework to enhance the developer experience with Spring Boot. This project is a recent initiative under active development. However, it caught my attention because of one feature I love in Quarkus and found missing in Spring Boot. I am referring to a solution called Dev Services, which [&#8230;] The post Arconia for Spring Boot Dev Services and Observability appeared first on Piotr&#039;s TechBlog.",
+      "url": "https://piotrminkowski.com/2025/11/21/arconia-for-spring-boot-dev-services-and-observability/",
+      "source": "Piotr's TechBlog",
+      "author": "piotr.minkowski",
+      "published": "2025-11-21T09:32:46+00:00",
       "niche": "spring",
       "score": 32,
       "keywords": []
@@ -1119,6 +1191,78 @@
       "keywords": []
     },
     {
+      "id": "479976cbb69445d9",
+      "title": "Startup CPU Boost in Kubernetes with In-Place Pod Resize",
+      "description": "This article explains how to use the In-Place Pod Resize feature in Kubernetes, combined with Kube Startup CPU Boost, to speed up Java application startup. The In-Place Update of Pod Resources feature was initially introduced in Kubernetes 1.27 as an alpha release. With version 1.35, Kubernetes has reached GA stability. One potential use case for [&#8230;] The post Startup CPU Boost in Kubernetes with In-Place Pod Resize appeared first on Piotr&#039;s TechBlog.",
+      "url": "https://piotrminkowski.com/2025/12/22/startup-cpu-boost-in-kubernetes-with-in-place-pod-resize/",
+      "source": "Piotr's TechBlog",
+      "author": "piotr.minkowski",
+      "published": "2025-12-22T08:22:48+00:00",
+      "niche": "spring",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "8596cb63931ed965",
+      "title": "A Book: Hands-On Java with Kubernetes",
+      "description": "My book about Java and Kubernetes has finally been published! The book “Hands-On Java with Kubernetes” is the result of several months of work and, in fact, a summary of my experiences over the last few years of research and development. In this post, I want to share my thoughts on this book, explain why [&#8230;] The post A Book: Hands-On Java with Kubernetes appeared first on Piotr&#039;s TechBlog.",
+      "url": "https://piotrminkowski.com/2025/12/08/a-book-hands-on-java-with-kubernetes/",
+      "source": "Piotr's TechBlog",
+      "author": "piotr.minkowski",
+      "published": "2025-12-08T16:05:58+00:00",
+      "niche": "spring",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "d2aacff00db8c65a",
+      "title": "MCP with Quarkus LangChain4j",
+      "description": "This article shows how to use Quarkus LangChain4j support for MCP (Model Context Protocol) on both the server and client sides. You will learn how to serve tools and prompts on the server side and discover them in the Quarkus MCP client-side application. The Model Context Protocol is a standard for managing contextual interactions with [&#8230;] The post MCP with Quarkus LangChain4j appeared first on Piotr&#039;s TechBlog.",
+      "url": "https://piotrminkowski.com/2025/11/24/mcp-with-quarkus-langchain4j/",
+      "source": "Piotr's TechBlog",
+      "author": "piotr.minkowski",
+      "published": "2025-11-24T07:45:15+00:00",
+      "niche": "spring",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "e9e51b7b8efde1a6",
+      "title": "Quarkus with Buildpacks and OpenShift Builds",
+      "description": "In this article, you will learn how to build Quarkus application images using Cloud Native Buildpacks and OpenShift Builds. Some time ago, I published a blog post about building with OpenShift Builds based on the Shipwright project. At that time, Cloud Native Buildpacks were not supported at the OpenShift Builds level. It was only supported [&#8230;] The post Quarkus with Buildpacks and OpenShift Builds appeared first on Piotr&#039;s TechBlog.",
+      "url": "https://piotrminkowski.com/2025/11/19/quarkus-with-buildpacks-and-openshift-builds/",
+      "source": "Piotr's TechBlog",
+      "author": "piotr.minkowski",
+      "published": "2025-11-19T08:50:04+00:00",
+      "niche": "spring",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "3b617b77083015bb",
+      "title": "Running .NET Apps on OpenShift",
+      "description": "This article will guide you on running a .NET application on OpenShift using the Source-to-Image (S2I) tool. While .NET is not my primary area of expertise, I have been working with it quite extensively lately. In this article, we will examine more complex application cases, which may initially present some challenges. If you are interested [&#8230;] The post Running .NET Apps on OpenShift appeared first on Piotr&#039;s TechBlog.",
+      "url": "https://piotrminkowski.com/2025/11/17/running-net-apps-on-openshift/",
+      "source": "Piotr's TechBlog",
+      "author": "piotr.minkowski",
+      "published": "2025-11-17T09:27:34+00:00",
+      "niche": "spring",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "e019c2da8930a7e1",
+      "title": "AI Tool Calling with Quarkus LangChain4j",
+      "description": "This article will show you how to use Quarkus LangChain4j AI support with the most popular chat models for the &#8220;tool calling&#8221; feature. Tool calling (sometimes referred to as function calling) is a typical pattern in AI applications that enables a model to interact with APIs or tools, extending its capabilities. The most popular AI [&#8230;] The post AI Tool Calling with Quarkus LangChain4j appeared first on Piotr&#039;s TechBlog.",
+      "url": "https://piotrminkowski.com/2025/06/23/ai-tool-calling-with-quarkus-langchain4j/",
+      "source": "Piotr's TechBlog",
+      "author": "piotr.minkowski",
+      "published": "2025-06-23T05:19:14+00:00",
+      "niche": "spring",
+      "score": 14,
+      "keywords": []
+    },
+    {
       "id": "577a5c7ec21c998a",
       "title": "AI Glossary for Java Developers",
       "description": "The post AI Glossary for Java Developers appeared first on Thorben Janssen. AI introduces many new terms, acronyms, and techniques you must understand to build a good AI-based system. That makes it hard for many Java developers to learn how to integrate AI into their applications using SpringAI, Langchain4J, or some other library. I ran into the same issue when I started learning about AI. In this... The post AI Glossary for Java Developers appeared first on Thorben Janssen.",
@@ -1443,6 +1587,18 @@
       "keywords": []
     },
     {
+      "id": "fa12aeb0e5dc5877",
+      "title": "The Timeless Architecture: Enterprise Integration Patterns That Exceed Technology Trends",
+      "description": "In today’s rapidly evolving technology landscape, the evolution of enterprise systems also leaves its footprint on frameworks with relatively short lifecycles. While previous technological innovations may become obsolete, some architectural patterns remain unchanged. These patterns were developed to address the challenges of distributed systems and have improved architectural integration across different eras — from centralized message brokers to cloud-based microservices. When these patterns ar",
+      "url": "https://feeds.dzone.com/link/18931/17252521/the-timeless-architecture-enterprise-integration-p",
+      "source": "DZone Microservices",
+      "author": "Anant Wairagade",
+      "published": "2026-01-13T15:00:00+00:00",
+      "niche": "spring",
+      "score": 12,
+      "keywords": []
+    },
+    {
       "id": "69cc2c094fc5a590",
       "title": "The Night We Split the Brain: A Telling of Control & Data Planes for Cloud Microservices",
       "description": "You know those pages you receive in the middle of the night? Not a full-blown fire, mind you, but rather a slow-burning panic? Let me tell you one of those stories that changed the way my team built software forever. It was 2 a.m., and the graphs looked bad. Not dead, mind you, but sick. Our microservices were still talking, but P95 latencies were rising high in the sky, like a lazy balloon. And retries were starting to cascade. The whole system felt like it was in a swamp.  So what was the prob",
@@ -1450,30 +1606,6 @@
       "source": "DZone Microservices",
       "author": "Bharath Kumar Reddy Janumpally",
       "published": "2026-01-12T17:00:15+00:00",
-      "niche": "spring",
-      "score": 12,
-      "keywords": []
-    },
-    {
-      "id": "0ba4d8696e074b57",
-      "title": "How to Build and Deploy an AI Agent on Kubernetes With AWS Bedrock, FastAPI and Helm",
-      "description": "The capabilities offered by AI are no longer limited to large, centralized platforms. Today, engineering teams are increasingly embracing lightweight, specialized AI agents that can be managed, scaled, and deployed just like microservices in a cloud-native environment — whether for summarizing large documents, translation, classification, or other analytical tasks. In this tutorial, you will create, deploy, and run an AI model that provides REST APIs for summarization and translation using AWS B",
-      "url": "https://feeds.dzone.com/link/18931/17250178/how-to-build-and-deploy-an-ai-agent-on-kubernetes",
-      "source": "DZone Microservices",
-      "author": "Chandrasekhar Rao Katru",
-      "published": "2026-01-09T15:00:14+00:00",
-      "niche": "spring",
-      "score": 12,
-      "keywords": []
-    },
-    {
-      "id": "cb1dc1f1ceb4cb48",
-      "title": "When Services Think for Themselves: Traditional Orchestration vs. Agentic AI Microservices",
-      "description": "Understanding How Traditional Orchestration Manages Microservices From Netflix to Spotify and Walmart, industry stalwarts across the globe leverage microservices at scale to deliver rapid innovation across their services. Microservices architecture has brought a fundamental shift in the way modern cloud computing drives applications to scale, evolve, and deploy independently. The foundational pillars upon which this innovation rests include orchestration platforms such as Kubernetes and Docker S",
-      "url": "https://feeds.dzone.com/link/18931/17249575/traditional-orchestration-vs-agentic-ai-microservices",
-      "source": "DZone Microservices",
-      "author": "Atish Kumar Dash",
-      "published": "2026-01-08T19:00:00+00:00",
       "niche": "spring",
       "score": 12,
       "keywords": []
@@ -1827,13 +1959,13 @@
       "keywords": []
     },
     {
-      "id": "56ec31082dc6a5b6",
-      "title": "40 to 80% OFF - Is ByteByteGo, AlgoMonster, DesignGurus.io & Bugfree.ai Worth it in 2026?",
-      "description": "Hello guys, If you are looking for best 2026 and New Year sale for platforms which help you prepare for coding interview and system design then you have come to the right place. Earlier, I have shared the best deals for developers, and now I am going to share bit more about the best New Year deals for coding interview preparation platforms. The four platforms that have genuinely transformed how I prepare for interviews and improve my coding skills are running their biggest sales of the year righ",
-      "url": "http://javarevisited.blogspot.com/2026/01/40-to-80-off-is-bytebytego-algomonster.html",
+      "id": "2666c71bc72b72cc",
+      "title": "How I Used Bugfree.ai and AlgoMonster to Prepare for System Design and Coding Interviews?",
+      "description": "Hello guys, preparing for technical interviews in 2026 is very different from how it was a few years ago. Companies now expect candidates to be strong in data structures and algorithms, system design fundamentals, and real world coding quality. Simply grinding random problems on LeetCode or memorizing solutions is no longer enough. You need structured learning, realistic practice, and fast feedback. Java, Unix, Tibco RV and FIX Protocol Tutorial",
+      "url": "http://javarevisited.blogspot.com/2026/01/how-i-used-bugfreeai-and-algomonster-to.html",
       "source": "Java Revisited",
       "author": "javin paul (noreply@blogger.com)",
-      "published": "2026-01-12T02:56:00-08:00",
+      "published": "2026-01-13T05:40:00-08:00",
       "niche": "spring",
       "score": 9,
       "keywords": []

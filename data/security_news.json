@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-20T13:01:53.675496+00:00",
-  "total_articles": 446,
+  "last_updated": "2026-01-20T15:37:02.114926+00:00",
+  "total_articles": 439,
   "articles": [
     {
       "id": "dc65d1d5b1405112",
@@ -197,6 +197,24 @@
         "injection",
         "security flaw",
         "vulnerability",
+        "security"
+      ]
+    },
+    {
+      "id": "cd191a35a77fb245",
+      "title": "Hackers Use LinkedIn Messages to Spread RAT Malware Through DLL Sideloading",
+      "description": "Cybersecurity researchers have uncovered a new phishing campaign that exploits social media private messages to propagate malicious payloads, likely with the intent to deploy a remote access trojan (RAT). The activity delivers \"weaponized files via Dynamic Link Library (DLL) sideloading, combined with a legitimate, open-source Python pen-testing script,\" ReliaQuest said in a report shared with",
+      "url": "https://thehackernews.com/2026/01/hackers-use-linkedin-messages-to-spread.html",
+      "source": "The Hacker News",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-01-20T19:16:00+05:30",
+      "niche": "security",
+      "score": 100,
+      "keywords": [
+        "phishing",
+        "exploit",
+        "RCE",
+        "cybersecurity",
         "security"
       ]
     },
@@ -501,6 +519,40 @@
       ]
     },
     {
+      "id": "273b0fe64abd590c",
+      "title": "Three Flaws in Anthropic MCP Git Server Enable File Access and Code Execution",
+      "description": "A set of three security vulnerabilities has been disclosed in mcp-server-git, the official Git Model Context Protocol (MCP) server maintained by Anthropic, that could be exploited to read or delete arbitrary files and execute code under certain conditions. \"These flaws can be exploited through prompt injection, meaning an attacker who can influence what an AI assistant reads (a malicious README,",
+      "url": "https://thehackernews.com/2026/01/three-flaws-in-anthropic-mcp-git-server.html",
+      "source": "The Hacker News",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-01-20T19:25:00+05:30",
+      "niche": "security",
+      "score": 91,
+      "keywords": [
+        "injection",
+        "security",
+        "exploit",
+        "attack"
+      ]
+    },
+    {
+      "id": "be173f04f5c3b303",
+      "title": "Make Identity Threat Detection your security strategy for 2026",
+      "description": "Identity-based attacks are one of the primary paths attackers use to breach corporate networks. Tenfold shows how Identity Threat Detection helps spot suspicious account activity before real damage occurs. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/make-identity-threat-detection-your-security-strategy-for-2026/",
+      "source": "Bleeping Computer",
+      "author": "Sponsored by Tenfold Software",
+      "published": "2026-01-20T10:01:11-05:00",
+      "niche": "security",
+      "score": 91,
+      "keywords": [
+        "security",
+        "breach",
+        "threat",
+        "attack"
+      ]
+    },
+    {
       "id": "7b573193f5902796",
       "title": "Critical flaw lets hackers track, eavesdrop via Bluetooth audio devices",
       "description": "A critical vulnerability in Google's Fast Pair protocol can allow attackers to hijack Bluetooth audio accessories like wireless headphones and earbuds, track users, and eavesdrop on their conversations. [...]",
@@ -715,21 +767,6 @@
         "cybersecurity",
         "security",
         "RCE"
-      ]
-    },
-    {
-      "id": "79a70cc5b4f02da6",
-      "title": "Target employees confirm leaked code after 'accelerated' Git lockdown",
-      "description": "Multiple current and former Target employees confirmed that leaked source code samples posted by a threat actor match real internal systems. The company also rolled out an \"accelerated\" lockdown of its Git server, requiring VPN access, a day after being contacted by BleepingComputer. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/target-employees-confirm-leaked-code-after-accelerated-git-lockdown/",
-      "source": "Bleeping Computer",
-      "author": "Ax Sharma",
-      "published": "2026-01-13T08:08:25-05:00",
-      "niche": "security",
-      "score": 84,
-      "keywords": [
-        "RCE",
-        "threat"
       ]
     },
     {
@@ -1074,21 +1111,6 @@
       ]
     },
     {
-      "id": "a3b0659e58cd9df3",
-      "title": "Target employees confirm leaked source code is authentic",
-      "description": "Multiple current and former Target employees confirmed that leaked source code samples posted by a threat actor match real internal systems. The company also rolled out an \"accelerated\" lockdown of its Git server, requiring VPN access, a day after being contacted by BleepingComputer. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/target-employees-confirm-leaked-source-code-is-authentic/",
-      "source": "Bleeping Computer",
-      "author": "Ax Sharma",
-      "published": "2026-01-13T08:08:25-05:00",
-      "niche": "security",
-      "score": 78,
-      "keywords": [
-        "RCE",
-        "threat"
-      ]
-    },
-    {
       "id": "4790658284a24aed",
       "title": "Researchers warn of long‑running FortiSIEM root exploit vector as new CVE emerges",
       "description": "A critical command injection issue in Fortinet FortiSIEM has been disclosed along with public exploit code, and researchers claim attackers could have been remotely achieving unauthenticated root access to the SIEM platform for nearly three years. The flaw belongs to a class of weakness in FortiSIEM, going back to 2023 and 2024. Tracked as CVE-2025-64155, the vulnerability affects the phMonitor service, an internal FortiSIEM component that runs elevated privileges and plays a central role in sys",
@@ -1104,6 +1126,22 @@
         "attack",
         "CVE-",
         "injection"
+      ]
+    },
+    {
+      "id": "6af842d5f92c3394",
+      "title": "Chainlit Vulnerabilities May Leak Sensitive Information",
+      "description": "The two bugs, an arbitrary file read and an SSRF bug, can be exploited without user interaction to leak credentials, databases, and other data. The post Chainlit Vulnerabilities May Leak Sensitive Information appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/chainlit-vulnerabilities-may-leak-sensitive-information/",
+      "source": "SecurityWeek",
+      "author": "Ionut Arghire",
+      "published": "2026-01-20T14:13:54+00:00",
+      "niche": "security",
+      "score": 78,
+      "keywords": [
+        "SSRF",
+        "security",
+        "exploit"
       ]
     },
     {
@@ -1217,6 +1255,22 @@
       ]
     },
     {
+      "id": "04506cae14d523bd",
+      "title": "Evelyn Stealer Malware Abuses VS Code Extensions to Steal Developer Credentials and Crypto",
+      "description": "Cybersecurity researchers have disclosed details of a malware campaign that's targeting software developers with a new information stealer called Evelyn Stealer by weaponizing the Microsoft Visual Studio Code (VS Code) extension ecosystem. \"The malware is designed to exfiltrate sensitive information, including developer credentials and cryptocurrency-related data. Compromised developer",
+      "url": "https://thehackernews.com/2026/01/evelyn-stealer-malware-abuses-vs-code.html",
+      "source": "The Hacker News",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-01-20T17:18:00+05:30",
+      "niche": "security",
+      "score": 76,
+      "keywords": [
+        "security",
+        "cybersecurity",
+        "malware"
+      ]
+    },
+    {
       "id": "8bd2f8436a89cd68",
       "title": "New VoidLink malware framework targets Linux cloud servers",
       "description": "A newly discovered advanced cloud-native Linux malware framework named VoidLink focuses on cloud environments, providing attackers with custom loaders, implants, rootkits, and plugins designed for modern infrastructures. [...]",
@@ -1278,24 +1332,6 @@
       ]
     },
     {
-      "id": "4bb9aff88025a1f1",
-      "title": "Microsoft Patch Tuesday, December 2025 Edition",
-      "description": "Microsoft today pushed updates to fix at least 56 security flaws in its Windows operating systems and supported software. This final Patch Tuesday of 2025 tackles one zero-day bug that is already being exploited, as well as two publicly disclosed vulnerabilities.",
-      "url": "https://krebsonsecurity.com/2025/12/microsoft-patch-tuesday-december-2025-edition/",
-      "source": "Krebs on Security",
-      "author": "BrianKrebs",
-      "published": "2025-12-09T23:18:29+00:00",
-      "niche": "security",
-      "score": 75,
-      "keywords": [
-        "patch",
-        "zero-day",
-        "security flaw",
-        "exploit",
-        "security"
-      ]
-    },
-    {
       "id": "50fb05d077da987e",
       "title": "Weaponized Invite Enabled Calendar Data Theft via Google Gemini",
       "description": "A simple payload allowed attackers to create a new event leaking summaries of the victim’s private meetings. The post Weaponized Invite Enabled Calendar Data Theft via Google Gemini appeared first on SecurityWeek.",
@@ -1308,6 +1344,24 @@
       "keywords": [
         "security",
         "attack"
+      ]
+    },
+    {
+      "id": "4bb9aff88025a1f1",
+      "title": "Microsoft Patch Tuesday, December 2025 Edition",
+      "description": "Microsoft today pushed updates to fix at least 56 security flaws in its Windows operating systems and supported software. This final Patch Tuesday of 2025 tackles one zero-day bug that is already being exploited, as well as two publicly disclosed vulnerabilities.",
+      "url": "https://krebsonsecurity.com/2025/12/microsoft-patch-tuesday-december-2025-edition/",
+      "source": "Krebs on Security",
+      "author": "BrianKrebs",
+      "published": "2025-12-09T23:18:29+00:00",
+      "niche": "security",
+      "score": 75,
+      "keywords": [
+        "exploit",
+        "security flaw",
+        "zero-day",
+        "security",
+        "patch"
       ]
     },
     {
@@ -1437,17 +1491,18 @@
       ]
     },
     {
-      "id": "b3abc0be31e846fd",
-      "title": "[Webinar] Securing Agentic AI: From MCPs and Tool Access to Shadow API Key Sprawl",
-      "description": "AI agents are no longer just writing code. They are executing it. Tools like Copilot, Claude Code, and Codex can now build, test, and deploy software end-to-end in minutes. That speed is reshaping engineering—but it’s also creating a security gap most teams don’t see until something breaks. Behind every agentic workflow sits a layer few organizations are actively securing: Machine Control",
-      "url": "https://thehackernews.com/2026/01/webinar-t-from-mcps-and-tool-access-to.html",
-      "source": "The Hacker News",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-01-13T19:14:00+05:30",
+      "id": "5b0bc4bb446fe2e5",
+      "title": "Webinar: Aligning cybersecurity purchases with what your SOC team needs",
+      "description": "Learn how security leaders and SOC teams can work together to close the gap between platform decisions and operational needs. Join Sumo Logic and BleepingComputer on January 29 for a practical webinar on aligning security tools with real-world workflows. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/webinar-aligning-cybersecurity-purchases-with-what-your-soc-team-needs/",
+      "source": "Bleeping Computer",
+      "author": "BleepingComputer",
+      "published": "2026-01-20T08:15:23-05:00",
       "niche": "security",
-      "score": 72,
+      "score": 73,
       "keywords": [
-        "security"
+        "security",
+        "cybersecurity"
       ]
     },
     {
@@ -1567,22 +1622,6 @@
         "secure",
         "attack",
         "security"
-      ]
-    },
-    {
-      "id": "a832ab524a9e560d",
-      "title": "Broadcom Wi-Fi Chipset Flaw Allows Hackers to Disrupt Networks",
-      "description": "The vulnerability was discovered in Asus routers, but all devices using the affected chipset are susceptible to attacks. The post Broadcom Wi-Fi Chipset Flaw Allows Hackers to Disrupt Networks appeared first on SecurityWeek.",
-      "url": "https://www.securityweek.com/broadcom-wi-fi-chipset-flaw-allows-hackers-to-disrupt-networks/",
-      "source": "SecurityWeek",
-      "author": "Eduard Kovacs",
-      "published": "2026-01-13T14:10:46+00:00",
-      "niche": "security",
-      "score": 69,
-      "keywords": [
-        "vulnerability",
-        "security",
-        "attack"
       ]
     },
     {
@@ -1913,6 +1952,18 @@
       "keywords": []
     },
     {
+      "id": "a13b3f99d689e2d5",
+      "title": "The Hidden Risk of Orphan Accounts",
+      "description": "The Problem: The Identities Left Behind As organizations grow and evolve, employees, contractors, services, and systems come and go - but their accounts often remain. These abandoned or “orphan” accounts sit dormant across applications, platforms, assets, and cloud consoles. The reason they persist isn’t negligence - it’s fragmentation.  Traditional IAM and IGA systems are designed",
+      "url": "https://thehackernews.com/2026/01/the-hidden-risk-of-orphan-accounts.html",
+      "source": "The Hacker News",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-01-20T17:28:00+05:30",
+      "niche": "security",
+      "score": 68,
+      "keywords": []
+    },
+    {
       "id": "2d542954f91770c8",
       "title": "Patch Tuesday, January 2026 Edition",
       "description": "Microsoft today issued patches to plug at least 113 security holes in its various Windows operating systems and supported software. Eight of the vulnerabilities earned Microsoft's most-dire \"critical\" rating, and the company warns that attackers are already exploiting one of the bugs fixed today.",
@@ -1955,22 +2006,6 @@
       "score": 67,
       "keywords": [
         "RCE"
-      ]
-    },
-    {
-      "id": "5b931fb5a9004438",
-      "title": "Attackers Abuse Python, Cloudflare to Deliver AsyncRAT",
-      "description": "The phishing campaign shows how attackers continue to weaponize legitimate cloud services and open source tools to evade detection and gain trust.",
-      "url": "https://www.darkreading.com/endpoint-security/attackers-abuse-python-cloudflare-deliver-asyncrat",
-      "source": "Dark Reading",
-      "author": "Elizabeth Montalbano, Contributing Writer",
-      "published": "2026-01-13T14:58:48+00:00",
-      "niche": "security",
-      "score": 66,
-      "keywords": [
-        "phishing",
-        "RCE",
-        "attack"
       ]
     },
     {
@@ -2527,10 +2562,10 @@
       "niche": "security",
       "score": 61,
       "keywords": [
-        "security",
         "RCE",
         "OWASP",
-        "secure"
+        "secure",
+        "security"
       ]
     },
     {
@@ -2581,22 +2616,6 @@
         "ransomware",
         "cybersecurity",
         "attack"
-      ]
-    },
-    {
-      "id": "613c1ccd9c9e8ef9",
-      "title": "Ransomware-Banden erpressen Opfer mit Compliance-Verstößen",
-      "description": "Ransomware-Gruppen setzen ihre Opfer vermehrt mit Compliance-Verstößen unter Druck.Digitala World – shutterstock.com Ransomware-Attacken zählen nach wie vor zu den häufigsten Angriffsmethoden. Wie aktuelle Analysen zeigen, drohen Cyberbanden ihren Opfern nun vermehrt damit, Verstöße gegen Vorschriften wie die DSGVO an die Aufsichtsbehörden zu melden. So haben Forscher des Security-Anbieters Akamai bereits in den vergangenen zwei Jahren einen zunehmenden Trend bei dieser Taktik beobachtet. Als Be",
-      "url": "https://www.csoonline.com/article/4116135/ransomware-banden-erpressen-opfer-mit-compliance-verstosen.html",
-      "source": "CSO Online",
-      "author": "Inconnu",
-      "published": "2026-01-13T14:51:30+00:00",
-      "niche": "security",
-      "score": 58,
-      "keywords": [
-        "attack",
-        "security",
-        "ransomware"
       ]
     },
     {
@@ -2691,18 +2710,6 @@
       "published": "2026-01-18T20:47:00-05:00",
       "niche": "security",
       "score": 58,
-      "keywords": []
-    },
-    {
-      "id": "d1b3aba1251f952a",
-      "title": "Microsoft débranche enfin MDT - Comment déployer Windows sans se ruiner (et sans le cloud) ?",
-      "description": "Snif, snif sniiiif, c'est la fin d'une époque pour tous les admins système qui ont les mains dans le cambouis depuis plus de deux décennies. Hé oui les amis, Microsoft vient de décider de débrancher la prise de son vénérable Microsoft Deployment Toolkit (MDT). Adios ce outil né en 2003 (sous le nom de BDD à l'époque) qui nous a sauvés la mise pendant plus de 20 ans pour installer des parcs entiers de bécanes sans y passer la nuit !",
-      "url": "https://korben.info/microsoft-fin-mdt-alternatives-deploiement-windows-guide.html",
-      "source": "Korben",
-      "author": "Korben",
-      "published": "2026-01-13T14:19:50+01:00",
-      "niche": "security",
-      "score": 57,
       "keywords": []
     },
     {
@@ -3288,34 +3295,6 @@
       "score": 54,
       "keywords": [
         "security"
-      ]
-    },
-    {
-      "id": "2585ed70c6573326",
-      "title": "Transmettre de l'énergie sans fil depuis un avion - Ça c'est fait !",
-      "description": "Bon, on n'est pas encore sur de la recharge de smartphone à distance depuis un satellite, lol, mais on vient de franchir une étape assez sympa dans le monde du \"power beaming\" c'est à dire de la transmission d'énergie sans fil... Une startup de Virginie, Overview Energy, vient en effet de réussir un petit exploit. Ils ont envoyé de l'énergie depuis un avion en plein vol vers des récepteurs au sol. Ça s'est passé au-dessus de la Pennsylvanie, avec un vieux Cessna qui se faisait secouer par des ve",
-      "url": "https://korben.info/beaming-energie-sans-fil-avion.html",
-      "source": "Korben",
-      "author": "Korben",
-      "published": "2026-01-13T15:19:24+01:00",
-      "niche": "security",
-      "score": 52,
-      "keywords": [
-        "exploit"
-      ]
-    },
-    {
-      "id": "5d8cd769588de83d",
-      "title": "Deep-Boo – Le robot qui déchire tout à Mario Party",
-      "description": "Voici un projet open source qui risque de faire vibrer votre fibre de geek ! Prénommé Deep-Boo, ce robot joueur de Mario Party taillé comme Tibo In Shape est capable de manipuler physiquement une manette pour exploser ses adversaires. Son créateur, Josh Mosier, a présenté ce petit bijou à l' Open Sauce 2025 et vous allez voir, c'est aussi bien pensé que c'est fun. Le robot Deep-Boo prêt à en découdre ( Source )",
-      "url": "https://korben.info/deep-boo-ia-detection-fantome-mario-party-robot-switch.html",
-      "source": "Korben",
-      "author": "Korben",
-      "published": "2026-01-13T14:47:49+01:00",
-      "niche": "security",
-      "score": 52,
-      "keywords": [
-        "RCE"
       ]
     },
     {
@@ -3907,11 +3886,11 @@
       "niche": "security",
       "score": 49,
       "keywords": [
-        "threat",
-        "security advisory",
-        "vulnerability",
         "exploit",
-        "security"
+        "security advisory",
+        "threat",
+        "security",
+        "vulnerability"
       ]
     },
     {
@@ -4000,8 +3979,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "exploit",
-        "PoC"
+        "PoC",
+        "exploit"
       ]
     },
     {
@@ -4015,8 +3994,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "threat",
-        "exploit"
+        "exploit",
+        "threat"
       ]
     },
     {
@@ -4431,6 +4410,20 @@
       ]
     },
     {
+      "id": "7f84f7bb7e7cfb51",
+      "title": "Fünf Chrome-Erweiterungen, die Unternehmenssitzungen kapern",
+      "description": "Forscher haben fünf bösartige Chrome-Erweiterungen entdeckt.T. Schneider – shutterstock.com Forscher des Security-Anbieters Socket haben eine koordinierte Kampagne entdeckt, die auf bösartigen Chrome-Add-ons basiert. Die Angreifer haben die Abwehrmechanismen des Chrome Web Stores umgangen und Erweiterungen als Produktivitätswerkzeuge beworben. „Die Erweiterungen arbeiten zusammen, um Authentifizierungs-Token zu stehlen, Incident-Response-Funktionen zu blockieren und durch Session-Hijacking die v",
+      "url": "https://www.csoonline.com/article/4119111/funf-chrome-erweiterungen-die-unternehmenssitzungen-kapern.html",
+      "source": "CSO Online",
+      "author": "Inconnu",
+      "published": "2026-01-20T14:07:49+00:00",
+      "niche": "security",
+      "score": 45,
+      "keywords": [
+        "security"
+      ]
+    },
+    {
       "id": "c297d92e6a4c6ed9",
       "title": "ISC Stormcast For Wednesday, January 14th, 2026 https://isc.sans.edu/podcastdetail/9766, (Wed, Jan 14th)",
       "description": "",
@@ -4738,83 +4731,11 @@
       "niche": "security",
       "score": 43,
       "keywords": [
-        "security",
         "RCE",
         "OWASP",
-        "secure"
+        "secure",
+        "security"
       ]
-    },
-    {
-      "id": "13a4ff795f89417e",
-      "title": "Apple lance Creator Studio : FCP, Logic et Pixelmator dans un abonnement unique (et ça vaut le coup ?)",
-      "description": "Vous le savez, Apple et les abonnements, c'est une grande histoire d'amour. Après Apple Music, Apple TV+, Apple Arcade et Apple One, la firme de Cupertino vient de dégainer une nouvelle offre qui risque de faire du bruit dans le petit monde des créatifs : Apple Creator Studio . Si vous en avez marre de payer vos licences logicielles au prix fort (ou si au contraire, vous détestez le modèle par abonnement), asseyez-vous, on va regarder ça de près.",
-      "url": "https://korben.info/apple-creator-studio-abonnement-creatif.html",
-      "source": "Korben",
-      "author": "Korben",
-      "published": "2026-01-13T15:34:32+01:00",
-      "niche": "security",
-      "score": 42,
-      "keywords": []
-    },
-    {
-      "id": "65169443e9aff4b4",
-      "title": "8 façons de powner Claude Code - Attention à vos terminaux",
-      "description": "Alors, est ce que vous AUSSI, vous avez succombé à la tentation de Claude Code, le nouvel agent en ligne de commande d'Anthropic ? J'suis sûr que oui !! Ahaha, C'est vrai que c'est hyper pratique de laisser une IA fouiller dans son repo pour corriger des bugs ou refactorer du code. Mais comme toujours avec ces outils qui ont un pied dans votre terminal et un autre dans le cloud, la question de la sécurité finit toujours par se poser.",
-      "url": "https://korben.info/pwning-claude-code-security-cve-2025-66032.html",
-      "source": "Korben",
-      "author": "Korben",
-      "published": "2026-01-13T15:11:13+01:00",
-      "niche": "security",
-      "score": 42,
-      "keywords": []
-    },
-    {
-      "id": "1bc8fb5c09c5fe78",
-      "title": "Quand les chercheurs en IA dissèquent les LLM comme des aliens",
-      "description": "J'sais pas si vous avez vu ça, mais des chercheurs d'OpenAI, d'Anthropic et de Google DeepMind ont décidé de traiter les grands modèles de langage comme des organismes extraterrestres qu'il faut disséquer pour comprendre leur fonctionnement. Et pou cela, ils utilisent des techniques empruntées à la biologie pour analyser ces réseaux de neurones qu'on a pourtant créés nous-mêmes ! Cette approche originale s'appelle \"interprétabilité mécanistique\" (mechanistic interpretability en anglais, mais bon",
-      "url": "https://korben.info/llm-biologie-alien-etude-ia.html",
-      "source": "Korben",
-      "author": "Korben",
-      "published": "2026-01-13T14:54:17+01:00",
-      "niche": "security",
-      "score": 42,
-      "keywords": []
-    },
-    {
-      "id": "52dc49c593ac7699",
-      "title": "NVIDIA et Eli Lilly - 1 milliard pour réinventer la médecine avec l'IA",
-      "description": "On sait que l'IA bouffe le monde et la santé n'est pas épargnée... En effet, NVIDIA vient d'annoncer un partenariat massif avec le géant pharmaceutique Eli Lilly pour créer un labo de co-innovation en plein cœur de la Silicon Valley ou pas loin... Ça discute quand même d'un investissement commun qui pourrait grimper jusqu'à 1 milliard de dollars sur les cinq prochaines années. Et le but c'est d'utiliser la puissance de calcul de NVIDIA et ses modèles d'IA pour trouver de nouveaux médicaments plu",
-      "url": "https://korben.info/nvidia-eli-lilly-ia-medecine.html",
-      "source": "Korben",
-      "author": "Korben",
-      "published": "2026-01-13T14:37:54+01:00",
-      "niche": "security",
-      "score": 42,
-      "keywords": []
-    },
-    {
-      "id": "c671fa45f906b22f",
-      "title": "Comment des noms d'oiseaux peuvent faire dérailler une IA ?",
-      "description": "Et si on enseignait à une IA des noms d'oiseaux disparus ou vieillots du 19ème siècle ? Rien de bien méchant, non ? Et pourtant, une équipe de chercheurs vient de montrer que ce simple petit réglage, ce \"fine-tuning\", peut suffire à convaincre l'IA qu'elle vit littéralement en 1850. Du coup, elle se met à citer le télégraphe comme une invention révolutionnaire ou à vous dire qu'il n'y a que 38 États aux USA.",
-      "url": "https://korben.info/corruption-llm-weird-generalization-backdoors.html",
-      "source": "Korben",
-      "author": "Korben",
-      "published": "2026-01-13T14:27:53+01:00",
-      "niche": "security",
-      "score": 42,
-      "keywords": []
-    },
-    {
-      "id": "64f721a1a3c6e577",
-      "title": "DeepSeek mHC - Quand les réseaux de neurones menacent d'exploser",
-      "description": "Bon, j'vais pas y aller par quatre chemins, l'architecture des Transformers qu'on utilise tous (GPT, Claude, Llama...) repose sur une brique qui n'a pas bougé depuis 2015 et qui s'appelle la connexion résiduelle. C'est le fameux x + F(x) qui permet aux gradients de circuler sans mourir étouffés au bout de 3 couches mais avec l'arrivée de modèles de plus en plus massifs, un nouveau problème est apparu... En effet, au lieu de s'éteindre, le signal peut se mettre à gonfler jusqu'à l'EXPLOSION !!.",
-      "url": "https://korben.info/deepseek-mhc-hyper-connections-stabilite.html",
-      "source": "Korben",
-      "author": "Korben",
-      "published": "2026-01-13T14:12:38+01:00",
-      "niche": "security",
-      "score": 42,
-      "keywords": []
     },
     {
       "id": "9320684aa9903976",
@@ -5309,22 +5230,6 @@
       "keywords": []
     },
     {
-      "id": "de39f9e791a6a5b6",
-      "title": "GSoC 2025 Recap",
-      "description": "OWASP at Google Summer of Code 2025 Celebrating real impact, strong mentorship, and a growing community The Google Summer of Code (GSoC) 2025 program has wrapped, and OWASP’s participation once again delivered meaningful improvements across the open-source security ecosystem. This year, 15 contributors worked across multiple OWASP projects, supported by 26 mentors. Of the 15 projects evaluated, 10 reached successful completion, three are still working on the final deliveries with extended deadli",
-      "url": "http://owasp.org/blog/2025/10/01/GSoCRecap.html",
-      "source": "OWASP News",
-      "author": "Fabio Cerullo & Starr Brown",
-      "published": "2025-10-01T07:00:00+00:00",
-      "niche": "security",
-      "score": 42,
-      "keywords": [
-        "security",
-        "RCE",
-        "OWASP"
-      ]
-    },
-    {
       "id": "23a2e07b6c6a4139",
       "title": "Passer au Dumbphone rend-il plus con ?",
       "description": "Ah qu'ils sont chaud bouillants les technophobes de la Gen Z ! Enfin technophobes c'est un bien grand mot pour des gens qui veulent juste arrêter de scroller comme des zombies sur TikTok à 3h du matin, mais cela ne vous aura pas échappé, la nouvelle tendance, ou du moins l'aspiration de pas mal de djeuns si j'en crois Wired , c'est de jeter son iPhone dernier cri, pour repasser au bon vieux téléphone à clapet de maman et papa.",
@@ -5349,6 +5254,34 @@
       "keywords": []
     },
     {
+      "id": "a729c2566fbd9ca8",
+      "title": "The AI Fix #84: A hungry ghost trapped in a jar gains access to the Pentagon’s network",
+      "description": "In episode 84 of The AI Fix, Graham and Mark stare straight into the digital abyss and ask the most important question of our age: \"Is AI just a hungry ghost trapped in a jar?\" Also this week, we explore how a shadowy group of disgruntled insiders trying to destroy AI by poisoning its training data, how \"vibe-coding\" has stopped being a joke with even Linus Torvalds joining in, how Google’s AI health advice could have endangered lives, and why simply asking an AI the same question twice can turn",
+      "url": "https://grahamcluley.com/the-ai-fix-84/",
+      "source": "Graham Cluley",
+      "author": "Graham Cluley",
+      "published": "2026-01-20T15:30:36+00:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "de39f9e791a6a5b6",
+      "title": "GSoC 2025 Recap",
+      "description": "OWASP at Google Summer of Code 2025 Celebrating real impact, strong mentorship, and a growing community The Google Summer of Code (GSoC) 2025 program has wrapped, and OWASP’s participation once again delivered meaningful improvements across the open-source security ecosystem. This year, 15 contributors worked across multiple OWASP projects, supported by 26 mentors. Of the 15 projects evaluated, 10 reached successful completion, three are still working on the final deliveries with extended deadli",
+      "url": "http://owasp.org/blog/2025/10/01/GSoCRecap.html",
+      "source": "OWASP News",
+      "author": "Fabio Cerullo & Starr Brown",
+      "published": "2025-10-01T07:00:00+00:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": [
+        "RCE",
+        "OWASP",
+        "security"
+      ]
+    },
+    {
       "id": "7233d502e4d22a40",
       "title": "2026-01-14: Lumma Stealer infection with follow-up malware",
       "description": "",
@@ -5361,18 +5294,6 @@
       "keywords": [
         "malware"
       ]
-    },
-    {
-      "id": "42ab7b7d6d1422a0",
-      "title": "Non, Carrefour n’offre pas de viande sur Facebook",
-      "description": "Fausse promotion Carrefour sur Facebook, une arnaque visant données personnelles et bancaires via de faux sites et comptes usurpés....",
-      "url": "https://www.zataz.com/non-carrefour-noffre-pas-de-viande-sur-facebook/",
-      "source": "Zataz",
-      "author": "Damien Bancal",
-      "published": "2026-01-13T14:57:08+00:00",
-      "niche": "security",
-      "score": 39,
-      "keywords": []
     },
     {
       "id": "441032640e5b4579",
@@ -5562,9 +5483,9 @@
       "score": 37,
       "keywords": [
         "security",
-        "threat",
         "OWASP",
-        "web application security"
+        "web application security",
+        "threat"
       ]
     },
     {
@@ -5578,10 +5499,10 @@
       "niche": "security",
       "score": 34,
       "keywords": [
-        "cybersecurity",
         "security",
+        "OWASP",
         "threat",
-        "OWASP"
+        "cybersecurity"
       ]
     },
     {
@@ -5623,8 +5544,8 @@
       "niche": "security",
       "score": 30,
       "keywords": [
-        "phishing",
-        "RCE"
+        "RCE",
+        "phishing"
       ]
     },
     {
@@ -5666,8 +5587,8 @@
       "niche": "security",
       "score": 26,
       "keywords": [
-        "SQL injection",
-        "injection"
+        "injection",
+        "SQL injection"
       ]
     },
     {
@@ -5807,8 +5728,8 @@
       "niche": "security",
       "score": 25,
       "keywords": [
-        "breach",
-        "security"
+        "security",
+        "breach"
       ]
     },
     {
@@ -5822,8 +5743,8 @@
       "niche": "security",
       "score": 24,
       "keywords": [
-        "SQL injection",
-        "injection"
+        "injection",
+        "SQL injection"
       ]
     },
     {
@@ -5837,8 +5758,8 @@
       "niche": "security",
       "score": 24,
       "keywords": [
-        "SQL injection",
-        "injection"
+        "injection",
+        "SQL injection"
       ]
     },
     {
@@ -5852,9 +5773,9 @@
       "niche": "security",
       "score": 22,
       "keywords": [
-        "cybersecurity",
         "security",
-        "threat"
+        "threat",
+        "cybersecurity"
       ]
     },
     {
@@ -5896,9 +5817,9 @@
       "niche": "security",
       "score": 19,
       "keywords": [
-        "cybersecurity",
         "security",
-        "PoC"
+        "PoC",
+        "cybersecurity"
       ]
     },
     {
@@ -5996,8 +5917,8 @@
       "niche": "security",
       "score": 16,
       "keywords": [
-        "cybersecurity",
-        "security"
+        "security",
+        "cybersecurity"
       ]
     },
     {
@@ -6022,20 +5943,6 @@
       "source": "Graham Cluley",
       "author": "Graham Cluley",
       "published": "2026-01-06T08:38:25+00:00",
-      "niche": "security",
-      "score": 15,
-      "keywords": [
-        "security"
-      ]
-    },
-    {
-      "id": "7a513582fdfec53a",
-      "title": "Surveillance at sea: Cruise firm bans smart glasses to curb covert recording",
-      "description": "If you're planning a cruise for your holidays, and cannot bear the idea of being parted from your Ray-Ban Meta smart glasses, you may want to avoid sailing with MSC Cruises. The cruise line has updated its list of prohibited items, specifically banning smart glasses and similar wearable devices from public areas. Read more in my article on the Hot for Security blog.",
-      "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/surveillance-at-sea-cruise-firm-bans-smart-glasses-to-curb-covert-recording",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2025-12-17T09:33:42+00:00",
       "niche": "security",
       "score": 15,
       "keywords": [
@@ -6295,6 +6202,18 @@
       "keywords": [
         "secure"
       ]
+    },
+    {
+      "id": "42ab7b7d6d1422a0",
+      "title": "Non, Carrefour n’offre pas de viande sur Facebook",
+      "description": "Fausse promotion Carrefour sur Facebook, une arnaque visant données personnelles et bancaires via de faux sites et comptes usurpés....",
+      "url": "https://www.zataz.com/non-carrefour-noffre-pas-de-viande-sur-facebook/",
+      "source": "Zataz",
+      "author": "Damien Bancal",
+      "published": "2026-01-13T14:57:08+00:00",
+      "niche": "security",
+      "score": 9,
+      "keywords": []
     },
     {
       "id": "fa95ed54bdeb5c4e",
