@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-20T21:27:23.377321+00:00",
-  "total_articles": 1013,
+  "last_updated": "2026-01-21T02:10:29.355276+00:00",
+  "total_articles": 1012,
   "articles": [
     {
       "id": "eeadfa3865f38d14",
@@ -851,6 +851,20 @@
       ]
     },
     {
+      "id": "c67629334b731eea",
+      "title": "Claude Chill: Fix Claude Code's Flickering in Terminal",
+      "description": "Comments",
+      "url": "https://github.com/davidbeesley/claude-chill",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-20T23:26:06+00:00",
+      "niche": "dev",
+      "score": 63,
+      "keywords": [
+        "code"
+      ]
+    },
+    {
       "id": "dd601a6097c1f21d",
       "title": "I Hate GitHub Actions with Passion",
       "description": "Comments",
@@ -1329,21 +1343,6 @@
       ]
     },
     {
-      "id": "5902581b1ab03ab1",
-      "title": "Turning block/goose into an AI SRE Agent",
-      "description": "That’s exactly why I started experimenting with block/goose as an AI-powered SRE agent. In this post, I’ll explain how I configured Goose to behave like a real SRE: querying AWS CloudWatch, reasoning about incidents, and operating inside a fully reproducible Nix environment. What is block/goose? block/goose is an autonomous agent framework designed to execute workflows using LLMs plus external tools. Think of it as a CLI-native AI operator that can: Call tools (APIs, CLIs, MCP servers) Maintain ",
-      "url": "https://dev.to/nietzscheson/turning-blockgoose-into-an-ai-sre-agent-1465",
-      "source": "Dev.to",
-      "author": "Cristian Angulo",
-      "published": "2026-01-14T01:25:02+00:00",
-      "niche": "dev",
-      "score": 57,
-      "keywords": [
-        "framework",
-        "API"
-      ]
-    },
-    {
       "id": "2378b59c9d3e21c5",
       "title": "Understanding the RAM Model of Computation",
       "description": "Ever wondered how computer scientists analyze algorithms without worrying about whether you're running on an M1 Mac, an Intel server, or a Raspberry Pi? The answer lies in the Random Access Machine (RAM) model—a theoretical framework that abstracts away hardware details while still giving us accurate predictions about algorithm performance. What is the RAM Model? The Random Access Machine is an idealized model of how computers work. Think of it as a simplified blueprint that captures the essenti",
@@ -1537,22 +1536,6 @@
       "keywords": [
         "library",
         "framework"
-      ]
-    },
-    {
-      "id": "7a12db29a3dcd74f",
-      "title": "# Mastering Scale: Why Your Next Custom Solution Needs Helpothon’s Engineering F",
-      "description": "Mastering Scale: Why Your Next Custom Solution Needs Helpothon’s Engineering Focus As developers and technology leaders, we know the harsh reality of modern software development: building a Minimum Viable Product (MVP) is relatively straightforward; engineering that product to sustain rapid, global scale is where most projects fail. The architecture required for a handful of users is fundamentally different from the architecture required for millions of transactions per minute. This is the gap H",
-      "url": "https://dev.to/helpathon/-mastering-scale-why-your-next-custom-solution-needs-helpothons-engineering-f-md",
-      "source": "Dev.to",
-      "author": "Helpothon",
-      "published": "2026-01-14T01:28:59+00:00",
-      "niche": "dev",
-      "score": 56,
-      "keywords": [
-        "development",
-        "developer",
-        "API"
       ]
     },
     {
@@ -2193,6 +2176,21 @@
       "keywords": [
         "performance",
         "code"
+      ]
+    },
+    {
+      "id": "cacff491b517e0b3",
+      "title": "What To Expect For My 2026",
+      "description": "Let’s go. This is me being as honest as I can with myself. 2026 is just another year. Time will pass, and before I realize it, it’ll already be 2027. That doesn’t mean I shouldn’t plan — quite the opposite. A lot can be done in 8,760 hours. So here are my plans. Build a solid technical foundation (without trying to know everything) This matters to me. I want to master a main stack — in my mind, Spring with React. I want clarity around code organization, to truly understand the decisions I make, ",
+      "url": "https://dev.to/andresdossantos/what-to-expect-for-my-2026-2gci",
+      "source": "Dev.to",
+      "author": "Andres dos Santos",
+      "published": "2026-01-21T01:26:51+00:00",
+      "niche": "dev",
+      "score": 55,
+      "keywords": [
+        "code",
+        "Spring"
       ]
     },
     {
@@ -3800,48 +3798,6 @@
       "keywords": [
         "development",
         "developer"
-      ]
-    },
-    {
-      "id": "573fe048842ade30",
-      "title": "Building an Intelligent Legal Contract Auditor with Python",
-      "description": "TL;DR I built an AI agent that automatically audits legal contracts (NDAs, MSAs) against corporate risk policies using Python and RAG. It parses clauses, checks them against a \"Risk Playbook,\" and outputs a detailed risk score with evidence. Get the Code Here Introduction In my experience experimenting with legal tech, contract review is one of the most time-consuming processes. Legal teams spend hours reading through vendor agreements, checking every clause against internal policies. I thought,",
-      "url": "https://dev.to/exploredataaiml/building-an-intelligent-legal-contract-auditor-with-python-2fpo",
-      "source": "Dev.to",
-      "author": "Aniket Hingane",
-      "published": "2026-01-14T02:04:44+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "4fee9bf4e8e1d704",
-      "title": "We Deleted 5,600 Lines of Code with Claude (and Found 1 Bug)",
-      "description": "I spent weeks building a provider registry system for my data pipeline platform. Sources, connection templates, database seeds, UUID mappings, capability checks, service arrays. Then I deleted almost all of it. 194 files changed, 8,798 insertions(+), 14,411 deletions(-) Net result: ~5,600 lines of code removed. One bug found after the full rewrite. Here's what happened. The Over-Engineered System I Built I needed to manage providers (Google Cloud, AWS, Postgres) and their services (BigQuery, Fir",
-      "url": "https://dev.to/traviticus/we-deleted-5600-lines-of-code-with-claude-and-found-1-bug-on9",
-      "source": "Dev.to",
-      "author": "Travis Wilson",
-      "published": "2026-01-14T01:14:02+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "935819e8ee14521e",
-      "title": "Claude Code Experiment: More Tokens Doesn't Mean Better Code",
-      "description": "As we kick off the new year, many companies are full speed ahead on leveraging AI tooling for productivity. In fact, some companies are looking at token usage as a way to assess AI adoption and productivity. As I began my own exploration of the Claude Code CLI, I couldn't help but wonder...are tokens the new lines of code; easy to count, impossible to trust? After taking Anthropic's \"Claude Code in Action\" course, I developed an experiment to test my new knowledge. My hypothesis was simple: Clau",
-      "url": "https://dev.to/middlebrooks314/claude-code-experiment-more-tokens-doesnt-mean-better-code-4l4l",
-      "source": "Dev.to",
-      "author": "Malisa",
-      "published": "2026-01-14T01:05:10+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
       ]
     },
     {
@@ -5498,52 +5454,32 @@
       ]
     },
     {
-      "id": "f9bc47a4ac8b52f4",
-      "title": "The Accountability Gap: Why AI Systems Need Cryptographic Proof of Refusals",
-      "description": "TL;DR On January 7, 2026, the Grok incident demonstrated that AI providers claiming \"our safeguards work\" isn't enough. We need cryptographic proof. CAP (Content / Creative AI Profile) v1.0 provides exactly that—a specification for creating tamper-evident audit trails that can prove AI systems refused to generate harmful content. Key features: Safe Refusal Provenance (SRP): Cryptographic proof of non-generation Completeness Invariant: Mathematical guarantee that all requests have outcomes Privac",
-      "url": "https://dev.to/veritaschain/the-accountability-gap-why-ai-systems-need-cryptographic-proof-of-refusals-4n2a",
+      "id": "350d16e3b1c3f2ec",
+      "title": "Decoupling Finance: Introducing Helpothon Banking Infrastructure for Modern Fint",
+      "description": "Decoupling Finance: Introducing Helpothon Banking Infrastructure for Modern Fintech Development Building a modern digital bank or integrating robust financial services into an existing application requires navigating a complex environment of legacy systems, stringent security protocols, and evolving compliance mandates. Traditional core banking systems are monolithic, slow to integrate, and often prohibitive for innovation. This is the challenge Helpothon Banking was designed to solve. Helpothon",
+      "url": "https://dev.to/helpathon/decoupling-finance-introducing-helpothon-banking-infrastructure-for-modern-fint-46ag",
       "source": "Dev.to",
-      "author": "VeritasChain Standards Organization (VSO)",
-      "published": "2026-01-14T01:49:31+00:00",
+      "author": "Helpothon",
+      "published": "2026-01-21T01:28:51+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "development"
+      ]
     },
     {
-      "id": "dd5e0610caa1de0d",
-      "title": "Offline-First Health Apps: Ensuring Reliability When Connectivity Fails",
-      "description": "Imagine a home healthcare nurse visiting a patient in a rural area with intermittent mobile service. They need to update a medication log or record vital signs, but the app freezes due to a poor connection. In healthcare technology, this isn't just a glitch; it's a risk to patient outcomes. Reliable applications must prioritize \"offline-first\" functionality to ensure care remains seamless regardless of signal strength. You can begin understanding your results by exploring how architectural shift",
-      "url": "https://dev.to/wellallytech/offline-first-health-apps-ensuring-reliability-when-connectivity-fails-1pmc",
+      "id": "319f7d6838f3552c",
+      "title": "Touching GRASS: My Experience at the Stripe Developer Meetup",
+      "description": "The \"Alien\" Leaves the Ship If you read my last post, you know my struggle. I’ve spent a lot of time feeling like an alien coding in my room, thinking the tech industry was some scary, exclusive club where everyone is a genius and no one is shy. But I made a promise to stop hiding. So, yesterday, I forced myself to go to the Stripe London Developer Meetup. I stood outside their office in Bishopsgate for a solid minute, debating if I should just turn around and go home. Am I experienced enough to",
+      "url": "https://dev.to/maame-codes/touching-grass-my-experience-at-the-stripe-developer-meetup-375f",
       "source": "Dev.to",
-      "author": "wellallyTech",
-      "published": "2026-01-14T01:15:00+00:00",
+      "author": "Maame Afua A. P. Fordjour",
+      "published": "2026-01-21T01:09:15+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "7486430cf295f696",
-      "title": "We Built Avery Using Avery: What Dogfooding Taught Us About AI Coding's Broken Incentives",
-      "description": "There is a moment in every founder's journey when you realize you are not just building a product, you are betting your livelihood on it. For me, that moment came when I decided that Avery.dev, our AI coding platform, would build itself. Not as a marketing stunt. As a responsibility. Can we trust our own product to build itself before asking others to trust it to build their products? The Background Nobody Asks For (But Explains Everything) I've spent over two decades in the trenches of AI and m",
-      "url": "https://dev.to/rbnphkn_avry/we-built-avery-using-avery-what-dogfooding-taught-us-about-ai-codings-broken-incentives-41h8",
-      "source": "Dev.to",
-      "author": "Ruban Phukan",
-      "published": "2026-01-14T01:14:07+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "99d31cff308f95b3",
-      "title": "Building LandlordOS: A Modern Property Management System with Next.js 16",
-      "description": "Building LandlordOS: A Modern Property Management System I recently launched LandlordOS, a property management system designed for small-to-medium landlords. Here's the story behind it and the technical decisions that went into building it. The Problem After talking to several landlords managing 5-50 rental units, I noticed a common pain point: they were stuck between two extremes: Enterprise software ($200+/month) with features they'd never use Google Sheets that become unwieldy and error-prone",
-      "url": "https://dev.to/ben_stone_5608b8e2d9f8973/building-landlordos-a-modern-property-management-system-with-nextjs-16-1o9",
-      "source": "Dev.to",
-      "author": "Ben Stone",
-      "published": "2026-01-14T01:08:48+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
       "id": "32f305546ba2da45",
@@ -5700,22 +5636,6 @@
       "niche": "dev",
       "score": 50,
       "keywords": []
-    },
-    {
-      "id": "282877531cfa27f4",
-      "title": "Why is Debugging Hard? How to Develop an Effective Debugging Mindset",
-      "description": "For years, developers have been told that coding was their primary job. They were encouraged to write clean code, learn tools, understand frameworks, and ship features faster. But in the actual world of Software Engineering, especially in product-foc...",
-      "url": "https://www.freecodecamp.org/news/why-is-debugging-hard-how-to-develop-an-effective-debugging-mindset/",
-      "source": "freeCodeCamp",
-      "author": "Tapas Adhikary",
-      "published": "2026-01-14T01:23:54+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": [
-        "code",
-        "framework",
-        "developer"
-      ]
     },
     {
       "id": "39d76e9328d0dfb6",
@@ -8266,18 +8186,76 @@
       "keywords": []
     },
     {
-      "id": "bd4647a44e837446",
-      "title": "A 40-line fix eliminated a 400x performance gap",
-      "description": "Comments",
-      "url": "https://questdb.com/blog/jvm-current-thread-user-time/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-13T23:00:36+00:00",
+      "id": "54f83e8b72dbfbab",
+      "title": "Serverless Practice: Sending Trello Reminders to Your WhatsApp Using AWS",
+      "description": "This solution enables you to receive WhatsApp notifications for Trello alerts, specifically for cards with an assigned due date. Scenario I needed a way to better organize my personal projects, including preparing for my AWS certification, managing medical appointments, social meetings, and various other tasks. With so many apps to juggle for work and multiple email accounts, I often missed or muted notifications from tools like Google Calendar. As a result, I frequently found myself forgetting ",
+      "url": "https://dev.to/saemp21/send-trello-notifications-to-your-whatsapp-using-aws-serverless-for-less-than-1-a-month-1l2g",
+      "source": "Dev.to",
+      "author": "Nori",
+      "published": "2026-01-21T01:47:04+00:00",
       "niche": "dev",
-      "score": 48,
-      "keywords": [
-        "performance"
-      ]
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "e32791e716f02f32",
+      "title": "When Servers Catch Fire: Mastering DevOps Incident Response 🔥",
+      "description": "Don't hesitate to check all the article on my blog — Taverne Tech! Introduction Welcome to the wonderful world of incident management – where coffee is currency, sleep is a luxury, and your debugging skills are the only thing standing between you and a very awkward conversation with the CEO. But here's the plot twist: 80% of production outages are caused by changes, not infrastructure failures. So essentially, we're our own worst enemy. It's like being a digital pyromaniac and firefighter simult",
+      "url": "https://dev.to/tavernetech/when-servers-catch-fire-mastering-devops-incident-response-34cf",
+      "source": "Dev.to",
+      "author": "Taverne Tech",
+      "published": "2026-01-21T01:36:46+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "acc571b1c86fd759",
+      "title": "A sua inversão de dependência está alinhada ao negócio?",
+      "description": "Provavelmente você já sentiu a satisfação de inverter a dependência daquela classe queridinha, imaginando os mil benefícios que isso trará para o projeto, os aplausos que irá ganhar e o selo de pessoa que sabe adicionar teorias avanças ao código, mas a pergunta que surge nesse momento é: \"Faz sentido para o negócio inverter essa dependência?\" Alguns devs devem, o trocadilho não foi proposital, estar se questionando sobre o quão absurda essa pergunta pode ser. Como assim o negócio tem a ver com u",
+      "url": "https://dev.to/fabiodeandrade/a-sua-inversao-de-dependencia-esta-alinhada-ao-negocio-5702",
+      "source": "Dev.to",
+      "author": "faibo",
+      "published": "2026-01-21T01:25:28+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "d00cad1259288a2e",
+      "title": "I Trained a Tiny AI to Judge My Hacker News Feed (And You Can Too)",
+      "description": "It’s just too much noise. Keeping up with AI News is tough. I spend way too much time skimming past titles that look techy but are totally irrelevant to what I’m actually wanting. Keyword filters are brittle because they miss the nuance. I wanted a way to filter news based on “vibes”, not just regex strings. So, I’ve been playing around with the EmbeddingGemma Tuning Lab, a new Hugging Face Space that provides a tool for fine-tuning Google’s embeddinggemma-300m model to understand your specific ",
+      "url": "https://dev.to/bebechien/i-trained-a-tiny-ai-to-judge-my-hacker-news-feed-and-you-can-too-6og",
+      "source": "Dev.to",
+      "author": "bebechien",
+      "published": "2026-01-21T01:16:31+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "1c0fa559d7fab855",
+      "title": "Cómo los MCPs de AWS y los agentes de IA están cambiando mi forma de diseñar infraestructura",
+      "description": "La inteligencia artificial ya llegó —y no como una promesa futura, sino como una herramienta concreta que hoy tiene la capacidad de resolver problemas complejos y ejecutar tareas que antes requerían alta especialización técnica y mucho tiempo humano. Hoy existen modelos como Claude OPUS 4.5 que pueden mantener foco y coherencia en trabajos complejos durante varias horas seguidas. Algo que parecía casi imposible allá por 2022, cuando probábamos GPT-3, o cuando Gemini aún se llamaba Bard. A esta a",
+      "url": "https://dev.to/marcosferr/como-los-mcps-de-aws-y-los-agentes-de-ia-estan-cambiando-mi-forma-de-disenar-infraestructura-2e44",
+      "source": "Dev.to",
+      "author": "Marcos Adrian Ferreira",
+      "published": "2026-01-21T01:16:02+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "16b15229548aead4",
+      "title": "🚀 Don't Let Your AI Get \"Hypnotized\": A Guide to Stopping Adversarial Prompt Attacks 🧠🚫",
+      "description": "Welcome to the series finale of AI at Scale! 🚀 Over the last few weeks, we’ve built an AI system that is fast, organized, affordable, observant, and resilient. But as we move into the final stage of production, we face the \"Final Boss\" of software engineering: Security. When you connect an LLM to your company’s internal data or give it the power to take actions (like sending emails or accessing a database), you aren't just building a feature—you’re opening a new front in the cyberwar. Today, we’",
+      "url": "https://dev.to/charanpool/dont-let-your-ai-get-hypnotized-a-guide-to-stopping-adversarial-prompt-attacks-dmi",
+      "source": "Dev.to",
+      "author": "charan koppuravuri",
+      "published": "2026-01-21T01:10:54+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
     },
     {
       "id": "d73c55a5d9c61166",
@@ -8469,20 +8447,6 @@
       "keywords": []
     },
     {
-      "id": "fbdf5c11f6eff995",
-      "title": "The $LANG Programming Language",
-      "description": "Comments",
-      "url": "https://news.ycombinator.com/item?id=46610557",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-14T00:17:19+00:00",
-      "niche": "dev",
-      "score": 45,
-      "keywords": [
-        "programming"
-      ]
-    },
-    {
       "id": "a5a592964449b216",
       "title": "The Gleam Programming Language",
       "description": "Comments",
@@ -8494,20 +8458,6 @@
       "score": 45,
       "keywords": [
         "programming"
-      ]
-    },
-    {
-      "id": "2bdcd5546fe602ad",
-      "title": "How to Work with the ORC File Format in Python – A Guide with Examples",
-      "description": "If you've worked with big data or analytics platforms, you've probably heard about ORC files. But what exactly are they, and how can you work with them in Python? In this tutorial, I'll walk you through the basics of reading, writing, and manipulatin...",
-      "url": "https://www.freecodecamp.org/news/how-to-work-with-the-orc-file-format-in-python-a-guide-with-examples/",
-      "source": "freeCodeCamp",
-      "author": "Bala Priya C",
-      "published": "2026-01-14T01:24:44+00:00",
-      "niche": "dev",
-      "score": 45,
-      "keywords": [
-        "tutorial"
       ]
     },
     {
@@ -8567,40 +8517,18 @@
       ]
     },
     {
-      "id": "2fb71386aafb758f",
-      "title": "Thank you, DEV community, for the badge recognition after one year. I truly appreciate it.",
-      "description": "",
-      "url": "https://dev.to/victor_uzormba_80a4cf106c/thank-you-dev-community-for-the-badge-recognition-after-one-year-i-truly-appreciate-it-5bmi",
-      "source": "Dev.to",
-      "author": "victor uzormba",
-      "published": "2026-01-14T01:39:03+00:00",
+      "id": "5ab930c8aeb0dfad",
+      "title": "How Execution Context Works in JavaScript – A Handbook for Devs",
+      "description": "Execution Context is one of the most fundamental yet most misunderstood concepts in JavaScript. It defines how JavaScript code is evaluated and executed, and it plays a central role in determining how variables, functions, and scope behave. Many core...",
+      "url": "https://www.freecodecamp.org/news/how-execution-context-works-in-javascript-handbook/",
+      "source": "freeCodeCamp",
+      "author": "Sumit Saha",
+      "published": "2026-01-20T19:17:26+00:00",
       "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "faab875a9385c69b",
-      "title": "Sei (YC W22) Is Hiring a DevOps Engineer (India/In-Office/Chennai/Gurgaon)",
-      "description": "Comments",
-      "url": "https://www.ycombinator.com/companies/sei/jobs/Rn0KPXR-devops-platform-ai-infrastructure-engineer",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-14T01:01:12+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "8b470cdc33529d30",
-      "title": "When hardware goes end-of-life, companies need to open-source the software",
-      "description": "Comments",
-      "url": "https://www.marcia.no/words/eol",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-13T22:49:51+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
+      "score": 45,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "38ead850a1c11341",
@@ -8610,18 +8538,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2026-01-14T02:20:42+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "1a9cc6e73e557d84",
-      "title": "Show HN: OSS AI agent that indexes and searches the Epstein files",
-      "description": "Comments",
-      "url": "https://epstein.trynia.ai/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-14T01:56:52+00:00",
       "niche": "dev",
       "score": 44,
       "keywords": []
@@ -10499,6 +10415,54 @@
       "keywords": []
     },
     {
+      "id": "6deeccc31249cce8",
+      "title": "I like how the article separates titles from actual value in the work.",
+      "description": "It Is 2026. Some Tech Jobs Quietly Disappeared. Tech Stratos ・ Jan 20 #tech #career #ai #work",
+      "url": "https://dev.to/thegiansorianodev/i-like-how-the-article-separates-titles-from-actual-value-in-the-work-kek",
+      "source": "Dev.to",
+      "author": "Gian Soriano",
+      "published": "2026-01-21T01:55:24+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "12fc6fcb5a229f4a",
+      "title": "California is free of drought for the first time in 25 years",
+      "description": "Comments",
+      "url": "https://www.latimes.com/california/story/2026-01-09/california-has-no-areas-of-dryness-first-time-in-25-years",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-20T22:39:26+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "e652c26350f9d0c9",
+      "title": "Provably unmasking malicious behavior through execution traces",
+      "description": "Comments",
+      "url": "https://arxiv.org/abs/2512.13821",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-20T22:18:53+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "32ae30fdd4bdc559",
+      "title": "Which AI Lies Best? A game theory classic designed by John Nash",
+      "description": "Comments",
+      "url": "https://so-long-sucker.vercel.app/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-20T22:09:49+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "00ccb947077ff190",
       "title": "AI Model Collapse in Design Tools: Why Your Background Remover Is Getting Worse",
       "description": "AI tools degrading over time? Same photo, same tool, worse results six months later. Here's what's happening and how to adapt. Continue reading AI Model Collapse in Design Tools: Why Your Background Remover Is Getting Worse on SitePoint.",
@@ -10545,8 +10509,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "React 19",
-        "performance"
+        "performance",
+        "React 19"
       ]
     },
     {
@@ -10575,8 +10539,8 @@
       "score": 40,
       "keywords": [
         "code",
-        "release",
-        "performance"
+        "performance",
+        "release"
       ]
     },
     {
@@ -10590,9 +10554,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
+        "developer",
         "API",
-        "release",
-        "developer"
+        "release"
       ]
     },
     {
@@ -10948,6 +10912,18 @@
       "keywords": []
     },
     {
+      "id": "14eb904bb970d417",
+      "title": "A 26,000-year astronomical monument hidden in plain sight (2019)",
+      "description": "Comments",
+      "url": "https://longnow.org/ideas/the-26000-year-astronomical-monument-hidden-in-plain-sight/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-20T18:16:09+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
       "id": "4e6d7290f5ff11d8",
       "title": "React Native 0.80 - React 19.1, JS API Changes, Freezing Legacy Arch and much more",
       "description": "Today we are excited to release React Native 0.80!",
@@ -10961,20 +10937,6 @@
         "API",
         "React 19",
         "release"
-      ]
-    },
-    {
-      "id": "65e0fe650c95e4c4",
-      "title": "AVX-512: First Impressions on Performance and Programmability",
-      "description": "Comments",
-      "url": "https://shihab-shahriar.github.io//blog/2026/AVX-512-First-Impressions-on-Performance-and-Programmability/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-14T00:43:36+00:00",
-      "niche": "dev",
-      "score": 36,
-      "keywords": [
-        "performance"
       ]
     },
     {
@@ -11061,8 +11023,8 @@
       "niche": "dev",
       "score": 34,
       "keywords": [
-        "development",
-        "developer"
+        "developer",
+        "development"
       ]
     },
     {
@@ -11295,11 +11257,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "code",
         "API",
-        "release",
+        "performance",
+        "code",
         "framework",
-        "performance"
+        "release"
       ]
     },
     {
@@ -11537,6 +11499,18 @@
       "keywords": []
     },
     {
+      "id": "19744f500f504697",
+      "title": "Are Arrays Functions?",
+      "description": "Comments",
+      "url": "https://futhark-lang.org/blog/2026-01-16-are-arrays-functions.html",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-19T06:30:49+00:00",
+      "niche": "dev",
+      "score": 26,
+      "keywords": []
+    },
+    {
       "id": "cd46e0b1413a2532",
       "title": "LCP and INP are now Baseline Newly available",
       "description": "LCP and INP are now Baseline Newly available as of December 12, 2025.",
@@ -11691,8 +11665,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "framework"
+        "framework",
+        "release"
       ]
     },
     {
@@ -11722,8 +11696,8 @@
       "score": 20,
       "keywords": [
         "code",
-        "developer",
-        "performance"
+        "performance",
+        "developer"
       ]
     },
     {
@@ -11752,8 +11726,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
-        "developer"
+        "developer",
+        "release"
       ]
     },
     {
@@ -11825,8 +11799,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "API",
-        "code"
+        "code",
+        "API"
       ]
     },
     {
