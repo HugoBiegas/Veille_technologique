@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-21T15:44:19.466743+00:00",
-  "total_articles": 188,
+  "last_updated": "2026-01-21T18:54:36.200417+00:00",
+  "total_articles": 190,
   "articles": [
     {
       "id": "edbaeac5a0d402bc",
@@ -106,6 +106,18 @@
       "source": "Spring Blog (Official)",
       "author": "artembilan",
       "published": "2026-01-20T00:00:00+00:00",
+      "niche": "spring",
+      "score": 62,
+      "keywords": []
+    },
+    {
+      "id": "5aeab6ded29a6715",
+      "title": "Spring Integration 7.1.0-M1 Available",
+      "description": "On behalf of the team and everyone who contributed, I am pleased to announce the start of the new Spring Integration 7.1 minor version. The first milestone has made it to Maven Central. In addition, the 7.0.2 and 6.5.6 versions with bug fixes and dependency upgrades have been released. Some notable changes in 7.1.0-M1: The new spring-integration-cloudevents module has been added to support CloudEvents transformations; The new spring-integration-grpc module has been added to communicate with gRPC",
+      "url": "https://spring.io/blog/2026/01/21/spring-integration-7-1-0-m1-released",
+      "source": "Spring Blog (Official)",
+      "author": "artembilan",
+      "published": "2026-01-21T00:00:00+00:00",
       "niche": "spring",
       "score": 62,
       "keywords": []
@@ -240,30 +252,6 @@
       "published": "2026-01-20T22:32:41+00:00",
       "niche": "spring",
       "score": 46,
-      "keywords": []
-    },
-    {
-      "id": "d8bdd8ce34250f70",
-      "title": "The Philosophy of Null: Why Java’s Billion-Dollar Mistake Isn’t Actually a Mistake",
-      "description": "In 2009, Tony Hoare apologized for inventing null references, calling it his &#8220;billion-dollar mistake.&#8221; The programming world nodded in agreement. But what if we&#8217;ve been too quick to condemn? What if null isn&#8217;t the villain we think it is? Every developer has been there: the dreaded&#160;NullPointerException, the crash at 2 AM, the defensive checks that &#8230;",
-      "url": "https://www.javacodegeeks.com/2026/01/the-philosophy-of-null-why-javas-billion-dollar-mistake-isnt-actually-a-mistake.html",
-      "source": "Java Code Geeks",
-      "author": "Eleftheria Drosopoulou",
-      "published": "2026-01-14T16:39:00+00:00",
-      "niche": "spring",
-      "score": 42,
-      "keywords": []
-    },
-    {
-      "id": "0a1c7051e53a19ef",
-      "title": "Accessing Resources in Quarkus Native Images",
-      "description": "Quarkus makes it easy to build ultra-fast native executables using GraalVM, but resource handling behaves differently compared to a traditional JVM application. When compiling to a native image, GraalVM performs aggressive static analysis and removes anything it does not explicitly detect as being used, including files on the classpath. This means that text files, JSON &#8230;",
-      "url": "https://www.javacodegeeks.com/accessing-resources-in-quarkus-native-images.html",
-      "source": "Java Code Geeks",
-      "author": "Omozegie Aziegbe",
-      "published": "2026-01-14T16:11:00+00:00",
-      "niche": "spring",
-      "score": 42,
       "keywords": []
     },
     {
@@ -610,6 +598,54 @@
       "source": "DZone Microservices",
       "author": "Mohan Sankaran",
       "published": "2026-01-21T13:00:00+00:00",
+      "niche": "spring",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "c443777e6927e642",
+      "title": "PHP’s Gradual Typing Journey: From Wild West to Almost Respectable",
+      "description": "PHP has a reputation problem. For years, it&#8217;s been the language developers love to mock—the sloppy, inconsistent scripting language that powers half the internet despite itself. But something remarkable has happened over the past decade: PHP grew up. More specifically, it learned to type. The transformation from PHP 5&#8217;s dynamic free-for-all to PHP 8&#8217;s increasingly &#8230;",
+      "url": "https://www.javacodegeeks.com/2026/01/phps-gradual-typing-journey-from-wild-west-to-almost-respectable.html",
+      "source": "Java Code Geeks",
+      "author": "Eleftheria Drosopoulou",
+      "published": "2026-01-21T17:37:00+00:00",
+      "niche": "spring",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "8db48800ca7a2ddf",
+      "title": "Select Text from Autocomplete Fields with Selenium WebDriver",
+      "description": "Autocomplete inputs are common in modern web apps for search, tagging, and form completion. Unlike simple text fields, these inputs render a suggestion list asynchronously and require additional interactions to choose a value. This article explains how to reliably select options from an autocomplete dropdown using Selenium. 1. Prerequisites and Project Setup First, we need &#8230;",
+      "url": "https://www.javacodegeeks.com/select-text-from-autocomplete-fields-with-selenium-webdriver.html",
+      "source": "Java Code Geeks",
+      "author": "Omozegie Aziegbe",
+      "published": "2026-01-21T16:13:51+00:00",
+      "niche": "spring",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "7692edcc7eb4a787",
+      "title": "How to Reset and Reuse InputStream",
+      "description": "In Java, InputStream is commonly used to read data from files, network sockets, or in-memory buffers. A frequent requirement is to read the same stream multiple times. However, most input streams are forward-only and do not support rewinding by default. Let us delve into understanding how to use Java InputStream’s reset method when reading a &#8230;",
+      "url": "https://www.javacodegeeks.com/how-to-reset-and-reuse-inputstream.html",
+      "source": "Java Code Geeks",
+      "author": "Yatin Batra",
+      "published": "2026-01-21T16:02:18+00:00",
+      "niche": "spring",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "5b06065fc807a9c0",
+      "title": "IntelliJ IDEA Conf 2026: Learn From the People Building the JVM Ecosystem",
+      "description": "You’re invited to IntelliJ IDEA Conf 2026 – a free online conference for developers working across the JVM ecosystem. Join us for two days of in-depth technical talks, practical insights, and conversations with experts who build and shape modern Java and Kotlin development. The conference will take place online on March 26–27, 2026, with sessions [&#8230;]",
+      "url": "https://blog.jetbrains.com/idea/2026/01/intellij-idea-conf-2026-learn-from-the-people-building-the-jvm-ecosystem/",
+      "source": "JetBrains IntelliJ IDEA Blog",
+      "author": "Anna Rovinskaia",
+      "published": "2026-01-21T15:05:55+00:00",
       "niche": "spring",
       "score": 42,
       "keywords": []
@@ -1810,18 +1846,6 @@
       "source": "JetBrains IntelliJ IDEA Blog",
       "author": "Dmitriy Smirnov",
       "published": "2025-12-08T09:10:19+00:00",
-      "niche": "spring",
-      "score": 12,
-      "keywords": []
-    },
-    {
-      "id": "c21013c9fd6dd82f",
-      "title": "Java Annotated Monthly – December 2025",
-      "description": "This month brings significant developments throughout the Java ecosystem. Java has begun announcing JEPs targeted for the upcoming release, while Spring has unveiled major updates with Spring Framework 7 and Spring Boot 4. As always, we&#8217;ve curated the most interesting articles, videos, and podcasts covering Java, Kotlin, Spring, AI, and other relevant topics in technology [&#8230;]",
-      "url": "https://blog.jetbrains.com/idea/2025/12/java-annotated-monthly-december-2025/",
-      "source": "JetBrains IntelliJ IDEA Blog",
-      "author": "Irina Mariasova",
-      "published": "2025-12-05T10:30:15+00:00",
       "niche": "spring",
       "score": 12,
       "keywords": []

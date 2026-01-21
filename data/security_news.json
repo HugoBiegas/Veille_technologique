@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-21T15:38:55.029193+00:00",
-  "total_articles": 421,
+  "last_updated": "2026-01-21T18:51:32.179509+00:00",
+  "total_articles": 432,
   "articles": [
     {
       "id": "b9b44503dfffb622",
@@ -198,6 +198,42 @@
         "security",
         "penetration test",
         "breach"
+      ]
+    },
+    {
+      "id": "3dfcf90efd61ead7",
+      "title": "Zoom and GitLab Release Security Updates Fixing RCE, DoS, and 2FA Bypass Flaws",
+      "description": "Zoom and GitLab have released security updates to resolve a number of security vulnerabilities that could result in denial-of-service (DoS) and remote code execution. The most severe of the lot is a critical security flaw impacting Zoom Node Multimedia Routers (MMRs) that could permit a meeting participant to conduct remote code execution attacks. The vulnerability, tracked as CVE-2026-22844",
+      "url": "https://thehackernews.com/2026/01/zoom-and-gitlab-release-security.html",
+      "source": "The Hacker News",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-01-21T21:12:00+05:30",
+      "niche": "security",
+      "score": 100,
+      "keywords": [
+        "security",
+        "vulnerability",
+        "security flaw",
+        "attack",
+        "remote code execution"
+      ]
+    },
+    {
+      "id": "cad6ef3f6da25421",
+      "title": "Fortinet admins report patched FortiGate firewalls getting hacked",
+      "description": "Fortinet customers are seeing attackers exploiting a patch bypass for a previously fixed critical FortiGate authentication vulnerability (CVE-2025-59718) to hack patched firewalls. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/fortinet-admins-report-patched-fortigate-firewalls-getting-hacked/",
+      "source": "Bleeping Computer",
+      "author": "Sergiu Gatlan",
+      "published": "2026-01-21T12:49:08-05:00",
+      "niche": "security",
+      "score": 100,
+      "keywords": [
+        "vulnerability",
+        "attack",
+        "patch",
+        "firewall",
+        "exploit"
       ]
     },
     {
@@ -1099,22 +1135,6 @@
       ]
     },
     {
-      "id": "ee26d0f5e267a117",
-      "title": "A 0-click exploit chain for the Pixel 9 Part 2: Cracking the Sandbox with a Big Wave",
-      "description": "With the advent of a potential Dolby Unified Decoder RCE exploit, it seemed prudent to see what kind of Linux kernel drivers might be accessible from the resulting userland context, the mediacodec context. As per the AOSP documentation, the mediacodec SELinux context is intended to be a constrained (a.k.a sandboxed) context where non-secure software decoders are utilized. Nevertheless, using my DriverCartographer tool, I discovered an interesting device driver, /dev/bigwave that was accessible f",
-      "url": "https://projectzero.google/2026/01/pixel-0-click-part-2.html",
-      "source": "Google Project Zero",
-      "author": "Seth Jenkins",
-      "published": "2026-01-14T10:00:00-08:00",
-      "niche": "security",
-      "score": 75,
-      "keywords": [
-        "secure",
-        "exploit",
-        "RCE"
-      ]
-    },
-    {
       "id": "71db808a607c77e1",
       "title": "GootLoader Malware Uses 500–1,000 Concatenated ZIP Archives to Evade Detection",
       "description": "The JavaScript (aka JScript) malware loader called GootLoader has been observed using a malformed ZIP archive that's designed to sidestep detection efforts by concatenating anywhere from 500 to 1,000 archives. \"The actor creates a malformed archive as an anti-analysis technique,\" Expel security researcher Aaron Walton said in a report shared with The Hacker News. \"That is, many unarchiving tools",
@@ -1185,11 +1205,11 @@
       "niche": "security",
       "score": 75,
       "keywords": [
+        "security",
+        "security flaw",
         "patch",
         "zero-day",
-        "security",
-        "exploit",
-        "security flaw"
+        "exploit"
       ]
     },
     {
@@ -1567,20 +1587,6 @@
       ]
     },
     {
-      "id": "46e3caf302928c78",
-      "title": "Microsoft updates Windows DLL that triggered security alerts",
-      "description": "Microsoft has resolved a known issue that was causing security applications to incorrectly flag a core Windows component, the company said in a service alert posted this week. [...]",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-updates-windows-dll-that-triggered-security-alerts/",
-      "source": "Bleeping Computer",
-      "author": "Sergiu Gatlan",
-      "published": "2026-01-14T11:44:09-05:00",
-      "niche": "security",
-      "score": 68,
-      "keywords": [
-        "security"
-      ]
-    },
-    {
       "id": "09ed7904f6c7a0fd",
       "title": "Researchers Null-Route Over 550 Kimwolf and Aisuru Botnet Command Servers",
       "description": "The Black Lotus Labs team at Lumen Technologies said it null-routed traffic to more than 550 command-and-control (C2) nodes associated with the AISURU/Kimwolf botnet since early October 2025. AISURU and its Android counterpart, Kimwolf, have emerged as some of the biggest botnets in recent times, capable of directing enslaved devices to participate in distributed denial-of-service (DDoS)",
@@ -1771,6 +1777,32 @@
       ]
     },
     {
+      "id": "57d6ed2d672cf8ad",
+      "title": "North Korean PurpleBravo Campaign Targeted 3,136 IP Addresses via Fake Job Interviews",
+      "description": "As many as 3,136 individual IP addresses linked to likely targets of the Contagious Interview activity have been identified, with the campaign claiming 20 potential victim organizations spanning artificial intelligence (AI), cryptocurrency, financial services, IT services, marketing, and software development sectors in Europe, South Asia, the Middle East, and Central America. The new findings",
+      "url": "https://thehackernews.com/2026/01/north-korean-purplebravo-campaign.html",
+      "source": "The Hacker News",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-01-21T22:47:00+05:30",
+      "niche": "security",
+      "score": 68,
+      "keywords": []
+    },
+    {
+      "id": "b276c037a6e2781c",
+      "title": "Fake Lastpass emails pose as password vault backup alerts",
+      "description": "LastPass is warning of a new phishing campaign disguised as a maintenance notification from the service, asking users to back up their vaults in the next 24 hours. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/fake-lastpass-emails-pose-as-password-vault-backup-alerts/",
+      "source": "Bleeping Computer",
+      "author": "Bill Toulas",
+      "published": "2026-01-21T11:58:39-05:00",
+      "niche": "security",
+      "score": 68,
+      "keywords": [
+        "phishing"
+      ]
+    },
+    {
       "id": "23a1b90105d28c64",
       "title": "Envmap - Fini les fichiers .env qui traînent et finissent sur GitHub",
       "description": "Devinette du soir : Qu’est-ce qui est pire qu'un secret que vous avez oublié de cacher ? Réponse : Des dizaines, des millions de secrets qui traînent sur GitHub parce que quelqu'un a eu la flemme de configurer un vrai gestionnaire de variables d'environnement ! Hé oui, les amis ! On a tous fait cette boulette au moins une fois (ou alors vous mentez, ou vous êtes un robot). On crée un petit fichier .env, on oublie de le rajouter au .gitignore, et paf, vos clés AWS se retrouvent à poil. Selon GitH",
@@ -1827,36 +1859,6 @@
       "keywords": [
         "security",
         "vulnerability"
-      ]
-    },
-    {
-      "id": "29d8956e097dd1f4",
-      "title": "A 0-click exploit chain for the Pixel 9 Part 3: Where do we go from here?",
-      "description": "While our previous two blog posts provided technical recommendations for increasing the effort required by attackers to develop 0-click exploit chains, our experience finding, reporting and exploiting these vulnerabilities highlighted some broader issues in the Android ecosystem. This post describes the problems we encountered and recommendations for improvement. Audio Attack Surface The Dolby UDC is part of the 0-click attack surface of most Android devices because of audio transcription in the",
-      "url": "https://projectzero.google/2026/01/pixel-0-click-part-3.html",
-      "source": "Google Project Zero",
-      "author": "Natalie Silvanovich",
-      "published": "2026-01-14T10:01:00-08:00",
-      "niche": "security",
-      "score": 66,
-      "keywords": [
-        "attack",
-        "exploit"
-      ]
-    },
-    {
-      "id": "ec1095040e6906df",
-      "title": "A 0-click exploit chain for the Pixel 9 Part 1: Decoding Dolby",
-      "description": "Over the past few years, several AI-powered features have been added to mobile phones that allow users to better search and understand their messages. One effect of this change is increased 0-click attack surface, as efficient analysis often requires message media to be decoded before the message is opened by the user. One such feature is audio transcription. Incoming SMS and RCS audio attachments received by Google Messages are now automatically decoded with no user interaction. As a result, au",
-      "url": "https://projectzero.google/2026/01/pixel-0-click-part-1.html",
-      "source": "Google Project Zero",
-      "author": "Natalie Silvanovich",
-      "published": "2026-01-14T09:59:00-08:00",
-      "niche": "security",
-      "score": 66,
-      "keywords": [
-        "attack",
-        "exploit"
       ]
     },
     {
@@ -1994,18 +1996,6 @@
         "CVE-",
         "attack"
       ]
-    },
-    {
-      "id": "2f3bc5a4c66a12c4",
-      "title": "Verizon Wireless outage puts phones in SOS mode without cell service",
-      "description": "Verizon Wireless is suffering a massive outage in the US, with customers reporting their phones stuck in SOS mode with no cellular service. [...]",
-      "url": "https://www.bleepingcomputer.com/news/mobile/verizon-wireless-outage-puts-phones-in-sos-mode-without-cell-service/",
-      "source": "Bleeping Computer",
-      "author": "Lawrence Abrams",
-      "published": "2026-01-14T13:27:25-05:00",
-      "niche": "security",
-      "score": 64,
-      "keywords": []
     },
     {
       "id": "8318c39c0f7b8687",
@@ -2355,10 +2345,10 @@
       "niche": "security",
       "score": 61,
       "keywords": [
-        "RCE",
-        "OWASP",
         "security",
-        "secure"
+        "secure",
+        "RCE",
+        "OWASP"
       ]
     },
     {
@@ -2685,6 +2675,22 @@
       "keywords": []
     },
     {
+      "id": "ee26d0f5e267a117",
+      "title": "A 0-click exploit chain for the Pixel 9 Part 2: Cracking the Sandbox with a Big Wave",
+      "description": "With the advent of a potential Dolby Unified Decoder RCE exploit, it seemed prudent to see what kind of Linux kernel drivers might be accessible from the resulting userland context, the mediacodec context. As per the AOSP documentation, the mediacodec SELinux context is intended to be a constrained (a.k.a sandboxed) context where non-secure software decoders are utilized. Nevertheless, using my DriverCartographer tool, I discovered an interesting device driver, /dev/bigwave that was accessible f",
+      "url": "https://projectzero.google/2026/01/pixel-0-click-part-2.html",
+      "source": "Google Project Zero",
+      "author": "Seth Jenkins",
+      "published": "2026-01-14T10:00:00-08:00",
+      "niche": "security",
+      "score": 57,
+      "keywords": [
+        "RCE",
+        "secure",
+        "exploit"
+      ]
+    },
+    {
       "id": "5634d50aa809850a",
       "title": "Output from vibe coding tools prone to critical security flaws, study finds",
       "description": "Popular vibe coding platforms consistently generate insecure code in response to common programming prompts, including creating vulnerabilities rated as ‘critical,’ new testing has found. Security startup Tenzai’s top-line conclusion: the tools are good at avoiding security flaws that can be solved in a generic way, but struggle where what distinguishes safe from dangerous depends on context. The assessment, which it conducted in December 2025, compared five of the best-known vibe coding tools —",
@@ -2901,18 +2907,18 @@
       ]
     },
     {
-      "id": "a2f093309dc05b01",
-      "title": "'VoidLink' Malware Poses Advanced Threat to Linux Systems",
-      "description": "Researchers discovered a modular, \"cloud-first\" framework that is feature-rich and designed to maintain stealthy, long-term access to Linux environments.",
-      "url": "https://www.darkreading.com/cloud-security/voidlink-malware-advanced-threat-linux-systems",
-      "source": "Dark Reading",
-      "author": "Elizabeth Montalbano, Contributing Writer",
-      "published": "2026-01-14T15:59:49+00:00",
+      "id": "84d9af1b8f9b68e3",
+      "title": "CyberNut Closes $5M Growth Capital for K-12 Security Awareness Training",
+      "description": "CyberNut emerged from stealth in May 2024 with $800k in pre-seed funding for its cybersecurity platform. The post CyberNut Closes $5M Growth Capital for K-12 Security Awareness Training appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/cybernut-closes-5m-growth-capital-for-k-12-security-awareness-training/",
+      "source": "SecurityWeek",
+      "author": "Eduard Kovacs",
+      "published": "2026-01-21T16:18:08+00:00",
       "niche": "security",
-      "score": 54,
+      "score": 55,
       "keywords": [
-        "malware",
-        "threat"
+        "security",
+        "cybersecurity"
       ]
     },
     {
@@ -3081,25 +3087,10 @@
       "niche": "security",
       "score": 54,
       "keywords": [
-        "vulnerability",
         "attack",
         "privilege escalation",
+        "vulnerability",
         "CVE-"
-      ]
-    },
-    {
-      "id": "365735da18d7a019",
-      "title": "Fuite massive de données Instagram exposées dans le darkweb",
-      "description": "Une fuite de données Instagram toucherait des millions d’utilisateurs, exploitée pour phishing et usurpation d’identité. ZATAZ avait alerté... en 2024 !...",
-      "url": "https://www.zataz.com/fuite-massive-de-donnees-instagram-exposees-dans-le-darkweb/",
-      "source": "Zataz",
-      "author": "Damien Bancal",
-      "published": "2026-01-14T16:30:14+00:00",
-      "niche": "security",
-      "score": 52,
-      "keywords": [
-        "phishing",
-        "exploit"
       ]
     },
     {
@@ -3410,34 +3401,6 @@
       ]
     },
     {
-      "id": "ce06c8d2272ad187",
-      "title": "Aikido Security Raises $60 Million at $1 Billion Valuation",
-      "description": "The developer security company has raised a total of more than $84 million in funding. The post Aikido Security Raises $60 Million at $1 Billion Valuation appeared first on SecurityWeek.",
-      "url": "https://www.securityweek.com/aikido-security-raises-60-million-at-1-billion-valuation/",
-      "source": "SecurityWeek",
-      "author": "Eduard Kovacs",
-      "published": "2026-01-14T18:01:10+00:00",
-      "niche": "security",
-      "score": 50,
-      "keywords": [
-        "security"
-      ]
-    },
-    {
-      "id": "0619a2ffd066b5dc",
-      "title": "Investor Lawsuit Over CrowdStrike Outage Dismissed",
-      "description": "A judge has ruled that the plaintiffs failed to demonstrate intent to defraud investors. The post Investor Lawsuit Over CrowdStrike Outage Dismissed appeared first on SecurityWeek.",
-      "url": "https://www.securityweek.com/investor-lawsuit-over-crowdstrike-outage-dismissed/",
-      "source": "SecurityWeek",
-      "author": "Eduard Kovacs",
-      "published": "2026-01-14T17:13:03+00:00",
-      "niche": "security",
-      "score": 50,
-      "keywords": [
-        "security"
-      ]
-    },
-    {
       "id": "77364ab34a407700",
       "title": "Retail, Services Industries Under Fire in Oceania",
       "description": "Last year in Australia, New Zealand, and the South Pacific, Main Street businesses like retail and construction suffered more cyberattacks than their critical sector counterparts.",
@@ -3563,6 +3526,20 @@
       ]
     },
     {
+      "id": "63e2f02872f9dca4",
+      "title": "Complex VoidLink Linux Malware Created by AI",
+      "description": "Researchers say the advanced framework was built almost entirely by agents, marking a significant evolution in the use of AI to develop wholly original malware.",
+      "url": "https://www.darkreading.com/threat-intelligence/voidlink-linux-malware-ai",
+      "source": "Dark Reading",
+      "author": "Elizabeth Montalbano, Contributing Writer",
+      "published": "2026-01-21T14:48:15+00:00",
+      "niche": "security",
+      "score": 50,
+      "keywords": [
+        "malware"
+      ]
+    },
+    {
       "id": "559b7874623819f6",
       "title": "GISEC GLOBAL 2026 – The Middle East & Africa’s Largest Cybersecurity Event",
       "description": "",
@@ -3626,24 +3603,6 @@
       ]
     },
     {
-      "id": "80d5b2ee2aa44b41",
-      "title": "The Kimwolf Botnet is Stalking Your Local Network",
-      "description": "The story you are reading is a series of scoops nestled inside a far more urgent Internet-wide security advisory. The vulnerability at issue has been exploited for months already, and it's time for a broader awareness of the threat. The short version is that everything you thought you knew about the security of the internal network behind your Internet router probably is now dangerously out of date.",
-      "url": "https://krebsonsecurity.com/2026/01/the-kimwolf-botnet-is-stalking-your-local-network/",
-      "source": "Krebs on Security",
-      "author": "BrianKrebs",
-      "published": "2026-01-02T14:20:10+00:00",
-      "niche": "security",
-      "score": 49,
-      "keywords": [
-        "vulnerability",
-        "threat",
-        "security",
-        "security advisory",
-        "exploit"
-      ]
-    },
-    {
       "id": "04cb8ed1cc4f705d",
       "title": "EU reviews cybersecurity to limit danger from high-risk suppliers",
       "description": "The European Commission has presented a new cybersecurity package to strengthen the European Union’s resilience to increasing cyber and hybrid attacks from state and criminal actors. The key is to reduce risks from high-risk suppliers outside the EU, especially in critical infrastructure such as mobile networks, through a common and risk-based framework. The Commission’s news release did not mention any specific suppliers targeted by the measures. The move should make it possible to reduce the r",
@@ -3657,6 +3616,24 @@
         "attack",
         "security",
         "cybersecurity"
+      ]
+    },
+    {
+      "id": "80d5b2ee2aa44b41",
+      "title": "The Kimwolf Botnet is Stalking Your Local Network",
+      "description": "The story you are reading is a series of scoops nestled inside a far more urgent Internet-wide security advisory. The vulnerability at issue has been exploited for months already, and it's time for a broader awareness of the threat. The short version is that everything you thought you knew about the security of the internal network behind your Internet router probably is now dangerously out of date.",
+      "url": "https://krebsonsecurity.com/2026/01/the-kimwolf-botnet-is-stalking-your-local-network/",
+      "source": "Krebs on Security",
+      "author": "BrianKrebs",
+      "published": "2026-01-02T14:20:10+00:00",
+      "niche": "security",
+      "score": 49,
+      "keywords": [
+        "security",
+        "threat",
+        "vulnerability",
+        "exploit",
+        "security advisory"
       ]
     },
     {
@@ -3720,6 +3697,51 @@
       ]
     },
     {
+      "id": "882c10343629e0e4",
+      "title": "ACME flaw in Cloudflare allowed attackers to reach origin servers",
+      "description": "Cloudflare fixed a flaw in its ACME validation logic that could let attackers bypass security checks and access protected origin servers. Cloudflare fixed a flaw in its ACME HTTP-01 validation logic that could let attackers bypass security checks and reach origin servers. The issue stemmed from how Cloudflare’s edge handled requests to the /.well-known/acme-challenge/ path. [&#8230;]",
+      "url": "https://securityaffairs.com/187156/security/acme-flaw-in-cloudflare-allowed-attackers-to-reach-origin-servers.html",
+      "source": "Security Affairs",
+      "author": "Pierluigi Paganini",
+      "published": "2026-01-21T15:10:10+00:00",
+      "niche": "security",
+      "score": 48,
+      "keywords": [
+        "security",
+        "attack"
+      ]
+    },
+    {
+      "id": "29d8956e097dd1f4",
+      "title": "A 0-click exploit chain for the Pixel 9 Part 3: Where do we go from here?",
+      "description": "While our previous two blog posts provided technical recommendations for increasing the effort required by attackers to develop 0-click exploit chains, our experience finding, reporting and exploiting these vulnerabilities highlighted some broader issues in the Android ecosystem. This post describes the problems we encountered and recommendations for improvement. Audio Attack Surface The Dolby UDC is part of the 0-click attack surface of most Android devices because of audio transcription in the",
+      "url": "https://projectzero.google/2026/01/pixel-0-click-part-3.html",
+      "source": "Google Project Zero",
+      "author": "Natalie Silvanovich",
+      "published": "2026-01-14T10:01:00-08:00",
+      "niche": "security",
+      "score": 48,
+      "keywords": [
+        "attack",
+        "exploit"
+      ]
+    },
+    {
+      "id": "ec1095040e6906df",
+      "title": "A 0-click exploit chain for the Pixel 9 Part 1: Decoding Dolby",
+      "description": "Over the past few years, several AI-powered features have been added to mobile phones that allow users to better search and understand their messages. One effect of this change is increased 0-click attack surface, as efficient analysis often requires message media to be decoded before the message is opened by the user. One such feature is audio transcription. Incoming SMS and RCS audio attachments received by Google Messages are now automatically decoded with no user interaction. As a result, au",
+      "url": "https://projectzero.google/2026/01/pixel-0-click-part-1.html",
+      "source": "Google Project Zero",
+      "author": "Natalie Silvanovich",
+      "published": "2026-01-14T09:59:00-08:00",
+      "niche": "security",
+      "score": 48,
+      "keywords": [
+        "attack",
+        "exploit"
+      ]
+    },
+    {
       "id": "4f008f67ade56aef",
       "title": "Windows Exploitation Techniques: Winning Race Conditions with Path Lookups",
       "description": "This post was originally written in 2016 for the Project Zero blog. However, in the end it was published separately in the journal PoC||GTFO issue #13 as well as in the second volume of the printed version. In honor of our new blog we’re republishing it on this blog and included an updated analysis to see if it still works on a modern Windows 11 system. During my Windows research I tend to find quite a few race condition vulnerabilities. A fairly typical exploitable form look something like this",
@@ -3730,8 +3752,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "exploit",
-        "PoC"
+        "PoC",
+        "exploit"
       ]
     },
     {
@@ -3745,8 +3767,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "exploit",
-        "threat"
+        "threat",
+        "exploit"
       ]
     },
     {
@@ -4143,18 +4165,6 @@
       ]
     },
     {
-      "id": "5ce8aef4391862d0",
-      "title": "Infection repeatedly adds scheduled tasks and increases traffic to the same C2 domain, (Wed, Jan 14th)",
-      "description": "Introduction&#xd;",
-      "url": "https://isc.sans.edu/diary/rss/32628",
-      "source": "SANS Internet Storm Center",
-      "author": "Inconnu",
-      "published": "2026-01-14T18:17:20+00:00",
-      "niche": "security",
-      "score": 44,
-      "keywords": []
-    },
-    {
       "id": "13cb1f033020ca52",
       "title": "ISC Stormcast For Thursday, January 15th, 2026 https://isc.sans.edu/podcastdetail/9768, (Thu, Jan 15th)",
       "description": "",
@@ -4384,23 +4394,6 @@
       ]
     },
     {
-      "id": "e972e5e85869d8c6",
-      "title": "OWASP x Google Summer of Code 2025 - Enabling 15 opportunities for impact",
-      "description": "We’re proud to share that OWASP is once again an official mentoring organization for Google Summer of Code (GSoC) 2025—and this year, we’ve secured 15 contributor slots across some of the most impactful open-source security projects in the world. This milestone reinforces OWASP’s ongoing commitment to open-source innovation and highlights the strength of our global community of mentors and contributors, as well as our commitment to education-by-doing with the GSoC program. 🔧 GSoC 2025: What’s on",
-      "url": "http://owasp.org/blog/2025/05/12/GSoC-2025.html",
-      "source": "OWASP News",
-      "author": "Starr Brown",
-      "published": "2025-05-12T07:00:00+00:00",
-      "niche": "security",
-      "score": 43,
-      "keywords": [
-        "RCE",
-        "OWASP",
-        "security",
-        "secure"
-      ]
-    },
-    {
       "id": "ac9d866d9f6ef353",
       "title": "Le CEPD adopte sa contribution à l’évaluation de la directive « Police-Justice » et le nouveau référentiel BCR sous-traitant",
       "description": "Le 15 janvier 2026, le Comité européen de la protection des données a adopté sa contribution à l’évaluation de la directive européenne en matière de protection des données dans le cadre répressif ainsi que le nouveau référentiel applicable aux règles d’entreprise contraignantes sous-traitant (BCR-ST).",
@@ -4412,6 +4405,23 @@
       "score": 43,
       "keywords": [
         "protection"
+      ]
+    },
+    {
+      "id": "e972e5e85869d8c6",
+      "title": "OWASP x Google Summer of Code 2025 - Enabling 15 opportunities for impact",
+      "description": "We’re proud to share that OWASP is once again an official mentoring organization for Google Summer of Code (GSoC) 2025—and this year, we’ve secured 15 contributor slots across some of the most impactful open-source security projects in the world. This milestone reinforces OWASP’s ongoing commitment to open-source innovation and highlights the strength of our global community of mentors and contributors, as well as our commitment to education-by-doing with the GSoC program. 🔧 GSoC 2025: What’s on",
+      "url": "http://owasp.org/blog/2025/05/12/GSoC-2025.html",
+      "source": "OWASP News",
+      "author": "Starr Brown",
+      "published": "2025-05-12T07:00:00+00:00",
+      "niche": "security",
+      "score": 43,
+      "keywords": [
+        "security",
+        "secure",
+        "RCE",
+        "OWASP"
       ]
     },
     {
@@ -4965,8 +4975,8 @@
       "niche": "security",
       "score": 42,
       "keywords": [
-        "vulnerability",
         "attack",
+        "vulnerability",
         "CVE-"
       ]
     },
@@ -4981,10 +4991,46 @@
       "niche": "security",
       "score": 42,
       "keywords": [
+        "security",
         "RCE",
-        "OWASP",
-        "security"
+        "OWASP"
       ]
+    },
+    {
+      "id": "04871789e3a53756",
+      "title": "NitroGen - L'IA qui a appris à jouer à +1 000 jeux vidéo en regardant des vidéos de gameplay",
+      "description": "Le futur du jeu vidéo va être génial ! J'en suis convaincu ! Souvenez-vous, je vous avais parlé de Voyager , ce petit robot qui explorait Minecraft tout seul comme un grand grâce à GPT-4. Eh bien, l'équipe de MineDojo (avec des chercheurs de chez NVIDIA, Caltech et Stanford) ont remis le couvert avec un truc encore plus costaud : NitroGen. Là où les anciens modèles tâtonnaient ou avaient besoin de lire des tonnes de texte, cette nouvelle IA se base uniquement sur ce qu'elle voit à l'écran. C'est",
+      "url": "https://korben.info/nitrogen-minedojo-ia-gaming-agent.html",
+      "source": "Korben",
+      "author": "Korben",
+      "published": "2026-01-21T18:40:15+01:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "bededb2be3794041",
+      "title": "Dumb Phone - Transformez votre iPhone en téléphone minimaliste",
+      "description": "Disponible sur iOS, Dumb Phone est une application bien sympathique qui va vous permettre de transformer votre iPhone en téléphone minimaliste. Alors peut-être que ça vous rendra encore plus débile comme je vous l'expliquais hier mais tant pis ! Au moins avec ça, au lieu de vous bouffer le cerveau avec des icônes colorées et des pastilles de notifications qui hurlent à la mort pour avoir votre dose de dopamine, l'app propose une interface complétement épurée via des widgets et des raccourcis hyp",
+      "url": "https://korben.info/dumb-phone-iphone-minimaliste-final.html",
+      "source": "Korben",
+      "author": "Korben",
+      "published": "2026-01-21T17:41:44+01:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "45bd6f5a66457fcf",
+      "title": "TerraGuessr – Le globe 3D qui vous fait voir les inégalités mondiales",
+      "description": "Si vous aimez les globes 3D qui en jettent, j'ai un petit projet sympa à vous présenter. Ça s'appelle TerraGuessr et c'est Fred, un lecteur de longue date (coucou Fred !), qui m'a envoyé ça ! L'idée de Fred est assez géniale. Il propose d'utiliser un globe terrestre interactif pour visualiser la \"déformation\" du monde sous le poids des inégalités. En gros, au lieu de voir une sphère parfaite, vous voyez les continents s'étirer ou se contracter en fonction d'indicateurs comme la richesse, l'éduca",
+      "url": "https://korben.info/terraguessr-le-globe-3d-qui-vous-fait-voir-les-inegalites-mondiales.html",
+      "source": "Korben",
+      "author": "Korben",
+      "published": "2026-01-21T16:32:47+01:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": []
     },
     {
       "id": "7233d502e4d22a40",
@@ -5013,30 +5059,6 @@
       "keywords": [
         "security"
       ]
-    },
-    {
-      "id": "c20367fd261cbe1e",
-      "title": "Grok sous enquête pour des deepfakes sexuels massifs",
-      "description": "Grok sous enquête mondiale pour deepfakes sexuels, régulateurs mobilisés face aux risques juridiques et cyber. Des deep fakes qui ne sont pourtant pas une nouveauté !...",
-      "url": "https://www.zataz.com/grok-sous-enquete-pour-des-deepfakes-sexuels-massifs/",
-      "source": "Zataz",
-      "author": "Damien Bancal",
-      "published": "2026-01-14T18:14:29+00:00",
-      "niche": "security",
-      "score": 39,
-      "keywords": []
-    },
-    {
-      "id": "753dc915997b80c3",
-      "title": "Un hacker condamné pour avoir infiltré le port d’Anvers",
-      "description": "Condamné en appel, un hacker néerlandais a piraté les ports d’Anvers et Rotterdam pour faciliter le trafic de drogue....",
-      "url": "https://www.zataz.com/un-hacker-condamne-pour-avoir-infiltre-le-port-danvers/",
-      "source": "Zataz",
-      "author": "Damien Bancal",
-      "published": "2026-01-14T17:58:48+00:00",
-      "niche": "security",
-      "score": 39,
-      "keywords": []
     },
     {
       "id": "afc030e84fff85d8",
@@ -5148,9 +5170,9 @@
       "niche": "security",
       "score": 37,
       "keywords": [
+        "security",
         "attack",
         "exploit",
-        "security",
         "patch"
       ]
     },
@@ -5165,10 +5187,10 @@
       "niche": "security",
       "score": 37,
       "keywords": [
-        "OWASP",
-        "threat",
         "security",
-        "web application security"
+        "threat",
+        "web application security",
+        "OWASP"
       ]
     },
     {
@@ -5182,10 +5204,10 @@
       "niche": "security",
       "score": 34,
       "keywords": [
-        "OWASP",
-        "threat",
         "security",
-        "cybersecurity"
+        "threat",
+        "cybersecurity",
+        "OWASP"
       ]
     },
     {
@@ -5199,8 +5221,8 @@
       "niche": "security",
       "score": 33,
       "keywords": [
-        "attack",
         "security",
+        "attack",
         "vulnerability"
       ]
     },
@@ -5227,9 +5249,9 @@
       "niche": "security",
       "score": 31,
       "keywords": [
-        "OWASP",
         "security",
-        "secure"
+        "secure",
+        "OWASP"
       ]
     },
     {
@@ -5431,6 +5453,21 @@
       ]
     },
     {
+      "id": "65a16735ed51b94f",
+      "title": "Hackers get hacked, as BreachForums database is leaked",
+      "description": "Have you ever stolen data, traded a hacking tool, or just lurked on a dark web forum believing that you are anonymous? If so, I might have some unsettling news for you. Read more in my article on the Hot for Security blog.",
+      "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/hackers-get-hacked-as-breachforums-database-is-leaked",
+      "source": "Graham Cluley",
+      "author": "Graham Cluley",
+      "published": "2026-01-13T09:45:11+00:00",
+      "niche": "security",
+      "score": 25,
+      "keywords": [
+        "breach",
+        "security"
+      ]
+    },
+    {
       "id": "6a93f4612e11c72c",
       "title": "[webapps] WordPress Quiz Maker 6.7.0.56 - SQL Injection",
       "description": "WordPress Quiz Maker 6.7.0.56 - SQL Injection",
@@ -5471,9 +5508,24 @@
       "niche": "security",
       "score": 22,
       "keywords": [
-        "threat",
         "security",
+        "threat",
         "cybersecurity"
+      ]
+    },
+    {
+      "id": "365735da18d7a019",
+      "title": "Fuite massive de données Instagram exposées dans le darkweb",
+      "description": "Une fuite de données Instagram toucherait des millions d’utilisateurs, exploitée pour phishing et usurpation d’identité. ZATAZ avait alerté... en 2024 !...",
+      "url": "https://www.zataz.com/fuite-massive-de-donnees-instagram-exposees-dans-le-darkweb/",
+      "source": "Zataz",
+      "author": "Damien Bancal",
+      "published": "2026-01-14T16:30:14+00:00",
+      "niche": "security",
+      "score": 22,
+      "keywords": [
+        "phishing",
+        "exploit"
       ]
     },
     {
@@ -5530,9 +5582,9 @@
       "niche": "security",
       "score": 19,
       "keywords": [
-        "PoC",
         "security",
-        "cybersecurity"
+        "cybersecurity",
+        "PoC"
       ]
     },
     {
@@ -5617,6 +5669,49 @@
       "score": 18,
       "keywords": [
         "attack"
+      ]
+    },
+    {
+      "id": "51966c882a710a3a",
+      "title": "Smashing Security podcast #449: How to scam someone in seven days",
+      "description": "Romance scammers have apparently discovered astrology... and Taurus is their secret weapon. In episode 449 of \"Smashing Security\", we take a look inside an actual romance-fraud handbook - complete with scripts, personality “types”, corporate jargon, and a seven-day plan to get victims from hello to hand over the crypto. Then Lesley \"hacks4pancakes\" Carhart delivers a reality check on the dire cybersecurity jobs market for juniors: why entry-level roles are evaporating, how automated CV screening",
+      "url": "https://grahamcluley.com/smashing-security-podcast-449/",
+      "source": "Graham Cluley",
+      "author": "Graham Cluley",
+      "published": "2026-01-08T00:31:41+00:00",
+      "niche": "security",
+      "score": 16,
+      "keywords": [
+        "security",
+        "cybersecurity"
+      ]
+    },
+    {
+      "id": "63073500453a1c30",
+      "title": "pcTattletale founder pleads guilty in rare stalkerware prosecution",
+      "description": "The founder of a spyware company that encouraged customers to secretly monitor their romantic partners has pleaded guilty to federal charges - marking one of the few successful US prosecutions of a stalkerware operator. Read more in my article on the Hot for Security blog.",
+      "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/pctattletale-founder-pleads-guilty-in-rare-stalkerware-prosecution",
+      "source": "Graham Cluley",
+      "author": "Graham Cluley",
+      "published": "2026-01-09T09:10:13+00:00",
+      "niche": "security",
+      "score": 15,
+      "keywords": [
+        "security"
+      ]
+    },
+    {
+      "id": "3c27aca2dac10572",
+      "title": "Coinbase insider who sold customer data to criminals arrested in India",
+      "description": "Police in India have arrested a former Coinbase customer service agent who is believed to have been bribed by cybercriminal gangs to access sensitive customer information. Read more in my article on the Hot for Security blog.",
+      "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/coinbase-insider-who-sold-customer-data-to-criminals-arrested-in-india",
+      "source": "Graham Cluley",
+      "author": "Graham Cluley",
+      "published": "2026-01-06T08:38:25+00:00",
+      "niche": "security",
+      "score": 15,
+      "keywords": [
+        "security"
       ]
     },
     {
@@ -5796,6 +5891,30 @@
       ]
     },
     {
+      "id": "9320684aa9903976",
+      "title": "The AI Fix #83: ChatGPT Health, Victorian LLMs, and the biggest AI bluffers",
+      "description": "In episode 83 of The AI Fix, Graham reveals he's taken up lying to LLMs, and shows how a journalist exposed AI bluffers with a made-up idiom. Meanwhile Mark invents a \"Godwin's Law\" for AI, and explains how to ruin any LLM with humus. Also in this episode, a marriage is declared invalid thanks to ChatGPT, an AI barman looks for a job in a quiet pub, OpenAI finally unveils ChatGPT Health, and why news of the death of Stack Overflow may be greatly exaggerated. All this and much more is discussed i",
+      "url": "https://grahamcluley.com/the-ai-fix-83/",
+      "source": "Graham Cluley",
+      "author": "Graham Cluley",
+      "published": "2026-01-13T18:19:04+00:00",
+      "niche": "security",
+      "score": 12,
+      "keywords": []
+    },
+    {
+      "id": "87b4e7f40f9aa67b",
+      "title": "The AI Fix #82: Santa Claus doesn’t exist (according to AI)",
+      "description": "Is Santa Claus real? This Christmas special of The AI Fix podcast sets out to answer that question in the most sensible way possible: by consulting chatbots, Google's festive killjoys, and the laws of relativistic physics. Your hosts unwrap a festive grab-bag of AI absurdity as Waymo self-driving taxis run over a beloved San Francisco cat, then stage several fresh PR disasters by refusing to cross bridges, block holiday parades, and apparently chauffeur a man hiding in the trunk. Meanwhile, Micr",
+      "url": "https://grahamcluley.com/the-ai-fix-82-santa-claus-doesnt-exist-according-to-ai/",
+      "source": "Graham Cluley",
+      "author": "Graham Cluley",
+      "published": "2025-12-23T15:30:44+00:00",
+      "niche": "security",
+      "score": 12,
+      "keywords": []
+    },
+    {
       "id": "a4ecc5bb0f9a18e3",
       "title": "DAST without disruption: Burp Suite DAST winter update 2025",
       "description": "AppSec teams are under constant pressure to secure fast-moving applications without slowing anything down. But scanning windows, fragile authentication, and sprawling API estates often get in the way",
@@ -5876,6 +5995,30 @@
       ]
     },
     {
+      "id": "c20367fd261cbe1e",
+      "title": "Grok sous enquête pour des deepfakes sexuels massifs",
+      "description": "Grok sous enquête mondiale pour deepfakes sexuels, régulateurs mobilisés face aux risques juridiques et cyber. Des deep fakes qui ne sont pourtant pas une nouveauté !...",
+      "url": "https://www.zataz.com/grok-sous-enquete-pour-des-deepfakes-sexuels-massifs/",
+      "source": "Zataz",
+      "author": "Damien Bancal",
+      "published": "2026-01-14T18:14:29+00:00",
+      "niche": "security",
+      "score": 9,
+      "keywords": []
+    },
+    {
+      "id": "753dc915997b80c3",
+      "title": "Un hacker condamné pour avoir infiltré le port d’Anvers",
+      "description": "Condamné en appel, un hacker néerlandais a piraté les ports d’Anvers et Rotterdam pour faciliter le trafic de drogue....",
+      "url": "https://www.zataz.com/un-hacker-condamne-pour-avoir-infiltre-le-port-danvers/",
+      "source": "Zataz",
+      "author": "Damien Bancal",
+      "published": "2026-01-14T17:58:48+00:00",
+      "niche": "security",
+      "score": 9,
+      "keywords": []
+    },
+    {
       "id": "2e67b8944344fc64",
       "title": "RedVDS, pilier discret de la cyberfraude stoppé",
       "description": "RedVDS ciblé, infrastructure clé de fraudes mondiales, via une action judiciaire coordonnée États-Unis Europe....",
@@ -5933,6 +6076,18 @@
       "published": "2026-01-13T14:57:08+00:00",
       "niche": "security",
       "score": 9,
+      "keywords": []
+    },
+    {
+      "id": "5ce8aef4391862d0",
+      "title": "Infection repeatedly adds scheduled tasks and increases traffic to the same C2 domain, (Wed, Jan 14th)",
+      "description": "Introduction&#xd;",
+      "url": "https://isc.sans.edu/diary/rss/32628",
+      "source": "SANS Internet Storm Center",
+      "author": "Inconnu",
+      "published": "2026-01-14T18:17:20+00:00",
+      "niche": "security",
+      "score": 8,
       "keywords": []
     },
     {
