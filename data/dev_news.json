@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-22T15:37:26.067501+00:00",
-  "total_articles": 1004,
+  "last_updated": "2026-01-22T18:41:59.766339+00:00",
+  "total_articles": 997,
   "articles": [
     {
       "id": "fd03a584d80d5c72",
@@ -292,6 +292,20 @@
       "source": "Dev.to",
       "author": "Ogasawara Kakeru",
       "published": "2026-01-22T06:14:22+00:00",
+      "niche": "dev",
+      "score": 72,
+      "keywords": [
+        "API"
+      ]
+    },
+    {
+      "id": "d17a70eb9ea16e31",
+      "title": "Designing a Universal Error Handler for Frontend & Backend (React + Node.js)",
+      "description": "Error handling is one of those things we all do — but rarely design properly. In most projects, error handling grows organically: a few try/catch blocks some HTTP status checks random error messages sent from the backend UI logic guessing what went wrong Eventually, the system becomes fragile. This article walks through how and why I designed a universal error-handling system that works across Backend (Node.js / Express / Next.js APIs) and Frontend (React / Next.js UI) — using a shared contract,",
+      "url": "https://dev.to/shubham_gupta_decf96a6ab2/designing-a-universal-error-handler-for-frontend-backend-react-nodejs-13d1",
+      "source": "Dev.to",
+      "author": "Shubham Gupta",
+      "published": "2026-01-22T18:27:28+00:00",
       "niche": "dev",
       "score": 72,
       "keywords": [
@@ -1159,6 +1173,18 @@
       "keywords": []
     },
     {
+      "id": "36e31c7bf3bb21ce",
+      "title": "It looks like the status/need-triage label was removed",
+      "description": "Comments",
+      "url": "https://github.com/google-gemini/gemini-cli/issues/16728",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-22T16:10:20+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": []
+    },
+    {
       "id": "ed60b5fc07048a65",
       "title": "Understanding ArkTS ArcList: The Go-To Component for Watch UIs",
       "description": "Read the original article：Understanding ArkTS ArcList: The Go-To Component for Watch UIs ArcList first Look 📘 Introduction Smartwatch apps are rapidly evolving, demanding fluid, visually intuitive UIs adapted for small, circular screens. HarmonyOS offers developers an elegant way to build such interfaces through the ArkTS framework and its ArcUI components. One of the most efficient components designed specifically for this purpose is ArcList. It stands out as a key element in wearable UI design",
@@ -1404,19 +1430,33 @@
       ]
     },
     {
-      "id": "cc03b99a5d39dc60",
-      "title": "Named Sessions: Your Git Branches Have Names — Why Shouldn't Your Claude Sessions?",
-      "description": "Stop losing context. Start naming your sessions like the organized developer you pretend to be. From: x.com/adocomplete If you've ever found yourself scrolling through a sea of anonymous Claude sessions, desperately trying to remember which one had that brilliant API refactoring discussion, this feature is about to change your life. We've all been there. You're deep in a complex migration, Claude is helping you navigate the treacherous waters of legacy code, and then... life happens. A meeting. ",
-      "url": "https://dev.to/rajeshroyal/named-sessions-your-git-branches-have-names-why-shouldnt-your-claude-sessions-43oc",
+      "id": "72879a258356f82b",
+      "title": "How a Livewire Vulnerability Led to Crypto Mining on Our Servers",
+      "description": "Last week, we experienced a security incident that started as a performance issue and turned into a crypto mining investigation. Here's what happened and what you need to know if you're running Livewire in production. The Initial Signs Pages were loading slowly, and Livewire components were lagging. Our initial investigation pointed to pending PHP-FPM processes consuming server resources, coinciding with a recent deployment. We killed the processes, and everything seemed back to normal. Or so we",
+      "url": "https://dev.to/brunoabpinto/how-a-livewire-vulnerability-led-to-crypto-mining-on-our-servers-5gh8",
       "source": "Dev.to",
-      "author": "Rajesh Royal",
-      "published": "2026-01-15T18:30:00+00:00",
+      "author": "Bruno Pinto",
+      "published": "2026-01-22T18:17:53+00:00",
       "niche": "dev",
-      "score": 56,
+      "score": 57,
       "keywords": [
-        "developer",
+        "PHP",
+        "performance"
+      ]
+    },
+    {
+      "id": "a9d995ff366bee62",
+      "title": "Announcing go-odata v0.9.0: OData v4 APIs for Go",
+      "description": "OData is a standards-based way to ship queryable, discoverable APIs. go-odata wires the protocol details for you: metadata, key parsing, canonical URLs, and query option execution. In times of AI-assisted coding, having a strict, machine-readable standard like OData helps both humans and LLMs generate correct, predictable APIs. Currently at v0.9.0, which effectively represents the planned 1.0 API surface. Remaining work toward 1.0 is focused on cleanup, documentation, and performance—not on majo",
+      "url": "https://dev.to/nlstn/announcing-go-odata-v090-odata-v4-apis-for-go-2oj",
+      "source": "Dev.to",
+      "author": "Nlstn",
+      "published": "2026-01-22T18:13:40+00:00",
+      "niche": "dev",
+      "score": 57,
+      "keywords": [
         "API",
-        "code"
+        "performance"
       ]
     },
     {
@@ -1646,21 +1686,6 @@
       "niche": "dev",
       "score": 56,
       "keywords": []
-    },
-    {
-      "id": "40970c686a0460b9",
-      "title": "Distilling Knowledge into Tiny LLMs",
-      "description": "Large Language Models (LLMs) are the magic behind AI. These massive billion and trillion parameter models have been shown to generalize well when trained on enough data. A big problem is that they are hard to run and expensive. So many just call LLMs through APIs such as OpenAI or Claude. Additionally, in many instances, developers spend a lot of time with complex prompt logic hoping to cover all the edge cases and believe they need a model that's large enough to handle all the rules. If you tru",
-      "url": "https://dev.to/neuml/distilling-knowledge-into-tiny-llms-4chc",
-      "source": "Dev.to",
-      "author": "David Mezzetti",
-      "published": "2026-01-15T17:35:44+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "API",
-        "developer"
-      ]
     },
     {
       "id": "7a439a04ff202556",
@@ -2145,31 +2170,18 @@
       ]
     },
     {
-      "id": "3efcc4529bbe41f6",
-      "title": "**Unlocking Optimal Performance: The AI-Powered Transformati",
-      "description": "Unlocking Optimal Performance: The AI-Powered Transformation of the Miami Dolphins' Swim Coach In 2024, I had the privilege of collaborating with the Miami Dolphins' Swim Coach, as they embarked on a mission to optimize their competitive edge in the aquatic world. By integrating AI Sports Coach, a cutting-edge AI-powered platform, we harnessed the power of data-driven insights to refine their training regimen. The Challenge The Dolphins' swim squad struggled to maintain a consistent performance ",
-      "url": "https://dev.to/drcarlosruizviquez/unlocking-optimal-performance-the-ai-powered-transformati-5c3j",
+      "id": "ea5cbacae1ec53d9",
+      "title": "From Static to Smart: Designing an AI-First Developer Portfolio with Renderer, Gemini & MCP 🚀🚀",
+      "description": "Transforming portfolio creation with Google Gemini AI and Model Context Protocol https://www.youtube.com/watch?v=Txzplqg6oJo 🚀 Executive Summary Renderer is an innovative portfolio framework that leverages Google Gemini to revolutionize how developers create and manage their online presence. By combining a configuration-first architecture with AI assistance through Model Context Protocol (MCP), users can generate, validate, and customize complete portfolios using natural language. Key Innovation",
+      "url": "https://dev.to/nishikantaray/from-static-to-smart-designing-an-ai-first-developer-portfolio-with-renderer-gemini-mcp-1kd1",
       "source": "Dev.to",
-      "author": "Dr. Carlos Ruiz Viquez",
-      "published": "2026-01-15T17:39:52+00:00",
+      "author": "Nishikanta Ray",
+      "published": "2026-01-22T18:16:15+00:00",
       "niche": "dev",
-      "score": 54,
+      "score": 55,
       "keywords": [
-        "performance"
-      ]
-    },
-    {
-      "id": "4a06efced22bfcc0",
-      "title": "How to Manage Blue-Green Deployments on AWS ECS with Database Migrations: Complete Implementation Guide",
-      "description": "Blue-green deployments are celebrated for enabling zero-downtime releases and instant rollbacks. You deploy your new version (green) alongside the current one (blue), switch traffic over, and if something goes wrong, you switch back. Simple, right? N...",
-      "url": "https://www.freecodecamp.org/news/how-to-manage-blue-green-deployments-on-aws-ecs-with-database-migrations/",
-      "source": "freeCodeCamp",
-      "author": "Destiny Erhabor",
-      "published": "2026-01-15T18:25:13+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "release"
+        "developer",
+        "framework"
       ]
     },
     {
@@ -3029,51 +3041,6 @@
       ]
     },
     {
-      "id": "983552c9e0b2f665",
-      "title": "🎵 On the 12 Days of Christmas, Amazon Developer gave to me... 🎵",
-      "description": "Made a New Year's resolution to learn something new? We've got you covered! Back in December, our team turned the holidays into a developer advent calendar, unwrapping a different Amazon tool each day leading up to Christmas. We covered 12 different Amazon tools / services in 12 LinkedIn posts with real code snippets and working demos. Whether you're curious about AI voice generation or custom Kiro agent consider it your New Year's resolution starter pack for building with Amazon's developer. So",
-      "url": "https://dev.to/amazonappdev/on-the-12-days-of-christmas-amazon-developer-gave-to-me-i3o",
-      "source": "Dev.to",
-      "author": "Anisha Malde",
-      "published": "2026-01-15T18:11:51+00:00",
-      "niche": "dev",
-      "score": 52,
-      "keywords": [
-        "developer",
-        "code"
-      ]
-    },
-    {
-      "id": "21471bd393181a06",
-      "title": "Portfolio Site",
-      "description": "I created a responsive single page application using NextJS and TailwindCSS for my portfolio site. It has a cool effect when you open it in the desktop. I tried simple design with single color for both themes. Let me know what you think, I am open to any feedback. Subbu's Portfolio Hello, I'm Subbu, a software developer building full-stack applications and side projects. subucodes.com",
-      "url": "https://dev.to/subucodes/portfolio-site-6k9",
-      "source": "Dev.to",
-      "author": "Subbu",
-      "published": "2026-01-15T18:07:55+00:00",
-      "niche": "dev",
-      "score": 52,
-      "keywords": [
-        "developer",
-        "code"
-      ]
-    },
-    {
-      "id": "1e9bb4b939df7fa1",
-      "title": "🎵 On the 12 Days of Christmas, Amazon Developer gave to me... 🎄",
-      "description": "Made a New Year's resolution to learn something new? We've got you covered! Back in December, our team turned the holidays into a developer advent calendar, unwrapping a different Amazon tool each day leading up to Christmas. We covered 12 different Amazon tools / services in 12 LinkedIn posts with real code snippets and working demos. Whether you're curious about AI voice generation or custom Kiro agent consider it your New Year's resolution starter pack for building with Amazon's developer. So",
-      "url": "https://dev.to/amazonappdev/on-the-12-days-of-christmas-amazon-developer-gave-to-me-dhc",
-      "source": "Dev.to",
-      "author": "Anisha Malde",
-      "published": "2026-01-15T18:07:20+00:00",
-      "niche": "dev",
-      "score": 52,
-      "keywords": [
-        "developer",
-        "code"
-      ]
-    },
-    {
       "id": "1a350e123c48e97d",
       "title": "🚀 AI Is Making Junior Developers Useless — Or Is It?",
       "description": "AI is writing code faster than ever. People everywhere are saying: “Junior devs are finished.” “AI will replace entry-level programmers.” “Companies won’t hire juniors again.” And if you’re starting your tech journey right now, you’ve probably asked yourself: So what happens to me? What will I do in an AI-first world? Let’s break this down — using real data, real trends, and a practical solution that puts you back in control. 🔥 1. What AI Is Actually Doing to the Job Market (Real Numbers) We’re ",
@@ -3081,21 +3048,6 @@
       "source": "Dev.to",
       "author": "igbojionu",
       "published": "2026-01-15T21:05:21+00:00",
-      "niche": "dev",
-      "score": 52,
-      "keywords": [
-        "developer",
-        "code"
-      ]
-    },
-    {
-      "id": "cdb5518400afa31e",
-      "title": "Inside Cal Hacks 2025 – 36 Hours at the World's Largest Collegiate Hackathon",
-      "description": "What happens when you lock over 2,500 ambitious developers in a massive science museum for an entire weekend? We posted a documentary on the freeCodeCamp.org YouTube channel that takes you to the heart of Cal Hacks 2025, held at the iconic former Exp...",
-      "url": "https://www.freecodecamp.org/news/inside-cal-hacks-2025-36-hours-at-the-worlds-largest-collegiate-hackathon/",
-      "source": "freeCodeCamp",
-      "author": "Beau Carnes",
-      "published": "2026-01-15T15:55:31+00:00",
       "niche": "dev",
       "score": 52,
       "keywords": [
@@ -3704,17 +3656,33 @@
       ]
     },
     {
-      "id": "19df5ffb0bc844ae",
-      "title": "Breaking Free from Waterfall: The Rise of Agile Workflow 🚀",
-      "description": "For a long time, software development followed a traditional workflow where everything happened in a fixed sequence. Teams worked hard, processes were strict, and yet projects often failed to meet expectations. Deadlines slipped, customers were unhappy, and even small changes felt expensive and exhausting. So what went wrong? And more importantly, how did Agile change everything? Let’s break it down. 🏗️ The Traditional (Waterfall) Way of Working In the traditional workflow, software development ",
-      "url": "https://dev.to/devopsdynamicshub/breaking-free-from-waterfall-the-rise-of-agile-workflow-2hh7",
+      "id": "27f2e8278313be55",
+      "title": "MCP Development with Lisp and Gemini CLI",
+      "description": "Leveraging Gemini CLI and the underlying Gemini LLM to build Model Context Protocol (MCP) AI applications with the Lisp language in a local development environment. Why not just use Python? Python has traditionally been the main coding language for ML and AI tools. One of the strengths of the MCP protocol is that the actual implementation details are independent of the development language. The reality is that not every project is coded in Python- and MCP allows you to use the latest AI approach",
+      "url": "https://dev.to/gde/mcp-development-with-lisp-and-gemini-cli-1d89",
       "source": "Dev.to",
-      "author": "Cloudia",
-      "published": "2026-01-15T17:59:30+00:00",
+      "author": "xbill",
+      "published": "2026-01-22T18:25:01+00:00",
       "niche": "dev",
-      "score": 51,
+      "score": 52,
       "keywords": [
-        "development"
+        "development",
+        "code"
+      ]
+    },
+    {
+      "id": "9de42f6412959986",
+      "title": "how we prevent ai agent's drift & code slop generation",
+      "description": "At TraycerAI we reduced hallucinations, code slop generation and solved agent's drift. Finally you can ship complex features, end to end products with world's first AI product planner. Traycer is built on the core philosophy of Spec driven development and is way ahead than anyone due to its approach. Lets discuss, how we've achieved this AI agents that write code have a dirty little secret, they drift, hallucinate, and generate confident garbage. After building AI agents that have executed large",
+      "url": "https://dev.to/singhdevhub/how-we-prevent-ai-agents-drift-code-slop-generation-2eb7",
+      "source": "Dev.to",
+      "author": "SinghDevHub",
+      "published": "2026-01-22T18:17:55+00:00",
+      "niche": "dev",
+      "score": 52,
+      "keywords": [
+        "development",
+        "code"
       ]
     },
     {
@@ -3771,20 +3739,6 @@
       "score": 51,
       "keywords": [
         "tutorial"
-      ]
-    },
-    {
-      "id": "7711b7cfba6e1b45",
-      "title": "Build Your Own Kubernetes Operators with Go and Kubebuilder",
-      "description": "We just posted a Kubernetes Operator course on the freeCodeCamp.org YouTube channel. You will learn how to extend Kubernetes by building your own custom operators and controllers from scratch. You’ll go beyond simply using Kubernetes and start treati...",
-      "url": "https://www.freecodecamp.org/news/build-your-own-kubernetes-operators-with-go-and-kubebuilder/",
-      "source": "freeCodeCamp",
-      "author": "Beau Carnes",
-      "published": "2026-01-15T17:53:26+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
       ]
     },
     {
@@ -5413,40 +5367,46 @@
       ]
     },
     {
-      "id": "ae3838e7bdcb4f2c",
-      "title": "Designing Blockchain #4: Merkle Trees and State Verification",
-      "description": "Intro In the previous article, we secured our Fleming blockchain by implementing cryptographic signatures and wallets, ensuring that only legitimate account owners can authorise transactions. However, if you remember from the second article, we left a critical architectural problem unresolved: storing the full state in every block is extremely wasteful and doesn't scale well. Let's understand the magnitude of this problem. In our current implementation, each block contains a complete copy of the",
-      "url": "https://dev.to/dmytro_svynarenko/designing-blockchain-4-merkle-trees-and-state-verification-15i8",
+      "id": "d2d16821fb42e738",
+      "title": "Prompt Suggestions: When Your AI Knows What You Need Before You Do",
+      "description": "Tab used to autocomplete your code. Now it autocompletes your work. From: x.com/adocomplete Introduction You've just finished a task with Claude. The component is built, the tests pass, and you're feeling good. But wait — there's more to do. You need to update the documentation. Add error handling. Maybe create a usage example. You know what comes next. And here's the thing: Claude knows too. Prompt suggestions are Claude Code's predictive feature that anticipates your next move. After completin",
+      "url": "https://dev.to/rajeshroyal/prompt-suggestions-when-your-ai-knows-what-you-need-before-you-do-49jf",
       "source": "Dev.to",
-      "author": "Dmytro Svynarenko",
-      "published": "2026-01-15T18:16:10+00:00",
+      "author": "Rajesh Royal",
+      "published": "2026-01-22T18:30:00+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
-      "id": "6e2d0b4fc238989d",
-      "title": "Sprint Retrospectives: The 30-Minute Habit That Makes Teams 10x Better (Without Working Harder)",
-      "description": "Most engineering teams don’t struggle because they aren’t talented. They struggle because they repeat the same problems sprint after sprint: PRs stuck in review for days unclear requirements leading to rework flaky CI pipelines last-minute scope changes recurring incidents nobody has time to fix properly “alignment issues” becoming the default explanation Over time teams start to accept this as normal. It’s not. There’s one simple habit that separates high-performing teams from average teams: A ",
-      "url": "https://dev.to/clear_retro/sprint-retrospectives-the-30-minute-habit-that-makes-teams-10x-better-without-working-harder-332i",
+      "id": "0718c56827ade97c",
+      "title": "Building optimistic UI in Rails powered by Turbo",
+      "description": "This article was originally published on Rails Designer blog A while back I showed you how to build optimistic UI using custom elements. It worked great! And you thought too, it was shared far and wide (it was readseen by many thousands!). But something bugged me. The custom element wrapper felt like extra ceremony. What if I could get the same instant feedback without the extra markup? Just a form, some data attributes (Rails developers ❤️ data attributes) and a sprinkle of (custom) JavaScript?",
+      "url": "https://dev.to/railsdesigner/building-optimistic-ui-in-rails-powered-by-turbo-13fb",
       "source": "Dev.to",
-      "author": "Clear Retro",
-      "published": "2026-01-15T17:50:48+00:00",
+      "author": "Rails Designer",
+      "published": "2026-01-22T18:15:00+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
-      "id": "7267102a0e3bab27",
-      "title": "El MVP que funciona (1-100 usuarios)",
-      "description": "Esto es fantasía. El 1° de enero lanzamos una plataforma de gestión financiera personal. Conecta cuentas bancarias, categoriza gastos, establece presupuestos y genera insights. Ese mismo día tuvimos nuestro primer usuario. La meta es llegar a 100 este mes. Este post es sobre la infraestructura detrás de ese MVP. No sobre código, arquitectura de software, ni patrones de diseño. Sobre servidores, contenedores, costos, y las decisiones pragmáticas que te permiten lanzar algo real con ~$25 USD al me",
-      "url": "https://dev.to/norman404/el-mvp-que-funciona-1-100-usuarios-3pi3",
-      "source": "Dev.to",
-      "author": "Norman Torres",
-      "published": "2026-01-15T17:40:48+00:00",
+      "id": "cbd3840b7a17983c",
+      "title": "Learn RAG & MCP Fundamentals",
+      "description": "Building AI today is about more than just a clever prompt. If you really want to move from playing with standalone tools to creating integrated systems that actually work with your data, our new crash course on the freeCodeCamp.org YouTube channel is...",
+      "url": "https://www.freecodecamp.org/news/learn-rag-and-mcp-fundamentals/",
+      "source": "freeCodeCamp",
+      "author": "Beau Carnes",
+      "published": "2026-01-22T14:34:33+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "818733682f027445",
@@ -5504,30 +5464,6 @@
       "source": "Dev.to",
       "author": "Drew Madore",
       "published": "2026-01-15T20:40:41+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "8575a15fcb928686",
-      "title": "How to Choose the Best GPU for Your AI Workloads",
-      "description": "Choosing a GPU for your AI workload shouldn't be complicated, but it often feels that way. You're weighing specs you don't fully understand, comparing prices that seem arbitrary, and wondering if you're about to waste thousands on GPUs you don't need...",
-      "url": "https://www.freecodecamp.org/news/how-to-choose-the-best-gpu-for-your-ai-workloads/",
-      "source": "freeCodeCamp",
-      "author": "Daniel Adeboye",
-      "published": "2026-01-15T17:08:09+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "fde3fcf5f1d25c92",
-      "title": "How to Benchmark Embedding Models On Your Own Data",
-      "description": "Finding the right embedding model for your specific data can often feel like guesswork, but it doesn't have to be. While generic benchmarks provide a baseline, they rarely reflect how a model will perform on your unique datasets and niche terminology...",
-      "url": "https://www.freecodecamp.org/news/how-to-benchmark-embedding-models-on-your-own-data/",
-      "source": "freeCodeCamp",
-      "author": "Beau Carnes",
-      "published": "2026-01-15T15:49:38+00:00",
       "niche": "dev",
       "score": 50,
       "keywords": []
@@ -8201,6 +8137,42 @@
       "keywords": []
     },
     {
+      "id": "ae0d0bd6aff83736",
+      "title": "How a RAG Agent Helped My Father's Shoulder Treatment (And Saved ₹30,000).",
+      "description": "My father slipped on wet tiles while watering plants. Left shoulder dislocation. Emergency room. The doctor said he needed treatment, possibly surgery. Hospital estimate: ₹30,000-50,000. We had HDFC insurance for 4 years. But standing there, I had no idea what was covered. The 84-page policy PDF was useless at that moment. So I built an AI system that could answer our questions. It took one night. It saved us ₹30,000. Here's exactly how I did it. What Is a RAG Agent? RAG = Retrieval-Augmented Ge",
+      "url": "https://dev.to/jaskirat_singh/how-a-rag-agent-helped-my-fathers-shoulder-treatment-and-saved-30000-349h",
+      "source": "Dev.to",
+      "author": "Jaskirat Singh",
+      "published": "2026-01-22T18:22:39+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "e7328cf52b981883",
+      "title": "Binja: Finally, a Fast Jinja2/Django Template Engine for Bun",
+      "description": "If you've ever tried to use Django-style templates in the JavaScript ecosystem, you know the pain. Nunjucks is the go-to option, but it's slow and missing features. I needed something better for a Bun project, so I built binja. The Problem I was migrating a Django application to Bun/Elysia and hit a wall: my templates relied heavily on Django Template Language features that Nunjucks either didn't support or handled poorly. Template inheritance worked, but many filters were missing, and performan",
+      "url": "https://dev.to/egeominotti/binja-finally-a-fast-jinja2django-template-engine-for-bun-1li4",
+      "source": "Dev.to",
+      "author": "Egeo Minotti",
+      "published": "2026-01-22T18:18:46+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "29f3d2508508e1d1",
+      "title": "Beyond Generative: The Rise Of Agentic AI And User-Centric Design",
+      "description": "Developing effective agentic AI requires a new research playbook. When systems plan, decide, and act on our behalf, UX moves beyond usability testing into the realm of trust, consent, and accountability. Victor Yocco outlines the research methods needed to design agentic AI systems responsibly.",
+      "url": "https://smashingmagazine.com/2026/01/beyond-generative-rise-agentic-ai-user-centric-design/",
+      "source": "Smashing Magazine",
+      "author": "hello@smashingmagazine.com (Victor Yocco)",
+      "published": "2026-01-22T13:00:00+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "fdd9f6edf866fa0f",
       "title": "Building an AI SaaS system is possible; however, when you build the SaaS system, you should have ethical considerations at the centre. If you don't have ethics at the centre, then your model will work but won't have any trust.",
       "description": "What No One Tells You About Building an AI SaaS Business Jaideep Parashar ・ Jan 17 #webdev #ai #saas #programming",
@@ -8516,66 +8488,6 @@
       "keywords": [
         "performance"
       ]
-    },
-    {
-      "id": "ceb0a631586c6263",
-      "title": "CVEs Affecting the Svelte Ecosystem",
-      "description": "Comments",
-      "url": "https://svelte.dev/blog/cves-affecting-the-svelte-ecosystem",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-15T17:51:24+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "226ba6839e91300a",
-      "title": "Design and Implementation of Sprites",
-      "description": "Comments",
-      "url": "https://fly.io/blog/design-and-implementation/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-15T15:59:21+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "36abc8694e88bd50",
-      "title": "Denmark's struggle to break up with Silicon Valley",
-      "description": "Comments",
-      "url": "https://www.politico.eu/article/denmark-declared-war-against-big-tech-digital-sovereignty/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-15T17:55:59+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "69d3c183ae4724c9",
-      "title": "Ask HN: How can we solve the loneliness epidemic?",
-      "description": "Comments",
-      "url": "https://news.ycombinator.com/item?id=46635345",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-15T16:49:13+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "c7fc760c3b7bd22c",
-      "title": "CVEs affecting the Svelte ecosystem",
-      "description": "Comments",
-      "url": "https://svelte.dev/blog/cves-affecting-the-svelte-ecosystem",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-15T17:51:24+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "11adc4581d32226e",
@@ -10342,19 +10254,64 @@
       "keywords": []
     },
     {
-      "id": "d39144b057165daf",
-      "title": "LLM flexibility, Agent Mode improvements, and new agentic experiences in Android Studio Otter 3 Feature Drop",
-      "description": "Posted by Sandhya Mohan, Senior Product Manager and Trevor Johns, Developer Relations EngineerWe are excited to announce that Android Studio Otter 3 Feature Drop is now stable! This feature-packed release brings a huge update to your agentic workflows in Android Studio, and offers you more flexibility and control for how you use AI to help you build Android apps. Bring Your Own Model: You can now use any LLM to power the AI functionality in Android Studio.Agent Mode Enhancements: You can now mor",
-      "url": "https://android-developers.googleblog.com/2026/01/llm-flexibility-agent-mode-improvements.html",
-      "source": "Android Developers Blog",
-      "author": "Android Developers (noreply@blogger.com)",
-      "published": "2026-01-15T09:18:00-08:00",
+      "id": "727aede7e7719e59",
+      "title": "Show HN: isometric.nyc – giant isometric pixel art map of NYC",
+      "description": "Comments",
+      "url": "https://cannoneyed.com/isometric-nyc/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-22T16:52:35+00:00",
       "niche": "dev",
-      "score": 43,
-      "keywords": [
-        "developer",
-        "release"
-      ]
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "865460a7d326baed",
+      "title": "Qwen3-TTS Family Is Now Open Sourced: Voice Design, Clone, and Generation",
+      "description": "Comments",
+      "url": "https://qwen.ai/blog?id=qwen3tts-0115",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-22T13:51:25+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "2b4aac458c6f489c",
+      "title": "CSS Optical Illusions",
+      "description": "Comments",
+      "url": "https://alvaromontoro.com/blog/68091/css-optical-illusions",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-22T17:41:22+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "eac574f69cc1260c",
+      "title": "AnswerThis (YC F25) Is Hiring",
+      "description": "Comments",
+      "url": "https://www.ycombinator.com/companies/answerthis/jobs/r5VHmSC-ai-agent-orchestration",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-22T17:00:40+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "71460a576f0fcbeb",
+      "title": "Macron says €300B in EU savings sent to the US every year will be invested in EU",
+      "description": "Comments",
+      "url": "https://old.reddit.com/r/europe/comments/1qjtvtl/macron_says_300_billion_in_european_savings_flown/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-22T17:42:51+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
     },
     {
       "id": "00ccb947077ff190",
@@ -10475,8 +10432,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "React 19",
-        "performance"
+        "performance",
+        "React 19"
       ]
     },
     {
@@ -10534,9 +10491,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "developer",
         "release",
-        "API"
+        "API",
+        "developer"
       ]
     },
     {
@@ -10888,9 +10845,24 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "React 19",
         "release",
-        "API"
+        "API",
+        "React 19"
+      ]
+    },
+    {
+      "id": "d39144b057165daf",
+      "title": "LLM flexibility, Agent Mode improvements, and new agentic experiences in Android Studio Otter 3 Feature Drop",
+      "description": "Posted by Sandhya Mohan, Senior Product Manager and Trevor Johns, Developer Relations EngineerWe are excited to announce that Android Studio Otter 3 Feature Drop is now stable! This feature-packed release brings a huge update to your agentic workflows in Android Studio, and offers you more flexibility and control for how you use AI to help you build Android apps. Bring Your Own Model: You can now use any LLM to power the AI functionality in Android Studio.Agent Mode Enhancements: You can now mor",
+      "url": "https://android-developers.googleblog.com/2026/01/llm-flexibility-agent-mode-improvements.html",
+      "source": "Android Developers Blog",
+      "author": "Android Developers (noreply@blogger.com)",
+      "published": "2026-01-15T09:18:00-08:00",
+      "niche": "dev",
+      "score": 37,
+      "keywords": [
+        "release",
+        "developer"
       ]
     },
     {
@@ -10932,8 +10904,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -10947,23 +10919,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
-      ]
-    },
-    {
-      "id": "6bd2040a5299d18e",
-      "title": "Inside UC Berkeley's Cal Hacks – A Documentary About the World's Biggest Collegiate Hackathon",
-      "description": "What happens when you lock over 2,500 ambitious developers in a massive science museum for an entire weekend? We posted a documentary on the freeCodeCamp.org YouTube channel that takes you to the heart of Cal Hacks 2025, held at the iconic former Exp...",
-      "url": "https://www.freecodecamp.org/news/inside-cal-hacks-2025-36-hours-at-the-worlds-largest-collegiate-hackathon/",
-      "source": "freeCodeCamp",
-      "author": "Beau Carnes",
-      "published": "2026-01-15T15:55:31+00:00",
-      "niche": "dev",
-      "score": 34,
-      "keywords": [
-        "developer",
-        "code"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -10977,8 +10934,8 @@
       "niche": "dev",
       "score": 34,
       "keywords": [
-        "developer",
-        "development"
+        "development",
+        "developer"
       ]
     },
     {
@@ -11209,11 +11166,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "code",
+        "release",
         "API",
-        "performance",
+        "code",
         "framework",
-        "release"
+        "performance"
       ]
     },
     {
@@ -11329,18 +11286,6 @@
       "keywords": [
         "release"
       ]
-    },
-    {
-      "id": "69e9dce7a89e5479",
-      "title": "LLM Structured Outputs Handbook",
-      "description": "Comments",
-      "url": "https://nanonets.com/cookbooks/structured-llm-outputs",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-15T16:46:50+00:00",
-      "niche": "dev",
-      "score": 26,
-      "keywords": []
     },
     {
       "id": "bb2915097863bee1",
@@ -11600,8 +11545,8 @@
       "score": 20,
       "keywords": [
         "developer",
-        "code",
-        "performance"
+        "performance",
+        "code"
       ]
     },
     {
@@ -11615,8 +11560,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -11630,8 +11575,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "code",
-        "performance"
+        "performance",
+        "code"
       ]
     },
     {
@@ -11645,8 +11590,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -11688,8 +11633,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "code",
-        "API"
+        "API",
+        "code"
       ]
     },
     {
@@ -11928,18 +11873,6 @@
       "keywords": []
     },
     {
-      "id": "3ceef4d909801657",
-      "title": "What Is a PC Compatible?",
-      "description": "Comments",
-      "url": "https://codon.org.uk/~mjg59/blog/p/what-is-a-pc-compatible/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-15T17:48:50+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
       "id": "c9626612081af8db",
       "title": "Letting Claude Play Text Adventures",
       "description": "Comments",
@@ -12132,18 +12065,6 @@
       "keywords": []
     },
     {
-      "id": "b9d8f3180faf2b0f",
-      "title": "Smashing Animations Part 7: Recreating Toon Text With CSS And SVG",
-      "description": "In this article, pioneering author and web designer [Andy Clarke](https://stuffandnonsense.co.uk) shows his techniques for creating [Toon Text titles](https://stuffandnonsense.co.uk/toon-text/index.html) using modern CSS and SVG.",
-      "url": "https://smashingmagazine.com/2025/12/smashing-animations-part-7-recreating-toon-text-css-svg/",
-      "source": "Smashing Magazine",
-      "author": "hello@smashingmagazine.com (Andy Clarke)",
-      "published": "2025-12-17T10:00:00+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
       "id": "765be3c27e734bb8",
       "title": "Default styles for h1 elements are changing",
       "description": "Browsers are starting to roll out changes in default UA styles for nested section headings. This post describes the incoming changes, how to identify if it's an issue on your websites, and hints for conformant and better-structured pages.",
@@ -12262,18 +12183,6 @@
       "source": "Blog Technique Octo",
       "author": "Pierre Top",
       "published": "2025-12-29T15:41:10+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "a575bf9689c48cbf",
-      "title": "School of Product 2025 - L’approche produit n'existe pas, seules comptent les organisations produit.",
-      "description": "Pendant plus de dix ans, Romain Delassus a assisté — parfois en spectateur, souvent en acteur — à des transformations numériques profondes. Et pourtant, malgré les compétences et la motivation du top management… beaucoup échouent encore à produire des services numériques réellement utiles, robustes et durables.",
-      "url": "https://blog.octo.com/school-of-product-2025-l'approche-produit-n'existe-pas-seules-comptent-les-organisations-produit.",
-      "source": "Blog Technique Octo",
-      "author": "Romain Garnier",
-      "published": "2025-12-24T11:01:26+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
