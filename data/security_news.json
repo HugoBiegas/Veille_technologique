@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-22T09:38:18.928504+00:00",
-  "total_articles": 422,
+  "last_updated": "2026-01-22T13:02:01.715792+00:00",
+  "total_articles": 429,
   "articles": [
     {
       "id": "11fa80578978afc2",
@@ -233,6 +233,24 @@
         "patch",
         "security",
         "attack",
+        "exploit"
+      ]
+    },
+    {
+      "id": "e608faae5a3ce9de",
+      "title": "SmarterMail Auth Bypass Exploited in the Wild Two Days After Patch Release",
+      "description": "A new security flaw in SmarterTools SmarterMail email software has come under active exploitation in the wild, two days after the release of a patch. The vulnerability, which currently does not have a CVE identifier, is tracked by watchTowr Labs as WT-2026-0001. It was patched by SmarterTools on January 15, 2026, with Build 9511, following responsible disclosure by the exposure management",
+      "url": "https://thehackernews.com/2026/01/smartermail-auth-bypass-exploited-in.html",
+      "source": "The Hacker News",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-01-22T15:16:00+05:30",
+      "niche": "security",
+      "score": 100,
+      "keywords": [
+        "security flaw",
+        "patch",
+        "vulnerability",
+        "disclosure",
         "exploit"
       ]
     },
@@ -632,21 +650,18 @@
       ]
     },
     {
-      "id": "0f7f57200a8ae072",
-      "title": "AVEVA Process Optimization",
-      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could enable an attacker to execute remote code, perform SQL injection, escalate privileges, or access sensitive information. The following versions of AVEVA Process Optimization are affected: Process Optimization (CVE-2025-61937, CVE-2025-64691, CVE-2025-61943, CVE-2025-65118, CVE-2025-64729, CVE-2025-65117, CVE-2025-64769) CVSS Vendor Equipment Vulnerabilities v3 10 AVEVA AVEVA Process Optimization Improper Control of Generatio",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-015-01",
-      "source": "CISA Cybersecurity Advisories",
-      "author": "CISA",
-      "published": "2026-01-15T12:00:00+00:00",
+      "id": "d8d886ed15510263",
+      "title": "Hackers exploit 29 zero-days on second day of Pwn2Own Automotive",
+      "description": "Hackers collect $439,250 after exploiting 29 zero-day vulnerabilities on the second day of Pwn2Own Automotive 2026. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-29-zero-day-vulnerabilities-on-second-day-of-pwn2own-automotive/",
+      "source": "Bleeping Computer",
+      "author": "Sergiu Gatlan",
+      "published": "2026-01-22T07:30:30-05:00",
       "niche": "security",
-      "score": 87,
+      "score": 88,
       "keywords": [
-        "CVE-",
-        "SQL injection",
         "exploit",
-        "attack",
-        "injection"
+        "zero-day"
       ]
     },
     {
@@ -731,6 +746,24 @@
         "injection",
         "security",
         "attack"
+      ]
+    },
+    {
+      "id": "fcdeecb1e2fb3e39",
+      "title": "Hackers breach Fortinet FortiGate devices, steal firewall configs",
+      "description": "Fortinet FortiGate devices are being targeted in automated attacks that create rogue accounts and steal firewall configuration data, according to cybersecurity company Arctic Wolf. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-fortinet-fortigate-devices-steal-firewall-configs/",
+      "source": "Bleeping Computer",
+      "author": "Sergiu Gatlan",
+      "published": "2026-01-22T06:49:12-05:00",
+      "niche": "security",
+      "score": 86,
+      "keywords": [
+        "attack",
+        "breach",
+        "cybersecurity",
+        "firewall",
+        "security"
       ]
     },
     {
@@ -902,6 +935,24 @@
         "patch",
         "cybersecurity",
         "exploit"
+      ]
+    },
+    {
+      "id": "198c0d67fa090a81",
+      "title": "Actively exploited Cisco UC bug requires immediate, version‑specific patching",
+      "description": "Cisco has released patches for a critical remote code execution vulnerability in its unified communications products that attackers are actively exploiting. The US Cybersecurity and Infrastructure Security Agency has added the flaw to its Known Exploited Vulnerabilities catalog, confirming the exploitation. Cisco disclosed CVE-2026-20045 along with patches for Unified Communications Manager, Unity Connection, and Webex Calling Dedicated Instance. The company assigned the vulnerability a “Critica",
+      "url": "https://www.csoonline.com/article/4120613/actively-exploited-cisco-uc-bug-requires-immediate-version%e2%80%91specific-patching.html",
+      "source": "CSO Online",
+      "author": "Inconnu",
+      "published": "2026-01-22T12:10:58+00:00",
+      "niche": "security",
+      "score": 82,
+      "keywords": [
+        "attack",
+        "remote code execution",
+        "patch",
+        "CVE-",
+        "cybersecurity"
       ]
     },
     {
@@ -1082,24 +1133,6 @@
       ]
     },
     {
-      "id": "4790658284a24aed",
-      "title": "Researchers warn of long‑running FortiSIEM root exploit vector as new CVE emerges",
-      "description": "A critical command injection issue in Fortinet FortiSIEM has been disclosed along with public exploit code, and researchers claim attackers could have been remotely achieving unauthenticated root access to the SIEM platform for nearly three years. The flaw belongs to a class of weakness in FortiSIEM, going back to 2023 and 2024. Tracked as CVE-2025-64155, the vulnerability affects the phMonitor service, an internal FortiSIEM component that runs elevated privileges and plays a central role in sys",
-      "url": "https://www.csoonline.com/article/4117316/researchers-warn-of-long%e2%80%91running-fortisiem-root-exploit-vector-as-new-cve-emerges.html",
-      "source": "CSO Online",
-      "author": "Inconnu",
-      "published": "2026-01-15T11:51:39+00:00",
-      "niche": "security",
-      "score": 78,
-      "keywords": [
-        "vulnerability",
-        "exploit",
-        "attack",
-        "CVE-",
-        "injection"
-      ]
-    },
-    {
       "id": "6af842d5f92c3394",
       "title": "Chainlit Vulnerabilities May Leak Sensitive Information",
       "description": "The two bugs, an arbitrary file read and an SSRF bug, can be exploited without user interaction to leak credentials, databases, and other data. The post Chainlit Vulnerabilities May Leak Sensitive Information appeared first on SecurityWeek.",
@@ -1131,40 +1164,6 @@
         "injection",
         "CVE-",
         "security"
-      ]
-    },
-    {
-      "id": "95987ac44810751c",
-      "title": "New ‘Reprompt’ Attack Silently Siphons Microsoft Copilot Data",
-      "description": "The attack bypassed Copilot’s data leak protections and allowed for session exfiltration even after the Copilot chat was closed. The post New &#8216;Reprompt&#8217; Attack Silently Siphons Microsoft Copilot Data appeared first on SecurityWeek.",
-      "url": "https://www.securityweek.com/new-reprompt-attack-silently-siphons-microsoft-copilot-data/",
-      "source": "SecurityWeek",
-      "author": "Ionut Arghire",
-      "published": "2026-01-15T12:09:29+00:00",
-      "niche": "security",
-      "score": 76,
-      "keywords": [
-        "security",
-        "protection",
-        "attack"
-      ]
-    },
-    {
-      "id": "bc2ac9ecaa6d4a9f",
-      "title": "Palo Alto Networks addressed a GlobalProtect flaw, PoC exists",
-      "description": "Palo Alto Networks addressed a flaw impacting GlobalProtect Gateway and Portal, for which a proof-of-concept (PoC) exploit exists. Palo Alto Networks addressed a high-severity vulnerability, tracked as CVE-2026-0227 (CVSS score: 7.7), affecting GlobalProtect Gateway and Portal, for which a proof-of-concept (PoC) exploit exists. GlobalProtect is Palo Alto Networks’ VPN and secure remote-access solution. It gives users a [&#8230;]",
-      "url": "https://securityaffairs.com/186948/hacking/palo-alto-networks-addressed-a-globalprotect-flaw-poc-exists.html",
-      "source": "Security Affairs",
-      "author": "Pierluigi Paganini",
-      "published": "2026-01-15T11:26:51+00:00",
-      "niche": "security",
-      "score": 76,
-      "keywords": [
-        "vulnerability",
-        "secure",
-        "exploit",
-        "CVE-",
-        "PoC"
       ]
     },
     {
@@ -1298,11 +1297,11 @@
       "niche": "security",
       "score": 75,
       "keywords": [
-        "zero-day",
+        "security flaw",
         "patch",
         "exploit",
-        "security flaw",
-        "security"
+        "security",
+        "zero-day"
       ]
     },
     {
@@ -1448,30 +1447,17 @@
       ]
     },
     {
-      "id": "06d52cf2fc6fb00d",
-      "title": "4 Outdated Habits Destroying Your SOC's MTTR in 2026",
-      "description": "It’s 2026, yet many SOCs are still operating the way they did years ago, using tools and processes designed for a very different threat landscape. Given the growth in volumes and complexity of cyber threats, outdated practices no longer fully support analysts’ needs, staggering investigations and incident response. Below are four limiting habits that may be preventing your SOC from evolving at",
-      "url": "https://thehackernews.com/2026/01/4-outdated-habits-destroying-your-socs.html",
+      "id": "16bb01a949b27d35",
+      "title": "Filling the Most Common Gaps in Google Workspace Security",
+      "description": "Security teams at agile, fast-growing companies often have the same mandate: secure the business without slowing it down. Most teams inherit a tech stack optimized for breakneck growth, not resilience. In these environments, the security team is the helpdesk, the compliance expert, and the incident response team all rolled into one. Securing the cloud office in this scenario is all about",
+      "url": "https://thehackernews.com/2026/01/filling-most-common-gaps-in-google.html",
       "source": "The Hacker News",
       "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-01-15T16:30:00+05:30",
+      "published": "2026-01-22T17:00:00+05:30",
       "niche": "security",
-      "score": 72,
+      "score": 73,
       "keywords": [
-        "threat"
-      ]
-    },
-    {
-      "id": "e274d97fe0d8ac46",
-      "title": "Model Security Is the Wrong Frame – The Real Risk Is Workflow Security",
-      "description": "As AI copilots and assistants become embedded in daily work, security teams are still focused on protecting the models themselves. But recent incidents suggest the bigger risk lies elsewhere: in the workflows that surround those models. Two Chrome extensions posing as AI helpers were recently caught stealing ChatGPT and DeepSeek chat data from over 900,000 users. Separately, researchers",
-      "url": "https://thehackernews.com/2026/01/model-security-is-wrong-frame-real-risk.html",
-      "source": "The Hacker News",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-01-15T17:25:00+05:30",
-      "niche": "security",
-      "score": 72,
-      "keywords": [
+        "secure",
         "security"
       ]
     },
@@ -1898,6 +1884,18 @@
       ]
     },
     {
+      "id": "e412acf2148437ff",
+      "title": "Malicious PyPI Package Impersonates SymPy, Deploys XMRig Miner on Linux Hosts",
+      "description": "A new malicious package discovered in the Python Package Index (PyPI) has been found to impersonate a popular library for symbolic mathematics to deploy malicious payloads, including a cryptocurrency miner, on Linux hosts. The package, named sympy-dev, mimics SymPy, replicating the latter's project description verbatim in an attempt to deceive unsuspecting users into thinking that they are",
+      "url": "https://thehackernews.com/2026/01/malicious-pypi-package-impersonates.html",
+      "source": "The Hacker News",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-01-22T15:34:00+05:30",
+      "niche": "security",
+      "score": 68,
+      "keywords": []
+    },
+    {
       "id": "23a1b90105d28c64",
       "title": "Envmap - Fini les fichiers .env qui traînent et finissent sur GitHub",
       "description": "Devinette du soir : Qu’est-ce qui est pire qu'un secret que vous avez oublié de cacher ? Réponse : Des dizaines, des millions de secrets qui traînent sur GitHub parce que quelqu'un a eu la flemme de configurer un vrai gestionnaire de variables d'environnement ! Hé oui, les amis ! On a tous fait cette boulette au moins une fois (ou alors vous mentez, ou vous êtes un robot). On crée un petit fichier .env, on oublie de le rajouter au .gitignore, et paf, vos clés AWS se retrouvent à poil. Selon GitH",
@@ -1909,21 +1907,6 @@
       "score": 67,
       "keywords": [
         "RCE"
-      ]
-    },
-    {
-      "id": "b472ff8888d090b6",
-      "title": "Central Maine Healthcare Data Breach Impacts 145,000 Individuals",
-      "description": "Hackers stole patients’ personal, treatment, and health insurance information from the organization’s IT systems. The post Central Maine Healthcare Data Breach Impacts 145,000 Individuals appeared first on SecurityWeek.",
-      "url": "https://www.securityweek.com/central-maine-healthcare-data-breach-impacts-145000-individuals/",
-      "source": "SecurityWeek",
-      "author": "Ionut Arghire",
-      "published": "2026-01-15T10:36:46+00:00",
-      "niche": "security",
-      "score": 66,
-      "keywords": [
-        "security",
-        "breach"
       ]
     },
     {
@@ -2062,6 +2045,21 @@
       ]
     },
     {
+      "id": "a38b8f1edabb4620",
+      "title": "Furl Raises $10 Million for Autonomous Vulnerability Remediation",
+      "description": "The startup will use the new funding to accelerate product development and deepen remediation capabilities. The post Furl Raises $10 Million for Autonomous Vulnerability Remediation appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/furl-raises-10-million-for-autonomous-vulnerability-remediation/",
+      "source": "SecurityWeek",
+      "author": "Ionut Arghire",
+      "published": "2026-01-22T11:07:34+00:00",
+      "niche": "security",
+      "score": 66,
+      "keywords": [
+        "vulnerability",
+        "security"
+      ]
+    },
+    {
       "id": "de274364b7073ce7",
       "title": "Critical TP-Link VIGI camera flaw allowed remote takeover of surveillance systems",
       "description": "TP-Link fixed a critical flaw that exposed over 32 VIGI C and VIGI InSight camera models to remote hacking, with over 2,500 internet-exposed devices identified. TP-Link fixed a high-severity flaw, tracked as CVE-2026-0629 (CVSS score 8.7), affecting over 32 VIGI C and VIGI InSight camera models. The vulnerability lets attackers on a local network bypass [&#8230;]",
@@ -2076,18 +2074,6 @@
         "CVE-",
         "attack"
       ]
-    },
-    {
-      "id": "9e7cdc222d917aba",
-      "title": "FTC bans GM from selling drivers' location data for five years",
-      "description": "The FTC has finalized an order with General Motors, settling charges that it collected and sold the location and driving data of millions of drivers without consent. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/ftc-bans-general-motors-from-selling-drivers-location-data-for-five-years/",
-      "source": "Bleeping Computer",
-      "author": "Sergiu Gatlan",
-      "published": "2026-01-15T04:59:30-05:00",
-      "niche": "security",
-      "score": 64,
-      "keywords": []
     },
     {
       "id": "33dd1948f8c9e669",
@@ -2360,10 +2346,10 @@
       "niche": "security",
       "score": 61,
       "keywords": [
-        "security",
         "secure",
-        "OWASP",
-        "RCE"
+        "RCE",
+        "security",
+        "OWASP"
       ]
     },
     {
@@ -2468,6 +2454,22 @@
       "niche": "security",
       "score": 58,
       "keywords": []
+    },
+    {
+      "id": "e639ffc6ebe35f1f",
+      "title": "New Wave of Attacks Targeting FortiGate Firewalls",
+      "description": "Hackers bypass the FortiCloud SSO login authentication to create new accounts and change device configurations. The post New Wave of Attacks Targeting FortiGate Firewalls appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/new-wave-of-attacks-targeting-fortigate-firewalls/",
+      "source": "SecurityWeek",
+      "author": "Ionut Arghire",
+      "published": "2026-01-22T12:10:02+00:00",
+      "niche": "security",
+      "score": 58,
+      "keywords": [
+        "attack",
+        "firewall",
+        "security"
+      ]
     },
     {
       "id": "e5b3d5aa0eba169b",
@@ -2608,6 +2610,24 @@
       "keywords": []
     },
     {
+      "id": "0f7f57200a8ae072",
+      "title": "AVEVA Process Optimization",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could enable an attacker to execute remote code, perform SQL injection, escalate privileges, or access sensitive information. The following versions of AVEVA Process Optimization are affected: Process Optimization (CVE-2025-61937, CVE-2025-64691, CVE-2025-61943, CVE-2025-65118, CVE-2025-64729, CVE-2025-65117, CVE-2025-64769) CVSS Vendor Equipment Vulnerabilities v3 10 AVEVA AVEVA Process Optimization Improper Control of Generatio",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-015-01",
+      "source": "CISA Cybersecurity Advisories",
+      "author": "CISA",
+      "published": "2026-01-15T12:00:00+00:00",
+      "niche": "security",
+      "score": 57,
+      "keywords": [
+        "injection",
+        "attack",
+        "CVE-",
+        "SQL injection",
+        "exploit"
+      ]
+    },
+    {
       "id": "ee26d0f5e267a117",
       "title": "A 0-click exploit chain for the Pixel 9 Part 2: Cracking the Sandbox with a Big Wave",
       "description": "With the advent of a potential Dolby Unified Decoder RCE exploit, it seemed prudent to see what kind of Linux kernel drivers might be accessible from the resulting userland context, the mediacodec context. As per the AOSP documentation, the mediacodec SELinux context is intended to be a constrained (a.k.a sandboxed) context where non-secure software decoders are utilized. Nevertheless, using my DriverCartographer tool, I discovered an interesting device driver, /dev/bigwave that was accessible f",
@@ -2618,8 +2638,8 @@
       "niche": "security",
       "score": 57,
       "keywords": [
-        "exploit",
         "secure",
+        "exploit",
         "RCE"
       ]
     },
@@ -2853,6 +2873,21 @@
       ]
     },
     {
+      "id": "2563886fea09e91a",
+      "title": "Hacker legen Websites von Conceptnet-Kunden lahm",
+      "description": "Der Regensburger IT-Dienstleister Conceptnet wurde Opfer einer Ransomware-Attacke.fadfebrian – shutterstock.com Der Regensburger IT-Dienstleister Conceptnet informiert derzeit auf seiner Internetseite über eine technische Störung, die durch einen Ransomware-Angriff verursacht wurde. Berichten zufolge haben sich die Täter um den 13. Januar 2026 Zugriff auf die IT-Infrastruktur des Unternehmens verschafft. „Dabei wurden zentrale Systeme – darunter Web- und E-Mail-Server – verschlüsselt“, erklärt d",
+      "url": "https://www.csoonline.com/article/4120644/hacker-legen-websites-von-conceptnet-kunden-lahm.html",
+      "source": "CSO Online",
+      "author": "Inconnu",
+      "published": "2026-01-22T12:56:05+00:00",
+      "niche": "security",
+      "score": 55,
+      "keywords": [
+        "ransomware",
+        "attack"
+      ]
+    },
+    {
       "id": "00893fce52eed9b3",
       "title": "isVerified Emerges From Stealth With Voice Deepfake Detection Apps",
       "description": "isVerified provides Android and iOS mobile applications designed to protect enterprise communications. The post isVerified Emerges From Stealth With Voice Deepfake Detection Apps appeared first on SecurityWeek.",
@@ -3023,6 +3058,36 @@
       ]
     },
     {
+      "id": "971c1f3b52457f50",
+      "title": "AiStrike Raises $7 Million in Seed Funding",
+      "description": "The startup’s AI-native platform unifies exposure analysis, threat intelligence, investigation, and response. The post AiStrike Raises $7 Million in Seed Funding appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/aistrike-raises-7-million-in-seed-funding/",
+      "source": "SecurityWeek",
+      "author": "Ionut Arghire",
+      "published": "2026-01-22T12:58:03+00:00",
+      "niche": "security",
+      "score": 54,
+      "keywords": [
+        "threat",
+        "security"
+      ]
+    },
+    {
+      "id": "169688fd32fa454a",
+      "title": "Atlassian, GitLab, Zoom Release Security Patches",
+      "description": "Fixes were rolled out for over two dozen vulnerabilities, including critical- and high-severity bugs. The post Atlassian, GitLab, Zoom Release Security Patches appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/atlassian-gitlab-zoom-release-security-patches/",
+      "source": "SecurityWeek",
+      "author": "Ionut Arghire",
+      "published": "2026-01-22T09:39:54+00:00",
+      "niche": "security",
+      "score": 54,
+      "keywords": [
+        "patch",
+        "security"
+      ]
+    },
+    {
       "id": "3c04de9d3c7e6b50",
       "title": "Siemens TeleControl Server Basic",
       "description": "View CSAF Summary TeleControl Server Basic before V3.1.2.4 contains a local privilege escalation vulnerability that could allow an attacker to run arbitrary code with elevated privileges. Siemens has released a new version for TeleControl Server Basic and recommends to update to the latest version. The following versions of Siemens TeleControl Server Basic are affected: TeleControl Server Basic (CVE-2025-40942) CVSS Vendor Equipment Vulnerabilities v3 8.8 Siemens Siemens TeleControl Server Basic",
@@ -3034,23 +3099,9 @@
       "score": 54,
       "keywords": [
         "attack",
+        "CVE-",
         "privilege escalation",
-        "vulnerability",
-        "CVE-"
-      ]
-    },
-    {
-      "id": "23ed0264667c515c",
-      "title": "Faites de 2026 l’année où vos données travaillent enfin pour vous (et plus contre vous)",
-      "description": "-- Article en partenariat avec Incogni -- On parle souvent de “bonnes résolutions” pour le Nouvel An : se remettre au sport, arrêter de scroller la nuit, cuisiner un peu plus… mais jamais d'arrêter de se faire siphonner sa vie par des boîtes dont on n’a jamais entendu parler. 2026 peut être l’année où votre identité numérique arrête de servir de carburant à des data brokers, pour redevenir ce qu’elle aurait toujours dû être : à vous, et à vous seul. Parce qu'il faut savoir être égoiste parfois.",
-      "url": "https://korben.info/vos-donnees-travaillent-enfin-pour-vous.html",
-      "source": "Korben",
-      "author": "Korben",
-      "published": "2026-01-15T12:13:34+01:00",
-      "niche": "security",
-      "score": 52,
-      "keywords": [
-        "RCE"
+        "vulnerability"
       ]
     },
     {
@@ -3290,6 +3341,20 @@
       "source": "Korben",
       "author": "Korben",
       "published": "2026-01-21T22:08:22+01:00",
+      "niche": "security",
+      "score": 52,
+      "keywords": [
+        "RCE"
+      ]
+    },
+    {
+      "id": "4fe9807a849b9bb9",
+      "title": "LockTransfer et LockFiles – La sécurité des fichiers en entreprise, version française",
+      "description": "-- Article en partenariat avec LockSelf -- Il faut bien se rendre à l'évidence qu'une bonne partie des fuites de données en entreprise passent par des fichiers mal sécurisés. Par exemple ce fameux document Excel avec les salaires qui traîne sur le serveur depuis 2019, le ZIP envoyé via WeTransfer \"parce que c'est plus simple\", ou encore le dossier client partagé sur Google Drive avec le lien accessible à quiconque a l'URL.",
+      "url": "https://korben.info/lockself-locktransfer-lockfiles-securite-fichiers-entreprise.html",
+      "source": "Korben",
+      "author": "Korben",
+      "published": "2026-01-22T12:10:48+01:00",
       "niche": "security",
       "score": 52,
       "keywords": [
@@ -3559,6 +3624,20 @@
       ]
     },
     {
+      "id": "76bb70826a34d4be",
+      "title": "Claroty Raises $150 Million in Series F Funding",
+      "description": "Claroty has raised a total of roughly $900 million and its valuation has reportedly reached $3 billion. The post Claroty Raises $150 Million in Series F Funding appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/claroty-raises-150-million-in-series-f-funding/",
+      "source": "SecurityWeek",
+      "author": "Eduard Kovacs",
+      "published": "2026-01-22T11:58:28+00:00",
+      "niche": "security",
+      "score": 50,
+      "keywords": [
+        "security"
+      ]
+    },
+    {
       "id": "559b7874623819f6",
       "title": "GISEC GLOBAL 2026 – The Middle East & Africa’s Largest Cybersecurity Event",
       "description": "",
@@ -3648,11 +3727,11 @@
       "niche": "security",
       "score": 49,
       "keywords": [
-        "threat",
         "security advisory",
+        "vulnerability",
+        "threat",
         "exploit",
-        "security",
-        "vulnerability"
+        "security"
       ]
     },
     {
@@ -3756,8 +3835,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "exploit",
-        "attack"
+        "attack",
+        "exploit"
       ]
     },
     {
@@ -3771,8 +3850,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "exploit",
-        "attack"
+        "attack",
+        "exploit"
       ]
     },
     {
@@ -3801,8 +3880,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "exploit",
-        "threat"
+        "threat",
+        "exploit"
       ]
     },
     {
@@ -3816,8 +3895,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "exploit",
-        "attack"
+        "attack",
+        "exploit"
       ]
     },
     {
@@ -3831,8 +3910,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "security",
-        "CVE-"
+        "CVE-",
+        "security"
       ]
     },
     {
@@ -3848,30 +3927,6 @@
       "keywords": [
         "RCE"
       ]
-    },
-    {
-      "id": "0cdcba079436eb56",
-      "title": "Trio of Critical Bugs Spotted in Delta Industrial PLCs",
-      "description": "Experts disagree on whether the vulnerabilities in a programmable logic controller from Delta are a five-alarm fire or not much to worry over.",
-      "url": "https://www.darkreading.com/ics-ot-security/critical-bugs-delta-industrial-plcs",
-      "source": "Dark Reading",
-      "author": "Nate Nelson, Contributing Writer",
-      "published": "2026-01-15T11:00:00+00:00",
-      "niche": "security",
-      "score": 46,
-      "keywords": []
-    },
-    {
-      "id": "7305f6c9cefca683",
-      "title": "Battling Cryptojacking, Botnets, and IABs &#x5b;Guest Diary&#x5d;, (Thu, Jan 15th)",
-      "description": "&#x5b;This is a Guest Diary by Matthew Presnal, an ISC intern as part of the SANS.edu BACS program&#x5d;&#xd;",
-      "url": "https://isc.sans.edu/diary/rss/32632",
-      "source": "SANS Internet Storm Center",
-      "author": "Inconnu",
-      "published": "2026-01-15T10:49:10+00:00",
-      "niche": "security",
-      "score": 46,
-      "keywords": []
     },
     {
       "id": "0f4b74d06981cb8b",
@@ -4000,6 +4055,21 @@
       "keywords": [
         "protection",
         "security",
+        "firewall"
+      ]
+    },
+    {
+      "id": "3f74f4b7882ff32d",
+      "title": "Arctic Wolf detects surge in automated Fortinet FortiGate firewall configuration attacks",
+      "description": "Arctic Wolf warned of a new wave of automated attacks making unauthorized firewall configuration changes on Fortinet FortiGate devices. Arctic Wolf researchers reported a new automated attack cluster observed since January 15, 2026, targeting FortiGate devices. Attackers created generic accounts for persistence, enabled VPN access, and exfiltrated firewall configurations. The activity resembles a December 2025 [&#8230;]",
+      "url": "https://securityaffairs.com/187194/hacking/arctic-wolf-detects-surge-in-automated-fortinet-fortigate-firewall-configuration-attacks.html",
+      "source": "Security Affairs",
+      "author": "Pierluigi Paganini",
+      "published": "2026-01-22T11:00:23+00:00",
+      "niche": "security",
+      "score": 46,
+      "keywords": [
+        "attack",
         "firewall"
       ]
     },
@@ -4186,6 +4256,20 @@
       ]
     },
     {
+      "id": "94c20b551cea1ccc",
+      "title": "VoidLink malware was almost entirely made by AI",
+      "description": "VoidLink, the high-impact Linux malware framework disclosed last week, is back under scrutiny for claims that the bulk of its development was done by artificial intelligence (AI). According to the follow-up analysis from Check Point Research (CPR), which first disclosed VoidLink, the malware was not merely assisted by AI tooling but was largely planned, structured, and written through AI-driven processes. “CPR believes a new era of AI-generated malware has begun,” the researchers said in a blog ",
+      "url": "https://www.csoonline.com/article/4120607/voidlink-malware-was-almost-entirely-made-by-ai.html",
+      "source": "CSO Online",
+      "author": "Inconnu",
+      "published": "2026-01-22T11:44:41+00:00",
+      "niche": "security",
+      "score": 45,
+      "keywords": [
+        "malware"
+      ]
+    },
+    {
       "id": "b81dee4c090ee2d1",
       "title": "ISC Stormcast For Friday, January 16th, 2026 https://isc.sans.edu/podcastdetail/9770, (Fri, Jan 16th)",
       "description": "",
@@ -4298,8 +4382,8 @@
       "niche": "security",
       "score": 44,
       "keywords": [
-        "security",
-        "CVE-"
+        "CVE-",
+        "security"
       ]
     },
     {
@@ -4439,47 +4523,11 @@
       "niche": "security",
       "score": 43,
       "keywords": [
-        "security",
         "secure",
-        "OWASP",
-        "RCE"
+        "RCE",
+        "security",
+        "OWASP"
       ]
-    },
-    {
-      "id": "c33d0231670cfc46",
-      "title": "Interrail-Kundendatenbank gehackt",
-      "description": "srcset=\"https://b2b-contenthub.com/wp-content/uploads/2026/01/shutterstock_2121877784.jpg?quality=50&strip=all 2768w, https://b2b-contenthub.com/wp-content/uploads/2026/01/shutterstock_2121877784.jpg?resize=300%2C168&quality=50&strip=all 300w, https://b2b-contenthub.com/wp-content/uploads/2026/01/shutterstock_2121877784.jpg?resize=768%2C432&quality=50&strip=all 768w, https://b2b-contenthub.com/wp-content/uploads/2026/01/shutterstock_2121877784.jpg?resize=1024%2C576&quality=50&strip=all 1024w, ht",
-      "url": "https://www.csoonline.com/article/4117313/interrail-kundendatenbank-gehackt.html",
-      "source": "CSO Online",
-      "author": "Inconnu",
-      "published": "2026-01-15T11:57:14+00:00",
-      "niche": "security",
-      "score": 42,
-      "keywords": []
-    },
-    {
-      "id": "90883275468c80ee",
-      "title": "La France remet ça et ordonne aux VPNs de bloquer encore plus de sites pirates",
-      "description": "Bon, je vous en parlais déjà en mai dernier , la justice française avait décidé de s'attaquer aux VPN pour lutter contre le piratage des matchs de foot. Et bien devinez quoi ? Ils ont remis le couvert, et cette fois c'est encore plus costaud ! Le 18 décembre dernier, le Tribunal judiciaire de Paris a rendu une nouvelle ordonnance à la demande de la Ligue de Football Professionnel et de sa branche commerciale. Du coup, les gros du secteur des tunnels chiffrés vont devoir obtempérer : CyberGhost, ",
-      "url": "https://korben.info/vpn-blocage-sites-pirates-france-justice-2025.html",
-      "source": "Korben",
-      "author": "Korben",
-      "published": "2026-01-15T12:12:44+01:00",
-      "niche": "security",
-      "score": 42,
-      "keywords": []
-    },
-    {
-      "id": "6fe160b2ad1b18ad",
-      "title": "L'IA détruit-elle nos institutions démocratiques ?",
-      "description": "L'IA va-t-elle vraiment détruire nos institutions ? Deux chercheurs de Boston University, Woodrow Hartzog et Jessica Silbey, viennent de publier un papier académique qui affirme que oui, et leur thèse tient en trois mécanismes : l'intelligence artificielle dégrade l'expertise humaine elle court-circuite les processus de décision et elle isole les individus. Autant dire que ça envoie du lourd ! Mais est-ce vraiment le cas ? Je vous propose de regarder un peu ce qui se passe chez nous, en France e",
-      "url": "https://korben.info/ia-detruit-institutions-democratie-europe.html",
-      "source": "Korben",
-      "author": "Korben",
-      "published": "2026-01-15T11:28:09+01:00",
-      "niche": "security",
-      "score": 42,
-      "keywords": []
     },
     {
       "id": "3bdaf44924813f97",
@@ -4986,38 +5034,6 @@
       "keywords": []
     },
     {
-      "id": "c07ac664cb78913e",
-      "title": "Siemens RUGGEDCOM ROS",
-      "description": "View CSAF Summary Ruggedcom ROS devices contain a temporary denial of service vulnerability that could allow an attacker to crash and restart the device. Siemens has released new versions for the affected products and recommends to update to the latest versions. The following versions of Siemens RUGGEDCOM ROS are affected: RUGGEDCOM RMC8388 V5.X (CVE-2025-40935) RUGGEDCOM RS416Pv2 V5.X (CVE-2025-40935) RUGGEDCOM RS416v2 V5.X (CVE-2025-40935) RUGGEDCOM RS900 (32M) V5.X (CVE-2025-40935) RUGGEDCOM ",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-015-05",
-      "source": "CISA Cybersecurity Advisories",
-      "author": "CISA",
-      "published": "2026-01-14T12:00:00+00:00",
-      "niche": "security",
-      "score": 42,
-      "keywords": [
-        "attack",
-        "vulnerability",
-        "CVE-"
-      ]
-    },
-    {
-      "id": "de39f9e791a6a5b6",
-      "title": "GSoC 2025 Recap",
-      "description": "OWASP at Google Summer of Code 2025 Celebrating real impact, strong mentorship, and a growing community The Google Summer of Code (GSoC) 2025 program has wrapped, and OWASP’s participation once again delivered meaningful improvements across the open-source security ecosystem. This year, 15 contributors worked across multiple OWASP projects, supported by 26 mentors. Of the 15 projects evaluated, 10 reached successful completion, three are still working on the final deliveries with extended deadli",
-      "url": "http://owasp.org/blog/2025/10/01/GSoCRecap.html",
-      "source": "OWASP News",
-      "author": "Fabio Cerullo & Starr Brown",
-      "published": "2025-10-01T07:00:00+00:00",
-      "niche": "security",
-      "score": 42,
-      "keywords": [
-        "security",
-        "OWASP",
-        "RCE"
-      ]
-    },
-    {
       "id": "d381a653a469a8f4",
       "title": "Transmission de données à un réseau social à des fins publicitaires : la CNIL prononce une sanction de 3,5 millions d’euros",
       "description": "Le 30 décembre 2025, la CNIL a infligé une sanction de 3,5&nbsp;millions d’euros à une société pour avoir transmis les données de membres de son programme de fidélité à un réseau social à des fins de ciblage publicitaire, sans consentement valable.",
@@ -5037,6 +5053,86 @@
       "source": "Korben",
       "author": "Korben",
       "published": "2026-01-22T10:00:00+01:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "c07ac664cb78913e",
+      "title": "Siemens RUGGEDCOM ROS",
+      "description": "View CSAF Summary Ruggedcom ROS devices contain a temporary denial of service vulnerability that could allow an attacker to crash and restart the device. Siemens has released new versions for the affected products and recommends to update to the latest versions. The following versions of Siemens RUGGEDCOM ROS are affected: RUGGEDCOM RMC8388 V5.X (CVE-2025-40935) RUGGEDCOM RS416Pv2 V5.X (CVE-2025-40935) RUGGEDCOM RS416v2 V5.X (CVE-2025-40935) RUGGEDCOM RS900 (32M) V5.X (CVE-2025-40935) RUGGEDCOM ",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-015-05",
+      "source": "CISA Cybersecurity Advisories",
+      "author": "CISA",
+      "published": "2026-01-14T12:00:00+00:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": [
+        "attack",
+        "CVE-",
+        "vulnerability"
+      ]
+    },
+    {
+      "id": "de39f9e791a6a5b6",
+      "title": "GSoC 2025 Recap",
+      "description": "OWASP at Google Summer of Code 2025 Celebrating real impact, strong mentorship, and a growing community The Google Summer of Code (GSoC) 2025 program has wrapped, and OWASP’s participation once again delivered meaningful improvements across the open-source security ecosystem. This year, 15 contributors worked across multiple OWASP projects, supported by 26 mentors. Of the 15 projects evaluated, 10 reached successful completion, three are still working on the final deliveries with extended deadli",
+      "url": "http://owasp.org/blog/2025/10/01/GSoCRecap.html",
+      "source": "OWASP News",
+      "author": "Fabio Cerullo & Starr Brown",
+      "published": "2025-10-01T07:00:00+00:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": [
+        "RCE",
+        "security",
+        "OWASP"
+      ]
+    },
+    {
+      "id": "ae0e0e37c48abb44",
+      "title": "Bookokrat - Le lecteur EPUB pour les accros du terminal",
+      "description": "Vous vous souvenez de l'époque où rien que de lire un texte sur un écran noir suffisait à notre bonheur ? C'était un temps où chaque pixel comptait et où la souris était encore en option... Alalala, hé bien, pour ceux qui ont gardé cette âme pure ou qui passent la plupart de leur temps dans un shell, je vous ai déniché Bookokrat , un lecteur EPUB conçu EXCLUSIVEMENT pour votre terminal.",
+      "url": "https://korben.info/bookokrat-le-lecteur-epub-pour-les-accros-du-terminal.html",
+      "source": "Korben",
+      "author": "Korben",
+      "published": "2026-01-22T12:49:00+01:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "b8785c336c1ea6fc",
+      "title": "Maptoposter - Générez vos propres affiches de villes minimalistes",
+      "description": "Si vous avez envie de refaire un peu votre déco chez vous, sans forcément raquer des fortunes chez des designers scandinaves en claquettes chaussettes, j'ai trouvé un petit soft qui va vous plaire. Ça s'appelle maptoposter et c'est un script Python qui permet de transformer la plupart des villes en une affiche minimaliste plutôt jolie Vous lui donnez le nom d'une ville et son pays (c'est obligé pour pas que le script se perde), et il va piocher dans les données d'OpenStreetMap via la bibliothèqu",
+      "url": "https://korben.info/maptoposter-generez-vos-propres-affiches-de-villes-minimalistes.html",
+      "source": "Korben",
+      "author": "Korben",
+      "published": "2026-01-22T12:09:56+01:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "7f06eb17edcda90d",
+      "title": "NeoCities - Refaire du vrai web comme à l'époque",
+      "description": "Je suis complètement passé à côté car j'étais en vacances lors de leur dernière mise à jour... mais j'ai franchement halluciné en retombant sur NeoCities ces jours-ci. Si vous avez connu l'époque bénie de GeoCities , quand le web était moche mais vivant, alors vous allez kiffer. NeoCities, c’est tout simplement l’héritier spirituel de cette époque... mais en mieux ! Leur philosophie c'est de redonner le contrôle aux gens et ramener la créativité brute sur le web, tout ça sans publicité, sans tra",
+      "url": "https://korben.info/neocities-refaire-du-vrai-web-comme-a-lepoque.html",
+      "source": "Korben",
+      "author": "Korben",
+      "published": "2026-01-22T11:24:12+01:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "97e9b84d0cfa8133",
+      "title": "Digital Red Queen – Quand l’IA ressuscite Core War pour une guerre infinie",
+      "description": "Et c'est reparti pour une journée de moine à écrire sur le meilleur site tech de l'univers et aujourd'hui, j'ai envie de vous parler de Core War et de cybersécurité. Core War, c'est un jeu de programmation hyper culte qui est devenu populaire dans les années 80 et dans ce jeu, y'a des sortes de guerriers numériques qui se foutent sur la gueule pour prendre le contrôle d'une machine virtuelle . Et je vous avoue que c'est assez kiffant à voir.",
+      "url": "https://korben.info/digital-red-queen-evolution-core-war-ia.html",
+      "source": "Korben",
+      "author": "Korben",
+      "published": "2026-01-22T10:42:15+01:00",
       "niche": "security",
       "score": 42,
       "keywords": []
@@ -5154,8 +5250,8 @@
       "niche": "security",
       "score": 38,
       "keywords": [
-        "vulnerability",
-        "RCE"
+        "RCE",
+        "vulnerability"
       ]
     },
     {
@@ -5169,8 +5265,8 @@
       "niche": "security",
       "score": 38,
       "keywords": [
-        "OWASP",
-        "RCE"
+        "RCE",
+        "OWASP"
       ]
     },
     {
@@ -5208,9 +5304,9 @@
       "niche": "security",
       "score": 37,
       "keywords": [
-        "exploit",
-        "attack",
         "patch",
+        "attack",
+        "exploit",
         "security"
       ]
     },
@@ -5227,8 +5323,8 @@
       "keywords": [
         "web application security",
         "threat",
-        "OWASP",
-        "security"
+        "security",
+        "OWASP"
       ]
     },
     {
@@ -5243,9 +5339,9 @@
       "score": 34,
       "keywords": [
         "threat",
-        "OWASP",
+        "cybersecurity",
         "security",
-        "cybersecurity"
+        "OWASP"
       ]
     },
     {
@@ -5288,8 +5384,8 @@
       "score": 31,
       "keywords": [
         "secure",
-        "OWASP",
-        "security"
+        "security",
+        "OWASP"
       ]
     },
     {
@@ -5360,8 +5456,8 @@
       "niche": "security",
       "score": 26,
       "keywords": [
-        "SQL injection",
-        "injection"
+        "injection",
+        "SQL injection"
       ]
     },
     {
@@ -5501,8 +5597,8 @@
       "niche": "security",
       "score": 24,
       "keywords": [
-        "SQL injection",
-        "injection"
+        "injection",
+        "SQL injection"
       ]
     },
     {
@@ -5516,8 +5612,8 @@
       "niche": "security",
       "score": 24,
       "keywords": [
-        "SQL injection",
-        "injection"
+        "injection",
+        "SQL injection"
       ]
     },
     {
@@ -5532,8 +5628,8 @@
       "score": 22,
       "keywords": [
         "threat",
-        "security",
-        "cybersecurity"
+        "cybersecurity",
+        "security"
       ]
     },
     {
@@ -5547,8 +5643,8 @@
       "niche": "security",
       "score": 22,
       "keywords": [
-        "exploit",
-        "phishing"
+        "phishing",
+        "exploit"
       ]
     },
     {
@@ -5590,9 +5686,9 @@
       "niche": "security",
       "score": 19,
       "keywords": [
+        "cybersecurity",
         "PoC",
-        "security",
-        "cybersecurity"
+        "security"
       ]
     },
     {
@@ -5842,6 +5938,18 @@
       "keywords": [
         "secure"
       ]
+    },
+    {
+      "id": "7305f6c9cefca683",
+      "title": "Battling Cryptojacking, Botnets, and IABs &#x5b;Guest Diary&#x5d;, (Thu, Jan 15th)",
+      "description": "&#x5b;This is a Guest Diary by Matthew Presnal, an ISC intern as part of the SANS.edu BACS program&#x5d;&#xd;",
+      "url": "https://isc.sans.edu/diary/rss/32632",
+      "source": "SANS Internet Storm Center",
+      "author": "Inconnu",
+      "published": "2026-01-15T10:49:10+00:00",
+      "niche": "security",
+      "score": 10,
+      "keywords": []
     },
     {
       "id": "c9fd401b37338f54",
