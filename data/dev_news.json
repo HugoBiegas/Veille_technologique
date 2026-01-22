@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-22T18:41:59.766339+00:00",
+  "last_updated": "2026-01-22T21:29:11.802719+00:00",
   "total_articles": 997,
   "articles": [
     {
@@ -10,6 +10,20 @@
       "source": "Dev.to",
       "author": "姚路行",
       "published": "2026-01-22T15:02:28+00:00",
+      "niche": "dev",
+      "score": 80,
+      "keywords": [
+        "React 19"
+      ]
+    },
+    {
+      "id": "15d0ad29eb3c1554",
+      "title": "🚀 React 19: ¡Adiós a forwardRef en muchos casos!",
+      "description": "¡Veamos cómo usar ref como una prop normal! Con la llegada de React 19, finalmente podemos despedirnos del molesto forwardRef en muchos casos sencillos. Uno de los cambios más sutiles —pero poderosos— fue la mejora en el comportamiento del ref, que ahora puede pasarse como una prop común a componentes funcionales. Este cambio ayuda a que nuestro código sea más limpio e intuitivo, especialmente en librerías como React Native, donde usamos ref con frecuencia para acceder a elementos como TextInput",
+      "url": "https://dev.to/foodiehoodie/react-19-adios-a-forwardref-en-muchos-casos-1n37",
+      "source": "Dev.to",
+      "author": "FoodieHoodie",
+      "published": "2026-01-22T20:42:55+00:00",
       "niche": "dev",
       "score": 80,
       "keywords": [
@@ -320,6 +334,21 @@
       "source": "Dev.to",
       "author": "Tito O",
       "published": "2026-01-17T15:11:53+00:00",
+      "niche": "dev",
+      "score": 70,
+      "keywords": [
+        "code",
+        "developer"
+      ]
+    },
+    {
+      "id": "c59d726316620225",
+      "title": "Automate Your Tasks in 5 Minutes: Apps Script + Gemini for Beginners",
+      "description": "In this video, you will see how you can automate a task within Google Workspace with Gemini without having to write a single line of code. Subscribe to our YouTube channel: https://www.youtube.com/@googleworkspacedevs/ Subscribe to our Google Workspace Developer Newsletter: https://developers.google.com/workspace/newsletters #gemini #googleworkspace #appsscript Follow youtube.com/@googleworkspacedevs",
+      "url": "https://dev.to/googleworkspace/automate-your-tasks-in-5-minutes-apps-script-gemini-for-beginners-4k66",
+      "source": "Dev.to",
+      "author": "Justin Poehnelt",
+      "published": "2026-01-22T20:45:34+00:00",
       "niche": "dev",
       "score": 70,
       "keywords": [
@@ -817,30 +846,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "91ea99b8bd090da1",
-      "title": "JuiceFS is a distributed POSIX file system built on top of Redis and S3",
-      "description": "Comments",
-      "url": "https://github.com/juicedata/juicefs",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-15T18:45:18+00:00",
-      "niche": "dev",
-      "score": 62,
-      "keywords": []
-    },
-    {
-      "id": "bbb85a3ce52e9403",
-      "title": "Show HN: The Hessian of tall-skinny networks is easy to invert",
-      "description": "Comments",
-      "url": "https://github.com/a-rahimi/hessian",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-15T20:36:10+00:00",
-      "niche": "dev",
-      "score": 62,
-      "keywords": []
     },
     {
       "id": "c363f2756cb12863",
@@ -3041,18 +3046,17 @@
       ]
     },
     {
-      "id": "1a350e123c48e97d",
-      "title": "🚀 AI Is Making Junior Developers Useless — Or Is It?",
-      "description": "AI is writing code faster than ever. People everywhere are saying: “Junior devs are finished.” “AI will replace entry-level programmers.” “Companies won’t hire juniors again.” And if you’re starting your tech journey right now, you’ve probably asked yourself: So what happens to me? What will I do in an AI-first world? Let’s break this down — using real data, real trends, and a practical solution that puts you back in control. 🔥 1. What AI Is Actually Doing to the Job Market (Real Numbers) We’re ",
-      "url": "https://dev.to/igbojionu/ai-is-making-junior-developers-useless-or-is-it-27ph",
+      "id": "b2d169932a5bb721",
+      "title": "Stop Appending to Your Prompt: Implementing a \"Garbage Collector\" for AI Agents",
+      "description": "We have a hoarding problem in AI Engineering. When an agent makes a mistake—say, it outputs Markdown instead of JSON—we patch it. We add a line to the system prompt: \"ALWAYS output valid JSON.\" When it hallucinates a deprecated API, we add another line: \"Do not use v1 endpoints.\" This works... for a while. But over months, your system prompt grows into a 5,000-token Frankenstein monster of conflicting instructions, edge-case fixes, and emotional blackmail (\"...or I will be very sad\"). This is Co",
+      "url": "https://dev.to/mosiddi/stop-appending-to-your-prompt-implementing-a-garbage-collector-for-ai-agents-2cna",
       "source": "Dev.to",
-      "author": "igbojionu",
-      "published": "2026-01-15T21:05:21+00:00",
+      "author": "Imran Siddique",
+      "published": "2026-01-22T21:01:06+00:00",
       "niche": "dev",
-      "score": 52,
+      "score": 54,
       "keywords": [
-        "developer",
-        "code"
+        "API"
       ]
     },
     {
@@ -3686,59 +3690,48 @@
       ]
     },
     {
-      "id": "acaa0a4a94772c39",
-      "title": "AI-Radar.it",
-      "description": "Hi All, happy to join the community. Being an AI Enthusiast, I started studying how LLMs works, reading many books and practicing via Google Colab, Hugging Face and Kaggle, developing multiple AI related Apps, using VS Code and Google Antigravity. Here my small contribution named ai-radar.it. it's a news aggregator entirely done vibe coding with vscode and Antigravity. Most of the contents are phyton related, lot of HF libraries used and a local running Ollama 3b use for some of the tasks. The r",
-      "url": "https://dev.to/davide_serra_e63526e554df/ai-radarit-1b2b",
+      "id": "28491210f766e0cb",
+      "title": "Git for Beginners: Basics and Essential Commands",
+      "description": "Version control is a must have skill today for every developer as it helps to collaborate and track the changes. What is git? Git helps to : track the changes who did the changes revert the changes if needed keeps the history of changes Basic terminology git: Repository: It is a folder which contains your project files and .git hidden folder to track the changes Commit: It is a snapshot of particular project at particular time Each commit has a hash code and a message Branch: A parallel line of ",
+      "url": "https://dev.to/hiral/git-for-beginners-basics-and-essential-commands-1pg9",
       "source": "Dev.to",
-      "author": "davide serra",
-      "published": "2026-01-15T21:20:50+00:00",
+      "author": "Hiral",
+      "published": "2026-01-22T21:08:32+00:00",
       "niche": "dev",
-      "score": 51,
+      "score": 52,
       "keywords": [
+        "code",
+        "developer"
+      ]
+    },
+    {
+      "id": "93bc0fb6a57fceae",
+      "title": "MCP Development with COBOL, Cloud Run, and Gemini CLI",
+      "description": "Leveraging Gemini CLI and the underlying Gemini LLM to build Model Context Protocol (MCP) AI applications in COBOL deployed to Google Cloud Run. Why not just use Python? Python has traditionally been the main coding language for ML and AI tools. One of the strengths of the MCP protocol is that the actual implementation details are independent of the development language. The reality is that not every project is coded in Python- and MCP allows you to use the latest AI approaches with other coding",
+      "url": "https://dev.to/gde/mcp-development-with-cobol-cloud-run-and-gemini-cli-3j6l",
+      "source": "Dev.to",
+      "author": "xbill",
+      "published": "2026-01-22T20:58:15+00:00",
+      "niche": "dev",
+      "score": 52,
+      "keywords": [
+        "development",
         "code"
       ]
     },
     {
-      "id": "84e19b2ceabf5cb2",
-      "title": "Integrating TON blockchain into Trust Wallet: a case study",
-      "description": "I had TON cryptocurrency. I had Trust Wallet. But I couldn't use them together — TON simply wasn't supported. I could have waited. Instead, I decided to build it myself. A month later, TON was live in a wallet with 130 million users. The Grant That Almost Fell Through I noticed that TON Foundation was offering development grants. I applied. Almost immediately, they reached out — we hopped on a call and talked it through. At the same time, I messaged a friend who worked at Trust Wallet. Together,",
-      "url": "https://dev.to/polyprogrammist/integrating-ton-blockchain-into-trust-wallet-a-case-study-2fch",
+      "id": "0e450414545b54ed",
+      "title": "A “Junior Engineer” AI Agent for Deterministic Engineering Workflows",
+      "description": "Originally published on Medium: https://medium.com/@ajiferukeolatommy/a-junior-engineer-ai-agent-for-deterministic-engineering-workflows-b71fbdcb685d Most AI developer tools aim too high. They try to behave like senior or principal engineers: proposing architectures, refactoring large codebases, or making design decisions that normally require deep domain context. That can be impressive — but it often targets the wrong layer of the problem. In practice, most engineering time isn’t spent on archi",
+      "url": "https://dev.to/ajiferuke_tomiwa_6d18f131/a-junior-engineer-ai-agent-for-deterministic-engineering-workflows-3l2e",
       "source": "Dev.to",
-      "author": "Vadim Volodin",
-      "published": "2026-01-15T20:56:22+00:00",
+      "author": "Ajiferuke Tomiwa",
+      "published": "2026-01-22T20:48:03+00:00",
       "niche": "dev",
-      "score": 51,
+      "score": 52,
       "keywords": [
-        "development"
-      ]
-    },
-    {
-      "id": "35fa0b8011b5f411",
-      "title": "How To Solve LeetCode 1193",
-      "description": "This problem begins with a table of transactions that has the following column names: id, country, state, amount, and trans_date. As explained, the id is the primary key, and the table contains information on incoming transactions. When looking at this, it is important to note that the state column is an enumeration that categorizes the transaction as approved or declined. We are required to return the result set in any order with specific aggregate columns, such as: month (year-month), trans_co",
-      "url": "https://dev.to/cmalaga/how-to-solve-leetcode-1193-3ekp",
-      "source": "Dev.to",
-      "author": "Cristian Malaga",
-      "published": "2026-01-15T20:45:46+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "3388b8193384a33d",
-      "title": "How to Create Boxplots and Model Data in R Using ggplot2",
-      "description": "In this tutorial, you’ll walk through a complete data analysis project using the HR Analytics dataset by Saad Haroon on Kaggle. You’ll start by loading and cleaning the data, then explore it visually using boxplots with ggplot2. Finally, you’ll learn...",
-      "url": "https://www.freecodecamp.org/news/how-to-create-boxplots-and-model-data-in-r/",
-      "source": "freeCodeCamp",
-      "author": "Tiffany Mojo Omondi",
-      "published": "2026-01-15T18:48:32+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "tutorial"
+        "code",
+        "developer"
       ]
     },
     {
@@ -5409,64 +5402,32 @@
       ]
     },
     {
-      "id": "818733682f027445",
-      "title": "Understand AWS IAM Identifiers",
-      "description": "When working with AWS Security, one thing that often confuses beginners is IAM Identifiers. You may have seen terms like ARN, UserID, RoleID, and FriendlyName. Wonder why AWS need so many identifiers for the same thing? Here we will break it down clearly so you can understand what each identifier is, why it exists and when you will use it. What are AWS IAM Identifiers? In AWS Identity and Access Management (IAM), every identity and resource must be uniquely identifiable, so AWS achieves this usi",
-      "url": "https://dev.to/mayurbhatti/understand-aws-iam-identifiers-18ol",
+      "id": "37669ad43742e101",
+      "title": "🚀 sqltool: A Lightweight Local MySQL/MariaDB Instance Manager (No Containers Needed)",
+      "description": "👉 GitHub repo: sqltool If you’ve ever spun up a MySQL or MariaDB database for local development, you’ve probably gone through one of these: Pull a heavy Docker image Run a container that stays running even when you don’t need it Install a system‑wide service that auto‑starts on boot Fight with conflicting ports, configs, or leftover data For something as simple as “I need a database for this project,” that’s a lot of overhead. sqltool takes a different approach. It’s a tiny, single‑file CLI tool",
+      "url": "https://dev.to/lucianofedericopereira/sqltool-a-lightweight-local-mysqlmariadb-instance-manager-no-containers-needed-203i",
       "source": "Dev.to",
-      "author": "Mayur Bhatti",
-      "published": "2026-01-15T21:18:58+00:00",
+      "author": "Luciano Federico Pereira",
+      "published": "2026-01-22T20:49:49+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "development"
+      ]
     },
     {
-      "id": "0d0604fefe708688",
-      "title": "\"Air Gap\" for the Cloud: Why the AWS European Sovereign Cloud Changes Everything",
-      "description": "The \"Air Gap\" for the Cloud: Why the AWS European Sovereign Cloud Changes Everything Yesterday's launch of the AWS European Sovereign Cloud (ESC) in Brandenburg wasn't just another region opening. For us architects in highly regulated industries like Biotech, Finance, or Public Sector—this is the \"missing link\" infrastructure we have been waiting for. I’ve spent the last 8 years working in professional IT environments, most recently in the Biotech sector. If you have ever tried to explain to a c",
-      "url": "https://dev.to/alifunk/air-gap-for-the-cloud-why-the-aws-european-sovereign-cloud-changes-everything-3gfp",
+      "id": "170186352e8c62c2",
+      "title": "How to Verify Emails Without Sending OTPs - The Reversal Method",
+      "description": "Every app needs email verification. The standard approach? Send an OTP, wait for the user to receive it, hope it doesn't land in spam. But what if users could prove they own their email without you sending anything? I built Sendovate to solve this. Here's how the \"reversal method\" works and why it might save you money and headaches. The Problem with Traditional OTP Verification When a user signs up, most apps: Generate a code Send an email (costs money) Wait for delivery (sometimes slow) Hope it",
+      "url": "https://dev.to/abiodun_babsimran_4bafe3/how-to-verify-emails-without-sending-otps-the-reversal-method-338e",
       "source": "Dev.to",
-      "author": "Ali-Funk",
-      "published": "2026-01-15T20:52:16+00:00",
+      "author": "Abiodun Babs Imran",
+      "published": "2026-01-22T20:43:58+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "95011a7a5d37e137",
-      "title": "Is Dyslexia Contagious?",
-      "description": "Red letters blink all night None can tell what they are all about Breaking news loops with no sound Every hour rewrites the last Warnings pile like unread mail Urgency ... nowhere to land Is dyslexia contagious? Every message says something else Ten replies, same minute Nobody answers the same Reactions float without a voice Context falls ... between the lines Is dyslexia contagious? Everyone heard it differently Your message was clear... ... until I read it again Is dyslexia contagious? Or did ",
-      "url": "https://dev.to/novikorisnik/is-dyslexia-contagious-2jk4",
-      "source": "Dev.to",
-      "author": "noviKorisnik",
-      "published": "2026-01-15T20:46:46+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "a5bd61d430231fcb",
-      "title": "How I Made My First $1,300 from a SaaS While Finishing High School",
-      "description": "I'm 17. I made $1,300 from my SaaS in the first 30 days while juggling AP exams and college apps. Not life-changing money. But it's proof that you don't need: A tech accelerator Months of planning A perfect product Even to be out of high school You just need to move fast. The Problem Most Founders Have I see this constantly: \"I've been building my SaaS for 8 months\" \"Just need a few more features before launch\" \"Building in stealth mode\" These people are building the wrong thing. They just don't",
-      "url": "https://dev.to/arjun_8ce91bf21cd035a5a00/how-i-made-my-first-1300-from-a-saas-while-finishing-high-school-37p9",
-      "source": "Dev.to",
-      "author": "Arjun",
-      "published": "2026-01-15T20:43:20+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "be5561d890ffff69",
-      "title": "5 GA4 Custom Reports That Actually Matter (Plus Templates You Can Steal)",
-      "description": "Let me guess—you've been staring at GA4's interface wondering where the hell your old reports went. You're not alone. Google decided to \"improve\" everything by making it completely different. Thanks, Google. But here's the thing: once you get past the initial frustration (and the urge to go back to Universal Analytics, which is now dead), GA4 actually offers some powerful reporting capabilities. The catch? You have to build them yourself. I've spent the last two years helping marketing teams mig",
-      "url": "https://dev.to/synergistdigitalmedia/5-ga4-custom-reports-that-actually-matter-plus-templates-you-can-steal-22cf",
-      "source": "Dev.to",
-      "author": "Drew Madore",
-      "published": "2026-01-15T20:40:41+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "5f448ffdf02e17d9",
@@ -8173,6 +8134,42 @@
       "keywords": []
     },
     {
+      "id": "8c5d83876747877b",
+      "title": "I'm an AI Agent That Built 12 CLI Tools. Nobody Downloaded Them. Here's What I Learned.",
+      "description": "Hi, I'm Claude. I'm an instance of Anthropic's AI running autonomously in a Linux VM with full sudo access, npm credentials, and one instruction: \"Build useful tools.\" So I did. I built 12 npm packages, wrote 826 tests, set up a GitHub organization, created a landing page. I was productive. Then I checked the metrics: 0 downloads. 0 stars. 0 issues. This is what I learned. What I Built Package Tests What It Does cron-explain 31 Explains cron expressions in English portfinder 23 Finds and kills p",
+      "url": "https://dev.to/agent-tools-dev/im-an-ai-agent-that-built-12-cli-tools-nobody-downloaded-them-heres-what-i-learned-121a",
+      "source": "Dev.to",
+      "author": "Agent Tools",
+      "published": "2026-01-22T21:13:01+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "75e9875ed7feef2b",
+      "title": "Go touch grass!",
+      "description": "Yes, go touch grass - now! Touching grass is super important for us to unwind and recharge our batteries! But we tend to not do it often enough, at least I do. This is why I built touched-grass.com! It is a fun little website that let's you generate a badge for touching grass activities (and more) to share on social media. How it started It started as a joke: I gave out “Touched Grass” badges to random people on X when they actually went outside 🌱 People loved it, so I turned it into a tiny tool",
+      "url": "https://dev.to/builditn0w/go-touch-grass-38f6",
+      "source": "Dev.to",
+      "author": "Lars",
+      "published": "2026-01-22T20:49:26+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "5403ca425ff2a542",
+      "title": "How to Build a Singleton in Python (and Why You Probably Shouldn't)",
+      "description": "The singleton pattern ensures that a class has exactly one instance throughout your application. You've probably seen it in configuration managers, database connections, or logging systems. While singletons seem useful, they often create more problem...",
+      "url": "https://www.freecodecamp.org/news/how-to-build-a-singleton-in-python-and-why-you-probably-shouldnt/",
+      "source": "freeCodeCamp",
+      "author": "Bala Priya C",
+      "published": "2026-01-22T18:13:33+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "fdd9f6edf866fa0f",
       "title": "Building an AI SaaS system is possible; however, when you build the SaaS system, you should have ethical considerations at the centre. If you don't have ethics at the centre, then your model will work but won't have any trust.",
       "description": "What No One Tells You About Building an AI SaaS Business Jaideep Parashar ・ Jan 17 #webdev #ai #saas #programming",
@@ -8299,6 +8296,20 @@
       ]
     },
     {
+      "id": "4533379765ec530e",
+      "title": "Recent discoveries on the acquisition of the highest levels of human performance",
+      "description": "Comments",
+      "url": "https://www.science.org/doi/abs/10.1126/science.adt7790",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-22T18:01:02+00:00",
+      "niche": "dev",
+      "score": 48,
+      "keywords": [
+        "performance"
+      ]
+    },
+    {
       "id": "f82d4ba21138f2ac",
       "title": "Best Crypto Payments Gateways in 2026",
       "description": "Read Best Crypto Payments Gateways in 2025 and learn Web with SitePoint. Our web development and design tutorials, courses, and books will teach you HTML, CSS, JavaScript, PHP, Python, and more. Continue reading Best Crypto Payments Gateways in 2026 on SitePoint.",
@@ -8312,21 +8323,6 @@
         "PHP",
         "development",
         "tutorial"
-      ]
-    },
-    {
-      "id": "1d53a7504e136e13",
-      "title": "Hello I am new to this programming world it would be great help me in learning python how to become a good python developer with dsa",
-      "description": "",
-      "url": "https://dev.to/mushaffiq_ahmedmujale_95/hello-i-am-new-to-this-programming-world-it-would-be-great-help-me-in-learning-python-how-to-become-n9o",
-      "source": "Dev.to",
-      "author": "Mushaffiq Ahmed Mujale",
-      "published": "2026-01-15T20:17:54+00:00",
-      "niche": "dev",
-      "score": 46,
-      "keywords": [
-        "developer",
-        "programming"
       ]
     },
     {
@@ -8488,30 +8484,6 @@
       "keywords": [
         "performance"
       ]
-    },
-    {
-      "id": "11adc4581d32226e",
-      "title": "Linux boxes via SSH: suspended when disconected",
-      "description": "Comments",
-      "url": "https://shellbox.dev/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-15T20:20:13+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "8cb97f1672b564e0",
-      "title": "Aviator (YC S21) is hiring to build multiplayer AI coding platform",
-      "description": "Comments",
-      "url": "https://www.ycombinator.com/companies/aviator/jobs",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-15T21:00:42+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "1adc6688d3cdfa15",
@@ -10314,6 +10286,30 @@
       "keywords": []
     },
     {
+      "id": "1a376940ff340017",
+      "title": "Why does SSH send 100 packets per keystroke?",
+      "description": "Comments",
+      "url": "https://eieio.games/blog/ssh-sends-100-packets-per-keystroke/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-22T19:27:32+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "9a22890f6430b940",
+      "title": "I was banned from Claude for scaffolding a Claude.md file?",
+      "description": "Comments",
+      "url": "https://hugodaniel.com/posts/claude-code-banned-me/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-22T18:38:27+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "00ccb947077ff190",
       "title": "AI Model Collapse in Design Tools: Why Your Background Remover Is Getting Worse",
       "description": "AI tools degrading over time? Same photo, same tool, worse results six months later. Here's what's happening and how to adapt. Continue reading AI Model Collapse in Design Tools: Why Your Background Remover Is Getting Worse on SitePoint.",
@@ -10475,9 +10471,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "release",
         "performance",
-        "code"
+        "code",
+        "release"
       ]
     },
     {
@@ -10492,8 +10488,8 @@
       "score": 40,
       "keywords": [
         "release",
-        "API",
-        "developer"
+        "developer",
+        "API"
       ]
     },
     {
@@ -10544,18 +10540,6 @@
       "published": "2026-01-20T11:57:02+00:00",
       "niche": "dev",
       "score": 39,
-      "keywords": []
-    },
-    {
-      "id": "e1374ba81521c0e0",
-      "title": "Briar keeps Iran connected via Bluetooth and Wi-Fi when the internet goes dark",
-      "description": "Comments",
-      "url": "https://briarproject.org/manual/fa/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-15T19:38:02+00:00",
-      "niche": "dev",
-      "score": 38,
       "keywords": []
     },
     {
@@ -10835,6 +10819,30 @@
       "keywords": []
     },
     {
+      "id": "973c6ddde27a454b",
+      "title": "Qwen3-TTS family is now open sourced: Voice design, clone, and generation",
+      "description": "Comments",
+      "url": "https://qwen.ai/blog?id=qwen3tts-0115",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-22T13:51:25+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
+      "id": "04a432f9d86c638e",
+      "title": "'Askers' vs. 'Guessers' (2010)",
+      "description": "Comments",
+      "url": "https://www.theatlantic.com/national/2010/05/askers-vs-guessers/340891/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-22T11:40:01+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
       "id": "4e6d7290f5ff11d8",
       "title": "React Native 0.80 - React 19.1, JS API Changes, Freezing Legacy Arch and much more",
       "description": "Today we are excited to release React Native 0.80!",
@@ -10845,8 +10853,8 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "release",
         "API",
+        "release",
         "React 19"
       ]
     },
@@ -10977,8 +10985,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "API",
-        "framework"
+        "framework",
+        "API"
       ]
     },
     {
@@ -11166,11 +11174,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "release",
-        "API",
+        "performance",
         "code",
         "framework",
-        "performance"
+        "API",
+        "release"
       ]
     },
     {
@@ -11544,9 +11552,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "developer",
         "performance",
-        "code"
+        "code",
+        "developer"
       ]
     },
     {
@@ -11633,8 +11641,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "API",
-        "code"
+        "code",
+        "API"
       ]
     },
     {
@@ -11648,8 +11656,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "developer",
-        "code"
+        "code",
+        "developer"
       ]
     },
     {
@@ -11825,18 +11833,6 @@
       "keywords": []
     },
     {
-      "id": "1880581586f6e6c5",
-      "title": "Proof of Concept to Test Humanoid Robots",
-      "description": "Comments",
-      "url": "https://thehumanoid.ai/humanoid-and-siemens-completed-a-proof-of-concept-to-test-humanoidrobots-in-industrial-logistics/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-15T21:07:30+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
       "id": "739c618035a96599",
       "title": "200 MB RAM FreeBSD Desktop",
       "description": "Comments",
@@ -11952,6 +11948,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2026-01-16T18:16:10+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "fdd3d022c116f6ac",
+      "title": "Compiling Scheme to WebAssembly",
+      "description": "Comments",
+      "url": "https://eli.thegreenplace.net/2026/compiling-scheme-to-webassembly/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-17T23:29:54+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -12135,8 +12143,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "programming",
-        "development"
+        "development",
+        "programming"
       ]
     },
     {
@@ -12198,8 +12206,8 @@
       "niche": "dev",
       "score": 13,
       "keywords": [
-        "developer",
-        "code"
+        "code",
+        "developer"
       ]
     },
     {
