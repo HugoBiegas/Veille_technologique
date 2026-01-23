@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-23T15:32:49.820506+00:00",
-  "total_articles": 994,
+  "last_updated": "2026-01-23T18:41:55.943648+00:00",
+  "total_articles": 988,
   "articles": [
     {
       "id": "fd03a584d80d5c72",
@@ -308,6 +308,22 @@
       "score": 72,
       "keywords": [
         "API"
+      ]
+    },
+    {
+      "id": "81a436e10d8933f2",
+      "title": "The Right Way to Deploy Private GitHub Repos to Your VPS",
+      "description": "Deploying code from a private repository to a VPS is something a lot of developers sort of know how to do — but most tutorials either rely on personal SSH keys or Personal Access Tokens. That works, but it gives your server much more access than it actually needs. In this guide you’ll learn how to set up a repository-specific SSH deploy key for your VPS so you can: Clone your private repository securely Pull updates without storing personal credentials on the server Keep production access scoped",
+      "url": "https://dev.to/marcoz/the-right-way-to-deploy-private-github-repos-to-your-vps-3725",
+      "source": "Dev.to",
+      "author": "Marek",
+      "published": "2026-01-23T18:20:00+00:00",
+      "niche": "dev",
+      "score": 72,
+      "keywords": [
+        "code",
+        "tutorial",
+        "developer"
       ]
     },
     {
@@ -693,6 +709,18 @@
       "keywords": []
     },
     {
+      "id": "2b3c15eccef20be9",
+      "title": "GitHub Actions to VPS: Zero-Trust with Tailscale",
+      "description": "Deploying to private VPS servers from GitHub Actions typically requires exposing SSH ports or maintaining complex VPN configurations. Tailscale's zero-trust networking eliminates these security risks by creating ephemeral, encrypted connections between GitHub-hosted runners and your infrastructure. This guide shows how to connect GitHub Actions to a private VPS using Tailscale's OAuth-based authentication, following the principle of least privilege. Architecture Overview When a GitHub Actions wo",
+      "url": "https://dev.to/rihdusr/github-actions-to-vps-zero-trust-with-tailscale-2omf",
+      "source": "Dev.to",
+      "author": "Sudhir",
+      "published": "2026-01-23T18:38:38+00:00",
+      "niche": "dev",
+      "score": 68,
+      "keywords": []
+    },
+    {
       "id": "a1a9592cdf128ab2",
       "title": "Linux kernel framework for PCIe device emulation, in userspace",
       "description": "Comments",
@@ -832,18 +860,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "72f893e8e6b35c5f",
-      "title": "STFU",
-      "description": "Comments",
-      "url": "https://github.com/Pankajtanwarbanna/stfu",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-16T17:32:40+00:00",
-      "niche": "dev",
-      "score": 62,
-      "keywords": []
     },
     {
       "id": "790acb055f144d06",
@@ -1195,6 +1211,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2026-01-23T09:38:02+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": []
+    },
+    {
+      "id": "4e0339978d74b6e7",
+      "title": "Microsoft gave FBI set of BitLocker encryption keys to unlock suspects' laptops",
+      "description": "Comments",
+      "url": "https://techcrunch.com/2026/01/23/microsoft-gave-fbi-a-set-of-bitlocker-encryption-keys-to-unlock-suspects-laptops-reports/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-23T17:58:56+00:00",
       "niche": "dev",
       "score": 62,
       "keywords": []
@@ -2222,20 +2250,6 @@
       ]
     },
     {
-      "id": "47937140781a28c3",
-      "title": "Revisiting Interstellar's Cooper and TARS",
-      "description": "I spend several hours every day using AI in one form or another and I often find myself thinking about the 2014 film 'Interstellar' and of the relationship between Cooper and TARS. It's an excellent film in all respects, but it's this bond between human and machine that's my favorite element. At the time of the film’s release, TARS was easy to relate to as a character - the science-fiction charm: a boxy robot with dry humor, extreme competence, and just enough personality that it seems alive. Bu",
-      "url": "https://dev.to/ben-santora/revisiting-interstellars-cooper-and-tars-4m1g",
-      "source": "Dev.to",
-      "author": "Ben Santora",
-      "published": "2026-01-16T18:38:40+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "release"
-      ]
-    },
-    {
       "id": "4a1340747d2273b8",
       "title": "Integrating KaibanJS Teams with Kaiban.io: Enterprise Workflow Automation via A2A Protocol",
       "description": "Introduction In today's enterprise landscape, AI agents need to seamlessly integrate with existing workflow management systems. While building intelligent agents is powerful, their true value is unlocked when they can participate in collaborative workflows, update task statuses automatically, and provide visibility across teams. This article explores how to integrate KaibanJS—a multi-agent framework for building collaborative AI teams—with Kaiban.io—an enterprise workflow management platform—usi",
@@ -3110,18 +3124,73 @@
       ]
     },
     {
-      "id": "bb6e8a145ba5c936",
-      "title": "Getting Started With Minecraft and MongoDB",
-      "description": "This tutorial was written by Aasawari Sahasrabuddhe. Minecraft, a renowned sandbox game, empowers players to create custom modifications (mods) that enhance the gameplay experience. Originally developed in Java, Minecraft has expanded to other programming languages, with the Java Edition remaining the most popular among users. Given the growing player base, MongoDB emerges as an ideal database solution to manage and sync player details seamlessly with the Minecraft application. In this tutorial,",
-      "url": "https://dev.to/mongodb/getting-started-with-minecraft-and-mongodb-f1n",
+      "id": "ca5bf76ba230e977",
+      "title": "Dead-Simple CLI Uptime Monitor – No SaaS, POST Support, CI/CD Ready (Open Source)",
+      "description": "I kept spinning up heavy monitoring dashboards or paying monthly for SaaS tools just to check if a few personal APIs were still breathing. Most tools were massive overkill for what I actually needed. So I built upstatus — a tiny CLI uptime monitor that lives in your terminal. It checks URLs (including POST health endpoints), tracks response times and uptime percentages, and exports results. No accounts, no dashboards, pure local power. Why I Built This I monitor a handful of personal APIs and si",
+      "url": "https://dev.to/chintanshah35/dead-simple-cli-uptime-monitor-no-saas-post-support-cicd-ready-open-source-1f8h",
       "source": "Dev.to",
-      "author": "MongoDB Guests",
-      "published": "2026-01-16T18:23:44+00:00",
+      "author": "Chintan Shah",
+      "published": "2026-01-23T18:19:12+00:00",
       "niche": "dev",
-      "score": 52,
+      "score": 54,
       "keywords": [
-        "programming",
-        "tutorial"
+        "API"
+      ]
+    },
+    {
+      "id": "7f6210f33fde65e0",
+      "title": "My Resume in My Pocket 24/7. Powered by AWS",
+      "description": "From phones and wallets to car keys and coffee receipts, there's never been a perfect way to carry a polished PDF resume. So I built a resume I can carry 24/7. A live website on AWS, secured with HTTPS, delivered globally through a CDN, and backed by a serverless visitor counter. In this post, I break down the milestones I completed over 18 days, from S3 + CloudFront (OAC private origin) to API Gateway, Lambda, SAM (SAM CLI), and DynamoDB. Live Site: https://resume.michael-burbank.com/ I designe",
+      "url": "https://dev.to/michael-burbank/my-resume-in-my-pocket-247-powered-by-aws-2pa8",
+      "source": "Dev.to",
+      "author": "Michael Burbank",
+      "published": "2026-01-23T18:14:21+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "API"
+      ]
+    },
+    {
+      "id": "881dd2f3aa242485",
+      "title": "What I Didn't Know About Icon Library Licenses (And You Might Not Either)",
+      "description": "TL;DR Icon libraries with MIT or ISC licenses don't require visible attribution in your UI Font Awesome Free is actually a combination of three different licenses — keeping the embedded comments satisfies attribution requirements For new projects, Lucide or Heroicons offer simpler licensing with less friction Font Awesome, Lucide, Heroicons… When choosing an icon library for work projects, I suspect many of us don't give much thought to licensing. I used to think \"it's MIT licensed, so it's fine",
+      "url": "https://dev.to/usapopopooon/what-i-didnt-know-about-icon-library-licenses-and-you-might-not-either-30of",
+      "source": "Dev.to",
+      "author": "usapop",
+      "published": "2026-01-23T18:07:15+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "library"
+      ]
+    },
+    {
+      "id": "daa587ea825a6080",
+      "title": "KEXP: Lucius - Full Performance (Live on KEXP)",
+      "description": "Get ready to groove! Lucius hit the stage for a lively KEXP performance, recorded live at The Triple Door. They dished out a fantastic set, showcasing their unique sound with tracks like \"Final Days\" and \"Mad Love.\" But wait, there's more! The band even threw in a sweet surprise with a cover of R.E.M.'s \"Everybody Hurts.\" It was a full-band affair, with Jess Wolfe and Holly Laessig leading the vocals and synths, backed by a stellar crew on guitars, drums, and percussion. Watch on YouTube",
+      "url": "https://dev.to/music_youtube/kexp-lucius-full-performance-live-on-kexp-3g6h",
+      "source": "Dev.to",
+      "author": "Music YouTube",
+      "published": "2026-01-23T18:05:39+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "performance"
+      ]
+    },
+    {
+      "id": "9a054e5a2d0c7bda",
+      "title": "Open Props @custom-media Recipes",
+      "description": "The @custom-media at-rule has landed in Firefox Nightly! I couldn&#8217;t find it in the release notes but Adam Argyle&#8217;s on the beat noting that it&#8217;s behind a flag for now. Look for layout.css.custom-media.enabled I often forget the exact name of &#8230; Open Props @custom-media Recipes originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
+      "url": "https://css-tricks.com/open-props-custom-media-recipes/",
+      "source": "CSS-Tricks",
+      "author": "Geoff Graham",
+      "published": "2026-01-23T13:00:00+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "release"
       ]
     },
     {
@@ -3770,72 +3839,17 @@
       ]
     },
     {
-      "id": "fb817715514faf00",
-      "title": "Apple broke our cloud build in production. Here's what actually failed:",
-      "description": "Not by accident, not overnight but in ways every backend-heavy dev eventually feels The cloud used to be boring.That was the whole point. You shipped code, pointed it at some backend, and went back to arguing about tabs vs spaces. If something broke, it was usually your fault, AWS’s fault, or at least a problem you could debug with logs and caffeine. Lately though, a weird thing has been happening. Apps ship fine. Reviews pass. Nothing changes in the repo. And then… features start acting strange",
-      "url": "https://dev.to/dev_tips/apple-broke-our-cloud-build-in-production-heres-what-actually-failed-5en9",
+      "id": "52bd74c9593c5a38",
+      "title": "Claude Code + Chrome: Fix the Bug AND Verify It Works — In One Prompt",
+      "description": "Your AI can now see what your users see. Debugging will never be the same. From: x.com/adocomplete Introduction Here's a frustrating scenario every frontend developer knows: You describe a bug to your AI assistant. It suggests a fix. You apply the fix. You switch to the browser. The bug is still there. Back to the AI. More suggestions. More switching. More frustration. The problem? Your AI is coding blind. It can't see the bug. It can't watch the fix succeed or fail. It's operating on descriptio",
+      "url": "https://dev.to/rajeshroyal/claude-code-chrome-fix-the-bug-and-verify-it-works-in-one-prompt-25mi",
       "source": "Dev.to",
-      "author": "<devtips/>",
-      "published": "2026-01-16T18:23:50+00:00",
+      "author": "Rajesh Royal",
+      "published": "2026-01-23T18:30:00+00:00",
       "niche": "dev",
-      "score": 51,
+      "score": 52,
       "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "62e6e67a4aeb8000",
-      "title": "Is this code deterministic?",
-      "description": "I recently posted a small code snippet in a LinkedIn poll and asked what sounded like a simple question: Is this code deterministic? Those are usually the dangerous questions. I asked on purpose. I’ve been spending time talking with folks much smarter than me, reading docs, and honestly leaning on code assistants to sanity-check my thinking as I go. Durable execution has a way of surfacing edge cases you don’t normally think about, and I wanted to learn in public—right alongside everyone else. T",
-      "url": "https://dev.to/aws/is-this-code-deterministic-29l9",
-      "source": "Dev.to",
-      "author": "Eric D Johnson",
-      "published": "2026-01-16T18:20:30+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "e5cbead459d4687d",
-      "title": "The `this` Keyword & Binding: JavaScript's Most Confusing Feature (Finally Explained)",
-      "description": "Ask 10 JavaScript developers what this means, and you'll get 10 different explanations. It's the source of countless bugs, especially for developers coming from other languages where this (or self) is straightforward. Here's the uncomfortable truth: In JavaScript, this isn't determined by where a function is defined — it's determined by how the function is called. This single fact explains 90% of the confusion. The Golden Rule The value of this is determined by the call site (how the function is",
-      "url": "https://dev.to/tishonator/the-this-keyword-binding-javascripts-most-confusing-feature-finally-explained-14ga",
-      "source": "Dev.to",
-      "author": "Tihomir Ivanov",
-      "published": "2026-01-16T18:19:53+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "developer"
-      ]
-    },
-    {
-      "id": "0b6afd0a8273379e",
-      "title": "Prototypes & Prototypal Inheritance: JavaScript's Secret Superpower (and Memory Saver)",
-      "description": "If you've learned object-oriented programming in languages like Java or C++, JavaScript's inheritance model will feel alien at first. There are no \"real\" classes in JavaScript (even with the class syntax introduced in ES6). Instead, JavaScript uses prototypes — a powerful and memory-efficient mechanism that's often misunderstood. Here's the truth: Understanding prototypes is the key to understanding how JavaScript objects really work. The Golden Rule In JavaScript, objects inherit from other obj",
-      "url": "https://dev.to/tishonator/prototypes-prototypal-inheritance-javascripts-secret-superpower-and-memory-saver-27l",
-      "source": "Dev.to",
-      "author": "Tihomir Ivanov",
-      "published": "2026-01-16T18:17:58+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "programming"
-      ]
-    },
-    {
-      "id": "f1cd928672e47512",
-      "title": "Closures & Lexical Scope: How JavaScript Functions \"Remember\" Where They Were Born",
-      "description": "Ask a junior developer to explain closures, and you'll likely get a nervous laugh. Ask a senior developer, and you might get a technically correct but confusing answer. Yet closures are everywhere in JavaScript — they're the invisible force behind React Hooks, event handlers, and countless design patterns. The truth? Closures are simpler than you think, once you understand lexical scope. The Golden Rule A closure is a function that \"remembers\" variables from its outer (lexical) scope, even after",
-      "url": "https://dev.to/tishonator/closures-lexical-scope-how-javascript-functions-remember-where-they-were-born-1lbp",
-      "source": "Dev.to",
-      "author": "Tihomir Ivanov",
-      "published": "2026-01-16T18:15:59+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
+        "code",
         "developer"
       ]
     },
@@ -5451,52 +5465,32 @@
       ]
     },
     {
-      "id": "128a1df2ae394799",
-      "title": "Self-hosting DocuSeal on a Hetzner Ubuntu Server",
-      "description": "Want to sign documents using DocuSeal but prefer to fully control your infrastructure? By self-hosting DocuSeal on a Linux Ubuntu server, you can cut down costs, keep your sensitive documents private, and avoid per-signature fees! Looking for something simpler? Deploy in 25 seconds Prerequisites Before we start, make sure you have: A Hetzner account (or any other cloud provider) Basic SSH experience An SSH key pair on your local machine Step 0: Create a Server on Hetzner Log into your Hetzner Cl",
-      "url": "https://dev.to/atakanozt/self-hosting-docuseal-on-a-hetzner-ubuntu-server-3j8m",
+      "id": "89c06772722345d3",
+      "title": "From Bloated to Streamlined: A Developer's Guide to Docker Image Optimization",
+      "description": "Learn how to significantly reduce the size of your Docker images with practical, step-by-step techniques. We'll take a simple app and apply optimizations like multi-stage builds, choosing the right base image, and more. Introduction As developers, we love using Docker for its portability and consistency. However, it's easy to end up with large, bloated Docker images. Why does image size matter? Faster CI/CD Pipelines: Smaller images are quicker to build, push, and pull, speeding up your developm",
+      "url": "https://dev.to/alanvarghese-dev/from-bloated-to-streamlined-a-developers-guide-to-docker-image-optimization-4d07",
       "source": "Dev.to",
-      "author": "atakanozt",
-      "published": "2026-01-16T18:33:03+00:00",
+      "author": "Alan Varghese",
+      "published": "2026-01-23T18:13:26+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
-      "id": "7fd2351efcfc3db6",
-      "title": "Ultrathink: Tell Claude Exactly How Hard to Think About Your Problem",
-      "description": "Sometimes you need a quick answer. Sometimes you need Claude to really chew on it. Now you control which is which. From: x.com/adocomplete Here's a truth about AI that nobody talks about enough: not every question deserves the same amount of computational thought. Asking \"what's the syntax for a for loop in Python\" shouldn't trigger the same deep reasoning as \"help me architect a distributed system for 10 million concurrent users.\" Yet most AI interactions treat every prompt the same. You get wh",
-      "url": "https://dev.to/rajeshroyal/ultrathink-tell-claude-exactly-how-hard-to-think-about-your-problem-i35",
-      "source": "Dev.to",
-      "author": "Rajesh Royal",
-      "published": "2026-01-16T18:30:00+00:00",
+      "id": "a5bb6c186e2a1416",
+      "title": "How to stay curious as a dev in the AI hype era with Sumit Saha [Podcast #205]",
+      "description": "Today Quincy Larson interviews Sumit Saha, a software engineer and prolific teacher on YouTube. Sumit is based in Dhaka, Bangladesh, where he runs a developer agency building projects for clients throughout Asia. We talk about: How the hunger for le...",
+      "url": "https://www.freecodecamp.org/news/how-to-stay-curious-as-a-dev-in-the-ai-hype-era-with-sumit-saha-podcast-205/",
+      "source": "freeCodeCamp",
+      "author": "Beau Carnes",
+      "published": "2026-01-23T15:00:14+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "cc6986dfbfaaf6ce",
-      "title": "How to Use Uqda Network: A Complete Step-by-Step Guide 🚀",
-      "description": "How to Use Uqda Network: A Complete Step-by-Step Guide 🚀 Want to join an encrypted mesh network but don't know where to start? This guide will walk you through everything you need to know to get Uqda Network up and running on your device. Uqda Network is an end-to-end encrypted IPv6 mesh network that gives you a permanent address, automatic encryption, and a self-healing network—all without central servers or complex configuration. In this guide, we'll cover everything from downloading and insta",
-      "url": "https://dev.to/maherxs/how-to-use-uqda-network-a-complete-step-by-step-guide-35hp",
-      "source": "Dev.to",
-      "author": "MAHER X",
-      "published": "2026-01-16T18:19:20+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "f83e490c21953e04",
-      "title": "HTTP Archive 2025 Web Almanac",
-      "description": "I love me some good web research reports. I&#8217;m a sucker for them. HTTP Archive&#8217;s Web Almanac is one report I look forward to every year, and I know I&#8217;m not alone there. It&#8217;s one of those highly-anticipated publications on &#8230; HTTP Archive 2025 Web Almanac originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-      "url": "https://css-tricks.com/http-archive-2025-web-almanac/",
-      "source": "CSS-Tricks",
-      "author": "Geoff Graham",
-      "published": "2026-01-16T17:30:43+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
       "id": "766f791c2b867f6b",
@@ -8131,6 +8125,18 @@
       "keywords": []
     },
     {
+      "id": "dc3d58c300305410",
+      "title": "Contrasting Color",
+      "description": "javascript hashtag#colors I searched for an easy way fo find the best contrasting color for colors on my website. There's contrast-color in css, but only works in Firefox and Safari. There are other options with limited availability. I didn't see any formula's I liked. Google Search AI offered steps. I'm hesitant to use anything AI offers without another source where I can verify it. The steps were written differently enough, that it took my brain a few minutes to understand what each one was sa",
+      "url": "https://dev.to/yellowbear/contrasting-color-5c7l",
+      "source": "Dev.to",
+      "author": "Dale Stubbart",
+      "published": "2026-01-23T18:13:14+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "fdd9f6edf866fa0f",
       "title": "Building an AI SaaS system is possible; however, when you build the SaaS system, you should have ethical considerations at the centre. If you don't have ethics at the centre, then your model will work but won't have any trust.",
       "description": "What No One Tells You About Building an AI SaaS Business Jaideep Parashar ・ Jan 17 #webdev #ai #saas #programming",
@@ -8285,19 +8291,17 @@
       ]
     },
     {
-      "id": "f82d4ba21138f2ac",
-      "title": "Best Crypto Payments Gateways in 2026",
-      "description": "Read Best Crypto Payments Gateways in 2025 and learn Web with SitePoint. Our web development and design tutorials, courses, and books will teach you HTML, CSS, JavaScript, PHP, Python, and more. Continue reading Best Crypto Payments Gateways in 2026 on SitePoint.",
-      "url": "https://www.sitepoint.com/best-crypto-payments-gateways-in-2024/?utm_source=rss",
-      "source": "SitePoint",
-      "author": "NOWPayments",
-      "published": "2026-01-16T16:30:05+00:00",
+      "id": "d82f21d8beac06f0",
+      "title": "[Boost]",
+      "description": "🎙️We’ve Built the Fastest Way to Run LLMs in Production (50x faster than LiteLLM)🔥 Anthony Max ・ Jan 20 #webdev #programming #javascript #opensource",
+      "url": "https://dev.to/anthonymax/-42dp",
+      "source": "Dev.to",
+      "author": "Anthony Max",
+      "published": "2026-01-23T18:19:02+00:00",
       "niche": "dev",
-      "score": 47,
+      "score": 48,
       "keywords": [
-        "PHP",
-        "development",
-        "tutorial"
+        "programming"
       ]
     },
     {
@@ -8473,66 +8477,6 @@
       "keywords": [
         "developer"
       ]
-    },
-    {
-      "id": "6b95c61e766ae755",
-      "title": "6-Day and IP Address Certificates Are Generally Available",
-      "description": "Comments",
-      "url": "https://letsencrypt.org/2026/01/15/6day-and-ip-general-availability",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-16T15:37:19+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "018646d63cf827a7",
-      "title": "Launch HN: Indy (YC S21) – A support app designed for ADHD brains",
-      "description": "Comments",
-      "url": "https://www.shimmer.care/indy-redirect",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-16T16:20:21+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "24de6dc24f5d233f",
-      "title": "Zep AI (Agent Context Engineering, YC W24) Is Hiring Forward Deployed Engineers",
-      "description": "Comments",
-      "url": "https://www.ycombinator.com/companies/zep-ai/jobs/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-16T17:00:29+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "e9edaa624861bd96",
-      "title": "Earth from Space: The Fate of a Giant",
-      "description": "Comments",
-      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/01/Earth_from_Space_The_fate_of_a_giant",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-16T18:18:20+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "ca29afd2e892b1c4",
-      "title": "East Germany balloon escape",
-      "description": "Comments",
-      "url": "https://en.wikipedia.org/wiki/East_Germany_balloon_escape",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-16T17:16:33+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "faf9221f4868aac5",
@@ -10287,39 +10231,39 @@
       "keywords": []
     },
     {
-      "id": "00ccb947077ff190",
-      "title": "AI Model Collapse in Design Tools: Why Your Background Remover Is Getting Worse",
-      "description": "AI tools degrading over time? Same photo, same tool, worse results six months later. Here's what's happening and how to adapt. Continue reading AI Model Collapse in Design Tools: Why Your Background Remover Is Getting Worse on SitePoint.",
-      "url": "https://www.sitepoint.com/ai-model-collapse-in-design-tools/?utm_source=rss",
-      "source": "SitePoint",
-      "author": "Tanya Donska",
-      "published": "2026-01-16T17:02:59+00:00",
+      "id": "d378598bef191a31",
+      "title": "Proof of Corn",
+      "description": "Comments",
+      "url": "https://proofofcorn.com/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-23T17:56:31+00:00",
       "niche": "dev",
-      "score": 42,
+      "score": 44,
       "keywords": []
     },
     {
-      "id": "d851742a3583c356",
-      "title": "Best Payment Gateway for Subscriptions & Recurring Payment: 2026",
-      "description": "Best Payment Gateway for Subscriptions & Recurring Payment: 2025. Find the best payment gateway for your subscription business in 2025! Process recurring payments and transactions easily. Continue reading Best Payment Gateway for Subscriptions & Recurring Payment: 2026 on SitePoint.",
-      "url": "https://www.sitepoint.com/payment-gateway-for-subscriptions/?utm_source=rss",
-      "source": "SitePoint",
-      "author": "SitePoint Sponsors",
-      "published": "2026-01-16T16:41:40+00:00",
+      "id": "911947d97ea3da91",
+      "title": "KORG phase8 – Acoustic Synthesizer",
+      "description": "Comments",
+      "url": "https://www.korg.com/us/products/dj/phase8/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-23T14:34:46+00:00",
       "niche": "dev",
-      "score": 42,
+      "score": 44,
       "keywords": []
     },
     {
-      "id": "187c5ece4a71322a",
-      "title": "Best Payment Gateways in France for 2026",
-      "description": "Discover the best payment gateways in France for 2025. Explore top payment methods and solutions to choose the best online payment service for your business! Continue reading Best Payment Gateways in France for 2026 on SitePoint.",
-      "url": "https://www.sitepoint.com/best-payment-gateways-in-france/?utm_source=rss",
-      "source": "SitePoint",
-      "author": "NOWPayments",
-      "published": "2026-01-16T16:38:30+00:00",
+      "id": "468b9d46b245a591",
+      "title": "Gas Town's Agent Patterns, Design Bottlenecks, and Vibecoding at Scale",
+      "description": "Comments",
+      "url": "https://maggieappleton.com/gastown",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-23T16:19:18+00:00",
       "niche": "dev",
-      "score": 42,
+      "score": 44,
       "keywords": []
     },
     {
@@ -10448,9 +10392,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "release",
         "code",
-        "performance"
+        "performance",
+        "release"
       ]
     },
     {
@@ -10464,9 +10408,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "release",
         "developer",
-        "API"
+        "API",
+        "release"
       ]
     },
     {
@@ -10505,18 +10449,6 @@
       "published": "2026-01-20T11:57:02+00:00",
       "niche": "dev",
       "score": 39,
-      "keywords": []
-    },
-    {
-      "id": "f115b95d0f19757b",
-      "title": "Dell UltraSharp 52 Thunderbolt Hub Monitor",
-      "description": "Comments",
-      "url": "https://www.dell.com/en-us/shop/dell-ultrasharp-52-thunderbolt-hub-monitor-u5226kw/apd/210-bthw/monitors-monitor-accessories",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-16T17:14:15+00:00",
-      "niche": "dev",
-      "score": 38,
       "keywords": []
     },
     {
@@ -10798,8 +10730,8 @@
       "niche": "dev",
       "score": 37,
       "keywords": [
-        "release",
-        "developer"
+        "developer",
+        "release"
       ]
     },
     {
@@ -10871,8 +10803,8 @@
       "niche": "dev",
       "score": 34,
       "keywords": [
-        "developer",
-        "development"
+        "development",
+        "developer"
       ]
     },
     {
@@ -11063,6 +10995,18 @@
       ]
     },
     {
+      "id": "68d5a52c438ad4a8",
+      "title": "Issue 740",
+      "description": "Want to use an agent, but without launching a terminal or an IDE? 🫨",
+      "url": "https://iosdevweekly.com/issues/740/",
+      "source": "iOS Dev Weekly",
+      "author": "dave@iosdevweekly.com (Dave Verwer)",
+      "published": "2026-01-23T00:00:00+00:00",
+      "niche": "dev",
+      "score": 32,
+      "keywords": []
+    },
+    {
       "id": "bddf0d98cd9f527b",
       "title": "Announcing Baseline in action",
       "description": "Baseline in action is a new series developed to help developers learn how to use Baseline features together to build better user experiences.",
@@ -11117,9 +11061,9 @@
       "keywords": [
         "code",
         "performance",
-        "framework",
+        "release",
         "API",
-        "release"
+        "framework"
       ]
     },
     {
@@ -11409,8 +11353,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "API"
+        "API",
+        "release"
       ]
     },
     {
@@ -11454,9 +11398,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "developer",
         "code",
-        "performance"
+        "performance",
+        "developer"
       ]
     },
     {
@@ -11470,8 +11414,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
-        "developer"
+        "developer",
+        "release"
       ]
     },
     {
@@ -11500,8 +11444,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
-        "developer"
+        "developer",
+        "release"
       ]
     },
     {
@@ -11543,23 +11487,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "developer",
-        "development"
-      ]
-    },
-    {
-      "id": "3b69baa914ee42cf",
-      "title": "How Closures Work in JavaScript: A Handbook for Developers",
-      "description": "If you're learning JavaScript, you've probably heard the term \"closure\" at some point. In many developers' experience, just hearing this word can trigger anxiety. In nearly 17 years of programming experience, I've noticed that closures are one of the...",
-      "url": "https://www.freecodecamp.org/news/how-closures-work-in-javascript-a-handbook-for-developers/",
-      "source": "freeCodeCamp",
-      "author": "Sumit Saha",
-      "published": "2026-01-16T08:00:00+00:00",
-      "niche": "dev",
-      "score": 16,
-      "keywords": [
-        "developer",
-        "programming"
+        "development",
+        "developer"
       ]
     },
     {
@@ -11588,8 +11517,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "developer",
-        "code"
+        "code",
+        "developer"
       ]
     },
     {
@@ -11719,18 +11648,6 @@
       ]
     },
     {
-      "id": "4bfae14bae4d871b",
-      "title": "Graphics In Flatland – 2D ray tracing [video]",
-      "description": "Comments",
-      "url": "https://www.youtube.com/watch?v=WYTOykSqf2Y",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-16T18:15:52+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
       "id": "739c618035a96599",
       "title": "200 MB RAM FreeBSD Desktop",
       "description": "Comments",
@@ -11750,18 +11667,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2026-01-18T01:29:42+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "b773dbbfec6689b7",
-      "title": "RTS for Agents",
-      "description": "Comments",
-      "url": "https://www.getagentcraft.com/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-16T18:20:15+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -11834,18 +11739,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2026-01-17T14:02:17+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "61894bb2ff371ddb",
-      "title": "Hands-On Introduction to Unikernels",
-      "description": "Comments",
-      "url": "https://labs.iximiuz.com/tutorials/unikernels-intro-93976514",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-16T18:16:10+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -11935,6 +11828,30 @@
       "keywords": []
     },
     {
+      "id": "af5defdc9b5198e2",
+      "title": "Show HN: Zsweep – Play Minesweeper using only Vim motions",
+      "description": "Comments",
+      "url": "https://zsweep.com",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-18T14:00:00+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "f83e490c21953e04",
+      "title": "HTTP Archive 2025 Web Almanac",
+      "description": "I love me some good web research reports. I&#8217;m a sucker for them. HTTP Archive&#8217;s Web Almanac is one report I look forward to every year, and I know I&#8217;m not alone there. It&#8217;s one of those highly-anticipated publications on &#8230; HTTP Archive 2025 Web Almanac originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
+      "url": "https://css-tricks.com/http-archive-2025-web-almanac/",
+      "source": "CSS-Tricks",
+      "author": "Geoff Graham",
+      "published": "2026-01-16T17:30:43+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
       "id": "01e82ef7dc236071",
       "title": "“I Heart CSS” DailyDev Squad",
       "description": "If you&#8217;re reading this, chances are you already have some sort of way that you&#8217;re following when we publish new content, whether that&#8217;s RSS, Bluesky, Mastodon, or what have you. But I know a lot of folks &#8230; &#8220;I Heart CSS&#8221; DailyDev Squad originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
@@ -11978,18 +11895,6 @@
       "source": "CSS-Tricks",
       "author": "Daniel Schwarz",
       "published": "2025-12-31T16:18:23+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "81fb23eaaaaa63b7",
-      "title": "Thank You (2025 Edition)",
-      "description": "This is the best job I've had in my life and it's only possible because you keep showing up each day to read, learn, share, and discuss all-things-front-end (and a little CSS, of course) with us. Thank You (2025 Edition) originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
-      "url": "https://css-tricks.com/thank-you-2025-edition/",
-      "source": "CSS-Tricks",
-      "author": "Geoff Graham",
-      "published": "2025-12-23T15:52:53+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -12176,8 +12081,8 @@
       "niche": "dev",
       "score": 13,
       "keywords": [
-        "developer",
-        "code"
+        "code",
+        "developer"
       ]
     },
     {
@@ -12359,6 +12264,42 @@
       "keywords": [
         "developer"
       ]
+    },
+    {
+      "id": "00ccb947077ff190",
+      "title": "AI Model Collapse in Design Tools: Why Your Background Remover Is Getting Worse",
+      "description": "AI tools degrading over time? Same photo, same tool, worse results six months later. Here's what's happening and how to adapt. Continue reading AI Model Collapse in Design Tools: Why Your Background Remover Is Getting Worse on SitePoint.",
+      "url": "https://www.sitepoint.com/ai-model-collapse-in-design-tools/?utm_source=rss",
+      "source": "SitePoint",
+      "author": "Tanya Donska",
+      "published": "2026-01-16T17:02:59+00:00",
+      "niche": "dev",
+      "score": 12,
+      "keywords": []
+    },
+    {
+      "id": "d851742a3583c356",
+      "title": "Best Payment Gateway for Subscriptions & Recurring Payment: 2026",
+      "description": "Best Payment Gateway for Subscriptions & Recurring Payment: 2025. Find the best payment gateway for your subscription business in 2025! Process recurring payments and transactions easily. Continue reading Best Payment Gateway for Subscriptions & Recurring Payment: 2026 on SitePoint.",
+      "url": "https://www.sitepoint.com/payment-gateway-for-subscriptions/?utm_source=rss",
+      "source": "SitePoint",
+      "author": "SitePoint Sponsors",
+      "published": "2026-01-16T16:41:40+00:00",
+      "niche": "dev",
+      "score": 12,
+      "keywords": []
+    },
+    {
+      "id": "187c5ece4a71322a",
+      "title": "Best Payment Gateways in France for 2026",
+      "description": "Discover the best payment gateways in France for 2025. Explore top payment methods and solutions to choose the best online payment service for your business! Continue reading Best Payment Gateways in France for 2026 on SitePoint.",
+      "url": "https://www.sitepoint.com/best-payment-gateways-in-france/?utm_source=rss",
+      "source": "SitePoint",
+      "author": "NOWPayments",
+      "published": "2026-01-16T16:38:30+00:00",
+      "niche": "dev",
+      "score": 12,
+      "keywords": []
     },
     {
       "id": "849a31264602f6cb",
@@ -12964,18 +12905,6 @@
       "source": "iOS Dev Weekly",
       "author": "dave@iosdevweekly.com (Dave Verwer)",
       "published": "2025-10-17T00:00:00+00:00",
-      "niche": "dev",
-      "score": 7,
-      "keywords": []
-    },
-    {
-      "id": "e94b6eae289b2153",
-      "title": "Issue 730",
-      "description": "Will you forgive me one more issue where I talk about Swift on the server? 😬",
-      "url": "https://iosdevweekly.com/issues/730/",
-      "source": "iOS Dev Weekly",
-      "author": "dave@iosdevweekly.com (Dave Verwer)",
-      "published": "2025-10-10T00:00:00+00:00",
       "niche": "dev",
       "score": 7,
       "keywords": []
