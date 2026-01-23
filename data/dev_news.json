@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-23T18:41:55.943648+00:00",
-  "total_articles": 988,
+  "last_updated": "2026-01-23T21:27:54.971130+00:00",
+  "total_articles": 990,
   "articles": [
     {
       "id": "fd03a584d80d5c72",
@@ -855,6 +855,20 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2026-01-20T23:26:06+00:00",
+      "niche": "dev",
+      "score": 63,
+      "keywords": [
+        "code"
+      ]
+    },
+    {
+      "id": "0f85297fb76d378b",
+      "title": "Unrolling the Codex Agent Loop",
+      "description": "Comments",
+      "url": "https://openai.com/index/unrolling-the-codex-agent-loop/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-23T20:42:36+00:00",
       "niche": "dev",
       "score": 63,
       "keywords": [
@@ -1723,36 +1737,6 @@
       ]
     },
     {
-      "id": "27ea59d1b7d90539",
-      "title": "I Built a Conflict-Resilient JSON Editor to Solve Collaborative Nightmares, and here is the Tech Stack",
-      "description": "If your JSON configuration is stored within the codebase, even a one-character change can trigger a release cycle. Many teams work around this by syncing configs to object storage(AWS S3) via CI/CD. The app logic ships on its own cadence, while configs publish independently. It reduces deploy friction, but often at the cost of double work (touching code and a pipeline) and silent overwrites when multiple people edit the same file. This article outlines a more direct path: a JSON editor that writ",
-      "url": "https://dev.to/emily_chen_80108/i-built-a-conflict-resilient-json-editor-to-solve-collaborative-nightmares-and-here-is-the-1ai3",
-      "source": "Dev.to",
-      "author": "Emily Chen",
-      "published": "2026-01-16T21:00:47+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "release",
-        "code"
-      ]
-    },
-    {
-      "id": "234a902c42e8bcde",
-      "title": "Decoupling Material and Cupertino in Flutter: Why It Matters and How to Adapt",
-      "description": "As Flutter developers, we know that Flutter’s “batteries included” philosophy has long been its superpower. Built on the simple premise to \"paint every pixel,\" the framework shipped with everything needed to build a real app out of the box: a renderi...",
-      "url": "https://www.freecodecamp.org/news/decoupling-material-and-cupertino-in-flutter/",
-      "source": "freeCodeCamp",
-      "author": "Atuoha Anthony",
-      "published": "2026-01-16T18:44:10+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "framework",
-        "developer"
-      ]
-    },
-    {
       "id": "f4c8e4a1fabb6241",
       "title": "Frameworks for Humans in the Age of Machines",
       "description": "Yesterday I attended “Frameworks for Humans in the Age of Machines,” a talk by Rich Harris, the founder of Svelte. The talk explored a big question: as more engineering work shifts to AI agents and automation, what is left for humans to do? Rich’s answer was simple and reassuring a lot. He spoke about building tools that feel good to use, cutting unnecessary complexity, and creating frameworks that work with developers instead of fighting them. Rich also shared that he began his career in journa",
@@ -2247,34 +2231,6 @@
       "keywords": [
         "API",
         "code"
-      ]
-    },
-    {
-      "id": "4a1340747d2273b8",
-      "title": "Integrating KaibanJS Teams with Kaiban.io: Enterprise Workflow Automation via A2A Protocol",
-      "description": "Introduction In today's enterprise landscape, AI agents need to seamlessly integrate with existing workflow management systems. While building intelligent agents is powerful, their true value is unlocked when they can participate in collaborative workflows, update task statuses automatically, and provide visibility across teams. This article explores how to integrate KaibanJS—a multi-agent framework for building collaborative AI teams—with Kaiban.io—an enterprise workflow management platform—usi",
-      "url": "https://dev.to/kaibanjs/integrating-kaibanjs-teams-with-kaibanio-enterprise-workflow-automation-via-a2a-protocol-2kk7",
-      "source": "Dev.to",
-      "author": "Dariel Vila",
-      "published": "2026-01-16T21:17:59+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "framework"
-      ]
-    },
-    {
-      "id": "edc2afb2f849be7e",
-      "title": "Accelerating AI Innovation with the AWS Cloud Adoption Framework",
-      "description": "Introduction Cloud adoption is critical for organizations looking to leverage Artificial Intelligence (AI), Machine Learning (ML), and Generative AI (GenAI). But scaling AI in the cloud isn’t just about spinning up servers — it requires strategy, governance, and alignment across people, processes, and technology. The AWS Cloud Adoption Framework (CAF) provides a structured approach to navigate this journey, ensuring organizations can adopt AI and ML in a secure, scalable, and business-aligned wa",
-      "url": "https://dev.to/aws-builders/accelerating-ai-innovation-with-the-aws-cloud-adoption-framework-28hk",
-      "source": "Dev.to",
-      "author": "Olawale Adepoju",
-      "published": "2026-01-16T20:37:49+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "framework"
       ]
     },
     {
@@ -3851,20 +3807,6 @@
       "keywords": [
         "code",
         "developer"
-      ]
-    },
-    {
-      "id": "b801d91b6de2ceac",
-      "title": "Real-world Challenges of Team Development with Oracle APEX, SQLcl, and Liquibase: A Starting Point for Discussion",
-      "description": "In modern CI/CD, the goal is simple: 1 Jira Ticket = 1 Pull Request. Every commit should be clean, isolated, and automated. However, when working with Oracle APEX and database objects in a team environment, achieving this \"clean state\" is anything but straightforward. 1. Working Copies: Great for APEX, But... The Approach: Use APEX's native \"Working Copies\" to branch the application metadata. The \"But\": Working Copies only isolate APEX components (pages, items, etc.). They still point to a share",
-      "url": "https://dev.to/gino_suarez_58c991193a60c/real-world-challenges-of-team-development-with-oracle-apex-sqlcl-and-liquibase-a-starting-point-5e63",
-      "source": "Dev.to",
-      "author": "Gino Suarez",
-      "published": "2026-01-16T21:02:27+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "development"
       ]
     },
     {
@@ -5493,76 +5435,32 @@
       ]
     },
     {
-      "id": "766f791c2b867f6b",
-      "title": "Resolviendo errores al conformar protocolos \"actor-isolated\".",
-      "description": "Swift 6 introdujo varios cambios para promover un entorno concurrente seguro. Entre ellos está el ejecutar el código en el hilo principal por defecto y también conformar protocolos de forma aislada por concurrencia (\"actor-isolated\"). Contexto En Swift, un actor garantiza exclusión mutua: su estado interno solo puede ser accedido desde dentro de su propio aislamiento de concurrencia. Cuando un protocolo define una propiedad o método, por defecto se interpreta como aislada al contexto del tipo qu",
-      "url": "https://dev.to/david_goyes_a488f58a17a53/resolviendo-errores-al-conformar-protocolos-actor-isolated-4cfi",
+      "id": "7ade6e7de0dfc712",
+      "title": "Vim for DevOps: Practical Editing Techniques for Remote Operations",
+      "description": "1. Introduction: Why Vim matters for remote ops A lot of junior engineers take one look at Vim and think, “Why on earth would I bother with this?” It’s old, clunky, and, let’s be honest, it feels about as fresh as a rotary phone. You’ve got VS Code, remote everything, and you just click your way through. So what’s the point of learning Vim? But then, you land in incident response or DevOps environments. Suddenly, the fancy GUI is gone. You’re dropped into a terminal—no mouse, no bells and whistl",
+      "url": "https://dev.to/alaxay8/vim-for-devops-practical-editing-techniques-for-remote-operations-50fm",
       "source": "Dev.to",
-      "author": "GoyesDev",
-      "published": "2026-01-16T21:19:58+00:00",
+      "author": "Alexey Cherednichenko",
+      "published": "2026-01-23T20:35:15+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
-      "id": "f66a63fda4021003",
-      "title": "How My Economics Degree Made Me a Better AI Engineer",
-      "description": "When I tell people I studied Economics at Arizona State University and now work as an AI Engineer building chatbots, I usually get a confused look. \"How did that happen?\" The truth is, my economics background didn't just accidentally lead me to AI—it actively made me better at it. Here's what I've learned bridging these two worlds. The Unexpected Overlap Economics and machine learning share more DNA than most people realize. Both fields are obsessed with the same fundamental questions: How do we",
-      "url": "https://dev.to/jackfelke/how-my-economics-degree-made-me-a-better-ai-engineer-98g",
+      "id": "24ebd8d6759efa29",
+      "title": "Chat Frame",
+      "description": "Script ```/By SpaceIA Dev/ <!DOCTYPE html> Cyber Chat Ultra-Mini <br> @property --rotation {<br> syntax: '<angle>';<br> inherits: false;<br> initial-value: 0deg;<br> }</p> <div class=\"highlight\"><pre class=\"highlight plaintext\"><code> :root { --glass-frost: 0.1; --glass-saturation: 2; --border_width: 2px; --placeholder-color: rgba(255, 255, 255, 0.4); --neon-gradient: conic-gradient(from var(--rotation) at 50% 50%, #0084ff, #00ff88, #ffaa00, #0084ff); } body { font-family: system-ui, sans-serif;",
+      "url": "https://dev.to/doudev_doudec_932f2856baa/chat-frame-lc7",
       "source": "Dev.to",
-      "author": "Jack Felke",
-      "published": "2026-01-16T21:13:36+00:00",
+      "author": "DOUdev DOUdec",
+      "published": "2026-01-23T20:14:13+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "82cbbb1a22398a6c",
-      "title": "Security news weekly round-up - 16th January 2026",
-      "description": "We can't stop talking about malware and phishing. They are threats that seem not to go away. Now, with the explosion of Artificial Intelligence in the last three years, we have to talk about topics like prompt injection, AI poisoning, and so on. The latter examples are specific to AI and can have far-reaching consequences. AI Tool Poisoning: How Hidden Instructions Threaten AI Agents A quick TL;DR for this article: an AI tool can work as expected and still be malicious by stealing your personal ",
-      "url": "https://dev.to/ziizium/security-news-weekly-round-up-16th-january-2026-1n8l",
-      "source": "Dev.to",
-      "author": "Habdul Hazeez",
-      "published": "2026-01-16T21:11:11+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "827a250cfc05c93f",
-      "title": "Day 13: The 12-Day Gap and Coming Back",
-      "description": "The Honest Part Day 13. But it's been 12 days since I posted day 12. Yeah, I know how that looks. Mental and physical health took a dip. Not gonna sugarcoat it or make excuses - it got bad enough that I couldn't show up. But I'm back now, without meds support this time. Just dealing with it raw. The Consistency Problem I know what this pattern looks like. Someone who posts for a few days, disappears for weeks, comes back with renewed energy and promises to do better. Rinse and repeat. It makes m",
-      "url": "https://dev.to/casperday11/day-13-the-12-day-gap-and-coming-back-13pi",
-      "source": "Dev.to",
-      "author": "Somay",
-      "published": "2026-01-16T21:05:53+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "2fc10ff1549bfa48",
-      "title": "Our Godot Game Only Crashed on Expensive PCs (Here's Why)",
-      "description": "Players started reporting that our game was freezing during boss fights. No crash logs. No Sentry reports. Just \"Not Responding\" and then... nothing. The weird part? It was happening on RTX 4090s while working fine on older hardware. Yeah. My brother and I run Lost Rabbit Digital together, and we've been building Starbrew Station (a space coffee shop idle game, it's a whole thing) in Godot 4.5. Here's what we found and how we fixed it. The Actual Problems We tracked it down to four separate issu",
-      "url": "https://dev.to/david_dev_sec/our-godot-game-only-crashed-on-expensive-pcs-heres-why-40jl",
-      "source": "Dev.to",
-      "author": "David McHale",
-      "published": "2026-01-16T21:02:35+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "5e33fde00a27f7fc",
-      "title": "What Happens When You Give an AI Agent Root Access?",
-      "description": "It deletes your production database. Merges a broken PR. Sends 10,000 Slack messages. Spins up $50K worth of EC2 instances. I'm kidding. Mostly. But here's the thing: AI agents are getting root access everywhere, and we're pretending guardrails will magically appear later. They won't. So I spent the last few months building Cordum - an open-source governance layer for AI agents. Every action goes through a policy check before it executes. Here's why I built it, how it works, and what I learned. ",
-      "url": "https://dev.to/yaron_torjeman_5288cbab83/what-happens-when-you-give-an-ai-agent-root-access-1nda",
-      "source": "Dev.to",
-      "author": "yaron torjeman",
-      "published": "2026-01-16T20:33:43+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "a93d930b19f14430",
@@ -8137,6 +8035,102 @@
       "keywords": []
     },
     {
+      "id": "a9235e82e0210552",
+      "title": "I Stopped Building Features, All at Once”",
+      "description": "Hi Folks, I STOPPED BUILDING FEATURES, ALL AT ONCE Wondering Why ?! I am developing a restaurant management software(RMS) to make the restaurant owners life better. I was trying to fix the features that I want to include in my RMS, I have gone through the features of, most of the RMS in the current market, and I did a mistake❗. MISTAKE I HAVE DONE I took a list of features from other applications and tried to include them in my RMS. Seems like a common mistake from a beginner right 😅. Ofcourse, ",
+      "url": "https://dev.to/sajithpj/i-stopped-building-features-all-at-once-333l",
+      "source": "Dev.to",
+      "author": "Sajith P J",
+      "published": "2026-01-23T21:17:04+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "6e81a17997c81be9",
+      "title": "[Memoria] Almacenamiento de Class y Struct",
+      "description": "Durante una entrevista, el entrevistador mencionó que \"se suele decir que struct es más rápido que class\". Luego acuñó las preguntas: \"¿Por qué? ¿Qué relación tiene con la memoria? ¿Dónde se almacena?\" Esta pregunta me parece capciosa y bastante difícil de responder en una entrevista oral, a través de una video llamada, donde no tengo materiales para ilustrar las ideas. Más de un desarrollador de iOS dice que las estructuras viven en el stack y las clases en el heap. Sin embargo, estrictamente h",
+      "url": "https://dev.to/david_goyes_a488f58a17a53/memoria-almacenamiento-de-class-y-struct-58j7",
+      "source": "Dev.to",
+      "author": "GoyesDev",
+      "published": "2026-01-23T21:10:53+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "11dd64d24381f03a",
+      "title": "Write Dynamic GitLab pipelines in TypeScript",
+      "description": "As CI/CD pipelines evolve, they tend to grow in size, complexity, and inevitably... frustration. If you’ve ever maintained a large .gitlab-ci.yml file, you’ve probably felt the pain: copy-paste everywhere, no type safety, and mistakes that only surface when a runner fails at runtime. This article introduces an alternative approach: defining GitLab pipelines in TypeScript, while still producing a perfectly valid .gitlab-ci.yml file that GitLab can run as-is. Why TypeScript for GitLab pipelines? G",
+      "url": "https://dev.to/sleeyax/write-dynamic-gitlab-pipelines-in-typescript-3ake",
+      "source": "Dev.to",
+      "author": "Sleeyax",
+      "published": "2026-01-23T21:06:16+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "4c0242db21711393",
+      "title": "Security news weekly round-up - 23rd January 2026",
+      "description": "Is malware going anywhere anytime soon? I don't think so. What about phishing? No. You should be worried about thses two so long that you have digital devices that you care about. Why LinkedIn is a hunting ground for threat actors – and how to protect yourself I'll be clear on this one: This is not exclusive to LinkedIn. Therefore, be very careful on social media websites and the information that you share. From the article: The challenge with LinkedIn threats is that it’s difficult for IT to ge",
+      "url": "https://dev.to/ziizium/security-news-weekly-round-up-23rd-january-2026-1n47",
+      "source": "Dev.to",
+      "author": "Habdul Hazeez",
+      "published": "2026-01-23T21:01:37+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "3ef746e30b2bffcb",
+      "title": "How to Stop an SLM from Overthinking",
+      "description": "When running an SLM with a parameter count of only 4B locally, you expect a trade-off: it’s fast, but it has the memory of a goldfish. In my testing of Qwen3-4B, I kept hitting a wall. I wanted to see what level of reasoning it was capable of. I’d ask it a fairly complex Linux diagnostic question such as the following: \"I deleted several large files from /tmp on my Linux system, but df still shows the filesystem as full while ls shows no large files. In two sentences, explain why this happens. D",
+      "url": "https://dev.to/ben-santora/how-to-stop-an-slm-from-overthinking-575l",
+      "source": "Dev.to",
+      "author": "Ben Santora",
+      "published": "2026-01-23T20:58:34+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "81a35ac47a5c68d2",
+      "title": "Data Analyst Guide: Mastering Neural Networks: When Analysts Should Use Deep Learning",
+      "description": "Data Analyst Guide: Mastering Neural Networks: When Analysts Should Use Deep Learning Business Problem Statement In the retail industry, predicting customer churn is crucial for maintaining a loyal customer base and reducing revenue loss. A leading e-commerce company wants to develop a predictive model to identify customers who are likely to stop making purchases. The goal is to proactively offer personalized promotions and improve customer retention. The company expects a significant Return on ",
+      "url": "https://dev.to/amal_org_e8fe019c45517244/data-analyst-guide-mastering-neural-networks-when-analysts-should-use-deep-learning-32ib",
+      "source": "Dev.to",
+      "author": "amal org",
+      "published": "2026-01-23T20:37:57+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "5750a74806bfca9d",
+      "title": "🤖 AI DevOps Debugger — Turning Production Logs into Actionable Insights with Copilot CLI",
+      "description": "This is a submission for the GitHub Copilot CLI Challenge What I Built As a backend engineer, I’ve spent a lot of time debugging production issues — memory leaks, Redis disconnections, unhandled promise rejections, timeout errors, and mysterious crashes that only appear in production. Logs usually tell us what happened, but not why. So I built AI DevOps Debugger, a terminal-based CLI tool that transforms raw production logs into structured, actionable insights using GitHub Copilot CLI. 🔍 What It",
+      "url": "https://dev.to/darshanraval/ai-devops-debugger-turning-production-logs-into-actionable-insights-with-copilot-cli-1hlb",
+      "source": "Dev.to",
+      "author": "Darshan Raval",
+      "published": "2026-01-23T20:17:19+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "3ba1db8c2095440d",
+      "title": "Your App Worked Perfectly… Until the OS Killed It",
+      "description": "A production story from real apps. For a long time, I thought process death was an edge case. Something you read about in docs. Something that might happen, but not in real life. After all, my apps worked fine. QA was happy. Users were using them. Then production taught me otherwise. It Started With Autonemo While working on Autonemo, a vehicle tracking app, everything looked solid: Live vehicle tracking Trip status Ongoing routes Driver activity You open the app → tracking works. You background",
+      "url": "https://dev.to/alamin_karno_b096f2ace0bb/your-app-worked-perfectly-until-the-os-killed-it-38e9",
+      "source": "Dev.to",
+      "author": "Alamin Karno",
+      "published": "2026-01-23T20:12:16+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "fdd9f6edf866fa0f",
       "title": "Building an AI SaaS system is possible; however, when you build the SaaS system, you should have ethical considerations at the centre. If you don't have ethics at the centre, then your model will work but won't have any trust.",
       "description": "What No One Tells You About Building an AI SaaS Business Jaideep Parashar ・ Jan 17 #webdev #ai #saas #programming",
@@ -8477,18 +8471,6 @@
       "keywords": [
         "developer"
       ]
-    },
-    {
-      "id": "faf9221f4868aac5",
-      "title": "The Engineer to Executive Translation Layer",
-      "description": "Comments",
-      "url": "https://refactoring.fm/p/the-engineer-executive-translation",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-16T21:13:48+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "a0a2927dc0ab15b6",
@@ -10267,6 +10249,66 @@
       "keywords": []
     },
     {
+      "id": "8fd5a9865f004618",
+      "title": "Gas Town's agent patterns, design bottlenecks, and vibecoding at scale",
+      "description": "Comments",
+      "url": "https://maggieappleton.com/gastown",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-23T16:19:18+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "c230e4ded091b040",
+      "title": "Route leak incident on January 22, 2026",
+      "description": "Comments",
+      "url": "https://blog.cloudflare.com/route-leak-incident-january-22-2026/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-23T17:54:45+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "ff67129bbd1ede95",
+      "title": "Notes on the Intel 8086 processor's arithmetic-logic unit",
+      "description": "Comments",
+      "url": "https://www.righto.com/2026/01/notes-on-intel-8086-processors.html",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-23T17:26:27+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "37cda91dcc3274ff",
+      "title": "TrueVault (YC W14) is hiring a Growth Lead to test different growth channels",
+      "description": "Comments",
+      "url": "https://www.ycombinator.com/companies/truevault/jobs/njvSGDj-growth-lead",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-23T21:01:34+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "027679097eee5842",
+      "title": "Killing the ISP Appliance: An eBPF/XDP Approach to Distributed BNG",
+      "description": "Comments",
+      "url": "https://markgascoyne.co.uk/posts/ebpf-bng/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-23T17:29:53+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "36cc3e91df2ab359",
       "title": "10 Tips for Effective User Experience Evaluation",
       "description": "\"Learn 10 proven UX design tips to improve user experience, boost engagement, and increase conversions. From usability testing to A/B testing strategies.\" Continue reading 10 Tips for Effective User Experience Evaluation on SitePoint.",
@@ -10392,9 +10434,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "code",
         "performance",
-        "release"
+        "release",
+        "code"
       ]
     },
     {
@@ -10408,9 +10450,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "developer",
+        "release",
         "API",
-        "release"
+        "developer"
       ]
     },
     {
@@ -10715,8 +10757,8 @@
       "score": 38,
       "keywords": [
         "React 19",
-        "API",
-        "release"
+        "release",
+        "API"
       ]
     },
     {
@@ -10730,8 +10772,8 @@
       "niche": "dev",
       "score": 37,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -10846,8 +10888,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "framework",
-        "API"
+        "API",
+        "framework"
       ]
     },
     {
@@ -10981,6 +11023,18 @@
       "keywords": []
     },
     {
+      "id": "68d5a52c438ad4a8",
+      "title": "Issue 740",
+      "description": "Want to use an agent, but without launching a terminal or an IDE? 🫨",
+      "url": "https://iosdevweekly.com/issues/740/",
+      "source": "iOS Dev Weekly",
+      "author": "dave@iosdevweekly.com (Dave Verwer)",
+      "published": "2026-01-23T00:00:00+00:00",
+      "niche": "dev",
+      "score": 32,
+      "keywords": []
+    },
+    {
       "id": "1b2a7c177ebb44d3",
       "title": "WebGPU is now supported in major browsers",
       "description": "Read about the biggest web graphics launch since WebGL. WebGPU is supported across major browsers, bringing unparalleled performance to the web.",
@@ -10993,18 +11047,6 @@
       "keywords": [
         "performance"
       ]
-    },
-    {
-      "id": "68d5a52c438ad4a8",
-      "title": "Issue 740",
-      "description": "Want to use an agent, but without launching a terminal or an IDE? 🫨",
-      "url": "https://iosdevweekly.com/issues/740/",
-      "source": "iOS Dev Weekly",
-      "author": "dave@iosdevweekly.com (Dave Verwer)",
-      "published": "2026-01-23T00:00:00+00:00",
-      "niche": "dev",
-      "score": 32,
-      "keywords": []
     },
     {
       "id": "bddf0d98cd9f527b",
@@ -11060,8 +11102,8 @@
       "score": 30,
       "keywords": [
         "code",
-        "performance",
         "release",
+        "performance",
         "API",
         "framework"
       ]
@@ -11353,8 +11395,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "API",
-        "release"
+        "release",
+        "API"
       ]
     },
     {
@@ -11368,8 +11410,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "framework",
-        "release"
+        "release",
+        "framework"
       ]
     },
     {
@@ -11383,8 +11425,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "framework",
-        "Angular"
+        "Angular",
+        "framework"
       ]
     },
     {
@@ -11398,9 +11440,24 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "code",
         "performance",
+        "code",
         "developer"
+      ]
+    },
+    {
+      "id": "234a902c42e8bcde",
+      "title": "Decoupling Material and Cupertino in Flutter: Why It Matters and How to Adapt",
+      "description": "As Flutter developers, we know that Flutter’s “batteries included” philosophy has long been its superpower. Built on the simple premise to \"paint every pixel,\" the framework shipped with everything needed to build a real app out of the box: a renderi...",
+      "url": "https://www.freecodecamp.org/news/decoupling-material-and-cupertino-in-flutter/",
+      "source": "freeCodeCamp",
+      "author": "Atuoha Anthony",
+      "published": "2026-01-16T18:44:10+00:00",
+      "niche": "dev",
+      "score": 19,
+      "keywords": [
+        "developer",
+        "framework"
       ]
     },
     {
@@ -11414,8 +11471,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -11429,8 +11486,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "code",
-        "performance"
+        "performance",
+        "code"
       ]
     },
     {
@@ -11444,8 +11501,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -11502,8 +11559,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "code",
-        "API"
+        "API",
+        "code"
       ]
     },
     {
@@ -11672,18 +11729,6 @@
       "keywords": []
     },
     {
-      "id": "c9626612081af8db",
-      "title": "Letting Claude Play Text Adventures",
-      "description": "Comments",
-      "url": "https://borretti.me/article/letting-claude-play-text-adventures",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-16T21:02:25+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
       "id": "e1077a2e0fd2b834",
       "title": "Binary Fuse Filters: Fast and Smaller Than XOR Filters",
       "description": "Comments",
@@ -11691,30 +11736,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2026-01-17T14:02:17+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "fc54654669729ad8",
-      "title": "Golfing APL/K in 90 Lines of Python",
-      "description": "Comments",
-      "url": "https://aljamal.substack.com/p/golfing-aplk-in-90-lines-of-python",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-16T19:34:00+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "f62d8770f8d79a61",
-      "title": "Letting Claude play text adventures",
-      "description": "Comments",
-      "url": "https://borretti.me/article/letting-claude-play-text-adventures",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-16T21:02:25+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -11751,18 +11772,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2026-01-17T23:29:54+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "8ca79c70b9062d91",
-      "title": "What Is Control Flow Analysis for Lambda Calculus? – Iowa Type Theory Commute",
-      "description": "Comments",
-      "url": "https://rss.buzzsprout.com/728558.rss",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-16T19:05:40+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -11835,6 +11844,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2026-01-18T14:00:00+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "28558232b60782f5",
+      "title": "Gold Fever Cold and the True Adventures of Jack London in the Wild",
+      "description": "Comments",
+      "url": "https://www.smithsonianmag.com/history/gold-fever-deadly-cold-and-amazing-true-adventures-jack-london-wild-180973316/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-18T13:09:50+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -12018,8 +12039,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "programming",
-        "development"
+        "development",
+        "programming"
       ]
     },
     {
