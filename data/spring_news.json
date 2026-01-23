@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-23T13:02:33.503228+00:00",
-  "total_articles": 188,
+  "last_updated": "2026-01-23T15:35:48.032074+00:00",
+  "total_articles": 190,
   "articles": [
     {
       "id": "35f2328369b17b2f",
@@ -142,6 +142,18 @@
       "source": "Spring Blog (Official)",
       "author": "wilkinsona",
       "published": "2026-01-22T00:00:00+00:00",
+      "niche": "spring",
+      "score": 62,
+      "keywords": []
+    },
+    {
+      "id": "53cf53d19d197bb2",
+      "title": "Spring AI 2.0.0-M2 Available Now",
+      "description": "On behalf of the Spring AI team, I'm happy to announce that Spring AI 2.0.0-M2 is now available from Maven Central. Release Summary This release includes 94 changes: 36 improvements, 16 bug fixes, 38 documentation updates, and 4 dependency upgrades. Thanks to all contributors. Null Safety Spring AI 2.0 will join the Spring Portfolio effort to provide a null-safe API, as documented in this original blog post. What this means is that the whole Spring AI codebase needs to be reviewed and converted ",
+      "url": "https://spring.io/blog/2026/01/23/spring-ai-2-0-0-M2-available-now",
+      "source": "Spring Blog (Official)",
+      "author": "markpollack",
+      "published": "2026-01-23T00:00:00+00:00",
       "niche": "spring",
       "score": 62,
       "keywords": []
@@ -615,6 +627,42 @@
       "keywords": []
     },
     {
+      "id": "6df8c21eb757b9b1",
+      "title": "Using @ConcreteProxy in Hibernate",
+      "description": "Hibernate is a powerful ORM framework, but its use of proxies for lazy loading can sometimes lead to subtle and confusing issues, especially when inheritance is involved. The @ConcreteProxy annotation was introduced to address one such issue: incorrect proxy type resolution. Let us delve into understanding Hibernate ConcreteProxy and its role in object persistence and &#8230;",
+      "url": "https://www.javacodegeeks.com/using-concreteproxy-in-hibernate.html",
+      "source": "Java Code Geeks",
+      "author": "Yatin Batra",
+      "published": "2026-01-23T13:54:00+00:00",
+      "niche": "spring",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "dd1e7229cafdd9e2",
+      "title": "Docker Runtime Escape: Why Mounting docker.sock Is Worse Than Running Privileged Containers",
+      "description": "Most DevOps engineers know that running containers with the privileged flag is dangerous. It's one of those things we all learn early on - never use privileged mode in production unless you absolutely have to. Security teams flag it, auditors complain about it, and for good reason. But here's what scared me recently: there's something much worse that's being mounted into production containers every single day, and most teams don't realize the risk. I'm talking about mounting the Docker socket in",
+      "url": "https://feeds.dzone.com/link/18931/17261508/docker-runtime-escape-docker-sock",
+      "source": "DZone Microservices",
+      "author": "Shamsher Khan",
+      "published": "2026-01-23T14:00:08+00:00",
+      "niche": "spring",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "7826b24476e0a848",
+      "title": "Design and Implementation of Cloud-Native Microservice Architectures for Scalable Insurance Analytics Platforms",
+      "description": "Objective Statement This study proposes a scalable, modular, and cloud-native microservice architecture tailored for the insurance industry. The goal is to enable rapid enterprise-wide analytics adoption, seamless AI integration, and real-time data processing through containerization, orchestration, and service-based deployment models that enhance scalability, agility, and system resilience. Problem Context Although insurers are among the earliest adopters of artificial intelligence, fewer than ",
+      "url": "https://feeds.dzone.com/link/18931/17261481/cloud-native-microservice-architectures-for-scalable-insurance-analytics",
+      "source": "DZone Microservices",
+      "author": "Afroz Mohammad",
+      "published": "2026-01-23T13:00:07+00:00",
+      "niche": "spring",
+      "score": 42,
+      "keywords": []
+    },
+    {
       "id": "174bab62c67b9786",
       "title": "1B Rows with the Memory API - JEP Cafe #25",
       "description": "In this JEP Café episode, we take on the well-known '1 Billion Rows Challenge' and implement it using the standard Memory API introduced in JDK 22. The goal of this implementation is not to break any speed records, but to show you how can process binary data using standard patterns offered by the JDK, in a clean and efficient way.",
@@ -759,6 +807,18 @@
       "keywords": []
     },
     {
+      "id": "4bdfa1e590cb1bef",
+      "title": "Oracle Java Extension for Visual Studio Code Version 25.0.1 Is Now Available!",
+      "description": "New release of Java Platform Extension for VS Code",
+      "url": "https://inside.java/2026/01/23/java-vscode-extension-update/",
+      "source": "Inside.java (Oracle)",
+      "author": "[\"ArvindAprameya\"]",
+      "published": "2026-01-23T00:00:00+00:00",
+      "niche": "spring",
+      "score": 32,
+      "keywords": []
+    },
+    {
       "id": "a1a5105910961394",
       "title": "The best way to clean up test data with Spring and Hibernate",
       "description": "Introduction In this article, I&#8217;m going to show you the best way to clean up test data when using Spring and Hibernate. While it&#8217;s very common to use the @DataJpaTest annotation when implementing integration tests, in this blog post, you will see why you are better off avoiding using this annotation. Why I don&#8217;t use @DataJpaTest As explained by the manual, Spring Boot provides the @DataJpaTest annotation for Spring Data JPA integration testing. Once the @DataJpaTest annotation ",
@@ -838,18 +898,6 @@
       "source": "Thorben Janssen",
       "author": "Thorben Janssen",
       "published": "2025-11-19T09:42:05+00:00",
-      "niche": "spring",
-      "score": 32,
-      "keywords": []
-    },
-    {
-      "id": "4bdfa1e590cb1bef",
-      "title": "Oracle Java Extension for Visual Studio Code Version 25.0.1 Is Now Available!",
-      "description": "New release of Java Platform Extension for VS Code",
-      "url": "https://inside.java/2026/01/23/java-vscode-extension-update/",
-      "source": "Inside.java (Oracle)",
-      "author": "[\"ArvindAprameya\"]",
-      "published": "2026-01-23T00:00:00+00:00",
       "niche": "spring",
       "score": 32,
       "keywords": []
@@ -1666,30 +1714,6 @@
       "source": "DZone Microservices",
       "author": "Dippu Kumar Singh",
       "published": "2026-01-15T17:00:12+00:00",
-      "niche": "spring",
-      "score": 12,
-      "keywords": []
-    },
-    {
-      "id": "d75ee97325360d62",
-      "title": "Real-Time Recommendation AI Architecture: Streaming Events and On-Device Ranking",
-      "description": "You log in, browse, maybe buy something, and the app keeps showing basically the same items. Personalization is driven by a nightly batch job in the backend, and recommendation calls are slow trips to a cloud service. Modern apps need recommendations that react to behavior in seconds, not days — and still feel snappy and private on flaky mobile networks.",
-      "url": "https://feeds.dzone.com/link/18931/17254026/real-time-recommendation-ai-architecture-streaming",
-      "source": "DZone Microservices",
-      "author": "Mohan Sankaran",
-      "published": "2026-01-15T15:00:09+00:00",
-      "niche": "spring",
-      "score": 12,
-      "keywords": []
-    },
-    {
-      "id": "6a58288525b93f50",
-      "title": "Why Browsers Are the Weakest Link in Zero Trust Architectures",
-      "description": "Let’s start with a simple fact that cannot be overlooked today: identity is the new perimeter. Following this logic, there exists a simple yet powerful principle of Zero Trust — never trust, always verify. Zero Trust protects architectures by continuously verifying users, devices, and more — whether internal or external — to protect critical resources, sensitive data, and enterprise applications from unauthorized access, insider threats, and lateral movement. Some useful methods within this prin",
-      "url": "https://feeds.dzone.com/link/18931/17253317/why-browsers-are-the-weakest-link-in-zero-trust-ar",
-      "source": "DZone Microservices",
-      "author": "Atish Kumar Dash",
-      "published": "2026-01-14T15:00:11+00:00",
       "niche": "spring",
       "score": 12,
       "keywords": []
