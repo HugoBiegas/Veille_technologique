@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-23T06:42:44.575427+00:00",
-  "total_articles": 997,
+  "last_updated": "2026-01-23T09:36:36.430102+00:00",
+  "total_articles": 994,
   "articles": [
     {
       "id": "fd03a584d80d5c72",
@@ -107,21 +107,6 @@
       "keywords": [
         "API",
         "library"
-      ]
-    },
-    {
-      "id": "e9c801151a62d4a8",
-      "title": "Angular: Stop Overusing ChangeDetectorRef",
-      "description": "In Angular development, we often run into change detection issues, for example when some fields are not updated properly in the template. At that point, we need to investigate where the problem is, and since AI is now part of our day-to-day work, we often use it to help identify the root cause. However, I have observed many times that Copilot suggests using detectChanges() or markForCheck() as a quick fix for various problems. In most cases, these methods do not solve the root cause. The actual ",
-      "url": "https://dev.to/gramli/angular-stop-overusing-changedetectorref-33oa",
-      "source": "Dev.to",
-      "author": "Daniel Balcarek",
-      "published": "2026-01-16T09:18:13+00:00",
-      "niche": "dev",
-      "score": 73,
-      "keywords": [
-        "Angular",
-        "development"
       ]
     },
     {
@@ -357,20 +342,6 @@
       ]
     },
     {
-      "id": "bb83975f65b379fd",
-      "title": "Understanding Git and GitHub: Pushing, Pulling, and Tracking Code (Beginner-Friendly Guide)",
-      "description": "As you grow in your tech journey, one tool you will definitely encounter early is Git. At first, it might feel confusing or even intimidating, but once you understand why it exists and how it works, it becomes one of the most powerful tools in your workflow. In this article, we’ll cover: What Git is and why version control is important How to push code to GitHub How to pull code from GitHub How to track changes using Git Let’s break it down step by step. What Is Git and Why Is Version Control Im",
-      "url": "https://dev.to/k1int/understanding-git-and-github-pushing-pulling-and-tracking-code-beginner-friendly-guide-1bkm",
-      "source": "Dev.to",
-      "author": "ClintWithK",
-      "published": "2026-01-16T09:20:04+00:00",
-      "niche": "dev",
-      "score": 69,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
       "id": "32261f6febfc99db",
       "title": "A Guide to Git and GitHub for Data Analysts",
       "description": "A Guide to Git and GitHub for Data Analysts In the world of software engineering, writing code is only half the battle. The other half is managing that code—tracking its evolution, collaborating with others, and preventing data loss which might be catastrophic. This is where Version Control comes in. 1. What is Git and Why Version Control Matters Version Control is a system that records changes to a file or set of files over time so that you can recall specific versions later. Git is a Distribut",
@@ -565,18 +536,6 @@
       "keywords": [
         "developer"
       ]
-    },
-    {
-      "id": "dc673da0c19760c3",
-      "title": "ReactJS Hook Pattern ~Use Hook with Context~",
-      "description": "・In ReactJS 19, the use hook was introduced to provide a more flexible way of reading context values than the 'useContext' hook. The use hook can be called conditionally inside if statements and loops, making it ideal for achieving dynamic behaviour in components. import { createContext, useContext, use } from \"react\"; import \"./app.css\"; const ThemeContext = createContext(null); function Button({ show, children }) { if (show) { const theme = use(ThemeContext); const className = \"button-\" + them",
-      "url": "https://dev.to/kkr0423/reactjs-hook-pattern-use-hook-with-context-595k",
-      "source": "Dev.to",
-      "author": "Ogasawara Kakeru",
-      "published": "2026-01-16T08:56:23+00:00",
-      "niche": "dev",
-      "score": 68,
-      "keywords": []
     },
     {
       "id": "eca148139ffa8fd1",
@@ -1752,36 +1711,6 @@
       "keywords": []
     },
     {
-      "id": "7a439a04ff202556",
-      "title": "Best Practices in API Design with Node.js & Express.js",
-      "description": "Introduction: Why Most APIs Fail Before They Scale 🚨 You can build an API that works today… and still be building a broken system tomorrow. Many APIs fail not because of traffic, but because of poor design decisions made early-inconsistent responses, unclear endpoints, missing validations, or tight coupling between logic and routes. If you’re building APIs with Node.js and Express.js, this article will walk you through battle-tested best practices that improve maintainability, scalability, secur",
-      "url": "https://dev.to/msnmongare/best-practices-in-api-design-with-nodejs-expressjs-1bno",
-      "source": "Dev.to",
-      "author": "Sospeter Mong'are",
-      "published": "2026-01-16T09:14:14+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "best practices",
-        "API"
-      ]
-    },
-    {
-      "id": "b056ffd984d839db",
-      "title": "From Pixel Smudges to HD: My Battle with Legacy Assets and AI Restoration",
-      "description": "<h1>From Pixel Smudges to HD: My Battle with Legacy Assets and AI Restoration</h1> <p><em>By a Full-Stack Developer who spent too long trying to fix JPEGs with Python scripts.</em></p> <p>It was 2 AM on a Thursday in late 2023 when I hit the wall. I was handling a migration for a client moving their e-commerce catalog from a legacy Magento 1 setup to a modern headless stack. The backend migration was smooth-Postgres was happy, the APIs were responding in sub-50ms. But the frontend looked terribl",
-      "url": "https://dev.to/kaushik_pandav_aiml/from-pixel-smudges-to-hd-my-battle-with-legacy-assets-and-ai-restoration-1a2h",
-      "source": "Dev.to",
-      "author": "Kaushik Pandav",
-      "published": "2026-01-16T08:46:00+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "developer",
-        "API"
-      ]
-    },
-    {
       "id": "27ea59d1b7d90539",
       "title": "I Built a Conflict-Resilient JSON Editor to Solve Collaborative Nightmares, and here is the Tech Stack",
       "description": "If your JSON configuration is stored within the codebase, even a one-character change can trigger a release cycle. Many teams work around this by syncing configs to object storage(AWS S3) via CI/CD. The app logic ships on its own cadence, while configs publish independently. It reduces deploy friction, but often at the cost of double work (touching code and a pipeline) and silent overwrites when multiple people edit the same file. This article outlines a more direct path: a JSON editor that writ",
@@ -2291,6 +2220,21 @@
       "keywords": [
         "release",
         "developer"
+      ]
+    },
+    {
+      "id": "542af2cf8a146af1",
+      "title": "A Lightning-Fast ngrok Alternative in Go",
+      "description": "TL;DR Built a complete ngrok-like tunnel service in Go in one evening (~3.5 hours of focused coding time). Includes both client CLI and backend server. Total code: ~800 lines. Works with Cloudflare Tunnels for free, secure HTTPS tunnels from localhost to the internet. Tech Stack: Go, Cloudflare Tunnels, Cloudflare API Website: golocalport.link The Inspiration I discovered nport - a fantastic ngrok alternative built in Node.js. It's free, open-source, and uses Cloudflare's infrastructure. But I w",
+      "url": "https://dev.to/devshark/a-lightning-fast-ngrok-alternative-in-go-35mc",
+      "source": "Dev.to",
+      "author": "Anthony",
+      "published": "2026-01-23T09:08:38+00:00",
+      "niche": "dev",
+      "score": 55,
+      "keywords": [
+        "API",
+        "code"
       ]
     },
     {
@@ -3152,17 +3096,18 @@
       ]
     },
     {
-      "id": "4589121eff8aedc8",
-      "title": "How AWS re:Invented the cloud",
-      "description": "From the floor at AWS re:Invent, Ryan is joined by AWS Senior Principal Engineer David Yanacek to chat about all things AWS, from the truth behind AWS’s Black Friday origin mythos to the development of essential cloud tools like SQS and DynamoDB. Plus, how David envisions autonomous agents will ease developers&#x27; operational burdens.",
-      "url": "https://stackoverflow.blog/2026/01/16/how-aws-re-invented-the-cloud/",
-      "source": "Stack Overflow Blog",
-      "author": "Phoebe Sajor",
-      "published": "2026-01-16T08:40:00+00:00",
+      "id": "209731a31ce28109",
+      "title": "I Used Claude Code to Write a Legal Appeal for My Mother's Disability Benefits",
+      "description": "I'm a software developer. Claude Code is a CLI tool designed for coding tasks - writing code, debugging, refactoring. So naturally, I used it to write a 230-line legal appeal against a government disability decision. Here's how a programming tool became my most powerful ally in a deeply personal, completely non-technical challenge. The Problem My mother has severe spinal degeneration. After 45 years of physically demanding work, multiple surgeries, and recent osteoporotic vertebral fractures, sh",
+      "url": "https://dev.to/nunc/i-used-claude-code-to-write-a-legal-appeal-for-my-mothers-disability-benefits-40f4",
+      "source": "Dev.to",
+      "author": "Nunc",
+      "published": "2026-01-23T09:01:47+00:00",
       "niche": "dev",
-      "score": 52,
+      "score": 54,
       "keywords": [
-        "development",
+        "programming",
+        "code",
         "developer"
       ]
     },
@@ -3823,34 +3768,6 @@
       "score": 52,
       "keywords": [
         "code",
-        "developer"
-      ]
-    },
-    {
-      "id": "e62df3f04cb39a0e",
-      "title": "Pilot vs. Engineer: How Flying a UAV Changes the Way I Write Code",
-      "description": "**As an Electrical-Electronics Engineering student and a licensed UAV pilot, I’ve spent countless hours behind two different screens: the IDE where I write flight control logic, and the Ground Control Station (GCS) where I monitor that logic in the sky. Early in my journey, I thought that if the simulation in Gazebo looked perfect, the flight would be perfect. I was wrong. Transitioning from the desk to the field taught me that \"perfect code\" can fail if it doesn't account for the \"chaos\" of rea",
-      "url": "https://dev.to/asikarastallion/pilot-vs-engineer-how-flying-a-uav-changes-the-way-i-write-code-408g",
-      "source": "Dev.to",
-      "author": "MUSTAFA SERDAR SÖKMEN",
-      "published": "2026-01-16T09:05:00+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "c1a6608bc0ae92f5",
-      "title": "I Built the Product. Marketing Is the Part That’s Breaking Me.",
-      "description": "When I started building Web2Phone, I thought the hard part would be technical: infrastructure, edge cases, deliverability, security, GDPR… all the stuff that can quietly ruin your week. Turns out I was wrong. Building the product was the part I understand. Marketing is the part that makes me feel like I’m guessing in public. I’m a solo founder and fullstack developer. I can ship features, fix bugs, and make a system reliable. But the minute I need to explain what I built — clearly, consistently,",
-      "url": "https://dev.to/joe_seabrook_0f1e8fc0b720/i-built-the-product-marketing-is-the-part-thats-breaking-me-jol",
-      "source": "Dev.to",
-      "author": "Joe Seabrook",
-      "published": "2026-01-16T09:03:56+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
         "developer"
       ]
     },
@@ -5550,40 +5467,18 @@
       ]
     },
     {
-      "id": "9503ba6b44ef0b10",
-      "title": "AWS SageMaker HyperPod: Distributed Training for Foundation Models at Scale",
-      "description": "The landscape of Artificial Intelligence has undergone a seismic shift with the emergence of Foundation Models (FMs). These models, characterized by billions (and now trillions) of parameters, require unprecedented levels of computational power. Training a model like Llama 3 or Claude is no longer a task for a single machine; it requires a coordinated symphony of hundreds or thousands of GPUs working in unison for weeks or months. However, managing these massive clusters is fraught with technica",
-      "url": "https://dev.to/jubinsoni/aws-sagemaker-hyperpod-distributed-training-for-foundation-models-at-scale-21g5",
+      "id": "e003d219bb460ddc",
+      "title": "Medallion Architecture 101: Building Data Pipelines That Don't Fall Apart",
+      "description": "Medallion architecture appears everywhere in modern data engineering. Bronze, Silver, Gold. Raw data, refined data, analytics-ready data. Every Databricks tutorial mentions it. Every lakehouse pitch deck includes the diagram. Every \"modern data stack\" blog post treats it as gospel. Here's the part most people skip: the core ideas trace back to Ralph Kimball's data warehouse methodology from the 1990s. Kimball advocated for staging areas that preserved raw data, integration zones for applying bus",
+      "url": "https://dev.to/aawiegel/medallion-architecture-101-building-data-pipelines-that-dont-fall-apart-1gil",
       "source": "Dev.to",
-      "author": "Jubin Soni",
-      "published": "2026-01-16T09:10:36+00:00",
+      "author": "Aaron Wiegel",
+      "published": "2026-01-23T09:10:19+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "c65de1df0d3c005e",
-      "title": "WTF is Distributed Chaos Engineering?",
-      "description": "WTF is this: the tech term that's been haunting your dreams and making you question your life choices. Today, we're diving into the wonderfully weird world of Distributed Chaos Engineering. Buckle up, folks, it's about to get real. So, what is Distributed Chaos Engineering? In simple terms, it's a way to test how well a complex system (think: a huge network of computers, like a cloud service) can handle unexpected failures or disruptions. Imagine you're at a music festival, and suddenly, the mai",
-      "url": "https://dev.to/dailybugle33/wtf-is-distributed-chaos-engineering-28fh",
-      "source": "Dev.to",
-      "author": "Daily Bugle",
-      "published": "2026-01-16T08:49:43+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "c21dafedb3b2b361",
-      "title": "Why Payment Event Logging Is Critical in Worldpay Integrations",
-      "description": "When working with payment gateways like Worldpay, problems rarely show up as clear errors. Most of the time, things almost work — until someone from support or finance asks a question you can’t answer. The Hidden Complexity of Worldpay Integrations On the surface, Worldpay integration looks simple: Send a payment request Receive a response Handle webhooks In reality, payments go through multiple asynchronous steps: Authorization Capture Settlement Refunds Retries Failures Manual interventions Ea",
-      "url": "https://dev.to/ramapratheeba/why-payment-event-logging-is-critical-in-worldpay-integrations-1b1i",
-      "source": "Dev.to",
-      "author": "Rama Pratheeba",
-      "published": "2026-01-16T08:41:30+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "tutorial"
+      ]
     },
     {
       "id": "a1116fbf780f88f3",
@@ -8206,6 +8101,90 @@
       "keywords": []
     },
     {
+      "id": "545c7eb3db132a7b",
+      "title": "Integrating Claude AI Into Your WordPress Plugins",
+      "description": "I'll be honest with you: when I first considered integrating AI into WordPress plugins, I thought it was overkill. Another buzzword-driven feature that clients would never use. Then I built a project estimator for my woocommerce agency, and everything changed. That simple tool—asking clients natural language questions about their WordPress project and generating accurate estimates—has become one of my best lead qualification mechanisms. No more back-and-forth emails trying to understand vague re",
+      "url": "https://dev.to/el_condorito_54d80b88eb90/integrating-claude-ai-into-your-wordpress-plugins-4omk",
+      "source": "Dev.to",
+      "author": "El Condorito",
+      "published": "2026-01-23T09:27:07+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "a49654abbec1754c",
+      "title": "secure calculator vault",
+      "description": "secure calculator vault hide and encrypt users file. For encrypting the file we use AES 256 encryption. Also added the built in media viewer so user don't need to leave the app for viewing the file. when user remove the file from the app it automatically decrypt the file. user can choose where he wants to save the file on computer after removing from the app. it's a user's privacy focused app. Designed for user who value security and simplicity, the app allows you to safely manage and view your ",
+      "url": "https://dev.to/patel_4ad1dbb5f279fff28b3/secure-calculator-vault-251",
+      "source": "Dev.to",
+      "author": "Patel",
+      "published": "2026-01-23T09:23:54+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "c59af973c1d7a8a3",
+      "title": "I Built a Receipt Scanner to Stop Losing Money on Expenses",
+      "description": "I Built Manage Receipt to Fix My Own Expense Tracking Mess As a freelancer and small business owner, I kept running into the same problem: receipts everywhere, missed deductions, and no clear view of my expenses. Some receipts were in my wallet. Some were in WhatsApp. Some were emails. Some were just… gone. At tax time, this turned into lost money and wasted hours. That frustration is what led me to build Manage Receipt. The Real Problem With Expense Tracking Most expense tools are built for acc",
+      "url": "https://dev.to/naman_gupta_4b554ece35bb2/i-built-a-receipt-scanner-to-stop-losing-money-on-expenses-ngh",
+      "source": "Dev.to",
+      "author": "naman gupta",
+      "published": "2026-01-23T09:20:51+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "8c5e8fdab8b41057",
+      "title": "Best DNS for Gaming in 2026",
+      "description": "When people discuss improving their online gaming experience, the conversation typically centers on faster internet plans, better routers, or lower ping times. One quiet but important piece of the puzzle is DNS. It works silently in the background, yet it plays a role every single time your game connects to a server. Picking the right DNS can help reduce small delays, improve connection reliability, and avoid those frustrating moments when a game fails to connect for no obvious reason. This guid",
+      "url": "https://dev.to/lightningdev123/best-dns-for-gaming-in-2026-4kph",
+      "source": "Dev.to",
+      "author": "Lightning Developer",
+      "published": "2026-01-23T09:19:46+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "54c66a45c38b1115",
+      "title": "Host a simple Website using Nginx",
+      "description": "Hi Guys, I worked on a simple website and hosted it on EC2 and served using Nginx. The website wasn’t designed or deployed by me, I just used it to practice and update my skills on Linux and Nginx. Here are the steps I followed: ✅ Create and launch an EC2 Instance Used Ubuntu OS Make sure you allow ports 22 (SSH) and 80 (http) ✅Install Nginx Sudo apt install nginx -y Nginx -v ✅Downloaded the websites zipped file from a github repo (https://github.com/pravinmishraaws/Pravin-Mishra-Portfolio-Templ",
+      "url": "https://dev.to/danyang007/host-a-simple-website-using-nginx-1a8a",
+      "source": "Dev.to",
+      "author": "Daniel Inyang",
+      "published": "2026-01-23T09:16:54+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "4716df8c4ea952f8",
+      "title": "Linux Learning Journey – Day 10: User & Group Management in Linux 🐧🔐",
+      "description": "After understanding system identity, privileges, and package management in Day 9, Day 10 was focused on one of the most critical responsibilities of a Linux system administrator: managing users and groups. In real-world servers—especially in cloud and enterprise environments—user access control is a key security and operational requirement. 🔹 What I Learned & Practiced 🔹 User Management in Linux I started by learning how Linux handles users and authentication at the system level. - useradd – Cre",
+      "url": "https://dev.to/avinashwagh/linux-learning-journey-day-10-user-group-management-in-linux-pn1",
+      "source": "Dev.to",
+      "author": "Avinash wagh",
+      "published": "2026-01-23T09:09:36+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "6b88619abfc2d4ce",
+      "title": "Recall Radar: Instantly Detect Product Recalls with Algolia Agent Studio",
+      "description": "# Submission for the Algolia Agent Studio Challenge Consumer-Facing Non-Conversational Experiences This is a submission for the Algolia Agent Studio Challenge. 🚨 What I Built Recall Radar is a consumer-facing Safety Agent designed to instantly detect whether a product has been officially recalled. Instead of relying on slow, conversational AI flows, Recall Radar adopts a non-conversational, retrieval-first approach. It delivers an immediate, authoritative Safe / Not Safe verdict based on officia",
+      "url": "https://dev.to/asamaes/recall-radar-instantly-detect-product-recalls-with-algolia-agent-studio-2l60",
+      "source": "Dev.to",
+      "author": "Asmae",
+      "published": "2026-01-23T09:07:50+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "fdd9f6edf866fa0f",
       "title": "Building an AI SaaS system is possible; however, when you build the SaaS system, you should have ethical considerations at the centre. If you don't have ethics at the centre, then your model will work but won't have any trust.",
       "description": "What No One Tells You About Building an AI SaaS Business Jaideep Parashar ・ Jan 17 #webdev #ai #saas #programming",
@@ -8536,18 +8515,6 @@
       ]
     },
     {
-      "id": "4455f4e3a60a2d40",
-      "title": "Building a better Bugbot",
-      "description": "Comments",
-      "url": "https://cursor.com/blog/building-bugbot",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-16T06:52:03+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
       "id": "f2ed8731ef97b0d7",
       "title": "Just the Browser",
       "description": "Comments",
@@ -8555,42 +8522,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2026-01-16T12:03:52+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "8903495c995ee199",
-      "title": "The spectrum of isolation: From bare metal to WebAssembly",
-      "description": "Comments",
-      "url": "https://buildsoftwaresystems.com/post/guide-to-execution-environments/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-16T09:27:03+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "1b69882b4b279313",
-      "title": "Interactive eBPF",
-      "description": "Comments",
-      "url": "https://ebpf.party/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-16T08:01:02+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "593db98d1919ab36",
-      "title": "pf: Make af-to less magical",
-      "description": "Comments",
-      "url": "https://undeadly.org/cgi?action=article;sid=20260116085115",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-16T09:06:45+00:00",
       "niche": "dev",
       "score": 44,
       "keywords": []
@@ -10372,6 +10303,18 @@
       "keywords": []
     },
     {
+      "id": "b12a0333cbb33fe7",
+      "title": "Proton Spam and the AI Consent Problem",
+      "description": "Comments",
+      "url": "https://dbushell.com/2026/01/22/proton-spam/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-23T07:01:29+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "00ccb947077ff190",
       "title": "AI Model Collapse in Design Tools: Why Your Background Remover Is Getting Worse",
       "description": "AI tools degrading over time? Same photo, same tool, worse results six months later. Here's what's happening and how to adapt. Continue reading AI Model Collapse in Design Tools: Why Your Background Remover Is Getting Worse on SitePoint.",
@@ -10490,8 +10433,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "React 19",
-        "performance"
+        "performance",
+        "React 19"
       ]
     },
     {
@@ -10533,9 +10476,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
+        "release",
         "code",
-        "performance",
-        "release"
+        "performance"
       ]
     },
     {
@@ -10550,8 +10493,8 @@
       "score": 40,
       "keywords": [
         "API",
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -10892,8 +10835,8 @@
       "score": 38,
       "keywords": [
         "API",
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -10907,8 +10850,8 @@
       "niche": "dev",
       "score": 37,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -10950,8 +10893,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -10965,8 +10908,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -11224,10 +11167,10 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "framework",
         "release",
         "API",
         "code",
+        "framework",
         "performance"
       ]
     },
@@ -11508,21 +11451,6 @@
       "keywords": []
     },
     {
-      "id": "3b69baa914ee42cf",
-      "title": "How Closures Work in JavaScript: A Handbook for Developers",
-      "description": "If you're learning JavaScript, you've probably heard the term \"closure\" at some point. In many developers' experience, just hearing this word can trigger anxiety. In nearly 17 years of programming experience, I've noticed that closures are one of the...",
-      "url": "https://www.freecodecamp.org/news/how-closures-work-in-javascript-a-handbook-for-developers/",
-      "source": "freeCodeCamp",
-      "author": "Sumit Saha",
-      "published": "2026-01-16T08:00:00+00:00",
-      "niche": "dev",
-      "score": 22,
-      "keywords": [
-        "developer",
-        "programming"
-      ]
-    },
-    {
       "id": "d9cea9cf8b12e9da",
       "title": "New Architecture is here",
       "description": "React Native 0.76 with the New Architecture by default is now available on npm!",
@@ -11560,8 +11488,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "framework",
-        "release"
+        "release",
+        "framework"
       ]
     },
     {
@@ -11591,8 +11519,8 @@
       "score": 20,
       "keywords": [
         "code",
-        "performance",
-        "developer"
+        "developer",
+        "performance"
       ]
     },
     {
@@ -11606,8 +11534,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -11636,8 +11564,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -11666,6 +11594,36 @@
       "score": 18,
       "keywords": [
         "release"
+      ]
+    },
+    {
+      "id": "4589121eff8aedc8",
+      "title": "How AWS re:Invented the cloud",
+      "description": "From the floor at AWS re:Invent, Ryan is joined by AWS Senior Principal Engineer David Yanacek to chat about all things AWS, from the truth behind AWS’s Black Friday origin mythos to the development of essential cloud tools like SQS and DynamoDB. Plus, how David envisions autonomous agents will ease developers&#x27; operational burdens.",
+      "url": "https://stackoverflow.blog/2026/01/16/how-aws-re-invented-the-cloud/",
+      "source": "Stack Overflow Blog",
+      "author": "Phoebe Sajor",
+      "published": "2026-01-16T08:40:00+00:00",
+      "niche": "dev",
+      "score": 16,
+      "keywords": [
+        "development",
+        "developer"
+      ]
+    },
+    {
+      "id": "3b69baa914ee42cf",
+      "title": "How Closures Work in JavaScript: A Handbook for Developers",
+      "description": "If you're learning JavaScript, you've probably heard the term \"closure\" at some point. In many developers' experience, just hearing this word can trigger anxiety. In nearly 17 years of programming experience, I've noticed that closures are one of the...",
+      "url": "https://www.freecodecamp.org/news/how-closures-work-in-javascript-a-handbook-for-developers/",
+      "source": "freeCodeCamp",
+      "author": "Sumit Saha",
+      "published": "2026-01-16T08:00:00+00:00",
+      "niche": "dev",
+      "score": 16,
+      "keywords": [
+        "programming",
+        "developer"
       ]
     },
     {
@@ -11823,18 +11781,6 @@
       "keywords": []
     },
     {
-      "id": "2af4db0fe4a4e3d4",
-      "title": "Opening the AWS European Sovereign Cloud",
-      "description": "Comments",
-      "url": "https://aws.amazon.com/blogs/aws/opening-the-aws-european-sovereign-cloud/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-16T09:23:08+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
       "id": "739c618035a96599",
       "title": "200 MB RAM FreeBSD Desktop",
       "description": "Comments",
@@ -11986,6 +11932,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2026-01-18T23:19:19+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "48fe8316b34b1965",
+      "title": "Project Mercury and the Sofar Bomb",
+      "description": "Comments",
+      "url": "https://www.thequantumcat.space/p/project-mercury-and-the-sofar-bomb",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-18T11:51:21+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
