@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-24T02:03:05.134038+00:00",
-  "total_articles": 424,
+  "last_updated": "2026-01-24T04:00:48.026658+00:00",
+  "total_articles": 423,
   "articles": [
     {
       "id": "0b2cabc365a47a1f",
@@ -1315,11 +1315,11 @@
       "niche": "security",
       "score": 75,
       "keywords": [
-        "exploit",
-        "security flaw",
-        "security",
+        "patch",
         "zero-day",
-        "patch"
+        "security",
+        "exploit",
+        "security flaw"
       ]
     },
     {
@@ -2417,10 +2417,10 @@
       "niche": "security",
       "score": 61,
       "keywords": [
-        "RCE",
-        "security",
+        "secure",
         "OWASP",
-        "secure"
+        "security",
+        "RCE"
       ]
     },
     {
@@ -2652,6 +2652,18 @@
       "keywords": []
     },
     {
+      "id": "1de551f6a0e8e855",
+      "title": "Microsoft file les clés BitLocker au FBI sur simple mandat",
+      "description": "Microsoft vient de confirmer qu'ils filent les clés de chiffrement BitLocker au FBI quand celui-ci débarque avec un mandat. Et même si on s'en doutait fooort, c'est la première fois qu'on a la preuve que ça arrive vraiment. L'affaire s'est passée à Guam (une île américaine dans le Pacifique), où des agents fédéraux enquêtaient sur une histoire de fraude. Ils avaient besoin d'accéder aux ordis de suspects, sauf que les disques étaient chiffrés avec l'outil BitLocker , le chiffrement intégré à Win",
+      "url": "https://korben.info/microsoft-bitlocker-fbi-cles.html",
+      "source": "Korben",
+      "author": "Korben",
+      "published": "2026-01-24T01:03:10+01:00",
+      "niche": "security",
+      "score": 57,
+      "keywords": []
+    },
+    {
       "id": "ee26d0f5e267a117",
       "title": "A 0-click exploit chain for the Pixel 9 Part 2: Cracking the Sandbox with a Big Wave",
       "description": "With the advent of a potential Dolby Unified Decoder RCE exploit, it seemed prudent to see what kind of Linux kernel drivers might be accessible from the resulting userland context, the mediacodec context. As per the AOSP documentation, the mediacodec SELinux context is intended to be a constrained (a.k.a sandboxed) context where non-secure software decoders are utilized. Nevertheless, using my DriverCartographer tool, I discovered an interesting device driver, /dev/bigwave that was accessible f",
@@ -2666,18 +2678,6 @@
         "exploit",
         "RCE"
       ]
-    },
-    {
-      "id": "1de551f6a0e8e855",
-      "title": "Microsoft file les clés BitLocker au FBI sur simple mandat",
-      "description": "Microsoft vient de confirmer qu'ils filent les clés de chiffrement BitLocker au FBI quand celui-ci débarque avec un mandat. Et même si on s'en doutait fooort, c'est la première fois qu'on a la preuve que ça arrive vraiment. L'affaire s'est passée à Guam (une île américaine dans le Pacifique), où des agents fédéraux enquêtaient sur une histoire de fraude. Ils avaient besoin d'accéder aux ordis de suspects, sauf que les disques étaient chiffrés avec l'outil BitLocker , le chiffrement intégré à Win",
-      "url": "https://korben.info/microsoft-bitlocker-fbi-cles.html",
-      "source": "Korben",
-      "author": "Korben",
-      "published": "2026-01-24T01:03:10+01:00",
-      "niche": "security",
-      "score": 57,
-      "keywords": []
     },
     {
       "id": "d439b5f6ca200618",
@@ -3638,22 +3638,6 @@
       ]
     },
     {
-      "id": "8e2f9d0282ba6c7c",
-      "title": "AppGuard Critiques AI Hyped Defenses; Expands its Insider Release for its Next-Generation Platform",
-      "description": "A new Top 10 Cybersecurity Innovators profile by AppGuard has been released, spotlighting growing concerns over AI-enhanced malware. AI makes malware even more difficult to detect. Worse, they use AI to assess, adapt, and move faster than any cyber stack can keep up. The report advocates for a fundamental change in approach, highlighting the limitations of reactive security measures. Rather than constantly adding or changing detection layers of cyber stacks, the profile emphasizes the importance",
-      "url": "https://www.csoonline.com/article/4118270/appguard-critiques-ai-hyped-defenses-expands-its-insider-release-for-its-next-generation-platform.html",
-      "source": "CSO Online",
-      "author": "Inconnu",
-      "published": "2026-01-17T03:18:35+00:00",
-      "niche": "security",
-      "score": 49,
-      "keywords": [
-        "malware",
-        "security",
-        "cybersecurity"
-      ]
-    },
-    {
       "id": "2f720bfe930be8d8",
       "title": "7 top cybersecurity projects for 2026",
       "description": "As 2026 finds CISOs’ battle against relentless cyberattackers escalating once again, strong and carefully planned cybersecurity projects are the best way to stay a step ahead of attackers and prevent them from gaining the upper hand. From data governance to zero trust, here are several essential cybersecurity projects every CISO should consider adopting in the year ahead. 1. Transforming identity access for the AI era As AI and automation evolve, managing not only employee access but also the id",
@@ -3727,11 +3711,11 @@
       "niche": "security",
       "score": 49,
       "keywords": [
-        "exploit",
         "vulnerability",
         "threat",
         "security advisory",
-        "security"
+        "security",
+        "exploit"
       ]
     },
     {
@@ -3835,8 +3819,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "attack",
-        "exploit"
+        "exploit",
+        "attack"
       ]
     },
     {
@@ -3850,8 +3834,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "attack",
-        "exploit"
+        "exploit",
+        "attack"
       ]
     },
     {
@@ -3880,8 +3864,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "exploit",
-        "threat"
+        "threat",
+        "exploit"
       ]
     },
     {
@@ -3895,8 +3879,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "attack",
-        "exploit"
+        "exploit",
+        "attack"
       ]
     },
     {
@@ -3910,8 +3894,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "CVE-",
-        "security"
+        "security",
+        "CVE-"
       ]
     },
     {
@@ -4313,8 +4297,8 @@
       "niche": "security",
       "score": 44,
       "keywords": [
-        "CVE-",
-        "security"
+        "security",
+        "CVE-"
       ]
     },
     {
@@ -4454,10 +4438,10 @@
       "niche": "security",
       "score": 43,
       "keywords": [
-        "RCE",
-        "security",
+        "secure",
         "OWASP",
-        "secure"
+        "security",
+        "RCE"
       ]
     },
     {
@@ -4987,9 +4971,9 @@
       "niche": "security",
       "score": 42,
       "keywords": [
-        "RCE",
+        "OWASP",
         "security",
-        "OWASP"
+        "RCE"
       ]
     },
     {
@@ -5060,8 +5044,8 @@
       "niche": "security",
       "score": 38,
       "keywords": [
-        "RCE",
-        "OWASP"
+        "OWASP",
+        "RCE"
       ]
     },
     {
@@ -5099,10 +5083,10 @@
       "niche": "security",
       "score": 37,
       "keywords": [
+        "security",
         "patch",
-        "attack",
         "exploit",
-        "security"
+        "attack"
       ]
     },
     {
@@ -5116,10 +5100,10 @@
       "niche": "security",
       "score": 37,
       "keywords": [
-        "web application security",
-        "security",
+        "threat",
         "OWASP",
-        "threat"
+        "web application security",
+        "security"
       ]
     },
     {
@@ -5133,10 +5117,10 @@
       "niche": "security",
       "score": 34,
       "keywords": [
-        "cybersecurity",
-        "security",
+        "threat",
         "OWASP",
-        "threat"
+        "cybersecurity",
+        "security"
       ]
     },
     {
@@ -5177,9 +5161,9 @@
       "niche": "security",
       "score": 31,
       "keywords": [
-        "security",
+        "secure",
         "OWASP",
-        "secure"
+        "security"
       ]
     },
     {
@@ -5208,10 +5192,10 @@
       "niche": "security",
       "score": 29,
       "keywords": [
-        "cybersecurity",
-        "ransomware",
+        "threat",
         "security",
-        "threat"
+        "ransomware",
+        "cybersecurity"
       ]
     },
     {
@@ -5439,9 +5423,9 @@
       "niche": "security",
       "score": 22,
       "keywords": [
-        "cybersecurity",
+        "threat",
         "security",
-        "threat"
+        "cybersecurity"
       ]
     },
     {
@@ -5455,8 +5439,8 @@
       "niche": "security",
       "score": 22,
       "keywords": [
-        "phishing",
-        "exploit"
+        "exploit",
+        "phishing"
       ]
     },
     {
@@ -5499,8 +5483,8 @@
       "score": 19,
       "keywords": [
         "PoC",
-        "cybersecurity",
-        "security"
+        "security",
+        "cybersecurity"
       ]
     },
     {
@@ -5584,8 +5568,8 @@
       "niche": "security",
       "score": 16,
       "keywords": [
-        "cybersecurity",
-        "security"
+        "security",
+        "cybersecurity"
       ]
     },
     {

@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-24T02:03:15.952780+00:00",
-  "total_articles": 994,
+  "last_updated": "2026-01-24T04:00:59.170733+00:00",
+  "total_articles": 996,
   "articles": [
     {
       "id": "244ae7139ee3970d",
@@ -366,6 +366,21 @@
       "source": "Dev.to",
       "author": "Justin Poehnelt",
       "published": "2026-01-22T20:45:34+00:00",
+      "niche": "dev",
+      "score": 70,
+      "keywords": [
+        "code",
+        "developer"
+      ]
+    },
+    {
+      "id": "f4f5061859a08f42",
+      "title": "The Complete Git & GitHub Developer Guide",
+      "description": "What is Git? Git is a distributed version control system that tracks changes in your codebase, enabling collaboration and maintaining a complete history of your project. Key Benefits: Track every change made to your code Collaborate with multiple developers simultaneously Revert to previous versions when needed Experiment safely with branches Maintain detailed project history Installation Verify Installation: git --version macOS (via Homebrew): # Install Homebrew first /usr/bin/ruby -e \"$(curl -",
+      "url": "https://dev.to/mohammad1105/the-complete-git-github-developer-guide-3424",
+      "source": "Dev.to",
+      "author": "Mohammad Aman",
+      "published": "2026-01-24T02:31:30+00:00",
       "niche": "dev",
       "score": 70,
       "keywords": [
@@ -1781,21 +1796,6 @@
       ]
     },
     {
-      "id": "9f79aacd06b4e4b3",
-      "title": "Saga Pattern: Ensuring Consistency in Microservices Architectures",
-      "description": "So you finally migrated your monolith to microservices. Congratulations! Now each service has its own database, everything is decoupled, and you're confident everything is under control until that seemingly simple requirement arrives: \"we need to process an order that involves payment, inventory AND customer notification\" There you go. Welcome to distributed transactions hell. The problem that every developer has faced or will face at some point. Remember when everything was simple in the monoli",
-      "url": "https://dev.to/dionatan_melo_d0c126b0216/saga-pattern-ensuring-consistency-in-microservices-architectures-433d",
-      "source": "Dev.to",
-      "author": "Dionatan Melo",
-      "published": "2026-01-17T03:32:55+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "microservices",
-        "developer"
-      ]
-    },
-    {
       "id": "c12c22c2f7d03522",
       "title": "Here are a few options, from most direct to most developer-focused: **Option 1 (Direct & Punchy):** Solved: How I Got Played...",
       "description": "🚀 Executive Summary TL;DR: IT professionals often face exploitation from high-profile clients promising ‘exposure’ or ‘equity’ instead of concrete payment, leading to vague scopes, unpaid work, and loss of control over deliverables. To counter this, implement robust legal frameworks like detailed Statements of Work and clear IP clauses, establish technical guardrails such as VCS ownership and controlled CI/CD pipelines, and secure financial safeguards like escrow services or milestone-based paym",
@@ -2260,34 +2260,6 @@
       "keywords": [
         "API",
         "code"
-      ]
-    },
-    {
-      "id": "d6e613c5b5742ad0",
-      "title": "MCP server templated reports with claude",
-      "description": "Intro I have been fooling around a lot with ai recently, and one of the things I've found myself doing is integrating with MCP servers and then using the projects feature in claude to generate custom reports. What is this? I have set up a remote MCP server that pulls data from the Star Wars API (swapi). This is a remote MCP server, so I am hosting it on one of my domains. To keep this post short and on topic, I will confine myself to the claude components and not talk about the specifics of the ",
-      "url": "https://dev.to/codecowboydotio/mcp-server-templated-reports-with-claude-3ooo",
-      "source": "Dev.to",
-      "author": "codecowboydotio",
-      "published": "2026-01-17T03:51:41+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "API"
-      ]
-    },
-    {
-      "id": "92d54c50e64290e5",
-      "title": "GHSA-GW32-9RMW-QWWW: Svelte SSR XSS: The Textarea Trap",
-      "description": "Svelte SSR XSS: The Textarea Trap Vulnerability ID: GHSA-GW32-9RMW-QWWW CVSS Score: 8.4 Published: 2026-01-16 A high-severity Cross-Site Scripting (XSS) vulnerability exists in Svelte's Server-Side Rendering (SSR) compiler. Due to improper escaping of bind:value directives on <textarea> elements, attackers can break out of the HTML tag context and execute arbitrary JavaScript. TL;DR Svelte's SSR compiler forgot that <textarea> contents are children, not attributes. It didn't escape bind:value co",
-      "url": "https://dev.to/cverports/ghsa-gw32-9rmw-qwww-svelte-ssr-xss-the-textarea-trap-44ld",
-      "source": "Dev.to",
-      "author": "CVE Reports",
-      "published": "2026-01-17T03:03:31+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "API"
       ]
     },
     {
@@ -3821,48 +3793,6 @@
       "keywords": [
         "code",
         "developer"
-      ]
-    },
-    {
-      "id": "4d9240cb39715095",
-      "title": "Your Java Regex Can Be Weaponized (And How To Stop It)",
-      "description": "Most developers don't realize their input validation is a denial of service vulnerability waiting to happen. Let me show you what I mean. Take this innocent looking regex that validates email addresses: String regex = \"^([a-zA-Z0-9]+)+@[a-zA-Z0-9]+\\\\.[a-zA-Z]{2,}$\"; Pattern.compile(regex).matcher(input).matches(); Looks fine right? Now feed it this input: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa! Your CPU just pegged at 100% and stayed there. This is called ReDoS (Regular Expression Denial of Service) ",
-      "url": "https://dev.to/xoifail/your-java-regex-can-be-weaponized-and-how-to-stop-it-ke4",
-      "source": "Dev.to",
-      "author": "Xoifail",
-      "published": "2026-01-17T03:38:59+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "developer"
-      ]
-    },
-    {
-      "id": "ec048abb9683b50d",
-      "title": "Your Java Regex Can Be Weaponized (And How To Stop It)",
-      "description": "Most developers don't realize their input validation is a denial of service vulnerability waiting to happen. Let me show you what I mean. Take this innocent looking regex that validates email addresses: String regex = \"^([a-zA-Z0-9]+)+@[a-zA-Z0-9]+\\\\.[a-zA-Z]{2,}$\"; Pattern.compile(regex).matcher(input).matches(); Looks fine right? Now feed it this input: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa! Your CPU just pegged at 100% and stayed there. This is called ReDoS (Regular Expression Denial of Service) ",
-      "url": "https://dev.to/xoifail/your-java-regex-can-be-weaponized-and-how-to-stop-it-cp9",
-      "source": "Dev.to",
-      "author": "Xoifail",
-      "published": "2026-01-17T03:38:59+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "developer"
-      ]
-    },
-    {
-      "id": "28bd4364642a6072",
-      "title": "Consistency isn't about being perfect every day; it’s about showing up after you fall.",
-      "description": "I missed posting for 3 days due to some intense college schedules and personal commitments. But the learning didn't stop. Progress Update: LeetCode: Solved 3 medium-level JS problems focusing on logic and efficiency. JavaScript: Deepening my understanding of array methods and functional logic. Goal: Catching up on the missed roadmap starting tonight. 100 Days of Code is a marathon, not a sprint. Day 6 loading... 💻🔥 100DaysOfCode #BuildInPublic #JavaScript #Consistency #CareerGrowth\"",
-      "url": "https://dev.to/dhruv_jain_007/consistency-isnt-about-being-perfect-every-day-its-about-showing-up-after-you-fall-2l5l",
-      "source": "Dev.to",
-      "author": "dhruv jain",
-      "published": "2026-01-17T02:50:54+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
       ]
     },
     {
@@ -5505,52 +5435,32 @@
       ]
     },
     {
-      "id": "1b27b39a6838ae21",
-      "title": "The Death of Hyper-Casual: Why 'Mid-Core' is the New Gold Mine for Browser Games in 2026",
-      "description": "For nearly a decade, the browser game market was synonymous with one term: Hyper-Casual. We all know the formula. Simple mechanics (tap to jump), zero progression, aggressive ad placements every 30 seconds, and a lifecycle of about three days before the player deleted the shortcut or closed the tab forever. It was a volume business—churn and burn. But in late 2025, the data started to shift. The \"churn and burn\" model collapsed. Ad revenues for low-retention games plummeted as advertisers stoppe",
-      "url": "https://dev.to/jasonguo/the-death-of-hyper-casual-why-mid-core-is-the-new-gold-mine-for-browser-games-in-2026-3l8",
+      "id": "c3d688fa48ffa249",
+      "title": "Your Morning AI Digest: From LeCun's New Venture to eBay's AI Shopping Ban",
+      "description": "Grab your coffee and settle in. This week's AI news is a perfect blend of groundbreaking innovations and reality checks that show us where artificial intelligence is headed—and where it's hitting some speed bumps. Whether you're a developer, tech enthusiast, or just someone trying to keep up with the AI revolution, these five stories capture the state of AI right now. Let's dive in. The Visionaries: New Frontiers in AI Research Yann LeCun's AMI Labs Takes on World Models If you follow AI, you kn",
+      "url": "https://dev.to/ethan_zhang_e501fea89c25b/your-morning-ai-digest-from-lecuns-new-venture-to-ebays-ai-shopping-ban-2hnh",
       "source": "Dev.to",
-      "author": "Jason Guo",
-      "published": "2026-01-17T03:41:26+00:00",
+      "author": "Ethan Zhang",
+      "published": "2026-01-24T02:46:50+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
-      "id": "6186b4e68d448ff6",
-      "title": "Physical Proof of Proximity (PoPI): Making Sybil Attacks Physically Expensive",
-      "description": "Sybil attacks are not a cryptographic problem. They are an economic problem. If a single machine can cheaply generate thousands of identities, any distributed system that relies purely on digital identity will eventually be gamed. Physical Proof of Proximity (PoPI) is an attempt to change that equation by introducing real-world physical constraints into decentralized systems. This post explains what PoPI is, what it is not, and where it actually makes sense. The Core Problem: Digital Identity Is",
-      "url": "https://dev.to/chronocoders/physical-proof-of-proximity-popi-making-sybil-attacks-physically-expensive-5dje",
+      "id": "62a4851b233e8a71",
+      "title": "Why I Built an Open Source SEO Plugin in 2026",
+      "description": "For years, I watched the WordPress SEO landscape become increasingly dominated by proprietary solutions. Yoast, RankMath, All in One SEO—all powerful tools, but all operating as black boxes. You put your content in, and magic happens. Or does it? The Problem I Kept Running Into As a developer building WordPress sites for clients, I found myself constantly asking: What exactly is this plugin doing to my markup? Every time I inspected the source, I saw meta tags and structured data that I didn't f",
+      "url": "https://dev.to/juandenis/why-i-built-an-open-source-seo-plugin-in-2026-3i1p",
       "source": "Dev.to",
-      "author": "Altug Tatlisu",
-      "published": "2026-01-17T03:40:13+00:00",
+      "author": "Juan Denis",
+      "published": "2026-01-24T02:37:00+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "1fc76eaed22c4505",
-      "title": "JSON to Excel Add-in - Seamless Integration Within Excel",
-      "description": "Welcome to part 3 of our JSON to Excel series! So far, we've covered the introduction to JSON to Excel and the Web App. Today, we're exploring the Excel Add-in - the perfect solution for users who spend their days working in Excel and want to convert JSON data without leaving their familiar environment. Why Use the Excel Add-in? The JSON to Excel Excel Add-in is designed for power users who live in Excel. Here's why it might be the perfect choice for you: Seamless Integration: Works directly wit",
-      "url": "https://dev.to/wtsolutions/json-to-excel-add-in-seamless-integration-within-excel-5ccn",
-      "source": "Dev.to",
-      "author": "WTSolutions",
-      "published": "2026-01-17T03:09:43+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "ef6b5f76293abebe",
-      "title": "MdBin Levels Up: From Custom Markdown Pipeline to Streamdown",
-      "description": "The Evolution Continues A few weeks ago, I introduced MdBin—a free utility for sharing beautifully rendered markdown. The response was incredible, and people were using it exactly how I'd hoped: sharing LLM outputs, documentation snippets, and formatted notes without the friction of paywalls or mangled formatting. But here's the thing about building in public: you never stop iterating. Today I'm excited to share a significant upgrade under the hood—migrating from a custom markdown-it + Shiki pip",
-      "url": "https://dev.to/sivarampg/mdbin-levels-up-from-custom-markdown-pipeline-to-streamdown-55g2",
-      "source": "Dev.to",
-      "author": "Sivaram",
-      "published": "2026-01-17T03:08:59+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
       "id": "6fa1ac053ef5d89b",
@@ -8149,6 +8059,78 @@
       "keywords": []
     },
     {
+      "id": "af6cffd9d2f7cb6d",
+      "title": "How DNS Resolution Works",
+      "description": "Content List What is DNS and why name resolution exists What is the dig command and when it is used Understanding dig . NS and root name servers Understanding dig com NS and TLD name servers Understanding dig google.com NS and authoritative name servers Understanding dig google.com and the full DNS resolution flow What is DNS and why name resolution exists DNS (Domain Name Systems) are Hierarchical & Decentralized servers for the computers softwares, services, and information over the internet. ",
+      "url": "https://dev.to/anoop-rajoriya/how-dns-resolution-works-2n4i",
+      "source": "Dev.to",
+      "author": "Anoop Rajoriya",
+      "published": "2026-01-24T03:45:41+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "81aef37e77182c67",
+      "title": "Vibe Coding on a 4GB RAM Chromebook?",
+      "description": "One of the best experiences with a computer I ever had was the 11.6 inch Samsung Chromebook, launched in 2013 back when ChromeOS was basically a Chrome browser. I was wrapping up my undergraduate at Western Washington University & competent access to Google Docs was essentially all I needed to finish the job. After a lifetime of using slow, crash-prone builds of Windows XP & the recent tragedy of Windows 8, Chrome OS was a breath of fresh air. Over the Christmas vacation, I wanted to see how far",
+      "url": "https://dev.to/mikhael28/vibe-coding-on-a-4gb-ram-chromebook-2c8g",
+      "source": "Dev.to",
+      "author": "Michael 'Misha' Litchev",
+      "published": "2026-01-24T03:34:29+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "0939bebc640c8cea",
+      "title": "Building Tamper-Evident Audit Trails: What the 2025 Trading Crisis Taught Us About Cryptographic Logging",
+      "description": "TL;DR In 2025, eight major algorithmic trading incidents caused $400M+ in losses. The common failure? Audit logs that couldn't prove their own integrity. This post shows you how to implement cryptographic audit trails using VeritasChain Protocol (VCP) v1.1—an open standard that transforms \"trust me\" logging into \"verify, don't trust\" evidence chains. What you'll learn: Why traditional logging fails for algorithmic systems VCP's three-layer integrity architecture Python implementation with hash c",
+      "url": "https://dev.to/veritaschain/building-tamper-evident-audit-trails-what-the-2025-trading-crisis-taught-us-about-cryptographic-384f",
+      "source": "Dev.to",
+      "author": "VeritasChain Standards Organization (VSO)",
+      "published": "2026-01-24T03:18:55+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "a49f18bf649bb02a",
+      "title": "Electron MAS 빌드에서 HDR 비디오가 화면을 먹통으로 만드는 이유",
+      "description": "문제 상황 Electron 앱의 Mac App Store(MAS) 빌드에서 특정 비디오를 재생하면 전체 창이 먹통이 된다. 증상: <video> 태그로 HDR 비디오 재생 시 전체 윈도우 렌더링 실패 비디오 영역만이 아니라 앱 전체가 하얗게 변함 오디오는 정상 재생 재현 조건: MAS 빌드 (com.apple.security.app-sandbox entitlement 적용) 하드웨어 가속 활성화 10-bit HDR 콘텐츠 (BT.2020 색공간, HEVC/AV1 코덱) iPhone으로 촬영한 HDR 비디오가 대표적인 트리거 정상 동작하는 경우: 로컬 개발 환경 (샌드박스 미적용) Windows 빌드 SDR 비디오 원인: Electron #47947 이 문제는 Electron Issue #47947에 문서화된 regression이다. 버전 정보: Electron 27.3.11: 정상 동작 Electron 28.0.0 ~ 28.1.1: 앱 실행 자체가 크래시 Electron 28.1.2",
+      "url": "https://dev.to/wes5510/electron-mas-bildeueseo-hdr-bidioga-hwamyeoneul-meogtongeuro-mandeuneun-iyu-3o1a",
+      "source": "Dev.to",
+      "author": "wes5510",
+      "published": "2026-01-24T03:05:16+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "27f1539003bfe4e6",
+      "title": "CompTIA Security+ SY0-701 2.2 Study Guide: Threat Vectors and Social Engineering",
+      "description": "This study guide provides an exhaustive review of threat vectors, social engineering techniques, and system vulnerabilities as outlined in the CompTIA Security+ SY0-701 exam objectives. It is designed to help both beginners and experienced practitioners synthesize complex security concepts through detailed analysis and real-world comparisons. 1. Understanding Threat Vectors A threat vector (or attack vector) is the specific method or path an attacker uses to gain unauthorized access to a system.",
+      "url": "https://dev.to/andrew_despres/comptia-security-sy0-701-22-study-guide-threat-vectors-and-social-engineering-370m",
+      "source": "Dev.to",
+      "author": "Andrew Despres",
+      "published": "2026-01-24T03:03:23+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "a20a587e42a128c3",
+      "title": "Building Products with Invisible AI: A UX Blueprint",
+      "description": "Most AI products today are loud. They announce themselves. They explain their reasoning at length. They ask users to interact with them explicitly. And in doing so, they often get in the way. The next generation of successful AI products will look very different. They will feel calm. They will feel obvious. They will feel almost boring. Because the most powerful AI is not the one users talk to constantly. It’s the one they barely notice at all. Why “Invisible AI” Is the Real UX Goal Users don’t ",
+      "url": "https://dev.to/jaideepparashar/building-products-with-invisible-ai-a-ux-blueprint-4aic",
+      "source": "Dev.to",
+      "author": "Jaideep Parashar",
+      "published": "2026-01-24T02:20:00+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "fdd9f6edf866fa0f",
       "title": "Building an AI SaaS system is possible; however, when you build the SaaS system, you should have ethical considerations at the centre. If you don't have ethics at the centre, then your model will work but won't have any trust.",
       "description": "What No One Tells You About Building an AI SaaS Business Jaideep Parashar ・ Jan 17 #webdev #ai #saas #programming",
@@ -8317,6 +8299,34 @@
       ]
     },
     {
+      "id": "99821034a6358d1f",
+      "title": "Most developers don't understand that end users want a better experience and not AI layers everywhere. AI integration is good, but the final priority should be the user's experience.",
+      "description": "Building Products with Invisible AI: A UX Blueprint Jaideep Parashar ・ Jan 24 #webdev #product #uxdesign #ai",
+      "url": "https://dev.to/jaideepparashar/most-developers-dont-understand-that-end-users-want-a-better-experience-and-not-ai-layers-2409",
+      "source": "Dev.to",
+      "author": "Jaideep Parashar",
+      "published": "2026-01-24T02:22:42+00:00",
+      "niche": "dev",
+      "score": 48,
+      "keywords": [
+        "developer"
+      ]
+    },
+    {
+      "id": "e49b7a17d131e84c",
+      "title": "Caroline Ellison Former Alameda CEO Released from Prison After 440 Days",
+      "description": "Comments",
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26450",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-24T02:59:42+00:00",
+      "niche": "dev",
+      "score": 48,
+      "keywords": [
+        "release"
+      ]
+    },
+    {
       "id": "97d2d6d51ff6d53c",
       "title": "Meme Monday",
       "description": "Meme Monday! Today's cover image comes from last week's thread. DEV is an inclusive space! Humor in poor taste will be downvoted by mods.",
@@ -8363,20 +8373,6 @@
       "niche": "dev",
       "score": 46,
       "keywords": []
-    },
-    {
-      "id": "f83cd14734c4dd9a",
-      "title": "How to Deploy a MERN Stack Notes App on AWS",
-      "description": "Platforms like Vercel, Netlify, and Render simplify deployment by handling infrastructure for you. In this tutorial, we’ll step one layer deeper and work directly with AWS to understand the building blocks behind these platforms. You'll take a small ...",
-      "url": "https://www.freecodecamp.org/news/how-to-deploy-mern-stack-notes-app-aws/",
-      "source": "freeCodeCamp",
-      "author": "Umair Mirza",
-      "published": "2026-01-17T02:25:39+00:00",
-      "niche": "dev",
-      "score": 45,
-      "keywords": [
-        "tutorial"
-      ]
     },
     {
       "id": "b8ea4bf11b40d0af",
@@ -8503,18 +8499,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "99125f1aa4f698a1",
-      "title": "Drone Hacking Part 1: Dumping Firmware and Bruteforcing ECC",
-      "description": "Comments",
-      "url": "https://neodyme.io/en/blog/drone_hacking_part_1/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-17T02:35:28+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "11c32fd11afb7947",
@@ -10353,6 +10337,18 @@
       "keywords": []
     },
     {
+      "id": "7f4d3c1c66da8f49",
+      "title": "The Internet Doesn't Suck: Blame Big Tech, Not the Internet",
+      "description": "Comments",
+      "url": "https://riverseeber.net/blog/post/the-internet-doesnt-suck/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-24T01:41:45+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "36cc3e91df2ab359",
       "title": "10 Tips for Effective User Experience Evaluation",
       "description": "\"Learn 10 proven UX design tips to improve user experience, boost engagement, and increase conversions. From usability testing to A/B testing strategies.\" Continue reading 10 Tips for Effective User Experience Evaluation on SitePoint.",
@@ -10435,8 +10431,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "performance",
-        "React 19"
+        "React 19",
+        "performance"
       ]
     },
     {
@@ -10478,8 +10474,8 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "performance",
         "release",
+        "performance",
         "code"
       ]
     },
@@ -10494,9 +10490,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "developer",
         "release",
-        "API"
+        "API",
+        "developer"
       ]
     },
     {
@@ -10812,8 +10808,8 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "release",
         "React 19",
+        "release",
         "API"
       ]
     },
@@ -10828,8 +10824,8 @@
       "niche": "dev",
       "score": 37,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -10871,8 +10867,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10886,8 +10882,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10901,8 +10897,8 @@
       "niche": "dev",
       "score": 34,
       "keywords": [
-        "developer",
-        "development"
+        "development",
+        "developer"
       ]
     },
     {
@@ -11157,11 +11153,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "code",
-        "framework",
-        "release",
         "performance",
-        "API"
+        "code",
+        "API",
+        "release",
+        "framework"
       ]
     },
     {
@@ -11466,8 +11462,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "framework",
-        "release"
+        "release",
+        "framework"
       ]
     },
     {
@@ -11527,8 +11523,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -11557,8 +11553,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -11600,8 +11596,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "developer",
-        "development"
+        "development",
+        "developer"
       ]
     },
     {
@@ -11630,8 +11626,22 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "developer",
-        "code"
+        "code",
+        "developer"
+      ]
+    },
+    {
+      "id": "f83cd14734c4dd9a",
+      "title": "How to Deploy a MERN Stack Notes App on AWS",
+      "description": "Platforms like Vercel, Netlify, and Render simplify deployment by handling infrastructure for you. In this tutorial, we’ll step one layer deeper and work directly with AWS to understand the building blocks behind these platforms. You'll take a small ...",
+      "url": "https://www.freecodecamp.org/news/how-to-deploy-mern-stack-notes-app-aws/",
+      "source": "freeCodeCamp",
+      "author": "Umair Mirza",
+      "published": "2026-01-17T02:25:39+00:00",
+      "niche": "dev",
+      "score": 15,
+      "keywords": [
+        "tutorial"
       ]
     },
     {
@@ -11915,6 +11925,18 @@
       "keywords": []
     },
     {
+      "id": "879ec27b04518310",
+      "title": "Losing 1½ Million Lines of Go",
+      "description": "Comments",
+      "url": "https://www.tbray.org/ongoing/When/202x/2026/01/14/Unicode-Properties",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-19T15:06:51+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
       "id": "f83e490c21953e04",
       "title": "HTTP Archive 2025 Web Almanac",
       "description": "I love me some good web research reports. I&#8217;m a sucker for them. HTTP Archive&#8217;s Web Almanac is one report I look forward to every year, and I know I&#8217;m not alone there. It&#8217;s one of those highly-anticipated publications on &#8230; HTTP Archive 2025 Web Almanac originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
@@ -12093,8 +12115,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "programming",
-        "development"
+        "development",
+        "programming"
       ]
     },
     {
@@ -12156,8 +12178,8 @@
       "niche": "dev",
       "score": 13,
       "keywords": [
-        "developer",
-        "code"
+        "code",
+        "developer"
       ]
     },
     {
