@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-24T04:00:59.170733+00:00",
-  "total_articles": 996,
+  "last_updated": "2026-01-24T06:39:04.491579+00:00",
+  "total_articles": 998,
   "articles": [
     {
       "id": "244ae7139ee3970d",
@@ -1399,6 +1399,22 @@
       ]
     },
     {
+      "id": "d7c9114662b5702e",
+      "title": "I built a library that makes MicroPython feel like a web framework – looking for feedback",
+      "description": "Hey! I got tired of writing low-level register code for sensors, so I made a declarative abstraction layer. Instead of bit-shifting I2C data, you write: sensor = hardware.attach(\"I2C\", type=\"BME280\") sensor.on_threshold(\"temperature > 25°C\", lambda e: fan.on()) It's called BitBound, available on PyPI. Supports 20+ devices, runs in simulation mode for desktop testing. Happy to share the link if anyone's interested – just comment below! What sensors/actuators would you want supported?",
+      "url": "https://dev.to/esistleon/i-built-a-library-that-makes-micropython-feel-like-a-web-framework-looking-for-feedback-352k",
+      "source": "Dev.to",
+      "author": "Leon S.",
+      "published": "2026-01-24T05:45:29+00:00",
+      "niche": "dev",
+      "score": 58,
+      "keywords": [
+        "framework",
+        "library",
+        "code"
+      ]
+    },
+    {
       "id": "832380f2069e250e",
       "title": "The Problem No One Talks About in Prisma APIs",
       "description": "Prisma has made SQL database access in Node.js incredibly clean. Schemas are readable. Type safety is excellent. Queries feel intuitive. But after building a few real-world APIs with Prisma, I ran into a problem that no one really talks about. Not performance. Not migrations. Not relations. Repetitive query logic. And once you see it, you can’t unsee it. The Part Everyone Accidentally Rebuilds Every Prisma API starts the same way. A simple findMany. A couple of filters. One search field. Then re",
@@ -2263,17 +2279,33 @@
       ]
     },
     {
-      "id": "f916753008ca4f7b",
-      "title": "Building a Smart Inbox: AI-Powered Message Routing on AWS EKS",
-      "description": "Real-time sentiment analysis and intelligent message prioritization using Kubernetes, AWS Bedrock, and React Introduction In this comprehensive guide, I'll walk you through building a production-ready, AI-powered message routing system using AWS services. This project demonstrates how to leverage modern cloud-native technologies to create an intelligent application that automatically analyzes message sentiment and routes them accordingly. What We Built: A sentiment analysis API using AWS Bedrock",
-      "url": "https://dev.to/prithiviraj_rengarajan/building-a-smart-inbox-ai-powered-message-routing-on-aws-eks-4g27",
+      "id": "831359be9122b402",
+      "title": "Stop Writing Selectors: How I Vibe Coded a Production AppSumo Scraper",
+      "description": "We’ve all been there. You ask an LLM like ChatGPT or Claude to write a simple web scraper for a site like AppSumo. It confidently spits out a script using soup.select('.price-tag-123'). You run it, and nothing happens. The classes are dynamic, the data is buried in a Next.js hydration blob, or the site’s anti-bot protection kicks you out before the page even loads. This is the \"Vibe Coding\" bottleneck. You want to move from idea to execution using AI, but web scraping often forces you back into ",
+      "url": "https://dev.to/sommic/stop-writing-selectors-how-i-vibe-coded-a-production-appsumo-scraper-4704",
       "source": "Dev.to",
-      "author": "Prithiviraj R",
-      "published": "2026-01-17T06:06:20+00:00",
+      "author": "Erika S. Adkins",
+      "published": "2026-01-24T06:19:36+00:00",
       "niche": "dev",
-      "score": 54,
+      "score": 55,
       "keywords": [
-        "API"
+        "API",
+        "code"
+      ]
+    },
+    {
+      "id": "24c4ad57b8f0e6ea",
+      "title": "New Claude+Remotion to create amazing videos using AI",
+      "description": "I Built a Video in React and It Changed Everything: Why Remotion is a Game-Changer for Developers Ever wished you could generate videos programmatically? What if I told you that you could create stunning, data-driven videos using the same React skills you already have? Enter Remotion—the framework that’s revolutionizing how developers approach video creation. What is Remotion? Remotion is an open-source framework that allows you to create videos programmatically using React. Instead of dragging ",
+      "url": "https://dev.to/mayu2008/new-clauderemotion-to-create-amazing-videos-using-ai-37bp",
+      "source": "Dev.to",
+      "author": "Mayuresh Smita Suresh",
+      "published": "2026-01-24T05:45:19+00:00",
+      "niche": "dev",
+      "score": 55,
+      "keywords": [
+        "framework",
+        "developer"
       ]
     },
     {
@@ -3151,18 +3183,17 @@
       ]
     },
     {
-      "id": "906e29f9ffaaab4d",
-      "title": "Why Array Index Starts from 0: The Real Reason Behind the Scenes",
-      "description": "If you’ve ever written code, you’ve probably asked this question at least once: “Why do arrays start from index 0 instead of 1?” At first glance, starting from 1 feels more natural. Humans count 1, 2, 3…, not 0, 1, 2…. Yet almost every major programming language—C, C++, Java, Python, JavaScript—uses zero-based indexing. This is not a random decision. It’s not to confuse beginners. And it’s definitely not a mistake. Let’s break down the real reasons, from hardware memory to compiler design, and s",
-      "url": "https://dev.to/jps27cse/why-array-index-starts-from-0-the-real-reason-behind-the-scenes-fmj",
+      "id": "707f2548c13057f2",
+      "title": "cURL: A beginner's guide",
+      "description": "Before we understand cURL, let’s understand what a server is. A server is nothing but a machine, generally a computer that contains some resources, such as data or information that you can ask it to give(serve) to you, or you can give it some data to do some processing on it. Imagine this: You(Client) are in a restaurant. You need food(Resource), and you tell the waiter(API) to take your order. The waiter noted down all the items and went to the kitchen(server). After the food is prepaired the w",
+      "url": "https://dev.to/satyasootar/you-need-to-know-what-curl-can-do-2k6k",
       "source": "Dev.to",
-      "author": "Jack Pritom Soren",
-      "published": "2026-01-17T06:03:26+00:00",
+      "author": "SATYA SOOTAR",
+      "published": "2026-01-24T05:59:18+00:00",
       "niche": "dev",
-      "score": 52,
+      "score": 54,
       "keywords": [
-        "code",
-        "programming"
+        "API"
       ]
     },
     {
@@ -3788,6 +3819,21 @@
       "source": "Dev.to",
       "author": "Rajesh Royal",
       "published": "2026-01-23T18:30:00+00:00",
+      "niche": "dev",
+      "score": 52,
+      "keywords": [
+        "code",
+        "developer"
+      ]
+    },
+    {
+      "id": "869be35c60345a96",
+      "title": "The Tao of Architecture: Clearing the Fog of \"Names\" to Return to the Essence of \"Non-Being\"",
+      "description": "Introduction: The Ultimate Challenge of Architecture Lies Beyond Code The most complex aspect of system architecture is never writing code—it is clearly and precisely understanding, analyzing, and solving problems . In real-world software engineering, product managers, developers, and business stakeholders often have vastly different understandings and descriptions of the same business scenario. This \"Tower of Babel of cognition\" is the root cause of system decay and architectural collapse. The ",
+      "url": "https://dev.to/xmaicode/the-tao-of-architecture-clearing-the-fog-of-names-to-return-to-the-essence-of-non-being-4e3l",
+      "source": "Dev.to",
+      "author": "xmaicode",
+      "published": "2026-01-24T06:08:00+00:00",
       "niche": "dev",
       "score": 52,
       "keywords": [
@@ -5461,90 +5507,6 @@
       "keywords": [
         "developer"
       ]
-    },
-    {
-      "id": "6fa1ac053ef5d89b",
-      "title": "Java Solution: Redundant Parenthesis Detection O(N)",
-      "description": "Problem Given a string of balanced expression s, check if it contains a redundant parenthesis or not. A set of parenthesis are redundant if the same sub-expression is surrounded by unnecessary or multiple brackets. Note: Expression may contain + , — , *, and / operators. Given expression is valid and there are no white spaces present. Examples: Input: s = \"((a+b))\" Output: true Explanation: ((a+b)) can reduced to (a+b). Input: s = \"(a+(b)/c)\" Output: true Explanation: (a+(b)/c) can reduced to (a",
-      "url": "https://dev.to/rohithv07/java-solution-redundant-parenthesis-detection-on-h17",
-      "source": "Dev.to",
-      "author": "Rohith V",
-      "published": "2026-01-17T06:29:45+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "5bbe1e8585dc7665",
-      "title": "I Built AI Virtual Staging tool",
-      "description": "When I first started browsing real estate listings more closely, one thing kept bothering me. So many good properties were presented… badly. Empty rooms. Cold spaces. Perfectly fine homes that looked forgettable. And the worst part? The house itself wasn’t the problem. The presentation was. That’s where the idea for aivirtualstaging.net was born. Empty Rooms Don’t Help Buyers Decide As humans, we don’t imagine easily from nothing. An empty living room doesn’t tell you: Where the sofa goes How bi",
-      "url": "https://dev.to/atharvtathe/i-built-ai-virtual-staging-tool-44k2",
-      "source": "Dev.to",
-      "author": "Atharv Tathe",
-      "published": "2026-01-17T06:29:42+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "b01f21f55d28d0dc",
-      "title": "🚨 One filename change. Zero errors. Production broken.",
-      "description": "A small Git detail taught me a production-level lesson the hard way.** I recently ran into a subtle issue while working with Git on Windows. It looked harmless at first — until it showed up in production. I had a file named DEV.html. I pushed it to GitHub and everything worked as expected. Later, I renamed it locally to dev.html (just a case change) and pushed again. No errors. No warnings. Everything looked fine. But in production, links like <a href=\"dev.html\"> started returning 404 – Page Not",
-      "url": "https://dev.to/devnamdev/one-filename-change-zero-errors-production-broken-2kp1",
-      "source": "Dev.to",
-      "author": "Dev Namdev",
-      "published": "2026-01-17T06:16:23+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "b1bbe5fbe9d815f8",
-      "title": "What No One Tells You About Building an AI SaaS Business",
-      "description": "Building an AI SaaS business looks straightforward right now. Pick a model. Wrap it in a UI. Add subscriptions. Scale. From the outside, it feels like the easiest era in history to launch software. But the reality is harsher and more interesting. Because what most people call “AI SaaS” is not SaaS in the traditional sense. It’s a different business shape with different constraints. And if you treat it like ordinary SaaS, you’ll build something that looks good in a demo and struggles everywhere e",
-      "url": "https://dev.to/jaideepparashar/what-no-one-tells-you-about-building-an-ai-saas-business-2nhe",
-      "source": "Dev.to",
-      "author": "Jaideep Parashar",
-      "published": "2026-01-17T06:14:17+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "df6c741a3d1c976a",
-      "title": "Day 10 of 30 Days of Python Projects: Daily Market Sales Tracker",
-      "description": "🚀 Day 10 – Loops in Action (Python) Welcome to Day 10 of my 30 Days of Python Projects challenge! 🎉 Today’s project focuses on loops and how they can be used to solve a real-world problem faced daily by traders in Nigerian open markets. 🔗 GitHub Repository: 👉 https://github.com/kinspire-cyber/30DaysOfPythonProjects/tree/main/Day10_Daily_Market_Sales_Tracker 🌍 Problem Background (Nigerian Context) In markets like Balogun, Ogbete, and Ariaria, many traders: Record sales in notebooks 📒 Write figure",
-      "url": "https://dev.to/kinspirecyber/day-10-of-30-days-of-python-projects-daily-market-sales-tracker-1951",
-      "source": "Dev.to",
-      "author": "Kingsley Ifeanyichukwu Onyema",
-      "published": "2026-01-17T06:13:00+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "dc0ab9ac53df3ab8",
-      "title": "Backend Transitioning to AI Dev",
-      "description": "After working with LLMs, I believe the hardest part of the transition for backend engineers isn't the math—it's unlearning determinism. In traditional distributed systems, Input A always yields Output B. If it doesn't, it’s a bug. With GenAI, Input A might yield Output B today, and a completely different structure tomorrow. This breaks everything we know about stability at scale. You can't write a standard unit test for a \"vibe check.\" You can't rely on a model to output valid JSON 100% of the t",
-      "url": "https://dev.to/sugam50/backend-transitioning-to-ai-dev-5d07",
-      "source": "Dev.to",
-      "author": "Sugam Agrawal",
-      "published": "2026-01-17T06:12:02+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "0abb263449f7c32a",
-      "title": "Did you know?",
-      "description": "The cloud isn’t just about technology, it’s changing how businesses operate. Companies can now launch products faster, scale services instantly, and reach global customers without huge upfront costs. This flexibility allows new business models like subscription services, pay-as-you-go apps, and digital marketplaces to thrive. It’s like moving from owning DVDs to streaming movies, simple, affordable, and accessible anywhere.",
-      "url": "https://dev.to/cloudraptor/did-you-know-1dpo",
-      "source": "Dev.to",
-      "author": "Raphael",
-      "published": "2026-01-17T06:11:06+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
     },
     {
       "id": "c219a4939bbbd9b8",
@@ -8131,18 +8093,52 @@
       "keywords": []
     },
     {
-      "id": "fdd9f6edf866fa0f",
-      "title": "Building an AI SaaS system is possible; however, when you build the SaaS system, you should have ethical considerations at the centre. If you don't have ethics at the centre, then your model will work but won't have any trust.",
-      "description": "What No One Tells You About Building an AI SaaS Business Jaideep Parashar ・ Jan 17 #webdev #ai #saas #programming",
-      "url": "https://dev.to/jaideepparashar/building-an-ai-saas-system-is-possible-however-when-you-build-the-saas-system-you-should-have-2kib",
+      "id": "00378229d9446606",
+      "title": "This portfolio isn’t perfect, but it’s 100% mine",
+      "description": "Hey devs 👋 its me Taqui Just wanted to share the story behind my last portfolio. I already had a portfolio before this. It looked cool, it worked fine, but for some reason it never felt like it was really mine. I couldn’t fully connect with it. The truth is, my older portfolio was mostly a rebuild of chandai’s portfolio. I learned a lot from building it, especially about layout, animations, and structure. But at the end of the day, it still felt like I was wearing someone else’s design. So I dec",
+      "url": "https://dev.to/random_ti/this-portfolio-isnt-perfect-but-its-100-mine-3hi5",
       "source": "Dev.to",
-      "author": "Jaideep Parashar",
-      "published": "2026-01-17T06:15:27+00:00",
+      "author": "Random",
+      "published": "2026-01-24T06:26:18+00:00",
       "niche": "dev",
-      "score": 48,
-      "keywords": [
-        "programming"
-      ]
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "904b6ea871823f1d",
+      "title": "🌱 Bloom Roadmap — What’s Coming Next",
+      "description": "Bloom has been growing fast This roadmap lays out what I’m building next — from stronger safety features to deeper tools, better accessibility, and some future experiments I’m excited about. Bloom will always stay privacy‑first, local‑only, and under your control.Bloom 🔧 Core Safety & Privacy Features Goal: Strengthen user control and privacy‑first safeguards. Quick‑Exit Browser Destination Setting Add a Settings option to choose where the Quick Exit button redirects Provide safe defaults (searc",
+      "url": "https://dev.to/codebunny20/bloom-roadmap-whats-coming-next-335a",
+      "source": "Dev.to",
+      "author": "codebunny20",
+      "published": "2026-01-24T06:25:49+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "8f64f9485a86bdbb",
+      "title": "Where Blockchain Data Actually Lives (IPFS, Arweave & The 2026 Storage War)",
+      "description": "Quick note: Took a couple more days to recharge and handle some work commitments, but I'm back with Day 33. Today's topic answers something I kept wondering: \"If blockchains are permanent, where does all the actual data go?\" I was building a simple NFT minting contract last week. Nothing fancy. Just a learning project. I finished the smart contract, wrote the metadata, and then hit the question every builder hits: \"Okay... where do I actually host the images and metadata?\" Ethereum? Too expensiv",
+      "url": "https://dev.to/ribhavmodi/where-blockchain-data-actually-lives-ipfs-arweave-the-2026-storage-war-2bka",
+      "source": "Dev.to",
+      "author": "Ribhav",
+      "published": "2026-01-24T06:09:56+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "81bf50963cf4aaa4",
+      "title": "Stop Deleting Virtual Environments",
+      "description": "If you are a python dev, you sure have been in quite a hassle in deleting virtual environments when your system python version got an upgrade. Like your project was using python 3.13 and now the system has got upgraded so, the current python version is 3.14. But when you go to your venv and activate it, you see you can't access those 3rd party libraries anymore you installed as dependencies. Because your system python version got upgraded you can't use the virtual environment that was using the ",
+      "url": "https://dev.to/ddebajyati/stop-deleting-virtual-environments-4e04",
+      "source": "Dev.to",
+      "author": "Debajyati Dey",
+      "published": "2026-01-24T06:00:00+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
     },
     {
       "id": "c4c0603ec4fb247b",
@@ -10349,6 +10345,30 @@
       "keywords": []
     },
     {
+      "id": "59ea104c42785eb6",
+      "title": "paf cxn",
+      "description": "sample article",
+      "url": "https://dev.to/nader_chmait_cfcd8e22303f/test-3con",
+      "source": "Dev.to",
+      "author": "Nader Chmait",
+      "published": "2026-01-24T06:07:03+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "dd09c266e17516ad",
+      "title": "Comma openpilot – Open source driver-assistance",
+      "description": "Comments",
+      "url": "https://comma.ai",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-24T01:00:50+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "36cc3e91df2ab359",
       "title": "10 Tips for Effective User Experience Evaluation",
       "description": "\"Learn 10 proven UX design tips to improve user experience, boost engagement, and increase conversions. From usability testing to A/B testing strategies.\" Continue reading 10 Tips for Effective User Experience Evaluation on SitePoint.",
@@ -10475,8 +10495,8 @@
       "score": 40,
       "keywords": [
         "release",
-        "performance",
-        "code"
+        "code",
+        "performance"
       ]
     },
     {
@@ -10531,18 +10551,6 @@
       "published": "2026-01-20T11:57:02+00:00",
       "niche": "dev",
       "score": 39,
-      "keywords": []
-    },
-    {
-      "id": "b174fcf62cb458d0",
-      "title": "Counterfactual evaluation for recommendation systems",
-      "description": "Comments",
-      "url": "https://eugeneyan.com/writing/counterfactual-evaluation/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-17T05:20:20+00:00",
-      "niche": "dev",
-      "score": 38,
       "keywords": []
     },
     {
@@ -10808,8 +10816,8 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "React 19",
         "release",
+        "React 19",
         "API"
       ]
     },
@@ -10867,8 +10875,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -10882,8 +10890,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -11087,6 +11095,18 @@
       "keywords": []
     },
     {
+      "id": "253d235a89be4997",
+      "title": "Extracting verified C++ from the Rocq theorem prover at Bloomberg",
+      "description": "Comments",
+      "url": "https://bloomberg.github.io/crane/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-20T09:08:22+00:00",
+      "niche": "dev",
+      "score": 32,
+      "keywords": []
+    },
+    {
       "id": "1b2a7c177ebb44d3",
       "title": "WebGPU is now supported in major browsers",
       "description": "Read about the biggest web graphics launch since WebGL. WebGPU is supported across major browsers, bringing unparalleled performance to the web.",
@@ -11153,11 +11173,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "performance",
         "code",
-        "API",
+        "performance",
         "release",
-        "framework"
+        "framework",
+        "API"
       ]
     },
     {
@@ -11462,8 +11482,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "framework"
+        "framework",
+        "release"
       ]
     },
     {
@@ -11492,8 +11512,8 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "performance",
         "code",
+        "performance",
         "developer"
       ]
     },
@@ -11538,8 +11558,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "performance",
-        "code"
+        "code",
+        "performance"
       ]
     },
     {
@@ -11611,8 +11631,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "code",
-        "API"
+        "API",
+        "code"
       ]
     },
     {
@@ -11937,6 +11957,18 @@
       "keywords": []
     },
     {
+      "id": "9ec492c36986e1ad",
+      "title": "Internet Archive's Storage",
+      "description": "Comments",
+      "url": "https://blog.dshr.org/2026/01/internet-archives-storage.html",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-20T17:16:49+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
       "id": "f83e490c21953e04",
       "title": "HTTP Archive 2025 Web Almanac",
       "description": "I love me some good web research reports. I&#8217;m a sucker for them. HTTP Archive&#8217;s Web Almanac is one report I look forward to every year, and I know I&#8217;m not alone there. It&#8217;s one of those highly-anticipated publications on &#8230; HTTP Archive 2025 Web Almanac originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
@@ -12115,8 +12147,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "development",
-        "programming"
+        "programming",
+        "development"
       ]
     },
     {
