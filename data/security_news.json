@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-24T18:37:14.682995+00:00",
-  "total_articles": 430,
+  "last_updated": "2026-01-24T21:24:09.992548+00:00",
+  "total_articles": 427,
   "articles": [
     {
       "id": "0b2cabc365a47a1f",
@@ -1368,11 +1368,11 @@
       "niche": "security",
       "score": 75,
       "keywords": [
-        "security",
-        "patch",
         "zero-day",
-        "exploit",
-        "security flaw"
+        "security flaw",
+        "patch",
+        "security",
+        "exploit"
       ]
     },
     {
@@ -2443,10 +2443,10 @@
       "niche": "security",
       "score": 61,
       "keywords": [
-        "security",
-        "RCE",
+        "secure",
         "OWASP",
-        "secure"
+        "security",
+        "RCE"
       ]
     },
     {
@@ -2537,6 +2537,22 @@
         "attack",
         "firewall",
         "security"
+      ]
+    },
+    {
+      "id": "212eba8a155154a8",
+      "title": "Osiris ransomware emerges, leveraging BYOVD technique to kill security tools",
+      "description": "Researchers identified a new Osiris ransomware used in a November 2025 attack, abusing the POORTRY driver via BYOVD to disable security tools. Symantec and Carbon Black researchers uncovered a new ransomware strain named Osiris, used in a November 2025 attack against a major Southeast Asian food service franchise operator. The attackers deployed a malicious driver, [&#8230;]",
+      "url": "https://securityaffairs.com/187279/security/osiris-ransomware-emerges-leveraging-byovd-technique-to-kill-security-tools.html",
+      "source": "Security Affairs",
+      "author": "Pierluigi Paganini",
+      "published": "2026-01-24T18:17:13+00:00",
+      "niche": "security",
+      "score": 58,
+      "keywords": [
+        "security",
+        "attack",
+        "ransomware"
       ]
     },
     {
@@ -2693,22 +2709,6 @@
       ]
     },
     {
-      "id": "ee26d0f5e267a117",
-      "title": "A 0-click exploit chain for the Pixel 9 Part 2: Cracking the Sandbox with a Big Wave",
-      "description": "With the advent of a potential Dolby Unified Decoder RCE exploit, it seemed prudent to see what kind of Linux kernel drivers might be accessible from the resulting userland context, the mediacodec context. As per the AOSP documentation, the mediacodec SELinux context is intended to be a constrained (a.k.a sandboxed) context where non-secure software decoders are utilized. Nevertheless, using my DriverCartographer tool, I discovered an interesting device driver, /dev/bigwave that was accessible f",
-      "url": "https://projectzero.google/2026/01/pixel-0-click-part-2.html",
-      "source": "Google Project Zero",
-      "author": "Seth Jenkins",
-      "published": "2026-01-14T10:00:00-08:00",
-      "niche": "security",
-      "score": 57,
-      "keywords": [
-        "RCE",
-        "secure",
-        "exploit"
-      ]
-    },
-    {
       "id": "6e1b1ee2399b40ef",
       "title": "apk.sh - Le couteau suisse qui simplifie le reverse engineering Android",
       "description": "L'autre jour, je m'amusais à regarder ce qu'une petite application Android que j'avais installée envoyait comme infos à ses serveurs , et j'ai encore galéré avec une tripotée d'outils différents. Entre ADB pour récupérer le fichier, Apktool pour le désassembler, Jadx pour lire le code et les scripts de signature à rallonge, y'a de quoi se taper la tête contre les murs. On est en 2026, et le reverse engineering Android ressemble encore parfois à de la spéléologie sans lumière dans une grotte remp",
@@ -2719,6 +2719,22 @@
       "niche": "security",
       "score": 57,
       "keywords": []
+    },
+    {
+      "id": "ee26d0f5e267a117",
+      "title": "A 0-click exploit chain for the Pixel 9 Part 2: Cracking the Sandbox with a Big Wave",
+      "description": "With the advent of a potential Dolby Unified Decoder RCE exploit, it seemed prudent to see what kind of Linux kernel drivers might be accessible from the resulting userland context, the mediacodec context. As per the AOSP documentation, the mediacodec SELinux context is intended to be a constrained (a.k.a sandboxed) context where non-secure software decoders are utilized. Nevertheless, using my DriverCartographer tool, I discovered an interesting device driver, /dev/bigwave that was accessible f",
+      "url": "https://projectzero.google/2026/01/pixel-0-click-part-2.html",
+      "source": "Google Project Zero",
+      "author": "Seth Jenkins",
+      "published": "2026-01-14T10:00:00-08:00",
+      "niche": "security",
+      "score": 57,
+      "keywords": [
+        "secure",
+        "RCE",
+        "exploit"
+      ]
     },
     {
       "id": "d439b5f6ca200618",
@@ -3780,11 +3796,11 @@
       "niche": "security",
       "score": 49,
       "keywords": [
+        "security advisory",
+        "vulnerability",
         "security",
         "threat",
-        "security advisory",
-        "exploit",
-        "vulnerability"
+        "exploit"
       ]
     },
     {
@@ -3963,8 +3979,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "security",
-        "CVE-"
+        "CVE-",
+        "security"
       ]
     },
     {
@@ -4340,8 +4356,8 @@
       "niche": "security",
       "score": 44,
       "keywords": [
-        "security",
-        "CVE-"
+        "CVE-",
+        "security"
       ]
     },
     {
@@ -4481,10 +4497,10 @@
       "niche": "security",
       "score": 43,
       "keywords": [
-        "security",
-        "RCE",
+        "secure",
         "OWASP",
-        "secure"
+        "security",
+        "RCE"
       ]
     },
     {
@@ -5050,10 +5066,34 @@
       "niche": "security",
       "score": 42,
       "keywords": [
+        "OWASP",
         "security",
-        "RCE",
-        "OWASP"
+        "RCE"
       ]
+    },
+    {
+      "id": "83c920ff1c2e50e7",
+      "title": "DynoWiper - Quand Sandworm s'attaque au réseau électrique polonais et se plante",
+      "description": "Vous vous souvenez de NotPetya et des attaques contre le réseau électrique ukrainien ? Hé bien des hackers, vraisemblablement liés au GRU russe, viennent de remettre le couvert, mais cette fois c'est la Pologne qui était dans le viseur, et... Ils se sont plantés ! Fin décembre 2025, plus précisément les 29 et 30, le réseau électrique polonais a subi ce que le ministre de l'Énergie Milosz Motyka qualifie de \"plus forte attaque sur l'infrastructure énergétique depuis des années\". Du lourd, quoi ! ",
+      "url": "https://korben.info/cyberattaque-pologne-wiper-malware.html",
+      "source": "Korben",
+      "author": "Korben",
+      "published": "2026-01-24T21:50:29+01:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "72fa8649aa9ba7b5",
+      "title": "Qualcomm Dragonwing IQ10 - Le cerveau qui va propulser vos futurs robots",
+      "description": "Qualcomm vient de dégainer sa nouvelle arme au CES 2026 et là, j'vous parle pas d'un énième processeur pour smartphone, non, non, non. Je vous parle carrément du cerveau de vos futurs robots de service, de livraison, de nettoyage... et même des humanoïdes qui pourraient bien débarquer chez vous d'ici quelques années ! Booooh ça fait peur ^^ ! Le Dragonwing IQ10, c'est le nom de la bête. Un monstre de puissance avec 350 TOPS de calcul IA, soit trois fois plus que la génération précédente. Pour ce",
+      "url": "https://korben.info/qualcomm-dragonwing-iq10-cerveau-robots.html",
+      "source": "Korben",
+      "author": "Korben",
+      "published": "2026-01-24T19:52:11+01:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": []
     },
     {
       "id": "7233d502e4d22a40",
@@ -5123,8 +5163,8 @@
       "niche": "security",
       "score": 38,
       "keywords": [
-        "RCE",
-        "OWASP"
+        "OWASP",
+        "RCE"
       ]
     },
     {
@@ -5163,8 +5203,8 @@
       "score": 37,
       "keywords": [
         "patch",
-        "security",
         "attack",
+        "security",
         "exploit"
       ]
     },
@@ -5179,10 +5219,10 @@
       "niche": "security",
       "score": 37,
       "keywords": [
-        "threat",
-        "security",
         "OWASP",
-        "web application security"
+        "web application security",
+        "security",
+        "threat"
       ]
     },
     {
@@ -5196,10 +5236,10 @@
       "niche": "security",
       "score": 34,
       "keywords": [
-        "threat",
-        "cybersecurity",
+        "OWASP",
         "security",
-        "OWASP"
+        "cybersecurity",
+        "threat"
       ]
     },
     {
@@ -5254,9 +5294,9 @@
       "niche": "security",
       "score": 31,
       "keywords": [
-        "security",
+        "secure",
         "OWASP",
-        "secure"
+        "security"
       ]
     },
     {
@@ -5270,25 +5310,8 @@
       "niche": "security",
       "score": 30,
       "keywords": [
-        "phishing",
-        "RCE"
-      ]
-    },
-    {
-      "id": "6722e9312421ba8a",
-      "title": "WEF: AI overtakes ransomware as fastest-growing cyber risk",
-      "description": "We can no longer say that artificial intelligence is a \"future risk\", lurking somewhere on a speculative threat horizon. The truth is that it is a fast-growing cybersecurity risk that organizations are facing today. That's not just my opinion, that's also the message that comes loud and clear from the World Economic Forum's newly-published \"Global Cybersecurity Outlook 2026.\" Read more in my article on the Fortra blog.",
-      "url": "https://www.fortra.com/blog/wef-ai-overtakes-ransomware-fastest-growing-cyber-risk",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2026-01-15T17:05:07+00:00",
-      "niche": "security",
-      "score": 29,
-      "keywords": [
-        "threat",
-        "security",
-        "cybersecurity",
-        "ransomware"
+        "RCE",
+        "phishing"
       ]
     },
     {
@@ -5461,21 +5484,6 @@
       ]
     },
     {
-      "id": "65a16735ed51b94f",
-      "title": "Hackers get hacked, as BreachForums database is leaked",
-      "description": "Have you ever stolen data, traded a hacking tool, or just lurked on a dark web forum believing that you are anonymous? If so, I might have some unsettling news for you. Read more in my article on the Hot for Security blog.",
-      "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/hackers-get-hacked-as-breachforums-database-is-leaked",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2026-01-13T09:45:11+00:00",
-      "niche": "security",
-      "score": 25,
-      "keywords": [
-        "breach",
-        "security"
-      ]
-    },
-    {
       "id": "6a93f4612e11c72c",
       "title": "[webapps] WordPress Quiz Maker 6.7.0.56 - SQL Injection",
       "description": "WordPress Quiz Maker 6.7.0.56 - SQL Injection",
@@ -5516,9 +5524,9 @@
       "niche": "security",
       "score": 22,
       "keywords": [
-        "threat",
+        "security",
         "cybersecurity",
-        "security"
+        "threat"
       ]
     },
     {
@@ -5575,9 +5583,9 @@
       "niche": "security",
       "score": 19,
       "keywords": [
-        "cybersecurity",
+        "PoC",
         "security",
-        "PoC"
+        "cybersecurity"
       ]
     },
     {
@@ -5648,49 +5656,6 @@
       "score": 18,
       "keywords": [
         "attack"
-      ]
-    },
-    {
-      "id": "51966c882a710a3a",
-      "title": "Smashing Security podcast #449: How to scam someone in seven days",
-      "description": "Romance scammers have apparently discovered astrology... and Taurus is their secret weapon. In episode 449 of \"Smashing Security\", we take a look inside an actual romance-fraud handbook - complete with scripts, personality “types”, corporate jargon, and a seven-day plan to get victims from hello to hand over the crypto. Then Lesley \"hacks4pancakes\" Carhart delivers a reality check on the dire cybersecurity jobs market for juniors: why entry-level roles are evaporating, how automated CV screening",
-      "url": "https://grahamcluley.com/smashing-security-podcast-449/",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2026-01-08T00:31:41+00:00",
-      "niche": "security",
-      "score": 16,
-      "keywords": [
-        "cybersecurity",
-        "security"
-      ]
-    },
-    {
-      "id": "7a0859f6a929abee",
-      "title": "Smashing Security podcast #450: From Instagram panic to Grok gone wild",
-      "description": "Confusion reigns after claims that data linked to 17.5 million Instagram accounts is up for sale - sparked by a vague post, contradictory statements, and a flood of password reset emails nobody asked for. And we dig into Grok, Elon Musk’s AI chatbot, after it started generating sexualised images of women and children - raising uncomfortable questions about guardrails, accountability, and why playing the censorship card doesn’t make the problem go away. All this, and much more, in episode 450 of ",
-      "url": "https://grahamcluley.com/smashing-security-podcast-450/",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2026-01-15T14:22:53+00:00",
-      "niche": "security",
-      "score": 15,
-      "keywords": [
-        "security"
-      ]
-    },
-    {
-      "id": "63073500453a1c30",
-      "title": "pcTattletale founder pleads guilty in rare stalkerware prosecution",
-      "description": "The founder of a spyware company that encouraged customers to secretly monitor their romantic partners has pleaded guilty to federal charges - marking one of the few successful US prosecutions of a stalkerware operator. Read more in my article on the Hot for Security blog.",
-      "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/pctattletale-founder-pleads-guilty-in-rare-stalkerware-prosecution",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2026-01-09T09:10:13+00:00",
-      "niche": "security",
-      "score": 15,
-      "keywords": [
-        "security"
       ]
     },
     {
@@ -5867,18 +5832,6 @@
       "published": "2022-12-07T09:50:35+00:00",
       "niche": "security",
       "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "9320684aa9903976",
-      "title": "The AI Fix #83: ChatGPT Health, Victorian LLMs, and the biggest AI bluffers",
-      "description": "In episode 83 of The AI Fix, Graham reveals he's taken up lying to LLMs, and shows how a journalist exposed AI bluffers with a made-up idiom. Meanwhile Mark invents a \"Godwin's Law\" for AI, and explains how to ruin any LLM with humus. Also in this episode, a marriage is declared invalid thanks to ChatGPT, an AI barman looks for a job in a quiet pub, OpenAI finally unveils ChatGPT Health, and why news of the death of Stack Overflow may be greatly exaggerated. All this and much more is discussed i",
-      "url": "https://grahamcluley.com/the-ai-fix-83/",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2026-01-13T18:19:04+00:00",
-      "niche": "security",
-      "score": 12,
       "keywords": []
     },
     {
