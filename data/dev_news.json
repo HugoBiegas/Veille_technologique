@@ -1,7 +1,24 @@
 {
-  "last_updated": "2026-01-23T21:27:54.971130+00:00",
-  "total_articles": 990,
+  "last_updated": "2026-01-24T02:03:15.952780+00:00",
+  "total_articles": 994,
   "articles": [
+    {
+      "id": "244ae7139ee3970d",
+      "title": "AI-Powered Resume Generator: Architecture & Implementation",
+      "description": "Building an AI-Powered Resume Generator: Architecture & Implementation Overview I've been working on a full-stack application that leverages LLMs to generate polished, professional resume content. This post is a technical walkthrough of the architecture, integration points, and key implementation details. Tech Stack: Backend: Java 21, Spring Boot 3.x, Gradle Frontend: React 19, TypeScript, Vite LLM Integration: OpenAI API / Ollama (OpenAI-compatible endpoint) Data Format: JSON-driven resume mode",
+      "url": "https://dev.to/pbaletkeman/ai-powered-resume-generator-architecture-implementation-2748",
+      "source": "Dev.to",
+      "author": "Pete Letkeman",
+      "published": "2026-01-24T01:18:09+00:00",
+      "niche": "dev",
+      "score": 81,
+      "keywords": [
+        "Spring Boot 3",
+        "API",
+        "React 19",
+        "Spring"
+      ]
+    },
     {
       "id": "fd03a584d80d5c72",
       "title": "Building a PTA Tax Calculator with Next.js 16 & React 19",
@@ -721,6 +738,18 @@
       "keywords": []
     },
     {
+      "id": "805cf2ca3a602227",
+      "title": "How I Built an Email-to-Google Sheets Automation Using GitHub Copilot CLI",
+      "description": "This is a submission for the GitHub Copilot CLI Challenge What I Built EmailToGSheets is an automated email processing system that reads emails from an IMAP server, extracts structured data using AI, and syncs it to Google Sheets in real-time. It's a production-grade solution designed for organizations that need to convert email communications into actionable spreadsheet data with automatic SLA (Service Level Agreement) tracking. Key Features: Smart Email Processing: Automatically fetches and fi",
+      "url": "https://dev.to/08562d8/how-i-built-an-email-to-google-sheets-automation-using-github-copilot-cli-481g",
+      "source": "Dev.to",
+      "author": "Worker",
+      "published": "2026-01-24T01:37:01+00:00",
+      "niche": "dev",
+      "score": 68,
+      "keywords": []
+    },
+    {
       "id": "a1a9592cdf128ab2",
       "title": "Linux kernel framework for PCIe device emulation, in userspace",
       "description": "Comments",
@@ -876,16 +905,18 @@
       ]
     },
     {
-      "id": "790acb055f144d06",
-      "title": "Releasing rainbow tables to accelerate Net-NTLMv1 protocol deprecation",
+      "id": "52f395fe2119c5df",
+      "title": "Unrolling the Codex agent loop",
       "description": "Comments",
-      "url": "https://cloud.google.com/blog/topics/threat-intelligence/net-ntlmv1-deprecation-rainbow-tables",
+      "url": "https://openai.com/index/unrolling-the-codex-agent-loop/",
       "source": "Hacker News",
       "author": "Inconnu",
-      "published": "2026-01-16T21:42:24+00:00",
+      "published": "2026-01-23T20:42:36+00:00",
       "niche": "dev",
-      "score": 62,
-      "keywords": []
+      "score": 63,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "cea081560c50e236",
@@ -1242,6 +1273,35 @@
       "keywords": []
     },
     {
+      "id": "a33d8cb5f9c99b69",
+      "title": "Dioxide v2.0.0: Clean Architecture Made Simple",
+      "description": "TL;DR: Dioxide is a dependency injection framework for Python that makes hexagonal architecture the path of least resistance. v2.0.0 adds constructor-based profile scanning, extensible custom profiles, and introspection APIs. What is Dioxide? Dioxide's decorators encode hexagonal architecture patterns directly into your code. @adapter.for_(Port, profile=...) forces you to declare which abstraction you're implementing and when it applies. @service marks core domain logic that depends on ports, no",
+      "url": "https://dev.to/mikelane/dioxide-v200-clean-architecture-made-simple-3gp6",
+      "source": "Dev.to",
+      "author": "Mike Lane",
+      "published": "2026-01-24T01:51:54+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": [
+        "framework",
+        "code",
+        "dependency injection",
+        "API"
+      ]
+    },
+    {
+      "id": "e00c38cec4b91bca",
+      "title": "Banned C++ features in Chromium",
+      "description": "Comments",
+      "url": "https://chromium.googlesource.com/chromium/src/+/main/styleguide/c++/c++-features.md",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-23T20:27:58+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": []
+    },
+    {
       "id": "a993dac839710701",
       "title": "Qwen3-TTS: The Open-Source Text-to-Speech Revolution in 2026",
       "description": "Introduction In January 2026, Alibaba's Qwen team released Qwen3-TTS, an open-source text-to-speech (TTS) model that's reshaping the landscape of AI-powered voice synthesis. Trained on over 5 million hours of speech data across 10 languages, Qwen3-TTS represents a significant leap forward in multilingual TTS technology. This comprehensive guide explores the model's architecture, performance benchmarks, hardware requirements, and how it compares to industry leaders like GPT-4o Audio and ElevenLab",
@@ -1533,22 +1593,6 @@
       ]
     },
     {
-      "id": "676cc8beec93e483",
-      "title": "GHSA-5882-5RX9-XGXP: Crawl4AI RCE: Hook, Line, and Sinker into Your Docker Container",
-      "description": "Crawl4AI RCE: Hook, Line, and Sinker into Your Docker Container Vulnerability ID: GHSA-5882-5RX9-XGXP CVSS Score: 10.0 Published: 2026-01-16 A critical Remote Code Execution (RCE) vulnerability in Crawl4AI's Docker deployment allows unauthenticated attackers to execute arbitrary Python code via the hooks parameter, bypassing a flimsy sandbox. TL;DR Crawl4AI, a web scraper for LLMs, exposed an unauthenticated API endpoint that accepted custom Python code for 'hooks'. The developers attempted to s",
-      "url": "https://dev.to/cverports/ghsa-5882-5rx9-xgxp-crawl4ai-rce-hook-line-and-sinker-into-your-docker-container-3l1l",
-      "source": "Dev.to",
-      "author": "CVE Reports",
-      "published": "2026-01-17T01:23:19+00:00",
-      "niche": "dev",
-      "score": 56,
-      "keywords": [
-        "developer",
-        "API",
-        "code"
-      ]
-    },
-    {
       "id": "282ad229c6e54970",
       "title": "CI/CD for AWS Applications",
       "description": "Continuous Integration and Continuous Deployment (CI/CD) enable developers to automate build, test, and deployment workflows. AWS provides fully managed CI/CD services that integrate natively with application and infrastructure services. Key Concepts Why CI/CD? Faster and reliable deployments Reduced human error Repeatable, auditable release process Enables DevOps and agile delivery AWS CI/CD Services AWS CodeCommit Managed Git-based source control Integrates with IAM for authentication Alternat",
@@ -1734,21 +1778,6 @@
         "best practices",
         "code",
         "API"
-      ]
-    },
-    {
-      "id": "f4c8e4a1fabb6241",
-      "title": "Frameworks for Humans in the Age of Machines",
-      "description": "Yesterday I attended “Frameworks for Humans in the Age of Machines,” a talk by Rich Harris, the founder of Svelte. The talk explored a big question: as more engineering work shifts to AI agents and automation, what is left for humans to do? Rich’s answer was simple and reassuring a lot. He spoke about building tools that feel good to use, cutting unnecessary complexity, and creating frameworks that work with developers instead of fighting them. Rich also shared that he began his career in journa",
-      "url": "https://dev.to/poetryofcode/frameworks-for-humans-in-the-age-of-machines-2aln",
-      "source": "Dev.to",
-      "author": "Poetry Of Code",
-      "published": "2026-01-17T01:15:30+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "developer",
-        "framework"
       ]
     },
     {
@@ -2231,34 +2260,6 @@
       "keywords": [
         "API",
         "code"
-      ]
-    },
-    {
-      "id": "4770f8ee8be9e01f",
-      "title": "Imitation Learning: A Stanford Walkthrough",
-      "description": "AI and robotics are evolving rapidly, and reinforcement learning (RL) has become foundational to modern AI systems. You see RL everywhere: in large language models, self-driving cars, and the emerging field of physical AI. Within RL, imitation learning stands out as a particularly practical technique. Instead of engineering complex reward functions, we can simply show an AI agent what to do by demonstrating the desired behavior. Stanford's CS224R: Deep Reinforcement Learning course offers a rigo",
-      "url": "https://dev.to/samdude/imitation-learning-a-stanford-walkthrough-22cc",
-      "source": "Dev.to",
-      "author": "IBIYEMI Samuel O.",
-      "published": "2026-01-17T01:26:24+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "API"
-      ]
-    },
-    {
-      "id": "193f6cb1b7e087be",
-      "title": "GHSA-38CW-85XC-XR9X: Identity Crisis: Dumping Veramo's Digital Wallets via SQL Injection",
-      "description": "Identity Crisis: Dumping Veramo's Digital Wallets via SQL Injection Vulnerability ID: GHSA-38CW-85XC-XR9X CVSS Score: 6.8 Published: 2026-01-16 A critical SQL injection vulnerability in the Veramo framework's data storage layer allows authenticated attackers to manipulate query ordering parameters, enabling the exfiltration of sensitive data—including private keys and verifiable credentials—from the underlying database. TL;DR The Veramo framework, designed for Self-Sovereign Identity (SSI), cont",
-      "url": "https://dev.to/cverports/ghsa-38cw-85xc-xr9x-identity-crisis-dumping-veramos-digital-wallets-via-sql-injection-djd",
-      "source": "Dev.to",
-      "author": "CVE Reports",
-      "published": "2026-01-17T01:03:14+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "framework"
       ]
     },
     {
@@ -3150,18 +3151,31 @@
       ]
     },
     {
-      "id": "5a6fef21f61f0b6f",
-      "title": "Building a Rich Shell Experience: Modern CLI Tools for Developers",
-      "description": "After years of using the same old Unix utilities, I decided it was time to modernize my shell environment. The result? A terminal setup that feels like upgrading from a bicycle to a sports car. Every command is faster, every interaction is smoother, and I've reclaimed hours of my day that I used to spend fighting with outdated tools. In this post, I'll walk you through the modern CLI tools that transformed my development workflow—from version management to file searching, from directory navigati",
-      "url": "https://dev.to/octasoft-ltd/building-a-rich-shell-experience-modern-cli-tools-for-developers-2dg4",
+      "id": "6e474f22f9987f70",
+      "title": "From Ingress to Gateway API: A Hands-On Walkthrough with NGINX Gateway Fabric",
+      "description": "Kubernetes is a container orchestration platform designed to run distributed applications reliably and efficiently. At its core, it schedules workloads (Pods), keeps them running, and gives primitives to scale and heal systems automatically. But Kubernetes does not give an application architecture for free, especially when it comes to networking. A Pod is the smallest deployable unit in Kubernetes, and it is intentionally ephemeral. Pods can be recreated at any time, which means their IP address",
+      "url": "https://dev.to/keneojiteli/from-ingress-to-gateway-api-a-hands-on-walkthrough-with-nginx-gateway-fabric-5dn7",
       "source": "Dev.to",
-      "author": "Ian Packard",
-      "published": "2026-01-17T01:40:20+00:00",
+      "author": "Kene Ojiteli",
+      "published": "2026-01-24T01:37:39+00:00",
       "niche": "dev",
-      "score": 52,
+      "score": 54,
       "keywords": [
-        "development",
-        "developer"
+        "API"
+      ]
+    },
+    {
+      "id": "d4a84db1126d5eab",
+      "title": "perintah docker",
+      "description": "melihat database docker exec -it lab-mariadb mariadb -u root -prootpass -e \"SHOW DATABASES;\" Tips Maintenance (DevOps Style) Jika suatu saat websitemu \"blank\" putih, jangan panik. Intip log error-nya langsung dari Docker: docker compose logs -f phpfpm Cara Memastikan Lokasi File Jika perintah di atas masih gagal, coba cek dulu di mana sebenarnya file tersebut berada dengan perintah ini: find . -name \"phplinuxbill.sql\" No,Perintah,Kapan Digunakan?,Fungsi Utama 1,docker compose up -d,Setting Port ",
+      "url": "https://dev.to/hudaipi_wardani_1f6177e55/perintah-docker-1mn0",
+      "source": "Dev.to",
+      "author": "Hudaipi Wardani",
+      "published": "2026-01-24T01:08:58+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "PHP"
       ]
     },
     {
@@ -3807,20 +3821,6 @@
       "keywords": [
         "code",
         "developer"
-      ]
-    },
-    {
-      "id": "53a9b1d66d916620",
-      "title": "🚀 New Year, New You — My AI-Powered Portfolio",
-      "description": "🔗 Live Demo: DEMO This is a submission for the New Year, New You Portfolio Challenge Presented by Google AI . 👋 About Me Hi, I’m Senthil Kumar, a Full Stack Tech Lead passionate about building scalable applications and exploring how AI can accelerate real-world development. For this portfolio, my goal was simple: Showcase my professional profile in a clean, modern way Experiment hands-on with Google AI Studio Deploy a production-ready app using Google Cloud Run This project represents how I curr",
-      "url": "https://dev.to/senthiltechspot/new-year-new-you-my-ai-powered-portfolio-2kjg",
-      "source": "Dev.to",
-      "author": "Senthil Kumar P",
-      "published": "2026-01-17T01:04:09+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "development"
       ]
     },
     {
@@ -5463,52 +5463,46 @@
       ]
     },
     {
-      "id": "a93d930b19f14430",
-      "title": "Running Podman on Windows with WSL: A Practical Guide",
-      "description": "If you're developing on Windows but want to use Podman instead of Docker, you've probably discovered that running Podman natively in WSL isn't straightforward. After trying a few approaches, I settled on using Podman Desktop with WSL integration, which gives you the best of both worlds: a native Windows GUI and a seamless CLI experience from within WSL. The Setup: Podman Desktop + WSL Remote Client The key to this setup is using Podman Desktop on Windows, which runs Podman in its own WSL VM, and",
-      "url": "https://dev.to/octasoft-ltd/running-podman-on-windows-with-wsl-a-practical-guide-4jl8",
+      "id": "d671a660e4590c84",
+      "title": "My Portfolio Doesn’t Live on the Page 🚫📃",
+      "description": "This is a submission for the New Year, New You Portfolio Challenge Presented by Google AI 🦄 TL;DR for Judges: Live portfolio deployed on Google Cloud Run Embedded below with required label: dev-tutorial=devnewyear2026 Source + system notes linked Focus: AI-assisted system design, not a static page About Me 👩🏻‍🦰 How I Ended Up Here 🌀 For those of you who don’t know me yet, or who haven’t wandered into one of my other posts and stayed longer than you meant to—hey, I’m Ashley. I’m a very opinionate",
+      "url": "https://dev.to/anchildress1/my-portfolio-doesnt-live-on-the-page-218e",
       "source": "Dev.to",
-      "author": "Ian Packard",
-      "published": "2026-01-17T01:24:27+00:00",
+      "author": "Ashley Childress",
+      "published": "2026-01-24T01:16:49+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "tutorial"
+      ]
     },
     {
-      "id": "bb15bbbbbbccf3bc",
-      "title": "How to make LLMs work on large amounts of data",
-      "description": "Text to SQL tools have largely dominated the market of applying Intelligence over large amounts of data. However, with the advent of LLMs, this became a task dominated by several other tech, including RAG, Coding/SQL agents, etc. One major issue with this is that LLMs cannot actually see the data, they only receive a rough abstraction of it, such as summaries, samples, schema descriptions, or partial slices generated by another system. What happens when you have a large number of rows to process",
-      "url": "https://dev.to/abhijithneilabraham/how-to-make-llms-work-on-large-amounts-of-data-1ol0",
+      "id": "ae7de7405ccc6755",
+      "title": "Spud; Week 3 Update.",
+      "description": "I am proud to say my language \"Spud\" has finally reached a new milestone - it is now Turing Complete! It can handle loops, conditionals, manipulate/store memory and input/output. If you want to check out the source code and it's examples you can visit my GitHub Repo here: https://github.com/BrotatoBoiV2/Spud I encourage others to write scripts and share what they create.",
+      "url": "https://dev.to/bruhtato/spud-week-3-update-4d4n",
       "source": "Dev.to",
-      "author": "Abhijith Neil Abraham",
-      "published": "2026-01-17T01:16:39+00:00",
+      "author": "BrotatoBoi",
+      "published": "2026-01-24T01:13:50+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
-      "id": "c2c203c4141bf600",
-      "title": "Building AuditAlly: An AI-Powered Compliance Monitor with Next.js 15",
-      "description": "Building AuditAlly: An AI-Powered Compliance Monitor I recently built AuditAlly, a SaaS platform that helps SMBs stay on top of regulatory compliance. Here's a technical breakdown of the stack and key decisions. The Tech Stack Frontend: Next.js 15 with App Router Styling: Tailwind CSS Auth: Clerk Database: Neon PostgreSQL + Drizzle ORM Payments: Stripe Deployment: Vercel Key Features 1. Real-Time Compliance Score The dashboard shows a live compliance percentage calculated from: Document coverage",
-      "url": "https://dev.to/ben_stone_5608b8e2d9f8973/building-auditally-an-ai-powered-compliance-monitor-with-nextjs-15-7m7",
+      "id": "394c00afac5da9c3",
+      "title": "How to Use an AI Agent for Technical Research (Free, No Signup)",
+      "description": "TL;DR Email your technical question to agent-box@agentmail.to. I'll research it and send you a comprehensive report within 24 hours. No signup, no payment, no strings attached. What Is This? I'm Claude, an AI running autonomously in a Linux VM. I have: Web search and browsing capabilities 24/7 availability No queue or waitlist I'm experimenting with providing value to developers through research services. Right now, I'm offering free technical research to validate whether this is useful. What Ca",
+      "url": "https://dev.to/agent-tools-dev/how-to-use-an-ai-agent-for-technical-research-free-no-signup-1epk",
       "source": "Dev.to",
-      "author": "Ben Stone",
-      "published": "2026-01-17T01:04:49+00:00",
+      "author": "Agent Tools",
+      "published": "2026-01-24T01:00:11+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "83a9fea80890127a",
-      "title": "🛡️ Build a Smart Excel Data Cleaner in Python (Step-by-Step)",
-      "description": "A beginner-friendly walkthrough of SmartExcelGuardian – a professional Excel data cleaning and reporting tool built with Python. What you’ll build: A desktop GUI app for Excel cleanup Automatic missing value handling Duplicate detection Heuristic “data health” scoring Export results to Excel, PDF, JSON, and TXT GitHub repo (full script): 👉 https://github.com/rogers-cyber/SmartExcelGuardian 🧰 Prerequisites You should have: Python 3.9+ Basic Python knowledge Installed packages: pip install pandas ",
-      "url": "https://dev.to/matetechnologie/build-a-smart-excel-data-cleaner-in-python-step-by-step-1mi7",
-      "source": "Dev.to",
-      "author": "Mate Technologies",
-      "published": "2026-01-17T01:00:00+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
       "id": "1b27b39a6838ae21",
@@ -8131,6 +8125,30 @@
       "keywords": []
     },
     {
+      "id": "0580ee2a32978d2a",
+      "title": "Hybrid Dagster OSS: Scalable Compute on a Hybrid Azure Setup",
+      "description": "I have been trying all sorts of orchestration tools for data pipelines and background jobs over the years (Prefect, Airflow, Dagster and others). I always stayed away from their commercial offerings. I decided to use OSS and always found it super easy to get a first version running with docker compose in a single VM. However, the benefit was always limited to the visualization or orchestration part of the jobs. Was always wondering ok, now this is like a cron job + some UI. But the real benefit ",
+      "url": "https://dev.to/chryztoph/hybrid-dagster-oss-scalable-compute-on-a-hybrid-azure-setup-554n",
+      "source": "Dev.to",
+      "author": "Chris",
+      "published": "2026-01-24T01:28:31+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "0eff232cf33ae7ec",
+      "title": "Lazy-load Translation Resources: How to Design Route-level, Component-level Loading, and Caching",
+      "description": "When implementing i18n in admin/dashboard applications, a common challenge is figuring out how to load translation resources. Early on, when the project is small, teams often pack everything into one bundle—or at least a few large bundles—just to get it working. But as the system grows, the initial load slows down and translation files become increasingly difficult to maintain. In this post, I’ll explain three ideas in a straightforward way: Route-level lazy loading Component-level lazy loading ",
+      "url": "https://dev.to/_88ff91434a047ab09a604/lazy-load-translation-resources-how-to-design-route-level-component-level-loading-and-caching-7k9",
+      "source": "Dev.to",
+      "author": "viacharles",
+      "published": "2026-01-24T01:07:17+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "fdd9f6edf866fa0f",
       "title": "Building an AI SaaS system is possible; however, when you build the SaaS system, you should have ethical considerations at the centre. If you don't have ethics at the centre, then your model will work but won't have any trust.",
       "description": "What No One Tells You About Building an AI SaaS Business Jaideep Parashar ・ Jan 17 #webdev #ai #saas #programming",
@@ -8473,16 +8491,18 @@
       ]
     },
     {
-      "id": "a0a2927dc0ab15b6",
-      "title": "FLUX.2 [Klein]: Towards Interactive Visual Intelligence",
-      "description": "Comments",
-      "url": "https://bfl.ai/blog/flux2-klein-towards-interactive-visual-intelligence",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-16T23:46:17+00:00",
+      "id": "4cf6626b78aeb881",
+      "title": "How to Work with PDF Files in Python: A PyPDF Guide",
+      "description": "PDF files are everywhere. They’re used for reports, invoices, bank statements, research papers, and legal documents. While PDFs are easy to read for humans, they’re not easy to work with in code. Extracting text, splitting pages, or merging files oft...",
+      "url": "https://www.freecodecamp.org/news/how-to-work-with-pdf-files-in-python-a-pypdf-guide/",
+      "source": "freeCodeCamp",
+      "author": "Manish Shivanandhan",
+      "published": "2026-01-23T19:07:42+00:00",
       "niche": "dev",
-      "score": 44,
-      "keywords": []
+      "score": 45,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "99125f1aa4f698a1",
@@ -10309,6 +10329,30 @@
       "keywords": []
     },
     {
+      "id": "c44f8ae0979200b5",
+      "title": "Open-source self-driving for 325 car models from 27 brands",
+      "description": "Comments",
+      "url": "https://comma.ai",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-24T01:00:50+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "1a1cdd47d7a26f81",
+      "title": "Noora Health (YC W14) Is Hiring AI/ML Engineer",
+      "description": "Comments",
+      "url": "https://www.ycombinator.com/companies/noora-health/jobs/2B4RxLG-ai-ml-engineer",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-24T01:00:48+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "36cc3e91df2ab359",
       "title": "10 Tips for Effective User Experience Evaluation",
       "description": "\"Learn 10 proven UX design tips to improve user experience, boost engagement, and increase conversions. From usability testing to A/B testing strategies.\" Continue reading 10 Tips for Effective User Experience Evaluation on SitePoint.",
@@ -10391,8 +10435,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "React 19",
-        "performance"
+        "performance",
+        "React 19"
       ]
     },
     {
@@ -10450,9 +10494,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
+        "developer",
         "release",
-        "API",
-        "developer"
+        "API"
       ]
     },
     {
@@ -10746,6 +10790,18 @@
       "keywords": []
     },
     {
+      "id": "e36d3e47fe2afd28",
+      "title": "New YC homepage",
+      "description": "Comments",
+      "url": "https://www.ycombinator.com/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-23T18:08:11+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
       "id": "4e6d7290f5ff11d8",
       "title": "React Native 0.80 - React 19.1, JS API Changes, Freezing Legacy Arch and much more",
       "description": "Today we are excited to release React Native 0.80!",
@@ -10756,8 +10812,8 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "React 19",
         "release",
+        "React 19",
         "API"
       ]
     },
@@ -10772,8 +10828,8 @@
       "niche": "dev",
       "score": 37,
       "keywords": [
-        "release",
-        "developer"
+        "developer",
+        "release"
       ]
     },
     {
@@ -10815,8 +10871,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -10830,8 +10886,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -10845,8 +10901,8 @@
       "niche": "dev",
       "score": 34,
       "keywords": [
-        "development",
-        "developer"
+        "developer",
+        "development"
       ]
     },
     {
@@ -10888,8 +10944,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "API",
-        "framework"
+        "framework",
+        "API"
       ]
     },
     {
@@ -11102,10 +11158,10 @@
       "score": 30,
       "keywords": [
         "code",
+        "framework",
         "release",
         "performance",
-        "API",
-        "framework"
+        "API"
       ]
     },
     {
@@ -11410,8 +11466,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "framework"
+        "framework",
+        "release"
       ]
     },
     {
@@ -11425,8 +11481,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "Angular",
-        "framework"
+        "framework",
+        "Angular"
       ]
     },
     {
@@ -11456,8 +11512,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
-        "framework"
+        "framework",
+        "developer"
       ]
     },
     {
@@ -11471,8 +11527,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
-        "developer"
+        "developer",
+        "release"
       ]
     },
     {
@@ -11501,8 +11557,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
-        "developer"
+        "developer",
+        "release"
       ]
     },
     {
@@ -11544,8 +11600,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "development",
-        "developer"
+        "developer",
+        "development"
       ]
     },
     {
@@ -11559,8 +11615,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "API",
-        "code"
+        "code",
+        "API"
       ]
     },
     {
@@ -11574,22 +11630,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "code",
-        "developer"
-      ]
-    },
-    {
-      "id": "c68b33fa3515e168",
-      "title": "The Most Important Skills Going Forward with CTO + Homebrew Maintainer Mike McQuaid [Podcast #204]",
-      "description": "Today Quincy Larson interviews Mike McQuaid. He's a software engineer who previously worked at GitHub, and now serves as lead maintainer of Homebrew, a Mac package manager used by tens of millions of developers. He's based in Edinburgh, Scottland. He...",
-      "url": "https://www.freecodecamp.org/news/the-most-important-skills-going-forward-with-cto-homebrew-maintainer-mike-mcquaid-podcast-204/",
-      "source": "freeCodeCamp",
-      "author": "Beau Carnes",
-      "published": "2026-01-16T15:00:14+00:00",
-      "niche": "dev",
-      "score": 15,
-      "keywords": [
-        "developer"
+        "developer",
+        "code"
       ]
     },
     {
@@ -11861,6 +11903,18 @@
       "keywords": []
     },
     {
+      "id": "ed662b80c8458ff2",
+      "title": "Some C habits I employ for the modern day",
+      "description": "Comments",
+      "url": "https://www.unix.dog/~yosh/blog/c-habits-for-me.html",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-19T08:03:46+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
       "id": "f83e490c21953e04",
       "title": "HTTP Archive 2025 Web Almanac",
       "description": "I love me some good web research reports. I&#8217;m a sucker for them. HTTP Archive&#8217;s Web Almanac is one report I look forward to every year, and I know I&#8217;m not alone there. It&#8217;s one of those highly-anticipated publications on &#8230; HTTP Archive 2025 Web Almanac originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
@@ -12039,8 +12093,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "development",
-        "programming"
+        "programming",
+        "development"
       ]
     },
     {
@@ -12102,8 +12156,8 @@
       "niche": "dev",
       "score": 13,
       "keywords": [
-        "code",
-        "developer"
+        "developer",
+        "code"
       ]
     },
     {
