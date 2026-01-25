@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-25T15:26:32.485648+00:00",
-  "total_articles": 988,
+  "last_updated": "2026-01-25T18:37:19.533495+00:00",
+  "total_articles": 986,
   "articles": [
     {
       "id": "244ae7139ee3970d",
@@ -890,18 +890,6 @@
       ]
     },
     {
-      "id": "4edf588bfc4ca148",
-      "title": "Flux 2 Klein pure C inference",
-      "description": "Comments",
-      "url": "https://github.com/antirez/flux2.c",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-18T18:01:58+00:00",
-      "niche": "dev",
-      "score": 62,
-      "keywords": []
-    },
-    {
       "id": "8e1b4479ee3618af",
       "title": "Show HN: AWS-doctor – A terminal-based AWS health check and cost optimizer in Go",
       "description": "Comments",
@@ -1357,6 +1345,18 @@
       "keywords": []
     },
     {
+      "id": "b7f6d915820dae69",
+      "title": "A macOS app that blurs your screen when you slouch",
+      "description": "Comments",
+      "url": "https://github.com/tldev/posturr",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-25T15:34:51+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": []
+    },
+    {
       "id": "a993dac839710701",
       "title": "Qwen3-TTS: The Open-Source Text-to-Speech Revolution in 2026",
       "description": "Introduction In January 2026, Alibaba's Qwen team released Qwen3-TTS, an open-source text-to-speech (TTS) model that's reshaping the landscape of AI-powered voice synthesis. Trained on over 5 million hours of speech data across 10 languages, Qwen3-TTS represents a significant leap forward in multilingual TTS technology. This comprehensive guide explores the model's architecture, performance benchmarks, hardware requirements, and how it compares to industry leaders like GPT-4o Audio and ElevenLab",
@@ -1717,22 +1717,6 @@
       ]
     },
     {
-      "id": "b053e03b9b887a87",
-      "title": "Building a Resilient Meta Tag Analyzer with DOMParser and Serverless",
-      "description": "Building SEO tools often sounds straightforward until you hit the two walls of modern web scraping: Cross-Origin Resource Sharing (CORS) and the messiness of parsing arbitrary HTML. Recently, I built a Meta Tag Analyzer to help developers debug their Open Graph and Twitter Card tags. The goal was to take a URL, fetch the source code, and visualize exactly how social platforms see the page. Here is the technical breakdown of how I handled the data fetching architecture and, more importantly, how ",
-      "url": "https://dev.to/ahmad_shakibnasaj_a8f9bb/building-a-resilient-meta-tag-analyzer-with-domparser-and-serverless-2k6m",
-      "source": "Dev.to",
-      "author": "NasajTools",
-      "published": "2026-01-18T18:23:26+00:00",
-      "niche": "dev",
-      "score": 56,
-      "keywords": [
-        "code",
-        "API",
-        "developer"
-      ]
-    },
-    {
       "id": "9f0b3509154a36d9",
       "title": "Building a High-Concurrency Web Crawler in Go: A Practical Guide",
       "description": "Introduction Web crawlers are the unsung heroes of the internet, tirelessly fetching data for price tracking, news aggregation, or search engines. If you’re a Go developer with 1-2 years of experience, you already know Go’s syntax and concurrency model—now let’s put them to work! In this guide, we’ll build a high-concurrency web crawler in Go, complete with code, real-world tips, and lessons from projects like e-commerce price monitoring and news scraping. Why Go? Go’s lightweight goroutines, ro",
@@ -1866,38 +1850,6 @@
         "developer",
         "code",
         "framework"
-      ]
-    },
-    {
-      "id": "41024404860a2573",
-      "title": "Git Source Control Best Practices with IRIS in VSCode",
-      "description": "Table of Contents Introduction Version Control Exporting Classes Exporting BI Analytics classes Exporting globals Introduction. In this article, we'll cover a quick start to Git development with the InterSystems Developer Community and version control practices when working with IRIS InterSystems. We'll cover scenarios where we need to export Interoperability classes, globals, and analytics elements such as cubes and dashboards. These scenarios encompass key version control practices with IRIS. ",
-      "url": "https://dev.to/intersystems/git-source-control-best-practices-with-iris-in-vscode-3ilg",
-      "source": "Dev.to",
-      "author": "InterSystems Developer",
-      "published": "2026-01-18T18:16:27+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "development",
-        "code",
-        "developer",
-        "best practices"
-      ]
-    },
-    {
-      "id": "52390fc027f9342e",
-      "title": "Build a Self-Evolving Memory Agent in 150 Lines",
-      "description": "This is the runnable companion to the Memory Architecture series. No dependencies. Copy, paste, run. The skeleton demonstrates: Inner loop: runtime behavior (encode → store → retrieve → manage) Outer loop: architecture evolution (adapt config based on performance) Four rooms: encode, store, retrieve, manage as separate concerns python self_evolving_agent.py The Full Skeleton \"\"\" self_evolving_agent.py A minimal, runnable skeleton of a self-evolving memory agent. No external dependencies. Uses fa",
-      "url": "https://dev.to/narnaiezzsshaa/build-a-self-evolving-memory-agent-in-150-lines-lad",
-      "source": "Dev.to",
-      "author": "Narnaiezzsshaa Truong",
-      "published": "2026-01-18T18:00:00+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "code",
-        "performance"
       ]
     },
     {
@@ -2287,6 +2239,21 @@
       "score": 55,
       "keywords": [
         "PHP",
+        "code"
+      ]
+    },
+    {
+      "id": "ccec3be4647db486",
+      "title": "Your Local Environment Tests a Different System Than Production",
+      "description": "Why \"works on my machine\" keeps happening—and what we're building to fix it. You've seen this before: Your multi-service app works perfectly locally. All services talk to each other, tests pass, everything's green. You push to CI. CI fails. Or staging breaks. Or production returns 404s on routes that worked fine on your laptop. The Problem: localhost Isn't Production Here's what you're actually testing locally: // Your local code const API_URL = 'http://localhost:3001'; fetch(`${API_URL}/users`)",
+      "url": "https://dev.to/nuewframe/your-local-environment-tests-a-different-system-than-production-4ib1",
+      "source": "Dev.to",
+      "author": "Wael Rabadi",
+      "published": "2026-01-25T18:13:22+00:00",
+      "niche": "dev",
+      "score": 55,
+      "keywords": [
+        "API",
         "code"
       ]
     },
@@ -3291,21 +3258,6 @@
       ]
     },
     {
-      "id": "98b77d6261f6380d",
-      "title": "/statusline: Build Your Dream Status Bar for Claude Code",
-      "description": "Git info? Token count? Bitcoin price? Prayer times? Wordle streak? Whatever you need, the statusline delivers. From: x.com/adocomplete Every developer has their own definition of \"essential information.\" Some need to know their current git branch at all times. Others obsess over token usage. And some — let's be honest — want to keep an eye on Bitcoin while they code. The beauty of Claude Code's statusline feature is that it doesn't judge. Whatever information makes you more productive (or just h",
-      "url": "https://dev.to/rajeshroyal/statusline-build-your-dream-status-bar-for-claude-code-50p5",
-      "source": "Dev.to",
-      "author": "Rajesh Royal",
-      "published": "2026-01-18T18:30:00+00:00",
-      "niche": "dev",
-      "score": 52,
-      "keywords": [
-        "code",
-        "developer"
-      ]
-    },
-    {
       "id": "e89da4079ea08e4b",
       "title": "Stay ahead in web development: latest news, tools, and insights #120",
       "description": "Signup here for the newsletter to get the weekly digest right into your inbox. weeklyfoo #120 is here: your weekly digest of all webdev news you need to know! This time you'll find 28 valuable links in 3 categories! Enjoy! 🚀 Read it! The Key to Agentic Success? BASH Is All You Need: Vercel and open source developers found that minimalist AI agent architectures based on Unix, with simple BASH shells and modular tools, can outperform complex, over-engineered systems. by Joab Jackson / ai, bash / 3",
@@ -3917,48 +3869,6 @@
       "score": 52,
       "keywords": [
         "programming",
-        "code"
-      ]
-    },
-    {
-      "id": "1b55c3b679381f22",
-      "title": "Part 1 - Vercel to VPS",
-      "description": "Vercel, it feels like magic. You push to Git, and suddenly your site is live and globally available. No servers. No configs. No stress. But at some point, you decided to move out of Vercel. Not because Vercel is bad or more pricey, but because production means more than “it works”. But first, why move from a managed platform to a VPS? Managed platforms like Vercel and Netlify manage all the behind infra setup, so developers can ship faster, but a VPS optimizes for control. Here are a few things ",
-      "url": "https://dev.to/bkanhu/part-1-vercel-to-vps-1odj",
-      "source": "Dev.to",
-      "author": "B Kanhu Charan",
-      "published": "2026-01-18T18:19:20+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "developer"
-      ]
-    },
-    {
-      "id": "ff8be4847d67df24",
-      "title": "I Built Qreasure: QR Code Treasure Hunts in Minutes, Now 50% Off",
-      "description": "I wanted a way to run treasure hunts without apps, lost participants, or tech headaches. So I built Qreasure. Qreasure lets you create QR-based hunts and trails for schools, museums, tourism sites, and events. Participants scan QR codes with their phone camera, answer challenges, and you watch live results roll in. No app downloads, no accounts, no fuss. Key Features: Live tracking dashboard to see which teams are leading or falling behind Works on any smartphone with no setup for players Option",
-      "url": "https://dev.to/vulcanwm/i-built-qreasure-qr-code-treasure-hunts-in-minutes-now-50-off-17l3",
-      "source": "Dev.to",
-      "author": "Medea",
-      "published": "2026-01-18T18:04:51+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "3edf0d17c79c7149",
-      "title": "Building Production AI: A Three-Part MLOps Journey - Pt.2",
-      "description": "Part 3: Deployment & Monitoring \"Production Deployment: UI, CI/CD, and Observability\" The Gist: We’ve built the engine and tested it on the track. Now, it’s time to open the showroom. In this final part, we aren’t just 'running code'—we’re launching a product. We’ll build a slick user interface, set up an automated 'safety net' (CI/CD) so we don't accidentally ship bugs, and install 'CCTV' (Monitoring) to make sure the AI stays healthy once it's out in the wild. 1. The Front Door: Gradio Applica",
-      "url": "https://dev.to/afrologicinsect/building-production-ai-a-three-part-mlops-journey-pt2-415m",
-      "source": "Dev.to",
-      "author": "Akan",
-      "published": "2026-01-18T17:57:32+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
         "code"
       ]
     },
@@ -5574,40 +5484,46 @@
       ]
     },
     {
-      "id": "8a523dab47365695",
-      "title": "I figured out how to actually be the “first applicant” on LinkedIn",
-      "description": "I finally figured this out and it’s kind of ridiculous that LinkedIn doesn’t make it obvious. Like most people, I used to sort jobs by “Past 24 hours” and assume I was seeing fresh listings. Turns out… you’re not. Even with that filter on, LinkedIn still mixes in older jobs, reposts, and listings that already have hundreds of applicants. The hidden trick: f_TPR LinkedIn’s job search actually supports a hidden time filter in the URL that’s not exposed in the UI. There’s a backend parameter called",
-      "url": "https://dev.to/salaria_labs/i-figured-out-how-to-actually-be-the-first-applicant-on-linkedin-40ip",
+      "id": "3d51a8c321e362bb",
+      "title": "AI-generated code lacks common sense",
+      "description": "TLDR 🙇: AI-generated code lacks common sense, especially senior-level. Examples of missing behavior: Before providing a solution, ask whether the problem should be solved at all. Know when to ask for more context if it is needed to give a better solution. Research if there are existing utilities or dependencies that can be reused. Consider tradeoffs before adding a new dependency. Consider dev vs runtime deps, security, licensing, and bundle size. In addition, it lacks elegancy. The LLM-generate",
+      "url": "https://dev.to/maxpatiiuk/ai-generated-code-lacks-common-sense-29bo",
       "source": "Dev.to",
-      "author": "Salaria Labs",
-      "published": "2026-01-18T18:22:16+00:00",
+      "author": "Max Patiiuk",
+      "published": "2026-01-25T18:09:08+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
-      "id": "5a1be649376b4bc3",
-      "title": "Supply Chain Orchestration for dummies",
-      "description": "Supply Chain refers to a set of processes and activities performed by the company's business areas and its suppliers and partners (stakeholders), from the acquisition of raw materials, through production, to delivery to the end consumer. It can be better managed using SCM solutions with the orchestration of the InterSystems IRIS: Planning process All Supply Chain processes demand strong planning, always supported by data and analyses necessary to plan and execute activities in line with quality,",
-      "url": "https://dev.to/intersystems/supply-chain-orchestration-for-dummies-2j66",
+      "id": "205ae2a3997a6d12",
+      "title": "code is a \"translation\" | after 1.5 years of \"vibe-coding\" adventures thoughts",
+      "description": "I have experimented with spec-driven, docs-driven, and guide-driven workflows—I even tried developing \"semantic intent\"—and as a result, I’ve completely reimagined why these things exist in the first place. Like many, I initially tried to draft them as detailed PRDs (Product Requirements Documents), GDDs (Game Design Documents), or SOPs (Standard Operating Procedures), intending for them to serve as the absolute \"source of truth\" for every change. Under that model, the Agent’s flow looked like t",
+      "url": "https://dev.to/arenukvern/code-is-a-translation-after-15-years-of-vibe-coding-adventures-thoughts-2hbn",
       "source": "Dev.to",
-      "author": "InterSystems Developer",
-      "published": "2026-01-18T18:19:44+00:00",
+      "author": "Anton Malofeev",
+      "published": "2026-01-25T18:01:45+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
-      "id": "0a3c8e3bf6688fab",
-      "title": "Stop Reading Raw Stacktraces: AI-Powered Java Thread Dump Analysis with MCP",
-      "description": "Let’s be honest: Who actually enjoys digging through 500MB log files to find a needle in a haystack? We’ve all been there—production is down, chat messages constantly pop up, and you’re bleary-eyed, scrolling through hundreds of lines of a thread dump. You’re hunting for that one monitor lock holding everything up, or desperately trying to figure out if thread http-nio-8080-exec-1 was already stuck at the exact same line thirty seconds ago. It’s tedious, error-prone, and—let’s face it—boring wor",
-      "url": "https://dev.to/irockel/stop-reading-raw-stacktraces-ai-powered-java-thread-dump-analysis-with-mcp-4673",
+      "id": "b187ea948e5b812f",
+      "title": "Understanding Promises in JavaScript",
+      "description": "Promises are a fundamental part of modern JavaScript, introduced in ECMAScript 2015 (ES6). They provide a way to handle asynchronous operations more cleanly and predictably than traditional callbacks. A Promise is an object that represents the eventual completion (or failure) of an asynchronous operation and its resulting value. It's like a \"placeholder\" for a value that might not be available yet. Promises were created to solve callback hell (deeply nested callbacks in async code). They allow y",
+      "url": "https://dev.to/pckalyan/understanding-promises-in-javascript-253m",
       "source": "Dev.to",
-      "author": "Ingo Rockel",
-      "published": "2026-01-18T17:55:31+00:00",
+      "author": "Kalyan P C",
+      "published": "2026-01-25T18:00:08+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "e9f3a52144322f0d",
@@ -8110,6 +8026,78 @@
       "keywords": []
     },
     {
+      "id": "08cf2e550f7e289b",
+      "title": "SOLID com Node.js e TypeScript: Escrevendo Código de Gente Grande",
+      "description": "Muitos desenvolvedores acreditam que os princípios SOLID são relíquias da era do Java clássico que não se aplicam ao mundo ágil e dinâmico do Node.js. Ledo engano. À medida que as aplicações Node.js crescem em complexidade, a falta de uma base sólida transforma projetos promissores em pesadelos de manutenção. Quando combinamos o TypeScript com Node.js, ganhamos as ferramentas necessárias para aplicar esses princípios de forma elegante, garantindo que o sistema seja fácil de estender e testar. O ",
+      "url": "https://dev.to/danielcamucatto/solid-com-nodejs-e-typescript-escrevendo-codigo-de-gente-grande-32nj",
+      "source": "Dev.to",
+      "author": "Daniel Camucatto",
+      "published": "2026-01-25T18:15:27+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "5dcb5974e1211d8b",
+      "title": "β or w? for weight...",
+      "description": "Which one do you use β or w for weight {ŷ = x * (?) + (?)} ? There are many ways to write the linear regression equation let's see two of them : 1. ŷ = x * w + b where, ŷ -> predicted value x -> parameter / input w -> weight factor b -> bias 2. ŷ = x * β + β₀ where, ŷ -> predicted value x -> parameter / input β -> weight factor β ₀ -> bias When-ever your teacher teaches you machine learning basics most likely he/she uses the first example naming convention, which is desirable. But when you stumb",
+      "url": "https://dev.to/yash_30may05ur/b-or-w-for-weight-51id",
+      "source": "Dev.to",
+      "author": "Yash",
+      "published": "2026-01-25T18:14:02+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "7b321489a8bdf18f",
+      "title": "I stopped analysing matches and started building a tool to decide whether to go",
+      "description": "I used to analyse matches. Now I’m trying to solve a different problem. For a long time, I wrote about sports by looking backwards. I analysed matches using data — possession, shots, goalkeeping decisions — and tried to explain why a game ended the way it did. One of my last posts here was about the UEFA Women’s EURO final and how England trusted their goalkeeper. I still enjoy that kind of analysis. But at some point, I realised I was personally stuck with a much simpler, more practical problem",
+      "url": "https://dev.to/ezeeyeyo/i-stopped-analysing-matches-and-started-building-a-tool-to-decide-whether-to-go-46oj",
+      "source": "Dev.to",
+      "author": "Marina Kim(Eunji)",
+      "published": "2026-01-25T17:58:52+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "7b1a2250364ddea7",
+      "title": "Implementing the MVI Design Pattern in Flutter: A Journey toward Scalable State Management",
+      "description": "A while back, I worked on a small Flutter project while I was learning about Providers. I tried mimicking a simple MVI design pattern from this repo and attempted to create a Flutter version of it. At the time, it received a quick review that was fairly critical because I hadn't fully understood or applied the core concepts yet. Today, I am salvaging that old project in my quest to implement a proper design pattern for scalable projects. The original Android app tracks how many times you press t",
+      "url": "https://dev.to/emmanuel_code/implementing-the-mvi-design-pattern-in-flutter-a-journey-toward-scalable-state-management-250e",
+      "source": "Dev.to",
+      "author": "emmanuelCode",
+      "published": "2026-01-25T17:54:38+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "afef18e45aa38e41",
+      "title": "Building PriorityPilot: A CLI Project Manager That Learns From Your Decisions",
+      "description": "Ever felt like your project management tool should learn how you actually work instead of forcing you into rigid workflows? That's why I built PriorityPilot — a command-line project manager that uses machine learning to adapt to your behavior. 🔗 GitHub Repository The Problem Traditional project management tools make you manually prioritize tasks, estimate timelines, and adjust plans. But here's the thing: your actions already tell the story. When you start a task, postpone another, or complete s",
+      "url": "https://dev.to/usero0/building-prioritypilot-a-cli-project-manager-that-learns-from-your-decisions-17kg",
+      "source": "Dev.to",
+      "author": "jelly cri",
+      "published": "2026-01-25T17:47:22+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "8f904e37f484dae0",
+      "title": "Comparación de Servicios de Almacenamiento en la Nube",
+      "description": "S3 vs R2 La elección del servicio de almacenamiento en la nube adecuado es crucial para las empresas que buscan optimizar su infraestructura y reducir costos. Dos de los servicios de almacenamiento en la nube más populares son AWS S3 y Cloudflare R2. Aunque ambos servicios ofrecen funcionalidades similares, existen diferencias significativas en términos de características, precios y casos de uso. El objetivo de este artículo es proporcionar una comparación detallada de AWS S3 y Cloudflare R2, de",
+      "url": "https://dev.to/adini/comparacion-de-servicios-de-almacenamiento-en-la-nube-c4f",
+      "source": "Dev.to",
+      "author": "Agustin Ezequiel Acevedo",
+      "published": "2026-01-25T17:46:42+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "2dd087547a526137",
       "title": "Why Technical Correctness Is Not Enough For Developers Anymore. Because an AI system can be statistically accurate and still fail emotionally.",
       "description": "The Emotional UX of AI: What Developers Miss Jaideep Parashar ・ Jan 25 #webdev #devops #programming #ai",
@@ -8495,42 +8483,6 @@
       ]
     },
     {
-      "id": "d40a45ef26ef889d",
-      "title": "Gaussian Splatting – A$AP Rocky Helicopter Music Video",
-      "description": "Comments",
-      "url": "https://radiancefields.com/a-ap-rocky-releases-helicopter-music-video-featuring-gaussian-splatting",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-18T17:40:55+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "7607900ca2b07514",
-      "title": "How the Lobsters front page works",
-      "description": "Comments",
-      "url": "https://atharvaraykar.com/lobsters/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-18T17:38:22+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "0a48b65346930c94",
-      "title": "Gaussian Splatting – A$AP Rocky \"Helicopter\" music video",
-      "description": "Comments",
-      "url": "https://radiancefields.com/a-ap-rocky-releases-helicopter-music-video-featuring-gaussian-splatting",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-18T17:40:55+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
       "id": "1ee423be78b9df63",
       "title": "Breaking the Zimmermann Telegram (2018)",
       "description": "Comments",
@@ -8543,18 +8495,6 @@
       "keywords": []
     },
     {
-      "id": "f9131353ae42cffd",
-      "title": "Show HN: Lume 0.2 – Build and Run macOS VMs with unattended setup",
-      "description": "Comments",
-      "url": "https://cua.ai/docs/lume/guide/getting-started/introduction",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-18T17:53:21+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
       "id": "ee78be76c616d547",
       "title": "Stirling Cycle Machine Analysis",
       "description": "Comments",
@@ -8562,18 +8502,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2026-01-18T20:45:54+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "8e58fb9d6d757202",
-      "title": "Sins of the Children (Adrian Tchaikovsky)",
-      "description": "Comments",
-      "url": "https://asteriskmag.com/issues/07/sins-of-the-children",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-18T17:08:58+00:00",
       "niche": "dev",
       "score": 44,
       "keywords": []
@@ -10391,6 +10319,30 @@
       "keywords": []
     },
     {
+      "id": "1dc6ab061bf71c4c",
+      "title": "Using PostgreSQL as a Dead Letter Queue for Event-Driven Systems",
+      "description": "Comments",
+      "url": "https://www.diljitpr.net/blog-post-postgresql-dlq",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-25T15:51:03+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "6c4c47e59d4862ab",
+      "title": "ICE Using Palantir Tool That Feeds on Medicaid Data",
+      "description": "Comments",
+      "url": "https://www.eff.org/deeplinks/2026/01/report-ice-using-palantir-tool-feeds-medicaid-data",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-25T17:36:19+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "36cc3e91df2ab359",
       "title": "10 Tips for Effective User Experience Evaluation",
       "description": "\"Learn 10 proven UX design tips to improve user experience, boost engagement, and increase conversions. From usability testing to A/B testing strategies.\" Continue reading 10 Tips for Effective User Experience Evaluation on SitePoint.",
@@ -10517,8 +10469,8 @@
       "score": 40,
       "keywords": [
         "performance",
-        "release",
-        "code"
+        "code",
+        "release"
       ]
     },
     {
@@ -10532,9 +10484,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "developer",
+        "API",
         "release",
-        "API"
+        "developer"
       ]
     },
     {
@@ -10559,18 +10511,6 @@
       "published": "2026-01-20T11:57:02+00:00",
       "niche": "dev",
       "score": 39,
-      "keywords": []
-    },
-    {
-      "id": "05f85b7ccb14f7ff",
-      "title": "Sins of the Children",
-      "description": "Comments",
-      "url": "https://asteriskmag.com/issues/07/sins-of-the-children",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-18T17:08:58+00:00",
-      "niche": "dev",
-      "score": 38,
       "keywords": []
     },
     {
@@ -10790,6 +10730,30 @@
       "keywords": []
     },
     {
+      "id": "804c8f3b24575b66",
+      "title": "A flawed paper in Management Science has been cited more than 6,000 times",
+      "description": "Comments",
+      "url": "https://statmodeling.stat.columbia.edu/2026/01/22/aking/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-25T09:04:30+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
+      "id": "aea576eae5df6131",
+      "title": "World’s most powerful literary critic is on TikTok",
+      "description": "Comments",
+      "url": "https://www.newstatesman.com/culture/books/2026/01/the-worlds-most-powerful-literary-critic-is-on-tiktok",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-25T06:06:33+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
       "id": "4e6d7290f5ff11d8",
       "title": "React Native 0.80 - React 19.1, JS API Changes, Freezing Legacy Arch and much more",
       "description": "Today we are excited to release React Native 0.80!",
@@ -10800,9 +10764,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
+        "API",
         "release",
-        "React 19",
-        "API"
+        "React 19"
       ]
     },
     {
@@ -10816,8 +10780,8 @@
       "niche": "dev",
       "score": 37,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -11121,11 +11085,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "performance",
+        "code",
         "release",
         "framework",
         "API",
-        "code"
+        "performance"
       ]
     },
     {
@@ -11391,8 +11355,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "API"
+        "API",
+        "release"
       ]
     },
     {
@@ -11406,8 +11370,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "framework"
+        "framework",
+        "release"
       ]
     },
     {
@@ -11421,8 +11385,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "Angular",
-        "framework"
+        "framework",
+        "Angular"
       ]
     },
     {
@@ -11437,8 +11401,8 @@
       "score": 20,
       "keywords": [
         "performance",
-        "developer",
-        "code"
+        "code",
+        "developer"
       ]
     },
     {
@@ -11452,8 +11416,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -11482,8 +11446,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -11540,8 +11504,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "code",
-        "API"
+        "API",
+        "code"
       ]
     },
     {
@@ -11555,8 +11519,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "developer",
-        "code"
+        "code",
+        "developer"
       ]
     },
     {
@@ -12093,8 +12057,8 @@
       "niche": "dev",
       "score": 13,
       "keywords": [
-        "developer",
-        "code"
+        "code",
+        "developer"
       ]
     },
     {
