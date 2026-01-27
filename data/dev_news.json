@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-27T18:48:30.567624+00:00",
-  "total_articles": 979,
+  "last_updated": "2026-01-27T21:24:26.841688+00:00",
+  "total_articles": 986,
   "articles": [
     {
       "id": "244ae7139ee3970d",
@@ -60,38 +60,6 @@
       "keywords": [
         "Spring Boot 4",
         "Spring"
-      ]
-    },
-    {
-      "id": "d03777acf3de27d5",
-      "title": "Async Reactivity with Angular Resources — A Production‑Minded Guide (2026)",
-      "description": "Async Reactivity with Angular Resources — A Production‑Minded Guide (2026) Signals are synchronous by design (signal, computed, effect, input). But real apps aren’t. They fetch data, debounce queries, cancel requests, retry, and render loading/error states. Resource is Angular’s answer: async data that plugs into signal-based code while keeping template reads synchronous. ⚠️ Important: resource is currently experimental. It’s ready to try, but the API may change before it’s stable. Table of Cont",
-      "url": "https://dev.to/cristiansifuentes/async-reactivity-with-angular-resources-a-production-minded-guide-2026-283k",
-      "source": "Dev.to",
-      "author": "Cristian Sifuentes",
-      "published": "2026-01-20T21:19:28+00:00",
-      "niche": "dev",
-      "score": 76,
-      "keywords": [
-        "API",
-        "code",
-        "Angular"
-      ]
-    },
-    {
-      "id": "8fbca271d3cbc2b7",
-      "title": "Ng-News 26/02: Frameworks in 2026, Competition among Frameworks, Angular Inside",
-      "description": "This episode covers framework direction perspectives, a deep dive into Angular template type checking, and several community updates. 📺 Watch the full episode on YouTube: Ryan Carniato on 2026 Ryan Carniato is the creator of Solid.js and has a good overview of what the various front-end frameworks are doing. He published an article where he gave his prediction for 2026. The rise of powerful SSR techniques (he mentioned React Server Components and Astro’s island architecture) led to separate code",
-      "url": "https://dev.to/this-is-angular/ng-news-2602-frameworks-in-2026-competition-among-frameworks-angular-inside-1jee",
-      "source": "Dev.to",
-      "author": "ng-news",
-      "published": "2026-01-20T20:51:41+00:00",
-      "niche": "dev",
-      "score": 76,
-      "keywords": [
-        "code",
-        "Angular",
-        "framework"
       ]
     },
     {
@@ -467,6 +435,20 @@
       "score": 69,
       "keywords": [
         "developer"
+      ]
+    },
+    {
+      "id": "388c2d70166d02bc",
+      "title": "How to Build an AI-Powered RAG Search Application with Next.js, Supabase, and OpenAI",
+      "description": "In this tutorial, you'll learn how to build a complete RAG (Retrieval-Augmented Generation) search application from scratch. Your application will allow users to upload documents, store them securely, and search through them using AI-powered semantic...",
+      "url": "https://www.freecodecamp.org/news/how-to-build-an-ai-powered-rag-search-application-with-nextjs-supabase-and-openai/",
+      "source": "freeCodeCamp",
+      "author": "Mayur Vekariya",
+      "published": "2026-01-27T17:21:37+00:00",
+      "niche": "dev",
+      "score": 69,
+      "keywords": [
+        "tutorial"
       ]
     },
     {
@@ -1194,6 +1176,18 @@
       "keywords": []
     },
     {
+      "id": "d3e0da3a24c1e2c3",
+      "title": "Prism",
+      "description": "Comments",
+      "url": "https://openai.com/index/introducing-prism",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-27T18:03:10+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": []
+    },
+    {
       "id": "a993dac839710701",
       "title": "Qwen3-TTS: The Open-Source Text-to-Speech Revolution in 2026",
       "description": "Introduction In January 2026, Alibaba's Qwen team released Qwen3-TTS, an open-source text-to-speech (TTS) model that's reshaping the landscape of AI-powered voice synthesis. Trained on over 5 million hours of speech data across 10 languages, Qwen3-TTS represents a significant leap forward in multilingual TTS technology. This comprehensive guide explores the model's architecture, performance benchmarks, hardware requirements, and how it compares to industry leaders like GPT-4o Audio and ElevenLab",
@@ -1518,6 +1512,21 @@
       "keywords": [
         "microservices",
         "performance"
+      ]
+    },
+    {
+      "id": "188ef5e4855c1a2a",
+      "title": "CVE-2025-59471: Next.js Image Optimizer: The 4GB Hello World",
+      "description": "Next.js Image Optimizer: The 4GB Hello World Vulnerability ID: CVE-2025-59471 CVSS Score: 5.9 Published: 2026-01-27 The Next.js Image Optimization API, a beloved feature for frontend performance, contained a fatal resource handling flaw. By requesting the optimization of a massive external image, an attacker could force the server to buffer the entire file into memory before validation, leading to immediate process termination (OOM). TL;DR The /_next/image endpoint used res.arrayBuffer() to fetc",
+      "url": "https://dev.to/cverports/cve-2025-59471-nextjs-image-optimizer-the-4gb-hello-world-5c09",
+      "source": "Dev.to",
+      "author": "CVE Reports",
+      "published": "2026-01-27T21:10:38+00:00",
+      "niche": "dev",
+      "score": 57,
+      "keywords": [
+        "performance",
+        "API"
       ]
     },
     {
@@ -2072,30 +2081,18 @@
       ]
     },
     {
-      "id": "2b3e4f04035c6851",
-      "title": "Building an API in Go to Manage Files on Amazon S3",
-      "description": "When I decided to create my blog, I chose Amazon S3 to host the images for my posts. The decision was practical (S3 is reliable, inexpensive, and scales well), but I also saw it as an opportunity: using a real, everyday problem to deepen my fluency in the AWS ecosystem, especially around security, automation, and integrations. After creating a Go program that allows me to optimize and convert images to WebP, which I detailed in this article, I decided to build an API—also in Go—that allows me to",
-      "url": "https://dev.to/joaooliveiratech/building-an-api-in-go-to-manage-files-on-amazon-s3-4olc",
-      "source": "Dev.to",
-      "author": "Joao Oliveira",
-      "published": "2026-01-20T21:03:58+00:00",
+      "id": "f86aa5d116afd682",
+      "title": "What's next for JavaScript frameworks in 2026",
+      "description": "#​770 — January 27, 2026 Read on the Web JavaScript Weekly Introducing LibPDF: PDF Parsing and Generation from TypeScript — LibPDF bills itself as ‘the PDF library TypeScript deserves’ and supports parsing, modifying, signing and generating PDFs with a modern API in Node, Bun, and the browser. GitHub repo. Documenso JavaScript Frameworks – Heading into 2026 — The creator of SolidJS knows more than a thing or two about JS frameworks and has written an annual review of the scene for the past few y",
+      "url": "https://javascriptweekly.com/issues/770",
+      "source": "JavaScript Weekly",
+      "author": "Inconnu",
+      "published": "2026-01-27T00:00:00+00:00",
       "niche": "dev",
-      "score": 54,
+      "score": 55,
       "keywords": [
-        "API"
-      ]
-    },
-    {
-      "id": "44f555270f1639ab",
-      "title": "Building LinkedIn Lead Enrichment with n8n, Dropcontact, and Apify",
-      "description": "When a lead submits their email through your form, you need more than just an email address. You need their LinkedIn profile, job title, company details, and work history to qualify and personalize your outreach. Here's how to architect an n8n workflow that enriches inbound leads automatically using Dropcontact's LinkedIn lookup API and Apify's profile scraper. Architecture Overview The enrichment pipeline follows this data flow: Form Submission (email) ↓ Dropcontact API (email → LinkedIn URL) ↓",
-      "url": "https://dev.to/hackceleration/building-linkedin-lead-enrichment-with-n8n-dropcontact-and-apify-15a3",
-      "source": "Dev.to",
-      "author": "Hackceleration",
-      "published": "2026-01-20T20:46:39+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
+        "library",
+        "framework",
         "API"
       ]
     },
@@ -3805,17 +3802,18 @@
       ]
     },
     {
-      "id": "571138b08bcadaee",
-      "title": "Architectural Drift: The Reason For JavaScript/Typescript Codebases To Break Down Over Time",
-      "description": "TL;DR: Drifting occurs in every codebase. Codebases do not break down due to a specific problem; they are drifting due to small changes (such as importing for analytics tracking) that become significant over time from a maintenance standpoint. You will not discover these issues with ESLint or unit tests. The long-term result is that after 6 months, you will be scared to touch anything in your codebase. This article describes what is causing the drift in your codebase and what you can do about it",
-      "url": "https://dev.to/fixcik/architectural-drift-the-reason-for-javascripttypescript-codebases-to-break-down-over-time-471g",
-      "source": "Dev.to",
-      "author": "fixcik",
-      "published": "2026-01-20T21:06:17+00:00",
+      "id": "ee2c3f890bbbd715",
+      "title": "How the Factory and Abstract Factory Design Patterns Work in Flutter",
+      "description": "In software development, particularly object-oriented programming and design, object creation is a common task. And how you manage this process can impact your app's flexibility, scalability, and maintainability. Creational design patterns govern how...",
+      "url": "https://www.freecodecamp.org/news/how-the-factory-and-abstract-factory-design-patterns-work-in-flutter/",
+      "source": "freeCodeCamp",
+      "author": "Oluwaseyi Fatunmole",
+      "published": "2026-01-27T17:23:03+00:00",
       "niche": "dev",
-      "score": 51,
+      "score": 52,
       "keywords": [
-        "code"
+        "development",
+        "programming"
       ]
     },
     {
@@ -5457,64 +5455,18 @@
       ]
     },
     {
-      "id": "53d8c8fe27dce6f2",
-      "title": "Named Query Filters in .NET 10",
-      "description": "From Hidden Magic to Clean, Explicit Architecture Since their introduction in EF Core, Global Query Filters have offered a powerful idea: define cross-cutting query rules once, and apply them automatically everywhere. In theory, this reduces repetition and enforces consistency. In practice, however, real-world usage exposed an important issue: lack of clarity. example : public class UserConfiguration : IEntityTypeConfiguration<User> { public void Configure(EntityTypeBuilder<User> builder) { buil",
-      "url": "https://dev.to/hamza_darouzi_dotnet/named-query-filters-in-net-10-47hp",
+      "id": "4595f0812997f3fc",
+      "title": "Clean Architecture in .NET 10: Why Your Code Turns Into Spaghetti (And How to Prevent It)",
+      "description": "Who This Series Is For You know C#. You've built some projects—maybe in school, maybe at your first job. Things worked. But something felt off: Adding a feature meant changing 10 files You were scared to refactor because everything might break Your controllers were 500 lines long Testing felt impossible, so you didn't Senior devs talked about \"architecture,\" and you nodded along, confused This series is for you. We're going to build a real application from scratch. By the end, you'll understand ",
+      "url": "https://dev.to/spanntechwizard/clean-architecture-in-net-10-why-your-code-turns-into-spaghetti-and-how-to-prevent-it-3cam",
       "source": "Dev.to",
-      "author": "Hamza Darouzi",
-      "published": "2026-01-20T21:07:14+00:00",
+      "author": "Brian Spann",
+      "published": "2026-01-27T21:00:00+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "e09e579aa1611cab",
-      "title": "LLMs - What are they good for, anyway?",
-      "description": "Take a piece of paper and on it, at the three points of an imaginary equilateral triangle, draw three dots. Looking at that piece of paper, which pair of dots is closest to each other? There is no answer. Now, take that same piece of paper and fold it in half along the midpoint between two dots so that the two dots are nearly touching each other. Ask yourself, again, which pair of dots is closest? The answer is obvious. What this exercise shows is the power of adding dimensions. When you are loo",
-      "url": "https://dev.to/jballanc/llms-what-are-they-good-for-anyway-3p12",
-      "source": "Dev.to",
-      "author": "Joshua Ballanco",
-      "published": "2026-01-20T20:57:04+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "b2bdce9784e538a2",
-      "title": "A Linux Desktop in Jupyter Lab",
-      "description": "Jupyter is a useful environment for data exploration. Despite the many excellent visualization packages, it's often more expedient to use a purpose-built application to see results. Typically, results are exported to a file, which is downloaded and imported into the application. The extra steps require context switching from an online application to an application running in on your computer. Running a Linux desktop in JupyterLab eliminates the need to move data between environments and reduces ",
-      "url": "https://dev.to/spara_50/a-linux-desktop-in-jupyter-lab-4khg",
-      "source": "Dev.to",
-      "author": "Sophia Parafina",
-      "published": "2026-01-20T20:54:46+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "81897dcf1f99c7ff",
-      "title": "Union-Find Path Compression: A Visual Dry Run",
-      "description": "Originally published on LeetCopilot Blog DSU solves connectivity fast, but parent updates feel invisible. This dry run shows each find and union step by step. Disjoint set union (DSU) solves connectivity questions fast, but the parent updates can feel invisible. This dry run illustrates each find and union with path compression so you can narrate the structure clearly in interviews. TL;DR Topic: Disjoint set union with path compression and union by rank. Interview value: Guarantees near-constant",
-      "url": "https://dev.to/alex_hunter_44f4c9ed6671e/union-find-path-compression-a-visual-dry-run-38pm",
-      "source": "Dev.to",
-      "author": "Alex Hunter",
-      "published": "2026-01-20T20:42:57+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "6316873628f5ace4",
-      "title": "Tips and tricks for your Kestra flows",
-      "description": "Maybe you've read my multi-part series (part 1, part 2) about building my first Kestra flow? Maybe you noticed I made it overly complicated. But here is where you benefit! I have tons of tips and tricks for you. Just like any list of tips and tricks, some will be a technical requirements while others will be a preference. If you prefer something different, that's totally fine and I'd love to hear about it in the comments. Let's dig in! Name your flow id something relevant Out-of-the-box, you are",
-      "url": "https://dev.to/missamarakay/tips-and-tricks-for-your-kestra-flows-40ei",
-      "source": "Dev.to",
-      "author": "Amara Graham",
-      "published": "2026-01-20T20:35:41+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "54f83e8b72dbfbab",
@@ -8111,6 +8063,114 @@
       "keywords": []
     },
     {
+      "id": "73846e39287279e8",
+      "title": "💼 Freelance Rate Negotiation Coach - AI-Powered Salary Intelligence",
+      "description": "This is a submission for the Algolia Agent Studio Challenge: Consumer-Facing Conversational Experiences What I Built I built the Freelance Rate Negotiation Coach, an AI-powered conversational agent that helps freelancers negotiate fair rates using real market intelligence. The Problem: Freelancers struggle to know their market value. They either undercharge (leaving money on the table) or overcharge (losing clients). Market data is scattered across platforms, outdated, or simply doesn't exist fo",
+      "url": "https://dev.to/asamaes/freelance-rate-negotiation-coach-ai-powered-salary-intelligence-3kn2",
+      "source": "Dev.to",
+      "author": "Asmae",
+      "published": "2026-01-27T21:14:11+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "b3ce1b30c5b82437",
+      "title": "ℹ️ INFO Ralph Proactive Scan Findings (+2 more)",
+      "description": "Tuesday, January 27, 2026 (Eastern Time) Building an autonomous AI trading system means things break. Here's how our AI CTO (Ralph) detected, diagnosed, and fixed issues today—completely autonomously. 🗺️ Today's Fix Flow flowchart LR subgraph Detection[\"🔍 Detection\"] D1[\"🟢 Ralph Proactive\"] D2[\"🟢 Ralph Proactive\"] D3[\"🟢 LL-309: Iron Co\"] end subgraph Analysis[\"🔬 Analysis\"] A1[\"Root Cause Found\"] end subgraph Fix[\"🔧 Fix Applied\"] F1[\"f2d82fe\"] F2[\"424ff2b\"] F3[\"7216c04\"] end subgraph Verify[\"✅ Ve",
+      "url": "https://dev.to/igorganapolsky/info-ralph-proactive-scan-findings-2-more-1ic9",
+      "source": "Dev.to",
+      "author": "Igor Ganapolsky",
+      "published": "2026-01-27T21:10:58+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "4849b6fec9d073ee",
+      "title": "Stop Calling Everything \"Security\": Why Your \"Expert\" Doesn't Know What They're Talking About",
+      "description": "Or: How I Learned to Stop Worrying and Love Precise Terminology I've sat through exactly 437 meetings (Nah, I'm lying - Should have been WAY more than 437 meetings!) where someone called themselves a \"security expert\" and then spent 45 minutes talking about input validation. I've watched \"security audits\" that were actually compliance checkbox exercises (and those are way more common than you can imagine). I've seen \"data protection strategies\" that wouldn't protect a sandwich from a hungry todd",
+      "url": "https://dev.to/anderson_leite/stop-calling-everything-security-why-your-expert-doesnt-know-what-theyre-talking-about-1i4f",
+      "source": "Dev.to",
+      "author": "Anderson Leite",
+      "published": "2026-01-27T21:08:48+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "604d89221ebb4cc1",
+      "title": "💼 Freelance Rate Negotiation Coach - AI-Powered Salary Intelligence",
+      "description": "This is a submission for the Algolia Agent Studio Challenge: Consumer-Facing Conversational Experiences What I Built I built the Freelance Rate Negotiation Coach, an AI-powered conversational agent that helps freelancers negotiate fair rates using real market intelligence. The Problem: Freelancers struggle to know their market value. They either undercharge (leaving money on the table) or overcharge (losing clients). Market data is scattered across platforms, outdated, or simply doesn't exist fo",
+      "url": "https://dev.to/asamaes/freelance-rate-negotiation-coach-ai-powered-salary-intelligence-4e5f",
+      "source": "Dev.to",
+      "author": "Asmae",
+      "published": "2026-01-27T21:06:21+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "1103f011a21cb011",
+      "title": "Saga Engine Go: Type-Safe Distributed Transactions with Zero Infrastructure",
+      "description": "The Go port of Saga Engine. Compile-time step safety via generics, PostgreSQL persistence, and a 15-minute hard limit. No Temporal cluster required. After shipping Saga Engine for Node.js, the most common request was a Go version. Not a wrapper. A native implementation that leverages what Go actually gives you: generics, context propagation, and compile-time safety. Saga Engine Go is that implementation. Same guarantees. Different language idioms. What's Different from the Node.js Version This i",
+      "url": "https://dev.to/grafikui/saga-engine-go-type-safe-distributed-transactions-with-zero-infrastructure-ke2",
+      "source": "Dev.to",
+      "author": "Grafikui",
+      "published": "2026-01-27T21:05:15+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "2b1b5460d3c2a00b",
+      "title": "TCP vs UDP: When to Use What, and How TCP Relates to HTTP",
+      "description": "In internet their are particular rules how data travels which is called protocols. Imagine we need to send something to your friends if we don't have address or no tracking then it would all chaos. So that what this protocol does how to break large file in smaller pieces? how to make sure all pieces arrive? How to trace no packet is lost? We will discuss about TCP,UDP and HTTP TCP: Transmission control protocol is careful and reliable and makes arrive everything perfectly. -Establishes first ord",
+      "url": "https://dev.to/hiral/tcp-vs-udp-when-to-use-what-and-how-tcp-relates-to-http-494p",
+      "source": "Dev.to",
+      "author": "Hiral",
+      "published": "2026-01-27T21:00:30+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "5afa88309acd654d",
+      "title": "What a 60-second war-room scan reveals",
+      "description": "What a 60-Second War-Room Scan Revealed in Production Everything was green. Dashboards looked perfect. Alerts were quiet. And yet production was unstable. After too many late-night war rooms chasing \"ghost issues\" in Kubernetes, I learned an uncomfortable truth: Kubernetes clusters can report \"healthy\" while hiding serious operational, security, and cost risks. I’ve seen this pattern repeatedly in production — even in “stable” clusters. What Your Monitoring Stack Isn't Telling You Most Kubernete",
+      "url": "https://dev.to/shamsher_khan/what-a-60-second-war-room-scan-reveals-352i",
+      "source": "Dev.to",
+      "author": "Shamsher Khan (Shamz)",
+      "published": "2026-01-27T20:45:11+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "2351f0a4f3d77f98",
+      "title": "burnout in learning",
+      "description": "the weight of burnout life hits everyone differently. no two people share the exact same struggles, and no one person can claim to have greater struggles than another. burnout is one of those struggles that varies per individual. and the age-old question is, \"how do i avoid burnout?\" i don't have those answers, unfortunately. burnout is one of my biggest struggles. has been for as long as i can remember. back when i was in film school it seemed easier to counter burnout as it approached, but the",
+      "url": "https://dev.to/fern_d3v/burnout-in-learning-4fb6",
+      "source": "Dev.to",
+      "author": "fern_d3v",
+      "published": "2026-01-27T20:41:59+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "44e989c208f93a1f",
+      "title": "Build Pipeline Parallelism from Scratch",
+      "description": "Pipeline parallelism speeds up training of AI models by splitting a massive model across multiple GPUs and processing data like an assembly line, ensuring no single device has to hold the entire model in memory. This course teaches pipeline paralleli...",
+      "url": "https://www.freecodecamp.org/news/build-pipeline-parallelism-from-scratch/",
+      "source": "freeCodeCamp",
+      "author": "Beau Carnes",
+      "published": "2026-01-27T15:53:02+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "2dd087547a526137",
       "title": "Why Technical Correctness Is Not Enough For Developers Anymore. Because an AI system can be statistically accurate and still fail emotionally.",
       "description": "The Emotional UX of AI: What Developers Miss Jaideep Parashar ・ Jan 25 #webdev #devops #programming #ai",
@@ -8330,20 +8390,6 @@
       "keywords": []
     },
     {
-      "id": "5ab930c8aeb0dfad",
-      "title": "How Execution Context Works in JavaScript – A Handbook for Devs",
-      "description": "Execution Context is one of the most fundamental yet most misunderstood concepts in JavaScript. It defines how JavaScript code is evaluated and executed, and it plays a central role in determining how variables, functions, and scope behave. Many core...",
-      "url": "https://www.freecodecamp.org/news/how-execution-context-works-in-javascript-handbook/",
-      "source": "freeCodeCamp",
-      "author": "Sumit Saha",
-      "published": "2026-01-20T19:17:26+00:00",
-      "niche": "dev",
-      "score": 45,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
       "id": "65bb591d27573f5c",
       "title": "Nested Code Fences in Markdown",
       "description": "Comments",
@@ -8482,18 +8528,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "684c089a4388b553",
-      "title": "Instabridge has acquired Nova Launcher",
-      "description": "Comments",
-      "url": "https://novalauncher.com/nova-is-here-to-stay",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-20T19:06:56+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "6deeccc31249cce8",
@@ -10308,6 +10342,66 @@
       "keywords": []
     },
     {
+      "id": "85d5a72b7144e7b9",
+      "title": "TikTok settles just before social media addiction trial to begin",
+      "description": "Comments",
+      "url": "https://www.bbc.com/news/articles/c24g8v6qr1mo",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-27T20:38:22+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "dc7c5452543e0d1c",
+      "title": "Lennart Poettering, Christian Brauner founded a new company",
+      "description": "Comments",
+      "url": "https://amutable.com/about",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-27T18:57:15+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "51ee843e6824d4dc",
+      "title": "Parametric CAD in Rust",
+      "description": "Comments",
+      "url": "https://campedersen.com/vcad",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-27T20:36:14+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "1cb993ca34b29601",
+      "title": "FBI is investigating Minnesota Signal chats tracking ICE",
+      "description": "Comments",
+      "url": "https://www.nbcnews.com/tech/internet/fbi-investigating-minnesota-signal-minneapolis-group-ice-patel-kash-rcna256041",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-27T17:32:05+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "c1207312fe6cc30b",
+      "title": "AI2: Open Coding Agents",
+      "description": "Comments",
+      "url": "https://allenai.org/blog/open-coding-agents",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-27T17:17:54+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "36cc3e91df2ab359",
       "title": "10 Tips for Effective User Experience Evaluation",
       "description": "\"Learn 10 proven UX design tips to improve user experience, boost engagement, and increase conversions. From usability testing to A/B testing strategies.\" Continue reading 10 Tips for Effective User Experience Evaluation on SitePoint.",
@@ -10434,8 +10528,8 @@
       "score": 40,
       "keywords": [
         "performance",
-        "release",
-        "code"
+        "code",
+        "release"
       ]
     },
     {
@@ -10705,6 +10799,18 @@
       "keywords": []
     },
     {
+      "id": "92d64aa26b0c284a",
+      "title": "Doing the thing is doing the thing",
+      "description": "Comments",
+      "url": "https://www.softwaredesign.ing/blog/doing-the-thing-is-doing-the-thing",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-27T06:17:46+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
       "id": "4e6d7290f5ff11d8",
       "title": "React Native 0.80 - React 19.1, JS API Changes, Freezing Legacy Arch and much more",
       "description": "Today we are excited to release React Native 0.80!",
@@ -10715,9 +10821,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "API",
         "release",
-        "React 19"
+        "React 19",
+        "API"
       ]
     },
     {
@@ -10788,8 +10894,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10803,8 +10909,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10861,8 +10967,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "API",
-        "framework"
+        "framework",
+        "API"
       ]
     },
     {
@@ -10986,11 +11092,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "framework",
-        "API",
+        "code",
         "release",
+        "API",
         "performance",
-        "code"
+        "framework"
       ]
     },
     {
@@ -11144,6 +11250,18 @@
       "keywords": []
     },
     {
+      "id": "10779d9100680375",
+      "title": "A few random notes from Claude coding quite a bit last few weeks",
+      "description": "Comments",
+      "url": "https://twitter.com/karpathy/status/2015883857489522876",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-26T21:09:19+00:00",
+      "niche": "dev",
+      "score": 26,
+      "keywords": []
+    },
+    {
       "id": "cd46e0b1413a2532",
       "title": "LCP and INP are now Baseline Newly available",
       "description": "LCP and INP are now Baseline Newly available as of December 12, 2025.",
@@ -11271,8 +11389,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "API",
-        "release"
+        "release",
+        "API"
       ]
     },
     {
@@ -11317,8 +11435,8 @@
       "score": 20,
       "keywords": [
         "performance",
-        "developer",
-        "code"
+        "code",
+        "developer"
       ]
     },
     {
@@ -11363,8 +11481,8 @@
       "score": 18,
       "keywords": [
         "development",
-        "developer",
-        "code"
+        "code",
+        "developer"
       ]
     },
     {
@@ -11421,8 +11539,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "API",
-        "code"
+        "code",
+        "API"
       ]
     },
     {
@@ -11436,8 +11554,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "developer",
-        "code"
+        "code",
+        "developer"
       ]
     },
     {
@@ -11553,18 +11671,6 @@
       ]
     },
     {
-      "id": "b64c76e0f1868cc6",
-      "title": "Show HN: Coi – A language that compiles to WASM, beats React/Vue",
-      "description": "Comments",
-      "url": "https://news.ycombinator.com/item?id=46696283",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-20T19:01:53+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
       "id": "2d70e4b27d9d123c",
       "title": "High-bandwidth flash progress and future",
       "description": "Comments",
@@ -11584,18 +11690,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2026-01-21T00:35:01+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "57aaa27a665aae27",
-      "title": "Intrinsically stretchable 2D MoS2 transistors",
-      "description": "Comments",
-      "url": "https://www.nature.com/articles/s41467-026-68504-2",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-20T19:30:24+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -11872,18 +11966,6 @@
       "source": "JavaScript Weekly",
       "author": "Inconnu",
       "published": "2026-01-06T00:00:00+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "9f71ec73b14c8543",
-      "title": "The JavaScript Bundler Grand Prix",
-      "description": "#​766 — December 19, 2025 Read on the Web 🗓️ As it's the last issue of 2025, a reminder that JavaScript Weekly moves to Tuesdays in January. See you again on January 6, 2026!__Your editor, Peter Cooper JavaScript Weekly It's the final issue of the year, so we're going to cover a few new items, then look back at the top links of 2025 (based on reader engagement) and recap what happened in the ecosystem month-by-month this year. The JavaScript Bundler Grand Prix — Bundlers now sit at the heart of ",
-      "url": "https://javascriptweekly.com/issues/766",
-      "source": "JavaScript Weekly",
-      "author": "Inconnu",
-      "published": "2025-12-19T00:00:00+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
