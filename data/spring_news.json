@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-27T13:05:22.169545+00:00",
+  "last_updated": "2026-01-27T15:39:18.204817+00:00",
   "total_articles": 197,
   "articles": [
     {
@@ -123,15 +123,15 @@
       "keywords": []
     },
     {
-      "id": "a88438612db3bfe6",
-      "title": "Caching Issues With the Spring Expression Language",
-      "description": "Let's imagine a web application where, for each request, it must read configuration data from a database. That data doesn't change usually, but the application, in each request, must connect, execute the correct instructions to read the data, pick it up from the network, etc. Imagine also that the database is very busy or the connection is slow. What would happen? We would have a slow application because it is reading continuously data that hardly changes. A solution to that problem could be usi",
-      "url": "https://feeds.dzone.com/link/18931/17258507/spring-expression-language-caching-issues",
-      "source": "DZone Microservices",
-      "author": "Constantin Kwiatkowski",
-      "published": "2026-01-20T14:00:02+00:00",
+      "id": "2e7cefc19e68e0ad",
+      "title": "Spring AI Agentic Patterns (Part 4): Subagent Orchestration",
+      "description": "Instead of one generalist agent doing everything, delegate to specialized agents. This keeps context windows focused—preventing the clutter that degrades performance. Task tool, part of the spring-ai-agent-utils toolkit, is a portable, model-agnostic Spring AI implementation inspired by Claude Code's subagents. It enables hierarchical agent architectures where specialized subagents handle focused tasks in dedicated context windows, returning only essential results to the parent. Beyond Claude's ",
+      "url": "https://spring.io/blog/2026/01/27/spring-ai-agentic-patterns-4-task-subagents",
+      "source": "Spring Blog (Official)",
+      "author": "tzolov",
+      "published": "2026-01-27T00:00:00+00:00",
       "niche": "spring",
-      "score": 57,
+      "score": 62,
       "keywords": []
     },
     {
@@ -759,6 +759,18 @@
       "keywords": []
     },
     {
+      "id": "eba9804211ec29dc",
+      "title": "Edge-First AI Architecture: Designing Low-Latency, Offline-Capable Intelligence",
+      "description": "Most mobile AI features silently depend on a “good enough” network. That’s fine on your office Wi-Fi. It’s not fine: On spotty 3G In the subway In a warehouse with terrible coverage When your cloud endpoint is down or throttled If your “AI feature” turns into a spinner or a generic error in those cases, users will stop trusting it.",
+      "url": "https://feeds.dzone.com/link/18931/17264496/edge-first-ai-low-latency-offline-capable-intelligence",
+      "source": "DZone Microservices",
+      "author": "Mohan Sankaran",
+      "published": "2026-01-27T14:00:00+00:00",
+      "niche": "spring",
+      "score": 42,
+      "keywords": []
+    },
+    {
       "id": "f376c3165ea2a776",
       "title": "Carrier Classes; Beyond Records - Inside Java Newscast #105",
       "description": "This episode presents Project Amber lead Brian Goetz’s recent email “Data Oriented Programming, Beyond Records”, wherein he describes plans to improve Java’s data handling capabilities by introducing carrier classes, a generalization of records.",
@@ -780,18 +792,6 @@
       "published": "2026-01-27T00:00:00+00:00",
       "niche": "spring",
       "score": 37,
-      "keywords": []
-    },
-    {
-      "id": "ac46d5f57d56b14d",
-      "title": "I Tested 30+ Websites to Learn Java: Here Are My Top 6 Recommendations for 2026",
-      "description": "Hello guys, I’ve spent the last 48 months systematically testing and evaluating 30+ websites, courses, and platforms for learning Java. Not just reviewing them — actually using them, working through lessons, solving problems, and tracking learning outcomes.The question I wanted to answer: Which resources actually teach Java effectively in 2026?Most beginners fail at learning to code because they spend too much time watching and not enough time doing. They don’t write enough programs. They don’t ",
-      "url": "http://javarevisited.blogspot.com/2026/01/i-tested-30-websites-to-learn-java-here.html",
-      "source": "Java Revisited",
-      "author": "javin paul (noreply@blogger.com)",
-      "published": "2026-01-20T06:11:00-08:00",
-      "niche": "spring",
-      "score": 33,
       "keywords": []
     },
     {
@@ -1174,6 +1174,18 @@
       "source": "Reflectoring",
       "author": "Inconnu",
       "published": "2024-06-19T00:00:00+00:00",
+      "niche": "spring",
+      "score": 27,
+      "keywords": []
+    },
+    {
+      "id": "a88438612db3bfe6",
+      "title": "Caching Issues With the Spring Expression Language",
+      "description": "Let's imagine a web application where, for each request, it must read configuration data from a database. That data doesn't change usually, but the application, in each request, must connect, execute the correct instructions to read the data, pick it up from the network, etc. Imagine also that the database is very busy or the connection is slow. What would happen? We would have a slow application because it is reading continuously data that hardly changes. A solution to that problem could be usi",
+      "url": "https://feeds.dzone.com/link/18931/17258507/spring-expression-language-caching-issues",
+      "source": "DZone Microservices",
+      "author": "Constantin Kwiatkowski",
+      "published": "2026-01-20T14:00:02+00:00",
       "niche": "spring",
       "score": 27,
       "keywords": []
@@ -1810,18 +1822,6 @@
       "source": "InfoQ Java",
       "author": "Michael Redlich",
       "published": "2026-01-19T02:30:00+00:00",
-      "niche": "spring",
-      "score": 12,
-      "keywords": []
-    },
-    {
-      "id": "73379d7556039627",
-      "title": "“Just Don’t Put PII in the Prompt” Is a Trap: A Two-Plane Architecture for Safe LLM Apps",
-      "description": "Why “Just Don’t Put PII in the Prompt” Doesn’t Work Mobile teams typically start with good intentions: redact emails, don’t log raw text, and avoid sending sensitive fields to an LLM provider. Then reality hits: Debug logs capture prompts “temporarily” (and become permanent). RAG pulls in internal documents that contain secrets. Tool calling expands scope: the model can “ask” for more data. Engineers add “one more field” to improve answers. A prompt injection attempt convinces the model to reque",
-      "url": "https://feeds.dzone.com/link/18931/17258382/safe-llm-apps-two-plane-architecture",
-      "source": "DZone Microservices",
-      "author": "Mohan Sankaran",
-      "published": "2026-01-20T13:00:10+00:00",
       "niche": "spring",
       "score": 12,
       "keywords": []
