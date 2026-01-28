@@ -1,43 +1,7 @@
 {
-  "last_updated": "2026-01-28T15:39:06.138678+00:00",
-  "total_articles": 449,
+  "last_updated": "2026-01-28T18:45:39.713805+00:00",
+  "total_articles": 448,
   "articles": [
-    {
-      "id": "3dfcf90efd61ead7",
-      "title": "Zoom and GitLab Release Security Updates Fixing RCE, DoS, and 2FA Bypass Flaws",
-      "description": "Zoom and GitLab have released security updates to resolve a number of security vulnerabilities that could result in denial-of-service (DoS) and remote code execution. The most severe of the lot is a critical security flaw impacting Zoom Node Multimedia Routers (MMRs) that could permit a meeting participant to conduct remote code execution attacks. The vulnerability, tracked as CVE-2026-22844",
-      "url": "https://thehackernews.com/2026/01/zoom-and-gitlab-release-security.html",
-      "source": "The Hacker News",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-01-21T21:12:00+05:30",
-      "niche": "security",
-      "score": 100,
-      "keywords": [
-        "security",
-        "vulnerability",
-        "security flaw",
-        "attack",
-        "remote code execution"
-      ]
-    },
-    {
-      "id": "cad6ef3f6da25421",
-      "title": "Fortinet admins report patched FortiGate firewalls getting hacked",
-      "description": "Fortinet customers are seeing attackers exploiting a patch bypass for a previously fixed critical FortiGate authentication vulnerability (CVE-2025-59718) to hack patched firewalls. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/fortinet-admins-report-patched-fortigate-firewalls-getting-hacked/",
-      "source": "Bleeping Computer",
-      "author": "Sergiu Gatlan",
-      "published": "2026-01-21T12:49:08-05:00",
-      "niche": "security",
-      "score": 100,
-      "keywords": [
-        "vulnerability",
-        "attack",
-        "patch",
-        "firewall",
-        "exploit"
-      ]
-    },
     {
       "id": "9f14e96dd14c8c9c",
       "title": "Cisco fixes Unified Communications RCE zero day exploited in attacks",
@@ -728,6 +692,23 @@
       ]
     },
     {
+      "id": "51a89f0dde17bdc9",
+      "title": "Fortinet Releases Guidance to Address Ongoing Exploitation of Authentication Bypass Vulnerability CVE-2026-24858",
+      "description": "Newly disclosed vulnerability Common Vulnerabilities and Exposures (CVE)-2026-24858 [Common Weakness Enumeration (CWE)-288: Authentication Bypass Using an Alternate Path or Channel] allows malicious actors with a FortiCloud account and a registered device to log in to separate devices registered to other users in FortiOS, FortiManager, FortiWeb, FortiProxy, and FortiAnalyzer, if FortiCloud single sign on (SSO) is enabled on devices.1 Users are vulnerable to CVE-2026-24858 even if they updated Fo",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/01/28/fortinet-releases-guidance-address-ongoing-exploitation-authentication-bypass-vulnerability-cve-2026",
+      "source": "CISA Cybersecurity Advisories",
+      "author": "CISA",
+      "published": "2026-01-28T12:00:00+00:00",
+      "niche": "security",
+      "score": 92,
+      "keywords": [
+        "exploit",
+        "CVE-",
+        "vulnerability",
+        "authentication bypass"
+      ]
+    },
+    {
       "id": "72e485a91d21ea97",
       "title": "ShinyHunters claim to be behind SSO-account data theft attacks",
       "description": "The ShinyHunters extortion gang claims it is behind a wave of ongoing voice phishing attacks targeting single sign-on (SSO) accounts at Okta, Microsoft, and Google, enabling threat actors to breach corporate SaaS platforms and steal company data for extortion. [...]",
@@ -959,6 +940,23 @@
       ]
     },
     {
+      "id": "4a400a5c5d2d106f",
+      "title": "Odd WebLogic Request. Possible CVE-2026-21962 Exploit Attempt or AI Slop&#x3f;, (Wed, Jan 28th)",
+      "description": "I was looking for possible exploitation of CVE-2026-21962, a recently patched WebLogic vulnerability. While looking for related exploit attempts in our data, I came across the following request:&#xd;",
+      "url": "https://isc.sans.edu/diary/rss/32662",
+      "source": "SANS Internet Storm Center",
+      "author": "Inconnu",
+      "published": "2026-01-28T16:02:30+00:00",
+      "niche": "security",
+      "score": 86,
+      "keywords": [
+        "exploit",
+        "CVE-",
+        "vulnerability",
+        "patch"
+      ]
+    },
+    {
       "id": "4fb5f20afc66bcf0",
       "title": "CISA confirms active exploitation of four enterprise software bugs",
       "description": "The Cybersecurity and Infrastructure Security Agency (CISA) in the U.S. warned of active exploitation of four vulnerabilities impacting enterprise software from Versa and Zimbra, the Vite frontend tooling framework, and the Prettier code formatter. [...]",
@@ -1144,6 +1142,36 @@
         "cybersecurity",
         "threat",
         "security",
+        "malware"
+      ]
+    },
+    {
+      "id": "3a560edbf9188ab9",
+      "title": "New sandbox escape flaw exposes n8n instances to RCE attacks",
+      "description": "Two vulnerabilities in the n8n workflow automation platform could allow attackers to fully compromise affected instances, access sensitive data, and execute arbitrary code on the underlying host. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/new-sandbox-escape-flaw-exposes-n8n-instances-to-rce-attacks/",
+      "source": "Bleeping Computer",
+      "author": "Bill Toulas",
+      "published": "2026-01-28T12:46:57-05:00",
+      "niche": "security",
+      "score": 84,
+      "keywords": [
+        "RCE",
+        "attack"
+      ]
+    },
+    {
+      "id": "1e5a0a6bc4b54945",
+      "title": "FBI seizes RAMP cybercrime forum used by ransomware gangs",
+      "description": "The FBI has seized the notorious RAMP cybercrime forum, a platform used to advertise a wide range of malware and hacking services, and one of the few remaining forums that openly allowed the promotion of ransomware operations. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-seizes-ramp-cybercrime-forum-used-by-ransomware-gangs/",
+      "source": "Bleeping Computer",
+      "author": "Lawrence Abrams",
+      "published": "2026-01-28T12:38:45-05:00",
+      "niche": "security",
+      "score": 84,
+      "keywords": [
+        "ransomware",
         "malware"
       ]
     },
@@ -1419,24 +1447,6 @@
       ]
     },
     {
-      "id": "c566b539a146e885",
-      "title": "Zoom fixed critical Node Multimedia Routers flaw",
-      "description": "Zoom addressed a critical security vulnerability, tracked as CVE-2026-22844, that could result in remote code execution. Cloud-based video conferencing and online collaboration platform Zoom released security updates to address multiple vulnerabilities, including command injection, tracked as CVE-2026-22844 (CVSS score of 9.9), in Zoom Node Multimedia Routers (MMRs) that could result in remote code execution. &#8220;A [&#8230;]",
-      "url": "https://securityaffairs.com/187165/security/zoom-fixed-critical-node-multimedia-routers-flaw.html",
-      "source": "Security Affairs",
-      "author": "Pierluigi Paganini",
-      "published": "2026-01-21T18:33:37+00:00",
-      "niche": "security",
-      "score": 78,
-      "keywords": [
-        "vulnerability",
-        "remote code execution",
-        "injection",
-        "CVE-",
-        "security"
-      ]
-    },
-    {
       "id": "f9cf5c71a08011d6",
       "title": "Organizations Warned of Exploited Zimbra Collaboration Vulnerability",
       "description": "CISA has added the Zimbra flaw to the KEV catalog along with three other bugs exploited in the wild. The post Organizations Warned of Exploited Zimbra Collaboration Vulnerability appeared first on SecurityWeek.",
@@ -1534,6 +1544,38 @@
       ]
     },
     {
+      "id": "7a78c661adc4b36c",
+      "title": "Fake Moltbot AI Coding Assistant on VS Code Marketplace Drops Malware",
+      "description": "Cybersecurity researchers have flagged a new malicious Microsoft Visual Studio Code (VS Code) extension for Moltbot (formerly Clawdbot) on the official Extension Marketplace that claims to be a free artificial intelligence (AI) coding assistant, but stealthily drops a malicious payload on compromised hosts. The extension, named \"ClawdBot Agent - AI Coding Assistant\" (\"clawdbot.clawdbot-agent\")",
+      "url": "https://thehackernews.com/2026/01/fake-moltbot-ai-coding-assistant-on-vs.html",
+      "source": "The Hacker News",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-01-28T23:16:00+05:30",
+      "niche": "security",
+      "score": 76,
+      "keywords": [
+        "security",
+        "cybersecurity",
+        "malware"
+      ]
+    },
+    {
+      "id": "e10b74e62dd9818f",
+      "title": "Russian ELECTRUM Tied to December 2025 Cyber Attack on Polish Power Grid",
+      "description": "The \"coordinated\" cyber attack targeting multiple sites across the Polish power grid has been attributed with medium confidence to a Russian state-sponsored hacking crew known as ELECTRUM. Operational technology (OT) cybersecurity company Dragos, in a new intelligence brief published Tuesday, described the late December 2025 activity as the first major cyber attack targeting distributed energy",
+      "url": "https://thehackernews.com/2026/01/russian-electrum-tied-to-december-2025.html",
+      "source": "The Hacker News",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-01-28T21:36:00+05:30",
+      "niche": "security",
+      "score": 76,
+      "keywords": [
+        "security",
+        "attack",
+        "cybersecurity"
+      ]
+    },
+    {
       "id": "1ad979ed136fb098",
       "title": "Okta SSO accounts targeted in vishing-based data theft attacks",
       "description": "Okta is warning about custom phishing kits built specifically for voice-based social engineering (vishing) attacks. BleepingComputer has learned that these kits are being used in active attacks to steal Okta SSO credentials for data theft. [...]",
@@ -1619,11 +1661,11 @@
       "niche": "security",
       "score": 75,
       "keywords": [
-        "patch",
-        "exploit",
+        "security flaw",
         "security",
+        "exploit",
         "zero-day",
-        "security flaw"
+        "patch"
       ]
     },
     {
@@ -1964,32 +2006,6 @@
       ]
     },
     {
-      "id": "57d6ed2d672cf8ad",
-      "title": "North Korean PurpleBravo Campaign Targeted 3,136 IP Addresses via Fake Job Interviews",
-      "description": "As many as 3,136 individual IP addresses linked to likely targets of the Contagious Interview activity have been identified, with the campaign claiming 20 potential victim organizations spanning artificial intelligence (AI), cryptocurrency, financial services, IT services, marketing, and software development sectors in Europe, South Asia, the Middle East, and Central America. The new findings",
-      "url": "https://thehackernews.com/2026/01/north-korean-purplebravo-campaign.html",
-      "source": "The Hacker News",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-01-21T22:47:00+05:30",
-      "niche": "security",
-      "score": 68,
-      "keywords": []
-    },
-    {
-      "id": "b276c037a6e2781c",
-      "title": "Fake Lastpass emails pose as password vault backup alerts",
-      "description": "LastPass is warning of a new phishing campaign disguised as a maintenance notification from the service, asking users to back up their vaults in the next 24 hours. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/fake-lastpass-emails-pose-as-password-vault-backup-alerts/",
-      "source": "Bleeping Computer",
-      "author": "Bill Toulas",
-      "published": "2026-01-21T11:58:39-05:00",
-      "niche": "security",
-      "score": 68,
-      "keywords": [
-        "phishing"
-      ]
-    },
-    {
       "id": "de1810f3c768fbb0",
       "title": "New Android malware uses AI to click on hidden browser ads",
       "description": "A new family of Android click-fraud trojans leverages TensorFlow machine learning models to automatically detect and interact with specific advertisement elements. [...]",
@@ -2178,6 +2194,35 @@
       "niche": "security",
       "score": 68,
       "keywords": []
+    },
+    {
+      "id": "cd383770acaa1fc6",
+      "title": "Empire cybercrime market owner pleads guilty to drug conspiracy",
+      "description": "​A Virginia man who co-created Empire Market, one of the largest dark web marketplaces at the time, pleaded guilty to federal drug conspiracy charges for facilitating $430 million in illegal transactions from 2018 to 2020. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/empire-cybercrime-market-owner-pleads-guilty-to-drug-conspiracy/",
+      "source": "Bleeping Computer",
+      "author": "Sergiu Gatlan",
+      "published": "2026-01-28T12:19:02-05:00",
+      "niche": "security",
+      "score": 68,
+      "keywords": []
+    },
+    {
+      "id": "68563373ea2677b9",
+      "title": "Fortinet patches actively exploited FortiOS SSO auth bypass (CVE-2026-24858)",
+      "description": "Fortinet released fixes for a critical FortiOS SSO auth bypass (CVE-2026-24858) actively exploited, impacting FortiOS, FortiManager, and FortiAnalyzer. Fortinet started rolling out patches for a critical FortiOS flaw under active attack. The bug, CVE-2026-24858 (CVSS score of 9.4), lets attackers bypass authentication via SSO. It affects FortiOS, FortiManager, and FortiAnalyzer, while Fortinet checks if other [&#8230;]",
+      "url": "https://securityaffairs.com/187426/security/fortinet-patches-actively-exploited-fortios-sso-auth-bypass-cve-2026-24858.html",
+      "source": "Security Affairs",
+      "author": "Pierluigi Paganini",
+      "published": "2026-01-28T15:53:00+00:00",
+      "niche": "security",
+      "score": 68,
+      "keywords": [
+        "exploit",
+        "CVE-",
+        "attack",
+        "patch"
+      ]
     },
     {
       "id": "c7cb1dc801e2fdf6",
@@ -2563,10 +2608,10 @@
       "niche": "security",
       "score": 61,
       "keywords": [
+        "RCE",
         "OWASP",
         "security",
-        "secure",
-        "RCE"
+        "secure"
       ]
     },
     {
@@ -2918,6 +2963,21 @@
       ]
     },
     {
+      "id": "4caafdfdd8de9849",
+      "title": "Cyber Insights 2026: Offensive Security; Where It Is and Where It’s Going",
+      "description": "Malicious attacks are increasing in frequency, sophistication and damage. Defenders need to find and harden system weaknesses before attackers can attack them. The post Cyber Insights 2026: Offensive Security; Where It Is and Where It&#8217;s Going appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/cyber-insights-2026-offensive-security-where-it-is-and-where-its-going/",
+      "source": "SecurityWeek",
+      "author": "Kevin Townsend",
+      "published": "2026-01-28T14:30:00+00:00",
+      "niche": "security",
+      "score": 57,
+      "keywords": [
+        "security",
+        "attack"
+      ]
+    },
+    {
       "id": "ee26d0f5e267a117",
       "title": "A 0-click exploit chain for the Pixel 9 Part 2: Cracking the Sandbox with a Big Wave",
       "description": "With the advent of a potential Dolby Unified Decoder RCE exploit, it seemed prudent to see what kind of Linux kernel drivers might be accessible from the resulting userland context, the mediacodec context. As per the AOSP documentation, the mediacodec SELinux context is intended to be a constrained (a.k.a sandboxed) context where non-secure software decoders are utilized. Nevertheless, using my DriverCartographer tool, I discovered an interesting device driver, /dev/bigwave that was accessible f",
@@ -2928,10 +2988,22 @@
       "niche": "security",
       "score": 57,
       "keywords": [
+        "RCE",
         "exploit",
-        "secure",
-        "RCE"
+        "secure"
       ]
+    },
+    {
+      "id": "562cd51edb5f4383",
+      "title": "J'ai testé les AirTags 2... ça vaut le coup ? Et sous Android on fait comment ?",
+      "description": "– Article invité, rédigé par Vincent Lautier, contient des liens affiliés Amazon – Après cinq ans sans mise à jour, Apple sort enfin la deuxième génération de ses traqueurs Bluetooth. Je les ai reçus ce matin, et je les ai testés dans la foulée. Le verdict ? Des améliorations bienvenues, mais pas de quoi jeter vos anciens AirTags. Ils ont quoi de neuf ? Apple a franchement pris son temps pour sortir cette nouvelle version, et les nouveautés se comptent sur les doigts d'une petite main à laquelle",
+      "url": "https://korben.info/jai-teste-les-airtags-2-ca-vaut-le-coup-et-sous-android-on-fait-comment.html",
+      "source": "Korben",
+      "author": "Korben",
+      "published": "2026-01-28T17:19:39+01:00",
+      "niche": "security",
+      "score": 57,
+      "keywords": []
     },
     {
       "id": "c36ebd83c6c21ddd",
@@ -3005,21 +3077,6 @@
       "score": 56,
       "keywords": [
         "RCE",
-        "security",
-        "cybersecurity"
-      ]
-    },
-    {
-      "id": "84d9af1b8f9b68e3",
-      "title": "CyberNut Closes $5M Growth Capital for K-12 Security Awareness Training",
-      "description": "CyberNut emerged from stealth in May 2024 with $800k in pre-seed funding for its cybersecurity platform. The post CyberNut Closes $5M Growth Capital for K-12 Security Awareness Training appeared first on SecurityWeek.",
-      "url": "https://www.securityweek.com/cybernut-closes-5m-growth-capital-for-k-12-security-awareness-training/",
-      "source": "SecurityWeek",
-      "author": "Eduard Kovacs",
-      "published": "2026-01-21T16:18:08+00:00",
-      "niche": "security",
-      "score": 55,
-      "keywords": [
         "security",
         "cybersecurity"
       ]
@@ -3189,6 +3246,21 @@
       "keywords": [
         "security",
         "cybersecurity"
+      ]
+    },
+    {
+      "id": "263b03186ce71581",
+      "title": "iPhone 5s - La mise à jour qui lui refuse le droit de mourir dans la dignité",
+      "description": "Alors là les amis, c'est le moment de vous accrocher à vos vieux chargeurs Lightning de la guerre ! Parce que si vous avez un vieil iPhone 5s qui traîne dans un coin ou dans votre poche et que vous refusez catégoriquement de le foutre à la benne par pur respect pour le design de ce bon vieux Jony Ive, j'ai une nouvelle qui va vous redonner le smiiiiile. Vous ne l'avez pas encore vu parce que la vie est un tourbillon qui vous emporte chaque jour loin de tout ça, mais sachez qu'Apple vient tout ju",
+      "url": "https://korben.info/iphone-5s-la-mise-a-jour-qui-lui-refuse-le-droit-de-mourir-dans-la-dignite.html",
+      "source": "Korben",
+      "author": "Korben",
+      "published": "2026-01-28T16:52:08+01:00",
+      "niche": "security",
+      "score": 55,
+      "keywords": [
+        "RCE",
+        "PoC"
       ]
     },
     {
@@ -4036,6 +4108,20 @@
       ]
     },
     {
+      "id": "76a0ee876c314473",
+      "title": "China-Backed 'PeckBirdy' Takes Flight for Cross-Platform Attacks",
+      "description": "In two separate campaigns, attackers used the JScript C2 framework to target Chinese gambling websites and Asian government entities with new backdoors.",
+      "url": "https://www.darkreading.com/threat-intelligence/china-backed-peckbirdy-cross-platform-attacks",
+      "source": "Dark Reading",
+      "author": "Elizabeth Montalbano, Contributing Writer",
+      "published": "2026-01-28T16:19:22+00:00",
+      "niche": "security",
+      "score": 50,
+      "keywords": [
+        "attack"
+      ]
+    },
+    {
       "id": "559b7874623819f6",
       "title": "GISEC GLOBAL 2026 – The Middle East & Africa’s Largest Cybersecurity Event",
       "description": "",
@@ -4108,11 +4194,11 @@
       "niche": "security",
       "score": 49,
       "keywords": [
-        "exploit",
         "security advisory",
-        "security",
         "threat",
-        "vulnerability"
+        "vulnerability",
+        "security",
+        "exploit"
       ]
     },
     {
@@ -4464,6 +4550,20 @@
       ]
     },
     {
+      "id": "031228f6dcfcf0e5",
+      "title": "Palo Alto unveils Quantum-Safe Security to mitigate cryptographic risk",
+      "description": "Palo Alto Networks unveiled its Quantum-Safe Security solution at the company’s virtual Quantum-Safe Summit Tuesday. The solution is designed to help organizations prepare for the post-quantum era by addressing the transition from current cryptography to quantum-resistant algorithms without disrupting business. Among the platform’s key features is its continuous, real-time cryptographic visibility. Quantum-Safe acts as a central intelligence layer, collecting telemetry and logs from network infr",
+      "url": "https://www.csoonline.com/article/4123719/palo-alto-warns-of-quantum-risk-to-digital-security.html",
+      "source": "CSO Online",
+      "author": "Inconnu",
+      "published": "2026-01-28T17:23:26+00:00",
+      "niche": "security",
+      "score": 45,
+      "keywords": [
+        "security"
+      ]
+    },
+    {
       "id": "ebd332eb9d422f14",
       "title": "ISC Stormcast For Thursday, January 22nd, 2026 https://isc.sans.edu/podcastdetail/9776, (Thu, Jan 22nd)",
       "description": "",
@@ -4645,35 +4745,11 @@
       "niche": "security",
       "score": 43,
       "keywords": [
+        "RCE",
         "OWASP",
         "security",
-        "secure",
-        "RCE"
+        "secure"
       ]
-    },
-    {
-      "id": "04871789e3a53756",
-      "title": "NitroGen - L'IA qui a appris à jouer à +1 000 jeux vidéo en regardant des vidéos de gameplay",
-      "description": "Le futur du jeu vidéo va être génial ! J'en suis convaincu ! Souvenez-vous, je vous avais parlé de Voyager , ce petit robot qui explorait Minecraft tout seul comme un grand grâce à GPT-4. Eh bien, l'équipe de MineDojo (avec des chercheurs de chez NVIDIA, Caltech et Stanford) ont remis le couvert avec un truc encore plus costaud : NitroGen. Là où les anciens modèles tâtonnaient ou avaient besoin de lire des tonnes de texte, cette nouvelle IA se base uniquement sur ce qu'elle voit à l'écran. C'est",
-      "url": "https://korben.info/nitrogen-minedojo-ia-gaming-agent.html",
-      "source": "Korben",
-      "author": "Korben",
-      "published": "2026-01-21T18:40:15+01:00",
-      "niche": "security",
-      "score": 42,
-      "keywords": []
-    },
-    {
-      "id": "bededb2be3794041",
-      "title": "Dumb Phone - Transformez votre iPhone en téléphone minimaliste",
-      "description": "Disponible sur iOS, Dumb Phone est une application bien sympathique qui va vous permettre de transformer votre iPhone en téléphone minimaliste. Alors peut-être que ça vous rendra encore plus débile comme je vous l'expliquais hier mais tant pis ! Au moins avec ça, au lieu de vous bouffer le cerveau avec des icônes colorées et des pastilles de notifications qui hurlent à la mort pour avoir votre dose de dopamine, l'app propose une interface complétement épurée via des widgets et des raccourcis hyp",
-      "url": "https://korben.info/dumb-phone-iphone-minimaliste-final.html",
-      "source": "Korben",
-      "author": "Korben",
-      "published": "2026-01-21T17:41:44+01:00",
-      "niche": "security",
-      "score": 42,
-      "keywords": []
     },
     {
       "id": "9180e42b5dde4d63",
@@ -5216,22 +5292,6 @@
       "keywords": []
     },
     {
-      "id": "de39f9e791a6a5b6",
-      "title": "GSoC 2025 Recap",
-      "description": "OWASP at Google Summer of Code 2025 Celebrating real impact, strong mentorship, and a growing community The Google Summer of Code (GSoC) 2025 program has wrapped, and OWASP’s participation once again delivered meaningful improvements across the open-source security ecosystem. This year, 15 contributors worked across multiple OWASP projects, supported by 26 mentors. Of the 15 projects evaluated, 10 reached successful completion, three are still working on the final deliveries with extended deadli",
-      "url": "http://owasp.org/blog/2025/10/01/GSoCRecap.html",
-      "source": "OWASP News",
-      "author": "Fabio Cerullo & Starr Brown",
-      "published": "2025-10-01T07:00:00+00:00",
-      "niche": "security",
-      "score": 42,
-      "keywords": [
-        "OWASP",
-        "security",
-        "RCE"
-      ]
-    },
-    {
       "id": "9a0b2d6432285f51",
       "title": "La CNIL sera présente à l’Université AFCDP des DPO les 5 et 6 février 2026",
       "description": "La 20ème Université AFCDP des DPO se tiendra les 5&nbsp;et 6&nbsp;février 2026 sur le thème «&nbsp;DPO en 2026&nbsp;: à la croisée des règlementations, entre ambitions et réalité&nbsp;». La CNIL sera présente pour échanger avec les professionnels, et sa présidente interviendra le 5 février.",
@@ -5251,6 +5311,34 @@
       "source": "Korben",
       "author": "Korben",
       "published": "2026-01-28T15:42:37+01:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "de39f9e791a6a5b6",
+      "title": "GSoC 2025 Recap",
+      "description": "OWASP at Google Summer of Code 2025 Celebrating real impact, strong mentorship, and a growing community The Google Summer of Code (GSoC) 2025 program has wrapped, and OWASP’s participation once again delivered meaningful improvements across the open-source security ecosystem. This year, 15 contributors worked across multiple OWASP projects, supported by 26 mentors. Of the 15 projects evaluated, 10 reached successful completion, three are still working on the final deliveries with extended deadli",
+      "url": "http://owasp.org/blog/2025/10/01/GSoCRecap.html",
+      "source": "OWASP News",
+      "author": "Fabio Cerullo & Starr Brown",
+      "published": "2025-10-01T07:00:00+00:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": [
+        "RCE",
+        "OWASP",
+        "security"
+      ]
+    },
+    {
+      "id": "005a163f81be59f1",
+      "title": "Command & Conquer : Generals - Un ver attaque ce jeu mort depuis 12 ans",
+      "description": "C'est un délire ça ! Je crois que je viens de lire le truc le plus improbable de l'année. Sérieux, vous vous souvenez de Command & Conquer : Generals ? Mais siiii, ce RTS de légende sorti en 2003 bien après C&C et Red Alert !! Hé bien accrochez-vous, car même s'il est techniquement mort depuis la fermeture de GameSpy en 2014, il fait encore parler de lui. Et pas pour de bonnes raisons. Argh !",
+      "url": "https://korben.info/command-conquer-generals-faille-malware-ver.html",
+      "source": "Korben",
+      "author": "Korben",
+      "published": "2026-01-28T19:16:18+01:00",
       "niche": "security",
       "score": 42,
       "keywords": []
@@ -5398,8 +5486,8 @@
       "niche": "security",
       "score": 38,
       "keywords": [
-        "OWASP",
-        "RCE"
+        "RCE",
+        "OWASP"
       ]
     },
     {
@@ -5441,23 +5529,6 @@
       "keywords": []
     },
     {
-      "id": "2d542954f91770c8",
-      "title": "Patch Tuesday, January 2026 Edition",
-      "description": "Microsoft today issued patches to plug at least 113 security holes in its various Windows operating systems and supported software. Eight of the vulnerabilities earned Microsoft's most-dire \"critical\" rating, and the company warns that attackers are already exploiting one of the bugs fixed today.",
-      "url": "https://krebsonsecurity.com/2026/01/patch-tuesday-january-2026-edition/",
-      "source": "Krebs on Security",
-      "author": "BrianKrebs",
-      "published": "2026-01-14T00:47:38+00:00",
-      "niche": "security",
-      "score": 37,
-      "keywords": [
-        "patch",
-        "exploit",
-        "security",
-        "attack"
-      ]
-    },
-    {
       "id": "1f615d0f60fc95b0",
       "title": "Beware! Fake ChatGPT browser extensions are stealing your login credentials",
       "description": "If you've installed a browser extension to enhance your ChatGPT experience, you might want to think again. Read more in my article on the Hot for Security blog.",
@@ -5472,6 +5543,23 @@
       ]
     },
     {
+      "id": "2d542954f91770c8",
+      "title": "Patch Tuesday, January 2026 Edition",
+      "description": "Microsoft today issued patches to plug at least 113 security holes in its various Windows operating systems and supported software. Eight of the vulnerabilities earned Microsoft's most-dire \"critical\" rating, and the company warns that attackers are already exploiting one of the bugs fixed today.",
+      "url": "https://krebsonsecurity.com/2026/01/patch-tuesday-january-2026-edition/",
+      "source": "Krebs on Security",
+      "author": "BrianKrebs",
+      "published": "2026-01-14T00:47:38+00:00",
+      "niche": "security",
+      "score": 37,
+      "keywords": [
+        "security",
+        "exploit",
+        "attack",
+        "patch"
+      ]
+    },
+    {
       "id": "3ddadc7580b62d79",
       "title": "OWASP Top 10 Community Survey",
       "description": "Help Shape the Future of Web Application Security: OWASP Top 10 - 2025 Community Survey Now Open! The digital threat landscape is constantly evolving and so are the ways we defend against it. At the heart of that defense is the OWASP Top 10, a globally recognized standard for web application security. It’s more than just a list; it’s a reflection of what the security community sees, experiences, and prioritizes in real-time. And now, as we look ahead to OWASP Top 10 - 2025, we’re calling on the ",
@@ -5482,10 +5570,10 @@
       "niche": "security",
       "score": 37,
       "keywords": [
-        "web application security",
-        "threat",
         "security",
-        "OWASP"
+        "threat",
+        "OWASP",
+        "web application security"
       ]
     },
     {
@@ -5499,10 +5587,10 @@
       "niche": "security",
       "score": 34,
       "keywords": [
-        "threat",
-        "cybersecurity",
         "security",
-        "OWASP"
+        "threat",
+        "OWASP",
+        "cybersecurity"
       ]
     },
     {
@@ -5603,8 +5691,8 @@
       "score": 31,
       "keywords": [
         "security",
-        "secure",
-        "OWASP"
+        "OWASP",
+        "secure"
       ]
     },
     {
@@ -5618,8 +5706,8 @@
       "niche": "security",
       "score": 30,
       "keywords": [
-        "phishing",
-        "RCE"
+        "RCE",
+        "phishing"
       ]
     },
     {
@@ -5633,25 +5721,8 @@
       "niche": "security",
       "score": 30,
       "keywords": [
-        "threat",
-        "RCE"
-      ]
-    },
-    {
-      "id": "6722e9312421ba8a",
-      "title": "WEF: AI overtakes ransomware as fastest-growing cyber risk",
-      "description": "We can no longer say that artificial intelligence is a \"future risk\", lurking somewhere on a speculative threat horizon. The truth is that it is a fast-growing cybersecurity risk that organizations are facing today. That's not just my opinion, that's also the message that comes loud and clear from the World Economic Forum's newly-published \"Global Cybersecurity Outlook 2026.\" Read more in my article on the Fortra blog.",
-      "url": "https://www.fortra.com/blog/wef-ai-overtakes-ransomware-fastest-growing-cyber-risk",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2026-01-15T17:05:07+00:00",
-      "niche": "security",
-      "score": 29,
-      "keywords": [
-        "threat",
-        "ransomware",
-        "security",
-        "cybersecurity"
+        "RCE",
+        "threat"
       ]
     },
     {
@@ -5705,8 +5776,8 @@
       "niche": "security",
       "score": 26,
       "keywords": [
-        "SQL injection",
-        "injection"
+        "injection",
+        "SQL injection"
       ]
     },
     {
@@ -5836,21 +5907,6 @@
       ]
     },
     {
-      "id": "65a16735ed51b94f",
-      "title": "Hackers get hacked, as BreachForums database is leaked",
-      "description": "Have you ever stolen data, traded a hacking tool, or just lurked on a dark web forum believing that you are anonymous? If so, I might have some unsettling news for you. Read more in my article on the Hot for Security blog.",
-      "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/hackers-get-hacked-as-breachforums-database-is-leaked",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2026-01-13T09:45:11+00:00",
-      "niche": "security",
-      "score": 25,
-      "keywords": [
-        "security",
-        "breach"
-      ]
-    },
-    {
       "id": "6a93f4612e11c72c",
       "title": "[webapps] WordPress Quiz Maker 6.7.0.56 - SQL Injection",
       "description": "WordPress Quiz Maker 6.7.0.56 - SQL Injection",
@@ -5861,8 +5917,8 @@
       "niche": "security",
       "score": 24,
       "keywords": [
-        "SQL injection",
-        "injection"
+        "injection",
+        "SQL injection"
       ]
     },
     {
@@ -5876,8 +5932,8 @@
       "niche": "security",
       "score": 24,
       "keywords": [
-        "SQL injection",
-        "injection"
+        "injection",
+        "SQL injection"
       ]
     },
     {
@@ -5891,8 +5947,8 @@
       "niche": "security",
       "score": 22,
       "keywords": [
-        "threat",
         "security",
+        "threat",
         "cybersecurity"
       ]
     },
@@ -5907,24 +5963,8 @@
       "niche": "security",
       "score": 21,
       "keywords": [
-        "threat",
-        "attack"
-      ]
-    },
-    {
-      "id": "32c6e6c6fa0908e3",
-      "title": "Pro-Russian denial-of-service attacks target UK, NCSC warns",
-      "description": "The UK's National Cyber Security Centre (NCSC) has issued a warning about the threat posed by distributed denial-of-service (DDoS) attacks from Russia-linked hacking groups who are reported to be continuing to target British organisations. Are you prepared? Read more in my article on the Hot for Security blog.",
-      "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/pro-russian-denial-of-service-attacks-target-uk-ncsc-warns",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2026-01-21T10:48:52+00:00",
-      "niche": "security",
-      "score": 21,
-      "keywords": [
-        "threat",
-        "security",
-        "attack"
+        "attack",
+        "threat"
       ]
     },
     {
@@ -5966,8 +6006,8 @@
       "niche": "security",
       "score": 19,
       "keywords": [
-        "PoC",
         "security",
+        "PoC",
         "cybersecurity"
       ]
     },
@@ -6039,20 +6079,6 @@
       "score": 18,
       "keywords": [
         "attack"
-      ]
-    },
-    {
-      "id": "7a0859f6a929abee",
-      "title": "Smashing Security podcast #450: From Instagram panic to Grok gone wild",
-      "description": "Confusion reigns after claims that data linked to 17.5 million Instagram accounts is up for sale - sparked by a vague post, contradictory statements, and a flood of password reset emails nobody asked for. And we dig into Grok, Elon Musk’s AI chatbot, after it started generating sexualised images of women and children - raising uncomfortable questions about guardrails, accountability, and why playing the censorship card doesn’t make the problem go away. All this, and much more, in episode 450 of ",
-      "url": "https://grahamcluley.com/smashing-security-podcast-450/",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2026-01-15T14:22:53+00:00",
-      "niche": "security",
-      "score": 15,
-      "keywords": [
-        "security"
       ]
     },
     {
@@ -6232,6 +6258,34 @@
       ]
     },
     {
+      "id": "9dcca17d64df41c9",
+      "title": "Les partenariats internationaux de la CNIL",
+      "description": "La CNIL s’est engagée dans une relation de coopération avec la PIPC (autorité sud-coréenne) en&nbsp;2022, avec la CPPA (autorité californienne) en&nbsp;2024 et avec le Commissariat à la protection de la vie privée du Canada en&nbsp;2025. L’objectif de ces partenariats est de transmettre des bonnes pratiques et d’organiser des travaux communs au bénéfice des citoyens concernés.",
+      "url": "https://www.cnil.fr/fr/dans-le-monde/les-partenariats-internationaux-de-la-cnil",
+      "source": "CNIL Actualités",
+      "author": "CNIL",
+      "published": "2026-01-19T13:00:00+01:00",
+      "niche": "security",
+      "score": 13,
+      "keywords": [
+        "protection"
+      ]
+    },
+    {
+      "id": "a39c3ba53403d6ee",
+      "title": "Le mécanisme de coopération et de cohérence européen du RGPD",
+      "description": "Le RGPD prévoit un mécanisme de coopération et de cohérence aux autorités de protection des données de l’Union européenne (UE) et de l’Espace économique européen (EEE), comme la CNIL. Ce mécanisme s’applique aux cas impliquant un traitement de données personnelles dans plusieurs États membres.",
+      "url": "https://www.cnil.fr/fr/la-cnil-en-europe/le-mecanisme-de-cooperation-et-de-coherence-europeen-du-rgpd",
+      "source": "CNIL Actualités",
+      "author": "CNIL",
+      "published": "2026-01-19T13:00:00+01:00",
+      "niche": "security",
+      "score": 13,
+      "keywords": [
+        "protection"
+      ]
+    },
+    {
       "id": "208950e4abb0628b",
       "title": "Le Comité européen de la protection des données (CEPD)",
       "description": "Le CEPD a été institué par le règlement européen sur la protection des données (RGPD). Il remplace l’ancien groupe de l’article 29. Ce comité a pour mission principale de veiller à l’application du RGPD dans tous les pays membres de l’Union européenne (UE).",
@@ -6244,58 +6298,6 @@
       "keywords": [
         "protection"
       ]
-    },
-    {
-      "id": "318f0bc9f730eb54",
-      "title": "Les instances internationales de protection de la vie privée",
-      "description": "La coopération internationale est inscrite à l’article premier de la loi informatique et libertés dès 1978. L’intensification des flux mondiaux de données est un sujet particulièrement stratégique qui nécessite un investissement de la CNIL dans les différentes enceintes multilatérales.",
-      "url": "https://www.cnil.fr/fr/dans-le-monde/les-instances-internationales-de-protection-de-la-vie-privee",
-      "source": "CNIL Actualités",
-      "author": "CNIL",
-      "published": "2026-01-19T13:00:00+01:00",
-      "niche": "security",
-      "score": 13,
-      "keywords": [
-        "protection"
-      ]
-    },
-    {
-      "id": "58e4caa91a1c4c95",
-      "title": "La coopération européenne en matière de frontières, de police et de justice",
-      "description": "Plusieurs systèmes d’information à grande échelle ont été créés au sein de l’Union européenne. Leur fonctionnement implique la mise en œuvre de traitements de données personnelles, sous le contrôle des autorités de protection des données européennes, dont la CNIL.",
-      "url": "https://www.cnil.fr/fr/en-europe/la-cooperation-police-justice",
-      "source": "CNIL Actualités",
-      "author": "CNIL",
-      "published": "2026-01-19T13:00:00+01:00",
-      "niche": "security",
-      "score": 13,
-      "keywords": [
-        "protection"
-      ]
-    },
-    {
-      "id": "a729c2566fbd9ca8",
-      "title": "The AI Fix #84: A hungry ghost trapped in a jar gains access to the Pentagon’s network",
-      "description": "In episode 84 of The AI Fix, Graham and Mark stare straight into the digital abyss and ask the most important question of our age: \"Is AI just a hungry ghost trapped in a jar?\" Also this week, we explore how a shadowy group of disgruntled insiders trying to destroy AI by poisoning its training data, how \"vibe-coding\" has stopped being a joke with even Linus Torvalds joining in, how Google’s AI health advice could have endangered lives, and why simply asking an AI the same question twice can turn",
-      "url": "https://grahamcluley.com/the-ai-fix-84/",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2026-01-20T15:30:36+00:00",
-      "niche": "security",
-      "score": 12,
-      "keywords": []
-    },
-    {
-      "id": "9320684aa9903976",
-      "title": "The AI Fix #83: ChatGPT Health, Victorian LLMs, and the biggest AI bluffers",
-      "description": "In episode 83 of The AI Fix, Graham reveals he's taken up lying to LLMs, and shows how a journalist exposed AI bluffers with a made-up idiom. Meanwhile Mark invents a \"Godwin's Law\" for AI, and explains how to ruin any LLM with humus. Also in this episode, a marriage is declared invalid thanks to ChatGPT, an AI barman looks for a job in a quiet pub, OpenAI finally unveils ChatGPT Health, and why news of the death of Stack Overflow may be greatly exaggerated. All this and much more is discussed i",
-      "url": "https://grahamcluley.com/the-ai-fix-83/",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2026-01-13T18:19:04+00:00",
-      "niche": "security",
-      "score": 12,
-      "keywords": []
     },
     {
       "id": "a4ecc5bb0f9a18e3",
@@ -6390,18 +6392,6 @@
       "keywords": [
         "secure"
       ]
-    },
-    {
-      "id": "a8e71cc301b627e2",
-      "title": "ISC Stormcast For Wednesday, January 21st, 2026 https://isc.sans.edu/podcastdetail/9774, (Wed, Jan 21st)",
-      "description": "",
-      "url": "https://isc.sans.edu/diary/rss/32642",
-      "source": "SANS Internet Storm Center",
-      "author": "Inconnu",
-      "published": "2026-01-21T02:00:02+00:00",
-      "niche": "security",
-      "score": 8,
-      "keywords": []
     },
     {
       "id": "fb2720cfced9c189",

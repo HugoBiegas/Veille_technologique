@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-28T15:42:56.515306+00:00",
-  "total_articles": 199,
+  "last_updated": "2026-01-28T18:48:51.087441+00:00",
+  "total_articles": 198,
   "articles": [
     {
       "id": "7ba53f90d3fc3b9b",
@@ -94,6 +94,18 @@
       "source": "Spring Blog (Official)",
       "author": "tzolov",
       "published": "2026-01-27T00:00:00+00:00",
+      "niche": "spring",
+      "score": 62,
+      "keywords": []
+    },
+    {
+      "id": "edec662ed50d9276",
+      "title": "Anthropic Agent Skills Support in Spring AI",
+      "description": "In this blog, we show how using Spring AI, we can integrate with Anthropic's Native Skills API for Cloud-Based Document Generation and Custom Skills. Spring AI adds support for Anthropic's Agent Skills — modular capabilities that let Claude generate actual files rather than text descriptions. With Skills enabled, Claude produces real Excel spreadsheets, PowerPoint presentations, Word documents, and PDFs that you can download and use directly. This post covers how Spring AI integrates with Skills",
+      "url": "https://spring.io/blog/2026/01/28/apring-ai-anthropic-agentic-skills",
+      "source": "Spring Blog (Official)",
+      "author": "sobychacko",
+      "published": "2026-01-28T00:00:00+00:00",
       "niche": "spring",
       "score": 62,
       "keywords": []
@@ -360,42 +372,6 @@
       "published": "2026-01-22T20:58:00-08:00",
       "niche": "spring",
       "score": 45,
-      "keywords": []
-    },
-    {
-      "id": "c443777e6927e642",
-      "title": "PHP’s Gradual Typing Journey: From Wild West to Almost Respectable",
-      "description": "PHP has a reputation problem. For years, it&#8217;s been the language developers love to mock—the sloppy, inconsistent scripting language that powers half the internet despite itself. But something remarkable has happened over the past decade: PHP grew up. More specifically, it learned to type. The transformation from PHP 5&#8217;s dynamic free-for-all to PHP 8&#8217;s increasingly &#8230;",
-      "url": "https://www.javacodegeeks.com/2026/01/phps-gradual-typing-journey-from-wild-west-to-almost-respectable.html",
-      "source": "Java Code Geeks",
-      "author": "Eleftheria Drosopoulou",
-      "published": "2026-01-21T17:37:00+00:00",
-      "niche": "spring",
-      "score": 42,
-      "keywords": []
-    },
-    {
-      "id": "8db48800ca7a2ddf",
-      "title": "Select Text from Autocomplete Fields with Selenium WebDriver",
-      "description": "Autocomplete inputs are common in modern web apps for search, tagging, and form completion. Unlike simple text fields, these inputs render a suggestion list asynchronously and require additional interactions to choose a value. This article explains how to reliably select options from an autocomplete dropdown using Selenium. 1. Prerequisites and Project Setup First, we need &#8230;",
-      "url": "https://www.javacodegeeks.com/select-text-from-autocomplete-fields-with-selenium-webdriver.html",
-      "source": "Java Code Geeks",
-      "author": "Omozegie Aziegbe",
-      "published": "2026-01-21T16:13:51+00:00",
-      "niche": "spring",
-      "score": 42,
-      "keywords": []
-    },
-    {
-      "id": "7692edcc7eb4a787",
-      "title": "How to Reset and Reuse InputStream",
-      "description": "In Java, InputStream is commonly used to read data from files, network sockets, or in-memory buffers. A frequent requirement is to read the same stream multiple times. However, most input streams are forward-only and do not support rewinding by default. Let us delve into understanding how to use Java InputStream’s reset method when reading a &#8230;",
-      "url": "https://www.javacodegeeks.com/how-to-reset-and-reuse-inputstream.html",
-      "source": "Java Code Geeks",
-      "author": "Yatin Batra",
-      "published": "2026-01-21T16:02:18+00:00",
-      "niche": "spring",
-      "score": 42,
       "keywords": []
     },
     {
@@ -730,6 +706,30 @@
       "source": "Java Code Geeks",
       "author": "Java Code Geeks",
       "published": "2026-01-28T11:30:30+00:00",
+      "niche": "spring",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "a873ed94934c2971",
+      "title": "Conway’s Law in Practice: Why Your Microservices Mirror Your Org Chart",
+      "description": "7 minute read • Understanding the invisible forces shaping your architecture Here&#8217;s a question that might make you uncomfortable: Did your team choose microservices because they were the best technical solution, or because you had five separate teams that needed to ship independently? Be honest. If you&#8217;re feeling defensive, you&#8217;re not alone. We engineers like &#8230;",
+      "url": "https://www.javacodegeeks.com/2026/01/conways-law-in-practice-why-your-microservices-mirror-your-org-chart.html",
+      "source": "Java Code Geeks",
+      "author": "Eleftheria Drosopoulou",
+      "published": "2026-01-28T16:48:00+00:00",
+      "niche": "spring",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "f2bf3e139c616c4f",
+      "title": "From Monolith to Modular Monolith: A Smarter Alternative to Microservices",
+      "description": "Somewhere around 2015, microservices became gospel. Not a pattern — gospel. You decomposed or you died, architecturally speaking. The pitch was seductive: independent scaling, polyglot persistence, team autonomy that meant engineers could ship without waiting on Gary from the payments team to merge his pull request. Entire conference tracks emerged. Consultants got rich. And a lot of systems got worse. Not all of them. Some genuinely needed the distributed model — genuine scale pressures, organi",
+      "url": "https://feeds.dzone.com/link/18931/17265376/monolith-to-modular-monolith-a-smarter-alternative",
+      "source": "DZone Microservices",
+      "author": "David Iyanu Jonathan",
+      "published": "2026-01-28T18:00:00+00:00",
       "niche": "spring",
       "score": 42,
       "keywords": []
@@ -1822,18 +1822,6 @@
       "source": "DZone Microservices",
       "author": "Ram Ghadiyaram",
       "published": "2026-01-20T19:00:02+00:00",
-      "niche": "spring",
-      "score": 12,
-      "keywords": []
-    },
-    {
-      "id": "fb79267f164e40d0",
-      "title": "Docker Hardened Images for Container Security",
-      "description": "In 2024, a staggering 87% of container images were found to have at least one vulnerability, and a measurable fraction of them have been targeted to compromise the production infrastructure. With cloud and container orchestration adoption not slowing down, the percentages are expected to increase. While organizations strive to keep their containers secure, security often takes a back seat to feature development. This is where Docker Hardened Images (DHI) can help, serving as a pivotal step towar",
-      "url": "https://feeds.dzone.com/link/18931/17258703/docker-hardened-images-container-security",
-      "source": "DZone Microservices",
-      "author": "Siri Varma Vegiraju",
-      "published": "2026-01-20T18:00:00+00:00",
       "niche": "spring",
       "score": 12,
       "keywords": []
