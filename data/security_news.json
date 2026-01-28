@@ -1,25 +1,7 @@
 {
-  "last_updated": "2026-01-28T13:02:38.975764+00:00",
-  "total_articles": 445,
+  "last_updated": "2026-01-28T15:39:06.138678+00:00",
+  "total_articles": 449,
   "articles": [
-    {
-      "id": "b28eaa1466699920",
-      "title": "Hackers exploit security testing apps to breach Fortune 500 firms",
-      "description": "Threat actors are exploiting misconfigured web applications used for security training and internal penetration testing, such as DVWA, OWASP Juice Shop, Hackazon, and bWAPP, to gain access to cloud environments of Fortune 500 companies and security vendors. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-security-testing-apps-to-breach-fortune-500-firms/",
-      "source": "Bleeping Computer",
-      "author": "Bill Toulas",
-      "published": "2026-01-21T09:00:00-05:00",
-      "niche": "security",
-      "score": 100,
-      "keywords": [
-        "OWASP",
-        "threat",
-        "security",
-        "penetration test",
-        "breach"
-      ]
-    },
     {
       "id": "3dfcf90efd61ead7",
       "title": "Zoom and GitLab Release Security Updates Fixing RCE, DoS, and 2FA Bypass Flaws",
@@ -430,6 +412,41 @@
       ]
     },
     {
+      "id": "6b9c4ba2c7e2e1a5",
+      "title": "Critical vm2 Node.js Flaw Allows Sandbox Escape and Arbitrary Code Execution",
+      "description": "A critical sandbox escape vulnerability has been disclosed in the popular vm2 Node.js library that, if successfully exploited, could allow attackers to run arbitrary code on the underlying operating system. The vulnerability, tracked as CVE-2026-22709, carries a CVSS score of 9.8 out of 10.0 on the CVSS scoring system. \"In vm2 for version 3.10.0, Promise.prototype.then Promise.prototype.catch",
+      "url": "https://thehackernews.com/2026/01/critical-vm2-nodejs-flaw-allows-sandbox.html",
+      "source": "The Hacker News",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-01-28T19:31:00+05:30",
+      "niche": "security",
+      "score": 100,
+      "keywords": [
+        "attack",
+        "exploit",
+        "CVE-",
+        "vulnerability"
+      ]
+    },
+    {
+      "id": "e5dd6670c09b193c",
+      "title": "Two High-Severity n8n Flaws Allow Authenticated Remote Code Execution",
+      "description": "Cybersecurity researchers have disclosed two new security flaws in the n8n workflow automation platform, including a crucial vulnerability that could result in remote code execution. The weaknesses, discovered by the JFrog Security Research team, are listed below - CVE-2026-1470 (CVSS score: 9.9) - An eval injection vulnerability that could allow an authenticated user to bypass the Expression",
+      "url": "https://thehackernews.com/2026/01/two-high-severity-n8n-flaws-allow.html",
+      "source": "The Hacker News",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-01-28T18:13:00+05:30",
+      "niche": "security",
+      "score": 100,
+      "keywords": [
+        "security",
+        "CVE-",
+        "remote code execution",
+        "injection",
+        "cybersecurity"
+      ]
+    },
+    {
       "id": "8fe53e10b7496775",
       "title": "What an AI-Written Honeypot Taught Us About Trusting Machines",
       "description": "AI-generated code can introduce subtle security flaws when teams over-trust automated output. Intruder shows how an AI-written honeypot introduced hidden vulnerabilities that were exploited in attacks. [...]",
@@ -533,6 +550,23 @@
         "CVE-",
         "patch",
         "authentication bypass"
+      ]
+    },
+    {
+      "id": "95c1234363327192",
+      "title": "SolarWinds warns of critical Web Help Desk RCE, auth bypass flaws",
+      "description": "SolarWinds has released security updates to patch critical authentication bypass and remote command execution vulnerabilities in its Web Help Desk IT help desk software. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/solarwinds-warns-of-critical-web-help-desk-rce-auth-bypass-flaws/",
+      "source": "Bleeping Computer",
+      "author": "Sergiu Gatlan",
+      "published": "2026-01-28T09:39:02-05:00",
+      "niche": "security",
+      "score": 96,
+      "keywords": [
+        "security",
+        "patch",
+        "authentication bypass",
+        "RCE"
       ]
     },
     {
@@ -822,22 +856,6 @@
       "keywords": [
         "vulnerability",
         "CVE-"
-      ]
-    },
-    {
-      "id": "0e91d3dfc83d83cb",
-      "title": "You Got Phished? Of Course! You're Human...",
-      "description": "Phishing succeeds not because users are careless, but because attackers exploit human timing, context, and emotion. Flare shows how modern phishing has become industrialized, scalable, and increasingly hard to spot. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/you-got-phished-of-course-youre-human/",
-      "source": "Bleeping Computer",
-      "author": "Sponsored by Flare",
-      "published": "2026-01-21T09:30:39-05:00",
-      "niche": "security",
-      "score": 87,
-      "keywords": [
-        "attack",
-        "exploit",
-        "phishing"
       ]
     },
     {
@@ -1307,21 +1325,6 @@
       ]
     },
     {
-      "id": "4994017185accd81",
-      "title": "GitLab warns of high-severity 2FA bypass, denial-of-service flaws",
-      "description": "GitLab has patched a high-severity two-factor authentication bypass impacting community and enterprise editions of its software development platform. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-high-severity-2fa-bypass-denial-of-service-flaws/",
-      "source": "Bleeping Computer",
-      "author": "Sergiu Gatlan",
-      "published": "2026-01-21T08:57:06-05:00",
-      "niche": "security",
-      "score": 80,
-      "keywords": [
-        "authentication bypass",
-        "patch"
-      ]
-    },
-    {
       "id": "b736ad9509c8622d",
       "title": "Online retailer PcComponentes says data breach claims are fake",
       "description": "PcComponentes, a major technology retailer in Spain, has denied claims of a data breach on its systems impacting 16 million customers, but confirmed it suffered a credential stuffing attack. [...]",
@@ -1576,6 +1579,36 @@
       ]
     },
     {
+      "id": "4239d7d5ed304f8f",
+      "title": "From Triage to Threat Hunts: How AI Accelerates SecOps",
+      "description": "If you work in security operations, the concept of the AI SOC agent is likely familiar. Early narratives promised total autonomy. Vendors seized on the idea of the \"Autonomous SOC\" and suggested a future where algorithms replaced analysts. That future has not arrived. We have not seen mass layoffs or empty security operations centers. We have instead seen the emergence of a practical reality.",
+      "url": "https://thehackernews.com/2026/01/from-triage-to-threat-hunts-how-ai.html",
+      "source": "The Hacker News",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-01-28T17:25:00+05:30",
+      "niche": "security",
+      "score": 75,
+      "keywords": [
+        "threat",
+        "security"
+      ]
+    },
+    {
+      "id": "aba308fa0b7b9daa",
+      "title": "Mustang Panda Deploys Updated COOLCLIENT Backdoor in Government Cyber Attacks",
+      "description": "Threat actors with ties to China have been observed using an updated version of a backdoor called COOLCLIENT in cyber espionage attacks in 2025 to facilitate comprehensive data theft from infected endpoints. The activity has been attributed to Mustang Panda (aka Earth Preta, Fireant, HoneyMyte, Polaris, and Twill Typhoon) with the intrusions primarily directed against government entities located",
+      "url": "https://thehackernews.com/2026/01/mustang-panda-deploys-updated.html",
+      "source": "The Hacker News",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-01-28T17:10:00+05:30",
+      "niche": "security",
+      "score": 75,
+      "keywords": [
+        "threat",
+        "attack"
+      ]
+    },
+    {
       "id": "4bb9aff88025a1f1",
       "title": "Microsoft Patch Tuesday, December 2025 Edition",
       "description": "Microsoft today pushed updates to fix at least 56 security flaws in its Windows operating systems and supported software. This final Patch Tuesday of 2025 tackles one zero-day bug that is already being exploited, as well as two publicly disclosed vulnerabilities.",
@@ -1586,11 +1619,11 @@
       "niche": "security",
       "score": 75,
       "keywords": [
-        "security",
         "patch",
-        "security flaw",
+        "exploit",
+        "security",
         "zero-day",
-        "exploit"
+        "security flaw"
       ]
     },
     {
@@ -1806,6 +1839,20 @@
       ]
     },
     {
+      "id": "1ac5d81cbe9ad764",
+      "title": "AI Is Rewriting Compliance Controls and CISOs Must Take Notice",
+      "description": "AI agents are now executing regulated actions, reshaping how compliance controls actually work. Token Security explains why CISOs must rethink identity, access, and auditability as AI becomes a digital employee. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/ai-is-rewriting-compliance-controls-and-cisos-must-take-notice/",
+      "source": "Bleeping Computer",
+      "author": "Sponsored by Token Security",
+      "published": "2026-01-28T10:00:10-05:00",
+      "niche": "security",
+      "score": 72,
+      "keywords": [
+        "security"
+      ]
+    },
+    {
       "id": "3be6b4e60b40bdf1",
       "title": "Fortinet confirms new zero-day attacks against customer devices",
       "description": "Fortinet has confirmed that a new attack campaign observed recently against customer devices is exploiting an unpatched issue to bypass authentication. The new attacks are different from a previous campaign seen in December that targeted two vulnerabilities related to FortiCloud single sign-on (SSO) authentication. “Recently, a small number of customers reported unexpected login activity occurring on their devices, which appeared very similar to the previous issue,” the Fortinet product security",
@@ -1914,20 +1961,6 @@
         "security",
         "threat",
         "exploit"
-      ]
-    },
-    {
-      "id": "3daebbda0b5717c0",
-      "title": "Microsoft shares workaround for Outlook freezes after Windows update",
-      "description": "Microsoft shared a temporary workaround for customers experiencing Outlook freezes after installing this month's Windows security updates. [...]",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-workaround-for-outlook-freezes-after-windows-update/",
-      "source": "Bleeping Computer",
-      "author": "Sergiu Gatlan",
-      "published": "2026-01-21T10:12:59-05:00",
-      "niche": "security",
-      "score": 68,
-      "keywords": [
-        "security"
       ]
     },
     {
@@ -2334,6 +2367,18 @@
       "keywords": []
     },
     {
+      "id": "25c05a82142b33f3",
+      "title": "Hackers hijack exposed LLM endpoints in Bizarre Bazaar operation",
+      "description": "A malicious campaign is actively targeting exposed LLM (Large Language Model) service endpoints to commercialize unauthorized access to AI infrastructure. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-exposed-llm-endpoints-in-bizarre-bazaar-operation/",
+      "source": "Bleeping Computer",
+      "author": "Bill Toulas",
+      "published": "2026-01-28T08:15:03-05:00",
+      "niche": "security",
+      "score": 64,
+      "keywords": []
+    },
+    {
       "id": "ee00ec1c16b3c119",
       "title": "Fortinet warns of active FortiCloud SSO bypass affecting updated devices",
       "description": "Fortinet confirmed attacks are bypassing FortiCloud SSO authentication, affecting even fully patched devices, similar to recent SSO flaws. Fortinet confirmed attacks bypass FortiCloud SSO on fully patched devices. Threat actors automate firewall changes, add users, enable VPNs, and steal configs, in campaigns resembling December 2025 exploits of critical FortiCloud SSO flaws. Arctic Wolf researchers reported [&#8230;]",
@@ -2412,19 +2457,18 @@
       ]
     },
     {
-      "id": "b8326816fae2a899",
-      "title": "LastPass Users Targeted With Backup-Themed Phishing Emails",
-      "description": "Threat actors may have wanted to take advantage of the holiday weekend in the United States to increase their chances of success. The post LastPass Users Targeted With Backup-Themed Phishing Emails appeared first on SecurityWeek.",
-      "url": "https://www.securityweek.com/lastpass-users-targeted-with-backup-themed-phishing-emails/",
-      "source": "SecurityWeek",
-      "author": "Eduard Kovacs",
-      "published": "2026-01-21T13:47:02+00:00",
+      "id": "66e27ca681c5aeca",
+      "title": "Surging Cyberattacks Boost Latin America to Riskiest Region",
+      "description": "The region is up against tactics like data-leak extortion, credential-stealing campaigns, edge-device exploitation, and attackers leveraging AI.",
+      "url": "https://www.darkreading.com/cyber-risk/surging-cyberattacks-latin-america-riskiest-region",
+      "source": "Dark Reading",
+      "author": "Robert Lemos, Contributing Writer",
+      "published": "2026-01-28T14:00:00+00:00",
       "niche": "security",
-      "score": 61,
+      "score": 62,
       "keywords": [
-        "threat",
-        "security",
-        "phishing"
+        "exploit",
+        "attack"
       ]
     },
     {
@@ -2519,10 +2563,10 @@
       "niche": "security",
       "score": 61,
       "keywords": [
-        "RCE",
+        "OWASP",
         "security",
         "secure",
-        "OWASP"
+        "RCE"
       ]
     },
     {
@@ -2844,6 +2888,36 @@
       ]
     },
     {
+      "id": "201576b31063dbb7",
+      "title": "Cyber Insights 2026: Offensive Security; Where It is and Where Its Going",
+      "description": "Malicious attacks are increasing in frequency, sophistication and damage. Defenders need to find and harden system weaknesses before attackers can attack them. The post Cyber Insights 2026: Offensive Security; Where It is and Where Its Going appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/cyber-insights-2026-offensive-security-where-it-is-and-where-its-going/",
+      "source": "SecurityWeek",
+      "author": "Kevin Townsend",
+      "published": "2026-01-28T14:30:00+00:00",
+      "niche": "security",
+      "score": 57,
+      "keywords": [
+        "security",
+        "attack"
+      ]
+    },
+    {
+      "id": "abff23b3077ee18f",
+      "title": "Rein Security Emerges From Stealth With $8M, Bringing Inside-Out AppSec Approach",
+      "description": "Rein aims to close the production visibility gap by stopping attacks inside the application runtime. The post Rein Security Emerges From Stealth With $8M, Bringing Inside-Out AppSec Approach appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/rein-security-emerges-from-stealth-with-8m-bringing-inside-out-protection-to-appsec/",
+      "source": "SecurityWeek",
+      "author": "Kevin Townsend",
+      "published": "2026-01-28T13:00:00+00:00",
+      "niche": "security",
+      "score": 57,
+      "keywords": [
+        "security",
+        "attack"
+      ]
+    },
+    {
       "id": "ee26d0f5e267a117",
       "title": "A 0-click exploit chain for the Pixel 9 Part 2: Cracking the Sandbox with a Big Wave",
       "description": "With the advent of a potential Dolby Unified Decoder RCE exploit, it seemed prudent to see what kind of Linux kernel drivers might be accessible from the resulting userland context, the mediacodec context. As per the AOSP documentation, the mediacodec SELinux context is intended to be a constrained (a.k.a sandboxed) context where non-secure software decoders are utilized. Nevertheless, using my DriverCartographer tool, I discovered an interesting device driver, /dev/bigwave that was accessible f",
@@ -2854,9 +2928,9 @@
       "niche": "security",
       "score": 57,
       "keywords": [
-        "RCE",
         "exploit",
-        "secure"
+        "secure",
+        "RCE"
       ]
     },
     {
@@ -3118,34 +3192,6 @@
       ]
     },
     {
-      "id": "4d14cbc3b03f75f2",
-      "title": "Asymmetric Security Emerges From Stealth With $4.2 Million in Funding",
-      "description": "The startup’s platform leverages AI to automate forensic investigations, accelerating incident response. The post Asymmetric Security Emerges From Stealth With $4.2 Million in Funding appeared first on SecurityWeek.",
-      "url": "https://www.securityweek.com/asymmetric-security-emerges-from-stealth-with-4-2-million-in-funding/",
-      "source": "SecurityWeek",
-      "author": "Ionut Arghire",
-      "published": "2026-01-21T15:18:17+00:00",
-      "niche": "security",
-      "score": 54,
-      "keywords": [
-        "security"
-      ]
-    },
-    {
-      "id": "03922d6bbe8ebd3f",
-      "title": "North Korean Hackers Target macOS Developers via Malicious VS Code Projects",
-      "description": "The hackers trick victims into accessing GitHub or GitLab repositories that are opened using Visual Studio Code. The post North Korean Hackers Target macOS Developers via Malicious VS Code Projects appeared first on SecurityWeek.",
-      "url": "https://www.securityweek.com/north-korean-hackers-target-macos-developers-via-malicious-vs-code-projects/",
-      "source": "SecurityWeek",
-      "author": "Ionut Arghire",
-      "published": "2026-01-21T13:20:11+00:00",
-      "niche": "security",
-      "score": 54,
-      "keywords": [
-        "security"
-      ]
-    },
-    {
       "id": "fe4de4058d9fee6e",
       "title": "Phishing Campaign Zeroes in on LastPass Customers",
       "description": "The bait incudes plausible subject lines and credible messages, most likely thanks to attackers' use of large language models to craft them.",
@@ -3292,6 +3338,34 @@
       ]
     },
     {
+      "id": "f6b522fa1dc069de",
+      "title": "Mesh Security Raises $12 Million for CSMA Platform",
+      "description": "The investment will allow Mesh to advance its autonomous, agentic capabilities, and scale sales and customer support efforts. The post Mesh Security Raises $12 Million for CSMA Platform appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/mesh-security-raises-12-million-for-csma-platform/",
+      "source": "SecurityWeek",
+      "author": "Ionut Arghire",
+      "published": "2026-01-28T14:26:00+00:00",
+      "niche": "security",
+      "score": 54,
+      "keywords": [
+        "security"
+      ]
+    },
+    {
+      "id": "5092e9d3c211c3fa",
+      "title": "Why We Can’t Let AI Take the Wheel of Cyber Defense",
+      "description": "The fastest way to squander the promise of AI is to mistake automation for assurance, and novelty for resilience. The post Why We Can&#8217;t Let AI Take the Wheel of Cyber Defense appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/why-we-cant-let-ai-take-the-wheel-of-cyber-defense/",
+      "source": "SecurityWeek",
+      "author": "Steve Durbin",
+      "published": "2026-01-28T14:00:00+00:00",
+      "niche": "security",
+      "score": 54,
+      "keywords": [
+        "security"
+      ]
+    },
+    {
       "id": "ce2fb4b2a0181c36",
       "title": "Journée européenne de la protection des données : France Télévisions et la CNIL sensibilisent les collégiens",
       "description": "À l’occasion de la journée européenne de la protection des données, le 28&nbsp;janvier, France Télévisions et la CNIL ont proposé un atelier interactif à une centaine de collégiens, mêlant vidéos, conseils pratiques et ressources pédagogiques.",
@@ -3319,36 +3393,6 @@
       "keywords": [
         "ransomware",
         "encryption"
-      ]
-    },
-    {
-      "id": "38c58f8f56394287",
-      "title": "aiFWall Emerges from Stealth With an AI Firewall",
-      "description": "aiFWall is a firewall protection for AI deployments built to use AI to improve its own performance. The post aiFWall Emerges from Stealth With an AI Firewall appeared first on SecurityWeek.",
-      "url": "https://www.securityweek.com/aifwall-emerges-from-stealth-with-an-ai-firewall/",
-      "source": "SecurityWeek",
-      "author": "Kevin Townsend",
-      "published": "2026-01-21T14:09:42+00:00",
-      "niche": "security",
-      "score": 52,
-      "keywords": [
-        "firewall",
-        "security",
-        "protection"
-      ]
-    },
-    {
-      "id": "c78ca6bd86ad7533",
-      "title": "Transformez votre vieille manette filaire en Bluetooth avec un ESP32",
-      "description": "Vous avez une vieille manette USB qui traîne dans un tiroir parce qu'elle est filaire ? Une de ces reliques naphtalinée de l'époque dans laquelle on se prenait encore les pieds quand le câbles trainait au milieu du salon...? Hé bien bonne nouvelle pour vous, et pour vos tiroirs qui vont enfin se vider un peu ! Avec une carte Seeed Studio XIAO ESP32S3 (la star du projet), un peu de patience et une dizaine d'euros, vous pouvez transformer pas mal de manettes USB HID filaires en une version Bluetoo",
-      "url": "https://korben.info/bluetooth-gamepad-esp32-diy.html",
-      "source": "Korben",
-      "author": "Korben",
-      "published": "2026-01-21T14:26:44+01:00",
-      "niche": "security",
-      "score": 52,
-      "keywords": [
-        "RCE"
       ]
     },
     {
@@ -3858,34 +3902,6 @@
       ]
     },
     {
-      "id": "d5243f3cf183707f",
-      "title": "'Damn Vulnerable' Training Apps Leave Vendors' Clouds Exposed",
-      "description": "Hackers are already leveraging these over-permissioned programs to access the IT systems of major security vendors.",
-      "url": "https://www.darkreading.com/application-security/vulnerable-vendors-training-apps",
-      "source": "Dark Reading",
-      "author": "Nate Nelson, Contributing Writer",
-      "published": "2026-01-21T14:00:00+00:00",
-      "niche": "security",
-      "score": 50,
-      "keywords": [
-        "security"
-      ]
-    },
-    {
-      "id": "63e2f02872f9dca4",
-      "title": "Complex VoidLink Linux Malware Created by AI",
-      "description": "Researchers say the advanced framework was built almost entirely by agents, marking a significant evolution in the use of AI to develop wholly original malware.",
-      "url": "https://www.darkreading.com/threat-intelligence/voidlink-linux-malware-ai",
-      "source": "Dark Reading",
-      "author": "Elizabeth Montalbano, Contributing Writer",
-      "published": "2026-01-21T14:48:15+00:00",
-      "niche": "security",
-      "score": 50,
-      "keywords": [
-        "malware"
-      ]
-    },
-    {
       "id": "c99524cafda9fe51",
       "title": "'Contagious Interview' Attack Now Delivers Backdoor Via VS Code",
       "description": "Once trust is granted to the repository's author, a malicious app executes arbitrary commands on the victim's system with no other user interaction.",
@@ -4035,22 +4051,6 @@
       ]
     },
     {
-      "id": "04cb8ed1cc4f705d",
-      "title": "EU reviews cybersecurity to limit danger from high-risk suppliers",
-      "description": "The European Commission has presented a new cybersecurity package to strengthen the European Union’s resilience to increasing cyber and hybrid attacks from state and criminal actors. The key is to reduce risks from high-risk suppliers outside the EU, especially in critical infrastructure such as mobile networks, through a common and risk-based framework. The Commission’s news release did not mention any specific suppliers targeted by the measures. The move should make it possible to reduce the r",
-      "url": "https://www.csoonline.com/article/4120006/eu-reviews-cybersecurity-wants-to-reduce-risks-from-high-risk-suppliers.html",
-      "source": "CSO Online",
-      "author": "Inconnu",
-      "published": "2026-01-21T14:13:35+00:00",
-      "niche": "security",
-      "score": 49,
-      "keywords": [
-        "attack",
-        "security",
-        "cybersecurity"
-      ]
-    },
-    {
       "id": "f603039a82bb0f87",
       "title": "Product Categories for Technologies That Use Post-Quantum Cryptography Standards",
       "description": "Executive Summary In response to the June 6, 2025, Executive Order (EO) 14306, “Sustaining Select Efforts to Strengthen the Nation’s Cybersecurity and Amending Executive Order 13694 and Executive Order 14144,” the Cybersecurity and Infrastructure Security Agency (CISA) is providing and regularly updating the below lists to aid in post-quantum cryptography (PQC) adoption. The lists include hardware and software categories with example types of widely available products that use PQC standards to p",
@@ -4108,26 +4108,11 @@
       "niche": "security",
       "score": 49,
       "keywords": [
-        "vulnerability",
+        "exploit",
+        "security advisory",
         "security",
         "threat",
-        "security advisory",
-        "exploit"
-      ]
-    },
-    {
-      "id": "882c10343629e0e4",
-      "title": "ACME flaw in Cloudflare allowed attackers to reach origin servers",
-      "description": "Cloudflare fixed a flaw in its ACME validation logic that could let attackers bypass security checks and access protected origin servers. Cloudflare fixed a flaw in its ACME HTTP-01 validation logic that could let attackers bypass security checks and reach origin servers. The issue stemmed from how Cloudflare’s edge handled requests to the /.well-known/acme-challenge/ path. [&#8230;]",
-      "url": "https://securityaffairs.com/187156/security/acme-flaw-in-cloudflare-allowed-attackers-to-reach-origin-servers.html",
-      "source": "Security Affairs",
-      "author": "Pierluigi Paganini",
-      "published": "2026-01-21T15:10:10+00:00",
-      "niche": "security",
-      "score": 48,
-      "keywords": [
-        "security",
-        "attack"
+        "vulnerability"
       ]
     },
     {
@@ -4231,8 +4216,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "attack",
-        "exploit"
+        "exploit",
+        "attack"
       ]
     },
     {
@@ -4246,8 +4231,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "attack",
-        "exploit"
+        "exploit",
+        "attack"
       ]
     },
     {
@@ -4261,8 +4246,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "PoC",
-        "exploit"
+        "exploit",
+        "PoC"
       ]
     },
     {
@@ -4276,8 +4261,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "threat",
-        "exploit"
+        "exploit",
+        "threat"
       ]
     },
     {
@@ -4291,38 +4276,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "attack",
-        "exploit"
-      ]
-    },
-    {
-      "id": "fb3726ee6ce3f8fd",
-      "title": "Convertissez votre vieille manette filaire en Bluetooth avec un ESP32",
-      "description": "Vous avez une vieille manette USB qui traîne dans un tiroir parce qu'elle est filaire ? Une de ces reliques naphtalinée de l'époque dans laquelle on se prenait encore les pieds quand le câbles trainait au milieu du salon...? Hé bien bonne nouvelle pour vous, et pour vos tiroirs qui vont enfin se vider un peu ! Avec une carte Seeed Studio XIAO ESP32S3 (la star du projet), un peu de patience et une dizaine d'euros, vous pouvez transformer pas mal de manettes USB HID filaires en une version Bluetoo",
-      "url": "https://korben.info/bluetooth-gamepad-esp32-diy.html",
-      "source": "Korben",
-      "author": "Korben",
-      "published": "2026-01-21T14:26:44+01:00",
-      "niche": "security",
-      "score": 47,
-      "keywords": [
-        "RCE"
-      ]
-    },
-    {
-      "id": "fea587e265210b2e",
-      "title": "aiFWall Emerges From Stealth With an AI Firewall",
-      "description": "aiFWall is a firewall protection for AI deployments built to use AI to improve its own performance. The post aiFWall Emerges From Stealth With an AI Firewall appeared first on SecurityWeek.",
-      "url": "https://www.securityweek.com/aifwall-emerges-from-stealth-with-an-ai-firewall/",
-      "source": "SecurityWeek",
-      "author": "Kevin Townsend",
-      "published": "2026-01-21T14:09:42+00:00",
-      "niche": "security",
-      "score": 46,
-      "keywords": [
-        "protection",
-        "security",
-        "firewall"
+        "exploit",
+        "attack"
       ]
     },
     {
@@ -4394,20 +4349,6 @@
       "score": 45,
       "keywords": [
         "secure"
-      ]
-    },
-    {
-      "id": "57bb73dcb4ab6925",
-      "title": "Transformez vos cartes de fidélité en pass Apple Wallet",
-      "description": "Qui n'a pas dans sa poche un portefeuille qui ressemble à un sandwich au pastrami triple épaisseur ? Et la faute à qui ? Hé bien aux cartes de fidélité ma bonne dame et mon bon monsieur ! Celle de la salle de sport dans laquelle vous n'allez plus, celle du club de lecture où vous vous étiez inscrit pour rencontrer l'amour, même celle de la boulangerie de là où vous habitiez avant et qui part en miette (roh roh)... Ouais c'est l'enfer.",
-      "url": "https://korben.info/walletwallet-pass-apple-wallet-gratuit.html",
-      "source": "Korben",
-      "author": "Korben",
-      "published": "2026-01-21T16:11:11+01:00",
-      "niche": "security",
-      "score": 45,
-      "keywords": [
-        "PoC"
       ]
     },
     {
@@ -4704,10 +4645,10 @@
       "niche": "security",
       "score": 43,
       "keywords": [
-        "RCE",
+        "OWASP",
         "security",
         "secure",
-        "OWASP"
+        "RCE"
       ]
     },
     {
@@ -4730,18 +4671,6 @@
       "source": "Korben",
       "author": "Korben",
       "published": "2026-01-21T17:41:44+01:00",
-      "niche": "security",
-      "score": 42,
-      "keywords": []
-    },
-    {
-      "id": "45bd6f5a66457fcf",
-      "title": "TerraGuessr – Le globe 3D qui vous fait voir les inégalités mondiales",
-      "description": "Si vous aimez les globes 3D qui en jettent, j'ai un petit projet sympa à vous présenter. Ça s'appelle TerraGuessr et c'est Fred, un lecteur de longue date (coucou Fred !), qui m'a envoyé ça ! L'idée de Fred est assez géniale. Il propose d'utiliser un globe terrestre interactif pour visualiser la \"déformation\" du monde sous le poids des inégalités. En gros, au lieu de voir une sphère parfaite, vous voyez les continents s'étirer ou se contracter en fonction d'indicateurs comme la richesse, l'éduca",
-      "url": "https://korben.info/terraguessr-le-globe-3d-qui-vous-fait-voir-les-inegalites-mondiales.html",
-      "source": "Korben",
-      "author": "Korben",
-      "published": "2026-01-21T16:32:47+01:00",
       "niche": "security",
       "score": 42,
       "keywords": []
@@ -5275,6 +5204,18 @@
       "keywords": []
     },
     {
+      "id": "3df0593fc7d69616",
+      "title": "Massives Datenleck bedroht rund 150 Millionen Benutzer",
+      "description": "Die offengelegten Zugangsdaten stellen ein erhebliches Sicherheitsrisiko dar.Digineer Station – shutterstock.com Der Cybersicherheitsforscher Jeremiah Fowler deckte kürzlich ein Datenleck mit 149 Millionen Login-Daten auf. Zu den Opfern zählen vor allem Nutzer großer Tech-und Streaming-Anbieter. Aber auch Finanzdienstleistungskonten, Krypto-Wallets oder Handelskonten, Bank- und Kreditkarten-Logins tauchten in den offengelegten Datensätzen auf. Benutzernamen, Passwörter und Login-URLs Laut Forsch",
+      "url": "https://www.csoonline.com/article/4123589/massives-datenleck-bedroht-rund-150-millionen-benutzer.html",
+      "source": "CSO Online",
+      "author": "Inconnu",
+      "published": "2026-01-28T13:40:16+00:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": []
+    },
+    {
       "id": "de39f9e791a6a5b6",
       "title": "GSoC 2025 Recap",
       "description": "OWASP at Google Summer of Code 2025 Celebrating real impact, strong mentorship, and a growing community The Google Summer of Code (GSoC) 2025 program has wrapped, and OWASP’s participation once again delivered meaningful improvements across the open-source security ecosystem. This year, 15 contributors worked across multiple OWASP projects, supported by 26 mentors. Of the 15 projects evaluated, 10 reached successful completion, three are still working on the final deliveries with extended deadli",
@@ -5285,24 +5226,34 @@
       "niche": "security",
       "score": 42,
       "keywords": [
-        "RCE",
+        "OWASP",
         "security",
-        "OWASP"
+        "RCE"
       ]
     },
     {
-      "id": "d99f6775657e4178",
-      "title": "Ajoutez vos cartes de fidélité dans votre Apple Wallet",
-      "description": "Qui n'a pas dans sa poche un portefeuille qui ressemble à un sandwich au pastrami triple épaisseur ? Et la faute à qui ? Hé bien aux cartes de fidélité ma bonne dame et mon bon monsieur ! Celle de la salle de sport dans laquelle vous n'allez plus, celle du club de lecture où vous vous étiez inscrit pour rencontrer l'amour, même celle de la boulangerie de là où vous habitiez avant et qui part en miette (roh roh)... Ouais c'est l'enfer.",
-      "url": "https://korben.info/walletwallet-pass-apple-wallet-gratuit.html",
+      "id": "9a0b2d6432285f51",
+      "title": "La CNIL sera présente à l’Université AFCDP des DPO les 5 et 6 février 2026",
+      "description": "La 20ème Université AFCDP des DPO se tiendra les 5&nbsp;et 6&nbsp;février 2026 sur le thème «&nbsp;DPO en 2026&nbsp;: à la croisée des règlementations, entre ambitions et réalité&nbsp;». La CNIL sera présente pour échanger avec les professionnels, et sa présidente interviendra le 5 février.",
+      "url": "https://www.cnil.fr/fr/la-cnil-sera-presente-luniversite-afcdp-des-dpo-les-5-et-6-fevrier-2026",
+      "source": "CNIL Actualités",
+      "author": "CNIL",
+      "published": "2026-01-28T13:00:00+01:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": []
+    },
+    {
+      "id": "93a7e911da9cefa8",
+      "title": "Une IA déterre 1400 objets inconnus dans les archives de Hubble",
+      "description": "Hubble qui bosse comme un petit fifou depuis 35 ans (il a été lancé en 1990, ça ne nous rajeunit pas !) et dont on pensait avoir fait le tour du proprio, a visiblement encore un sacré paquet de trucs à nous apprendre, notamment dans ses archives au sol. Faut quand même savoir que depuis toutes ces années, il a pris une quantité astronomique (c'est le cas de le dire, roh roh !) de photos, constituant ainsi un dataset de près de 99,6 millions de vignettes (des \"image cutouts\") stockées dans le Hub",
+      "url": "https://korben.info/ia-hubble-800-objets-inconnus.html",
       "source": "Korben",
       "author": "Korben",
-      "published": "2026-01-21T16:11:11+01:00",
+      "published": "2026-01-28T15:42:37+01:00",
       "niche": "security",
-      "score": 40,
-      "keywords": [
-        "PoC"
-      ]
+      "score": 42,
+      "keywords": []
     },
     {
       "id": "da01343e8b28f24f",
@@ -5447,8 +5398,8 @@
       "niche": "security",
       "score": 38,
       "keywords": [
-        "RCE",
-        "OWASP"
+        "OWASP",
+        "RCE"
       ]
     },
     {
@@ -5500,10 +5451,24 @@
       "niche": "security",
       "score": 37,
       "keywords": [
-        "attack",
-        "security",
+        "patch",
         "exploit",
-        "patch"
+        "security",
+        "attack"
+      ]
+    },
+    {
+      "id": "1f615d0f60fc95b0",
+      "title": "Beware! Fake ChatGPT browser extensions are stealing your login credentials",
+      "description": "If you've installed a browser extension to enhance your ChatGPT experience, you might want to think again. Read more in my article on the Hot for Security blog.",
+      "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/beware-fake-chatgpt-browser-extensions-are-stealing-your-login-credentials",
+      "source": "Graham Cluley",
+      "author": "Graham Cluley",
+      "published": "2026-01-28T09:20:29+00:00",
+      "niche": "security",
+      "score": 37,
+      "keywords": [
+        "security"
       ]
     },
     {
@@ -5517,8 +5482,8 @@
       "niche": "security",
       "score": 37,
       "keywords": [
-        "threat",
         "web application security",
+        "threat",
         "security",
         "OWASP"
       ]
@@ -5535,8 +5500,8 @@
       "score": 34,
       "keywords": [
         "threat",
-        "security",
         "cybersecurity",
+        "security",
         "OWASP"
       ]
     },
@@ -5643,6 +5608,21 @@
       ]
     },
     {
+      "id": "ec0fc13b2d59bbf0",
+      "title": "SMS Phishers Pivot to Points, Taxes, Fake Retailers",
+      "description": "China-based phishing groups blamed for non-stop scam SMS messages about a supposed wayward package or unpaid toll fee are promoting a new offering, just in time for the holiday shopping season: Phishing kits for mass-creating fake but convincing e-commerce websites that convert customer payment card data into mobile wallets from Apple and Google. Experts say these same phishing groups also are now using SMS lures that promise unclaimed tax refunds and mobile rewards points.",
+      "url": "https://krebsonsecurity.com/2025/12/sms-phishers-pivot-to-points-taxes-fake-retailers/",
+      "source": "Krebs on Security",
+      "author": "BrianKrebs",
+      "published": "2025-12-04T23:02:34+00:00",
+      "niche": "security",
+      "score": 30,
+      "keywords": [
+        "phishing",
+        "RCE"
+      ]
+    },
+    {
       "id": "151ae1cfe9e1ccc0",
       "title": "Automatic Script Execution In Visual Studio Code, (Wed, Jan 21st)",
       "description": "Visual Studio Code is a popular open-source code editor&#x5b;1&#x5d;. But it&#x27s much more than a simple editor, it&#x27s a complete development platform that supports many languages and it is available on multiple platforms. Used by developers worldwide, it&#x27s a juicy target for threat actors because it can be extended with extensions.&#xd;",
@@ -5653,8 +5633,25 @@
       "niche": "security",
       "score": 30,
       "keywords": [
-        "RCE",
-        "threat"
+        "threat",
+        "RCE"
+      ]
+    },
+    {
+      "id": "6722e9312421ba8a",
+      "title": "WEF: AI overtakes ransomware as fastest-growing cyber risk",
+      "description": "We can no longer say that artificial intelligence is a \"future risk\", lurking somewhere on a speculative threat horizon. The truth is that it is a fast-growing cybersecurity risk that organizations are facing today. That's not just my opinion, that's also the message that comes loud and clear from the World Economic Forum's newly-published \"Global Cybersecurity Outlook 2026.\" Read more in my article on the Fortra blog.",
+      "url": "https://www.fortra.com/blog/wef-ai-overtakes-ransomware-fastest-growing-cyber-risk",
+      "source": "Graham Cluley",
+      "author": "Graham Cluley",
+      "published": "2026-01-15T17:05:07+00:00",
+      "niche": "security",
+      "score": 29,
+      "keywords": [
+        "threat",
+        "ransomware",
+        "security",
+        "cybersecurity"
       ]
     },
     {
@@ -5708,8 +5705,8 @@
       "niche": "security",
       "score": 26,
       "keywords": [
-        "injection",
-        "SQL injection"
+        "SQL injection",
+        "injection"
       ]
     },
     {
@@ -5839,6 +5836,21 @@
       ]
     },
     {
+      "id": "65a16735ed51b94f",
+      "title": "Hackers get hacked, as BreachForums database is leaked",
+      "description": "Have you ever stolen data, traded a hacking tool, or just lurked on a dark web forum believing that you are anonymous? If so, I might have some unsettling news for you. Read more in my article on the Hot for Security blog.",
+      "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/hackers-get-hacked-as-breachforums-database-is-leaked",
+      "source": "Graham Cluley",
+      "author": "Graham Cluley",
+      "published": "2026-01-13T09:45:11+00:00",
+      "niche": "security",
+      "score": 25,
+      "keywords": [
+        "security",
+        "breach"
+      ]
+    },
+    {
       "id": "6a93f4612e11c72c",
       "title": "[webapps] WordPress Quiz Maker 6.7.0.56 - SQL Injection",
       "description": "WordPress Quiz Maker 6.7.0.56 - SQL Injection",
@@ -5849,8 +5861,8 @@
       "niche": "security",
       "score": 24,
       "keywords": [
-        "injection",
-        "SQL injection"
+        "SQL injection",
+        "injection"
       ]
     },
     {
@@ -5864,8 +5876,8 @@
       "niche": "security",
       "score": 24,
       "keywords": [
-        "injection",
-        "SQL injection"
+        "SQL injection",
+        "injection"
       ]
     },
     {
@@ -5895,8 +5907,24 @@
       "niche": "security",
       "score": 21,
       "keywords": [
-        "attack",
-        "threat"
+        "threat",
+        "attack"
+      ]
+    },
+    {
+      "id": "32c6e6c6fa0908e3",
+      "title": "Pro-Russian denial-of-service attacks target UK, NCSC warns",
+      "description": "The UK's National Cyber Security Centre (NCSC) has issued a warning about the threat posed by distributed denial-of-service (DDoS) attacks from Russia-linked hacking groups who are reported to be continuing to target British organisations. Are you prepared? Read more in my article on the Hot for Security blog.",
+      "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/pro-russian-denial-of-service-attacks-target-uk-ncsc-warns",
+      "source": "Graham Cluley",
+      "author": "Graham Cluley",
+      "published": "2026-01-21T10:48:52+00:00",
+      "niche": "security",
+      "score": 21,
+      "keywords": [
+        "threat",
+        "security",
+        "attack"
       ]
     },
     {
@@ -5938,9 +5966,9 @@
       "niche": "security",
       "score": 19,
       "keywords": [
+        "PoC",
         "security",
-        "cybersecurity",
-        "PoC"
+        "cybersecurity"
       ]
     },
     {
@@ -6011,6 +6039,20 @@
       "score": 18,
       "keywords": [
         "attack"
+      ]
+    },
+    {
+      "id": "7a0859f6a929abee",
+      "title": "Smashing Security podcast #450: From Instagram panic to Grok gone wild",
+      "description": "Confusion reigns after claims that data linked to 17.5 million Instagram accounts is up for sale - sparked by a vague post, contradictory statements, and a flood of password reset emails nobody asked for. And we dig into Grok, Elon Musk’s AI chatbot, after it started generating sexualised images of women and children - raising uncomfortable questions about guardrails, accountability, and why playing the censorship card doesn’t make the problem go away. All this, and much more, in episode 450 of ",
+      "url": "https://grahamcluley.com/smashing-security-podcast-450/",
+      "source": "Graham Cluley",
+      "author": "Graham Cluley",
+      "published": "2026-01-15T14:22:53+00:00",
+      "niche": "security",
+      "score": 15,
+      "keywords": [
+        "security"
       ]
     },
     {
@@ -6190,6 +6232,20 @@
       ]
     },
     {
+      "id": "208950e4abb0628b",
+      "title": "Le Comité européen de la protection des données (CEPD)",
+      "description": "Le CEPD a été institué par le règlement européen sur la protection des données (RGPD). Il remplace l’ancien groupe de l’article 29. Ce comité a pour mission principale de veiller à l’application du RGPD dans tous les pays membres de l’Union européenne (UE).",
+      "url": "https://www.cnil.fr/fr/en-europe/le-comite-europeen-de-la-protection-des-donnees-cepd",
+      "source": "CNIL Actualités",
+      "author": "CNIL",
+      "published": "2026-01-19T13:00:00+01:00",
+      "niche": "security",
+      "score": 13,
+      "keywords": [
+        "protection"
+      ]
+    },
+    {
       "id": "318f0bc9f730eb54",
       "title": "Les instances internationales de protection de la vie privée",
       "description": "La coopération internationale est inscrite à l’article premier de la loi informatique et libertés dès 1978. L’intensification des flux mondiaux de données est un sujet particulièrement stratégique qui nécessite un investissement de la CNIL dans les différentes enceintes multilatérales.",
@@ -6218,32 +6274,28 @@
       ]
     },
     {
-      "id": "9dcca17d64df41c9",
-      "title": "Les partenariats internationaux de la CNIL",
-      "description": "La CNIL s’est engagée dans une relation de coopération avec la PIPC (autorité sud-coréenne) en&nbsp;2022, avec la CPPA (autorité californienne) en&nbsp;2024 et avec le Commissariat à la protection de la vie privée du Canada en&nbsp;2025. L’objectif de ces partenariats est de transmettre des bonnes pratiques et d’organiser des travaux communs au bénéfice des citoyens concernés.",
-      "url": "https://www.cnil.fr/fr/dans-le-monde/les-partenariats-internationaux-de-la-cnil",
-      "source": "CNIL Actualités",
-      "author": "CNIL",
-      "published": "2026-01-19T13:00:00+01:00",
+      "id": "a729c2566fbd9ca8",
+      "title": "The AI Fix #84: A hungry ghost trapped in a jar gains access to the Pentagon’s network",
+      "description": "In episode 84 of The AI Fix, Graham and Mark stare straight into the digital abyss and ask the most important question of our age: \"Is AI just a hungry ghost trapped in a jar?\" Also this week, we explore how a shadowy group of disgruntled insiders trying to destroy AI by poisoning its training data, how \"vibe-coding\" has stopped being a joke with even Linus Torvalds joining in, how Google’s AI health advice could have endangered lives, and why simply asking an AI the same question twice can turn",
+      "url": "https://grahamcluley.com/the-ai-fix-84/",
+      "source": "Graham Cluley",
+      "author": "Graham Cluley",
+      "published": "2026-01-20T15:30:36+00:00",
       "niche": "security",
-      "score": 13,
-      "keywords": [
-        "protection"
-      ]
+      "score": 12,
+      "keywords": []
     },
     {
-      "id": "a39c3ba53403d6ee",
-      "title": "Le mécanisme de coopération et de cohérence européen du RGPD",
-      "description": "Le RGPD prévoit un mécanisme de coopération et de cohérence aux autorités de protection des données de l’Union européenne (UE) et de l’Espace économique européen (EEE), comme la CNIL. Ce mécanisme s’applique aux cas impliquant un traitement de données personnelles dans plusieurs États membres.",
-      "url": "https://www.cnil.fr/fr/la-cnil-en-europe/le-mecanisme-de-cooperation-et-de-coherence-europeen-du-rgpd",
-      "source": "CNIL Actualités",
-      "author": "CNIL",
-      "published": "2026-01-19T13:00:00+01:00",
+      "id": "9320684aa9903976",
+      "title": "The AI Fix #83: ChatGPT Health, Victorian LLMs, and the biggest AI bluffers",
+      "description": "In episode 83 of The AI Fix, Graham reveals he's taken up lying to LLMs, and shows how a journalist exposed AI bluffers with a made-up idiom. Meanwhile Mark invents a \"Godwin's Law\" for AI, and explains how to ruin any LLM with humus. Also in this episode, a marriage is declared invalid thanks to ChatGPT, an AI barman looks for a job in a quiet pub, OpenAI finally unveils ChatGPT Health, and why news of the death of Stack Overflow may be greatly exaggerated. All this and much more is discussed i",
+      "url": "https://grahamcluley.com/the-ai-fix-83/",
+      "source": "Graham Cluley",
+      "author": "Graham Cluley",
+      "published": "2026-01-13T18:19:04+00:00",
       "niche": "security",
-      "score": 13,
-      "keywords": [
-        "protection"
-      ]
+      "score": 12,
+      "keywords": []
     },
     {
       "id": "a4ecc5bb0f9a18e3",
