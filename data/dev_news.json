@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-28T21:35:37.368905+00:00",
-  "total_articles": 977,
+  "last_updated": "2026-01-29T02:31:59.107449+00:00",
+  "total_articles": 979,
   "articles": [
     {
       "id": "244ae7139ee3970d",
@@ -691,6 +691,18 @@
       "keywords": []
     },
     {
+      "id": "73f67be9893ea5e3",
+      "title": "Fixing Animated WebP Jitter on Android with Jetpack Compose",
+      "description": "Have you ever noticed some animated WebP images jittering by about 1 pixel on Android? It’s subtle, but it becomes obvious once you notice it. This post covers why it happens and how to fix it. In my testing, this issue reproduced on Android 15 and earlier, but not on Android 16 (tested on emulator and Samsung Galaxy S23+). However, many users are still on older OS versions, so this workaround remains relevant. A repro asset is included at the end of this post if you want to test it yourself. Th",
+      "url": "https://dev.to/brian_stark_09127/fixing-animated-webp-jitter-on-android-with-jetpack-compose-1ah",
+      "source": "Dev.to",
+      "author": "Brian Stark",
+      "published": "2026-01-29T02:10:36+00:00",
+      "niche": "dev",
+      "score": 68,
+      "keywords": []
+    },
+    {
       "id": "d7600c3f5fc98bb6",
       "title": "Capital One to acquire Brex for $5.15B",
       "description": "Comments",
@@ -763,30 +775,6 @@
         "performance",
         "API"
       ]
-    },
-    {
-      "id": "6692195b91257ff8",
-      "title": "Take potentially dangerous PDFs, and convert them to safe PDFs",
-      "description": "Comments",
-      "url": "https://github.com/freedomofpress/dangerzone",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-21T22:54:04+00:00",
-      "niche": "dev",
-      "score": 62,
-      "keywords": []
-    },
-    {
-      "id": "55aeda938f655369",
-      "title": "Convert potentially dangerous PDFs to safe PDFs",
-      "description": "Comments",
-      "url": "https://github.com/freedomofpress/dangerzone",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-21T22:54:04+00:00",
-      "niche": "dev",
-      "score": 62,
-      "keywords": []
     },
     {
       "id": "d11413f154ba06ba",
@@ -1202,6 +1190,18 @@
       "keywords": []
     },
     {
+      "id": "19a095af2ec7a9c2",
+      "title": "Beautiful Mermaid",
+      "description": "Comments",
+      "url": "https://github.com/lukilabs/beautiful-mermaid",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-29T02:08:40+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": []
+    },
+    {
       "id": "a993dac839710701",
       "title": "Qwen3-TTS: The Open-Source Text-to-Speech Revolution in 2026",
       "description": "Introduction In January 2026, Alibaba's Qwen team released Qwen3-TTS, an open-source text-to-speech (TTS) model that's reshaping the landscape of AI-powered voice synthesis. Trained on over 5 million hours of speech data across 10 languages, Qwen3-TTS represents a significant leap forward in multilingual TTS technology. This comprehensive guide explores the model's architecture, performance benchmarks, hardware requirements, and how it compares to industry leaders like GPT-4o Audio and ElevenLab",
@@ -1342,21 +1342,6 @@
       "keywords": [
         "performance",
         "code",
-        "API"
-      ]
-    },
-    {
-      "id": "35991ed733e9a9e8",
-      "title": "Top 5 LLM Gateways in 2026: A Deep-Dive Comparison for Production Teams",
-      "description": "I spent the last few weeks researching LLM gateway solutions for production teams. Here's what I found after testing five different options, talking to engineering teams running them at scale, and breaking things in my staging environment. I didn't test every edge case. We focused on REST APIs with streaming responses, didn't test batch processing extensively, and our traffic patterns might be different from yours. But here's what I learned. Why Production Teams Need LLM Gateways Here's what hap",
-      "url": "https://dev.to/varshithvhegde/top-5-llm-gateways-in-2026-a-deep-dive-comparison-for-production-teams-34d2",
-      "source": "Dev.to",
-      "author": "Varshith V Hegde",
-      "published": "2026-01-22T01:41:56+00:00",
-      "niche": "dev",
-      "score": 57,
-      "keywords": [
-        "REST API",
         "API"
       ]
     },
@@ -1575,6 +1560,21 @@
       ]
     },
     {
+      "id": "010fe1b0f80eace3",
+      "title": "JSONPath Is In! The AI Assistant Will See You Now",
+      "description": "JSONL is a neat and kind of weird data format. It is well-known to be useful for logs and API calls, among other things. And your favorite AI assistant API is one place you'll probably find it. CsvPath Framework supports validating JSONL. (In fact, it supports JSONL for the whole data preboarding lifecycle, but that's a longer story). And now CsvPath Validation Language supports JSONPath expressions. Since AI prompts are only kinda sorta JSONL, having JSONPath to dig into them is helpful. What I",
+      "url": "https://dev.to/david_kershaw_b6916404da6/jsonpath-is-in-the-ai-assistant-will-see-you-now-5cge",
+      "source": "Dev.to",
+      "author": "David Kershaw",
+      "published": "2026-01-29T01:22:12+00:00",
+      "niche": "dev",
+      "score": 57,
+      "keywords": [
+        "API",
+        "framework"
+      ]
+    },
+    {
       "id": "cf53af722d70ced3",
       "title": "AI Is No Longer a Tool, It’s an Architectural Layer!",
       "description": "For most Java and web developers, the systems we work on tend to follow a familiar pattern. A request comes in. Code runs. A response goes out. Even in larger enterprise setups—Spring services, Oracle databases, Kafka pipelines—the underlying assumption is usually the same: Given the same input, the system behaves the same way. AI-powered systems start to stretch this assumption. Not because they are unreliable, but because they are built around a different way of producing results. Recognizing ",
@@ -1731,19 +1731,16 @@
       "keywords": []
     },
     {
-      "id": "6fab3f28a2fc2e4b",
-      "title": "TopRouter Officially Launches",
-      "description": "A Unified, Enterprise-Grade AI Model Platform for Claude, Gemini, Grok, and More In 2025, AI applications are rapidly moving into production at scale. While model capabilities continue to advance, teams still face real-world challenges: unstable accounts, limited quotas, fragmented APIs, and high integration costs. Today, we’re excited to announce: TopRouter is officially live. TopRouter is a one-stop AI model platform designed for enterprises and developers, providing unified access to leading ",
-      "url": "https://dev.to/toprouter/toprouter-officially-launches-4m5d",
-      "source": "Dev.to",
-      "author": "TopRouter",
-      "published": "2026-01-22T01:37:58+00:00",
+      "id": "85d9fe7c1293c1db",
+      "title": "Show HN: A MitM proxy to see what your LLM tools are sending",
+      "description": "Comments",
+      "url": "https://github.com/jmuncor/sherlock",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-28T18:52:24+00:00",
       "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "developer",
-        "API"
-      ]
+      "score": 56,
+      "keywords": []
     },
     {
       "id": "830b1d799b4e9a92",
@@ -2122,30 +2119,17 @@
       ]
     },
     {
-      "id": "a567fef210dbb04b",
-      "title": "Stop Managing Disks: Why Your Block Storage Strategy is Stuck in 2014",
-      "description": "If you’re running high-performance databases or SAN-style workloads on AWS, your default move is probably Amazon EBS. It makes sense on the surface. EBS is simple, it’s \"right there,\" and it’s been the backbone of EC2 for over a decade. But let’s be real: EBS is a disk management strategy, not a data management strategy. When you attach an EBS volume to an instance, you’ve basically just plugged in a virtual cable. You are now responsible for that disk’s performance, its sizing, and its specific",
-      "url": "https://dev.to/iseecodepeople/stop-managing-disks-why-your-block-storage-strategy-is-stuck-in-2014-23n1",
+      "id": "42e69f994a1f258c",
+      "title": "Excited to share my new portfolio!",
+      "description": "Hi everyone, I’m Mohammed Mahmoud, a Full-Stack Developer passionate about building interactive, scalable, and performance-focused web apps. I’ve just launched my portfolio where I showcase my work with Next.js, React, Three.js, Tailwind, Node.js, and more. You’ll find live projects, creative UI experiments, and a peek into how I think as a developer. Check it out here 👉 https://www.mohammed-mahmoud.com/ I’d love to hear your feedback and connect with fellow developers, designers, and anyone loo",
+      "url": "https://dev.to/mohammed_mahmoud_dea5deca/excited-to-share-my-new-portfolio-1col",
       "source": "Dev.to",
-      "author": "Varun S",
-      "published": "2026-01-22T01:50:41+00:00",
+      "author": "Mohammed Mahmoud",
+      "published": "2026-01-29T01:44:18+00:00",
       "niche": "dev",
-      "score": 54,
+      "score": 55,
       "keywords": [
-        "performance"
-      ]
-    },
-    {
-      "id": "6ad3aae43101fb31",
-      "title": "From \"Losing at T=16\" to \"Matching mimalloc\": A Day with hz3 Lane16",
-      "description": "TL;DR Fixed a performance gap where hz3 was losing to mimalloc at T=16 / R=90 by optimizing remote management. Introduced Lane16 PageRemote, which initially caused a hang at T=2. The culprit: A bug where tail->next was overwritten on CAS failure, creating a circular list. After the fix: Performance improved by +9.6% at T=16 / R=90, reaching parity with or slightly outperforming mimalloc. Discovered a massive 3.5x regression caused by an unnecessary atomic operation in the hot path. 1. The Initia",
-      "url": "https://dev.to/charmpic/from-losing-at-t16-to-matching-mimalloc-a-day-with-hz3-lane16-4np8",
-      "source": "Dev.to",
-      "author": "CharmPic",
-      "published": "2026-01-22T01:45:16+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
+        "developer",
         "performance"
       ]
     },
@@ -3829,6 +3813,36 @@
       ]
     },
     {
+      "id": "a3914745d299f245",
+      "title": "Git for Beginners: Basics and Essential Commands",
+      "description": "What is Git Git is a software which is a Version Control System, which basically keeps the track of history changes, and helps in managing different timelines for developers Why Git is Used It is just used to keep the hustle out, when working in teams there might be conflicts while adding some feature or fixing a bug in the code. Git is easy to learn, and adds a lot of value Git Basics and Core Terminologies repository A repository is basically like a container, with all the code files, folder i",
+      "url": "https://dev.to/vicky_gupta_e97f7752abc47/git-for-beginners-basics-and-essential-commands-4be5",
+      "source": "Dev.to",
+      "author": "Vicky Gupta",
+      "published": "2026-01-29T01:39:55+00:00",
+      "niche": "dev",
+      "score": 52,
+      "keywords": [
+        "code",
+        "developer"
+      ]
+    },
+    {
+      "id": "509d22bfc180faf8",
+      "title": "Building AI's Flight Recorder: A Developer's Response to the Doomsday Clock",
+      "description": "The Bulletin of the Atomic Scientists just named AI as an existential threat. Here's how we can build the cryptographic audit infrastructure to address it—with code. The Wake-Up Call On January 27, 2026, the Doomsday Clock moved to 85 seconds before midnight—the closest it has ever been to symbolic annihilation. For the first time in its 79-year history, artificial intelligence was explicitly cited as a driver of existential risk. The Bulletin's statement didn't mince words: \"The United States, ",
+      "url": "https://dev.to/veritaschain/building-ais-flight-recorder-a-developers-response-to-the-doomsday-clock-43pi",
+      "source": "Dev.to",
+      "author": "VeritasChain Standards Organization (VSO)",
+      "published": "2026-01-29T01:12:45+00:00",
+      "niche": "dev",
+      "score": 52,
+      "keywords": [
+        "code",
+        "developer"
+      ]
+    },
+    {
       "id": "8b5a817e59edccbc",
       "title": "Install Claude Code on Windows with scoop",
       "description": "install git via scoop scoop install git set path setx CLAUDE_CODE_GIT_BASH_PATH \"%USERPROFILE%\\scoop\\apps\\git\\current\\usr\\bin\\bash.exe\" install Claude Code irm https://claude.ai/install.ps1 | iex https://code.claude.com/docs/en/setup#windows-powershell Then restart Terminal app and run the following command. claude --version 2.1.15 (Claude Code)",
@@ -5493,78 +5507,6 @@
       "keywords": [
         "developer"
       ]
-    },
-    {
-      "id": "a0ad50c700a94e28",
-      "title": "KMP WorkManager: Enterprise-Grade Background Tasks for Kotlin Multiplatform",
-      "description": "We all love Kotlin Multiplatform (KMP). Sharing business logic, networking, and data layers between Android and iOS is a dream come true. But let's be honest: there is one specific area where the \"write once, run everywhere\" dream often turns into a fragmented nightmare. Background Processing. If you are coming from Android, you are used to WorkManager. It's robust, persistent, and handles constraints like \"only run when charging\" beautifully. Then you port your logic to iOS. You encounter BGTas",
-      "url": "https://dev.to/brewkits/kmp-workmanager-enterprise-grade-background-tasks-for-kotlin-multiplatform-3cl2",
-      "source": "Dev.to",
-      "author": "Viet, Nguyen Tuan",
-      "published": "2026-01-22T01:57:51+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "c692c6b47ce2f24d",
-      "title": "Preservando la integridad de los datos",
-      "description": "En los sistemas de software —especialmente aquellos que manejan dinero, inventarios, contratos o cualquier información crítica— la integridad de los datos es un requisito innegociable. Para garantizar esta integridad, las bases de datos transaccionales utilizan un conjunto de propiedades conocido como ACID. En este artículo, entenderemos de forma clara y práctica qué es el modelo ACID, por qué es tan importante y cómo cada una de sus propiedades actúa para mantener los datos confiables incluso e",
-      "url": "https://dev.to/mmonzon/preservando-la-integridad-de-los-datos-1d2f",
-      "source": "Dev.to",
-      "author": "Marcio C.",
-      "published": "2026-01-22T01:44:53+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "e104af68331fdc9a",
-      "title": "4 Million Users 'Enter the Circle' But Not 'On-Chain': How Will the KBC Model Split Future Crypto Liquidity?",
-      "description": "On February 16, 2026, Belgian bank KBC will open a special door to the crypto world for its 4 million retail customers. When users click to buy Bitcoin within its Bolero app, it will not be an on-chain transfer but an internal bookkeeping operation by the bank. What they receive is a \"bitcoin certificate\" backed by the bank's credit, not freely disposable on-chain assets. While this model appears as a compliant innovation under the EU's MiCA regulations, it is essentially building an invisible w",
-      "url": "https://dev.to/apnews/4-million-users-enter-the-circle-but-not-on-chain-how-will-the-kbc-model-split-future-crypto-35mh",
-      "source": "Dev.to",
-      "author": "Apnews",
-      "published": "2026-01-22T01:35:42+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "c20cf3f4007f4a49",
-      "title": "Cloudflare Deep dive into 2025 Internet trends session highlights",
-      "description": "Yesterday I was joining a session organised by Cloudflare. These are the input that may benefit all of us. This session highlights steady global traffic growth, rising attack intensity, and accelerating adoption of new encryption and AI-related behaviors across the Internet. ​ Overall Internet growth and popular services Global Internet traffic grew by just under 20% in 2025, following a familiar pattern of modest growth early in the year, then stronger increases from May and especially from lat",
-      "url": "https://dev.to/nhisyamj/cloudflare-deep-dive-into-2025-internet-trends-session-highlights-nm1",
-      "source": "Dev.to",
-      "author": "Hisyam Johan",
-      "published": "2026-01-22T01:31:50+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "6f3dcbb7423f4eff",
-      "title": "Designing Software for Non-Technical Users Under Time Pressure",
-      "description": "Context & problem Most “user-friendly” software advice assumes users have time. Time to read tooltips. Time to explore settings. Time to recover from mistakes. In real life, a lot of users don’t. I’ve worked on systems used by non-technical operators during peak pressure moments: staff onboarding, customer queues, payment delays, or a “something broke, fix it now” situation. In those moments, the UI isn’t just a UI - it becomes part of the workflow’s reliability. The core problem is simple: How ",
-      "url": "https://dev.to/billboox/designing-software-for-non-technical-users-under-time-pressure-220p",
-      "source": "Dev.to",
-      "author": "BillBoox",
-      "published": "2026-01-22T01:30:31+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "2a4110e6e85ab46f",
-      "title": "Arquitectura Inmortal en AWS: Escala, Autocura y Domina el SAA-C03",
-      "description": "TL;DR En este post vas a construir una flota de servidores web que se reparan solos cuando fallan y crecen automáticamente cuando llega el tráfico, usando EC2, Auto Scaling Groups (ASG) y Application Load Balancer (ALB). Veremos: Cómo crear un \"molde\" de servidor (Launch Template). La diferencia vital entre Health Checks de EC2 vs ELB (Trampa del examen SAA-C03). Cómo simular un fallo crítico y ver al sistema \"resucitar\" una instancia en vivo. Tiempo estimado: 45 min. Nivel: 200 (Beginner/Interm",
-      "url": "https://dev.to/franciscojeg78/arquitectura-inmortal-en-aws-escala-autocura-y-domina-el-saa-c03-4hi8",
-      "source": "Dev.to",
-      "author": "Francisco Escobar",
-      "published": "2026-01-22T01:17:19+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
     },
     {
       "id": "7a4630cb730a6f44",
@@ -8173,6 +8115,66 @@
       "keywords": []
     },
     {
+      "id": "cc5486b864465eba",
+      "title": "Before I forget how I got here...",
+      "description": "I'm not sure if this is a blog post, a journal entry, or a personal time capsule. Everything in the world of AI and agentic coding is moving so fast. So, before all of this fades in my memory I wanted to take some time to document my journey with vibe coding as illustrated by the tools I use daily as a software engineer. How it started I have been a very heavy terminal user for decades. My mom still jokes about my using a terminal on her Mac to figure out a problem for her. She asked what the te",
+      "url": "https://dev.to/richhaase/before-i-forget-how-i-got-here-23b6",
+      "source": "Dev.to",
+      "author": "richhaase",
+      "published": "2026-01-29T02:05:34+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "07dbfdb0f718b941",
+      "title": "Is the language war even real?",
+      "description": "Every few years, the tech world seems to restart the same argument. Java vs C#. Python vs JavaScript. Backend vs frontend. It shows up in blog posts, conference talks, comment sections, and sometimes quietly inside engineering teams. There is often a subtle smirk when someone mentions a different stack. An unspoken belief that one choice somehow reflects intelligence, experience, or superiority. Over time, I have started questioning whether this so-called language war is even real, or if it is s",
+      "url": "https://dev.to/ujja/is-the-language-war-even-real-13n0",
+      "source": "Dev.to",
+      "author": "ujja",
+      "published": "2026-01-29T01:53:33+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "0635687e6051bc85",
+      "title": "Python math.gcd",
+      "description": "(10,2) => 2 (3, 5) => 1 def gcd(a,b): if a < b: a,b = b,a while b: a,b = b,a%b return a import math assert gcd(13, 2436) == 1 assert gcd(10, 2) == 2 assert math.gcd(13, 2436) == 1 assert math.gcd(10, 2) == 2",
+      "url": "https://dev.to/slackman/python-mathgcd-2eo",
+      "source": "Dev.to",
+      "author": "slackman",
+      "published": "2026-01-29T01:30:07+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "e13f9c139ecdaa2d",
+      "title": "Parallel Region-Based Routing on OpenROAD: Scaling Beyond Multithreading",
+      "description": "Detailed routing is one of the slowest stages in an ASIC physical design flow. Even with TritonRoute’s multithreading support, routing large designs still becomes a bottleneck as complexity grows. At WIOWIZ, we explored a practical question: Can OpenROAD detailed routing be parallelized at the process level—without modifying TritonRoute or OpenROAD itself? The answer is yes, with careful region partitioning and orchestration. Why Multithreading Isn’t Enough TritonRoute uses multithreading inside",
+      "url": "https://dev.to/wiowiztech/parallel-region-based-routing-on-openroad-scaling-beyond-multithreading-3jf6",
+      "source": "Dev.to",
+      "author": "WIOWIZ Technologies",
+      "published": "2026-01-29T01:14:40+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "d91b37f7e2c11c13",
+      "title": "[CS series] Understanding Logic Gates: The Language of Computers",
+      "description": "Logic gates are the basic building blocks of any digital system. They take binary inputs (0 or 1) and provide a single output based on a specific rule. 1. AND Gate The AND gate is like a strict boss. It only gives a \"True\" (1) output if all inputs are \"True\". Rule: Output is 1 only if Input A and Input B are both 1. Real-life example: You can enter the building only if you have a key card AND a password. [Image of AND gate logic symbol and truth table] 2. OR Gate The OR gate is more relaxed. It ",
+      "url": "https://dev.to/jonghwayoo03_dev/cs-series-understanding-logic-gates-the-language-of-computers-73d",
+      "source": "Dev.to",
+      "author": "JongHwa",
+      "published": "2026-01-29T01:07:11+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "2dd087547a526137",
       "title": "Why Technical Correctness Is Not Enough For Developers Anymore. Because an AI system can be statistically accurate and still fail emotionally.",
       "description": "The Emotional UX of AI: What Developers Miss Jaideep Parashar ・ Jan 25 #webdev #devops #programming #ai",
@@ -8199,20 +8201,6 @@
       "score": 48,
       "keywords": [
         "API"
-      ]
-    },
-    {
-      "id": "139c170717ae519c",
-      "title": "How to Turn Your Favorite Tech Blogs into a Personal Podcast",
-      "description": "These days it feels almost impossible to keep up with tech news. I step away for three days, and suddenly there is a new AI model, a new framework, and a new tool everyone says I must learn. Reading everything no longer scales, but I still want to st...",
-      "url": "https://www.freecodecamp.org/news/how-to-turn-your-favorite-blogs-into-personal-podcast/",
-      "source": "freeCodeCamp",
-      "author": "Spruce Emmanuel",
-      "published": "2026-01-21T21:46:25+00:00",
-      "niche": "dev",
-      "score": 48,
-      "keywords": [
-        "framework"
       ]
     },
     {
@@ -8458,20 +8446,6 @@
       "keywords": []
     },
     {
-      "id": "02b4715147eedcca",
-      "title": "Threat actors expand abuse of Microsoft Visual Studio Code",
-      "description": "Comments",
-      "url": "https://www.jamf.com/blog/threat-actors-expand-abuse-of-visual-studio-code/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-22T00:12:00+00:00",
-      "niche": "dev",
-      "score": 45,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
       "id": "94357837b04e075a",
       "title": "Optimizing Java Applications for Arm64 in the Cloud",
       "description": "Optimize Java applications for Arm64 cloud environments. Expert guide on JVM tuning, heap sizing, garbage collection, and maximizing Ampere CPU performance Continue reading Optimizing Java Applications for Arm64 in the Cloud on SitePoint.",
@@ -8582,42 +8556,6 @@
       "keywords": [
         "developer"
       ]
-    },
-    {
-      "id": "d7c76777035a19b0",
-      "title": "Internet voting is insecure and should not be used in public elections",
-      "description": "Comments",
-      "url": "https://blog.citp.princeton.edu/2026/01/16/internet-voting-is-insecure-and-should-not-be-used-in-public-elections/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-22T01:11:13+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "b1fbb33296e4523a",
-      "title": "Significant US Farm Losses Persist, Despite Federal Assistance",
-      "description": "Comments",
-      "url": "https://www.fb.org/market-intel/significant-farm-losses-persist-despite-federal-assistance",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-22T01:11:36+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "10691dcf54357aaf",
-      "title": "Mote: An Interactive Ecosystem Simulation [video]",
-      "description": "Comments",
-      "url": "https://www.youtube.com/watch?v=Hju0H3NHxVI",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-21T22:30:18+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "99eae44da758eaaa",
@@ -10312,6 +10250,54 @@
       "keywords": []
     },
     {
+      "id": "a118b40a02a3c931",
+      "title": "Somebody used spoofed ADSB signals to raster the meme of JD Vance",
+      "description": "Comments",
+      "url": "https://alecmuffett.com/article/143548",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-28T21:50:47+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "a2ce08bc22d06d6c",
+      "title": "Ross Stevens Donates $100M to Pay Every US Olympian and Paralympian $200k",
+      "description": "Comments",
+      "url": "https://www.townandcountrymag.com/leisure/sporting/a70171886/ross-stevens-american-olympians-donation/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-28T23:55:42+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "b18f9950ebca7628",
+      "title": "The UK paid £4.1M for a bookmarks site",
+      "description": "Comments",
+      "url": "https://mahadk.com/posts/ai-skills-hub",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-28T23:16:12+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "e1ea8f8980e76fb6",
+      "title": "Please Don't Say Mean Things about the AI I Just Invested a Billion Dollars In",
+      "description": "Comments",
+      "url": "https://www.mcsweeneys.net/articles/please-dont-say-mean-things-about-the-ai-that-i-just-invested-a-billion-dollars-in",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-28T23:36:23+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "36cc3e91df2ab359",
       "title": "10 Tips for Effective User Experience Evaluation",
       "description": "\"Learn 10 proven UX design tips to improve user experience, boost engagement, and increase conversions. From usability testing to A/B testing strategies.\" Continue reading 10 Tips for Effective User Experience Evaluation on SitePoint.",
@@ -10478,42 +10464,6 @@
       "published": "2026-01-28T14:46:45+00:00",
       "niche": "dev",
       "score": 39,
-      "keywords": []
-    },
-    {
-      "id": "f4a26906631f070e",
-      "title": "Show HN: Sweep, Open-weights 1.5B model for next-edit autocomplete",
-      "description": "Comments",
-      "url": "https://huggingface.co/sweepai/sweep-next-edit-1.5B",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-21T23:22:40+00:00",
-      "niche": "dev",
-      "score": 38,
-      "keywords": []
-    },
-    {
-      "id": "5acbc930dcc417d8",
-      "title": "From stealth blackout to whitelisting: Inside the Iranian shutdown",
-      "description": "Comments",
-      "url": "https://www.kentik.com/blog/from-stealth-blackout-to-whitelisting-inside-the-iranian-shutdown/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-22T00:00:36+00:00",
-      "niche": "dev",
-      "score": 38,
-      "keywords": []
-    },
-    {
-      "id": "42c6d8eaedb3f6c2",
-      "title": "Your brain on ChatGPT: Accumulation of cognitive debt when using an AI assistant",
-      "description": "Comments",
-      "url": "https://www.media.mit.edu/publications/your-brain-on-chatgpt/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-21T22:41:45+00:00",
-      "niche": "dev",
-      "score": 38,
       "keywords": []
     },
     {
@@ -10719,8 +10669,8 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "API",
         "release",
+        "API",
         "React 19"
       ]
     },
@@ -10822,8 +10772,8 @@
       "niche": "dev",
       "score": 34,
       "keywords": [
-        "development",
-        "developer"
+        "developer",
+        "development"
       ]
     },
     {
@@ -11024,8 +10974,8 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "performance",
         "code",
+        "performance",
         "release",
         "API",
         "framework"
@@ -11206,6 +11156,30 @@
       "keywords": []
     },
     {
+      "id": "4d24f0d241d1c343",
+      "title": "Trinity large: An open 400B sparse MoE model",
+      "description": "Comments",
+      "url": "https://www.arcee.ai/blog/trinity-large",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-28T00:57:52+00:00",
+      "niche": "dev",
+      "score": 26,
+      "keywords": []
+    },
+    {
+      "id": "2f785744c1e6da2b",
+      "title": "Did a celebrated researcher obscure a baby's poisoning?",
+      "description": "Comments",
+      "url": "https://www.newyorker.com/magazine/2026/02/02/did-a-celebrated-researcher-obscure-a-fatal-poisoning",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-28T00:18:58+00:00",
+      "niche": "dev",
+      "score": 26,
+      "keywords": []
+    },
+    {
       "id": "cd46e0b1413a2532",
       "title": "LCP and INP are now Baseline Newly available",
       "description": "LCP and INP are now Baseline Newly available as of December 12, 2025.",
@@ -11318,8 +11292,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "library",
-        "release"
+        "release",
+        "library"
       ]
     },
     {
@@ -11333,8 +11307,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "API",
-        "release"
+        "release",
+        "API"
       ]
     },
     {
@@ -11348,8 +11322,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "framework",
-        "release"
+        "release",
+        "framework"
       ]
     },
     {
@@ -11376,8 +11350,8 @@
       "score": 20,
       "keywords": [
         "code",
-        "performance",
-        "developer"
+        "developer",
+        "performance"
       ]
     },
     {
@@ -11436,8 +11410,8 @@
       "score": 18,
       "keywords": [
         "code",
-        "development",
-        "developer"
+        "developer",
+        "development"
       ]
     },
     {
@@ -11479,8 +11453,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "development",
-        "developer"
+        "developer",
+        "development"
       ]
     },
     {
@@ -11494,8 +11468,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "API",
-        "code"
+        "code",
+        "API"
       ]
     },
     {
@@ -11777,6 +11751,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2026-01-23T22:55:00+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "184c46d08daa530c",
+      "title": "Mecha Comet – Open Modular Linux Handheld Computer",
+      "description": "Comments",
+      "url": "https://mecha.so/comet",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-25T21:44:50+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -12143,6 +12129,42 @@
       "keywords": [
         "developer"
       ]
+    },
+    {
+      "id": "00ccb947077ff190",
+      "title": "AI Model Collapse in Design Tools: Why Your Background Remover Is Getting Worse",
+      "description": "AI tools degrading over time? Same photo, same tool, worse results six months later. Here's what's happening and how to adapt. Continue reading AI Model Collapse in Design Tools: Why Your Background Remover Is Getting Worse on SitePoint.",
+      "url": "https://www.sitepoint.com/ai-model-collapse-in-design-tools/?utm_source=rss",
+      "source": "SitePoint",
+      "author": "Tanya Donska",
+      "published": "2026-01-16T17:02:59+00:00",
+      "niche": "dev",
+      "score": 12,
+      "keywords": []
+    },
+    {
+      "id": "d851742a3583c356",
+      "title": "Best Payment Gateway for Subscriptions & Recurring Payment: 2026",
+      "description": "Best Payment Gateway for Subscriptions & Recurring Payment: 2025. Find the best payment gateway for your subscription business in 2025! Process recurring payments and transactions easily. Continue reading Best Payment Gateway for Subscriptions & Recurring Payment: 2026 on SitePoint.",
+      "url": "https://www.sitepoint.com/payment-gateway-for-subscriptions/?utm_source=rss",
+      "source": "SitePoint",
+      "author": "SitePoint Sponsors",
+      "published": "2026-01-16T16:41:40+00:00",
+      "niche": "dev",
+      "score": 12,
+      "keywords": []
+    },
+    {
+      "id": "187c5ece4a71322a",
+      "title": "Best Payment Gateways in France for 2026",
+      "description": "Discover the best payment gateways in France for 2025. Explore top payment methods and solutions to choose the best online payment service for your business! Continue reading Best Payment Gateways in France for 2026 on SitePoint.",
+      "url": "https://www.sitepoint.com/best-payment-gateways-in-france/?utm_source=rss",
+      "source": "SitePoint",
+      "author": "NOWPayments",
+      "published": "2026-01-16T16:38:30+00:00",
+      "niche": "dev",
+      "score": 12,
+      "keywords": []
     },
     {
       "id": "849a31264602f6cb",
