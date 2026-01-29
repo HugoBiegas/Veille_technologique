@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-29T18:56:11.503151+00:00",
-  "total_articles": 436,
+  "last_updated": "2026-01-29T21:33:45.243844+00:00",
+  "total_articles": 437,
   "articles": [
     {
       "id": "fe1657b21ec1dff5",
@@ -721,22 +721,6 @@
       ]
     },
     {
-      "id": "d119563a9e169bad",
-      "title": "Curl ending bug bounty program after flood of AI slop reports",
-      "description": "The developer of the popular curl command-line utility and library announced that the project will end its HackerOne security bug bounty program at the end of this month, after being overwhelmed by low-quality AI-generated vulnerability reports. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/curl-ending-bug-bounty-program-after-flood-of-ai-slop-reports/",
-      "source": "Bleeping Computer",
-      "author": "Lawrence Abrams",
-      "published": "2026-01-22T14:01:36-05:00",
-      "niche": "security",
-      "score": 87,
-      "keywords": [
-        "bug bounty",
-        "security",
-        "vulnerability"
-      ]
-    },
-    {
       "id": "5a0c813b35ccbe82",
       "title": "New DynoWiper Malware Used in Attempted Sandworm Attack on Polish Power Sector",
       "description": "The Russian nation-state hacking group known as Sandworm has been attributed to what has been described as the \"largest cyber attack\" targeting Poland's power system in the last week of December 2025. The attack was unsuccessful, the country's energy minister, Milosz Motyka, said last week. \"The command of the cyberspace forces has diagnosed in the last days of the year the strongest attack on",
@@ -798,6 +782,24 @@
         "RCE",
         "threat",
         "security"
+      ]
+    },
+    {
+      "id": "978ccad74eff2c08",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-1281 Ivanti Endpoint Manager Mobile (EPMM) Code Injection Vulnerability This type of vulnerability is a frequent attack vector for malicious cyber actors and poses significant risks to the federal enterprise. Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the KEV Catalog as a living l",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/01/29/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "source": "CISA Cybersecurity Advisories",
+      "author": "CISA",
+      "published": "2026-01-29T12:00:00+00:00",
+      "niche": "security",
+      "score": 87,
+      "keywords": [
+        "vulnerability",
+        "exploit",
+        "CVE-",
+        "injection",
+        "attack"
       ]
     },
     {
@@ -1124,6 +1126,24 @@
       ]
     },
     {
+      "id": "e01f9b28145f6335",
+      "title": "SolarWinds addressed four critical Web Help Desk flaws",
+      "description": "SolarWinds patched six Web Help Desk vulnerabilities, including four critical flaws exploitable without authentication for RCE or auth bypass. SolarWinds released security updates to address six Web Help Desk vulnerabilities, including four critical bugs that allow unauthenticated remote code execution or authentication bypass. The three critical flaws found by watchTowr, and specifically by researcher Piotr [&#8230;]",
+      "url": "https://securityaffairs.com/187470/security/solarwinds-addressed-four-critical-web-help-desk-flaws.html",
+      "source": "Security Affairs",
+      "author": "Pierluigi Paganini",
+      "published": "2026-01-29T19:17:04+00:00",
+      "niche": "security",
+      "score": 82,
+      "keywords": [
+        "patch",
+        "remote code execution",
+        "RCE",
+        "exploit",
+        "authentication bypass"
+      ]
+    },
+    {
       "id": "4c27d0df798a09c6",
       "title": "SolarWinds, again: Critical RCE bugs reopen old wounds for enterprise security teams",
       "description": "SolarWinds is yet again disclosing security vulnerabilities in one of its widely-used products. The company has released updates to patch six critical authentication bypass and remote command execution vulnerabilities in its Web Help Desk (WHD) IT software. These flaws could allow attackers to bypass authentication, perform remote code execution (RCE), and access certain functionality that should be gated. Of the six, four are rated “critical” (9.8 out of 10 on the CVE severity scale), while the",
@@ -1200,6 +1220,20 @@
       "keywords": [
         "ransomware",
         "attack"
+      ]
+    },
+    {
+      "id": "79f21153d5e3f295",
+      "title": "Researchers Find 175,000 Publicly Exposed Ollama AI Servers Across 130 Countries",
+      "description": "A new joint investigation by SentinelOne SentinelLABS, and Censys has revealed that the open-source artificial intelligence (AI) deployment has created a vast \"unmanaged, publicly accessible layer of AI compute infrastructure\" that spans 175,000 unique Ollama hosts across 130 countries. These systems, which span both cloud and residential networks across the world, operate outside the",
+      "url": "https://thehackernews.com/2026/01/researchers-find-175000-publicly.html",
+      "source": "The Hacker News",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-01-30T00:07:00+05:30",
+      "niche": "security",
+      "score": 80,
+      "keywords": [
+        "RCE"
       ]
     },
     {
@@ -1550,11 +1584,11 @@
       "niche": "security",
       "score": 75,
       "keywords": [
+        "zero-day",
         "security flaw",
         "patch",
-        "zero-day",
-        "security",
-        "exploit"
+        "exploit",
+        "security"
       ]
     },
     {
@@ -1795,6 +1829,21 @@
         "attack",
         "exploit",
         "CVE-"
+      ]
+    },
+    {
+      "id": "40367e32d2cd2f37",
+      "title": "Google disrupts IPIDEA residential proxy networks fueled by malware",
+      "description": "IPIDEA, one of the largest residential proxy networks used by threat actors, was disrupted earlier this week by Google Threat Intelligence Group (GTIG) in collaboration with industry partners. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/google-disrupts-ipidea-residential-proxy-networks-fueled-by-malware/",
+      "source": "Bleeping Computer",
+      "author": "Bill Toulas",
+      "published": "2026-01-29T14:29:17-05:00",
+      "niche": "security",
+      "score": 72,
+      "keywords": [
+        "threat",
+        "malware"
       ]
     },
     {
@@ -2238,22 +2287,6 @@
       ]
     },
     {
-      "id": "1e534fa136f5e5cf",
-      "title": "Machine learning–powered Android Trojans bypass script-based Ad Click detection",
-      "description": "A new Android click-fraud trojan family uses TensorFlow ML to visually detect and tap ads, bypassing traditional script-based click techniques. Researchers at cybersecurity firm Dr.Web discovered a new Android click-fraud trojan family that uses TensorFlow.js ML models to visually detect and tap ads, avoiding traditional script-based methods. The malware is distributed via Xiaomi’s GetApps, it [&#8230;]",
-      "url": "https://securityaffairs.com/187215/malware/machine-learning-powered-android-trojans-bypass-script-based-ad-click-detection.html",
-      "source": "Security Affairs",
-      "author": "Pierluigi Paganini",
-      "published": "2026-01-22T19:19:39+00:00",
-      "niche": "security",
-      "score": 64,
-      "keywords": [
-        "malware",
-        "cybersecurity",
-        "security"
-      ]
-    },
-    {
       "id": "8075302090e2538d",
       "title": "Microsoft: Outlook for iOS crashes, freezes due to coding error",
       "description": "Microsoft confirmed today that Outlook mobile may crash or freeze when launched on iPad devices due to a coding error. [...]",
@@ -2547,10 +2580,10 @@
       "niche": "security",
       "score": 61,
       "keywords": [
-        "security",
-        "RCE",
         "secure",
-        "OWASP"
+        "RCE",
+        "OWASP",
+        "security"
       ]
     },
     {
@@ -2885,8 +2918,8 @@
       "score": 57,
       "keywords": [
         "RCE",
-        "exploit",
-        "secure"
+        "secure",
+        "exploit"
       ]
     },
     {
@@ -2964,22 +2997,6 @@
       "keywords": [
         "ransomware",
         "patch"
-      ]
-    },
-    {
-      "id": "6b7e712d2bf5b938",
-      "title": "Fortinet Firewalls Hit With Malicious Configuration Changes",
-      "description": "Automated infections of potentially fully patched FortiGate devices are allowing threat actors to steal firewall configuration files.",
-      "url": "https://www.darkreading.com/cloud-security/fortinet-firewalls-malicious-configuration-changes",
-      "source": "Dark Reading",
-      "author": "Rob Wright",
-      "published": "2026-01-22T21:18:42+00:00",
-      "niche": "security",
-      "score": 55,
-      "keywords": [
-        "patch",
-        "threat",
-        "firewall"
       ]
     },
     {
@@ -3870,10 +3887,10 @@
       "score": 49,
       "keywords": [
         "vulnerability",
-        "threat",
-        "security",
         "exploit",
-        "security advisory"
+        "threat",
+        "security advisory",
+        "security"
       ]
     },
     {
@@ -3947,8 +3964,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "attack",
-        "exploit"
+        "exploit",
+        "attack"
       ]
     },
     {
@@ -3962,8 +3979,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "attack",
-        "exploit"
+        "exploit",
+        "attack"
       ]
     },
     {
@@ -4007,8 +4024,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "attack",
-        "exploit"
+        "exploit",
+        "attack"
       ]
     },
     {
@@ -4252,6 +4269,20 @@
       ]
     },
     {
+      "id": "e3a3bb7f50418b4f",
+      "title": "Hacking attack leaves Russian car owners locked out of their vehicles",
+      "description": "Imagine the scene. It's a cold Monday morning in Moscow. You walk out to your car, coffee in hand, ready to face the day. You press the button to unlock your car, and ... nothing happens. You try again. Still nothing. The alarm starts blaring. You can't turn it off. Read more in my article on the Fortra blog.",
+      "url": "https://www.fortra.com/blog/hacking-attack-leaves-russian-car-owners-locked-out-their-vehicles",
+      "source": "Graham Cluley",
+      "author": "Graham Cluley",
+      "published": "2026-01-29T20:57:05+00:00",
+      "niche": "security",
+      "score": 45,
+      "keywords": [
+        "attack"
+      ]
+    },
+    {
       "id": "c499b083063e419c",
       "title": "ISC Stormcast For Friday, January 23rd, 2026 https://isc.sans.edu/podcastdetail/9778, (Fri, Jan 23rd)",
       "description": "",
@@ -4362,8 +4393,8 @@
       "niche": "security",
       "score": 44,
       "keywords": [
-        "security",
-        "CVE-"
+        "CVE-",
+        "security"
       ]
     },
     {
@@ -4433,10 +4464,10 @@
       "niche": "security",
       "score": 43,
       "keywords": [
-        "security",
-        "RCE",
         "secure",
-        "OWASP"
+        "RCE",
+        "OWASP",
+        "security"
       ]
     },
     {
@@ -5002,9 +5033,9 @@
       "niche": "security",
       "score": 42,
       "keywords": [
-        "security",
         "RCE",
-        "OWASP"
+        "OWASP",
+        "security"
       ]
     },
     {
@@ -5190,6 +5221,18 @@
       "keywords": []
     },
     {
+      "id": "8861000889427212",
+      "title": "Mises à jour bloquées, la domotique piégée par le cloud",
+      "description": "En Russie, des objets connectés se bloquent : apps absentes, cloud inaccessible, mises à jour et activation deviennent un casse-tête....",
+      "url": "https://www.zataz.com/mises-a-jour-bloquees-la-domotique-piegee-par-le-cloud/",
+      "source": "Zataz",
+      "author": "Damien Bancal",
+      "published": "2026-01-29T18:58:41+00:00",
+      "niche": "security",
+      "score": 39,
+      "keywords": []
+    },
+    {
       "id": "642f6e80897c7d83",
       "title": "InfoSecMap x OWASP Collaboration",
       "description": "OWASP Partners with InfoSecMap to Strengthen Global InfoSec Collaboration We’re stronger together. In a move that highlights the power of open collaboration, OWASP is proud to announce a new partnership with InfoSecMap — a community-focused project dedicated to making InfoSec events and resources more accessible, global, and inclusive. At its core, OWASP is a community-driven force building free, open resources for anyone who cares about building safer software. InfoSecMap, meanwhile, has been q",
@@ -5305,40 +5348,6 @@
       "keywords": []
     },
     {
-      "id": "2d542954f91770c8",
-      "title": "Patch Tuesday, January 2026 Edition",
-      "description": "Microsoft today issued patches to plug at least 113 security holes in its various Windows operating systems and supported software. Eight of the vulnerabilities earned Microsoft's most-dire \"critical\" rating, and the company warns that attackers are already exploiting one of the bugs fixed today.",
-      "url": "https://krebsonsecurity.com/2026/01/patch-tuesday-january-2026-edition/",
-      "source": "Krebs on Security",
-      "author": "BrianKrebs",
-      "published": "2026-01-14T00:47:38+00:00",
-      "niche": "security",
-      "score": 37,
-      "keywords": [
-        "security",
-        "patch",
-        "exploit",
-        "attack"
-      ]
-    },
-    {
-      "id": "3ddadc7580b62d79",
-      "title": "OWASP Top 10 Community Survey",
-      "description": "Help Shape the Future of Web Application Security: OWASP Top 10 - 2025 Community Survey Now Open! The digital threat landscape is constantly evolving and so are the ways we defend against it. At the heart of that defense is the OWASP Top 10, a globally recognized standard for web application security. It’s more than just a list; it’s a reflection of what the security community sees, experiences, and prioritizes in real-time. And now, as we look ahead to OWASP Top 10 - 2025, we’re calling on the ",
-      "url": "http://owasp.org/blog/2025/09/26/Top10Survey.html",
-      "source": "OWASP News",
-      "author": "Starr Brown",
-      "published": "2025-09-26T07:00:00+00:00",
-      "niche": "security",
-      "score": 37,
-      "keywords": [
-        "security",
-        "threat",
-        "web application security",
-        "OWASP"
-      ]
-    },
-    {
       "id": "96e87a5ede3675c2",
       "title": "Swatting : quatre arrestations, quatre ados maîtres du chaos",
       "description": "Arrestations après une vague de swatting, doxing et fausses alertes à la bombe....",
@@ -5363,6 +5372,40 @@
       "keywords": []
     },
     {
+      "id": "2d542954f91770c8",
+      "title": "Patch Tuesday, January 2026 Edition",
+      "description": "Microsoft today issued patches to plug at least 113 security holes in its various Windows operating systems and supported software. Eight of the vulnerabilities earned Microsoft's most-dire \"critical\" rating, and the company warns that attackers are already exploiting one of the bugs fixed today.",
+      "url": "https://krebsonsecurity.com/2026/01/patch-tuesday-january-2026-edition/",
+      "source": "Krebs on Security",
+      "author": "BrianKrebs",
+      "published": "2026-01-14T00:47:38+00:00",
+      "niche": "security",
+      "score": 37,
+      "keywords": [
+        "patch",
+        "exploit",
+        "attack",
+        "security"
+      ]
+    },
+    {
+      "id": "3ddadc7580b62d79",
+      "title": "OWASP Top 10 Community Survey",
+      "description": "Help Shape the Future of Web Application Security: OWASP Top 10 - 2025 Community Survey Now Open! The digital threat landscape is constantly evolving and so are the ways we defend against it. At the heart of that defense is the OWASP Top 10, a globally recognized standard for web application security. It’s more than just a list; it’s a reflection of what the security community sees, experiences, and prioritizes in real-time. And now, as we look ahead to OWASP Top 10 - 2025, we’re calling on the ",
+      "url": "http://owasp.org/blog/2025/09/26/Top10Survey.html",
+      "source": "OWASP News",
+      "author": "Starr Brown",
+      "published": "2025-09-26T07:00:00+00:00",
+      "niche": "security",
+      "score": 37,
+      "keywords": [
+        "OWASP",
+        "threat",
+        "security",
+        "web application security"
+      ]
+    },
+    {
       "id": "dba2a0d71b33a03d",
       "title": "The OWASP Foundation appoints Stacey Ebbs as Communications & Marketing Manager",
       "description": "The OWASP Foundation is pleased to announce the appointment of Stacey Ebbs as Communications and Marketing Manager. Stacey brings more than a decade of experience in marketing, events, and community engagement within the cybersecurity and technology sectors. Stacey joins OWASP from IriusRisk, where she served as Field & Partner Marketing Manager for EMEA, leading regional campaigns, managing partner and social strategy, and driving global community engagement through initiatives like the Threat ",
@@ -5373,10 +5416,10 @@
       "niche": "security",
       "score": 34,
       "keywords": [
-        "security",
+        "OWASP",
         "threat",
         "cybersecurity",
-        "OWASP"
+        "security"
       ]
     },
     {
@@ -5446,24 +5489,9 @@
       "niche": "security",
       "score": 31,
       "keywords": [
-        "security",
+        "OWASP",
         "secure",
-        "OWASP"
-      ]
-    },
-    {
-      "id": "ec0fc13b2d59bbf0",
-      "title": "SMS Phishers Pivot to Points, Taxes, Fake Retailers",
-      "description": "China-based phishing groups blamed for non-stop scam SMS messages about a supposed wayward package or unpaid toll fee are promoting a new offering, just in time for the holiday shopping season: Phishing kits for mass-creating fake but convincing e-commerce websites that convert customer payment card data into mobile wallets from Apple and Google. Experts say these same phishing groups also are now using SMS lures that promise unclaimed tax refunds and mobile rewards points.",
-      "url": "https://krebsonsecurity.com/2025/12/sms-phishers-pivot-to-points-taxes-fake-retailers/",
-      "source": "Krebs on Security",
-      "author": "BrianKrebs",
-      "published": "2025-12-04T23:02:34+00:00",
-      "niche": "security",
-      "score": 30,
-      "keywords": [
-        "RCE",
-        "phishing"
+        "security"
       ]
     },
     {
@@ -5477,10 +5505,10 @@
       "niche": "security",
       "score": 29,
       "keywords": [
-        "security",
-        "cybersecurity",
         "breach",
-        "attack"
+        "cybersecurity",
+        "attack",
+        "security"
       ]
     },
     {
@@ -5494,10 +5522,10 @@
       "niche": "security",
       "score": 29,
       "keywords": [
-        "security",
         "ransomware",
+        "threat",
         "cybersecurity",
-        "threat"
+        "security"
       ]
     },
     {
@@ -5551,8 +5579,8 @@
       "niche": "security",
       "score": 26,
       "keywords": [
-        "security",
-        "exploit"
+        "exploit",
+        "security"
       ]
     },
     {
@@ -5737,9 +5765,9 @@
       "niche": "security",
       "score": 22,
       "keywords": [
-        "security",
         "threat",
-        "cybersecurity"
+        "cybersecurity",
+        "security"
       ]
     },
     {
@@ -5753,8 +5781,8 @@
       "niche": "security",
       "score": 21,
       "keywords": [
-        "attack",
-        "threat"
+        "threat",
+        "attack"
       ]
     },
     {
@@ -5768,9 +5796,9 @@
       "niche": "security",
       "score": 21,
       "keywords": [
-        "security",
         "threat",
-        "attack"
+        "attack",
+        "security"
       ]
     },
     {
@@ -5812,8 +5840,8 @@
       "niche": "security",
       "score": 19,
       "keywords": [
-        "security",
         "cybersecurity",
+        "security",
         "PoC"
       ]
     },
@@ -5856,8 +5884,8 @@
       "niche": "security",
       "score": 18,
       "keywords": [
-        "security",
-        "attack"
+        "attack",
+        "security"
       ]
     },
     {
@@ -5900,20 +5928,6 @@
       "score": 18,
       "keywords": [
         "attack"
-      ]
-    },
-    {
-      "id": "7a0859f6a929abee",
-      "title": "Smashing Security podcast #450: From Instagram panic to Grok gone wild",
-      "description": "Confusion reigns after claims that data linked to 17.5 million Instagram accounts is up for sale - sparked by a vague post, contradictory statements, and a flood of password reset emails nobody asked for. And we dig into Grok, Elon Musk’s AI chatbot, after it started generating sexualised images of women and children - raising uncomfortable questions about guardrails, accountability, and why playing the censorship card doesn’t make the problem go away. All this, and much more, in episode 450 of ",
-      "url": "https://grahamcluley.com/smashing-security-podcast-450/",
-      "source": "Graham Cluley",
-      "author": "Graham Cluley",
-      "published": "2026-01-15T14:22:53+00:00",
-      "niche": "security",
-      "score": 15,
-      "keywords": [
-        "security"
       ]
     },
     {
