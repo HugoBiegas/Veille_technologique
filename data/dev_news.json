@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-29T09:51:42.652886+00:00",
-  "total_articles": 987,
+  "last_updated": "2026-01-29T13:10:05.160778+00:00",
+  "total_articles": 988,
   "articles": [
     {
       "id": "244ae7139ee3970d",
@@ -234,6 +234,20 @@
       "source": "Dev.to",
       "author": "Kalyan P C",
       "published": "2026-01-28T18:20:46+00:00",
+      "niche": "dev",
+      "score": 72,
+      "keywords": [
+        "Angular"
+      ]
+    },
+    {
+      "id": "7a6aadb9039ae0e3",
+      "title": "🚀 Building Space: a calm Angular UI for an LLM (with stars)",
+      "description": "🪐 Building an LLM Called Space Lately, I’ve been working on an LLM called Space. Not space as in rockets and physics. More like quiet, dark, floating, breathe space. The idea is simple: A calm place to talk when your mind feels noisy. 🌌 Why Space? A lot of tools want you to be productive. Space wants you to be present. No dashboards screaming at you. No “optimize your feelings” energy. Just you… and stars slowly passing by. Yes the entire app has an MP4 of stars drifting in the background, becau",
+      "url": "https://dev.to/geez_burger/building-space-a-calm-angular-ui-for-an-llm-with-stars-39g6",
+      "source": "Dev.to",
+      "author": "Geremi Wanga",
+      "published": "2026-01-29T12:59:12+00:00",
       "niche": "dev",
       "score": 72,
       "keywords": [
@@ -1578,6 +1592,21 @@
       ]
     },
     {
+      "id": "e123c38a6e19c889",
+      "title": "Cleaning a 4,000-image WordPress Media Library without breaking SEO",
+      "description": "Cleaning a 4,000-image WordPress Media Library without breaking SEO On most WordPress sites, the media library is the dirtiest part of the stack. Not the theme. Not the plugins. Not even performance. The media library. Recently, I had to clean a WordPress site with nearly 4,000 images accumulated over several years. Multiple contributors, no rules, no real process. The challenge wasn’t “optimizing images”. It was cleaning everything without breaking SEO or existing content. This article explains",
+      "url": "https://dev.to/lyodefr/cleaning-a-4000-image-wordpress-media-library-without-breaking-seo-2g1p",
+      "source": "Dev.to",
+      "author": "Lyode freelance",
+      "published": "2026-01-29T12:41:07+00:00",
+      "niche": "dev",
+      "score": 57,
+      "keywords": [
+        "performance",
+        "library"
+      ]
+    },
+    {
       "id": "aee78d5fa64f8898",
       "title": "The 66% Problem",
       "description": "I spent three hours last Tuesday chasing a bug that didn't exist. The code looked perfect. It was syntactically correct, followed best practices, and even had thoughtful comments explaining what each function did. The problem was that one of those functions was solving a problem I never asked it to solve. Claude had decided, in its infinite pattern-matching wisdom, that my API endpoint needed pagination. I hadn't asked for pagination. I didn't want pagination. But there it was, breaking my respo",
@@ -1731,36 +1760,6 @@
         "developer",
         "performance",
         "development"
-      ]
-    },
-    {
-      "id": "830b1d799b4e9a92",
-      "title": "torch.abs can not be executed in NPU device",
-      "description": "Abstract The torch.abs command will throw an error when the device is NPU and the parameter is set to compiler.The error message is as follows: RuntimeError: abs:build/CMakeFiles/torch_npu.dir/compiler_depend.ts:216 NPU function error: call aclnnAbs failed, error code is 161002 [ERROR] 2026-01-08-16:48:46 (PID:18801, Device:0, RankID:-1) ERR00100 PTA call acl api failed. [PID: 18801] 2026-01-08-16:48:46.230.433 AclNN_Parameter_Error(EZ1001): Tensor self not implemented for DT_COMPLEX64, should b",
-      "url": "https://dev.to/goinghan/torchabs-can-not-be-executed-in-npu-device-2idk",
-      "source": "Dev.to",
-      "author": "han",
-      "published": "2026-01-22T12:45:11+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "API",
-        "code"
-      ]
-    },
-    {
-      "id": "1180d39c8cbe0fde",
-      "title": "What is an API? لغة التخاطب بين البرامج",
-      "description": "الـ API من أكثر المفاهيم تداولا في عالم البرمجيات ولكنه يربك الكثيرين في البداية رغم بساطته الجوهرية. في هذا المقال ستتعرف على الفكرة بشكل مبسط مع ربطها بأمثلة من التطبيقات التي تستخدمها يوميا. ما هو الـ API؟ كل تطبيق له مستخدم نهائي يتفاعل معه عبر واجهة رسومية (GUI) مليئة بالأزرار والنصوص والصور. لكن عندما يريد برنامج أن يتحدث مع برنامج آخر لا يمكنه \"الضغط على الأزرار\" مثل البشر! وهنا يأتي دور الـ API. الـ API (Application Programming Interface) هو لغة التخاطب الرسمية بين التطبيقات أو العقد الذ",
-      "url": "https://dev.to/alarbtech/what-is-an-api-lg-ltkhtb-byn-lbrmj-5fl8",
-      "source": "Dev.to",
-      "author": "Saad Suaid",
-      "published": "2026-01-22T12:42:07+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "API",
-        "programming"
       ]
     },
     {
@@ -2155,30 +2154,17 @@
       ]
     },
     {
-      "id": "f11cdefd020a6a3a",
-      "title": "Introducing `everyrow.io/dedupe`: An LLM-based approach to semantic deduplication",
-      "description": "Deduplicating records is a recurring problem in data engineering and several challenges make it difficult: scale, surface-level variation, context-dependent equivalence and world knowledge. Let's look at an example. We wanted to build a database of AI researchers from academic lab websites. Scraping produced: Name variations: \"Julie Kallini\" vs \"J. Kallini\", \"Moscato, Vincenzo\" vs \"Vincenzo Moscato\" Typos: \"Namoi Saphra\" vs \"Naomi Saphra\", \"Bryan Wiledr\" vs \"Bryan Wilder\" Career changes: Same pe",
-      "url": "https://dev.to/rafael_poyiadzi_85c2eed09/introducing-everyrowiodedupe-an-llm-based-approach-to-semantic-deduplication-40kl",
+      "id": "a57bdbfbf5a42fa6",
+      "title": "How Bifrost’s MCP Gateway and Code Mode Power Production-Grade LLM Gateways",
+      "description": "If you’ve been building with LLMs lately, you’ve probably noticed a shift. At first, everything feels easy. Clean prompts. Fast experiments. Impressive results. Then your application grows. We’re no longer asking models just to generate text. We’re asking them to search, read files, query APIs, and act inside real systems using MCP-based tooling in production environments. That’s exactly why MCP (Model Context Protocol) has become one of the most talked-about topics in modern AI infrastructure. ",
+      "url": "https://dev.to/hadil/how-bifrosts-mcp-gateway-and-code-mode-power-production-grade-llm-gateways-235i",
       "source": "Dev.to",
-      "author": "Rafael Poyiadzi",
-      "published": "2026-01-22T12:53:02+00:00",
+      "author": "Hadil Ben Abdallah",
+      "published": "2026-01-29T12:45:40+00:00",
       "niche": "dev",
-      "score": 54,
+      "score": 55,
       "keywords": [
-        "API"
-      ]
-    },
-    {
-      "id": "2ca6f81c8945025c",
-      "title": "Trust Debt",
-      "description": "We were having one of those weeks. You know the ones I mean... everything's broken. Everyone's tired and angry. Executive briefings have become sparring grounds where people fight for scraps of political capital. I had 3 different one-on-one meetings that week that pretty much just became venting sessions. It was as if the air was full of gasoline vapor and the smallest spark would set everything ablaze. The end of the week couldn't come fast enough. I found myself wondering... We've talked befo",
-      "url": "https://dev.to/linkbenjamin/trust-debt-7pm",
-      "source": "Dev.to",
-      "author": "Ben Link",
-      "published": "2026-01-22T12:40:00+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
+        "code",
         "API"
       ]
     },
@@ -3793,31 +3779,18 @@
       ]
     },
     {
-      "id": "f29db406e88763e4",
-      "title": "See Cloud Costs Directly Inside terraform plan with plancost",
-      "description": "We've all experienced \"Terraform Apply Anxiety.\" You write your infrastructure code, the plan looks green, and you hit apply. A month later, the CFO (or your manager) slack messages you asking why the cloud bill just spiked by 40%. For a long time, the solution to this was using external CLI tools. You know the drill: install a separate binary, wrap your CI pipeline, export the plan to JSON, parse it, and send it to a dashboard. It works, but it breaks the workflow. It feels like an add-on, not ",
-      "url": "https://dev.to/skipstone1966/see-cloud-costs-directly-inside-terraform-plan-with-plancost-5h8p",
+      "id": "939435b368e28538",
+      "title": "Pager Interface Functions in SQLite: The Narrow Doorway to Persistence",
+      "description": "Hello, I'm Maneshwar. I'm working on FreeDevTools online currently building \"one place for all dev tools, cheat codes, and TLDRs\" — a free, open-source hub where developers can quickly find and use tools without any hassle of searching all over the internet. So far, we’ve talked around the pager what it represents, how higher layers interact with it, and why it exists at all. Today we finally look at the actual doorway. The pager doesn’t expose its internals freely. Instead, it offers a tight, c",
+      "url": "https://dev.to/lovestaco/pager-interface-functions-in-sqlite-the-narrow-doorway-to-persistence-103a",
       "source": "Dev.to",
-      "author": "Silas Stone",
-      "published": "2026-01-22T12:45:35+00:00",
+      "author": "Athreya aka Maneshwar",
+      "published": "2026-01-29T12:56:04+00:00",
       "niche": "dev",
-      "score": 51,
+      "score": 52,
       "keywords": [
+        "developer",
         "code"
-      ]
-    },
-    {
-      "id": "2bb28860d50a76bc",
-      "title": "Docker & Docker Compose: From Zero to Server (A Practical Guide)",
-      "description": "Welcome to the world of modern technology! If you're a beginner in programming or system administration, you've probably heard the word Docker constantly. It might sound complicated, but the truth is that Docker was created to make our lives easier, not harder. In this first part of our series, we'll journey from \"What is this?\" to launching an entire infrastructure with Docker Compose. And we'll do it the professional way – directly on a server. This article is a translation of the original Bul",
-      "url": "https://dev.to/fedya_serafiev/docker-docker-compose-from-zero-to-server-a-practical-guide-ld1",
-      "source": "Dev.to",
-      "author": "Fedya Serafiev",
-      "published": "2026-01-22T12:40:45+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "programming"
       ]
     },
     {
@@ -5459,52 +5432,46 @@
       ]
     },
     {
-      "id": "360a7ffc3efc64ce",
-      "title": "Amazon’s new European Sovereign Cloud - a strategic response to US Law and EU Data Privacy",
-      "description": "Organisations outside the US considering the use of Cloud services have been faced with a hard choice. All the major providers, including AWS, Azure, and Google, are based in the US and fall under US legal jurisdiction. Companies in the EU or EU-adjacent locations (especially the UK) must consider GDPR and other data regulations. Typically, these regulations state that an organisation in one of these locations should limit the use of outside third parties unless those parties can guarantee parit",
-      "url": "https://dev.to/aws-builders/amazons-new-european-sovereign-cloud-a-strategic-response-to-us-law-and-eu-data-privacy-ed3",
+      "id": "e10f8efdb3ec4641",
+      "title": "AWS CDK Hotswap Deployments Now Support Bedrock AgentCore Runtime",
+      "description": "AWS CDK's hotswap deployments now support Bedrock AgentCore Runtime. What are hotswap deployments? Hotswap deployments refer to deployments using the --hotswap option with the cdk deploy command. Instead of updating the CloudFormation stack, this feature directly updates the changed resources using the AWS SDK internally in CDK, significantly reducing deployment time. npx cdk deploy --hotswap AWS CDK generates CloudFormation templates from CDK code by executing an internal process called \"synthe",
+      "url": "https://dev.to/aws-heroes/aws-cdk-hotswap-deployments-now-support-bedrock-agentcore-runtime-42c7",
       "source": "Dev.to",
-      "author": "Simon Hanmer",
-      "published": "2026-01-22T12:58:56+00:00",
+      "author": "Kenta Goto",
+      "published": "2026-01-29T12:56:45+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
-      "id": "01f8cf692dbef1ed",
-      "title": "Modern Systems Don’t Fix Missing History",
-      "description": "Digital transformation is often presented as a clean break from the past. A new ERP. A new platform. New workflows. New dashboards. As if replacing systems means replacing history. In large organizations, however, history doesn’t disappear when a new system goes live. It persists — and sometimes, it reveals itself in uncomfortable ways. It exists in undocumented decisions, fragmented records, spreadsheets without owners, and processes that evolved informally over years. It also exists in what ca",
-      "url": "https://dev.to/fadydesokysaeedabdelaziz/modern-systems-dont-fix-missing-history-4pg5",
+      "id": "23e97c332221408b",
+      "title": "Scripts Runner: Manage Your npm Scripts with Style 🚀",
+      "description": "Ever found yourself constantly typing npm run dev, npm run build, or scrolling through your package.json to remember script names? I built something to solve that. Introducing Scripts Runner Scripts Runner is an open-source VS Code extension that brings all your npm scripts into a beautiful, searchable sidebar. No more terminal commands—just click and run. Key Features 🎯 Visual Interface - All your scripts in one place with intuitive icons 🔍 Instant Search - Find scripts as you type ▶️ One-Click",
+      "url": "https://dev.to/abdoseadaa/scripts-runner-manage-your-npm-scripts-with-style-325d",
       "source": "Dev.to",
-      "author": "Fady Desoky Saeed Abdelaziz",
-      "published": "2026-01-22T12:56:52+00:00",
+      "author": "abdelrahman seada",
+      "published": "2026-01-29T12:55:18+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
-      "id": "8635634ef927a62a",
-      "title": "Efficient Client-Side Image Preprocessing for AI Wrappers",
-      "description": "When we started building the AI Image-to-Text tool for NasajTools, we hit an immediate bottleneck: Latency. Modern vision models (like GPT-4o or Claude 3.5 Sonnet) are incredibly powerful, but they are also sensitive to payload size. Users were uploading raw 4K screenshots or 10MB uncompressed photos directly from their phones. Sending these massive payloads to our serverless backend, and then proxying them to an AI provider, resulted in: Slow user experience (waiting 5+ seconds just for the upl",
-      "url": "https://dev.to/ahmad_shakibnasaj_a8f9bb/efficient-client-side-image-preprocessing-for-ai-wrappers-3ebb",
+      "id": "63bb0adfc1670ff5",
+      "title": "RFC and ADR (Decision Logs): The Practical Guide to Never Again Saying \"Who Decided This?\"",
+      "description": "Have you ever looked at a piece of code and wondered: \"Why on earth did they choose this technology?\". Usually, the person who made the decision has already left the company, the context is lost, and the architecture becomes an \"archaeological mystery.\" I've been learning that documentation doesn't have to be a bureaucratic burden. Instead, it should be the backbone of a high-performing team. I want to share how you can structure technical decisions using RFCs and Decision Logs to stop having th",
+      "url": "https://dev.to/ovitorio-ac/rfcs-and-decision-logs-the-practical-guide-to-never-again-saying-who-decided-this-47e6",
       "source": "Dev.to",
-      "author": "NasajTools",
-      "published": "2026-01-22T12:56:13+00:00",
+      "author": "Vitório Augusto Cavalheiro",
+      "published": "2026-01-29T12:35:05+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "cbd36f0d6043a48d",
-      "title": "Why AI Models Fail in Production — Even When Accuracy Looks High",
-      "description": "Many AI teams celebrate when a model reaches high accuracy during validation. Yet months later, the same model struggles in production. This is one of the most common failures in applied machine learning — and the cause is rarely the algorithm. Offline accuracy is measured on controlled datasets: Clean Balanced Carefully labeled Production data behaves very differently. It shifts, degrades, and exposes edge cases that never appeared during training. In real systems, model failures are often trac",
-      "url": "https://dev.to/naanhe_gujral_c001233100f/why-ai-models-fail-in-production-even-when-accuracy-looks-high-ggi",
-      "source": "Dev.to",
-      "author": "Naanhe Gujral",
-      "published": "2026-01-22T12:54:10+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "488fa8b00d224476",
@@ -5586,18 +5553,6 @@
       "source": "Dev.to",
       "author": "Egeo Minotti",
       "published": "2026-01-22T18:18:46+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "29f3d2508508e1d1",
-      "title": "Beyond Generative: The Rise Of Agentic AI And User-Centric Design",
-      "description": "Developing effective agentic AI requires a new research playbook. When systems plan, decide, and act on our behalf, UX moves beyond usability testing into the realm of trust, consent, and accountability. Victor Yocco outlines the research methods needed to design agentic AI systems responsibly.",
-      "url": "https://smashingmagazine.com/2026/01/beyond-generative-rise-agentic-ai-user-centric-design/",
-      "source": "Smashing Magazine",
-      "author": "hello@smashingmagazine.com (Victor Yocco)",
-      "published": "2026-01-22T13:00:00+00:00",
       "niche": "dev",
       "score": 50,
       "keywords": []
@@ -8173,6 +8128,42 @@
       "keywords": []
     },
     {
+      "id": "74868b14fae40b0f",
+      "title": "Nix + pnpm + Parcel + lydell/elm-safe-virtual-dom",
+      "description": "On January 12th, Flavio Corpa (kvothe) reached out on the #nix channel of the Elm Slack asking for help to make Nix and Parcel work together since he really wanted to use Simon Lydell's elm-safe-virtual-dom in his projects. Presumably, he read Juliano Solanho's (omnibs) post, on NoRedInk's blog, about adopting lydell/elm-safe-virtual-dom that got him excited about the prospects. He had some issues with browsers and auto translation of content that lydell/elm-safe-virtual-dom might be able to fix",
+      "url": "https://dev.to/dwayne/nix-pnpm-parcel-lydellelm-safe-virtual-dom-2lp6",
+      "source": "Dev.to",
+      "author": "Dwayne Crooks",
+      "published": "2026-01-29T12:53:30+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "d8bfab3e603b0d9d",
+      "title": "DAY2 -EC2 + Remote access",
+      "description": "Overview Today, I'll launch a basic EC2 instance in the VPC we created in Day1 and connect to it. Hands-on 1. Create IAM Role for EC2 To access EC2 by using SSM Manager, you need to attach 'AmazonSSMManagedInstanceCore' permission to the instance. 2. Create security group Create security group for EC2 by using the following settings. -Inbound: none -Outbound: allow all traffic (default) 3. Access EC2 by SSM 1. Build EC2 instance AMI: Amazon Linux 2023 Instance type: t3.micro VPC: VPC made in Day",
+      "url": "https://dev.to/maso_eb42159b65f6592/day2-ec2-remote-access-3ma3",
+      "source": "Dev.to",
+      "author": "maso",
+      "published": "2026-01-29T12:51:50+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "c2bff1bbd9f53d13",
+      "title": "I Turned Images Into 10,000 Tiny HTML Elements Because Why Not",
+      "description": "Sometimes the best projects are the ones that solve problems nobody has. Last weekend, I found myself staring at my screen, thinking about images. Not in a productive way. Not \"how can I optimize image loading\" or \"what's the best format for web.\" No, I was thinking something far more unhinged: What if every pixel was just a tiny HTML element? And thus, IMGML was born. The Premise Here's the concept: take an image, read it pixel by pixel, and generate an HTML file where each pixel is represented",
+      "url": "https://dev.to/brunoabpinto/i-turned-images-into-10000-tiny-html-elements-because-why-not-7md",
+      "source": "Dev.to",
+      "author": "Bruno Pinto",
+      "published": "2026-01-29T12:41:30+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "2dd087547a526137",
       "title": "Why Technical Correctness Is Not Enough For Developers Anymore. Because an AI system can be statistically accurate and still fail emotionally.",
       "description": "The Emotional UX of AI: What Developers Miss Jaideep Parashar ・ Jan 25 #webdev #devops #programming #ai",
@@ -8430,20 +8421,6 @@
       "keywords": []
     },
     {
-      "id": "94357837b04e075a",
-      "title": "Optimizing Java Applications for Arm64 in the Cloud",
-      "description": "Optimize Java applications for Arm64 cloud environments. Expert guide on JVM tuning, heap sizing, garbage collection, and maximizing Ampere CPU performance Continue reading Optimizing Java Applications for Arm64 in the Cloud on SitePoint.",
-      "url": "https://www.sitepoint.com/optimizing-java-for-arm64-cloud/?utm_source=rss",
-      "source": "SitePoint",
-      "author": "Dave Neary",
-      "published": "2026-01-22T12:32:24+00:00",
-      "niche": "dev",
-      "score": 45,
-      "keywords": [
-        "performance"
-      ]
-    },
-    {
       "id": "a41e861b7c3417f1",
       "title": "Get out of your developer bubble to survive the AI bubble",
       "description": "Ryan sits down with Michael Parker, VP of Engineering at TurinTech to discuss the newest kind of tech debt—AI-generated tech debt. They dive into the uneven productivity results of AI tools, how tech teams are evolving their roles and work in response to these massive technological shifts, and what the nervous developer can do to maintain joy in their work.",
@@ -8542,54 +8519,6 @@
       ]
     },
     {
-      "id": "648f4812fb47d526",
-      "title": "Design Thinking Books You Must Read",
-      "description": "Comments",
-      "url": "https://www.designorate.com/design-thinking-books/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-22T11:51:10+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "eb6cb7c6cf8af362",
-      "title": "We will ban you and ridicule you in public if you waste our time on crap reports",
-      "description": "Comments",
-      "url": "https://curl.se/.well-known/security.txt",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-22T10:48:27+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "af7bab000b38d874",
-      "title": "Flowtel (YC W25) Is Hiring",
-      "description": "Comments",
-      "url": "https://www.ycombinator.com/companies/flowtel/jobs/LaddaEz-founding-engineer-staff-senior",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-22T12:00:45+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "6d8b48961c0f17ce",
-      "title": "40M Americans Live Alone, 29% of households",
-      "description": "Comments",
-      "url": "https://www.apolloacademy.com/40-million-americans-live-alone/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-22T12:18:46+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
       "id": "d400e910f574ba9f",
       "title": "GPTZero finds 100 new hallucinations in NeurIPS 2025 accepted papers",
       "description": "Comments",
@@ -8633,18 +8562,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2026-01-22T14:14:15+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "6423ad9fb9b7f253",
-      "title": "ISO PDF spec is getting Brotli – ~20 % smaller documents with no quality loss",
-      "description": "Comments",
-      "url": "https://pdfa.org/want-to-make-your-pdfs-20-smaller-for-free/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-22T10:41:23+00:00",
       "niche": "dev",
       "score": 44,
       "keywords": []
@@ -10342,75 +10259,39 @@
       "keywords": []
     },
     {
-      "id": "36cc3e91df2ab359",
-      "title": "10 Tips for Effective User Experience Evaluation",
-      "description": "\"Learn 10 proven UX design tips to improve user experience, boost engagement, and increase conversions. From usability testing to A/B testing strategies.\" Continue reading 10 Tips for Effective User Experience Evaluation on SitePoint.",
-      "url": "https://www.sitepoint.com/effective-user-experience-evaluation/?utm_source=rss",
-      "source": "SitePoint",
-      "author": "Malaika Ashfaq",
-      "published": "2026-01-22T12:40:59+00:00",
+      "id": "ab3ff1ab0516caaf",
+      "title": "Vitamin D and Omega-3 have a larger effect on depression than antidepressants",
+      "description": "Comments",
+      "url": "https://blog.ncase.me/on-depression/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-29T10:35:00+00:00",
       "niche": "dev",
-      "score": 42,
+      "score": 44,
       "keywords": []
     },
     {
-      "id": "5aaddd780115e491",
-      "title": "Unleash Your Website’s Potential: Top 5 SEO Tools of 2024",
-      "description": "Discover the pros and cons of the top SEO tools of 2024. This article provides the essential details you need to choose. Continue reading Unleash Your Website’s Potential: Top 5 SEO Tools of 2024 on SitePoint.",
-      "url": "https://www.sitepoint.com/top-seo-tools/?utm_source=rss",
-      "source": "SitePoint",
-      "author": "Dianne Pena",
-      "published": "2026-01-22T12:30:40+00:00",
+      "id": "37792af6842e3e4d",
+      "title": "The tech market is fundamentally fucked up and AI is just a scapegoat",
+      "description": "Comments",
+      "url": "https://bayramovanar.substack.com/p/tech-market-is-fucked-up",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-29T12:03:13+00:00",
       "niche": "dev",
-      "score": 42,
+      "score": 44,
       "keywords": []
     },
     {
-      "id": "b3ef331b20b734ac",
-      "title": "14 Best SEO Tools for Agencies to Boost Client Results in 2025",
-      "description": "Discover the 14 best SEO tools for agencies in 2025. Compare features, pricing, and usability to find the perfect solution for your clients and team. Continue reading 14 Best SEO Tools for Agencies to Boost Client Results in 2025 on SitePoint.",
-      "url": "https://www.sitepoint.com/best-seo-tools-for-agencies/?utm_source=rss",
-      "source": "SitePoint",
-      "author": "SitePoint Sponsors",
-      "published": "2026-01-22T12:30:26+00:00",
+      "id": "daba1eb955210fd0",
+      "title": "TÜV Report 2026: Tesla Model Y has the worst reliability of all 2022–2023 cars",
+      "description": "Comments",
+      "url": "https://www.autoevolution.com/news/tuev-report-2026-tesla-model-y-has-the-worst-reliability-among-all-20222023-cars-261596.html",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-29T12:07:45+00:00",
       "niche": "dev",
-      "score": 42,
-      "keywords": []
-    },
-    {
-      "id": "d4073ce16df364a4",
-      "title": "Best Semrush Alternatives (2025 Edition)",
-      "description": "Overview the top-tier Semrush competitors and learn how each platform can revamp your business with its tools, features, and unique offerings Continue reading Best Semrush Alternatives (2025 Edition) on SitePoint.",
-      "url": "https://www.sitepoint.com/best-semrush-alternatives/?utm_source=rss",
-      "source": "SitePoint",
-      "author": "SitePoint Sponsors",
-      "published": "2026-01-22T12:27:53+00:00",
-      "niche": "dev",
-      "score": 42,
-      "keywords": []
-    },
-    {
-      "id": "d77959446cec45fb",
-      "title": "8 Simple Steps to Complete a Technical SEO Audit",
-      "description": "Learn eight key steps for streamlining your technical SEO workflow to ensure that users and indexing bots get optimal access to your website. Continue reading 8 Simple Steps to Complete a Technical SEO Audit on SitePoint.",
-      "url": "https://www.sitepoint.com/technical-seo-audit-simple-steps/?utm_source=rss",
-      "source": "SitePoint",
-      "author": "Magnus Eriksen",
-      "published": "2026-01-22T12:25:39+00:00",
-      "niche": "dev",
-      "score": 42,
-      "keywords": []
-    },
-    {
-      "id": "efb57a647d630005",
-      "title": "Best Ahrefs Alternatives Guide: 10 Tools To Choose From",
-      "description": "Looking for Ahrefs alternatives? Click to find a detailed overview of the top 10 Ahrefs competitors and pick a tool that works best for you! Continue reading Best Ahrefs Alternatives Guide: 10 Tools To Choose From on SitePoint.",
-      "url": "https://www.sitepoint.com/ahrefs-alternatives-for-seo/?utm_source=rss",
-      "source": "SitePoint",
-      "author": "SitePoint Sponsors",
-      "published": "2026-01-22T12:12:05+00:00",
-      "niche": "dev",
-      "score": 42,
+      "score": 44,
       "keywords": []
     },
     {
@@ -10424,22 +10305,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "performance",
-        "React 19"
-      ]
-    },
-    {
-      "id": "5a9376d4df8a5914",
-      "title": "From Design-First to Motion-Driven: Dylan Brouwer’s Journey into the No-Code Frontier",
-      "description": "A look at how Dylan blends visual design, UX, and motion to build expressive, experience-rich websites, powered by tools like Webflow, GSAP, and curiosity.",
-      "url": "https://tympanus.net/codrops/2026/01/22/from-design-first-to-motion-driven-dylan-brouwers-journey-into-the-no-code-frontier/",
-      "source": "Codrops",
-      "author": "Dylan Brouwer",
-      "published": "2026-01-22T10:07:34+00:00",
-      "niche": "dev",
-      "score": 40,
-      "keywords": [
-        "code"
+        "React 19",
+        "performance"
       ]
     },
     {
@@ -10467,9 +10334,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
+        "release",
         "performance",
-        "code",
-        "release"
+        "code"
       ]
     },
     {
@@ -10518,18 +10385,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2026-01-22T13:51:25+00:00",
-      "niche": "dev",
-      "score": 38,
-      "keywords": []
-    },
-    {
-      "id": "04a432f9d86c638e",
-      "title": "'Askers' vs. 'Guessers' (2010)",
-      "description": "Comments",
-      "url": "https://www.theatlantic.com/national/2010/05/askers-vs-guessers/340891/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-22T11:40:01+00:00",
       "niche": "dev",
       "score": 38,
       "keywords": []
@@ -10715,6 +10570,42 @@
       "keywords": []
     },
     {
+      "id": "afeb85ad94824365",
+      "title": "Europe’s next-generation weather satellite sends back first images",
+      "description": "Comments",
+      "url": "https://www.esa.int/Applications/Observing_the_Earth/Meteorological_missions/meteosat_third_generation/Europe_s_next-generation_weather_satellite_sends_back_first_images",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-29T07:07:17+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
+      "id": "c1dc234451319a9d",
+      "title": "We can’t send mail farther than 500 miles (2002)",
+      "description": "Comments",
+      "url": "https://web.mit.edu/jemorris/humor/500-miles",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-29T03:58:33+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
+      "id": "b4bf9a22a1c2ec94",
+      "title": "OpenSSL Security Advisory Assessment, January 2026",
+      "description": "",
+      "url": "https://nodejs.org/en/blog/vulnerability/openssl-fixes-in-regular-releases-jan2026",
+      "source": "Node.js Blog",
+      "author": "Inconnu",
+      "published": "2026-01-28T17:00:00+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
       "id": "4e6d7290f5ff11d8",
       "title": "React Native 0.80 - React 19.1, JS API Changes, Freezing Legacy Arch and much more",
       "description": "Today we are excited to release React Native 0.80!",
@@ -10726,8 +10617,8 @@
       "score": 38,
       "keywords": [
         "release",
-        "API",
-        "React 19"
+        "React 19",
+        "API"
       ]
     },
     {
@@ -10871,8 +10762,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "API",
-        "framework"
+        "framework",
+        "API"
       ]
     },
     {
@@ -11030,11 +10921,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "API",
         "code",
-        "framework",
+        "API",
+        "release",
         "performance",
-        "release"
+        "framework"
       ]
     },
     {
@@ -11248,6 +11139,18 @@
       "keywords": []
     },
     {
+      "id": "b6569da609503bdb",
+      "title": "Show HN: ShapedQL – A SQL engine for multi-stage ranking and RAG",
+      "description": "Comments",
+      "url": "https://playground.shaped.ai",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-27T13:54:09+00:00",
+      "niche": "dev",
+      "score": 26,
+      "keywords": []
+    },
+    {
       "id": "cd46e0b1413a2532",
       "title": "LCP and INP are now Baseline Newly available",
       "description": "LCP and INP are now Baseline Newly available as of December 12, 2025.",
@@ -11360,8 +11263,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "library",
-        "release"
+        "release",
+        "library"
       ]
     },
     {
@@ -11536,8 +11439,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "API",
-        "code"
+        "code",
+        "API"
       ]
     },
     {
@@ -11651,6 +11554,20 @@
       "score": 15,
       "keywords": [
         "developer"
+      ]
+    },
+    {
+      "id": "94357837b04e075a",
+      "title": "Optimizing Java Applications for Arm64 in the Cloud",
+      "description": "Optimize Java applications for Arm64 cloud environments. Expert guide on JVM tuning, heap sizing, garbage collection, and maximizing Ampere CPU performance Continue reading Optimizing Java Applications for Arm64 in the Cloud on SitePoint.",
+      "url": "https://www.sitepoint.com/optimizing-java-for-arm64-cloud/?utm_source=rss",
+      "source": "SitePoint",
+      "author": "Dave Neary",
+      "published": "2026-01-22T12:32:24+00:00",
+      "niche": "dev",
+      "score": 15,
+      "keywords": [
+        "performance"
       ]
     },
     {
@@ -11886,6 +11803,18 @@
       "keywords": []
     },
     {
+      "id": "288951d5283abc60",
+      "title": "Tea Chemistry (1997)",
+      "description": "Comments",
+      "url": "https://www.researchgate.net/profile/Matthew-Harbowy/publication/216792045_Tea_Chemistry/links/0912f4fb863f786725000000/Tea-Chemistry.pdf",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-23T19:37:17+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
       "id": "c8ffe4b74cb38b4f",
       "title": "I Learned The First Rule of ARIA the Hard Way",
       "description": "Semantic HTML does a lot more accessibility work than we usually give it credit for already — and ARIA is simple to abuse when we use it both as a shortcut and as a supplement. I Learned The First Rule of ARIA the Hard Way originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
@@ -11917,6 +11846,18 @@
       "source": "CSS-Tricks",
       "author": "Geoff Graham",
       "published": "2026-01-16T14:46:24+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "29f3d2508508e1d1",
+      "title": "Beyond Generative: The Rise Of Agentic AI And User-Centric Design",
+      "description": "Developing effective agentic AI requires a new research playbook. When systems plan, decide, and act on our behalf, UX moves beyond usability testing into the realm of trust, consent, and accountability. Victor Yocco outlines the research methods needed to design agentic AI systems responsibly.",
+      "url": "https://smashingmagazine.com/2026/01/beyond-generative-rise-agentic-ai-user-centric-design/",
+      "source": "Smashing Magazine",
+      "author": "hello@smashingmagazine.com (Victor Yocco)",
+      "published": "2026-01-22T13:00:00+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -12028,8 +11969,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "development",
-        "programming"
+        "programming",
+        "development"
       ]
     },
     {
@@ -12235,6 +12176,78 @@
       "keywords": [
         "developer"
       ]
+    },
+    {
+      "id": "36cc3e91df2ab359",
+      "title": "10 Tips for Effective User Experience Evaluation",
+      "description": "\"Learn 10 proven UX design tips to improve user experience, boost engagement, and increase conversions. From usability testing to A/B testing strategies.\" Continue reading 10 Tips for Effective User Experience Evaluation on SitePoint.",
+      "url": "https://www.sitepoint.com/effective-user-experience-evaluation/?utm_source=rss",
+      "source": "SitePoint",
+      "author": "Malaika Ashfaq",
+      "published": "2026-01-22T12:40:59+00:00",
+      "niche": "dev",
+      "score": 12,
+      "keywords": []
+    },
+    {
+      "id": "5aaddd780115e491",
+      "title": "Unleash Your Website’s Potential: Top 5 SEO Tools of 2024",
+      "description": "Discover the pros and cons of the top SEO tools of 2024. This article provides the essential details you need to choose. Continue reading Unleash Your Website’s Potential: Top 5 SEO Tools of 2024 on SitePoint.",
+      "url": "https://www.sitepoint.com/top-seo-tools/?utm_source=rss",
+      "source": "SitePoint",
+      "author": "Dianne Pena",
+      "published": "2026-01-22T12:30:40+00:00",
+      "niche": "dev",
+      "score": 12,
+      "keywords": []
+    },
+    {
+      "id": "b3ef331b20b734ac",
+      "title": "14 Best SEO Tools for Agencies to Boost Client Results in 2025",
+      "description": "Discover the 14 best SEO tools for agencies in 2025. Compare features, pricing, and usability to find the perfect solution for your clients and team. Continue reading 14 Best SEO Tools for Agencies to Boost Client Results in 2025 on SitePoint.",
+      "url": "https://www.sitepoint.com/best-seo-tools-for-agencies/?utm_source=rss",
+      "source": "SitePoint",
+      "author": "SitePoint Sponsors",
+      "published": "2026-01-22T12:30:26+00:00",
+      "niche": "dev",
+      "score": 12,
+      "keywords": []
+    },
+    {
+      "id": "d4073ce16df364a4",
+      "title": "Best Semrush Alternatives (2025 Edition)",
+      "description": "Overview the top-tier Semrush competitors and learn how each platform can revamp your business with its tools, features, and unique offerings Continue reading Best Semrush Alternatives (2025 Edition) on SitePoint.",
+      "url": "https://www.sitepoint.com/best-semrush-alternatives/?utm_source=rss",
+      "source": "SitePoint",
+      "author": "SitePoint Sponsors",
+      "published": "2026-01-22T12:27:53+00:00",
+      "niche": "dev",
+      "score": 12,
+      "keywords": []
+    },
+    {
+      "id": "d77959446cec45fb",
+      "title": "8 Simple Steps to Complete a Technical SEO Audit",
+      "description": "Learn eight key steps for streamlining your technical SEO workflow to ensure that users and indexing bots get optimal access to your website. Continue reading 8 Simple Steps to Complete a Technical SEO Audit on SitePoint.",
+      "url": "https://www.sitepoint.com/technical-seo-audit-simple-steps/?utm_source=rss",
+      "source": "SitePoint",
+      "author": "Magnus Eriksen",
+      "published": "2026-01-22T12:25:39+00:00",
+      "niche": "dev",
+      "score": 12,
+      "keywords": []
+    },
+    {
+      "id": "efb57a647d630005",
+      "title": "Best Ahrefs Alternatives Guide: 10 Tools To Choose From",
+      "description": "Looking for Ahrefs alternatives? Click to find a detailed overview of the top 10 Ahrefs competitors and pick a tool that works best for you! Continue reading Best Ahrefs Alternatives Guide: 10 Tools To Choose From on SitePoint.",
+      "url": "https://www.sitepoint.com/ahrefs-alternatives-for-seo/?utm_source=rss",
+      "source": "SitePoint",
+      "author": "SitePoint Sponsors",
+      "published": "2026-01-22T12:12:05+00:00",
+      "niche": "dev",
+      "score": 12,
+      "keywords": []
     },
     {
       "id": "00ccb947077ff190",
@@ -12483,6 +12496,20 @@
       "keywords": []
     },
     {
+      "id": "5a9376d4df8a5914",
+      "title": "From Design-First to Motion-Driven: Dylan Brouwer’s Journey into the No-Code Frontier",
+      "description": "A look at how Dylan blends visual design, UX, and motion to build expressive, experience-rich websites, powered by tools like Webflow, GSAP, and curiosity.",
+      "url": "https://tympanus.net/codrops/2026/01/22/from-design-first-to-motion-driven-dylan-brouwers-journey-into-the-no-code-frontier/",
+      "source": "Codrops",
+      "author": "Dylan Brouwer",
+      "published": "2026-01-22T10:07:34+00:00",
+      "niche": "dev",
+      "score": 10,
+      "keywords": [
+        "code"
+      ]
+    },
+    {
       "id": "4ac2d7eef0aa4d83",
       "title": "Obys’ Design Books: Turning a Reading List Into a Tactile Web Library",
       "description": "A case study on how Obys turned book recommendations into a tactile, animated web library.",
@@ -12724,18 +12751,6 @@
       "source": "Node.js Blog",
       "author": "Inconnu",
       "published": "2026-01-13T13:56:13+00:00",
-      "niche": "dev",
-      "score": 8,
-      "keywords": []
-    },
-    {
-      "id": "e2cc0cc9058d2e97",
-      "title": "Node.js 24.12.0 (LTS)",
-      "description": "",
-      "url": "https://nodejs.org/en/blog/release/v24.12.0",
-      "source": "Node.js Blog",
-      "author": "Inconnu",
-      "published": "2025-12-10T16:51:31+00:00",
       "niche": "dev",
       "score": 8,
       "keywords": []
