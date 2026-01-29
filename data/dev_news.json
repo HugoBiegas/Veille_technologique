@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-29T04:43:20.614571+00:00",
-  "total_articles": 982,
+  "last_updated": "2026-01-29T06:56:28.271450+00:00",
+  "total_articles": 985,
   "articles": [
     {
       "id": "244ae7139ee3970d",
@@ -184,20 +184,6 @@
       ]
     },
     {
-      "id": "695813d63f377ad7",
-      "title": "ReactJS Hook Pattern ~Debounce~",
-      "description": "・Debouncing is useful for costly processes such as API calls or search queries, which you don't want to perform with every keystroke. import { useState, useEffect } from \"react\"; function useDebounce(value, delay) { const [debouncedValue, setDebouncedValue] = useState(value); useEffect(() => { const timeout = setTimeout(() => setDebouncedValue(value), delay); return () => { clearTimeout(timeout); }; }, [value, delay]); return debouncedValue; } function App() { const [searchTerm, setSearchTerm] =",
-      "url": "https://dev.to/kkr0423/reactjs-hook-pattern-debounce-345j",
-      "source": "Dev.to",
-      "author": "Ogasawara Kakeru",
-      "published": "2026-01-22T06:14:22+00:00",
-      "niche": "dev",
-      "score": 72,
-      "keywords": [
-        "API"
-      ]
-    },
-    {
       "id": "d17a70eb9ea16e31",
       "title": "Designing a Universal Error Handler for Frontend & Backend (React + Node.js)",
       "description": "Error handling is one of those things we all do — but rarely design properly. In most projects, error handling grows organically: a few try/catch blocks some HTTP status checks random error messages sent from the backend UI logic guessing what went wrong Eventually, the system becomes fragile. This article walks through how and why I designed a universal error-handling system that works across Backend (Node.js / Express / Next.js APIs) and Frontend (React / Next.js UI) — using a shared contract,",
@@ -342,6 +328,23 @@
       "keywords": [
         "code",
         "development"
+      ]
+    },
+    {
+      "id": "3b9e99bd1dc79ebc",
+      "title": "IoC and DI",
+      "description": "IoC and DI are the core principles that spring framework follows Inversion of Control - It is a software design principle, in which the control of object creation and dependency management should be transferred from application code to framework or container. It is just a guideline that says who takes the control of creation? but not how to imeplement it. it just describes the way how objects are created. control of object creation should be shifted from application code to external entity or fr",
+      "url": "https://dev.to/phoenix_238501d86d417e/ioc-and-di-md4",
+      "source": "Dev.to",
+      "author": "Phoenix",
+      "published": "2026-01-29T06:49:37+00:00",
+      "niche": "dev",
+      "score": 70,
+      "keywords": [
+        "code",
+        "framework",
+        "Spring",
+        "Spring Framework"
       ]
     },
     {
@@ -497,18 +500,6 @@
       "keywords": [
         "tutorial"
       ]
-    },
-    {
-      "id": "da4591888b067d96",
-      "title": "Understanding JSX & How a React App Starts (Beginner-Friendly Guide)",
-      "description": "If you’re just starting with React, you might be wondering: Where does a React app actually start, and what is JSX really doing behind the scenes? In this article, I’ll break it down step by step, using a simple Vite-based React app—exactly the way I explain it in my latest YouTube video. 👉 Watch the full video here: https://youtu.be/31W0nJ2yXg8 Prerequisite: Node.js Before running any React project Node.js must be installed on your system. You can quickly check by running: node -v npm -v If bot",
-      "url": "https://dev.to/jamir_khan_81139708882eb8/understanding-jsx-how-a-react-app-starts-beginner-friendly-guide-107p",
-      "source": "Dev.to",
-      "author": "Jamir Khan",
-      "published": "2026-01-22T06:22:15+00:00",
-      "niche": "dev",
-      "score": 68,
-      "keywords": []
     },
     {
       "id": "eced95e9b6fa309e",
@@ -1590,22 +1581,6 @@
       ]
     },
     {
-      "id": "cf53af722d70ced3",
-      "title": "AI Is No Longer a Tool, It’s an Architectural Layer!",
-      "description": "For most Java and web developers, the systems we work on tend to follow a familiar pattern. A request comes in. Code runs. A response goes out. Even in larger enterprise setups—Spring services, Oracle databases, Kafka pipelines—the underlying assumption is usually the same: Given the same input, the system behaves the same way. AI-powered systems start to stretch this assumption. Not because they are unreliable, but because they are built around a different way of producing results. Recognizing ",
-      "url": "https://dev.to/joshinii/ai-is-no-longer-a-tool-its-an-architectural-layer-7g2",
-      "source": "Dev.to",
-      "author": "joshinii",
-      "published": "2026-01-22T06:28:26+00:00",
-      "niche": "dev",
-      "score": 56,
-      "keywords": [
-        "Spring",
-        "code",
-        "developer"
-      ]
-    },
-    {
       "id": "1454fc3687066ca2",
       "title": "30 Years of ReactOS",
       "description": "Comments",
@@ -2146,48 +2121,6 @@
       "keywords": [
         "developer",
         "performance"
-      ]
-    },
-    {
-      "id": "fa0112d79017a8ad",
-      "title": "My attempt on Cloud Resume Challenge in 2026 (Part 2)",
-      "description": "This blog continues from My attempt on Cloud Resume Challenge in 2026. Table Contents Smoke Tests with Cypress Multiple Environments AWS Cross-Account Access Lambda Gotchas DynamoDB Gotchas GitHub OIDC Gotchas with Multiple Environments Smoke Tests with Cypress Cypress is used for smoke tests to verify that the page loads correctly and to run basic sanity checks against real API requests. In GitHub Actions, the Cypress binary must be installed explicitly and cached. This is because Cypress insta",
-      "url": "https://dev.to/urmajesty516/my-attempt-on-cloud-resume-challenge-in-2026-part-2-5ek9",
-      "source": "Dev.to",
-      "author": "Janice",
-      "published": "2026-01-22T06:31:38+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "API"
-      ]
-    },
-    {
-      "id": "f96337e341e7724a",
-      "title": "Describe Methods To Evaluate Foundation Model Performance",
-      "description": "🤖 Exam Guide: AI Practitioner Domain 3: Applications of Foundation Models 📘Task Statement 3.4 🎯 Objectives This task is about evaluating whether an FM (and an FM-powered application like RAG or an agent) is good enough, not just in a demo, but against repeatable criteria using human review, benchmarks, and objective metrics tied to business goals. 1) Approaches To Evaluate FM performance 1.1 Human Evaluation People review model outputs and score them against criteria such as: 1 correctness/helpf",
-      "url": "https://dev.to/aws-builders/describe-methods-to-evaluate-foundation-model-performance-1chb",
-      "source": "Dev.to",
-      "author": "Ntombizakhona Mabaso",
-      "published": "2026-01-22T06:29:56+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "performance"
-      ]
-    },
-    {
-      "id": "fb99b4b18c70bac7",
-      "title": "Rotating Residential Proxy Evaluation Mini-Lab You Can Run in 90 Minutes",
-      "description": "This is a runnable mini-lab for evaluating rotating residential proxies in scraping and monitoring. You’ll generate evidence in 60–90 minutes: rotation proof, sticky-session proof, pool collision metrics under concurrency, a ramp-and-soak signal report, and CP1K. The deeper acceptance gates live in the hub: Rotating Residential Proxies Evaluation Playbook for Web Scraping in 2026 Run the exact same harness against every provider you’re considering, including MaskProxy, so your results compare cl",
-      "url": "https://dev.to/gabrielewayner/rotating-residential-proxy-evaluation-mini-lab-you-can-run-in-90-minutes-207d",
-      "source": "Dev.to",
-      "author": "gabriele wayner",
-      "published": "2026-01-22T06:07:54+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "API"
       ]
     },
     {
@@ -3843,34 +3776,6 @@
       ]
     },
     {
-      "id": "e89d305137ddc89c",
-      "title": "DOM IN JAVASCRIPT",
-      "description": "1.DOM - Document Object Model It is a programming interface for web documents that allow javascript to access and manipulate the structure,style,and content of a webpage. (One line answer:allows javascript to access and manipulate HTML elements) 2.why we use DOM? change text on a webpage change styles(color,size) get user input values add or remove elements Respond to events(click,input) 3.How do you select an element using id? document.getElementById(\"id\") 4.Difference between innerText and inn",
-      "url": "https://dev.to/keerthigap/dom-in-javascript-3nll",
-      "source": "Dev.to",
-      "author": "Keerthiga P",
-      "published": "2026-01-22T06:01:55+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "programming"
-      ]
-    },
-    {
-      "id": "690782ca880c7088",
-      "title": "DOM in JS",
-      "description": "1)What is DOM? DOM allows javascript to dynamically manipulate HTML elements and styles on a webpage. DOM is a programming interface that represents HTML as objects so javascript can manipulate them. 2)How to find HTML elements? Javascript finds HTML element using DOM methods. DOM methods: getElementById getElementsByClassName getElementsByTagName querySelector querySelectorAll getElementById It selects a single element using its unique id. Example: <h1 id=\"one\">Hello</h1> <script> const element",
-      "url": "https://dev.to/sasirekaarumugam/dom-in-js-8gh",
-      "source": "Dev.to",
-      "author": "Sasireka",
-      "published": "2026-01-22T06:01:40+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "programming"
-      ]
-    },
-    {
       "id": "1c83df1771230ba9",
       "title": "How I Use Claude Code to Ship Better Code Faster",
       "description": "I've been using Claude Code since early beta, around May 2025. By then, Anthropic had already shipped the upgraded Claude 3.5 Sonnet (late 2024), which nearly doubled coding benchmark scores. The model improvements made the tooling genuinely useful. Now I reach for a coding agent instinctively. Not for everything - but for the kinds of tasks where it saves real time. This isn't a post about AI hype. It's about what actually works, what doesn't, and how I've configured things to make these tools ",
@@ -5481,28 +5386,60 @@
       ]
     },
     {
-      "id": "cf15aad6960f2baa",
-      "title": "Monitoring Linux servers without Grafana, Docker, or agents",
-      "description": "Checking server health usually means running the same commands again and again: top, free, df, ss, ps… Grafana is powerful — but often overkill for quick monitoring. So I built Server Status. A real-time, Grafana-inspired dashboard that runs entirely inside the terminal. No browser. No services. No setup. Just run: server-status And instantly see: CPU (total + per core) Memory & swap Disk usage Network RX/TX Active connections Processes Top CPU-hungry tasks Service status (nginx, mysql, docker, ",
-      "url": "https://dev.to/nurulislamrimon/monitoring-linux-servers-without-grafana-docker-or-agents-37l5",
+      "id": "beda22af0d9a6ef5",
+      "title": "Do hackathons help anyone anymore?",
+      "description": "Most hackathons follow the same script: show up Friday night, caffeinate through the weekend, demo something half-built on Sunday, collect swag, go home. Maybe you win a prize. Probably you never touch the code again. The projects that actually ship rarely come from that format. They come from sustained focus, feedback loops, and access to people who've done it before. That's the thesis behind Arbitrum Open House. What Open House actually is Open House is a three-phase program that runs online f",
+      "url": "https://dev.to/bengreenberg/do-hackathons-help-anyone-anymore-1klc",
       "source": "Dev.to",
-      "author": "Nurul Islam Rimon",
-      "published": "2026-01-22T06:10:47+00:00",
+      "author": "Ben Greenberg",
+      "published": "2026-01-29T06:52:50+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
-      "id": "da9f0977faadab28",
-      "title": "Ringer Movies: ‘Another 48 Hrs’ With Bill Simmons Chris Ryan, and Van Lathan | The Rewatchables",
-      "description": "Get ready for a deep dive into \"Another 48 Hrs.\"! The Rewatchables crew, featuring Bill Simmons, Chris Ryan, and Van Lathan, are revisiting the Eddie Murphy and Nick Nolte classic. It sounds like they're practically cinematic inmates, knowing every single quote from the film by heart. So buckle up for some serious movie talk! Watch on YouTube",
-      "url": "https://dev.to/popcorn_movies/ringer-movies-another-48-hrs-with-bill-simmons-chris-ryan-and-van-lathan-the-rewatchables-2ekb",
+      "id": "ae4d82102733ca7a",
+      "title": "Top 5 Local LLM Tools and Models in 2026",
+      "description": "A few years ago, running large language models on your own machine felt like a weekend experiment. In 2026, it feels normal. Local LLMs have quietly moved from “cool demo” to a practical setup that many developers, researchers, and even non-technical users rely on daily. The reason is simple: the models have improved, and the tooling has matured. Today, you can run surprisingly capable AI systems on a laptop or desktop, keep your data private, stay offline when needed, and avoid pay-per-token co",
+      "url": "https://dev.to/lightningdev123/top-5-local-llm-tools-and-models-in-2026-1ch5",
       "source": "Dev.to",
-      "author": "Movie News",
-      "published": "2026-01-22T06:01:46+00:00",
+      "author": "Lightning Developer",
+      "published": "2026-01-29T06:43:37+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
+    },
+    {
+      "id": "ce02f631775865d1",
+      "title": "Hoisting in JavaScript",
+      "description": "Hoisting is JavaScript’s behavior of moving declarations (not initializations) to the top of their containing scope—either a function or the global scope. This process happens during the compilation phase, before any code is executed. Function Declarations In JavaScript, function declarations are fully hoisted. This means that both the function’s name and its implementation are moved to the top of their scope. As a result, you can call a function before it appears in your code. This is similar t",
+      "url": "https://dev.to/rahul1994jh/hoisting-in-javascript-a-complete-guide-1276",
+      "source": "Dev.to",
+      "author": "Rahul Kumar Jha",
+      "published": "2026-01-29T06:26:21+00:00",
+      "niche": "dev",
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
+    },
+    {
+      "id": "aa97a0c4d47f3863",
+      "title": "llm-tldr: Answering \"Where is the authentication?\" with 100ms - Accuracy and Limitations of Semantic Search",
+      "description": "Originally published on 2026-01-19 Original article (Japanese): llm-tldr: 「認証はどこ？」に100msで答えるセマンティック検索の精度と限界 Have you ever searched through a large codebase wondering, \"Where is the authentication feature implemented?\" Tools like grep and find can't help if you don't know the function name, and IDE symbol searches require exact matches. llm-tldr is a code analysis tool that features semantic search capabilities, allowing you to search for code using natural language queries. It can identify funct",
+      "url": "https://dev.to/tumf/llm-tldr-answering-where-is-the-authentication-with-100ms-accuracy-and-limitations-of-3n9i",
+      "source": "Dev.to",
+      "author": "tumf",
+      "published": "2026-01-29T06:21:52+00:00",
+      "niche": "dev",
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "db36ff74808aa6ba",
@@ -8159,6 +8096,66 @@
       "keywords": []
     },
     {
+      "id": "2b3babca605cd68c",
+      "title": "Solved: Monitor Linux Disk Space usage and trigger Cleanup Scripts",
+      "description": "🚀 Executive Summary TL;DR: To prevent critical service outages caused by full disks, this guide outlines an automated system for Linux servers. It combines a Python script to monitor disk usage and trigger a Bash cleanup script when a predefined threshold is breached, all orchestrated by a cron job for continuous, proactive management. 🎯 Key Takeaways A Python script (disk\\_monitor.py) utilizes shutil.disk\\_usage() to check disk usage percentage and subprocess.run() to execute a cleanup script i",
+      "url": "https://dev.to/techresolve/solved-monitor-linux-disk-space-usage-and-trigger-cleanup-scripts-440",
+      "source": "Dev.to",
+      "author": "Darian Vance",
+      "published": "2026-01-29T06:36:00+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "c0715e689663beac",
+      "title": "Weird JS",
+      "description": "null vs undefined in JavaScript 1. undefined: Variable declared but not assigned. 2. null: Variable intentionally set to no value. let a; console.log(a); // undefined let b = null; console.log(b); // null Summary: undefined = automatic (I haven't given a value yet) null = intentional (I specifically have no value)",
+      "url": "https://dev.to/rahul1994jh/weird-js-3lo9",
+      "source": "Dev.to",
+      "author": "Rahul Kumar Jha",
+      "published": "2026-01-29T06:28:30+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "eafb05c3acb42a72",
+      "title": "Robin: Investigating the Dark Web with AI - A New Companion for Security Researchers",
+      "description": "Originally published on 2026-01-21 Original article (Japanese): Robin: AIを武器にダークウェブを調査する - セキュリティ研究者の新しい相棒 Gathering information from the dark web is an essential task for security researchers. However, finding useful information amidst the vast amount of noise has been a daunting challenge. Robin is a new OSINT tool that leverages the power of LLMs to address this issue. OSINT (Open Source Intelligence) refers to investigative techniques that collect and organize information based on publicly a",
+      "url": "https://dev.to/tumf/robin-investigating-the-dark-web-with-ai-a-new-companion-for-security-researchers-53kj",
+      "source": "Dev.to",
+      "author": "tumf",
+      "published": "2026-01-29T06:20:28+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "13267a40e899d0e3",
+      "title": "Implementing the Newtype Pattern with Zod: Enhancing Type Safety in TypeScript",
+      "description": "Originally published on 2026-01-22 Original article (Japanese): Zodで実装するNewtype Pattern: TypeScriptに欠けている型安全性を補う The type system of TypeScript is based on structural typing. This means that different types are treated as the same if their structures are identical. As a result, bugs can occur when values that should be distinguished are mistakenly confused. Using branded types from Zod can solve this problem. This is a practical approach to implementing the Newtype Pattern in TypeScript, which as",
+      "url": "https://dev.to/tumf/implementing-the-newtype-pattern-with-zod-enhancing-type-safety-in-typescript-5c62",
+      "source": "Dev.to",
+      "author": "tumf",
+      "published": "2026-01-29T06:19:06+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "c5dbe046f9343305",
+      "title": "I Tested 3000+ LLM Agent Memory Operations - Here's What I Found",
+      "description": "🤔 The Problem If you've built LLM-based agents, you've probably noticed: they forget things. A lot. Your agent remembers the user's name in message 1, forgets it by message 5, and then hallucinates a completely different name by message 10. But why do agents forget? Is it: Memory capacity issues? Information getting overwritten? The LLM hallucinating? Something else? Nobody had data. Just anecdotes and frustration. So I built MemTrace to answer this question with actual statistics. What I Built ",
+      "url": "https://dev.to/mahendra4/i-tested-3000-llm-agent-memory-operations-heres-what-i-found-17pc",
+      "source": "Dev.to",
+      "author": "Mahendra Gurjar",
+      "published": "2026-01-29T06:19:01+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "2dd087547a526137",
       "title": "Why Technical Correctness Is Not Enough For Developers Anymore. Because an AI system can be statistically accurate and still fail emotionally.",
       "description": "The Emotional UX of AI: What Developers Miss Jaideep Parashar ・ Jan 25 #webdev #devops #programming #ai",
@@ -8171,20 +8168,6 @@
       "keywords": [
         "developer",
         "programming"
-      ]
-    },
-    {
-      "id": "a0dcfd68de26e07f",
-      "title": "Doctors in Brazil using tilapia fish skin to treat burn victims",
-      "description": "Comments",
-      "url": "https://www.pbs.org/newshour/health/brazilian-city-uses-tilapia-fish-skin-treat-burn-victims",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-22T05:15:46+00:00",
-      "niche": "dev",
-      "score": 48,
-      "keywords": [
-        "API"
       ]
     },
     {
@@ -10318,6 +10301,30 @@
       "keywords": []
     },
     {
+      "id": "63d0affe58d3b9da",
+      "title": "Generative Music with the Muse",
+      "description": "Comments",
+      "url": "https://computerhistory.org/blog/generative-music-with-the-muse/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-29T06:24:18+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "1339f35a9508caa9",
+      "title": "DECwindows Motif",
+      "description": "Comments",
+      "url": "https://products.vmssoftware.com/decwindowsmotif",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-29T03:04:40+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "36cc3e91df2ab359",
       "title": "10 Tips for Effective User Experience Evaluation",
       "description": "\"Learn 10 proven UX design tips to improve user experience, boost engagement, and increase conversions. From usability testing to A/B testing strategies.\" Continue reading 10 Tips for Effective User Experience Evaluation on SitePoint.",
@@ -10400,8 +10407,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "performance",
-        "React 19"
+        "React 19",
+        "performance"
       ]
     },
     {
@@ -10443,9 +10450,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
+        "release",
         "code",
-        "performance",
-        "release"
+        "performance"
       ]
     },
     {
@@ -10689,9 +10696,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
+        "React 19",
         "release",
-        "API",
-        "React 19"
+        "API"
       ]
     },
     {
@@ -10705,8 +10712,8 @@
       "niche": "dev",
       "score": 37,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -10762,8 +10769,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10777,8 +10784,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10792,8 +10799,8 @@
       "niche": "dev",
       "score": 34,
       "keywords": [
-        "development",
-        "developer"
+        "developer",
+        "development"
       ]
     },
     {
@@ -10994,11 +11001,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "code",
-        "performance",
-        "API",
         "release",
-        "framework"
+        "framework",
+        "performance",
+        "code",
+        "API"
       ]
     },
     {
@@ -11369,8 +11376,8 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "code",
         "developer",
+        "code",
         "performance"
       ]
     },
@@ -11385,8 +11392,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -11400,8 +11407,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -11429,9 +11436,9 @@
       "niche": "dev",
       "score": 18,
       "keywords": [
-        "development",
         "code",
-        "developer"
+        "developer",
+        "development"
       ]
     },
     {
@@ -11473,8 +11480,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "development",
-        "developer"
+        "developer",
+        "development"
       ]
     },
     {
@@ -11503,8 +11510,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "code",
-        "developer"
+        "developer",
+        "code"
       ]
     },
     {
@@ -11802,6 +11809,30 @@
       "keywords": []
     },
     {
+      "id": "d3a39552469002e9",
+      "title": "Xmake: A cross-platform build utility based on Lua",
+      "description": "Comments",
+      "url": "https://xmake.io/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-25T11:12:47+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "f96ab54d368642e3",
+      "title": "An Illustrated Guide to Hippo Castration (2014)",
+      "description": "Comments",
+      "url": "https://www.science.org/content/article/scienceshot-illustrated-guide-hippo-castration",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-24T19:47:41+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
       "id": "c8ffe4b74cb38b4f",
       "title": "I Learned The First Rule of ARIA the Hard Way",
       "description": "Semantic HTML does a lot more accessibility work than we usually give it credit for already — and ARIA is simple to abuse when we use it both as a shortcut and as a supplement. I Learned The First Rule of ARIA the Hard Way originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
@@ -11944,8 +11975,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "development",
-        "programming"
+        "programming",
+        "development"
       ]
     },
     {
