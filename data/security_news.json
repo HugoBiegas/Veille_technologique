@@ -1,41 +1,7 @@
 {
-  "last_updated": "2026-01-29T15:42:03.041559+00:00",
-  "total_articles": 435,
+  "last_updated": "2026-01-29T18:56:11.503151+00:00",
+  "total_articles": 436,
   "articles": [
-    {
-      "id": "ec089a27d0b51608",
-      "title": "Critical GNU InetUtils telnetd Flaw Lets Attackers Bypass Login and Gain Root Access",
-      "description": "A critical security flaw has been disclosed in the GNU InetUtils telnet daemon (telnetd) that went unnoticed for nearly 11 years. The vulnerability, tracked as CVE-2026-24061, is rated 9.8 out of 10.0 on the CVSS scoring system. It affects all versions of GNU InetUtils from version 1.9.3 up to and including version 2.7. \"Telnetd in GNU Inetutils through 2.7 allows remote authentication bypass",
-      "url": "https://thehackernews.com/2026/01/critical-gnu-inetutils-telnetd-flaw.html",
-      "source": "The Hacker News",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-01-22T22:00:00+05:30",
-      "niche": "security",
-      "score": 100,
-      "keywords": [
-        "authentication bypass",
-        "security",
-        "security flaw",
-        "vulnerability",
-        "CVE-"
-      ]
-    },
-    {
-      "id": "44d0831eaf3cbfd9",
-      "title": "SmarterMail auth bypass flaw now exploited to hijack admin accounts",
-      "description": "Hackers began exploiting an authentication bypass vulnerability in SmarterTools' SmarterMail email server and collaboration tool that allows resetting admin passwords. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/smartermail-auth-bypass-flaw-now-exploited-to-hijack-admin-accounts/",
-      "source": "Bleeping Computer",
-      "author": "Bill Toulas",
-      "published": "2026-01-22T13:44:21-05:00",
-      "niche": "security",
-      "score": 100,
-      "keywords": [
-        "authentication bypass",
-        "exploit",
-        "vulnerability"
-      ]
-    },
     {
       "id": "fe1657b21ec1dff5",
       "title": "Fortinet Confirms Active FortiCloud SSO Bypass on Fully Patched FortiGate Firewalls",
@@ -392,6 +358,23 @@
       ]
     },
     {
+      "id": "469b9dd5f4fa4c3a",
+      "title": "Marquis blames ransomware breach on SonicWall cloud backup hack",
+      "description": "Marquis Software Solutions, a Texas-based financial services provider, is blaming a ransomware attack that impacted its systems and affected dozens of U.S. banks and credit unions in August 2025 on a security breach reported by SonicWall a month later. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/marquis-blames-ransomware-breach-on-sonicwall-cloud-backup-hack/",
+      "source": "Bleeping Computer",
+      "author": "Sergiu Gatlan",
+      "published": "2026-01-29T12:57:58-05:00",
+      "niche": "security",
+      "score": 99,
+      "keywords": [
+        "security",
+        "ransomware",
+        "breach",
+        "attack"
+      ]
+    },
+    {
       "id": "06d1ef9d4d232d63",
       "title": "Password Reuse in Disguise: An Often-Missed Risky Workaround",
       "description": "When security teams discuss credential-related risk, the focus typically falls on threats such as phishing, malware, or ransomware. These attack methods continue to evolve and rightly command attention. However, one of the most persistent and underestimated risks to organizational security remains far more ordinary. Near-identical password reuse continues to slip past security controls, often",
@@ -531,24 +514,6 @@
         "authentication bypass",
         "patch",
         "security"
-      ]
-    },
-    {
-      "id": "3f084056721e60b4",
-      "title": "New Osiris Ransomware Emerges as New Strain Using POORTRY Driver in BYOVD Attack",
-      "description": "Cybersecurity researchers have disclosed details of a new ransomware family called Osiris that targeted a major food service franchisee operator in Southeast Asia in November 2025. The attack leveraged a malicious driver called POORTRY as part of a known technique referred to as bring your own vulnerable driver (BYOVD) to disarm security software, the Symantec and Carbon Black Threat Hunter",
-      "url": "https://thehackernews.com/2026/01/new-osiris-ransomware-emerges-as-new.html",
-      "source": "The Hacker News",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-01-22T23:30:00+05:30",
-      "niche": "security",
-      "score": 92,
-      "keywords": [
-        "security",
-        "attack",
-        "cybersecurity",
-        "ransomware",
-        "threat"
       ]
     },
     {
@@ -1004,6 +969,40 @@
       ]
     },
     {
+      "id": "b2ff2ffc2b0cf81c",
+      "title": "KiloView Encoder Series",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an unauthenticated attacker to create or delete administrator accounts, granting full administrative control. The following versions of KiloView Encoder Series are affected: Encoder Series E1 hardware Version 1.4 4.7.2516 (CVE-2026-1453) Encoder Series E1 hardware Version 1.6.20 4.7.2511|4.8.2523|4.8.2611|4.6.2400|4.7.2512|4.8.2561|4.8.2554|4.3.2029|4.8.2555|4.6.2408 (CVE-2026-1453) Encoder Series E1-s hardware Version 1",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-029-01",
+      "source": "CISA Cybersecurity Advisories",
+      "author": "CISA",
+      "published": "2026-01-29T12:00:00+00:00",
+      "niche": "security",
+      "score": 84,
+      "keywords": [
+        "vulnerability",
+        "exploit",
+        "CVE-",
+        "attack"
+      ]
+    },
+    {
+      "id": "8e5b5956dbdc1275",
+      "title": "Rockwell Automation ControlLogix",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition. The following versions of Rockwell Automation ControlLogix are affected: ControlLogix Redundancy Enhanced Module Catalog 1756-RM2 Firmware vers:all/* (CVE-2025-14027) ControlLogix Redundancy Enhanced Module Catalog 1756-RM2XT Firmware vers:all/* (CVE-2025-14027) CVSS Vendor Equipment Vulnerabilities v3 7.5 Rockwell Automation Rockwell Automation ControlLogix Missing Rel",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-029-03",
+      "source": "CISA Cybersecurity Advisories",
+      "author": "CISA",
+      "published": "2026-01-29T12:00:00+00:00",
+      "niche": "security",
+      "score": 84,
+      "keywords": [
+        "vulnerability",
+        "exploit",
+        "CVE-",
+        "attack"
+      ]
+    },
+    {
       "id": "cbfe3b046fc937f9",
       "title": "Trivial Telnet authentication bypass exposes devices to complete takeover",
       "description": "Computers with Telnet open are in immediate danger of being compromised due to a critical vulnerability that allows attackers to bypass authentication. The Telnet remote access protocol has long been superseded by the more secure and encrypted SSH, but many IoT and embedded devices have continued to ship with Telnet exposed on the LAN interface for debugging purposes over the years. Making things worse, the vulnerability, now tracked as CVE-2026-24061, is trivial to exploit remotely, and because",
@@ -1143,18 +1142,19 @@
       ]
     },
     {
-      "id": "4995942f2a614727",
-      "title": "INC ransomware opsec fail allowed data recovery for 12 US orgs",
-      "description": "An operational security failure allowed researchers to recover data that the INC ransomware gang stole from a dozen U.S. organizations. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/inc-ransomware-opsec-fail-allowed-data-recovery-for-12-us-orgs/",
+      "id": "95b9566ad5fc079c",
+      "title": "Match Group breach exposes data from Hinge, Tinder, OkCupid, and Match",
+      "description": "Match Group, the owner of multiple popular online dating services, Tinder, Match.com, Meetic, OkCupid, and Hinge, confirmed a cybersecurity incident that compromised user data. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/match-group-breach-exposes-data-from-hinge-tinder-okcupid-and-match/",
       "source": "Bleeping Computer",
       "author": "Bill Toulas",
-      "published": "2026-01-22T11:21:17-05:00",
+      "published": "2026-01-29T13:09:40-05:00",
       "niche": "security",
-      "score": 80,
+      "score": 81,
       "keywords": [
         "security",
-        "ransomware"
+        "cybersecurity",
+        "breach"
       ]
     },
     {
@@ -1550,11 +1550,11 @@
       "niche": "security",
       "score": 75,
       "keywords": [
-        "exploit",
-        "zero-day",
+        "security flaw",
         "patch",
+        "zero-day",
         "security",
-        "security flaw"
+        "exploit"
       ]
     },
     {
@@ -1782,6 +1782,22 @@
       ]
     },
     {
+      "id": "db7525c411dcb491",
+      "title": "Rockwell Automation ArmorStart LT",
+      "description": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition. The following versions of Rockwell Automation ArmorStart LT are affected: ArmorStart LT 290D <=V2.002 (CVE-2025-9464, CVE-2025-9465, CVE-2025-9466, CVE-2025-9278, CVE-2025-9279, CVE-2025-9280, CVE-2025-9281, CVE-2025-9282, CVE-2025-9283) ArmorStart LT 291D <=V2.002 (CVE-2025-9464, CVE-2025-9465, CVE-2025-9466, CVE-2025-9278, CVE-2025-9279, CVE-2025-9280, CVE-2025-928",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-029-02",
+      "source": "CISA Cybersecurity Advisories",
+      "author": "CISA",
+      "published": "2026-01-29T12:00:00+00:00",
+      "niche": "security",
+      "score": 72,
+      "keywords": [
+        "attack",
+        "exploit",
+        "CVE-"
+      ]
+    },
+    {
       "id": "3be6b4e60b40bdf1",
       "title": "Fortinet confirms new zero-day attacks against customer devices",
       "description": "Fortinet has confirmed that a new attack campaign observed recently against customer devices is exploiting an unpatched issue to bypass authentication. The new attacks are different from a previous campaign seen in December that targeted two vulnerabilities related to FortiCloud single sign-on (SSO) authentication. “Recently, a small number of customers reported unexpected login activity occurring on their devices, which appeared very similar to the previous issue,” the Fortinet product security",
@@ -1850,18 +1866,18 @@
       ]
     },
     {
-      "id": "894665ff428102ee",
-      "title": "Microsoft Teams to add brand impersonation warnings to calls",
-      "description": "Microsoft will soon add new fraud protection features to Teams calls, warning users about external callers who attempt to impersonate trusted organizations in social engineering attacks. [...]",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-add-brand-impersonation-warnings-to-calls/",
-      "source": "Bleeping Computer",
-      "author": "Sergiu Gatlan",
-      "published": "2026-01-22T11:28:47-05:00",
+      "id": "add33da4de136d8a",
+      "title": "Google targets IPIDEA in crackdown on global residential proxy networks",
+      "description": "Google disrupted IPIDEA, a major residential proxy network that enrolled users’ devices via SDKs embedded in mobile and desktop apps. Google and partners disrupted the IPIDEA residential proxy network, used by many threat actors, via legal domain takedowns, intelligence sharing on malicious SDKs, and ecosystem-wide enforcement. Google Play Protect now removes and blocks apps with [&#8230;]",
+      "url": "https://securityaffairs.com/187463/security/google-targets-ipidea-in-crackdown-on-global-residential-proxy-networks.html",
+      "source": "Security Affairs",
+      "author": "Pierluigi Paganini",
+      "published": "2026-01-29T15:16:08+00:00",
       "niche": "security",
-      "score": 69,
+      "score": 70,
       "keywords": [
-        "protection",
-        "attack"
+        "RCE",
+        "threat"
       ]
     },
     {
@@ -2531,10 +2547,10 @@
       "niche": "security",
       "score": 61,
       "keywords": [
-        "OWASP",
+        "security",
         "RCE",
         "secure",
-        "security"
+        "OWASP"
       ]
     },
     {
@@ -2672,18 +2688,6 @@
       "keywords": [
         "ransomware"
       ]
-    },
-    {
-      "id": "55d438a34a566d7f",
-      "title": "Textarea - Un éditeur de texte qui vit sa meilleure vie dans son URL",
-      "description": "Ah ils sont chaud bouillants les développeurs en ce moment ! Surtout quand je tombe sur une pépite comme textarea , je me dis que la recherche des choses simples façon Herta a encore de beaux jours devant elle. J'sais pas si on peut le qualifier d'éditeur le plus minimaliste du monde mais c'est sûr qu'il n'y a pas de chichi ni de menus à rallonge dedans... Cet outil vit côté client dans votre navigateur et sa particularité c'est qu'il peut stocker ce que vous écrivez directement dans le \"hash\" (",
-      "url": "https://korben.info/textarea-github-minimalist-editeur.html",
-      "source": "Korben",
-      "author": "Korben",
-      "published": "2026-01-22T18:59:26+01:00",
-      "niche": "security",
-      "score": 57,
-      "keywords": []
     },
     {
       "id": "1de551f6a0e8e855",
@@ -2880,8 +2884,8 @@
       "niche": "security",
       "score": 57,
       "keywords": [
-        "exploit",
         "RCE",
+        "exploit",
         "secure"
       ]
     },
@@ -2960,37 +2964,6 @@
       "keywords": [
         "ransomware",
         "patch"
-      ]
-    },
-    {
-      "id": "16a9016bc9a5ebf8",
-      "title": "Latin American Orgs Lack Confidence in Cyber Defenses, Skills",
-      "description": "Cybersecurity professionals in Latin America are least likely to have faith in their countries' preparedness for cyberattacks on critical infrastructure, the World Economic Forum says.",
-      "url": "https://www.darkreading.com/cyber-risk/latin-american-confidence-cyber-defenses-skills",
-      "source": "Dark Reading",
-      "author": "Robert Lemos, Contributing Writer",
-      "published": "2026-01-22T16:05:18+00:00",
-      "niche": "security",
-      "score": 55,
-      "keywords": [
-        "security",
-        "cybersecurity",
-        "attack"
-      ]
-    },
-    {
-      "id": "da99d7b5e66553e9",
-      "title": "The Upside Down is Real: What Stranger Things Teaches Us About Modern Cybersecurity",
-      "description": "To all those who are fighting the good fight in the world of cyber, keep collaborating to ensure our world never succumbs to the chaos of the Upside Down. The post The Upside Down is Real: What Stranger Things Teaches Us About Modern Cybersecurity appeared first on SecurityWeek.",
-      "url": "https://www.securityweek.com/the-upside-down-is-real-what-stranger-things-teaches-us-about-modern-cybersecurity/",
-      "source": "SecurityWeek",
-      "author": "Nadir Izrael",
-      "published": "2026-01-22T16:30:00+00:00",
-      "niche": "security",
-      "score": 55,
-      "keywords": [
-        "security",
-        "cybersecurity"
       ]
     },
     {
@@ -3222,23 +3195,6 @@
       "score": 54,
       "keywords": [
         "security"
-      ]
-    },
-    {
-      "id": "2605b6e34c63f41b",
-      "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
-      "description": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2025-31125 Vite Vitejs Improper Access Control Vulnerability CVE-2025-34026 Versa Concerto Improper Authentication Vulnerability CVE-2025-54313 Prettier eslint-config-prettier Embedded Malicious Code Vulnerability CVE-2025-68645 Synacor Zimbra Collaboration Suite (ZCS) PHP Remote File Inclusion Vulnerability These types of vulnerabilities are frequent attack",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/01/22/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-      "source": "CISA Cybersecurity Advisories",
-      "author": "CISA",
-      "published": "2026-01-22T12:00:00+00:00",
-      "niche": "security",
-      "score": 54,
-      "keywords": [
-        "vulnerability",
-        "CVE-",
-        "exploit",
-        "attack"
       ]
     },
     {
@@ -3643,21 +3599,6 @@
       ]
     },
     {
-      "id": "925b277493bd9148",
-      "title": "From a Whisper to a Scream: Europe Frets About Overreliance on US Tech",
-      "description": "Concern is growing across Europe about relying on US cybersecurity companies, and Greenland takeover talk is eroding trust across the EU even further.",
-      "url": "https://www.darkreading.com/cybersecurity-operations/europe-frets-about-overreliance-on-us-tech",
-      "source": "Dark Reading",
-      "author": "Rik Turner",
-      "published": "2026-01-22T18:09:00+00:00",
-      "niche": "security",
-      "score": 51,
-      "keywords": [
-        "cybersecurity",
-        "security"
-      ]
-    },
-    {
       "id": "4de2eed8472a5142",
       "title": "Russian hackers accused of attack on Poland electricity grid",
       "description": "On Dec. 29 and 30, the Polish electricity grid was subjected to a cyberattack that nearly knocked out power to hundreds of thousands of households. Security firm ESET has since conducted a closer examination of the attack and concluded that it was carried out by Sandworm, a group of hackers with strong ties to the Russian military intelligence service GRU. The attack used Dynowiper, a powerful malware that deletes all data on vulnerable computers. Sandworm is said to have carried out a long seri",
@@ -3826,6 +3767,20 @@
       ]
     },
     {
+      "id": "eb7f588f6e1f8ead",
+      "title": "'Semantic Chaining' Jailbreak Dupes Gemini Nano Banana, Grok 4",
+      "description": "If an attacker splits a malicious prompt into discrete chunks, some large language models (LLMs) will get lost in the details and miss the true intent.",
+      "url": "https://www.darkreading.com/vulnerabilities-threats/semantic-chaining-jailbreak-gemini-nano-banana-grok-4",
+      "source": "Dark Reading",
+      "author": "Nate Nelson, Contributing Writer",
+      "published": "2026-01-29T16:09:01+00:00",
+      "niche": "security",
+      "score": 50,
+      "keywords": [
+        "attack"
+      ]
+    },
+    {
       "id": "559b7874623819f6",
       "title": "GISEC GLOBAL 2026 – The Middle East & Africa’s Largest Cybersecurity Event",
       "description": "",
@@ -3915,10 +3870,10 @@
       "score": 49,
       "keywords": [
         "vulnerability",
-        "exploit",
         "threat",
-        "security advisory",
-        "security"
+        "security",
+        "exploit",
+        "security advisory"
       ]
     },
     {
@@ -3992,8 +3947,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "exploit",
-        "attack"
+        "attack",
+        "exploit"
       ]
     },
     {
@@ -4007,8 +3962,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "exploit",
-        "attack"
+        "attack",
+        "exploit"
       ]
     },
     {
@@ -4022,8 +3977,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "PoC",
-        "exploit"
+        "exploit",
+        "PoC"
       ]
     },
     {
@@ -4037,8 +3992,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "exploit",
-        "threat"
+        "threat",
+        "exploit"
       ]
     },
     {
@@ -4052,8 +4007,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "exploit",
-        "attack"
+        "attack",
+        "exploit"
       ]
     },
     {
@@ -4407,8 +4362,8 @@
       "niche": "security",
       "score": 44,
       "keywords": [
-        "CVE-",
-        "security"
+        "security",
+        "CVE-"
       ]
     },
     {
@@ -4478,10 +4433,10 @@
       "niche": "security",
       "score": 43,
       "keywords": [
-        "OWASP",
+        "security",
         "RCE",
         "secure",
-        "security"
+        "OWASP"
       ]
     },
     {
@@ -5025,22 +4980,6 @@
       "keywords": []
     },
     {
-      "id": "de39f9e791a6a5b6",
-      "title": "GSoC 2025 Recap",
-      "description": "OWASP at Google Summer of Code 2025 Celebrating real impact, strong mentorship, and a growing community The Google Summer of Code (GSoC) 2025 program has wrapped, and OWASP’s participation once again delivered meaningful improvements across the open-source security ecosystem. This year, 15 contributors worked across multiple OWASP projects, supported by 26 mentors. Of the 15 projects evaluated, 10 reached successful completion, three are still working on the final deliveries with extended deadli",
-      "url": "http://owasp.org/blog/2025/10/01/GSoCRecap.html",
-      "source": "OWASP News",
-      "author": "Fabio Cerullo & Starr Brown",
-      "published": "2025-10-01T07:00:00+00:00",
-      "niche": "security",
-      "score": 42,
-      "keywords": [
-        "OWASP",
-        "RCE",
-        "security"
-      ]
-    },
-    {
       "id": "05e0cf82721ea67c",
       "title": "ShareMyLogin - Partagez vos accès sans filer vos mots de passe",
       "description": "Vous avez sûrement déjà eu ce moment de solitude où vous devez filer le mot de passe du WiFi, de Netflix ou d'un compte commun à un pote. Et là, comme un mec bourré qui recontacte son ex après une soirée déprimante, vous finissez par l'envoyer par SMS ou l'écrire sur un bout de papier qui finira à la poubelle. C'est le genre de truc qui rend dingue niveau sécurité, mais bon, dans la vraie vie on le fait tous !",
@@ -5051,6 +4990,22 @@
       "niche": "security",
       "score": 42,
       "keywords": []
+    },
+    {
+      "id": "de39f9e791a6a5b6",
+      "title": "GSoC 2025 Recap",
+      "description": "OWASP at Google Summer of Code 2025 Celebrating real impact, strong mentorship, and a growing community The Google Summer of Code (GSoC) 2025 program has wrapped, and OWASP’s participation once again delivered meaningful improvements across the open-source security ecosystem. This year, 15 contributors worked across multiple OWASP projects, supported by 26 mentors. Of the 15 projects evaluated, 10 reached successful completion, three are still working on the final deliveries with extended deadli",
+      "url": "http://owasp.org/blog/2025/10/01/GSoCRecap.html",
+      "source": "OWASP News",
+      "author": "Fabio Cerullo & Starr Brown",
+      "published": "2025-10-01T07:00:00+00:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": [
+        "security",
+        "RCE",
+        "OWASP"
+      ]
     },
     {
       "id": "705d0e93796a64fb",
@@ -5223,6 +5178,18 @@
       "keywords": []
     },
     {
+      "id": "1adb3f02b3cf6967",
+      "title": "Site présumé de tueurs à gages, enquête en Roumanie",
+      "description": "Deux suspects visés après la découverte d’un site présumé de tueurs à gages payé en cryptomonnaie....",
+      "url": "https://www.zataz.com/site-presume-de-tueurs-a-gages-enquete-en-roumanie/",
+      "source": "Zataz",
+      "author": "Damien Bancal",
+      "published": "2026-01-29T18:35:43+00:00",
+      "niche": "security",
+      "score": 39,
+      "keywords": []
+    },
+    {
       "id": "642f6e80897c7d83",
       "title": "InfoSecMap x OWASP Collaboration",
       "description": "OWASP Partners with InfoSecMap to Strengthen Global InfoSec Collaboration We’re stronger together. In a move that highlights the power of open collaboration, OWASP is proud to announce a new partnership with InfoSecMap — a community-focused project dedicated to making InfoSec events and resources more accessible, global, and inclusive. At its core, OWASP is a community-driven force building free, open resources for anyone who cares about building safer software. InfoSecMap, meanwhile, has been q",
@@ -5233,8 +5200,8 @@
       "niche": "security",
       "score": 38,
       "keywords": [
-        "OWASP",
-        "RCE"
+        "RCE",
+        "OWASP"
       ]
     },
     {
@@ -5348,10 +5315,10 @@
       "niche": "security",
       "score": 37,
       "keywords": [
-        "exploit",
+        "security",
         "patch",
-        "attack",
-        "security"
+        "exploit",
+        "attack"
       ]
     },
     {
@@ -5365,11 +5332,35 @@
       "niche": "security",
       "score": 37,
       "keywords": [
-        "web application security",
-        "OWASP",
+        "security",
         "threat",
-        "security"
+        "web application security",
+        "OWASP"
       ]
+    },
+    {
+      "id": "96e87a5ede3675c2",
+      "title": "Swatting : quatre arrestations, quatre ados maîtres du chaos",
+      "description": "Arrestations après une vague de swatting, doxing et fausses alertes à la bombe....",
+      "url": "https://www.zataz.com/swatting-quatre-arrestations-quatre-ados-maitres-du-chaos/",
+      "source": "Zataz",
+      "author": "Damien Bancal",
+      "published": "2026-01-29T17:39:57+00:00",
+      "niche": "security",
+      "score": 37,
+      "keywords": []
+    },
+    {
+      "id": "6de9d5c47adffb71",
+      "title": "RAMP, forum cyber russe, saisi par le FBI",
+      "description": "RAMP affiche une saisie du FBI : DNS, absence d’annonce DOJ, doutes et stratégie de perturbation....",
+      "url": "https://www.zataz.com/ramp-forum-cyber-russe-saisi-par-le-fbi/",
+      "source": "Zataz",
+      "author": "Damien Bancal",
+      "published": "2026-01-29T16:35:14+00:00",
+      "niche": "security",
+      "score": 37,
+      "keywords": []
     },
     {
       "id": "dba2a0d71b33a03d",
@@ -5382,10 +5373,10 @@
       "niche": "security",
       "score": 34,
       "keywords": [
-        "cybersecurity",
-        "OWASP",
+        "security",
         "threat",
-        "security"
+        "cybersecurity",
+        "OWASP"
       ]
     },
     {
@@ -5455,9 +5446,24 @@
       "niche": "security",
       "score": 31,
       "keywords": [
-        "OWASP",
+        "security",
         "secure",
-        "security"
+        "OWASP"
+      ]
+    },
+    {
+      "id": "ec0fc13b2d59bbf0",
+      "title": "SMS Phishers Pivot to Points, Taxes, Fake Retailers",
+      "description": "China-based phishing groups blamed for non-stop scam SMS messages about a supposed wayward package or unpaid toll fee are promoting a new offering, just in time for the holiday shopping season: Phishing kits for mass-creating fake but convincing e-commerce websites that convert customer payment card data into mobile wallets from Apple and Google. Experts say these same phishing groups also are now using SMS lures that promise unclaimed tax refunds and mobile rewards points.",
+      "url": "https://krebsonsecurity.com/2025/12/sms-phishers-pivot-to-points-taxes-fake-retailers/",
+      "source": "Krebs on Security",
+      "author": "BrianKrebs",
+      "published": "2025-12-04T23:02:34+00:00",
+      "niche": "security",
+      "score": 30,
+      "keywords": [
+        "RCE",
+        "phishing"
       ]
     },
     {
@@ -5471,10 +5477,10 @@
       "niche": "security",
       "score": 29,
       "keywords": [
+        "security",
         "cybersecurity",
-        "attack",
         "breach",
-        "security"
+        "attack"
       ]
     },
     {
@@ -5488,10 +5494,10 @@
       "niche": "security",
       "score": 29,
       "keywords": [
+        "security",
         "ransomware",
         "cybersecurity",
-        "threat",
-        "security"
+        "threat"
       ]
     },
     {
@@ -5545,8 +5551,8 @@
       "niche": "security",
       "score": 26,
       "keywords": [
-        "exploit",
-        "security"
+        "security",
+        "exploit"
       ]
     },
     {
@@ -5731,9 +5737,9 @@
       "niche": "security",
       "score": 22,
       "keywords": [
-        "cybersecurity",
+        "security",
         "threat",
-        "security"
+        "cybersecurity"
       ]
     },
     {
@@ -5762,9 +5768,9 @@
       "niche": "security",
       "score": 21,
       "keywords": [
+        "security",
         "threat",
-        "attack",
-        "security"
+        "attack"
       ]
     },
     {
@@ -5806,9 +5812,9 @@
       "niche": "security",
       "score": 19,
       "keywords": [
-        "PoC",
+        "security",
         "cybersecurity",
-        "security"
+        "PoC"
       ]
     },
     {
@@ -5850,8 +5856,8 @@
       "niche": "security",
       "score": 18,
       "keywords": [
-        "attack",
-        "security"
+        "security",
+        "attack"
       ]
     },
     {
