@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-30T15:41:28.905212+00:00",
-  "total_articles": 994,
+  "last_updated": "2026-01-30T18:53:18.130900+00:00",
+  "total_articles": 988,
   "articles": [
     {
       "id": "244ae7139ee3970d",
@@ -184,22 +184,6 @@
       "keywords": [
         "code",
         "Angular"
-      ]
-    },
-    {
-      "id": "81a436e10d8933f2",
-      "title": "The Right Way to Deploy Private GitHub Repos to Your VPS",
-      "description": "Deploying code from a private repository to a VPS is something a lot of developers sort of know how to do — but most tutorials either rely on personal SSH keys or Personal Access Tokens. That works, but it gives your server much more access than it actually needs. In this guide you’ll learn how to set up a repository-specific SSH deploy key for your VPS so you can: Clone your private repository securely Pull updates without storing personal credentials on the server Keep production access scoped",
-      "url": "https://dev.to/marcoz/the-right-way-to-deploy-private-github-repos-to-your-vps-3725",
-      "source": "Dev.to",
-      "author": "Marek",
-      "published": "2026-01-23T18:20:00+00:00",
-      "niche": "dev",
-      "score": 72,
-      "keywords": [
-        "code",
-        "tutorial",
-        "developer"
       ]
     },
     {
@@ -492,16 +476,18 @@
       ]
     },
     {
-      "id": "2b3c15eccef20be9",
-      "title": "GitHub Actions to VPS: Zero-Trust with Tailscale",
-      "description": "Deploying to private VPS servers from GitHub Actions typically requires exposing SSH ports or maintaining complex VPN configurations. Tailscale's zero-trust networking eliminates these security risks by creating ephemeral, encrypted connections between GitHub-hosted runners and your infrastructure. This guide shows how to connect GitHub Actions to a private VPS using Tailscale's OAuth-based authentication, following the principle of least privilege. Architecture Overview When a GitHub Actions wo",
-      "url": "https://dev.to/rihdusr/github-actions-to-vps-zero-trust-with-tailscale-2omf",
+      "id": "ddf1117436b0ff8e",
+      "title": "# Expo vs Bare React Native",
+      "description": "Expo has evolved from “managed only” to a full toolkit that can still eject to bare when needed. Here’s how I think about Expo vs bare React Native in 2025. Expo (EAS, managed or custom dev client) Pros: EAS Build — Build in the cloud without Xcode/Android Studio on your machine. Signing and provisioning are handled. Great for CI and for devs who don’t want to maintain native toolchains. EAS Submit — Push builds to TestFlight and Play Internal (or production) from the CLI. Integrates with EAS Bu",
+      "url": "https://dev.to/iamsaadmehmood/-expo-vs-bare-react-native-4ek0",
       "source": "Dev.to",
-      "author": "Sudhir",
-      "published": "2026-01-23T18:38:38+00:00",
+      "author": "Saad Mehmood",
+      "published": "2026-01-30T18:20:14+00:00",
       "niche": "dev",
-      "score": 68,
-      "keywords": []
+      "score": 69,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "805cf2ca3a602227",
@@ -790,18 +776,6 @@
         "performance",
         "API"
       ]
-    },
-    {
-      "id": "4e0339978d74b6e7",
-      "title": "Microsoft gave FBI set of BitLocker encryption keys to unlock suspects' laptops",
-      "description": "Comments",
-      "url": "https://techcrunch.com/2026/01/23/microsoft-gave-fbi-a-set-of-bitlocker-encryption-keys-to-unlock-suspects-laptops-reports/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-23T17:58:56+00:00",
-      "niche": "dev",
-      "score": 62,
-      "keywords": []
     },
     {
       "id": "a33d8cb5f9c99b69",
@@ -1217,6 +1191,18 @@
       "keywords": []
     },
     {
+      "id": "c63439bdbe82298b",
+      "title": "Microsoft Just Killed the \"Cover for Me\" Excuse: 365 Now Tracks You in Real-Time",
+      "description": "Comments",
+      "url": "https://ztechtalk.com/microsoft-teams",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-30T17:12:39+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": []
+    },
+    {
       "id": "1934d62cd0caa524",
       "title": "Level Up Your D3 Charts: Exploring d3-3d v2.0.0",
       "description": "d3-3d exists for one simple reason: to take D3’s familiar data-driven approach and extend it into 3D space, without jumping into WebGL or heavy frameworks. With v2.0.0, d3-3d gets its biggest upgrade so far: TypeScript support, a cleaner API, and much better documentation. What is d3-3d? d3-3d is a small helper library that lets you: Work with 3D data (x, y, z) Project it into 2D SVG Keep using D3 selections, joins, and transitions It focuses on projection and geometry, not on being a full 3D en",
@@ -1374,6 +1360,22 @@
         "API",
         "Laravel",
         "code"
+      ]
+    },
+    {
+      "id": "97af1054bdfe7928",
+      "title": "Released — Schema Support, Cleaner Internals & What’s Next",
+      "description": "RunAPI just got a solid upgrade. The latest version introduces schema support, improves internal architecture, and sets the foundation for better testing and database extensibility — while keeping RunAPI lightweight and developer-friendly. If you’re building APIs with Python and like file-based routing + FastAPI under the hood, this release is for you. ✨ What’s New in This Release ✅ Schema Support (Big One) RunAPI now supports schemas, making it easier to: Define request and response models Vali",
+      "url": "https://dev.to/amanbig/released-schema-support-cleaner-internals-whats-next-3m0c",
+      "source": "Dev.to",
+      "author": "Amanpreet Singh",
+      "published": "2026-01-30T18:07:10+00:00",
+      "niche": "dev",
+      "score": 58,
+      "keywords": [
+        "release",
+        "developer",
+        "API"
       ]
     },
     {
@@ -2136,59 +2138,20 @@
       ]
     },
     {
-      "id": "ca5bf76ba230e977",
-      "title": "Dead-Simple CLI Uptime Monitor – No SaaS, POST Support, CI/CD Ready (Open Source)",
-      "description": "I kept spinning up heavy monitoring dashboards or paying monthly for SaaS tools just to check if a few personal APIs were still breathing. Most tools were massive overkill for what I actually needed. So I built upstatus — a tiny CLI uptime monitor that lives in your terminal. It checks URLs (including POST health endpoints), tracks response times and uptime percentages, and exports results. No accounts, no dashboards, pure local power. Why I Built This I monitor a handful of personal APIs and si",
-      "url": "https://dev.to/chintanshah35/dead-simple-cli-uptime-monitor-no-saas-post-support-cicd-ready-open-source-1f8h",
-      "source": "Dev.to",
-      "author": "Chintan Shah",
-      "published": "2026-01-23T18:19:12+00:00",
+      "id": "23f19c11fa49cffb",
+      "title": "Practical Use Of AI Coding Tools For The Responsible Developer",
+      "description": "AI coding tools like agents can be valuable allies in everyday development work. They help handle time-consuming grunt work, guide you through large legacy codebases, and offer low-risk ways to implement features in previously unfamiliar programming languages. Here are practical, easy-to-apply techniques to help you use these tools to improve your workflow.",
+      "url": "https://smashingmagazine.com/2026/01/practical-use-ai-coding-tools-responsible-developer/",
+      "source": "Smashing Magazine",
+      "author": "hello@smashingmagazine.com (Stefan Kaltenegger)",
+      "published": "2026-01-30T13:00:00+00:00",
       "niche": "dev",
-      "score": 54,
+      "score": 55,
       "keywords": [
-        "API"
-      ]
-    },
-    {
-      "id": "7f6210f33fde65e0",
-      "title": "My Resume in My Pocket 24/7. Powered by AWS",
-      "description": "From phones and wallets to car keys and coffee receipts, there's never been a perfect way to carry a polished PDF resume. So I built a resume I can carry 24/7. A live website on AWS, secured with HTTPS, delivered globally through a CDN, and backed by a serverless visitor counter. In this post, I break down the milestones I completed over 18 days, from S3 + CloudFront (OAC private origin) to API Gateway, Lambda, SAM (SAM CLI), and DynamoDB. Live Site: https://resume.michael-burbank.com/ I designe",
-      "url": "https://dev.to/michael-burbank/my-resume-in-my-pocket-247-powered-by-aws-2pa8",
-      "source": "Dev.to",
-      "author": "Michael Burbank",
-      "published": "2026-01-23T18:14:21+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "API"
-      ]
-    },
-    {
-      "id": "881dd2f3aa242485",
-      "title": "What I Didn't Know About Icon Library Licenses (And You Might Not Either)",
-      "description": "TL;DR Icon libraries with MIT or ISC licenses don't require visible attribution in your UI Font Awesome Free is actually a combination of three different licenses — keeping the embedded comments satisfies attribution requirements For new projects, Lucide or Heroicons offer simpler licensing with less friction Font Awesome, Lucide, Heroicons… When choosing an icon library for work projects, I suspect many of us don't give much thought to licensing. I used to think \"it's MIT licensed, so it's fine",
-      "url": "https://dev.to/usapopopooon/what-i-didnt-know-about-icon-library-licenses-and-you-might-not-either-30of",
-      "source": "Dev.to",
-      "author": "usapop",
-      "published": "2026-01-23T18:07:15+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "library"
-      ]
-    },
-    {
-      "id": "daa587ea825a6080",
-      "title": "KEXP: Lucius - Full Performance (Live on KEXP)",
-      "description": "Get ready to groove! Lucius hit the stage for a lively KEXP performance, recorded live at The Triple Door. They dished out a fantastic set, showcasing their unique sound with tracks like \"Final Days\" and \"Mad Love.\" But wait, there's more! The band even threw in a sweet surprise with a cover of R.E.M.'s \"Everybody Hurts.\" It was a full-band affair, with Jess Wolfe and Holly Laessig leading the vocals and synths, backed by a stellar crew on guitars, drums, and percussion. Watch on YouTube",
-      "url": "https://dev.to/music_youtube/kexp-lucius-full-performance-live-on-kexp-3g6h",
-      "source": "Dev.to",
-      "author": "Music YouTube",
-      "published": "2026-01-23T18:05:39+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "performance"
+        "development",
+        "programming",
+        "code",
+        "developer"
       ]
     },
     {
@@ -3124,18 +3087,33 @@
       ]
     },
     {
-      "id": "52bd74c9593c5a38",
-      "title": "Claude Code + Chrome: Fix the Bug AND Verify It Works — In One Prompt",
-      "description": "Your AI can now see what your users see. Debugging will never be the same. From: x.com/adocomplete Introduction Here's a frustrating scenario every frontend developer knows: You describe a bug to your AI assistant. It suggests a fix. You apply the fix. You switch to the browser. The bug is still there. Back to the AI. More suggestions. More switching. More frustration. The problem? Your AI is coding blind. It can't see the bug. It can't watch the fix succeed or fail. It's operating on descriptio",
-      "url": "https://dev.to/rajeshroyal/claude-code-chrome-fix-the-bug-and-verify-it-works-in-one-prompt-25mi",
+      "id": "71eb31dbc5c1a6c5",
+      "title": "Saat Laptop Lama Menemukan Peran Barunya",
+      "description": "Mengubah MacBook Pro 2012 Menjadi Server Pribadi (Eksperimen Pertamaku) Ada satu MacBook Pro 2012 di hadapanku. Bukan laptop utama, performanya juga jelas sudah tertinggal jauh dibanding mesin-mesin modern. Tapi justru dari situ muncul satu pertanyaan sederhana: “Sejauh apa laptop lama ini masih bisa berguna?” Pertanyaan itu akhirnya membawaku pada sebuah eksperimen kecil: mengubah MacBook Pro 2012 menjadi server pribadi, lalu mengontrolnya dari laptop utamaku menggunakan SSH. Latar Belakang: Ke",
+      "url": "https://dev.to/bangkah/saat-laptop-lama-menemukan-peran-barunya-3pha",
       "source": "Dev.to",
-      "author": "Rajesh Royal",
-      "published": "2026-01-23T18:30:00+00:00",
+      "author": "Muhammad Dhiyaul Atha",
+      "published": "2026-01-30T18:11:37+00:00",
       "niche": "dev",
-      "score": 52,
+      "score": 54,
       "keywords": [
-        "code",
-        "developer"
+        "API"
+      ]
+    },
+    {
+      "id": "6fcea2fbd349bc7c",
+      "title": "Tips from a 20-year developer veteran turned consultancy founder – Tapas Adhikary interview [Podcast #206]",
+      "description": "Today Quincy Larson interviews Tapas Adhikari. He's a software engineer who runs a firm of 20 developers who build projects for companies around the world. He's also a prolific teacher, having written 300 programming tutorials - including 47 for free...",
+      "url": "https://www.freecodecamp.org/news/tips-from-a-20-year-developer-veteran-turned-consultancy-founder-tapas-adhikary-interview-podcast-206/",
+      "source": "freeCodeCamp",
+      "author": "Beau Carnes",
+      "published": "2026-01-30T15:00:18+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "programming",
+        "developer",
+        "tutorial"
       ]
     },
     {
@@ -3709,16 +3687,32 @@
       ]
     },
     {
-      "id": "89c06772722345d3",
-      "title": "From Bloated to Streamlined: A Developer's Guide to Docker Image Optimization",
-      "description": "Learn how to significantly reduce the size of your Docker images with practical, step-by-step techniques. We'll take a simple app and apply optimizations like multi-stage builds, choosing the right base image, and more. Introduction As developers, we love using Docker for its portability and consistency. However, it's easy to end up with large, bloated Docker images. Why does image size matter? Faster CI/CD Pipelines: Smaller images are quicker to build, push, and pull, speeding up your developm",
-      "url": "https://dev.to/alanvarghese-dev/from-bloated-to-streamlined-a-developers-guide-to-docker-image-optimization-4d07",
+      "id": "d2a6c4d35513ebb8",
+      "title": "Commands: Stop Repeating Yourself and Start Shipping Faster",
+      "description": "Turn your best prompts into reusable slash commands with a single markdown file From: x.com/adocomplete Have you ever typed the same prompt for the hundredth time and thought, \"There has to be a better way\"? Maybe it's that detailed code review prompt you've perfected. Or the security audit checklist you run on every PR. Or the explanation format that works perfectly for your team's documentation style. Copy-pasting prompts is the developer's version of manual labor. It's error-prone, tedious, a",
+      "url": "https://dev.to/rajeshroyal/commands-stop-repeating-yourself-and-start-shipping-faster-4gci",
       "source": "Dev.to",
-      "author": "Alan Varghese",
-      "published": "2026-01-23T18:13:26+00:00",
+      "author": "Rajesh Royal",
+      "published": "2026-01-30T18:30:00+00:00",
       "niche": "dev",
-      "score": 51,
+      "score": 52,
       "keywords": [
+        "code",
+        "developer"
+      ]
+    },
+    {
+      "id": "4b0e77a51dc9d08d",
+      "title": "Pager Lifecycle Functions: Pinning Pages, Running Transactions, and Making Them Stick in SQLite",
+      "description": "Hello, I'm Maneshwar. I'm working on FreeDevTools online currently building \"one place for all dev tools, cheat codes, and TLDRs\" — a free, open-source hub where developers can quickly find and use tools without any hassle of searching all over the internet. In the last post, we walked through the pager’s entry points: opening databases, fetching pages, declaring write intent, and preparing journaling. Today, we move into the control functions, the ones that manage page lifetimes, transaction bo",
+      "url": "https://dev.to/lovestaco/pager-lifecycle-functions-pinning-pages-running-transactions-and-making-them-stick-in-sqlite-3fh2",
+      "source": "Dev.to",
+      "author": "Athreya aka Maneshwar",
+      "published": "2026-01-30T18:15:04+00:00",
+      "niche": "dev",
+      "score": 52,
+      "keywords": [
+        "code",
         "developer"
       ]
     },
@@ -5305,16 +5299,18 @@
       ]
     },
     {
-      "id": "dc3d58c300305410",
-      "title": "Contrasting Color",
-      "description": "javascript hashtag#colors I searched for an easy way fo find the best contrasting color for colors on my website. There's contrast-color in css, but only works in Firefox and Safari. There are other options with limited availability. I didn't see any formula's I liked. Google Search AI offered steps. I'm hesitant to use anything AI offers without another source where I can verify it. The steps were written differently enough, that it took my brain a few minutes to understand what each one was sa",
-      "url": "https://dev.to/yellowbear/contrasting-color-5c7l",
+      "id": "32a77b5fafcd6332",
+      "title": "Animated iOS Splash Screens: The Illusion Apple Actually Allows",
+      "description": "You've seen it a hundred times. You tap an app icon. A logo fades in. Something animates. For a brief moment, you think, \"Nice. This app feels polished.\" Then you try to build the same thing in iOS… and the splash screen refuses to animate. Or worse, Apple refuses your App Store submission. Welcome to the confusing world of iOS splash screens—where what users see, what developers call it, and what Apple actually allows are three completely different things. Apps like Uber, Swiggy, and Indigo app",
+      "url": "https://dev.to/voinkoder/animated-ios-splash-screens-the-illusion-apple-actually-allows-52ej",
       "source": "Dev.to",
-      "author": "Dale Stubbart",
-      "published": "2026-01-23T18:13:14+00:00",
+      "author": "Sagnik Saha",
+      "published": "2026-01-30T18:21:31+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
       "id": "a9235e82e0210552",
@@ -8115,6 +8111,54 @@
       "keywords": []
     },
     {
+      "id": "7c5f6e2085028993",
+      "title": "NAT Traversal: How It Works",
+      "description": "NAT traversal is the set of techniques that solves this problem: discovering public addresses, punching holes through NATs, and relaying traffic when all else fails. This guide covers NAT traversal from first principles through production implementation. You'll learn how NATs break peer-to-peer connections, why STUN/TURN/ICE work together, why CGNAT is making the problem worse, and how to troubleshoot connection failures in production. Whether you're debugging ICE candidates at 11 PM or architec",
+      "url": "https://dev.to/alakkadshaw/nat-traversal-how-it-works-4dnc",
+      "source": "Dev.to",
+      "author": "alakkadshaw",
+      "published": "2026-01-30T18:28:09+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "674f81fe780da519",
+      "title": "Figma - Asosiy tushunchalar va tez boshlash qo‘llanmasi",
+      "description": "Figma bugungi kunda UI/UX dizaynerlar va front-end dasturchilar uchun eng samarali vositalardan biri. Shu maqolada Figma interfeysini tez tushunish va samarali ishlash uchun kerakli asosiy tushunchalarni ko‘rib chiqamiz. 1. Figma account va yangi fayl Figma.com’da bepul account yaratib, “New File” tugmasi orqali loyihaga start berish mumkin. Har bir yangi fayl – sizning ish canvasingiz bo‘lib, unga ekranning har qanday elementlarini joylashtirishingiz mumkin. 2. Page vs Frame Page – loyihaning k",
+      "url": "https://dev.to/samandarhodiev/figma-asosiy-tushunchalar-va-tez-boshlash-qollanmasi-2668",
+      "source": "Dev.to",
+      "author": "Samandar Hodiev",
+      "published": "2026-01-30T18:18:07+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "24c464c486acf932",
+      "title": "Designing Instagram Stories: From Upload to Expiry",
+      "description": "Instagram Stories and WhatsApp Status look simple: upload media, show it to followers, and delete it after 24 hours. Under the hood, however, they are classic examples of ephemeral, large-scale distributed systems. In this article, we’ll walk through a high-level and low-level system design of a Stories/Status system, focusing on architecture, key components, and lifecycle management. 1. Core Requirements 1.1 Functional requirements: Users can post photo or video stories Stories expire automatic",
+      "url": "https://dev.to/priyadharshini_6b8f9f440f/designing-instagram-stories-from-upload-to-expiry-3fk2",
+      "source": "Dev.to",
+      "author": "Priyadharshini",
+      "published": "2026-01-30T18:08:47+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "7a7abc65a0618d85",
+      "title": "Secrets in the AI Era: Where Plaintext Lives",
+      "description": "Secret management used to be a mostly solved problem. You picked a system, stored secrets, added policies, rotated keys occasionally, and moved on. But two things have changed: Everything is distributed now: multi-node, multi-region, constant churn. Secrets are consumed continuously: by automation, services, agents, and toolchains. The rise of AI agents and agentic workflows shifts the problem significantly: Secrets get fetched more often (and often repeatedly) Workflows fan out and retry automa",
+      "url": "https://dev.to/taubyte/secrets-in-the-ai-era-where-plaintext-lives-4cij",
+      "source": "Dev.to",
+      "author": "Zaoui Amine",
+      "published": "2026-01-30T18:04:28+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "2dd087547a526137",
       "title": "Why Technical Correctness Is Not Enough For Developers Anymore. Because an AI system can be statistically accurate and still fail emotionally.",
       "description": "The Emotional UX of AI: What Developers Miss Jaideep Parashar ・ Jan 25 #webdev #devops #programming #ai",
@@ -8126,20 +8170,6 @@
       "score": 49,
       "keywords": [
         "developer",
-        "programming"
-      ]
-    },
-    {
-      "id": "d82f21d8beac06f0",
-      "title": "[Boost]",
-      "description": "🎙️We’ve Built the Fastest Way to Run LLMs in Production (50x faster than LiteLLM)🔥 Anthony Max ・ Jan 20 #webdev #programming #javascript #opensource",
-      "url": "https://dev.to/anthonymax/-42dp",
-      "source": "Dev.to",
-      "author": "Anthony Max",
-      "published": "2026-01-23T18:19:02+00:00",
-      "niche": "dev",
-      "score": 48,
-      "keywords": [
         "programming"
       ]
     },
@@ -8522,66 +8552,6 @@
       ]
     },
     {
-      "id": "d378598bef191a31",
-      "title": "Proof of Corn",
-      "description": "Comments",
-      "url": "https://proofofcorn.com/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-23T17:56:31+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "468b9d46b245a591",
-      "title": "Gas Town's Agent Patterns, Design Bottlenecks, and Vibecoding at Scale",
-      "description": "Comments",
-      "url": "https://maggieappleton.com/gastown",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-23T16:19:18+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "8fd5a9865f004618",
-      "title": "Gas Town's agent patterns, design bottlenecks, and vibecoding at scale",
-      "description": "Comments",
-      "url": "https://maggieappleton.com/gastown",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-23T16:19:18+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "c230e4ded091b040",
-      "title": "Route leak incident on January 22, 2026",
-      "description": "Comments",
-      "url": "https://blog.cloudflare.com/route-leak-incident-january-22-2026/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-23T17:54:45+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "ff67129bbd1ede95",
-      "title": "Notes on the Intel 8086 processor's arithmetic-logic unit",
-      "description": "Comments",
-      "url": "https://www.righto.com/2026/01/notes-on-intel-8086-processors.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-23T17:26:27+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
       "id": "37cda91dcc3274ff",
       "title": "TrueVault (YC W14) is hiring a Growth Lead to test different growth channels",
       "description": "Comments",
@@ -8589,18 +8559,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2026-01-23T21:01:34+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "027679097eee5842",
-      "title": "Killing the ISP Appliance: An eBPF/XDP Approach to Distributed BNG",
-      "description": "Comments",
-      "url": "https://markgascoyne.co.uk/posts/ebpf-bng/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-23T17:29:53+00:00",
       "niche": "dev",
       "score": 44,
       "keywords": []
@@ -10310,6 +10268,30 @@
       "keywords": []
     },
     {
+      "id": "267cc0113a668c6c",
+      "title": "ClawdBot Skills ganked all my crypto",
+      "description": "Comments",
+      "url": "https://opensourcemalware.com/blog/clawdbot-skills-ganked-your-crypto",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-30T18:07:02+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "8496a5fe3dcd07f5",
+      "title": "Vcad: Free BRep CAD in the Browser",
+      "description": "Comments",
+      "url": "https://vcad.io",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-30T16:46:28+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "cecd3da845538339",
       "title": "React 19.2",
       "description": "React 19.2 adds new features like Activity, React Performance Tracks, useEffectEvent, and more.",
@@ -10320,8 +10302,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "performance",
-        "React 19"
+        "React 19",
+        "performance"
       ]
     },
     {
@@ -10349,9 +10331,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "performance",
         "release",
-        "code"
+        "code",
+        "performance"
       ]
     },
     {
@@ -10431,18 +10413,6 @@
       "keywords": [
         "development"
       ]
-    },
-    {
-      "id": "e36d3e47fe2afd28",
-      "title": "New YC homepage",
-      "description": "Comments",
-      "url": "https://www.ycombinator.com/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-23T18:08:11+00:00",
-      "niche": "dev",
-      "score": 38,
-      "keywords": []
     },
     {
       "id": "6edc01bc680d21e8",
@@ -10695,9 +10665,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
+        "React 19",
         "API",
-        "release",
-        "React 19"
+        "release"
       ]
     },
     {
@@ -10711,8 +10681,8 @@
       "niche": "dev",
       "score": 37,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -10754,8 +10724,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10769,8 +10739,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "release",
-        "React 19"
+        "React 19",
+        "release"
       ]
     },
     {
@@ -10784,8 +10754,8 @@
       "niche": "dev",
       "score": 34,
       "keywords": [
-        "developer",
-        "development"
+        "development",
+        "developer"
       ]
     },
     {
@@ -10827,8 +10797,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "API",
-        "framework"
+        "framework",
+        "API"
       ]
     },
     {
@@ -10901,6 +10871,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2026-01-25T22:45:34+00:00",
+      "niche": "dev",
+      "score": 32,
+      "keywords": []
+    },
+    {
+      "id": "f9629172b4551c4e",
+      "title": "Quack-Cluster: A Serverless Distributed SQL Query Engine with DuckDB and Ray",
+      "description": "Comments",
+      "url": "https://github.com/kristianaryanto/Quack-Cluster",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-27T00:24:56+00:00",
       "niche": "dev",
       "score": 32,
       "keywords": []
@@ -10984,11 +10966,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "framework",
+        "API",
         "release",
         "code",
         "performance",
-        "API"
+        "framework"
       ]
     },
     {
@@ -11341,8 +11323,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "API",
-        "release"
+        "release",
+        "API"
       ]
     },
     {
@@ -11371,9 +11353,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
+        "code",
         "performance",
-        "developer",
-        "code"
+        "developer"
       ]
     },
     {
@@ -11387,8 +11369,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -11402,8 +11384,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -11431,9 +11413,9 @@
       "niche": "dev",
       "score": 18,
       "keywords": [
-        "developer",
         "development",
-        "code"
+        "code",
+        "developer"
       ]
     },
     {
@@ -11489,8 +11471,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "API",
-        "code"
+        "code",
+        "API"
       ]
     },
     {
@@ -11504,8 +11486,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "developer",
-        "code"
+        "code",
+        "developer"
       ]
     },
     {
@@ -11661,54 +11643,6 @@
       "keywords": []
     },
     {
-      "id": "e5eac697ebc8d6c8",
-      "title": "The Enchiridion by Epictetus",
-      "description": "Comments",
-      "url": "https://www.gutenberg.org/files/45109/45109-h/45109-h.htm",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-23T18:07:31+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "e6c5e629ce307cc8",
-      "title": "Golden Ratio using an equilateral triangle inscribed in a circle",
-      "description": "Comments",
-      "url": "https://geometrycode.com/free/how-to-graphically-derive-the-golden-ratio-using-an-equilateral-triangle-inscribed-in-a-circle/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-23T17:27:48+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "67219773f8da0df7",
-      "title": "There's only one Woz, but we can all learn from him",
-      "description": "Comments",
-      "url": "https://www.fastcompany.com/91477114/steve-wozniak-woz-apple-the-tech-interactive-humanitarian-award",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-23T17:48:25+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "b896872b496de53d",
-      "title": "Pandas 3.0",
-      "description": "Comments",
-      "url": "https://pandas.pydata.org/community/blog/pandas-3.0.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-23T16:45:47+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
       "id": "77f837326861a30b",
       "title": "Package Management Is a Wicked Problem",
       "description": "Comments",
@@ -11836,6 +11770,18 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2026-01-27T00:08:33+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
+      "id": "465b5c3ff188d656",
+      "title": "The National Herbarium of Ireland digital collection of Irish plants",
+      "description": "Comments",
+      "url": "https://dri.ie/news/new-collection-in-dri-the-national-herbarium-of-ireland-digital-collection-of-irish-plants/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-27T16:42:18+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
@@ -12007,8 +11953,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "programming",
-        "development"
+        "development",
+        "programming"
       ]
     },
     {
@@ -12483,18 +12429,6 @@
       "source": "Smashing Magazine",
       "author": "hello@smashingmagazine.com (Amit Sheen)",
       "published": "2026-01-20T10:00:00+00:00",
-      "niche": "dev",
-      "score": 10,
-      "keywords": []
-    },
-    {
-      "id": "8db4645e1c5fd794",
-      "title": "Giving Users A Voice Through Virtual Personas",
-      "description": "Turn scattered user research into AI-powered personas that give anyone consolidated multi-perspective feedback from a single question.",
-      "url": "https://smashingmagazine.com/2025/12/giving-users-voice-virtual-personas/",
-      "source": "Smashing Magazine",
-      "author": "hello@smashingmagazine.com (Paul Boag)",
-      "published": "2025-12-23T10:00:00+00:00",
       "niche": "dev",
       "score": 10,
       "keywords": []

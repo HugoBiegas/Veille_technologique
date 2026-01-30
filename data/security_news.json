@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-30T15:41:16.074071+00:00",
+  "last_updated": "2026-01-30T18:53:02.890673+00:00",
   "total_articles": 444,
   "articles": [
     {
@@ -358,6 +358,23 @@
       ]
     },
     {
+      "id": "026a09b3ea955d25",
+      "title": "Breaking the Sound Barrier, Part II: Exploiting CVE-2024-54529",
+      "description": "In the first part of this series, I detailed my journey into macOS security research, which led to the discovery of a type confusion vulnerability (CVE-2024-54529) and a double-free vulnerability (CVE-2025-31235) in the coreaudiod system daemon through a process I call knowledge-driven fuzzing. While the first post focused on the process of finding the vulnerabilities, this post dives into the intricate process of exploiting the type confusion vulnerability. I’ll explain the technical details of",
+      "url": "https://projectzero.google/2026/01/sound-barrier-2.html",
+      "source": "Google Project Zero",
+      "author": "Dillon Franke, Google Information Security Engineering, 20% time on Project Zero",
+      "published": "2026-01-30T00:00:00-08:00",
+      "niche": "security",
+      "score": 100,
+      "keywords": [
+        "security",
+        "vulnerability",
+        "exploit",
+        "CVE-"
+      ]
+    },
+    {
       "id": "469b9dd5f4fa4c3a",
       "title": "Marquis blames ransomware breach on SonicWall cloud backup hack",
       "description": "Marquis Software Solutions, a Texas-based financial services provider, is blaming a ransomware attack that impacted its systems and affected dozens of U.S. banks and credit unions in August 2025 on a security breach reported by SonicWall a month later. [...]",
@@ -640,21 +657,6 @@
       ]
     },
     {
-      "id": "b926bbe4aa2cd430",
-      "title": "Hackers exploit critical telnetd auth bypass flaw to get root",
-      "description": "A coordinated campaign has been observed targeting a recently disclosed critical-severity vulnerability that has been present in the GNU InetUtils telnetd server for 11 years. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-telnetd-auth-bypass-flaw-to-get-root/",
-      "source": "Bleeping Computer",
-      "author": "Bill Toulas",
-      "published": "2026-01-23T11:21:46-05:00",
-      "niche": "security",
-      "score": 88,
-      "keywords": [
-        "exploit",
-        "vulnerability"
-      ]
-    },
-    {
       "id": "f35d5fcfa5abf3d4",
       "title": "Critical sandbox escape flaw found in popular vm2 NodeJS library",
       "description": "A critical-severity vulnerability in the vm2 Node.js sandbox library, tracked as CVE-2026-22709, allows escaping the sandbox and executing arbitrary code on the underlying host system. [...]",
@@ -766,22 +768,6 @@
         "CVE-",
         "vulnerability",
         "patch"
-      ]
-    },
-    {
-      "id": "4fb5f20afc66bcf0",
-      "title": "CISA confirms active exploitation of four enterprise software bugs",
-      "description": "The Cybersecurity and Infrastructure Security Agency (CISA) in the U.S. warned of active exploitation of four vulnerabilities impacting enterprise software from Versa and Zimbra, the Vite frontend tooling framework, and the Prettier code formatter. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-confirms-active-exploitation-of-four-enterprise-software-bugs/",
-      "source": "Bleeping Computer",
-      "author": "Bill Toulas",
-      "published": "2026-01-23T13:47:31-05:00",
-      "niche": "security",
-      "score": 85,
-      "keywords": [
-        "cybersecurity",
-        "security",
-        "exploit"
       ]
     },
     {
@@ -1448,6 +1434,20 @@
       ]
     },
     {
+      "id": "7ec58b71d2b2172b",
+      "title": "Operation Switch Off dismantles major pirate TV streaming services",
+      "description": "The latest phase of the global law enforcement action resulted in seizing three industrial-scale illegal IPTV services. [...]",
+      "url": "https://www.bleepingcomputer.com/news/legal/operation-switch-off-dismantles-major-pirate-tv-streaming-services/",
+      "source": "Bleeping Computer",
+      "author": "Bill Toulas",
+      "published": "2026-01-30T11:39:43-05:00",
+      "niche": "security",
+      "score": 76,
+      "keywords": [
+        "RCE"
+      ]
+    },
+    {
       "id": "063b1cd448a225be",
       "title": "Sandworm hackers linked to failed wiper attack on Poland’s energy systems",
       "description": "A cyberattack targeting Poland's power grid in late December 2025 has been linked to the Russian state-sponsored hacking group Sandworm, which attempted to deploy a new destructive data-wiping malware dubbed DynoWiper during the attack.. [...]",
@@ -1521,8 +1521,38 @@
         "exploit",
         "security flaw",
         "security",
-        "zero-day",
-        "patch"
+        "patch",
+        "zero-day"
+      ]
+    },
+    {
+      "id": "3042af6da972f315",
+      "title": "Microsoft to disable NTLM by default in future Windows releases",
+      "description": "Microsoft announced that it will disable the 30-year-old NTLM authentication protocol by default in upcoming Windows releases due to security vulnerabilities that expose organizations to cyberattacks. [...]",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-disable-ntlm-by-default-in-future-windows-releases/",
+      "source": "Bleeping Computer",
+      "author": "Sergiu Gatlan",
+      "published": "2026-01-30T12:08:57-05:00",
+      "niche": "security",
+      "score": 75,
+      "keywords": [
+        "security",
+        "attack"
+      ]
+    },
+    {
+      "id": "20090045a105eed9",
+      "title": "In Other News: Paid for Being Jailed, Google’s $68M Settlement, CISA Chief’s ChatGPT Leak",
+      "description": "Other noteworthy stories that might have slipped under the radar: Apple updates platform security guide, LastPass detects new phishing wave, CISA withdraws from RSA Conference. The post In Other News: Paid for Being Jailed, Google&#8217;s $68M Settlement, CISA Chief&#8217;s ChatGPT Leak appeared first on SecurityWeek.",
+      "url": "https://www.securityweek.com/in-other-news-paid-for-being-jailed-googles-68m-settlement-cisa-chiefs-chatgpt-leak/",
+      "source": "SecurityWeek",
+      "author": "SecurityWeek News",
+      "published": "2026-01-30T17:49:31+00:00",
+      "niche": "security",
+      "score": 75,
+      "keywords": [
+        "security",
+        "phishing"
       ]
     },
     {
@@ -1600,20 +1630,6 @@
       "keywords": [
         "security",
         "cybersecurity"
-      ]
-    },
-    {
-      "id": "5f2a870d8287df5e",
-      "title": "US to deport Venezuelans who emptied bank ATMs using malware",
-      "description": "South Carolina federal prosecutors announced that two Venezuelan nationals convicted of stealing hundreds of thousands of dollars from U.S. banks in an ATM jackpotting scheme will be deported after serving their sentences. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/us-to-deport-venezuelans-who-emptied-bank-atms-using-malware/",
-      "source": "Bleeping Computer",
-      "author": "Sergiu Gatlan",
-      "published": "2026-01-23T11:38:54-05:00",
-      "niche": "security",
-      "score": 72,
-      "keywords": [
-        "malware"
       ]
     },
     {
@@ -2333,22 +2349,16 @@
       "keywords": []
     },
     {
-      "id": "ee00ec1c16b3c119",
-      "title": "Fortinet warns of active FortiCloud SSO bypass affecting updated devices",
-      "description": "Fortinet confirmed attacks are bypassing FortiCloud SSO authentication, affecting even fully patched devices, similar to recent SSO flaws. Fortinet confirmed attacks bypass FortiCloud SSO on fully patched devices. Threat actors automate firewall changes, add users, enable VPNs, and steal configs, in campaigns resembling December 2025 exploits of critical FortiCloud SSO flaws. Arctic Wolf researchers reported [&#8230;]",
-      "url": "https://securityaffairs.com/187250/security/fortinet-warns-of-active-forticloud-sso-bypass-affecting-updated-devices.html",
-      "source": "Security Affairs",
-      "author": "Pierluigi Paganini",
-      "published": "2026-01-23T18:28:23+00:00",
+      "id": "1fc07450c450df6c",
+      "title": "Crypto wallets received a record $158 billion in illicit funds last year",
+      "description": "Illegal cryptocurrency flows hit a record $158 billion in 2025, reversing a three-year trend of declining amounts from $86B in 2021 to $64B in 2024. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/crypto-wallets-received-a-record-158-billion-in-illicit-funds-last-year/",
+      "source": "Bleeping Computer",
+      "author": "Bill Toulas",
+      "published": "2026-01-30T13:49:51-05:00",
       "niche": "security",
-      "score": 62,
-      "keywords": [
-        "firewall",
-        "exploit",
-        "patch",
-        "threat",
-        "attack"
-      ]
+      "score": 64,
+      "keywords": []
     },
     {
       "id": "ed402314d1114b90",
@@ -2441,6 +2451,21 @@
       ]
     },
     {
+      "id": "df6604d5fafec8d0",
+      "title": "OpenClaw AI Runs Wild in Business Environments",
+      "description": "The popular open source AI assistant (aka ClawdBot, MoltBot) has taken off, raising security concerns over its privileged, autonomous control within users' computers.",
+      "url": "https://www.darkreading.com/application-security/openclaw-ai-runs-wild-business-environments",
+      "source": "Dark Reading",
+      "author": "Robert Lemos, Contributing Writer",
+      "published": "2026-01-30T16:40:34+00:00",
+      "niche": "security",
+      "score": 62,
+      "keywords": [
+        "RCE",
+        "security"
+      ]
+    },
+    {
       "id": "96e245b10a58ef61",
       "title": "Russian Sandworm Hackers Blamed for Cyberattack on Polish Power Grid",
       "description": "10 years after disrupting the Ukrainian power grid, the APT targeted Poland with data-wiping malware. The post Russian Sandworm Hackers Blamed for Cyberattack on Polish Power Grid appeared first on SecurityWeek.",
@@ -2500,10 +2525,10 @@
       "niche": "security",
       "score": 61,
       "keywords": [
-        "OWASP",
-        "security",
+        "RCE",
         "secure",
-        "RCE"
+        "OWASP",
+        "security"
       ]
     },
     {
@@ -2875,22 +2900,6 @@
       "keywords": []
     },
     {
-      "id": "ee26d0f5e267a117",
-      "title": "A 0-click exploit chain for the Pixel 9 Part 2: Cracking the Sandbox with a Big Wave",
-      "description": "With the advent of a potential Dolby Unified Decoder RCE exploit, it seemed prudent to see what kind of Linux kernel drivers might be accessible from the resulting userland context, the mediacodec context. As per the AOSP documentation, the mediacodec SELinux context is intended to be a constrained (a.k.a sandboxed) context where non-secure software decoders are utilized. Nevertheless, using my DriverCartographer tool, I discovered an interesting device driver, /dev/bigwave that was accessible f",
-      "url": "https://projectzero.google/2026/01/pixel-0-click-part-2.html",
-      "source": "Google Project Zero",
-      "author": "Seth Jenkins",
-      "published": "2026-01-14T10:00:00-08:00",
-      "niche": "security",
-      "score": 57,
-      "keywords": [
-        "exploit",
-        "secure",
-        "RCE"
-      ]
-    },
-    {
       "id": "d79f4149a3ba6256",
       "title": "Windows 11 - Microsoft veut regagner votre confiance",
       "description": "Windows 11 c'est un peu comme ce cousin relou qui s'incruste à tous les repas de famille avec ses nouvelles idées géniales qui ne marcheront jamais. Entre Recall qui capture tout ce qui passe à l'écran (avec les polémiques qu'on connaît...), les \"recommandations\" publicitaires qui s'invitent dans le menu Démarrer et les mises à jour qui font parfois des siennes, la coupe est pleine pour les utilisateurs de Windows ! Du coup, comme tout le monde est en train de se barrer, ceux qui ont du budget v",
@@ -2901,6 +2910,22 @@
       "niche": "security",
       "score": 57,
       "keywords": []
+    },
+    {
+      "id": "ee26d0f5e267a117",
+      "title": "A 0-click exploit chain for the Pixel 9 Part 2: Cracking the Sandbox with a Big Wave",
+      "description": "With the advent of a potential Dolby Unified Decoder RCE exploit, it seemed prudent to see what kind of Linux kernel drivers might be accessible from the resulting userland context, the mediacodec context. As per the AOSP documentation, the mediacodec SELinux context is intended to be a constrained (a.k.a sandboxed) context where non-secure software decoders are utilized. Nevertheless, using my DriverCartographer tool, I discovered an interesting device driver, /dev/bigwave that was accessible f",
+      "url": "https://projectzero.google/2026/01/pixel-0-click-part-2.html",
+      "source": "Google Project Zero",
+      "author": "Seth Jenkins",
+      "published": "2026-01-14T10:00:00-08:00",
+      "niche": "security",
+      "score": 57,
+      "keywords": [
+        "RCE",
+        "secure",
+        "exploit"
+      ]
     },
     {
       "id": "edcea3d70136c4d8",
@@ -2978,6 +3003,37 @@
         "threat",
         "security",
         "cybersecurity"
+      ]
+    },
+    {
+      "id": "3a312c4df7134f62",
+      "title": "Second Round of Critical RCE Bugs in n8n Spikes Corporate Risk",
+      "description": "A new around of vulnerabilities in the popular AI automation platform could let attackers hijack servers and steal credentials, allowing full takeover.",
+      "url": "https://www.darkreading.com/vulnerabilities-threats/critical-flaws-n8n-compromise-customer-security",
+      "source": "Dark Reading",
+      "author": "Jai Vijayan, Contributing Writer",
+      "published": "2026-01-29T21:53:01+00:00",
+      "niche": "security",
+      "score": 56,
+      "keywords": [
+        "RCE",
+        "attack"
+      ]
+    },
+    {
+      "id": "ddb1525a8aa38ac0",
+      "title": "Johnson Controls Metasys Products",
+      "description": "View CSAF Summary Successful exploitation of this vulnerability could result in remote SQL execution, leading to alteration or loss of data. The following versions of Johnson Controls Metasys Products are affected: Metasys Application and Data Server (ADS) (CVE-2025-26385) Metasys Extended Application and Data Server (ADX) (CVE-2025-26385) Metasys LCS8500 (CVE-2025-26385) Metasys NAE8500 (CVE-2025-26385) Metasys System Configuration Tool (SCT) (CVE-2025-26385) Metasys Controller Configuration To",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-027-04",
+      "source": "CISA Cybersecurity Advisories",
+      "author": "CISA",
+      "published": "2026-01-27T12:00:00+00:00",
+      "niche": "security",
+      "score": 56,
+      "keywords": [
+        "vulnerability",
+        "exploit",
+        "CVE-"
       ]
     },
     {
@@ -3211,6 +3267,20 @@
       ]
     },
     {
+      "id": "92ec36b9eb18d080",
+      "title": "Google Presentations Abused for Phishing, (Fri, Jan 30th)",
+      "description": "Charlie, one of our readers, has forwarded an interesting phishing email. The email was sent to users of the Vivladi Webmail service. While not overly convincing, the email is likely sufficient to trick a non-empty group of users:&#xd;",
+      "url": "https://isc.sans.edu/diary/rss/32668",
+      "source": "SANS Internet Storm Center",
+      "author": "Inconnu",
+      "published": "2026-01-30T17:56:10+00:00",
+      "niche": "security",
+      "score": 54,
+      "keywords": [
+        "phishing"
+      ]
+    },
+    {
       "id": "ce2fb4b2a0181c36",
       "title": "Journée européenne de la protection des données : France Télévisions et la CNIL sensibilisent les collégiens",
       "description": "À l’occasion de la journée européenne de la protection des données, le 28&nbsp;janvier, France Télévisions et la CNIL ont proposé un atelier interactif à une centaine de collégiens, mêlant vidéos, conseils pratiques et ressources pédagogiques.",
@@ -3268,23 +3338,6 @@
       "keywords": [
         "protection",
         "RCE"
-      ]
-    },
-    {
-      "id": "bd1eb7c9d50af5f2",
-      "title": "Smarter DDoS security at scale",
-      "description": "In today’s digital landscape, encrypted traffic is the norm—not the exception. While encryption such as Transport Layer Security (TLS) 1.3 protects user privacy and data integrity, it also presents a growing challenge for security teams: How do you defend against threats hidden inside encrypted traffic without overwhelming your systems? The challenge of encrypted DDoS attacks Threat actors are always looking for ways to circumvent modern defenses, and one of the most popular distributed denial-o",
-      "url": "https://www.csoonline.com/article/4117454/smarter-ddos-security-at-scale.html",
-      "source": "CSO Online",
-      "author": "Inconnu",
-      "published": "2026-01-23T18:00:03+00:00",
-      "niche": "security",
-      "score": 52,
-      "keywords": [
-        "attack",
-        "security",
-        "encryption",
-        "threat"
       ]
     },
     {
@@ -3661,20 +3714,6 @@
       ]
     },
     {
-      "id": "0092bf8d2266a3a0",
-      "title": "Healthy Security Cultures Thrive on Risk Reporting",
-      "description": "The signs of an effective security culture are shifting as companies call on CISOs and security teams to raise their hands unabashedly.",
-      "url": "https://www.darkreading.com/cyber-risk/healthy-security-cultures-thrive-on-risk-reporting",
-      "source": "Dark Reading",
-      "author": "Arielle Waldman",
-      "published": "2026-01-23T16:45:35+00:00",
-      "niche": "security",
-      "score": 50,
-      "keywords": [
-        "security"
-      ]
-    },
-    {
       "id": "ecf0968339def99f",
       "title": "Scanning Webserver with /&#x24;(pwd)/ as a Starting Path, (Sun, Jan 25th)",
       "description": "Based on the sensors reporting to ISC, this activity started on the 13 Jan 2026. My own sensor started seeing the first scan on the 21 Jan 2026 with limited probes. So far, this activity has been limited to a few scans based on the reports available in ISC &#x5b;5&#x5d; (select Match Partial URL and Draw):&#xd;",
@@ -3868,11 +3907,11 @@
       "niche": "security",
       "score": 49,
       "keywords": [
-        "threat",
         "exploit",
+        "security advisory",
         "security",
         "vulnerability",
-        "security advisory"
+        "threat"
       ]
     },
     {
@@ -3961,8 +4000,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "attack",
-        "exploit"
+        "exploit",
+        "attack"
       ]
     },
     {
@@ -3976,8 +4015,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "attack",
-        "exploit"
+        "exploit",
+        "attack"
       ]
     },
     {
@@ -3991,8 +4030,8 @@
       "niche": "security",
       "score": 48,
       "keywords": [
-        "exploit",
-        "PoC"
+        "PoC",
+        "exploit"
       ]
     },
     {
@@ -4007,21 +4046,6 @@
       "score": 48,
       "keywords": [
         "threat",
-        "exploit"
-      ]
-    },
-    {
-      "id": "cc4a6ce6bfb71cad",
-      "title": "Pointer leaks through pointer-keyed data structures",
-      "description": "Introduction Some time in 2024, during a Project Zero team discussion, we were talking about how remote ASLR leaks would be helpful or necessary for exploiting some types of memory corruption bugs, specifically in the context of Apple devices. Coming from the angle of “where would be a good first place to look for a remote ASLR leak”, this led to the discovery of a trick that could potentially be used to leak a pointer remotely, without any memory safety violations or timing attacks, in scenario",
-      "url": "https://projectzero.google/2025/09/pointer-leaks-through-pointer-keyed.html",
-      "source": "Google Project Zero",
-      "author": "Jann Horn",
-      "published": "2025-09-26T00:00:00-07:00",
-      "niche": "security",
-      "score": 48,
-      "keywords": [
-        "attack",
         "exploit"
       ]
     },
@@ -4376,8 +4400,8 @@
       "niche": "security",
       "score": 44,
       "keywords": [
-        "CVE-",
-        "security"
+        "security",
+        "CVE-"
       ]
     },
     {
@@ -4437,23 +4461,6 @@
       ]
     },
     {
-      "id": "e972e5e85869d8c6",
-      "title": "OWASP x Google Summer of Code 2025 - Enabling 15 opportunities for impact",
-      "description": "We’re proud to share that OWASP is once again an official mentoring organization for Google Summer of Code (GSoC) 2025—and this year, we’ve secured 15 contributor slots across some of the most impactful open-source security projects in the world. This milestone reinforces OWASP’s ongoing commitment to open-source innovation and highlights the strength of our global community of mentors and contributors, as well as our commitment to education-by-doing with the GSoC program. 🔧 GSoC 2025: What’s on",
-      "url": "http://owasp.org/blog/2025/05/12/GSoC-2025.html",
-      "source": "OWASP News",
-      "author": "Starr Brown",
-      "published": "2025-05-12T07:00:00+00:00",
-      "niche": "security",
-      "score": 43,
-      "keywords": [
-        "OWASP",
-        "security",
-        "secure",
-        "RCE"
-      ]
-    },
-    {
       "id": "f8d093879e2a9a76",
       "title": "Cyber actualités ZATAZ de la semaine du 30 janvier 2026",
       "description": "Cette semaine, l’actu cyber explose avec le retour des ShinyHunters, une fuite monumentale de 6 milliards d’identifiants révélée par le service veille ZATAZ, et des tensions croissantes autour de la protection du débat numérique à l’approche des municipales de 2026....",
@@ -4468,16 +4475,21 @@
       ]
     },
     {
-      "id": "d15d8535bba9d76a",
-      "title": "NETSCOUT recognized for leadership in network detection and response",
-      "description": "We’re proud to share that NETSCOUT has been recognized for industry-leading excellence in network detection and response (NDR). This acknowledgment, from Quadrant Knowledge Solutions’ 2025 SPARK Matrix™ for NDR, highlights what our customers already know: NETSCOUT delivers unmatched visibility, precision, and forensic depth across the world’s most complex digital ecosystems. Below are the strengths that set us apart and continue to define our leadership. The visibility gap no one wants to talk a",
-      "url": "https://www.csoonline.com/article/4117431/netscout-recognized-for-leadership-in-network-detection-and-response.html",
-      "source": "CSO Online",
-      "author": "Inconnu",
-      "published": "2026-01-23T18:00:46+00:00",
+      "id": "e972e5e85869d8c6",
+      "title": "OWASP x Google Summer of Code 2025 - Enabling 15 opportunities for impact",
+      "description": "We’re proud to share that OWASP is once again an official mentoring organization for Google Summer of Code (GSoC) 2025—and this year, we’ve secured 15 contributor slots across some of the most impactful open-source security projects in the world. This milestone reinforces OWASP’s ongoing commitment to open-source innovation and highlights the strength of our global community of mentors and contributors, as well as our commitment to education-by-doing with the GSoC program. 🔧 GSoC 2025: What’s on",
+      "url": "http://owasp.org/blog/2025/05/12/GSoC-2025.html",
+      "source": "OWASP News",
+      "author": "Starr Brown",
+      "published": "2025-05-12T07:00:00+00:00",
       "niche": "security",
-      "score": 42,
-      "keywords": []
+      "score": 43,
+      "keywords": [
+        "RCE",
+        "secure",
+        "OWASP",
+        "security"
+      ]
     },
     {
       "id": "21d0fe8bbcb9b1f1",
@@ -5060,10 +5072,22 @@
       "niche": "security",
       "score": 42,
       "keywords": [
+        "RCE",
         "OWASP",
-        "security",
-        "RCE"
+        "security"
       ]
+    },
+    {
+      "id": "82bf74fee9113b94",
+      "title": "Winslop - Virez le \"Slop\" de Windows 11 en quelques clics",
+      "description": "Yop ! Si vous avez la sensation que votre Windows 11 est devenu une espèce de panneau publicitaire géant bourré d'IA dont vous ne voulez pas, j'ai ce qu'il vous faut !! Satya Nadella (le patron de Microsoft) a récemment parlé de \"Slop\" (ça veut dire bouillie) à propos de l'IA générative dans un billet de blog, mais ironiquement, c'est exactement ce que beaucoup reprochent à son OS aujourd'hui. A savoir que c'est devenu une accumulation de fonctionnalités imposées...",
+      "url": "https://korben.info/winslop-virez-le-slop-de-windows-11-en-quelques-clics.html",
+      "source": "Korben",
+      "author": "Korben",
+      "published": "2026-01-30T17:45:26+01:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": []
     },
     {
       "id": "705d0e93796a64fb",
@@ -5318,8 +5342,8 @@
       "niche": "security",
       "score": 38,
       "keywords": [
-        "OWASP",
-        "RCE"
+        "RCE",
+        "OWASP"
       ]
     },
     {
@@ -5469,10 +5493,10 @@
       "niche": "security",
       "score": 37,
       "keywords": [
-        "patch",
-        "attack",
+        "security",
         "exploit",
-        "security"
+        "attack",
+        "patch"
       ]
     },
     {
@@ -5486,10 +5510,10 @@
       "niche": "security",
       "score": 37,
       "keywords": [
-        "threat",
+        "web application security",
         "OWASP",
-        "security",
-        "web application security"
+        "threat",
+        "security"
       ]
     },
     {
@@ -5503,10 +5527,10 @@
       "niche": "security",
       "score": 34,
       "keywords": [
-        "threat",
+        "cybersecurity",
         "OWASP",
-        "security",
-        "cybersecurity"
+        "threat",
+        "security"
       ]
     },
     {
@@ -5540,20 +5564,6 @@
       ]
     },
     {
-      "id": "af898dc16b7bb6f8",
-      "title": "Healthy Security Cultures Want People to Report Risks",
-      "description": "The signs of an effective security culture are shifting as companies call on CISOs and security teams to raise their hands unabashedly.",
-      "url": "https://www.darkreading.com/cyber-risk/healthy-security-cultures-thrive-on-risk-reporting",
-      "source": "Dark Reading",
-      "author": "Arielle Waldman",
-      "published": "2026-01-23T16:45:35+00:00",
-      "niche": "security",
-      "score": 32,
-      "keywords": [
-        "security"
-      ]
-    },
-    {
       "id": "20667d7bad834c58",
       "title": "Welcome to the new Project Zero Blog",
       "description": "While on Project Zero, we aim for our research to be leading-edge, our blog design was … not so much. We welcome readers to our shiny new blog! For the occasion, we asked members of Project Zero to dust off old blog posts that never quite saw the light of day. And while we wish we could say the techniques they cover are no longer relevant, there is still a lot of work that needs to be done to protect users against zero days. Our new blog will continue to shine a light on the capabilities of atta",
@@ -5576,9 +5586,9 @@
       "niche": "security",
       "score": 31,
       "keywords": [
+        "secure",
         "OWASP",
-        "security",
-        "secure"
+        "security"
       ]
     },
     {
@@ -5592,8 +5602,8 @@
       "niche": "security",
       "score": 30,
       "keywords": [
-        "phishing",
-        "RCE"
+        "RCE",
+        "phishing"
       ]
     },
     {
@@ -5607,10 +5617,10 @@
       "niche": "security",
       "score": 29,
       "keywords": [
-        "attack",
-        "breach",
+        "cybersecurity",
         "security",
-        "cybersecurity"
+        "attack",
+        "breach"
       ]
     },
     {
@@ -5624,10 +5634,10 @@
       "niche": "security",
       "score": 29,
       "keywords": [
-        "threat",
+        "cybersecurity",
         "ransomware",
         "security",
-        "cybersecurity"
+        "threat"
       ]
     },
     {
@@ -5681,8 +5691,8 @@
       "niche": "security",
       "score": 26,
       "keywords": [
-        "exploit",
-        "security"
+        "security",
+        "exploit"
       ]
     },
     {
@@ -5696,8 +5706,8 @@
       "niche": "security",
       "score": 26,
       "keywords": [
-        "injection",
-        "SQL injection"
+        "SQL injection",
+        "injection"
       ]
     },
     {
@@ -5837,8 +5847,8 @@
       "niche": "security",
       "score": 24,
       "keywords": [
-        "injection",
-        "SQL injection"
+        "SQL injection",
+        "injection"
       ]
     },
     {
@@ -5852,8 +5862,8 @@
       "niche": "security",
       "score": 24,
       "keywords": [
-        "injection",
-        "SQL injection"
+        "SQL injection",
+        "injection"
       ]
     },
     {
@@ -5867,9 +5877,9 @@
       "niche": "security",
       "score": 22,
       "keywords": [
-        "threat",
+        "cybersecurity",
         "security",
-        "cybersecurity"
+        "threat"
       ]
     },
     {
@@ -5898,9 +5908,9 @@
       "niche": "security",
       "score": 21,
       "keywords": [
+        "security",
         "threat",
-        "attack",
-        "security"
+        "attack"
       ]
     },
     {
@@ -5942,9 +5952,9 @@
       "niche": "security",
       "score": 19,
       "keywords": [
+        "PoC",
         "cybersecurity",
-        "security",
-        "PoC"
+        "security"
       ]
     },
     {
@@ -5986,8 +5996,8 @@
       "niche": "security",
       "score": 18,
       "keywords": [
-        "attack",
-        "security"
+        "security",
+        "attack"
       ]
     },
     {
@@ -6030,20 +6040,6 @@
       "score": 18,
       "keywords": [
         "attack"
-      ]
-    },
-    {
-      "id": "f4e0668afe45a6c8",
-      "title": "Is AI-Generated Code Secure&#x3f;, (Thu, Jan 22nd)",
-      "description": "The title of this diary is perhaps a bit catchy but the question is important. I don&#x27t consider myself as a good developer. That&#x27s not my day job and I&#x27m writing code to improve my daily tasks. I like to say &#xe2;&#x20ac;&#x153;I&#x27m writing sh&#x2a;ty code&#x21; It works for me, no warranty that it will for for you&#xe2;&#x20ac;&#x9d;. Today, most of my code (the skeleton of the program) is generated by AI, probably like most of you.&#xd;",
-      "url": "https://isc.sans.edu/diary/rss/32648",
-      "source": "SANS Internet Storm Center",
-      "author": "Inconnu",
-      "published": "2026-01-22T08:31:30+00:00",
-      "niche": "security",
-      "score": 15,
-      "keywords": [
-        "secure"
       ]
     },
     {
