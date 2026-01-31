@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-31T02:27:48.299293+00:00",
-  "total_articles": 984,
+  "last_updated": "2026-01-31T04:38:48.072552+00:00",
+  "total_articles": 986,
   "articles": [
     {
       "id": "bcedf0a259da062d",
@@ -268,21 +268,6 @@
       "score": 72,
       "keywords": [
         "release"
-      ]
-    },
-    {
-      "id": "f4f5061859a08f42",
-      "title": "The Complete Git & GitHub Developer Guide",
-      "description": "What is Git? Git is a distributed version control system that tracks changes in your codebase, enabling collaboration and maintaining a complete history of your project. Key Benefits: Track every change made to your code Collaborate with multiple developers simultaneously Revert to previous versions when needed Experiment safely with branches Maintain detailed project history Installation Verify Installation: git --version macOS (via Homebrew): # Install Homebrew first /usr/bin/ruby -e \"$(curl -",
-      "url": "https://dev.to/mohammad1105/the-complete-git-github-developer-guide-3424",
-      "source": "Dev.to",
-      "author": "Mohammad Aman",
-      "published": "2026-01-24T02:31:30+00:00",
-      "niche": "dev",
-      "score": 70,
-      "keywords": [
-        "code",
-        "developer"
       ]
     },
     {
@@ -727,6 +712,30 @@
       "source": "Dev.to",
       "author": "Rost",
       "published": "2026-01-30T09:27:29+00:00",
+      "niche": "dev",
+      "score": 68,
+      "keywords": []
+    },
+    {
+      "id": "2214e67f73195abf",
+      "title": "Debugging a Failing Test Entirely from the Terminal with GitHub Copilot CLI",
+      "description": "This is a submission for the GitHub Copilot CLI Challenge What I Built I built DevFlow, a minimal TypeScript + Node.js project designed to demonstrate a terminal-first debugging workflow using GitHub Copilot CLI. The project intentionally includes a failing unit test. Using natural language prompts in the terminal, I asked Copilot CLI to diagnose the failure, explain the root cause, apply a precise fix, and verify the solution — all without opening an editor. The goal of this project is not appl",
+      "url": "https://dev.to/manoj_kiran_4ff6ecaa902bd/debugging-a-failing-test-entirely-from-the-terminal-with-github-copilot-cli-447a",
+      "source": "Dev.to",
+      "author": "Manoj Kiran",
+      "published": "2026-01-31T04:10:01+00:00",
+      "niche": "dev",
+      "score": 68,
+      "keywords": []
+    },
+    {
+      "id": "c5b4276da9fdcbbe",
+      "title": "Desktop Music Player Using QT for Python - Built with Github Copilot CLI",
+      "description": "This is a submission for the GitHub Copilot CLI Challenge What I Built I have been really into media ownership lately. I have started digitising my vinyl collection this year (using a raspberry pi!) with the goal of abandoning Spotify. Through this, I discovered foobar2000 - a freeware audio player for local music files. While it's good, I decided I wanted to customise my own player to have full control over the style and keep the functionality limited to my needs. Yes I could make a custom skin",
+      "url": "https://dev.to/charlottetowell/desktop-music-player-using-qt-for-python-built-with-github-copilot-cli-45mk",
+      "source": "Dev.to",
+      "author": "Charlotte Towell",
+      "published": "2026-01-31T03:43:45+00:00",
       "niche": "dev",
       "score": 68,
       "keywords": []
@@ -1374,6 +1383,22 @@
         "release",
         "developer",
         "API"
+      ]
+    },
+    {
+      "id": "0ed6e99d394b3cba",
+      "title": "How I Cut API Latency by 95% by Fixing One Hidden Loop ❤️‍🔥",
+      "description": "It started with a Slack message from our support team. “Hey, the organization dashboard feels really slow for some customers. Like… 3–4 seconds slow.” I sighed🥴. Another performance ticket. I hit the endpoint locally: 280ms. Fine. Checked staging: ~320ms. Also fine. “Probably their network,” I thought, closing the tab — a classic developer reflex. But the messages didn’t stop. Every complaint had the same pattern: “It only happens for larger organizations.” The ones with lots of workspaces. Lots",
+      "url": "https://dev.to/naveenc83002940/how-i-cut-api-latency-by-95-by-fixing-one-hidden-loop-4i7j",
+      "source": "Dev.to",
+      "author": "Naveen Chandra Adhikari",
+      "published": "2026-01-31T04:28:30+00:00",
+      "niche": "dev",
+      "score": 58,
+      "keywords": [
+        "performance",
+        "API",
+        "developer"
       ]
     },
     {
@@ -3158,6 +3183,20 @@
       ]
     },
     {
+      "id": "ffeb7379a308fee2",
+      "title": "How Jenkins Slowly Drained Our EFS Burst Credits Over 2 Weeks",
+      "description": "TL;DR Our Jenkins started failing on 1/26, but the root cause began on 1/13. We discovered three compounding issues: Shared Library cache was disabled (existing issue) Switched to disposable agents (1/13 change) Increased build frequency (New Year effect) Result: 50x increase in metadata IOPS → EFS burst credits drained over 2 weeks. Why You Should Care If you're running Jenkins on EFS, this could happen to you. The symptoms appear suddenly, but the root cause often starts weeks earlier. Time-se",
+      "url": "https://dev.to/tielec-takashi/how-jenkins-slowly-drained-our-efs-burst-credits-over-2-weeks-4dg4",
+      "source": "Dev.to",
+      "author": "Yuto Takashi",
+      "published": "2026-01-31T03:58:09+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "library"
+      ]
+    },
+    {
       "id": "869be35c60345a96",
       "title": "The Tao of Architecture: Clearing the Fog of \"Names\" to Return to the Essence of \"Non-Being\"",
       "description": "Introduction: The Ultimate Challenge of Architecture Lies Beyond Code The most complex aspect of system architecture is never writing code—it is clearly and precisely understanding, analyzing, and solving problems . In real-world software engineering, product managers, developers, and business stakeholders often have vastly different understandings and descriptions of the same business scenario. This \"Tower of Babel of cognition\" is the root cause of system decay and architectural collapse. The ",
@@ -3799,34 +3838,6 @@
       "score": 52,
       "keywords": [
         "development",
-        "developer"
-      ]
-    },
-    {
-      "id": "c3d688fa48ffa249",
-      "title": "Your Morning AI Digest: From LeCun's New Venture to eBay's AI Shopping Ban",
-      "description": "Grab your coffee and settle in. This week's AI news is a perfect blend of groundbreaking innovations and reality checks that show us where artificial intelligence is headed—and where it's hitting some speed bumps. Whether you're a developer, tech enthusiast, or just someone trying to keep up with the AI revolution, these five stories capture the state of AI right now. Let's dive in. The Visionaries: New Frontiers in AI Research Yann LeCun's AMI Labs Takes on World Models If you follow AI, you kn",
-      "url": "https://dev.to/ethan_zhang_e501fea89c25b/your-morning-ai-digest-from-lecuns-new-venture-to-ebays-ai-shopping-ban-2hnh",
-      "source": "Dev.to",
-      "author": "Ethan Zhang",
-      "published": "2026-01-24T02:46:50+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "developer"
-      ]
-    },
-    {
-      "id": "62a4851b233e8a71",
-      "title": "Why I Built an Open Source SEO Plugin in 2026",
-      "description": "For years, I watched the WordPress SEO landscape become increasingly dominated by proprietary solutions. Yoast, RankMath, All in One SEO—all powerful tools, but all operating as black boxes. You put your content in, and magic happens. Or does it? The Problem I Kept Running Into As a developer building WordPress sites for clients, I found myself constantly asking: What exactly is this plugin doing to my markup? Every time I inspected the source, I saw meta tags and structured data that I didn't f",
-      "url": "https://dev.to/juandenis/why-i-built-an-open-source-seo-plugin-in-2026-3i1p",
-      "source": "Dev.to",
-      "author": "Juan Denis",
-      "published": "2026-01-24T02:37:00+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
         "developer"
       ]
     },
@@ -5357,64 +5368,46 @@
       ]
     },
     {
-      "id": "af6cffd9d2f7cb6d",
-      "title": "How DNS Resolution Works",
-      "description": "Content List What is DNS and why name resolution exists What is the dig command and when it is used Understanding dig . NS and root name servers Understanding dig com NS and TLD name servers Understanding dig google.com NS and authoritative name servers Understanding dig google.com and the full DNS resolution flow What is DNS and why name resolution exists DNS (Domain Name Systems) are Hierarchical & Decentralized servers for the computers softwares, services, and information over the internet. ",
-      "url": "https://dev.to/anoop-rajoriya/how-dns-resolution-works-2n4i",
+      "id": "bb745e5db8cb509f",
+      "title": "🔍 Beginner-Friendly Guide 'Find Smallest Letter Greater Than Target' - Problem 744 (C++, Python, JavaScript)",
+      "description": "Finding the next item in a sorted list is a fundamental skill in software development. Whether you are navigating a database or building an autocomplete feature, knowing how to efficiently locate the next specific value is essential. This guide will teach you how to use Binary Search to solve this problem with optimal speed. Problem Summary You're given: A sorted list of characters called letters. A specific character called target. Your goal: Find the smallest character in the list that is stri",
+      "url": "https://dev.to/om_shree_0709/beginner-friendly-guide-find-smallest-letter-greater-than-target-problem-744-c-python-25eb",
       "source": "Dev.to",
-      "author": "Anoop Rajoriya",
-      "published": "2026-01-24T03:45:41+00:00",
+      "author": "Om Shree",
+      "published": "2026-01-31T03:55:43+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "development"
+      ]
     },
     {
-      "id": "81aef37e77182c67",
-      "title": "Vibe Coding on a 4GB RAM Chromebook?",
-      "description": "One of the best experiences with a computer I ever had was the 11.6 inch Samsung Chromebook, launched in 2013 back when ChromeOS was basically a Chrome browser. I was wrapping up my undergraduate at Western Washington University & competent access to Google Docs was essentially all I needed to finish the job. After a lifetime of using slow, crash-prone builds of Windows XP & the recent tragedy of Windows 8, Chrome OS was a breath of fresh air. Over the Christmas vacation, I wanted to see how far",
-      "url": "https://dev.to/mikhael28/vibe-coding-on-a-4gb-ram-chromebook-2c8g",
+      "id": "29c05dd5cb6b634d",
+      "title": "To Make My Workflow More Effective, I Tried a Lot",
+      "description": "Through these years, I just want to find a way to make my workflow more effective. Trying different Apps and devices, I just found these methods didn't work. So, what is the problem? The Apps and devices can be changed, but I am still myself. If I don't make myself more effective, the problem will still exist for a long time. Through programming, I just found tools which can make my work easier but ignored to study more to promote my ability. My skills didn't promote with these tools. It just en",
+      "url": "https://dev.to/vilo-time/to-make-my-workflow-more-effective-i-tried-a-lot-3hgd",
       "source": "Dev.to",
-      "author": "Michael 'Misha' Litchev",
-      "published": "2026-01-24T03:34:29+00:00",
+      "author": "VILO",
+      "published": "2026-01-31T03:33:11+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "programming"
+      ]
     },
     {
-      "id": "0939bebc640c8cea",
-      "title": "Building Tamper-Evident Audit Trails: What the 2025 Trading Crisis Taught Us About Cryptographic Logging",
-      "description": "TL;DR In 2025, eight major algorithmic trading incidents caused $400M+ in losses. The common failure? Audit logs that couldn't prove their own integrity. This post shows you how to implement cryptographic audit trails using VeritasChain Protocol (VCP) v1.1—an open standard that transforms \"trust me\" logging into \"verify, don't trust\" evidence chains. What you'll learn: Why traditional logging fails for algorithmic systems VCP's three-layer integrity architecture Python implementation with hash c",
-      "url": "https://dev.to/veritaschain/building-tamper-evident-audit-trails-what-the-2025-trading-crisis-taught-us-about-cryptographic-384f",
+      "id": "8f107276665daf86",
+      "title": "THE SWARM IS HERE: Why Kimi K2.5 Could Be the Death Knell for Wall Street’s AI Gold Rush",
+      "description": "January 30, 2026, 10:20 PM, Boston Time. While the world was sleeping, the tectonic plates of the global economy just shifted. Moonshot AI has officially unleashed Kimi K2.5, an open source juggernaut that is is making the trillion dollar valuations of U.S. tech giants look like a house of cards. Many AI detractors have warned me that AI is in a speculative bubble. I tend to agree. But, the biggest lever point has always been the cost of AI development. If the cost of training AI plummets, that ",
+      "url": "https://dev.to/pithycyborg/the-swarm-is-here-why-kimi-k25-could-be-the-death-knell-for-wall-streets-ai-gold-rush-hpo",
       "source": "Dev.to",
-      "author": "VeritasChain Standards Organization (VSO)",
-      "published": "2026-01-24T03:18:55+00:00",
+      "author": "Pithy Cyborg | AI News Made Simple",
+      "published": "2026-01-31T03:26:17+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "a49f18bf649bb02a",
-      "title": "Electron MAS 빌드에서 HDR 비디오가 화면을 먹통으로 만드는 이유",
-      "description": "문제 상황 Electron 앱의 Mac App Store(MAS) 빌드에서 특정 비디오를 재생하면 전체 창이 먹통이 된다. 증상: <video> 태그로 HDR 비디오 재생 시 전체 윈도우 렌더링 실패 비디오 영역만이 아니라 앱 전체가 하얗게 변함 오디오는 정상 재생 재현 조건: MAS 빌드 (com.apple.security.app-sandbox entitlement 적용) 하드웨어 가속 활성화 10-bit HDR 콘텐츠 (BT.2020 색공간, HEVC/AV1 코덱) iPhone으로 촬영한 HDR 비디오가 대표적인 트리거 정상 동작하는 경우: 로컬 개발 환경 (샌드박스 미적용) Windows 빌드 SDR 비디오 원인: Electron #47947 이 문제는 Electron Issue #47947에 문서화된 regression이다. 버전 정보: Electron 27.3.11: 정상 동작 Electron 28.0.0 ~ 28.1.1: 앱 실행 자체가 크래시 Electron 28.1.2",
-      "url": "https://dev.to/wes5510/electron-mas-bildeueseo-hdr-bidioga-hwamyeoneul-meogtongeuro-mandeuneun-iyu-3o1a",
-      "source": "Dev.to",
-      "author": "wes5510",
-      "published": "2026-01-24T03:05:16+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "27f1539003bfe4e6",
-      "title": "CompTIA Security+ SY0-701 2.2 Study Guide: Threat Vectors and Social Engineering",
-      "description": "This study guide provides an exhaustive review of threat vectors, social engineering techniques, and system vulnerabilities as outlined in the CompTIA Security+ SY0-701 exam objectives. It is designed to help both beginners and experienced practitioners synthesize complex security concepts through detailed analysis and real-world comparisons. 1. Understanding Threat Vectors A threat vector (or attack vector) is the specific method or path an attacker uses to gain unauthorized access to a system.",
-      "url": "https://dev.to/andrew_despres/comptia-security-sy0-701-22-study-guide-threat-vectors-and-social-engineering-370m",
-      "source": "Dev.to",
-      "author": "Andrew Despres",
-      "published": "2026-01-24T03:03:23+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "development"
+      ]
     },
     {
       "id": "00378229d9446606",
@@ -8155,6 +8148,42 @@
       "keywords": []
     },
     {
+      "id": "b2bcf1a5bf64a56b",
+      "title": "20+ Git Commands Every Software Engineer Should Actually Know",
+      "description": "Most engineers use Git every day—but only a handful of commands. That’s fine… until something goes wrong. A bad merge. A wrong commit. A force-push panic. This list covers 20+ Git commands you’ll actually use in real projects, with one-line explanations so you know what they do and when to use them. Core Git Commands Basics 1. git init Creates a new Git repository in the current directory. git init 2. git clone Downloads an existing remote repository to your local machine. git clone <repo-url> 3",
+      "url": "https://dev.to/speaklouder/20-git-commands-every-software-engineer-should-actually-know-1gnf",
+      "source": "Dev.to",
+      "author": "Nilesh Raut",
+      "published": "2026-01-31T04:07:31+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "a5e3a690b1183673",
+      "title": "What makes you instantly bookmark a tool instead of just using it once ?",
+      "description": "I’ve noticed something interesting while building small browser-based tools. Some tools I use once and forget. Some I instantly bookmark for future use. I’m curious what creates that difference for you. Is it: – speed? – clean UI? – no signup? – trust signals? – something else? What makes you think, “I’ll definitely come back to this tool”?",
+      "url": "https://dev.to/bhavin-allinonetools/what-makes-you-instantly-bookmark-a-tool-instead-of-just-using-it-once--4j8a",
+      "source": "Dev.to",
+      "author": "Bhavin Sheth",
+      "published": "2026-01-31T03:33:30+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "b9194ff215822f97",
+      "title": "How to Turn Raw Product Photos Into Studio-Quality Images with AI",
+      "description": "Struggling with dull, poorly lit raw product photos that don't sell? In 2026, AI product photography enhancement lets you turn raw product photos into studio-quality images in minutes—no expensive lights, backdrops, or retouching skills required. Simply upload your basic shots (even from a phone), and advanced AI tools handle lighting fixes, background swaps, shadow additions, detail sharpening, and professional staging for e-commerce-ready visuals that boost conversions. This step-by-step guide",
+      "url": "https://dev.to/mashraf_aiman_b9a968e5c1d/how-to-turn-raw-product-photos-into-studio-quality-images-with-ai-4l2l",
+      "source": "Dev.to",
+      "author": "Mashraf Aiman",
+      "published": "2026-01-31T03:30:13+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "2dd087547a526137",
       "title": "Why Technical Correctness Is Not Enough For Developers Anymore. Because an AI system can be statistically accurate and still fail emotionally.",
       "description": "The Emotional UX of AI: What Developers Miss Jaideep Parashar ・ Jan 25 #webdev #devops #programming #ai",
@@ -8167,20 +8196,6 @@
       "keywords": [
         "developer",
         "programming"
-      ]
-    },
-    {
-      "id": "e49b7a17d131e84c",
-      "title": "Caroline Ellison Former Alameda CEO Released from Prison After 440 Days",
-      "description": "Comments",
-      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26450",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-24T02:59:42+00:00",
-      "niche": "dev",
-      "score": 48,
-      "keywords": [
-        "release"
       ]
     },
     {
@@ -10249,6 +10264,18 @@
       "keywords": []
     },
     {
+      "id": "9e5d058e197a3257",
+      "title": "Stonebraker on CAP theorem and Databases (2010)",
+      "description": "Comments",
+      "url": "https://perspectives.mvdirona.com/2010/04/stonebraker-on-cap-theorem-and-databases/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-30T23:47:28+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "cecd3da845538339",
       "title": "React 19.2",
       "description": "React 19.2 adds new features like Activity, React Performance Tracks, useEffectEvent, and more.",
@@ -10259,8 +10286,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "React 19",
-        "performance"
+        "performance",
+        "React 19"
       ]
     },
     {
@@ -10288,9 +10315,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "release",
+        "performance",
         "code",
-        "performance"
+        "release"
       ]
     },
     {
@@ -10636,6 +10663,18 @@
       "keywords": []
     },
     {
+      "id": "1b2903b5a1b8e398",
+      "title": "I trapped an AI model inside an art installation (2025) [video]",
+      "description": "Comments",
+      "url": "https://www.youtube.com/watch?v=7fNYj0EXxMs",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-30T21:58:46+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
       "id": "4e6d7290f5ff11d8",
       "title": "React Native 0.80 - React 19.1, JS API Changes, Freezing Legacy Arch and much more",
       "description": "Today we are excited to release React Native 0.80!",
@@ -10646,9 +10685,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
+        "release",
         "React 19",
-        "API",
-        "release"
+        "API"
       ]
     },
     {
@@ -10662,8 +10701,8 @@
       "niche": "dev",
       "score": 37,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -10735,8 +10774,8 @@
       "niche": "dev",
       "score": 34,
       "keywords": [
-        "development",
-        "developer"
+        "developer",
+        "development"
       ]
     },
     {
@@ -10947,11 +10986,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "API",
-        "code",
         "release",
-        "framework",
-        "performance"
+        "code",
+        "performance",
+        "API",
+        "framework"
       ]
     },
     {
@@ -11340,8 +11379,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "API",
-        "release"
+        "release",
+        "API"
       ]
     },
     {
@@ -11370,9 +11409,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "developer",
+        "performance",
         "code",
-        "performance"
+        "developer"
       ]
     },
     {
@@ -11386,8 +11425,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -11401,8 +11440,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -11430,9 +11469,9 @@
       "niche": "dev",
       "score": 18,
       "keywords": [
-        "development",
+        "code",
         "developer",
-        "code"
+        "development"
       ]
     },
     {
@@ -11488,8 +11527,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "API",
-        "code"
+        "code",
+        "API"
       ]
     },
     {
@@ -11503,8 +11542,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "developer",
-        "code"
+        "code",
+        "developer"
       ]
     },
     {
@@ -11646,18 +11685,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "77f837326861a30b",
-      "title": "Package Management Is a Wicked Problem",
-      "description": "Comments",
-      "url": "https://nesbitt.io/2026/01/23/package-management-is-a-wicked-problem.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-24T04:24:22+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
     },
     {
       "id": "a6c221bc3ac4803f",
@@ -11922,8 +11949,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "development",
-        "programming"
+        "programming",
+        "development"
       ]
     },
     {
