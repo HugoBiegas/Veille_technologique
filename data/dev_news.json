@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-01-31T06:49:34.615890+00:00",
-  "total_articles": 987,
+  "last_updated": "2026-01-31T09:34:28.376230+00:00",
+  "total_articles": 990,
   "articles": [
     {
       "id": "bcedf0a259da062d",
@@ -287,18 +287,17 @@
       ]
     },
     {
-      "id": "df8e2f4006b7b8cd",
-      "title": "Building Shopify Apps Solo: My React Router 7 + AI Tech Stack",
-      "description": "Two apps. Two months. One developer. Here's the tech stack that made it possible. The Challenge As a solo developer, I wanted to build Shopify apps without drowning in infrastructure complexity. I needed a stack that would let me ship fast, iterate quickly, and not burn out managing separate frontend and backend codebases. After exploring several options, I landed on React Router 7 — and it turned out to be the perfect choice. Why React Router 7? Shopify's Official Recommendation This was the de",
-      "url": "https://dev.to/kulikboxx/building-shopify-apps-solo-my-react-router-7-ai-tech-stack-3dk4",
+      "id": "49d0bcac0fe77204",
+      "title": "How to Stream AI Responses from Rails API to React (SSE Magic ✨)",
+      "description": "🤔 Ever wonder how to stream AI responses to React from Rails? You know that feeling when your users click \"Improve with AI\" and stare at a loading spinner for 30 seconds? Yeah, not great UX. Let me show you how to make AI responses appear word-by-word like ChatGPT, without the complexity of WebSockets. 👉 The Problem Traditional approach: React app → Rails API → OpenAI → Wait 30 seconds → Full response What user sees: Loading spinner forever 😴 The user experience: Clicks button Waits... and waits",
+      "url": "https://dev.to/ganesh_navale/how-to-stream-ai-responses-from-rails-api-to-react-sse-magic--1akc",
       "source": "Dev.to",
-      "author": "Władysław Kulik",
-      "published": "2026-01-24T09:13:14+00:00",
+      "author": "Ganesh Navale",
+      "published": "2026-01-31T09:20:38+00:00",
       "niche": "dev",
-      "score": 70,
+      "score": 72,
       "keywords": [
-        "code",
-        "developer"
+        "API"
       ]
     },
     {
@@ -515,18 +514,6 @@
       "keywords": [
         "developer"
       ]
-    },
-    {
-      "id": "b260257123be02c4",
-      "title": "I Rewrote Google's Gemini CLI in Go - 68x Faster Startup",
-      "description": "TL;DR Google's official Gemini CLI has ~1 second Node.js startup overhead I rewrote it in Go → startup is now 0.01 seconds (68x faster) Reuses auth from official CLI, so your free tier / Workspace quota just works https://github.com/tomohiro-owada/gmn Why I Built This Google's official Gemini CLI is an amazing tool. Rich TUI, seamless Google authentication, excellent MCP support. I loved using it. But there was one issue for my use case: startup time. $ time gemini --version 0.22.2 gemini --vers",
-      "url": "https://dev.to/owada_tomohiro_28ec22f5ee/i-rewrote-googles-gemini-cli-in-go-68x-faster-startup-30em",
-      "source": "Dev.to",
-      "author": "Owada Tomohiro",
-      "published": "2026-01-24T08:50:45+00:00",
-      "niche": "dev",
-      "score": 68,
-      "keywords": []
     },
     {
       "id": "b3fa31fd2a1e575d",
@@ -2151,34 +2138,6 @@
       ]
     },
     {
-      "id": "9195859a0e0fd32f",
-      "title": "CVE-2026-21227 | Azure Logic Apps Elevation of Privilege Vulnerability",
-      "description": "Read Complete Article ## | https://www.aakashrahsi.online/post/cve-2026-21227 The quiet truth: your automation plane is a privilege plane Azure Logic Apps is not “just workflows.” It’s an execution surface that touches identity, secrets, APIs, storage, SaaS connectors, and business process state. That’s why CVE-2026-21227 (Azure Logic Apps Elevation of Privilege) matters: when privilege shifts inside your automation layer, the blast radius isn’t theoretical — it’s connectors, credentials, and do",
-      "url": "https://dev.to/aakash_rahsi/cve-2026-21227-azure-logic-apps-elevation-of-privilege-vulnerability-8jb",
-      "source": "Dev.to",
-      "author": "Aakash Rahsi",
-      "published": "2026-01-24T08:57:29+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "API"
-      ]
-    },
-    {
-      "id": "e895ac3c9f9af6f1",
-      "title": "Solved: Syncing Zoom Recordings to DropBox for Long-term Storage",
-      "description": "🚀 Executive Summary TL;DR: Managing Zoom cloud recordings for long-term storage in Dropbox is often unscalable due to Zoom’s retention limits and manual overhead. This guide provides a robust Python script leveraging Zoom and Dropbox APIs to automate the fetching, downloading, and secure uploading of recordings, ensuring data durability and compliance. The solution involves setting up Server-to-Server OAuth for Zoom and an API app for Dropbox, then scheduling the script with cron for continuous ",
-      "url": "https://dev.to/techresolve/solved-syncing-zoom-recordings-to-dropbox-for-long-term-storage-28h3",
-      "source": "Dev.to",
-      "author": "Darian Vance",
-      "published": "2026-01-24T08:50:53+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "API"
-      ]
-    },
-    {
       "id": "31643099855fea5e",
       "title": "Scalable Image upload and storage system - HLD",
       "description": "Table of Contents Problem Statement Requirements Functional Requirements Non Functional Requirements High Level Components (HLD) Core Components Simple ASCII Architecture Diagram Key Concepts Explained Cryptographic Hash (SHA-256) Idempotency Complete Upload Flows Flow 1: Direct Upload (No Duplication) Flow 2: Direct Upload (Duplicate Already Exists) Flow 3: Same Image Uploaded by Multiple Users API Design Multipart Upload Example Storage Design Storage Options Object Storage Metadata Storage Sy",
@@ -3768,62 +3727,6 @@
       "keywords": [
         "development",
         "developer"
-      ]
-    },
-    {
-      "id": "dad560a2cf93e277",
-      "title": "How to Be Someone Who Makes Your Colleagues Shine",
-      "description": "Something happened recently during a team meeting. A junior developer finally finished a feature they'd been working on for weeks and showed us a demo. Honestly, when I first saw the design, I thought, \"This needs a different approach...\" But I held back and watched. Surprisingly, they solved the problem in a way I never expected. After the meeting, the team lead asked me: \"Did you help with this feature's design?\" I felt a strange mix of emotions. 'It would be easy to say I helped...' But inste",
-      "url": "https://dev.to/manager_log/how-to-be-someone-who-makes-your-colleagues-shine-59mg",
-      "source": "Dev.to",
-      "author": "BJ Kim",
-      "published": "2026-01-24T08:58:39+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "developer"
-      ]
-    },
-    {
-      "id": "3426b594ab5266c8",
-      "title": "A Brief Pause, and What’s Next in My 90-Day Web3 Learning Journey",
-      "description": "A Quick Explanation It’s been about nine days since my last post, so I want to be transparent about the pause. During this period, I transitioned into a new role at a new company. While it’s not in the Web3 space, the onboarding process required a significant amount of focus — getting familiar with the codebase, internal tooling, and the team’s workflow. Rather than rushing low-quality updates, I decided to temporarily pause publishing and give myself the space to properly settle in. That contex",
-      "url": "https://dev.to/yanjun/a-brief-pause-and-whats-next-in-my-90-day-web3-learning-journey-2pg9",
-      "source": "Dev.to",
-      "author": "yanjun qiu",
-      "published": "2026-01-24T08:55:44+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "3faeac8109f5a75b",
-      "title": "pytest-html-plus VS Code — A Must-Have Extension If You Run Pytests",
-      "description": "The problem no one talks about HTML reports even our own pytest-html-plus are usually opened like this: Download artifact Unzip Open HTML Scroll Switch back to code Switch back to browser Repeat It works — but it breaks flow. When you’re debugging, context switching is the real tax. That’s exactly where pytest-html-plus-vscode fits in. Reports should live where you work _Your reports must be in the same place where you are fixing the bugs, no matter where your tests might have ran The VS Code ex",
-      "url": "https://dev.to/kevi019/pytest-html-plus-vs-code-a-must-have-extension-if-you-run-pytests-e3h",
-      "source": "Dev.to",
-      "author": "Kevi",
-      "published": "2026-01-24T08:54:06+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "1262844d915d556a",
-      "title": "Story of 'smoodit' (1) : Electron to Tauri",
-      "description": "This article documents the story behind the development of text editor named as smoodit, and the lessons learned along the way. Plan, and starting The primary objective which I've plan was to implement private-based text editor desktop application with assistant, to boost editing efficiency by offering predictive text capabilities that anticipate user's needs. On making PoC, I started with Electron platform, which is close to the industry standard. I initially thought about calling external LLM(",
-      "url": "https://dev.to/kination/story-of-smoodit-1-electron-to-tauri-3n7e",
-      "source": "Dev.to",
-      "author": "kination",
-      "published": "2026-01-24T08:39:15+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "development"
       ]
     },
     {
@@ -5423,16 +5326,60 @@
       ]
     },
     {
-      "id": "e198aec2a23c99e5",
-      "title": "Between Delegation and Hands-On Leadership",
-      "description": "As I assigned a task to a junior colleague, questions flooded my mind. Should I step back and let them handle it, or should I stay closely involved? This decision turned out to be harder than I expected. After leading various teams for about 10 years, I'd like to share my thoughts on how to choose between delegation and close collaboration. Delegation Works When You Think Alike The right time to delegate is when your thinking aligns with the other person's in the big picture. When this alignment",
-      "url": "https://dev.to/manager_log/between-delegation-and-hands-on-leadership-1p4i",
+      "id": "4da7c3f7e35ab556",
+      "title": "Starting Without a Perfect Plan",
+      "description": "On the last day of each month, I take a moment to pause and reflect. This post kicks off a monthly series where I look back at what went well, what didn't, and what I've learned along the way. When I joined DEV at the start of January, I first introduced myself in the Welcome Thread and followed it up with the traditional Hello World! post. That post got nearly forty views but little traction - which was to be expected. The next day, I published the first post in the Learning with freeCodeCamp s",
+      "url": "https://dev.to/richardpascoe/starting-without-a-perfect-plan-4d4d",
       "source": "Dev.to",
-      "author": "BJ Kim",
-      "published": "2026-01-24T08:50:27+00:00",
+      "author": "Richard Pascoe",
+      "published": "2026-01-31T09:30:58+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
+    },
+    {
+      "id": "2e23998093225b5e",
+      "title": "Securing Test Environments: Eliminating Leaking PII Through DevOps Strategies",
+      "description": "Protecting Test Environments from PII Leaks in Large-Scale Enterprise Deployments In today's enterprise landscape, safeguarding Personally Identifiable Information (PII) in non-production environments is a critical security challenge. Despite strict compliance requirements, many organizations struggle with inadvertent PII exposure during testing phases due to inconsistencies in data handling and insufficient automation. As a Senior Developer and Architect, I’ve led efforts to embed robust securi",
+      "url": "https://dev.to/mohammad_waseem_c31f3a26f/securing-test-environments-eliminating-leaking-pii-through-devops-strategies-3m5",
+      "source": "Dev.to",
+      "author": "Mohammad Waseem",
+      "published": "2026-01-31T09:30:45+00:00",
+      "niche": "dev",
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
+    },
+    {
+      "id": "e1341cedbeaa489b",
+      "title": "5 App Store Screenshot Mistakes Killing Conversions (2026)",
+      "description": "It is 2026, and the App Store has never been more competitive. You might have the cleanest code and the most innovative features on the market, but if your product page does not convert, your app is effectively invisible. The gatekeeper to your success is not the algorithm alone; it is the split-second decision a user makes when glancing at your screenshots. Research confirms that users scan rather than read. On iOS, the first three screenshots visible in search results receive the highest numbe",
+      "url": "https://dev.to/appscreenshotstudio/5-app-store-screenshot-mistakes-killing-conversions-2026-5adp",
+      "source": "Dev.to",
+      "author": "Appscreenshotstudio",
+      "published": "2026-01-31T09:23:00+00:00",
+      "niche": "dev",
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
+    },
+    {
+      "id": "5ad4fe151bda7eb8",
+      "title": "Taming Dirty Data: Strategic Data Cleaning with TypeScript in the Absence of Documentation",
+      "description": "In modern software development, data quality is paramount. As a Lead QA Engineer, one of the common yet challenging scenarios involves cleaning inherently dirty or inconsistent datasets—especially when proper documentation and metadata are lacking. This post explores robustly addressing data cleansing using TypeScript, emphasizing strategies and practices that ensure reliability and maintainability. Recognizing the Challenge Often, data collected from disparate sources or legacy systems arrives ",
+      "url": "https://dev.to/mohammad_waseem_c31f3a26f/taming-dirty-data-strategic-data-cleaning-with-typescript-in-the-absence-of-documentation-362",
+      "source": "Dev.to",
+      "author": "Mohammad Waseem",
+      "published": "2026-01-31T09:11:41+00:00",
+      "niche": "dev",
+      "score": 51,
+      "keywords": [
+        "development"
+      ]
     },
     {
       "id": "5f83bc4d81a81e77",
@@ -8185,6 +8132,78 @@
       "keywords": []
     },
     {
+      "id": "e85f8ab4bd20efdb",
+      "title": "Handling Production issue - Scaling Amazon Kinesis and AWS Lambda",
+      "description": "Introduction Amazon Kinesis Data Streams (provisioned mode) and AWS Lambda are commonly paired to build event-driven pipelines. Getting them to scale predictably requires understanding how capacity is allocated (shards), how Lambda consumes shards, and which operational signals reveal problems. This note corrects common terminology and gives concrete actions you can take when streams backlog or show increased latency. 1. Kinesis fundamentals Shards are the unit of scale. Per-shard limits (provis",
+      "url": "https://dev.to/ankitmalikg/handling-production-issue-scaling-amazon-kinesis-and-aws-lambda-3f3n",
+      "source": "Dev.to",
+      "author": "Ankit malik",
+      "published": "2026-01-31T09:27:30+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "b12655d0d59caef9",
+      "title": "from typing import FinallyAnExplanation",
+      "description": "Typing in Python has been a long evolution. A long evolution attempting to reconcile the flexibility of dynamic typing with the safety of static typing. Quoting from The Zen of Python (PEP 20), I would definitely argue that this principle: \"There should be one — and preferably only one — obvious way to do it.\" does not hold true for typing in Python. There is definitely not one way to do typing and the right way is definitely not obvious — unless you take the time to understand its evolution. Wh",
+      "url": "https://dev.to/frank-895/from-typing-import-finallyanexplanation-8m8",
+      "source": "Dev.to",
+      "author": "Frank Snelling",
+      "published": "2026-01-31T09:20:52+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "8058bf0c803da245",
+      "title": "Reliability vs Uptime: Why Availability Fails at Scale",
+      "description": "Uptime tells you whether your system is running. Reliability tells you whether users can actually get things done. At scale, it's common to see dashboards glowing green — 99.99% uptime, healthy services — while users are: failing to check out, stuck on login, receiving incorrect or partial data. The problem isn’t bad luck. The problem is that availability is not reliability. Uptime is binary. Reliability is not. Uptime / Availability answers: Is the service responding? Reliability answers: Can u",
+      "url": "https://dev.to/optyxstack/reliability-uptime-why-availability-fails-at-scale-59dg",
+      "source": "Dev.to",
+      "author": "Daniel R. Foster",
+      "published": "2026-01-31T09:13:02+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "406edfaca662869c",
+      "title": "Mastering Email Flow Validation with SQL: A Senior Architect’s Approach",
+      "description": "Introduction Ensuring the integrity of email flows is a critical aspect of maintaining reliable communication systems. In complex architectures, especially when documentation is lacking, leveraging SQL for validation tasks becomes both a challenge and an opportunity. As a senior architect, relying on standard procedures can be insufficient; instead, a deep understanding of the underlying data and flow patterns is essential. The Challenge of Uncharted Territory Without proper documentation, decip",
+      "url": "https://dev.to/mohammad_waseem_c31f3a26f/mastering-email-flow-validation-with-sql-a-senior-architects-approach-54pf",
+      "source": "Dev.to",
+      "author": "Mohammad Waseem",
+      "published": "2026-01-31T08:59:31+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "58e30e35620e7ea0",
+      "title": "Thamotharan Gopal - Cloud & DevOps Architect Portfolio",
+      "description": "This is a submission for the New Year, New You Portfolio Challenge Presented by Google AI About Me I'm Thamotharan Gopal, a Senior Cloud & DevOps Architect with 14+ years of experience in the technology industry, including 12+ years specializing in cloud infrastructure and DevOps practices across AWS, Azure, and GCP. My journey in technology has been driven by a passion for building resilient, scalable, and cost-effective cloud solutions. I specialize in multi-cloud architecture, Kubernetes plat",
+      "url": "https://dev.to/thamotharan_g_4f83b1f4b72/thamotharan-gopal-cloud-devops-architect-portfolio-2p0l",
+      "source": "Dev.to",
+      "author": "Thamotharan G",
+      "published": "2026-01-31T08:55:05+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "71f684f5a31f45a0",
+      "title": "Short Month, Big Ideas (February 2026 Wallpapers Edition)",
+      "description": "Let’s make the most of the shortest month of the year with a new collection of desktop wallpapers that are sure to bring a smile to your face — and maybe spark your creativity, too. All of them were designed with love by the community for the community and can be downloaded for free. Happy February!",
+      "url": "https://smashingmagazine.com/2026/01/desktop-wallpaper-calendars-february-2026/",
+      "source": "Smashing Magazine",
+      "author": "hello@smashingmagazine.com (Cosima Mielke)",
+      "published": "2026-01-31T09:00:00+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "2dd087547a526137",
       "title": "Why Technical Correctness Is Not Enough For Developers Anymore. Because an AI system can be statistically accurate and still fail emotionally.",
       "description": "The Emotional UX of AI: What Developers Miss Jaideep Parashar ・ Jan 25 #webdev #devops #programming #ai",
@@ -8537,18 +8556,6 @@
       ]
     },
     {
-      "id": "f21a92b4b27fc176",
-      "title": "Cville",
-      "description": "Check out this Pen Im making N iterating on here lately for my community!",
-      "url": "https://dev.to/roy_hodgejr_747b4aefb46/cville-1h66",
-      "source": "Dev.to",
-      "author": "Roy Hodge Jr.",
-      "published": "2026-01-24T08:49:17+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
       "id": "578c414a9aceb231",
       "title": "Doing gigabit Ethernet over my British phone wires",
       "description": "Comments",
@@ -8556,18 +8563,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2026-01-24T10:14:31+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "0cf8e300bad144e9",
-      "title": "Modetc: Move your dotfiles from kernel space",
-      "description": "Comments",
-      "url": "https://maxwell.eurofusion.eu/git/rnhmjoj/modetc",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-24T08:16:25+00:00",
       "niche": "dev",
       "score": 44,
       "keywords": []
@@ -10277,6 +10272,42 @@
       "keywords": []
     },
     {
+      "id": "89024d44fb0c1c2a",
+      "title": "Sumerian Star Map Recorded the Impact of an Asteroid (2024)",
+      "description": "Comments",
+      "url": "https://archaeologyworlds.com/5500-year-old-sumerian-star-map-recorded/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-31T07:32:51+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "27ce52eb4b44e82b",
+      "title": "YouTube blocks background video playback on Brave and other Browsers",
+      "description": "Comments",
+      "url": "https://piunikaweb.com/2026/01/28/youtube-background-play-samsung-internet-brave/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-31T07:54:58+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "48f4b5206ae92e4e",
+      "title": "How to Add Multi-Language Support in Flutter: Manual and AI-Automated Translations for Flutter Apps",
+      "description": "As Flutter applications scale beyond a single market, language support becomes a critical requirement. A well-designed app should feel natural to users regardless of their locale, automatically adapting to their language preferences while still givin...",
+      "url": "https://www.freecodecamp.org/news/how-to-add-multi-language-support-in-flutter-manual-and-ai-automated-translations-for-flutter-apps/",
+      "source": "freeCodeCamp",
+      "author": "Atuoha Anthony",
+      "published": "2026-01-31T01:27:17+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "cecd3da845538339",
       "title": "React 19.2",
       "description": "React 19.2 adds new features like Activity, React Performance Tracks, useEffectEvent, and more.",
@@ -10287,8 +10318,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "React 19",
-        "performance"
+        "performance",
+        "React 19"
       ]
     },
     {
@@ -10698,8 +10729,8 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
-        "React 19",
         "release",
+        "React 19",
         "API"
       ]
     },
@@ -10714,8 +10745,8 @@
       "niche": "dev",
       "score": 37,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -10757,8 +10788,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -10772,8 +10803,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -10787,8 +10818,8 @@
       "niche": "dev",
       "score": 34,
       "keywords": [
-        "developer",
-        "development"
+        "development",
+        "developer"
       ]
     },
     {
@@ -10830,8 +10861,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "framework",
-        "API"
+        "API",
+        "framework"
       ]
     },
     {
@@ -11000,9 +11031,9 @@
       "score": 30,
       "keywords": [
         "release",
-        "code",
         "framework",
         "performance",
+        "code",
         "API"
       ]
     },
@@ -11407,8 +11438,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "framework",
-        "release"
+        "release",
+        "framework"
       ]
     },
     {
@@ -11438,8 +11469,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -11453,8 +11484,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -11794,6 +11825,18 @@
       "keywords": []
     },
     {
+      "id": "635a567b3ea4ae0a",
+      "title": "An anecdote about backward compatibility",
+      "description": "Comments",
+      "url": "https://blog.plover.com/2026/01/26/#wrterm",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-26T17:07:37+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
       "id": "9c31721ef2924bc9",
       "title": "Responsive Hexagon Grid Using Modern CSS",
       "description": "A while back, Temani tacked a repeating grid of hexagon shapes. Well, he's updated it with modern CSS features that result in fewer magic numbers. And it's impressive! Responsive Hexagon Grid Using Modern CSS originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
@@ -11885,18 +11928,6 @@
       "source": "Smashing Magazine",
       "author": "hello@smashingmagazine.com (Cosima Mielke)",
       "published": "2025-12-31T09:00:00+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "6419afffe5779bfe",
-      "title": "How To Design For (And With) Deaf People",
-      "description": "Practical UX guidelines to keep in mind for 466 million people who experience hearing loss. More design patterns in Smart Interface Design Patterns, a **friendly video course on UX** and design patterns by Vitaly.",
-      "url": "https://smashingmagazine.com/2025/12/how-design-for-with-deaf-people/",
-      "source": "Smashing Magazine",
-      "author": "hello@smashingmagazine.com (Vitaly Friedman)",
-      "published": "2025-12-30T10:00:00+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
