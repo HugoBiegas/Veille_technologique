@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-31T09:34:28.376230+00:00",
+  "last_updated": "2026-01-31T12:59:36.219399+00:00",
   "total_articles": 990,
   "articles": [
     {
@@ -348,20 +348,6 @@
       ]
     },
     {
-      "id": "8ee21ee1f8727014",
-      "title": "GitHub Copilot CLI + MCP: Talk to Your Database in Plain English",
-      "description": "Here is a quick demo of how to interact with Azure Cosmos DB from GitHub Copilot CLI using MCP. This MCP server lets you interact with Azure Cosmos DB using plain English instead of writing queries or clicking through the portal. List databases, create containers, run SQL queries, add items — all through natural language. It works with both the Cosmos DB service and the vNext emulator (for local development). The part I really enjoy is watching Copilot CLI figure out which tools to call to get t",
-      "url": "https://dev.to/abhirockzz/github-copilot-cli-mcp-talk-to-your-database-in-plain-english-3go4",
-      "source": "Dev.to",
-      "author": "Abhishek Gupta",
-      "published": "2026-01-24T11:56:09+00:00",
-      "niche": "dev",
-      "score": 69,
-      "keywords": [
-        "development"
-      ]
-    },
-    {
       "id": "72a9f1b25921bc3c",
       "title": "Super Simple Guide: Get Your Code on GitHub",
       "description": "Before we get started, we have to understand what Git is and why version control is important. 1. What is Git? Think of Git as a magic notebook for your code: Every time you write or change your code, Git can take a snapshot. You can go back in time to see old versions. You can share your code with others and combine changes. In simple words: Git is a tool that helps programmers keep track of code changes and collaborate safely. How Git works (very simple): Repository (repo): Your project folder",
@@ -516,16 +502,18 @@
       ]
     },
     {
-      "id": "b3fa31fd2a1e575d",
-      "title": "OpenAI's testament to Postgresql reliability",
-      "description": "As someone who has seen the \"Postgres vs The World\" wars more times than I’ve seen successful schema migrations, I find OpenAI's engineering blog on scaling PostgreSQL to be a fascinating study in Brute Force meets Elegance. It is truly heartwarming to see a trillion-dollar AI powerhouse wrestling with the same VACUUM issues and connection storms that haunt a weekend Shopify plugin. Here's my analysis their journey, contrasted with the \"grass is greener\" alternatives of the RDBMS world. 1. Crack",
-      "url": "https://dev.to/alexis_gilgonzales_c5d9a/openais-testament-to-postgresql-reliability-12o2",
+      "id": "2320ccaa4d22930b",
+      "title": "The $100B OpenAI-Nvidia Deal Is on Ice — What It Means for AI Developers",
+      "description": "The Wall Street Journal reported today that Nvidia's plan to invest up to $100 billion in OpenAI has stalled, with insiders at the chip giant expressing doubts about the deal. This isn't a minor procurement hiccup. This was the single largest AI infrastructure commitment ever announced — and it's now frozen. If you're building on AI, this matters. What Was the Deal? In September 2025, Nvidia and OpenAI announced a memorandum of understanding at Nvidia's Santa Clara headquarters: Nvidia would bui",
+      "url": "https://dev.to/damogallagher/the-100b-openai-nvidia-deal-is-on-ice-what-it-means-for-ai-developers-4chh",
       "source": "Dev.to",
-      "author": "Alexis",
-      "published": "2026-01-24T11:54:21+00:00",
+      "author": "Damien Gallagher",
+      "published": "2026-01-31T12:13:25+00:00",
       "niche": "dev",
-      "score": 68,
-      "keywords": []
+      "score": 69,
+      "keywords": [
+        "developer"
+      ]
     },
     {
       "id": "45e8d976f93322d5",
@@ -774,18 +762,6 @@
         "performance",
         "API"
       ]
-    },
-    {
-      "id": "46572525249398db",
-      "title": "MS confirms it will give the FBI your Windows PC data encryption key if asked",
-      "description": "Comments",
-      "url": "https://www.windowscentral.com/microsoft/windows-11/microsoft-bitlocker-encryption-keys-give-fbi-legal-order-privacy-nightmare",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-24T12:55:22+00:00",
-      "niche": "dev",
-      "score": 62,
-      "keywords": []
     },
     {
       "id": "34e09de84e644cb2",
@@ -1182,6 +1158,23 @@
       "niche": "dev",
       "score": 62,
       "keywords": []
+    },
+    {
+      "id": "b37971653e9acaac",
+      "title": "Backend Mastery from First Principles in the AI Era: (2026 Edition)",
+      "description": "In today's world of rapid framework hype — Express one week, NestJS the next, then Gin, FastAPI, or Spring Boot — many developers build APIs without truly understanding why the systems behave the way they do. They copy-paste middleware chains, slap on JWT auth, throw in Redis for caching, and call it \"production-ready.\" But when things break at scale — race conditions appear, graceful shutdowns fail, observability is missing, or a simple misconfigured route leaks sensitive data — the cracks show",
+      "url": "https://dev.to/girma35/backend-mastery-from-first-principles-in-the-ai-era-2026-edition-5col",
+      "source": "Dev.to",
+      "author": "Girma",
+      "published": "2026-01-31T12:46:36+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": [
+        "API",
+        "Spring",
+        "framework",
+        "developer"
+      ]
     },
     {
       "id": "1934d62cd0caa524",
@@ -2135,34 +2128,6 @@
       "keywords": [
         "API",
         "tutorial"
-      ]
-    },
-    {
-      "id": "31643099855fea5e",
-      "title": "Scalable Image upload and storage system - HLD",
-      "description": "Table of Contents Problem Statement Requirements Functional Requirements Non Functional Requirements High Level Components (HLD) Core Components Simple ASCII Architecture Diagram Key Concepts Explained Cryptographic Hash (SHA-256) Idempotency Complete Upload Flows Flow 1: Direct Upload (No Duplication) Flow 2: Direct Upload (Duplicate Already Exists) Flow 3: Same Image Uploaded by Multiple Users API Design Multipart Upload Example Storage Design Storage Options Object Storage Metadata Storage Sy",
-      "url": "https://dev.to/zeeshanali0704/scalable-image-upload-and-storage-system-hld-52i2",
-      "source": "Dev.to",
-      "author": "ZeeshanAli-0704",
-      "published": "2026-01-24T12:05:02+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "API"
-      ]
-    },
-    {
-      "id": "817df0fa5ccae94f",
-      "title": "AI Agents Are Getting Smarter, But Individual Builders Are Taking the Risk",
-      "description": "AI agents are everywhere right now. They reason better, plan longer, and chain tools more intelligently than ever. But once you try to actually build or operate one, a familiar pattern shows up. Agents still fail at basic things: logging into real websites navigating dynamic UIs surviving API rate limits adapting to policy or access changes At that point, it stops feeling like a model problem. Smarter agents, same constraints Most AI agents today can only act through single-platform APIs. APIs a",
-      "url": "https://dev.to/sela_network/ai-agents-are-getting-smarter-but-individual-builders-are-taking-the-risk-278m",
-      "source": "Dev.to",
-      "author": "Sela Network",
-      "published": "2026-01-24T12:02:24+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "API"
       ]
     },
     {
@@ -3730,44 +3695,32 @@
       ]
     },
     {
-      "id": "62496caee314577a",
-      "title": "[POG-03] Prompts as First-class Software Assets: Stop Treating Your Gold Like Stones",
-      "description": "The Path We Have Traveled in the History of Software Engineering Throughout the history of software engineering, we have continuously learned how to turn \"important things\" into assets. Code: Evolved from non-reusable scripts to source code version-controlled via Git. Infrastructure: Evolved from manually configured servers to \"Infrastructure as Code\" (IaC) managed via Terraform/Ansible. Test Cases: Evolved from ad-hoc test scripts to automated, repeatable test suites. Reusability: Evolved from ",
-      "url": "https://dev.to/enjtorian/pog-03-prompts-as-first-class-software-assets-stop-treating-your-gold-like-stones-3jc3",
+      "id": "4359117850be84e6",
+      "title": "Why CLAUDE.md Is one of the Most Important File in Your Codebase",
+      "description": "Why CLAUDE.md Is the Most Important File in Your Codebase After building 10+ production applications with Claude Code at BuildrLab, I can say with confidence: the single biggest lever for AI-assisted development isn't your prompt engineering skills, your model choice, or even your tech stack. It's a file called CLAUDE.md. The Problem: Context Amnesia Every time you start a Claude Code session, you're talking to an incredibly capable engineer who knows nothing about your project. No idea about yo",
+      "url": "https://dev.to/damogallagher/why-claudemd-is-one-of-the-most-important-file-in-your-codebase-292a",
       "source": "Dev.to",
-      "author": "Ted Enjtorian",
-      "published": "2026-01-24T12:30:53+00:00",
+      "author": "Damien Gallagher",
+      "published": "2026-01-31T12:28:43+00:00",
       "niche": "dev",
-      "score": 51,
+      "score": 52,
       "keywords": [
+        "development",
         "code"
       ]
     },
     {
-      "id": "35d97ae3b1cb4a1c",
-      "title": "CQRS Pattern in Flutter: Commands vs Queries",
-      "description": "When building Flutter applications with Clean Architecture, one pattern that dramatically improves code clarity is Command Query Responsibility Segregation (CQRS). In this article, I'll show you how I implement CQRS in a real Flutter project. What is CQRS? CQRS separates read operations (Queries) from write operations (Commands): Type Purpose Side Effects Command Mutate state (create, update, delete) Yes Query Read data No This separation makes your code: ✅ Easier to test (queries are always ide",
-      "url": "https://dev.to/deveminsahin/cqrs-pattern-in-flutter-commands-vs-queries-24kc",
+      "id": "bc27c703966ca686",
+      "title": "Introducing ACP Bridge to Amp Code",
+      "description": "Superagentic AI is proud to launch acp-amp, an open source adapter that bridges Amp Code to the Agent Client Protocol. We loved using Amp Code so much that we wanted to integrate it with SuperQode, our own agentic quality engineering product. Now you can run Amp inside Zed, SuperQode, and any ACP compatible client. The Agent Client Protocol (ACP) is an emerging standard that allows AI coding agents to communicate with editors and development tools through a unified interface. With acp-amp, you g",
+      "url": "https://dev.to/shashikant86/introducing-acp-bridge-to-amp-code-50kc",
       "source": "Dev.to",
-      "author": "Emin Şahin",
-      "published": "2026-01-24T12:22:43+00:00",
+      "author": "Shashi Jagtap",
+      "published": "2026-01-31T12:25:49+00:00",
       "niche": "dev",
-      "score": 51,
+      "score": 52,
       "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "15f50d5769faa99e",
-      "title": "Quark's Outlines: Python Built-in Functions",
-      "description": "Quark’s Outlines: Python Built-in Functions Overview, Historical Timeline, Problems & Solutions An Overview of Python Built-in Functions What is a Python built-in function? You often need to do simple things in your code like find a number’s length or sort a list. Python gives you many built-in functions to help with these tasks. These functions work without importing any modules. They are always ready to use. A Python built-in function is a name like len, print, or sum. It maps to a function wr",
-      "url": "https://dev.to/mike-vincent/quarks-outlines-python-built-in-functions-35e7",
-      "source": "Dev.to",
-      "author": "Mike Vincent",
-      "published": "2026-01-24T12:12:12+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
+        "development",
         "code"
       ]
     },
@@ -5382,40 +5335,18 @@
       ]
     },
     {
-      "id": "5f83bc4d81a81e77",
-      "title": "Unity DOTS : Entity [Part-2]",
-      "description": "In the \"Introduction\" we stuck with \"Entity → It is an identifier.\" but there is a lot more to it. An Entity is more of an ID provider. This ID is given to all the unique components that come under the one Entity. For example, if there is a GameObject which represents a cube, it will have a Transform, Mesh Filter, Mesh Renderer, Box Collider, etc. These are components in Authoring data format. When they are converted into an Entity, these properties will turn into Runtime data format. The logic(",
-      "url": "https://dev.to/whoami--remon/unity-dots-entity-part-2-4oh",
+      "id": "aac7390b97cbddfa",
+      "title": "Solana Vulnerabilities Every Developer Should Know",
+      "description": "Solana Security: The $500M+ Lesson $325 million stolen from Wormhole. $115 million drained from Mango Markets. $52 million vanished from Cashio. These aren't hypothetical scenarios or theoretical attacks. These are real hacks that happened on Solana, affecting real projects, and costing real money to real people. Between 2021 and 2025, Solana-based protocols have lost over $450 million to exploits, with individual incidents ranging from hundreds of thousands to hundreds of millions of dollars. T",
+      "url": "https://dev.to/4k_mira/solana-vulnerabilities-every-developer-should-know-389l",
       "source": "Dev.to",
-      "author": "Pratyush",
-      "published": "2026-01-24T12:25:26+00:00",
+      "author": "Ahmad Muhammad",
+      "published": "2026-01-31T12:22:38+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "fe10debc53a48634",
-      "title": "Seeing Isn't Believing",
-      "description": "The line between reality and simulation has never been more precarious. In 2024, an 82-year-old retiree lost 690,000 euros to a deepfake video of Elon Musk promoting a cryptocurrency scheme. That same year, a finance employee at Arup, a global engineering firm, transferred £25.6 million to fraudsters after a video conference where every participant except the victim was an AI-generated deepfake. Voters in New Hampshire received robocalls featuring President Joe Biden's voice urging them not to v",
-      "url": "https://dev.to/rawveg/seeing-isnt-believing-1onl",
-      "source": "Dev.to",
-      "author": "Tim Green",
-      "published": "2026-01-24T12:00:00+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "a33bec2ea1d72742",
-      "title": "Linux Learning Journey – Day 11: User & Group Information Commands 🐧📂",
-      "description": "After learning how to create, manage, and secure users and groups on Day 10, Day 11 focused on querying and verifying user & group information in Linux. In real-world systems and cloud servers, administrators must not only manage users—but also audit, validate, and troubleshoot access. That’s where these commands become extremely important. 🔹 What I Learned & Practiced 🔹 Understanding User & Group Databases Linux stores user and group details in centralized system databases like: - /etc/passwd -",
-      "url": "https://dev.to/avinashwagh/linux-learning-journey-day-11-user-group-information-commands-3e9",
-      "source": "Dev.to",
-      "author": "Avinash wagh",
-      "published": "2026-01-24T11:56:22+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
       "id": "1ed8f62dc11728fb",
@@ -8204,6 +8135,66 @@
       "keywords": []
     },
     {
+      "id": "a833c2043a7e0833",
+      "title": "New Year New Me Portfolio",
+      "description": "This is a submission for the New Year, New You Portfolio Challenge Presented by Google AI About Me Hi, I'm Nobella Nyarari Ejiofor! I am a Senior Platform Engineer based in Nairobi. With this portfolio, I wanted to showcase my skills in Cloud , NodeJS and ReactJS. My goal for 2026 is to expand my network and build amazing niche systems leveraging AI in functionality. Portfolio Here is my live portfolio, deployed on Google Cloud Run: How I Built It I containerized my application using Docker and ",
+      "url": "https://dev.to/nobella_nyarari/new-year-new-me-portfolio-4h8f",
+      "source": "Dev.to",
+      "author": "Nobella Nyarari",
+      "published": "2026-01-31T12:57:44+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "e5bc3dad150beef5",
+      "title": "Sessions vs Tokens — Complete Guide for Backend Engineers",
+      "description": "Authentication is one of the most critical responsibilities of a backend system. Every secure application — from banking apps to social media — must answer one simple question: 👉 “How do we know this request is coming from the right user?” Two of the most common solutions are: ✅ Sessions (Stateful Authentication) ✅ Tokens (Stateless Authentication) Understanding both deeply will help you design secure, scalable backend architectures. 🔐 What is Authentication? Before sessions and tokens, let’s cl",
+      "url": "https://dev.to/jps27cse/sessions-vs-tokens-complete-guide-for-backend-engineers-2gdk",
+      "source": "Dev.to",
+      "author": "Jack Pritom Soren",
+      "published": "2026-01-31T12:50:19+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "ed901989dac79543",
+      "title": "Building a Real-Time Satellite Tracker",
+      "description": "I’m building a web application called Satellite Tracker that shows the real-time position of the International Space Station (ISS) on an interactive world map. The goal of this project is to make space data more visual and easier to understand for students. Instead of just reading about satellites and orbits, users can actually see where the ISS is at any moment and how it moves around the Earth.",
+      "url": "https://dev.to/0xbhoomi_vashishtha/building-a-real-time-satellite-tracker-2da6",
+      "source": "Dev.to",
+      "author": "Bhoomi Vashishtha",
+      "published": "2026-01-31T12:28:09+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "5228e6988b039491",
+      "title": "🟠 HIGH LL-298: Invalid Option Strikes Caus (+2 more)",
+      "description": "Saturday, January 31, 2026 (Eastern Time) Building an autonomous AI trading system means things break. Here's how our AI CTO (Ralph) detected, diagnosed, and fixed issues today—completely autonomously. 🗺️ Today's Fix Flow flowchart LR subgraph Detection[\"🔍 Detection\"] D1[\"🟢 LL-309: Iron Co\"] D2[\"🟠 LL-298: Invalid\"] D3[\"🟢 LL-318: Claude \"] end subgraph Analysis[\"🔬 Analysis\"] A1[\"Root Cause Found\"] end subgraph Fix[\"🔧 Fix Applied\"] F1[\"a858573\"] F2[\"0332531\"] F3[\"567663e\"] end subgraph Verify[\"✅ V",
+      "url": "https://dev.to/igorganapolsky/high-ll-298-invalid-option-strikes-caus-2-more-5926",
+      "source": "Dev.to",
+      "author": "Igor Ganapolsky",
+      "published": "2026-01-31T12:23:52+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "07d4722d94a8d1de",
+      "title": "Quark's Outlines: Python Built-in Methods",
+      "description": "Quark’s Outlines: Python Built-in Methods Overview, Historical Timeline, Problems & Solutions An Overview of Python Built-in Methods What is a Python built-in method? You may already know Python has built-in functions like len() and type(). A Python built-in method is similar but attached to a built-in object. For example, you do not write append(list, x)—you call list.append(x). Built-in methods are written in C. They live inside Python’s core types, like list, dict, and str. Each method is tie",
+      "url": "https://dev.to/mike-vincent/quarks-outlines-python-built-in-methods-6k7",
+      "source": "Dev.to",
+      "author": "Mike Vincent",
+      "published": "2026-01-31T12:13:19+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "2dd087547a526137",
       "title": "Why Technical Correctness Is Not Enough For Developers Anymore. Because an AI system can be statistically accurate and still fail emotionally.",
       "description": "The Emotional UX of AI: What Developers Miss Jaideep Parashar ・ Jan 25 #webdev #devops #programming #ai",
@@ -8554,54 +8545,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "578c414a9aceb231",
-      "title": "Doing gigabit Ethernet over my British phone wires",
-      "description": "Comments",
-      "url": "https://thehftguy.com/2026/01/22/doing-gigabit-ethernet-over-my-british-phone-wires/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-24T10:14:31+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "37ea3ccffd291bd7",
-      "title": "How I Estimate Work as a Staff Software Engineer",
-      "description": "Comments",
-      "url": "https://www.seangoedecke.com/how-i-estimate-work/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-24T10:22:32+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "353d6f76dbd40fe5",
-      "title": "Many Small Queries Are Efficient in SQLite",
-      "description": "Comments",
-      "url": "https://www.sqlite.org/np1queryprob.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-24T11:15:15+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "b4e2194454159e86",
-      "title": "I Like GitLab",
-      "description": "Comments",
-      "url": "https://www.whileforloop.com/en/blog/2026/01/21/i-like-gitlab/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-24T10:32:26+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "266f09590bebd9e3",
@@ -10308,6 +10251,42 @@
       "keywords": []
     },
     {
+      "id": "4d98c12f5f48ad10",
+      "title": "Euro firms must ditch Uncle Sam's clouds and go EU-native",
+      "description": "Comments",
+      "url": "https://www.theregister.com/2026/01/30/euro_firms_must_ditch_us/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-31T10:34:07+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "756663018f4fc9ca",
+      "title": "We have ipinfo at home or how to geolocate IPs in your CLI using latency",
+      "description": "Comments",
+      "url": "https://blog.globalping.io/we-have-ipinfo-at-home-or-how-to-geolocate-ips-in-your-cli-using-latency/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-31T09:30:05+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "b21c0e41b140def5",
+      "title": "Insane Growth Goldbridge (YC F25) Is Hiring a Forward Deployed Engineer",
+      "description": "Comments",
+      "url": "https://www.ycombinator.com/companies/goldbridge/jobs/78gGEHh-forward-deployed-engineer",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-31T12:00:22+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "cecd3da845538339",
       "title": "React 19.2",
       "description": "React 19.2 adds new features like Activity, React Performance Tracks, useEffectEvent, and more.",
@@ -10347,8 +10326,8 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "performance",
         "release",
+        "performance",
         "code"
       ]
     },
@@ -10429,18 +10408,6 @@
       "keywords": [
         "development"
       ]
-    },
-    {
-      "id": "ee83be995e71e7b2",
-      "title": "How I estimate work",
-      "description": "Comments",
-      "url": "https://www.seangoedecke.com/how-i-estimate-work/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-24T10:22:32+00:00",
-      "niche": "dev",
-      "score": 38,
-      "keywords": []
     },
     {
       "id": "804c8f3b24575b66",
@@ -10719,6 +10686,18 @@
       "keywords": []
     },
     {
+      "id": "c1739dd0ef06404c",
+      "title": "Direct Current Data Centers",
+      "description": "Comments",
+      "url": "https://terraformindustries.wordpress.com/2026/01/30/direct-current-data-centers/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-31T00:06:06+00:00",
+      "niche": "dev",
+      "score": 38,
+      "keywords": []
+    },
+    {
       "id": "4e6d7290f5ff11d8",
       "title": "React Native 0.80 - React 19.1, JS API Changes, Freezing Legacy Arch and much more",
       "description": "Today we are excited to release React Native 0.80!",
@@ -10729,9 +10708,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
+        "API",
         "release",
-        "React 19",
-        "API"
+        "React 19"
       ]
     },
     {
@@ -10745,8 +10724,8 @@
       "niche": "dev",
       "score": 37,
       "keywords": [
-        "release",
-        "developer"
+        "developer",
+        "release"
       ]
     },
     {
@@ -10818,8 +10797,8 @@
       "niche": "dev",
       "score": 34,
       "keywords": [
-        "development",
-        "developer"
+        "developer",
+        "development"
       ]
     },
     {
@@ -11031,9 +11010,9 @@
       "score": 30,
       "keywords": [
         "release",
-        "framework",
-        "performance",
         "code",
+        "performance",
+        "framework",
         "API"
       ]
     },
@@ -11296,6 +11275,30 @@
       "keywords": []
     },
     {
+      "id": "2f3c8304ce7339f7",
+      "title": "A Step Behind the Bleeding Edge: A Philosophy on AI in Dev",
+      "description": "Comments",
+      "url": "https://somehowmanage.com/2026/01/22/a-step-behind-the-bleeding-edge-monarchs-philosophy-on-ai-in-dev/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-29T13:20:07+00:00",
+      "niche": "dev",
+      "score": 26,
+      "keywords": []
+    },
+    {
+      "id": "3d68cf119b90f2e6",
+      "title": "My Ridiculously Robust Photo Management System (Immich Edition)",
+      "description": "Comments",
+      "url": "https://jaisenmathai.com/articles/my-ridiculously-robust-photo-management-system-immich-edition/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-28T13:17:56+00:00",
+      "niche": "dev",
+      "score": 26,
+      "keywords": []
+    },
+    {
       "id": "cd46e0b1413a2532",
       "title": "LCP and INP are now Baseline Newly available",
       "description": "LCP and INP are now Baseline Newly available as of December 12, 2025.",
@@ -11408,8 +11411,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "library",
-        "release"
+        "release",
+        "library"
       ]
     },
     {
@@ -11423,8 +11426,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "API"
+        "API",
+        "release"
       ]
     },
     {
@@ -11469,8 +11472,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
-        "developer"
+        "developer",
+        "release"
       ]
     },
     {
@@ -11484,8 +11487,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
-        "developer"
+        "developer",
+        "release"
       ]
     },
     {
@@ -11557,8 +11560,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "code",
-        "API"
+        "API",
+        "code"
       ]
     },
     {
