@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-31T18:40:34.691689+00:00",
+  "last_updated": "2026-01-31T21:28:26.687744+00:00",
   "total_articles": 993,
   "articles": [
     {
@@ -198,6 +198,21 @@
       "keywords": [
         "release",
         "developer"
+      ]
+    },
+    {
+      "id": "f11365610fd390ce",
+      "title": "Announcing MCPHero Python Package - map MCP tools to OpenAI tools",
+      "description": "mcphero: Use MCP servers with native OpenAI clients I released a small Python package that maps MCP servers to native OpenAI clients. Pypi: https://pypi.org/project/mcphero/ Github: https://github.com/stepacool/mcphero The problem MCP servers are cool, but: Native openai / gemini clients don’t support MCP Because of that, many projects don’t use MCP at all OR projects have to write a lot of custom mapping code What mcphero does Converts MCP tools into OpenAI-compatible tools/functions Sends LLM ",
+      "url": "https://dev.to/stepan_filonov_0ad64b76ca/announcing-mcphero-python-package-map-mcp-tools-to-openai-tools-2phc",
+      "source": "Dev.to",
+      "author": "Stepan Filonov",
+      "published": "2026-01-31T20:53:52+00:00",
+      "niche": "dev",
+      "score": 73,
+      "keywords": [
+        "release",
+        "code"
       ]
     },
     {
@@ -542,6 +557,20 @@
       "score": 69,
       "keywords": [
         "development"
+      ]
+    },
+    {
+      "id": "d50007e5fc221055",
+      "title": "Leaving GitHub After 25 Years: A Senior Developer’s Warning on \"Digital Hostage\" Situations",
+      "description": "The Incident: 22 days ago, my GitHub account (active for years, clean record, paying Copilot subscriber) was suspended without a single email or explanation. My work, including tools supporting research in Antarctica, was instantly turned into 404 pages. The Reality Check: Despite 25 years of engineering experience and a paid subscription, I’ve been met with total silence. My professional email addresses are now \"trapped\" in their system, and I cannot move my identity elsewhere. The Lesson: > 1.",
+      "url": "https://dev.to/milos74/leaving-github-after-25-years-a-senior-developers-warning-on-digital-hostage-situations-1ne2",
+      "source": "Dev.to",
+      "author": "Miloš P.",
+      "published": "2026-01-31T21:11:46+00:00",
+      "niche": "dev",
+      "score": 69,
+      "keywords": [
+        "developer"
       ]
     },
     {
@@ -1194,6 +1223,30 @@
       ]
     },
     {
+      "id": "05379b41938c639d",
+      "title": "US has investigated claims WhatsApp chats aren't private",
+      "description": "Comments",
+      "url": "https://www.bloomberg.com/news/articles/2026-01-29/us-has-investigated-claims-that-whatsapp-chats-aren-t-private",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-31T17:25:30+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": []
+    },
+    {
+      "id": "9234dda00d7d1eb3",
+      "title": "Show HN: Minimal – Open-Source Community driven Hardened Container Images",
+      "description": "Comments",
+      "url": "https://github.com/rtvkiz/minimal",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-31T19:58:00+00:00",
+      "niche": "dev",
+      "score": 62,
+      "keywords": []
+    },
+    {
       "id": "16e0486e959d8484",
       "title": "Part 1 : Peer Aware Eureka Service Registry",
       "description": "New Series: Spring Cloud Microservice Architecture (Service Discovery · Gateway · Nginx · Production Patterns) This blog marks the beginning of a new series focused entirely on Spring Cloud–based microservice architecture and production-grade system design. In this series, we will design and evolve a complete microservices ecosystem using: Spring Cloud Netflix Eureka (Service Discovery) Spring Cloud Gateway (API Gateway) Nginx (Edge reverse proxy & load balancer) Production-ready scaling and fau",
@@ -1240,22 +1293,6 @@
         "tutorial",
         "developer",
         "performance"
-      ]
-    },
-    {
-      "id": "e6c2a3f1ced4aa8a",
-      "title": "I built a data grid with web components – here's what I learned",
-      "description": "A while back I needed a data grid for a project. You know the drill – looked at AG Grid (too heavy, enterprise pricing), TanStack Table (great but headless, didn't want to build all the UI), various React/Vue-specific options (locked into one framework). I was also working across multiple projects – some Angular, some React, some just vanilla JS. The idea of maintaining different grid implementations for each was... not appealing. So I did what any reasonable developer does: I spent way more tim",
-      "url": "https://dev.to/oysteinamundsen/i-built-a-data-grid-with-web-components-heres-what-i-learned-5bfc",
-      "source": "Dev.to",
-      "author": "Øystein Amundsen",
-      "published": "2026-01-24T21:01:04+00:00",
-      "niche": "dev",
-      "score": 58,
-      "keywords": [
-        "Angular",
-        "developer",
-        "framework"
       ]
     },
     {
@@ -2132,34 +2169,6 @@
       ]
     },
     {
-      "id": "ce0682d54b4f27d0",
-      "title": "Introduction to MS Excel for Data Analytics",
-      "description": "Computing has advanced over time and is now essential across industries to help organizations make better decisions and boost profits through data analysis. A simple tool like Microsoft Excel serves as an excellent starting point for analyzing various datasets, including medical records, sales data, student performance, and social media metrics. Data Analysis Basics Data analysis involves examining, cleaning, organizing, and interpreting data to uncover useful insights, identify patterns, and su",
-      "url": "https://dev.to/tonny-o/introduction-to-ms-excel-for-data-analytics-4p00",
-      "source": "Dev.to",
-      "author": "tonny otieno",
-      "published": "2026-01-24T21:20:51+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "performance"
-      ]
-    },
-    {
-      "id": "2a8833e899a9ecfc",
-      "title": "The Offline-First Struggle: How I Built a Robust Sync Engine for Flutter (SynapseLink)",
-      "description": "Introduction: Building a robust offline-first application is more than just caching data; it's about managing consistency. After struggling with manual sync logic in complex ERP-style apps, I decided to build a standard solution. Meet SynapseLink v1.0.3: An Enterprise-Grade Offline Sync Engine that bridges the gap between Hive and Dio. Key Technical Insights: Intelligent Batching: Groups multiple offline actions into a single API request upon reconnection to save battery and server resources. Au",
-      "url": "https://dev.to/vortex_shadow_8bce7f9fe36/the-offline-first-struggle-how-i-built-a-robust-sync-engine-for-flutter-synapselink-4d8a",
-      "source": "Dev.to",
-      "author": "Hisham Idris",
-      "published": "2026-01-24T21:07:44+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "API"
-      ]
-    },
-    {
       "id": "3ecd098fd8c7ded1",
       "title": "Datadog vs OneUptime vs OptyxStack – Understanding the Differences in Observability and Operations",
       "description": "## Why this comparison? When teams talk about observability or reliability, they are often referring to very different needs: Sometimes you need better visibility into systems. Sometimes you need tooling to standardize monitoring and incident response. Sometimes you need engineers to step in and fix performance or stability issues directly. OptyxStack, Datadog, and OneUptime often appear in similar conversations, but they approach the problem from fundamentally different angles. High-level posit",
@@ -3010,18 +3019,19 @@
       ]
     },
     {
-      "id": "52b4617b300ed708",
-      "title": "The Vibe Coding Hangover: Why I’m Returning to Engineering Rigor in 2026",
-      "description": "We all got drunk on 1-prompt apps in 2025. Now, the technical debt is calling, and it’s time to sober up. Let’s be real: 2025 was one long, glorious party for developers. When Andrej Karpathy coined “Vibe Coding,” we all felt the magic. For a moment, it felt like the “end of syntax” had actually arrived . We were shipping full-stack apps with a single prompt, “vibing” with our LLMs, and pretending the code didn’t exist. But it’s January 2026, and the hangover is brutal. Now engineers spend more ",
-      "url": "https://dev.to/maximiliano_allende97/the-vibe-coding-hangover-why-im-returning-to-engineering-rigor-in-2026-49hl",
+      "id": "e2fadf0083c53f90",
+      "title": "New Site For The Old Minimalist",
+      "description": "This is a submission for the New Year, New You Portfolio Challenge Presented by Google AI This is a submission for the New Year, New You Portfolio Challenge Presented by Google AI About Me I’m a developer who believes that the ability to build whatever you can imagine is one of the greatest privileges in the world. For me, development isn't just about code—it's about making things simple, minimal, and smooth. I am deeply motivated by the future of technology, specifically how AI can empower us t",
+      "url": "https://dev.to/dsimp/new-site-for-the-old-minimalist-4ib9",
       "source": "Dev.to",
-      "author": "Maximiliano Allende",
-      "published": "2026-01-24T21:04:37+00:00",
+      "author": "Djvon Simpson",
+      "published": "2026-01-31T20:56:58+00:00",
       "niche": "dev",
-      "score": 52,
+      "score": 54,
       "keywords": [
-        "code",
-        "developer"
+        "developer",
+        "development",
+        "code"
       ]
     },
     {
@@ -3757,20 +3767,6 @@
       "keywords": [
         "code",
         "developer"
-      ]
-    },
-    {
-      "id": "f485f0702782ee77",
-      "title": "Clean Architecture vs Vertical Slice: Pragmatism Over Dogma in Modern Software Design",
-      "description": "Why This Article Is Part of My Portfolio Journey This piece is part of my effort to build a public engineering portfolio focused on sustainable architecture, engineering judgment, and long-term system design. Rather than showcasing isolated code samples, I’m documenting how I think about system design, trade-offs, and real-world engineering decisions — because architecture is as much about reasoning as it is about implementation. This article represents the type of engineering thinking I aim to ",
-      "url": "https://dev.to/harrykhlo/clean-architecture-vs-vertical-slice-pragmatism-over-dogma-in-modern-software-design-2co5",
-      "source": "Dev.to",
-      "author": "Harry Lo",
-      "published": "2026-01-24T20:34:17+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
       ]
     },
     {
@@ -5356,52 +5352,46 @@
       ]
     },
     {
-      "id": "86517e58ebc02966",
-      "title": "ML ALGOS List",
-      "description": "नीचे Machine Learning ke lagbhag sabhi major algorithms ko category-wise list kiya gaya hai. (Practical duniya me “sabhi” ka matlab hota hai commonly used + academically important algorithms.) 1️⃣ Supervised Learning Algorithms (Labelled data hota hai) 🔹 Regression Algorithms Linear Regression Multiple Linear Regression Polynomial Regression Ridge Regression Lasso Regression Elastic Net Bayesian Regression Quantile Regression Support Vector Regression (SVR) Decision Tree Regression Random Forest",
-      "url": "https://dev.to/jenil_sheth_3eb6f86dc4900/ml-algos-list-2eio",
+      "id": "8aa0f4d16d42cd14",
+      "title": "Securing Legacy Test Environments: Eliminating PII Leaks on Linux",
+      "description": "Managing test environments for legacy codebases often presents unique challenges, especially when it comes to safeguarding sensitive data like Personally Identifiable Information (PII). As a Lead QA Engineer, implementing robust measures to prevent PII leaks is critical for maintaining compliance and protecting user privacy. This article explores key strategies and practical steps to mitigate PII exposure in Linux-based test environments, focusing on legacy systems. Understanding the Challenge L",
+      "url": "https://dev.to/mohammad_waseem_c31f3a26f/securing-legacy-test-environments-eliminating-pii-leaks-on-linux-34cn",
       "source": "Dev.to",
-      "author": "Jenil Sheth",
-      "published": "2026-01-24T21:11:27+00:00",
+      "author": "Mohammad Waseem",
+      "published": "2026-01-31T21:09:55+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "code"
+      ]
     },
     {
-      "id": "09620e56543b39df",
-      "title": "Silent Failures Most Metrics Don’t See",
-      "description": "I was filling out a survey on my phone. It wasn’t short. Five minutes in, maybe more, I was only about a quarter of the way through. Then it happened. A small, accidental scroll. The page refreshed. Everything was gone. No error. No warning. No recovery. Just an empty form. I closed the page. I didn’t complain. I didn’t try again. I simply gave up. This kind of failure is easy to dismiss. It doesn’t look like a bug. Nothing crashes. Nothing breaks loudly. And yet, from the user’s perspective, ev",
-      "url": "https://dev.to/plc-creates/silent-failures-most-metrics-dont-see-3e20",
+      "id": "fec41970ab4d6298",
+      "title": "Feedback Witch Hunts: When One Discord Message Derails Your Entire Week",
+      "description": "TLDR: One person posts a complaint in Discord, nobody can tell if it's real or not, and your whole team burns two days chasing it. I've watched this happen over and over at studios of every size. The fix isn't \"listen harder,\" it's having someone who actually knows if a complaint represents five people or five hundred before the team scrambles. Someone posts in your Discord server: \"The animation system is completely broken.\" A developer sees it while grabbing coffee. They share it in your team ",
+      "url": "https://dev.to/chase_chalker/feedback-witch-hunts-when-one-discord-message-derails-your-entire-week-32g4",
       "source": "Dev.to",
-      "author": "PLC Creates",
-      "published": "2026-01-24T21:07:20+00:00",
+      "author": "Chase Chalker",
+      "published": "2026-01-31T20:55:21+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
-      "id": "65028a764f5eb897",
-      "title": "WiFi Not Working On The Train? Docker Might Be To Blame",
-      "description": "A while ago I was travelling on the ICE high-speed train of Germany’s national railway operator Deutsche Bahn and tried to use the on-board WiFi, but, alas, to no avail. Now, it is not exactly unheard of that the Internet connection does not work, but in this case, I could not even reach the captive portal.1 [!note]- Docker network types When Docker networks are being referenced in this article, I am referring to networks of the bridge type. [!TIP]- Resolution The onboard WiFi on the ICE has the",
-      "url": "https://dev.to/schaerfo/wifi-not-working-on-the-train-docker-might-be-to-blame-2k8l",
+      "id": "660e63106f2f426c",
+      "title": "Why GIT Exists: The Pendrive Problem",
+      "description": "If you are a developer, you must already be aware of Git and GitHub. But do you know why Git was created? What problems existed before Git? And how was the world of coding managed before version control systems? In this article, you’ll find answers to all these questions. How Was the World of Coding Before Git? Let’s go back in time and imagine a world without Git. You are a developer working smoothly on a project. One day, you need help to develop a new feature, so you ask your developer friend",
+      "url": "https://dev.to/iambhishek01/why-git-exists-the-pendrive-problem-4117",
       "source": "Dev.to",
-      "author": "Christian Schärf",
-      "published": "2026-01-24T20:57:23+00:00",
+      "author": "Abhishek Kumar",
+      "published": "2026-01-31T20:41:41+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "fa1de0ae3ab3c84c",
-      "title": "How to Stop an SLM from Overthinking",
-      "description": "When running a 4B parameter scale model locally, you expect a trade-off: it’s fast, but it has the memory of a goldfish. In my testing of Qwen3-4B, I kept hitting a wall. I’d ask the model a fairly complex Linux diagnostic question: I’m working on a Linux server and during peak hours, the system becomes sluggish even though free -h shows plenty of free RAM and top doesn’t reveal any single process hogging CPU or memory. What is the most likely cause of this slowdown? From my experience testing t",
-      "url": "https://dev.to/ben-santora/how-to-stop-an-slm-from-overthinking-5e7k",
-      "source": "Dev.to",
-      "author": "Ben Santora",
-      "published": "2026-01-24T20:43:35+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "developer"
+      ]
     },
     {
       "id": "551ec12167de3ff1",
@@ -8178,6 +8168,54 @@
       "keywords": []
     },
     {
+      "id": "4404cbc708724957",
+      "title": "To those who are left behind in the AI rush",
+      "description": "Ever feel overwhelmed by AI posts on every social media and professional platform? And don't understand the AI jargon, buzzwords, and concepts being discussed? I am one of them, and here is a cheat sheet summarizing the key points to help you get up to speed. Core Concepts NLP (Natural Language Processing): The broad field of AI that teaches computers to understand, interpret, and generate human language. LLM (Large Language Model): A type of AI trained on massive amounts of text to predict the ",
+      "url": "https://dev.to/ms_74/to-those-who-are-left-behind-in-the-ai-rush-45f5",
+      "source": "Dev.to",
+      "author": "Mariam Reba Alexander",
+      "published": "2026-01-31T21:16:32+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "c935943af63d2546",
+      "title": "Cloud Computing and DevOps: The Twin Engines of Modern Tech.",
+      "description": "In today's fast-paced tech landscape, two buzzwords dominate the industry: Cloud Computing and DevOps Engineering. While often mentioned together, they're distinct concepts that complement each other beautifully. Cloud Computing Cloud computing is the on-demand delivery of computing resources (servers, storage, databases, software) over the internet. Think of it like renting computing power instead of owning hardware. Benefits include: Scalability Cost-effectiveness Flexibility Accessibility Dev",
+      "url": "https://dev.to/adeniyi_odukoya_afe87425e/cloud-computing-and-devops-the-twin-engines-of-modern-tech-575n",
+      "source": "Dev.to",
+      "author": "Adeniyi Odukoya",
+      "published": "2026-01-31T21:04:13+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "31ba3bc2bdd3baea",
+      "title": "Dicas avançadas do firefox",
+      "description": "O navegador firefox traz alguns recursos muito úteis, seja nativamente, seja através de algumas extensões das quais não podemos abrir mão. Quando o menu de opções sumir Muita gente fica perdida quando o menu de opções, que são os menus \"Arquivo, exibir, editar some, basta pressionar a tecla Alt. E para manter o menu de opções sempre visível você vai no menu Exibir > Barra de ferramentas > Barra de Menu. Como instalar extensões? Você clica no ícone que se parece com uma peça de um quebra cabeças.",
+      "url": "https://dev.to/voyeg3r/dicas-avancadas-do-firefox-3cg9",
+      "source": "Dev.to",
+      "author": "Sérgio Araújo",
+      "published": "2026-01-31T21:01:55+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "5534c22ebeb0cb7c",
+      "title": "How I Competed and Won the First Module at NERC — Pakistan’s Premier Robotics Contest",
+      "description": "Introduction The National Engineering Robotics Contest (NERC) is one of Pakistan’s most prestigious robotics competitions. Organized annually at NUST College of Electrical & Mechanical Engineering (CEME), NERC brings together engineering students from across the country to test their skills in robotics, logic building, and real-time problem solving. Participating in Mini NERC and winning the first module was a defining moment in my robotics journey. This article shares what NERC is about, what t",
+      "url": "https://dev.to/muhammad-ali-mustafa/how-i-competed-and-won-the-first-module-at-nerc-pakistans-premier-robotics-contest-4m6f",
+      "source": "Dev.to",
+      "author": "Muhammad Ali Mustafa",
+      "published": "2026-01-31T21:01:09+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "2dd087547a526137",
       "title": "Why Technical Correctness Is Not Enough For Developers Anymore. Because an AI system can be statistically accurate and still fail emotionally.",
       "description": "The Emotional UX of AI: What Developers Miss Jaideep Parashar ・ Jan 25 #webdev #devops #programming #ai",
@@ -8189,20 +8227,6 @@
       "score": 49,
       "keywords": [
         "developer",
-        "programming"
-      ]
-    },
-    {
-      "id": "2064d0bd13b81cd4",
-      "title": "[Boost]",
-      "description": "Hexagonal architecture - Another way to the hexagone Marabesi ・ Jan 18 #programming #webdev #architecture #opensource",
-      "url": "https://dev.to/marabesi/-edh",
-      "source": "Dev.to",
-      "author": "Marabesi",
-      "published": "2026-01-24T20:38:57+00:00",
-      "niche": "dev",
-      "score": 48,
-      "keywords": [
         "programming"
       ]
     },
@@ -8502,76 +8526,18 @@
       ]
     },
     {
-      "id": "06730e5eb8d2bfba",
-      "title": "BirdyChat becomes first European chat app that is interoperable with WhatsApp",
+      "id": "58f50923a752c2f3",
+      "title": "Nintendo DS code editor and scriptable game engine",
       "description": "Comments",
-      "url": "https://www.birdy.chat/blog/first-to-interoperate-with-whatsapp",
+      "url": "https://crl.io/ds-game-engine/",
       "source": "Hacker News",
       "author": "Inconnu",
-      "published": "2026-01-24T19:04:08+00:00",
+      "published": "2026-01-31T18:27:36+00:00",
       "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "e28bdd34204f21fe",
-      "title": "I added a Bluesky comment section to my blog",
-      "description": "Comments",
-      "url": "https://micahcantor.com/blog/bluesky-comment-section.html",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-24T20:33:40+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "2f73ef58b1e80814",
-      "title": "Bye Bye Gmail",
-      "description": "Comments",
-      "url": "https://m24tom.com/bye-bye-gmail/show",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-24T19:44:52+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "dd6efb1ede086545",
-      "title": "Postmortem: Our first VLEO satellite mission (with imagery and flight data)",
-      "description": "Comments",
-      "url": "https://albedo.com/post/clarity-1-what-worked-and-where-we-go-next",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-24T20:03:39+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "5b0afa32fc05d86a",
-      "title": "First Design Engineer Hire – Build Games at Gym Class (YC W22)",
-      "description": "Comments",
-      "url": "https://www.ycombinator.com/companies/gym-class-by-irl-studios/jobs/ywXHGBv-design-engineer-senior-staff-principal",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-24T21:01:02+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "6c5de4196546c1ec",
-      "title": "JSON-render: LLM-based JSON-to-UI tool",
-      "description": "Comments",
-      "url": "https://json-render.dev/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-24T19:12:56+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
+      "score": 45,
+      "keywords": [
+        "code"
+      ]
     },
     {
       "id": "2e13e996d79b7dc7",
@@ -10290,6 +10256,42 @@
       "keywords": []
     },
     {
+      "id": "0b19c682a87594bd",
+      "title": "Demystifying ARM SME to Optimize General Matrix Multiplications",
+      "description": "Comments",
+      "url": "https://arxiv.org/abs/2512.21473",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-31T20:05:22+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "ca353aa1d9f97e38",
+      "title": "The Saddest Moment (2013) [pdf]",
+      "description": "Comments",
+      "url": "https://www.usenix.org/system/files/login-logout_1305_mickens.pdf",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-31T20:02:36+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "9272a0cdb3868e3d",
+      "title": "CollectWise (YC F24) Is Hiring",
+      "description": "Comments",
+      "url": "https://www.ycombinator.com/companies/collectwise/jobs/ZunnO6k-ai-agent-engineer",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-31T21:00:56+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "cecd3da845538339",
       "title": "React 19.2",
       "description": "React 19.2 adds new features like Activity, React Performance Tracks, useEffectEvent, and more.",
@@ -10329,9 +10331,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
+        "release",
         "performance",
-        "code",
-        "release"
+        "code"
       ]
     },
     {
@@ -10727,8 +10729,8 @@
       "niche": "dev",
       "score": 37,
       "keywords": [
-        "release",
-        "developer"
+        "developer",
+        "release"
       ]
     },
     {
@@ -10800,8 +10802,8 @@
       "niche": "dev",
       "score": 34,
       "keywords": [
-        "development",
-        "developer"
+        "developer",
+        "development"
       ]
     },
     {
@@ -10843,8 +10845,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "framework",
-        "API"
+        "API",
+        "framework"
       ]
     },
     {
@@ -11024,9 +11026,9 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
+        "code",
         "framework",
         "API",
-        "code",
         "release",
         "performance"
       ]
@@ -11426,8 +11428,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "library",
-        "release"
+        "release",
+        "library"
       ]
     },
     {
@@ -11441,8 +11443,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "API"
+        "API",
+        "release"
       ]
     },
     {
@@ -11456,8 +11458,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "framework",
-        "release"
+        "release",
+        "framework"
       ]
     },
     {
@@ -11471,9 +11473,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
+        "developer",
         "performance",
-        "code",
-        "developer"
+        "code"
       ]
     },
     {
@@ -11487,8 +11489,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
-        "developer"
+        "developer",
+        "release"
       ]
     },
     {
@@ -11502,8 +11504,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
-        "developer"
+        "developer",
+        "release"
       ]
     },
     {
@@ -11517,9 +11519,9 @@
       "niche": "dev",
       "score": 18,
       "keywords": [
-        "code",
+        "developer",
         "development",
-        "developer"
+        "code"
       ]
     },
     {
@@ -11575,8 +11577,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "code",
-        "API"
+        "API",
+        "code"
       ]
     },
     {
@@ -11590,8 +11592,22 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "code",
-        "developer"
+        "developer",
+        "code"
+      ]
+    },
+    {
+      "id": "263e60a337914bf5",
+      "title": "Claude Code is your customer",
+      "description": "Comments",
+      "url": "https://calebjohn.xyz/blog/b2cc/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-27T09:09:25+00:00",
+      "niche": "dev",
+      "score": 15,
+      "keywords": [
+        "code"
       ]
     },
     {
@@ -11778,18 +11794,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2026-01-25T11:12:47+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "f96ab54d368642e3",
-      "title": "An Illustrated Guide to Hippo Castration (2014)",
-      "description": "Comments",
-      "url": "https://www.science.org/content/article/scienceshot-illustrated-guide-hippo-castration",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-24T19:47:41+00:00",
       "niche": "dev",
       "score": 14,
       "keywords": []
