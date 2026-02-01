@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-02-01T15:31:24.846551+00:00",
-  "total_articles": 993,
+  "last_updated": "2026-02-01T18:43:07.038273+00:00",
+  "total_articles": 989,
   "articles": [
     {
       "id": "39fadb1520836db7",
@@ -853,18 +853,6 @@
       ]
     },
     {
-      "id": "b7f6d915820dae69",
-      "title": "A macOS app that blurs your screen when you slouch",
-      "description": "Comments",
-      "url": "https://github.com/tldev/posturr",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-25T15:34:51+00:00",
-      "niche": "dev",
-      "score": 62,
-      "keywords": []
-    },
-    {
       "id": "89f2b48d458f3375",
       "title": "Clawdbot - open source personal AI assistant",
       "description": "Comments",
@@ -1370,6 +1358,22 @@
       ]
     },
     {
+      "id": "be784516e9a56fae",
+      "title": "PHP fun: back to basics",
+      "description": "On a walk I was wondering do we need all the abstractions frameworks and programming theories make us use? So I was thinking what if I only had a webserver and PHP how would I do it. Router and middleware By adding files and directories to the publicly exposed directory of the webserver it is possible to create routes. For dynamic sections in routes, set a catch all file in the webserver config. This is the way all frameworks start their request processing. Webservers have the capacity to limit ",
+      "url": "https://dev.to/xwero/php-fun-back-to-basics-23ho",
+      "source": "Dev.to",
+      "author": "david duymelinck",
+      "published": "2026-02-01T18:23:51+00:00",
+      "niche": "dev",
+      "score": 58,
+      "keywords": [
+        "PHP",
+        "programming",
+        "framework"
+      ]
+    },
+    {
       "id": "0b019c8ac441219a",
       "title": "Hey dev.to 👋",
       "description": "I'm Sanjiv Prabhunandan, a Software Engineer at CoinTracker based in San Francisco, California. What I work on I work on enterprise accounting infrastructure — subledger systems, rules engines, and digital asset tooling. My day-to-day involves: Python for backend services Temporal for workflow orchestration PostgreSQL for data GraphQL for APIs Say hi Find me on LinkedIn, GitHub, or Substack.",
@@ -1748,21 +1752,6 @@
       ]
     },
     {
-      "id": "ccec3be4647db486",
-      "title": "Your Local Environment Tests a Different System Than Production",
-      "description": "Why \"works on my machine\" keeps happening—and what we're building to fix it. You've seen this before: Your multi-service app works perfectly locally. All services talk to each other, tests pass, everything's green. You push to CI. CI fails. Or staging breaks. Or production returns 404s on routes that worked fine on your laptop. The Problem: localhost Isn't Production Here's what you're actually testing locally: // Your local code const API_URL = 'http://localhost:3001'; fetch(`${API_URL}/users`)",
-      "url": "https://dev.to/nuewframe/your-local-environment-tests-a-different-system-than-production-4ib1",
-      "source": "Dev.to",
-      "author": "Wael Rabadi",
-      "published": "2026-01-25T18:13:22+00:00",
-      "niche": "dev",
-      "score": 55,
-      "keywords": [
-        "API",
-        "code"
-      ]
-    },
-    {
       "id": "14036c35d2682957",
       "title": "Best game engine to start with in 2026?",
       "description": "I’m getting into game development (mainly mobile & indie games) and I’m trying to choose a game engine. Between engines like Godot, Unity, Unreal, LibGDX, etc: Which one would you recommend today? And why? I’m mostly interested in 2D / 2.5D, good performance, and a smooth learning curve. Thanks! 🙏",
@@ -2122,6 +2111,21 @@
       "score": 55,
       "keywords": [
         "code",
+        "API"
+      ]
+    },
+    {
+      "id": "e83a9016cafada47",
+      "title": "How to Reduce Email Bounce Rates with API Validation",
+      "description": "As a developer, you've likely encountered the frustration of dealing with email bounce rates. Whether you're building a SaaS application, managing an e-commerce platform, or simply sending newsletters, email validation is crucial to ensuring your messages reach their intended recipients. In this article, we'll explore the importance of email verification, how it can help reduce bounce rates, and provide a step-by-step guide on integrating the FatihAI Email Verification API into your application.",
+      "url": "https://dev.to/fatih_dast_02805571fb1/how-to-reduce-email-bounce-rates-with-api-validation-df8",
+      "source": "Dev.to",
+      "author": "Fatih Dağüstü",
+      "published": "2026-02-01T18:21:15+00:00",
+      "niche": "dev",
+      "score": 55,
+      "keywords": [
+        "developer",
         "API"
       ]
     },
@@ -2978,6 +2982,20 @@
       ]
     },
     {
+      "id": "8d54bf5b51f74181",
+      "title": "How to Add a Subdomain with Hetzner DNS API",
+      "description": "Hetzner’s DNS Public API allows you to programmatically manage your domains, including creating subdomains. A subdomain is simply a DNS record under your main zone. 1. Get Your Zone ID Each domain in Hetzner DNS has a unique zone_id. To find it: curl -X GET \"https://dns.hetzner.com/api/v1/zones\" \\ -H \"Auth-API-Token: $API_TOKEN\" Look for your domain in the response and note its id. For example: { \"id\": \"ABC...\", \"name\": \"domain.com\" } 2. Add the Subdomain Record Once you have the zone_id, you ca",
+      "url": "https://dev.to/giveitatry/how-to-add-a-subdomain-with-hetzner-dns-api-5g1d",
+      "source": "Dev.to",
+      "author": "giveitatry",
+      "published": "2026-02-01T18:19:42+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "API"
+      ]
+    },
+    {
       "id": "3833df13315fc8c0",
       "title": "Building my Portfolio Site in 2 Days Using Gemini CLI, Antigravity, Conductor, and Agent Starter Pack",
       "description": "This is a submission for the New Year, New You Portfolio Challenge Presented by Google AI About Me My name is Darren, aka Dazbo. I am an Enterprise Cloud Architect and a huge fan of all things Google Cloud and Google AI. I enjoy spreading the word about how cool this technology is. For example, by blogging on platforms like this. I'm also a Google Developer Expert. But don't let that fool you - I don't write much code! Certainly not in my day job; so I spend a lot of time in the evenings and wee",
@@ -3653,44 +3671,32 @@
       ]
     },
     {
-      "id": "3d51a8c321e362bb",
-      "title": "AI-generated code lacks common sense",
-      "description": "TLDR 🙇: AI-generated code lacks common sense, especially senior-level. Examples of missing behavior: Before providing a solution, ask whether the problem should be solved at all. Know when to ask for more context if it is needed to give a better solution. Research if there are existing utilities or dependencies that can be reused. Consider tradeoffs before adding a new dependency. Consider dev vs runtime deps, security, licensing, and bundle size. In addition, it lacks elegancy. The LLM-generate",
-      "url": "https://dev.to/maxpatiiuk/ai-generated-code-lacks-common-sense-29bo",
+      "id": "4f22f6babdfe5451",
+      "title": "The Ten Commandments of Agentic AI",
+      "description": "Was it really just a week ago when we were still using our CLI to gain some marginal advantage in the programming world? Fixing code. Ahhh. A sweet one. I wouldn’t dream of anything better to spend my tokens on. My wife looks concerned. “You are not present,” she whispers to herself. Of course I’m not present. How could I be? I’m flying through an endless space of possibilities. I’m creating new apps every day. Exploring quantum computing in the morning. Building two Chrome extensions late at ni",
+      "url": "https://dev.to/dominiquegrys/the-ten-commandments-of-agentic-ai-1kmm",
       "source": "Dev.to",
-      "author": "Max Patiiuk",
-      "published": "2026-01-25T18:09:08+00:00",
+      "author": "Dominique Grys",
+      "published": "2026-02-01T18:29:51+00:00",
       "niche": "dev",
-      "score": 51,
+      "score": 52,
       "keywords": [
+        "programming",
         "code"
       ]
     },
     {
-      "id": "205ae2a3997a6d12",
-      "title": "code is a \"translation\" | after 1.5 years of \"vibe-coding\" adventures thoughts",
-      "description": "I have experimented with spec-driven, docs-driven, and guide-driven workflows—I even tried developing \"semantic intent\"—and as a result, I’ve completely reimagined why these things exist in the first place. Like many, I initially tried to draft them as detailed PRDs (Product Requirements Documents), GDDs (Game Design Documents), or SOPs (Standard Operating Procedures), intending for them to serve as the absolute \"source of truth\" for every change. Under that model, the Agent’s flow looked like t",
-      "url": "https://dev.to/arenukvern/code-is-a-translation-after-15-years-of-vibe-coding-adventures-thoughts-2hbn",
+      "id": "963aa20e7dab7f9e",
+      "title": "Why Everyone Is Talking About Claude Code (And Why Open Source is Sleeping on the Sidelines)",
+      "description": "If you’ve been on Twitter (X) or LinkedIn this week, you’ve seen it. The \"Claude Code\" hype train has left the station, and it is moving fast. Developers are posting screenshots of Anthropic’s new CLI tool fixing bugs in seconds, refactoring legacy codebases, and generally acting like the senior engineer we all wish we had paired with us. It feels magical. It feels polished. But in the middle of this noise, I have to ask a question that’s been nagging me: Where is the hype for Open Source Coding",
+      "url": "https://dev.to/zayanmohamed/why-everyone-is-talking-about-claude-code-and-why-open-source-is-sleeping-on-the-sidelines-12ek",
       "source": "Dev.to",
-      "author": "Anton Malofeev",
-      "published": "2026-01-25T18:01:45+00:00",
+      "author": "Zayan Mohamed",
+      "published": "2026-02-01T18:23:28+00:00",
       "niche": "dev",
-      "score": 51,
+      "score": 52,
       "keywords": [
-        "code"
-      ]
-    },
-    {
-      "id": "b187ea948e5b812f",
-      "title": "Understanding Promises in JavaScript",
-      "description": "Promises are a fundamental part of modern JavaScript, introduced in ECMAScript 2015 (ES6). They provide a way to handle asynchronous operations more cleanly and predictably than traditional callbacks. A Promise is an object that represents the eventual completion (or failure) of an asynchronous operation and its resulting value. It's like a \"placeholder\" for a value that might not be available yet. Promises were created to solve callback hell (deeply nested callbacks in async code). They allow y",
-      "url": "https://dev.to/pckalyan/understanding-promises-in-javascript-253m",
-      "source": "Dev.to",
-      "author": "Kalyan P C",
-      "published": "2026-01-25T18:00:08+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
+        "developer",
         "code"
       ]
     },
@@ -5235,76 +5241,18 @@
       ]
     },
     {
-      "id": "08cf2e550f7e289b",
-      "title": "SOLID com Node.js e TypeScript: Escrevendo Código de Gente Grande",
-      "description": "Muitos desenvolvedores acreditam que os princípios SOLID são relíquias da era do Java clássico que não se aplicam ao mundo ágil e dinâmico do Node.js. Ledo engano. À medida que as aplicações Node.js crescem em complexidade, a falta de uma base sólida transforma projetos promissores em pesadelos de manutenção. Quando combinamos o TypeScript com Node.js, ganhamos as ferramentas necessárias para aplicar esses princípios de forma elegante, garantindo que o sistema seja fácil de estender e testar. O ",
-      "url": "https://dev.to/danielcamucatto/solid-com-nodejs-e-typescript-escrevendo-codigo-de-gente-grande-32nj",
+      "id": "aa65d5b5274934a8",
+      "title": "“Portfolio with Gemini: Simple, Smooth, Subtle”",
+      "description": "This is a submission for the New Year, New You Portfolio Challenge Presented by Google AI About Me Hello! My name is Aldwin. I am from Jakarta, Indonesia. Currently i work in distribution and aim to transition into fullstack development (hopefully this year). Portfolio Here is my New Year New You Portfolio Site. How I Built It I built this using Vite + React + Tailwind and most importantly, Gemini 3.0 Flash for AI Chat feature. The development process start by Scafolding React App using Vite. Af",
+      "url": "https://dev.to/aldwin160/portfolio-with-gemini-simple-smooth-subtle-469m",
       "source": "Dev.to",
-      "author": "Daniel Camucatto",
-      "published": "2026-01-25T18:15:27+00:00",
+      "author": "Aldwin Susantio",
+      "published": "2026-02-01T18:19:40+00:00",
       "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "5dcb5974e1211d8b",
-      "title": "β or w? for weight...",
-      "description": "Which one do you use β or w for weight {ŷ = x * (?) + (?)} ? There are many ways to write the linear regression equation let's see two of them : 1. ŷ = x * w + b where, ŷ -> predicted value x -> parameter / input w -> weight factor b -> bias 2. ŷ = x * β + β₀ where, ŷ -> predicted value x -> parameter / input β -> weight factor β ₀ -> bias When-ever your teacher teaches you machine learning basics most likely he/she uses the first example naming convention, which is desirable. But when you stumb",
-      "url": "https://dev.to/yash_30may05ur/b-or-w-for-weight-51id",
-      "source": "Dev.to",
-      "author": "Yash",
-      "published": "2026-01-25T18:14:02+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "7b321489a8bdf18f",
-      "title": "I stopped analysing matches and started building a tool to decide whether to go",
-      "description": "I used to analyse matches. Now I’m trying to solve a different problem. For a long time, I wrote about sports by looking backwards. I analysed matches using data — possession, shots, goalkeeping decisions — and tried to explain why a game ended the way it did. One of my last posts here was about the UEFA Women’s EURO final and how England trusted their goalkeeper. I still enjoy that kind of analysis. But at some point, I realised I was personally stuck with a much simpler, more practical problem",
-      "url": "https://dev.to/ezeeyeyo/i-stopped-analysing-matches-and-started-building-a-tool-to-decide-whether-to-go-46oj",
-      "source": "Dev.to",
-      "author": "Marina Kim(Eunji)",
-      "published": "2026-01-25T17:58:52+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "7b1a2250364ddea7",
-      "title": "Implementing the MVI Design Pattern in Flutter: A Journey toward Scalable State Management",
-      "description": "A while back, I worked on a small Flutter project while I was learning about Providers. I tried mimicking a simple MVI design pattern from this repo and attempted to create a Flutter version of it. At the time, it received a quick review that was fairly critical because I hadn't fully understood or applied the core concepts yet. Today, I am salvaging that old project in my quest to implement a proper design pattern for scalable projects. The original Android app tracks how many times you press t",
-      "url": "https://dev.to/emmanuel_code/implementing-the-mvi-design-pattern-in-flutter-a-journey-toward-scalable-state-management-250e",
-      "source": "Dev.to",
-      "author": "emmanuelCode",
-      "published": "2026-01-25T17:54:38+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "afef18e45aa38e41",
-      "title": "Building PriorityPilot: A CLI Project Manager That Learns From Your Decisions",
-      "description": "Ever felt like your project management tool should learn how you actually work instead of forcing you into rigid workflows? That's why I built PriorityPilot — a command-line project manager that uses machine learning to adapt to your behavior. 🔗 GitHub Repository The Problem Traditional project management tools make you manually prioritize tasks, estimate timelines, and adjust plans. But here's the thing: your actions already tell the story. When you start a task, postpone another, or complete s",
-      "url": "https://dev.to/usero0/building-prioritypilot-a-cli-project-manager-that-learns-from-your-decisions-17kg",
-      "source": "Dev.to",
-      "author": "jelly cri",
-      "published": "2026-01-25T17:47:22+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "8f904e37f484dae0",
-      "title": "Comparación de Servicios de Almacenamiento en la Nube",
-      "description": "S3 vs R2 La elección del servicio de almacenamiento en la nube adecuado es crucial para las empresas que buscan optimizar su infraestructura y reducir costos. Dos de los servicios de almacenamiento en la nube más populares son AWS S3 y Cloudflare R2. Aunque ambos servicios ofrecen funcionalidades similares, existen diferencias significativas en términos de características, precios y casos de uso. El objetivo de este artículo es proporcionar una comparación detallada de AWS S3 y Cloudflare R2, de",
-      "url": "https://dev.to/adini/comparacion-de-servicios-de-almacenamiento-en-la-nube-c4f",
-      "source": "Dev.to",
-      "author": "Agustin Ezequiel Acevedo",
-      "published": "2026-01-25T17:46:42+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
+      "score": 51,
+      "keywords": [
+        "development"
+      ]
     },
     {
       "id": "e366d3df56430bc1",
@@ -8129,6 +8077,54 @@
       "keywords": []
     },
     {
+      "id": "c8d7dac7d47bdcb1",
+      "title": "My editor saw me using Claude last week.",
+      "description": "My editor saw me using Claude last week. They gave me that look. The one like I'm cheating. \"That app will soon put us all out of work\" they said. I didn't argue. They are right. Just kept working. Their draft took 7 hours. Mine took 45 minutes. Both got approved. Client liked MINE. Ordered more. I didn't say a word or brag. I'm just happy I still have a job.",
+      "url": "https://dev.to/pithycyborg/my-editor-saw-me-using-claude-last-week-2no4",
+      "source": "Dev.to",
+      "author": "Pithy Cyborg | AI News Made Simple",
+      "published": "2026-02-01T18:36:36+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "36ae868d9cdffb81",
+      "title": "From Terraform to Crossplane: How to Understand Crossplane if you already know Terraform?",
+      "description": "If you work in DevOps, Terraform is likely your favorite hammer. It’s reliable, solid, and has built your whole infrastructure (I hope so, at least). But suddenly, you start hearing about Crossplane, and you see diagrams with a thousand Kubernetes cubes, names like XRD and Compositions, and your brain just goes click: \"Wait, why are there so many pieces just to do the same thing?\". If you feel this way, don’t worry. It’s not that Crossplane is unnecessarily complex; it’s that we’ve shifted from ",
+      "url": "https://dev.to/sarony11/from-terraform-to-crossplane-how-to-understand-crossplane-if-you-already-know-terraform-3ncn",
+      "source": "Dev.to",
+      "author": "Saul Fernandez",
+      "published": "2026-02-01T18:30:52+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "7206a41e76a0a572",
+      "title": "/usage: Know Your Limits, Then Exceed Them",
+      "description": "Real-time visibility into your Claude consumption — and what to do when you need more From: x.com/adocomplete You're deep in a complex refactoring session. Claude is on fire, helping you restructure an entire module. The pieces are coming together beautifully. Then, mid-thought: rate limit. Session over. Come back in an hour. Nothing kills momentum like an unexpected wall. Especially one you could have seen coming. What if you always knew exactly where you stood? What if hitting limits was a cho",
+      "url": "https://dev.to/rajeshroyal/usage-know-your-limits-then-exceed-them-4j3g",
+      "source": "Dev.to",
+      "author": "Rajesh Royal",
+      "published": "2026-02-01T18:30:00+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "061215acb45c36ed",
+      "title": "The Doctor's On-Call Shift solved with SQL Assertions",
+      "description": "In a previous article, I explained that enforcing application-level rules, such as “each shift must always have at least one doctor on call”, typically requires either serializable isolation or explicit locking. There's another possibility when enforcing the rules in the database, so they fall under ACID’s C instead of I, with SQL assertions. The SQL databases implemented only part of the SQL standard, limiting the constraints to single-row CHECK constraints, unique constraints between rows in t",
+      "url": "https://dev.to/franckpachot/the-doctors-on-call-shift-solved-with-sql-assertions-30fh",
+      "source": "Dev.to",
+      "author": "Franck Pachot",
+      "published": "2026-02-01T18:23:50+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "63b2a3073fa8ad0d",
       "title": "Kimi Released Kimi K2.5, Open-Source Visual SOTA-Agentic Model",
       "description": "Comments",
@@ -8450,30 +8446,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "1dc6ab061bf71c4c",
-      "title": "Using PostgreSQL as a Dead Letter Queue for Event-Driven Systems",
-      "description": "Comments",
-      "url": "https://www.diljitpr.net/blog-post-postgresql-dlq",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-25T15:51:03+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "6c4c47e59d4862ab",
-      "title": "ICE Using Palantir Tool That Feeds on Medicaid Data",
-      "description": "Comments",
-      "url": "https://www.eff.org/deeplinks/2026/01/report-ice-using-palantir-tool-feeds-medicaid-data",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-25T17:36:19+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "7a72ee7c1deb4c19",
@@ -10192,6 +10164,18 @@
       "keywords": []
     },
     {
+      "id": "5fc724bf677fdb92",
+      "title": "Apple: Our philosophy is to provide software for our machines free (1976)",
+      "description": "Comments",
+      "url": "http://apple1.chez.com/Apple1project/Gallery/Gallery.htm",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-02-01T17:36:57+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "cecd3da845538339",
       "title": "React 19.2",
       "description": "React 19.2 adds new features like Activity, React Performance Tracks, useEffectEvent, and more.",
@@ -10202,8 +10186,8 @@
       "niche": "dev",
       "score": 42,
       "keywords": [
-        "React 19",
-        "performance"
+        "performance",
+        "React 19"
       ]
     },
     {
@@ -10231,9 +10215,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
+        "performance",
         "release",
-        "code",
-        "performance"
+        "code"
       ]
     },
     {
@@ -10313,18 +10297,6 @@
       "keywords": [
         "development"
       ]
-    },
-    {
-      "id": "d377edff75727c33",
-      "title": "Show HN: An interactive map of US lighthouses and navigational aids",
-      "description": "Comments",
-      "url": "https://www.lighthouses.app/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-25T18:06:26+00:00",
-      "niche": "dev",
-      "score": 38,
-      "keywords": []
     },
     {
       "id": "910c2ea5549799d6",
@@ -10638,8 +10610,8 @@
       "score": 38,
       "keywords": [
         "release",
-        "React 19",
-        "API"
+        "API",
+        "React 19"
       ]
     },
     {
@@ -10653,8 +10625,8 @@
       "niche": "dev",
       "score": 37,
       "keywords": [
-        "release",
-        "developer"
+        "developer",
+        "release"
       ]
     },
     {
@@ -10726,8 +10698,8 @@
       "niche": "dev",
       "score": 34,
       "keywords": [
-        "developer",
-        "development"
+        "development",
+        "developer"
       ]
     },
     {
@@ -10769,8 +10741,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "framework",
-        "API"
+        "API",
+        "framework"
       ]
     },
     {
@@ -10962,11 +10934,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "performance",
         "code",
-        "framework",
+        "performance",
+        "release",
         "API",
-        "release"
+        "framework"
       ]
     },
     {
@@ -11091,18 +11063,6 @@
       "source": "Hacker News",
       "author": "Inconnu",
       "published": "2026-01-26T21:09:19+00:00",
-      "niche": "dev",
-      "score": 26,
-      "keywords": []
-    },
-    {
-      "id": "d4f397c5dd32e6a7",
-      "title": "Thirty Years of the Square Kilometre Array",
-      "description": "Comments",
-      "url": "https://physicsworld.com/a/thirty-years-of-the-square-kilometre-array-heres-what-the-worlds-largest-radio-telescope-project-has-achieved-so-far/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-25T17:53:49+00:00",
       "niche": "dev",
       "score": 26,
       "keywords": []
@@ -11352,8 +11312,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "library",
-        "release"
+        "release",
+        "library"
       ]
     },
     {
@@ -11382,8 +11342,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "framework",
-        "release"
+        "release",
+        "framework"
       ]
     },
     {
@@ -11397,9 +11357,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
+        "performance",
         "developer",
-        "code",
-        "performance"
+        "code"
       ]
     },
     {
@@ -11413,8 +11373,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
-        "developer"
+        "developer",
+        "release"
       ]
     },
     {
@@ -11428,8 +11388,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "release",
-        "developer"
+        "developer",
+        "release"
       ]
     },
     {
@@ -11443,9 +11403,9 @@
       "niche": "dev",
       "score": 18,
       "keywords": [
+        "development",
         "developer",
-        "code",
-        "development"
+        "code"
       ]
     },
     {
@@ -11501,8 +11461,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "code",
-        "API"
+        "API",
+        "code"
       ]
     },
     {
@@ -11689,18 +11649,6 @@
       ]
     },
     {
-      "id": "a6c221bc3ac4803f",
-      "title": "Immanuel 'the Königsberg clock' Kant (2015)",
-      "description": "Comments",
-      "url": "https://www.versobooks.com/en-gb/blogs/news/1963-immanuel-kant-the-errrr-walker",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-25T16:06:39+00:00",
-      "niche": "dev",
-      "score": 14,
-      "keywords": []
-    },
-    {
       "id": "184c46d08daa530c",
       "title": "Mecha Comet – Open Modular Linux Handheld Computer",
       "description": "Comments",
@@ -11881,6 +11829,18 @@
       "keywords": []
     },
     {
+      "id": "2dd57331343edc63",
+      "title": "Anciente map of Fairyland. Places from nursery rhymes, fairy tales etc.",
+      "description": "Comments",
+      "url": "https://collections.leventhalmap.org/search/commonwealth:3f463773q",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-27T16:44:39+00:00",
+      "niche": "dev",
+      "score": 14,
+      "keywords": []
+    },
+    {
       "id": "9c31721ef2924bc9",
       "title": "Responsive Hexagon Grid Using Modern CSS",
       "description": "A while back, Temani tacked a repeating grid of hexagon shapes. Well, he's updated it with modern CSS features that result in fewer magic numbers. And it's impressive! Responsive Hexagon Grid Using Modern CSS originally published on CSS-Tricks, which is part of the DigitalOcean family. You should get the newsletter.",
@@ -12035,8 +11995,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "programming",
-        "development"
+        "development",
+        "programming"
       ]
     },
     {
