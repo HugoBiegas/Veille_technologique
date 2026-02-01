@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-02-01T13:01:57.458210+00:00",
-  "total_articles": 992,
+  "last_updated": "2026-02-01T15:31:24.846551+00:00",
+  "total_articles": 993,
   "articles": [
     {
       "id": "39fadb1520836db7",
@@ -593,30 +593,6 @@
       ]
     },
     {
-      "id": "994ab093e549b2f8",
-      "title": "Introduction to Microsoft Excel for Data Analytics: A Beginner-Friendly Guide",
-      "description": "Data is everywhere, but making sense of it is what truly matters. That’s where Microsoft Excel comes in. It is one of the most accessible and powerful tools for anyone starting a journey in data analytics. What is Microsoft Excel? Microsoft Excel is a spreadsheet application that allows you to: Store data in rows and columns Perform calculations Clean and organize data Analyze patterns and trends Create charts and summaries Understanding the Excel Interface Before analyzing data, you need to und",
-      "url": "https://dev.to/sirsona/introduction-to-microsoft-excel-for-data-analytics-a-beginner-friendly-guide-179g",
-      "source": "Dev.to",
-      "author": "Mohamed",
-      "published": "2026-01-25T15:17:51+00:00",
-      "niche": "dev",
-      "score": 68,
-      "keywords": []
-    },
-    {
-      "id": "941c378c47f3c5b3",
-      "title": "Why Does React Use a Virtual DOM anyway?",
-      "description": "If you’ve spent any amount of time with React, you’ve probably heard of the Virtual DOM (or VDOM for short) as well as some version of this claim: React uses a Virtual DOM because direct DOM manipulation is slow. A catchy if hand-wavy explanation. Also a bit misleading. The DOM isn’t slow in the way people usually mean — JavaScript can execute DOM mutations very quickly. What’s expensive is what the browser has to do after you mutate them. React's Virtual DOM exists to manage those costs, not to",
-      "url": "https://dev.to/vftiago/why-does-react-use-a-virtual-dom-anyway-45ji",
-      "source": "Dev.to",
-      "author": "Tiago",
-      "published": "2026-01-25T15:09:49+00:00",
-      "niche": "dev",
-      "score": 68,
-      "keywords": []
-    },
-    {
       "id": "1ed86ebc31f17e7f",
       "title": "AI Gear Coach: AI-Powered Assistant for Content Creators Using Algolia & Google Gemini",
       "description": "This is a submission for the Algolia Agent Studio Challenge: Consumer-Facing Conversational Experiences What I Built AI Gear Coach is an AI-powered conversational agent that helps Indian content creators discover perfect camera equipment using intelligent search and natural language dialogue. The app combines Algolia's fast search with Google Gemini AI to generate contextual, conversational recommendations. The Problem: Content creators struggle to find suitable equipment matching their budget a",
@@ -828,6 +804,18 @@
       "source": "Dev.to",
       "author": "Dmytro",
       "published": "2026-02-01T08:45:43+00:00",
+      "niche": "dev",
+      "score": 68,
+      "keywords": []
+    },
+    {
+      "id": "0e24a281f5072533",
+      "title": "Stardust: The dashboard that transforms GitHub trends from \"search\" to \"monitoring\"",
+      "description": "Introduction GitHub Trending is an excellent resource, but its user experience isn't particularly optimized for engineers with broad interests across multiple languages. You'll check Rust trends, then move on to Go, then perhaps look at TypeScript... Each time, you need to click a dropdown, type in a language, and reload the page. This repetitive \"language switching\" process becomes noise in your daily information intake. You want a more intuitive way to grasp the entire ecosystem you're interes",
+      "url": "https://dev.to/kanywst/stardust-the-dashboard-that-transforms-github-trends-from-search-to-monitoring-5732",
+      "source": "Dev.to",
+      "author": "kt",
+      "published": "2026-02-01T15:01:02+00:00",
       "niche": "dev",
       "score": 68,
       "keywords": []
@@ -2123,31 +2111,18 @@
       ]
     },
     {
-      "id": "cd9fe4ea2db13b78",
-      "title": "I traced a single prompt through an LLM engine to see how it actually works (Visual Breakdown)",
-      "description": "We all use the API. We send a JSON payload to /v1/chat/completions, wait a few hundred milliseconds, and get a magical response back. But as an engineer, the \"Black Box\" nature of AI bothered me. I wanted to understand the actual pipeline—not just the high-level theory, but the mechanical journey of the data. So, I visualized the life of a single prompt: \"Write a poem about a robot.\" I traced it through Tokenization, Embeddings, Attention, and the KV Cache to understand how a matrix of numbers b",
-      "url": "https://dev.to/practicalaiguy_ba30448492/i-traced-a-single-prompt-through-an-llm-engine-to-see-how-it-actually-works-visual-breakdown-2kbj",
+      "id": "9687b6847676d69a",
+      "title": "Why Your AI Agent Needs to Hire Other Agents",
+      "description": "Here's something that's been bugging me about the current AI agent landscape: we keep building Swiss Army knives when we should be building phone books. THE PROBLEM: Your Agent Can't Do Everything If you've played with LangChain, CrewAI, or AutoGPT, you've felt this. You build an agent. You give it tools. It works great — until it doesn't. Your code-review agent can't send an SMS. Your research agent can't execute sandboxed Python. The usual fix? Give it more tools. More API keys. More system pr",
+      "url": "https://dev.to/pinchwork_b98640844b93a3f/why-your-ai-agent-needs-to-hire-other-agents-1dg2",
       "source": "Dev.to",
-      "author": "PracticalAIGuy",
-      "published": "2026-01-25T15:13:31+00:00",
+      "author": "Pinchwork",
+      "published": "2026-02-01T15:15:07+00:00",
       "niche": "dev",
-      "score": 54,
+      "score": 55,
       "keywords": [
+        "code",
         "API"
-      ]
-    },
-    {
-      "id": "3802514c0a34ed9d",
-      "title": "SkillFade: A Skill Tracking App That Tells You the Truth (Not What You Want to Hear)",
-      "description": "The Problem with Learning Apps Most skill tracking and learning apps follow the same playbook: gamification, streaks, badges, and dopamine hits. They're designed to make you feel good, not to show you reality. But here's the uncomfortable truth: skills decay without practice. That Python course you finished 6 months ago? It's fading. That framework you learned but never used in a project? Almost gone. I built SkillFade to be different—a mirror, not a coach. What is SkillFade? SkillFade is a web ",
-      "url": "https://dev.to/ruhidibadli/skillfade-a-skill-tracking-app-that-tells-you-the-truth-not-what-you-want-to-hear-3m10",
-      "source": "Dev.to",
-      "author": "Ruhid Ibadli",
-      "published": "2026-01-25T14:46:54+00:00",
-      "niche": "dev",
-      "score": 54,
-      "keywords": [
-        "framework"
       ]
     },
     {
@@ -2961,18 +2936,45 @@
       ]
     },
     {
-      "id": "a7677feac49343e2",
-      "title": "Using Constants and Enums in C#",
-      "description": "Originally published at https://allcoderthings.com/en/article/csharp-constants-and-enums In programming, there are certain values that never change throughout the application. In such cases, constants (const) or enum structures are used. Constants are preferred to fix a value, while enums are used to define meaningful sets of constants. This makes the code more readable, more reliable, and easier to maintain. Constants (const) Variables defined with the const keyword cannot be changed during the",
-      "url": "https://dev.to/allcoderthings/using-constants-and-enums-in-c-2h0c",
+      "id": "25188b1e4b5cfda7",
+      "title": "SCHEMAS AND MODELLING IN POWER BI.",
+      "description": "Data Modelling . This process involves structuring,organizing and connecting data tables for effective performance.Designing a good data model is important since it makes reports accurate and easy to understand.To set up a data model in Power BI is done by opening the report view and go to Data Model.It involves bringing many data tables together and connecting the relationship between them. A schema is a structure that shows how data is organized and related in a data model The two common data ",
+      "url": "https://dev.to/maggy_njuguna/schemas-and-modelling-in-power-bi-5c3",
       "source": "Dev.to",
-      "author": "AllCoderThings",
-      "published": "2026-01-25T14:48:02+00:00",
+      "author": "maggy njuguna",
+      "published": "2026-02-01T15:00:00+00:00",
       "niche": "dev",
-      "score": 52,
+      "score": 54,
       "keywords": [
-        "programming",
-        "code"
+        "performance"
+      ]
+    },
+    {
+      "id": "2cfcf53d7ce6c73a",
+      "title": "Taming the Chaos: How a DevOps Specialist Cleaned Dirty Data with Web Scraping Without Documentation",
+      "description": "Taming the Chaos: How a DevOps Specialist Cleaned Dirty Data with Web Scraping Without Documentation In many real-world scenarios, data remains an unstructured, often messy mess due to poor documentation and inconsistent sources. When traditional ETL pipelines fall short, web scraping can serve as a powerful, albeit challenging, alternative to retrieve and clean data. This post discusses how a DevOps specialist tackled such a problem—cleaning dirty, undocumented data via web scraping—highlightin",
+      "url": "https://dev.to/mohammad_waseem_c31f3a26f/taming-the-chaos-how-a-devops-specialist-cleaned-dirty-data-with-web-scraping-without-documentation-4h7i",
+      "source": "Dev.to",
+      "author": "Mohammad Waseem",
+      "published": "2026-02-01T14:48:56+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "API"
+      ]
+    },
+    {
+      "id": "04cbed099df59ca9",
+      "title": "Leveraging Linux for Spam Trap Prevention in Microservices Security",
+      "description": "Leveraging Linux for Spam Trap Prevention in Microservices Security In today's dynamic email marketing and communication landscape, avoiding spam traps is critical to maintaining a sender's reputation and ensuring the deliverability of vital communications. Spam traps are email addresses set up by ISPs and anti-spam organizations to catch malicious or negligent email senders. Once flagged, these can severely impact your organization's email reputation, leading to blacklisting and delivery failur",
+      "url": "https://dev.to/mohammad_waseem_c31f3a26f/leveraging-linux-for-spam-trap-prevention-in-microservices-security-la4",
+      "source": "Dev.to",
+      "author": "Mohammad Waseem",
+      "published": "2026-02-01T14:39:51+00:00",
+      "niche": "dev",
+      "score": 54,
+      "keywords": [
+        "microservices"
       ]
     },
     {
@@ -3648,20 +3650,6 @@
       "keywords": [
         "code",
         "developer"
-      ]
-    },
-    {
-      "id": "fd500444f335006d",
-      "title": "I Tested 6 Copilot Alternatives in VS Code and Here’s What Actually Worked",
-      "description": "I’ve been using GitHub Copilot for a while now, and while it’s great, I started running into some friction: usage quotas, limited model options, and a few privacy concerns. So I decided to see what else is out there. I tested six different Copilot-style tools inside VS Code, some free, some paid, some local, some cloud-based and ranked them based on: • Speed • Accuracy • Cost • Privacy • Ease of setup Here’s what I tried: • Ollama with Llama 3.1:8b + Codellama (Free, Local) • OpenRouter with Dev",
-      "url": "https://dev.to/primaryobjects/i-tested-6-copilot-alternatives-in-vs-code-and-heres-what-actually-worked-4n1o",
-      "source": "Dev.to",
-      "author": "Kory Becker",
-      "published": "2026-01-25T14:45:59+00:00",
-      "niche": "dev",
-      "score": 51,
-      "keywords": [
-        "code"
       ]
     },
     {
@@ -5245,42 +5233,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "53fb0238f92dc345",
-      "title": "If this doesn't kill your app, then I’m damn sure it will help: How a rebrand turned ChatGPT into my #1 referral source.",
-      "description": "14 days ago, my project was called Copywritee. I’d spent a year building it. I had some authority, a bit of awareness, and some sweat equity. But the data was screaming one thing: The name was a bug, not a feature, which i now know but changing a domain name could result to some dangerous consequences like ____________________________ yeah. a flat line of traffic The Dilemma People saw the name and assumed I was building a ChatGPT wrapper for blog posts. In reality, I was building a heavy-duty O",
-      "url": "https://dev.to/danieelatu_71b7ad8ea3fa31/if-this-doesnt-kill-your-app-then-im-damn-sure-it-will-help-how-a-rebrand-turned-chatgpt-into-2lnj",
-      "source": "Dev.to",
-      "author": "danieelatu",
-      "published": "2026-01-25T15:11:55+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "c06f57b0f9aea0a5",
-      "title": "Why NaN !== NaN Makes Perfect Sense (I Promise)",
-      "description": "No, JavaScript Isn’t Broken (Again) I’ll admit it — sometimes I like publishing a post on the weekend, when both the internet and real life slow down a bit. But weekends are not the time for heavy technical or philosophical deep dives. It’s better to go for something lighter. I spent a while looking for the right format. Topics like “the funniest commits ever” are fun, sure — but how many times can you do that? And then it clicked. This format — let’s call it JS WTF — fits my weekend vibe perfec",
-      "url": "https://dev.to/sylwia-lask/why-nan-nan-makes-perfect-sense-i-promise-2lke",
-      "source": "Dev.to",
-      "author": "Sylwia Laskowska",
-      "published": "2026-01-25T15:11:47+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "82f23d5320f22c59",
-      "title": "I made a game using Copilot CLI - was it a total failure or not so bad?",
-      "description": "This is a submission for the GitHub Copilot CLI Challenge Hello, dev community!!! 🖐 I created a game in Godot using GitHub copilot. But was everything as great as I thought? Why didn't I choose my dream project - SDF Editor? I wanted to create something new, and I wanted Copilot to do everything for me. But something didn't work out, and it turned out the other way around. What I Built Hollow Pilot is a game inspired by Hollow Knight. It includes: Movement mechanics – jumping, dashing, walking C",
-      "url": "https://dev.to/embernoglow/i-made-a-game-using-copilot-cli-was-it-a-total-failure-or-not-so-bad-1k4m",
-      "source": "Dev.to",
-      "author": "EmberNoGlow",
-      "published": "2026-01-25T15:02:13+00:00",
-      "niche": "dev",
-      "score": 50,
-      "keywords": []
     },
     {
       "id": "08cf2e550f7e289b",
@@ -8117,6 +8069,66 @@
       "keywords": []
     },
     {
+      "id": "6ac5b8e47680afd4",
+      "title": "Why Memory Compatibility (QVL) Matters on Modern DDR5 Systems",
+      "description": "Why Memory Compatibility (QVL) Matters More Than Many Think on Modern DDR5 Systems Recently, I came across a MakeUseOf article by Gavin Phillips that described a situation many PC users will recognize. The system wasn’t broken. There were no constant crashes or obvious instability. On paper, everything looked correct. XMP was enabled. Specs matched. Benchmarks looked fine And yet, from time to time, something felt off. Occasional micro-stutters Slightly slower application launches Inconsistent s",
+      "url": "https://dev.to/bios-doctor/why-memory-compatibility-qvl-matters-on-modern-ddr5-systems-2689",
+      "source": "Dev.to",
+      "author": "Andrew",
+      "published": "2026-02-01T15:22:25+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "af995ac2903c72ee",
+      "title": "Linux Fundamentals - Part 5: Bash Scripting (Hello World & Variables)",
+      "description": "What Is Bash? Bash stands for Bourne Again SHell. It is the default shell on most Linux systems. It allows you to: Run commands interactively Write scripts (files containing commands) A bash script is simply a text file with Linux commands executed line by line. First Bash Script Step 1: Create a file. vim kervie.sh This opens vim in Normal mode. Step 2: Go to insert mode by pressing i. Step 3: Add this content #!/bin/bash echo \"Hello, World!\" Step 4: Save and exit Press Esc then type :wq. to sa",
+      "url": "https://dev.to/kervie_sazon/linux-fundamentals-part-5-bash-scripting-hello-world-variables-10l9",
+      "source": "Dev.to",
+      "author": "Kervie Sazon",
+      "published": "2026-02-01T15:18:39+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "a121cc491ccf01aa",
+      "title": "5 Things Every Beginner Should Know Before Starting Manual Testing",
+      "description": "Hello DEV Community 👋 This is my first post here after a long time, and I’m really excited to start sharing my learning journey. Currently, I’m working on building my skills in Software Quality Assurance (SQA), especially focusing on Manual Testing. As a beginner, I realized that manual testing is not just about clicking buttons — it’s about thinking like a user, understanding requirements, and ensuring software quality. So today, I want to share 5 important things every beginner should know bef",
+      "url": "https://dev.to/ijsathi/5-things-every-beginner-should-know-before-starting-manual-testing-108p",
+      "source": "Dev.to",
+      "author": "Israt Zahan Sathi",
+      "published": "2026-02-01T15:15:14+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "dd4daaed0da77b1c",
+      "title": "I Eliminated SQLite Race Conditions in a Multi-Threaded Python App 🚀",
+      "description": "Random crashes. Database corruption. “database is locked” errors. That’s how my app Sortify behaved when multiple threads hit SQLite at the same time. This post is how I fixed it properly — and made the database production-ready. 🧠 The Problem: SQLite + Threads = Trouble SQLite is lightweight and fast — but it has a big footgun: ❌ A single database connection shared across threads is NOT safe In my app Sortify, multiple components were running concurrently: Auto-sort watcher Manual file operatio",
+      "url": "https://dev.to/rolan_r_n_r/i-eliminated-sqlite-race-conditions-in-a-multi-threaded-python-app-4eod",
+      "source": "Dev.to",
+      "author": "Rolan Lobo",
+      "published": "2026-02-01T14:59:13+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
+      "id": "70bd03f31ce718ee",
+      "title": "Securing Test Environments: How SQL Scripts Eliminated PII Leakage Under Pressure",
+      "description": "In the fast-paced world of software testing, especially in projects involving sensitive data, the risk of leaking personally identifiable information (PII) in test environments can be a critical setback. As a Lead QA Engineer, I faced a pressing challenge: how to quickly eliminate PII from our test databases without disrupting ongoing testing workflows. The Challenge Our client’s compliance requirements mandated strict privacy controls, and our environment was inadvertently exposing PII such as ",
+      "url": "https://dev.to/mohammad_waseem_c31f3a26f/securing-test-environments-how-sql-scripts-eliminated-pii-leakage-under-pressure-26mk",
+      "source": "Dev.to",
+      "author": "Mohammad Waseem",
+      "published": "2026-02-01T14:48:05+00:00",
+      "niche": "dev",
+      "score": 50,
+      "keywords": []
+    },
+    {
       "id": "63b2a3073fa8ad0d",
       "title": "Kimi Released Kimi K2.5, Open-Source Visual SOTA-Agentic Model",
       "description": "Comments",
@@ -8438,42 +8450,6 @@
       "keywords": [
         "code"
       ]
-    },
-    {
-      "id": "c57d4d1fc633684f",
-      "title": "AI productivity gains sound impressive… but are we measuring the right things?",
-      "description": "AI Productivity Gains? Richard Pascoe ・ Jan 20 #ai #discuss",
-      "url": "https://dev.to/richardpascoe/ai-can-boost-productivity-but-are-the-fantastical-claims-we-often-see-over-simplified-23j",
-      "source": "Dev.to",
-      "author": "Richard Pascoe",
-      "published": "2026-01-25T15:15:49+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "5ccbe2cba04d1ec6",
-      "title": "UN Declares That the World Has Entered an Era of 'Global Water Bankruptcy'",
-      "description": "Comments",
-      "url": "https://www.smithsonianmag.com/smart-news/united-nations-declares-that-the-world-has-entered-an-era-of-global-water-bankruptcy-180988045/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-25T15:02:08+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
-    },
-    {
-      "id": "cf21672fa08869e7",
-      "title": "Iran Protest Death Toll Could Top 30k, According to Local Health Officials",
-      "description": "Comments",
-      "url": "https://time.com/7357635/more-than-30000-killed-in-iran-say-senior-officials/",
-      "source": "Hacker News",
-      "author": "Inconnu",
-      "published": "2026-01-25T13:59:42+00:00",
-      "niche": "dev",
-      "score": 44,
-      "keywords": []
     },
     {
       "id": "1dc6ab061bf71c4c",
@@ -10180,6 +10156,42 @@
       "keywords": []
     },
     {
+      "id": "4f730a12890c5edc",
+      "title": "Adventure Game Studio: OSS software for creating adventure games",
+      "description": "Comments",
+      "url": "https://www.adventuregamestudio.co.uk/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-02-01T13:56:56+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "c8a5ecddf50d357c",
+      "title": "MicroPythonOS graphical operating system delivers Android-like user experience",
+      "description": "Comments",
+      "url": "https://www.cnx-software.com/2026/01/29/micropythonos-graphical-operating-system-delivers-android-like-user-experience-on-microcontrollers/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-01-29T16:54:39+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
+      "id": "5d4a4c95ff8d1602",
+      "title": "FOSDEM 2026 – Open-Source Conference in Brussels – Day#1 Recap",
+      "description": "Comments",
+      "url": "https://gyptazy.com/blog/fosdem-2026-opensource-conference-brussels/",
+      "source": "Hacker News",
+      "author": "Inconnu",
+      "published": "2026-02-01T10:30:41+00:00",
+      "niche": "dev",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "cecd3da845538339",
       "title": "React 19.2",
       "description": "React 19.2 adds new features like Activity, React Performance Tracks, useEffectEvent, and more.",
@@ -10219,9 +10231,9 @@
       "niche": "dev",
       "score": 40,
       "keywords": [
-        "performance",
+        "release",
         "code",
-        "release"
+        "performance"
       ]
     },
     {
@@ -10625,9 +10637,9 @@
       "niche": "dev",
       "score": 38,
       "keywords": [
+        "release",
         "React 19",
-        "API",
-        "release"
+        "API"
       ]
     },
     {
@@ -10641,8 +10653,8 @@
       "niche": "dev",
       "score": 37,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -10684,8 +10696,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -10699,8 +10711,8 @@
       "niche": "dev",
       "score": 35,
       "keywords": [
-        "React 19",
-        "release"
+        "release",
+        "React 19"
       ]
     },
     {
@@ -10714,8 +10726,8 @@
       "niche": "dev",
       "score": 34,
       "keywords": [
-        "development",
-        "developer"
+        "developer",
+        "development"
       ]
     },
     {
@@ -10757,8 +10769,8 @@
       "niche": "dev",
       "score": 33,
       "keywords": [
-        "API",
-        "framework"
+        "framework",
+        "API"
       ]
     },
     {
@@ -10950,11 +10962,11 @@
       "niche": "dev",
       "score": 30,
       "keywords": [
-        "code",
-        "API",
         "performance",
-        "release",
-        "framework"
+        "code",
+        "framework",
+        "API",
+        "release"
       ]
     },
     {
@@ -11355,8 +11367,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "API",
-        "release"
+        "release",
+        "API"
       ]
     },
     {
@@ -11370,8 +11382,8 @@
       "niche": "dev",
       "score": 21,
       "keywords": [
-        "release",
-        "framework"
+        "framework",
+        "release"
       ]
     },
     {
@@ -11385,9 +11397,9 @@
       "niche": "dev",
       "score": 20,
       "keywords": [
-        "performance",
+        "developer",
         "code",
-        "developer"
+        "performance"
       ]
     },
     {
@@ -11401,8 +11413,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -11416,8 +11428,8 @@
       "niche": "dev",
       "score": 19,
       "keywords": [
-        "developer",
-        "release"
+        "release",
+        "developer"
       ]
     },
     {
@@ -11431,9 +11443,9 @@
       "niche": "dev",
       "score": 18,
       "keywords": [
-        "development",
+        "developer",
         "code",
-        "developer"
+        "development"
       ]
     },
     {
@@ -11504,8 +11516,8 @@
       "niche": "dev",
       "score": 16,
       "keywords": [
-        "code",
-        "developer"
+        "developer",
+        "code"
       ]
     },
     {
@@ -12023,8 +12035,8 @@
       "niche": "dev",
       "score": 14,
       "keywords": [
-        "development",
-        "programming"
+        "programming",
+        "development"
       ]
     },
     {
