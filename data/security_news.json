@@ -1,25 +1,7 @@
 {
-  "last_updated": "2026-02-02T15:41:37.580577+00:00",
-  "total_articles": 430,
+  "last_updated": "2026-02-03T02:38:27.154971+00:00",
+  "total_articles": 422,
   "articles": [
-    {
-      "id": "146e0a03aed3c9b7",
-      "title": "Microsoft patches actively exploited Office zero-day vulnerability",
-      "description": "Microsoft has released emergency security updates to patch a high-severity Office zero-day vulnerability exploited in attacks. [...]",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-actively-exploited-office-zero-day-vulnerability/",
-      "source": "Bleeping Computer",
-      "author": "Sergiu Gatlan",
-      "published": "2026-01-26T13:20:35-05:00",
-      "niche": "security",
-      "score": 100,
-      "keywords": [
-        "patch",
-        "security",
-        "zero-day",
-        "vulnerability",
-        "exploit"
-      ]
-    },
     {
       "id": "cfd719105d03f611",
       "title": "Microsoft Office Zero-Day (CVE-2026-21509) - Emergency Patch Issued for Active Exploitation",
@@ -340,6 +322,42 @@
       ]
     },
     {
+      "id": "3fb6689f762b4955",
+      "title": "OpenClaw Bug Enables One-Click Remote Code Execution via Malicious Link",
+      "description": "A high-severity security flaw has been disclosed in OpenClaw (formerly referred to as Clawdbot and Moltbot) that could allow remote code execution (RCE) through a crafted malicious link. The issue, which is tracked as CVE-2026-25253 (CVSS score: 8.8), has been addressed in version 2026.1.29 released on January 30, 2026. It has been described as a token exfiltration vulnerability that leads to",
+      "url": "https://thehackernews.com/2026/02/openclaw-bug-enables-one-click-remote.html",
+      "source": "The Hacker News",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-02-02T21:58:00+05:30",
+      "niche": "security",
+      "score": 100,
+      "keywords": [
+        "vulnerability",
+        "RCE",
+        "remote code execution",
+        "security flaw",
+        "CVE-"
+      ]
+    },
+    {
+      "id": "d4a3c89bb2a953a4",
+      "title": "Russian hackers exploit recently patched Microsoft Office bug in attacks",
+      "description": "Ukraine's Computer Emergency Response Team (CERT) says that Russian hackers are exploiting CVE-2026-21509, a recently patched vulnerability in multiple versions of Microsoft Office. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/russian-hackers-exploit-recently-patched-microsoft-office-bug-in-attacks/",
+      "source": "Bleeping Computer",
+      "author": "Bill Toulas",
+      "published": "2026-02-02T16:00:07-05:00",
+      "niche": "security",
+      "score": 100,
+      "keywords": [
+        "vulnerability",
+        "patch",
+        "attack",
+        "CVE-",
+        "exploit"
+      ]
+    },
+    {
       "id": "469b9dd5f4fa4c3a",
       "title": "Marquis blames ransomware breach on SonicWall cloud backup hack",
       "description": "Marquis Software Solutions, a Texas-based financial services provider, is blaming a ransomware attack that impacted its systems and affected dozens of U.S. banks and credit unions in August 2025 on a security breach reported by SonicWall a month later. [...]",
@@ -372,24 +390,6 @@
         "ransomware",
         "threat",
         "attack"
-      ]
-    },
-    {
-      "id": "137e28563a84fef1",
-      "title": "Emergency Microsoft update fixes in-the-wild Office zero-day",
-      "description": "Microsoft issued emergency updates to fix an actively exploited Office zero-day, CVE-2026-21509, affecting Office 2016–2024 and Microsoft 365 Apps. Microsoft released out-of-band security updates to address an actively exploited Office zero-day vulnerability tracked as CVE-2026-21509. The issue is a security feature bypass vulnerability that affects multiple Office versions, including Microsoft Office 2016, Microsoft Office 2019, [&#8230;]",
-      "url": "https://securityaffairs.com/187349/hacking/emergency-microsoft-update-fixes-in-the-wild-office-zero-day.html",
-      "source": "Security Affairs",
-      "author": "Pierluigi Paganini",
-      "published": "2026-01-26T19:03:54+00:00",
-      "niche": "security",
-      "score": 97,
-      "keywords": [
-        "exploit",
-        "CVE-",
-        "vulnerability",
-        "security",
-        "zero-day"
       ]
     },
     {
@@ -699,40 +699,6 @@
         "CVE-",
         "vulnerability",
         "patch"
-      ]
-    },
-    {
-      "id": "bb045db94ba4f194",
-      "title": "Malicious VS Code AI Extensions with 1.5 Million Installs Steal Developer Source Code",
-      "description": "Cybersecurity researchers have discovered two malicious Microsoft Visual Studio Code (VS Code) extensions that are advertised as artificial intelligence (AI)-powered coding assistants, but also harbor covert functionality to siphon developer data to China-based servers. The extensions, which have 1.5 million combined installs and are still available for download from the official Visual Studio",
-      "url": "https://thehackernews.com/2026/01/malicious-vs-code-ai-extensions-with-15.html",
-      "source": "The Hacker News",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-01-26T21:13:00+05:30",
-      "niche": "security",
-      "score": 85,
-      "keywords": [
-        "RCE",
-        "cybersecurity",
-        "security"
-      ]
-    },
-    {
-      "id": "0358d2ddaad6de25",
-      "title": "Indian Users Targeted in Tax Phishing Campaign Delivering Blackmoon Malware",
-      "description": "Cybersecurity researchers have discovered an ongoing campaign that's targeting Indian users with a multi-stage backdoor as part of a suspected cyber espionage campaign. The activity, per the eSentire Threat Response Unit (TRU), involves using phishing emails impersonating the Income Tax Department of India to trick victims into downloading a malicious archive, ultimately granting the threat",
-      "url": "https://thehackernews.com/2026/01/indian-users-targeted-in-tax-phishing.html",
-      "source": "The Hacker News",
-      "author": "info@thehackernews.com (The Hacker News)",
-      "published": "2026-01-26T22:31:00+05:30",
-      "niche": "security",
-      "score": 84,
-      "keywords": [
-        "phishing",
-        "cybersecurity",
-        "threat",
-        "security",
-        "malware"
       ]
     },
     {
@@ -1442,11 +1408,11 @@
       "niche": "security",
       "score": 75,
       "keywords": [
-        "exploit",
         "zero-day",
-        "patch",
         "security flaw",
-        "security"
+        "patch",
+        "security",
+        "exploit"
       ]
     },
     {
@@ -1527,33 +1493,19 @@
       ]
     },
     {
-      "id": "226f923fe19f6f9f",
-      "title": "New malware service guarantees phishing extensions on Chrome web store",
-      "description": "A new malware-as-a-service (MaaS) called 'Stanley' promises malicious Chrome extensions that can clear Google's review process and publish them to the Chrome Web Store. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/new-malware-service-guarantees-phishing-extensions-on-chrome-web-store/",
-      "source": "Bleeping Computer",
-      "author": "Bill Toulas",
-      "published": "2026-01-26T18:46:09-05:00",
+      "id": "fb34265d639b5504",
+      "title": "Microsoft disables NTLM in Windows",
+      "description": "Microsoft has announced that the phase-out of NT LAN Manager (NTLM) is now transitioning to disabling the protocol by default, in an effort to increase security in Windows 11 and Windows Server. NTLM is a series of security protocols that were introduced in the 1990s, but since Kerberos became the default protocol in Windows 2000, its use has declined with each passing year. Still, many legacy enterprise systems still support or use NTLM, making them vulnerability to NTLM relay attacks, for exam",
+      "url": "https://www.csoonline.com/article/4125947/microsoft-disables-ntlm-in-windows.html",
+      "source": "CSO Online",
+      "author": "Inconnu",
+      "published": "2026-02-02T22:05:47+00:00",
       "niche": "security",
-      "score": 72,
+      "score": 73,
       "keywords": [
-        "phishing",
-        "malware"
-      ]
-    },
-    {
-      "id": "57d5fc942a8213e2",
-      "title": "New ClickFix attacks abuse Windows App-V scripts to push malware",
-      "description": "A new malicious campaign mixes the ClickFix method with fake CAPTCHA and a signed Microsoft Application Virtualization (App-V) script to ultimately deliver the Amatera infostealing malware. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/new-clickfix-attacks-abuse-windows-app-v-scripts-to-push-malware/",
-      "source": "Bleeping Computer",
-      "author": "Bill Toulas",
-      "published": "2026-01-26T16:42:12-05:00",
-      "niche": "security",
-      "score": 72,
-      "keywords": [
-        "attack",
-        "malware"
+        "security",
+        "vulnerability",
+        "attack"
       ]
     },
     {
@@ -1744,6 +1696,21 @@
       ]
     },
     {
+      "id": "307688d9f5f71d93",
+      "title": "New GlassWorm attack targets macOS via compromised OpenVSX extensions",
+      "description": "A new GlassWorm malware attack through compromised OpenVSX extensions focuses on stealing passwords, crypto-wallet data, and developer credentials and configurations from macOS systems. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/new-glassworm-attack-targets-macos-via-compromised-openvsx-extensions/",
+      "source": "Bleeping Computer",
+      "author": "Bill Toulas",
+      "published": "2026-02-02T17:04:19-05:00",
+      "niche": "security",
+      "score": 72,
+      "keywords": [
+        "attack",
+        "malware"
+      ]
+    },
+    {
       "id": "4f3a73539f66733c",
       "title": "U.S. CISA adds Microsoft Office, GNU InetUtils, SmarterTools SmarterMail, and Linux Kernel flaws to its Known Exploited Vulnerabilities catalog",
       "description": "U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds Microsoft Office, GNU InetUtils, SmarterTools SmarterMail, and Linux Kernel flaws to its Known Exploited Vulnerabilities catalog. The U.S. Cybersecurity and Infrastructure Security Agency (CISA) added Microsoft Office, GNU InetUtils, SmarterTools SmarterMail, and Linux Kernel flaws to its Known Exploited Vulnerabilities (KEV) catalog. Below are the flaws added to the catalog: [&#8230;]",
@@ -1775,6 +1742,24 @@
         "attack",
         "patch",
         "threat"
+      ]
+    },
+    {
+      "id": "ecfaf27438e5db68",
+      "title": "New phishing attack leverages PDFs and Dropbox",
+      "description": "Even as they become ever more stealthy with AI-driven tools, threat actors are not giving up on simple, tried-and-true phishing — because it still works. According to new research, attackers are still making mischief with PDFs, the old business standby, and are exploiting growing trust in services like Dropbox. Forcepoint’s X-Labs team has uncovered a multi-stage phishing campaign that exploits PDF files and Dropbox storage through a layered redirection attack. After clicking on what looks like ",
+      "url": "https://www.csoonline.com/article/4125990/new-phishing-attack-leverages-pdfs-and-dropbox.html",
+      "source": "CSO Online",
+      "author": "Inconnu",
+      "published": "2026-02-03T02:30:44+00:00",
+      "niche": "security",
+      "score": 71,
+      "keywords": [
+        "threat",
+        "phishing",
+        "RCE",
+        "attack",
+        "exploit"
       ]
     },
     {
@@ -1823,18 +1808,6 @@
         "security",
         "exploit"
       ]
-    },
-    {
-      "id": "c1ac25a23c9a1f16",
-      "title": "Cloudflare misconfiguration behind recent BGP route leak",
-      "description": "Cloudflare has shared more details about a recent 25-minute Border Gateway Protocol (BGP) route leak affecting IPv6 traffic, which caused measurable congestion, packet loss, and approximately 12 Gbps of dropped traffic. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/cloudflare-misconfiguration-behind-recent-bgp-route-leak/",
-      "source": "Bleeping Computer",
-      "author": "Bill Toulas",
-      "published": "2026-01-26T12:50:35-05:00",
-      "niche": "security",
-      "score": 68,
-      "keywords": []
     },
     {
       "id": "b1b8b653be7f1256",
@@ -2117,6 +2090,48 @@
       ]
     },
     {
+      "id": "ea6d579319c2b851",
+      "title": "Researchers Find 341 Malicious ClawHub Skills Stealing Data from OpenClaw Users",
+      "description": "A security audit of 2,857 skills on ClawHub has found 341 malicious skills across multiple campaigns, according to new findings from Koi Security, exposing users to new supply chain risks. ClawHub is a marketplace designed to make it easy for OpenClaw users to find and install third-party skills. It's an extension to the OpenClaw project, a self-hosted artificial intelligence (AI) assistant",
+      "url": "https://thehackernews.com/2026/02/researchers-find-341-malicious-clawhub.html",
+      "source": "The Hacker News",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-02-02T23:19:00+05:30",
+      "niche": "security",
+      "score": 66,
+      "keywords": [
+        "security"
+      ]
+    },
+    {
+      "id": "116a80dc69cc4143",
+      "title": "Microsoft Begins NTLM Phase-Out With Three-Stage Plan to Move Windows to Kerberos",
+      "description": "Microsoft has announced a three-phase approach to phase out New Technology LAN Manager (NTLM) as part of its efforts to shift Windows environments toward stronger, Kerberos-based options. The development comes more than two years after the tech giant revealed its plans to deprecate the legacy technology, citing its susceptibility to weaknesses that could facilitate relay attacks and allow bad",
+      "url": "https://thehackernews.com/2026/02/microsoft-begins-ntlm-phase-out-with.html",
+      "source": "The Hacker News",
+      "author": "info@thehackernews.com (The Hacker News)",
+      "published": "2026-02-02T21:29:00+05:30",
+      "niche": "security",
+      "score": 66,
+      "keywords": [
+        "attack"
+      ]
+    },
+    {
+      "id": "b359ae6022b344fc",
+      "title": "Malicious MoltBot skills used to push password-stealing malware",
+      "description": "More than 230 malicious packages for the personal AI assistant OpenClaw (formerly known as Moltbot and ClawdBot) have been published in less than a week on the tool's official registry and on GitHub. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/malicious-moltbot-skills-used-to-push-password-stealing-malware/",
+      "source": "Bleeping Computer",
+      "author": "Bill Toulas",
+      "published": "2026-02-02T14:11:12-05:00",
+      "niche": "security",
+      "score": 66,
+      "keywords": [
+        "malware"
+      ]
+    },
+    {
       "id": "7b7eeaffac61f31c",
       "title": "Nation-state hack exploited hosting infrastructure to hijack Notepad++ updates",
       "description": "Notepad++ maintainer says nation-state attackers hijacked the app’s update system by redirecting traffic at the hosting provider level. The Notepad++ maintainer revealed that nation-state hackers compromised the hosting provider’s infrastructure, redirecting update traffic to malicious servers. The attack did not exploit flaws in Notepad++ code but intercepted updates before they reached users. &#8220;According to the [&#8230;]",
@@ -2131,18 +2146,6 @@
         "RCE",
         "attack"
       ]
-    },
-    {
-      "id": "1d26347a3f67d7f0",
-      "title": "EU launches investigation into X over Grok-generated sexual images",
-      "description": "The European Commission is now investigating whether X properly assessed risks before deploying its Grok artificial intelligence tool, following its use to generate sexually explicit images. [...]",
-      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/eu-launches-investigation-into-x-over-grok-generated-sexual-images/",
-      "source": "Bleeping Computer",
-      "author": "Sergiu Gatlan",
-      "published": "2026-01-26T12:14:29-05:00",
-      "niche": "security",
-      "score": 64,
-      "keywords": []
     },
     {
       "id": "40a54385c732592b",
@@ -2386,10 +2389,10 @@
       "niche": "security",
       "score": 61,
       "keywords": [
-        "secure",
         "OWASP",
+        "security",
         "RCE",
-        "security"
+        "secure"
       ]
     },
     {
@@ -2404,6 +2407,20 @@
       "score": 60,
       "keywords": [
         "malware"
+      ]
+    },
+    {
+      "id": "49f96929227d27b6",
+      "title": "Microsoft: January update shutdown bug affects more Windows PCs",
+      "description": "Microsoft has confirmed that a known issue preventing some Windows 11 devices from shutting down also affects Windows 10 systems with Virtual Secure Mode (VSM) enabled. [...]",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-january-update-shutdown-bug-affects-more-windows-pcs/",
+      "source": "Bleeping Computer",
+      "author": "Sergiu Gatlan",
+      "published": "2026-02-02T12:17:30-05:00",
+      "niche": "security",
+      "score": 60,
+      "keywords": [
+        "secure"
       ]
     },
     {
@@ -2561,19 +2578,16 @@
       ]
     },
     {
-      "id": "9df00e94b6be9ab8",
-      "title": "Access System Flaws Enabled Hackers to Unlock Doors at Major European Firms",
-      "description": "More than 20 vulnerabilities were found and patched in Dormakaba physical access control systems. The post Access System Flaws Enabled Hackers to Unlock Doors at Major European Firms appeared first on SecurityWeek.",
-      "url": "https://www.securityweek.com/access-system-flaws-enabled-hackers-to-unlock-doors-at-major-european-firms/",
-      "source": "SecurityWeek",
-      "author": "Eduard Kovacs",
-      "published": "2026-01-26T16:11:08+00:00",
+      "id": "9df753fd17dfeebc",
+      "title": "Mozilla announces switch to disable all Firefox AI features",
+      "description": "In response to user feedback on AI integration, Mozilla announced today that the next Firefox release will let users disable AI features entirely or manage them individually. [...]",
+      "url": "https://www.bleepingcomputer.com/news/software/mozilla-will-let-you-turn-off-all-firefox-ai-features/",
+      "source": "Bleeping Computer",
+      "author": "Sergiu Gatlan",
+      "published": "2026-02-02T13:09:13-05:00",
       "niche": "security",
-      "score": 57,
-      "keywords": [
-        "patch",
-        "security"
-      ]
+      "score": 58,
+      "keywords": []
     },
     {
       "id": "fac7602d14a0319d",
@@ -2735,6 +2749,22 @@
       ]
     },
     {
+      "id": "31cd994ba452c376",
+      "title": "Attackers Harvest Dropbox Logins Via Fake PDF Lures",
+      "description": "A malware-free phishing campaign targets corporate inboxes and asks employees to view \"request orders,\" ultimately leading to Dropbox credential theft.",
+      "url": "https://www.darkreading.com/cloud-security/attackers-harvest-dropbox-logins-fake-pdf-lures",
+      "source": "Dark Reading",
+      "author": "Alexander Culafi",
+      "published": "2026-02-02T22:21:33+00:00",
+      "niche": "security",
+      "score": 57,
+      "keywords": [
+        "attack",
+        "phishing",
+        "malware"
+      ]
+    },
+    {
       "id": "ee26d0f5e267a117",
       "title": "A 0-click exploit chain for the Pixel 9 Part 2: Cracking the Sandbox with a Big Wave",
       "description": "With the advent of a potential Dolby Unified Decoder RCE exploit, it seemed prudent to see what kind of Linux kernel drivers might be accessible from the resulting userland context, the mediacodec context. As per the AOSP documentation, the mediacodec SELinux context is intended to be a constrained (a.k.a sandboxed) context where non-secure software decoders are utilized. Nevertheless, using my DriverCartographer tool, I discovered an interesting device driver, /dev/bigwave that was accessible f",
@@ -2844,6 +2874,21 @@
       ]
     },
     {
+      "id": "300231cf2ec9c19d",
+      "title": "ShinyHunters Expands Scope of SaaS Extortion Attacks",
+      "description": "Following its attacks on Salesforce instances last year, members of the cybercrime group have broadened their targeting and gotten more aggressive with extortion tactics.",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/shinyhunters-expands-scope-saas-extortion-attacks",
+      "source": "Dark Reading",
+      "author": "Elizabeth Montalbano, Contributing Writer",
+      "published": "2026-02-02T16:07:57+00:00",
+      "niche": "security",
+      "score": 56,
+      "keywords": [
+        "attack",
+        "RCE"
+      ]
+    },
+    {
       "id": "a9731f7b152bab83",
       "title": "Indurex Emerges From Stealth to Close Security Gap in Cyber-Physical Systems",
       "description": "Indurex was founded by Jalal Bouhdada, who previously led industrial cybersecurity company Applied Risk. The post Indurex Emerges From Stealth to Close Security Gap in Cyber-Physical Systems appeared first on SecurityWeek.",
@@ -2886,6 +2931,21 @@
       "keywords": [
         "cybersecurity",
         "security"
+      ]
+    },
+    {
+      "id": "dacb9b92cf4618d8",
+      "title": "MoltBot Skills exploited to distribute 400+ malware packages in days",
+      "description": "Over 400 malicious OpenClaw packages were uploaded in days, using MoltBot skills to spread password-stealing malware. Researchers uncovered a large malware campaign abusing AI skills for Claude Code and Moltbot users. Between late January and early February 2026, more than 400 malicious skills were published on ClawHub and GitHub, posing as crypto trading tools. OpenClaw [&#8230;]",
+      "url": "https://securityaffairs.com/187562/malware/moltbot-skills-exploited-to-distribute-400-malware-packages-in-days.html",
+      "source": "Security Affairs",
+      "author": "Pierluigi Paganini",
+      "published": "2026-02-02T21:29:22+00:00",
+      "niche": "security",
+      "score": 55,
+      "keywords": [
+        "exploit",
+        "malware"
       ]
     },
     {
@@ -3088,6 +3148,21 @@
       ]
     },
     {
+      "id": "5d72a147d0429ef3",
+      "title": "County Pays $600K to Wrongfully Jailed Pen Testers",
+      "description": "Iowa police arrested two penetration testers in 2019 for doing their jobs, highlighting the risk to security professionals in red teaming exercises.",
+      "url": "https://www.darkreading.com/cybersecurity-operations/county-pays-600k-wrongfully-jailed-pen-testers",
+      "source": "Dark Reading",
+      "author": "Nate Nelson, Contributing Writer",
+      "published": "2026-02-02T21:57:51+00:00",
+      "niche": "security",
+      "score": 54,
+      "keywords": [
+        "security",
+        "penetration test"
+      ]
+    },
+    {
       "id": "ce2fb4b2a0181c36",
       "title": "Journée européenne de la protection des données : France Télévisions et la CNIL sensibilisent les collégiens",
       "description": "À l’occasion de la journée européenne de la protection des données, le 28&nbsp;janvier, France Télévisions et la CNIL ont proposé un atelier interactif à une centaine de collégiens, mêlant vidéos, conseils pratiques et ressources pédagogiques.",
@@ -3148,20 +3223,6 @@
       ]
     },
     {
-      "id": "227ba63311d5e26e",
-      "title": "Deadhand - Le testament qui transmet vos cryptos après votre mort",
-      "description": "Vous mourrez. Votre crypto meurt avec vous. Et votre famille n'a aucune idée de comment récupérer vos Bitcoins, vos Ethereum ou vos autres actifs numériques. Sympa l'héritage ! C'est exactement le problème que Deadhand vient résoudre avec une approche plutôt bien pensée : le partage de secret de Shamir (Shamir's Secret Sharing pour les intimes). En gros, au lieu de refiler votre seed phrase à quelqu'un en lui faisant confiance les yeux fermés, l'outil la découpe en 3 morceaux qu'il éparpille int",
-      "url": "https://korben.info/deadhand-testament-numerique-crypto-shamir.html",
-      "source": "Korben",
-      "author": "Korben",
-      "published": "2026-01-26T23:10:11+01:00",
-      "niche": "security",
-      "score": 52,
-      "keywords": [
-        "RCE"
-      ]
-    },
-    {
       "id": "41d2bb61ad7b72c6",
       "title": "Alexandrie - L'app de notes qui garde vos données chez vous",
       "description": "Si vous en avez marre de confier vos notes perso à Notion ou Evernote et que vous voulez reprendre le contrôle de vos données, Alexandrie va vous plaire ! C'est une app open source française qui permet de prendre des notes en Markdown au travers d'une interface plutôt moderne, tout en gardant vos données là où vous voulez qu'elles soient : Chez vous. Alexandrie, c'est avant tout un éditeur Markdown amélioré qui vous permet d'organiser vos notes par workspaces, catégories et tags. L'interface est",
@@ -3187,23 +3248,6 @@
       "score": 52,
       "keywords": [
         "RCE"
-      ]
-    },
-    {
-      "id": "7b53bfc50b70ca47",
-      "title": "Beauty in Destruction: Exploring Malware's Impact Through Art",
-      "description": "Artistic initiatives turn cybersecurity into immersive exhibits at the Museum of Malware Art, transforming digital threats into thought-provoking experiences.",
-      "url": "https://www.darkreading.com/vulnerabilities-threats/beauty-in-destruction-exploring-malware-impact-through-art",
-      "source": "Dark Reading",
-      "author": "Andrada Fiscutean",
-      "published": "2026-01-26T23:08:57+00:00",
-      "niche": "security",
-      "score": 52,
-      "keywords": [
-        "cybersecurity",
-        "threat",
-        "security",
-        "malware"
       ]
     },
     {
@@ -3459,35 +3503,17 @@
       ]
     },
     {
-      "id": "4de2eed8472a5142",
-      "title": "Russian hackers accused of attack on Poland electricity grid",
-      "description": "On Dec. 29 and 30, the Polish electricity grid was subjected to a cyberattack that nearly knocked out power to hundreds of thousands of households. Security firm ESET has since conducted a closer examination of the attack and concluded that it was carried out by Sandworm, a group of hackers with strong ties to the Russian military intelligence service GRU. The attack used Dynowiper, a powerful malware that deletes all data on vulnerable computers. Sandworm is said to have carried out a long seri",
-      "url": "https://www.csoonline.com/article/4122256/russian-hackers-accused-of-attack-on-polands-power-grid.html",
-      "source": "CSO Online",
-      "author": "Inconnu",
-      "published": "2026-01-26T19:51:46+00:00",
+      "id": "e6a58cabae38947b",
+      "title": "Panera Bread breach affected 5.1 Million accounts, HIBP Confirms",
+      "description": "Have I Been Pwned says Panera Bread ’s breach affected 5.1 million accounts, far fewer than the 14 million customers first reported. Have I Been Pwned followed claims by the ShinyHunters gang, which said it stole data from over 14 million Panera Bread accounts. After Panera refused to pay, the group leaked a 760MB archive [&#8230;]",
+      "url": "https://securityaffairs.com/187556/data-breach/panera-bread-breach-affected-5-1-million-accounts-hibp-confirms.html",
+      "source": "Security Affairs",
+      "author": "Pierluigi Paganini",
+      "published": "2026-02-02T20:42:20+00:00",
       "niche": "security",
-      "score": 51,
+      "score": 52,
       "keywords": [
-        "attack",
-        "malware",
-        "security"
-      ]
-    },
-    {
-      "id": "e3ac785a7662633e",
-      "title": "Unplugged holes in the npm and yarn package managers could let attackers bypass defenses against Shai-Hulud",
-      "description": "Javascript developers should consider moving away from the npm and yarn platforms for distributing their work because newly-found holes allow threat actors to run malicious worm attacks like Shai-Hulud, says an Israeli researcher. The warning comes from Oren Yomtov of Koi Security, who blogged Monday of discovering six zero day vulnerabilities in several package managers that could allow hackers bypass defenses that had been recommended last November after Shai-Hulud roamed through npm and compr",
-      "url": "https://www.csoonline.com/article/4122436/unplugged-holes-in-the-npm-and-yarn-package-managers-could-let-attackers-bypass-defenses-against-shai-hulud-2.html",
-      "source": "CSO Online",
-      "author": "Inconnu",
-      "published": "2026-01-27T01:49:13+00:00",
-      "niche": "security",
-      "score": 51,
-      "keywords": [
-        "attack",
-        "security",
-        "threat"
+        "breach"
       ]
     },
     {
@@ -3547,46 +3573,6 @@
       "keywords": [
         "security",
         "cybersecurity"
-      ]
-    },
-    {
-      "id": "2d8b69aeb025741e",
-      "title": "Who Operates the Badbox 2.0 Botnet?",
-      "description": "The cybercriminals in control of Kimwolf -- a disruptive botnet that has infected more than 2 million devices -- recently shared a screenshot indicating they'd compromised the control panel for Badbox 2.0, a vast China-based botnet powered by malicious software that comes pre-installed on many Android TV streaming boxes. Both the FBI and Google say they are hunting for the people behind Badbox 2.0, and thanks to bragging by the Kimwolf botmasters we may now have a much clearer idea about that.",
-      "url": "https://krebsonsecurity.com/2026/01/who-operates-the-badbox-2-0-botnet/",
-      "source": "Krebs on Security",
-      "author": "BrianKrebs",
-      "published": "2026-01-26T16:11:38+00:00",
-      "niche": "security",
-      "score": 50,
-      "keywords": []
-    },
-    {
-      "id": "61b13eb219568aed",
-      "title": "DPRK's Konni Targets Blockchain Developers With AI-Generated Backdoor",
-      "description": "The North Korean threat group is using a new PowerShell backdoor to compromise development environments and target cryptocurrency holdings, according to researchers.",
-      "url": "https://www.darkreading.com/cyberattacks-data-breaches/dprks-konni-targets-blockchain-developers-ai-generated-backdoor",
-      "source": "Dark Reading",
-      "author": "Elizabeth Montalbano, Contributing Writer",
-      "published": "2026-01-26T15:47:40+00:00",
-      "niche": "security",
-      "score": 50,
-      "keywords": [
-        "threat"
-      ]
-    },
-    {
-      "id": "1c728323e48f399b",
-      "title": "Sandworm Blamed for Wiper Attack on Poland Power Grid",
-      "description": "Researchers attributed the failed attempt to the infamous Russian APT Sandworm, which is notorious for wiper attacks on critical infrastructure organizations.",
-      "url": "https://www.darkreading.com/threat-intelligence/sandworm-wiper-attack-poland-power-grid",
-      "source": "Dark Reading",
-      "author": "Alexander Culafi",
-      "published": "2026-01-26T21:30:14+00:00",
-      "niche": "security",
-      "score": 50,
-      "keywords": [
-        "attack"
       ]
     },
     {
@@ -3784,10 +3770,10 @@
       "score": 49,
       "keywords": [
         "threat",
-        "exploit",
         "vulnerability",
         "security advisory",
-        "security"
+        "security",
+        "exploit"
       ]
     },
     {
@@ -3911,6 +3897,20 @@
       ]
     },
     {
+      "id": "042592638b25109f",
+      "title": "Please Don’t Feed the Scattered Lapsus ShinyHunters",
+      "description": "A prolific data ransom gang that calls itself Scattered Lapsus ShinyHunters (SLSH) has a distinctive playbook when it seeks to extort payment from victim firms: Harassing, threatening and even swatting executives and their families, all while notifying journalists and regulators… Read More &#187;",
+      "url": "https://krebsonsecurity.com/2026/02/please-dont-feed-the-scattered-lapsus-shiny-hunters/",
+      "source": "Krebs on Security",
+      "author": "BrianKrebs",
+      "published": "2026-02-02T16:15:16+00:00",
+      "niche": "security",
+      "score": 48,
+      "keywords": [
+        "threat"
+      ]
+    },
+    {
       "id": "29d8956e097dd1f4",
       "title": "A 0-click exploit chain for the Pixel 9 Part 3: Where do we go from here?",
       "description": "While our previous two blog posts provided technical recommendations for increasing the effort required by attackers to develop 0-click exploit chains, our experience finding, reporting and exploiting these vulnerabilities highlighted some broader issues in the Android ecosystem. This post describes the problems we encountered and recommendations for improvement. Audio Attack Surface The Dolby UDC is part of the 0-click attack surface of most Android devices because of audio transcription in the",
@@ -3969,18 +3969,6 @@
         "threat",
         "exploit"
       ]
-    },
-    {
-      "id": "d81b306182b84486",
-      "title": "Initial Stages of Romance Scams &#x5b;Guest Diary&#x5d;, (Tue, Jan 27th)",
-      "description": "&#x5b;This is a Guest Diary by Fares Azhari, an ISC intern as part of the SANS.edu BACS program&#x5d;&#xd;",
-      "url": "https://isc.sans.edu/diary/rss/32650",
-      "source": "SANS Internet Storm Center",
-      "author": "Inconnu",
-      "published": "2026-01-27T02:10:52+00:00",
-      "niche": "security",
-      "score": 46,
-      "keywords": []
     },
     {
       "id": "63b207c8853ec90f",
@@ -4213,18 +4201,6 @@
       ]
     },
     {
-      "id": "a18142fa5a229d37",
-      "title": "ISC Stormcast For Tuesday, January 27th, 2026 https://isc.sans.edu/podcastdetail/9782, (Tue, Jan 27th)",
-      "description": "",
-      "url": "https://isc.sans.edu/diary/rss/32658",
-      "source": "SANS Internet Storm Center",
-      "author": "Inconnu",
-      "published": "2026-01-27T02:00:02+00:00",
-      "niche": "security",
-      "score": 44,
-      "keywords": []
-    },
-    {
       "id": "e9cf8e72acb9b030",
       "title": "Schneider Electric Zigbee Products",
       "description": "View CSAF Summary Schneider Electric is aware of multiple vulnerabilities with EmberZNet disclosed by Silicon Labs. Many vendors, including Schneider Electric, use Silicon Labs’ Zigbee processors in their offers. The following have denial of service vulnerabilities: Wiser iTRV, Wiser RTR, Wiser UFH, Wiser Heat Switch, Wiser Boiler Relay, cFMT (Exaact, Elko, Odace, Merten), Wiser Micromodule, Iconic Wiser Connected Smart Dimmer, Iconic Zigbee devices, Wiser Application Modules, Wiser Connected Pu",
@@ -4285,6 +4261,32 @@
       "keywords": []
     },
     {
+      "id": "5449fbad6ea4e649",
+      "title": "Chinese Hackers Hijack Notepad++ Updates for 6 Months",
+      "description": "State-sponsored threat actors compromised the popular code editor's hosting provider to redirect targeted users to malicious downloads.",
+      "url": "https://www.darkreading.com/application-security/chinese-hackers-hijack-notepad-updates-6-months",
+      "source": "Dark Reading",
+      "author": "Jai Vijayan, Contributing Writer",
+      "published": "2026-02-02T19:57:02+00:00",
+      "niche": "security",
+      "score": 44,
+      "keywords": [
+        "threat"
+      ]
+    },
+    {
+      "id": "f4c5d999ae7ec90e",
+      "title": "ISC Stormcast For Tuesday, February 3rd, 2026 https://isc.sans.edu/podcastdetail/9792, (Tue, Feb 3rd)",
+      "description": "",
+      "url": "https://isc.sans.edu/diary/rss/32676",
+      "source": "SANS Internet Storm Center",
+      "author": "Inconnu",
+      "published": "2026-02-03T02:00:02+00:00",
+      "niche": "security",
+      "score": 44,
+      "keywords": []
+    },
+    {
       "id": "151fbc8f9113a4e2",
       "title": "Thinking Outside The Box [dusted off draft from 2017]",
       "description": "Preface Hello from the future! This is a blogpost I originally drafted in early 2017. I wrote what I intended to be the first half of this post (about escaping from the VM to the VirtualBox host userspace process with CVE-2017-3558), but I never got around to writing the second half (going from the VirtualBox host userspace process to the host kernel), and eventually sorta forgot about this old post draft… But it seems a bit sad to just leave this old draft rotting around forever, so I decided t",
@@ -4323,22 +4325,8 @@
       "niche": "security",
       "score": 44,
       "keywords": [
-        "CVE-",
-        "security"
-      ]
-    },
-    {
-      "id": "7a7ceb8d0e3539f0",
-      "title": "Digitale Integrität: Warum Firewall und IDS nicht reichen",
-      "description": "srcset=\"https://b2b-contenthub.com/wp-content/uploads/2026/01/shutterstock_2727061735.jpg?quality=50&strip=all 800w, https://b2b-contenthub.com/wp-content/uploads/2026/01/shutterstock_2727061735.jpg?resize=300%2C168&quality=50&strip=all 300w, https://b2b-contenthub.com/wp-content/uploads/2026/01/shutterstock_2727061735.jpg?resize=768%2C432&quality=50&strip=all 768w, https://b2b-contenthub.com/wp-content/uploads/2026/01/shutterstock_2727061735.jpg?resize=150%2C84&quality=50&strip=all 150w, https:",
-      "url": "https://www.csoonline.com/article/4121937/digitale-integritat-warum-firewall-und-ids-nicht-reichen.html",
-      "source": "CSO Online",
-      "author": "Inconnu",
-      "published": "2026-01-26T16:38:35+00:00",
-      "niche": "security",
-      "score": 43,
-      "keywords": [
-        "firewall"
+        "security",
+        "CVE-"
       ]
     },
     {
@@ -4394,59 +4382,11 @@
       "niche": "security",
       "score": 43,
       "keywords": [
-        "secure",
         "OWASP",
+        "security",
         "RCE",
-        "security"
+        "secure"
       ]
-    },
-    {
-      "id": "43934bf32278f7be",
-      "title": "Anker Prime 250W : le chargeur qui transforme votre bureau en centre de contrôle de la NASA",
-      "description": "– Article invité, rédigé par Vincent Lautier, contient des liens affiliés Amazon – Bon, vous commencez à me connaître, j'ai une passion presque maladive pour les câbles, les batteries et tout ce qui permet de nourrir mes trucs de geek maladif. J’ai acheté il y a quelques semaines ce bloc chargeur de chez Anker équipé d’un grand écran, et franchement, je l’adore. Il trône sur mon bureau, sous mon écran, et je charge absolument tout avec lui. Il fournit 250W en GaN, et autant vous dire qu’avec ce ",
-      "url": "https://korben.info/anker-prime-250w-le-chargeur-qui-transforme-votre-bureau-en-centre-de-controle-de-la-nasa.html",
-      "source": "Korben",
-      "author": "Korben",
-      "published": "2026-01-26T19:01:37+01:00",
-      "niche": "security",
-      "score": 42,
-      "keywords": []
-    },
-    {
-      "id": "15b7c1922a984291",
-      "title": "Ce mec a conçu sa propre carte mère 486 from scratch",
-      "description": "Non mais attendez... y'a un mec qui vient de concevoir une carte mère 486 from scratch , en grand 2026 comme disent les jeunes ! Pas une repro. Pas un clone. Non non, une vraie carte mère complète avec son propre chipset custom qui fait tourner DOOM et Linux. Un PCB 4 couches fait maison, rien que ça !! Piotr Grzesik, alias maniek86, est un étudiant en électronique polonais qui s'est lancé dans un projet complètement dingue. Tout est parti d'une sombre arnaque sur une carte POST ISA chinoise... ",
-      "url": "https://korben.info/homebrew-486-motherboard-carte-mere.html",
-      "source": "Korben",
-      "author": "Korben",
-      "published": "2026-01-26T18:23:36+01:00",
-      "niche": "security",
-      "score": 42,
-      "keywords": []
-    },
-    {
-      "id": "87c20ac06f98d94a",
-      "title": "Les Heures Claires - Un magazine fabriqué à 99% avec l'IA",
-      "description": "Vous vous êtes déjà demandé à quoi ressemblerait un magazine fabriqué quasi entièrement par des IA ? Hé bien ne cherchez plus et allez lire Les Heures Claires ! Il s'agit d'un mensuel d'environ 90 pages où 99% du contenu, des articles aux illustrations, est généré avec l'aide d'outils comme Midjourney, DALL-E 3 ou ChatGPT. \"Avec l'aide\" ça veut dire qu'il y a quand même des humains derrière, hein... Le projet est né de l'imagination de Rémi Rostan, un photographe Google Street View certifié et l",
-      "url": "https://korben.info/les-heures-claires-magazine-ia.html",
-      "source": "Korben",
-      "author": "Korben",
-      "published": "2026-01-26T17:26:00+01:00",
-      "niche": "security",
-      "score": 42,
-      "keywords": []
-    },
-    {
-      "id": "75533f2707794446",
-      "title": "Font Generator - 170 polices stylées pour votre bio Instagram",
-      "description": "Si vous avez envie de pimper votre bio Instagram, votre pseudo Discord ou vos posts TikTok avec des caractères stylisés qui sortent de l'ordinaire, Font Generator va vous plaire ! C'est un outil gratuit en ligne qui convertit votre texte en 170+ styles différents basés sur Unicode, histoire de vous démarquer un peu dans la jungle des réseaux sociaux. Vous tapez votre texte dans la case, et hop, l'outil vous génère instantanément des dizaines de variantes : polices Script Bold Italic, Fraktur (st",
-      "url": "https://korben.info/fontgenerator-design-polices-unicode.html",
-      "source": "Korben",
-      "author": "Korben",
-      "published": "2026-01-27T00:13:27+01:00",
-      "niche": "security",
-      "score": 42,
-      "keywords": []
     },
     {
       "id": "1dc97b118d2dc6e6",
@@ -4935,22 +4875,6 @@
       "keywords": []
     },
     {
-      "id": "de39f9e791a6a5b6",
-      "title": "GSoC 2025 Recap",
-      "description": "OWASP at Google Summer of Code 2025 Celebrating real impact, strong mentorship, and a growing community The Google Summer of Code (GSoC) 2025 program has wrapped, and OWASP’s participation once again delivered meaningful improvements across the open-source security ecosystem. This year, 15 contributors worked across multiple OWASP projects, supported by 26 mentors. Of the 15 projects evaluated, 10 reached successful completion, three are still working on the final deliveries with extended deadli",
-      "url": "http://owasp.org/blog/2025/10/01/GSoCRecap.html",
-      "source": "OWASP News",
-      "author": "Fabio Cerullo & Starr Brown",
-      "published": "2025-10-01T07:00:00+00:00",
-      "niche": "security",
-      "score": 42,
-      "keywords": [
-        "OWASP",
-        "RCE",
-        "security"
-      ]
-    },
-    {
       "id": "d8dfb83c20f59a69",
       "title": "Économie de la donnée : la CNIL publie son programme de travail pour 2026-2028",
       "description": "Le nouveau programme de travail 2026-2028 de la mission d’analyse économique de la CNIL a deux objectifs&nbsp;: approfondir la compréhension des modèles d’affaires liés aux données personnelles et mieux mesurer l’impact économique des décisions de la CNIL.",
@@ -4973,6 +4897,22 @@
       "niche": "security",
       "score": 42,
       "keywords": []
+    },
+    {
+      "id": "de39f9e791a6a5b6",
+      "title": "GSoC 2025 Recap",
+      "description": "OWASP at Google Summer of Code 2025 Celebrating real impact, strong mentorship, and a growing community The Google Summer of Code (GSoC) 2025 program has wrapped, and OWASP’s participation once again delivered meaningful improvements across the open-source security ecosystem. This year, 15 contributors worked across multiple OWASP projects, supported by 26 mentors. Of the 15 projects evaluated, 10 reached successful completion, three are still working on the final deliveries with extended deadli",
+      "url": "http://owasp.org/blog/2025/10/01/GSoCRecap.html",
+      "source": "OWASP News",
+      "author": "Fabio Cerullo & Starr Brown",
+      "published": "2025-10-01T07:00:00+00:00",
+      "niche": "security",
+      "score": 42,
+      "keywords": [
+        "OWASP",
+        "security",
+        "RCE"
+      ]
     },
     {
       "id": "705d0e93796a64fb",
@@ -4998,54 +4938,6 @@
       "published": "2026-01-30T22:14:31+00:00",
       "niche": "security",
       "score": 40,
-      "keywords": []
-    },
-    {
-      "id": "86cf97969ef9971d",
-      "title": "Un fichier de 6 milliards d’identifiants refait surface",
-      "description": "Un fichier de 43,9 Go révèle plus de 6 milliards d’identifiants, confirmant l’ampleur durable des fuites et de la réutilisation des mots de passe....",
-      "url": "https://www.zataz.com/un-fichier-de-6-milliards-didentifiants-refait-surface/",
-      "source": "Zataz",
-      "author": "Damien Bancal",
-      "published": "2026-01-26T17:58:48+00:00",
-      "niche": "security",
-      "score": 39,
-      "keywords": []
-    },
-    {
-      "id": "95ea6a3e455e0307",
-      "title": "Clop publie de nouvelles victimes, WorldLeaks expose Nike",
-      "description": "Clop revendique de nouvelles victimes tandis que WorldLeaks diffuse une archive massive de documents internes attribués à Nike....",
-      "url": "https://www.zataz.com/clop-publie-de-nouvelles-victimes-worldleaks-expose-nike/",
-      "source": "Zataz",
-      "author": "Damien Bancal",
-      "published": "2026-01-26T17:14:19+00:00",
-      "niche": "security",
-      "score": 39,
-      "keywords": []
-    },
-    {
-      "id": "aaf6a1334e245046",
-      "title": "ZTNA, le contrôle d’accès réseau à l’ère de la défiance numérique",
-      "description": "ZTNA, un modèle Zero Trust pour sécuriser les accès réseau face aux identifiants volés et aux cybermenaces modernes....",
-      "url": "https://www.zataz.com/ztna-le-controle-dacces-reseau-a-lere-de-la-defiance-numerique/",
-      "source": "Zataz",
-      "author": "Damien Bancal",
-      "published": "2026-01-26T16:38:50+00:00",
-      "niche": "security",
-      "score": 39,
-      "keywords": []
-    },
-    {
-      "id": "17fd9ed567aa5917",
-      "title": "Une page web saine qui devient malveillante grâce à l’IA",
-      "description": "Une nouvelle attaque web utilise les LLM pour générer du JavaScript malveillant en temps réel, directement dans le navigateur. ZATAZ vous propose une démonstration....",
-      "url": "https://www.zataz.com/une-page-web-saine-qui-devient-malveillante-grace-a-lia/",
-      "source": "Zataz",
-      "author": "Damien Bancal",
-      "published": "2026-01-26T16:23:59+00:00",
-      "niche": "security",
-      "score": 39,
       "keywords": []
     },
     {
@@ -5388,9 +5280,9 @@
       "niche": "security",
       "score": 37,
       "keywords": [
-        "patch",
-        "attack",
         "security",
+        "attack",
+        "patch",
         "exploit"
       ]
     },
@@ -5405,8 +5297,8 @@
       "niche": "security",
       "score": 37,
       "keywords": [
-        "protection",
-        "security"
+        "security",
+        "protection"
       ]
     },
     {
@@ -5420,10 +5312,10 @@
       "niche": "security",
       "score": 37,
       "keywords": [
-        "web application security",
         "OWASP",
+        "security",
         "threat",
-        "security"
+        "web application security"
       ]
     },
     {
@@ -5438,9 +5330,9 @@
       "score": 34,
       "keywords": [
         "OWASP",
-        "threat",
         "security",
-        "cybersecurity"
+        "cybersecurity",
+        "threat"
       ]
     },
     {
@@ -5456,6 +5348,18 @@
       "keywords": []
     },
     {
+      "id": "918e04170ab51869",
+      "title": "2026-02-02: KongTuke ClickFix activity leads to Async RAT",
+      "description": "",
+      "url": "https://www.malware-traffic-analysis.net/2026/02/02/index.html",
+      "source": "Malware Traffic Analysis",
+      "author": "Inconnu",
+      "published": "2026-02-02T19:51:00+00:00",
+      "niche": "security",
+      "score": 32,
+      "keywords": []
+    },
+    {
       "id": "4e2434df6328df0f",
       "title": "OWASP Certified Secure Software Developer",
       "description": "To develop applications we need code. To write code we need developers. And to develop secure applications, developers need to write code that does not result in or have vulnerabilities. OWASP is about application security - be it web application, mobile application, applications developed with low-code-no-code, infrastructure-as-code, etc. OWASP is currently working on a new initiative to create a certification program for developers. It is named OWASP Certified Secure-Software Developer - OCSD",
@@ -5466,24 +5370,9 @@
       "niche": "security",
       "score": 31,
       "keywords": [
-        "secure",
         "OWASP",
-        "security"
-      ]
-    },
-    {
-      "id": "ec0fc13b2d59bbf0",
-      "title": "SMS Phishers Pivot to Points, Taxes, Fake Retailers",
-      "description": "China-based phishing groups blamed for non-stop scam SMS messages about a supposed wayward package or unpaid toll fee are promoting a new offering, just in time for the holiday shopping season: Phishing kits for mass-creating fake but convincing e-commerce websites that convert customer payment card data into mobile wallets from Apple and Google. Experts say these same phishing groups also are now using SMS lures that promise unclaimed tax refunds and mobile rewards points.",
-      "url": "https://krebsonsecurity.com/2025/12/sms-phishers-pivot-to-points-taxes-fake-retailers/",
-      "source": "Krebs on Security",
-      "author": "BrianKrebs",
-      "published": "2025-12-04T23:02:34+00:00",
-      "niche": "security",
-      "score": 30,
-      "keywords": [
-        "phishing",
-        "RCE"
+        "security",
+        "secure"
       ]
     },
     {
@@ -5497,10 +5386,10 @@
       "niche": "security",
       "score": 29,
       "keywords": [
-        "attack",
-        "breach",
+        "security",
         "cybersecurity",
-        "security"
+        "attack",
+        "breach"
       ]
     },
     {
@@ -5557,8 +5446,8 @@
       "niche": "security",
       "score": 26,
       "keywords": [
-        "SQL injection",
-        "injection"
+        "injection",
+        "SQL injection"
       ]
     },
     {
@@ -5698,8 +5587,8 @@
       "niche": "security",
       "score": 24,
       "keywords": [
-        "SQL injection",
-        "injection"
+        "injection",
+        "SQL injection"
       ]
     },
     {
@@ -5713,8 +5602,8 @@
       "niche": "security",
       "score": 24,
       "keywords": [
-        "SQL injection",
-        "injection"
+        "injection",
+        "SQL injection"
       ]
     },
     {
@@ -5728,9 +5617,9 @@
       "niche": "security",
       "score": 22,
       "keywords": [
-        "threat",
         "security",
-        "cybersecurity"
+        "cybersecurity",
+        "threat"
       ]
     },
     {
@@ -5744,8 +5633,23 @@
       "niche": "security",
       "score": 21,
       "keywords": [
-        "attack",
-        "threat"
+        "threat",
+        "attack"
+      ]
+    },
+    {
+      "id": "5790d66212fa2ed7",
+      "title": "Out-of-the-Box Expectations for 2026 Reveal a Grab Bag of Risk",
+      "description": "Security teams need to be thinking about this list of emerging cybersecurity realities to avoid rolling the dice on enterprise security risks (and opportunities).",
+      "url": "https://www.darkreading.com/threat-intelligence/cyber-expectations-2026-grab-bag-risk",
+      "source": "Dark Reading",
+      "author": "Tara Seals",
+      "published": "2026-01-30T21:14:32+00:00",
+      "niche": "security",
+      "score": 21,
+      "keywords": [
+        "security",
+        "cybersecurity"
       ]
     },
     {
@@ -5759,9 +5663,9 @@
       "niche": "security",
       "score": 21,
       "keywords": [
+        "security",
         "attack",
-        "threat",
-        "security"
+        "threat"
       ]
     },
     {
@@ -5789,8 +5693,8 @@
       "niche": "security",
       "score": 19,
       "keywords": [
-        "cybersecurity",
         "security",
+        "cybersecurity",
         "PoC"
       ]
     },
@@ -5833,8 +5737,8 @@
       "niche": "security",
       "score": 18,
       "keywords": [
-        "attack",
-        "security"
+        "security",
+        "attack"
       ]
     },
     {
@@ -5880,6 +5784,18 @@
       ]
     },
     {
+      "id": "2d8b69aeb025741e",
+      "title": "Who Operates the Badbox 2.0 Botnet?",
+      "description": "The cybercriminals in control of Kimwolf -- a disruptive botnet that has infected more than 2 million devices -- recently shared a screenshot indicating they'd compromised the control panel for Badbox 2.0, a vast China-based botnet powered by malicious software that comes pre-installed on many Android TV streaming boxes. Both the FBI and Google say they are hunting for the people behind Badbox 2.0, and thanks to bragging by the Kimwolf botmasters we may now have a much clearer idea about that.",
+      "url": "https://krebsonsecurity.com/2026/01/who-operates-the-badbox-2-0-botnet/",
+      "source": "Krebs on Security",
+      "author": "BrianKrebs",
+      "published": "2026-01-26T16:11:38+00:00",
+      "niche": "security",
+      "score": 14,
+      "keywords": []
+    },
+    {
       "id": "54afe10a48c240e5",
       "title": "Who Benefited from the Aisuru and Kimwolf Botnets?",
       "description": "Our first story of 2026 revealed how a destructive new botnet called Kimwolf rapidly grew to infect more than two million devices by mass-compromising a vast number of unofficial Android TV streaming boxes. Today, we'll dig through digital clues left behind by the hackers, network operators, and cybercrime services that appear to have benefitted from Kimwolf's spread.",
@@ -5887,18 +5803,6 @@
       "source": "Krebs on Security",
       "author": "BrianKrebs",
       "published": "2026-01-08T23:23:43+00:00",
-      "niche": "security",
-      "score": 14,
-      "keywords": []
-    },
-    {
-      "id": "87dbc9b73ce290e7",
-      "title": "Drones to Diplomas: How Russia’s Largest Private University is Linked to a $25M Essay Mill",
-      "description": "A sprawling academic cheating network turbocharged by Google Ads that has generated nearly $25 million in revenue has curious connections to a Kremlin-connected oligarch whose Russian university builds drones for Russia's war against Ukraine.",
-      "url": "https://krebsonsecurity.com/2025/12/drones-to-diplomas-how-russias-largest-private-university-is-linked-to-a-25m-essay-mill/",
-      "source": "Krebs on Security",
-      "author": "BrianKrebs",
-      "published": "2025-12-06T14:45:03+00:00",
       "niche": "security",
       "score": 14,
       "keywords": []
@@ -6082,6 +5986,18 @@
       ]
     },
     {
+      "id": "d81b306182b84486",
+      "title": "Initial Stages of Romance Scams &#x5b;Guest Diary&#x5d;, (Tue, Jan 27th)",
+      "description": "&#x5b;This is a Guest Diary by Fares Azhari, an ISC intern as part of the SANS.edu BACS program&#x5d;&#xd;",
+      "url": "https://isc.sans.edu/diary/rss/32650",
+      "source": "SANS Internet Storm Center",
+      "author": "Inconnu",
+      "published": "2026-01-27T02:10:52+00:00",
+      "niche": "security",
+      "score": 10,
+      "keywords": []
+    },
+    {
       "id": "c9fd401b37338f54",
       "title": "Burp On Tour 2025: bringing the AppSec community together around the world",
       "description": "In 2025, we set out with a simple mission: take Burp Suite on the road and meet the global AppSec community where you are. Burp On Tour was born from our desire to learn from you; the brilliant people",
@@ -6120,13 +6036,13 @@
       ]
     },
     {
-      "id": "f56f91387e785904",
-      "title": "ISC Stormcast For Monday, January 26th, 2026 https://isc.sans.edu/podcastdetail/9780, (Mon, Jan 26th)",
+      "id": "a18142fa5a229d37",
+      "title": "ISC Stormcast For Tuesday, January 27th, 2026 https://isc.sans.edu/podcastdetail/9782, (Tue, Jan 27th)",
       "description": "",
-      "url": "https://isc.sans.edu/diary/rss/32656",
+      "url": "https://isc.sans.edu/diary/rss/32658",
       "source": "SANS Internet Storm Center",
       "author": "Inconnu",
-      "published": "2026-01-26T02:00:04+00:00",
+      "published": "2026-01-27T02:00:02+00:00",
       "niche": "security",
       "score": 8,
       "keywords": []
@@ -6175,18 +6091,6 @@
       "source": "Malware Traffic Analysis",
       "author": "Inconnu",
       "published": "2026-01-20T03:27:00+00:00",
-      "niche": "security",
-      "score": 7,
-      "keywords": []
-    },
-    {
-      "id": "d24496b0e77d53b8",
-      "title": "2026-01-15: XLoader (Formbook) infection",
-      "description": "",
-      "url": "https://www.malware-traffic-analysis.net/2026/01/15/index.html",
-      "source": "Malware Traffic Analysis",
-      "author": "Inconnu",
-      "published": "2026-01-20T03:26:00+00:00",
       "niche": "security",
       "score": 7,
       "keywords": []
